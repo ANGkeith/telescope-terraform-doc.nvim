@@ -12,7 +12,7 @@ function M.get_provider_versions_id(full_name)
   local name = tmp[2]
   local resp = vim.fn.json_decode(curl.request({
     -- https://registry.terraform.io/v2/providers?filter[namespace]=hashicorp&filter[name]=aws
-    url = base_url .. "/v2/providers?filter[namespace]=" .. namespace .. "&filter[name]=" .. name,
+    url = base_url .. "/v2/providers?filter\\[namespace\\]=" .. namespace .. "&filter\\[name\\]=" .. name,
     method = "get",
     accept = "application/json",
   }).body)
@@ -101,7 +101,7 @@ end
 function M.get_official_providers()
   local official_providers = vim.fn.json_decode(curl.request({
     -- https://registry.terraform.io/v2/providers?filter[tier]=official&page[size]=100
-    url = base_url .. "/v2/providers?filter[tier]=official&page[size]=100",
+    url = base_url .. "/v2/providers?filter\\[tier\\]=official&page\\[size\\]=100",
     method = "get",
     accept = "application/json",
   }).body).data
