@@ -15,7 +15,7 @@ Plug 'ANGkeith/telescope-terraform-doc.nvim'
 ## Setup
 Add the following to your `init.vim`:
 ``` lua
-require('telescope').load_extension('terraform-doc')
+require('telescope').load_extension('terraform_doc')
 ```
 
 ## Usage
