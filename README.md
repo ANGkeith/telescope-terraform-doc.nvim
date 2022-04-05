@@ -1,3 +1,6 @@
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/ANGkeith/telescope-terraform-doc.nvim/main.svg)](https://results.pre-commit.ci/latest/github/ANGkeith/telescope-terraform-doc.nvim/main)
+
 # telescope-terraform-doc.nvim
 
 `telescope-terraform-doc.nvim` is an extension for [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) that provides its users with ability to search and browse terraform providers docs.

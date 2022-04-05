@@ -1,0 +1,20 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.1.0
+  hooks:
+    - id: trailing-whitespace
+    - id: end-of-file-fixer
+    - id: check-yaml
+    - id: check-added-large-files
+    - id: check-merge-conflict
+
+- repo: https://github.com/JohnnyMorganz/StyLua
+  rev: v0.13.0
+  hooks:
+    - id: stylua
+
+ci:
+  autofix_prs: false
+  autoupdate_commit_msg: 'chore(pre-commit): pre-commit autoupdate [skip ci]'
