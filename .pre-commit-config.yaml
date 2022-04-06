@@ -1,0 +1,29 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.1.0
+  hooks:
+    - id: trailing-whitespace
+    - id: end-of-file-fixer
+    - id: check-yaml
+    - id: check-added-large-files
+    - id: check-merge-conflict
+
+- repo: https://github.com/Bahjat/pre-commit-golang
+  rev: a4be1d0f860565649a450a8d480e541844c14a07
+  hooks:
+    - id: go-fmt-import
+    - id: go-lint
+
+- repo: https://github.com/Woile/commitizen
+  rev: v2.23.0
+  hooks:
+  - id: commitizen
+    stages: [commit-msg]
+
+- repo: https://github.com/sirosen/check-jsonschema
+  rev: 0.14.2
+  hooks:
+    - id: check-github-actions
+    - id: check-github-workflows
