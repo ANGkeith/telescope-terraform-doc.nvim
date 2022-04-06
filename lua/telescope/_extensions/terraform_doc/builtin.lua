@@ -5,6 +5,7 @@ local pickers = require("telescope.pickers")
 
 local M_actions = require("telescope._extensions.terraform_doc.actions")
 local M_api = require("telescope._extensions.terraform_doc.api")
+local M_local_api = require("telescope._extensions.terraform_doc.local_api")
 local M_make_entry = require("telescope._extensions.terraform_doc.make_entry")
 local M_opts = require("telescope._extensions.terraform_doc.config").opts
 
@@ -46,6 +47,23 @@ function M.providers(opts)
     }),
     attach_mappings = function(_)
       actions.select_default:replace(M_actions.search_selected_providers(opts))
+      return true
+    end,
+  }):find()
+end
+
+function M.modules(opts)
+  opts = vim.tbl_extend("keep", opts, M_opts)
+
+  pickers.new(opts, {
+    prompt_title = "Terraform Modules",
+    sorter = conf.generic_sorter(opts),
+    finder = finders.new_table({
+      results = M_local_api.get_modules(),
+      entry_maker = M_make_entry.gen_from_modules(opts),
+    }),
+    attach_mappings = function(_)
+      actions.select_default:replace(M_actions.url_opener_module(opts))
       return true
     end,
   }):find()

@@ -10,5 +10,6 @@ return telescope.register_extension({
   setup = setup,
   exports = {
     terraform_doc = terraform_doc.search,
+    modules = terraform_doc.modules,
   },
 })

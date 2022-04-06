@@ -97,7 +97,13 @@ function M.get_docs_url(full_name, version, category, resource_slug)
 end
 
 ---
----Returns the list of offical providers
+---Returns the url to the terraform registry module
+function M.get_docs_url_module(full_name, provider_name)
+  return base_url .. "/modules/" .. full_name .. "/" .. provider_name .. "/latest"
+end
+
+---
+---Returns the list of official providers
 function M.get_official_providers()
   local official_providers = vim.fn.json_decode(curl.request({
     -- https://registry.terraform.io/v2/providers?filter[tier]=official&page[size]=100

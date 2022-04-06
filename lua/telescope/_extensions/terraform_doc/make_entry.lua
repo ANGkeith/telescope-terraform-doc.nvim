@@ -66,4 +66,35 @@ function M.gen_from_providers(opts)
   end
 end
 
+function M.gen_from_modules(opts)
+  opts = opts or {}
+
+  local displayer = entry_display.create({
+    separator = " ",
+    items = {
+      { width = 40 },
+      { width = 10 },
+      { remaining = true },
+    },
+  })
+
+  local make_display = function(entry)
+    return displayer({
+      entry.full_name,
+      entry.provider_name,
+      entry.description,
+    })
+  end
+  return function(entry)
+    local full_name = entry.namespace .. "/" .. entry.name
+    return {
+      ordinal = full_name .. entry.description,
+      full_name = full_name,
+      provider_name = entry.provider_name,
+      description = entry.description,
+      display = make_display,
+    }
+  end
+end
+
 return M
