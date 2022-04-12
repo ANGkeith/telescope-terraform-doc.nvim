@@ -39,9 +39,15 @@ Browse resources from the v3.74.0 `hashicorp/aws` provider:
 :Telescope terraform_doc full_name=hashicorp/aws version=3.74.0
 ```
 
+Browse all terraform modules:
+```vim
+:Telescope terraform_doc modules
+```
+
 ### Keymap ideas
 ```vim
 nnoremap <space>ott :Telescope terraform_doc<cr>
+nnoremap <space>otm :Telescope terraform_doc modules<cr>
 nnoremap <space>ota :Telescope terraform_doc full_name=hashicorp/aws<cr>
 nnoremap <space>otg :Telescope terraform_doc full_name=hashicorp/google<cr>
 nnoremap <space>otk :Telescope terraform_doc full_name=hashicorp/kubernetes<cr>
