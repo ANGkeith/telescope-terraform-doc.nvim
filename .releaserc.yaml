@@ -1,0 +1,13 @@
+---
+branches:
+  - main
+
+# https://semantic-release.gitbook.io/semantic-release/usage/plugins#default-plugins
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - - "@semantic-release/changelog"
+    - changelogFile: "docs/CHANGELOG.md"
+  - - "@semantic-release/git"
+    - assets:
+      - "docs/CHANGELOG.md"

@@ -1,0 +1,48 @@
+name: Semantic Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  semantic-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+      - name: Import GPG key
+        id: import-gpg
+        uses: crazy-max/ghaction-import-gpg@v4
+        with:
+          gpg_private_key: ${{ secrets.GPG_PRIVATE_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          git_user_signingkey: true
+          git_commit_gpgsign: true
+      - name: Set up git config
+        run: |
+          export GIT_AUTHOR_EMAIL="${{ steps.import-gpg.outputs.email }}"
+          export GIT_AUTHOR_NAME="${{ steps.import-gpg.outputs.name }}"
+          export GIT_COMMITTER_EMAIL="${{ steps.import-gpg.outputs.email }}"
+          export GIT_COMMITTER_NAME="${{ steps.import-gpg.outputs.name }}"
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: semantic-release dependencies
+        run: |
+          yarn global add \
+            semantic-release \
+            @semantic-release/changelog \
+            @semantic-release/exec \
+            @semantic-release/git
+
+      - name: Release
+        run: semantic-release
+        env:
+          GIT_AUTHOR_EMAIL: "${{ steps.import-gpg.outputs.email }}"
+          GIT_AUTHOR_NAME: "${{ steps.import-gpg.outputs.name }}"
+          GIT_COMMITTER_EMAIL: "${{ steps.import-gpg.outputs.email }}"
+          GIT_COMMITTER_NAME: "${{ steps.import-gpg.outputs.name }}"
