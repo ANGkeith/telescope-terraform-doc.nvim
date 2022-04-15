@@ -173,6 +173,7 @@ active-directory,clouddrove,10052,aws,https://github.com/clouddrove/terraform-aw
 active-directory-forest,kumarvna,6029,azurerm,https://github.com/kumarvna/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
 activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
 ad,srb3,11111,azure,https://github.com/srb3/terraform-azure-ad,
 ad-application,lacework,6441,azure,https://github.com/lacework/terraform-azure-ad-application,Terraform module that creates an Azure AD application to provide Lacework read-only access to Azure Subscriptions and Tenants
@@ -408,6 +409,7 @@ anirbans3bucket,anirde12,12949,aws,https://github.com/anirde12/terraform-aws-ani
 anoushka007,Anoushka007,11430,aws,https://github.com/Anoushka007/terraform-aws-anoushka007,
 ansible,Aristocrat-B2B,8930,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-ansible,
 ansible,cloudposse,195,null,https://github.com/cloudposse/terraform-null-ansible,Terraform Module to run ansible playbooks
+ansible-inv,mschuchard,13021,local,https://github.com/mschuchard/terraform-local-ansible-inv,Terraform module for dynamically generating a variety of Ansible inventories
 ansible-inventory,Peymanpn,7153,local,https://github.com/Peymanpn/terraform-local-ansible-inventory,Terraform module to create an Ansible Inventory file from a list of server IPs
 ansible-inventory,gendall,3825,local,https://github.com/gendall/terraform-local-ansible-inventory,Terraform module to create an Ansible Inventory file from a list of server IPs
 ansible-playbook,brunordias,5282,null,https://github.com/brunordias/terraform-null-ansible-playbook,Terraform module which run a Ansible Playbook
@@ -1037,6 +1039,7 @@ aws-vpc,Adaptavist,5411,module,https://github.com/Adaptavist/terraform-module-aw
 aws-vpc,Harshrai3112,8943,aws,https://github.com/Harshrai3112/terraform-aws-aws-vpc,
 aws-vpc,alkiranet,11770,alkira,https://github.com/alkiranet/terraform-alkira-aws-vpc,This module makes it easy to provision an AWS VPC and connect it through Alkira
 aws-vpc,mars,1665,heroku,https://github.com/mars/terraform-heroku-aws-vpc,AWS VPC ready for 🍐 Heroku Private Spaces
+aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
 awsinfra,wcollins,9149,aws,https://github.com/wcollins/terraform-aws-awsinfra,Terraform module to build base infrastructure in AWS for testing Alkira
 awx,farrukh90,9248,aws,https://github.com/farrukh90/terraform-aws-awx,Module Location
@@ -1642,6 +1645,7 @@ cloudfront-add-index,Lupus-Metallum,10695,aws,https://github.com/Lupus-Metallum/
 cloudfront-auth,oasys,7976,aws,https://github.com/oasys/terraform-aws-cloudfront-auth,Terraform module to build a website protected by OpenID authentication provider using a private S3 bucket fronted by Cloudfront and Lambda@Edge.
 cloudfront-auth,vainkop,8453,aws,https://github.com/vainkop/terraform-aws-cloudfront-auth,"This module will build a website that is protected by an OpenId compatible authentication provider.  It will provision a private S3 bucket, Cloudfront, and deploy a customized Lambda function using Lambda@Edge"
 cloudfront-auto-invalidator,rhythmictech,5094,aws,https://github.com/rhythmictech/terraform-aws-cloudfront-auto-invalidator,AWS SAM solution to automatically invalidate content in a cloudfront distribution based on S3 update events
+cloudfront-bucket,babbel,13013,aws,https://github.com/babbel/terraform-aws-cloudfront-bucket,Terraform module creating an S3 bucket with a CloudFront distribution in front
 cloudfront-bucket,dod-iac,4648,aws,https://github.com/dod-iac/terraform-aws-cloudfront-bucket,AWS S3 Bucket used to host files served by AWS CloudFront.
 cloudfront-cdn,cloudposse,192,aws,https://github.com/cloudposse/terraform-aws-cloudfront-cdn,Terraform Module that implements a CloudFront Distribution (CDN) for a custom origin. 
 cloudfront-cloudwatch-alarms,vistaprint,626,aws,https://github.com/vistaprint/terraform-aws-cloudfront-cloudwatch-alarms,This Terraform module simplifies creating cloudwatch alarms for a cloudfront distribution.
@@ -3458,6 +3462,7 @@ file-data,Invicton-Labs,12402,local,https://github.com/Invicton-Labs/terraform-l
 file-filter,aledsdavies,8373,util,https://github.com/aledsdavies/terraform-util-file-filter,This is a Terraform module for getting the file paths and adding configurations to files based on the file type. See the examples for use cases
 file-module,raimialiu,11277,archive,https://github.com/raimialiu/terraform-archive-file-module,
 file-resource,Invicton-Labs,12409,local,https://github.com/Invicton-Labs/terraform-local-file-resource,
+file-to-object,1Mill,13012,local,https://github.com/1Mill/terraform-local-file-to-object,
 filestore,bootlabstech,12648,google,https://github.com/bootlabstech/terraform-google-filestore,module for GCP filestore.
 filestore,rojopolis,1561,google,https://github.com/rojopolis/terraform-google-filestore,A module to manage Google Cloud Filestore deployments until an official resource type is added to TF proper.
 filter,netascode,9771,aci,https://github.com/netascode/terraform-aci-filter,Terraform Cisco ACI Filter Module
@@ -4119,7 +4124,6 @@ instance,DTherHtun,4271,multicloud,https://github.com/DTherHtun/terraform-multic
 instance,Gheorghe-Rodideal,6814,rds,https://github.com/Gheorghe-Rodideal/terraform-rds-instance,
 instance,JamesWoolfenden,12485,gcp,https://github.com/JamesWoolfenden/terraform-gcp-instance,A simple instance
 instance,JamesWoolfenden,7336,linode,https://github.com/JamesWoolfenden/terraform-linode-instance,First module for use with Linode
-instance,Kelleyc718,1921,OCI,https://github.com/Kelleyc718/terraform-OCI-instance,Terraform Instance Module for Oracle Cloud Infrastructure
 instance,Kelleyc718,2032,oci,https://github.com/Kelleyc718/terraform-oci-instance,Terraform Instance Module for Oracle Cloud Infrastructure
 instance,MissionCriticalCloud,8166,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-instance,Terraform module to create and manage a Cosmic instance.
 instance,OlgaDevOps,6069,aws,https://github.com/OlgaDevOps/terraform-aws-instance,
@@ -5128,6 +5132,7 @@ microservice,Flaconi,2729,aws,https://github.com/Flaconi/terraform-aws-microserv
 microservice,TeliaDK,4819,aws,https://github.com/TeliaDK/terraform-aws-microservice,Terraform module for ECS microservices
 microservice,truemark,7316,aws,https://github.com/truemark/terraform-aws-microservice,Terraform module to standup an independent microservice in ECS Fargate
 microservices,Matthewsre,7274,azurerm,https://github.com/Matthewsre/terraform-azurerm-microservices,
+microservices-bumper,terraform-gitlab-modules,13018,gitlab,https://github.com/terraform-gitlab-modules/terraform-gitlab-microservices-bumper,Terraform module which creates Gitlab branches and tags in microservices repositories.
 microsoftad,neillturner,2414,aws,https://github.com/neillturner/terraform-aws-microsoftad,Create a  Microsoft Active Directory AWS Directory Service
 migadu,andresmazzo,7549,linode,https://github.com/andresmazzo/terraform-linode-migadu,
 migrationtest,cgriggs01,2067,null,https://github.com/cgriggs01/terraform-null-migrationtest,Terraform Registry Migration Test
@@ -5286,6 +5291,7 @@ multi-region,Peter-Gess,3415,aws,https://github.com/Peter-Gess/terraform-aws-mul
 multi-stack-backends,schollii,8199,aws,https://github.com/schollii/terraform-aws-multi-stack-backends,"Manage terraform state backends for multiple stacks. Generates backend file for each stack managed. Stacks can consist of multiple tfstate files, and state lock is at stack level for optimum protection of stack state. "
 multi-tenant-peering,farroar,4733,azurerm,https://github.com/farroar/terraform-azurerm-multi-tenant-peering,
 multi-zone-infrastructure-with-ots,terraform-alicloud-modules,4266,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-multi-zone-infrastructure-with-ots,"Building a multi-zone infrastructure which including ECS, SLB, RDS and OTS on Alibaba Cloud."
+multiaccount-application-pipeline,StratusGrid,13015,aws,https://github.com/StratusGrid/terraform-aws-multiaccount-application-pipeline,This terraform module creates a multi-account Fargate application deployment pipeline.
 multiaccount-pipeline,StratusGrid,10212,aws,https://github.com/StratusGrid/terraform-aws-multiaccount-pipeline,Terraform module to create a CICD pipeline for planning and applying terraform in a multi-account scenario.
 multiarch-k8s,equinix,7406,metal,https://github.com/equinix/terraform-metal-multiarch-k8s,ARM and x86 Kubernetes Clusters and Node Pool management for Equinix Metal
 multiarch-kubernetes,jmarhee,5452,packet,https://github.com/jmarhee/terraform-packet-multiarch-kubernetes,ARM and x86 Kubernetes Clusters and Node Pool management for Packet
@@ -5936,6 +5942,7 @@ project-resources,TaitoUnited,5489,digitalocean,https://github.com/TaitoUnited/t
 project-template,HobOps,12303,google,https://github.com/HobOps/terraform-google-project-template,
 project-vpc,dskz,11925,aws,https://github.com/dskz/terraform-aws-project-vpc,
 project3,suzzala,9923,aws,https://github.com/suzzala/terraform-aws-project3,
+project4-AOP,skatta3,13023,aws,https://github.com/skatta3/terraform-aws-project4-AOP,
 projectdemo,learncode2100,11237,aws,https://github.com/learncode2100/terraform-aws-projectdemo,
 prometheus,anvibo,2256,docker,https://github.com/anvibo/terraform-docker-prometheus,
 prometheus,basisai,7702,helm,https://github.com/basisai/terraform-helm-prometheus,
@@ -6810,6 +6817,7 @@ s3logging-bucket,rhythmictech,5398,aws,https://github.com/rhythmictech/terraform
 s3module,arjunavagadda,10435,aws,https://github.com/arjunavagadda/terraform-aws-s3module,
 s3remotebackend,Hanxxx,8429,aws,https://github.com/Hanxxx/terraform-aws-s3remotebackend,
 s3website,techjacker,751,aws,https://github.com/techjacker/terraform-aws-s3website,Terraform modules to create a static website hosted on AWS S3 and set up MX records
+sa,monbostest,13016,azurerm,https://github.com/monbostest/terraform-azurerm-sa,This module will will help to create storage account
 saWorkSample,renemartinezb86,2229,AWS,https://github.com/renemartinezb86/terraform-AWS-saWorkSample,
 sadiqs3,alqamasadiq,11414,aws,https://github.com/alqamasadiq/terraform-aws-sadiqs3,
 sae,terraform-alicloud-modules,12685,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-sae,Terraform Module for creating SAE resources on Alibaba Cloud.
@@ -7819,6 +7827,7 @@ test,Yvz-DevOps,5787,class4,https://github.com/Yvz-DevOps/terraform-class4-test,
 test,andresvia,766,autodesk,https://github.com/andresvia/terraform-autodesk-test,test
 test,chilicat,11978,local,https://github.com/chilicat/terraform-local-test,Terraform Test module
 test,davewongillies,1336,null,https://github.com/davewongillies/terraform-null-test,A simple terraform module with a null resource for testing
+test,dsa0x,13019,AWS,https://github.com/dsa0x/terraform-AWS-test,
 test,findkim,4034,null,https://github.com/findkim/terraform-null-test,
 test,gandhiniraj,662,azure,https://github.com/gandhiniraj/terraform-azure-test,"Sample Module, created solely to learn terraform registry"
 test,ionelpanaitescu,10575,oci,https://github.com/ionelpanaitescu/terraform-oci-test,
