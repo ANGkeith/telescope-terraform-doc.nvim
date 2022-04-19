@@ -22,6 +22,7 @@ function M.gen_from_run(opts)
 
   return function(entry)
     local result = {
+      id = entry.id,
       ordinal = entry.attributes.title,
       category = entry.attributes.category,
       title = entry.attributes.title,
