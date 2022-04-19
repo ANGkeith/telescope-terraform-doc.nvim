@@ -40,6 +40,7 @@ L7LB,pouya-racker,1389,pouya,https://github.com/pouya-racker/terraform-pouya-L7L
 Lambda-HTTP-API,HarishKM7,8652,AWS,https://github.com/HarishKM7/terraform-AWS-Lambda-HTTP-API,Terraform module to deploy an HTTP API in AWS API Gateway backed by one or more Lambda functions.
 Lambda-REST-API,HarishKM7,8651,AWS,https://github.com/HarishKM7/terraform-AWS-Lambda-REST-API,Terraform module to deploy a REST API in AWS API Gateway backed by one or more Lambda functions.
 MODULE,dsa0x,12916,EXAMPLE,https://github.com/dsa0x/terraform-EXAMPLE-MODULE,Example Terraform Module Scaffolding
+Micro-Minecraft-Bedrock-Server,adarobin,13065,oci,https://github.com/adarobin/terraform-oci-Micro-Minecraft-Bedrock-Server,
 ModuleTF,skatta3,8754,aws,https://github.com/skatta3/terraform-aws-ModuleTF,
 Mysql-rds,john24rel,6743,wordpress,https://github.com/john24rel/terraform-wordpress-Mysql-rds,
 OOOOOOO,k-kotov,11669,aws,https://github.com/k-kotov/terraform-aws-OOOOOOO,
@@ -558,6 +559,7 @@ appconfig,clowdhaus,10327,aws,https://github.com/clowdhaus/terraform-aws-appconf
 appdynamics,3191110276,8260,kubernetes,https://github.com/3191110276/terraform-kubernetes-appdynamics,
 appengine,JamesWoolfenden,3470,gcp,https://github.com/JamesWoolfenden/terraform-gcp-appengine,"Get your container running, simply."
 appgw-ingress-k8s-cluster,Azure,1946,azurerm,https://github.com/Azure/terraform-azurerm-appgw-ingress-k8s-cluster,"The Application Gateway Ingress Controller allows the Azure Application Gateway to be used as the ingress for an Azure Kubernetes Service aka AKS cluster. As shown in the figure below, the ingress controller runs as a pod within the AKS cluster. It consumes Kubernetes Ingress Resources and converts them to an Azure Application Gateway configuration which allows the gateway to load-balance traffic to Kubernetes pods."
+applevnet,applesoftsol,13059,azurerm,https://github.com/applesoftsol/terraform-azurerm-applevnet,it creates vnet and subnet
 appliance-paloalto,r-teller,10196,google,https://github.com/r-teller/terraform-google-appliance-paloalto,
 appliance-sftp,r-teller,11271,google,https://github.com/r-teller/terraform-google-appliance-sftp,
 application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-application,Terraform module to create an application in Azure AD.
@@ -1175,6 +1177,7 @@ bastion,infrablocks,645,aws,https://github.com/infrablocks/terraform-aws-bastion
 bastion,juanConversalab,9205,aws,https://github.com/juanConversalab/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
 bastion,kube-champ,7304,azure,https://github.com/kube-champ/terraform-azure-bastion,
 bastion,kurron,441,aws,https://github.com/kurron/terraform-aws-bastion,"Terraform module that creates an auto-scaling group of Bastion servers, allowing SSH access to the private EC2 instances"
+bastion,libre-devops,13062,azurerm,https://github.com/libre-devops/terraform-azurerm-bastion,A module used to created a bastion server inside a virtual network.
 bastion,linux-place,3547,aws,https://github.com/linux-place/terraform-aws-bastion,
 bastion,nalbam,6256,aws,https://github.com/nalbam/terraform-aws-bastion,
 bastion,oracle-terraform-modules,5013,oci,https://github.com/oracle-terraform-modules/terraform-oci-bastion,A Terraform module that reuses an existing VCN and adds a bastion host to it on OCI
@@ -1928,7 +1931,7 @@ compute,akbaribnu,1493,google,https://github.com/akbaribnu/terraform-google-comp
 compute,glavk,6886,yandex,https://github.com/glavk/terraform-yandex-compute,Terraform module which creates Compute resources on Yandex Cloud
 compute,namanbajaj08,6003,azurerm,https://github.com/namanbajaj08/terraform-azurerm-compute,
 compute,oraziobattaglia,6337,azurerm,https://github.com/oraziobattaglia/terraform-azurerm-compute,"This Terraform module deploys Virtual Machines in Azure, ideas from official module."
-compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex-compute,
+compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex-compute,Terraform module which creates Compute resources on Yandex Cloud
 compute,srb3,4093,azurerm,https://github.com/srb3/terraform-azurerm-compute,
 compute,wmariuss,2094,scaleway,https://github.com/wmariuss/terraform-scaleway-compute,Terraform scaleway compute module
 compute-address,mineiros-io,11375,google,https://github.com/mineiros-io/terraform-google-compute-address,A Terraform module to deploy and manage Google Compute Addresses on Google Cloud Platform (GCP) https://cloud.google.com/compute
@@ -2681,6 +2684,7 @@ ecr,boldlink,12453,aws,https://github.com/boldlink/terraform-aws-ecr,A repositor
 ecr,cawan1,5264,aws,https://github.com/cawan1/terraform-aws-ecr,Accurate ecr
 ecr,clouddrove,3634,aws,https://github.com/clouddrove/terraform-aws-ecr,This terraform module is used to create ECR on AWS.
 ecr,cloudposse,206,aws,https://github.com/cloudposse/terraform-aws-ecr,Terraform Module to manage Docker Container Registries on AWS ECR
+ecr,clowdhaus,13057,aws,https://github.com/clowdhaus/terraform-aws-ecr,Terraform module which creates AWS ECR resources 
 ecr,corpit-consulting-public,5151,aws,https://github.com/corpit-consulting-public/terraform-aws-ecr,
 ecr,eriktisme,7377,aws,https://github.com/eriktisme/terraform-aws-ecr,Creates a repository on AWS.
 ecr,genstackio,8002,aws,https://github.com/genstackio/terraform-aws-ecr,Terraform module to create an AWS ECR repository
@@ -3009,6 +3013,7 @@ eks,MOHIT-JANGIR,9559,aws,https://github.com/MOHIT-JANGIR/terraform-aws-eks,
 eks,NargizaOsmon,5357,aws,https://github.com/NargizaOsmon/terraform-aws-eks,
 eks,OT-CLOUD-KIT,4891,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-eks,This repository consists of Terraform module for EKS cluster in AWS.
 eks,QuiNovas,2356,aws,https://github.com/QuiNovas/terraform-aws-eks,A Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS.
+eks,SPHTech-Platform,13056,aws,https://github.com/SPHTech-Platform/terraform-aws-eks,Reusable module to create EKS cluster
 eks,StayWell,2322,aws,https://github.com/StayWell/terraform-aws-eks,
 eks,Voyagese,6940,aws,https://github.com/Voyagese/terraform-aws-eks,
 eks,WesleyCharlesBlake,1215,aws,https://github.com/WesleyCharlesBlake/terraform-aws-eks,Deploy a full EKS cluster with Terraform
@@ -4949,6 +4954,7 @@ linux-virtual-machine-scale-set,boltops-tools,11132,azure,https://github.com/bol
 linux-vm,ayusmadi,4097,azurerm,https://github.com/ayusmadi/terraform-azurerm-linux-vm,Terraform module to deploy a Linux virtual machine
 linux-vm,claranet,3508,azurerm,https://github.com/claranet/terraform-azurerm-linux-vm,Terraform module composition (feature) for ARM Linux Virtual Machine (VM)
 linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-linux-vm,This module provisions a stand-alone Linux VM and uses Terraform 0.12+.
+linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"This module follows the KISS design pattern compared to other modules in the market.  It does not try to do anything crazy and consider availability sets, scale sets etc, this will create you a VM based on some parameters you give it, nothing more, nothing less"
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
 linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-linuxkit-setup,Terraform module to setup the basic infrastructure for linuxkit to push AMIs to AWS.
 linuxscaleset,JamesWoolfenden,5582,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-linuxscaleset,Basic linuxscaleset module
@@ -4962,6 +4968,7 @@ lke-cluster,sculley,11824,linode,https://github.com/sculley/terraform-linode-lke
 lldp-policy,netascode,9872,aci,https://github.com/netascode/terraform-aci-lldp-policy,Terraform Cisco ACI LLDP Policy Module
 lnmp,terraform-alicloud-modules,4347,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-lnmp,Terraform Module for building LNMP(Linux+Nginx+MySQL+PHP) envrionment on Alibaba Cloud.
 lnstorage,LalitaNandedkar,10160,azure,https://github.com/LalitaNandedkar/terraform-azure-lnstorage,
+lnx-os-sku-calculator,libre-devops,13061,azurerm,https://github.com/libre-devops/terraform-azurerm-lnx-os-sku-calculator,"A simple way of getting the latest SKU of an OS image on Azure, no fuss."
 load-balanced-ecs-service,mergermarket,3704,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service,
 load-balanced-ecs-service-no-target-group,mergermarket,3683,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service-no-target-group,
 load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP
@@ -6017,6 +6024,7 @@ publiccloud-network,rienafairefr,6435,ovh,https://github.com/rienafairefr/terraf
 publiccloud-spark,ovh,570,ovh,https://github.com/ovh/terraform-ovh-publiccloud-spark,
 publicip,dodevops,10539,azure,https://github.com/dodevops/terraform-azure-publicip,Highly opinionaged management of public IP in Azure
 publish,cybojenix,3789,testing,https://github.com/cybojenix/terraform-testing-publish,"repo for testing publishing, diagnosing an issue for github api use"
+publishrepo,applesoftsol,13060,azurerm,https://github.com/applesoftsol/terraform-azurerm-publishrepo,this is for terraform publish for vnet
 pubsub,AckeeCZ,10946,gcp,https://github.com/AckeeCZ/terraform-gcp-pubsub,Terraform module for GCP PubSub resources
 pubsub,aidenabled,11472,google,https://github.com/aidenabled/terraform-google-pubsub,
 pubsub,airasia,4753,google,https://github.com/airasia/terraform-google-pubsub,Terraform module for a Pub/Sub Topic (with subscribers) in GCP
@@ -6575,6 +6583,7 @@ s3-backend,jhern61,10926,aws,https://github.com/jhern61/terraform-aws-s3-backend
 s3-backend,kimonio,4495,aws,https://github.com/kimonio/terraform-aws-s3-backend,
 s3-backend,mscribellito,9782,aws,https://github.com/mscribellito/terraform-aws-s3-backend,Terraform AWS S3 Backend
 s3-backend,rsb,3679,aws,https://github.com/rsb/terraform-aws-s3-backend,s3 backend module for for Terraform
+s3-backend-demo,briferz,13063,aws,https://github.com/briferz/terraform-aws-s3-backend-demo,
 s3-backup-bucket,rj175,6726,aws,https://github.com/rj175/terraform-aws-s3-backup-bucket,Terraform AWS module to create a bucket and IAM user for backup services.
 s3-bucket,AeronFuertes,12864,aws,https://github.com/AeronFuertes/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,GGVC888,10599,aws,https://github.com/GGVC888/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
@@ -8005,6 +8014,7 @@ up,matti,878,kupo,https://github.com/matti/terraform-kupo-up,
 upcloud-server,v0112358,10419,module,https://github.com/v0112358/terraform-module-upcloud-server,This module deploys Upcloud server with Public / Private ip address and floating ip support and server rolling maintenance.
 update,HappyPathway,2957,null,https://github.com/HappyPathway/terraform-null-update,
 updatednetwork,Muraliazure,5694,azurerm,https://github.com/Muraliazure/terraform-azurerm-updatednetwork,Terraform Azure RM Module for Network
+updatednetwork,applesoftsol,13058,azurerm,https://github.com/applesoftsol/terraform-azurerm-updatednetwork,Terraform Azure RM Module for Network
 uptime-monitoring,TaitoUnited,3763,aws,https://github.com/TaitoUnited/terraform-aws-uptime-monitoring,AWS uptime monitoring
 uptime-monitoring,TaitoUnited,3766,azurerm,https://github.com/TaitoUnited/terraform-azurerm-uptime-monitoring,Azure uptime monitoring
 uptime-monitoring,TaitoUnited,3770,google,https://github.com/TaitoUnited/terraform-google-uptime-monitoring,Google Cloud uptime monitoring
@@ -8699,6 +8709,7 @@ vpn-gateway,misastovicek,4827,azurerm,https://github.com/misastovicek/terraform-
 vpn-gateway,terraform-alicloud-modules,2373,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpn-gateway,Terraform module which creates VPN gateway and Customer gateway resources on Alibaba Cloud
 vpn-gateway,terraform-aws-modules,689,aws,https://github.com/terraform-aws-modules/terraform-aws-vpn-gateway,Terraform module which creates VPN gateway resources on AWS
 vpn-pbr-route-entry,terraform-alicloud-modules,12807,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpn-pbr-route-entry,Terraform Module used to create Pbr route entries automatically Alibaba Cloud.
+vrf,netascode,13066,nxos,https://github.com/netascode/terraform-nxos-vrf,Terraform Cisco NX-OS VRF Module
 vrf,netascode,9755,aci,https://github.com/netascode/terraform-aci-vrf,Terraform Cisco ACI VRF Module
 vsphere,equinix,7455,metal,https://github.com/equinix/terraform-metal-vsphere,Terraform Module to deploy VMware vSphere on Equinix Metal
 vsphere-cloud-foundation-vcsa-base,jd4883,6909,vmware,https://github.com/jd4883/terraform-vmware-vsphere-cloud-foundation-vcsa-base,"Once imported, this is a working base with minimal tweaks to what cloud foundation brings up. This gives a more granular set of controls post deployment. I am developing a series of submodules for different purposes here to fully automate the bringup of Tanzu Kubernetes"
