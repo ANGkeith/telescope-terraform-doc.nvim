@@ -1,6 +1,10 @@
 local curl = require("plenary.curl")
 
 local M = {}
+if not vim.g.terraform_doc_git_namespace then
+  vim.g.terraform_doc_git_namespace = "ANGkeith"
+end
+
 local base_url = "https://raw.githubusercontent.com/"
   .. vim.g.terraform_doc_git_namespace
   .. "/telescope-terraform-doc.nvim/api"

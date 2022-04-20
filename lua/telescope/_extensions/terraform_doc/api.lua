@@ -97,6 +97,19 @@ function M.get_docs_url(full_name, version, category, resource_slug)
 end
 
 ---
+---Returns the documentation in markdown format
+function M.get_docs_content(id)
+  local resp = vim.fn.json_decode(curl.request({
+    -- https://registry.terraform.io/v2/provider-docs/522139
+    url = base_url .. "/v2/provider-docs/" .. id,
+    method = "get",
+    accept = "application/json",
+  }).body)
+  local content = vim.split(resp.data.attributes.content, "\n")
+  return content
+end
+
+---
 ---Returns the url to the terraform registry module
 function M.get_docs_url_module(full_name, provider_name)
   return base_url .. "/modules/" .. full_name .. "/" .. provider_name .. "/latest"

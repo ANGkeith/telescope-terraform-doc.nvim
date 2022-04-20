@@ -17,6 +17,16 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'ANGkeith/telescope-terraform-doc.nvim'
 ```
+### Packer
+```lua
+use {
+    "nvim-telescope/telescope.nvim",
+    requires = {
+        { "nvim-lua/plenary.nvim" },
+        { "nvim-telescope/telescope-terraform-doc.nvim" },
+    },
+}
+```
 ## Setup
 Add the following to your `init.vim`:
 ``` lua
@@ -54,10 +64,12 @@ nnoremap <space>otk :Telescope terraform_doc full_name=hashicorp/kubernetes<cr>
 ```
 
 ### Configurable settings
-| Keys                     | Description                                                      | Options                    |
-|--------------------------|------------------------------------------------------------------|----------------------------|
-| `url_open_command`       | The shell command to open the url                                | string (default: `open`)   |
-| `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)      |
+| Keys                     | Description                                                      | Options                           |
+|--------------------------|------------------------------------------------------------------|-----------------------------------|
+| `url_open_command`       | The shell command to open the url                                | string (default: `open`)          |
+| `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)             |
+| `wincmd`                 | Command to open documentation in a split window                  | string (default: `botright vnew`) |
+| `wrap`                   | Wrap lines in a documentation in a split window                  | string (default: `nowrap`)        |
 
 ```lua
 require("telescope").setup({
@@ -65,7 +77,16 @@ require("telescope").setup({
     terraform_doc = {
       url_open_command = "xdg-open",
       latest_provider_symbol = "  ",
+      wincmd = "botright vnew",
+      wrap = "nowrap",
     }
   }
 })
 ```
+
+#### Telescope key mappings
+
+| key     | Usage                                      |
+|---------|--------------------------------------------|
+| `<cr>`  | Open documentation with `url_open_command` |
+| `<c-d>` | Open documentation in a split window       |
