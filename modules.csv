@@ -252,7 +252,7 @@ aks,guifabmello,10652,azure,https://github.com/guifabmello/terraform-azure-aks,T
 aks,kamiljsokolowski,4400,azurerm,https://github.com/kamiljsokolowski/terraform-azurerm-aks,A Terraform Module for how to run AKS (K8s) cluster on AzureRM using Terraform
 aks,kjanshair,1503,azurerm,https://github.com/kjanshair/terraform-azurerm-aks,A terraform module for creating an AKS cluster on Azure.
 aks,kube-champ,7303,azure,https://github.com/kube-champ/terraform-azure-aks,
-aks,libre-devops,13033,azurerm,https://github.com/libre-devops/terraform-azurerm-aks,Azure Kubernetes Module
+aks,libre-devops,13033,azurerm,https://github.com/libre-devops/terraform-azurerm-aks,A module used to simplify the deployment of an Azure Kubernetes Cluster based on some parameters :whale:
 aks,maksiess,6090,azure,https://github.com/maksiess/terraform-azure-aks,
 aks,mbiomee,5667,azur,https://github.com/mbiomee/terraform-azur-aks,
 aks,nlamirault,6632,azurerm,https://github.com/nlamirault/terraform-azurerm-aks,Terraform module for Microsft AKS
@@ -1177,7 +1177,7 @@ bastion,infrablocks,645,aws,https://github.com/infrablocks/terraform-aws-bastion
 bastion,juanConversalab,9205,aws,https://github.com/juanConversalab/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
 bastion,kube-champ,7304,azure,https://github.com/kube-champ/terraform-azure-bastion,
 bastion,kurron,441,aws,https://github.com/kurron/terraform-aws-bastion,"Terraform module that creates an auto-scaling group of Bastion servers, allowing SSH access to the private EC2 instances"
-bastion,libre-devops,13062,azurerm,https://github.com/libre-devops/terraform-azurerm-bastion,A module used to created a bastion server inside a virtual network.
+bastion,libre-devops,13062,azurerm,https://github.com/libre-devops/terraform-azurerm-bastion,"A module used to creating a bastion host inside a virtual network, with an NSG and appropriate rules :rocket:"
 bastion,linux-place,3547,aws,https://github.com/linux-place/terraform-aws-bastion,
 bastion,nalbam,6256,aws,https://github.com/nalbam/terraform-aws-bastion,
 bastion,oracle-terraform-modules,5013,oci,https://github.com/oracle-terraform-modules/terraform-oci-bastion,A Terraform module that reuses an existing VCN and adds a bastion host to it on OCI
@@ -1917,6 +1917,7 @@ common-variables,container-labs,6874,tfe,https://github.com/container-labs/terra
 compartment,Terraform-Modules-Lib,8074,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 components,cloudposse,6626,aws,https://github.com/cloudposse/terraform-aws-components,"Opinionated, self-contained Terraform root modules that each solve one, specific problem"
 components,leb4r,11707,do,https://github.com/leb4r/terraform-do-components,Terraform modules that can be re-used in other projects. Built specifically for DigitalOcean. 
+components,leb4r,13072,aws,https://github.com/leb4r/terraform-aws-components,Terraform templates that can be re-used in other projects. Built specifically for AWS.
 composer,Terraform-GCP-Templates,7260,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-composer,
 composer,mineiros-io,11374,google,https://github.com/mineiros-io/terraform-google-composer,"A Terraform module to create and manage Cloud Composer, a fully managed workflow orchestration service built on Apache Airflow, on Google Cloud Platform (GCP) https://cloud.google.com/composer"
 composer,terraform-google-modules,6750,google,https://github.com/terraform-google-modules/terraform-google-composer,Terraform Module for managing Cloud Composer
@@ -2044,6 +2045,7 @@ container-service,diego-alves,8268,aws,https://github.com/diego-alves/terraform-
 container-vm,badal-io,3868,google,https://github.com/badal-io/terraform-google-container-vm,
 container-vm,terraform-google-modules,2261,google,https://github.com/terraform-google-modules/terraform-google-container-vm,This module simplifies deploying containers on GCE instances.
 content-delivery-network,ReidWeb,1583,aws,https://github.com/ReidWeb/terraform-aws-content-delivery-network,Terraform module for creation of a CDN in AWS with custom event handlers powered by Lambda@Edge w/ CloudFront
+content-library,aws-ia,13083,vsphere,https://github.com/aws-ia/terraform-vsphere-content-library,"The vSphere content library Terraform module either creates or imports a content library as well as a list of items in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects."
 context,k9securityio,7210,local,https://github.com/k9securityio/terraform-local-context,"A Terraform module to capture the context your team needs to manage, operate, and secure resources in the Cloud."
 contract,netascode,9770,aci,https://github.com/netascode/terraform-aci-contract,Terraform Cisco ACI Contract Module
 control-policy,terraform-alicloud-modules,10260,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-control-policy,
@@ -2457,6 +2459,7 @@ doormat,hashi-strawb,11342,tfe,https://github.com/hashi-strawb/terraform-tfe-doo
 download,dealmore,7432,npm,https://github.com/dealmore/terraform-npm-download,Terraform module for downloading files from npm.
 download,matti,826,http,https://github.com/matti/terraform-http-download,
 download,milliHQ,10109,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
+drone-repository,rancher,13088,module,https://github.com/rancher/terraform-module-drone-repository,Terraform module which creates repository and secret resources for the drone server.
 droplet,Loodos,3377,digitalocean,https://github.com/Loodos/terraform-digitalocean-droplet,Terraform Module for Create Droplet on DigitalOcean
 droplet,bayudwiyansatria,12764,digitalocean,https://github.com/bayudwiyansatria/terraform-digitalocean-droplet,About Terraform Module for Provisioning Digital Ocean Droplet
 droplet,clouddrove,5031,digitalocean,https://github.com/clouddrove/terraform-digitalocean-droplet,"Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets."
@@ -3073,6 +3076,7 @@ eks,turanmehmet,7904,aws,https://github.com/turanmehmet/terraform-aws-eks,Creati
 eks,tutac,6915,aws,https://github.com/tutac/terraform-aws-eks,
 eks,vainkop,9016,aws,https://github.com/vainkop/terraform-aws-eks,terraform-aws-eks
 eks,vitaliburak,6934,aws,https://github.com/vitaliburak/terraform-aws-eks,
+eks,xchan,13089,aws,https://github.com/xchan/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS 🇺🇦
 eks,yasirbil,5470,aws,https://github.com/yasirbil/terraform-aws-eks,
 eks,zkuras,5431,aws,https://github.com/zkuras/terraform-aws-eks,eks_modulie
 eks-2020,Janzada,5367,aws,https://github.com/Janzada/terraform-aws-eks-2020,"terraform-aws-eks-2020, all regions"
@@ -3399,6 +3403,7 @@ fabric-connection,equinix-labs,12728,equinix,https://github.com/equinix-labs/ter
 fabric-connection-aws,equinix-labs,12729,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-aws,Terraform module to create an ECX Fabric L2 Connection to AWS Direct Connect
 fabric-connection-azure,equinix-labs,12900,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-azure,Terraform module to create an ECX Fabric L2 Connection to Azure ExpressRoute
 fabric-connection-gcp,equinix-labs,12785,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-gcp,Terraform module to create an ECX Fabric L2 Connection to Google Cloud Interconnect
+fabric-connection-metal,equinix-labs,13074,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-metal,Terraform module to set up a single or redundant Metal shared connection from an Equinix Fabric port / Network Edge device
 fabric-isis-bfd,netascode,9807,aci,https://github.com/netascode/terraform-aci-fabric-isis-bfd,Terraform Cisco ACI Fabric ISIS BFD Module
 fabric-isis-policy,netascode,9850,aci,https://github.com/netascode/terraform-aci-fabric-isis-policy,Terraform Cisco ACI Fabric ISIS Policy Module
 fabric-leaf-interface-profile,netascode,9825,aci,https://github.com/netascode/terraform-aci-fabric-leaf-interface-profile,Terraform Cisco ACI Fabric Leaf Interface Profile Module
@@ -3567,7 +3572,7 @@ fs-account-basic,rjminsha,4905,ibmcloud,https://github.com/rjminsha/terraform-ib
 fsx-windows,kirelos,10732,aws,https://github.com/kirelos/terraform-aws-fsx-windows," Use this module to create a FSx for Windows in AWS. "
 fsx-windows-directory-service,voquis,11764,aws,https://github.com/voquis/terraform-aws-fsx-windows-directory-service,Terraform module to create FSx for Windows file system connected to directory service
 ftp-transfer-user,kiwicom,3023,aws,https://github.com/kiwicom/terraform-aws-ftp-transfer-user,
-fully-connected-vpn,bsrodrigs,12784,aws,https://github.com/bsrodrigs/terraform-aws-fully-connected-vpn,Fully connected AWS site-to-site VPN with BGP 
+fully-connected-vpn,bsrodrigs,12784,aws,https://github.com/bsrodrigs/terraform-aws-fully-connected-vpn,Quickly deploy an AWS site-to-site VPN and a self-configured Customer Gateway
 fun,fun-stack,11205,aws,https://github.com/fun-stack/terraform-aws-fun,Terraform module to provision AWS infrastructure for fun-stack
 function,teamdatatonic,8751,gcp,https://github.com/teamdatatonic/terraform-gcp-function,
 function,terraform-ibm-modules,8340,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-function,We can use our favorite programming language to write lightweight code that runs app logic in a scalable way. 
@@ -4051,6 +4056,7 @@ iam_group,dhoppeIT,11834,aws,https://github.com/dhoppeIT/terraform-aws-iam_group
 iam_policy,grodzik,3104,aws,https://github.com/grodzik/terraform-aws-iam_policy,Terraform module to create AWS IAM policy
 iam_user,adriell,3358,module,https://github.com/adriell/terraform-module-iam_user,Repositorio terraform para criar usuário no iam da AWS. 
 iamgcp,theojha01,9270,google,https://github.com/theojha01/terraform-google-iamgcp,
+iap,AckeeCZ,13071,gcp,https://github.com/AckeeCZ/terraform-gcp-iap,
 iap-bastion,kasna-cloud,11984,google,https://github.com/kasna-cloud/terraform-google-iap-bastion,Terraform module to build bastion host with IAP
 iap-bastion,onetwopunch,2962,google,https://github.com/onetwopunch/terraform-google-iap-bastion,Terraform module for a bastion that is accessible via IAP on Google Cloud
 icp,GSLabDev,1207,module,https://github.com/GSLabDev/terraform-module-icp,Terraform module for IBM Cloud Platform which is IBM's cloud orchestration platform. Module helps in doing installation of ICP in Distributed and Base mode.
@@ -4954,7 +4960,7 @@ linux-virtual-machine-scale-set,boltops-tools,11132,azure,https://github.com/bol
 linux-vm,ayusmadi,4097,azurerm,https://github.com/ayusmadi/terraform-azurerm-linux-vm,Terraform module to deploy a Linux virtual machine
 linux-vm,claranet,3508,azurerm,https://github.com/claranet/terraform-azurerm-linux-vm,Terraform module composition (feature) for ARM Linux Virtual Machine (VM)
 linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-linux-vm,This module provisions a stand-alone Linux VM and uses Terraform 0.12+.
-linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"This module follows the KISS design pattern compared to other modules in the market.  It does not try to do anything crazy and consider availability sets, scale sets etc, this will create you a VM based on some parameters you give it, nothing more, nothing less"
+linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
 linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-linuxkit-setup,Terraform module to setup the basic infrastructure for linuxkit to push AMIs to AWS.
 linuxscaleset,JamesWoolfenden,5582,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-linuxscaleset,Basic linuxscaleset module
@@ -4968,7 +4974,7 @@ lke-cluster,sculley,11824,linode,https://github.com/sculley/terraform-linode-lke
 lldp-policy,netascode,9872,aci,https://github.com/netascode/terraform-aci-lldp-policy,Terraform Cisco ACI LLDP Policy Module
 lnmp,terraform-alicloud-modules,4347,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-lnmp,Terraform Module for building LNMP(Linux+Nginx+MySQL+PHP) envrionment on Alibaba Cloud.
 lnstorage,LalitaNandedkar,10160,azure,https://github.com/LalitaNandedkar/terraform-azure-lnstorage,
-lnx-os-sku-calculator,libre-devops,13061,azurerm,https://github.com/libre-devops/terraform-azurerm-lnx-os-sku-calculator,"A simple way of getting the latest SKU of an OS image on Azure, no fuss."
+lnx-os-sku-calculator,libre-devops,13061,azurerm,https://github.com/libre-devops/terraform-azurerm-lnx-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. Design to work with the Libre DevOps Linux VM module :rocket:"
 load-balanced-ecs-service,mergermarket,3704,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service,
 load-balanced-ecs-service-no-target-group,mergermarket,3683,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service-no-target-group,
 load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP
@@ -5435,6 +5441,7 @@ network,JamesWoolfenden,7708,gcp,https://github.com/JamesWoolfenden/terraform-gc
 network,LorenaUdroiu,10835,google,https://github.com/LorenaUdroiu/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,Muraliazure,5693,azurerm,https://github.com/Muraliazure/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,Nadongduan,9047,google,https://github.com/Nadongduan/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
+network,Obak86,13075,azurerm,https://github.com/Obak86/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,Shwetha92,8802,azurerm,https://github.com/Shwetha92/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,SweetOps,8324,google,https://github.com/SweetOps/terraform-google-network,
 network,T-Systems-MMS,12119,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-network,Configure Azure Network
@@ -5467,7 +5474,8 @@ network,incentro-cloud,10970,google,https://github.com/incentro-cloud/terraform-
 network,info4rashid,10634,google,https://github.com/info4rashid/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,innovationnorway,2012,azurerm,https://github.com/innovationnorway/terraform-azurerm-network,Terraform module which creates networking resources on Azure
 network,jimgaspari,10935,libvirt,https://github.com/jimgaspari/terraform-libvirt-network,Terraform Module for building Libvirt Networks
-network,libre-devops,13035,azurerm,https://github.com/libre-devops/terraform-azurerm-network,Terraform module to create Azure network and subnets
+network,libre-devops,13035,azurerm,https://github.com/libre-devops/terraform-azurerm-network,A module used for creating an Azure virtual network and subnet :fire:
+network,manuelemarquez,13076,azurerm,https://github.com/manuelemarquez/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,nephosolutions,2610,google,https://github.com/nephosolutions/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,ninja-dev-io,10934,aws,https://github.com/ninja-dev-io/terraform-aws-network,network IaC
 network,quortex,4471,google,https://github.com/quortex/terraform-google-network,A terraform module for Quortex infrastructure GCP network layer.
@@ -5621,7 +5629,7 @@ nquakesv,AdrienneCohea,11312,nomad,https://github.com/AdrienneCohea/terraform-no
 nsg,andrewCluey,6298,azurerm,https://github.com/andrewCluey/terraform-azurerm-nsg,Create an Azure Network Security group with rules.
 nsg,claranet,3223,azurerm,https://github.com/claranet/terraform-azurerm-nsg,Terraform module for Azure Network Security Group
 nsg,dcos-terraform,1532,azurerm,https://github.com/dcos-terraform/terraform-azurerm-nsg,
-nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,A sensible default NSG
+nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,"A module used to generate a sensible default NSG and attach it to an Azure subnet.  Note, this NSG is deployed with some default rules including an explicit deny :bomb:"
 nsg,walmartdigital,7373,azure,https://github.com/walmartdigital/terraform-azure-nsg,
 nsx-t-manager,adarobin,8104,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-t-manager,
 nsx-v-manager,adarobin,8105,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-v-manager,
@@ -5951,6 +5959,7 @@ project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform
 project,ttacon,8216,sentry,https://github.com/ttacon/terraform-sentry-project,An opinionated take on how to structure Sentry projects in terraform
 project,willianpaixao,9707,gitlab,https://github.com/willianpaixao/terraform-gitlab-project,Terraform module for Gitlab projects
 project-cluster,kiwicom,2627,gitlab,https://github.com/kiwicom/terraform-gitlab-project-cluster,
+project-factory,RonasIT,13082,google,https://github.com/RonasIT/terraform-google-project-factory,
 project-factory,ZachT1711,8644,google,https://github.com/ZachT1711/terraform-google-project-factory,"Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc."
 project-factory,iits-consulting,9067,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-project-factory,"This repository helps to create an OTC-based cloud-native infrastructure landscape with Kubernetes, load balancers, vpcs etc. With these modules, we provide you a rocket-start while you can still deep-dive into detailed configuration later."
 project-factory,terraform-google-modules,1669,google,https://github.com/terraform-google-modules/terraform-google-project-factory,"Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc."
@@ -6428,7 +6437,7 @@ rg,DexterPOSH,4693,azurerm,https://github.com/DexterPOSH/terraform-azurerm-rg,Fl
 rg,Discianno,5048,azurerm,https://github.com/Discianno/terraform-azurerm-rg,
 rg,claranet,3102,azurerm,https://github.com/claranet/terraform-azurerm-rg,Terraform module for Azure Resource Group
 rg,kjanshair,929,azurerm,https://github.com/kjanshair/terraform-azurerm-rg,
-rg,libre-devops,13047,azurerm,https://github.com/libre-devops/terraform-azurerm-rg,A module for creating a resource group in Azure
+rg,libre-devops,13047,azurerm,https://github.com/libre-devops/terraform-azurerm-rg,A module used to create a resource group with a management lock in Azure :closed_lock_with_key:
 rg,namanbajaj08,6009,azure,https://github.com/namanbajaj08/terraform-azure-rg,
 rg,shiboyan,11497,az,https://github.com/shiboyan/terraform-az-rg,az rg
 rhlstorage,rhlrahul,9507,azure,https://github.com/rhlrahul/terraform-azure-rhlstorage,
@@ -6529,6 +6538,7 @@ route53-zone,dcos-terraform,1729,aws,https://github.com/dcos-terraform/terraform
 route53-zone,figurate,11693,aws,https://github.com/figurate/terraform-aws-route53-zone,Configure public and private Route53 zones
 route53-zone,spirius,5308,aws,https://github.com/spirius/terraform-aws-route53-zone,AWS Route53 Zone Terraform module
 route53healthcheck,DNXLabs,5748,aws,https://github.com/DNXLabs/terraform-aws-route53healthcheck,This is a module to configure health check and related AWS CloudWatch metric alarms.
+route_53_zone_and_records,lucymhdavies,13087,aws,https://github.com/lucymhdavies/terraform-aws-route_53_zone_and_records,Terraform Module to define AWS Route53 Zone and records
 routed-domain,netascode,10316,aci,https://github.com/netascode/terraform-aci-routed-domain,Terraform Cisco ACI Routed Domain Module
 routeros-router,selfscrum,6630,hcloud,https://github.com/selfscrum/terraform-hcloud-routeros-router,Terraform code to seamlessly integrate a RouterOS router into a Hetzner Cloud network.
 routeros-router-configuration,selfscrum,6631,hcloud,https://github.com/selfscrum/terraform-hcloud-routeros-router-configuration,Configures a Hetzner server with an RouterOS Router.
@@ -6545,8 +6555,8 @@ rubrik-cloudon,rubrikinc,2357,aws,https://github.com/rubrikinc/terraform-aws-rub
 rubrik-s3-cloudout,rubrikinc,2313,aws,https://github.com/rubrikinc/terraform-aws-rubrik-s3-cloudout,Terraform module that configures an AWS as an S3 archive target and adds that target to the Rubrik cluster.
 run-common,claranet,3272,azurerm,https://github.com/claranet/terraform-azurerm-run-common,Terraform module composition (feature) to setup Claranet MSP Azure common tools
 run-iaas,claranet,4032,azurerm,https://github.com/claranet/terraform-azurerm-run-iaas,Terraform module composition (feature) to setup Claranet MSP Azure IaaS/VM tools
-run-vm-command,craigthackerx,7731,azurerm,https://github.com/craigthackerx/terraform-azurerm-run-vm-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks.
-run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraform-azurerm-run-vm-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks 🔥
+run-vm-command,craigthackerx,7731,azurerm,https://github.com/craigthackerx/terraform-azurerm-run-vm-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks :fire:
+run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraform-azurerm-run-vm-command,"A module that run commands on virtual machines in Azure. It is a programmatic way to use the ""Run Command"" option in the portal :rose:"
 runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-runiap,Identity-Aware Proxy on Cloud Run. Based on https://github.com/terraform-google-modules/terraform-google-lb
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
 s3,Aplyca,1326,aws,https://github.com/Aplyca/terraform-aws-s3,Create S3 bucket optimized for web site hosting
@@ -6676,6 +6686,7 @@ s3-object,jason-morsley,5109,aws,https://github.com/jason-morsley/terraform-aws-
 s3-object-folder,chandan-singh,5174,aws,https://github.com/chandan-singh/terraform-aws-s3-object-folder,"Terraform module, which takes care of uploading a folder and its content to a bucket with content-type"
 s3-object-url-redirects,operatehappy,5254,aws,https://github.com/operatehappy/terraform-aws-s3-object-url-redirects,Terraform Module for managing AWS S3 Objects for URL redirects
 s3-origin,azavea,173,aws,https://github.com/azavea/terraform-aws-s3-origin,A terraform module to create an S3 origin for use with CloudFront.
+s3-pipeline,toluna-terraform,13073,aws,https://github.com/toluna-terraform/terraform-aws-s3-pipeline,
 s3-private-bucket,trussworks,621,aws,https://github.com/trussworks/terraform-aws-s3-private-bucket,"Creates a private, encrypted, versioned S3 bucket with good defaults."
 s3-private-bucket,yukihira1992,3350,aws,https://github.com/yukihira1992/terraform-aws-s3-private-bucket,Terraform module which creates private S3 bucket on AWS.
 s3-private-versioned,scaffoldly,9482,aws,https://github.com/scaffoldly/terraform-aws-s3-private-versioned,Create a private and versioned S3 bucket with optional SNS notifications
@@ -7707,6 +7718,7 @@ subnet,mikamakusa,4350,aws,https://github.com/mikamakusa/terraform-aws-subnet,
 subnet,sjones-sot,725,azurerm,https://github.com/sjones-sot/terraform-azurerm-subnet,Module for creation of subnets in an existing Virtual Network
 subnet,terraformation,3956,azurerm,https://github.com/terraformation/terraform-azurerm-subnet,
 subnet,tomarv2,12222,azure,https://github.com/tomarv2/terraform-azure-subnet,Terraform module for creating Azure subnet
+subnet-demo,jiteshkanherkar,13070,aws,https://github.com/jiteshkanherkar/terraform-aws-subnet-demo,
 subnet-private,Terraform-Modules-Lib,9640,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-private,Manage OCI private subnet
 subnet-public,Terraform-Modules-Lib,9629,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-public,Manage public subnet
 subnets,MagnetarIT,4623,aws,https://github.com/MagnetarIT/terraform-aws-subnets,Terraform module for creating subnets
@@ -7759,6 +7771,7 @@ tags,Flaconi,12175,null,https://github.com/Flaconi/terraform-null-tags,This help
 tags,Umanis,9794,azurerm,https://github.com/Umanis/terraform-azurerm-tags,Terraform module to normalize tagging on Azure ressources.
 tags,VictorLad,7505,aws,https://github.com/VictorLad/terraform-aws-tags,Terraform module allowing the management of tags to be positioned on one or more AWS resources.
 tags,agisoft-cloud,5463,null,https://github.com/agisoft-cloud/terraform-null-tags,Tag helper terraform module
+tags,aws-ia,13084,vsphere,https://github.com/aws-ia/terraform-vsphere-tags,"The vSphere tags Terraform module either creates or imports a tag category as well as a list of tags in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects."
 tags,cloudopsworks,12930,local,https://github.com/cloudopsworks/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
 tags,elasticguru,5715,local,https://github.com/elasticguru/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
 tags,hadenlabs,8353,null,https://github.com/hadenlabs/terraform-null-tags,Terraform tags
@@ -8572,6 +8585,7 @@ vpc-bastion,we-work-in-the-cloud,7317,ibm,https://github.com/we-work-in-the-clou
 vpc-bastionhost,terraform-alicloud-modules,10405,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-bastionhost,
 vpc-click-house-cluster-account,terraform-alicloud-modules,10416,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-click-house-cluster-account,
 vpc-cloudilm,hrazaf6,2388,aws,https://github.com/hrazaf6/terraform-aws-vpc-cloudilm,VPC Modules for the AWS
+vpc-demo,jiteshkanherkar,13069,aws,https://github.com/jiteshkanherkar/terraform-aws-vpc-demo,Terraform AWS VPC demo
 vpc-demo,kostasns,8893,aws,https://github.com/kostasns/terraform-aws-vpc-demo,Terraform module to Demo public module for VPC
 vpc-detail,shepherd44,10229,aws,https://github.com/shepherd44/terraform-aws-vpc-detail,
 vpc-dns-forwarder,angelabad,6601,aws,https://github.com/angelabad/terraform-aws-vpc-dns-forwarder,Terraform module which creates dns domain forwarder with Route53 Resolver on AWS
@@ -8807,7 +8821,7 @@ website-redirection,robbytaylor,3749,static,https://github.com/robbytaylor/terra
 website-secure,timmeinerzhagen,10815,aws,https://github.com/timmeinerzhagen/terraform-aws-website-secure,Terraform module for a secure website hosted on AWS
 website-serverless,dannylinden,1945,aws,https://github.com/dannylinden/terraform-aws-website-serverless,"Infrastructure for static websites with AWS CDN, Route53, S3, CodePipeline, CodeBuild"
 weechat-nginx,coregen,4690,aws,https://github.com/coregen/terraform-aws-weechat-nginx,Weechat relay behind nginx
-win-os-sku-calculator,libre-devops,13049,azurerm,https://github.com/libre-devops/terraform-azurerm-win-os-sku-calculator,Heavily inspired form Terraform Azure Compute Module
+win-os-sku-calculator,libre-devops,13049,azurerm,https://github.com/libre-devops/terraform-azurerm-win-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. Design to work with the Libre DevOps Windows VM module :rocket:"
 win-python-ec2,plus3it,2000,aws,https://github.com/plus3it/terraform-aws-win-python-ec2,Terraform module to create an EC2 instance with Python and Git installed.
 windows-container-host,jmarhee,7174,packet,https://github.com/jmarhee/terraform-packet-windows-container-host,
 windows-instance,dcos-terraform,2789,aws,https://github.com/dcos-terraform/terraform-aws-windows-instance,
@@ -8818,7 +8832,7 @@ windows-password-rotation-secret-manager,giuseppeborgese,2404,aws,https://github
 windows-vm,andrewCluey,6190,azurerm,https://github.com/andrewCluey/terraform-azurerm-windows-vm,Deploy a Windows Virtual Machine to Azure
 windows-vm,ayusmadi,3551,azurerm,https://github.com/ayusmadi/terraform-azurerm-windows-vm,Terraform module to deploy a virtual network and a Windows virtual machine into existing resource group.
 windows-vm,claranet,3782,azurerm,https://github.com/claranet/terraform-azurerm-windows-vm,Terraform module composition (feature) for ARM Windows Virtual Machine (VM)
-windows-vm,libre-devops,13054,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-vm,Make 1 or more Windows VMs in a private network in Azure.  Simple.
+windows-vm,libre-devops,13054,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 windows-vm,www-aiqu-no,2614,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-windows-vm,Deploy Windows virtual machine to vSphere cluster (from template)
 windows-vm-a,mjohnston1986,9003,azurerm,https://github.com/mjohnston1986/terraform-azurerm-windows-vm-a,
 windows-vm-b,mjohnston1986,9004,azurerm,https://github.com/mjohnston1986/terraform-azurerm-windows-vm-b,
