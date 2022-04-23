@@ -1732,6 +1732,7 @@ cloudtrail,StratusGrid,2549,aws,https://github.com/StratusGrid/terraform-aws-clo
 cloudtrail,appzen-oss,7867,aws,https://github.com/appzen-oss/terraform-aws-cloudtrail,Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 cloudtrail,avlcloudtechnologies,8569,aws,https://github.com/avlcloudtechnologies/terraform-aws-cloudtrail,Terraform module to create cloudtrail and related resources
 cloudtrail,azavea,1913,aws,https://github.com/azavea/terraform-aws-cloudtrail,A Terraform module to create an Amazon Web Services (AWS) CloudTrail Trail.
+cloudtrail,boldlink,13151,aws,https://github.com/boldlink/terraform-aws-cloudtrail,Terraform registry repository for AWS Cloudtrail module
 cloudtrail,clouddrove,3641,aws,https://github.com/clouddrove/terraform-aws-cloudtrail,Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 cloudtrail,cloudposse,204,aws,https://github.com/cloudposse/terraform-aws-cloudtrail,Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 cloudtrail,expel-io,12481,aws,https://github.com/expel-io/terraform-aws-cloudtrail,Terraform module for configuring AWS CloudTrail to integrate with Expel 
@@ -2307,6 +2308,7 @@ dependencies,justincampbell,2179,null,https://github.com/justincampbell/terrafor
 dependencies,roarytubbs,4035,null,https://github.com/roarytubbs/terraform-null-dependencies,
 deploy-tkg-cluster,jd4883,11384,kubectl,https://github.com/jd4883/terraform-kubectl-deploy-tkg-cluster,Uses terraform to parse parameters into a valid yaml for tanzu kubernetes cluster creation and applies the config. This is early stages and may be adjusted to make more intelligent decisions without needing as many variables. For now this is tested and working
 deploy-user,robbytaylor,3779,aws,https://github.com/robbytaylor/terraform-aws-deploy-user,Create users for AWS with minimal permissions
+deployer,bcgov,13149,openshift,https://github.com/bcgov/terraform-openshift-deployer,
 deployment,ballj,9166,kubernetes,https://github.com/ballj/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
 deployment,garbetjie,5805,kubernetes,https://github.com/garbetjie/terraform-kubernetes-deployment,
 deployment,puppetlabs,9756,ec,https://github.com/puppetlabs/terraform-ec-deployment,
@@ -2782,6 +2784,7 @@ ecs-atlantis,cloudposse,2010,aws,https://github.com/cloudposse/terraform-aws-ecs
 ecs-backend-service,mergermarket,3706,acuris,https://github.com/mergermarket/terraform-acuris-ecs-backend-service,
 ecs-bare-metal-instance,terraform-alicloud-modules,4222,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-bare-metal-instance,Terraform module for creating Bare Metal instance(s) on Alibaba Cloud.
 ecs-capacity-provider,figurate,5681,aws,https://github.com/figurate/terraform-aws-ecs-capacity-provider,Provision an ECS Capacity Provider
+ecs-capacity-provider,ganexcloud,13152,aws,https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider,
 ecs-cloud9,hazelops,4848,aws,https://github.com/hazelops/terraform-aws-ecs-cloud9,Terraform Cloud9 IDE on ECS
 ecs-cloudwatch-autoscaling,cloudposse,1394,aws,https://github.com/cloudposse/terraform-aws-ecs-cloudwatch-autoscaling,Terraform module to autoscale ECS Service based on CloudWatch metrics
 ecs-cloudwatch-sns-alarms,cloudposse,1245,aws,https://github.com/cloudposse/terraform-aws-ecs-cloudwatch-sns-alarms,Terraform module to create CloudWatch Alarms on ECS Service level metrics.
@@ -2830,7 +2833,6 @@ ecs-execution-role,aisamji,8717,aws,https://github.com/aisamji/terraform-aws-ecs
 ecs-fargate,BrunIF,5279,aws,https://github.com/BrunIF/terraform-aws-ecs-fargate,
 ecs-fargate,aric49,10098,aws,https://github.com/aric49/terraform-aws-ecs-fargate,Terraform module which creates Fargate ECS resources on AWS.
 ecs-fargate,aws-ia,9519,aws,https://github.com/aws-ia/terraform-aws-ecs-fargate,AWS ECS Fargate Module
-ecs-fargate,boldlink,12344,aws,https://github.com/boldlink/terraform-aws-ecs-fargate,Terraform registy AWS modules repository for ECS Fargate
 ecs-fargate,brunordias,7363,aws,https://github.com/brunordias/terraform-aws-ecs-fargate,"Terraform module which provides tasks definitions, services, scaling and load balancing to ECS powered by AWS Fargate."
 ecs-fargate,cn-terraform,3252,aws,https://github.com/cn-terraform/terraform-aws-ecs-fargate,AWS ECS Fargate Terraform Module
 ecs-fargate,fdr2,10125,aws,https://github.com/fdr2/terraform-aws-ecs-fargate,Terraform module to create AWS ECS FARGATE services
@@ -3100,6 +3102,7 @@ eks-addons,sriharshakarampudi,6389,aws,https://github.com/sriharshakarampudi/ter
 eks-ak,synectiks-sddc,10379,aws,https://github.com/synectiks-sddc/terraform-aws-eks-ak,This repository contains a Terraform module for creating an EKS cluster and all the necessary infrastructure
 eks-alb-ingress,lablabs,4435,aws,https://github.com/lablabs/terraform-aws-eks-alb-ingress,
 eks-argocd,DNXLabs,8665,aws,https://github.com/DNXLabs/terraform-aws-eks-argocd,Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.
+eks-audit-log,lacework,13137,aws,https://github.com/lacework/terraform-aws-eks-audit-log,
 eks-auth,aidanmelen,12270,aws,https://github.com/aidanmelen/terraform-aws-eks-auth,A Terraform module to manage cluster authentication (aws-auth) for an Elastic Kubernetes (EKS) cluster on AWS.
 eks-auth,sailthru,1882,aws,https://github.com/sailthru/terraform-aws-eks-auth,Terraform module for generating AWS EKS configuration
 eks-auth-addons,pen-pal,12647,aws,https://github.com/pen-pal/terraform-aws-eks-auth-addons,this repository is for adding addons to already hosted eks cluster 
@@ -3189,6 +3192,7 @@ eks-load-balancer-controller,lablabs,10056,aws,https://github.com/lablabs/terraf
 eks-metrics-server,DNXLabs,8676,aws,https://github.com/DNXLabs/terraform-aws-eks-metrics-server,"Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler."
 eks-metrics-server,lablabs,5510,aws,https://github.com/lablabs/terraform-aws-eks-metrics-server,
 eks-minio-operator,DNXLabs,11775,aws,https://github.com/DNXLabs/terraform-aws-eks-minio-operator,
+eks-module,OpenClassrooms,13141,aws,https://github.com/OpenClassrooms/terraform-aws-eks-module,Terraform module to provision an EKS cluster and all associated resources.
 eks-monitoring,andreswebs,9919,aws,https://github.com/andreswebs/terraform-aws-eks-monitoring,"Deploys Prometheus, Grafana, Loki and Promtail on AWS EKS via Helm"
 eks-node-group,cloudposse,3709,aws,https://github.com/cloudposse/terraform-aws-eks-node-group,Terraform module to provision a fully managed AWS EKS Node Group
 eks-node-group,native-cube,12167,aws,https://github.com/native-cube/terraform-aws-eks-node-group,Terraform module to provision EKS Managed Node Group
@@ -3433,6 +3437,7 @@ facebook-gcal-sync,amancevice,1920,heroku,https://github.com/amancevice/terrafor
 facebook-gcal-sync-secrets,amancevice,1919,aws,https://github.com/amancevice/terraform-aws-facebook-gcal-sync-secrets,Store secrets for access to facebook and Google Calendar
 facebook-webhook,amancevice,1156,google,https://github.com/amancevice/terraform-google-facebook-webhook,Google Cloud Function for responding to facebook webhooks
 fargate,JamesWoolfenden,2853,aws,https://github.com/JamesWoolfenden/terraform-aws-fargate,Terraform module to support work with AWS Fargate Containers
+fargate,Rishang,13146,aws,https://github.com/Rishang/terraform-aws-fargate,terraform module to deploy aws ecs fargate 
 fargate,almirosmanovic,4304,aws,https://github.com/almirosmanovic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate,kosciuszko-cloud,11439,aws,https://github.com/kosciuszko-cloud/terraform-aws-fargate,kosciuszko-flavoured fargate cluster terraform module
 fargate,strvcom,2107,aws,https://github.com/strvcom/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
@@ -4629,6 +4634,7 @@ kubernetes-cluster,jason-morsley,5118,aws,https://github.com/jason-morsley/terra
 kubernetes-cluster,russmedia,1270,google,https://github.com/russmedia/terraform-google-kubernetes-cluster,GKE Kubernetes cluster with node pool submodule
 kubernetes-cluster,tsadoklf,1774,google,https://github.com/tsadoklf/terraform-google-kubernetes-cluster,Google Cloud Platform Kubernetes Cluster Terraform Module
 kubernetes-cluster,yellowmegaman,2293,google,https://github.com/yellowmegaman/terraform-google-kubernetes-cluster,RBAC-only reevaluate-friendly cluster
+kubernetes-delegate,harness,13144,harness,https://github.com/harness/terraform-harness-kubernetes-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
 kubernetes-engine,Aizhamal2312,7132,google,https://github.com/Aizhamal2312/terraform-google-kubernetes-engine,
 kubernetes-engine,Aksana-ozgon,7128,google,https://github.com/Aksana-ozgon/terraform-google-kubernetes-engine,
 kubernetes-engine,Bekzhan-osh,7125,google,https://github.com/Bekzhan-osh/terraform-google-kubernetes-engine,
@@ -5380,6 +5386,7 @@ mys3bucket1,SaiGurunadh25,12945,aws,https://github.com/SaiGurunadh25/terraform-a
 mysql,JamesWoolfenden,7790,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-mysql,Basic MySQL module
 mysql,StayWell,2374,aws,https://github.com/StayWell/terraform-aws-mysql,Aurora serverless MySQL
 mysql,arginbest,5849,aws,https://github.com/arginbest/terraform-aws-mysql,
+mysql,clouddrove,13147,aws,https://github.com/clouddrove/terraform-aws-mysql,Terraform module to create a MySQL on AWS.
 mysql,dodevops,8604,azure,https://github.com/dodevops/terraform-azure-mysql,Highly opinionated management of Azure DB for MySQL resources
 mysql,foreverXZC,1300,azurerm,https://github.com/foreverXZC/terraform-azurerm-mysql,Terraform module creating a MySQL Database on Azure
 mysql,han-nl,2491,azurerm,https://github.com/han-nl/terraform-azurerm-mysql,Create a MySQL on Azure database server and one database on that.
@@ -5740,6 +5747,7 @@ openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,O
 openraven-accountconnect,abanerjee-svmk,9873,aws,https://github.com/abanerjee-svmk/terraform-aws-openraven-accountconnect,Terraform module to deploy resources in AWS account required by OpenRaven
 opensearch,idealo,11248,aws,https://github.com/idealo/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
 openshift,DTherHtun,5766,vsphere,https://github.com/DTherHtun/terraform-vsphere-openshift,Create VM for Openshift in vsphere
+openshift,bcgov,13150,deployer,https://github.com/bcgov/terraform-deployer-openshift,
 openshift,literalice,842,aws,https://github.com/literalice/terraform-aws-openshift,Creates OpenShift Container Platform(OCP) or OKD cluster
 openshift,odzhu,607,aws,https://github.com/odzhu/terraform-aws-openshift,Automated cloud reference architecture library based on proven design patterns using Terraform
 openshift,zzxwill,3517,alicloud,https://github.com/zzxwill/terraform-alicloud-openshift,A terraform module for deploying OpenShift on ECS
@@ -6504,6 +6512,7 @@ route-table,claranet,3781,azurerm,https://github.com/claranet/terraform-azurerm-
 route53,Aplyca,1011,aws,https://github.com/Aplyca/terraform-aws-route53,Terraform AWS Route53 module.  Create a Route53 zone and dns records
 route53,KoeSystems,473,aws,https://github.com/KoeSystems/terraform-aws-route53,Terraform AWS Route53 module to create public hosted zones.
 route53,Lunik,10620,aws,https://github.com/Lunik/terraform-aws-route53,Create and configure basic AWS Reoute 53 service.
+route53,boldlink,13138,aws,https://github.com/boldlink/terraform-aws-route53,A Module that manages Route53 resources.
 route53,clouddrove,3646,aws,https://github.com/clouddrove/terraform-aws-route53,Terraform module to create Route53 resource on AWS for zone and record set. 
 route53,erlonpinheiro,2732,aws,https://github.com/erlonpinheiro/terraform-aws-route53,Terraform module for creating Route53 zones
 route53,foss-cafe,6045,aws,https://github.com/foss-cafe/terraform-aws-route53,Terraform module for AWS Route 53
@@ -6795,6 +6804,7 @@ s3backend,ProxyOxide,9621,aws,https://github.com/ProxyOxide/terraform-aws-s3back
 s3backend,Ravibs139,10585,aws,https://github.com/Ravibs139/terraform-aws-s3backend,terraform in action
 s3backend,Ronan-O-Keeffe,9908,aws,https://github.com/Ronan-O-Keeffe/terraform-aws-s3backend,
 s3backend,ScottHensen,3893,aws,https://github.com/ScottHensen/terraform-aws-s3backend,Terraform remote (s3) backend 
+s3backend,ShebaVTech,13148,aws,https://github.com/ShebaVTech/terraform-aws-s3backend,
 s3backend,SupSkiFun,10533,aws,https://github.com/SupSkiFun/terraform-aws-s3backend,Terraform S3 Backend Module
 s3backend,Thirsty2,5070,aws,https://github.com/Thirsty2/terraform-aws-s3backend,
 s3backend,adriaanbd,6618,aws,https://github.com/adriaanbd/terraform-aws-s3backend,
@@ -6967,6 +6977,7 @@ secrets-engines,devops-rob,6866,vault,https://github.com/devops-rob/terraform-va
 secrets-manager,boldlink,12877,aws,https://github.com/boldlink/terraform-aws-secrets-manager,A Module to manage AWS Secrets Manager secret metadata.
 secrets-manager,bryan-rhm,12038,aws,https://github.com/bryan-rhm/terraform-aws-secrets-manager,Terraform module for AWS secrets manager
 secrets-manager,lgallard,5321,aws,https://github.com/lgallard/terraform-aws-secrets-manager,Terraform module to create Amazon Secrets Manager resources.
+secrets-manager,pogosoftware,13139,aws,https://github.com/pogosoftware/terraform-aws-secrets-manager,
 secrets-manager,rocketlawyer,6000,google,https://github.com/rocketlawyer/terraform-google-secrets-manager,Terraform module for managing GCP secrets manager
 secrets-manager-parser,hendrixroa,8090,aws,https://github.com/hendrixroa/terraform-aws-secrets-manager-parser,AWS Secrets manager parser to handle ECS containers or another integration service.
 secretsmanager,SweetOps,10458,aws,https://github.com/SweetOps/terraform-aws-secretsmanager,Terraform module to provision and manage AWS Secrets Manager
@@ -7934,6 +7945,7 @@ tf-state,jacops,4489,azurerm,https://github.com/jacops/terraform-azurerm-tf-stat
 tfbackend,claque2000,948,aws,https://github.com/claque2000/terraform-aws-tfbackend,A module to abstract s3 secured backend with dynamodb lock for Terraform
 tfbackend,tf-mod,2839,aws,https://github.com/tf-mod/terraform-aws-tfbackend,
 tfc-cloud-agent,cloudposse,6379,kubernetes,https://github.com/cloudposse/terraform-kubernetes-tfc-cloud-agent,Provision a Terraform Cloud Agent on an existing Kubernetes cluster.
+tfc-iam-credentials-rotation,Olgoetz,13142,aws,https://github.com/Olgoetz/terraform-aws-tfc-iam-credentials-rotation,Module to set up automated iam credential rotation for TFC
 tfc-state-backup,Olgoetz,11832,aws,https://github.com/Olgoetz/terraform-aws-tfc-state-backup,Solution for automated backups of Terraform Cloud workspaces.
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
@@ -8551,6 +8563,7 @@ vpc,shamal112mn,6706,aws,https://github.com/shamal112mn/terraform-aws-vpc,
 vpc,shamal112mn,7108,gcp,https://github.com/shamal112mn/terraform-gcp-vpc,
 vpc,shestera,5515,yandex,https://github.com/shestera/terraform-yandex-vpc,
 vpc,shokhan7,9388,aws,https://github.com/shokhan7/terraform-aws-vpc,
+vpc,sibisaravanan,13136,aws,https://github.com/sibisaravanan/terraform-aws-vpc,Terraform module for AWS VPC
 vpc,slimflex2,6700,aws,https://github.com/slimflex2/terraform-aws-vpc,
 vpc,smc181002,9117,aws,https://github.com/smc181002/terraform-aws-vpc,
 vpc,smrutimandal,1053,aws,https://github.com/smrutimandal/terraform-aws-vpc,
