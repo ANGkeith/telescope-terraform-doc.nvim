@@ -1338,6 +1338,7 @@ c6,aoshfan,12876,aws,https://github.com/aoshfan/terraform-aws-c6,
 ca,4ops,7246,tls,https://github.com/4ops/terraform-tls-ca,Terraform module
 ca,SOSETH,10645,vault,https://github.com/SOSETH/terraform-vault-ca,Terraform role to set up a CA using Vault's PKI secret engine
 ca-certificate,netascode,9766,aci,https://github.com/netascode/terraform-aci-ca-certificate,Terraform Cisco ACI CA Certificate Module
+cache-for-redis,spy86,13165,azure,https://github.com/spy86/terraform-azure-cache-for-redis,Terraform Module for Azure Redis Cache
 cache-policy,transcend-io,8112,aws,https://github.com/transcend-io/terraform-aws-cache-policy,A terraform module for creating a CloudFront Cache Policy
 cached-ami,ebekker,883,aws,https://github.com/ebekker/terraform-aws-cached-ami,A Terraform Module that provides a replacement for the aws_ami data source supporting cached results
 cadvisor,anvibo,2259,docker,https://github.com/anvibo/terraform-docker-cadvisor,
@@ -3585,6 +3586,7 @@ frontdoor,T-Systems-MMS,12106,azurerm,https://github.com/T-Systems-MMS/terraform
 frontdoor,andrewCluey,5565,azurerm,https://github.com/andrewCluey/terraform-azurerm-frontdoor,
 frontdoor,kumarvna,10168,azurerm,https://github.com/kumarvna/terraform-azurerm-frontdoor,Terraform module to create Microsoft's highly available and scalable web application acceleration platform and global HTTP(s) load balancer Azure Front Door Service.
 frontend,Selleo,7631,aws,https://github.com/Selleo/terraform-aws-frontend,Collection of Terraform modules for frontend app deployment on AWS.
+frontend-pipeline,toluna-terraform,13164,aws,https://github.com/toluna-terraform/terraform-aws-frontend-pipeline,
 frontend-router,mergermarket,8555,acuris,https://github.com/mergermarket/terraform-acuris-frontend-router,
 frontend-service-routing,mergermarket,8559,acuris,https://github.com/mergermarket/terraform-acuris-frontend-service-routing,
 frontend-web-app,caribouhealth,11776,aws,https://github.com/caribouhealth/terraform-aws-frontend-web-app,A terraform module for deploying a front-end web app to AWS via S3 and Cloudfront
@@ -6122,6 +6124,7 @@ rancher-agent,iplabs,4910,kubernetes,https://github.com/iplabs/terraform-kuberne
 rancher-hosts,kiwicom,3038,aws,https://github.com/kiwicom/terraform-aws-rancher-hosts,
 rancherChart,SinnConsulting,7576,helm,https://github.com/SinnConsulting/terraform-helm-rancherChart,Terraform Helm Rancher Chart: https://registry.terraform.io/modules/SinnConsulting/rancherChart
 random,cappyzawa,7480,christmas_tree,https://github.com/cappyzawa/terraform-christmas_tree-random,A module for https://registry.terraform.io/providers/cappyzawa/christmas-tree/latest
+rayprogramming-cognito-auth,rayprogramming,13163,aws,https://github.com/rayprogramming/terraform-aws-rayprogramming-cognito-auth,This is the terraform users module for my video streaming application
 rbac,aidanmelen,12842,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-rbac,A Terraform module to manage Kubernetes RBAC Authorization.
 rbac,thecomalley,9528,azure,https://github.com/thecomalley/terraform-azure-rbac,Terraform module for Role based access control of Azure & Azure DevOps resources
 rbac-group,tf-mod,3135,aws,https://github.com/tf-mod/terraform-aws-rbac-group,
@@ -6480,7 +6483,7 @@ rg,kjanshair,929,azurerm,https://github.com/kjanshair/terraform-azurerm-rg,
 rg,libre-devops,13047,azurerm,https://github.com/libre-devops/terraform-azurerm-rg,A module used to create a resource group with a management lock in Azure :closed_lock_with_key:
 rg,namanbajaj08,6009,azure,https://github.com/namanbajaj08/terraform-azure-rg,
 rg,shiboyan,11497,az,https://github.com/shiboyan/terraform-az-rg,az rg
-rg,spy86,13114,azure,https://github.com/spy86/terraform-azure-rg,
+rg,spy86,13114,azure,https://github.com/spy86/terraform-azure-rg,Terraform Module for Azure Resource Group
 rhlstorage,rhlrahul,9507,azure,https://github.com/rhlrahul/terraform-azure-rhlstorage,
 rhythmic-iam-roles,rhythmictech,5397,aws,https://github.com/rhythmictech/terraform-aws-rhythmic-iam-roles,Create and manage IAM roles for Rhythmic engineers to access accounts via cross-account IAM roles.
 rhythmic-monitoring,rhythmictech,6396,aws,https://github.com/rhythmictech/terraform-aws-rhythmic-monitoring,Configures a basic monitoring pattern based on three thresholds
@@ -6704,6 +6707,7 @@ s3-cloudfront-module,taragurung,4716,aws,https://github.com/taragurung/terraform
 s3-cloudfront-page,udondan,3497,aws,https://github.com/udondan/terraform-aws-s3-cloudfront-page,Terraform module for publishing a static page via AWS CloudFront.
 s3-cloudfront-redirect,riboseinc,2350,aws,https://github.com/riboseinc/terraform-aws-s3-cloudfront-redirect,"Terraform module for redirecting a root/apex site with CloudFront with an SSL certificate (e.g., from ACM)"
 s3-cloudfront-route53,7hoenix,3865,website,https://github.com/7hoenix/terraform-website-s3-cloudfront-route53,"Terraform scripts to setup an S3 based static website, with a CloudFront distribution and the required Route53 entries."
+s3-cloudfront-static-website,DevOpsNavy,13168,aws,https://github.com/DevOpsNavy/terraform-aws-s3-cloudfront-static-website,Terraform Module for an Amazon Static Website using a private S3 bucket and CloudFront.
 s3-cloudfront-website,riboseinc,1063,aws,https://github.com/riboseinc/terraform-aws-s3-cloudfront-website,"Terraform module for creating a static S3 website with CloudFront with an SSL certificate (e.g., from ACM)"
 s3-cloudtrail,tmknom,1742,aws,https://github.com/tmknom/terraform-aws-s3-cloudtrail,Terraform module which creates S3 Bucket resources for CloudTrail on AWS.
 s3-configvault,armorfret,12521,aws,https://github.com/armorfret/terraform-aws-s3-configvault,Manage S3 bucket for shared server configuration
@@ -7112,7 +7116,7 @@ serverless-api-stage,scaffoldly,9449,aws,https://github.com/scaffoldly/terraform
 serverless-api-stage-iam,scaffoldly,9446,aws,https://github.com/scaffoldly/terraform-aws-serverless-api-stage-iam,Create IAM Roles for execution of a specific service (bounded by a repository name) on a specific stage
 serverless-api-stage-secrets,scaffoldly,9447,github,https://github.com/scaffoldly/terraform-github-serverless-api-stage-secrets,Manage deployment secrets into GitHub Actions Secrets for a repository
 serverless-api-stage-websocket,scaffoldly,11037,aws,https://github.com/scaffoldly/terraform-aws-serverless-api-stage-websocket,Create a API Gateway V2 Websocket API for a stage
-serverless-app,terraformita,11847,aws,https://github.com/terraformita/terraform-aws-serverless-app,"Serverless App on AWS with API Gateway backend, Lambda business logic, and S3 frontend"
+serverless-app,terraformita,11847,aws,https://github.com/terraformita/terraform-aws-serverless-app,"Serverless App on AWS with API Gateway, Lambda as Backend API, and S3-based frontend"
 serverless-backend,dvargas92495,6023,aws,https://github.com/dvargas92495/terraform-aws-serverless-backend,
 serverless-beacon,aehrc,2100,aws,https://github.com/aehrc/terraform-aws-serverless-beacon,"Implementation of Beacon in a serverless (FaaS) manner, to enable cheaper and more versatile (e.g. over distributed ) queries "
 serverless-common-api-gateway,vladcar,5231,aws,https://github.com/vladcar/terraform-aws-serverless-common-api-gateway,AWS API Gateway
@@ -7702,6 +7706,7 @@ storage-account,avinor,2487,azurerm,https://github.com/avinor/terraform-azurerm-
 storage-account,bcochofel,8415,azurerm,https://github.com/bcochofel/terraform-azurerm-storage-account,AzureRM Storage Account Terraform Module
 storage-account,bytejunkie,7352,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-account,
 storage-account,dfar-io,6331,azurerm,https://github.com/dfar-io/terraform-azurerm-storage-account,Terraform Module for creating Azure storage accounts
+storage-account,libre-devops,13167,azurerm,https://github.com/libre-devops/terraform-azurerm-storage-account,A module used to generate a storage account :fire:
 storage-account,picta,5919,azurerm,https://github.com/picta/terraform-azurerm-storage-account,
 storage-account,rhythmictech,4911,azurerm,https://github.com/rhythmictech/terraform-azurerm-storage-account,Terraform module for managing Azure storage accounts
 storage-account,rink72,3892,azurerm,https://github.com/rink72/terraform-azurerm-storage-account,Terraform module for deploying a storage account
@@ -8209,6 +8214,7 @@ virtual-network,innovationnorway,2231,azurerm,https://github.com/innovationnorwa
 virtual-network,minhnnhat,8863,azure,https://github.com/minhnnhat/terraform-azure-virtual-network,
 virtual-network,philipdvo,12770,azure,https://github.com/philipdvo/terraform-azure-virtual-network,
 virtual-network,sjones-sot,724,azurerm,https://github.com/sjones-sot/terraform-azurerm-virtual-network,Basic module for creating an AzureRM Vnet
+virtual-network,spy86,13166,azure,https://github.com/spy86/terraform-azure-virtual-network,Terraform Module for Azure Virtual Network
 virtual-network,terraformation,3955,azurerm,https://github.com/terraformation/terraform-azurerm-virtual-network,
 virtual-network,tomarv2,12220,azure,https://github.com/tomarv2/terraform-azure-virtual-network,Terraform module for Azure Virtual Network
 virtual-network-hub,avinor,2503,azurerm,https://github.com/avinor/terraform-azurerm-virtual-network-hub,A Terraform module to create a hub virtual network according to Microsoft Best Practice of deploying Hub-Spoke
@@ -8639,6 +8645,7 @@ vpc-demo,jiteshkanherkar,13069,aws,https://github.com/jiteshkanherkar/terraform-
 vpc-demo,kostasns,8893,aws,https://github.com/kostasns/terraform-aws-vpc-demo,Terraform module to Demo public module for VPC
 vpc-detail,shepherd44,10229,aws,https://github.com/shepherd44/terraform-aws-vpc-detail,
 vpc-dns-forwarder,angelabad,6601,aws,https://github.com/angelabad/terraform-aws-vpc-dns-forwarder,Terraform module which creates dns domain forwarder with Route53 Resolver on AWS
+vpc-ec2-s3,rcsfc,13169,aws,https://github.com/rcsfc/terraform-aws-vpc-ec2-s3,"This module shows an example of how you might deploy an Ubuntu instance with a simple VPC, an S3 bucket pre-configured with a user and policy in IAM, the auth key and secret uploaded as an encrypted text file directly to the S3 bucket, and S3FS and AWSCli pre-installed through cloud-init to mount the S3 bucket."
 vpc-ecs,terraform-alicloud-modules,10409,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-ecs,
 vpc-ecs-eip,terraform-alicloud-modules,10411,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-ecs-eip,
 vpc-ecs-rds-slb,terraform-alicloud-modules,10406,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-ecs-rds-slb,
