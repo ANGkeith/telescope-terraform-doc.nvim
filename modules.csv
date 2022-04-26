@@ -396,6 +396,7 @@ ami-sharing,devops-made-easy,6336,aws,https://github.com/devops-made-easy/terraf
 ami-showcase,yukihira1992,2703,aws,https://github.com/yukihira1992/terraform-aws-ami-showcase,Data only Terraform module which describes generally used public AMIs.
 ami-ubuntu,andreswebs,9784,aws,https://github.com/andreswebs/terraform-aws-ami-ubuntu,Terraform module to fetch the most recent Ubuntu 20.04 AMI by default
 ami_instance1,narendraand93,11041,aws,https://github.com/narendraand93/terraform-aws-ami_instance1,aws-ami_instance
+amis,dabble-of-devops-bioanalyze,13174,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-amis,
 amis,truemark,8963,aws,https://github.com/truemark/terraform-aws-amis,
 amplify-app,brunordias,11691,aws,https://github.com/brunordias/terraform-aws-amplify-app,"Terraform module for building Amplify Hosting APPs, create as many necessary braches and domain associations."
 amplify-app,masterpointio,9190,aws,https://github.com/masterpointio/terraform-aws-amplify-app,A Terraform module for building simple Amplify apps.
@@ -3234,6 +3235,7 @@ elastic-beanstalk-environment,paul-lupu,2576,aws,https://github.com/paul-lupu/te
 elastic-beanstalk-environment,rusrushal13,9750,aws,https://github.com/rusrushal13/terraform-aws-elastic-beanstalk-environment,Terraform module to provision an AWS Elastic Beanstalk Environment
 elastic-beanstalk-environment,scalereal,6491,aws,https://github.com/scalereal/terraform-aws-elastic-beanstalk-environment,Terraform Module for AWS elastic beanstalk environment creation.
 elastic-operator,mateothegreat,6638,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-elastic-operator,Provision the elastic operator on kubernetes with Terraform.
+elastic-service,philips-labs,13177,hsdp,https://github.com/philips-labs/terraform-hsdp-elastic-service,"Provisions ElastiSearch on HSP including a Prometheus metrics endpoint, discoverable by variant"
 elasticache,JamesWoolfenden,11326,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticache,Basic elasticache module
 elasticache,OT-CLOUD-KIT,10598,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache,
 elasticache,clouddrove,3651,aws,https://github.com/clouddrove/terraform-aws-elasticache,Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
@@ -3658,6 +3660,7 @@ gcs,woernfl,1839,gcp,https://github.com/woernfl/terraform-gcp-gcs,
 gcs-bucket,nephosolutions,1186,google,https://github.com/nephosolutions/terraform-google-gcs-bucket,Terraform module to provision Google Cloud Storage buckets
 gcs_bucket,airasia,4941,google,https://github.com/airasia/terraform-google-gcs_bucket,Terraform module for storage bucket in GCP
 gcve,kasna-cloud,12255,google,https://github.com/kasna-cloud/terraform-google-gcve,
+gcve-dhcp-segments,kalenarndt,13179,nsxt,https://github.com/kalenarndt/terraform-nsxt-gcve-dhcp-segments,Terraform Module to create NSX-T overlay segments and DHCP Servers within Google Cloud VMware Engine
 gcve-mon,kasna-cloud,12681,google,https://github.com/kasna-cloud/terraform-google-gcve-mon,This Terraform module will create a GCVE monitoring agent that can be used in your GCVE project to send logs into Cloud Operations
 geethasri336,geethasri336,8109,azurerm,https://github.com/geethasri336/terraform-azurerm-geethasri336,public ip 
 gen-files,schollii,8073,local,https://github.com/schollii/terraform-local-gen-files,Generate helm values files and other config files from terraform state
@@ -4451,6 +4454,7 @@ keypair,akhasa2001,11879,aws,https://github.com/akhasa2001/terraform-aws-keypair
 keypair,almayusuf,11894,aws,https://github.com/almayusuf/terraform-aws-keypair,terrafomr-aws-keypair
 keypair,azizvelat,11903,aws,https://github.com/azizvelat/terraform-aws-keypair,
 keypair,clouddrove,3635,aws,https://github.com/clouddrove/terraform-aws-keypair,Terraform module for generating or importing an SSH public key file into AWS.
+keypair,dabble-of-devops-bioanalyze,13175,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-keypair,
 keypair,dskz,11881,aws,https://github.com/dskz/terraform-aws-keypair,
 keypair,farrukh90,11884,aws,https://github.com/farrukh90/terraform-aws-keypair,
 keypair,jangjaelee,5850,aws,https://github.com/jangjaelee/terraform-aws-keypair,Terraform Module for AWS Key Pair
@@ -5670,8 +5674,6 @@ nsg,walmartdigital,7373,azure,https://github.com/walmartdigital/terraform-azure-
 nsx-t-manager,adarobin,8104,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-t-manager,
 nsx-v-manager,adarobin,8105,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-v-manager,
 nsxt,shawnho1018,4064,vsphere,https://github.com/shawnho1018/terraform-vsphere-nsxt,This is an nsx-t module to quickly create subnet in NSX-T for future VM provisioning. 
-nsxt-gcve-dhcp-segments,kalenarndt,13106,nsxt,https://github.com/kalenarndt/terraform-nsxt-nsxt-gcve-dhcp-segments,Terraform Module to create NSX-T overlay segments and DHCP Servers within Google Cloud VMware Engine
-nsxt-policy-segment-profiles,kalenarndt,13116,nsxt,https://github.com/kalenarndt/terraform-nsxt-nsxt-policy-segment-profiles,Terraform Module to create NSXT Segment Policies
 nuke-bomber,masterpointio,9191,aws,https://github.com/masterpointio/terraform-aws-nuke-bomber,:airplane: :bomb: :cloud:   A Terraform module to create a bomber which nukes your cloud environment on a schedule
 null,scaffold,4727,null,https://github.com/scaffold/terraform-null-null,
 null-label,appzen-oss,11629,aws,https://github.com/appzen-oss/terraform-aws-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
@@ -5905,6 +5907,7 @@ policy-definition,andrewCluey,9037,azurerm,https://github.com/andrewCluey/terraf
 policy-exemptions,globalbao,9842,azurerm,https://github.com/globalbao/terraform-azurerm-policy-exemptions,Terraform module for managing AzureRM policy exemptions (via ARM template) by @jesseloudon
 policy-packer,phzietsman,5961,aws,https://github.com/phzietsman/terraform-aws-policy-packer,Optimally use the space in a AWS policy document
 policy-provisioner,stavxyz,5545,chef,https://github.com/stavxyz/terraform-chef-policy-provisioner,👩‍🍳 Policyfile.rb ⏭ Build  🏗 Policy Archive 📦 ⏭ Execute on node. Automatic. Repeatable. No Chef Server Required.
+policy-segment-profiles,kalenarndt,13178,nsxt,https://github.com/kalenarndt/terraform-nsxt-policy-segment-profiles,Terraform Module to create NSXT Segment Policies
 policyfile,devoptimist,2896,chef,https://github.com/devoptimist/terraform-chef-policyfile,
 policyfile,srb3,3923,chef,https://github.com/srb3/terraform-chef-policyfile,
 policyset-definition,andrewCluey,9049,azurerm,https://github.com/andrewCluey/terraform-azurerm-policyset-definition,Create a custom policy set (initiative) definition
@@ -6935,6 +6938,7 @@ sarita1april,sarita26687,12870,aws,https://github.com/sarita26687/terraform-aws-
 satellite,terraform-ibm-modules,10353,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite,Terraform modules to create and work with IBM Cloud Satellite resources
 satellite-aws,terraform-ibm-modules,11229,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite-aws,Terraform modules to set up satellite location on IBM cloud with AWS EC2 host.
 satellite-azure,terraform-ibm-modules,11975,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite-azure,Use this terrafrom automation to set up satellite location on IBM cloud with Azure host.
+satellite-gcp,terraform-ibm-modules,13172,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite-gcp,Use this terrafrom automation to set up satellite location on IBM cloud with Google host.
 satisfactoryserver,Feyko,10931,docker,https://github.com/Feyko/terraform-docker-satisfactoryserver,A Terraform module for Satisfactory dedicated server creation
 sawyer,sawyerbrink,10430,aws,https://github.com/sawyerbrink/terraform-aws-sawyer,This is a terraform module to deploy the Sawyer risk & governance solution by SawyerBrink
 scaleset,chaglare,7466,azure,https://github.com/chaglare/terraform-azure-scaleset,
@@ -7644,6 +7648,7 @@ staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKCho
 staticwebsitepublic,PerRoll,10818,azurerm,https://github.com/PerRoll/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ShubhUK,11186,azurerm,https://github.com/ShubhUK/terraform-azurerm-staticwebsitepublic,terraform-azurerm-staticwebsitepublic
 staticwebsitepublic,adichan,12018,azurerm,https://github.com/adichan/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,ajaytak19,13176,azurerm,https://github.com/ajaytak19/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,amitkrmzp,12858,azurerm,https://github.com/amitkrmzp/terraform-azurerm-staticwebsitepublic,terraform public wensite
 staticwebsitepublic,anshuktr,12844,azure,https://github.com/anshuktr/terraform-azure-staticwebsitepublic,Terraform modules to be shared in Terraform Public Registry
 staticwebsitepublic,avinashumbardand01,11064,azurerm,https://github.com/avinashumbardand01/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -8188,6 +8193,7 @@ vendor-access,CoffeeAndCode,4412,aws,https://github.com/CoffeeAndCode/terraform-
 verify,gordonbondon,1055,common,https://github.com/gordonbondon/terraform-common-verify,Terraform module to verify variables
 versa-flexvnf,equinix,8140,equinix,https://github.com/equinix/terraform-equinix-versa-flexvnf,Terraform module for quick deployment of VERSA Networks FlexVNF SD-WAN edge device
 video-transcoding,simonknittel,6172,google,https://github.com/simonknittel/terraform-google-video-transcoding,Terraform Module to transcode and serve videos via Google Cloud services.
+videoStreamer-cloudfront,rayprogramming,13170,aws,https://github.com/rayprogramming/terraform-aws-videoStreamer-cloudfront,This is the terraform cloudfront module for my video streaming application
 vidyademo,kottevidya,12279,aws,https://github.com/kottevidya/terraform-aws-vidyademo,
 vinet-3tier,Aksana-ozgon,6973,azure,https://github.com/Aksana-ozgon/terraform-azure-vinet-3tier,
 vinodh,vinodhreddyidisireddy,12278,aws,https://github.com/vinodhreddyidisireddy/terraform-aws-vinodh,
@@ -8852,6 +8858,7 @@ webapp,ferdie17,12966,azurerm,https://github.com/ferdie17/terraform-azurerm-weba
 webapp,patela31,10956,azurerm,https://github.com/patela31/terraform-azurerm-webapp,
 webapp,rahulkhengare,1148,azurerm,https://github.com/rahulkhengare/terraform-azurerm-webapp,Terraform Azure RM WebApp Module
 webapp,steelyjeff,9081,azurerm,https://github.com/steelyjeff/terraform-azurerm-webapp,"Terraform module for provisioning Azure Service plan, App service (web app) and Application Insight"
+webapp,teravaidya,13171,azurerm,https://github.com/teravaidya/terraform-azurerm-webapp,
 webapp-appgw,innovationnorway,1602,azurerm,https://github.com/innovationnorway/terraform-azurerm-webapp-appgw,Module for a web application and application gateway
 webapp-php,genstackio,7898,aws,https://github.com/genstackio/terraform-aws-webapp-php,Terraform module to create a PHP Webapp embedded in a Lambda
 webapp-symfony,genstackio,7897,aws,https://github.com/genstackio/terraform-aws-webapp-symfony,Terraform module to create a Symfony (PHP) Webapp embedded in a Lambda
