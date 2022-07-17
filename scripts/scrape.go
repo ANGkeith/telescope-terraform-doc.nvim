@@ -17,7 +17,7 @@ import (
 )
 
 var isDebug = false
-var queryPerLoop = 3
+var queryPerLoop = 2
 var pageSize = 100
 var outputDir string
 
