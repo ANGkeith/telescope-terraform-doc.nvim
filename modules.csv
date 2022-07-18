@@ -182,7 +182,7 @@ acr-enterprise,terraform-alicloud-modules,12792,alicloud,https://github.com/terr
 acr-personal,terraform-alicloud-modules,12793,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-acr-personal,Terraform Module for creating Container Registry Personal Edition on Alibaba Cloud.
 acs,ipolyzos,547,azurerm,https://github.com/ipolyzos/terraform-azurerm-acs,Terraform module for the Azure Access Control Service (ACS) 
 acsenginek8scluster,hmarcelodn,880,azurerm,https://github.com/hmarcelodn/terraform-azurerm-acsenginek8scluster,Terraform Module to Create Kubernetes cluster using acs-engine
-acstoragetest,mmcelreath,14329,azurerm,https://github.com/mmcelreath/terraform-azurerm-acstoragetest,Test module to demonstrate publishing to the Terraform Registry
+acstoragetest,mmcelreath,14444,azurerm,https://github.com/mmcelreath/terraform-azurerm-acstoragetest,Test module to demonstrate publishing to the Terraform Registry
 action-group,rink72,3911,azurerm,https://github.com/rink72/terraform-azurerm-action-group,Terraform module to create alert groups in Azure
 action-helper,maunzCache,13875,aws,https://github.com/maunzCache/terraform-aws-action-helper,aws-action-helper is a Terraform module which helps implementing AWS IAM policies by providing abstracting actions (or permissions) as usable object in Terraform.
 action-runner,Cox-Automotive,10771,aws,https://github.com/Cox-Automotive/terraform-aws-action-runner,Terraform module to setup aws action runners
@@ -2730,6 +2730,7 @@ droplet,farrukh90,11260,digitalocean,https://github.com/farrukh90/terraform-digi
 droplet,figurate,5062,digitalocean,https://github.com/figurate/terraform-digitalocean-droplet,Templates for provisioning Digital Ocean droplets
 droplet,gendalldesign,2427,digitalocean,https://github.com/gendalldesign/terraform-digitalocean-droplet,Terraform module that creates DigitalOcean Droplets with Docker
 droplet,kyfelipe,4393,digitalocean,https://github.com/kyfelipe/terraform-digitalocean-droplet,Terraform module for droplet on provider digitalocean.
+droplet,pogosoftware,14440,digitalocean,https://github.com/pogosoftware/terraform-digitalocean-droplet,
 droplet,raffaeldutra,2927,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-droplet,Terraform Module for Digital Ocean Droplet resources
 droplet,robertdebock,6765,digitalocean,https://github.com/robertdebock/terraform-digitalocean-droplet,A Terraform module to create droplets on Digitalocean.
 droplet,syntaqx,2844,digitalocean,https://github.com/syntaqx/terraform-digitalocean-droplet,Terraform module for provisioning DigitalOcean droplet(s) with sane defaults.
@@ -3068,7 +3069,7 @@ ecs-asg,silinternational,765,aws,https://github.com/silinternational/terraform-a
 ecs-atlantis,cloudposse,2010,aws,https://github.com/cloudposse/terraform-aws-ecs-atlantis,Terraform module for deploying Atlantis as an ECS Task
 ecs-backend-service,mergermarket,3706,acuris,https://github.com/mergermarket/terraform-acuris-ecs-backend-service,
 ecs-bare-metal-instance,terraform-alicloud-modules,4222,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-bare-metal-instance,Terraform module for creating Bare Metal instance(s) on Alibaba Cloud.
-ecs-bootstrap,terraform-module,14279,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap model.
+ecs-bootstrap,terraform-module,14279,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-capacity-provider,figurate,5681,aws,https://github.com/figurate/terraform-aws-ecs-capacity-provider,Provision an ECS Capacity Provider
 ecs-capacity-provider,ganexcloud,13152,aws,https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider,
 ecs-cloud9,hazelops,4848,aws,https://github.com/hazelops/terraform-aws-ecs-cloud9,Terraform Cloud9 IDE on ECS
@@ -3225,7 +3226,7 @@ ecs-service-monitoring,ganexcloud,13423,aws,https://github.com/ganexcloud/terraf
 ecs-service-nexus,devops-workflow,1877,aws,https://github.com/devops-workflow/terraform-aws-ecs-service-nexus,Terraform module to deploy Nexus in ECS cluster
 ecs-service-task-definition,polganesh,4695,aws,https://github.com/polganesh/terraform-aws-ecs-service-task-definition,Git Repo for creating ecs service and task for existing ECS server
 ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-ecs-services,A terraform module to create ECS services inside a cluster
-ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-services,ℹ️ Terraform AWS ECS services bootstrap model.
+ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-services,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
 ecs-task-definition,PGBI,3455,aws,https://github.com/PGBI/terraform-aws-ecs-task-definition,
@@ -3303,6 +3304,7 @@ efs-kms-key,dod-iac,10366,aws,https://github.com/dod-iac/terraform-aws-efs-kms-k
 efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-efs-mount,"Creates EFS, mount targets and security groups for use with EC2 to mount an EFS"
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
+eg-aws,stevenfeltner,14441,spotinst,https://github.com/stevenfeltner/terraform-spotinst-eg-aws,[WIP] Terraform Module for spotinst_elastigroup_aws
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
 eip,jfcantu,4353,aws,https://github.com/jfcantu/terraform-aws-eip,Terraform module for creating an AWS Elastic IP.
@@ -3482,6 +3484,7 @@ eks-iam,castai,11519,castai,https://github.com/castai/terraform-castai-eks-iam,C
 eks-iam,rails-on-services,3584,aws,https://github.com/rails-on-services/terraform-aws-eks-iam,Generates IAM roles and cluster role bindings for EKS
 eks-iam-cluster-autoscaler,rhythmictech,5092,aws,https://github.com/rhythmictech/terraform-aws-eks-iam-cluster-autoscaler,Configure IAM role and related policies to use the EKS cluster autoscaler
 eks-iam-external-dns,rhythmictech,5098,aws,https://github.com/rhythmictech/terraform-aws-eks-iam-external-dns,Configure IAM role and related policies to use EKS Service Accounts with the external-dns service.
+eks-iam-resources,kmayer10,14439,aws,https://github.com/kmayer10/terraform-aws-eks-iam-resources,module to create EKS IAM Resources
 eks-iam-role,cloudposse,5963,aws,https://github.com/cloudposse/terraform-aws-eks-iam-role,Terraform module to provision an EKS IAM Role for Service Account
 eks-iam-role,rallyware,10547,aws,https://github.com/rallyware/terraform-aws-eks-iam-role,
 eks-infra,shanki84,9854,aws,https://github.com/shanki84/terraform-aws-eks-infra,
@@ -5525,7 +5528,7 @@ logzio-rbac,sanarena,7327,kubernetes,https://github.com/sanarena/terraform-kuber
 loki,loafoe,13408,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-loki,Grafana Loki deployment for Cloud foundry
 loki-aws,iplabs,4984,kubernetes,https://github.com/iplabs/terraform-kubernetes-loki-aws,Terraform module to install Loki on a Kubernetes cluster to utilize storage (S3 and DynamoDB) in AWS.
 loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-loki-stack,
-longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,
+longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
 lz-keyvault,andrewCluey,6531,azurerm,https://github.com/andrewCluey/terraform-azurerm-lz-keyvault,terraform module to deploy KeyVault to a LandingZone
@@ -7468,6 +7471,7 @@ s3-webapp,sababa11,8577,aws,https://github.com/sababa11/terraform-aws-s3-webapp,
 s3-webapp,sakshigawande12,9788,aws,https://github.com/sakshigawande12/terraform-aws-s3-webapp,
 s3-webapp,santoshiyengar,9135,aws,https://github.com/santoshiyengar/terraform-aws-s3-webapp,
 s3-webapp,somex6,13385,aws,https://github.com/somex6/terraform-aws-s3-webapp,
+s3-webapp,tileom,14445,aws,https://github.com/tileom/terraform-aws-s3-webapp,
 s3-webapp,vitalijsvolodenkovs,5812,aws,https://github.com/vitalijsvolodenkovs/terraform-aws-s3-webapp,
 s3-webapp,xsqian,7491,aws,https://github.com/xsqian/terraform-aws-s3-webapp,
 s3-website,Infrastrukturait,14350,aws,https://github.com/Infrastrukturait/terraform-aws-s3-website," Terraform Module for Creating S3 Static Websites with CloudFront"
@@ -9572,6 +9576,7 @@ vpc-endpoint,genstackio,7899,aws,https://github.com/genstackio/terraform-aws-vpc
 vpc-endpoints,clowdhaus,8418,aws,https://github.com/clowdhaus/terraform-aws-vpc-endpoints,Terraform module which creates AWS VPC endpoint resources
 vpc-endpoints,dod-iac,10155,aws,https://github.com/dod-iac/terraform-aws-vpc-endpoints,Creates a set of VPC endpoints for the given VPC
 vpc-endpoints,figurate,6415,aws,https://github.com/figurate/terraform-aws-vpc-endpoints,Provision VPC private link endpoints
+vpc-endpoints,jparnaudeau,14442,aws,https://github.com/jparnaudeau/terraform-aws-vpc-endpoints,Terraform Module for creating VPC Endpoints (Interface or Gateway)
 vpc-enterprise,lorenzoaiello,4986,aws,https://github.com/lorenzoaiello/terraform-aws-vpc-enterprise,This Terraform modules provides an enterprise ready VPC with the ability to connect to bridge transit gateways and non-routable subnets.
 vpc-example,dwmkerr,1867,aws,https://github.com/dwmkerr/terraform-aws-vpc-example,An example terraform module to create an AWS VPC with a cluster of web servers.
 vpc-flow-logs,gadgetry-io,1863,aws,https://github.com/gadgetry-io/terraform-aws-vpc-flow-logs,
