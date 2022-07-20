@@ -611,6 +611,7 @@ applevnet,applesoftsol,13059,azurerm,https://github.com/applesoftsol/terraform-a
 appliance-paloalto,r-teller,10196,google,https://github.com/r-teller/terraform-google-appliance-paloalto,
 appliance-sftp,r-teller,11271,google,https://github.com/r-teller/terraform-google-appliance-sftp,
 application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-application,Terraform module to create an application in Azure AD.
+application,cktf,14465,gitlab,https://github.com/cktf/terraform-gitlab-application,Terraform Gitlab Application Module
 application,cloudcommons,3857,kubernetes,https://github.com/cloudcommons/terraform-kubernetes-application,"Terraform module to deploy an application in Kubernetes. Equivalent to a Helm chart, but relaying purely on Terraform."
 application,innovationnorway,2786,azuread,https://github.com/innovationnorway/terraform-azuread-application,Create Azure AD Application.
 application-gateway,OT-terraform-azure-modules,11635,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-application-gateway,
@@ -1406,6 +1407,7 @@ blob-storage,bootlabstech,14361,azure,https://github.com/bootlabstech/terraform-
 blockchain-service-wrapper,cladular,7601,azurerm,https://github.com/cladular/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
+blueprints,databricks,14473,lakehouse,https://github.com/databricks/terraform-lakehouse-blueprints,
 boolean,devops-workflow,635,local,https://github.com/devops-workflow/terraform-local-boolean,Terraform module to simplify and expand boolean use
 bootstrap,VictorLad,7504,aws,https://github.com/VictorLad/terraform-aws-bootstrap,Terraform module initializing an S3 bucket for tfstate storage as well as a DynamoDB table in order to use a lock on this same file.
 bootstrap,aespindola09,12840,google,https://github.com/aespindola09/terraform-google-bootstrap,A module for bootstrapping Terraform usage in a new GCP organization.
@@ -1612,7 +1614,9 @@ cf2_vnet,pawelc92,11109,openstack,https://github.com/pawelc92/terraform-openstac
 cfsw,rafaelmarques7,1705,aws,https://github.com/rafaelmarques7/terraform-aws-cfsw,
 chainguard-account-association,chainguard-dev,14453,aws,https://github.com/chainguard-dev/terraform-aws-chainguard-account-association,Terraform module to connect Chainguard Enforce to your AWS Account
 chainguard-account-association,chainguard-dev,14458,google,https://github.com/chainguard-dev/terraform-google-chainguard-account-association,Terraform module to connect Chainguard Enforce to your Google Cloud project
+chainlink-ea,ChainOrion,14469,aws,https://github.com/ChainOrion/terraform-aws-chainlink-ea,Terraform module to create AWS infra for Chainlink External Adapters
 chainlink-ea,orionterra,13933,aws,https://github.com/orionterra/terraform-aws-chainlink-ea,Terraform module to create AWS infra for Chainlink External Adapters
+chainlink-node,ChainOrion,14470,aws,https://github.com/ChainOrion/terraform-aws-chainlink-node,Terraform module to create AWS infra for Chainlink Node
 chainlink-node,orionterra,14289,aws,https://github.com/orionterra/terraform-aws-chainlink-node,Terraform module to create AWS infra for Chainlink Node
 chainlinknode,avinava-mycelium,14438,gcp,https://github.com/avinava-mycelium/terraform-gcp-chainlinknode,Terraform module to setup Chainlink Nodes
 chandan-bucket-10june,alumallachandan,13972,aws,https://github.com/alumallachandan/terraform-aws-chandan-bucket-10june,Config files for my GitHub profile.
@@ -1712,6 +1716,7 @@ cloud-build,tomarv2,12439,google,https://github.com/tomarv2/terraform-google-clo
 cloud-build-slack-notifier,simplifi,9474,google,https://github.com/simplifi/terraform-google-cloud-build-slack-notifier,Terraform Module to add Slack notifications to Cloud Build
 cloud-compliance,deepfence,13637,aws,https://github.com/deepfence/terraform-aws-cloud-compliance,Deepfence Terraform module for AWS
 cloud-compliance,deepfence,13919,azure,https://github.com/deepfence/terraform-azure-cloud-compliance,Deepfence Terraform module for Azure
+cloud-compliance,deepfence,14463,gcp,https://github.com/deepfence/terraform-gcp-cloud-compliance,Deepfence Terraform module for Google Cloud Platform
 cloud-composer,bootlabstech,12896,google,https://github.com/bootlabstech/terraform-google-cloud-composer,
 cloud-config,4ops,3914,null,https://github.com/4ops/terraform-null-cloud-config,Cloud config generator
 cloud-config,terraform-alicloud-modules,12809,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-config,Terraform Module for creating Cloud Config resources on Alibaba Cloud.
@@ -3050,7 +3055,7 @@ ecs,tbobm,10688,aws,https://github.com/tbobm/terraform-aws-ecs,Terraform module 
 ecs,telia-oss,1183,aws,https://github.com/telia-oss/terraform-aws-ecs,Collection of ECS modules for Terraform.
 ecs,terraform-aws-modules,289,aws,https://github.com/terraform-aws-modules/terraform-aws-ecs,Terraform module which creates AWS ECS resources 🇺🇦
 ecs,terraform-module,14063,aws,https://github.com/terraform-module/terraform-aws-ecs,Terraform module which creates AWS ECS resources
-ecs,toluna-terraform,13916,aws,https://github.com/toluna-terraform/terraform-aws-ecs,
+ecs,toluna-terraform,14464,aws,https://github.com/toluna-terraform/terraform-aws-ecs,
 ecs,tomarv2,12333,aws,https://github.com/tomarv2/terraform-aws-ecs,Terraform module for AWS ECS
 ecs-agent,lacework,8610,aws,https://github.com/lacework/terraform-aws-ecs-agent,A Terraform Module to create an ECS Task Definition and Daemon Service for deploying the Lacework Datacollector Agent in an Elastic Container Service (ECS) cluster.
 ecs-airflow,datarootsio,6494,aws,https://github.com/datarootsio/terraform-aws-ecs-airflow,A terraform module that creates an airflow instance in AWS ECS.
@@ -3664,6 +3669,7 @@ enrich-kinesis-ec2,snowplow-devops,9314,aws,https://github.com/snowplow-devops/t
 enrich-pubsub-ce,snowplow-devops,10068,google,https://github.com/snowplow-devops/terraform-google-enrich-pubsub-ce,
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
+environment,cktf,14466,gitlab,https://github.com/cktf/terraform-gitlab-environment,Terraform Gitlab Environment Module
 environment,timarenz,10544,aws,https://github.com/timarenz/terraform-aws-environment,
 environment-setup,karan6190,4684,gcp,https://github.com/karan6190/terraform-gcp-environment-setup,"IAC for provisioning Infrastructure component like network, subnetworks, route "
 environments,tbobm,11189,github,https://github.com/tbobm/terraform-github-environments,Manage Github Repository Environments.
@@ -4326,7 +4332,7 @@ hugo-s3-cloudfront,fillup,673,aws,https://github.com/fillup/terraform-aws-hugo-s
 hugo-s3-cloudfront,travka,4195,aws,https://github.com/travka/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-site,zombiezen,2421,google,https://github.com/zombiezen/terraform-google-hugo-site,Terraform module for Hugo on Firebase Hosting
 hvn_deployment,Sokren,11785,hcp,https://github.com/Sokren/terraform-hcp-hvn_deployment,
-hx,cisco-apjc-cloud-se,12743,intersight,https://github.com/cisco-apjc-cloud-se/terraform-intersight-hx,Terraform Module for Creating & Deploying Cisco HyperFlex Clusters through Intersight
+hx,terraform-cisco-modules,14460,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-hx,Terraform Module for Creating & Deploying Cisco HyperFlex Clusters through Intersight
 hybrid-dns,lorenzoaiello,4995,aws,https://github.com/lorenzoaiello/terraform-aws-hybrid-dns,This Terraform modules provides a plug-n-play configuration of Route53 Resolvers for VPCs that need Hybrid DNS.
 hybrid-gateway,equinix-labs,10073,metal,https://github.com/equinix-labs/terraform-metal-hybrid-gateway,Terraform module for a Hybrid-Bonded public gateway node in front of private Layer2 nodes
 hybrid-module-publishing-on-gh-packages,DanielMSchmidt,13365,cdk,https://github.com/DanielMSchmidt/terraform-cdk-hybrid-module-publishing-on-gh-packages,
@@ -5153,6 +5159,7 @@ labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-nul
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 lacme,mpalmer,10647,module,https://github.com/mpalmer/terraform-module-lacme,Get certificates from an ACME CA (like Let's Encrypt) using AWS Lambdas
 lagom,SpongePowered,10632,kubernetes,https://github.com/SpongePowered/terraform-kubernetes-lagom,Terraform module for simplifying deployments of SystemOfADownload
+lakehouse-blueprints,databricks,14477,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,
 lambda,Cloud-42,3487,aws,https://github.com/Cloud-42/terraform-aws-lambda,Creates a Lambda function.
 lambda,Haplo-tech,3804,aws,https://github.com/Haplo-tech/terraform-aws-lambda,
 lambda,JamesWoolfenden,14023,aws,https://github.com/JamesWoolfenden/terraform-aws-lambda,Basic lambda module
@@ -5880,6 +5887,7 @@ mymod,EbisonJ,8308,aws,https://github.com/EbisonJ/terraform-aws-mymod,
 mymod1,irfan-git2,11530,aws,https://github.com/irfan-git2/terraform-aws-mymod1,
 mymodule,SunithaGT,10453,aws,https://github.com/SunithaGT/terraform-aws-mymodule,
 mymodules,Brazzy77,13090,aws,https://github.com/Brazzy77/terraform-aws-mymodules,
+mymodules,chiokpamen,14462,aws,https://github.com/chiokpamen/terraform-aws-mymodules,
 myrepo,KhalifaBL,11575,aws,https://github.com/KhalifaBL/terraform-aws-myrepo,
 myrg,monbostest,11652,azurerm,https://github.com/monbostest/terraform-azurerm-myrg,This module will be used to created rg
 mys3bucket,2022bucket,14338,aws,https://github.com/2022bucket/terraform-aws-mys3bucket,
@@ -5929,6 +5937,7 @@ mystorage,reddymahipal,12235,aws,https://github.com/reddymahipal/terraform-aws-m
 mytfmodule,tcjoel,11318,aws,https://github.com/tcjoel/terraform-aws-mytfmodule,
 myvm,monbostest,13377,google,https://github.com/monbostest/terraform-google-myvm,This Module will be used to create vms
 myvm,nippydevops,11316,google,https://github.com/nippydevops/terraform-google-myvm,This module will be used to create a vm on google cloud
+mywebsite,prithvirajkc,14461,azurerm,https://github.com/prithvirajkc/terraform-azurerm-mywebsite,
 nEtwork-1,Alina-2013,7099,google,https://github.com/Alina-2013/terraform-google-nEtwork-1,
 nac-access-policies,netascode,14156,aci,https://github.com/netascode/terraform-aci-nac-access-policies,Terraform Cisco ACI Access Policies Module
 nac-fabric-policies,netascode,14157,aci,https://github.com/netascode/terraform-aci-nac-fabric-policies,Terraform Cisco ACI Fabric Policies Module
@@ -6125,9 +6134,11 @@ next-js,kchh90,12905,aws,https://github.com/kchh90/terraform-aws-next-js,"Terraf
 next-js,khuezy,11554,aws,https://github.com/khuezy/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,milliHQ,10253,aws,https://github.com/milliHQ/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,reigncl,14423,aws,https://github.com/reigncl/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
+next-js,ryansun-apply,14475,aws,https://github.com/ryansun-apply/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,vibe,8679,aws,https://github.com/vibe/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js-image-optimization,dealmore,7577,aws,https://github.com/dealmore/terraform-aws-next-js-image-optimization,A drop-in image optimization loader for Next.js image component powered by AWS Lambda.
 next-js-image-optimization,milliHQ,10108,aws,https://github.com/milliHQ/terraform-aws-next-js-image-optimization,A drop-in image optimization loader for Next.js image component powered by AWS Lambda.
+next-js-image-optimization,ryansun-apply,14476,aws,https://github.com/ryansun-apply/terraform-aws-next-js-image-optimization,A drop-in image optimization loader for Next.js image component powered by AWS Lambda.
 next-rest-apis,nextless,4628,aws,https://github.com/nextless/terraform-aws-next-rest-apis,A Terraform module to deploy your NextLess artifacts to Lambda and AWS Rest API gateway.
 nexus,cn-terraform,3240,aws,https://github.com/cn-terraform/terraform-aws-nexus,Sonatype Nexus Terraform Module for AWS
 nexus,rhythmictech,5090,aws,https://github.com/rhythmictech/terraform-aws-nexus,Create a Nexus OSS or Nexus Pro instance
@@ -9854,6 +9865,8 @@ wipcred,chandrasredevopslab,9517,google,https://github.com/chandrasredevopslab/t
 wireguard,Tchoupinax,13478,module,https://github.com/Tchoupinax/terraform-module-wireguard,
 wireguard,armorfret,2304,linode,https://github.com/armorfret/terraform-linode-wireguard,Module for deploying a Linode with Wireguard running
 wireguard,azatsafin,10687,aws,https://github.com/azatsafin/terraform-aws-wireguard,Setup Wireguard server on ec2 and manage it clients based on IAM group membership
+wireguard,cktf,14467,hcloud,https://github.com/cktf/terraform-hcloud-wireguard,Terraform HCloud Wireguard Module
+wireguard,cktf,14468,aws,https://github.com/cktf/terraform-aws-wireguard,Terraform AWS Wireguard Module
 wireguard,hazelops,9726,aws,https://github.com/hazelops/terraform-aws-wireguard,
 wireguard,jmhale,2174,aws,https://github.com/jmhale/terraform-aws-wireguard,Terraform module to deploy WireGuard on AWS
 wireguard,vainkop,7940,aws,https://github.com/vainkop/terraform-aws-wireguard,Terraform Module for Wireguard VPN
