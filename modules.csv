@@ -697,7 +697,7 @@ arfa,Arfa7007,12277,aws,https://github.com/Arfa7007/terraform-aws-arfa,
 argo-vault,Ioasys-org,14405,helm,https://github.com/Ioasys-org/terraform-helm-argo-vault,
 argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kubernetes-argocd,A terraform Module to deploy Argocd on Kubernetes
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
-argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.3.3) on a Kubernetes Cluster via Helm
+argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.4.7) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
 argocd,project-octal,10909,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd,Simplifies the deployment and management of ArgoCD on a Kubernetes cluster.
@@ -1029,6 +1029,7 @@ auth-account,lablabs,4448,aws,https://github.com/lablabs/terraform-aws-auth-acco
 auth0-authorizer,amancevice,1731,aws,https://github.com/amancevice/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 auth0-authorizer,jdpx,6741,aws,https://github.com/jdpx/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 authenticating-secgroup,riboseinc,629,aws,https://github.com/riboseinc/terraform-aws-authenticating-secgroup,Dynamically manage security group IPs through an authenticated HTTPS endpoint
+authentik-tenant,l-with,14481,module,https://github.com/l-with/terraform-module-authentik-tenant,
 auto-bastion,JamesWoolfenden,3772,aws,https://github.com/JamesWoolfenden/terraform-aws-auto-bastion,A bastion with SSH controlled by IAM
 auto-scaling,devops4me,3155,aws,https://github.com/devops4me/terraform-aws-auto-scaling,This module creates an auto scaling group and a launch configuration to enable agents like a cluster manager to add and/or remove machines to and from a cluster.
 auto-scaling,nabdilatipova,7807,aws,https://github.com/nabdilatipova/terraform-aws-auto-scaling,
@@ -1066,6 +1067,10 @@ autospotting,AutoSpotting,2654,aws,https://github.com/AutoSpotting/terraform-aws
 autospotting,neillturner,1096,aws,https://github.com/neillturner/terraform-aws-autospotting,Automatically convert your existing AutoScaling groups to significantly cheaper spot instances with minimal(often zero) configuration changes
 availability-set,anugnes,676,azure,https://github.com/anugnes/terraform-azure-availability-set,Azure Availability Set Module for Terraform
 available-ips,OLeonardoRodrigues,13590,azurerm,https://github.com/OLeonardoRodrigues/terraform-azurerm-available-ips,Module responsible for getting available IPs inside a subnet.
+avi-alb-deployment-aws,vmware,14489,aws,https://github.com/vmware/terraform-aws-avi-alb-deployment-aws,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on AWS. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
+avi-alb-deployment-azure,vmware,14490,azurerm,https://github.com/vmware/terraform-azurerm-avi-alb-deployment-azure,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on Azure. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
+avi-alb-deployment-gcp,vmware,14492,google,https://github.com/vmware/terraform-google-avi-alb-deployment-gcp,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on GCP. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
+avi-alb-deployment-vsphere,vmware,14491,vsphere,https://github.com/vmware/terraform-vsphere-avi-alb-deployment-vsphere,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on vSphere. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
 avi-controller-aws,slarimore02,7434,aws,https://github.com/slarimore02/terraform-aws-avi-controller-aws,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on AWS
 avi-controller-azure,slarimore02,9311,azurerm,https://github.com/slarimore02/terraform-azurerm-avi-controller-azure,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on Azure
 avi-controller-gcp,slarimore02,7435,gcp,https://github.com/slarimore02/terraform-gcp-avi-controller-gcp,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on GCP
@@ -1407,7 +1412,6 @@ blob-storage,bootlabstech,14361,azure,https://github.com/bootlabstech/terraform-
 blockchain-service-wrapper,cladular,7601,azurerm,https://github.com/cladular/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
-blueprints,databricks,14473,lakehouse,https://github.com/databricks/terraform-lakehouse-blueprints,
 boolean,devops-workflow,635,local,https://github.com/devops-workflow/terraform-local-boolean,Terraform module to simplify and expand boolean use
 bootstrap,VictorLad,7504,aws,https://github.com/VictorLad/terraform-aws-bootstrap,Terraform module initializing an S3 bucket for tfstate storage as well as a DynamoDB table in order to use a lock on this same file.
 bootstrap,aespindola09,12840,google,https://github.com/aespindola09/terraform-google-bootstrap,A module for bootstrapping Terraform usage in a new GCP organization.
@@ -3670,6 +3674,7 @@ enrich-pubsub-ce,snowplow-devops,10068,google,https://github.com/snowplow-devops
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
 environment,cktf,14466,gitlab,https://github.com/cktf/terraform-gitlab-environment,Terraform Gitlab Environment Module
+environment,cktf,14480,kubernetes,https://github.com/cktf/terraform-kubernetes-environment,Terraform Kubernetes Environment Module
 environment,timarenz,10544,aws,https://github.com/timarenz/terraform-aws-environment,
 environment-setup,karan6190,4684,gcp,https://github.com/karan6190/terraform-gcp-environment-setup,"IAC for provisioning Infrastructure component like network, subnetworks, route "
 environments,tbobm,11189,github,https://github.com/tbobm/terraform-github-environments,Manage Github Repository Environments.
@@ -4734,6 +4739,7 @@ julyvnet,ratnac37,10443,azurerm,https://github.com/ratnac37/terraform-azurerm-ju
 julyvnet1,dharani207,10780,azurerm,https://github.com/dharani207/terraform-azurerm-julyvnet1,This is vnet terraform code
 jupyter,combinator-ml,8811,k8s,https://github.com/combinator-ml/terraform-k8s-jupyter,Combinator component to provide a simple Jupyter instance
 jupyter-notebook,garyellis,7347,aws,https://github.com/garyellis/terraform-aws-jupyter-notebook,
+jupyterhub-client,mxab,14493,keycloak,https://github.com/mxab/terraform-keycloak-jupyterhub-client,
 jupyterhub-singleuser,sodre,2346,null,https://github.com/sodre/terraform-null-jupyterhub-singleuser,
 jupyterhub-singleuser,sodre,2349,triton,https://github.com/sodre/terraform-triton-jupyterhub-singleuser,
 jvm-cron-lambda,sdmichelini,7388,aws,https://github.com/sdmichelini/terraform-aws-jvm-cron-lambda,Opinionated AWS lambda function used for cron based JVM workloads
@@ -4744,6 +4750,7 @@ jyotistorage,jyotirmayee01,12319,azure,https://github.com/jyotirmayee01/terrafor
 k0s,3letteragency,8952,vultr,https://github.com/3letteragency/terraform-vultr-k0s,Terraform module for deploying the K0s Kubernetes distribution on Vultr. 
 k3s,BerndDA,14150,hcloud,https://github.com/BerndDA/terraform-hcloud-k3s,Terraform module to setup k3s cluster on Hetzner cloud
 k3s,Kab1r,12250,module,https://github.com/Kab1r/terraform-module-k3s,Terraform module to install K3S on all given instances
+k3s,aigisuk,14488,hcloud,https://github.com/aigisuk/terraform-hcloud-k3s,Terraform Module to deploy a highly available k3s cluster on Hetzner Cloud [WIP]
 k3s,boeboe,9126,azure,https://github.com/boeboe/terraform-azure-k3s,Terraform module to bootstrap a Rancher K3S Cluster on Azure Cloud
 k3s,camptocamp,7026,docker,https://github.com/camptocamp/terraform-docker-k3s,
 k3s,camptocamp,7221,libvirt,https://github.com/camptocamp/terraform-libvirt-k3s,
@@ -4844,7 +4851,7 @@ key-pair,omiradil,8839,aws,https://github.com/omiradil/terraform-aws-key-pair,
 key-pair,osmdilya,8843,aws,https://github.com/osmdilya/terraform-aws-key-pair,
 key-pair,ryanahkiong,8838,aws,https://github.com/ryanahkiong/terraform-aws-key-pair,
 key-pair,terraform-alicloud-modules,4348,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-key-pair,Terraform module for creating key pair on Alibaba Cloud.
-key-pair,terraform-aws-modules,3165,aws,https://github.com/terraform-aws-modules/terraform-aws-key-pair,Terraform module which creates EC2 key pair on AWS
+key-pair,terraform-aws-modules,3165,aws,https://github.com/terraform-aws-modules/terraform-aws-key-pair,Terraform module which creates EC2 key pair on AWS 🇺🇦
 key-pair,terraform-iaac,7921,aws,https://github.com/terraform-iaac/terraform-aws-key-pair,Simple terraform module for create AWS Key Pair and store them in S3
 key-pair-ssm,victorcechinel,8486,aws,https://github.com/victorcechinel/terraform-aws-key-pair-ssm,📦 ⚡ 🔐 Terraform Module to provision an AWS Keypair and store on SSM
 key-vault,DeimosCloud,8394,azure,https://github.com/DeimosCloud/terraform-azure-key-vault,
@@ -5082,6 +5089,7 @@ kubernetes-cluster,russmedia,1270,google,https://github.com/russmedia/terraform-
 kubernetes-cluster,tsadoklf,1774,google,https://github.com/tsadoklf/terraform-google-kubernetes-cluster,Google Cloud Platform Kubernetes Cluster Terraform Module
 kubernetes-cluster,yellowmegaman,2293,google,https://github.com/yellowmegaman/terraform-google-kubernetes-cluster,RBAC-only reevaluate-friendly cluster
 kubernetes-delegate,harness,13144,harness,https://github.com/harness/terraform-harness-kubernetes-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
+kubernetes-deployment,kabisa,14485,datadog,https://github.com/kabisa/terraform-datadog-kubernetes-deployment,
 kubernetes-engine,Aizhamal2312,7132,google,https://github.com/Aizhamal2312/terraform-google-kubernetes-engine,
 kubernetes-engine,Aksana-ozgon,7128,google,https://github.com/Aksana-ozgon/terraform-google-kubernetes-engine,
 kubernetes-engine,Bekzhan-osh,7125,google,https://github.com/Bekzhan-osh/terraform-google-kubernetes-engine,
@@ -5159,7 +5167,7 @@ labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-nul
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 lacme,mpalmer,10647,module,https://github.com/mpalmer/terraform-module-lacme,Get certificates from an ACME CA (like Let's Encrypt) using AWS Lambdas
 lagom,SpongePowered,10632,kubernetes,https://github.com/SpongePowered/terraform-kubernetes-lagom,Terraform module for simplifying deployments of SystemOfADownload
-lakehouse-blueprints,databricks,14477,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,
+lakehouse-blueprints,databricks,14484,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,"Automatically provision a secure workspace with ACLs, standard policies, and Financial Services code assets to jumpstart your Lakehouse"
 lambda,Cloud-42,3487,aws,https://github.com/Cloud-42/terraform-aws-lambda,Creates a Lambda function.
 lambda,Haplo-tech,3804,aws,https://github.com/Haplo-tech/terraform-aws-lambda,
 lambda,JamesWoolfenden,14023,aws,https://github.com/JamesWoolfenden/terraform-aws-lambda,Basic lambda module
@@ -5738,6 +5746,7 @@ module,yuanzhou83,8631,networks,https://github.com/yuanzhou83/terraform-networks
 module-apache,Mteixeira99,12751,aws,https://github.com/Mteixeira99/terraform-aws-module-apache,
 module-apachedemo,vjmidde1252,10716,aws,https://github.com/vjmidde1252/terraform-aws-module-apachedemo,
 module-artifact,cloudposse,1890,external,https://github.com/cloudposse/terraform-external-module-artifact,Terraform module to fetch any kind of artifacts using curl (binary and text okay)
+module-hello-apache,AjanaLarry,14494,aws,https://github.com/AjanaLarry/terraform-aws-module-hello-apache,Terraform module will provision an EC2 Instance that is running an Apache server
 module-installer-acctest,hashicorp,799,aws,https://github.com/hashicorp/terraform-aws-module-installer-acctest,A placeholder Terraform module for acceptance tests of Terraform's module installer
 module-nia,nvibert,10392,fortios,https://github.com/nvibert/terraform-fortios-module-nia,A module to be used with Consul-Terraform-Sync to push objects to Fortinet appliances
 module-output,chavo1,4142,aws,https://github.com/chavo1/terraform-aws-module-output,
@@ -6134,7 +6143,7 @@ next-js,kchh90,12905,aws,https://github.com/kchh90/terraform-aws-next-js,"Terraf
 next-js,khuezy,11554,aws,https://github.com/khuezy/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,milliHQ,10253,aws,https://github.com/milliHQ/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,reigncl,14423,aws,https://github.com/reigncl/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
-next-js,ryansun-apply,14475,aws,https://github.com/ryansun-apply/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
+next-js,ryansun-apply,14479,aws,https://github.com/ryansun-apply/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,vibe,8679,aws,https://github.com/vibe/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js-image-optimization,dealmore,7577,aws,https://github.com/dealmore/terraform-aws-next-js-image-optimization,A drop-in image optimization loader for Next.js image component powered by AWS Lambda.
 next-js-image-optimization,milliHQ,10108,aws,https://github.com/milliHQ/terraform-aws-next-js-image-optimization,A drop-in image optimization loader for Next.js image component powered by AWS Lambda.
@@ -7181,6 +7190,7 @@ role-assignment,tomarv2,12428,azure,https://github.com/tomarv2/terraform-azure-r
 role-binding,mineiros-io,11357,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-role-binding,A Terraform module to create and manage role bindings for roles and cluster roles in Kubernetes https://kubernetes.io/docs/reference/access-authn-authz/rbac
 role-network,Smartbrood,560,aws,https://github.com/Smartbrood/terraform-aws-role-network,Terraform module/role (role means that module contains other modules) to create network related resources.
 role-policy,Smartbrood,562,aws,https://github.com/Smartbrood/terraform-aws-role-policy,Terraform module/role (role means that module contains other modules) to create some default policy resources.
+rookout-deployment,Rookout,14483,aws,https://github.com/Rookout/terraform-aws-rookout-deployment,A Terraform module for deployment of Rookout on-premise controller and datastore.
 root-login-notifications,trussworks,3352,aws,https://github.com/trussworks/terraform-aws-root-login-notifications,Root Login Notifications
 root-records,jd4883,7269,digitalocean,https://github.com/jd4883/terraform-digitalocean-root-records,Small terraform module for creating root records for one or more domains (if instantiated in a loop) with DigitalOcean. 
 rosa-privatelink-vpc,rh-mobb,14011,aws,https://github.com/rh-mobb/terraform-aws-rosa-privatelink-vpc,This is the terraform module to provision a rosa VPC
@@ -7309,8 +7319,8 @@ s3,raed-sebti,4087,aws,https://github.com/raed-sebti/terraform-aws-s3,
 s3,rails-on-services,3592,aws,https://github.com/rails-on-services/terraform-aws-s3,Manages AWS S3 buckets
 s3,rigox,6693,aws,https://github.com/rigox/terraform-aws-s3,
 s3,rockset,4136,integration,https://github.com/rockset/terraform-integration-s3,
-s3,skyfjall,14126,aws,https://github.com/skyfjall/terraform-aws-s3,Simple S3 module to reduce repeated code
-s3,skyfjell,14229,aws,https://github.com/skyfjell/terraform-aws-s3,Simple S3 module to reduce repeated code
+s3,skyfjall,14126,aws,https://github.com/skyfjall/terraform-aws-s3,Create Simple and Compliant S3 Buckets
+s3,skyfjell,14229,aws,https://github.com/skyfjell/terraform-aws-s3,Create Simple and Compliant S3 Buckets
 s3,tomarv2,8274,aws,https://github.com/tomarv2/terraform-aws-s3,Terraform module for AWS S3
 s3-301-redirect,JamesBelchamber,469,aws,https://github.com/JamesBelchamber/terraform-aws-s3-301-redirect,"Easily create a 301 redirect, with support for https and IPv6"
 s3-access,Cyber-Duck,14060,aws,https://github.com/Cyber-Duck/terraform-aws-s3-access,A Terraform module to give access to S3 for specific users. This module allows the user to create users and groups with the option of using existing. The group will have granular S3 access policy attached with the option to add additional policy(s) if required.
@@ -7327,6 +7337,7 @@ s3-backend,kimonio,4495,aws,https://github.com/kimonio/terraform-aws-s3-backend,
 s3-backend,mscribellito,9782,aws,https://github.com/mscribellito/terraform-aws-s3-backend,Terraform AWS S3 Backend
 s3-backend,rsb,3679,aws,https://github.com/rsb/terraform-aws-s3-backend,s3 backend module for for Terraform
 s3-backend-demo,briferz,13063,aws,https://github.com/briferz/terraform-aws-s3-backend-demo,
+s3-backend-dependencies,axetrading,14486,axetrading,https://github.com/axetrading/terraform-axetrading-s3-backend-dependencies,Resources for bootstrapping a Terraform setup
 s3-backup-bucket,rj175,6726,aws,https://github.com/rj175/terraform-aws-s3-backup-bucket,Terraform AWS module to create a bucket and IAM user for backup services.
 s3-bucket,AeronFuertes,12864,aws,https://github.com/AeronFuertes/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,BearAlliance,14261,aws,https://github.com/BearAlliance/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
@@ -8457,6 +8468,7 @@ staticwebsitepublic,jleroux751,12320,azurerm,https://github.com/jleroux751/terra
 staticwebsitepublic,johnfdominguezrendon,12971,azurerm,https://github.com/johnfdominguezrendon/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,kaustubhchoudhury-git,11825,azurerm,https://github.com/kaustubhchoudhury-git/terraform-azurerm-staticwebsitepublic,erraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ldelpozo6,13560,azurerm,https://github.com/ldelpozo6/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,mahesh9tsm,14478,azurerm,https://github.com/mahesh9tsm/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ndrsingh-61,11195,azurerm,https://github.com/ndrsingh-61/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ngshukun,12031,azurerm,https://github.com/ngshukun/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,nmadesh20,9939,azurerm,https://github.com/nmadesh20/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -8744,6 +8756,7 @@ terraformmodules,tasinight,13851,aws,https://github.com/tasinight/terraform-aws-
 terragrunt-registry-test,yorinasub17,9932,null,https://github.com/yorinasub17/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
 terrible,cloudboss,5406,cloudinit,https://github.com/cloudboss/terraform-cloudinit-terrible,
 test,IbraheemAlSaady,11548,module,https://github.com/IbraheemAlSaady/terraform-module-test,
+test,Thegsgs,14487,module,https://github.com/Thegsgs/terraform-module-test,
 test,Yvz-DevOps,5787,class4,https://github.com/Yvz-DevOps/terraform-class4-test,
 test,andresvia,766,autodesk,https://github.com/andresvia/terraform-autodesk-test,test
 test,chilicat,11978,local,https://github.com/chilicat/terraform-local-test,Terraform Test module
@@ -8837,7 +8850,7 @@ tor-bridge,sr2c,11333,openstack,https://github.com/sr2c/terraform-openstack-tor-
 tor-bridge,sr2c,11334,hcloud,https://github.com/sr2c/terraform-hcloud-tor-bridge,
 tor-bridge,sr2c,12833,aws,https://github.com/sr2c/terraform-aws-tor-bridge,
 torrc,sr2c,11313,null,https://github.com/sr2c/terraform-null-torrc,Terraform module to define a configuration file for tor
-traefik,aigisuk,11265,kubernetes,https://github.com/aigisuk/terraform-kubernetes-traefik,Simple Terraform module; deploys Traefik (v2.6.6) to a Kubernetes cluster via Helm
+traefik,aigisuk,11265,kubernetes,https://github.com/aigisuk/terraform-kubernetes-traefik,Simple Terraform module; deploys Traefik (v2.8.0) to a Kubernetes cluster via Helm
 traefik,anvibo,2255,docker,https://github.com/anvibo/terraform-docker-traefik,
 traefik,numtide,6145,linuxbox,https://github.com/numtide/terraform-linuxbox-traefik,
 traefik,opencopilot,1251,packet,https://github.com/opencopilot/terraform-packet-traefik,"Terraform module for running traefik on Packet with backends configured via device tags, elastic IPs added automatically, and more magic soon."
