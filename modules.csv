@@ -989,12 +989,6 @@ assume-aws-role,wandb,12499,google,https://github.com/wandb/terraform-google-ass
 assume-role-group,QuiNovas,1474,aws,https://github.com/QuiNovas/terraform-aws-assume-role-group,Creates an IAM group that allows for the assumtion of roles
 astra,3-Letter-Agency,7654,vultr,https://github.com/3-Letter-Agency/terraform-vultr-astra,Terraform Module for deploying Astra resources on Vultr Cloud. 
 astra,3letteragency,8212,vultr,https://github.com/3letteragency/terraform-vultr-astra,Terraform Module for deploying Astra resources on Vultr Cloud. 
-astronomer,astronomer,2563,kubernetes,https://github.com/astronomer/terraform-kubernetes-astronomer,Deploy Astronomer on Kubernetes
-astronomer-aws,astronomer,2562,aws,https://github.com/astronomer/terraform-aws-astronomer-aws,"Deploys all infrastructure required for Astronomer to run on AWS. For a complete deployment, see https://github.com/astronomer/terraform-aws-astronomer-enterprise"
-astronomer-cloud,astronomer,2731,google,https://github.com/astronomer/terraform-google-astronomer-cloud,Intended for internal use: terraform module to deploy astronomer cloud
-astronomer-enterprise,astronomer,2702,aws,https://github.com/astronomer/terraform-aws-astronomer-enterprise,Install Astronomer Enterprise in AWS
-astronomer-gcp,astronomer,2561,google,https://github.com/astronomer/terraform-google-astronomer-gcp,Intended for internal use: deploys all infrastructure required for Astronomer to run on GCP
-astronomer-system-components,astronomer,2590,kubernetes,https://github.com/astronomer/terraform-kubernetes-astronomer-system-components,Additional components for Astronomer Cloud
 asustor-s3-sync,dee-kryvenko,11107,aws,https://github.com/dee-kryvenko/terraform-aws-asustor-s3-sync,Terraform Module to set up Asustor S3 Cloud Sync
 athena,JamesWoolfenden,7621,aws,https://github.com/JamesWoolfenden/terraform-aws-athena,Basic Athena module
 athena,babbel,8048,aws,https://github.com/babbel/terraform-aws-athena,"Terraform module creating a Glue table, an Athena workgroup and an S3 bucket for the workgroup"
@@ -1975,6 +1969,7 @@ cloudwatch-alarm,suhussai,8563,aws,https://github.com/suhussai/terraform-aws-clo
 cloudwatch-alarm,youyo,6723,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm,
 cloudwatch-alarm-cloudfront,youyo,7385,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm-cloudfront,
 cloudwatch-alarm-ebs,youyo,6746,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm-ebs,
+cloudwatch-alarms,StratusGrid,14592,aws,https://github.com/StratusGrid/terraform-aws-cloudwatch-alarms,This module will create a bunch or rules to cover the security alarms of a Well Architected Review
 cloudwatch-alarms,clouddrove,3647,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-alarms,Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 cloudwatch-alarms,echomike80,11791,aws,https://github.com/echomike80/terraform-aws-cloudwatch-alarms,
 cloudwatch-alarms,rpstreef,4744,aws,https://github.com/rpstreef/terraform-aws-cloudwatch-alarms,Terraform AWS CloudWatch Alarms
@@ -3444,7 +3439,7 @@ eks-addons,sriharshakarampudi,6389,aws,https://github.com/sriharshakarampudi/ter
 eks-ak,synectiks-sddc,10379,aws,https://github.com/synectiks-sddc/terraform-aws-eks-ak,This repository contains a Terraform module for creating an EKS cluster and all the necessary infrastructure
 eks-alb-ingress,lablabs,4435,aws,https://github.com/lablabs/terraform-aws-eks-alb-ingress,
 eks-argocd,DNXLabs,8665,aws,https://github.com/DNXLabs/terraform-aws-eks-argocd,Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.
-eks-audit-log,lacework,13137,aws,https://github.com/lacework/terraform-aws-eks-audit-log,
+eks-audit-log,lacework,13137,aws,https://github.com/lacework/terraform-aws-eks-audit-log,Terraform module for configuring an integration with AWS to analyze EKS Audit Logs for monitoring EKS cluster security and configuration compliance.
 eks-auth,aidanmelen,12270,aws,https://github.com/aidanmelen/terraform-aws-eks-auth,A Terraform module to manage cluster authentication (aws-auth) for an Elastic Kubernetes (EKS) cluster on AWS.
 eks-auth,koslib,13605,aws,https://github.com/koslib/terraform-aws-eks-auth,A Terraform module facilitating IAM users and roles authentication for EKS clusters
 eks-auth,sailthru,1882,aws,https://github.com/sailthru/terraform-aws-eks-auth,Terraform module for generating AWS EKS configuration
@@ -4235,6 +4230,7 @@ gsa-encrypter,onetwopunch,5768,google,https://github.com/onetwopunch/terraform-g
 gsuite,ngs,4916,cloudflare,https://github.com/ngs/terraform-cloudflare-gsuite,CloudFlare Terraform module for setup G Suite.
 gsuite-export,terraform-google-modules,2301,google,https://github.com/terraform-google-modules/terraform-google-gsuite-export,The module will create a compute engine VM instance and set up a cronjob to export GSuite Admin SDK data to Stackdriver Logging on a schedule.
 gsuite-mx,jlison,8071,cloudflare,https://github.com/jlison/terraform-cloudflare-gsuite-mx,A terraform module to quickly setup Google Workspace MX records with Cloudflare
+gsuite-reports-channeler,ryandeivert,14588,aws,https://github.com/ryandeivert/terraform-aws-gsuite-reports-channeler,"Lightweight serverless pipeline, leveraging AWS Lambda and Step Functions, to collect Google Workspace Admin Reports via Push Notifications"
 guardduty,DNXLabs,5758,aws,https://github.com/DNXLabs/terraform-aws-guardduty,This is a terraform modules that Applies guardduty to all regions.
 guardduty,QuiNovas,1651,aws,https://github.com/QuiNovas/terraform-aws-guardduty,Sets up guard duty
 guardduty,cloudposse,7045,aws,https://github.com/cloudposse/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
@@ -6298,6 +6294,7 @@ obs-tf-state-encrypted,victorgetz,8879,opentelekomcloud,https://github.com/victo
 observability,nlamirault,6633,azurerm,https://github.com/nlamirault/terraform-azurerm-observability,Terraform module for Observability components on Microsoft Azure
 observability,nlamirault,6634,aws,https://github.com/nlamirault/terraform-aws-observability,Terraform module for Observability components on AWS
 observability,nlamirault,6642,google,https://github.com/nlamirault/terraform-google-observability,Terraform module for Observability components on Google Cloud Platform
+observability,tedilabs,14586,aws,https://github.com/tedilabs/terraform-aws-observability,🌳 A sustainable Terraform Package which creates resources for Observability Services on AWS
 observability,terraform-ibm-modules,7636,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-observability,"Terraform module to create and work with - IBM Log Analysis, IBM Cloud Monitoring, and IBM Activity Tracker services on IBM Cloud "
 ocean-aks,spotinst,8443,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aks,A Terraform module to create an Azure Kubernetes Service (AKS) cluster with Spot Ocean.
 ocean-aws-k8s,spotinst,11388,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aws-k8s,A Terraform module to create an Ocean Cluster.
@@ -6410,6 +6407,7 @@ organization,SunDevs,8207,grafana,https://github.com/SunDevs/terraform-grafana-o
 organization,dhoppeIT,11096,tfe,https://github.com/dhoppeIT/terraform-tfe-organization,"Terraform module to manage the Terraform Cloud/Enterprise organization resources (tfe_organization, tfe_organization_membership, tfe_organization_token)"
 organization,figurate,5631,tfe,https://github.com/figurate/terraform-tfe-organization,Manage organizations in Terraform Cloud/Enterprise
 organization,garethsaxby,5536,tfe,https://github.com/garethsaxby/terraform-tfe-organization,HashiCorp Terraform Module for creating Terraform Cloud/Enterprise Organizations
+organization,getindata,14591,aws,https://github.com/getindata/terraform-aws-organization,Terraform module for AWS Organization management
 organization,hadenlabs,8420,sentry,https://github.com/hadenlabs/terraform-sentry-organization,Terraform module sentry for management organization and team
 organization,infrablocks,3316,aws,https://github.com/infrablocks/terraform-aws-organization,A Terraform module for managing an AWS Organisation.
 organization,lablabs,6159,aws,https://github.com/lablabs/terraform-aws-organization,
@@ -6640,6 +6638,7 @@ project-factory,iits-consulting,9067,opentelekomcloud,https://github.com/iits-co
 project-factory,terraform-google-modules,1669,google,https://github.com/terraform-google-modules/terraform-google-project-factory,"Opinionated Google Cloud Platform project creation and configuration with Shared VPC, IAM, APIs, etc."
 project-hardening,unimatrixops,10693,google,https://github.com/unimatrixops/terraform-google-project-hardening,Harden a Google Cloud Platform project
 project-hierarchy,infrablocks,14418,google,https://github.com/infrablocks/terraform-google-project-hierarchy,
+project-iam,adekoyadapo,14587,google,https://github.com/adekoyadapo/terraform-google-project-iam,"Terraform Module to create a project, activate services and add members"
 project-iam,mineiros-io,11751,google,https://github.com/mineiros-io/terraform-google-project-iam,A Terraform module to manage Identity and Access Management (IAM) for projects on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/creating-managing-projects
 project-iam-custom-role,SweetOps,8111,google,https://github.com/SweetOps/terraform-google-project-iam-custom-role,
 project-iam-custom-role,mineiros-io,11752,google,https://github.com/mineiros-io/terraform-google-project-iam-custom-role,A Terraform module to manage a customized Identity and Access Management (IAM) project role on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/access-control-org
@@ -7175,9 +7174,11 @@ resource-group,cloudcommons,3840,azure,https://github.com/cloudcommons/terraform
 resource-group,clouddrove,11477,azure,https://github.com/clouddrove/terraform-azure-resource-group,Terraform module for managing Azure resource groups
 resource-group,cybergavin,8724,azurerm,https://github.com/cybergavin/terraform-azurerm-resource-group,Create one or more Azure resource groups
 resource-group,farrukh90,9431,azurerm,https://github.com/farrukh90/terraform-azurerm-resource-group,
+resource-group,getindata,14590,azurerm,https://github.com/getindata/terraform-azurerm-resource-group,Terraform module that manages Azure Resource Group
 resource-group,iankesh,6170,azure,https://github.com/iankesh/terraform-azure-resource-group,This is a Terraform custom module to create Resource Group in Azure Cloud.
 resource-group,intelligentmachines,5269,azure,https://github.com/intelligentmachines/terraform-azure-resource-group,
 resource-group,jortfal,8653,azure,https://github.com/jortfal/terraform-azure-resource-group,Terraform module for create ✨Resource Groups✨ on Microsoft Azure
+resource-group,kamal2k89,14582,azurerm,https://github.com/kamal2k89/terraform-azurerm-resource-group,Terraform Module: Creating Azure Resource Group
 resource-group,krezreb,6477,azurerm,https://github.com/krezreb/terraform-azurerm-resource-group,
 resource-group,lbenimelis,8325,azure,https://github.com/lbenimelis/terraform-azure-resource-group,Terraform module to create an Azure Resource Group
 resource-group,minhnnhat,8862,azure,https://github.com/minhnnhat/terraform-azure-resource-group,
@@ -7199,6 +7200,7 @@ resource_group,emilefraser,12339,azurerm,https://github.com/emilefraser/terrafor
 resourcedirectory,wjluo,3718,alicloud,https://github.com/wjluo/terraform-alicloud-resourcedirectory,
 resourcegroup,T-Systems-MMS,12120,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-resourcegroup,Configure Azure ResourceGroup
 resourcegroup,andrewCluey,7868,azurerm,https://github.com/andrewCluey/terraform-azurerm-resourcegroup,
+resourcegroup,idatalytics,14593,azurerm,https://github.com/idatalytics/terraform-azurerm-resourcegroup,
 resourcegroup,jbonilla03,2975,azurerm,https://github.com/jbonilla03/terraform-azurerm-resourcegroup,Terraform module to provision azure resource groups
 resources-aws,pen-pal,12461,mongodbatlas,https://github.com/pen-pal/terraform-mongodbatlas-resources-aws,This is a terraform module to create resources in mongodb atlas.
 rest-api-architecture,MoveoTech,13393,aws,https://github.com/MoveoTech/terraform-aws-rest-api-architecture,REST API architecture baseline
@@ -7984,6 +7986,7 @@ service-graph-template,netascode,10318,aci,https://github.com/netascode/terrafor
 service-group-sync-nia,a10networks,6375,thunder,https://github.com/a10networks/terraform-thunder-service-group-sync-nia,Terraform NIA Module for A10 Networks Thunder Service Groups
 service-linked-role,terraform-alicloud-modules,12843,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-service-linked-role,Terraform Module used to create several service linked roles automatically Alibaba Cloud.
 service-mesh,terraform-alicloud-modules,12813,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-service-mesh,Terraform Module for creating Service Mesh on Alibaba Cloud.
+service-networking-connection,nephosolutions,14584,google,https://github.com/nephosolutions/terraform-google-service-networking-connection,
 service-plan,libre-devops,13252,azurerm,https://github.com/libre-devops/terraform-azurerm-service-plan,A module used to deploy a service plan in Azure :fire:. This is the new edition of App service plans added in the version 3.0 provider
 service-principal,avinor,3475,azuread,https://github.com/avinor/terraform-azuread-service-principal,Terraform module to create service principal credentials and assign it access to resources
 service-principal,ingenii-solutions,8944,azuread,https://github.com/ingenii-solutions/terraform-azuread-service-principal,"This module can be used to create Azure AD Service Principals (App Registrations). Additionally, you can use the module to create role assignments for the service principal."
@@ -8338,6 +8341,7 @@ ss,tutac,7034,azure,https://github.com/tutac/terraform-azure-ss,
 ss,vitaliburak,7066,azure,https://github.com/vitaliburak/terraform-azure-ss,
 ssh-bastion,yurymkomarov,4637,aws,https://github.com/yurymkomarov/terraform-aws-ssh-bastion,AWS SSH Bastion
 ssh-bastion-service,joshuamkite,1007,aws,https://github.com/joshuamkite/terraform-aws-ssh-bastion-service,"Terraform plan to deploy ssh bastion as a containerised, stateless service on AWS with IAM based authentication"
+ssh-key,cloud-native-toolkit,14594,azure,https://github.com/cloud-native-toolkit/terraform-azure-ssh-key,Module to provision azure-ssh-key on azure
 ssh-key,clouddrove,5035,digitalocean,https://github.com/clouddrove/terraform-digitalocean-ssh-key,Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
 ssh-key,devdynamicio,13428,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-ssh-key,Terraform module to create ssh keys in DigitalOcean 🇺🇦
 ssh-key,terraform-do-modules,9864,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key,Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
@@ -8377,6 +8381,7 @@ ssm-parameter,tim0git,12412,aws,https://github.com/tim0git/terraform-aws-ssm-par
 ssm-parameter,tmknom,1837,aws,https://github.com/tmknom/terraform-aws-ssm-parameter,Terraform module which creates SSM Parameter resources on AWS.
 ssm-parameter-chamber-reader,cloudposse,3674,aws,https://github.com/cloudposse/terraform-aws-ssm-parameter-chamber-reader,Terraform module read ssm paramters managed with Chamber.
 ssm-parameter-store,cloudposse,1102,aws,https://github.com/cloudposse/terraform-aws-ssm-parameter-store,Terraform module to populate AWS Systems Manager (SSM) Parameter Store with values from Terraform. Works great with Chamber.
+ssm-parameter-store,ganexcloud,14583,aws,https://github.com/ganexcloud/terraform-aws-ssm-parameter-store,
 ssm-parameter-store-policy-documents,cloudposse,1204,aws,https://github.com/cloudposse/terraform-aws-ssm-parameter-store-policy-documents,A Terraform module that generates JSON documents for access for common AWS SSM Parameter Store policies
 ssm-parameter-with-default-value,BardiaN,11390,aws,https://github.com/BardiaN/terraform-aws-ssm-parameter-with-default-value,"This is a simple terraform module that tries to read an AWS SSM parameter. If the parameter doesn't exist, it will return a default value without throwing an error."
 ssm-parameters,figurate,5813,aws,https://github.com/figurate/terraform-aws-ssm-parameters,Configure a list of SSM Parameter Store entries
@@ -8786,6 +8791,7 @@ teleport-storage,cloudposse,864,aws,https://github.com/cloudposse/terraform-aws-
 tempest-pushgateway,vexxhost,8412,kubernetes,https://github.com/vexxhost/terraform-kubernetes-tempest-pushgateway,
 template,Lachlan-White,12740,module,https://github.com/Lachlan-White/terraform-module-template,Best Practices for a Terraform Module and supporting content
 template,flufi-io,13531,module,https://github.com/flufi-io/terraform-module-template,
+template,getindata,14589,module,https://github.com/getindata/terraform-module-template,Terraform module template - boilerplate used to simplify creation of new Terraform modules
 template,jakoberpf,11866,module,https://github.com/jakoberpf/terraform-module-template,This is my terraform module template
 template,rhythmictech,3160,azurerm,https://github.com/rhythmictech/terraform-azurerm-template,Template repo for Azure module
 template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-anycloud-template,Terraform module template. Good for any cloud and any provider
