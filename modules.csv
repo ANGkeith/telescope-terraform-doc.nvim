@@ -1993,6 +1993,7 @@ cloudwatch-log-group,aws-ia,12657,aws,https://github.com/aws-ia/terraform-aws-cl
 cloudwatch-log-group,mhmdio,7356,aws,https://github.com/mhmdio/terraform-aws-cloudwatch-log-group,AWS CW Log Group Terraform Module
 cloudwatch-logs,cloudposse,941,aws,https://github.com/cloudposse/terraform-aws-cloudwatch-logs,Terraform Module to Provide a CloudWatch Logs Endpoint
 cloudwatch-logs,cn-terraform,3245,aws,https://github.com/cn-terraform/terraform-aws-cloudwatch-logs,AWS CloudWatch Logs Terraform Module
+cloudwatch-logs,so1omon563,14604,aws,https://github.com/so1omon563/terraform-aws-cloudwatch-logs,Module to create a CloudWatch Log Group as well as other CloudWatch Log related resources (destinations and streams)..
 cloudwatch-logs-exporter,gadgetry-io,1808,aws,https://github.com/gadgetry-io/terraform-aws-cloudwatch-logs-exporter,Export a CloudWatch log group to S3 on a recurring schedule using Lambda and CloudWatch Events
 cloudwatch-logs-management,Han-Lon,11270,aws,https://github.com/Han-Lon/terraform-aws-cloudwatch-logs-management,A Terraform module to automate CloudWatch log configuration
 cloudwatch-logs-subscription,observeinc,14042,aws,https://github.com/observeinc/terraform-aws-cloudwatch-logs-subscription,
@@ -2229,6 +2230,7 @@ config-state,cloudowski,497,aws,https://github.com/cloudowski/terraform-aws-conf
 config-storage,appzen-oss,11062,aws,https://github.com/appzen-oss/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 config-storage,cloudposse,6685,aws,https://github.com/cloudposse/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 confluent,JamesWoolfenden,8800,aws,https://github.com/JamesWoolfenden/terraform-aws-confluent,To Provision Confluent Kafka 4
+confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform workspace for running Confluent for Kubernetes (CFK)
 confluent-platform,nerdynick,5010,aws,https://github.com/nerdynick/terraform-aws-confluent-platform,Terraform Modules for Setting up the Confluent Platform in AWS
 confluent-platform,osodevops,9857,azure,https://github.com/osodevops/terraform-azure-confluent-platform,Terraform Module for deploying best practice HA Confluent Platform on Azure
 confluent-platform,purbon,5629,google,https://github.com/purbon/terraform-google-confluent-platform,A Terraform module that can be used to setup Confluent Platform in the Google Cloud Platform
@@ -2704,6 +2706,7 @@ docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datado
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
 docker-instance,james-clarusway,14415,aws,https://github.com/james-clarusway/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,ofidan,14286,aws,https://github.com/ofidan/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance-test,halach2020,14598,aws,https://github.com/halach2020/terraform-aws-docker-instance-test,
 docker-registry,o0th,9354,kubernetes,https://github.com/o0th/terraform-kubernetes-docker-registry,
 docker-registry,rtlnl,5458,aws,https://github.com/rtlnl/terraform-aws-docker-registry,Terraform module to manage a private docker registry in EKS
 docker-registry,rtlnl,5563,kubernetes,https://github.com/rtlnl/terraform-kubernetes-docker-registry,Terraform module to manage a private docker registry in EKS
@@ -2736,7 +2739,6 @@ domain-redirect,Invicton-Labs,10887,aws,https://github.com/Invicton-Labs/terrafo
 domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-domain-redirect,Redirects from one domain to another using S3 bucket & Cloudfront distribution
 domain-redirect,simplycubed,11653,google,https://github.com/simplycubed/terraform-google-domain-redirect,Terraform module to simplify redirecting domains on Google Cloud DNS.
 domain-setup,daringway,5633,aws,https://github.com/daringway/terraform-aws-domain-setup,An opinionated setup your AWS domain (route52) related features.
-doormat,hashi-strawb,11342,tfe,https://github.com/hashi-strawb/terraform-tfe-doormat,"Terraform module which allows you to deploy AWS credentials to a Terraform Cloud Workspace, using Doormat (an internal HashiCorp tool)"
 download,dealmore,7432,npm,https://github.com/dealmore/terraform-npm-download,Terraform module for downloading files from npm.
 download,matti,826,http,https://github.com/matti/terraform-http-download,
 download,milliHQ,10109,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
@@ -2931,6 +2933,7 @@ ec2-instance-role,dod-iac,7979,aws,https://github.com/dod-iac/terraform-aws-ec2-
 ec2-instance-simple,trung,462,aws,https://github.com/trung/terraform-aws-ec2-instance-simple,Provision fleet of EC2 instances distributed across subnets
 ec2-instanceswitcher,wakumaku,7964,aws,https://github.com/wakumaku/terraform-aws-ec2-instanceswitcher,"start, stop, reboot or terminate AWS EC2 instances on scheduled times"
 ec2-kali-linux,offensive-terraform,6236,aws,https://github.com/offensive-terraform/terraform-aws-ec2-kali-linux,"Offensive Terraform module which creates Kali Linux from the AWS marketplace and installs cloud security tools (Pacu, Cloudsplaining, ScoutSuite)."
+ec2-key-pair,so1omon563,14602,aws,https://github.com/so1omon563/terraform-aws-ec2-key-pair,Creates an EC2 Key Pair that can be used when launching instances and stores private key in Secrets Manager.
 ec2-keypair,emyller,12064,aws,https://github.com/emyller/terraform-aws-ec2-keypair,A Terraform module to manage a SSH key as an EC2 key pair.
 ec2-launch-template,kmayer10,13854,aws,https://github.com/kmayer10/terraform-aws-ec2-launch-template,
 ec2-module-bgunawan,gunawanbambang,14032,aws,https://github.com/gunawanbambang/terraform-aws-ec2-module-bgunawan,
@@ -3409,6 +3412,7 @@ eks,particuleio,10043,aws,https://github.com/particuleio/terraform-aws-eks,Terra
 eks,project-octal,14024,aws,https://github.com/project-octal/terraform-aws-eks,Terraform module for deploying AWS EKS clusters
 eks,punkerside,6346,aws,https://github.com/punkerside/terraform-aws-eks,Terraform - Plantilla para crear un cluster Kubernetes (AWS EKS)
 eks,rhythmictech,5394,aws,https://github.com/rhythmictech/terraform-aws-eks,A Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS.
+eks,richardsonlima,14607,aws,https://github.com/richardsonlima/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,samimcloud2020,13869,aws,https://github.com/samimcloud2020/terraform-aws-eks,
 eks,shamal112mn,6926,aws,https://github.com/shamal112mn/terraform-aws-eks,
 eks,shukla2112,8359,aws,https://github.com/shukla2112/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
@@ -5069,6 +5073,7 @@ kubernetes,3-Letter-Agency,8186,digitalocean,https://github.com/3-Letter-Agency/
 kubernetes,3letteragency,8211,digitalocean,https://github.com/3letteragency/terraform-digitalocean-kubernetes,Digitalocean Kubernetes cluster Terraform module.
 kubernetes,ESSch,2621,google,https://github.com/ESSch/terraform-google-kubernetes,create kubernetes cluster which to help to terraform
 kubernetes,JWDobken,8129,hcloud,https://github.com/JWDobken/terraform-hcloud-kubernetes,Terraform module to provide Kubernetes for the Hetzner Cloud (non-official)
+kubernetes,LNA-DEV,14596,hetzner,https://github.com/LNA-DEV/terraform-hetzner-kubernetes,This repo contains the code for a terraform module which can set up a Kubernetes-Cluster in the Hetzner-Cloud
 kubernetes,OJFord,3163,module,https://github.com/OJFord/terraform-module-kubernetes,Configure a Kubernetes cluster with kubeadm (provider-agnostic)
 kubernetes,T-Systems-MMS,12113,kubernetes,https://github.com/T-Systems-MMS/terraform-kubernetes-kubernetes,Configure kubernetes over terraform
 kubernetes,TaitoUnited,10712,aws,https://github.com/TaitoUnited/terraform-aws-kubernetes,
@@ -5128,6 +5133,7 @@ kubernetes-engine,Aksana-ozgon,7128,google,https://github.com/Aksana-ozgon/terra
 kubernetes-engine,Bekzhan-osh,7125,google,https://github.com/Bekzhan-osh/terraform-google-kubernetes-engine,
 kubernetes-engine,Gheorghe-Rodideal,7121,google,https://github.com/Gheorghe-Rodideal/terraform-google-kubernetes-engine,
 kubernetes-engine,Harjot1Singh,7594,google,https://github.com/Harjot1Singh/terraform-google-kubernetes-engine,A Terraform module for configuring GKE clusters.
+kubernetes-engine,alexw19,14608,google,https://github.com/alexw19/terraform-google-kubernetes-engine,A Terraform module for configuring GKE clusters.
 kubernetes-engine,bemakylbekova,7119,google,https://github.com/bemakylbekova/terraform-google-kubernetes-engine,
 kubernetes-engine,franviera92,9712,google,https://github.com/franviera92/terraform-google-kubernetes-engine,A Terraform module for configuring GKE clusters.
 kubernetes-engine,google-terraform-modules,986,google,https://github.com/google-terraform-modules/terraform-google-kubernetes-engine,Create a Google Kubernetes Engine cluster
@@ -6001,6 +6007,7 @@ named-subnets,cloudposse,515,aws,https://github.com/cloudposse/terraform-aws-nam
 namespace,ausmartway,10146,vault,https://github.com/ausmartway/terraform-vault-namespace,A Terraform module for Vault namespace
 namespace,cookielab,7566,kubernetes,https://github.com/cookielab/terraform-kubernetes-namespace,WIP
 namespace,gruntwork-io,7171,kubernetes,https://github.com/gruntwork-io/terraform-kubernetes-namespace,This repo contains a Module for managing Kubernetes Namespaces with Terraform.
+namespace,kalenarndt,14605,vault,https://github.com/kalenarndt/terraform-vault-namespace,Terraform module to create a Vault namespace
 namespace,kiwicom,2628,kubernetes,https://github.com/kiwicom/terraform-kubernetes-namespace,
 namespace,mhcurlee,14183,kubernetes,https://github.com/mhcurlee/terraform-kubernetes-namespace,
 namespace,mineiros-io,11359,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-namespace,A Terraform module to create and manage namespaces in Kubernetes https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
@@ -7630,6 +7637,7 @@ s3backend,kildem,8357,aws,https://github.com/kildem/terraform-aws-s3backend,
 s3backend,kongory,11262,aws,https://github.com/kongory/terraform-aws-s3backend,Terraform example for AWS
 s3backend,l-schirrmeister,12489,aws,https://github.com/l-schirrmeister/terraform-aws-s3backend,Module to create a s3backend for terraform
 s3backend,l-with,7575,aws,https://github.com/l-with/terraform-aws-s3backend,
+s3backend,laugesen11,14601,aws,https://github.com/laugesen11/terraform-aws-s3backend,
 s3backend,leonardovillela,11555,aws,https://github.com/leonardovillela/terraform-aws-s3backend,Terraform in Action book example for aws s3 backend module (only for study purposes)
 s3backend,levlas,8814,aws,https://github.com/levlas/terraform-aws-s3backend,S3 backend for Terraform
 s3backend,lindynetech,9638,aws,https://github.com/lindynetech/terraform-aws-s3backend,terraform-aws-s3backend
@@ -7731,6 +7739,7 @@ schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty
 scheduled-function,franviera92,8250,google,https://github.com/franviera92/terraform-google-scheduled-function,This modules makes it easy to set up a scheduled job to trigger events/run functions.
 scheduled-function,terraform-google-modules,2317,google,https://github.com/terraform-google-modules/terraform-google-scheduled-function,This modules makes it easy to set up a scheduled job to trigger events/run functions.
 scheduled-lambda,USSBA,4767,aws,https://github.com/USSBA/terraform-aws-scheduled-lambda,A simple module to package and deploy lambda functions and have them trigger them on a schedule.
+scheduled-switch,aws-samples,14599,aws,https://github.com/aws-samples/terraform-aws-scheduled-switch,Spin up and down your Terraform resources on schedule!
 scheduled-vertex-pipelines,teamdatatonic,14322,google,https://github.com/teamdatatonic/terraform-google-scheduled-vertex-pipelines,A Terraform module for scheduling Vertex Pipeline runs using Google Cloud Scheduler
 scheduler,deep-custom-module,12191,aws,https://github.com/deep-custom-module/terraform-aws-scheduler,
 scheduler,kadzielawa,10425,aws,https://github.com/kadzielawa/terraform-aws-scheduler,
@@ -8796,6 +8805,7 @@ template,jakoberpf,11866,module,https://github.com/jakoberpf/terraform-module-te
 template,rhythmictech,3160,azurerm,https://github.com/rhythmictech/terraform-azurerm-template,Template repo for Azure module
 template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-anycloud-template,Terraform module template. Good for any cloud and any provider
 template,rhythmictech,5399,terraform,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
+template-directory,escapace,14606,null,https://github.com/escapace/terraform-null-template-directory,
 templates,Terraform-GCP-Templates,7279,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-templates,
 tempo,loafoe,13409,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-tempo,Experiment with Grafana Tempo
 tenant,insobi,12880,aci,https://github.com/insobi/terraform-aci-tenant,Manage ACI tenants and subcomponents easily.
@@ -9683,6 +9693,7 @@ vpc-endpoints,figurate,6415,aws,https://github.com/figurate/terraform-aws-vpc-en
 vpc-endpoints,jparnaudeau,14442,aws,https://github.com/jparnaudeau/terraform-aws-vpc-endpoints,Terraform Module for creating VPC Endpoints (Interface or Gateway)
 vpc-enterprise,lorenzoaiello,4986,aws,https://github.com/lorenzoaiello/terraform-aws-vpc-enterprise,This Terraform modules provides an enterprise ready VPC with the ability to connect to bridge transit gateways and non-routable subnets.
 vpc-example,dwmkerr,1867,aws,https://github.com/dwmkerr/terraform-aws-vpc-example,An example terraform module to create an AWS VPC with a cluster of web servers.
+vpc-flow-logs,farhanangullia,14600,aws,https://github.com/farhanangullia/terraform-aws-vpc-flow-logs,Terraform module for configuring VPC flow logs for a given VPC with enriched metadata fields
 vpc-flow-logs,gadgetry-io,1863,aws,https://github.com/gadgetry-io/terraform-aws-vpc-flow-logs,
 vpc-flow-logs,native-cube,11849,aws,https://github.com/native-cube/terraform-aws-vpc-flow-logs,Terraform module for enabling AWS VPC flow logs.
 vpc-flow-logs,trussworks,3254,aws,https://github.com/trussworks/terraform-aws-vpc-flow-logs,Configures VPC flow logs for the given VPC.
@@ -10002,6 +10013,7 @@ workspace,flufi-io,13516,tfc,https://github.com/flufi-io/terraform-tfc-workspace
 workspace,foss-cafe,7264,tfe,https://github.com/foss-cafe/terraform-tfe-workspace,Terraform Module for managing TFE workspaces
 workspace,hashicorp-modules,1533,tfe,https://github.com/hashicorp-modules/terraform-tfe-workspace,Module for getting started with TFE workspaces.
 workspace,nephosolutions,3144,tfe,https://github.com/nephosolutions/terraform-tfe-workspace,This module provisions a Terraform Cloud / Terraform Enterprise workspace
+workspace,nthings,14603,tfe,https://github.com/nthings/terraform-tfe-workspace,Terraform module to create workspaces in Terraform Cloud
 workspace,psychopenguin,5320,tfe,https://github.com/psychopenguin/terraform-tfe-workspace,
 workspace,rsmets,9259,tfe,https://github.com/rsmets/terraform-tfe-workspace,This module provisions a Terraform Cloud / Terraform Enterprise workspace
 workspace,srijanone,7740,tfe,https://github.com/srijanone/terraform-tfe-workspace,Terraform Module for TFE workspace management
