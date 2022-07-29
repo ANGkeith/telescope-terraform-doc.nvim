@@ -1761,7 +1761,7 @@ cloud-run-api,graphnode-technologies,10341,gcp,https://github.com/graphnode-tech
 cloud-run-cicd-updates,simplycubed,11708,google,https://github.com/simplycubed/terraform-google-cloud-run-cicd-updates,
 cloud-run-iam,mineiros-io,11372,google,https://github.com/mineiros-io/terraform-google-cloud-run-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Cloud Run applications on Cloud Platform (GCP) https://cloud.google.com/run
 cloud-run_pubsub_to_bq,AckeeCZ,13044,gcp,https://github.com/AckeeCZ/terraform-gcp-cloud-run_pubsub_to_bq,Cloud Run subscribes itself to given topic and inserts each message to BigQuery table.
-cloud-scanner,deepfence,14623,aws,https://github.com/deepfence/terraform-aws-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
+cloud-scanner,deepfence,14703,aws,https://github.com/deepfence/terraform-aws-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
 cloud-source-repositories,bootlabstech,14022,google,https://github.com/bootlabstech/terraform-google-cloud-source-repositories,
 cloud-spanner,bootlabstech,13855,google,https://github.com/bootlabstech/terraform-google-cloud-spanner,
 cloud-sql,mineiros-io,11373,google,https://github.com/mineiros-io/terraform-google-cloud-sql,"A Terraform module to deploy and manage Google Cloud SQL, a fully managed, relational database service for MySQL, PostgreSQL, and SQL Server on Google Cloud Platform (GCP) https://cloud.google.com/cloudsql"
@@ -1975,6 +1975,7 @@ cloudwatch-dashboard,HENNGE,6650,aws,https://github.com/HENNGE/terraform-aws-clo
 cloudwatch-dashboard,zahorniak,6151,aws,https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard,Terraform module which creates CloudWatch Dashboard
 cloudwatch-event,JousP,4106,aws,https://github.com/JousP/terraform-aws-cloudwatch-event,Terraform module to create an aws_cloudwatch_event rule and target
 cloudwatch-event,figurate,8024,aws,https://github.com/figurate/terraform-aws-cloudwatch-event,Templates for event triggers and targets
+cloudwatch-event,ganexcloud,14716,aws,https://github.com/ganexcloud/terraform-aws-cloudwatch-event,
 cloudwatch-event-rule,clouddrove,6401,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule,Terraform module to create cloudwatch event rule on AWS.
 cloudwatch-event-rule,figurate,6694,aws,https://github.com/figurate/terraform-aws-cloudwatch-event-rule,Templates for event triggers and targets
 cloudwatch-event-sqs,spanio,8122,aws,https://github.com/spanio/terraform-aws-cloudwatch-event-sqs,⏱ Terraform module to provision an AWS Cloudwatch Event which posts directly to an AWS SQS queue.
@@ -2229,7 +2230,7 @@ config-state,cloudowski,497,aws,https://github.com/cloudowski/terraform-aws-conf
 config-storage,appzen-oss,11062,aws,https://github.com/appzen-oss/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 config-storage,cloudposse,6685,aws,https://github.com/cloudposse/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 confluent,JamesWoolfenden,8800,aws,https://github.com/JamesWoolfenden/terraform-aws-confluent,To Provision Confluent Kafka 4
-confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform workspace for running Confluent for Kubernetes (CFK)
+confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform module for running Confluent for Kubernetes (CFK)
 confluent-platform,nerdynick,5010,aws,https://github.com/nerdynick/terraform-aws-confluent-platform,Terraform Modules for Setting up the Confluent Platform in AWS
 confluent-platform,osodevops,9857,azure,https://github.com/osodevops/terraform-azure-confluent-platform,Terraform Module for deploying best practice HA Confluent Platform on Azure
 confluent-platform,purbon,5629,google,https://github.com/purbon/terraform-google-confluent-platform,A Terraform module that can be used to setup Confluent Platform in the Google Cloud Platform
@@ -2250,6 +2251,7 @@ consul-ecs,hashicorp,8826,aws,https://github.com/hashicorp/terraform-aws-consul-
 consul-ent-k8s,hashicorp,13576,aws,https://github.com/hashicorp/terraform-aws-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on EKS as described by HashiCorp reference architecture.
 consul-ent-k8s,hashicorp,13577,gcp,https://github.com/hashicorp/terraform-gcp-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on GKE as described by HashiCorp reference architecture.
 consul-ent-k8s,hashicorp,13578,azure,https://github.com/hashicorp/terraform-azure-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on AKS as described by HashiCorp reference architecture.
+consul-event-waf,scshitole,14701,bigip,https://github.com/scshitole/terraform-bigip-consul-event-waf,
 consul-firewall,jarensaa,4800,digitalocean,https://github.com/jarensaa/terraform-digitalocean-consul-firewall,Terraform module for creating a standard firewall with ports open for a Consul server.
 consul-lambda-registrator,hashicorp,13918,aws,https://github.com/hashicorp/terraform-aws-consul-lambda-registrator,This repository holds the Go code and Terraform module used for deploying Lambda registrator.
 consul-nomad-cluster,yellowmegaman,1990,google,https://github.com/yellowmegaman/terraform-google-consul-nomad-cluster,Terraform module. Can be used to create really simple consul/nomad cluster in Google Cloud
@@ -2259,6 +2261,7 @@ consul-service,Chhed13,2292,aws,https://github.com/Chhed13/terraform-aws-consul-
 consul-starter,hashicorp,6065,aws,https://github.com/hashicorp/terraform-aws-consul-starter,A Terraform module for creating an OSS Consul cluster as described by the HashiCorp reference architecture.
 consul-sync,kecorbin,6273,ciscoasa,https://github.com/kecorbin/terraform-ciscoasa-consul-sync,Synchronize Cisco ASA object groups with Consul service instances using Terraform
 consul-sync-event,f5devcentral,11221,bigip,https://github.com/f5devcentral/terraform-bigip-consul-sync-event,
+consul-sync-multi-tenant,scshitole,14719,bigip,https://github.com/scshitole/terraform-bigip-consul-sync-multi-tenant,
 contact-form-mailer,DJAndries,5558,aws,https://github.com/DJAndries/terraform-aws-contact-form-mailer,Serverless contact form handler/mailer
 contactinfo,sr2c,11332,null,https://github.com/sr2c/terraform-null-contactinfo,Terraform module to define a ContactInfo-Information-Sharing-Specification compliant string
 container,hongjunjeong95,12689,aws,https://github.com/hongjunjeong95/terraform-aws-container,
@@ -2652,6 +2655,7 @@ dns,TaitoUnited,6122,google,https://github.com/TaitoUnited/terraform-google-dns,
 dns,TaitoUnited,8227,azurerm,https://github.com/TaitoUnited/terraform-azurerm-dns,
 dns,bennu,6870,k8s,https://github.com/bennu/terraform-k8s-dns,
 dns,crazy-canux,14309,external,https://github.com/crazy-canux/terraform-external-dns,deploy externalDNS on EKS with terraform.
+dns,darzanebor,14718,yandex,https://github.com/darzanebor/terraform-yandex-dns,
 dns,garbetjie,5767,google,https://github.com/garbetjie/terraform-google-dns,A Terraform module for managing DNS records in Google Cloud.
 dns,genstackio,8003,aws,https://github.com/genstackio/terraform-aws-dns,Terraform module to create an AWS Route53 DNS resources
 dns,hanyouqing,3748,alicloud,https://github.com/hanyouqing/terraform-alicloud-dns,terraform-alicloud-dns
@@ -2703,6 +2707,7 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker-container,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-ec2,ofidan,14650,aws,https://github.com/ofidan/terraform-aws-docker-ec2,
+docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
 docker-instance,AAsimCoskun,14624,aws,https://github.com/AAsimCoskun/terraform-aws-docker-instance,
 docker-instance,ABlest8,14664,aws,https://github.com/ABlest8/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2712,19 +2717,23 @@ docker-instance,GylychJelilov,14666,aws,https://github.com/GylychJelilov/terrafo
 docker-instance,HaciYasar,14653,aws,https://github.com/HaciYasar/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS
 docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Ikkyto,14688,aws,https://github.com/Ikkyto/terraform-aws-docker-instance,
+docker-instance,JasonmKahraman,14700,aws,https://github.com/JasonmKahraman/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JohnWhyter,14699,aws,https://github.com/JohnWhyter/terraform-aws-docker-instance,
 docker-instance,MCANMCAN,14629,aws,https://github.com/MCANMCAN/terraform-aws-docker-instance,
 docker-instance,MEAKSOY,14685,aws,https://github.com/MEAKSOY/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on Aws.
+docker-instance,MelanieBirdal,14712,aws,https://github.com/MelanieBirdal/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,Muhammet-Gokmen,14658,aws,https://github.com/Muhammet-Gokmen/terraform-aws-docker-instance,
 docker-instance,OdabasiMehmet,14684,aws,https://github.com/OdabasiMehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Rootea,14630,aws,https://github.com/Rootea/terraform-aws-docker-instance,
+docker-instance,TMManyau,14717,aws,https://github.com/TMManyau/terraform-aws-docker-instance,
 docker-instance,Tongucyorgun,14622,aws,https://github.com/Tongucyorgun/terraform-aws-docker-instance,Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2 ami and installed docker in it.
-docker-instance,abetr,14675,aws,https://github.com/abetr/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS.
+docker-instance,abetr,14707,aws,https://github.com/abetr/terraform-aws-docker-instance,
 docker-instance,adenizdnz,14641,aws,https://github.com/adenizdnz/terraform-aws-docker-instance,https://registry.terraform.io/modules/adenizdnz/docker-instance/aws/latest
 docker-instance,ahadalioglu,14696,aws,https://github.com/ahadalioglu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,akgulmert,14705,aws,https://github.com/akgulmert/terraform-aws-docker-instance,
 docker-instance,alexanderadam2022,14632,aws,https://github.com/alexanderadam2022/terraform-aws-docker-instance,
 docker-instance,arslantobe,14642,aws,https://github.com/arslantobe/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
-docker-instance,avcimehmet,14670,aws,https://github.com/avcimehmet/terraform-aws-docker-instance,
+docker-instance,avcimehmet,14670,aws,https://github.com/avcimehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,aykutakgnu,14637,aws,https://github.com/aykutakgnu/terraform-aws-docker-instance,
 docker-instance,bahattinatalay,14663,aws,https://github.com/bahattinatalay/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,betul-kaplan,14652,aws,https://github.com/betul-kaplan/terraform-aws-docker-instance,
@@ -2733,14 +2742,16 @@ docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform
 docker-instance,coskunk5,14669,aws,https://github.com/coskunk5/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,eda-clarusway,14628,aws,https://github.com/eda-clarusway/terraform-aws-docker-instance,
 docker-instance,erhankorkut16,14654,aws,https://github.com/erhankorkut16/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,gncalper,14709,aws,https://github.com/gncalper/terraform-aws-docker-instance,
 docker-instance,halach2020,14691,aws,https://github.com/halach2020/terraform-aws-docker-instance,
 docker-instance,hasaanyildiz,14640,aws,https://github.com/hasaanyildiz/terraform-aws-docker-instance,
 docker-instance,hm-keles,14639,aws,https://github.com/hm-keles/terraform-aws-docker-instance,
 docker-instance,iamdevopser,14626,aws,https://github.com/iamdevopser/terraform-aws-docker-instance,- Description: Terraform module which creates a docker instance resource on AWS.
 docker-instance,james-clarusway,14415,aws,https://github.com/james-clarusway/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,joseph-saint,14668,aws,https://github.com/joseph-saint/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
-docker-instance,kaslan65,14644,aws,https://github.com/kaslan65/terraform-aws-docker-instance,
+docker-instance,kaslan65,14644,aws,https://github.com/kaslan65/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,ksoydam,14689,aws,https://github.com/ksoydam/terraform-aws-docker-instance,
+docker-instance,laura-hill,14715,aws,https://github.com/laura-hill/terraform-aws-docker-instance,
 docker-instance,mafuClarusway,14695,aws,https://github.com/mafuClarusway/terraform-aws-docker-instance,- Terraform module to create a Docker instance in AWS.  - Website: https://registry.terraform.io/modules/mafuClarusway/docker-instance/aws/latest
 docker-instance,mehmetozturk4438,14660,aws,https://github.com/mehmetozturk4438/terraform-aws-docker-instance,
 docker-instance,minedgn,14635,aws,https://github.com/minedgn/terraform-aws-docker-instance,
@@ -2991,7 +3002,7 @@ ec2-instance-role,dod-iac,7979,aws,https://github.com/dod-iac/terraform-aws-ec2-
 ec2-instance-simple,trung,462,aws,https://github.com/trung/terraform-aws-ec2-instance-simple,Provision fleet of EC2 instances distributed across subnets
 ec2-instanceswitcher,wakumaku,7964,aws,https://github.com/wakumaku/terraform-aws-ec2-instanceswitcher,"start, stop, reboot or terminate AWS EC2 instances on scheduled times"
 ec2-kali-linux,offensive-terraform,6236,aws,https://github.com/offensive-terraform/terraform-aws-ec2-kali-linux,"Offensive Terraform module which creates Kali Linux from the AWS marketplace and installs cloud security tools (Pacu, Cloudsplaining, ScoutSuite)."
-ec2-key-pair,so1omon563,14602,aws,https://github.com/so1omon563/terraform-aws-ec2-key-pair,Creates an EC2 Key Pair that can be used when launching instances and stores private key in Secrets Manager.
+ec2-key-pair,so1omon563,14602,aws,https://github.com/so1omon563/terraform-aws-ec2-key-pair,Creates an EC2 Key Pair that can be used when launching instances and stores private key in Secrets Manager. Can also import existing keys.
 ec2-keypair,emyller,12064,aws,https://github.com/emyller/terraform-aws-ec2-keypair,A Terraform module to manage a SSH key as an EC2 key pair.
 ec2-launch-template,kmayer10,13854,aws,https://github.com/kmayer10/terraform-aws-ec2-launch-template,
 ec2-module-bgunawan,gunawanbambang,14032,aws,https://github.com/gunawanbambang/terraform-aws-ec2-module-bgunawan,
@@ -4431,6 +4442,7 @@ hybrid-module-publishing-on-gh-packages,DanielMSchmidt,13365,cdk,https://github.
 iac,awssharad,13310,aws,https://github.com/awssharad/terraform-aws-iac," terraform-aws-iac"
 iac,james-daniel,1400,demo,https://github.com/james-daniel/terraform-demo-iac,
 iam,BorisLabs,8011,aws,https://github.com/BorisLabs/terraform-aws-iam,Terraform module to manage IAM permissions.
+iam,OT-CLOUD-KIT,14702,gcp,https://github.com/OT-CLOUD-KIT/terraform-gcp-iam,
 iam,Selleo,11479,aws,https://github.com/Selleo/terraform-aws-iam,Terraform IAM policies for common tasks
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,cytopia,7272,aws,https://github.com/cytopia/terraform-aws-iam,This Terraform module manages AWS IAM to its full extend.
@@ -7139,6 +7151,7 @@ redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-a
 redshift,QuiNovas,1496,aws,https://github.com/QuiNovas/terraform-aws-redshift,Creates a Redshift cluster
 redshift,terraform-aws-modules,299,aws,https://github.com/terraform-aws-modules/terraform-aws-redshift,Terraform module which creates Redshift resources on AWS 🇺🇦
 redshift-cluster,cloudposse,8463,aws,https://github.com/cloudposse/terraform-aws-redshift-cluster,Terraform module to provision an AWS Redshift Cluster
+redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-redshift-service,"Provision Postgres RDS on HSP including prometheus metrics endpoint, discoverable by variant"
 refactor-codegen,AdrienneCohea,11302,local,https://github.com/AdrienneCohea/terraform-local-refactor-codegen,Generate Terraform code to ease more complicated refactors
 regex-errors,cgetzen,4993,local,https://github.com/cgetzen/terraform-local-regex-errors,Terraform module that provides error checking for regular expressions.
 regional-droplets,NicholasPCole,11565,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-regional-droplets,Terraform module for creating Droplets and DNS records in DigitalOcean regions
@@ -8149,7 +8162,7 @@ shell-resource,Invicton-Labs,9433,external,https://github.com/Invicton-Labs/terr
 shem,sdkpage,11585,aws,https://github.com/sdkpage/terraform-aws-shem,Terraform lesson
 shepard,WOGRA-AG,13262,kustomization,https://github.com/WOGRA-AG/terraform-kustomization-shepard,A Terraform module for running Shepard on a kubernetes cluster. 
 shepherd,spdns,7727,aws,https://github.com/spdns/terraform-aws-shepherd,This module is used to configure AWS resources to work with the Shepherd Protective DNS records.
-shield-advanced,so1omon563,14521,aws,https://github.com/so1omon563/terraform-aws-shield-advanced,Implements AWS Shield Advanced on specified resources.
+shield-advanced,so1omon563,14521,aws,https://github.com/so1omon563/terraform-aws-shield-advanced,Implements AWS Shield Advanced on specified resources. Can also create protection groups.
 shilpis3,shilpidixitt,11425,aws,https://github.com/shilpidixitt/terraform-aws-shilpis3,
 shiny,shinygeorge12,12276,aws,https://github.com/shinygeorge12/terraform-aws-shiny,
 shrutistorages3,shrutisingh22,11423,aws,https://github.com/shrutisingh22/terraform-aws-shrutistorages3,
@@ -8604,6 +8617,7 @@ staticwebsitepublic,mahesh9tsm,14478,azurerm,https://github.com/mahesh9tsm/terra
 staticwebsitepublic,ndrsingh-61,11195,azurerm,https://github.com/ndrsingh-61/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ngshukun,12031,azurerm,https://github.com/ngshukun/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,nmadesh20,9939,azurerm,https://github.com/nmadesh20/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,ravican09,14704,azurerm,https://github.com/ravican09/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,richbjhudson,11688,azurerm,https://github.com/richbjhudson/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,riyanshianne,13880,azurerm,https://github.com/riyanshianne/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,robyosamu,10468,azurerm,https://github.com/robyosamu/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
