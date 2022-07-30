@@ -189,6 +189,7 @@ action-group,rink72,3911,azurerm,https://github.com/rink72/terraform-azurerm-act
 action-helper,maunzCache,13875,aws,https://github.com/maunzCache/terraform-aws-action-helper,aws-action-helper is a Terraform module which helps implementing AWS IAM policies by providing abstracting actions (or permissions) as usable object in Terraform.
 action-runner,Cox-Automotive,10771,aws,https://github.com/Cox-Automotive/terraform-aws-action-runner,Terraform module to setup aws action runners
 action-secrets,math280h,14123,github,https://github.com/math280h/terraform-github-action-secrets,Easily manage secrets on multiple repositories via terraform
+actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-controller,basisai,10986,helm,https://github.com/basisai/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-provisioner,camptocamp,8660,github,https://github.com/camptocamp/terraform-github-actions-runner-provisioner,Terraform provisioner for a self-hosted GitHub Actions runner
 actiontrail,terraform-alicloud-modules,2297,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-actiontrail,Terraform module which creates Actiontrail on Alibaba Cloud
@@ -1105,6 +1106,7 @@ aws-cloudfront-ld-router,Adaptavist,7283,module,https://github.com/Adaptavist/te
 aws-cloudfront-router,Adaptavist,6985,module,https://github.com/Adaptavist/terraform-module-aws-cloudfront-router,
 aws-cloudtrail,lean-delivery,7585,module,https://github.com/lean-delivery/terraform-module-aws-cloudtrail,Terraform module for CloudTrail setup with storing logs to S3/CloudWatch
 aws-cluster,drpebcak,3451,k3s,https://github.com/drpebcak/terraform-k3s-aws-cluster,
+aws-cluster,maathor,14722,k3s,https://github.com/maathor/terraform-k3s-aws-cluster,
 aws-cluster,rancher,3338,k3s,https://github.com/rancher/terraform-k3s-aws-cluster,
 aws-connect,spotinst,11385,spotinst,https://github.com/spotinst/terraform-spotinst-aws-connect,A Terraform module to connect an AWS account to Spot.io.
 aws-core,lean-delivery,7586,module,https://github.com/lean-delivery/terraform-module-aws-core,Terraform module for creating AWS core service
@@ -2261,7 +2263,7 @@ consul-service,Chhed13,2292,aws,https://github.com/Chhed13/terraform-aws-consul-
 consul-starter,hashicorp,6065,aws,https://github.com/hashicorp/terraform-aws-consul-starter,A Terraform module for creating an OSS Consul cluster as described by the HashiCorp reference architecture.
 consul-sync,kecorbin,6273,ciscoasa,https://github.com/kecorbin/terraform-ciscoasa-consul-sync,Synchronize Cisco ASA object groups with Consul service instances using Terraform
 consul-sync-event,f5devcentral,11221,bigip,https://github.com/f5devcentral/terraform-bigip-consul-sync-event,
-consul-sync-multi-tenant,scshitole,14719,bigip,https://github.com/scshitole/terraform-bigip-consul-sync-multi-tenant,
+consul-sync-multi-tenant,scshitole,14725,bigip,https://github.com/scshitole/terraform-bigip-consul-sync-multi-tenant,
 contact-form-mailer,DJAndries,5558,aws,https://github.com/DJAndries/terraform-aws-contact-form-mailer,Serverless contact form handler/mailer
 contactinfo,sr2c,11332,null,https://github.com/sr2c/terraform-null-contactinfo,Terraform module to define a ContactInfo-Information-Sharing-Specification compliant string
 container,hongjunjeong95,12689,aws,https://github.com/hongjunjeong95/terraform-aws-container,
@@ -2655,7 +2657,7 @@ dns,TaitoUnited,6122,google,https://github.com/TaitoUnited/terraform-google-dns,
 dns,TaitoUnited,8227,azurerm,https://github.com/TaitoUnited/terraform-azurerm-dns,
 dns,bennu,6870,k8s,https://github.com/bennu/terraform-k8s-dns,
 dns,crazy-canux,14309,external,https://github.com/crazy-canux/terraform-external-dns,deploy externalDNS on EKS with terraform.
-dns,darzanebor,14718,yandex,https://github.com/darzanebor/terraform-yandex-dns,
+dns,darzanebor,14718,yandex,https://github.com/darzanebor/terraform-yandex-dns,Yandex.Cloud Terraform DNS module
 dns,garbetjie,5767,google,https://github.com/garbetjie/terraform-google-dns,A Terraform module for managing DNS records in Google Cloud.
 dns,genstackio,8003,aws,https://github.com/genstackio/terraform-aws-dns,Terraform module to create an AWS Route53 DNS resources
 dns,hanyouqing,3748,alicloud,https://github.com/hanyouqing/terraform-alicloud-dns,terraform-alicloud-dns
@@ -2719,6 +2721,7 @@ docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terrafo
 docker-instance,Ikkyto,14688,aws,https://github.com/Ikkyto/terraform-aws-docker-instance,
 docker-instance,JasonmKahraman,14700,aws,https://github.com/JasonmKahraman/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JohnWhyter,14699,aws,https://github.com/JohnWhyter/terraform-aws-docker-instance,
+docker-instance,Kaplanibrahim,14726,aws,https://github.com/Kaplanibrahim/terraform-aws-docker-instance,
 docker-instance,MCANMCAN,14629,aws,https://github.com/MCANMCAN/terraform-aws-docker-instance,
 docker-instance,MEAKSOY,14685,aws,https://github.com/MEAKSOY/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on Aws.
 docker-instance,MelanieBirdal,14712,aws,https://github.com/MelanieBirdal/terraform-aws-docker-instance,terraform-aws-docker-instance
@@ -2727,6 +2730,7 @@ docker-instance,OdabasiMehmet,14684,aws,https://github.com/OdabasiMehmet/terrafo
 docker-instance,Rootea,14630,aws,https://github.com/Rootea/terraform-aws-docker-instance,
 docker-instance,TMManyau,14717,aws,https://github.com/TMManyau/terraform-aws-docker-instance,
 docker-instance,Tongucyorgun,14622,aws,https://github.com/Tongucyorgun/terraform-aws-docker-instance,Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2 ami and installed docker in it.
+docker-instance,YunusKarsen35,14729,aws,https://github.com/YunusKarsen35/terraform-aws-docker-instance,
 docker-instance,abetr,14707,aws,https://github.com/abetr/terraform-aws-docker-instance,
 docker-instance,adenizdnz,14641,aws,https://github.com/adenizdnz/terraform-aws-docker-instance,https://registry.terraform.io/modules/adenizdnz/docker-instance/aws/latest
 docker-instance,ahadalioglu,14696,aws,https://github.com/ahadalioglu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2740,6 +2744,7 @@ docker-instance,betul-kaplan,14652,aws,https://github.com/betul-kaplan/terraform
 docker-instance,bhandary1419,14698,aws,https://github.com/bhandary1419/terraform-aws-docker-instance,
 docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,coskunk5,14669,aws,https://github.com/coskunk5/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,deepvirtualdoubts,14721,aws,https://github.com/deepvirtualdoubts/terraform-aws-docker-instance,
 docker-instance,eda-clarusway,14628,aws,https://github.com/eda-clarusway/terraform-aws-docker-instance,
 docker-instance,erhankorkut16,14654,aws,https://github.com/erhankorkut16/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,gncalper,14709,aws,https://github.com/gncalper/terraform-aws-docker-instance,
@@ -2759,6 +2764,7 @@ docker-instance,momoch4n,14692,aws,https://github.com/momoch4n/terraform-aws-doc
 docker-instance,msaidcevik,14665,aws,https://github.com/msaidcevik/terraform-aws-docker-instance,
 docker-instance,mstf38,14690,aws,https://github.com/mstf38/terraform-aws-docker-instance,
 docker-instance,muammer-acarab,14659,aws,https://github.com/muammer-acarab/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,mutluresul,14728,aws,https://github.com/mutluresul/terraform-aws-docker-instance,
 docker-instance,ofidan,14286,aws,https://github.com/ofidan/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,omerdogan16,14634,aws,https://github.com/omerdogan16/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,oraykamberoglu,14625,aws,https://github.com/oraykamberoglu/terraform-aws-docker-instance,
@@ -5122,6 +5128,7 @@ ksoc-connect,ksoclabs,12262,azurerm,https://github.com/ksoclabs/terraform-azurer
 kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-gitlab-kube-cluster,Terraform module to easily connect any existing Kubernetes cluster with Gitlab
 kube-hetzner,kube-hetzner,12599,hcloud,https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner,Optimized and Maintenance-free Kubernetes on Hetzner Cloud in one command!
 kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-janitor,
+kube-lab,ccliver,14727,aws,https://github.com/ccliver/terraform-aws-kube-lab,Module to setup a Kubernetes lab on AWS
 kube-state-metrics-addon,askulkarni2,12091,eksblueprints,https://github.com/askulkarni2/terraform-eksblueprints-kube-state-metrics-addon,An implementation of the kube-state-metrics addon for the Amazon EKS Blueprints for Terraform.
 kube-system-default-cluster-admin,matti,2997,kubernetes,https://github.com/matti/terraform-kubernetes-kube-system-default-cluster-admin,
 kubeadm,dannyburke1,6297,hetzner,https://github.com/dannyburke1/terraform-hetzner-kubeadm,Terraform code for Hetzner Cloud with a kubeadm provisioned cluster
@@ -8143,6 +8150,7 @@ sftp,trussworks,3690,aws,https://github.com/trussworks/terraform-aws-sftp,Config
 sftp-custom-idp,itprosource,13208,aws,https://github.com/itprosource/terraform-aws-sftp-custom-idp,"Template for AWS Transfer Family SFTP server in VPC with Custom IDP via API Gateway, Lambda, and Secrets Manager. "
 sftp-user,trussworks,3691,aws,https://github.com/trussworks/terraform-aws-sftp-user,
 sg,DTherHtun,4269,aws,https://github.com/DTherHtun/terraform-aws-sg,Terraform module which creates Security Group on AWS
+sg,cheil-tech,14720,aws,https://github.com/cheil-tech/terraform-aws-sg,
 sg,mainmax,10819,aws,https://github.com/mainmax/terraform-aws-sg,Terraform module to create AWS EC2 Security Group from a firewall-like ruleset policy
 sg,scottwinkler,2470,aws,https://github.com/scottwinkler/terraform-aws-sg,
 sg,terraform-in-action,6893,aws,https://github.com/terraform-in-action/terraform-aws-sg,
@@ -8670,6 +8678,7 @@ storage-account,avinor,2487,azurerm,https://github.com/avinor/terraform-azurerm-
 storage-account,bcochofel,8415,azurerm,https://github.com/bcochofel/terraform-azurerm-storage-account,AzureRM Storage Account Terraform Module
 storage-account,bytejunkie,7352,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-account,
 storage-account,dfar-io,6331,azurerm,https://github.com/dfar-io/terraform-azurerm-storage-account,Terraform Module for creating Azure storage accounts
+storage-account,getindata,14723,azurerm,https://github.com/getindata/terraform-azurerm-storage-account,Terraform Module for Azure Storage Account
 storage-account,libre-devops,13167,azurerm,https://github.com/libre-devops/terraform-azurerm-storage-account,A module used to generate a storage account :fire:
 storage-account,picta,5919,azurerm,https://github.com/picta/terraform-azurerm-storage-account,
 storage-account,rhythmictech,4911,azurerm,https://github.com/rhythmictech/terraform-azurerm-storage-account,Terraform module for managing Azure storage accounts
@@ -8919,6 +8928,7 @@ test,ionelpanaitescu,10575,oci,https://github.com/ionelpanaitescu/terraform-oci-
 test,itsb-s,4578,aws,https://github.com/itsb-s/terraform-aws-test,
 test,javaparthiban,13410,aws,https://github.com/javaparthiban/terraform-aws-test,
 test,justincampbell,2567,null,https://github.com/justincampbell/terraform-null-test,
+test,jye-aviatrix,14731,jye,https://github.com/jye-aviatrix/terraform-jye-test,a test terraform module
 test,merten2000,909,aws,https://github.com/merten2000/terraform-aws-test,
 test,terraform-azure-modules,2069,file,https://github.com/terraform-azure-modules/terraform-file-test,
 test,xp-1000,4494,foobar,https://github.com/xp-1000/terraform-foobar-test,test for terraform registry structure
@@ -9497,6 +9507,7 @@ vpc,cristinavz,12662,aws,https://github.com/cristinavz/terraform-aws-vpc,
 vpc,cristinavz,13011,gcp,https://github.com/cristinavz/terraform-gcp-vpc,
 vpc,dalerboboev,9395,aws,https://github.com/dalerboboev/terraform-aws-vpc,
 vpc,damacus,5129,aws,https://github.com/damacus/terraform-aws-vpc,Terraform Module to create a simple public/private/database VPC
+vpc,darzanebor,14724,yandex,https://github.com/darzanebor/terraform-yandex-vpc,Yandex.Cloud Terraform VPC module
 vpc,dcos-terraform,1348,aws,https://github.com/dcos-terraform/terraform-aws-vpc,Create a VPC to be used for DC/OS
 vpc,devdot4,9368,aws,https://github.com/devdot4/terraform-aws-vpc,
 vpc,devdynamicio,13523,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-vpc,Terraform module to create VPC in DigitalOcean 🇺🇦
