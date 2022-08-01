@@ -2572,6 +2572,7 @@ deploy-tkg-cluster,jd4883,11384,kubectl,https://github.com/jd4883/terraform-kube
 deploy-user,robbytaylor,3779,aws,https://github.com/robbytaylor/terraform-aws-deploy-user,Create users for AWS with minimal permissions
 deployer,bcgov,13149,openshift,https://github.com/bcgov/terraform-openshift-deployer,
 deployment,ballj,9166,kubernetes,https://github.com/ballj/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
+deployment,djangoflow,14738,kubernetes,https://github.com/djangoflow/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
 deployment,garbetjie,5805,kubernetes,https://github.com/garbetjie/terraform-kubernetes-deployment,
 deployment,puppetlabs,9756,ec,https://github.com/puppetlabs/terraform-ec-deployment,
 deployment,robertdebock,10303,github,https://github.com/robertdebock/terraform-github-deployment,A Terraform module to configure GitHub.
@@ -2634,6 +2635,7 @@ divi,divyatf,14336,aws,https://github.com/divyatf/terraform-aws-divi,
 divstorage,Divs2022,12077,azure,https://github.com/Divs2022/terraform-azure-divstorage,
 divya,Divyap29,12306,test,https://github.com/Divyap29/terraform-test-divya,
 django,briancaffey,12411,aws,https://github.com/briancaffey/terraform-aws-django,"Terraform modules for deploying Django applications on AWS using EC2, ECS (EC2 + Fargate), and EKS"
+django,djangoflow,14737,kubernetes,https://github.com/djangoflow/terraform-kubernetes-django,Deploy Django with Terraform to Kubernetes with optional support for AWS/EKS or GCP/GKE
 django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 django,zachmullen,12659,heroku,https://github.com/zachmullen/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 dlm-lifecycle-policies,julien-langlois,4502,aws,https://github.com/julien-langlois/terraform-aws-dlm-lifecycle-policies,AWS Data Lifecycle Manager Policies
@@ -2728,6 +2730,7 @@ docker-instance,MelanieBirdal,14712,aws,https://github.com/MelanieBirdal/terrafo
 docker-instance,Muhammet-Gokmen,14658,aws,https://github.com/Muhammet-Gokmen/terraform-aws-docker-instance,
 docker-instance,OdabasiMehmet,14684,aws,https://github.com/OdabasiMehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Rootea,14630,aws,https://github.com/Rootea/terraform-aws-docker-instance,
+docker-instance,SuleymanBat,14747,aws,https://github.com/SuleymanBat/terraform-aws-docker-instance,
 docker-instance,TMManyau,14717,aws,https://github.com/TMManyau/terraform-aws-docker-instance,
 docker-instance,Tongucyorgun,14622,aws,https://github.com/Tongucyorgun/terraform-aws-docker-instance,Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2 ami and installed docker in it.
 docker-instance,YunusKarsen35,14729,aws,https://github.com/YunusKarsen35/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -6289,6 +6292,7 @@ nfs-provider,o0th,9353,kubernetes,https://github.com/o0th/terraform-kubernetes-n
 ngfw,eikenb,8019,panos,https://github.com/eikenb/terraform-panos-ngfw,
 ngfw,findkim,5679,panos,https://github.com/findkim/terraform-panos-ngfw,Terraform module that generalizes service definitions to manage Consul services across a number of network infrastructure services.
 nginx,crazy-canux,14310,ingress,https://github.com/crazy-canux/terraform-ingress-nginx,
+nginx-certman,djangoflow,14741,kubernetes,https://github.com/djangoflow/terraform-kubernetes-nginx-certman,An opinionated nginx load-balancer with certificate manager suitable for Djangoflow deployments
 nginx-controller,terraform-iaac,9125,helm,https://github.com/terraform-iaac/terraform-helm-nginx-controller,Terraform module for deploy nginx ingress controller
 nginx-demo-app,codygreen,3228,aws,https://github.com/codygreen/terraform-aws-nginx-demo-app,Terraform module to deploy a lightweight demo application from NGINX
 nginx-ingress-controller,byuoitav,4196,kubernetes,https://github.com/byuoitav/terraform-kubernetes-nginx-ingress-controller,
@@ -6664,6 +6668,7 @@ postgresql,T-Systems-MMS,12866,azurerm,https://github.com/T-Systems-MMS/terrafor
 postgresql,avinor,3523,azurerm,https://github.com/avinor/terraform-azurerm-postgresql,Terraform module to deploy a PostgreSQL server with databases
 postgresql,ballj,9024,kubernetes,https://github.com/ballj/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,bayudwiyansatria,11525,helm,https://github.com/bayudwiyansatria/terraform-helm-postgresql,PostgreSQL High Availability provisioner using terraform. Provisioning A High Availability PostgreSQL using Helm Charts. 
+postgresql,djangoflow,14736,kubernetes,https://github.com/djangoflow/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,dodevops,8895,azure,https://github.com/dodevops/terraform-azure-postgresql,Highly opinionated management of Azure DB for PostgreSQL
 postgresql,mcalik77,11462,azurerm,https://github.com/mcalik77/terraform-azurerm-postgresql,
 postgresql,rahulagalcha97,5819,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-postgresql,Azure Database for PostgreSQL Module
@@ -7138,6 +7143,7 @@ redis,ballj,9017,kubernetes,https://github.com/ballj/terraform-kubernetes-redis,
 redis,binxio,6930,google,https://github.com/binxio/terraform-google-redis,Generic Google Redis module for Terraform
 redis,bootlabstech,12326,google,https://github.com/bootlabstech/terraform-google-redis,Terraform module for creating a redis instance in GCP
 redis,claranet,4111,azurerm,https://github.com/claranet/terraform-azurerm-redis,Terraform module for Azure Redis
+redis,djangoflow,14735,kubernetes,https://github.com/djangoflow/terraform-kubernetes-redis,Kubernetes module to deploy Redis
 redis,galichenko,3339,google,https://github.com/galichenko/terraform-google-redis,A Terraform module for configuring GCP VM instance for the Redis Server. 
 redis,kabisa,14006,datadog,https://github.com/kabisa/terraform-datadog-redis,
 redis,kumarvna,9425,azurerm,https://github.com/kumarvna/terraform-azurerm-redis,Terraform module for Azure Cache for Redis
@@ -7640,6 +7646,7 @@ s3-webapp,lybarra,12098,aws,https://github.com/lybarra/terraform-aws-s3-webapp,
 s3-webapp,mark-tomich,12287,aws,https://github.com/mark-tomich/terraform-aws-s3-webapp,
 s3-webapp,mmurygin,5678,aws,https://github.com/mmurygin/terraform-aws-s3-webapp,
 s3-webapp,mohit614,12252,aws,https://github.com/mohit614/terraform-aws-s3-webapp,
+s3-webapp,oebinu,14739,aws,https://github.com/oebinu/terraform-aws-s3-webapp,
 s3-webapp,prbinfo,7554,aws,https://github.com/prbinfo/terraform-aws-s3-webapp,
 s3-webapp,rickychew77,6007,aws,https://github.com/rickychew77/terraform-aws-s3-webapp,
 s3-webapp,sababa11,8577,aws,https://github.com/sababa11/terraform-aws-s3-webapp,
@@ -8919,7 +8926,7 @@ terraformmodules,tasinight,13851,aws,https://github.com/tasinight/terraform-aws-
 terragrunt-registry-test,yorinasub17,9932,null,https://github.com/yorinasub17/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
 terrible,cloudboss,5406,cloudinit,https://github.com/cloudboss/terraform-cloudinit-terrible,
 test,IbraheemAlSaady,11548,module,https://github.com/IbraheemAlSaady/terraform-module-test,
-test,Thegsgs,14487,module,https://github.com/Thegsgs/terraform-module-test,
+test,Thegsgs,14740,module,https://github.com/Thegsgs/terraform-module-test,Some random description
 test,Yvz-DevOps,5787,class4,https://github.com/Yvz-DevOps/terraform-class4-test,
 test,andresvia,766,autodesk,https://github.com/andresvia/terraform-autodesk-test,test
 test,chilicat,11978,local,https://github.com/chilicat/terraform-local-test,Terraform Test module
