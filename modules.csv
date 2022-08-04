@@ -229,6 +229,7 @@ admin-bot,redpwn,8280,aws,https://github.com/redpwn/terraform-aws-admin-bot,Depl
 adminer,KazuyaMiyagi,6464,aws,https://github.com/KazuyaMiyagi/terraform-aws-adminer,
 adminer,silinternational,12011,aws,https://github.com/silinternational/terraform-aws-adminer,Terraform module to create an ECS service running Adminer
 administrative-console-dashboard,osodevops,14757,admin,https://github.com/osodevops/terraform-admin-administrative-console-dashboard,
+admission-controller,lacework,14835,kubernetes,https://github.com/lacework/terraform-kubernetes-admission-controller,A Terraform Module to create a Deployment for deploying the Lacework Admission Controller (and optionally Proxy Scanner) in a Kubernetes cluster.
 advpn-sdwan-hub,poroping,10569,fortios,https://github.com/poroping/terraform-fortios-advpn-sdwan-hub,
 advpn-sdwan-spoke,poroping,10629,fortios,https://github.com/poroping/terraform-fortios-advpn-sdwan-spoke,
 ag-dag-nia,PaloAltoNetworks,6357,panos,https://github.com/PaloAltoNetworks/terraform-panos-ag-dag-nia,
@@ -1673,6 +1674,7 @@ chocoserver,gyamada619,1184,aws,https://github.com/gyamada619/terraform-aws-choc
 chucknorris,rocazac1,5123,module,https://github.com/rocazac1/terraform-module-chucknorris,
 ci-cd-system,cn-terraform,3246,aws,https://github.com/cn-terraform/terraform-aws-ci-cd-system," CI-CD System deployed on AWS using Terraform"
 ci-intersight-managed-mode,terraform-cisco-modules,9165,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-ci-intersight-managed-mode,Terraform configuration repo to deploy Converged Infrastructure stack in Intersight Managed Mode (IMM)
+cicd,SPHTech-Platform,14830,aws,https://github.com/SPHTech-Platform/terraform-aws-cicd,
 cicd,cloudposse,203,aws,https://github.com/cloudposse/terraform-aws-cicd,Terraform Module for CI/CD with AWS Code Pipeline and Code Build
 cicd,kosciuszko-cloud,11488,aws,https://github.com/kosciuszko-cloud/terraform-aws-cicd,kosciuszko-flavoured cicd tooling terraform module
 cicd-bootstrap,recarnot,5249,github,https://github.com/recarnot/terraform-github-cicd-bootstrap,Bootstrap for Terraform and GtiHub Actions for CI/CD
@@ -2239,7 +2241,7 @@ config-state,cloudowski,497,aws,https://github.com/cloudowski/terraform-aws-conf
 config-storage,appzen-oss,11062,aws,https://github.com/appzen-oss/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 config-storage,cloudposse,6685,aws,https://github.com/cloudposse/terraform-aws-config-storage,This module creates an S3 bucket suitable for storing AWS Config data
 confluent,JamesWoolfenden,8800,aws,https://github.com/JamesWoolfenden/terraform-aws-confluent,To Provision Confluent Kafka 4
-confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform module for running Confluent for Kubernetes (CFK)
+confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform module for managing Confluent for Kubernetes (CFK).
 confluent-platform,nerdynick,5010,aws,https://github.com/nerdynick/terraform-aws-confluent-platform,Terraform Modules for Setting up the Confluent Platform in AWS
 confluent-platform,osodevops,9857,azure,https://github.com/osodevops/terraform-azure-confluent-platform,Terraform Module for deploying best practice HA Confluent Platform on Azure
 confluent-platform,purbon,5629,google,https://github.com/purbon/terraform-google-confluent-platform,A Terraform module that can be used to setup Confluent Platform in the Google Cloud Platform
@@ -2748,6 +2750,7 @@ docker-instance,abetr,14707,aws,https://github.com/abetr/terraform-aws-docker-in
 docker-instance,adenizdnz,14641,aws,https://github.com/adenizdnz/terraform-aws-docker-instance,https://registry.terraform.io/modules/adenizdnz/docker-instance/aws/latest
 docker-instance,ahadalioglu,14696,aws,https://github.com/ahadalioglu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,akgulmert,14705,aws,https://github.com/akgulmert/terraform-aws-docker-instance,
+docker-instance,alanshenn,14832,aws,https://github.com/alanshenn/terraform-aws-docker-instance,
 docker-instance,alexanderadam2022,14632,aws,https://github.com/alexanderadam2022/terraform-aws-docker-instance,
 docker-instance,arslantobe,14642,aws,https://github.com/arslantobe/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,avcimehmet,14670,aws,https://github.com/avcimehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -4292,6 +4295,7 @@ gluee,epalominolan,11583,aws,https://github.com/epalominolan/terraform-aws-gluee
 gmail,gnarea,1829,cloudflare,https://github.com/gnarea/terraform-cloudflare-gmail,Terraform module to manage DNS records for Gmail on CloudFlare
 go-ratelimit,basisai,7461,helm,https://github.com/basisai/terraform-helm-go-ratelimit,
 gocd,terraform-iaac,8433,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-gocd,Terraform module for deploy GoCD with preconfigured elastic agents
+google,coralogix,14831,coralogix,https://github.com/coralogix/terraform-coralogix-google,Coralogix Google Cloud Platform Integrations modules for Terraform.
 google-auth-method,AdrienneCohea,11492,vault,https://github.com/AdrienneCohea/terraform-vault-google-auth-method,Enables the Google authentication method
 google-cloud-secrets-engine,AdrienneCohea,11406,vault,https://github.com/AdrienneCohea/terraform-vault-google-cloud-secrets-engine,Enables the Google Cloud secrets engine and optionally configures rolesets
 google-iam-members,SudharsaneSivamany,14758,google,https://github.com/SudharsaneSivamany/terraform-google-google-iam-members,
@@ -4878,6 +4882,7 @@ jwt-authorizer,stuartizon,4758,aws,https://github.com/stuartizon/terraform-aws-j
 jx,jenkins-x,4343,google,https://github.com/jenkins-x/terraform-google-jx,A Terraform module for creating Jenkins X infrastructure on Google Cloud
 jyotistorage,jyotirmayee01,12319,azure,https://github.com/jyotirmayee01/terraform-azure-jyotistorage,
 k0s,3letteragency,8952,vultr,https://github.com/3letteragency/terraform-vultr-k0s,Terraform module for deploying the K0s Kubernetes distribution on Vultr. 
+k0s,jfklingler,14829,proxmox,https://github.com/jfklingler/terraform-proxmox-k0s,A collection of modules for building and managing k0s kubernetes clusters on the Proxmox hypervisor.
 k3s,BerndDA,14150,hcloud,https://github.com/BerndDA/terraform-hcloud-k3s,Terraform module to setup k3s cluster on Hetzner cloud
 k3s,Kab1r,12250,module,https://github.com/Kab1r/terraform-module-k3s,Terraform module to install K3S on all given instances
 k3s,aigisuk,14488,hcloud,https://github.com/aigisuk/terraform-hcloud-k3s,Terraform Module to deploy a highly available k3s cluster on Hetzner Cloud [WIP]
@@ -5906,7 +5911,7 @@ modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modu
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
 modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terraform modules for AWS
-modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-modules,
+modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-modules,Terraform modules for on premise setups
 modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-modules,Terraform modules that will work on any cloud (including on premise setups)
 modules,dasmeta,12172,google,https://github.com/dasmeta/terraform-google-modules,This Terraform module makes it easier to manage for resources on Google Cloud Platform.
 modules,dzangolab,8125,digitalocean,https://github.com/dzangolab/terraform-digitalocean-modules,Terraform modules for Digital Ocean provider
@@ -6454,7 +6459,7 @@ onboarding-gcp,terraform-orca,9467,gcp,https://github.com/terraform-orca/terrafo
 ondat-addon,ondat,12901,eksblueprints,https://github.com/ondat/terraform-eksblueprints-ondat-addon,Terraform Amazon EKS Blueprints addon to enrich stateful storage in Kubernetes.
 ondrejsika-do-droplet,ondrejsika,7200,module,https://github.com/ondrejsika/terraform-module-ondrejsika-do-droplet,
 one,ngary47,1397,demo,https://github.com/ngary47/terraform-demo-one,
-onpremise,dasmeta,11625,onpremise,https://github.com/dasmeta/terraform-onpremise-onpremise,
+onpremise,dasmeta,11625,onpremise,https://github.com/dasmeta/terraform-onpremise-onpremise,Terraform modules for on premise setups
 ons-redis,terraform-alicloud-modules,10389,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ons-redis,
 oob-contract,netascode,9950,aci,https://github.com/netascode/terraform-aci-oob-contract,Terraform Cisco ACI OOB Contract Module
 oob-endpoint-group,netascode,9951,aci,https://github.com/netascode/terraform-aci-oob-endpoint-group,Terraform Cisco ACI OOB Endpoint Group Module
@@ -7927,6 +7932,7 @@ secure-baseline,anonfriese,11341,aws,https://github.com/anonfriese/terraform-aws
 secure-baseline,cgomestw,5782,aws,https://github.com/cgomestw/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 secure-baseline,clouddrove,12501,aws,https://github.com/clouddrove/terraform-aws-secure-baseline,"Terraform module to create an Secure Basline, inclued module is alarm baseline, config baseline, and clouddtrail baseline."
 secure-baseline,dailymuse,4060,aws,https://github.com/dailymuse/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
+secure-baseline,faros-ai,14834,aws,https://github.com/faros-ai/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations and AWS Foundational Security Best Practices.
 secure-baseline,htec-infra,12703,aws,https://github.com/htec-infra/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations and AWS Foundational Security Best Practices.
 secure-baseline,nozaq,1205,aws,https://github.com/nozaq/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations and AWS Foundational Security Best Practices.
 secure-baseline,telia-oss,5012,aws,https://github.com/telia-oss/terraform-aws-secure-baseline,
@@ -8139,6 +8145,7 @@ servicegroup-consul-sync-nia,citrix,8935,citrixadc,https://github.com/citrix/ter
 serviceomat,GoCarrot,12136,aws,https://github.com/GoCarrot/terraform-aws-serviceomat,Serviceomat is a module to create services for use with Deployomat.
 serviceprincipal,SkaylinkCloud,11079,azurerm,https://github.com/SkaylinkCloud/terraform-azurerm-serviceprincipal,
 serviceprincipal,imjoseangel,11299,azurerm,https://github.com/imjoseangel/terraform-azurerm-serviceprincipal,Terraform Module for creating a Azure Service Principal
+serviceprincipal,ned1313,14833,azuread,https://github.com/ned1313/terraform-azuread-serviceprincipal,Terraform module for creating service principals in Azure AD.
 ses,7Factor,14433,aws,https://github.com/7Factor/terraform-aws-ses,A small module for adding Simple Email Service to an aws account.
 ses,Lupus-Metallum,8423,aws,https://github.com/Lupus-Metallum/terraform-aws-ses,Used to create a fully compliant SES domain
 ses,MagnetarIT,4635,aws,https://github.com/MagnetarIT/terraform-aws-ses,Terraform module to create SES email domain and verify using r53
@@ -8286,6 +8293,7 @@ skaylink-windows-vm,skaylink,13601,azurerm,https://github.com/skaylink/terraform
 sks,Kosmas,11292,exoscale,https://github.com/Kosmas/terraform-exoscale-sks,
 sks,Strangerxxx,11101,exoscale,https://github.com/Strangerxxx/terraform-exoscale-sks,
 sks,camptocamp,7690,exoscale,https://github.com/camptocamp/terraform-exoscale-sks,
+sks,devops-wien,14836,exoscale,https://github.com/devops-wien/terraform-exoscale-sks,https://registry.terraform.io/providers/exoscale/exoscale/latest/docs/resources/sks_cluster
 sks,ducksify,11949,exoscale,https://github.com/ducksify/terraform-exoscale-sks,
 sks,nlamirault,8619,exoscale,https://github.com/nlamirault/terraform-exoscale-sks,Terraform module for Exoscale SKS
 slack-drive,amancevice,1093,google,https://github.com/amancevice/terraform-google-slack-drive,Terraform module for deploying Slack Drive to Google Cloud
@@ -8856,7 +8864,7 @@ tags,elioseverojunior,13400,module,https://github.com/elioseverojunior/terraform
 tags,hadenlabs,8353,null,https://github.com/hadenlabs/terraform-null-tags,Terraform tags
 tags,rhythmictech,3512,terraform,https://github.com/rhythmictech/terraform-terraform-tags,Tag the world
 tags,snowplow-devops,9256,aws,https://github.com/snowplow-devops/terraform-aws-tags,
-tailscale-subnet-router,hardfinhq,14430,aws,https://github.com/hardfinhq/terraform-aws-tailscale-subnet-router,Terraform module for Tailscale subnet router in ECS Fargate
+tailscale-subnet-router,hardfinhq,14430,aws,https://github.com/hardfinhq/terraform-aws-tailscale-subnet-router,Terraform module for Tailscale subnet router in AWS ECS Fargate
 tailscale-vpn,d7oss,13853,aws,https://github.com/d7oss/terraform-aws-tailscale-vpn,A Terraform module to manage a Tailscale VPN server - why not a bastion too - in your VPC.
 talos,masoudbahar,7287,virtualbox,https://github.com/masoudbahar/terraform-virtualbox-talos,Terraform module which creates Talos Kubernetes clusters on VirtualBox
 talos,tvories,7772,vsphere,https://github.com/tvories/terraform-vsphere-talos,A Terraform module for deploying a Talos cluster on vSphere
@@ -9551,7 +9559,7 @@ vpc,cristinavz,12662,aws,https://github.com/cristinavz/terraform-aws-vpc,
 vpc,cristinavz,13011,gcp,https://github.com/cristinavz/terraform-gcp-vpc,
 vpc,dalerboboev,9395,aws,https://github.com/dalerboboev/terraform-aws-vpc,
 vpc,damacus,5129,aws,https://github.com/damacus/terraform-aws-vpc,Terraform Module to create a simple public/private/database VPC
-vpc,darzanebor,14724,yandex,https://github.com/darzanebor/terraform-yandex-vpc,
+vpc,darzanebor,14724,yandex,https://github.com/darzanebor/terraform-yandex-vpc,Yandex.Cloud Terraform VPC module
 vpc,dcos-terraform,1348,aws,https://github.com/dcos-terraform/terraform-aws-vpc,Create a VPC to be used for DC/OS
 vpc,devdot4,9368,aws,https://github.com/devdot4/terraform-aws-vpc,
 vpc,devdynamicio,13523,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-vpc,Terraform module to create VPC in DigitalOcean 🇺🇦
