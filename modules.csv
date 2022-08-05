@@ -707,7 +707,7 @@ arfa,Arfa7007,12277,aws,https://github.com/Arfa7007/terraform-aws-arfa,
 argo-vault,Ioasys-org,14405,helm,https://github.com/Ioasys-org/terraform-helm-argo-vault,
 argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kubernetes-argocd,A terraform Module to deploy Argocd on Kubernetes
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
-argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.4.7) on a Kubernetes Cluster via Helm
+argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.4.8) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
 argocd,project-octal,10909,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd,Simplifies the deployment and management of ArgoCD on a Kubernetes cluster.
@@ -1340,6 +1340,7 @@ bastion,linux-place,3547,aws,https://github.com/linux-place/terraform-aws-bastio
 bastion,nalbam,6256,aws,https://github.com/nalbam/terraform-aws-bastion,
 bastion,oracle-terraform-modules,5013,oci,https://github.com/oracle-terraform-modules/terraform-oci-bastion,A Terraform module that reuses an existing VCN and adds a bastion host to it on OCI
 bastion,philips-software,1209,aws,https://github.com/philips-software/terraform-aws-bastion,Terraform module to create an AWS bastion host
+bastion,selfscrum,14850,opentelekomcloud,https://github.com/selfscrum/terraform-opentelekomcloud-bastion,Bastion Host for an OTC VPC
 bastion,syntaqx,2411,digitalocean,https://github.com/syntaqx/terraform-digitalocean-bastion,Terraform module for provisioning a Bastion Host on DigitalOcean
 bastion,terra4aws64,12142,aws,https://github.com/terra4aws64/terraform-aws-bastion,Terraform module for creating a dedicated Bastion host for managing private hosts in the target AWS VPC.
 bastion,umotif-public,3780,aws,https://github.com/umotif-public/terraform-aws-bastion,Terraform module to create Bastion Host in AWS VPC.
@@ -1771,6 +1772,8 @@ cloud-run-cicd-updates,simplycubed,11708,google,https://github.com/simplycubed/t
 cloud-run-iam,mineiros-io,11372,google,https://github.com/mineiros-io/terraform-google-cloud-run-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Cloud Run applications on Cloud Platform (GCP) https://cloud.google.com/run
 cloud-run_pubsub_to_bq,AckeeCZ,13044,gcp,https://github.com/AckeeCZ/terraform-gcp-cloud-run_pubsub_to_bq,Cloud Run subscribes itself to given topic and inserts each message to BigQuery table.
 cloud-scanner,deepfence,14703,aws,https://github.com/deepfence/terraform-aws-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
+cloud-scanner,deepfence,14845,azure,https://github.com/deepfence/terraform-azure-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
+cloud-scanner,deepfence,14846,gcp,https://github.com/deepfence/terraform-gcp-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
 cloud-source-repositories,bootlabstech,14022,google,https://github.com/bootlabstech/terraform-google-cloud-source-repositories,
 cloud-spanner,bootlabstech,13855,google,https://github.com/bootlabstech/terraform-google-cloud-spanner,
 cloud-sql,mineiros-io,11373,google,https://github.com/mineiros-io/terraform-google-cloud-sql,"A Terraform module to deploy and manage Google Cloud SQL, a fully managed, relational database service for MySQL, PostgreSQL, and SQL Server on Google Cloud Platform (GCP) https://cloud.google.com/cloudsql"
@@ -2989,6 +2992,7 @@ ec2-iam-role,Cloud-42,3909,aws,https://github.com/Cloud-42/terraform-aws-ec2-iam
 ec2-iam-role,Smartbrood,538,aws,https://github.com/Smartbrood/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,leonardobiffi,14374,aws,https://github.com/leonardobiffi/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,tkskwn,436,aws,https://github.com/tkskwn/terraform-aws-ec2-iam-role,AWS IAM Role module of Terraform.
+ec2-image-builder,flowingis,14849,aws,https://github.com/flowingis/terraform-aws-ec2-image-builder,Terraform module which  creates EC2-Image-Builder resources
 ec2-image-transfer,outsideopen,6651,aws,https://github.com/outsideopen/terraform-aws-ec2-image-transfer,terraform-aws-ec2-image-transfer
 ec2-instance,BrynardSecurity-terraform,12998,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
 ec2-instance,Engineercloud,7556,aws,https://github.com/Engineercloud/terraform-aws-ec2-instance,
@@ -3199,6 +3203,7 @@ ecs-cluster,PGBI,2857,aws,https://github.com/PGBI/terraform-aws-ecs-cluster,
 ecs-cluster,anonymint,490,aws,https://github.com/anonymint/terraform-aws-ecs-cluster,Terraform script to create ECS cluster
 ecs-cluster,aws-ia,10194,aws,https://github.com/aws-ia/terraform-aws-ecs-cluster,AWS ECS
 ecs-cluster,azavea,171,aws,https://github.com/azavea/terraform-aws-ecs-cluster,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) cluster.
+ecs-cluster,boldlink,14847,aws,https://github.com/boldlink/terraform-aws-ecs-cluster,Terraform registry repository for ECS cluster module
 ecs-cluster,brunordias,7348,aws,https://github.com/brunordias/terraform-aws-ecs-cluster,Terraform module which provides an ECS cluster
 ecs-cluster,cn-terraform,3247,aws,https://github.com/cn-terraform/terraform-aws-ecs-cluster,AWS ECS Cluster Terraform Module
 ecs-cluster,corpit-consulting-public,3511,aws,https://github.com/corpit-consulting-public/terraform-aws-ecs-cluster,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) cluster.
@@ -4643,7 +4648,7 @@ iks-vpc,cloud-native-toolkit,14563,ibm,https://github.com/cloud-native-toolkit/t
 ilert-kube-agent,iLert,7863,kubernetes,https://github.com/iLert/terraform-kubernetes-ilert-kube-agent,
 ilm,goolzerg,10062,elk,https://github.com/goolzerg/terraform-elk-ilm,
 image,libre-devops,13613,azurerm,https://github.com/libre-devops/terraform-azurerm-image,A module used to deploy an Azure image :camera:
-image-builder,shadbury,14813,aws,https://github.com/shadbury/terraform-aws-image-builder,
+image-builder,shadbury,14840,aws,https://github.com/shadbury/terraform-aws-image-builder,
 image-builder-component,dod-iac,13947,aws,https://github.com/dod-iac/terraform-aws-image-builder-component,Creates a component for EC2 Image Builder.
 image-builder-infrastructure-configuration,dod-iac,13946,aws,https://github.com/dod-iac/terraform-aws-image-builder-infrastructure-configuration,Creates an infrastructure configuration for EC2 Image Builder.
 image-builder-pipeline,dod-iac,13948,aws,https://github.com/dod-iac/terraform-aws-image-builder-pipeline,Creates a pipeline for EC2 Image Builder.
@@ -4811,6 +4816,7 @@ iq3-vnet,iq3cloud-dev,6325,azurerm,https://github.com/iq3cloud-dev/terraform-azu
 iq3-windows-vm,iq3cloud-dev,7667,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-windows-vm,
 iqserver,rhythmictech,5137,aws,https://github.com/rhythmictech/terraform-aws-iqserver,Create a HA Sonatype IQ Server instance
 ise-deployment,fmunozmiranda,14495,aws,https://github.com/fmunozmiranda/terraform-aws-ise-deployment,
+ise-deployment,fmunozmiranda,14848,azure,https://github.com/fmunozmiranda/terraform-azure-ise-deployment,
 istio,bakuppus,10700,module,https://github.com/bakuppus/terraform-module-istio,terraform-module-istio
 istio,combinator-ml,8735,k8s,https://github.com/combinator-ml/terraform-k8s-istio,Combinator component that installs Istio
 istio,sepulworld,13321,helm,https://github.com/sepulworld/terraform-helm-istio,Terraform Helm module for Istio Base and Istiod Setup
@@ -4942,6 +4948,7 @@ k8s-node-pool,bfrunza,3531,google,https://github.com/bfrunza/terraform-google-k8
 k8s-ocean,stevenfeltner,9141,spotinst,https://github.com/stevenfeltner/terraform-spotinst-k8s-ocean,***Deprecated - Moved to Spotinst Repo*** Spotinst Terraform Module to integrate existing AWS k8s cluster with Ocean
 k8s-ocean-launchspec,stevenfeltner,9142,spotinst,https://github.com/stevenfeltner/terraform-spotinst-k8s-ocean-launchspec,***Deprecated - Moved to Spotinst Repo*** Terraform module to create an Ocean LaunchSpec (VNG) for AWS k8s cluster
 k8s-vm,seadiaz,4373,azurerm,https://github.com/seadiaz/terraform-azurerm-k8s-vm,Azure Virtual Machine resources Terraform module for k8s cluster.
+kafka,darzanebor,14842,yandex,https://github.com/darzanebor/terraform-yandex-kafka,Yandex.Cloud Terraform Kafka Cluster module
 kafka,kabisa,13632,datadog,https://github.com/kabisa/terraform-datadog-kafka,
 kafka,philips-labs,6011,hsdp,https://github.com/philips-labs/terraform-hsdp-kafka,Terraform Kafka module for HSDP Container Host
 kafka,skydome,3053,kubernetes,https://github.com/skydome/terraform-kubernetes-kafka,Terraform module for deploying Kafka on Kubernetes
@@ -7709,6 +7716,7 @@ s3backend,FedericoN-ING,6591,aws,https://github.com/FedericoN-ING/terraform-aws-
 s3backend,Foggydue,11582,aws,https://github.com/Foggydue/terraform-aws-s3backend,
 s3backend,Gainutdinov,7270,aws,https://github.com/Gainutdinov/terraform-aws-s3backend,
 s3backend,JoeCluney,9911,aws,https://github.com/JoeCluney/terraform-aws-s3backend,
+s3backend,JoyousNjabulo,14843,aws,https://github.com/JoyousNjabulo/terraform-aws-s3backend,
 s3backend,KhalifaBL,6583,aws,https://github.com/KhalifaBL/terraform-aws-s3backend,
 s3backend,LuffyKing,13512,aws,https://github.com/LuffyKing/terraform-aws-s3backend,terraform aws s3backend
 s3backend,Maraket,11638,aws,https://github.com/Maraket/terraform-aws-s3backend,Just something for Terraform in Action
@@ -8651,6 +8659,7 @@ staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/ter
 staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKChoudhary/terraform-azurerm-staticwebsitepublic,Terraform
 staticwebsitepublic,PerRoll,10818,azurerm,https://github.com/PerRoll/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,RajendraBobade,13536,azurerm,https://github.com/RajendraBobade/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,RaviSoni29,14841,azurerm,https://github.com/RaviSoni29/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ShubhUK,11186,azurerm,https://github.com/ShubhUK/terraform-azurerm-staticwebsitepublic,terraform-azurerm-staticwebsitepublic
 staticwebsitepublic,adichan,12018,azurerm,https://github.com/adichan/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ajaytak19,13176,azurerm,https://github.com/ajaytak19/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
