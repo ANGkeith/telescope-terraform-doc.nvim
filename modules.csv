@@ -1138,6 +1138,7 @@ aws-lambda-cron,mergermarket,2412,acuris,https://github.com/mergermarket/terrafo
 aws-lambda-sns,mergermarket,2541,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-sns,Create a AWS Lambda function triggered from SNS
 aws-lb-alarms,kiwicom,3026,datadog,https://github.com/kiwicom/terraform-datadog-aws-lb-alarms,
 aws-lb-waf,lean-delivery,7591,module,https://github.com/lean-delivery/terraform-module-aws-lb-waf,Terraform module to setup WAF for Load Balancers
+aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-private,"In specified AWS region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 aws-load-balancer-controller,bailey84j,11702,kubernetes,https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller,Terraform module which deploys AWS Load Balancer Controller
 aws-logs-bucket,costradar,12209,costradar,https://github.com/costradar/terraform-costradar-aws-logs-bucket,
 aws-node-termination-handler,iplabs,4808,kubernetes,https://github.com/iplabs/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
@@ -1860,6 +1861,7 @@ cloudfront,franviera92,4186,aws,https://github.com/franviera92/terraform-aws-clo
 cloudfront,jmgreg31,2578,aws,https://github.com/jmgreg31/terraform-aws-cloudfront,AWS Cloudfront Distribution Module
 cloudfront,josephphyo,9178,aws,https://github.com/josephphyo/terraform-aws-cloudfront,Terraform AWS CloudFront
 cloudfront,ofirshtrull,4092,aws,https://github.com/ofirshtrull/terraform-aws-cloudfront,
+cloudfront,tedilabs,14911,aws,https://github.com/tedilabs/terraform-aws-cloudfront,🌳 A sustainable Terraform Package which creates CloudFront resources on AWS
 cloudfront,terraform-aws-modules,6119,aws,https://github.com/terraform-aws-modules/terraform-aws-cloudfront,Terraform module which creates CloudFront resources on AWS
 cloudfront,terraform-module,5676,aws,https://github.com/terraform-module/terraform-aws-cloudfront,ℹ️ Terraform AWS Cloudfront.
 cloudfront-add-index,Lupus-Metallum,10695,aws,https://github.com/Lupus-Metallum/terraform-aws-cloudfront-add-index,Appends index.html to requests that don’t include a file name or extension in the URL
@@ -2590,6 +2592,7 @@ deploy-tkg-cluster,jd4883,11384,kubectl,https://github.com/jd4883/terraform-kube
 deploy-user,robbytaylor,3779,aws,https://github.com/robbytaylor/terraform-aws-deploy-user,Create users for AWS with minimal permissions
 deployer,bcgov,13149,openshift,https://github.com/bcgov/terraform-openshift-deployer,
 deployment,ballj,9166,kubernetes,https://github.com/ballj/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
+deployment,devops-wien,14906,kubernetes,https://github.com/devops-wien/terraform-kubernetes-deployment,https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/deployment_v1
 deployment,djangoflow,14738,kubernetes,https://github.com/djangoflow/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
 deployment,garbetjie,5805,kubernetes,https://github.com/garbetjie/terraform-kubernetes-deployment,
 deployment,puppetlabs,9756,ec,https://github.com/puppetlabs/terraform-ec-deployment,
@@ -4882,6 +4885,7 @@ juiceinc-waf,juiceinc,1318,aws,https://github.com/juiceinc/terraform-aws-juicein
 julyvnet,dharani207,10779,azurerm,https://github.com/dharani207/terraform-azurerm-julyvnet,This is vnet terraform code
 julyvnet,ratnac37,10443,azurerm,https://github.com/ratnac37/terraform-azurerm-julyvnet,This is vnet terraform code
 julyvnet1,dharani207,10780,azurerm,https://github.com/dharani207/terraform-azurerm-julyvnet1,This is vnet terraform code
+juno,omarelsayed23,14923,aws,https://github.com/omarelsayed23/terraform-aws-juno,
 jupyter,combinator-ml,8811,k8s,https://github.com/combinator-ml/terraform-k8s-jupyter,Combinator component to provide a simple Jupyter instance
 jupyter-notebook,garyellis,7347,aws,https://github.com/garyellis/terraform-aws-jupyter-notebook,
 jupyterhub-singleuser,sodre,2346,null,https://github.com/sodre/terraform-null-jupyterhub-singleuser,
@@ -5623,6 +5627,7 @@ linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-l
 linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 linux-vm,spy86,13318,azure,https://github.com/spy86/terraform-azure-linux-vm,Terraform Module for Azure Linux VM
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
+linux-vm-public,jye-aviatrix,14912,aws,https://github.com/jye-aviatrix/terraform-aws-linux-vm-public,"Create Ubuntu Test VM in Public Subnet, enable Web and Ping (From RFC1918)"
 linux-vm-scale-sets,libre-devops,13608,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm-scale-sets,A module which will build Linux Virtual Machine Scale Sets
 linux-web-app,libre-devops,13452,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-web-app,A module used to deploy the NEW Linux Web app which is part of the version 3.0 provider :fire:
 linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-linuxkit-setup,Terraform module to setup the basic infrastructure for linuxkit to push AMIs to AWS.
@@ -6565,6 +6570,7 @@ organizations,cloudopsworks,12931,aws,https://github.com/cloudopsworks/terraform
 organizations,elasticguru,5746,aws,https://github.com/elasticguru/terraform-aws-organizations,Organizations Module for organization maintenance by https://e.lastic.guru
 organizations,jrcasso,6343,aws,https://github.com/jrcasso/terraform-aws-organizations,Minimal network infrastructure to support an organization backed by a domain.
 organizations-policy,figurate,8093,aws,https://github.com/figurate/terraform-aws-organizations-policy,Provision AWS organization policies such as Service Control Policies (SCPs)
+organizations-policy,tim0git,14913,aws,https://github.com/tim0git/terraform-aws-organizations-policy,A repository that contains the code for terraform-aws-organizations-policy
 organizations-policy,tmknom,1836,aws,https://github.com/tmknom/terraform-aws-organizations-policy,Terraform module which creates AWS Organizations Policy resources on AWS.
 organzation-and-sso,chris-qa-org,12141,aws,https://github.com/chris-qa-org/terraform-aws-organzation-and-sso,Terraform module for AWS to create and manage Organizations and SSO
 osb-example,cgetzen,6255,null,https://github.com/cgetzen/terraform-null-osb-example,
@@ -7696,6 +7702,7 @@ s3-webapp,lybarra,12098,aws,https://github.com/lybarra/terraform-aws-s3-webapp,
 s3-webapp,mark-tomich,12287,aws,https://github.com/mark-tomich/terraform-aws-s3-webapp,
 s3-webapp,mmurygin,5678,aws,https://github.com/mmurygin/terraform-aws-s3-webapp,
 s3-webapp,mohit614,12252,aws,https://github.com/mohit614/terraform-aws-s3-webapp,
+s3-webapp,moxiecloud,14907,aws,https://github.com/moxiecloud/terraform-aws-s3-webapp,LUIT Exercise Share Modules in the Private Registry
 s3-webapp,oebinu,14739,aws,https://github.com/oebinu/terraform-aws-s3-webapp,
 s3-webapp,prbinfo,7554,aws,https://github.com/prbinfo/terraform-aws-s3-webapp,
 s3-webapp,rickychew77,6007,aws,https://github.com/rickychew77/terraform-aws-s3-webapp,
@@ -9245,6 +9252,7 @@ vault-ent-starter,hashicorp,9694,azure,https://github.com/hashicorp/terraform-az
 vault-ent-starter,hashicorp,9695,gcp,https://github.com/hashicorp/terraform-gcp-vault-ent-starter,A Terraform Module for provisioning an Enterprise Vault cluster (using integrated storage) as described by HashiCorp reference architecture.
 vault-enterprise,einyx,1828,aws,https://github.com/einyx/terraform-aws-vault-enterprise,
 vault-gke,dansible,2287,google,https://github.com/dansible/terraform-google-vault-gke,Terraform module to deploy a GKE cluster with Vault using KMS encryption and GCS storage
+vault-raft,giuliocalzolari,14908,aws,https://github.com/giuliocalzolari/terraform-aws-vault-raft,Hashicorp Vault HA cluster on AWS based on Raft Consensus Algorithm
 vault-starter,hashicorp,10361,aws,https://github.com/hashicorp/terraform-aws-vault-starter,A Terraform Module for provisioning an OSS Vault cluster (using integrated storage) as described by HashiCorp reference architecture.
 vault-starter,hashicorp,10362,gcp,https://github.com/hashicorp/terraform-gcp-vault-starter,A Terraform Module for provisioning an OSS Vault cluster (using integrated storage) as described by HashiCorp reference architecture.
 vault-starter,hashicorp,10383,azure,https://github.com/hashicorp/terraform-azure-vault-starter,A Terraform Module for provisioning an OSS Vault cluster (using integrated storage) as described by HashiCorp reference architecture.
@@ -9552,6 +9560,7 @@ vpc,apparentlymart,478,aws,https://github.com/apparentlymart/terraform-aws-vpc,T
 vpc,appzen-oss,13380,aws,https://github.com/appzen-oss/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,arslakin,12635,aws,https://github.com/arslakin/terraform-aws-vpc,
 vpc,aws-ia,9055,aws,https://github.com/aws-ia/terraform-aws-vpc,AWS VPC Module
+vpc,awsmag,14909,aws,https://github.com/awsmag/terraform-aws-vpc,Terraform module to create a vpc with public and private subnets across multiple availability zones along with internet gateway and NAT gateway
 vpc,azavea,167,aws,https://github.com/azavea/terraform-aws-vpc,A Terraform module to create an Amazon Web Services (AWS) Virtual Private Cloud (VPC).
 vpc,babbel,7471,aws,https://github.com/babbel/terraform-aws-vpc,"Terraform module creating a VPC, incl. Subnets, Routing, NAT Gateway, and VPC Endpoints"
 vpc,badal-io,3878,google,https://github.com/badal-io/terraform-google-vpc,A Terraform module that helps setting up VPC in GCP
@@ -9702,6 +9711,7 @@ vpc,scalereal,4913,aws,https://github.com/scalereal/terraform-aws-vpc,Terraform 
 vpc,scholzj,242,aws,https://github.com/scholzj/terraform-aws-vpc,Terraform module for creating s simple Amazon AWS VPC and subnets
 vpc,scottwinkler,2516,aws,https://github.com/scottwinkler/terraform-aws-vpc,
 vpc,sdh63,5828,aws,https://github.com/sdh63/terraform-aws-vpc,
+vpc,selfscrum,14910,opentelekomcloud,https://github.com/selfscrum/terraform-opentelekomcloud-vpc,Create a VPC with 2 subnets. a NAT gateway and two SNAT rules
 vpc,sgasimov-dotcom,9411,aws,https://github.com/sgasimov-dotcom/terraform-aws-vpc,
 vpc,shamal112mn,6706,aws,https://github.com/shamal112mn/terraform-aws-vpc,
 vpc,shamal112mn,7108,gcp,https://github.com/shamal112mn/terraform-gcp-vpc,
