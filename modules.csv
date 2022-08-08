@@ -1139,6 +1139,7 @@ aws-lambda-sns,mergermarket,2541,acuris,https://github.com/mergermarket/terrafor
 aws-lb-alarms,kiwicom,3026,datadog,https://github.com/kiwicom/terraform-datadog-aws-lb-alarms,
 aws-lb-waf,lean-delivery,7591,module,https://github.com/lean-delivery/terraform-module-aws-lb-waf,Terraform module to setup WAF for Load Balancers
 aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-private,"In specified AWS region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
+aws-linux-vm-public,jye-aviatrix,14925,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-public,"In specified AWS region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP. "
 aws-load-balancer-controller,bailey84j,11702,kubernetes,https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller,Terraform module which deploys AWS Load Balancer Controller
 aws-logs-bucket,costradar,12209,costradar,https://github.com/costradar/terraform-costradar-aws-logs-bucket,
 aws-node-termination-handler,iplabs,4808,kubernetes,https://github.com/iplabs/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
@@ -1208,6 +1209,7 @@ azure-function-powershell,JustinGrote,2518,azurerm,https://github.com/JustinGrot
 azure-functions-static-site,reifnir,8337,azurerm,https://github.com/reifnir/terraform-azurerm-azure-functions-static-site,This module creates an Azure Functions application that serves a static content.
 azure-interconnect,maxjahn,5872,oci,https://github.com/maxjahn/terraform-oci-azure-interconnect,Include an OCI-Azure interconnect in your project more easily by using this terraform module
 azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-azure-k8s,
+azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
 azure-rg,e113de,9266,module,https://github.com/e113de/terraform-module-azure-rg,Terraform module to create Azure Resource Groups. Used to ensure naming conventions.
 azure-secrets-engine,devops-rob,7436,vault,https://github.com/devops-rob/terraform-vault-azure-secrets-engine,This module enables and configures the Azure secrets engine for Vault.
@@ -2810,6 +2812,7 @@ docker-instance,volkan-sahin,14677,aws,https://github.com/volkan-sahin/terraform
 docker-instance,yarimci,14828,aws,https://github.com/yarimci/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,yildizcayiroglu,14643,aws,https://github.com/yildizcayiroglu/terraform-aws-docker-instance,
 docker-instance,yunusadil,14655,aws,https://github.com/yunusadil/terraform-aws-docker-instance,
+docker-instance,yusufyilmaz030,14930,aws,https://github.com/yusufyilmaz030/terraform-aws-docker-instance,
 docker-instance,zynpce,14638,aws,https://github.com/zynpce/terraform-aws-docker-instance," Description: Terraform module which creates a docker instance resource on AWS.                                                                                                                                                       "
 docker-instance-test,halach2020,14598,aws,https://github.com/halach2020/terraform-aws-docker-instance-test,
 docker-registry,o0th,9354,kubernetes,https://github.com/o0th/terraform-kubernetes-docker-registry,
@@ -4332,6 +4335,7 @@ grafana,rickardl,8948,aws,https://github.com/rickardl/terraform-aws-grafana,
 grafana,telia-oss,1414,aws,https://github.com/telia-oss/terraform-aws-grafana,Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
 grafana-agent,scarf-sh,9061,kubernetes,https://github.com/scarf-sh/terraform-kubernetes-grafana-agent,"Deploy grafana agent in Kubernetes, using Terraform"
 grafana-dashboards,ammilam,10919,kubernetes,https://github.com/ammilam/terraform-kubernetes-grafana-dashboards,
+grafana-workload-account,escapace,14928,aws,https://github.com/escapace/terraform-aws-grafana-workload-account,
 grant-bitbucket-workload-provider-sa-impersonate,llcloudstudio,10975,google,https://github.com/llcloudstudio/terraform-google-grant-bitbucket-workload-provider-sa-impersonate,This module will configure an existing workload identity pool provider so that it is allowed to impersonate a service account.
 graylog,roihunter-devops,4667,go,https://github.com/roihunter-devops/terraform-go-graylog,Graylog API client for Golang and terraform provider for Graylog
 greeting,areguera,14543,local,https://github.com/areguera/terraform-local-greeting,Terraform module to greet the audience.
@@ -5627,7 +5631,6 @@ linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-l
 linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 linux-vm,spy86,13318,azure,https://github.com/spy86/terraform-azure-linux-vm,Terraform Module for Azure Linux VM
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
-linux-vm-public,jye-aviatrix,14912,aws,https://github.com/jye-aviatrix/terraform-aws-linux-vm-public,"Create Ubuntu Test VM in Public Subnet, enable Web and Ping (From RFC1918)"
 linux-vm-scale-sets,libre-devops,13608,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm-scale-sets,A module which will build Linux Virtual Machine Scale Sets
 linux-web-app,libre-devops,13452,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-web-app,A module used to deploy the NEW Linux Web app which is part of the version 3.0 provider :fire:
 linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-linuxkit-setup,Terraform module to setup the basic infrastructure for linuxkit to push AMIs to AWS.
@@ -5787,6 +5790,7 @@ matchbox,sacloud,2104,sakuracloud,https://github.com/sacloud/terraform-sakuraclo
 matomo,philips-labs,7502,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-matomo,Terraform module for deploying matomo to cloudfoundry
 max-host,guyvelleman,11295,cidr,https://github.com/guyvelleman/terraform-cidr-max-host,Terraform module return the largest number we can represent in the remaining bits.
 maxcompute-project,terraform-alicloud-modules,4669,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-maxcompute-project,Terraform module for creating a MaxCompute project on Alibaba Cloud RDS Service.
+mc-all-cidrs,terraform-aviatrix-modules,14927,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-all-cidrs,Simple module that returns all possible subnets inside a given cidr.
 mc-firenet,terraform-aviatrix-modules,12882,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-firenet,"Aviatrix Terraform module for firenet deployment in multiple clouds, to be used in conjunction with mc-transit module."
 mc-gateway,terraform-aviatrix-modules,13595,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-gateway,Aviatrix Terraform module for gateway deployment in multiple clouds
 mc-overlap-nat-spoke,terraform-aviatrix-modules,10731,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-overlap-nat-spoke,This configures Aviatrix spoke gateways to deal with IP overlap in the spoke VNET/VPC by adding NAT rules and route propagation
@@ -6879,6 +6883,7 @@ pubsub-topic,snowplow-devops,9992,google,https://github.com/snowplow-devops/terr
 pubsub-topic-iam,mineiros-io,12939,google,https://github.com/mineiros-io/terraform-google-pubsub-topic-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub Topics on Google Cloud Platform (GCP) https://cloud.google.com/pubsub
 puppet,admintome,486,nomad,https://github.com/admintome/terraform-nomad-puppet,Terraform module to deploy a puppet environment to a nomad cluster
 pypi-server,madagra,7700,aws,https://github.com/madagra/terraform-aws-pypi-server,"Deploy a private, password-protected PyPi repository on an AWS EC2 instance"
+pyramids,omariosman,14929,aws,https://github.com/omariosman/terraform-aws-pyramids,
 python,nyinyisoepaing,10102,lambda,https://github.com/nyinyisoepaing/terraform-lambda-python,
 python-slack-notifications,Lupus-Metallum,13547,aws,https://github.com/Lupus-Metallum/terraform-aws-python-slack-notifications,
 qa-envs,moonswitch,11528,google,https://github.com/moonswitch/terraform-google-qa-envs,Terraform module to create and manage a Firestore table with information about QA environments to be consumed by the the Moonswitch GitHub Actions select-qa-env and release-qa-env.
@@ -7203,6 +7208,7 @@ redis,sanarena,7321,kubernetes,https://github.com/sanarena/terraform-kubernetes-
 redis,selftechio,8956,docker,https://github.com/selftechio/terraform-docker-redis,A Terraform module for deploying Redis. Uses the official Docker image.
 redis,sl1pm4t,1150,kubernetes,https://github.com/sl1pm4t/terraform-kubernetes-redis,Terraform module for deploying redis to Kubernetes
 redis,terraform-alicloud-modules,3913,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-redis,Terraform module which creates Redis instance and other resources on Alibaba Cloud.
+redis,tf-cloud-modules,14926,aiven,https://github.com/tf-cloud-modules/terraform-aiven-redis,Aiven Redis Terraform module
 redis,zhangwk1,13455,alicloud,https://github.com/zhangwk1/terraform-alicloud-redis,Terraform module which creates Redis instance and other resources on Alibaba Cloud.
 redis-bigkeys-monitoring,AckeeCZ,10401,kubernetes,https://github.com/AckeeCZ/terraform-kubernetes-redis-bigkeys-monitoring,Created Kubernetes Pod to parse output of Redis --bigkeys command and submits the metrics to Google Cloud Monitoring.
 redis-cache,KamenYovchev,6260,azurerm,https://github.com/KamenYovchev/terraform-azurerm-redis-cache,
