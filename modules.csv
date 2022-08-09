@@ -1202,6 +1202,7 @@ azure-connect,spotinst,11386,spotinst,https://github.com/spotinst/terraform-spot
 azure-container-instance,libre-devops,13438,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-container-instance,A module used to deploy an Azure container instance based on some parameters :fire:
 azure-container-registry,libre-devops,13434,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-container-registry,A module used to deploy an Azure Container Regstiry :fire:
 azure-controller,AviatrixSystems,11348,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-azure-controller,Terraform module for Aviatrix Controller launch on Azure
+azure-csr1000v,jye-aviatrix,14939,azure,https://github.com/jye-aviatrix/terraform-azure-azure-csr1000v,"In specified Azure region, create a Cisco CSR1000v BYOL router.  Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-datalake,datarootsio,4963,module,https://github.com/datarootsio/terraform-module-azure-datalake,Terraform module for an Azure Data Lake
 azure-filestorage,ravensorb,13897,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filestorage,Terraform module for setting up Azure File Storage and Shares
 azure-filesync,ravensorb,13549,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filesync,Terraform module for creating and setting up Azure FileSync
@@ -1209,6 +1210,7 @@ azure-function-powershell,JustinGrote,2518,azurerm,https://github.com/JustinGrot
 azure-functions-static-site,reifnir,8337,azurerm,https://github.com/reifnir/terraform-azurerm-azure-functions-static-site,This module creates an Azure Functions application that serves a static content.
 azure-interconnect,maxjahn,5872,oci,https://github.com/maxjahn/terraform-oci-azure-interconnect,Include an OCI-Azure interconnect in your project more easily by using this terraform module
 azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-azure-k8s,
+azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
 azure-rg,e113de,9266,module,https://github.com/e113de/terraform-module-azure-rg,Terraform module to create Azure Resource Groups. Used to ensure naming conventions.
@@ -1327,6 +1329,7 @@ bastion,Cloud-42,1780,aws,https://github.com/Cloud-42/terraform-aws-bastion,Auto
 bastion,Guimove,770,aws,https://github.com/Guimove/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
 bastion,JamesWoolfenden,3329,gcp,https://github.com/JamesWoolfenden/terraform-gcp-bastion,Bastion for GCP
 bastion,OT-terraform-azure-modules,11634,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-bastion,
+bastion,RevenueCat,14932,aws,https://github.com/RevenueCat/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
 bastion,andrewCluey,9724,azurerm,https://github.com/andrewCluey/terraform-azurerm-bastion,Deploys an Azure Bastion into an existing Bastion Subnet.
 bastion,anugnes,610,aws,https://github.com/anugnes/terraform-aws-bastion,Terraform module to deploy a bastion host in a custom VPC
 bastion,artrojort,4711,aws,https://github.com/artrojort/terraform-aws-bastion,Terraform module for launching an AWS Bastion host in an existing VPC.
@@ -2073,6 +2076,7 @@ codeartifact,catalystsquad,14029,aws,https://github.com/catalystsquad/terraform-
 codeartifact,shepherd44,10221,aws,https://github.com/shepherd44/terraform-aws-codeartifact,
 codebuild,JamesWoolfenden,2024,aws,https://github.com/JamesWoolfenden/terraform-aws-codebuild,A Terraform module for making AWS codebuilds
 codebuild,aws-ia,9981,aws,https://github.com/aws-ia/terraform-aws-codebuild,AWS CodeBuild Module
+codebuild,axetrading,14934,axetrading,https://github.com/axetrading/terraform-axetrading-codebuild,Codebuild project that assumes a role so credentials can be used inside docker container
 codebuild,cloudposse,205,aws,https://github.com/cloudposse/terraform-aws-codebuild,Terraform Module to easily leverage AWS CodeBuild for Continuous Integration
 codebuild,ganexcloud,13360,aws,https://github.com/ganexcloud/terraform-aws-codebuild,
 codebuild,genstackio,7990,aws,https://github.com/genstackio/terraform-aws-codebuild,Terraform module to create an AWS codebuild project
@@ -3495,6 +3499,7 @@ eks,chaglare,7307,aws,https://github.com/chaglare/terraform-aws-eks,
 eks,clouddrove,9091,aws,https://github.com/clouddrove/terraform-aws-eks,"Terraform module will be created Autoscaling, Workers, EKS."
 eks,codezenith,4492,aws,https://github.com/codezenith/terraform-aws-eks,AWS EKS template
 eks,cookpad,4551,aws,https://github.com/cookpad/terraform-aws-eks,A Terraform module to Provision AWS Elastic Kubernetes (EKS) clusters and worker nodes
+eks,dasmeta,14938,aws,https://github.com/dasmeta/terraform-aws-eks,
 eks,elioseverojunior,14262,aws,https://github.com/elioseverojunior/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,farrukh90,4506,aws,https://github.com/farrukh90/terraform-aws-eks,
 eks,foss-cafe,5646,aws,https://github.com/foss-cafe/terraform-aws-eks,Terraform module for AWS EKS
@@ -4660,7 +4665,7 @@ iks-vpc,cloud-native-toolkit,14563,ibm,https://github.com/cloud-native-toolkit/t
 ilert-kube-agent,iLert,7863,kubernetes,https://github.com/iLert/terraform-kubernetes-ilert-kube-agent,
 ilm,goolzerg,10062,elk,https://github.com/goolzerg/terraform-elk-ilm,
 image,libre-devops,13613,azurerm,https://github.com/libre-devops/terraform-azurerm-image,A module used to deploy an Azure image :camera:
-image-builder,shadbury,14840,aws,https://github.com/shadbury/terraform-aws-image-builder,
+image-builder,shadbury,14940,aws,https://github.com/shadbury/terraform-aws-image-builder,
 image-builder-component,dod-iac,13947,aws,https://github.com/dod-iac/terraform-aws-image-builder-component,Creates a component for EC2 Image Builder.
 image-builder-infrastructure-configuration,dod-iac,13946,aws,https://github.com/dod-iac/terraform-aws-image-builder-infrastructure-configuration,Creates an infrastructure configuration for EC2 Image Builder.
 image-builder-pipeline,dod-iac,13948,aws,https://github.com/dod-iac/terraform-aws-image-builder-pipeline,Creates a pipeline for EC2 Image Builder.
@@ -5853,6 +5858,7 @@ mg-hierarchysettings,matt-FFFFFF,13009,azapi,https://github.com/matt-FFFFFF/terr
 mgmtstorevar,tanzuformers,10520,vault,https://github.com/tanzuformers/terraform-vault-mgmtstorevar,
 microservice,Flaconi,2729,aws,https://github.com/Flaconi/terraform-aws-microservice,Boilerplate Terraform Module for creating resources for typical micro services.
 microservice,TeliaDK,4819,aws,https://github.com/TeliaDK/terraform-aws-microservice,Terraform module for ECS microservices
+microservice,cochiseruhulessin,14933,google,https://github.com/cochiseruhulessin/terraform-google-microservice,Deploy a microservice on Google Cloud Run
 microservice,truemark,7316,aws,https://github.com/truemark/terraform-aws-microservice,Terraform module to standup an independent microservice in ECS Fargate
 microservices,Matthewsre,7274,azurerm,https://github.com/Matthewsre/terraform-azurerm-microservices,
 microservices-bumper,terraform-gitlab-modules,13018,gitlab,https://github.com/terraform-gitlab-modules/terraform-gitlab-microservices-bumper,Terraform module which creates Gitlab branches and tags in microservices repositories.
@@ -6648,6 +6654,7 @@ pipeline-common-workflow,fmontezuma,2763,aws,https://github.com/fmontezuma/terra
 pipeline-controller,toluna-terraform,11534,aws,https://github.com/toluna-terraform/terraform-aws-pipeline-controller,
 pipeline-eks-deploy,fmontezuma,2765,aws,https://github.com/fmontezuma/terraform-aws-pipeline-eks-deploy,
 pipeline-k8s-common,fmontezuma,2778,aws,https://github.com/fmontezuma/terraform-aws-pipeline-k8s-common,
+pipeline-resources,axetrading,14935,axetrading,https://github.com/axetrading/terraform-axetrading-pipeline-resources,Resources to support a AWS CodePipeline
 pipelines,T-Systems-MMS,12101,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-pipelines,Configure Azure DevOps Pipelines
 pki,particuleio,11926,tls,https://github.com/particuleio/terraform-tls-pki,Manage a certificate authority with Terraform
 placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lambda-placeholder,Placeholders for AWS Lambda to be used when creating Lambda functions with Terraform
@@ -7356,6 +7363,7 @@ resourcegroup,andrewCluey,7868,azurerm,https://github.com/andrewCluey/terraform-
 resourcegroup,idatalytics,14593,azurerm,https://github.com/idatalytics/terraform-azurerm-resourcegroup,
 resourcegroup,jbonilla03,2975,azurerm,https://github.com/jbonilla03/terraform-azurerm-resourcegroup,Terraform module to provision azure resource groups
 resources-aws,pen-pal,12461,mongodbatlas,https://github.com/pen-pal/terraform-mongodbatlas-resources-aws,This is a terraform module to create resources in mongodb atlas.
+resources-configurations,axetrading,14936,axetrading,https://github.com/axetrading/terraform-axetrading-resources-configurations,A simple Terraform module that reads the contents of yaml or json files (or both) and turns it into objects that can be used later with the terraform_remote_state data source.
 rest-api-architecture,MoveoTech,13393,aws,https://github.com/MoveoTech/terraform-aws-rest-api-architecture,REST API architecture baseline
 rest-endpoint,dod-iac,4668,aws,https://github.com/dod-iac/terraform-aws-rest-endpoint,AWS API Gateway REST API with one endpoint that submits data to an AWS Lambda function.
 restapi,tomoki171923,13226,aws,https://github.com/tomoki171923/terraform-aws-restapi,"Terraform module, which creates simple RestAPI invoking lambda function on Amazon API Gateway."
