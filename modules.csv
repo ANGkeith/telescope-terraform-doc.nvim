@@ -68,6 +68,7 @@ TFModules-ES,skatta3,14049,aws,https://github.com/skatta3/terraform-aws-TFModule
 VNET-SS-SQL,AdrianaHk,12867,azure,https://github.com/AdrianaHk/terraform-azure-VNET-SS-SQL,
 VNET-SS-SQL,Qudratillo8373,12961,azure,https://github.com/Qudratillo8373/terraform-azure-VNET-SS-SQL,
 VPC,AyushWahane,9203,AWS,https://github.com/AyushWahane/terraform-AWS-VPC,
+VPC,rknktm,15041,aws,https://github.com/rknktm/terraform-aws-VPC,Terraform module which creates a VPC with three Public and Private Subnets on AWS.
 VictoriaMetrics,basisai,8547,helm,https://github.com/basisai/terraform-helm-VictoriaMetrics,
 Vm,jxinging,13629,Vsphere,https://github.com/jxinging/terraform-Vsphere-Vm,Terraform vSphere module for provisioning Virtual Machines
 Vnet,turdalieva,7064,azure,https://github.com/turdalieva/terraform-azure-Vnet,
@@ -2753,6 +2754,7 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker-container,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
+docker-ec2instance,ofidan,15032,aws,https://github.com/ofidan/terraform-aws-docker-ec2instance,
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
 docker-instance,AAsimCoskun,14624,aws,https://github.com/AAsimCoskun/terraform-aws-docker-instance,
 docker-instance,ABlest8,14664,aws,https://github.com/ABlest8/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2763,7 +2765,9 @@ docker-instance,GavaTech,14697,aws,https://github.com/GavaTech/terraform-aws-doc
 docker-instance,GylychJelilov,14666,aws,https://github.com/GylychJelilov/terraform-aws-docker-instance,
 docker-instance,HaciYasar,14653,aws,https://github.com/HaciYasar/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS
 docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,Hvlkrs,15031,aws,https://github.com/Hvlkrs/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Ikkyto,14688,aws,https://github.com/Ikkyto/terraform-aws-docker-instance,
+docker-instance,JasminYousef,15045,aws,https://github.com/JasminYousef/terraform-aws-docker-instance,
 docker-instance,JasonmKahraman,14700,aws,https://github.com/JasonmKahraman/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JohnWhyter,14699,aws,https://github.com/JohnWhyter/terraform-aws-docker-instance,
 docker-instance,Kaplanibrahim,14726,aws,https://github.com/Kaplanibrahim/terraform-aws-docker-instance,
@@ -2781,6 +2785,7 @@ docker-instance,abetr,14707,aws,https://github.com/abetr/terraform-aws-docker-in
 docker-instance,adenizdnz,14641,aws,https://github.com/adenizdnz/terraform-aws-docker-instance,https://registry.terraform.io/modules/adenizdnz/docker-instance/aws/latest
 docker-instance,ahadalioglu,14696,aws,https://github.com/ahadalioglu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,akgulmert,14705,aws,https://github.com/akgulmert/terraform-aws-docker-instance,
+docker-instance,akinahmet,15033,aws,https://github.com/akinahmet/terraform-aws-docker-instance,
 docker-instance,alanshenn,14832,aws,https://github.com/alanshenn/terraform-aws-docker-instance,
 docker-instance,alexanderadam2022,14632,aws,https://github.com/alexanderadam2022/terraform-aws-docker-instance,
 docker-instance,arslantobe,14642,aws,https://github.com/arslantobe/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2792,7 +2797,7 @@ docker-instance,bhandary1419,14698,aws,https://github.com/bhandary1419/terraform
 docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,coskunk5,14669,aws,https://github.com/coskunk5/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,deepvirtualdoubts,14721,aws,https://github.com/deepvirtualdoubts/terraform-aws-docker-instance,
-docker-instance,devopswizard,15009,aws,https://github.com/devopswizard/terraform-aws-docker-instance,
+docker-instance,devopswizard,15043,aws,https://github.com/devopswizard/terraform-aws-docker-instance,
 docker-instance,eda-clarusway,14628,aws,https://github.com/eda-clarusway/terraform-aws-docker-instance,
 docker-instance,erhankorkut16,14654,aws,https://github.com/erhankorkut16/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,gncalper,14709,aws,https://github.com/gncalper/terraform-aws-docker-instance,
@@ -2807,6 +2812,7 @@ docker-instance,kaslan65,14644,aws,https://github.com/kaslan65/terraform-aws-doc
 docker-instance,ksoydam,14689,aws,https://github.com/ksoydam/terraform-aws-docker-instance,
 docker-instance,laura-hill,14715,aws,https://github.com/laura-hill/terraform-aws-docker-instance,
 docker-instance,mafuClarusway,14695,aws,https://github.com/mafuClarusway/terraform-aws-docker-instance,- Terraform module to create a Docker instance in AWS.  - Website: https://registry.terraform.io/modules/mafuClarusway/docker-instance/aws/latest
+docker-instance,medipnegiz,15030,aws,https://github.com/medipnegiz/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,mehmetozleyen,14732,aws,https://github.com/mehmetozleyen/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,mehmetozturk4438,14660,aws,https://github.com/mehmetozturk4438/terraform-aws-docker-instance,
 docker-instance,minedgn,14635,aws,https://github.com/minedgn/terraform-aws-docker-instance,
@@ -2820,6 +2826,7 @@ docker-instance,omerdogan16,14634,aws,https://github.com/omerdogan16/terraform-a
 docker-instance,oraykamberoglu,14625,aws,https://github.com/oraykamberoglu/terraform-aws-docker-instance,
 docker-instance,quinzone,14647,aws,https://github.com/quinzone/terraform-aws-docker-instance,
 docker-instance,rasitirmak,14687,aws,https://github.com/rasitirmak/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,rknktm,15029,aws,https://github.com/rknktm/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,rumeysakdogan,14693,aws,https://github.com/rumeysakdogan/terraform-aws-docker-instance,
 docker-instance,serkantayfur,14645,aws,https://github.com/serkantayfur/terraform-aws-docker-instance,terraform-aws-docker-instance Please check readme
 docker-instance,seryum65,14618,aws,https://github.com/seryum65/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2828,7 +2835,9 @@ docker-instance,soneerceelik,14646,aws,https://github.com/soneerceelik/terraform
 docker-instance,tayyipkarahan,14656,aws,https://github.com/tayyipkarahan/terraform-aws-docker-instance,
 docker-instance,toygarbarut,14636,aws,https://github.com/toygarbarut/terraform-aws-docker-instance,
 docker-instance,turgout,14895,aws,https://github.com/turgout/terraform-aws-docker-instance,
+docker-instance,vlkn38akyz,15035,aws,https://github.com/vlkn38akyz/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS
 docker-instance,volkan-sahin,14677,aws,https://github.com/volkan-sahin/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,wookeemin,15044,aws,https://github.com/wookeemin/terraform-aws-docker-instance,
 docker-instance,yarimci,14828,aws,https://github.com/yarimci/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,yildizcayiroglu,14643,aws,https://github.com/yildizcayiroglu/terraform-aws-docker-instance,
 docker-instance,yunusadil,14655,aws,https://github.com/yunusadil/terraform-aws-docker-instance,
@@ -4236,6 +4245,7 @@ github-oidc,philips-labs,12226,aws,https://github.com/philips-labs/terraform-aws
 github-oidc-provider,SamuelBagattin,12156,aws,https://github.com/SamuelBagattin/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect.
 github-oidc-provider,terraform-module,14280,aws,https://github.com/terraform-module/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect. 
 github-org,ngs,4917,cloudflare,https://github.com/ngs/terraform-cloudflare-github-org,CloudFlare Terraform module for setup GitHub organization verification.
+github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terraform-dnsimple-github-org-verification,Terraform Module: GitHub Organization verification record for DNSimple
 github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,CloudFlare Terraform module for setup GitHub Pages.
 github-pages-dns,robbyoconnor,10602,cloudflare,https://github.com/robbyoconnor/terraform-cloudflare-github-pages-dns,Terraform Module to add the DNS entries required for GitHub pages with a custom domain name
 github-repo,twindb,2633,twindb,https://github.com/twindb/terraform-twindb-github-repo,GitHub workflow terraform module
@@ -6539,6 +6549,7 @@ openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,O
 openraven-accountconnect,abanerjee-svmk,9873,aws,https://github.com/abanerjee-svmk/terraform-aws-openraven-accountconnect,Terraform module to deploy resources in AWS account required by OpenRaven
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
 opensearch,idealo,11248,aws,https://github.com/idealo/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
+opensearch,tf-cloud-modules,15034,aiven,https://github.com/tf-cloud-modules/terraform-aiven-opensearch,Aiven Opensearch Terraform module
 opensearch,trussworks,14450,aws,https://github.com/trussworks/terraform-aws-opensearch,A module that spins up an OpenSearch cluster.
 opensearch-cloudwatch,ION-Analytics,14170,acuris,https://github.com/ION-Analytics/terraform-acuris-opensearch-cloudwatch,
 openshift,DTherHtun,5766,vsphere,https://github.com/DTherHtun/terraform-vsphere-openshift,Create VM for Openshift in vsphere
@@ -8535,6 +8546,7 @@ sqs,terraform-aws-modules,291,aws,https://github.com/terraform-aws-modules/terra
 sqs,tomarv2,12371,aws,https://github.com/tomarv2/terraform-aws-sqs,Terraform module for creating SQS 
 sqs,umotif-public,9274,aws,https://github.com/umotif-public/terraform-aws-sqs,Terraform module which creates SQS resources in AWS
 sqs-alarm,wesol05,2859,aws,https://github.com/wesol05/terraform-aws-sqs-alarm,
+sqs-dlq,yepengfan,15038,aws,https://github.com/yepengfan/terraform-aws-sqs-dlq,
 sqs-kms-key,dod-iac,8301,aws,https://github.com/dod-iac/terraform-aws-sqs-kms-key,Creates a KMS Key for use with SQS.
 sqs-lambda-trigger,Recall-Masters,8438,aws,https://github.com/Recall-Masters/terraform-aws-sqs-lambda-trigger,"Given a Lambda function, create an SQS queue that will trigger it, and a deadletter queue — to use in case the Lambda fails."
 sqs-module,surajwarbhe,9742,aws,https://github.com/surajwarbhe/terraform-aws-sqs-module,
@@ -8836,6 +8848,7 @@ storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-s
 storage-container,bytejunkie,7362,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-container,
 storage-custom,michaelniotis,14408,azurerm,https://github.com/michaelniotis/terraform-azurerm-storage-custom,Terraform Module to create Azure storage account resources.
 storage-demo,myownsoul,3783,azurerm,https://github.com/myownsoul/terraform-azurerm-storage-demo,
+storage-integration,Infostrux-Solutions,15042,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-storage-integration,
 storage-integration-aws,Snowflake-Labs,13292,snowflake,https://github.com/Snowflake-Labs/terraform-snowflake-storage-integration-aws,To create the base infrastructure for storage only pipelines that load data from S3 to Snowflake.
 storage-pubsub,vikramshinde12,6582,google,https://github.com/vikramshinde12/terraform-google-storage-pubsub,Terraform module to create Pub/Sub notifications for Cloud Storage
 storage-sas-token,claranet,4082,azurerm,https://github.com/claranet/terraform-azurerm-storage-sas-token,Terraform module for Azure Storage SAS Token access
@@ -10260,6 +10273,7 @@ workspace,psychopenguin,5320,tfe,https://github.com/psychopenguin/terraform-tfe-
 workspace,rsmets,9259,tfe,https://github.com/rsmets/terraform-tfe-workspace,This module provisions a Terraform Cloud / Terraform Enterprise workspace
 workspace,srijanone,7740,tfe,https://github.com/srijanone/terraform-tfe-workspace,Terraform Module for TFE workspace management
 workspace-config,ingenii-solutions,8942,databricks,https://github.com/ingenii-solutions/terraform-databricks-workspace-config,This module can be used to further configure your Databricks workspace.
+workspace-image-update,shadbury,15028,aws,https://github.com/shadbury/terraform-aws-workspace-image-update,Auto Updates for aws workspace golden images
 workspace-instance,alancherosr,14535,aws,https://github.com/alancherosr/terraform-aws-workspace-instance,Terraform templates
 workspace-management,tomarv2,8277,databricks,https://github.com/tomarv2/terraform-databricks-workspace-management,Terraform module for Databricks Workspace Management: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/workspace-management
 workspace-orchestrator,aws-ia,14375,tfe,https://github.com/aws-ia/terraform-tfe-workspace-orchestrator,
