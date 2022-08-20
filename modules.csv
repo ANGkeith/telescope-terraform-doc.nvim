@@ -2655,6 +2655,7 @@ dhcp-option-policy,netascode,9790,aci,https://github.com/netascode/terraform-aci
 dhcp-relay-policy,netascode,9793,aci,https://github.com/netascode/terraform-aci-dhcp-relay-policy,Terraform Cisco ACI DHCP Relay Policy Module
 diagnositc-settings,armakuni,11091,azurerm,https://github.com/armakuni/terraform-azurerm-diagnositc-settings,Azure module for enabling all Diagnostic Settings on a resource
 diagnostic-instance,cuotos,10548,aws,https://github.com/cuotos/terraform-aws-diagnostic-instance,
+diagnostic-setting,markti,15094,azurerm,https://github.com/markti/terraform-azurerm-diagnostic-setting,
 diagnostic-setting,rink72,3826,azurerm,https://github.com/rink72/terraform-azurerm-diagnostic-setting,Terraform module to deploy diagnostic settings in Azure
 diagnostic-settings,claranet,6879,azurerm,https://github.com/claranet/terraform-azurerm-diagnostic-settings,Fork of the `terraform-azurerm-diagnostic-settings` module with Claranet's contributions and improvements.
 diagnostic-settings,innovationnorway,2450,azurerm,https://github.com/innovationnorway/terraform-azurerm-diagnostic-settings,
@@ -3835,6 +3836,7 @@ emr-elastigroup,stevenfeltner,9496,spotinst,https://github.com/stevenfeltner/ter
 emr-hadoop,terraform-alicloud-modules,4255,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-emr-hadoop,Terraform module which creates a Hadoop cluster based on Alibaba Cloud E-MapReduce Service.
 emr-kafka,terraform-alicloud-modules,4272,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-emr-kafka,Terraform module which creates a Kafka cluster based on Alibaba Cloud E-MapReduce Service.
 emr-zookeeper,terraform-alicloud-modules,4288,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-emr-zookeeper,Terraform module which creates a ZooKeeper cluster based on Alibaba Cloud E-MapReduce Service.
+emrserverless,kierandidi,15088,aws,https://github.com/kierandidi/terraform-aws-emrserverless,Terraform module for the AWS EMR Serverless application
 enable,terraform-alicloud-modules,12686,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-enable,Terraform Module used to enable several services automatically Alibaba Cloud.
 enablement-demo,hoodbu,15000,aviatrix,https://github.com/hoodbu/terraform-aviatrix-enablement-demo,
 encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,A terraform module for creating an encrypted bucket in S3
@@ -4081,6 +4083,7 @@ flatcar-vm,celest-io,13550,vultr,https://github.com/celest-io/terraform-vultr-fl
 flatcar-vm,celest-io,13614,openstack,https://github.com/celest-io/terraform-openstack-flatcar-vm,Terraform module which creates a Flatcar instance in Openstack
 flex-plugin,RJPearson94,8684,twilio,https://github.com/RJPearson94/terraform-twilio-flex-plugin,
 flink,skydome,3080,kubernetes,https://github.com/skydome/terraform-kubernetes-flink,Apache Flink Terraform module for kubernetes
+flink,tf-cloud-modules,15093,aiven,https://github.com/tf-cloud-modules/terraform-aiven-flink,Aiven Flink Terraform module
 flow-logs,lablabs,4740,aws,https://github.com/lablabs/terraform-aws-flow-logs,
 flowlogs,barundel,4159,aws,https://github.com/barundel/terraform-aws-flowlogs,"Terraform for creating flowlogs to s3 from a VPC, Subnet and ENI. "
 fluentbit,AdRoll,5626,container,https://github.com/AdRoll/terraform-container-fluentbit,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the aws_ecs_task_definition Terraform resource for fluentbit
@@ -4251,6 +4254,7 @@ github-ci,squidfunk,1131,aws,https://github.com/squidfunk/terraform-aws-github-c
 github-deploy-role,YoshinoriSatoh,11933,aws,https://github.com/YoshinoriSatoh/terraform-aws-github-deploy-role,
 github-events,rclark,12783,aws,https://github.com/rclark/terraform-aws-github-events,Creates EventBridge events in your AWS account representing developer activity in your GitHub repositories.
 github-oidc,Invicton-Labs,15061,aws,https://github.com/Invicton-Labs/terraform-aws-github-oidc,"Creates an IAM OIDC provider for GitHub Actions and associated roles for various repositories, branches, and tags."
+github-oidc,StratusGrid,15091,aws,https://github.com/StratusGrid/terraform-aws-github-oidc,Configures AWS For GitHub Actions OIDC Authentation.
 github-oidc,bryan-rhm,14047,aws,https://github.com/bryan-rhm/terraform-aws-github-oidc,Module to create github oidc integration.
 github-oidc,digitalocean,12865,vault,https://github.com/digitalocean/terraform-vault-github-oidc,Terraform module to configure Vault for GitHub OIDC authentication from Action runners.
 github-oidc,oozou,14502,aws,https://github.com/oozou/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
@@ -5939,7 +5943,9 @@ mirror,neomantra,2129,docker,https://github.com/neomantra/terraform-docker-mirro
 misc,tedilabs,9169,aws,https://github.com/tedilabs/terraform-aws-misc,🌳 A sustainable Terraform Package which creates MISC resources on AWS
 mlflow,Glovo,5696,aws,https://github.com/Glovo/terraform-aws-mlflow,A terraform module to productionalize MLflow on top of AWS (Fargate + Aurora Serverless + S3)
 mlflow,combinator-ml,9472,k8s,https://github.com/combinator-ml/terraform-k8s-mlflow,MLflow terraform module
+mlflow,getindata,15089,azurerm,https://github.com/getindata/terraform-azurerm-mlflow,"Module for deploying serverless MLflow instance on Azure, using Serverless SQL Server, Container App Service and Azure Blob Storage."
 mlflow,larribas,5669,aws,https://github.com/larribas/terraform-aws-mlflow,A terraform module to productionalize MLflow on top of AWS (Fargate + Aurora Serverless + S3)
+mlflow,teamdatatonic,15092,google,https://github.com/teamdatatonic/terraform-google-mlflow,Contains code to deploy an Mlflow Tracking Server running on Cloud Run
 mlops-aws-infrastructure,databricks,14171,databricks,https://github.com/databricks/terraform-databricks-mlops-aws-infrastructure,"This module sets up multi-workspace model registry between a Databricks AWS development (dev) workspace, staging workspace, and production (prod) workspace, allowing READ access from dev/staging workspaces to staging & prod model registries."
 mlops-aws-project,databricks,14177,databricks,https://github.com/databricks/terraform-databricks-mlops-aws-project,"This module creates and configures service principals with appropriate permissions and entitlements to run CI/CD for a project, and creates a workspace directory as a container for project-specific resources for the Databricks AWS staging and prod workspaces."
 mlops-azure-infrastructure-with-sp-creation,databricks,14178,databricks,https://github.com/databricks/terraform-databricks-mlops-azure-infrastructure-with-sp-creation,"This module sets up multi-workspace model registry between an Azure Databricks development (dev) workspace, staging workspace, and production (prod) workspace, allowing READ access from dev/staging workspaces to staging & prod model registries. It also creates the relevant Azure Active Directory (AAD) applications for the service principals."
@@ -7783,6 +7789,7 @@ s3-webapp,cedric-adrs,7856,aws,https://github.com/cedric-adrs/terraform-aws-s3-w
 s3-webapp,chinmaydev-creator,11802,aws,https://github.com/chinmaydev-creator/terraform-aws-s3-webapp,
 s3-webapp,ducnm-lg,10840,aws,https://github.com/ducnm-lg/terraform-aws-s3-webapp,
 s3-webapp,duleorlovic,15084,aws,https://github.com/duleorlovic/terraform-aws-s3-webapp,
+s3-webapp,dwood-97,15095,aws,https://github.com/dwood-97/terraform-aws-s3-webapp,
 s3-webapp,etafoh,13246,aws,https://github.com/etafoh/terraform-aws-s3-webapp,
 s3-webapp,fenglyu,9202,aws,https://github.com/fenglyu/terraform-aws-s3-webapp,
 s3-webapp,gh-siyengar,9136,aws,https://github.com/gh-siyengar/terraform-aws-s3-webapp,
@@ -8754,6 +8761,7 @@ static-website-container,OT-CLOUD-KIT,4892,aws,https://github.com/OT-CLOUD-KIT/t
 static-website-module-manifests,aneesdevops,10571,azure,https://github.com/aneesdevops/terraform-azure-static-website-module-manifests,sss
 static-website-redirect,dsueltenfuss,12153,aws,https://github.com/dsueltenfuss/terraform-aws-static-website-redirect,
 static-website-with-cicd,ordinaryexperts,1926,aws,https://github.com/ordinaryexperts/terraform-aws-static-website-with-cicd,"A static s3-backed website with CloudFront, SSL, and automatic deployments on commit to a git repo"
+static_website,DvLearnOps,15090,azurerm,https://github.com/DvLearnOps/terraform-azurerm-static_website,A sample module to create azure storage static website
 staticazurewebsite,lokesh0412,12857,azurerm,https://github.com/lokesh0412/terraform-azurerm-staticazurewebsite,This is a test terraform module
 staticbucket,bmahathi,14887,aws,https://github.com/bmahathi/terraform-aws-staticbucket,
 staticip,JamesWoolfenden,3422,gcp,https://github.com/JamesWoolfenden/terraform-gcp-staticip,A simple Terraform module to build an instance a static public IP
