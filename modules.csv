@@ -3016,6 +3016,7 @@ ec2,tomarv2,12332,aws,https://github.com/tomarv2/terraform-aws-ec2,Terraform mod
 ec2-admin-server,cloudposse,215,aws,https://github.com/cloudposse/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
 ec2-ami-backup,cloudposse,216,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-backup,Terraform module for automatic & scheduled AMI creation
 ec2-ami-snapshot,cloudposse,217,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-snapshot,Terraform module to easily generate AMI snapshots to create replica instances
+ec2-and-rds,akshatoxy,15107,aws,https://github.com/akshatoxy/terraform-aws-ec2-and-rds,EC2 server for node application and RDS MySQL instance for database.
 ec2-apache,DValena,12964,aws,https://github.com/DValena/terraform-aws-ec2-apache,
 ec2-apache,Jellayy,13852,aws,https://github.com/Jellayy/terraform-aws-ec2-apache,Terraform module which easily creates an Apache web server on EC2 in AWS
 ec2-application,davidalger,4683,aws,https://github.com/davidalger/terraform-aws-ec2-application,AWS EC2 Application Terraform Module
@@ -4162,7 +4163,7 @@ function-app-consumption,innovationnorway,1368,azurerm,https://github.com/innova
 function-app-single,claranet,3502,azurerm,https://github.com/claranet/terraform-azurerm-function-app-single,[Deprecated] Terraform module for Azure Function App V2
 function-app-with-plan,claranet,3503,azurerm,https://github.com/claranet/terraform-azurerm-function-app-with-plan,Terraform module for Azure Function App V2 with App Service Plan
 function-cors,StefanSchoof,2845,azurerm,https://github.com/StefanSchoof/terraform-azurerm-function-cors,A Terraform module to add CORS to a azure function
-function-powershell,dsa0x,14285,azure,https://github.com/dsa0x/terraform-azure-function-powershell,Deploys a Azure Functions Powershell Worker along with Application Insights and a Key Vault
+function-powershell,dsa0x,15109,azure,https://github.com/dsa0x/terraform-azure-function-powershell,Deploys a Azure Functions Powershell Worker along with Application Insights and a Key Vault
 function-private-network,jaydesai-automate,15005,azurerm,https://github.com/jaydesai-automate/terraform-azurerm-function-private-network,Azure Terrafrom Module that creates Windows or Linux Function App and corresponding storage on a Private Virtual Network
 functionapp,anoff,924,azurerm,https://github.com/anoff/terraform-azurerm-functionapp,Deploy a dedicated or consumption based Function App with all dependencies and minimal config
 functionapp-group,JoeAtRest,6036,azurerm,https://github.com/JoeAtRest/terraform-azurerm-functionapp-group,"Creates a resource group containing 1 or more function apps, an application insights and a key vault"
@@ -5232,6 +5233,7 @@ kops-state-backend,cloudposse,980,aws,https://github.com/cloudposse/terraform-aw
 kops-state-store,opzkit,10581,aws,https://github.com/opzkit/terraform-aws-kops-state-store,
 kops-vault-backend,cloudposse,2211,aws,https://github.com/cloudposse/terraform-aws-kops-vault-backend,"Terraform module to provision an S3 bucket for HashiCorp Vault secrets storage, and an IAM role and policy with permissions for Kops nodes to access the bucket"
 kops-vpc-peering,cloudposse,961,aws,https://github.com/cloudposse/terraform-aws-kops-vpc-peering,Terraform module to create a peering connection between a backing services VPC and a VPC created by Kops
+kosli-reporter,kosli-dev,15108,aws,https://github.com/kosli-dev/terraform-aws-kosli-reporter,Terraform module to deploy the Kosli Lambda reporter
 ksoc-connect,ksoclabs,10895,aws,https://github.com/ksoclabs/terraform-aws-ksoc-connect,A terraform module for allowing KSOC to connect to your AWS account.
 ksoc-connect,ksoclabs,12262,azurerm,https://github.com/ksoclabs/terraform-azurerm-ksoc-connect,A terraform module for allowing KSOC to connect to your Azure account.
 kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-gitlab-kube-cluster,Terraform module to easily connect any existing Kubernetes cluster with Gitlab
@@ -6540,6 +6542,7 @@ office365,ngs,2435,cloudflare,https://github.com/ngs/terraform-cloudflare-office
 office365-domains,cloudspout,4033,aws,https://github.com/cloudspout/terraform-aws-office365-domains,This module for Terraform helps to create the required zone entries to operate a self-managed Office365 domain.
 ohp-ecr,ohpensource,10454,aws,https://github.com/ohpensource/terraform-aws-ohp-ecr,Terraform Module for AWS ECR 
 ohp-s3,ohpensource,10536,aws,https://github.com/ohpensource/terraform-aws-ohp-s3,
+oidc-auth-method,bmcdonald05,15111,vault,https://github.com/bmcdonald05/terraform-vault-oidc-auth-method,Terraform module for the Vault provider for enabling the OIDC auth method and creating an identity group/alias for external group mappings.
 oidc-github,unfunco,11233,aws,https://github.com/unfunco/terraform-aws-oidc-github,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
 oidc-github-actions-module,moritzheiber,11303,aws,https://github.com/moritzheiber/terraform-aws-oidc-github-actions-module,A Terraform module for dynamically authenticating and authorizing GitHub Actions on AWS using OIDC
 oidc-provider-data,reegnz,7989,aws,https://github.com/reegnz/terraform-aws-oidc-provider-data,This module is for generating the OpenID Connect provider ARN one would get given an issuer url.
@@ -8700,6 +8703,7 @@ stack-pachyderm-minio,combinator-ml,8466,k8s,https://github.com/combinator-ml/te
 stackdriver-logs-exclusion,kiwicom,3320,google,https://github.com/kiwicom/terraform-google-stackdriver-logs-exclusion,
 stackdriver-module,DrFaust92,8492,grafana,https://github.com/DrFaust92/terraform-grafana-stackdriver-module,Terraform module which creates a Grafana Stackdriver data source with a minimal GCP service account.
 stackdriver-uptime,DNXLabs,5754,google,https://github.com/DNXLabs/terraform-google-stackdriver-uptime,
+stackx-network,ventx,15112,aws,https://github.com/ventx/terraform-aws-stackx-network,Terraform networking module for AWS -- stackx
 stage-config-files,scaffoldly,9473,github,https://github.com/scaffoldly/terraform-github-stage-config-files,Write stage config files to a GitHub repository
 stage-dns,scaffoldly,9360,aws,https://github.com/scaffoldly/terraform-aws-stage-dns,"For a given stage and domain parameters, create base DNS resources."
 stage-email,scaffoldly,9363,aws,https://github.com/scaffoldly/terraform-aws-stage-email,
@@ -8891,7 +8895,7 @@ storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-s
 storage-container,bytejunkie,7362,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-container,
 storage-custom,michaelniotis,14408,azurerm,https://github.com/michaelniotis/terraform-azurerm-storage-custom,Terraform Module to create Azure storage account resources.
 storage-demo,myownsoul,3783,azurerm,https://github.com/myownsoul/terraform-azurerm-storage-demo,
-storage-integration,Infostrux-Solutions,15042,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-storage-integration,
+storage-integration,Infostrux-Solutions,15042,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-storage-integration," Open Source Snowflake Terraform Module for Snowflake Storage Integration, also in the terraform registry, https://registry.terraform.io/modules/Infostrux-Solutions/storage-integration/snowflake/latest"
 storage-integration-aws,Snowflake-Labs,13292,snowflake,https://github.com/Snowflake-Labs/terraform-snowflake-storage-integration-aws,To create the base infrastructure for storage only pipelines that load data from S3 to Snowflake.
 storage-pubsub,vikramshinde12,6582,google,https://github.com/vikramshinde12/terraform-google-storage-pubsub,Terraform module to create Pub/Sub notifications for Cloud Storage
 storage-sas-token,claranet,4082,azurerm,https://github.com/claranet/terraform-azurerm-storage-sas-token,Terraform module for Azure Storage SAS Token access
@@ -9136,7 +9140,6 @@ test-module,davewongillies,1335,test_repo,https://github.com/davewongillies/terr
 test-module,drewmullen,12654,awscc,https://github.com/drewmullen/terraform-awscc-test-module,
 test-module,jampp-preview,14303,aws,https://github.com/jampp-preview/terraform-aws-test-module,
 test-module,weakpixel,13041,tfcli,https://github.com/weakpixel/terraform-tfcli-test-module,
-test-network,ventx,15105,aws,https://github.com/ventx/terraform-aws-test-network,Test Playground
 test-runner,toluna-terraform,12831,unit,https://github.com/toluna-terraform/terraform-unit-test-runner,
 test-user-terraform-test-simple,sai4214,9080,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple,
 test-user-terraform-test-simple1,sai4214,9084,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple1,
@@ -9862,6 +9865,7 @@ vpc,terraform-aws-modules,23,aws,https://github.com/terraform-aws-modules/terraf
 vpc,terraform-do-modules,9863,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-vpc," VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses"
 vpc,terraform-ibm-modules,8087,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpc,Terraform modules to create and work with IBM Cloud VPC resources
 vpc,terraform-ksyun-modules,10889,ksyun,https://github.com/terraform-ksyun-modules/terraform-ksyun-vpc,"Kingsoft Cloud VPC, Subnet Terraform Module"
+vpc,terraform-ncloud-modules,15110,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-vpc,Terraform module which creates VPC resources on Naver Cloud Platform
 vpc,terraform-opentelekomcloud-modules,8439,opentelekomcloud,https://github.com/terraform-opentelekomcloud-modules/terraform-opentelekomcloud-vpc,OpenTelekomCloud VPC Terraform module
 vpc,terraform-tencentcloud-modules,3858,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-vpc,TencentCloud VPC Module for Terraform
 vpc,thunderbird86,12577,aws,https://github.com/thunderbird86/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
