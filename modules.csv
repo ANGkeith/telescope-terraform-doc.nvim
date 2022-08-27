@@ -159,6 +159,7 @@ acm-certificate,dod-iac,6624,aws,https://github.com/dod-iac/terraform-aws-acm-ce
 acm-certificate,eric-gonzales,870,aws,https://github.com/eric-gonzales/terraform-aws-acm-certificate,Terraform module that allows users to query for AWS Certificate Manager (ACM) managed certificates by domain name
 acm-certificate,figurate,4980,aws,https://github.com/figurate/terraform-aws-acm-certificate,Management of ACM certificates
 acm-certificate,infrablocks,3624,aws,https://github.com/infrablocks/terraform-aws-acm-certificate,A Terraform module to create and DNS validate an ACM certificate.
+acm-certificate,ksatirli,15176,aws,https://github.com/ksatirli/terraform-aws-acm-certificate,Terraform Module for managing AWS ACM Certificates
 acm-certificate,manicminer,1130,aws,https://github.com/manicminer/terraform-aws-acm-certificate,Terraform module to create and validate AWS ACM certificates with DNS validation via Route53
 acm-certificate,notespacejp,12651,aws,https://github.com/notespacejp/terraform-aws-acm-certificate,moodules that acm can easily create
 acm-certificate,operatehappy,4147,aws,https://github.com/operatehappy/terraform-aws-acm-certificate,Terraform Module for managing AWS ACM Certificates
@@ -285,6 +286,7 @@ aks,bootlabstech,15151,azure,https://github.com/bootlabstech/terraform-azure-aks
 aks,castai,13599,castai,https://github.com/castai/terraform-castai-aks,
 aks,claranet,5409,azurerm,https://github.com/claranet/terraform-azurerm-aks,Terraform module composition (feature) for Azure Kubernetes Service
 aks,crayon,8262,azurerm,https://github.com/crayon/terraform-azurerm-aks,Module to help set up an Azure Kubernetes Service cluster.
+aks,dasmeta,15170,azure,https://github.com/dasmeta/terraform-azure-aks,
 aks,edalferes,4726,azure,https://github.com/edalferes/terraform-azure-aks,Terraform module to deploy an aks cluster at azure
 aks,farrukh90,5997,azure,https://github.com/farrukh90/terraform-azure-aks,
 aks,geekbass,5907,azurerm,https://github.com/geekbass/terraform-azurerm-aks,Azure AKS Terraform Module (Kubing-the-Netes) 
@@ -1783,7 +1785,7 @@ cloud-function_pubsub_to_bq,AckeeCZ,10705,gcp,https://github.com/AckeeCZ/terrafo
 cloud-infrastructure-automation,cloudposse,6647,tfe,https://github.com/cloudposse/terraform-tfe-cloud-infrastructure-automation,Terraform Enterprise/Cloud Infrastructure Automation
 cloud-infrastructure-automation,cloudposse,7046,spacelift,https://github.com/cloudposse/terraform-spacelift-cloud-infrastructure-automation,Terraform module to provision Spacelift resources for cloud infrastructure automation
 cloud-init-vm,sdhibit,7189,proxmox,https://github.com/sdhibit/terraform-proxmox-cloud-init-vm,Terraform module that creates a cloud-init enabled VM in Proxmox.
-cloud-monitoring,cloud-native-toolkit,12769,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-monitoring,Terraform module to provision a SysDig service in IBM Cloud and bind it into a cluster
+cloud-monitoring,cloud-native-toolkit,12769,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-monitoring,Terraform module to provision an IBM Cloud Monitoring instance in an IBM Cloud account
 cloud-monitoring-bind,cloud-native-toolkit,12839,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-monitoring-bind,Module to bind an existing IBM Cloud Monitoring instance to an existing kubernetes cluster
 cloud-mysql,garbetjie,6130,google,https://github.com/garbetjie/terraform-google-cloud-mysql,Terraform module used to easily create a Google Cloud MySQL instance.
 cloud-nat,terraform-google-modules,2418,google,https://github.com/terraform-google-modules/terraform-google-cloud-nat,This module handles opinionated Google Cloud Platform Cloud NAT creation and configuration.
@@ -1940,6 +1942,7 @@ cloudfront-s3-website-lambda-edge,twstewart42,3700,aws,https://github.com/twstew
 cloudfront-security-headers,Lupus-Metallum,8437,aws,https://github.com/Lupus-Metallum/terraform-aws-cloudfront-security-headers,Terraform module to create a Lambda@Edge function to add best practice security headers and support HSTS preload requirements.
 cloudfront-sg-updater,coresolutions-ltd,6269,aws,https://github.com/coresolutions-ltd/terraform-aws-cloudfront-sg-updater,A Terraform module to automatically update Security Group ingress rules with the latest public Cloudfront IP ranges.
 cloudfront-ssl,lesleh,13277,s3,https://github.com/lesleh/terraform-s3-cloudfront-ssl,
+cloudfront-stack,ersanyamarya,15174,aws,https://github.com/ersanyamarya/terraform-aws-cloudfront-stack,
 cloudfront-viewer-request-lambda,daringway,6570,aws,https://github.com/daringway/terraform-aws-cloudfront-viewer-request-lambda,
 cloudfront-viewer-request-lambda,wderezin,11590,aws,https://github.com/wderezin/terraform-aws-cloudfront-viewer-request-lambda,
 cloudfront-waf,dod-iac,4649,aws,https://github.com/dod-iac/terraform-aws-cloudfront-waf,WAF for use with CloudFront
@@ -3378,6 +3381,7 @@ ecs-ocean-launchspec,stevenfeltner,9145,spotinst,https://github.com/stevenfeltne
 ecs-pipeline,ispec-inc,3364,aws,https://github.com/ispec-inc/terraform-aws-ecs-pipeline,
 ecs-pipeline,murawakimitsuhiro,2167,aws,https://github.com/murawakimitsuhiro/terraform-aws-ecs-pipeline,
 ecs-private-ethereum-blockchain,SCB-TechX-Saber-Labs,10219,aws,https://github.com/SCB-TechX-Saber-Labs/terraform-aws-ecs-private-ethereum-blockchain,A Terraform module to setup a private Ethereum network on Amazon ECS
+ecs-private-ethereum-blockchain,myNILpay-MNP,15175,aws,https://github.com/myNILpay-MNP/terraform-aws-ecs-private-ethereum-blockchain,A Terraform module to setup a private Ethereum network on Amazon ECS
 ecs-queue-backlog-autoscaling,dailymuse,2594,aws,https://github.com/dailymuse/terraform-aws-ecs-queue-backlog-autoscaling,Setup resources (sans roles) necessary to scale a service via a queue backlog measurement
 ecs-rds,terraform-alicloud-modules,10101,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-rds,Terraform module which creates ECS&RDS instance on Alibaba Cloud.
 ecs-rds-redis,terraform-alicloud-modules,10128,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-rds-redis,
@@ -6742,7 +6746,7 @@ personal-org,george-richardson,12519,aws,https://github.com/george-richardson/te
 personas-deployment,fmunozmiranda,14992,ciscoise,https://github.com/fmunozmiranda/terraform-ciscoise-personas-deployment,
 pet,BrynardSecurity-terraform,12997,random,https://github.com/BrynardSecurity-terraform/terraform-random-pet,
 pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,Example Terraform Module Repo
-petstore,dsa0x,14115,aws,https://github.com/dsa0x/terraform-aws-petstore,
+petstore,dsa0x,15172,blueprint,https://github.com/dsa0x/terraform-blueprint-petstore,testing outputs
 petstore,scottwinkler,4023,aws,https://github.com/scottwinkler/terraform-aws-petstore,
 petstore,terraform-in-action,7228,aws,https://github.com/terraform-in-action/terraform-aws-petstore,
 pgsql-dbs,EduardGol,15145,azure,https://github.com/EduardGol/terraform-azure-pgsql-dbs,This registry contain postgresql flexible server module & flexible database
@@ -6817,6 +6821,7 @@ port-channel-member-policy,netascode,10245,aci,https://github.com/netascode/terr
 port-channel-policy,netascode,10247,aci,https://github.com/netascode/terraform-aci-port-channel-policy,Terraform Cisco ACI Port Channel Policy Module
 port-tracking,netascode,10249,aci,https://github.com/netascode/terraform-aci-port-tracking,Terraform Cisco ACI Port Tracking Module
 portainer,jhole89,4949,kubernetes,https://github.com/jhole89/terraform-kubernetes-portainer,Terraform module for running portainer on Kubernetes
+portworx-addon,portworx,15169,eksblueprints,https://github.com/portworx/terraform-eksblueprints-portworx-addon,Github repo for Portworx EKS blueprint addon module and sample templates
 portworx-instance,portworx,1024,portworx,https://github.com/portworx/terraform-portworx-portworx-instance,Terraform module for deploying Portworx persistent data fabric for containers
 postbuild-config,mjmenger,8710,bigip,https://github.com/mjmenger/terraform-bigip-postbuild-config,
 postfix,programmfabrik,14965,kubernetes,https://github.com/programmfabrik/terraform-kubernetes-postfix,A terraform module to run postfix in Kubernetes.
@@ -6845,6 +6850,7 @@ postgresql,rhythmictech,3900,azurerm,https://github.com/rhythmictech/terraform-a
 postgresql,tf-cloud-modules,14967,aiven,https://github.com/tf-cloud-modules/terraform-aiven-postgresql,Aiven PostgreSQL Terraform module
 postgresql,totogtr,10608,azurerm,https://github.com/totogtr/terraform-azurerm-postgresql,Azure Database for PostgreSQL Module
 postgresql-db,kumarvna,9167,azurerm,https://github.com/kumarvna/terraform-azurerm-postgresql-db,"Terraform Module to deploy a PostgreSQL Server, PostgreSQL Database other optional resources."
+postgresql-for-hasura,crismali,15177,aws,https://github.com/crismali/terraform-aws-postgresql-for-hasura,Want to set up a serverless aurora postgresql backend for Hasura? this'll help
 postgresql-rds,azavea,169,aws,https://github.com/azavea/terraform-aws-postgresql-rds,A Terraform module to create an Amazon Web Services (AWS) PostgreSQL Relational Database Server (RDS).
 postgresql-read-replica,booyaa,3333,azurerm,https://github.com/booyaa/terraform-azurerm-postgresql-read-replica,A module for creating Azure Database for PostgreSQL Read Replicas
 postgresql-server,spy86,13375,azure,https://github.com/spy86/terraform-azure-postgresql-server,Terraform Module for Azure Postgresql Server
@@ -7598,6 +7604,7 @@ route53-record,clouddrove,3663,aws,https://github.com/clouddrove/terraform-aws-r
 route53-record-mapping,OT-CLOUD-KIT,5001,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping,
 route53-recordsets,terraformdns,1175,aws,https://github.com/terraformdns/terraform-aws-route53-recordsets,Terraform module for creating DNS recordsets in a Route53 zone
 route53-recovery-controller,aws-ia,11711,aws,https://github.com/aws-ia/terraform-aws-route53-recovery-controller,Terraform Module to deploy Route53 Application Recovery Controller components
+route53-resolver-dns-firewall,pjaudiomv,15168,aws,https://github.com/pjaudiomv/terraform-aws-route53-resolver-dns-firewall,Terraform module to provision AWS DNS firewall resources.
 route53-resolver-endpoint,mhmdio,8356,aws,https://github.com/mhmdio/terraform-aws-route53-resolver-endpoint,Provides a Route 53 Resolver endpoint Terraform module.
 route53-resolver-rule,rhythmictech,3132,aws,https://github.com/rhythmictech/terraform-aws-route53-resolver-rule,Create and manage a Route 53 Resolver Resolver Rule.
 route53-resolver-rules,lgallard,4263,aws,https://github.com/lgallard/terraform-aws-route53-resolver-rules,Terraform module to create AWS Route53 Resolver Rules.
@@ -8205,6 +8212,7 @@ server-profile,peterchristoph,10893,intersight,https://github.com/peterchristoph
 server-profile,terraform-cisco-modules,8336,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-server-profile,Terraform module to configure Intersight Server Profiles
 serverless,FormidableLabs,2116,aws,https://github.com/FormidableLabs/terraform-aws-serverless,"Infrastructure support for Serverless framework apps, done the right way"
 serverless,ardeshir,3528,azure,https://github.com/ardeshir/terraform-azure-serverless,terraform azure serverless 
+serverless,ganexcloud,15173,aws,https://github.com/ganexcloud/terraform-aws-serverless,
 serverless,jessiehernandez,9072,aws,https://github.com/jessiehernandez/terraform-aws-serverless,Serverless Framework IAM role creator to enable highly-secure Serverless deployments.
 serverless,salte-io,767,aws,https://github.com/salte-io/terraform-aws-serverless,Terraform Module for simplifying the deployment of Lambda Functions to API Gateway.
 serverless,scilonax,2667,aws,https://github.com/scilonax/terraform-aws-serverless,"Serverless stack with AWS lambda, Dynamodb, Cognito and so on."
@@ -9366,7 +9374,7 @@ user-group-management,strg-at,8725,gsuite,https://github.com/strg-at/terraform-g
 user-management,dod-iac,7606,aws,https://github.com/dod-iac/terraform-aws-user-management,"Configures IAM users, groups and roles in three groups: Admin, Basic, and Alumni"
 user-role,QuiNovas,1477,aws,https://github.com/QuiNovas/terraform-aws-user-role,Creates an IAM role that may be assumed by a user that is using MFA
 user-setup,damacus,4759,aws,https://github.com/damacus/terraform-aws-user-setup,Terraform AWS module for adding optionally enabled MFA
-user-ssh-keys,pjaudiomv,15166,github,https://github.com/pjaudiomv/terraform-github-user-ssh-keys,Terraform module that retrieves a list of GitHub users ssh keys
+user-ssh-keys,pjaudiomv,15167,github,https://github.com/pjaudiomv/terraform-github-user-ssh-keys,Terraform module that retrieves a list of GitHub users ssh keys
 usergen,walked,543,aws,https://github.com/walked/terraform-aws-usergen,Terraform module for generation of AWS user accounts with IAM policy attachments
 users,DWSR,501,pagerduty,https://github.com/DWSR/terraform-pagerduty-users,A TF module that allows the declaration of all PagerDuty users. Does not support teams
 users,claranet,14202,mysql,https://github.com/claranet/terraform-mysql-users,Terraform module for MySQL users management (and their rights) on an existing Database
