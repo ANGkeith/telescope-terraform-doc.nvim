@@ -43,6 +43,7 @@ GKE,omiradil,9052,google,https://github.com/omiradil/terraform-google-GKE,
 Get-IpAvailablesAddressesSubnet,ados1991,3615,azure,https://github.com/ados1991/terraform-azure-Get-IpAvailablesAddressesSubnet,
 Harpocrates,yopaproperty,875,AWS,https://github.com/yopaproperty/terraform-AWS-Harpocrates,Terraform module to easily deploy Chamber.
 Himstorage,him-007,10161,azure,https://github.com/him-007/terraform-azure-Himstorage,
+Jenkins_Server,waqasahmed1992,15181,aws,https://github.com/waqasahmed1992/terraform-aws-Jenkins_Server,
 KTHW,DTherHtun,4203,gcp,https://github.com/DTherHtun/terraform-gcp-KTHW,Kubernetes Cluster On GCP with Terraform
 L7LB,pouya-racker,1389,pouya,https://github.com/pouya-racker/terraform-pouya-L7LB,
 Lambda-HTTP-API,HarishKM7,8652,AWS,https://github.com/HarishKM7/terraform-AWS-Lambda-HTTP-API,Terraform module to deploy an HTTP API in AWS API Gateway backed by one or more Lambda functions.
@@ -2255,8 +2256,6 @@ compute-network,JAYAKUMAR-hub,11001,google,https://github.com/JAYAKUMAR-hub/terr
 compute-region-health-check,pratik141,3886,google,https://github.com/pratik141/terraform-google-compute-region-health-check,Health Checks
 compute-vm,iqz-systems,12323,google,https://github.com/iqz-systems/terraform-google-compute-vm,Terraform module to create a Google Compute Engine Engine with meaningful defaults.
 compute-with-public-ip,anvibo,2254,google,https://github.com/anvibo/terraform-google-compute-with-public-ip,
-compute_http_health_check,bootlabstech,15163,google,https://github.com/bootlabstech/terraform-google-compute_http_health_check,
-compute_https_health_check,bootlabstech,15162,google,https://github.com/bootlabstech/terraform-google-compute_https_health_check,
 compute_instance_group,bootlabstech,15161,google,https://github.com/bootlabstech/terraform-google-compute_instance_group,
 computegroup,Azure,40,azurerm,https://github.com/Azure/terraform-azurerm-computegroup,Terraform Azure RM Compute Group Module
 computesingle,oraziobattaglia,6635,azurerm,https://github.com/oraziobattaglia/terraform-azurerm-computesingle,"This Terraform module deploys 1 Virtual Machines in Azure, ideas from official module."
@@ -4522,6 +4521,7 @@ helm,cloudopsworks,14509,aws,https://github.com/cloudopsworks/terraform-aws-helm
 helm,gruntwork-io,2432,kubernetes,https://github.com/gruntwork-io/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
 helm,ruaan,6519,kubernetes,https://github.com/ruaan/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
 helm-chart,dansible,2289,null,https://github.com/dansible/terraform-null-helm-chart,Terraform module to install any Helm chart onto a K8s cluster
+helm-crds,rpadovani,15180,kubectl,https://github.com/rpadovani/terraform-kubectl-helm-crds,Manage Helm CRDs with Terrarom
 helm-grafana,Adaptavist,12479,module,https://github.com/Adaptavist/terraform-module-helm-grafana,
 helm-grafana-helm,Adaptavist,12478,module,https://github.com/Adaptavist/terraform-module-helm-grafana-helm,
 helm-install,dansible,2285,null,https://github.com/dansible/terraform-null-helm-install,Terraform module to install Helm on a K8s cluster
@@ -6606,6 +6606,7 @@ open-faas-nomad,nicholasjackson,421,aws,https://github.com/nicholasjackson/terra
 open-vpc,recarnot,5673,aws,https://github.com/recarnot/terraform-aws-open-vpc,Basic AWS VPC Module for Terraform
 opencloudcx,OpenCloudCX,7409,aws,https://github.com/OpenCloudCX/terraform-aws-opencloudcx,
 openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,OpenID module for apps on Kubernetes.
+openid-config-crawler,beranek1,15184,aws,https://github.com/beranek1/terraform-aws-openid-config-crawler,Automatically copies openid configurations to cloud storage.
 openraven-accountconnect,abanerjee-svmk,9873,aws,https://github.com/abanerjee-svmk/terraform-aws-openraven-accountconnect,Terraform module to deploy resources in AWS account required by OpenRaven
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
 opensearch,idealo,11248,aws,https://github.com/idealo/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
@@ -6827,6 +6828,7 @@ postbuild-config,mjmenger,8710,bigip,https://github.com/mjmenger/terraform-bigip
 postfix,programmfabrik,14965,kubernetes,https://github.com/programmfabrik/terraform-kubernetes-postfix,A terraform module to run postfix in Kubernetes.
 postgre-users,farrukh90,7185,rds,https://github.com/farrukh90/terraform-rds-postgre-users,
 postgre-users,nargiza777,7059,rds,https://github.com/nargiza777/terraform-rds-postgre-users,
+postgres,dtoch56,15183,yandex,https://github.com/dtoch56/terraform-yandex-postgres,Terraform Module for Yandex.Cloud Managed Service for PostgreSQL
 postgres,linkbynet,8476,datadog,https://github.com/linkbynet/terraform-datadog-postgres,Terraform module for deploy postgres monitoring on datadog
 postgres,o0th,9560,kubernetes,https://github.com/o0th/terraform-kubernetes-postgres,
 postgres-loader-kinesis-ec2,snowplow-devops,9352,aws,https://github.com/snowplow-devops/terraform-aws-postgres-loader-kinesis-ec2,
@@ -8745,7 +8747,7 @@ stack-pachyderm-minio,combinator-ml,8466,k8s,https://github.com/combinator-ml/te
 stackdriver-logs-exclusion,kiwicom,3320,google,https://github.com/kiwicom/terraform-google-stackdriver-logs-exclusion,
 stackdriver-module,DrFaust92,8492,grafana,https://github.com/DrFaust92/terraform-grafana-stackdriver-module,Terraform module which creates a Grafana Stackdriver data source with a minimal GCP service account.
 stackdriver-uptime,DNXLabs,5754,google,https://github.com/DNXLabs/terraform-google-stackdriver-uptime,
-stackx-network,ventx,15112,aws,https://github.com/ventx/terraform-aws-stackx-network,Terraform networking module for AWS -- stackx
+stackx-network,ventx,15112,aws,https://github.com/ventx/terraform-aws-stackx-network,stackx - Terraform - AWS - Network
 stage-config-files,scaffoldly,9473,github,https://github.com/scaffoldly/terraform-github-stage-config-files,Write stage config files to a GitHub repository
 stage-dns,scaffoldly,9360,aws,https://github.com/scaffoldly/terraform-aws-stage-dns,"For a given stage and domain parameters, create base DNS resources."
 stage-email,scaffoldly,9363,aws,https://github.com/scaffoldly/terraform-aws-stage-email,
@@ -8848,6 +8850,7 @@ staticwebsitepublic,avinashumbardand01,11064,azurerm,https://github.com/avinashu
 staticwebsitepublic,bhadra-123,10393,azurerm,https://github.com/bhadra-123/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,bhagwatkhushwaha,11745,azurerm,https://github.com/bhagwatkhushwaha/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,brucezwhub,10198,azurerm,https://github.com/brucezwhub/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,ch798543,15185,azurerm,https://github.com/ch798543/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,crossmaster86,12028,azurerm,https://github.com/crossmaster86/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,devops-phani,14772,azurerm,https://github.com/devops-phani/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,gnu699,12442,azurerm,https://github.com/gnu699/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
