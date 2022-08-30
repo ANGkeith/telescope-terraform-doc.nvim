@@ -735,6 +735,7 @@ argocd,runoncloud,5315,kubernetes,https://github.com/runoncloud/terraform-kubern
 argocd-application,catalystsquad,13929,kubernetes,https://github.com/catalystsquad/terraform-kubernetes-argocd-application,Terraform module that provisions an ArgoCD Application in Kubernetes
 argocd-application,project-octal,10996,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd-application,A Terraform module for deploying ArgoCD application manifests.
 argocd-bootstrap,kube-champ,9350,k8s,https://github.com/kube-champ/terraform-k8s-argocd-bootstrap,
+argocd-instance,nilic,15201,helm,https://github.com/nilic/terraform-helm-argocd-instance,Terraform module for provisioning (and optionally bootstrapping) ArgoCD on Kubernetes or OpenShift via Helm
 argocd-project,project-octal,10994,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd-project,A Terraform module for creating ArgoCD Project manifests.
 arms,terraform-alicloud-modules,12691,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-arms,Terraform Module for creating ARMS alert rules on Alibaba Cloud.
 arn,bendrucker,5158,aws,https://github.com/bendrucker/terraform-aws-arn,Terraform module that accepts the components of an AWS ARN and outputs the string form
@@ -2465,6 +2466,7 @@ custom-module,houssem-tebai,7572,openstack,https://github.com/houssem-tebai/terr
 custom-role,AckeeCZ,7626,gcp,https://github.com/AckeeCZ/terraform-gcp-custom-role,Base IAM role module to create GCP IAM Role from other roles and adhoc permissions
 custom-role,andrewCluey,7909,azurerm,https://github.com/andrewCluey/terraform-azurerm-custom-role,Create custom roles for Azure AD
 custom-role-definitions,Pwd9000-ML,12133,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-custom-role-definitions,Public Terraform Registry module to deploy custom role definitions for AZURE
+custom-vpc,gfortetsanakis,15195,aws,https://github.com/gfortetsanakis/terraform-aws-custom-vpc,
 custom-vpc,quangdvn,14283,aws,https://github.com/quangdvn/terraform-aws-custom-vpc,
 customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module which creates Customer Gateway on AWS 🇺🇦
 daemonset,terraform-iaac,8076,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-daemonset,
@@ -4582,6 +4584,7 @@ iam,OT-CLOUD-KIT,14702,gcp,https://github.com/OT-CLOUD-KIT/terraform-gcp-iam,
 iam,Selleo,11479,aws,https://github.com/Selleo/terraform-aws-iam,Terraform IAM policies for common tasks
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,cytopia,7272,aws,https://github.com/cytopia/terraform-aws-iam,This Terraform module manages AWS IAM to its full extend.
+iam,d7oss,15203,aws,https://github.com/d7oss/terraform-aws-iam,
 iam,davidcheung,5674,aws,https://github.com/davidcheung/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,dcos-terraform,1366,aws,https://github.com/dcos-terraform/terraform-aws-iam,creates policies and roles to be used with DC/OS
 iam,hadenlabs,7637,github,https://github.com/hadenlabs/terraform-github-iam,github iam for terraform
@@ -5007,7 +5010,6 @@ k3s,equinix,10213,metal,https://github.com/equinix/terraform-metal-k3s,Manage K3
 k3s,fvumbaca,11410,proxmox,https://github.com/fvumbaca/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,iamalirezaj,7266,module,https://github.com/iamalirezaj/terraform-module-k3s,k3s terraform module
 k3s,innatical,9759,inncloud,https://github.com/innatical/terraform-inncloud-k3s,
-k3s,oobenland,12253,proxmox,https://github.com/oobenland/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,packet-labs,5387,packet,https://github.com/packet-labs/terraform-packet-k3s,Manage K3s (k3s.io) region clusters on Packet
 k3s,ulm0,5371,civo,https://github.com/ulm0/terraform-civo-k3s,
 k3s,xunleii,3424,module,https://github.com/xunleii/terraform-module-k3s,Terraform module to install K3S on all given instances
@@ -5059,6 +5061,7 @@ kafka,darzanebor,14842,yandex,https://github.com/darzanebor/terraform-yandex-kaf
 kafka,kabisa,13632,datadog,https://github.com/kabisa/terraform-datadog-kafka,
 kafka,philips-labs,6011,hsdp,https://github.com/philips-labs/terraform-hsdp-kafka,Terraform Kafka module for HSDP Container Host
 kafka,skydome,3053,kubernetes,https://github.com/skydome/terraform-kubernetes-kafka,Terraform module for deploying Kafka on Kubernetes
+kafka,tf-cloud-modules,15194,aiven,https://github.com/tf-cloud-modules/terraform-aiven-kafka,Aiven Kafka Terraform module
 kafka-cloudmonitor,terraform-alicloud-modules,10200,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-kafka-cloudmonitor,
 kafka-cluster,phiroict,3452,aws,https://github.com/phiroict/terraform-aws-kafka-cluster,Module for terraform
 kafka-service,philips-labs,12978,hsdp,https://github.com/philips-labs/terraform-hsdp-kafka-service,"Provisions Kafka on HSP including a Prometheus metrics endpoint, discoverable by variant"
@@ -5197,7 +5200,7 @@ kms,Cloud-42,3601,aws,https://github.com/Cloud-42/terraform-aws-kms,Create a KMS
 kms,DevopsCare,5602,aws,https://github.com/DevopsCare/terraform-aws-kms,
 kms,JamesWoolfenden,4298,aws,https://github.com/JamesWoolfenden/terraform-aws-kms,Get your KMS keys here
 kms,SPHTech-Platform,13051,aws,https://github.com/SPHTech-Platform/terraform-aws-kms,
-kms,adamwshero,11996,aws,https://github.com/adamwshero/terraform-aws-kms,Terraform & Terragrunt friendly module to create an Amazon Customer Managed Key (CMK) for use with Mozilla SOPS.
+kms,adamwshero,11996,aws,https://github.com/adamwshero/terraform-aws-kms,Terraform & Terragrunt friendly module to create an Amazon Customer Managed Key (CMK) for use with Mozilla SOPS. 🇺🇦
 kms,basisai,7302,aws,https://github.com/basisai/terraform-aws-kms,Utility to create KMS keys on AWS with IAM policies
 kms,binxio,6861,google,https://github.com/binxio/terraform-google-kms,Generic google KMS module for Terraform 
 kms,boldlink,13914,aws,https://github.com/boldlink/terraform-aws-kms,Terraform registry repository for KMS module
@@ -6278,6 +6281,7 @@ nat-gateway-traffic-alert,hazelops,7342,aws,https://github.com/hazelops/terrafor
 nat-instance,System-aan-den-Rijn,15013,oci,https://github.com/System-aan-den-Rijn/terraform-oci-nat-instance,"Terraform module that deploys a Compute Instance that can be used as a Nat Gateway in the Oracle Cloud, for example, when you're using the Always Free Resources which do not include the standard Nat Gateway."
 nat-instance,dacut,10584,aws,https://github.com/dacut/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance,garbetjie,6076,google,https://github.com/garbetjie/terraform-google-nat-instance,Terraform module for creating NAT instances in GCP.
+nat-instance,gfortetsanakis,15200,aws,https://github.com/gfortetsanakis/terraform-aws-nat-instance,
 nat-instance,int128,3097,aws,https://github.com/int128/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance-setup,bennesp,8914,aws,https://github.com/bennesp/terraform-aws-nat-instance-setup,Module to create a VPC with two subnets (private and public) and a NAT instance
 nat-instances-ha,vainkop,6922,aws,https://github.com/vainkop/terraform-aws-nat-instances-ha,Terraform module to provision HA NAT Instances on AWS EC2
@@ -6633,6 +6637,7 @@ openvpn,hadenlabs,8620,aws,https://github.com/hadenlabs/terraform-aws-openvpn,te
 openvpn,mericozkayagan,13429,aws,https://github.com/mericozkayagan/terraform-aws-openvpn,terraform module for provider aws to install openvpn via ansible
 openvpn,zhenwenc,2241,aws,https://github.com/zhenwenc/terraform-aws-openvpn,Terraform module which creates OpenVPN resources on AWS
 openvpn-ephemeral,paulmarsicloud,9809,aws,https://github.com/paulmarsicloud/terraform-aws-openvpn-ephemeral,"A module designed for launching an ephemeral, short-lived openvpn instance."
+openvpn-server,gfortetsanakis,15198,aws,https://github.com/gfortetsanakis/terraform-aws-openvpn-server,
 openwisp,atb00ker,4078,gcp,https://github.com/atb00ker/terraform-gcp-openwisp,Terraform files for deploying docker-openwisp infrastructure in Google Cloud.
 openwisp,atb00ker,4085,kubernetes,https://github.com/atb00ker/terraform-kubernetes-openwisp," Terraform files for deploying docker-openwisp in kubernetes."
 operating-system-join-active-directory,mnanchev,5518,aws,https://github.com/mnanchev/terraform-aws-operating-system-join-active-directory,
@@ -7660,6 +7665,7 @@ s3,confluentinc,682,state,https://github.com/confluentinc/terraform-state-s3,Ter
 s3,devops4mecode,6760,aws,https://github.com/devops4mecode/terraform-aws-s3,
 s3,javilac,720,aws,https://github.com/javilac/terraform-aws-s3,"Terraform module, provides s3 resources."
 s3,klowdy,3860,aws,https://github.com/klowdy/terraform-aws-s3,Terraform module for managing S3 buckets
+s3,mayank0202,15199,aws,https://github.com/mayank0202/terraform-aws-s3,aws-s3 module
 s3,oozou,15127,aws,https://github.com/oozou/terraform-aws-s3,Terraform Component to create S3 bucket
 s3,opsmag,3267,aws,https://github.com/opsmag/terraform-aws-s3,Terraform module for AWS S3
 s3,phyominhtun1990,6152,aws,https://github.com/phyominhtun1990/terraform-aws-s3,Terraform AWS S3 Module
@@ -7768,6 +7774,7 @@ s3-cloudfront-module,taragurung,4716,aws,https://github.com/taragurung/terraform
 s3-cloudfront-page,udondan,3497,aws,https://github.com/udondan/terraform-aws-s3-cloudfront-page,Terraform module for publishing a static page via AWS CloudFront.
 s3-cloudfront-redirect,riboseinc,2350,aws,https://github.com/riboseinc/terraform-aws-s3-cloudfront-redirect,"Terraform module for redirecting a root/apex site with CloudFront with an SSL certificate (e.g., from ACM)"
 s3-cloudfront-route53,7hoenix,3865,website,https://github.com/7hoenix/terraform-website-s3-cloudfront-route53,"Terraform scripts to setup an S3 based static website, with a CloudFront distribution and the required Route53 entries."
+s3-cloudfront-static-site,schm-dt,15196,aws,https://github.com/schm-dt/terraform-aws-s3-cloudfront-static-site,Terraform module for creating a static website with s3 + CloudFront.
 s3-cloudfront-static-website,InterweaveCloud,13356,aws,https://github.com/InterweaveCloud/terraform-aws-s3-cloudfront-static-website,Terraform Module for an Amazon Static Website using a private S3 bucket and CloudFront.
 s3-cloudfront-static-website,my-devops-way,13534,aws,https://github.com/my-devops-way/terraform-aws-s3-cloudfront-static-website,This module creates S3-Terraform configuration to deploy a basic static website in AWS.
 s3-cloudfront-website,riboseinc,1063,aws,https://github.com/riboseinc/terraform-aws-s3-cloudfront-website,"Terraform module for creating a static S3 website with CloudFront with an SSL certificate (e.g., from ACM)"
@@ -7866,6 +7873,7 @@ s3-website,JamesBelchamber,7955,aws,https://github.com/JamesBelchamber/terraform
 s3-website,MagnetarIT,4725,aws,https://github.com/MagnetarIT/terraform-aws-s3-website,Terraform Module for Creating S3 backed Websites and Route53 DNS
 s3-website,armorfret,2189,aws,https://github.com/armorfret/terraform-aws-s3-website,Terraform module for provisioning TLS-enabled S3-hosted static sites
 s3-website,cloudposse,193,aws,https://github.com/cloudposse/terraform-aws-s3-website,Terraform Module for Creating S3 backed Websites and Route53 DNS
+s3-website,phenixcoder,15193,aws,https://github.com/phenixcoder/terraform-aws-s3-website,Terraform module to build aws s3 website and cloudfront in the front 
 s3-website,thrashr888,1358,aws,https://github.com/thrashr888/terraform-aws-s3-website,Terraform module for publishing AWS S3 websites
 s3-with-replica,echomike80,10090,aws,https://github.com/echomike80/terraform-aws-s3-with-replica,
 s3-yum-repo,claranet,738,aws,https://github.com/claranet/terraform-aws-s3-yum-repo,Manages a YUM repository in an S3 bucket
