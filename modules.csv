@@ -728,6 +728,7 @@ argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kube
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
 argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.4.9) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
+argocd,devdynamicio,15210,kubernetes,https://github.com/devdynamicio/terraform-kubernetes-argocd,Terraform module to create Argo CD in Kubernetes 🇺🇦
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
 argocd,project-octal,10909,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd,Simplifies the deployment and management of ArgoCD on a Kubernetes cluster.
 argocd,projectkerberus,9043,kerberus,https://github.com/projectkerberus/terraform-kerberus-argocd,Terraform module which deploys ArgoCD on your Kubernetes cluster.
@@ -3657,6 +3658,7 @@ eks-cluster,SkyWoker777,9119,aws,https://github.com/SkyWoker777/terraform-aws-ek
 eks-cluster,castai,11518,castai,https://github.com/castai/terraform-castai-eks-cluster,CAST AI terraform module for connecting an EKS cluster
 eks-cluster,cloudposse,1603,aws,https://github.com/cloudposse/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
 eks-cluster,fmontezuma,2756,aws,https://github.com/fmontezuma/terraform-aws-eks-cluster,
+eks-cluster,gfortetsanakis,15209,aws,https://github.com/gfortetsanakis/terraform-aws-eks-cluster,
 eks-cluster,gulmira07,6918,aws,https://github.com/gulmira07/terraform-aws-eks-cluster,
 eks-cluster,lablabs,3611,aws,https://github.com/lablabs/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
 eks-cluster,polganesh,3751,aws,https://github.com/polganesh/terraform-aws-eks-cluster,This is Terraform module to provision managed K8s (Elastic Kubernetes Service) service  for AWS
@@ -4584,7 +4586,7 @@ iam,OT-CLOUD-KIT,14702,gcp,https://github.com/OT-CLOUD-KIT/terraform-gcp-iam,
 iam,Selleo,11479,aws,https://github.com/Selleo/terraform-aws-iam,Terraform IAM policies for common tasks
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,cytopia,7272,aws,https://github.com/cytopia/terraform-aws-iam,This Terraform module manages AWS IAM to its full extend.
-iam,d7oss,15203,aws,https://github.com/d7oss/terraform-aws-iam,
+iam,d7oss,15208,aws,https://github.com/d7oss/terraform-aws-iam,Make it easier to handle users and permissions in AWS.
 iam,davidcheung,5674,aws,https://github.com/davidcheung/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,dcos-terraform,1366,aws,https://github.com/dcos-terraform/terraform-aws-iam,creates policies and roles to be used with DC/OS
 iam,hadenlabs,7637,github,https://github.com/hadenlabs/terraform-github-iam,github iam for terraform
@@ -6909,6 +6911,7 @@ project,innovationnorway,4773,tfe,https://github.com/innovationnorway/terraform-
 project,kiwicom,4021,vault,https://github.com/kiwicom/terraform-vault-project,Vault resources for Gitlab project.
 project,mineiros-io,11750,google,https://github.com/mineiros-io/terraform-google-project,"A Terraform module to create and manage projects, the basis for creating, enabling, and using all Google Cloud services including managing APIs, enabling billing, adding and removing collaborators, and managing permissions on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/creating-managing-projects"
 project,mrlesmithjr,5330,gitlab,https://github.com/mrlesmithjr/terraform-gitlab-project,
+project,nilic,15212,gitlab,https://github.com/nilic/terraform-gitlab-project,Terraform module for GitLab project creation and configuration
 project,nlamirault,6587,github,https://github.com/nlamirault/terraform-github-project,Terraform module to manage Github projects
 project,pogosoftware,13249,digitalocean,https://github.com/pogosoftware/terraform-digitalocean-project,The terraform module for setup project on DigitalOcean cloud
 project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-project,Terraform Module for Digital Ocean projects
@@ -7309,6 +7312,7 @@ rdsproject,kikuli,13969,aws,https://github.com/kikuli/terraform-aws-rdsproject,
 rdsproject,kyial2992,13976,aws,https://github.com/kyial2992/terraform-aws-rdsproject,
 react,bitcot,11110,aws,https://github.com/bitcot/terraform-aws-react,
 reactpipeline,SunDevs,8198,aws,https://github.com/SunDevs/terraform-aws-reactpipeline,
+realms,samarkand-global,15204,keycloak,https://github.com/samarkand-global/terraform-keycloak-realms,A Terraform module to manage one or more Keycloak realms.
 realtime-asset-monitor,BrunoReboul,9704,google,https://github.com/BrunoReboul/terraform-google-realtime-asset-monitor,
 rebellis,gboie,6386,aws,https://github.com/gboie/terraform-aws-rebellis,
 recommenders,e-koma,11156,google,https://github.com/e-koma/terraform-google-recommenders,A Terraform module for detect GCP Recommender across the organization.
@@ -7538,8 +7542,8 @@ role-assignment,tomarv2,12428,azure,https://github.com/tomarv2/terraform-azure-r
 role-binding,mineiros-io,11357,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-role-binding,A Terraform module to create and manage role bindings for roles and cluster roles in Kubernetes https://kubernetes.io/docs/reference/access-authn-authz/rbac
 role-network,Smartbrood,560,aws,https://github.com/Smartbrood/terraform-aws-role-network,Terraform module/role (role means that module contains other modules) to create network related resources.
 role-policy,Smartbrood,562,aws,https://github.com/Smartbrood/terraform-aws-role-policy,Terraform module/role (role means that module contains other modules) to create some default policy resources.
-rookout-deployment,Rookout,14483,aws,https://github.com/Rookout/terraform-aws-rookout-deployment,A Terraform module for deployment of Rookout on-premise controller and datastore.
-rookout-deployment,Rookout,15187,azure,https://github.com/Rookout/terraform-azure-rookout-deployment,
+rookout-deployment,Rookout,14483,aws,https://github.com/Rookout/terraform-aws-rookout-deployment,A Terraform module for deployment of Rookout on-premise controller and datastore on AWS cloud.
+rookout-deployment,Rookout,15187,azure,https://github.com/Rookout/terraform-azure-rookout-deployment,A Terraform module for deployment of Rookout on-premise controller and datastore on Azure cloud.
 root-login-notifications,trussworks,3352,aws,https://github.com/trussworks/terraform-aws-root-login-notifications,Root Login Notifications
 root-records,jd4883,7269,digitalocean,https://github.com/jd4883/terraform-digitalocean-root-records,Small terraform module for creating root records for one or more domains (if instantiated in a loop) with DigitalOcean. 
 rosa-privatelink-vpc,rh-mobb,14011,aws,https://github.com/rh-mobb/terraform-aws-rosa-privatelink-vpc,This is the terraform module to provision a rosa VPC
@@ -7721,6 +7725,7 @@ s3-bucket,dod-iac,10186,aws,https://github.com/dod-iac/terraform-aws-s3-bucket,C
 s3-bucket,ebdmuir,12288,aws,https://github.com/ebdmuir/terraform-aws-s3-bucket,Terraform AWS provider 4.x compatible S3 Bucket module
 s3-bucket,eriktisme,7364,aws,https://github.com/eriktisme/terraform-aws-s3-bucket,Creates an S3 bucket.
 s3-bucket,figurate,5050,aws,https://github.com/figurate/terraform-aws-s3-bucket,S3 bucket creation with predefined templates.
+s3-bucket,gfortetsanakis,15207,aws,https://github.com/gfortetsanakis/terraform-aws-s3-bucket,
 s3-bucket,ghortnicto42,9448,aws,https://github.com/ghortnicto42/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,gpatino2,8714,aws,https://github.com/gpatino2/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,gulec2000,7419,aws,https://github.com/gulec2000/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
