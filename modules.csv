@@ -723,6 +723,7 @@ archive-python,JayDoubleu,2583,external,https://github.com/JayDoubleu/terraform-
 archiving-s3,kurron,733,aws,https://github.com/kurron/terraform-aws-archiving-s3,Terraform module that creates an S3 bucket that moves objects into Glacier after a period of time
 archlinux-workstation,coregen,4750,aws,https://github.com/coregen/terraform-aws-archlinux-workstation,
 arfa,Arfa7007,12277,aws,https://github.com/Arfa7007/terraform-aws-arfa,
+argo-cd,gfortetsanakis,15223,helm,https://github.com/gfortetsanakis/terraform-helm-argo-cd,
 argo-vault,Ioasys-org,14405,helm,https://github.com/Ioasys-org/terraform-helm-argo-vault,
 argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kubernetes-argocd,A terraform Module to deploy Argocd on Kubernetes
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
@@ -1246,6 +1247,7 @@ azure-sql-server,kabisa,14218,datadog,https://github.com/kabisa/terraform-datado
 azure-storage-sas,datarootsio,5851,module,https://github.com/datarootsio/terraform-module-azure-storage-sas,Terraform module for Azure Storage SAS tokens
 azure-transit,terraform-aviatrix-modules,5488,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-transit,This module deploys a VNET and an Aviatrix transit gateway.
 azure-transit-firenet,terraform-aviatrix-modules,5529,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-transit-firenet,"This module deploys a VNET, Aviatrix transit gateways and firewall instances."
+azure-virtual-desktop,decensas,15221,azurerm,https://github.com/decensas/terraform-azurerm-azure-virtual-desktop,Terraform module for deploying Azure Virtual Desktop.
 azure-virtual-machine,ravensorb,13645,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-virtual-machine,Terraform module for creating an Azure Virtual Machine (Windows or Linux)
 azure-virtual-machine-legacy,ravensorb,13878,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-virtual-machine-legacy,Terraform module for creating an Azure Virtual Machine (Windows or Linux) using the legacy azurerm_virtual_machine resource
 azure-vnet,alkiranet,11842,alkira,https://github.com/alkiranet/terraform-alkira-azure-vnet,This module makes it easy to provision an Azure VNet and connect it through Alkira
@@ -1619,6 +1621,7 @@ cert-manager,DeimosCloud,8408,kubernetes,https://github.com/DeimosCloud/terrafor
 cert-manager,aareet,7879,kubernetes,https://github.com/aareet/terraform-kubernetes-cert-manager,Terraform Module to install cert-manager into your Kubernetes cluster.
 cert-manager,basisai,7190,helm,https://github.com/basisai/terraform-helm-cert-manager,Terraform Cert-manager on Kubernetes using Helm
 cert-manager,cloud-native-toolkit,14553,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cert-manager,Module to provision IBM Cloud Certificate Manager
+cert-manager,gfortetsanakis,15219,helm,https://github.com/gfortetsanakis/terraform-helm-cert-manager,
 cert-manager,nlamirault,7664,google,https://github.com/nlamirault/terraform-google-cert-manager,Terraform module for Cert-Manager
 cert-manager,nlamirault,7685,aws,https://github.com/nlamirault/terraform-aws-cert-manager,Terraform module for Cert-Manager
 cert-manager,project-octal,10911,kubernetes,https://github.com/project-octal/terraform-kubernetes-cert-manager,Simplifies the deployment and management of Jetstacks cert-manager on a Kubernetes cluster.
@@ -2441,6 +2444,7 @@ csr-sdwan,equinix,8089,equinix,https://github.com/equinix/terraform-equinix-csr-
 csr1000v,equinix,8059,equinix,https://github.com/equinix/terraform-equinix-csr1000v,Terraform module for quick deployment of Cisco CSR1000V router on Equinix Platform
 csr1k,bayupw,12960,aws,https://github.com/bayupw/terraform-aws-csr1k,Terraform module to deploy CSR 1000v on AWS
 cstate-healthchecker,USSBA,5671,aws,https://github.com/USSBA/terraform-aws-cstate-healthchecker,"Uses R53, SNS and LAMBDAs to automatically create and resolve CSTATE issues."
+ctf-chal,KNOXDEV,15233,kubernetes,https://github.com/KNOXDEV/terraform-kubernetes-ctf-chal,WIP but functional terraform module to deploy jailed CTF challenges on k8s
 ctfd,1nval1dctf,4820,aws,https://github.com/1nval1dctf/terraform-aws-ctfd,Terraform module for the salable deployment of CTFd on AWS
 cts,dnsimple,13004,dnsimple,https://github.com/dnsimple/terraform-dnsimple-cts,DNSimple Consult-Terraform-Sync NIA integration to manage your DNS records.
 cts,hashicorp-dev-advocates,13920,boundary,https://github.com/hashicorp-dev-advocates/terraform-boundary-cts,"This module creates a Boundary host, host set, host catalog and target for each service registered in Consul."
@@ -2633,6 +2637,7 @@ demo,radeksimko,2695,aws,https://github.com/radeksimko/terraform-aws-demo,
 demo,usmc686,1409,mods,https://github.com/usmc686/terraform-mods-demo,
 demo,vishal-chanchal-accenture,12722,vishal,https://github.com/vishal-chanchal-accenture/terraform-vishal-demo,
 demo,xiaozhu36,5834,alicloud,https://github.com/xiaozhu36/terraform-alicloud-demo,
+demo-module,nirgeier,15220,codewizard,https://github.com/nirgeier/terraform-codewizard-demo-module,
 demo-module,skhaden,1406,aws,https://github.com/skhaden/terraform-aws-demo-module,Terraform Training
 demo-project,ShubhamTatvamasi,12294,aws,https://github.com/ShubhamTatvamasi/terraform-aws-demo-project,
 demo8,rohit-p-verma,13232,aws,https://github.com/rohit-p-verma/terraform-aws-demo8,
@@ -3971,6 +3976,7 @@ external-cloudrun-byo-domain,llcloudstudio,9827,google,https://github.com/llclou
 external-connectivity-policy,netascode,9804,aci,https://github.com/netascode/terraform-aci-external-connectivity-policy,Terraform Cisco ACI External Connectivity Policy Module
 external-dns,DTherHtun,5023,aws,https://github.com/DTherHtun/terraform-aws-external-dns,Terraform module which creates external-dns between kubernetes and AWS route53
 external-dns,DeimosCloud,8393,azure,https://github.com/DeimosCloud/terraform-azure-external-dns,
+external-dns,gfortetsanakis,15217,helm,https://github.com/gfortetsanakis/terraform-helm-external-dns,
 external-dns,nlamirault,7662,google,https://github.com/nlamirault/terraform-google-external-dns,Terraform module for External DNS
 external-dns,nlamirault,7672,aws,https://github.com/nlamirault/terraform-aws-external-dns,Terraform module for External DNS
 external-dns,terraform-iaac,7558,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-external-dns,
@@ -4808,6 +4814,7 @@ ingress,skydome,3056,kubernetes,https://github.com/skydome/terraform-kubernetes-
 ingress,terraform-iaac,8358,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-ingress,
 ingress-controller,mateothegreat,7390,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-ingress-controller,Kubernetes ingress controller via Terraform.
 ingress-nginx,essjayhch,2973,kubernetes,https://github.com/essjayhch/terraform-kubernetes-ingress-nginx,Terraform implementation of the Nginx Kubernetes Ingress controller
+ingress-nginx,gfortetsanakis,15218,helm,https://github.com/gfortetsanakis/terraform-helm-ingress-nginx,
 ingress-nginx,observeinc,13556,observe,https://github.com/observeinc/terraform-observe-ingress-nginx,NGINX ingress module
 ingress-nginx-controller,zioproto,2547,kubernetes,https://github.com/zioproto/terraform-kubernetes-ingress-nginx-controller,Terraform module to deploy the ingress nginx controller
 init-kubernetes,jd4883,12020,namespace,https://github.com/jd4883/terraform-namespace-init-kubernetes,Small Tanzu Kubernetes Mini Module to Spin up Namespaces with Permissions Granted to the vSphere Role
@@ -5012,6 +5019,7 @@ k3s,equinix,10213,metal,https://github.com/equinix/terraform-metal-k3s,Manage K3
 k3s,fvumbaca,11410,proxmox,https://github.com/fvumbaca/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,iamalirezaj,7266,module,https://github.com/iamalirezaj/terraform-module-k3s,k3s terraform module
 k3s,innatical,9759,inncloud,https://github.com/innatical/terraform-inncloud-k3s,
+k3s,oobenland,15232,proxmox,https://github.com/oobenland/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,packet-labs,5387,packet,https://github.com/packet-labs/terraform-packet-k3s,Manage K3s (k3s.io) region clusters on Packet
 k3s,ulm0,5371,civo,https://github.com/ulm0/terraform-civo-k3s,
 k3s,xunleii,3424,module,https://github.com/xunleii/terraform-module-k3s,Terraform module to install K3S on all given instances
@@ -5313,7 +5321,7 @@ kubernetes,coreos,106,azurerm,https://github.com/coreos/terraform-azurerm-kubern
 kubernetes,coreos,108,aws,https://github.com/coreos/terraform-aws-kubernetes,"Install a Kubernetes cluster the CoreOS Tectonic Way: HA, self-hosted, RBAC, etcd Operator, and more"
 kubernetes,devdynamicio,12890,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-kubernetes,Terraform module to create an Kubernetes cluster in DigitalOcean 🇺🇦
 kubernetes,dodevops,10083,azure,https://github.com/dodevops/terraform-azure-kubernetes,Highly opinionated management of Azure Kubernetes Services
-kubernetes,dtoch56,15056,yandex,https://github.com/dtoch56/terraform-yandex-kubernetes,A terraform module to create a managed Kubernetes cluster on Yandex Cloud.
+kubernetes,dtoch56,15227,yandex,https://github.com/dtoch56/terraform-yandex-kubernetes,A terraform module to create a managed Kubernetes cluster on Yandex Cloud.
 kubernetes,einyx,4292,scaleway,https://github.com/einyx/terraform-scaleway-kubernetes,
 kubernetes,elct9620,10948,proxmox,https://github.com/elct9620/terraform-proxmox-kubernetes,The terraform module for create Kuberentes cluster on ProxmoxVE
 kubernetes,high-cloud-team,1895,aws,https://github.com/high-cloud-team/terraform-aws-kubernetes,AWS Kubernetes Terraform is a module for terraform that you can implement on your terraform projects easily to install k8s resources into aws
@@ -5955,6 +5963,7 @@ mfa,HappyPathway,1647,aws,https://github.com/HappyPathway/terraform-aws-mfa,
 mfa,clouddrove,10980,aws,https://github.com/clouddrove/terraform-aws-mfa,A terraform module to enable MFA for AWS groups and users 
 mfa,janeuner,9757,aws,https://github.com/janeuner/terraform-aws-mfa,Enforces MFA on an AWS account
 mfa,trussworks,2797,aws,https://github.com/trussworks/terraform-aws-mfa,Enforces MFA on an AWS account
+mg,mohang6770,15228,vmware,https://github.com/mohang6770/terraform-vmware-mg,
 mg-hierarchysettings,matt-FFFFFF,13009,azapi,https://github.com/matt-FFFFFF/terraform-azapi-mg-hierarchysettings,Terraform module for creation and management of Azure management group hierarchy settings
 mgmtstorevar,tanzuformers,10520,vault,https://github.com/tanzuformers/terraform-vault-mgmtstorevar,
 microservice,Flaconi,2729,aws,https://github.com/Flaconi/terraform-aws-microservice,Boilerplate Terraform Module for creating resources for typical micro services.
@@ -6015,6 +6024,7 @@ module,jonbrouse,1060,sample,https://github.com/jonbrouse/terraform-sample-modul
 module,mattyait,3098,kong,https://github.com/mattyait/terraform-kong-module,kong api gateway module to create API definitions
 module,miguelhrocha,12448,example,https://github.com/miguelhrocha/terraform-example-module,Example Terraform Module Scaffolding
 module,murillozampieri,10631,docker,https://github.com/murillozampieri/terraform-docker-module,Module to create & maintain docker resources from terraform
+module,nirgeier,15224,my,https://github.com/nirgeier/terraform-my-module,
 module,nvibert,9497,nsxt,https://github.com/nvibert/terraform-nsxt-module,Sample module for a NSX-T configuration. 
 module,prbinfo,7559,example,https://github.com/prbinfo/terraform-example-module,Example Terraform Module Scaffolding
 module,sabikm9876,1405,vpc,https://github.com/sabikm9876/terraform-vpc-module,
@@ -7002,6 +7012,7 @@ publicip,dodevops,10539,azure,https://github.com/dodevops/terraform-azure-public
 publii-hosting,chris-qa-org,13611,aws,https://github.com/chris-qa-org/terraform-aws-publii-hosting,Terraform module to host a static site generated by Publii
 publish,cybojenix,3789,testing,https://github.com/cybojenix/terraform-testing-publish,"repo for testing publishing, diagnosing an issue for github api use"
 publisher-aws,netskopeoss,13921,netskope,https://github.com/netskopeoss/terraform-netskope-publisher-aws,
+publisher-gcp,netskopeoss,15230,netskope,https://github.com/netskopeoss/terraform-netskope-publisher-gcp,Terraform Module to Deploy Private Access Publishers in GCP
 publishrepo,applesoftsol,13060,azurerm,https://github.com/applesoftsol/terraform-azurerm-publishrepo,this is for terraform publish for vnet
 pubsub,AckeeCZ,10946,gcp,https://github.com/AckeeCZ/terraform-gcp-pubsub,Terraform module for GCP PubSub resources
 pubsub,aidenabled,11472,google,https://github.com/aidenabled/terraform-google-pubsub,
@@ -8586,6 +8597,7 @@ spaces-bucket,devdynamicio,13255,digitalocean,https://github.com/devdynamicio/te
 spaces-bucket,rhysjson,9630,digitalocean,https://github.com/rhysjson/terraform-digitalocean-spaces-bucket,Community maintained Terraform module for managing DigitalOcean Spaces.
 spanning-tree-policy,netascode,10322,aci,https://github.com/netascode/terraform-aci-spanning-tree-policy,Terraform Cisco ACI Spanning Tree Policy Module
 spark,mcapuccini,1157,openstack,https://github.com/mcapuccini/terraform-openstack-spark,"Terraform module to deploy Apache Spark, with Tensorflow and NVIDA support."
+spark-operator,gfortetsanakis,15222,helm,https://github.com/gfortetsanakis/terraform-helm-spark-operator,
 speech-services,parloa,9979,azurerm,https://github.com/parloa/terraform-azurerm-speech-services,Terraform module to create Azure SpeechServices Resources for Parloa
 spine-liquor,SpineEventEngine,11176,google,https://github.com/SpineEventEngine/terraform-google-spine-liquor,A Terraform module that makes it easy to set up a new Spine Liquor deployment in GCP.
 spinnaker,Young-ook,5532,aws,https://github.com/Young-ook/terraform-aws-spinnaker,Terraform Module: Spinnaker on AWS
@@ -9204,6 +9216,7 @@ test,zzbytes,8760,local,https://github.com/zzbytes/terraform-local-test,
 test-module,davewongillies,1335,test_repo,https://github.com/davewongillies/terraform-test_repo-test-module,just a test repo
 test-module,drewmullen,12654,awscc,https://github.com/drewmullen/terraform-awscc-test-module,
 test-module,jampp-preview,14303,aws,https://github.com/jampp-preview/terraform-aws-test-module,
+test-module,skoobasteeve,15225,ray,https://github.com/skoobasteeve/terraform-ray-test-module,
 test-module,weakpixel,13041,tfcli,https://github.com/weakpixel/terraform-tfcli-test-module,
 test-runner,toluna-terraform,12831,unit,https://github.com/toluna-terraform/terraform-unit-test-runner,
 test-user-terraform-test-simple,sai4214,9080,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple,
@@ -9222,6 +9235,7 @@ testterraform,pavandesh,5168,aws,https://github.com/pavandesh/terraform-aws-test
 testvnet,Rashikahuja,12074,azurerm,https://github.com/Rashikahuja/terraform-azurerm-testvnet,
 testvnet098,ratnac37,8063,azurerm,https://github.com/ratnac37/terraform-azurerm-testvnet098,vnet
 tetrate-istio-addon,tetratelabs,12452,eksblueprints,https://github.com/tetratelabs/terraform-eksblueprints-tetrate-istio-addon,
+tf-object-create,schollii,15229,local,https://github.com/schollii/terraform-local-tf-object-create,
 tf-object-query,schollii,14419,local,https://github.com/schollii/terraform-local-tf-object-query,Get elements from terraform object() (typically loaded from a json or yaml file)
 tf-registry,apparentlymart,1900,aws,https://github.com/apparentlymart/terraform-aws-tf-registry,Terraform module for creating a simple private Terraform registry in AWS with DynamoDB
 tf-state,jacops,4489,azurerm,https://github.com/jacops/terraform-azurerm-tf-state,
@@ -9492,6 +9506,7 @@ velitheda-networking,Velitheda,11598,aws,https://github.com/Velitheda/terraform-
 vendor-access,CoffeeAndCode,4412,aws,https://github.com/CoffeeAndCode/terraform-aws-vendor-access,Provide AWS assume role capabiliites for vendor account access.
 verify,gordonbondon,1055,common,https://github.com/gordonbondon/terraform-common-verify,Terraform module to verify variables
 versa-flexvnf,equinix,8140,equinix,https://github.com/equinix/terraform-equinix-versa-flexvnf,Terraform module for quick deployment of VERSA Networks FlexVNF SD-WAN edge device
+vgw-strongwan-site-to-site-vpn,jye-aviatrix,15231,aws,https://github.com/jye-aviatrix/terraform-aws-vgw-strongwan-site-to-site-vpn,"Create AWS VGW on one VPC, and EC2 instance with StrongWAN on another VPC, create Site to Site VPN between them"
 video-transcoding,simonknittel,6172,google,https://github.com/simonknittel/terraform-google-video-transcoding,Terraform Module to transcode and serve videos via Google Cloud services.
 vidyademo,kottevidya,12279,aws,https://github.com/kottevidya/terraform-aws-vidyademo,
 vinet-3tier,Aksana-ozgon,6973,azure,https://github.com/Aksana-ozgon/terraform-azure-vinet-3tier,
@@ -10255,6 +10270,7 @@ wallarm,wallarm,14205,aws,https://github.com/wallarm/terraform-aws-wallarm,Modul
 wandb,wandb,11986,aws,https://github.com/wandb/terraform-aws-wandb,A terraform module for deploying Weights & Biases on AWS.
 wandb,wandb,12010,kubernetes,https://github.com/wandb/terraform-kubernetes-wandb,
 wandb,wandb,12735,google,https://github.com/wandb/terraform-google-wandb,A Terraform module for deploying Weights & Biases on GCP.
+wandb,wandb,15234,azurerm,https://github.com/wandb/terraform-azurerm-wandb,
 warehouse,Infostrux-Solutions,14978,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-warehouse,"Open Source Snowflake Terraform Module for Warehouse Object Implementation, also in the terraform registry, https://registry.terraform.io/modules/Infostrux-Solutions/warehouse/snowflake/0.1.0"
 wasims3bucket,wraza007,12721,aws,https://github.com/wraza007/terraform-aws-wasims3bucket,
 watchmaker,plus3it,866,aws,https://github.com/plus3it/terraform-aws-watchmaker,Terraform module for Watchmaker
