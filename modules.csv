@@ -1517,6 +1517,7 @@ bucket-website,babakDoraniArab,11714,aws,https://github.com/babakDoraniArab/terr
 bucketS3,davimarcel,10891,aws,https://github.com/davimarcel/terraform-aws-bucketS3,Simplifly Create Aws Buckket S3
 budget,DNXLabs,8990,aws,https://github.com/DNXLabs/terraform-aws-budget,"Terraform module to add billing-related AWS resources like AWS Budget, SNS Budget Alarm, AWS Chatbot integration to send notifications to Slack channel."
 budget,JamesWoolfenden,1993,aws,https://github.com/JamesWoolfenden/terraform-aws-budget,Creates budgets for AWS Usage
+budget,getindata,15243,aws,https://github.com/getindata/terraform-aws-budget,Terraform module to manage AWS Budgets
 budget,shadbury,14781,aws,https://github.com/shadbury/terraform-aws-budget,
 budget-alarms,rribeiro1,5525,aws,https://github.com/rribeiro1/terraform-aws-budget-alarms,A Terraform module that creates AWS Budgets for your resources and the AWS Chatbot integration allows you to receive the alerts in your designated Slack channel.
 budget-alert,hazelops,8060,aws,https://github.com/hazelops/terraform-aws-budget-alert,
@@ -3516,6 +3517,7 @@ efs-alarms,lorenzoaiello,4011,aws,https://github.com/lorenzoaiello/terraform-aws
 efs-backup,cloudposse,196,aws,https://github.com/cloudposse/terraform-aws-efs-backup,Terraform module designed to easily backup EFS filesystems to S3 using DataPipeline
 efs-cloudwatch-sns-alarms,cloudposse,1225,aws,https://github.com/cloudposse/terraform-aws-efs-cloudwatch-sns-alarms,Terraform module that configures CloudWatch SNS alerts for EFS
 efs-csi-driver,DrFaust92,5665,kubernetes,https://github.com/DrFaust92/terraform-kubernetes-efs-csi-driver,Terraform module which creates Kubernetes EFS CSI driver resources on AWS EKS.
+efs-csi-driver,gfortetsanakis,15242,helm,https://github.com/gfortetsanakis/terraform-helm-efs-csi-driver,
 efs-csi-drivers,SPHTech-Platform,14077,aws,https://github.com/SPHTech-Platform/terraform-aws-efs-csi-drivers,Module to install efs-csi-controller and efs-csi-node
 efs-filesystem,rhythmictech,5910,aws,https://github.com/rhythmictech/terraform-aws-efs-filesystem,"Creates an AWS EFS file system and associated mount points and security group. Optionally (on by default), configures a one-off AWS Backup plan/vault to back up the volume."
 efs-kms-key,dod-iac,10366,aws,https://github.com/dod-iac/terraform-aws-efs-kms-key,A KMS key used to encrypt data-at-rest stored in EFS
@@ -4279,6 +4281,7 @@ ghost,mateothegreat,11448,kubernetes,https://github.com/mateothegreat/terraform-
 ghost,wderezin,11591,aws,https://github.com/wderezin/terraform-aws-ghost,Deployment of full stack for Content Management System.
 ghost-docker,jmarhee,9490,digitalocean,https://github.com/jmarhee/terraform-digitalocean-ghost-docker,
 girder,girder,5245,aws,https://github.com/girder/terraform-aws-girder,A Terraform module to provision Girder infrastructure on AWS.
+girder4,girder,15247,heroku,https://github.com/girder/terraform-heroku-girder4,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 git-info,Invicton-Labs,9327,external,https://github.com/Invicton-Labs/terraform-external-git-info,Retrieves Git info for a given repository.
 git-repository,skyfjall,14128,flux,https://github.com/skyfjall/terraform-flux-git-repository,
 git-repository,skyfjell,14231,flux,https://github.com/skyfjell/terraform-flux-git-repository,
@@ -4997,7 +5000,9 @@ julyvnet1,dharani207,10780,azurerm,https://github.com/dharani207/terraform-azure
 juno,omarelsayed23,14923,aws,https://github.com/omarelsayed23/terraform-aws-juno,
 juno-node,omarelsayed23,15062,aws,https://github.com/omarelsayed23/terraform-aws-juno-node,
 jupyter,combinator-ml,8811,k8s,https://github.com/combinator-ml/terraform-k8s-jupyter,Combinator component to provide a simple Jupyter instance
+jupyter-hub,gfortetsanakis,15250,helm,https://github.com/gfortetsanakis/terraform-helm-jupyter-hub,
 jupyter-notebook,garyellis,7347,aws,https://github.com/garyellis/terraform-aws-jupyter-notebook,
+jupyterhub,gfortetsanakis,15249,helm,https://github.com/gfortetsanakis/terraform-helm-jupyterhub,
 jupyterhub-singleuser,sodre,2346,null,https://github.com/sodre/terraform-null-jupyterhub-singleuser,
 jupyterhub-singleuser,sodre,2349,triton,https://github.com/sodre/terraform-triton-jupyterhub-singleuser,
 jvm-cron-lambda,sdmichelini,7388,aws,https://github.com/sdmichelini/terraform-aws-jvm-cron-lambda,Opinionated AWS lambda function used for cron based JVM workloads
@@ -5282,6 +5287,7 @@ kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-
 kube-hetzner,kube-hetzner,12599,hcloud,https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner,Optimized and Maintenance-free Kubernetes on Hetzner Cloud in one command!
 kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-janitor,
 kube-lab,ccliver,14727,aws,https://github.com/ccliver/terraform-aws-kube-lab,Module to setup a Kubernetes lab on AWS
+kube-prometheus-stack,gfortetsanakis,15252,helm,https://github.com/gfortetsanakis/terraform-helm-kube-prometheus-stack,
 kube-state-metrics-addon,askulkarni2,12091,eksblueprints,https://github.com/askulkarni2/terraform-eksblueprints-kube-state-metrics-addon,An implementation of the kube-state-metrics addon for the Amazon EKS Blueprints for Terraform.
 kube-system-default-cluster-admin,matti,2997,kubernetes,https://github.com/matti/terraform-kubernetes-kube-system-default-cluster-admin,
 kubeadm,dannyburke1,6297,hetzner,https://github.com/dannyburke1/terraform-hetzner-kubeadm,Terraform code for Hetzner Cloud with a kubeadm provisioned cluster
@@ -5867,6 +5873,7 @@ management,T-Systems-MMS,12115,azurerm,https://github.com/T-Systems-MMS/terrafor
 management-access-policy,netascode,9897,aci,https://github.com/netascode/terraform-aci-management-access-policy,Terraform Cisco ACI Management Access Policy Module
 management-group,andrewCluey,9013,azurerm,https://github.com/andrewCluey/terraform-azurerm-management-group,
 management-group,claranet,8911,azurerm,https://github.com/claranet/terraform-azurerm-management-group,Terraform module for Azure Management group
+management-group,getindata,15246,azurerm,https://github.com/getindata/terraform-azurerm-management-group,
 management-group-policy-assignment,andrewCluey,9057,azurerm,https://github.com/andrewCluey/terraform-azurerm-management-group-policy-assignment,Module to assign Azure policies to Management groups based on a predefined Management group 'Type'.
 managementgroup,JamesWoolfenden,7680,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-managementgroup,Basic managementgroup module
 manasstorage,Saimanasa-k,13210,azure,https://github.com/Saimanasa-k/terraform-azure-manasstorage,
@@ -6649,7 +6656,7 @@ openvpn,hadenlabs,8620,aws,https://github.com/hadenlabs/terraform-aws-openvpn,te
 openvpn,mericozkayagan,13429,aws,https://github.com/mericozkayagan/terraform-aws-openvpn,terraform module for provider aws to install openvpn via ansible
 openvpn,zhenwenc,2241,aws,https://github.com/zhenwenc/terraform-aws-openvpn,Terraform module which creates OpenVPN resources on AWS
 openvpn-ephemeral,paulmarsicloud,9809,aws,https://github.com/paulmarsicloud/terraform-aws-openvpn-ephemeral,"A module designed for launching an ephemeral, short-lived openvpn instance."
-openvpn-server,gfortetsanakis,15198,aws,https://github.com/gfortetsanakis/terraform-aws-openvpn-server,
+openvpn-server,gfortetsanakis,15240,aws,https://github.com/gfortetsanakis/terraform-aws-openvpn-server,
 openwisp,atb00ker,4078,gcp,https://github.com/atb00ker/terraform-gcp-openwisp,Terraform files for deploying docker-openwisp infrastructure in Google Cloud.
 openwisp,atb00ker,4085,kubernetes,https://github.com/atb00ker/terraform-kubernetes-openwisp," Terraform files for deploying docker-openwisp in kubernetes."
 operating-system-join-active-directory,mnanchev,5518,aws,https://github.com/mnanchev/terraform-aws-operating-system-join-active-directory,
@@ -8011,6 +8018,7 @@ s3bucket-lekha,Lek-S,12946,aws,https://github.com/Lek-S/terraform-aws-s3bucket-l
 s3bucketbackend,ahmedhussien,10451,aws,https://github.com/ahmedhussien/terraform-aws-s3bucketbackend,
 s3bucketmodule,kumaravelu999,13640,aws,https://github.com/kumaravelu999/terraform-aws-s3bucketmodule,AWS S3 Bucket Module 
 s3bucktes,mhdanees,14169,aws,https://github.com/mhdanees/terraform-aws-s3bucktes,
+s3cloudfront,techfumes,15251,aws,https://github.com/techfumes/terraform-aws-s3cloudfront,terraform module to create a s3 cloudfront website site 
 s3logging-bucket,rhythmictech,5398,aws,https://github.com/rhythmictech/terraform-aws-s3logging-bucket,Create and manage a bucket suitable for access logging for other S3 buckets.
 s3module,arjunavagadda,10435,aws,https://github.com/arjunavagadda/terraform-aws-s3module,
 s3remotebackend,Hanxxx,8429,aws,https://github.com/Hanxxx/terraform-aws-s3remotebackend,
@@ -8842,6 +8850,7 @@ static-website-cloudfront-acm,santiagon610,11830,aws,https://github.com/santiago
 static-website-container,OT-CLOUD-KIT,4892,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-static-website-container,This repository consists of Terraform module for Static Website Hosting in AWS.
 static-website-module-manifests,aneesdevops,10571,azure,https://github.com/aneesdevops/terraform-azure-static-website-module-manifests,sss
 static-website-redirect,dsueltenfuss,12153,aws,https://github.com/dsueltenfuss/terraform-aws-static-website-redirect,
+static-website-s3-cloudfront-acm,joshuamkite,15253,aws,https://github.com/joshuamkite/terraform-aws-static-website-s3-cloudfront-acm,Static https website using AWS S3; Cloudfront; ACM; TLS; public DNS entries.
 static-website-with-cicd,ordinaryexperts,1926,aws,https://github.com/ordinaryexperts/terraform-aws-static-website-with-cicd,"A static s3-backed website with CloudFront, SSL, and automatic deployments on commit to a git repo"
 static_website,DvLearnOps,15090,azurerm,https://github.com/DvLearnOps/terraform-azurerm-static_website,A sample module to create azure storage static website
 staticazurewebsite,lokesh0412,12857,azurerm,https://github.com/lokesh0412/terraform-azurerm-staticazurewebsite,This is a test terraform module
@@ -9033,6 +9042,7 @@ subnets,kmayer10,13381,aws,https://github.com/kmayer10/terraform-aws-subnets,ter
 subnets,marceloalmeida,4468,cidr,https://github.com/marceloalmeida/terraform-cidr-subnets,Terraform CIDR Subnets Module
 subnetwork,mineiros-io,12935,google,https://github.com/mineiros-io/terraform-google-subnetwork,A Terraform module to create and manage a subnet for a Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) https://cloud.google.com/vpc
 subnetwork-iam,mineiros-io,12936,google,https://github.com/mineiros-io/terraform-google-subnetwork-iam,A Terraform module to manage Identity and Access Management (IAM) for subnets of a Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) https://cloud.google.com/vpc
+subscription,getindata,15244,azurerm,https://github.com/getindata/terraform-azurerm-subscription,Terraform Module for Azure Subscription
 subscription,servian,5677,azurerm,https://github.com/servian/terraform-azurerm-subscription,Terraform module for Azure Subscription
 subscription-base,westpac-terraform-registry,603,azurerm,https://github.com/westpac-terraform-registry/terraform-azurerm-subscription-base,Base resources to create and peer a subscription
 subscription-tags,qbeyond,13662,azapi,https://github.com/qbeyond/terraform-azapi-subscription-tags,Add tags to an azure subscription via terraform
@@ -9506,7 +9516,7 @@ velitheda-networking,Velitheda,11598,aws,https://github.com/Velitheda/terraform-
 vendor-access,CoffeeAndCode,4412,aws,https://github.com/CoffeeAndCode/terraform-aws-vendor-access,Provide AWS assume role capabiliites for vendor account access.
 verify,gordonbondon,1055,common,https://github.com/gordonbondon/terraform-common-verify,Terraform module to verify variables
 versa-flexvnf,equinix,8140,equinix,https://github.com/equinix/terraform-equinix-versa-flexvnf,Terraform module for quick deployment of VERSA Networks FlexVNF SD-WAN edge device
-vgw-strongwan-site-to-site-vpn,jye-aviatrix,15231,aws,https://github.com/jye-aviatrix/terraform-aws-vgw-strongwan-site-to-site-vpn,"Create AWS VGW on one VPC, and EC2 instance with StrongWAN on another VPC, create Site to Site VPN between them"
+vgw-strongwan-site-to-site-vpn,jye-aviatrix,15245,aws,https://github.com/jye-aviatrix/terraform-aws-vgw-strongwan-site-to-site-vpn,"Create AWS VGW on one VPC, and EC2 instance with StrongWAN on another VPC, create Site to Site VPN between them"
 video-transcoding,simonknittel,6172,google,https://github.com/simonknittel/terraform-google-video-transcoding,Terraform Module to transcode and serve videos via Google Cloud services.
 vidyademo,kottevidya,12279,aws,https://github.com/kottevidya/terraform-aws-vidyademo,
 vinet-3tier,Aksana-ozgon,6973,azure,https://github.com/Aksana-ozgon/terraform-azure-vinet-3tier,
