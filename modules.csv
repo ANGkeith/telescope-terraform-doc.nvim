@@ -3654,6 +3654,7 @@ eks-auth,sailthru,1882,aws,https://github.com/sailthru/terraform-aws-eks-auth,Te
 eks-auth-addons,pen-pal,12647,aws,https://github.com/pen-pal/terraform-aws-eks-auth-addons,this repository is for adding addons to already hosted eks cluster 
 eks-autoscaler,L2Solutions,9258,aws,https://github.com/L2Solutions/terraform-aws-eks-autoscaler,
 eks-autoscaler,gfortetsanakis,15273,helm,https://github.com/gfortetsanakis/terraform-helm-eks-autoscaler,
+eks-autoscaler-asg-tagging,cookielab,15297,aws,https://github.com/cookielab/terraform-aws-eks-autoscaler-asg-tagging,
 eks-autoscaling,Dabble-of-DevOps-BioHub,9543,aws,https://github.com/Dabble-of-DevOps-BioHub/terraform-aws-eks-autoscaling,
 eks-autoscaling,dabble-of-devops-bioanalyze,10446,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-autoscaling,
 eks-autoscaling,dabble-of-devops-biodeploy,10202,aws,https://github.com/dabble-of-devops-biodeploy/terraform-aws-eks-autoscaling,
@@ -3743,7 +3744,7 @@ eks-kubernetes-dashboard,lablabs,6887,aws,https://github.com/lablabs/terraform-a
 eks-kyverno,DNXLabs,13500,aws,https://github.com/DNXLabs/terraform-aws-eks-kyverno,
 eks-lb-controller,DNXLabs,8675,aws,https://github.com/DNXLabs/terraform-aws-eks-lb-controller,Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
 eks-lb-controller,andreswebs,9892,aws,https://github.com/andreswebs/terraform-aws-eks-lb-controller,Deploys the AWS Load Balancer Controller via Helm on AWS EKS
-eks-linkerd,PartTimeLegend,15255,aws,https://github.com/PartTimeLegend/terraform-aws-eks-linkerd,
+eks-linkerd,PartTimeLegend,15255,aws,https://github.com/PartTimeLegend/terraform-aws-eks-linkerd,A module to install  linkerd into your EKS cluster.
 eks-litmus-operator,PartTimeLegend,15257,aws,https://github.com/PartTimeLegend/terraform-aws-eks-litmus-operator,A simple module for installing Litmus chaos testing tools into your EKS cluster.
 eks-load-balancer-controller,lablabs,10056,aws,https://github.com/lablabs/terraform-aws-eks-load-balancer-controller,
 eks-metrics-server,DNXLabs,8676,aws,https://github.com/DNXLabs/terraform-aws-eks-metrics-server,"Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler."
@@ -5568,6 +5569,7 @@ lambda-function,figurate,5059,aws,https://github.com/figurate/terraform-aws-lamb
 lambda-function,highwingio,7792,aws,https://github.com/highwingio/terraform-aws-lambda-function,Terraform module for a Lambda function with a standard configuration
 lambda-function,mineiros-io,5496,aws,https://github.com/mineiros-io/terraform-aws-lambda-function,A Terraform module for deploying and managing Lambda functions on Amazon Web Services (AWS). https://aws.amazon.com/lambda/
 lambda-function,nicolas-martinnez,10072,aws,https://github.com/nicolas-martinnez/terraform-aws-lambda-function,
+lambda-function,rallyware,15296,aws,https://github.com/rallyware/terraform-aws-lambda-function,
 lambda-function-credential-exfiltration,offensive-terraform,6043,aws,https://github.com/offensive-terraform/terraform-aws-lambda-function-credential-exfiltration,Offensive Terraform module which creates Lambda function with existing IAM role. The module invokes it automatically to exfiltrate AWS temporary credential from environment variables and send it back with response.
 lambda-function-mod,corpit-consulting-public,2798,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-function-mod,
 lambda-functions-bucket,QuiNovas,1489,aws,https://github.com/QuiNovas/terraform-aws-lambda-functions-bucket,Creates a bucket as a repository for lambda packages
@@ -7416,6 +7418,7 @@ registry,shestera,6166,yandex,https://github.com/shestera/terraform-yandex-regis
 release,AlexReisSantos,12713,helm,https://github.com/AlexReisSantos/terraform-helm-release,
 release,JamesWoolfenden,7812,helm,https://github.com/JamesWoolfenden/terraform-helm-release,
 release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
+release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
 release,edalferes,4665,helm,https://github.com/edalferes/terraform-helm-release,Terraform module deployment helm chart k8s
 release,guifabmello,11144,helm,https://github.com/guifabmello/terraform-helm-release,Terraform module deployment helm chart k8s
 release,terraform-module,3814,helm,https://github.com/terraform-module/terraform-helm-release,App release with terraform and helm
@@ -7735,7 +7738,7 @@ s3-anti-virus,trussworks,3090,aws,https://github.com/trussworks/terraform-aws-s3
 s3-app,tirumala18,11478,aws,https://github.com/tirumala18/terraform-aws-s3-app,
 s3-backend,7agustibm,2638,aws,https://github.com/7agustibm/terraform-aws-s3-backend,Terraform S3 Backend creator
 s3-backend,briferz,13371,aws,https://github.com/briferz/terraform-aws-s3-backend,
-s3-backend,davaba86,13865,aws,https://github.com/davaba86/terraform-aws-s3-backend,Terraform AWS S3 backend module.
+s3-backend,davaba86,15295,aws,https://github.com/davaba86/terraform-aws-s3-backend,Terraform AWS S3 backend module.
 s3-backend,jhern61,10926,aws,https://github.com/jhern61/terraform-aws-s3-backend,
 s3-backend,kimonio,4495,aws,https://github.com/kimonio/terraform-aws-s3-backend,
 s3-backend,mscribellito,9782,aws,https://github.com/mscribellito/terraform-aws-s3-backend,Terraform AWS S3 Backend
@@ -8361,6 +8364,7 @@ service-integration,tf-cloud-modules,15132,aiven,https://github.com/tf-cloud-mod
 service-linked-role,terraform-alicloud-modules,12843,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-service-linked-role,Terraform Module used to create several service linked roles automatically Alibaba Cloud.
 service-mesh,terraform-alicloud-modules,12813,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-service-mesh,Terraform Module for creating Service Mesh on Alibaba Cloud.
 service-networking-connection,nephosolutions,14584,google,https://github.com/nephosolutions/terraform-google-service-networking-connection,
+service-pan,alkiranet,15300,alkira,https://github.com/alkiranet/terraform-alkira-service-pan,This module makes it easy to provision Palo Alto VM-Series firewalls in Alkira
 service-plan,libre-devops,13252,azurerm,https://github.com/libre-devops/terraform-azurerm-service-plan,A module used to deploy a service plan in Azure :fire:. This is the new edition of App service plans added in the version 3.0 provider
 service-principal,avinor,3475,azuread,https://github.com/avinor/terraform-azuread-service-principal,Terraform module to create service principal credentials and assign it access to resources
 service-principal,ingenii-solutions,8944,azuread,https://github.com/ingenii-solutions/terraform-azuread-service-principal,"This module can be used to create Azure AD Service Principals (App Registrations). Additionally, you can use the module to create role assignments for the service principal."
@@ -8441,6 +8445,8 @@ sg,mainmax,10819,aws,https://github.com/mainmax/terraform-aws-sg,Terraform modul
 sg,scottwinkler,2470,aws,https://github.com/scottwinkler/terraform-aws-sg,
 sg,terraform-in-action,6893,aws,https://github.com/terraform-in-action/terraform-aws-sg,
 sg-common,ask0n,1609,aws,https://github.com/ask0n/terraform-aws-sg-common,Terraform module for pretty SG creation
+sg-for-egress-unrestricted,s3d-group,15298,aws,https://github.com/s3d-group/terraform-aws-sg-for-egress-unrestricted,Terraform Module that defines a Security Group for EGRESS in an unrestricted way.
+sg-for-ssh,s3d-group,15292,aws,https://github.com/s3d-group/terraform-aws-sg-for-ssh,Terraform module with a Security Group for SSH Ingress
 sg-wsc,mehdi-wsc,5180,aws,https://github.com/mehdi-wsc/terraform-aws-sg-wsc,Terraform module to provision aws_security_group
 sggroups-ec2-module,Charan-Raj-K,8931,vpc,https://github.com/Charan-Raj-K/terraform-vpc-sggroups-ec2-module,Terraform module to provision vpc-security-groups-ec2instances on aws
 sha256-of-base64,Invicton-Labs,12408,null,https://github.com/Invicton-Labs/terraform-null-sha256-of-base64,
@@ -9296,6 +9302,7 @@ tg-and-lb-listener,luboleg,8640,aws,https://github.com/luboleg/terraform-aws-tg-
 tgw,DrFaust92,3256,aws,https://github.com/DrFaust92/terraform-aws-tgw,Terraform module which creates TGW resources on AWS
 tgw-o,bayupw,13117,aviatrix,https://github.com/bayupw/terraform-aviatrix-tgw-o,"Terraform module to create an Aviatrix-managed AWS TGW, mandatory Security Domains and the default connections"
 tgw-routes,gutozntt,14954,aws,https://github.com/gutozntt/terraform-aws-tgw-routes,Use this module to create routes pointing to TGW dynamically. Best use case is to use with multiple VPCs that are connected through a Transit Gateway.
+tgw-strongwan-site-to-site-vpn,jye-aviatrix,15299,aws,https://github.com/jye-aviatrix/terraform-aws-tgw-strongwan-site-to-site-vpn,This module creates AWS TGWs in two regions and simulate connection to onpremise using Quuaga StrongWAN BGP IPSec.
 thanos,philips-labs,6445,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-thanos,Experimental Thanos module for unlimited metrics storage on HSDP
 the-right-hard-way-aws,hajowieland,3439,k8s,https://github.com/hajowieland/terraform-k8s-the-right-hard-way-aws,"Terraform code for ""Kubernetes The (real) Hard Way (AWS)"""
 theidserver,Aguafrommars,12588,helm,https://github.com/Aguafrommars/terraform-helm-theidserver,TheidServer Terraform module
@@ -9493,6 +9500,7 @@ vault,robertdebock,10802,aws,https://github.com/robertdebock/terraform-aws-vault
 vault,robertdebock,9486,hcp,https://github.com/robertdebock/terraform-hcp-vault,HashiCorp Terraform HCP Vault deployment.
 vault,terraform-google-modules,2168,google,https://github.com/terraform-google-modules/terraform-google-vault,Modular deployment of Vault on Google Compute Engine with Terraform
 vault-aws-tgw,btkrausen,15136,hcp,https://github.com/btkrausen/terraform-hcp-vault-aws-tgw,Module used to provision HCP Vault on AWS using Transit Gateway
+vault-cluster,ksatirli,15301,hcp,https://github.com/ksatirli/terraform-hcp-vault-cluster,Terraform Module: HCP Vault Cluster
 vault-dev,colinwilson,6839,docker,https://github.com/colinwilson/terraform-docker-vault-dev,Terraform module to provision a HashiCorp Vault (v1.7.x) service on Docker swarm [WIP]
 vault-dynamodb,giuliocalzolari,7292,aws,https://github.com/giuliocalzolari/terraform-aws-vault-dynamodb,
 vault-ent-starter,hashicorp,9693,aws,https://github.com/hashicorp/terraform-aws-vault-ent-starter,A Terraform Module for provisioning an Enterprise Vault cluster (using integrated storage) in AWS as described by HashiCorp reference architecture.
