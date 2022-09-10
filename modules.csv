@@ -602,6 +602,7 @@ apm,newrelic,4329,newrelic,https://github.com/newrelic/terraform-newrelic-apm,Te
 apn-blog,aq,7338,aws,https://github.com/aq/terraform-aws-apn-blog,Terraform infrastructure of an nginx app deployed on EC2 (load-balanced and auto-scaled).
 app,3191110276,8283,appdynamics,https://github.com/3191110276/terraform-appdynamics-app,
 app,jungopro,3859,azuread,https://github.com/jungopro/terraform-azuread-app,A module to create an Application with Service Principle
+app,sebbycorp,15369,bigip,https://github.com/sebbycorp/terraform-bigip-app,terraform-bigip-as3-app
 app,zahiar,10573,docker,https://github.com/zahiar/terraform-docker-app,"A Terraform module that takes in a Docker Compose like config, and outputs valid Docker Compose YAML & AWS ECS Task Definition JSON."
 app-boundary,devops-rob,11293,azuread,https://github.com/devops-rob/terraform-azuread-app-boundary,This Terraform module creates an application in Azure AD for HashiCorp Boundary to use when configuring Azure OIDC authentication. 
 app-consul-sync-nia,arielazem,6433,bigip,https://github.com/arielazem/terraform-bigip-app-consul-sync-nia,This terraform module leverages consul-terraform-sync to create and update application services on BIG-IP based on registered services within Consul
@@ -720,7 +721,7 @@ arch-tomcat-mds,oracle-devrel,11047,oci,https://github.com/oracle-devrel/terrafo
 arch-web-ha,oracle-devrel,10892,oci,https://github.com/oracle-devrel/terraform-oci-arch-web-ha,A deployable solution for web application on highly available infrastructure in Oracle Cloud Infrastructure
 arch-wordpress,oracle-devrel,12342,oci,https://github.com/oracle-devrel/terraform-oci-arch-wordpress,terraform-oci-arch-wordpress
 arch-wordpress-mds,oracle-devrel,11134,oci,https://github.com/oracle-devrel/terraform-oci-arch-wordpress-mds,terraform-oci-arch-wordpress-mds
-archive,glenngillen,15317,module,https://github.com/glenngillen/terraform-module-archive,Terraform module with alternative configuration options for generating archives
+archive,glenngillen,15356,gg,https://github.com/glenngillen/terraform-gg-archive,Terraform module with alternative configuration options for generating archives
 archive-builder,opendevsecops,4989,local,https://github.com/opendevsecops/terraform-local-archive-builder,A helper terraform module to perform builds using local shell and docker.
 archive-python,JayDoubleu,2583,external,https://github.com/JayDoubleu/terraform-external-archive-python,Python script to archive files to be used by terraform
 archiving-s3,kurron,733,aws,https://github.com/kurron/terraform-aws-archiving-s3,Terraform module that creates an S3 bucket that moves objects into Glacier after a period of time
@@ -1164,12 +1165,9 @@ aws-ingress,karimjamali,15086,aviatrix,https://github.com/karimjamali/terraform-
 aws-integration-role,costradar,12170,costradar,https://github.com/costradar/terraform-costradar-aws-integration-role,
 aws-lambda,Adaptavist,5490,module,https://github.com/Adaptavist/terraform-module-aws-lambda,
 aws-lambda,alekc,7172,module,https://github.com/alekc/terraform-module-aws-lambda,
-aws-lambda,glenngillen,15315,module,https://github.com/glenngillen/terraform-module-aws-lambda,Terraform module to simplify the deployment of AWS Lambda functions
 aws-lambda,mergermarket,2407,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda,Terraform module to create a simple Lambda with the associated Cloudwatch log group
 aws-lambda-cron,mergermarket,2412,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-cron,Creates AWS Lambda with a Cloudwatch cron trigger
-aws-lambda-inline-build,glenngillen,15319,module,https://github.com/glenngillen/terraform-module-aws-lambda-inline-build,A Terraform module to simplify deploying lambda functions with specialised build/packaging requirements.
 aws-lambda-sns,mergermarket,2541,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-sns,Create a AWS Lambda function triggered from SNS
-aws-lambda-sns-subscription,glenngillen,15339,module,https://github.com/glenngillen/terraform-module-aws-lambda-sns-subscription,
 aws-lb-alarms,kiwicom,3026,datadog,https://github.com/kiwicom/terraform-datadog-aws-lb-alarms,
 aws-lb-waf,lean-delivery,7591,module,https://github.com/lean-delivery/terraform-module-aws-lb-waf,Terraform module to setup WAF for Load Balancers
 aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-private,"In specified AWS region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
@@ -1195,7 +1193,6 @@ aws-services,kabisa,11757,datadog,https://github.com/kabisa/terraform-datadog-aw
 aws-ses-verification,vojtechmares,12984,cloudflare,https://github.com/vojtechmares/terraform-cloudflare-aws-ses-verification,Terraform module for creating SES validation for a domain with Cloudflare DNS
 aws-sns-email-notification,bytebugs,485,modules,https://github.com/bytebugs/terraform-modules-aws-sns-email-notification,
 aws-sns-sqs,lean-delivery,7593,module,https://github.com/lean-delivery/terraform-module-aws-sns-sqs,Terraform module for SNS-SQS setup
-aws-spa-static-site,glenngillen,12749,module,https://github.com/glenngillen/terraform-module-aws-spa-static-site,
 aws-spoke,terraform-aviatrix-modules,5585,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-spoke,This module deploys a VPC and an Aviatrix spoke gateway in AWS and attaches it to an Aviatrix Transit Gateway
 aws-spoke-custom,karolnedza,10941,aviatrix,https://github.com/karolnedza/terraform-aviatrix-aws-spoke-custom,
 aws-spoke-ec2,Eskimoodigital,10149,aviatrix,https://github.com/Eskimoodigital/terraform-aviatrix-aws-spoke-ec2,
@@ -1535,7 +1532,7 @@ budget-alert,hazelops,8060,aws,https://github.com/hazelops/terraform-aws-budget-
 budgets,cloudposse,11689,aws,https://github.com/cloudposse/terraform-aws-budgets,Terraform module to manage AWS Budgets.
 budgets,devops-workflow,1106,aws,https://github.com/devops-workflow/terraform-aws-budgets,Terraform module for configuring AWS budgets
 budgets-alerts,sculley,7340,aws,https://github.com/sculley/terraform-aws-budgets-alerts,Terraform module which deploys AWS Budgets alerts to your AWS account
-build-with-cleanup,glenngillen,15320,module,https://github.com/glenngillen/terraform-module-build-with-cleanup,"Enabled build commands, compressing, and then cleanup as a Terraform module."
+build-with-cleanup,glenngillen,15355,gg,https://github.com/glenngillen/terraform-gg-build-with-cleanup,"Enabled build commands, compressing, and then cleanup as a Terraform module."
 bulk-file-copy,srb3,6258,util,https://github.com/srb3/terraform-util-bulk-file-copy,
 bulk-iam-groups,olivr-com,4813,aws,https://github.com/olivr-com/terraform-aws-bulk-iam-groups,Create many AWS IAM groups at once
 bulk-iam-roles,olivr-com,4814,aws,https://github.com/olivr-com/terraform-aws-bulk-iam-roles,Create many AWS IAM roles at once
@@ -2491,6 +2488,7 @@ custom-role-definitions,Pwd9000-ML,12133,azurerm,https://github.com/Pwd9000-ML/t
 custom-vpc,gfortetsanakis,15195,aws,https://github.com/gfortetsanakis/terraform-aws-custom-vpc,
 custom-vpc,quangdvn,14283,aws,https://github.com/quangdvn/terraform-aws-custom-vpc,
 customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module which creates Customer Gateway on AWS 🇺🇦
+daas-sonar,caleidosmedia,15365,aws,https://github.com/caleidosmedia/terraform-aws-daas-sonar,Terraform module to deploy sonarqube with ECS and fargate
 daemonset,terraform-iaac,8076,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-daemonset,
 dag-nia,PaloAltoNetworks,6355,panos,https://github.com/PaloAltoNetworks/terraform-panos-dag-nia,
 dag-nia,migara,8483,panos,https://github.com/migara/terraform-panos-dag-nia,
@@ -2667,6 +2665,7 @@ deploy-tkg-cluster,jd4883,11384,kubectl,https://github.com/jd4883/terraform-kube
 deploy-user,robbytaylor,3779,aws,https://github.com/robbytaylor/terraform-aws-deploy-user,Create users for AWS with minimal permissions
 deployer,bcgov,13149,openshift,https://github.com/bcgov/terraform-openshift-deployer,
 deployment,ballj,9166,kubernetes,https://github.com/ballj/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
+deployment,blackbird-cloud,15362,helm,https://github.com/blackbird-cloud/terraform-helm-deployment,Simple helm deployment based on default helm template
 deployment,devops-wien,14906,kubernetes,https://github.com/devops-wien/terraform-kubernetes-deployment,https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/deployment_v1
 deployment,djangoflow,14738,kubernetes,https://github.com/djangoflow/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
 deployment,garbetjie,5805,kubernetes,https://github.com/garbetjie/terraform-kubernetes-deployment,
@@ -3062,6 +3061,8 @@ ec2,terra4aws64,12148,aws,https://github.com/terra4aws64/terraform-aws-ec2,Terra
 ec2,tobi1972,7163,aws,https://github.com/tobi1972/terraform-aws-ec2,
 ec2,tomarv2,12332,aws,https://github.com/tomarv2/terraform-aws-ec2,Terraform module for AWS EC2
 ec2-admin-server,cloudposse,215,aws,https://github.com/cloudposse/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
+ec2-agent-pool,glenngillen,15359,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool,
+ec2-agent-pool-autoscaler,glenngillen,15360,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool-autoscaler,
 ec2-ami-backup,cloudposse,216,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-backup,Terraform module for automatic & scheduled AMI creation
 ec2-ami-snapshot,cloudposse,217,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-snapshot,Terraform module to easily generate AMI snapshots to create replica instances
 ec2-and-rds,akshatoxy,15107,aws,https://github.com/akshatoxy/terraform-aws-ec2-and-rds,EC2 server for node application and RDS MySQL instance for database.
@@ -3280,6 +3281,8 @@ ecs,terraform-module,14063,aws,https://github.com/terraform-module/terraform-aws
 ecs,toluna-terraform,14464,aws,https://github.com/toluna-terraform/terraform-aws-ecs,
 ecs,tomarv2,12333,aws,https://github.com/tomarv2/terraform-aws-ecs,Terraform module for AWS ECS
 ecs-agent,lacework,8610,aws,https://github.com/lacework/terraform-aws-ecs-agent,A Terraform Module to create an ECS Task Definition and Daemon Service for deploying the Lacework Datacollector Agent in an Elastic Container Service (ECS) cluster.
+ecs-agent-pool,glenngillen,15345,aws,https://github.com/glenngillen/terraform-aws-ecs-agent-pool,
+ecs-agent-pool-autoscaler,glenngillen,15358,aws,https://github.com/glenngillen/terraform-aws-ecs-agent-pool-autoscaler,
 ecs-airflow,datarootsio,6494,aws,https://github.com/datarootsio/terraform-aws-ecs-airflow,A terraform module that creates an airflow instance in AWS ECS.
 ecs-alb,cn-terraform,4729,aws,https://github.com/cn-terraform/terraform-aws-ecs-alb,AWS ALB Terraform Module for ECS
 ecs-alb-service-task,cloudposse,1154,aws,https://github.com/cloudposse/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
@@ -3989,6 +3992,7 @@ examplemodules,tanaphonble,7809,aws,https://github.com/tanaphonble/terraform-aws
 exasol,exasol,3088,aws,https://github.com/exasol/terraform-aws-exasol,Terraform module for deploying Exasol cluster on AWS.
 exasol-test-setup,exasol,9926,aws,https://github.com/exasol/terraform-aws-exasol-test-setup,Terraform module for quickly creating an Exasol cluster for testing
 exception,ulfox,6561,generic,https://github.com/ulfox/terraform-generic-exception,Terraform module for raising exceptions on condition
+exception-notifier,glenngillen,15346,aws,https://github.com/glenngillen/terraform-aws-exception-notifier,
 exchange-online-dns-records,companytone,2600,cloudflare,https://github.com/companytone/terraform-cloudflare-exchange-online-dns-records,Create all DNS needed for Microsoft Exchange Online on Cloudflare
 exchange-online-dns-records-module,companytone,2597,cloudflare,https://github.com/companytone/terraform-cloudflare-exchange-online-dns-records-module,Create all DNS needed for Microsoft Exchange Online on Cloudflare
 exclude-files,ofhouse,9743,test,https://github.com/ofhouse/terraform-test-exclude-files,Terraform module test
@@ -4002,6 +4006,7 @@ experiments,GlennChia,8927,azurerm,https://github.com/GlennChia/terraform-azurer
 expiring-s3,kurron,734,aws,https://github.com/kurron/terraform-aws-expiring-s3,Terraform module that creates an S3 bucket that ages out objects.  Great for holding logs.
 expose-service-ingress,alemuro,11931,kubernetes,https://github.com/alemuro/terraform-kubernetes-expose-service-ingress,Terraform module to deploy and expose a kubernetes service using Traefik
 express-lambda-layer,amancevice,2165,aws,https://github.com/amancevice/terraform-aws-express-lambda-layer,Lambda layer for express/aws-serverless-express
+expressroute,claranet,15353,azurerm,https://github.com/claranet/terraform-azurerm-expressroute,Terraform module for Azure ExpressRoute link
 extended-role-definition,jibinpb,9435,azurerm,https://github.com/jibinpb/terraform-azurerm-extended-role-definition,
 extensive-kitchen-terraform,chavo1,3942,aws,https://github.com/chavo1/terraform-aws-extensive-kitchen-terraform,AWS EC2  Extensive Kitchen-Terraform test
 external-cloudrun-byo-domain,llcloudstudio,9827,google,https://github.com/llcloudstudio/terraform-google-external-cloudrun-byo-domain,"Deploys container to managed Cloud Run with a new external IP, load balancer, WAF for defined domain name"
@@ -4363,6 +4368,7 @@ gitlab-runner,SwiftEngineer,13113,aws,https://github.com/SwiftEngineer/terraform
 gitlab-runner,allyrr,8259,google,https://github.com/allyrr/terraform-google-gitlab-runner,Terraform module for a dynamically configurable amount of GitLab runners in Google. Can use preemptible or regular on-demand VMs.
 gitlab-runner,brettch,3042,google,https://github.com/brettch/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
 gitlab-runner,digio,3412,google,https://github.com/digio/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
+gitlab-runner,kasna-cloud,15344,google,https://github.com/kasna-cloud/terraform-google-gitlab-runner,Automatically build and register a Gitlab runner to your Gitlab instance.
 gitlab-runner,mantel-digio,3044,google,https://github.com/mantel-digio/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
 gitlab-runner,npalm,622,aws,https://github.com/npalm/terraform-aws-gitlab-runner,Terraform module for AWS GitLab runners on ec2 (spot) instances
 gitlab-runner,pyranja,11437,aws,https://github.com/pyranja/terraform-aws-gitlab-runner,Deploy gitlab runner on AWS EC2
@@ -4396,6 +4402,7 @@ gke-factory,RonasIT,13101,google,https://github.com/RonasIT/terraform-google-gke
 gke-gitlab,devsshzone,10557,google,https://github.com/devsshzone/terraform-google-gke-gitlab,Installs GitLab on Kubernetes Engine
 gke-gitlab,sparkfabrik,13097,sparkfabrik,https://github.com/sparkfabrik/terraform-sparkfabrik-gke-gitlab,Installs GitLab on Kubernetes Engine
 gke-gitlab,terraform-google-modules,4939,google,https://github.com/terraform-google-modules/terraform-google-gke-gitlab,Installs GitLab on Kubernetes Engine
+gke-helm-deployment,blackbird-cloud,15363,google,https://github.com/blackbird-cloud/terraform-google-gke-helm-deployment,Helpers to quickly deploy helm charts on GKE cluster
 gke-helm-vault,gatsbysghost,7545,google,https://github.com/gatsbysghost/terraform-google-gke-helm-vault,Terraform module to generate a Hashicorp Vault cluster on GKE
 gke-iam,castai,13003,castai,https://github.com/castai/terraform-castai-gke-iam,CAST AI terraform module for GCP GKE IAM
 gke-image-pull-secret,blackbird-cloud,15329,google,https://github.com/blackbird-cloud/terraform-google-gke-image-pull-secret,Deploy image pull secret for private GCR containers on GKE cluster
@@ -5167,6 +5174,7 @@ key-vault,ingenii-solutions,8815,azurerm,https://github.com/ingenii-solutions/te
 key-vault,innovationnorway,2556,azurerm,https://github.com/innovationnorway/terraform-azurerm-key-vault,Create Key Vault in Azure.
 key-vault,kumarvna,5426,azurerm,https://github.com/kumarvna/terraform-azurerm-key-vault,Terraform module to create a Key Vault in Azure cloud.
 key-vault,tomarv2,12426,azure,https://github.com/tomarv2/terraform-azure-key-vault,Terraform module for Azure Key Vault
+key-vault-secrets,zodiac403,15357,azurerm,https://github.com/zodiac403/terraform-azurerm-key-vault-secrets,This is a Terraform module for simple writing and reading secrets from an Azure Key Vault.
 key_pair,terracharge,14089,aws,https://github.com/terracharge/terraform-aws-key_pair,Module for creating terraform-aws-key_pair with provider aws. This description is created automagically
 keycloak-client,Serviceware,9936,vaultkeycloak,https://github.com/Serviceware/terraform-vaultkeycloak-keycloak-client,
 keypair,4ops,7247,tls,https://github.com/4ops/terraform-tls-keypair,Terraform module.
@@ -5499,6 +5507,7 @@ lambda,dgmike,2056,fluxo,https://github.com/dgmike/terraform-fluxo-lambda,A lamb
 lambda,dvargas92495,8707,roamjs,https://github.com/dvargas92495/terraform-roamjs-lambda,
 lambda,foss-cafe,5641,aws,https://github.com/foss-cafe/terraform-aws-lambda,Terraform module for AWS Lambda
 lambda,genstackio,7893,aws,https://github.com/genstackio/terraform-aws-lambda,Terraform module to create an AWS Lambda
+lambda,glenngillen,15347,aws,https://github.com/glenngillen/terraform-aws-lambda,Terraform module to simplify the deployment of AWS Lambda functions
 lambda,hadenlabs,8350,aws,https://github.com/hadenlabs/terraform-aws-lambda,Terraform Module to manage AWS Lambda
 lambda,hendrixroa,5704,aws,https://github.com/hendrixroa/terraform-aws-lambda,Module lambda to autmate aws lambda resources using a layer
 lambda,howdio,1659,aws,https://github.com/howdio/terraform-aws-lambda,Terraform module which packages and creates Lambda functions on AWS
@@ -5600,6 +5609,7 @@ lambda-healthcheck,lablabs,4389,aws,https://github.com/lablabs/terraform-aws-lam
 lambda-hellolinodians,armorfret,2192,aws,https://github.com/armorfret/terraform-aws-lambda-hellolinodians,Terraform module for provisioning akerl/go-hello-linodians
 lambda-hookshot,armorfret,2193,aws,https://github.com/armorfret/terraform-aws-lambda-hookshot,Terraform module for provisioning akerl/hookshot
 lambda-http-api-integration,voquis,5167,aws,https://github.com/voquis/terraform-aws-lambda-http-api-integration,Terraform module for integration between a Lambda function and an HTTP API (v2)
+lambda-inline-build,glenngillen,15348,aws,https://github.com/glenngillen/terraform-aws-lambda-inline-build,A Terraform module to simplify deploying lambda functions with specialised build/packaging requirements.
 lambda-invoke,crisboarna,1097,aws,https://github.com/crisboarna/terraform-aws-lambda-invoke,"Terraform AWS Lambda module to create fully flexible, pluggable Lambda modules"
 lambda-janitor,JamesWoolfenden,9075,aws,https://github.com/JamesWoolfenden/terraform-aws-lambda-janitor,lambda janitor
 lambda-janitor,barneyparker,10942,aws,https://github.com/barneyparker/terraform-aws-lambda-janitor,Janitor function to clean up unused Lambda function versions
@@ -5656,6 +5666,7 @@ lambda-shell-resource,Invicton-Labs,12567,aws,https://github.com/Invicton-Labs/t
 lambda-site-monitor,clouddrove,5300,aws,https://github.com/clouddrove/terraform-aws-lambda-site-monitor,Terraform module to create Lambda resource on AWS for monitor different websites.
 lambda-slack,telia-oss,3154,aws,https://github.com/telia-oss/terraform-aws-lambda-slack,A terraform module to create an SNS topic and lambda that send events to slack.
 lambda-sns,terraform-aws-modules-spyrosoft,14311,aws,https://github.com/terraform-aws-modules-spyrosoft/terraform-aws-lambda-sns,A Terraform module that creates a lambda for the SNS event
+lambda-sns-subscription,glenngillen,15349,aws,https://github.com/glenngillen/terraform-aws-lambda-sns-subscription,
 lambda-snstoslack,armorfret,2194,aws,https://github.com/armorfret/terraform-aws-lambda-snstoslack,Terraform module for provisioning akerl/sns-to-slack
 lambda-trigger,prokvk,1969,aws,https://github.com/prokvk/terraform-aws-lambda-trigger,Terraform module for creating AWS CloudWatch event rule that will periodically invoke lambda function.
 lambda-warmer,Nuagic,3227,aws,https://github.com/Nuagic/terraform-aws-lambda-warmer,Terraform module to keep lambda warm
@@ -6208,7 +6219,7 @@ multiaccount-pipeline,StratusGrid,10212,aws,https://github.com/StratusGrid/terra
 multiarch-builder,krestomatio,14137,aws,https://github.com/krestomatio/terraform-aws-multiarch-builder,Terraform module for building multi-architecture container images (amd64 and arm64) using remote (TLS) ephemeral EC2 instances as builders
 multiarch-k8s,equinix,7406,metal,https://github.com/equinix/terraform-metal-multiarch-k8s,ARM and x86 Kubernetes Clusters and Node Pool management for Equinix Metal
 multiarch-kubernetes,jmarhee,5452,packet,https://github.com/jmarhee/terraform-packet-multiarch-kubernetes,ARM and x86 Kubernetes Clusters and Node Pool management for Packet
-multiline-command,glenngillen,15318,module,https://github.com/glenngillen/terraform-module-multiline-command,Terraform module to enable execution of multiple commands across multiple lines.
+multiline-command,glenngillen,15354,gg,https://github.com/glenngillen/terraform-gg-multiline-command,Terraform module to enable execution of multiple commands across multiple lines.
 multipass,mc-b,13095,lerncloud,https://github.com/mc-b/terraform-lerncloud-multipass,LernCloud Terraform Module fuer Multipass
 multiple-ec2,ihoslav,8924,aws,https://github.com/ihoslav/terraform-aws-multiple-ec2,
 multiple-virtual-machine,turjachaudhuri,9291,azure,https://github.com/turjachaudhuri/terraform-azure-multiple-virtual-machine,this repo will contain public terraform modules for consumption by wider public
@@ -7677,6 +7688,7 @@ route53-hosted-zone,yurymkomarov,4631,aws,https://github.com/yurymkomarov/terraf
 route53-in-k8s,ispec-inc,4140,aws,https://github.com/ispec-inc/terraform-aws-route53-in-k8s,
 route53-instance-recordset,CogDisResLab,14260,aws,https://github.com/CogDisResLab/terraform-aws-route53-instance-recordset,
 route53-instances,dcos-terraform,1728,aws,https://github.com/dcos-terraform/terraform-aws-route53-instances,Creates Route53 Records for Instances
+route53-keybase-domain-proof,ksatirli,15352,aws,https://github.com/ksatirli/terraform-aws-route53-keybase-domain-proof,Route 53 Records for Keybase Domain Proofs
 route53-keybase-domain-proof,operatehappy,4179,aws,https://github.com/operatehappy/terraform-aws-route53-keybase-domain-proof,Route 53 Records for Keybase Domain Proofs
 route53-module,nashvan,7141,aws,https://github.com/nashvan/terraform-aws-route53-module,AWS Route53 Terraform module with existing Hosted Zone and complete examples
 route53-mta-sts,UGNS,7935,aws,https://github.com/UGNS/terraform-aws-route53-mta-sts,Mail Transport Agent - Strict Transport Security for AWS Route53
@@ -7897,6 +7909,7 @@ s3-review-apps,nagelflorian,4409,aws,https://github.com/nagelflorian/terraform-a
 s3-secure-static-website,tim0git,14319,aws,https://github.com/tim0git/terraform-aws-s3-secure-static-website,Terraform module which creates secure s3 static website and all associated resources
 s3-simple-bucket-and-objects,rodrigopuls,14897,aws,https://github.com/rodrigopuls/terraform-aws-s3-simple-bucket-and-objects,A simple Terraform module to handle S3 bucket and bucket objects on AWS.
 s3-ssl-static-html,coregen,3149,aws,https://github.com/coregen/terraform-aws-s3-ssl-static-html,This terraform script deploys the nessecary resources to serve static html content with SSL/TLS
+s3-state-backend,meekgeek,15371,aws,https://github.com/meekgeek/terraform-aws-s3-state-backend,A terraform module to set up remote states
 s3-state-storage,GROG,4421,aws,https://github.com/GROG/terraform-aws-s3-state-storage,Terraform module to bootstrap remote state storage on S3
 s3-static-site,gohypergiant,5285,aws,https://github.com/gohypergiant/terraform-aws-s3-static-site,
 s3-static-site,inem,1372,aws,https://github.com/inem/terraform-aws-s3-static-site,Creates a static website on a domain hosted on S3 and delivered by CloudFront over HTTPS with Route53 managing DNS.
@@ -8663,6 +8676,7 @@ souvik-s3,sroy-1983,11419,aws,https://github.com/sroy-1983/terraform-aws-souvik-
 spa,doztrock,5132,aws,https://github.com/doztrock/terraform-aws-spa,Terraform module intended to ease AWS SPA creation.
 spa,kosciuszko-cloud,11480,aws,https://github.com/kosciuszko-cloud/terraform-aws-spa,kosciuszko-flavoured single-page application terraform module
 spa,louislarry,1194,aws,https://github.com/louislarry/terraform-aws-spa,Build AWS infrastructure for SPA
+spa-static-site,glenngillen,15350,aws,https://github.com/glenngillen/terraform-aws-spa-static-site,
 spaces,terraform-do-modules,10262,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-spaces,
 spaces-bucket,devdynamicio,13255,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-spaces-bucket,Terraform module to create an spaces bucket resource in DigitalOcean 🇺🇦
 spaces-bucket,rhysjson,9630,digitalocean,https://github.com/rhysjson/terraform-digitalocean-spaces-bucket,Community maintained Terraform module for managing DigitalOcean Spaces.
@@ -8871,6 +8885,7 @@ statebucket,JamesWoolfenden,1955,gcp,https://github.com/JamesWoolfenden/terrafor
 statebucket,JamesWoolfenden,2070,azure,https://github.com/JamesWoolfenden/terraform-azure-statebucket,A state bucket module for Azure rm
 statebucket,JamesWoolfenden,7622,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-statebucket,A state bucket module for Azure rm
 stateful-set,terraform-iaac,8075,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-stateful-set,
+statefulset,ballj,15370,kubernetes,https://github.com/ballj/terraform-kubernetes-statefulset,Creates a kubernetes StatefulSet and service.
 stateless-ssm-parameter,umihico,11787,aws,https://github.com/umihico/terraform-aws-stateless-ssm-parameter,Terraform module which creates ssm paratemers without leaking raw values on git and tfstates
 static,JamesWoolfenden,6467,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-static,Basic static site module
 static-app,DNXLabs,5751,aws,https://github.com/DNXLabs/terraform-aws-static-app,This is a module that creates a static application with a OAI Cloudfront.
@@ -9343,7 +9358,7 @@ three-tier-app,GoogleCloudPlatform,15075,google,https://github.com/GoogleCloudPl
 threetier,kedish9,6980,azure,https://github.com/kedish9/terraform-azure-threetier,
 threetier,tutac,6972,azure,https://github.com/tutac/terraform-azure-threetier,
 tier1-gateway,kalenarndt,13320,nsxt,https://github.com/kalenarndt/terraform-nsxt-tier1-gateway,Terraform module for configuring Tier1 gateways
-tile-service,addresscloud,14254,aws,https://github.com/addresscloud/terraform-aws-tile-service,Terraform module to create a vector tile service using Amazon API Gateway and S3
+tile-service,addresscloud,14254,aws,https://github.com/addresscloud/terraform-aws-tile-service,Terraform module to create a map tile service using Amazon API Gateway and S3
 tiller,Vidimensional,2185,kubernetes,https://github.com/Vidimensional/terraform-kubernetes-tiller,Terraform module for deploying Helm's Tiller on you k8s cluster.
 tiller,iplabs,2368,kubernetes,https://github.com/iplabs/terraform-kubernetes-tiller,Terraform module to ease Tiller deployments
 tiller,terraform-module,3811,kubernetes,https://github.com/terraform-module/terraform-kubernetes-tiller,Kubernetes Tiller
