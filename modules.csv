@@ -199,6 +199,7 @@ action-group,rink72,3911,azurerm,https://github.com/rink72/terraform-azurerm-act
 action-helper,maunzCache,13875,aws,https://github.com/maunzCache/terraform-aws-action-helper,aws-action-helper is a Terraform module which helps implementing AWS IAM policies by providing abstracting actions (or permissions) as usable object in Terraform.
 action-runner,Cox-Automotive,10771,aws,https://github.com/Cox-Automotive/terraform-aws-action-runner,Terraform module to setup aws action runners
 action-secrets,math280h,14123,github,https://github.com/math280h/terraform-github-action-secrets,Easily manage secrets on multiple repositories via terraform
+actions-pipeline-resources,axetrading,15383,github,https://github.com/axetrading/terraform-github-actions-pipeline-resources,"Terraform module for a GitHub Actions pipeline with access to AWS, without having to manage any credentials"
 actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-controller,basisai,10986,helm,https://github.com/basisai/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-provisioner,camptocamp,8660,github,https://github.com/camptocamp/terraform-github-actions-runner-provisioner,Terraform provisioner for a self-hosted GitHub Actions runner
@@ -2729,7 +2730,7 @@ distribution-metric,ammilam,10917,google,https://github.com/ammilam/terraform-go
 divi,divyatf,14336,aws,https://github.com/divyatf/terraform-aws-divi,
 divstorage,Divs2022,12077,azure,https://github.com/Divs2022/terraform-azure-divstorage,
 divya,Divyap29,12306,test,https://github.com/Divyap29/terraform-test-divya,
-django,briancaffey,12411,aws,https://github.com/briancaffey/terraform-aws-django,"Terraform modules for deploying Django applications on AWS using EC2, ECS (EC2 + Fargate), and EKS"
+django,briancaffey,12411,aws,https://github.com/briancaffey/terraform-aws-django,Terraform modules for deploying Django applications on AWS using ECS Fargate
 django,djangoflow,14737,kubernetes,https://github.com/djangoflow/terraform-kubernetes-django,Deploy Django with Terraform to Kubernetes with optional support for AWS/EKS or GCP/GKE
 django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 django,zachmullen,12659,heroku,https://github.com/zachmullen/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
@@ -3086,7 +3087,6 @@ ec2-client-vpn,cloudposse,10284,aws,https://github.com/cloudposse/terraform-aws-
 ec2-containerized-keras-env,yanuragaj,11728,aws,https://github.com/yanuragaj/terraform-aws-ec2-containerized-keras-env,
 ec2-creation,monbostest,12739,aws,https://github.com/monbostest/terraform-aws-ec2-creation,This module will be used to create a vm
 ec2-creation-example,waqasahmed1992,15102,aws,https://github.com/waqasahmed1992/terraform-aws-ec2-creation-example,
-ec2-dev-instance,s3d-group,15375,aws,https://github.com/s3d-group/terraform-aws-ec2-dev-instance,
 ec2-ebs,Tanmay-19,9511,aws,https://github.com/Tanmay-19/terraform-aws-ec2-ebs,
 ec2-ebs-attach,anushkat1,9896,aws,https://github.com/anushkat1/terraform-aws-ec2-ebs-attach,
 ec2-ebs-secgrp,Vrush-cmd,10886,aws,https://github.com/Vrush-cmd/terraform-aws-ec2-ebs-secgrp,
@@ -3175,6 +3175,7 @@ ec2-with-eip,garrotemar,4598,module,https://github.com/garrotemar/terraform-modu
 ec2-with-eip,jclopeza,2832,module,https://github.com/jclopeza/terraform-module-ec2-with-eip,
 ec2-with-eip,shkpk,10342,aws,https://github.com/shkpk/terraform-aws-ec2-with-eip,Terraform Module for AWS EC2 instance with option to enable/disable EIP and Additional Network Interface
 ec2-with-ssm-access,matt-joe-hunt,9094,aws,https://github.com/matt-joe-hunt/terraform-aws-ec2-with-ssm-access,A simple opinionated module that will deploy an EC2 instance with SSM Access
+ec2_dev_instance,s3d-group,15381,aws,https://github.com/s3d-group/terraform-aws-ec2_dev_instance,
 ec2_instance,bootlabstech,14145,aws,https://github.com/bootlabstech/terraform-aws-ec2_instance,
 ec2_vyom1,AjinkyaRonghe,7684,aws,https://github.com/AjinkyaRonghe/terraform-aws-ec2_vyom1,
 ec2fleet,mohammedalnaggar,13848,aws,https://github.com/mohammedalnaggar/terraform-aws-ec2fleet,
@@ -7503,6 +7504,7 @@ repositories,figurate,13024,github,https://github.com/figurate/terraform-github-
 repository,Flaconi,11990,github,https://github.com/Flaconi/terraform-github-repository,Terraform module for maintaining Github repo's
 repository,JamesWoolfenden,5473,github,https://github.com/JamesWoolfenden/terraform-github-repository,A module to create a github repository with a protected master
 repository,MarvelOrange,2036,github,https://github.com/MarvelOrange/terraform-github-repository,Create a GitHub repository with associated teams
+repository,TheYorkshireDev,15379,github,https://github.com/TheYorkshireDev/terraform-github-repository,Terraform Module for managing Github Repositories 
 repository,akur8-oss,11927,github,https://github.com/akur8-oss/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,boldlink,13889,github,https://github.com/boldlink/terraform-github-repository,Terraform registry repository for Github organization module
 repository,dasmeta,15306,github,https://github.com/dasmeta/terraform-github-repository,This repo allows you to create and manage repositories within your GitHub organization or personal account.
@@ -8123,6 +8125,7 @@ sampleProject,ChotelalHans,13655,azurerm,https://github.com/ChotelalHans/terrafo
 sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry-sampleec2,
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
 san-multi-zone,karankohli13,10385,acm,https://github.com/karankohli13/terraform-acm-san-multi-zone,
+sandbox,obay,15384,azure,https://github.com/obay/terraform-azure-sandbox,This Terraform module deploys a sandbox environment in Azure that will be used for testing and development purposes.
 sanjustorage,sny258,12315,azure,https://github.com/sny258/terraform-azure-sanjustorage,Repo for custom azure storage account module
 sankarbucket,Sankz-0930,12719,aws,https://github.com/Sankz-0930/terraform-aws-sankarbucket,
 sap,terraform-google-modules,2690,google,https://github.com/terraform-google-modules/terraform-google-sap,This module is a collection of multiple opinionated submodules to deploy SAP Products.
@@ -8232,6 +8235,7 @@ secure-s3-bucket-replication,Invicton-Labs,13867,aws,https://github.com/Invicton
 secure-ssh-key,rhythmictech,6163,aws,https://github.com/rhythmictech/terraform-aws-secure-ssh-key,"Creates an ssh key with a Lambda data source and saves it in a secrets manager secret, allowing the creation of ssh keys without saving them in state"
 secure-static,M1ke,4713,aws,https://github.com/M1ke/terraform-aws-secure-static,
 secure-static-website,fivexl,12187,aws,https://github.com/fivexl/terraform-aws-secure-static-website,"S3, CloudFront, Dynamic Lambda@Edge functions. Based on Terraform AWS modules"
+secure-storage,abdyusma,15377,azurerm,https://github.com/abdyusma/terraform-azurerm-secure-storage,Terraform module to create a secure Azure storage.
 secure-vpc,nozaq,1206,aws,https://github.com/nozaq/terraform-aws-secure-vpc,A terraform module to create a VPC with secure default configurations.
 secure_secrets,airasia,5112,google,https://github.com/airasia/terraform-google-secure_secrets,Terraform module for decrypting secrets (that were encrypted with KMS Keys) in GCP. Can optionally store the encrypted secrets into Secret Manager as well.
 secured-postgresql-rds,bridgecrewio,3259,aws,https://github.com/bridgecrewio/terraform-aws-secured-postgresql-rds,"A Terraform module to create an Amazon Web Services (AWS) PostgreSQL Relational Database Server (RDS) in a VPC, NAT implementing security best practices."
@@ -8986,6 +8990,7 @@ staticwebsitepublic,michealjack1,14963,azurerm,https://github.com/michealjack1/t
 staticwebsitepublic,ndrsingh-61,11195,azurerm,https://github.com/ndrsingh-61/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ngshukun,12031,azurerm,https://github.com/ngshukun/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,nmadesh20,9939,azurerm,https://github.com/nmadesh20/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,pnkjmahto029,15378,azurerm,https://github.com/pnkjmahto029/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Registry
 staticwebsitepublic,ravican09,14704,azurerm,https://github.com/ravican09/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,richbjhudson,11688,azurerm,https://github.com/richbjhudson/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,riyanshianne,13880,azurerm,https://github.com/riyanshianne/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
