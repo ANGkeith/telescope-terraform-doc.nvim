@@ -1423,6 +1423,7 @@ best-practice-084,terraform-alicloud-modules,3609,alicloud,https://github.com/te
 bfd-interface-policy,netascode,9714,aci,https://github.com/netascode/terraform-aci-bfd-interface-policy,Terraform Cisco ACI BFD Interface Policy Module
 bg-ecs-pipeline,toluna-terraform,9271,aws,https://github.com/toluna-terraform/terraform-aws-bg-ecs-pipeline,
 bgp,netascode,13412,nxos,https://github.com/netascode/terraform-nxos-bgp,Terraform Cisco NX-OS BGP Module
+bgp-over-gre-between-new-tgw-avx-transit,jye-aviatrix,15404,aviatrix,https://github.com/jye-aviatrix/terraform-aviatrix-bgp-over-gre-between-new-tgw-avx-transit,"This module builds Aviatrix Transit Gateways and TGW in the same region, then peer them using BGP over GRE."
 bgp-policy,netascode,9716,aci,https://github.com/netascode/terraform-aci-bgp-policy,Terraform Cisco ACI BGP Policy Module
 bgp-timer-policy,netascode,9718,aci,https://github.com/netascode/terraform-aci-bgp-timer-policy,Terraform Cisco ACI BGP Timer Policy Module
 bgtest,loafoe,8449,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-bgtest,Module to test blue-green deployment with Cloud foundry provider
@@ -1806,6 +1807,7 @@ cloud-init-vm,sdhibit,7189,proxmox,https://github.com/sdhibit/terraform-proxmox-
 cloud-monitoring,cloud-native-toolkit,12769,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-monitoring,Terraform module to provision an IBM Cloud Monitoring instance in an IBM Cloud account
 cloud-monitoring-bind,cloud-native-toolkit,12839,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-monitoring-bind,Module to bind an existing IBM Cloud Monitoring instance to an existing kubernetes cluster
 cloud-mysql,garbetjie,6130,google,https://github.com/garbetjie/terraform-google-cloud-mysql,Terraform module used to easily create a Google Cloud MySQL instance.
+cloud-nat,goquovn,15402,gcp,https://github.com/goquovn/terraform-gcp-cloud-nat,
 cloud-nat,terraform-google-modules,2418,google,https://github.com/terraform-google-modules/terraform-google-cloud-nat,This module handles opinionated Google Cloud Platform Cloud NAT creation and configuration.
 cloud-nodes,matti,792,kontena,https://github.com/matti/terraform-kontena-cloud-nodes,
 cloud-operations,terraform-google-modules,6086,google,https://github.com/terraform-google-modules/terraform-google-cloud-operations,This module is a collection of submodules related to Google Cloud Operations (Logging and Monitoring).
@@ -2262,6 +2264,7 @@ compute-instance,akbaribnu,1289,google,https://github.com/akbaribnu/terraform-go
 compute-instance,bootlabstech,11616,google,https://github.com/bootlabstech/terraform-google-compute-instance,
 compute-instance,darzanebor,14822,yandex,https://github.com/darzanebor/terraform-yandex-compute-instance,Yandex.Cloud Terraform Compute Instance module
 compute-instance,deepuashokan85,2018,google,https://github.com/deepuashokan85/terraform-google-compute-instance,
+compute-instance,goquovn,15401,gcp,https://github.com/goquovn/terraform-gcp-compute-instance,
 compute-instance,kral2,7445,oci,https://github.com/kral2/terraform-oci-compute-instance,"Upstream Terraform Module for the official Oracle Cloud Infrastructure Compute-Instance module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/compute-instance"
 compute-instance,lumapps,1770,google,https://github.com/lumapps/terraform-google-compute-instance,
 compute-instance,matti,632,google,https://github.com/matti/terraform-google-compute-instance,
@@ -4194,7 +4197,7 @@ fluxcd-bootstrap,andreswebs,9856,github,https://github.com/andreswebs/terraform-
 fogg-vpc,foggcloud,4705,aws,https://github.com/foggcloud/terraform-aws-fogg-vpc,
 folder,bootlabstech,11606,google,https://github.com/bootlabstech/terraform-google-folder,This is to create a google folder in an organisation using terraform.
 folder,dtoch56,15055,yandex,https://github.com/dtoch56/terraform-yandex-folder,
-folder,mineiros-io,11376,google,https://github.com/mineiros-io/terraform-google-folder,A Terraform module to create and manage folders on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/creating-managing-folders
+folder,mineiros-io,11376,google,https://github.com/mineiros-io/terraform-google-folder,A Terraform module to create and manage folders in Google Cloud https://cloud.google.com/resource-manager/docs/creating-managing-folders
 folder-iam,mineiros-io,11377,google,https://github.com/mineiros-io/terraform-google-folder-iam,A Terraform module to manage Identity and Access Management (IAM) for folders in Google Cloud https://cloud.google.com/functions
 folder-project,bootlabstech,11614,google,https://github.com/bootlabstech/terraform-google-folder-project,
 folders,Ashishkasaudhan,5136,google,https://github.com/Ashishkasaudhan/terraform-google-folders,This module helps create several folders under the same parent
@@ -4317,6 +4320,7 @@ generic-manifest,samcre,9283,k8s,https://github.com/samcre/terraform-k8s-generic
 generic-monitor,kabisa,11755,datadog,https://github.com/kabisa/terraform-datadog-generic-monitor,
 genericpassword,raimialiu,11279,password,https://github.com/raimialiu/terraform-password-genericpassword,
 geolocation,netascode,9841,aci,https://github.com/netascode/terraform-aci-geolocation,Terraform Cisco ACI Geolocation Module
+gergo-public,kadigergo,15403,aws,https://github.com/kadigergo/terraform-aws-gergo-public,
 get-secret,MrJoshLab,7267,kubernetes,https://github.com/MrJoshLab/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-secret,gearnode,854,kubernetes,https://github.com/gearnode/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-state,Invicton-Labs,9729,null,https://github.com/Invicton-Labs/terraform-null-get-state,Retrieves the current Terraform state
@@ -4434,6 +4438,7 @@ gke-private,runonautomation,7450,google,https://github.com/runonautomation/terra
 gke-regional,woernfl,1838,gcp,https://github.com/woernfl/terraform-gcp-gke-regional,Using Terraform to create a regional GKE cluster (Hosted Kubernetes offering of GCP)
 gke_cluster,Ahmeddevops-Github,7378,google,https://github.com/Ahmeddevops-Github/terraform-google-gke_cluster,
 gke_cluster,airasia,4755,google,https://github.com/airasia/terraform-google-gke_cluster,Terraform module for a GKE Kubernetes Cluster in GCP
+gke_cluster,goquovn,15398,google,https://github.com/goquovn/terraform-google-gke_cluster,
 glacier,JamesWoolfenden,9074,aws,https://github.com/JamesWoolfenden/terraform-aws-glacier,It's about glacier
 glb,badal-io,3872,google,https://github.com/badal-io/terraform-google-glb,An opinionated module for spinning up Google Global Load Balancer 
 glob-outputs,matti,857,dir,https://github.com/matti/terraform-dir-glob-outputs,
@@ -4792,6 +4797,7 @@ iam_user,terracharge,14090,aws,https://github.com/terracharge/terraform-aws-iam_
 iamgcp,theojha01,9270,google,https://github.com/theojha01/terraform-google-iamgcp,
 iap,AckeeCZ,13071,gcp,https://github.com/AckeeCZ/terraform-gcp-iap,GCP IAP setup helper module
 iap-bastion,onetwopunch,2962,google,https://github.com/onetwopunch/terraform-google-iap-bastion,Terraform module for a bastion that is accessible via IAP on Google Cloud
+icloud-dns,bluk,15405,cloudflare,https://github.com/bluk/terraform-cloudflare-icloud-dns,Unofficial Terraform module to create Cloudflare records for setting up iCloud.
 icp,GSLabDev,1207,module,https://github.com/GSLabDev/terraform-module-icp,Terraform module for IBM Cloud Platform which is IBM's cloud orchestration platform. Module helps in doing installation of ICP in Distributed and Base mode.
 id,BrynardSecurity-terraform,12996,random,https://github.com/BrynardSecurity-terraform/terraform-random-id,
 identifier,devops-ip,1581,aws,https://github.com/devops-ip/terraform-aws-identifier,
@@ -6151,7 +6157,7 @@ mongodb,everest-engineering,5019,aws,https://github.com/everest-engineering/terr
 mongodb,skydome,3045,kubernetes,https://github.com/skydome/terraform-kubernetes-mongodb,MongoDB replicaset setup for Kubernetes
 mongodb,terraform-alicloud-modules,2386,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-mongodb,Terraform module which creates MongoDB Replicate instance and other resources on Alibaba Cloud.
 mongodb,toluna-terraform,10506,aws,https://github.com/toluna-terraform/terraform-aws-mongodb,Integrating MongoDB Atlas with AWS infra
-mongodb-backup,dasmeta,10394,aws,https://github.com/dasmeta/terraform-aws-mongodb-backup,
+mongodb-backup,dasmeta,10394,aws,https://github.com/dasmeta/terraform-aws-mongodb-backup,Terraform module to backup mongodb contents into S3 for AWS / EKS
 mongodb-ec2,everest-engineering,5017,aws,https://github.com/everest-engineering/terraform-aws-mongodb-ec2,Terraform MongoDB provisioner using AWS EC2
 mongodb-ecs,everest-engineering,5016,aws,https://github.com/everest-engineering/terraform-aws-mongodb-ecs,Terraform module to provision MongoDB using AWS-ECS
 mongodb-multi,terraform-alicloud-modules,10153,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-mongodb-multi,
@@ -7447,6 +7453,7 @@ redis-elasticache,azavea,168,aws,https://github.com/azavea/terraform-aws-redis-e
 redis-idle-connection-cleanup,StratusGrid,8730,aws,https://github.com/StratusGrid/terraform-aws-redis-idle-connection-cleanup,
 redis-service,philips-labs,9153,hsdp,https://github.com/philips-labs/terraform-hsdp-redis-service,Provision Redis on HSP which is prometheus metrics endpoint
 redis_store,airasia,4751,google,https://github.com/airasia/terraform-google-redis_store,Terraform module for a Redis MemoryStore in GCP
+redis_store,goquovn,15399,gcp,https://github.com/goquovn/terraform-gcp-redis_store,
 redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-aws-redshift,Basic Redshift module
 redshift,QuiNovas,1496,aws,https://github.com/QuiNovas/terraform-aws-redshift,Creates a Redshift cluster
 redshift,terraform-aws-modules,299,aws,https://github.com/terraform-aws-modules/terraform-aws-redshift,Terraform module which creates Redshift resources on AWS 🇺🇦
@@ -9285,6 +9292,7 @@ tenant,insobi,12880,aci,https://github.com/insobi/terraform-aci-tenant,Manage AC
 tenant,netascode,9555,aci,https://github.com/netascode/terraform-aci-tenant,Terraform Cisco ACI Tenant Module
 tenant,qzx,9441,aci,https://github.com/qzx/terraform-aci-tenant,"A terraform module to set up a simple ACI tenant with VRFs, Bridge Domains, Application Profiles, EPGs and VMM domain mapping"
 tenant-components,qzx,11211,aci,https://github.com/qzx/terraform-aci-tenant-components,Add components to an ACI tenant
+tenant-management,getindata,15397,azurerm,https://github.com/getindata/terraform-azurerm-tenant-management,"Terraform module for configuring Azure Tenant: Management Groups, Azure Policy, Subscription. "
 tencentcloud-ssl,StarUbiquitous,13326,module,https://github.com/StarUbiquitous/terraform-module-tencentcloud-ssl,Terraform module which creates tencentcloud ssl bucket for each domain in the list
 tensorflow,terraform-alicloud-modules,4205,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-tensorflow,Terraform Module for deploying Tensorflow on Alibaba Cloud.
 terrablog,davidnewman,1393,aws,https://github.com/davidnewman/terraform-aws-terrablog,Terraform module for provisioning S3/CloudFront hosted sites.
@@ -9938,6 +9946,7 @@ vpc,gentledev10,7949,aws,https://github.com/gentledev10/terraform-aws-vpc,Terraf
 vpc,gitrahimi,5811,aws,https://github.com/gitrahimi/terraform-aws-vpc,A customizable VPC for AWS
 vpc,glavk,13317,yandex,https://github.com/glavk/terraform-yandex-vpc,Terraform module which creates VPC resources on Yandex.Cloud
 vpc,gogosy,9962,aws,https://github.com/gogosy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,goquovn,15400,gcp,https://github.com/goquovn/terraform-gcp-vpc,
 vpc,gulmira07,6717,aws,https://github.com/gulmira07/terraform-aws-vpc,
 vpc,hack-doom,10644,aws,https://github.com/hack-doom/terraform-aws-vpc,
 vpc,hamnsk,11328,yandex,https://github.com/hamnsk/terraform-yandex-vpc,
