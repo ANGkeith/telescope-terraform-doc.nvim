@@ -3240,6 +3240,7 @@ ecr,mineiros-io,4335,aws,https://github.com/mineiros-io/terraform-aws-ecr,A Terr
 ecr,mrexojo,7167,aws,https://github.com/mrexojo/terraform-aws-ecr,Terraform module to create AWS ECR with customized policy
 ecr,oozou,14501,aws,https://github.com/oozou/terraform-aws-ecr,Terraform ECR component for AWS
 ecr,rabiloo,9878,aws,https://github.com/rabiloo/terraform-aws-ecr,Terraform module which creates ECR repository resources on AWS.
+ecr,sudo-terraform-aws-modules,15462,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecr,Terraform module to create the ECR repo.
 ecr,techadontech,8127,aws,https://github.com/techadontech/terraform-aws-ecr,"AWS ECR Terraform module, production ready"
 ecr,telia-oss,1392,aws,https://github.com/telia-oss/terraform-aws-ecr,A Terraform module for creating a cross-account-accessible ECR repository. 
 ecr,terraform-aws-modules,13125,aws,https://github.com/terraform-aws-modules/terraform-aws-ecr,Terraform module which creates AWS ECR resources 🇺🇦
@@ -3352,10 +3353,12 @@ ecs-cluster,opendevsecops,1783,aws,https://github.com/opendevsecops/terraform-aw
 ecs-cluster,rhythmictech,3123,aws,https://github.com/rhythmictech/terraform-aws-ecs-cluster,Create an ECS cluster in AWS fronted by an ALB
 ecs-cluster,santi698,464,aws,https://github.com/santi698/terraform-aws-ecs-cluster,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) cluster.
 ecs-cluster,springload,2519,aws,https://github.com/springload/terraform-aws-ecs-cluster,terraform >=0.12 module for AWS ECS cluster
+ecs-cluster,sudo-terraform-aws-modules,15463,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-cluster,Terraform module to create ECS Cluster
 ecs-cluster,terraform-alicloud-modules,3322,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-cluster,Terraform module which creates ECS cluster on Alibaba Cloud
 ecs-cluster,trussworks,1276,aws,https://github.com/trussworks/terraform-aws-ecs-cluster,Creates an ECS cluster backed by an Auto Scaling Group
 ecs-cluster,yurymkomarov,4794,aws,https://github.com/yurymkomarov/terraform-aws-ecs-cluster,AWS ECS Cluster
 ecs-codepipeline,cloudposse,1155,aws,https://github.com/cloudposse/terraform-aws-ecs-codepipeline,Terraform Module for CI/CD with AWS Code Pipeline and Code Build for ECS https://cloudposse.com/
+ecs-container,sudo-terraform-aws-modules,15461,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-container,Terraform module to configure ECS Containers
 ecs-container-definition,0xdutra,7220,aws,https://github.com/0xdutra/terraform-aws-ecs-container-definition,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the  aws_ecs_task_definition Terraform resource
 ecs-container-definition,PGBI,2855,aws,https://github.com/PGBI/terraform-aws-ecs-container-definition,
 ecs-container-definition,Puneeth-n,10103,aws,https://github.com/Puneeth-n/terraform-aws-ecs-container-definition,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the  aws_ecs_task_definition Terraform resource
@@ -3472,6 +3475,7 @@ ecs-service,nashant,4562,aws,https://github.com/nashant/terraform-aws-ecs-servic
 ecs-service,nogsantos,14345,aws,https://github.com/nogsantos/terraform-aws-ecs-service,Terraform AWS ECS Service definitions
 ecs-service,npalm,737,aws,https://github.com/npalm/terraform-aws-ecs-service,Terraform module to create ECS / FARGATE services
 ecs-service,philips-software,1250,aws,https://github.com/philips-software/terraform-aws-ecs-service,Terraform module to create an AWS ECS service
+ecs-service,sudo-terraform-aws-modules,15464,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-service,
 ecs-service,terra-mod,4245,aws,https://github.com/terra-mod/terraform-aws-ecs-service,"AWS ECS Service with support for Load Balancing, Service Discovery and Auto Scaling"
 ecs-service,trussworks,1347,aws,https://github.com/trussworks/terraform-aws-ecs-service,Creates an ECS Service.
 ecs-service,yurymkomarov,4795,aws,https://github.com/yurymkomarov/terraform-aws-ecs-service,AWS ECS Service
@@ -3488,6 +3492,7 @@ ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-e
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-services,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
+ecs-task,sudo-terraform-aws-modules,15465,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-task,Terraform module to create ECS Task Defintion
 ecs-task-definition,PGBI,3455,aws,https://github.com/PGBI/terraform-aws-ecs-task-definition,
 ecs-task-definition,bryan-rhm,12058,aws,https://github.com/bryan-rhm/terraform-aws-ecs-task-definition,Terraform module for ECS Task Definition
 ecs-task-definition,docebo-labs,8659,aws,https://github.com/docebo-labs/terraform-aws-ecs-task-definition,A Terraform module for creating Amazon ECS Task Definitions
@@ -5923,7 +5928,9 @@ loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terr
 longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
+lz-hub,ldesmons-telstra,15459,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-hub,Terraform modules for a hub VNET in an Azure Landing Zone
 lz-keyvault,andrewCluey,6531,azurerm,https://github.com/andrewCluey/terraform-azurerm-lz-keyvault,terraform module to deploy KeyVault to a LandingZone
+lz-spoke,ldesmons-telstra,15460,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-spoke,
 lz-vending,Azure,14402,azurerm,https://github.com/Azure/terraform-azurerm-lz-vending,Terraform module to deploy landing zone subscriptions
 maas,mc-b,13092,lerncloud,https://github.com/mc-b/terraform-lerncloud-maas,LernCloud Terraform MAAS.io Modul
 macie,clouddrove,10952,aws,https://github.com/clouddrove/terraform-aws-macie,
@@ -8244,6 +8251,7 @@ secrets-manager,lgallard,5321,aws,https://github.com/lgallard/terraform-aws-secr
 secrets-manager,pogosoftware,13139,aws,https://github.com/pogosoftware/terraform-aws-secrets-manager,
 secrets-manager,rocketlawyer,6000,google,https://github.com/rocketlawyer/terraform-google-secrets-manager,Terraform module for managing GCP secrets manager
 secrets-manager,so1omon563,14204,aws,https://github.com/so1omon563/terraform-aws-secrets-manager,Create and manage secrets in Secrets Manager.
+secrets-manager,we-work-in-the-cloud,15466,ibm,https://github.com/we-work-in-the-cloud/terraform-ibm-secrets-manager,Helpers for Secrets Manager
 secrets-manager-parser,hendrixroa,8090,aws,https://github.com/hendrixroa/terraform-aws-secrets-manager-parser,AWS Secrets manager parser to handle ECS containers or another integration service.
 secrets-store-csi,SPHTech-Platform,14005,aws,https://github.com/SPHTech-Platform/terraform-aws-secrets-store-csi,Module to install secrets-store csi driver and aws secrets-store provider
 secretsmanager,SweetOps,10458,aws,https://github.com/SweetOps/terraform-aws-secretsmanager,Terraform module to provision and manage AWS Secrets Manager
@@ -8997,6 +9005,7 @@ staticsite,JamesWoolfenden,2714,aws,https://github.com/JamesWoolfenden/terraform
 staticsite,devtheops,844,aws,https://github.com/devtheops/terraform-aws-staticsite,The Terraform module creates everything needed to make a static website
 staticsite,justincampbell,86,aws,https://github.com/justincampbell/terraform-aws-staticsite,"Terraform module for an S3 website, logging, and DNSimple records"
 staticwebpublic,KiranNirmalkar,11740,azurerm,https://github.com/KiranNirmalkar/terraform-azurerm-staticwebpublic,Terraform static website 
+staticwebsite,Rajkumar-21,15458,azurerm,https://github.com/Rajkumar-21/terraform-azurerm-staticwebsite,Terraform local modules shared in Terraform registry public
 staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform-azurerm-staticwebsite,
 staticwebsite,mittalabhishek02,12854,azurerm,https://github.com/mittalabhishek02/terraform-azurerm-staticwebsite,Terraform Module for static website in Azure
 staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform-aws-staticwebsite,Terraform module to setup a static website with good defaults on S3 + CloudFront
