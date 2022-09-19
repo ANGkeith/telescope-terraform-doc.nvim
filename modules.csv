@@ -34,6 +34,7 @@ EC2-Instance,skatta3,5317,aws,https://github.com/skatta3/terraform-aws-EC2-Insta
 EC2-SG-apache,skatta3,8300,aws,https://github.com/skatta3/terraform-aws-EC2-SG-apache,
 EC2-VPC-Webserver,swamirajp7,11539,aws,https://github.com/swamirajp7/terraform-aws-EC2-VPC-Webserver,
 EKS,erkinsinc,5911,aws,https://github.com/erkinsinc/terraform-aws-EKS,
+EKS-Cluster,yashhirulkar701,15477,aws,https://github.com/yashhirulkar701/terraform-aws-EKS-Cluster,
 EdgeAcceleratedWebsite,Miouge1,4964,packet,https://github.com/Miouge1/terraform-packet-EdgeAcceleratedWebsite,Website accelerated using the Bare Metal Edge Accelerator Terraform Module
 EdgeAccelerator,Miouge1,4965,packet,https://github.com/Miouge1/terraform-packet-EdgeAccelerator,Bare Metal Edge Accelerator/Reverse Proxy Terraform Module
 FGT-SDWAN-Module,WEEMR,8589,aws,https://github.com/WEEMR/terraform-aws-FGT-SDWAN-Module,"Terraform Script that will create VPC, Private Subnet, Public Subnet and a FGT with 2 x WAN interfaces for SD-WAN"
@@ -1030,7 +1031,9 @@ athena,babbel,8048,aws,https://github.com/babbel/terraform-aws-athena,"Terraform
 athena,cloudposse,14959,aws,https://github.com/cloudposse/terraform-aws-athena,
 athena-cloudfront-logs-integration,KumarManoj-S,7669,aws,https://github.com/KumarManoj-S/terraform-aws-athena-cloudfront-logs-integration,
 athena-iam-policy,dod-iac,8102,aws,https://github.com/dod-iac/terraform-aws-athena-iam-policy,IAM Policy that allows use of AWS Athena
+athena-lb-log-table,ekanai,15480,aws,https://github.com/ekanai/terraform-aws-athena-lb-log-table,
 athena-partitions,rokerlabs,9498,aws,https://github.com/rokerlabs/terraform-aws-athena-partitions,Scheduled Lambda function to partition Athena tables
+athena-s3-log-table,ekanai,15469,aws,https://github.com/ekanai/terraform-aws-athena-s3-log-table,
 athena-task,QuiNovas,2344,aws,https://github.com/QuiNovas/terraform-aws-athena-task,Module that implements L3 function athena-task
 athena-view,iconara,6508,aws,https://github.com/iconara/terraform-aws-athena-view,Terraform module for creating Athena views
 athena-workgroup,dod-iac,8114,aws,https://github.com/dod-iac/terraform-aws-athena-workgroup,AWS Athena workgroup
@@ -2452,6 +2455,7 @@ cron,garbetjie,5806,kubernetes,https://github.com/garbetjie/terraform-kubernetes
 cron-ecs-task,hendrixroa,5705,aws,https://github.com/hendrixroa/terraform-aws-cron-ecs-task,Module to automate the ecs task integrated with cron jobs
 cron-job,dvargas92495,6378,aws,https://github.com/dvargas92495/terraform-aws-cron-job,
 cron-to-lambda,Olgoetz,10523,aws,https://github.com/Olgoetz/terraform-aws-cron-to-lambda,Terraform module to trigger a lambda function via cron.
+cronjob,djangoflow,15478,kubernetes,https://github.com/djangoflow/terraform-kubernetes-cronjob,"A kubernetes cronjob, suitable for backing up things to GCS (and not only)"
 cross-account,OT-CLOUD-KIT,7311,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account,
 cross-account-access,lablabs,4554,aws,https://github.com/lablabs/terraform-aws-cross-account-access,
 cross-account-devops-role,fmontezuma,2924,aws,https://github.com/fmontezuma/terraform-aws-cross-account-devops-role,
@@ -3624,6 +3628,7 @@ eks,clouddrove,9091,aws,https://github.com/clouddrove/terraform-aws-eks,"Terrafo
 eks,codezenith,4492,aws,https://github.com/codezenith/terraform-aws-eks,AWS EKS template
 eks,cookpad,4551,aws,https://github.com/cookpad/terraform-aws-eks,A Terraform module to Provision AWS Elastic Kubernetes (EKS) clusters and worker nodes
 eks,dasmeta,14938,aws,https://github.com/dasmeta/terraform-aws-eks,
+eks,dreckguy,15482,aws,https://github.com/dreckguy/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,elioseverojunior,14262,aws,https://github.com/elioseverojunior/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,farrukh90,4506,aws,https://github.com/farrukh90/terraform-aws-eks,
 eks,foss-cafe,5646,aws,https://github.com/foss-cafe/terraform-aws-eks,Terraform module for AWS EKS
@@ -4559,6 +4564,7 @@ hashistack.tf,mildred,5613,local,https://github.com/mildred/terraform-local-hash
 hasura,7hoenix,4141,aws,https://github.com/7hoenix/terraform-aws-hasura,Terraform module to deploy Hasura graphql engine on AWS
 hasura,Rayraegah,2599,aws,https://github.com/Rayraegah/terraform-aws-hasura,Terraform module to deploy Hasura graphql engine on AWS
 hasura,thewillhuang,7422,aws,https://github.com/thewillhuang/terraform-aws-hasura,Terraform module to deploy Hasura graphql engine on AWS
+hasura-cluster,PackagePortal,15485,aws,https://github.com/PackagePortal/terraform-aws-hasura-cluster,Makes a hasura cluster
 hazelcast,everest-engineering,5268,kubernetes,https://github.com/everest-engineering/terraform-kubernetes-hazelcast,Terraform module to provision single or multiple member Hazelcast clusters on Kubernetes
 hazelcast-ecs,everest-engineering,5255,aws,https://github.com/everest-engineering/terraform-aws-hazelcast-ecs,Terraform module to provision Hazelcast (single-node or multi-node) on AWS ECS
 hbase,terraform-alicloud-modules,7048,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-hbase,Terraform module which creates a HBase database on Alibaba Cloud.
@@ -5928,9 +5934,9 @@ loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terr
 longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
-lz-hub,ldesmons-telstra,15459,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-hub,Terraform modules for a hub VNET in an Azure Landing Zone
+lz-hub,ldesmons-telstra,15486,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-hub,Terraform module for a hub vnet in an Azure Landing Zone.
 lz-keyvault,andrewCluey,6531,azurerm,https://github.com/andrewCluey/terraform-azurerm-lz-keyvault,terraform module to deploy KeyVault to a LandingZone
-lz-spoke,ldesmons-telstra,15460,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-spoke,
+lz-spoke,ldesmons-telstra,15481,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-spoke,Terraform module for a spoke vnet in an Azure Landing Zone.
 lz-vending,Azure,14402,azurerm,https://github.com/Azure/terraform-azurerm-lz-vending,Terraform module to deploy landing zone subscriptions
 maas,mc-b,13092,lerncloud,https://github.com/mc-b/terraform-lerncloud-maas,LernCloud Terraform MAAS.io Modul
 macie,clouddrove,10952,aws,https://github.com/clouddrove/terraform-aws-macie,
@@ -6080,6 +6086,7 @@ migrationtest,cgriggs01,2067,null,https://github.com/cgriggs01/terraform-null-mi
 migrationtest,terraform-azure-modules,2006,null,https://github.com/terraform-azure-modules/terraform-null-migrationtest,Terraform Registry Migration Test
 mime-map,reifnir,8579,null,https://github.com/reifnir/terraform-null-mime-map,This Terraform module returns a map of file extensions to content/MIME types (no characterset encoding info). It also takes a map of custom types that can be used to augment the list with missing/custom types as well or override existing values.
 minecraft,0luhancheng0,14351,aws,https://github.com/0luhancheng0/terraform-aws-minecraft,
+minecraft-server,brucellino,15484,digitalocean,https://github.com/brucellino/terraform-digitalocean-minecraft-server,Minecraft server on Digital Ocean
 minecraft-server,cezarmathe,8796,docker,https://github.com/cezarmathe/terraform-docker-minecraft-server,A Terraform module for deploying a Vanilla Minecraft Server. Uses itzg/minecraft-server.
 minecraft-server-properties,cezarmathe,8739,null,https://github.com/cezarmathe/terraform-null-minecraft-server-properties,Create a server.properties configuration for your Minecraft server.
 miniflux,huy-nguyen,5675,google,https://github.com/huy-nguyen/terraform-google-miniflux,Terraform module for the Miniflux feed reader app on Google Cloud Platform
@@ -6583,7 +6590,8 @@ nginx-controller,terraform-iaac,9125,helm,https://github.com/terraform-iaac/terr
 nginx-demo-app,codygreen,3228,aws,https://github.com/codygreen/terraform-aws-nginx-demo-app,Terraform module to deploy a lightweight demo application from NGINX
 nginx-ingress-controller,byuoitav,4196,kubernetes,https://github.com/byuoitav/terraform-kubernetes-nginx-ingress-controller,
 nginx-ingress-controller,sanarena,7310,kubernetes,https://github.com/sanarena/terraform-kubernetes-nginx-ingress-controller,
-nginx-server,paul-cruz,15268,aws,https://github.com/paul-cruz/terraform-aws-nginx-server,Dev module for create an EC2 instance hosting a nginx server with terraform
+nginx-server,paul-cruz,15468,aws,https://github.com/paul-cruz/terraform-aws-nginx-server,Dev module for create an EC2 instance hosting a nginx server with terraform
+nginx-server,paul-cruz,15470,google,https://github.com/paul-cruz/terraform-google-nginx-server,Dev module for create a Compute Engine instance hosting a nginx server with terraform
 nginxOrigin,jjjulllesss,13646,aws,https://github.com/jjjulllesss/terraform-aws-nginxOrigin,
 nia-module,vmware,8690,avi,https://github.com/vmware/terraform-avi-nia-module,Repository for Hashicorp NIA module for NSX Advance Load Balancer
 nia-udp,AdrienneCohea,11314,google,https://github.com/AdrienneCohea/terraform-google-nia-udp,Create a DNS A record to expose a UDP service on a VM
@@ -6687,7 +6695,7 @@ ocean-gke,spotinst,6613,spotinst,https://github.com/spotinst/terraform-spotinst-
 ocean-gke-import,stevenfeltner,10459,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-import,Terraform module for Spotinst provider resource spotinst_ocean_gke_import
 ocean-gke-launchspec,stevenfeltner,10460,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-launchspec,Terraform module for Spotinst provider resource spotinst_ocean_gke_launch_spec
 ocean-metric-exporter,spotinst,13436,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-metric-exporter,A Terraform module to install Ocean Metric Exporter using Helm.
-ocean-network-client,spotinst,15323,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-network-client,
+ocean-network-client,spotinst,15483,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-network-client,A Terraform module to install Ocean Network Client using Helm.
 ocean-spark,spotinst,12992,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-spark,
 oci-controller,AviatrixSystems,14898,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-oci-controller,
 oci-spoke,terraform-aviatrix-modules,5498,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-oci-spoke,This module deploys a VCN and an Aviatrix spoke gateway in OCI with HA.
@@ -9685,6 +9693,7 @@ virtual-machine,kumarvna,5443,azurerm,https://github.com/kumarvna/terraform-azur
 virtual-machine,philipdvo,12812,azure,https://github.com/philipdvo/terraform-azure-virtual-machine,
 virtual-machine,sagar2395,12775,azurerm,https://github.com/sagar2395/terraform-azurerm-virtual-machine,Terraform module to deploy single or multiple Virtual Machines of Linux or Windows with optional features.
 virtual-machine,vancluever,1193,vsphere,https://github.com/vancluever/terraform-vsphere-virtual-machine,Universal module for deploying vSphere virtual machines with Terraform
+virtual-machine,yashhirulkar701,15479,azure,https://github.com/yashhirulkar701/terraform-azure-virtual-machine,
 virtual-machine-standalone,iankesh,6238,azure,https://github.com/iankesh/terraform-azure-virtual-machine-standalone,"This is a Terraform custom standalone module to create Virtual Machine in Azure Cloud. In background, it creates Resource Group, Virtual Network, Subnet, Public IP, Network Interface Controller, Security Group also with Virtual Machine."
 virtual-machines,kjanshair,1433,azurerm,https://github.com/kjanshair/terraform-azurerm-virtual-machines,A Terraform module used to create one or more Linux Virtual Machine.
 virtual-machines,vnkomv,2850,vsphere,https://github.com/vnkomv/terraform-vsphere-virtual-machines,Terraform module for create multiple virtual machines on VMWare vSphere
