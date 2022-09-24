@@ -559,6 +559,7 @@ api-gateway-stage,corpit-consulting-public,2934,aws,https://github.com/corpit-co
 api-gateway-static-endpoint,scaffoldly,10082,aws,https://github.com/scaffoldly/terraform-aws-api-gateway-static-endpoint,
 api-gateway-v2,infrablocks,13462,aws,https://github.com/infrablocks/terraform-aws-api-gateway-v2,Terraform module for deploying an API gateway to AWS using the V2 API
 api-gateway-v2-private-integration,infrablocks,13571,aws,https://github.com/infrablocks/terraform-aws-api-gateway-v2-private-integration,Terraform module for deploying a private integration for a API gateway in AWS using the V2 API
+api-gateway-vpc-link,adamwshero,15579,aws,https://github.com/adamwshero/terraform-aws-api-gateway-vpc-link,Terragrunt friendly module to create one or many REST & HTTP VPC Links for API Gateway v1 & v2. 🇺🇦
 api-gateway-waf,dod-iac,4699,aws,https://github.com/dod-iac/terraform-aws-api-gateway-waf,AWS WAF Regional Web ACL for use with AWS API Gateway REST API
 api-generic,DemystData,6946,aws,https://github.com/DemystData/terraform-aws-api-generic,
 api-generic,barneyparker,4643,aws,https://github.com/barneyparker/terraform-aws-api-generic,
@@ -3338,6 +3339,7 @@ ecs-capacity-provider,ganexcloud,13152,aws,https://github.com/ganexcloud/terrafo
 ecs-cloud9,hazelops,4848,aws,https://github.com/hazelops/terraform-aws-ecs-cloud9,Terraform Cloud9 IDE on ECS
 ecs-cloudwatch-autoscaling,cloudposse,1394,aws,https://github.com/cloudposse/terraform-aws-ecs-cloudwatch-autoscaling,Terraform module to autoscale ECS Service based on CloudWatch metrics
 ecs-cloudwatch-sns-alarms,cloudposse,1245,aws,https://github.com/cloudposse/terraform-aws-ecs-cloudwatch-sns-alarms,Terraform module to create CloudWatch Alarms on ECS Service level metrics.
+ecs-cluster,7Factor,15576,aws,https://github.com/7Factor/terraform-aws-ecs-cluster,Base ECS cluster terraform for managing your tasks.
 ecs-cluster,PGBI,2857,aws,https://github.com/PGBI/terraform-aws-ecs-cluster,
 ecs-cluster,anonymint,490,aws,https://github.com/anonymint/terraform-aws-ecs-cluster,Terraform script to create ECS cluster
 ecs-cluster,aws-ia,10194,aws,https://github.com/aws-ia/terraform-aws-ecs-cluster,AWS ECS
@@ -3880,6 +3882,7 @@ elasticache-redis,kurron,710,aws,https://github.com/kurron/terraform-aws-elastic
 elasticache-redis,lablabs,3792,aws,https://github.com/lablabs/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,opzkit,10617,aws,https://github.com/opzkit/terraform-aws-elasticache-redis,
 elasticache-redis,rails-on-services,3589,aws,https://github.com/rails-on-services/terraform-aws-elasticache-redis,Manages AWS Redis Elasticache
+elasticache-redis,stroeer,15574,aws,https://github.com/stroeer/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,tmknom,1886,aws,https://github.com/tmknom/terraform-aws-elasticache-redis,Terraform module which creates Redis ElastiCache resources on AWS.
 elasticache-redis,umotif-public,3795,aws,https://github.com/umotif-public/terraform-aws-elasticache-redis,A Terraform module to create an AWS Redis ElastiCache cluster.
 elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimian/terraform-aws-elasticache-redis-cluster,
@@ -5353,7 +5356,6 @@ kms-key,oozou,14503,aws,https://github.com/oozou/terraform-aws-kms-key,Terraform
 kms-keys,terraform-components,14348,google,https://github.com/terraform-components/terraform-google-kms-keys,
 kms-share,truemark,8657,aws,https://github.com/truemark/terraform-aws-kms-share,
 kms-share-multi-accounts,devops-made-easy,4904,aws,https://github.com/devops-made-easy/terraform-aws-kms-share-multi-accounts,Terraform module to create kms key and share access to multi accounts with IAM and Users
-kms02,bootlabstech,15569,google,https://github.com/bootlabstech/terraform-google-kms02,
 kms_keyring,airasia,5088,google,https://github.com/airasia/terraform-google-kms_keyring,Terraform module for KMS Key Rings and KMS Keys in GCP
 komiser-iam,BarefootCoders,3889,aws,https://github.com/BarefootCoders/terraform-aws-komiser-iam,Terraform module to create Komiser IAM within AWS
 kong,bennu,6332,helm,https://github.com/bennu/terraform-helm-kong,Allow to use Helm with Kong Chart as Kong Ingress Controller or as just only an API Gateway on kubernetes
@@ -6173,6 +6175,7 @@ module-instance-db,MAARK,15021,linode,https://github.com/MAARK/terraform-linode-
 module-nia,nvibert,10392,fortios,https://github.com/nvibert/terraform-fortios-module-nia,A module to be used with Consul-Terraform-Sync to push objects to Fortinet appliances
 module-output,chavo1,4142,aws,https://github.com/chavo1/terraform-aws-module-output,
 module-private-route53-zones-and-subdomains,elioseverojunior,12017,aws,https://github.com/elioseverojunior/terraform-aws-module-private-route53-zones-and-subdomains,Terraform AWS Module for Private Route53 Zone and SubDomains Creation
+module-ramesh1,ramesh0307,15577,aws,https://github.com/ramesh0307/terraform-aws-module-ramesh1,
 module-test,eduardogspereira,11953,registry,https://github.com/eduardogspereira/terraform-registry-module-test,
 module-test,hiroto3432,10191,aws,https://github.com/hiroto3432/terraform-aws-module-test,
 module-test-jenkins,Azure,669,azurerm,https://github.com/Azure/terraform-azurerm-module-test-jenkins,The test infrastructure (Jenkins on Azure VM) to be provisioned for Terraform module testing purpose.
@@ -6340,10 +6343,12 @@ mys3bucket,SenaritraAccenture,13231,aws,https://github.com/SenaritraAccenture/te
 mys3bucket,Shindhujaa,12947,aws,https://github.com/Shindhujaa/terraform-aws-mys3bucket,
 mys3bucket,chandrakalahk,14527,aws,https://github.com/chandrakalahk/terraform-aws-mys3bucket,
 mys3bucket,cskabi,13230,aws,https://github.com/cskabi/terraform-aws-mys3bucket,demo
+mys3bucket,hiteshacct,15570,aws,https://github.com/hiteshacct/terraform-aws-mys3bucket,terraform training
 mys3bucket,karthik-2311,13404,aws,https://github.com/karthik-2311/terraform-aws-mys3bucket,terraform-aws-mys3bucket
 mys3bucket,manas820,13235,aws,https://github.com/manas820/terraform-aws-mys3bucket,Terraform S3 Bucket
 mys3bucket,mohd-mohsin,12720,aws,https://github.com/mohd-mohsin/terraform-aws-mys3bucket,
 mys3bucket,mrunalini-d,12944,aws,https://github.com/mrunalini-d/terraform-aws-mys3bucket,
+mys3bucket,sudeshnadchowdhury,15571,aws,https://github.com/sudeshnadchowdhury/terraform-aws-mys3bucket,
 mys3bucket,sudipta-maity,13228,aws,https://github.com/sudipta-maity/terraform-aws-mys3bucket,
 mys3bucket,ugideepak,14337,aws,https://github.com/ugideepak/terraform-aws-mys3bucket,
 mys3bucket,yagami6,14524,aws,https://github.com/yagami6/terraform-aws-mys3bucket,My first terrafrom module
@@ -7194,6 +7199,7 @@ pubsub-topic,mineiros-io,12938,google,https://github.com/mineiros-io/terraform-g
 pubsub-topic,snowplow-devops,9992,google,https://github.com/snowplow-devops/terraform-google-pubsub-topic,
 pubsub-topic-iam,mineiros-io,12939,google,https://github.com/mineiros-io/terraform-google-pubsub-topic-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub Topics on Google Cloud Platform (GCP) https://cloud.google.com/pubsub
 puppet,admintome,486,nomad,https://github.com/admintome/terraform-nomad-puppet,Terraform module to deploy a puppet environment to a nomad cluster
+purple-s3-cloudfront,sprylab,15575,aws,https://github.com/sprylab/terraform-aws-purple-s3-cloudfront,Terraform module to configure Cloudfront for custom bucket configurations
 push-to-s3,axetrading,15385,axetrading,https://github.com/axetrading/terraform-axetrading-push-to-s3,A simple Terraform module that reads the contents of yaml or json files (or both) and turns it into objects that can be used later with the terraform_remote_state data source.
 pypi-server,madagra,7700,aws,https://github.com/madagra/terraform-aws-pypi-server,"Deploy a private, password-protected PyPi repository on an AWS EC2 instance"
 pyramids,omariosman,14929,aws,https://github.com/omariosman/terraform-aws-pyramids,
@@ -8103,6 +8109,7 @@ s3backend,SupSkiFun,10533,aws,https://github.com/SupSkiFun/terraform-aws-s3backe
 s3backend,Thirsty2,5070,aws,https://github.com/Thirsty2/terraform-aws-s3backend,
 s3backend,adriaanbd,6618,aws,https://github.com/adriaanbd/terraform-aws-s3backend,
 s3backend,alexchronopoulos,5853,aws,https://github.com/alexchronopoulos/terraform-aws-s3backend,
+s3backend,alexey-rudenko,15580,aws,https://github.com/alexey-rudenko/terraform-aws-s3backend,
 s3backend,alfonzjanfrithz,7306,aws,https://github.com/alfonzjanfrithz/terraform-aws-s3backend,
 s3backend,ammarion,7595,aws,https://github.com/ammarion/terraform-aws-s3backend,
 s3backend,arnoldharteveld,6593,aws,https://github.com/arnoldharteveld/terraform-aws-s3backend,
@@ -8466,6 +8473,7 @@ serverless-pypi-cognito,amancevice,4101,aws,https://github.com/amancevice/terraf
 serverless-react,chroto,969,aws,https://github.com/chroto/terraform-aws-serverless-react,"Terraform module which creates S3, CloudFront, and Route53 resources for hosting a React application"
 serverless-resource,Accurate0,14253,aws,https://github.com/Accurate0/terraform-aws-serverless-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
 serverless-resource,mewa,1015,aws,https://github.com/mewa/terraform-aws-serverless-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
+serverless-scheduled-function,mcozd,15573,aws,https://github.com/mcozd/terraform-aws-serverless-scheduled-function,
 serverless-static-wordpress,TechToSpeech,9087,aws,https://github.com/TechToSpeech/terraform-aws-serverless-static-wordpress,Terraform module for deploying Serverless Static Wordpress on AWS
 serverless-tf,rms1000watt,1287,aws,https://github.com/rms1000watt/terraform-aws-serverless-tf,Serverless but in Terraform 😉
 serverless-user,silinternational,7379,aws,https://github.com/silinternational/terraform-aws-serverless-user,Terraform module for creating an limited acess IAM user for the Serverless framework
@@ -9455,6 +9463,7 @@ tfc-cloud-agent,cloudposse,6379,kubernetes,https://github.com/cloudposse/terrafo
 tfc-iam-credentials-rotation,Olgoetz,13142,aws,https://github.com/Olgoetz/terraform-aws-tfc-iam-credentials-rotation,Module to set up automated iam credential rotation for TFC
 tfc-state-backup,Olgoetz,11832,aws,https://github.com/Olgoetz/terraform-aws-tfc-state-backup,Solution for automated backups of Terraform Cloud workspaces.
 tfc-workload-identity,SPHTech-Platform,15342,aws,https://github.com/SPHTech-Platform/terraform-aws-tfc-workload-identity,Workload Identity for AWS on Terraform Cloud
+tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-Platform/terraform-google-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
 tfe-management,mikesupertrampster-corp,12447,module,https://github.com/mikesupertrampster-corp/terraform-module-tfe-management,Maintained by Terraform
