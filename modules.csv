@@ -97,6 +97,7 @@ access-leaf-interface-profile,netascode,9678,aci,https://github.com/netascode/te
 access-leaf-interface-selector,netascode,9861,aci,https://github.com/netascode/terraform-aci-access-leaf-interface-selector,Terraform Cisco ACI Access Leaf Interface Selector Module
 access-leaf-switch-policy-group,netascode,9679,aci,https://github.com/netascode/terraform-aci-access-leaf-switch-policy-group,Terraform Cisco ACI Access Leaf Switch Policy Group Module
 access-leaf-switch-profile,netascode,9687,aci,https://github.com/netascode/terraform-aci-access-leaf-switch-profile,Terraform Cisco ACI Access Leaf Switch Profile Module
+access-logs-slos,kabisa,15634,datadog,https://github.com/kabisa/terraform-datadog-access-logs-slos,
 access-spine-interface-policy-group,netascode,9703,aci,https://github.com/netascode/terraform-aci-access-spine-interface-policy-group,Terraform Cisco ACI Access Spine Interface Policy Group Module
 access-spine-interface-profile,netascode,9705,aci,https://github.com/netascode/terraform-aci-access-spine-interface-profile,Terraform Cisco ACI Access Spine Interface Profile Module
 access-spine-interface-selector,netascode,10323,aci,https://github.com/netascode/terraform-aci-access-spine-interface-selector,Terraform Cisco ACI Access Spine Interface Selector Module
@@ -349,6 +350,7 @@ alarm-chat-notification,aloukiala,5006,aws,https://github.com/aloukiala/terrafor
 alarms,kiwicom,3025,datadog,https://github.com/kiwicom/terraform-datadog-alarms,
 alb,AustinCloudGuru,3558,aws,https://github.com/AustinCloudGuru/terraform-aws-alb,Terraform Module for creating and managing Application Load Balancers
 alb,HDE,4278,aws,https://github.com/HDE/terraform-aws-alb,A Terraform module to create an AWS Application Load Balancer (ALB) and associated resources.
+alb,HENNGE,15632,aws,https://github.com/HENNGE/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources 🇺🇦
 alb,MagnetarIT,4620,aws,https://github.com/MagnetarIT/terraform-aws-alb,Terraform module for a AWS Application Load Balancer
 alb,OT-CLOUD-KIT,5147,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-alb,
 alb,StayWell,2325,aws,https://github.com/StayWell/terraform-aws-alb,Deploy multiple resources needed for an optimal ALB deployment
@@ -508,6 +510,7 @@ apache-gk,HoldemGK,12898,aws,https://github.com/HoldemGK/terraform-aws-apache-gk
 apache-guacamole,devoptimist,3007,linux,https://github.com/devoptimist/terraform-linux-apache-guacamole,
 apache-guacamole,srb3,3926,linux,https://github.com/srb3/terraform-linux-apache-guacamole,
 apache-hello-world,tajpouria,12207,google,https://github.com/tajpouria/terraform-google-apache-hello-world,"NOT PRODUCTION READY: This module allows you to create a` google_compute_instance` resource, and configures an apache web server on it."
+apache-server,kabisa,15635,datadog,https://github.com/kabisa/terraform-datadog-apache-server,
 apache-superset,philips-labs,10390,hsdp,https://github.com/philips-labs/terraform-hsdp-apache-superset,Module to deploy Apache Superset on HSDP Container Host
 apex-redirect,USSBA,14449,aws,https://github.com/USSBA/terraform-aws-apex-redirect,A Terraform Module for the AWS Domain Apex Redirect
 api,hellofresh,3055,janus,https://github.com/hellofresh/terraform-janus-api,A terraform provider for the janus API-Gateway
@@ -2001,6 +2004,7 @@ cloudrun-lb,odise,8052,google,https://github.com/odise/terraform-google-cloudrun
 cloudrun-public-byo-domainname,kennedycmr,9818,google,https://github.com/kennedycmr/terraform-google-cloudrun-public-byo-domainname,"Module that provisions Cloud Run with a new public IP, fronted with a load balancer and Cloud Armor."
 cloudrun-service,bootlabstech,13628,google,https://github.com/bootlabstech/terraform-google-cloudrun-service,module for creation of cloud run service.
 cloudshell-vnet,dsmithcloud,11068,azurerm,https://github.com/dsmithcloud/terraform-azurerm-cloudshell-vnet,Terraform Module to provision all the resources necessary to connect Cloud Shell to an existing Azure VNET
+cloudsource,JamesWoolfenden,15641,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloudsource,Basic cloudsource module
 cloudsql,JamesWoolfenden,3449,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloudsql,A module to create a private database setup
 cloudsql,binxio,6881,google,https://github.com/binxio/terraform-google-cloudsql,Generic Google CloudSQL module for Terraform
 cloudsql,google-terraform-modules,1234,google,https://github.com/google-terraform-modules/terraform-google-cloudsql,Create instance CloudSQL (GCP)
@@ -2177,6 +2181,7 @@ codecommit-flow-ci,plus3it,1201,aws,https://github.com/plus3it/terraform-aws-cod
 codecommit-repository,figurate,5042,aws,https://github.com/figurate/terraform-aws-codecommit-repository,Provision and mirror Git repositories in CodeCommit
 codecommit-sqs,riboseinc,502,aws,https://github.com/riboseinc/terraform-aws-codecommit-sqs,Terraform module for creating an AWS CodeCommit repo with Trigger for SQS and Queue that works with Jenkins CodeCommit Trigger Plugin
 codedeploy,Cloud-42,3916,aws,https://github.com/Cloud-42/terraform-aws-codedeploy,"Simple module that creates a CodeDeploy application, deployment group & associates the deployment group with an ASG."
+codedeploy,JamesWoolfenden,15644,aws,https://github.com/JamesWoolfenden/terraform-aws-codedeploy,Basic codedeploy module
 codedeploy,foss-cafe,7257,aws,https://github.com/foss-cafe/terraform-aws-codedeploy,
 codedeploy-ecr,l4gdev,13340,aws,https://github.com/l4gdev/terraform-aws-codedeploy-ecr,
 codedeploy-for-ecs,faros-ai,7160,aws,https://github.com/faros-ai/terraform-aws-codedeploy-for-ecs,Terraform module which creates CodeDeploy for ECS resources on AWS.
@@ -2321,6 +2326,7 @@ config,playgroundtech,9147,aws,https://github.com/playgroundtech/terraform-aws-c
 config,rhythmictech,5100,aws,https://github.com/rhythmictech/terraform-aws-config,Creates and starts an AWS Config Configuration Recorder
 config,snapdocs,8168,aws,https://github.com/snapdocs/terraform-aws-config,sets up aws config
 config,trussworks,628,aws,https://github.com/trussworks/terraform-aws-config,Enables AWS Config and adds managed config rules with good defaults.
+config-enable-module,systemsmystery,15650,aws,https://github.com/systemsmystery/terraform-aws-config-enable-module,Terraform module to enable AWS config in a given region
 config-export,netascode,9768,aci,https://github.com/netascode/terraform-aci-config-export,Terraform Cisco ACI Config Export Module
 config-files,scaffoldly,9475,github,https://github.com/scaffoldly/terraform-github-config-files,Writes config files to ./scaffoldly for all services in all environments to the repo for the service.
 config-map-from-gcp-storage,DiagVN,9078,kubernetes,https://github.com/DiagVN/terraform-kubernetes-config-map-from-gcp-storage,k8s-config-map-from-gcp-storage
@@ -3989,6 +3995,7 @@ es-cluster,corpit-consulting-public,4061,aws,https://github.com/corpit-consultin
 es-cluster,egarbi,577,aws,https://github.com/egarbi/terraform-aws-es-cluster,Create an elasticsearch domain with VPC support in AWS
 es-cluster,moroleandro,8501,aws,https://github.com/moroleandro/terraform-aws-es-cluster,Create an elasticsearch domain with VPC support in AWS
 esapm,philips-labs,6113,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-esapm,Terraform module to set up an Elastic APM enabled cluster and the Kibana frontend
+escalation-policy,adamwshero,15646,pagerduty,https://github.com/adamwshero/terraform-pagerduty-escalation-policy,Terraform & Terragrunt friendly module to create one or many escalation policies & targets. 🇺🇦
 escalation-policy,hazelops,7239,pagerduty,https://github.com/hazelops/terraform-pagerduty-escalation-policy,
 esg-nia,CiscoDevNet,8698,aci,https://github.com/CiscoDevNet/terraform-aci-esg-nia,
 esg-nia,joatmon08,10214,aci,https://github.com/joatmon08/terraform-aci-esg-nia,
@@ -4762,6 +4769,7 @@ iam-policies,jfcantu,4300,aws,https://github.com/jfcantu/terraform-aws-iam-polic
 iam-policies,micronode,4906,aws,https://github.com/micronode/terraform-aws-iam-policies,A collection of custom IAM policies to augment the available defaults.
 iam-policies,tomarv2,8273,aws,https://github.com/tomarv2/terraform-aws-iam-policies,Terraform module for AWS IAM policies
 iam-policies,truemark,8813,aws,https://github.com/truemark/terraform-aws-iam-policies,
+iam-policy,7cloud-terraform-modules,15638,aws,https://github.com/7cloud-terraform-modules/terraform-aws-iam-policy,Iam Policy Module
 iam-policy,anthunt,6118,aws,https://github.com/anthunt/terraform-aws-iam-policy,
 iam-policy,boldlink,14455,aws,https://github.com/boldlink/terraform-aws-iam-policy,Terraform registry repository for AWS IAM Policy module
 iam-policy,bryan-rhm,12036,aws,https://github.com/bryan-rhm/terraform-aws-iam-policy,Terraform AWS IAM Policy module
@@ -5149,6 +5157,7 @@ k8s,tnguyen14,4783,do,https://github.com/tnguyen14/terraform-do-k8s,Terraform mo
 k8s,ulm0,3337,do,https://github.com/ulm0/terraform-do-k8s,Module for building kubernetes on Digital Ocean
 k8s,wellingtonking,12140,digitalocean,https://github.com/wellingtonking/terraform-digitalocean-k8s,Terraform module that handles the very baseline setup of a Kubernetes cluster within Digitalocean.
 k8s-addons-argocd,opzkit,10618,aws,https://github.com/opzkit/terraform-aws-k8s-addons-argocd,
+k8s-addons-cluster-autoscaler,opzkit,15636,aws,https://github.com/opzkit/terraform-aws-k8s-addons-cluster-autoscaler,
 k8s-addons-external-dns,opzkit,10924,aws,https://github.com/opzkit/terraform-aws-k8s-addons-external-dns,
 k8s-addons-external-secrets,opzkit,10615,aws,https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets,
 k8s-addons-external-secrets-operator,opzkit,11531,aws,https://github.com/opzkit/terraform-aws-k8s-addons-external-secrets-operator,
@@ -5982,6 +5991,7 @@ managed-instance,stevenfeltner,10088,spotinst,https://github.com/stevenfeltner/t
 managed-instance-group,GoogleCloudPlatform,26,google,https://github.com/GoogleCloudPlatform/terraform-google-managed-instance-group,Modular Google Compute Engine managed instance group for Terraform.
 managed-instance-group,aniruddhanavare,2657,google,https://github.com/aniruddhanavare/terraform-google-managed-instance-group,
 managed-instance-group,badal-io,3874,google,https://github.com/badal-io/terraform-google-managed-instance-group,Modular Google Compute Engine managed instance group for Terraform.
+managed-instance-group,bootlabstech,15637,google,https://github.com/bootlabstech/terraform-google-managed-instance-group,creates a GCP MIG.
 managed-kubernetes,sport24ru,6339,yandex,https://github.com/sport24ru/terraform-yandex-managed-kubernetes,A terraform module to create a managed Kubernetes cluster on Yandex Cloud.
 managed-kubernetes,terraform-alicloud-modules,3630,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-managed-kubernetes,Terraform module which create Managed Kubernetes cluster(s) on Alibaba Cloud.
 managed-policies,yukihira1992,3376,aws,https://github.com/yukihira1992/terraform-aws-managed-policies,A collection of AWS managed policies.
@@ -6851,7 +6861,7 @@ organization,terracharge,14093,aws,https://github.com/terracharge/terraform-aws-
 organization,terracharge,14098,github,https://github.com/terracharge/terraform-github-organization,Module for creating terraform-github-organization with provider github. This description is created automagically
 organization-access-group,cloudposse,913,aws,https://github.com/cloudposse/terraform-aws-organization-access-group,Terraform module to create an IAM Group and Policy to grant permissions to delegated IAM users in the Organization's master account to access a member account
 organization-access-role,cloudposse,911,aws,https://github.com/cloudposse/terraform-aws-organization-access-role,Terraform module to create an IAM Role to grant permissions to delegated IAM users in the master account to access an invited member account
-organization-iam,mineiros-io,11749,google,https://github.com/mineiros-io/terraform-google-organization-iam,A Terraform module to manage Identity and Access Management (IAM) for organizations on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/access-control-org
+organization-iam,mineiros-io,11749,google,https://github.com/mineiros-io/terraform-google-organization-iam,A Terraform module to manage Identity and Access Management (IAM) for organizations in Google Cloud https://cloud.google.com/resource-manager/docs/access-control-org
 organization-policy,mineiros-io,12940,google,https://github.com/mineiros-io/terraform-google-organization-policy,A Terraform module to create and manage an Organization Policy for a Google Cloud Organization on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/organization-policy/overview
 organization-secret,mineiros-io,11118,github,https://github.com/mineiros-io/terraform-github-organization-secret,A Terraform module to manage GitHub Organization Secrets. https://github.com/
 organization-structure,Invicton-Labs,12211,aws,https://github.com/Invicton-Labs/terraform-aws-organization-structure,
@@ -6961,7 +6971,52 @@ pods-oom-op-pack,terraform-shoreline-modules,13395,shoreline,https://github.com/
 polardb-mysql,terraform-alicloud-modules,12816,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-polardb-mysql,Terraform Module for creating PolarDB for MySQL on Alibaba Cloud.
 polardb-postgresql,terraform-alicloud-modules,12817,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-polardb-postgresql,Terraform Module for creating PolarDB for PostgreSQL on Alibaba Cloud.
 policies,OT-terraform-azure-modules,15455,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-policies,
+policies-adapter-configuration,terraform-cisco-modules,15585,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-adapter-configuration,Terraform - Intersight > Policies > Adapter Configuration Module
+policies-bios,terraform-cisco-modules,15586,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-bios,Terraform - Intersight > Policies > BIOS Module
+policies-boot-order,terraform-cisco-modules,15587,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-boot-order,Terraform - Intersight > Policies > Boot Order Module
+policies-certificate-management,terraform-cisco-modules,15588,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-certificate-management,Terraform - Intersight > Policies > Certificate Management Module
+policies-device-connector,terraform-cisco-modules,15589,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-device-connector,Terraform - Intersight > Policies > Device Connector Module
+policies-ethernet-adapter,terraform-cisco-modules,15590,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ethernet-adapter,Terraform - Intersight > Policies > Ethernet Adapter Module
+policies-ethernet-network,terraform-cisco-modules,15591,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ethernet-network,Terraform - Intersight > Policies > Ethernet Network Module
+policies-ethernet-network-control,terraform-cisco-modules,15592,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ethernet-network-control,Terraform - Intersight > Policies > Ethernet Network Control Module
+policies-ethernet-network-group,terraform-cisco-modules,15593,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ethernet-network-group,Terraform - Intersight > Policies > Ethernet Network Group Module
+policies-ethernet-qos,terraform-cisco-modules,15594,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ethernet-qos,Terraform - Intersight > Policies > Ethernet QoS Module
+policies-fc-zone,terraform-cisco-modules,15595,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-fc-zone,Terraform - Intersight > Policies > FC Zone Module
+policies-fibre-channel-adapter,terraform-cisco-modules,15596,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-fibre-channel-adapter,Terraform - Intersight > Policies > Fibre-Channel Adapter Module
+policies-fibre-channel-network,terraform-cisco-modules,15597,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-fibre-channel-network,Terraform - Intersight > Policies > Fibre-Channel Network Module
+policies-fibre-channel-qos,terraform-cisco-modules,15598,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-fibre-channel-qos,Terraform - Intersight > Policies > Fibre-Channel QoS Module
+policies-flow-control,terraform-cisco-modules,15599,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-flow-control,Terraform - Intersight > Policies > Flow Control Module
+policies-imc-access,terraform-cisco-modules,15600,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-imc-access,Terraform - Intersight > Policies > IMC Access Module
+policies-ipmi-over-lan,terraform-cisco-modules,15601,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ipmi-over-lan,Terraform - Intersight > Policies > IPMI Over LAN Module
+policies-iscsi-adapter,terraform-cisco-modules,15602,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-iscsi-adapter,Terraform - Intersight > Policies > iSCSI Adapter Module
+policies-iscsi-boot,terraform-cisco-modules,15603,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-iscsi-boot,Terraform - Intersight > Policies > iSCSI Boot Module
+policies-iscsi-static-target,terraform-cisco-modules,15604,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-iscsi-static-target,Terraform - Intersight > Policies > iSCSI Static Target Module
+policies-lan-connectivity,terraform-cisco-modules,15605,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-lan-connectivity,Terraform - Intersight > Policies > LAN Connectivity Module
+policies-ldap,terraform-cisco-modules,15606,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ldap,Terraform - Intersight > Policies > LDAP Module
 policies-library,jeliyo,11835,foundational,https://github.com/jeliyo/terraform-foundational-policies-library,"Sentinel is a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions. This repository contains a library of Sentinel policies, developed by HashiCorp, that can be consumed directly within the Terraform Cloud platform."
+policies-link-aggregation,terraform-cisco-modules,15607,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-link-aggregation,Terraform - Intersight > Policies > Link Aggregation Module
+policies-link-control,terraform-cisco-modules,15608,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-link-control,Terraform - Intersight > Policies > Link Control Module
+policies-local-user,terraform-cisco-modules,15609,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-local-user,Terraform - Intersight > Policies > Local User Module
+policies-multicast,terraform-cisco-modules,15610,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-multicast,Terraform - Intersight > Policies > Multicast Module
+policies-network-connectivity,terraform-cisco-modules,15611,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-network-connectivity,Terraform - Intersight > Policies > Network Connectivity Module
+policies-ntp,terraform-cisco-modules,15612,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ntp,Terraform - Intersight > Policies > NTP Module
+policies-port,terraform-cisco-modules,15613,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-port,Terraform - Intersight > Policies > Port Module
+policies-power,terraform-cisco-modules,15614,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-power,Terraform - Intersight > Policies > Power Module
+policies-san-connectivity,terraform-cisco-modules,15616,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-san-connectivity,Terraform - Intersight > Policies > SAN Connectivity Module
+policies-sd-card,terraform-cisco-modules,15615,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-sd-card,Terraform - Intersight > Policies > SD Card Module
+policies-serial-over-lan,terraform-cisco-modules,15617,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-serial-over-lan,Terraform - Intersight > Policies > Serial Over LAN Module
+policies-smtp,terraform-cisco-modules,15618,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-smtp,Terraform - Intersight > Policies > SMTP Module
+policies-snmp,terraform-cisco-modules,15619,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-snmp,Terraform - Intersight > Policies > SNMP Module
+policies-ssh,terraform-cisco-modules,15620,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-ssh,Terraform - Intersight > Policies > SSH Module
+policies-storage,terraform-cisco-modules,15621,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-storage,Terraform - Intersight > Policies > Storage Module
+policies-switch-control,terraform-cisco-modules,15622,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-switch-control,Terraform - Intersight > Policies > Switch Control Module
+policies-syslog,terraform-cisco-modules,15623,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-syslog,Terraform - Intersight > Policies > Syslog Module
+policies-system-qos,terraform-cisco-modules,15624,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-system-qos,Terraform - Intersight > Policies > System QoS Module
+policies-thermal,terraform-cisco-modules,15625,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-thermal,Terraform - Intersight > Policies > Thermal Module
+policies-virtual-kvm,terraform-cisco-modules,15626,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-virtual-kvm,Terraform - Intersight > Policies > Virtual KVM Module
+policies-virtual-media,terraform-cisco-modules,15627,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-virtual-media,Terraform - Intersight > Policies > Virtual Media Module
+policies-vlan,terraform-cisco-modules,15628,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-vlan,Terraform - Intersight > Policies > VLAN Module
+policies-vsan,terraform-cisco-modules,15629,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-vsan,Terraform - Intersight > Policies > VSAN Module
 policies_collect-wsc,mehdi-wsc,5185,aws,https://github.com/mehdi-wsc/terraform-aws-policies_collect-wsc,Terraform Module to collect Json Policies
 policy,avinor,2858,azurerm,https://github.com/avinor/terraform-azurerm-policy,Terraform module to apply policies to a scopes.
 policy,claranet,3507,azurerm,https://github.com/claranet/terraform-azurerm-policy,Terraform module for Azure Policy
@@ -7007,6 +7062,7 @@ port-channel-policy,netascode,10247,aci,https://github.com/netascode/terraform-a
 port-tracking,netascode,10249,aci,https://github.com/netascode/terraform-aci-port-tracking,Terraform Cisco ACI Port Tracking Module
 portainer,jhole89,4949,kubernetes,https://github.com/jhole89/terraform-kubernetes-portainer,Terraform module for running portainer on Kubernetes
 portworx-addon,portworx,15169,eksblueprints,https://github.com/portworx/terraform-eksblueprints-portworx-addon,Github repo for Portworx EKS blueprint addon module and sample templates
+portworx-enterprise,portworx,15633,ibm,https://github.com/portworx/terraform-ibm-portworx-enterprise,Terraform Module to manage Portworx Enterprise on IKS in IBM Cloud
 portworx-instance,portworx,1024,portworx,https://github.com/portworx/terraform-portworx-portworx-instance,Terraform module for deploying Portworx persistent data fabric for containers
 postbuild-config,mjmenger,8710,bigip,https://github.com/mjmenger/terraform-bigip-postbuild-config,
 postfix,programmfabrik,14965,kubernetes,https://github.com/programmfabrik/terraform-kubernetes-postfix,A terraform module to run postfix in Kubernetes.
@@ -8363,6 +8419,7 @@ security-center,kumarvna,6264,azurerm,https://github.com/kumarvna/terraform-azur
 security-group,ArpanBalpande,5588,aws,https://github.com/ArpanBalpande/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS
 security-group,BrynardSecurity-terraform,13345,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
 security-group,HDE,4280,aws,https://github.com/HDE/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS
+security-group,HENNGE,15631,aws,https://github.com/HENNGE/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
 security-group,HiroyukiYagihashi,6288,aws,https://github.com/HiroyukiYagihashi/terraform-aws-security-group,
 security-group,MagnetarIT,4617,aws,https://github.com/MagnetarIT/terraform-aws-security-group,Terraform module which creates Security Group in AWS 
 security-group,Olgoetz,7154,aws,https://github.com/Olgoetz/terraform-aws-security-group,Terraform module to create an AWS security group with unique name.
@@ -8485,7 +8542,7 @@ serverless-webapp,apparentlymart,784,aws,https://github.com/apparentlymart/terra
 serverless-webapp,terraform-alicloud-modules,4008,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-serverless-webapp,Terraform module which deploys serverless web applications on Alibaba Cloud.
 serverless-workflow,terraform-alicloud-modules,12797,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-serverless-workflow,Terraform Module for creating Serverless Workflow resources on Alibaba Cloud.
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
-service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service, CloudWatch integration, Slack extension, and SNS topic/subscription."
+service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,Terraform & Terragrunt friendly module to create a PagerDuty service with Slack & CloudWatch integration. 🇺🇦
 service,hazelops,7242,pagerduty,https://github.com/hazelops/terraform-pagerduty-service,
 service,matti,780,kontena,https://github.com/matti/terraform-kontena-service,
 service,mineiros-io,11365,google,https://github.com/mineiros-io/terraform-google-service,A Terraform module to create and manage API services for projects on Google Cloud Platform (GCP) https://cloud.google.com
@@ -8595,6 +8652,7 @@ sfabric,Bee-Projects,1617,gcp,https://github.com/Bee-Projects/terraform-gcp-sfab
 sfabric,Bee-Projects,1618,azure,https://github.com/Bee-Projects/terraform-azure-sfabric,Terraform module for launching a Service Fabric Dev Environment on Azure
 sfn,genstackio,7999,aws,https://github.com/genstackio/terraform-aws-sfn,Terraform module to create an AWS Step Functions state machinecodebuild project
 sfn-state,jhole89,5630,aws,https://github.com/jhole89/terraform-aws-sfn-state,
+sftp,andresb39,15649,aws,https://github.com/andresb39/terraform-aws-sftp,Terraform AWS Transfer Family with Identity Provider
 sftp,clouddrove,4511,aws,https://github.com/clouddrove/terraform-aws-sftp,This terraform module is used to create sftp on AWS for S3.
 sftp,trussworks,3690,aws,https://github.com/trussworks/terraform-aws-sftp,Configures an AWS SFTP Server (aka AWS Transfer Server)
 sftp-custom-idp,itprosource,13208,aws,https://github.com/itprosource/terraform-aws-sftp-custom-idp,"Template for AWS Transfer Family SFTP server in VPC with Custom IDP via API Gateway, Lambda, and Secrets Manager. "
@@ -9007,6 +9065,7 @@ statebucket,JamesWoolfenden,7622,azurerm,https://github.com/JamesWoolfenden/terr
 stateful-set,terraform-iaac,8075,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-stateful-set,
 statefulset,ballj,15370,kubernetes,https://github.com/ballj/terraform-kubernetes-statefulset,Creates a kubernetes StatefulSet and service.
 stateless-ssm-parameter,umihico,11787,aws,https://github.com/umihico/terraform-aws-stateless-ssm-parameter,Terraform module which creates ssm paratemers without leaking raw values on git and tfstates
+statemachine,JamesWoolfenden,15645,aws,https://github.com/JamesWoolfenden/terraform-aws-statemachine,Basic Statemachine module
 static,JamesWoolfenden,6467,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-static,Basic static site module
 static-app,DNXLabs,5751,aws,https://github.com/DNXLabs/terraform-aws-static-app,This is a module that creates a static application with a OAI Cloudfront.
 static-assets,gruntwork-io,2441,google,https://github.com/gruntwork-io/terraform-google-static-assets,"Modules for managing static assets (CSS, JS, images) in GCP"
@@ -9938,6 +9997,7 @@ vpc,Gheorghe-Rodideal,7110,google,https://github.com/Gheorghe-Rodideal/terraform
 vpc,Gulara7,12628,aws,https://github.com/Gulara7/terraform-aws-vpc,
 vpc,GuldenM,9384,aws,https://github.com/GuldenM/terraform-aws-vpc,
 vpc,HDE,4281,aws,https://github.com/HDE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,HENNGE,15630,aws,https://github.com/HENNGE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,HiroyukiYagihashi,6285,aws,https://github.com/HiroyukiYagihashi/terraform-aws-vpc,
 vpc,Indirka,7733,aws,https://github.com/Indirka/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,JamesWoolfenden,1957,aws,https://github.com/JamesWoolfenden/terraform-aws-vpc,Creates a VPC and public and private sub-nets for a classic AWS VPC set-up
@@ -10311,6 +10371,7 @@ vpc-ecs-eip,terraform-alicloud-modules,10411,alicloud,https://github.com/terrafo
 vpc-ecs-rds-slb,terraform-alicloud-modules,10406,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-ecs-rds-slb,
 vpc-ecs-rds-slb-redis,terraform-alicloud-modules,10412,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-ecs-rds-slb-redis,
 vpc-eks,babakDoraniArab,11827,aws,https://github.com/babakDoraniArab/terraform-aws-vpc-eks,a terraform code to run aws vpc and eks
+vpc-eks,ekanatbekov,15640,aws,https://github.com/ekanatbekov/terraform-aws-vpc-eks,
 vpc-endpoint,genstackio,7899,aws,https://github.com/genstackio/terraform-aws-vpc-endpoint,Terraform module to create a VPC endpoint
 vpc-endpoints,clowdhaus,8418,aws,https://github.com/clowdhaus/terraform-aws-vpc-endpoints,Terraform module which creates AWS VPC endpoint resources
 vpc-endpoints,dod-iac,10155,aws,https://github.com/dod-iac/terraform-aws-vpc-endpoints,Creates a set of VPC endpoints for the given VPC
@@ -10612,6 +10673,8 @@ wordpress,StayWell,2379,aws,https://github.com/StayWell/terraform-aws-wordpress,
 wordpress,alexandarp,967,digitalocean,https://github.com/alexandarp/terraform-digitalocean-wordpress,Launch a WordPress Droplet with 1 command
 wordpress,erkinsinc,5840,aws,https://github.com/erkinsinc/terraform-aws-wordpress,with elastic load balancer and auto scaling group support
 wordpress,gulmira07,6735,aws,https://github.com/gulmira07/terraform-aws-wordpress,
+wordpress,marieane22,15584,gcp,https://github.com/marieane22/terraform-gcp-wordpress,
+wordpress,marieane22,15639,azure,https://github.com/marieane22/terraform-azure-wordpress,
 wordpress,pixelicous,2524,aws,https://github.com/pixelicous/terraform-aws-wordpress,Provisions WordPress on AWS according to best practice document
 wordpress,terraform-alicloud-modules,4124,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-wordpress,Terraform module which deploy a wordpress based on Alibaba Cloud ECS instance and RDS  Mysql database.
 wordpress-2-tier,turanmehmet,7803,aws,https://github.com/turanmehmet/terraform-aws-wordpress-2-tier,Intallation wordpress server with 2 tier application
