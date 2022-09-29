@@ -2016,7 +2016,7 @@ cloudsql-core-postgresql,kiwicom,3033,google,https://github.com/kiwicom/terrafor
 cloudsql-ha,google-terraform-modules,991,google,https://github.com/google-terraform-modules/terraform-google-cloudsql-ha,Create Google CloudSQL HA (RR)
 cloudsql-instance,iqz-systems,13443,google,https://github.com/iqz-systems/terraform-google-cloudsql-instance,Terraform module to create a non-HA CloudSQL instance with meaningful defaults.
 cloudsql-misc,kiwicom,3034,google,https://github.com/kiwicom/terraform-google-cloudsql-misc,
-cloudsql-proxy,appchoose,15658,google,https://github.com/appchoose/terraform-google-cloudsql-proxy,This terraform module provides a Cloud SQL proxy container instance on a COS vm
+cloudsql-proxy,appchoose,15658,google,https://github.com/appchoose/terraform-google-cloudsql-proxy,This module provides a Cloud SQL proxy container instance on a COS vm
 cloudsql-proxy,basisai,7203,helm,https://github.com/basisai/terraform-helm-cloudsql-proxy,
 cloudsql-proxy,colinwilson,8967,docker,https://github.com/colinwilson/terraform-docker-cloudsql-proxy,Deploy a Cloud SQL Proxy service on a Docker Swarm host
 cloudsql-serverless-database-export,ammilam,15002,google,https://github.com/ammilam/terraform-google-cloudsql-serverless-database-export,
@@ -2072,6 +2072,7 @@ cloudwatch-dashboard,HENNGE,6650,aws,https://github.com/HENNGE/terraform-aws-clo
 cloudwatch-dashboard,cloud-legends,15153,aws,https://github.com/cloud-legends/terraform-aws-cloudwatch-dashboard,An opinionated dashboard for CloudWatch
 cloudwatch-dashboard,zahorniak,6151,aws,https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard,Terraform module which creates CloudWatch Dashboard
 cloudwatch-event,JousP,4106,aws,https://github.com/JousP/terraform-aws-cloudwatch-event,Terraform module to create an aws_cloudwatch_event rule and target
+cloudwatch-event,akirosit,15667,aws,https://github.com/akirosit/terraform-aws-cloudwatch-event,Terraform module to deploy Cloudwatch Events
 cloudwatch-event,figurate,8024,aws,https://github.com/figurate/terraform-aws-cloudwatch-event,Templates for event triggers and targets
 cloudwatch-event,ganexcloud,14716,aws,https://github.com/ganexcloud/terraform-aws-cloudwatch-event,
 cloudwatch-event-rule,clouddrove,6401,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-event-rule,Terraform module to create cloudwatch event rule on AWS.
@@ -2544,6 +2545,7 @@ dashboards,Vinayaks439,11670,signalfx,https://github.com/Vinayaks439/terraform-s
 data,diego-alves,8269,aws,https://github.com/diego-alves/terraform-aws-data,A Terraform Module for obtein dta from AWS resource
 data,tedilabs,11566,aws,https://github.com/tedilabs/terraform-aws-data,🌳 A sustainable Terraform Package which creates resources for Data Services on AWS
 data-ami,Smartbrood,559,aws,https://github.com/Smartbrood/terraform-aws-data-ami,"Terraform module to get Ubuntu, Centos, AWS ECS optimized AMI IDs for working region"
+data-changes,s3d-club,15664,external,https://github.com/s3d-club/terraform-external-data-changes,Provider that reads the current version from the changelog
 data-factory,Umanis,10145,azurerm,https://github.com/Umanis/terraform-azurerm-data-factory,Terraform Azure RM Data Factory module 
 data-factory,claranet,11921,azurerm,https://github.com/claranet/terraform-azurerm-data-factory,Terraform module for Azure Data Factory
 data-fusion,terraform-google-modules,5026,google,https://github.com/terraform-google-modules/terraform-google-data-fusion,[ALPHA] Terraform module for managing Cloud Data Fusion
@@ -2551,6 +2553,7 @@ data-get-accountid,stevenfeltner,11710,spotinst,https://github.com/stevenfeltner
 data-lake,okassov,11620,module,https://github.com/okassov/terraform-module-data-lake,
 data-lake-gen2,ingenii-solutions,8822,azurerm,https://github.com/ingenii-solutions/terraform-azurerm-data-lake-gen2,"This module can be used to deploy Azure Data Lake Storage file system. The Data Lake Storage is just a feature of an Azure Storage Account. Using the module you can also create containers (directories), paths (sub-directories), network access rules and manage the permissions of the storage account."
 data-management-for-tanzu,saintdle,9772,vsphere,https://github.com/saintdle/terraform-vsphere-data-management-for-tanzu,
+data-name-tags,s3d-club,15665,external,https://github.com/s3d-club/terraform-external-data-name-tags,Terraform External Name and Tag Module
 data-pipeline-ecs-task,dod-iac,10612,aws,https://github.com/dod-iac/terraform-aws-data-pipeline-ecs-task,An ECS task as part of a data pipeline
 data-pipeline-iam-policy,dod-iac,10594,aws,https://github.com/dod-iac/terraform-aws-data-pipeline-iam-policy,
 data-result-mappings,Kagashino,15006,tencentcloud,https://github.com/Kagashino/terraform-tencentcloud-data-result-mappings,A terraform module contains static output keys of most of tencentcloud datasource result
@@ -3090,6 +3093,7 @@ ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terra
 ec2,phyominhtun1990,6155,aws,https://github.com/phyominhtun1990/terraform-aws-ec2,terraform for aws ec2
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-ec2,Manages EC2 instance
+ec2,s3d-club,15660,aws,https://github.com/s3d-club/terraform-aws-ec2,
 ec2,sakshigawande12,11232,aws,https://github.com/sakshigawande12/terraform-aws-ec2,
 ec2,sohanyadav,3631,aws,https://github.com/sohanyadav/terraform-aws-ec2,Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 ec2,sowmya-1234,7179,aws,https://github.com/sowmya-1234/terraform-aws-ec2,
@@ -3262,6 +3266,7 @@ ecr,mineiros-io,4335,aws,https://github.com/mineiros-io/terraform-aws-ecr,A Terr
 ecr,mrexojo,7167,aws,https://github.com/mrexojo/terraform-aws-ecr,Terraform module to create AWS ECR with customized policy
 ecr,oozou,14501,aws,https://github.com/oozou/terraform-aws-ecr,Terraform ECR component for AWS
 ecr,rabiloo,9878,aws,https://github.com/rabiloo/terraform-aws-ecr,Terraform module which creates ECR repository resources on AWS.
+ecr,s3d-club,15666,aws,https://github.com/s3d-club/terraform-aws-ecr,Terraform for AWS ECR
 ecr,sudo-terraform-aws-modules,15462,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecr,Terraform module to create the ECR repo.
 ecr,techadontech,8127,aws,https://github.com/techadontech/terraform-aws-ecr,"AWS ECR Terraform module, production ready"
 ecr,telia-oss,1392,aws,https://github.com/telia-oss/terraform-aws-ecr,A Terraform module for creating a cross-account-accessible ECR repository. 
@@ -3806,6 +3811,7 @@ eks-istio-operator,bakuppus,10701,aws,https://github.com/bakuppus/terraform-aws-
 eks-jupyterhub,dabble-of-devops-bioanalyze,10448,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
 eks-jupyterhub,dabble-of-devops-biodeploy,10357,aws,https://github.com/dabble-of-devops-biodeploy/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
 eks-jx,jenkins-x,4459,aws,https://github.com/jenkins-x/terraform-aws-eks-jx,A Terraform module for creating Jenkins X infrastructure on AWS
+eks-karpenter,lablabs,15668,aws,https://github.com/lablabs/terraform-aws-eks-karpenter,A terraform module to deploy the karpenter on Amazon EKS cluster.
 eks-keda,DNXLabs,10947,aws,https://github.com/DNXLabs/terraform-aws-eks-keda,Terraform module for deploying Kubernetes-based Event Driven Autoscaler (KEDA) inside a pre-existing EKS cluster.
 eks-keda,lablabs,14210,aws,https://github.com/lablabs/terraform-aws-eks-keda,A terraform module to deploy the AWS keda on Amazon EKS cluster.
 eks-kiali-operator,DNXLabs,9674,aws,https://github.com/DNXLabs/terraform-aws-eks-kiali-operator,"Terraform module for deploying Kubernetes kiali-operator, a management console for an Istio-based service mesh. It provides dashboards, observability, and lets you operate your mesh with robust configuration and validation capabilities."
@@ -4716,7 +4722,6 @@ iam,javilac,719,aws,https://github.com/javilac/terraform-aws-iam,Module to creat
 iam,kenju,5707,google,https://github.com/kenju/terraform-google-iam,A terraform module for GCP IAM roles/permissions
 iam,kral2,7400,oci,https://github.com/kral2/terraform-oci-iam,"Upstream Terraform Module for the official Oracle Cloud Infrastructure IAM module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/iam"
 iam,kurron,440,aws,https://github.com/kurron/terraform-aws-iam,Terraform module that creates a set of common IAM roles
-iam,nimblenitin,15652,aws,https://github.com/nimblenitin/terraform-aws-iam,
 iam,ninja-dev-io,10933,aws,https://github.com/ninja-dev-io/terraform-aws-iam,IAM IaC
 iam,oracle-terraform-modules,1754,oci,https://github.com/oracle-terraform-modules/terraform-oci-iam,Terraform Module for managing Oracle Cloud Infrastructure Identity and Access Management (IAM) resources
 iam,pogosoftware,13565,aws,https://github.com/pogosoftware/terraform-aws-iam,
@@ -4776,6 +4781,7 @@ iam-policies,micronode,4906,aws,https://github.com/micronode/terraform-aws-iam-p
 iam-policies,tomarv2,8273,aws,https://github.com/tomarv2/terraform-aws-iam-policies,Terraform module for AWS IAM policies
 iam-policies,truemark,8813,aws,https://github.com/truemark/terraform-aws-iam-policies,
 iam-policy,7cloud-terraform-modules,15638,aws,https://github.com/7cloud-terraform-modules/terraform-aws-iam-policy,Iam Policy Module
+iam-policy,7clouds-terraform-modules,15671,aws,https://github.com/7clouds-terraform-modules/terraform-aws-iam-policy,Iam Policy Module
 iam-policy,anthunt,6118,aws,https://github.com/anthunt/terraform-aws-iam-policy,
 iam-policy,boldlink,14455,aws,https://github.com/boldlink/terraform-aws-iam-policy,Terraform registry repository for AWS IAM Policy module
 iam-policy,bryan-rhm,12036,aws,https://github.com/bryan-rhm/terraform-aws-iam-policy,Terraform AWS IAM Policy module
@@ -5338,7 +5344,7 @@ kms,Cloud-42,3601,aws,https://github.com/Cloud-42/terraform-aws-kms,Create a KMS
 kms,DevopsCare,5602,aws,https://github.com/DevopsCare/terraform-aws-kms,
 kms,JamesWoolfenden,4298,aws,https://github.com/JamesWoolfenden/terraform-aws-kms,Get your KMS keys here
 kms,SPHTech-Platform,13051,aws,https://github.com/SPHTech-Platform/terraform-aws-kms,
-kms,adamwshero,11996,aws,https://github.com/adamwshero/terraform-aws-kms,Terraform & Terragrunt friendly module to create an Amazon Customer Managed Key (CMK) for use with Mozilla SOPS. 🇺🇦
+kms,adamwshero,11996,aws,https://github.com/adamwshero/terraform-aws-kms,Terraform & Terragrunt friendly module to create a KMS or KMS Replica Key + optional SOPS integration. 🇺🇦
 kms,basisai,7302,aws,https://github.com/basisai/terraform-aws-kms,Utility to create KMS keys on AWS with IAM policies
 kms,binxio,6861,google,https://github.com/binxio/terraform-google-kms,Generic google KMS module for Terraform 
 kms,boldlink,13914,aws,https://github.com/boldlink/terraform-aws-kms,Terraform registry repository for KMS module
@@ -5699,6 +5705,7 @@ lambda-kinesis-to-es,baikonur-oss,2715,aws,https://github.com/baikonur-oss/terra
 lambda-kinesis-to-fluent,baikonur-oss,2835,aws,https://github.com/baikonur-oss/terraform-aws-lambda-kinesis-to-fluent,Terraform module and Lambda for sending logs from Kinesis to Fluent endpoint.
 lambda-kinesis-to-s3,baikonur-oss,2708,aws,https://github.com/baikonur-oss/terraform-aws-lambda-kinesis-to-s3,Terraform module and Lambda for Kinesis to S3 logs transfer
 lambda-kms-key,dod-iac,6858,aws,https://github.com/dod-iac/terraform-aws-lambda-kms-key,A KMS key used to encrypt data used by Lambda
+lambda-layer,7clouds-terraform-modules,15673,aws,https://github.com/7clouds-terraform-modules/terraform-aws-lambda-layer,
 lambda-layer,TravelOffice,12260,aws,https://github.com/TravelOffice/terraform-aws-lambda-layer,Support provision multiple lambda layer
 lambda-layer,figurate,4973,aws,https://github.com/figurate/terraform-aws-lambda-layer,Templates for common lambda dependencies
 lambda-layer,hendrixroa,5703,aws,https://github.com/hendrixroa/terraform-aws-lambda-layer,Module to avoid the continues installing dependencies and libraries for functions lambda
@@ -6797,6 +6804,7 @@ opencloudcx,OpenCloudCX,7409,aws,https://github.com/OpenCloudCX/terraform-aws-op
 openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,OpenID module for apps on Kubernetes.
 openid-config-crawler,beranek1,15184,aws,https://github.com/beranek1/terraform-aws-openid-config-crawler,Automatically copies openid configurations to cloud storage.
 openid-jwks-crawler,beranek1,15189,aws,https://github.com/beranek1/terraform-aws-openid-jwks-crawler,Automatically fetches JWKS from openid configurations.
+openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
 openraven-accountconnect,abanerjee-svmk,9873,aws,https://github.com/abanerjee-svmk/terraform-aws-openraven-accountconnect,Terraform module to deploy resources in AWS account required by OpenRaven
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
 opensearch,idealo,11248,aws,https://github.com/idealo/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
@@ -8673,6 +8681,9 @@ sg-common,ask0n,1609,aws,https://github.com/ask0n/terraform-aws-sg-common,Terraf
 sg-for-egress-unrestricted,s3d-group,15298,aws,https://github.com/s3d-group/terraform-aws-sg-for-egress-unrestricted,Terraform Module that defines a Security Group for EGRESS in an unrestricted way.
 sg-for-vnc,s3d-group,15374,aws,https://github.com/s3d-group/terraform-aws-sg-for-vnc,Terraform module with a Security Group for VNC
 sg-wsc,mehdi-wsc,5180,aws,https://github.com/mehdi-wsc/terraform-aws-sg-wsc,Terraform module to provision aws_security_group
+sg_egress_open,s3d-club,15661,aws,https://github.com/s3d-club/terraform-aws-sg_egress_open,Terraform Module that defines a Security Group for EGRESS in an unrestricted way.
+sg_ingress_open,s3d-club,15662,aws,https://github.com/s3d-club/terraform-aws-sg_ingress_open,AWS Security Group for Ingress open to all protocols
+sg_ingress_ssh,s3d-club,15663,aws,https://github.com/s3d-club/terraform-aws-sg_ingress_ssh,Terraform module with a Security Group for SSH Ingress
 sggroups-ec2-module,Charan-Raj-K,8931,vpc,https://github.com/Charan-Raj-K/terraform-vpc-sggroups-ec2-module,Terraform module to provision vpc-security-groups-ec2instances on aws
 sha256-of-base64,Invicton-Labs,12408,null,https://github.com/Invicton-Labs/terraform-null-sha256-of-base64,
 shanstorage,Balashanthoshi,13211,azure,https://github.com/Balashanthoshi/terraform-azure-shanstorage,
@@ -9171,6 +9182,7 @@ staticwebsitepublic,ldelpozo6,13560,azurerm,https://github.com/ldelpozo6/terrafo
 staticwebsitepublic,mahesh9tsm,14478,azurerm,https://github.com/mahesh9tsm/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,michealjack1,14963,azurerm,https://github.com/michealjack1/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,ndrsingh-61,11195,azurerm,https://github.com/ndrsingh-61/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,neonhustle,15670,azurerm,https://github.com/neonhustle/terraform-azurerm-staticwebsitepublic,Terraform Modules tobe shared in Terrafomr Public Registry
 staticwebsitepublic,ngshukun,12031,azurerm,https://github.com/ngshukun/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,nmadesh20,9939,azurerm,https://github.com/nmadesh20/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,peegee13,15535,azurerm,https://github.com/peegee13/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -9533,6 +9545,7 @@ tfc-iam-credentials-rotation,Olgoetz,13142,aws,https://github.com/Olgoetz/terraf
 tfc-state-backup,Olgoetz,11832,aws,https://github.com/Olgoetz/terraform-aws-tfc-state-backup,Solution for automated backups of Terraform Cloud workspaces.
 tfc-workload-identity,SPHTech-Platform,15342,aws,https://github.com/SPHTech-Platform/terraform-aws-tfc-workload-identity,Workload Identity for AWS on Terraform Cloud
 tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-Platform/terraform-google-tfc-workload-identity,
+tfc-workload-identity,SPHTech-Platform,15674,vault,https://github.com/SPHTech-Platform/terraform-vault-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
 tfe-management,mikesupertrampster-corp,12447,module,https://github.com/mikesupertrampster-corp/terraform-module-tfe-management,Maintained by Terraform
