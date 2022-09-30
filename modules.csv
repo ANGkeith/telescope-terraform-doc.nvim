@@ -660,6 +660,7 @@ application-gateway,avinor,3216,azurerm,https://github.com/avinor/terraform-azur
 application-gateway,aztfm,7262,azurerm,https://github.com/aztfm/terraform-azurerm-application-gateway,Terraform module for Microsoft Azure to manage Application Gateway resource.
 application-gateway,bee-a-learner,9011,azure,https://github.com/bee-a-learner/terraform-azure-application-gateway,Azure application gateway terraform code
 application-gateway,kumarvna,9963,azurerm,https://github.com/kumarvna/terraform-azurerm-application-gateway,Terraform module to create Azure Application gateway
+application-gateway-nia,gautambaghel,15686,azurerm,https://github.com/gautambaghel/terraform-azurerm-application-gateway-nia,A Consul-Terraform-Sync module for Azure Application Gateway
 application-gateway-nia,joatmon08,14377,azurerm,https://github.com/joatmon08/terraform-azurerm-application-gateway-nia,A Consul-Terraform-Sync module for Azure Application Gateway
 application-insights,KamenYovchev,6207,azurerm,https://github.com/KamenYovchev/terraform-azurerm-application-insights,
 application-insights,T-Systems-MMS,14533,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-application-insights,Configure Azure Application Insights
@@ -1861,7 +1862,7 @@ cloud-storage-bucket,bootlabstech,12174,google,https://github.com/bootlabstech/t
 cloud-storage-gateway,terraform-alicloud-modules,12791,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-storage-gateway,Terraform Module for creating Cloud Storage Gateway resources on Alibaba Cloud.
 cloud-vault,farrukh90,9280,hashicorp,https://github.com/farrukh90/terraform-hashicorp-cloud-vault,https://registry.terraform.io/modules/farrukh90/cloud-vault/hashicorp/latest
 cloud1,NguyenTruongThanh-74,15495,aws,https://github.com/NguyenTruongThanh-74/terraform-aws-cloud1,
-cloud9,adamwshero,12977,aws,https://github.com/adamwshero/terraform-aws-cloud9,Terraform & Terragrunt friendly module to create an Amazon Cloud9 EC2 Environment with an optional static IP (EIP).
+cloud9,adamwshero,12977,aws,https://github.com/adamwshero/terraform-aws-cloud9,Terraform & Terragrunt friendly module to create an Amazon Cloud9 EC2 Environment with an optional static IP (EIP). 🇺🇦
 cloud_run,airasia,6564,google,https://github.com/airasia/terraform-google-cloud_run,Terraform module for a Cloud Run service in GCP
 cloud_workspace,aws-ia,9054,hashicorp,https://github.com/aws-ia/terraform-hashicorp-cloud_workspace,Terraform Cloud Workspace
 cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,terraform gcp module for cloudbase
@@ -4097,6 +4098,7 @@ external_access,airasia,4997,google,https://github.com/airasia/terraform-google-
 ezvpc,olindata,764,aws,https://github.com/olindata/terraform-aws-ezvpc,Creating AWS VPC resources for dummies (no subnetting required) in Terraform
 f5-bigip,memes,6621,google,https://github.com/memes/terraform-google-f5-bigip,Terraform modules for deploying F5 BIG-IP on Google Cloud Platform. Community supported.
 f5-bigip-cfe-role,memes,15338,google,https://github.com/memes/terraform-google-f5-bigip-cfe-role,Terraform role to create a custom IAM role for F5 BIG-IP CFE use.
+f5-distributed-cloud-role,memes,15687,google,https://github.com/memes/terraform-google-f5-distributed-cloud-role,
 fabric-connection,equinix-labs,12728,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection,Terraform module to create an ECX Fabric L2 Connection
 fabric-connection-alibaba,equinix-labs,13202,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-alibaba,Terraform module to create an ECX Fabric L2 Connection to Alibaba Express Connect
 fabric-connection-aws,equinix-labs,12729,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-aws,Terraform module to create an ECX Fabric L2 Connection to AWS Direct Connect
@@ -5317,7 +5319,7 @@ kinesis-api-gateway,dod-iac,7263,aws,https://github.com/dod-iac/terraform-aws-ki
 kinesis-cross-account-sync,scalereal,6490,aws,https://github.com/scalereal/terraform-aws-kinesis-cross-account-sync,Terraform Module to sync kinesis streams across two different AWS accounts
 kinesis-data-stream-addon,symopsio,14383,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-addon,The `aws/kinesis-data-stream` add-on provisions AWS Kinesis Data Stream access for a Sym `runtime-connector` module.
 kinesis-data-stream-connector,symopsio,14384,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-connector,The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
-kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,Terraform module which creates Kinesis Firehose and related resources on AWS
+kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch and IAM Roles that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
 kinesis-firehose,felipefrizzo,1778,aws,https://github.com/felipefrizzo/terraform-aws-kinesis-firehose,This code creates a Kinesis Firehose in AWS to send CloudWatch log data to S3.
 kinesis-firehose,observeinc,12199,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,Terraform module to configure a Kinesis Firehose delivery stream towards Observe
 kinesis-firehose-addon,symopsio,14385,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-addon,The `aws/kinesis-firehose` add-on provisions AWS Kinesis Firehose access for a Sym `runtime-connector` module.
@@ -6839,6 +6841,7 @@ operating-system-join-active-directory,mnanchev,5518,aws,https://github.com/mnan
 operations,jrcasso,6342,aws,https://github.com/jrcasso/terraform-aws-operations,Complete AWS network infrastructure to support an operation.
 operator,oracle-terraform-modules,5014,oci,https://github.com/oracle-terraform-modules/terraform-oci-operator,A Terraform module that reuses an existing VCN and adds an operator host to it on OCI
 operator-config,kiwicom,5552,vault,https://github.com/kiwicom/terraform-vault-operator-config,Prepare cluster and Vault for Vault operator
+opinionated-api-gateway,PackagePortal,15688,aws,https://github.com/PackagePortal/terraform-aws-opinionated-api-gateway,An opinionated way to set up an API Gateway
 ops-role,MagusDevOps,5985,aws,https://github.com/MagusDevOps/terraform-aws-ops-role,provides an opinionated module to create an admin role for an AWS account with the ability to restrict role assumption to corporate networks
 optimization-as-code,densify-dev,1695,null,https://github.com/densify-dev/terraform-null-optimization-as-code,Module to integrate Terraform with Densify machine learning to enable cloud and container workloads to be self-optimizing
 options,4ops,4656,null,https://github.com/4ops/terraform-null-options,Simple options management tool
@@ -6985,6 +6988,7 @@ pods-oom-op-pack,terraform-shoreline-modules,13395,shoreline,https://github.com/
 polardb-mysql,terraform-alicloud-modules,12816,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-polardb-mysql,Terraform Module for creating PolarDB for MySQL on Alibaba Cloud.
 polardb-postgresql,terraform-alicloud-modules,12817,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-polardb-postgresql,Terraform Module for creating PolarDB for PostgreSQL on Alibaba Cloud.
 policies,OT-terraform-azure-modules,15455,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-policies,
+policies,terraform-cisco-modules,15681,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies,Terraform - Intersight > Policies Module
 policies-adapter-configuration,terraform-cisco-modules,15585,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-adapter-configuration,Terraform - Intersight > Policies > Adapter Configuration Module
 policies-bios,terraform-cisco-modules,15586,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-bios,Terraform - Intersight > Policies > BIOS Module
 policies-boot-order,terraform-cisco-modules,15587,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policies-boot-order,Terraform - Intersight > Policies > Boot Order Module
@@ -7064,6 +7068,7 @@ polygon-technology-edge,aws-ia,14996,aws,https://github.com/aws-ia/terraform-aws
 pool,rishabhkalra,11645,proxmox,https://github.com/rishabhkalra/terraform-proxmox-pool,A terraform module to provision similarly configured pools of VMs.
 pool,srb3,9263,libvirt,https://github.com/srb3/terraform-libvirt-pool,
 pool,tf-openstack-modules,6895,openstack,https://github.com/tf-openstack-modules/terraform-openstack-pool,
+pools,terraform-cisco-modules,15684,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-pools,Terraform - Intersight > Pools Module
 pools-fc,terraform-cisco-modules,15544,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-pools-fc,Terraform - Intersight > Pools > FC Module
 pools-ip,terraform-cisco-modules,15545,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-pools-ip,Terraform - Intersight > Pools > IP Module
 pools-iqn,terraform-cisco-modules,15546,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-pools-iqn,Terraform - Intersight > Pools > IQN Module
@@ -7141,7 +7146,10 @@ private-zone,terraform-alicloud-modules,2127,alicloud,https://github.com/terrafo
 privateendpoint,imjoseangel,11773,azurerm,https://github.com/imjoseangel/terraform-azurerm-privateendpoint,Terraform Module for deploying a Private Endpoint
 privileges,TaitoUnited,6127,mysql,https://github.com/TaitoUnited/terraform-mysql-privileges,
 privileges,TaitoUnited,6128,postgresql,https://github.com/TaitoUnited/terraform-postgresql-privileges,
+profiles,terraform-cisco-modules,15683,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles,Terraform - Intersight > Profiles Module
+profiles-chassis,terraform-cisco-modules,15676,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles-chassis,Terraform - Intersight > Profiles > Chassis Module
 profiles-domain,terraform-cisco-modules,15550,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles-domain,Terraform - Intersight > Profiles > Domain Module
+profiles-server,terraform-cisco-modules,15677,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles-server,Terraform - Intersight > Profiles > Server Module
 proj,skierkowski,2396,test,https://github.com/skierkowski/terraform-test-proj,
 project,PGBI,2810,aws,https://github.com/PGBI/terraform-aws-project,
 project,SweetOps,2230,google,https://github.com/SweetOps/terraform-google-project,The terraform module for creation and management of a GCP project with normalized name and labels
@@ -7214,6 +7222,7 @@ proxy,jmarhee,5445,linode,https://github.com/jmarhee/terraform-linode-proxy,
 proxy-nginx,terraform-module,4951,aws,https://github.com/terraform-module/terraform-aws-proxy-nginx,Microsoft SQL proxy terraform setup
 proxy-sqlserver,terraform-module,3813,aws,https://github.com/terraform-module/terraform-aws-proxy-sqlserver,Microsoft SQL proxy terraform setup
 ps-shared-servicebus,sebl1ngt0n,10078,registry,https://github.com/sebl1ngt0n/terraform-registry-ps-shared-servicebus,
+psc,bootlabstech,15680,google,https://github.com/bootlabstech/terraform-google-psc,
 psf-gw,bayupw,12894,aviatrix,https://github.com/bayupw/terraform-aviatrix-psf-gw,Terraform module to deploy Aviatrix PSF Gateway
 psu-policy,netascode,10251,aci,https://github.com/netascode/terraform-aci-psu-policy,Terraform Cisco ACI PSU Policy Module
 ptp,netascode,10252,aci,https://github.com/netascode/terraform-aci-ptp,Terraform Cisco ACI PTP Module
@@ -9154,6 +9163,7 @@ staticwebsitepublic,Ayoadara,13278,azurerm,https://github.com/Ayoadara/terraform
 staticwebsitepublic,Bryantellis1,11297,azurerm,https://github.com/Bryantellis1/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,DimaSerbenyuk,14412,azurerm,https://github.com/DimaSerbenyuk/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,Mahaveerdoss,15678,azurerm,https://github.com/Mahaveerdoss/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKChoudhary/terraform-azurerm-staticwebsitepublic,Terraform
 staticwebsitepublic,PerRoll,10818,azurerm,https://github.com/PerRoll/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,RajendraBobade,13536,azurerm,https://github.com/RajendraBobade/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -9641,7 +9651,7 @@ transit-gateway,cloudposse,5998,aws,https://github.com/cloudposse/terraform-aws-
 transit-gateway,gadgetry-io,9989,aws,https://github.com/gadgetry-io/terraform-aws-transit-gateway,Terraform AWS Transit Gateway Module
 transit-gateway,terraform-aws-modules,3992,aws,https://github.com/terraform-aws-modules/terraform-aws-transit-gateway,Terraform module which creates Transit Gateway resources on AWS 🇺🇦
 transit-gateway,terraform-ibm-modules,8894,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-transit-gateway,Terraform module to provision Transit Gateway in the IBM Cloud account
-transit-gateway-attachment,adamwshero,14516,aws,https://github.com/adamwshero/terraform-aws-transit-gateway-attachment,Terraform & Terragrunt friendly module to create one or many AWS transit gateway attachments to one or many already existing transit gateways.
+transit-gateway-attachment,adamwshero,14516,aws,https://github.com/adamwshero/terraform-aws-transit-gateway-attachment,Terraform & Terragrunt friendly module to create one or many AWS transit gateway attachments to one or many already existing transit gateways. 🇺🇦
 transit-gateway-attachment,gadgetry-io,9990,aws,https://github.com/gadgetry-io/terraform-aws-transit-gateway-attachment,Terraform AWS Transit Gateway Attachment Module 
 transit-gateway-hub,Flaconi,10437,aws,https://github.com/Flaconi/terraform-aws-transit-gateway-hub,Terraform module for handling the Transit Gateway hub resources
 transit-gateway-route-table,Gooygeek,12445,aws,https://github.com/Gooygeek/terraform-aws-transit-gateway-route-table,"Create a TGW Route Table, add Routes, Associations and Propagations"
@@ -9671,6 +9681,7 @@ ubuntu,ucipass,10169,aws,https://github.com/ucipass/terraform-aws-ubuntu,Terrafo
 ubuntu-ami-version,josh-jacobsen,11599,aws,https://github.com/josh-jacobsen/terraform-aws-ubuntu-ami-version,
 ubuntu-repo-manager,InternalServiceSystem,5503,nexus,https://github.com/InternalServiceSystem/terraform-nexus-ubuntu-repo-manager,A terraform module to easily manage nexus apt proxies for ubuntu.
 ubuntu-vm,bayupw,13181,google,https://github.com/bayupw/terraform-google-ubuntu-vm,Terraform module to create ubuntu vm in Google Cloud Platform
+ucs-domain-profiles,terraform-cisco-modules,15682,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-ucs-domain-profiles,Terraform - Intersight > UCS Domain Profile Module
 unarchive,escapace,10807,null,https://github.com/escapace/terraform-null-unarchive,
 underused-servers,kiwicom,3028,datadog,https://github.com/kiwicom/terraform-datadog-underused-servers,
 ungpg,factorysh,472,basic,https://github.com/factorysh/terraform-basic-ungpg,Decrypt settings for Terraform
@@ -9733,6 +9744,7 @@ vapp,rolando-anton,6165,vsphere,https://github.com/rolando-anton/terraform-vsphe
 variable,dhoppeIT,11121,tfe,https://github.com/dhoppeIT/terraform-tfe-variable,Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_variable)
 variable-push,kalenarndt,14125,tfe,https://github.com/kalenarndt/terraform-tfe-variable-push,Terraform module for TFE/C that will create variables and push them to a single workspace. Generally used for one off credential pushes where variable sets might not fit
 variable-set,flowingis,13661,tfe,https://github.com/flowingis/terraform-tfe-variable-set,Terraform module to provision and manage Terraform Cloud variable sets
+variable-set,ksatirli,15679,tfe,https://github.com/ksatirli/terraform-tfe-variable-set,Terraform Module: Terraform Cloud Variable Set
 variable-sets,kalenarndt,13447,tfe,https://github.com/kalenarndt/terraform-tfe-variable-sets,Terraform module to create variable sets and variables.
 variables-json,DualbootPartnersLLC,6725,aws,https://github.com/DualbootPartnersLLC/terraform-aws-variables-json,
 variant,philips-labs,11103,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-variant,Terraform module to deploy Variant
@@ -10414,6 +10426,7 @@ vpc-flowlogs,binbashar,2734,aws,https://github.com/binbashar/terraform-aws-vpc-f
 vpc-gateways,cloud-native-toolkit,12217,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-vpc-gateways,Module to provision public gateways in an IBM Cloud VPC instance
 vpc-group,netascode,10347,aci,https://github.com/netascode/terraform-aci-vpc-group,Terraform Cisco ACI vPC Group Module
 vpc-infra,lokeshjawane,5170,aws,https://github.com/lokeshjawane/terraform-aws-vpc-infra,
+vpc-ipam,davaba86,15685,aws,https://github.com/davaba86/terraform-aws-vpc-ipam,Terraform AWS VPC IPAM module.
 vpc-jawad,jawadyousoufi,14067,aws,https://github.com/jawadyousoufi/terraform-aws-vpc-jawad,
 vpc-khang,minhkhang97nt,13467,aws,https://github.com/minhkhang97nt/terraform-aws-vpc-khang,
 vpc-kops-peering,cloudposse,917,aws,https://github.com/cloudposse/terraform-aws-vpc-kops-peering,Terraform module to create a peering connection between a backing services VPC and a VPC created by Kops
