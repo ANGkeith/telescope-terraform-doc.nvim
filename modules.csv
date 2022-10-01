@@ -19,6 +19,7 @@ Az-VirtualNetwork,JamesDLD,2954,azurerm,https://github.com/JamesDLD/terraform-az
 Az-Vm,JamesDLD,2956,azurerm,https://github.com/JamesDLD/terraform-azurerm-Az-Vm,"Terraform module that manages Azure virtual machines, disks, network interfaces, extension, etc ..."
 AzureRG,AnjiMuduthanapally,13461,azure,https://github.com/AnjiMuduthanapally/terraform-azure-AzureRG,
 Bavita,Bakumari,12310,Azure,https://github.com/Bakumari/terraform-Azure-Bavita,
+Bhanu,Bhanupriyabharathi,15698,aws,https://github.com/Bhanupriyabharathi/terraform-aws-Bhanu,
 ClusterECS,felipefalcaodevops,6622,aws,https://github.com/felipefalcaodevops/terraform-aws-ClusterECS,
 DataCenter_Enviroment_1A,WEEMR,10950,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_1A,Terraform Script to deploy VPC with FGT SD-WAN with Windows and Apache Servers behind it
 DataCenter_Enviroment_1E,WEEMR,11867,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_1E,Terraform Script to deploy VPC with FGT SD-WAN with Windows and Apache Servers behind it and a FortiSandbox in another VPC
@@ -1230,6 +1231,7 @@ awsinfra,wcollins,9149,aws,https://github.com/wcollins/terraform-aws-awsinfra,Te
 awx,farrukh90,9248,aws,https://github.com/farrukh90/terraform-aws-awx,Module Location
 awx,rhythmictech,3115,aws,https://github.com/rhythmictech/terraform-aws-awx,Spin up AWX in AWS
 awx,zaharazod,3372,aws,https://github.com/zaharazod/terraform-aws-awx,Spin up AWX in AWS (simplified)
+ayps3bucket,aparnapansare,15694,aws,https://github.com/aparnapansare/terraform-aws-ayps3bucket,terraform module for s3
 azagent,DeimosCloud,8391,azure,https://github.com/DeimosCloud/terraform-azure-azagent,
 azfirewall,andrewCluey,8256,azurerm,https://github.com/andrewCluey/terraform-azurerm-azfirewall,
 azfirewall-policy,andrewCluey,9959,azurerm,https://github.com/andrewCluey/terraform-azurerm-azfirewall-policy,Module to deploy an Azure Firewall Policy and Firewall Rule collection groups
@@ -2285,6 +2287,7 @@ compute-forwarding-rule-dcos,dcos-terraform,1597,gcp,https://github.com/dcos-ter
 compute-forwarding-rule-masters,dcos-terraform,1595,gcp,https://github.com/dcos-terraform/terraform-gcp-compute-forwarding-rule-masters,Creates an GCP forwarding rule for DC/OS masters
 compute-forwarding-rule-public-agents,dcos-terraform,1596,gcp,https://github.com/dcos-terraform/terraform-gcp-compute-forwarding-rule-public-agents,This module creates an GCP forwarding rule for DC/OS public agents
 compute-gallery,libre-devops,13586,azurerm,https://github.com/libre-devops/terraform-azurerm-compute-gallery,A module used to deploy an Azure Compute Gallery
+compute-health-check,bootlabstech,15696,google,https://github.com/bootlabstech/terraform-google-compute-health-check,
 compute-image,bootlabstech,14363,google,https://github.com/bootlabstech/terraform-google-compute-image,
 compute-instance,akbaribnu,1289,google,https://github.com/akbaribnu/terraform-google-compute-instance,
 compute-instance,bootlabstech,11616,google,https://github.com/bootlabstech/terraform-google-compute-instance,
@@ -2601,7 +2604,8 @@ datadog,srb3,11036,helm,https://github.com/srb3/terraform-helm-datadog,
 datadog-autoscaling,sprutner,703,aws,https://github.com/sprutner/terraform-aws-datadog-autoscaling,
 datadog-aws-integration,mockingbirdconsulting,1860,aws,https://github.com/mockingbirdconsulting/terraform-aws-datadog-aws-integration,Configures AWS IAM Roles/Policies for the DataDog AWS Integration
 datadog-baseline,mockingbirdconsulting,1859,datadog,https://github.com/mockingbirdconsulting/terraform-datadog-datadog-baseline,A baseline set of monitors for DataDog
-datadog-connector,symopsio,14452,sym,https://github.com/symopsio/terraform-sym-datadog-connector,The `datadog-connector` module provisions a Kinesis Firehose which is configured to pipe logs to Datadog. 
+datadog-connector,symopsio,14452,sym,https://github.com/symopsio/terraform-sym-datadog-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-datadog-connector
+datadog-connector,symopsio,15719,aws,https://github.com/symopsio/terraform-aws-datadog-connector,The `datadog-connector` module provisions a Kinesis Firehose which is configured to pipe logs to Datadog.
 datadog-firehose,nolotz,15514,aws,https://github.com/nolotz/terraform-aws-datadog-firehose,Terraform Turn Key Firehose Delivery Stream for DataDog Solution
 datadog-firewall,Utilus,1500,aws,https://github.com/Utilus/terraform-aws-datadog-firewall,Terraform module to whitelist DataDog IPs in AWS security groups
 datadog-forwarders,clowdhaus,6384,aws,https://github.com/clowdhaus/terraform-aws-datadog-forwarders,Terraform module which creates resources  on AWS to forward logs/metrics to Datadog
@@ -2847,8 +2851,10 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker-container,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
+docker-ec2-instance,oraykamberoglu,15705,aws,https://github.com/oraykamberoglu/terraform-aws-docker-ec2-instance,
 docker-ec2instance,ofidan,15032,aws,https://github.com/ofidan/terraform-aws-docker-ec2instance,
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
+docker-instance,8mehmet11,15710,aws,https://github.com/8mehmet11/terraform-aws-docker-instance,
 docker-instance,AAsimCoskun,14624,aws,https://github.com/AAsimCoskun/terraform-aws-docker-instance,
 docker-instance,ABlest8,14664,aws,https://github.com/ABlest8/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,AlexDuncan2100,15012,aws,https://github.com/AlexDuncan2100/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2860,6 +2866,7 @@ docker-instance,HaciYasar,14653,aws,https://github.com/HaciYasar/terraform-aws-d
 docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Hvlkrs,15031,aws,https://github.com/Hvlkrs/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Ikkyto,14688,aws,https://github.com/Ikkyto/terraform-aws-docker-instance,
+docker-instance,JamesFrostyy,15706,aws,https://github.com/JamesFrostyy/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JasminYousef,15045,aws,https://github.com/JasminYousef/terraform-aws-docker-instance,
 docker-instance,JasonmKahraman,14700,aws,https://github.com/JasonmKahraman/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JohnWhyter,14699,aws,https://github.com/JohnWhyter/terraform-aws-docker-instance,
@@ -2870,6 +2877,7 @@ docker-instance,MelanieBirdal,14712,aws,https://github.com/MelanieBirdal/terrafo
 docker-instance,Muhammet-Gokmen,14658,aws,https://github.com/Muhammet-Gokmen/terraform-aws-docker-instance,
 docker-instance,OdabasiMehmet,14684,aws,https://github.com/OdabasiMehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Rootea,14630,aws,https://github.com/Rootea/terraform-aws-docker-instance,
+docker-instance,SenseiRofu,15704,aws,https://github.com/SenseiRofu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,SuleymanBat,14747,aws,https://github.com/SuleymanBat/terraform-aws-docker-instance,
 docker-instance,TMManyau,14717,aws,https://github.com/TMManyau/terraform-aws-docker-instance,
 docker-instance,Tongucyorgun,14622,aws,https://github.com/Tongucyorgun/terraform-aws-docker-instance,Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2 ami and installed docker in it.
@@ -2885,6 +2893,7 @@ docker-instance,arslantobe,14642,aws,https://github.com/arslantobe/terraform-aws
 docker-instance,avcimehmet,14670,aws,https://github.com/avcimehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,aykutakgnu,14637,aws,https://github.com/aykutakgnu/terraform-aws-docker-instance,
 docker-instance,bahattinatalay,14663,aws,https://github.com/bahattinatalay/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,bekirbilgec,15711,aws,https://github.com/bekirbilgec/terraform-aws-docker-instance,
 docker-instance,betul-kaplan,14652,aws,https://github.com/betul-kaplan/terraform-aws-docker-instance,
 docker-instance,bhandary1419,14698,aws,https://github.com/bhandary1419/terraform-aws-docker-instance,
 docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2919,6 +2928,8 @@ docker-instance,mutluresul,14728,aws,https://github.com/mutluresul/terraform-aws
 docker-instance,ofidan,14286,aws,https://github.com/ofidan/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,omerdogan16,14634,aws,https://github.com/omerdogan16/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,oraykamberoglu,14625,aws,https://github.com/oraykamberoglu/terraform-aws-docker-instance,
+docker-instance,osmnnunal,15708,aws,https://github.com/osmnnunal/terraform-aws-docker-instance,
+docker-instance,ozcan19,15709,aws,https://github.com/ozcan19/terraform-aws-docker-instance,
 docker-instance,quinzone,14647,aws,https://github.com/quinzone/terraform-aws-docker-instance,
 docker-instance,rasitirmak,14687,aws,https://github.com/rasitirmak/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,rknktm,15029,aws,https://github.com/rknktm/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -2930,6 +2941,7 @@ docker-instance,soneerceelik,14646,aws,https://github.com/soneerceelik/terraform
 docker-instance,tayyipkarahan,14656,aws,https://github.com/tayyipkarahan/terraform-aws-docker-instance,
 docker-instance,toygarbarut,14636,aws,https://github.com/toygarbarut/terraform-aws-docker-instance,
 docker-instance,turgout,14895,aws,https://github.com/turgout/terraform-aws-docker-instance,
+docker-instance,usuladams,15707,aws,https://github.com/usuladams/terraform-aws-docker-instance,
 docker-instance,vlkn38akyz,15035,aws,https://github.com/vlkn38akyz/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS
 docker-instance,volkan-sahin,14677,aws,https://github.com/volkan-sahin/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,wookeemin,15044,aws,https://github.com/wookeemin/terraform-aws-docker-instance,
@@ -4750,7 +4762,8 @@ iam-chamber-s3-role,cloudposse,2205,aws,https://github.com/cloudposse/terraform-
 iam-chamber-user,cloudposse,1033,aws,https://github.com/cloudposse/terraform-aws-iam-chamber-user,"Terraform module to provision a basic IAM chamber user with access to SSM parameters and KMS key to decrypt secrets, suitable for CI/CD systems (e.g. TravisCI, CircleCI, CodeFresh) or systems which are external to AWS that cannot leverage AWS IAM Instance Profiles"
 iam-config,uptycslabs,9532,google,https://github.com/uptycslabs/terraform-google-iam-config,Terraform module for use with Uptycs GCP integration
 iam-config,uptycslabs,9659,aws,https://github.com/uptycslabs/terraform-aws-iam-config,
-iam-connector,symopsio,14382,sym,https://github.com/symopsio/terraform-sym-iam-connector,The `iam-connector` module provisions an IAM role that the AWS IAM Strategy can use to escalate or de-escalate users via AWS IAM groups.
+iam-connector,symopsio,14382,sym,https://github.com/symopsio/terraform-sym-iam-connector,DEPRECATED: https://github.com/symopsio/terraform-aws-iam-connector
+iam-connector,symopsio,15722,aws,https://github.com/symopsio/terraform-aws-iam-connector,The `iam-connector` module provisions an IAM role that the AWS IAM Strategy can use to escalate or de-escalate users via AWS IAM groups.
 iam-create-user-persistence,offensive-terraform,6057,aws,https://github.com/offensive-terraform/terraform-aws-iam-create-user-persistence,"Offensive Terraform module which creates IAM user, access key then attaches managed IAM Policy to an IAM user."
 iam-cross-account,cytopia,1898,aws,https://github.com/cytopia/terraform-aws-iam-cross-account,This Terraform module creates AWS cross-account assumable roles with multiple polcies to be specified via files
 iam-cross-account-trust-maps,StratusGrid,1916,aws,https://github.com/StratusGrid/terraform-aws-iam-cross-account-trust-maps,Maps assume role rights to trusted account resources for specific trusting account
@@ -5220,6 +5233,7 @@ kaypair,NasibaNarbutaeva,11883,aws,https://github.com/NasibaNarbutaeva/terraform
 keda,mateothegreat,6924,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-keda,Keda auto-scaling on kubernetes via Terraform.
 kedaratorageaccount,sahukedar144,13215,azure,https://github.com/sahukedar144/terraform-azure-kedaratorageaccount,
 ken,kenvpt,5228,iaac,https://github.com/kenvpt/terraform-iaac-ken,
+kevins3bucket,kevgonsalves,15690,aws,https://github.com/kevgonsalves/terraform-aws-kevins3bucket,
 kewal,kewalwani,12953,aws,https://github.com/kewalwani/terraform-aws-kewal,
 key,JamesWoolfenden,8061,tls,https://github.com/JamesWoolfenden/terraform-tls-key,Basic SSH key module
 key,mediapop,1239,aws,https://github.com/mediapop/terraform-aws-key,Local private key to AWS key registration.
@@ -5317,13 +5331,17 @@ kibana,kiwicom,4672,kubernetes,https://github.com/kiwicom/terraform-kubernetes-k
 kibana,philips-labs,11958,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-kibana,Terraform module to deploy Kibana to Cloud foundry
 kinesis-api-gateway,dod-iac,7263,aws,https://github.com/dod-iac/terraform-aws-kinesis-api-gateway,AWS API Gateway REST API that proxies a AWS Kinesis stream.
 kinesis-cross-account-sync,scalereal,6490,aws,https://github.com/scalereal/terraform-aws-kinesis-cross-account-sync,Terraform Module to sync kinesis streams across two different AWS accounts
-kinesis-data-stream-addon,symopsio,14383,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-addon,The `aws/kinesis-data-stream` add-on provisions AWS Kinesis Data Stream access for a Sym `runtime-connector` module.
-kinesis-data-stream-connector,symopsio,14384,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-connector,The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
+kinesis-data-stream-addon,symopsio,14383,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-addon,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-data-stream-addon
+kinesis-data-stream-addon,symopsio,15715,aws,https://github.com/symopsio/terraform-aws-kinesis-data-stream-addon,The `aws/kinesis-data-stream` add-on provisions AWS Kinesis Data Stream access for a Sym `runtime-connector` module.
+kinesis-data-stream-connector,symopsio,14384,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-data-stream-connector 
+kinesis-data-stream-connector,symopsio,15700,aws,https://github.com/symopsio/terraform-aws-kinesis-data-stream-connector,The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
 kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch and IAM Roles that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
 kinesis-firehose,felipefrizzo,1778,aws,https://github.com/felipefrizzo/terraform-aws-kinesis-firehose,This code creates a Kinesis Firehose in AWS to send CloudWatch log data to S3.
 kinesis-firehose,observeinc,12199,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,Terraform module to configure a Kinesis Firehose delivery stream towards Observe
-kinesis-firehose-addon,symopsio,14385,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-addon,The `aws/kinesis-firehose` add-on provisions AWS Kinesis Firehose access for a Sym `runtime-connector` module.
-kinesis-firehose-connector,symopsio,14386,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-connector,The `kinesis-firehose-connector` module provisions dependencies for creating a Kinesis Firehose.
+kinesis-firehose-addon,symopsio,14385,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-addon,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-firehose-addon
+kinesis-firehose-addon,symopsio,15714,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-addon,The `aws/kinesis-firehose` add-on provisions AWS Kinesis Firehose access for a Sym `runtime-connector` module.
+kinesis-firehose-connector,symopsio,14386,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-firehose-connector
+kinesis-firehose-connector,symopsio,15718,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-connector,The `kinesis-firehose-connector` module provisions dependencies for creating a Kinesis Firehose.
 kinesis-firehose-datadog,ferhatvurucu,8446,aws,https://github.com/ferhatvurucu/terraform-aws-kinesis-firehose-datadog,This module configures Amazon Kinesis Firehose to send the log data to Datadog using HTTP Endpoint.
 kinesis-firehose-s3-bucket,dod-iac,7144,aws,https://github.com/dod-iac/terraform-aws-kinesis-firehose-s3-bucket,Creates a Kinesis Data Firehose Delivery Stream that delivers records to a S3 Bucket
 kinesis-firehose-splunk,disney,2543,aws,https://github.com/disney/terraform-aws-kinesis-firehose-splunk,This code creates/configures a Kinesis Firehose in AWS to send CloudWatch log data to Splunk.
@@ -5427,6 +5445,7 @@ kubeadm,weibeld,4822,aws,https://github.com/weibeld/terraform-aws-kubeadm,Terraf
 kubeadm-token,scholzj,244,random,https://github.com/scholzj/terraform-random-kubeadm-token,Terraform module for generating kubeadm tokens
 kubeconfig,HumbertoPeluso,10808,aws,https://github.com/HumbertoPeluso/terraform-aws-kubeconfig,
 kubeconfig,redeux,8462,kubernetes,https://github.com/redeux/terraform-kubernetes-kubeconfig,Generate kubeconfig files with Terraform
+kubectl-cmd,LuxChanLu,15712,kubernetes,https://github.com/LuxChanLu/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
 kubectl-cmd,agseijas,11820,kubernetes,https://github.com/agseijas/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
 kubectl-cmd,magnolia-sre,13199,kubernetes,https://github.com/magnolia-sre/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
 kubeflow,WOGRA-AG,11622,kustomization,https://github.com/WOGRA-AG/terraform-kustomization-kubeflow,A Terraform module for running Kubeflow on a kubernetes cluster.
@@ -5554,6 +5573,7 @@ l3out,qzx,9688,aci,https://github.com/qzx/terraform-aci-l3out,Terraform module f
 l3out-interface-profile,netascode,10440,aci,https://github.com/netascode/terraform-aci-l3out-interface-profile,Terraform Cisco ACI L3out Interface Profile Module
 l3out-node-profile,netascode,10432,aci,https://github.com/netascode/terraform-aci-l3out-node-profile,Terraform Cisco ACI L3out Node Profile Module
 l4l7-device,netascode,10397,aci,https://github.com/netascode/terraform-aci-l4l7-device,Terraform Cisco ACI L4L7 Device Module
+lab-azure-vpn-gateway-bgp-over-ipsec-with-aviatrix-transit,jye-aviatrix,15723,aviatrix,https://github.com/jye-aviatrix/terraform-aviatrix-lab-azure-vpn-gateway-bgp-over-ipsec-with-aviatrix-transit,"This module create a lab environment, intergrating Azure VPN Gateway with Aviatrix Transit via BGP over IPSec."
 label,appzen-oss,2025,local,https://github.com/appzen-oss/terraform-local-label,Terraform module to create consistent naming
 label,aws-ia,9053,aws,https://github.com/aws-ia/terraform-aws-label,AWS Label Module
 label,cloudposse,1065,terraform,https://github.com/cloudposse/terraform-terraform-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
@@ -5653,7 +5673,8 @@ lambda-cloudwatch-alarm-to-slack,JousP,4143,aws,https://github.com/JousP/terrafo
 lambda-cloudwatch-events-trigger,infrablocks,2775,aws,https://github.com/infrablocks/terraform-aws-lambda-cloudwatch-events-trigger,Terraform AWS module to trigger lambdas regularly
 lambda-cloudwatch-report,lablabs,4410,aws,https://github.com/lablabs/terraform-aws-lambda-cloudwatch-report,
 lambda-code-pipeline,abdellatif05,6805,aws,https://github.com/abdellatif05/terraform-aws-lambda-code-pipeline,Terraform code for create a CodePipeline for lambda
-lambda-connector,symopsio,14387,sym,https://github.com/symopsio/terraform-sym-lambda-connector,The `lambda-connector` module provisions a Lambda role that the AWS Lambda Strategy can use to invoke AWS Lambda Functions.
+lambda-connector,symopsio,14387,sym,https://github.com/symopsio/terraform-sym-lambda-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-lambda-connector
+lambda-connector,symopsio,15721,aws,https://github.com/symopsio/terraform-aws-lambda-connector,The `lambda-connector` module provisions a Lambda role that the AWS Lambda Strategy can use to invoke AWS Lambda Functions.
 lambda-container,andreswebs,9765,aws,https://github.com/andreswebs/terraform-aws-lambda-container,Terraform module to deploy an AWS Lambda using a container image from AWS ECR
 lambda-dependencies-layer,rdvencioneck,8755,aws,https://github.com/rdvencioneck/terraform-aws-lambda-dependencies-layer,"Terraform module for building AWS Lambda layers for application dependencies, using lambda or codebuild"
 lambda-do-it-all,bbeesley,4157,aws,https://github.com/bbeesley/terraform-aws-lambda-do-it-all,Terraform module to provision a lambda with full permissions
@@ -6165,6 +6186,7 @@ mmorpg,terraform-in-action,7597,cloud,https://github.com/terraform-in-action/ter
 mns-queue,terraform-alicloud-modules,1812,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-mns-queue,Terraform module which creates MNS queue on Alibaba Cloud
 mns-topic,terraform-alicloud-modules,1813,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-mns-topic,Terraform module which creates MNS topic and its subscription on Alibaba Cloud
 mobius3,zeroae,7295,aws,https://github.com/zeroae/terraform-aws-mobius3,A terraform module to help you configure mobius3 for Fargate tasks
+mod,viswanathanandbaf,15692,custom,https://github.com/viswanathanandbaf/terraform-custom-mod,
 mod_reuse,chiraag-kakar,12284,aws,https://github.com/chiraag-kakar/terraform-aws-mod_reuse,"This module helps in building reusable infrastructure in AWS by aggregating vpc, subnets, route, gateway, instances, security groups with ease."
 modelconverter,combinator-ml,8804,k8s,https://github.com/combinator-ml/terraform-k8s-modelconverter,"A combinator component that provides model-converter, a tool to auto-magically build ML containers"
 modify-db-schedule,hacomono,13398,aws,https://github.com/hacomono/terraform-aws-modify-db-schedule,AWS RDSの更新をスケジューリングできるTerraform Module
@@ -6367,6 +6389,7 @@ mys3bucket,Inayat22061987,12872,aws,https://github.com/Inayat22061987/terraform-
 mys3bucket,Karunanagaraju,14528,aws,https://github.com/Karunanagaraju/terraform-aws-mys3bucket,
 mys3bucket,SenaritraAccenture,13231,aws,https://github.com/SenaritraAccenture/terraform-aws-mys3bucket,
 mys3bucket,Shindhujaa,12947,aws,https://github.com/Shindhujaa/terraform-aws-mys3bucket,
+mys3bucket,aparnapansare,15693,aws,https://github.com/aparnapansare/terraform-aws-mys3bucket,
 mys3bucket,chandrakalahk,14527,aws,https://github.com/chandrakalahk/terraform-aws-mys3bucket,
 mys3bucket,cskabi,13230,aws,https://github.com/cskabi/terraform-aws-mys3bucket,demo
 mys3bucket,hiteshacct,15570,aws,https://github.com/hiteshacct/terraform-aws-mys3bucket,terraform training
@@ -6376,10 +6399,12 @@ mys3bucket,mohd-mohsin,12720,aws,https://github.com/mohd-mohsin/terraform-aws-my
 mys3bucket,mrunalini-d,12944,aws,https://github.com/mrunalini-d/terraform-aws-mys3bucket,
 mys3bucket,sudeshnadchowdhury,15571,aws,https://github.com/sudeshnadchowdhury/terraform-aws-mys3bucket,
 mys3bucket,sudipta-maity,13228,aws,https://github.com/sudipta-maity/terraform-aws-mys3bucket,
+mys3bucket,swathik86,15695,aws,https://github.com/swathik86/terraform-aws-mys3bucket,
 mys3bucket,ugideepak,14337,aws,https://github.com/ugideepak/terraform-aws-mys3bucket,
 mys3bucket,yagami6,14524,aws,https://github.com/yagami6/terraform-aws-mys3bucket,My first terrafrom module
 mys3bucket-new,akanksha-n-jain,13406,aws,https://github.com/akanksha-n-jain/terraform-aws-mys3bucket-new,
 mys3bucket1,SaiGurunadh25,12945,aws,https://github.com/SaiGurunadh25/terraform-aws-mys3bucket1,
+mysbucket,asthaaaaaaaaa,15697,aws,https://github.com/asthaaaaaaaaa/terraform-aws-mysbucket,
 mysql,JamesWoolfenden,7790,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-mysql,Basic MySQL module
 mysql,StayWell,2374,aws,https://github.com/StayWell/terraform-aws-mysql,Aurora serverless MySQL
 mysql,T-Systems-MMS,14532,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-mysql,Configure Azure MySQL
@@ -6471,6 +6496,7 @@ nat-instance,gfortetsanakis,15200,aws,https://github.com/gfortetsanakis/terrafor
 nat-instance,int128,3097,aws,https://github.com/int128/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance-setup,bennesp,8914,aws,https://github.com/bennesp/terraform-aws-nat-instance-setup,Module to create a VPC with two subnets (private and public) and a NAT instance
 nat-instances-ha,vainkop,6922,aws,https://github.com/vainkop/terraform-aws-nat-instances-ha,Terraform module to provision HA NAT Instances on AWS EC2
+nat-rule,bootlabstech,15689,panos,https://github.com/bootlabstech/terraform-panos-nat-rule,
 natgw-notifications,binbashar,5549,aws,https://github.com/binbashar/terraform-aws-natgw-notifications,
 native,ned1313,11618,cloudinit,https://github.com/ned1313/terraform-cloudinit-native,A Terraform module to generate cloud init file natively without a provider plugin or data source.
 naveens3bucket,kumarn5,13641,aws,https://github.com/kumarn5/terraform-aws-naveens3bucket,
@@ -7700,6 +7726,7 @@ repository,flufi-io,13514,github,https://github.com/flufi-io/terraform-github-re
 repository,hadenlabs,7227,github,https://github.com/hadenlabs/terraform-github-repository,github repository for terraform
 repository,hadenlabs,8116,gitlab,https://github.com/hadenlabs/terraform-gitlab-repository,terraform gitlab repository
 repository,innovationnorway,2122,github,https://github.com/innovationnorway/terraform-github-repository,Create a new GitHub repository
+repository,ksatirli,15701,github,https://github.com/ksatirli/terraform-github-repository,:octocat: Terraform Module for managing Github Repositories
 repository,mineiros-io,4127,github,https://github.com/mineiros-io/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,mrlesmithjr,5332,github,https://github.com/mrlesmithjr/terraform-github-repository,
 repository,operatehappy,5449,github,https://github.com/operatehappy/terraform-github-repository,:octocat: Terraform Module for managing Github Repositories
@@ -7929,7 +7956,8 @@ run-vm-command,craigthackerx,7731,azurerm,https://github.com/craigthackerx/terra
 run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraform-azurerm-run-vm-command,"A module that run commands on virtual machines in Azure. It is a programmatic way to use the ""Run Command"" option in the portal :rose:"
 runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-runiap,Identity-Aware Proxy on Cloud Run. Based on https://github.com/terraform-google-modules/terraform-google-lb
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
-runtime-connector,symopsio,14388,sym,https://github.com/symopsio/terraform-sym-runtime-connector,The `runtime-connector` module provisions an IAM role that a Sym Runtime uses to execute a Flow.
+runtime-connector,symopsio,14388,sym,https://github.com/symopsio/terraform-sym-runtime-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-runtime-connector
+runtime-connector,symopsio,15717,aws,https://github.com/symopsio/terraform-aws-runtime-connector,The `runtime-connector` module provisions an IAM role that a Sym Runtime uses to execute a Flow.
 s3,Aplyca,1326,aws,https://github.com/Aplyca/terraform-aws-s3,Create S3 bucket optimized for web site hosting
 s3,AustinCloudGuru,15568,aws,https://github.com/AustinCloudGuru/terraform-aws-s3,
 s3,JamesWoolfenden,1904,aws,https://github.com/JamesWoolfenden/terraform-aws-s3,"Contains the module, permissions and sample code to create a s3 bucket in AWS"
@@ -7981,6 +8009,7 @@ s3-backup-bucket,rj175,6726,aws,https://github.com/rj175/terraform-aws-s3-backup
 s3-bucket,AeronFuertes,12864,aws,https://github.com/AeronFuertes/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,Akinwalee,15060,aws,https://github.com/Akinwalee/terraform-aws-s3-bucket,A Terraform module that provisions AWS S3 buckets.
 s3-bucket,BearAlliance,14261,aws,https://github.com/BearAlliance/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
+s3-bucket,Danurk,15716,aws,https://github.com/Danurk/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,GGVC888,10599,aws,https://github.com/GGVC888/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,ImmanuelADavid,12714,aws,https://github.com/ImmanuelADavid/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,Infrastrukturait,14356,aws,https://github.com/Infrastrukturait/terraform-aws-s3-bucket,Terraform module to create S3 bucket on AWS
@@ -8399,7 +8428,8 @@ secretsmanager-for-rollbar-access-tokens,babbel,7488,aws,https://github.com/babb
 secretsmanager-keypair,rhythmictech,5395,aws,https://github.com/rhythmictech/terraform-aws-secretsmanager-keypair,Generates and stores an EC2 Keypair in Secrets Manager
 secretsmanager-random-secret,rhythmictech,5389,aws,https://github.com/rhythmictech/terraform-aws-secretsmanager-random-secret,Generates and stores a random string in Secrets Manager.
 secretsmanager-secret,rhythmictech,3116,aws,https://github.com/rhythmictech/terraform-aws-secretsmanager-secret,Simple secret module for AWS Secrets Manager 
-secretsmgr-addon,symopsio,14389,sym,https://github.com/symopsio/terraform-sym-secretsmgr-addon,The `aws/secretsmgr` add-on provisions AWS Secrets Manager access for a Sym `runtime-connector` module.
+secretsmgr-addon,symopsio,14389,sym,https://github.com/symopsio/terraform-sym-secretsmgr-addon,DEPRECATED: Use https://github.com/symopsio/terraform-aws-secretsmgr-addon
+secretsmgr-addon,symopsio,15713,aws,https://github.com/symopsio/terraform-aws-secretsmgr-addon,The `aws/secretsmgr` add-on provisions AWS Secrets Manager access for a Sym `runtime-connector` module.
 secure-backend,Pwd9000-ML,3862,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-secure-backend,Public Terraform Registry module for setting up a secure AZURE backend environment for a team to use in AZURE
 secure-base,appzen-oss,12256,aws,https://github.com/appzen-oss/terraform-aws-secure-base,"AWS multi-account, multi-region organization secure base"
 secure-baseline,Marcin-Duszynski,3073,aws,https://github.com/Marcin-Duszynski/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
@@ -8699,7 +8729,7 @@ shanstorage,Balashanthoshi,13211,azure,https://github.com/Balashanthoshi/terrafo
 share,KamilBlaz,11806,aws,https://github.com/KamilBlaz/terraform-aws-share,
 shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
-sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint on Azure
+sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 / 2013 on Azure
 sharmistorage1,Sharmich09,13213,azure,https://github.com/Sharmich09/terraform-azure-sharmistorage1,
 shell-data,BrynardSecurity-terraform,12993,external,https://github.com/BrynardSecurity-terraform/terraform-external-shell-data,
 shell-data,Invicton-Labs,9249,external,https://github.com/Invicton-Labs/terraform-external-shell-data,
@@ -8946,7 +8976,7 @@ sqs,epalominolan,11586,aws,https://github.com/epalominolan/terraform-aws-sqs,Mod
 sqs,foss-cafe,5643,aws,https://github.com/foss-cafe/terraform-aws-sqs,Terraform module for AWS SQS
 sqs,genstackio,7998,aws,https://github.com/genstackio/terraform-aws-sqs,Terraform module to create an AWS SQS queue
 sqs,so1omon563,14227,aws,https://github.com/so1omon563/terraform-aws-sqs,Module to create an SQS queue.
-sqs,terraform-aws-modules,291,aws,https://github.com/terraform-aws-modules/terraform-aws-sqs,Terraform module which creates SQS resources on AWS
+sqs,terraform-aws-modules,291,aws,https://github.com/terraform-aws-modules/terraform-aws-sqs,Terraform module which creates SQS resources on AWS 🇺🇦
 sqs,tomarv2,12371,aws,https://github.com/tomarv2/terraform-aws-sqs,Terraform module for creating SQS 
 sqs,umotif-public,9274,aws,https://github.com/umotif-public/terraform-aws-sqs,Terraform module which creates SQS resources in AWS
 sqs-alarm,wesol05,2859,aws,https://github.com/wesol05/terraform-aws-sqs-alarm,
@@ -9048,7 +9078,8 @@ sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terrafor
 sso,rhythmictech,3139,okta,https://github.com/rhythmictech/terraform-okta-sso,
 sso-arns,npalladium,15396,aws,https://github.com/npalladium/terraform-aws-sso-arns,Terraform module to get Role ARNs given SSO Permission Set names.
 sso-assignment,speee,9812,aws,https://github.com/speee/terraform-aws-sso-assignment,Terraform module which creates AWS SSO assignments on AWS.
-sso-connector,symopsio,14390,sym,https://github.com/symopsio/terraform-sym-sso-connector,The `sso-connector` module provisions an IAM role that the AWS SSO Strategy can use to escalate or de-escalate users in SSO Instances.
+sso-connector,symopsio,14390,sym,https://github.com/symopsio/terraform-sym-sso-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-sso-connector
+sso-connector,symopsio,15720,aws,https://github.com/symopsio/terraform-aws-sso-connector,The `sso-connector` module provisions an IAM role that the AWS SSO Strategy can use to escalate or de-escalate users in SSO Instances.  Topics
 sso-group-assignment,gadgetry-io,10066,aws,https://github.com/gadgetry-io/terraform-aws-sso-group-assignment,Terraform AWS SSO Account Assignment Module
 sso-permission-set,gadgetry-io,10065,aws,https://github.com/gadgetry-io/terraform-aws-sso-permission-set,Terraform AWS SSO Permission Set Module
 sso-roles,dod-iac,7764,aws,https://github.com/dod-iac/terraform-aws-sso-roles,Configure AWS roles for use with SSO
@@ -9360,6 +9391,7 @@ suparnastorage,trainsup,10157,azure,https://github.com/trainsup/terraform-azure-
 support-access,xosphere,6058,xosphere,https://github.com/xosphere/terraform-xosphere-support-access,Temporarily provide Xosphere Support read-only access to Xosphere log files for troubleshooting purposes
 surajs3,SurajMishra261293,11427,aws,https://github.com/SurajMishra261293/terraform-aws-surajs3,
 suricata,onetwopunch,8158,google,https://github.com/onetwopunch/terraform-google-suricata,
+suryas3bucket,suryaprakashd08,15691,aws,https://github.com/suryaprakashd08/terraform-aws-suryas3bucket,
 sushant_s3Bucket,yagami6,14526,aws,https://github.com/yagami6/terraform-aws-sushant_s3Bucket,
 swapfile,figurate,5680,null,https://github.com/figurate/terraform-null-swapfile,Create a swapfile on a Linux host
 swarm,syntaqx,2951,digitalocean,https://github.com/syntaqx/terraform-digitalocean-swarm,Terraform module to provision a Docker Swarm cluster.
