@@ -2257,7 +2257,7 @@ common-iam-roles,traveloka,2458,aws,https://github.com/traveloka/terraform-aws-c
 common-variables,container-labs,6874,tfe,https://github.com/container-labs/terraform-tfe-common-variables,
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,
-complete-eks-cluster,dasmeta,14609,aws,https://github.com/dasmeta/terraform-aws-complete-eks-cluster,
+complete-eks-cluster,dasmeta,14609,aws,https://github.com/dasmeta/terraform-aws-complete-eks-cluster,All terraform modules that are related or supporting EKS setup
 components,cloudposse,6626,aws,https://github.com/cloudposse/terraform-aws-components,"Opinionated, self-contained Terraform root modules that each solve one, specific problem"
 components,leb4r,11707,do,https://github.com/leb4r/terraform-do-components,Terraform modules that can be re-used in other projects. Built specifically for DigitalOcean. 
 components,leb4r,13072,aws,https://github.com/leb4r/terraform-aws-components,Terraform templates that can be re-used in other projects. Built specifically for AWS.
@@ -2380,6 +2380,7 @@ consul-ent-k8s,hashicorp,13577,gcp,https://github.com/hashicorp/terraform-gcp-co
 consul-ent-k8s,hashicorp,13578,azure,https://github.com/hashicorp/terraform-azure-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on AKS as described by HashiCorp reference architecture.
 consul-event-waf,scshitole,14701,bigip,https://github.com/scshitole/terraform-bigip-consul-event-waf,
 consul-firewall,jarensaa,4800,digitalocean,https://github.com/jarensaa/terraform-digitalocean-consul-firewall,Terraform module for creating a standard firewall with ports open for a Consul server.
+consul-lambda,hashicorp,15755,aws,https://github.com/hashicorp/terraform-aws-consul-lambda,This repository holds the Go code and Terraform module used for deploying Lambda registrator.
 consul-lambda-registrator,hashicorp,13918,aws,https://github.com/hashicorp/terraform-aws-consul-lambda-registrator,This repository holds the Go code and Terraform module used for deploying Lambda registrator.
 consul-nomad-cluster,yellowmegaman,1990,google,https://github.com/yellowmegaman/terraform-google-consul-nomad-cluster,Terraform module. Can be used to create really simple consul/nomad cluster in Google Cloud
 consul-secrets-engine,AdrienneCohea,11467,vault,https://github.com/AdrienneCohea/terraform-vault-consul-secrets-engine,Enable Consul secrets engine
@@ -2394,6 +2395,7 @@ contactinfo,sr2c,11332,null,https://github.com/sr2c/terraform-null-contactinfo,T
 container,hongjunjeong95,12689,aws,https://github.com/hongjunjeong95/terraform-aws-container,
 container,tedilabs,7744,aws,https://github.com/tedilabs/terraform-aws-container,🌳 A sustainable Terraform Package which creates resources for Container Services on AWS
 container,terracharge,14079,aws,https://github.com/terracharge/terraform-aws-container,Module for creating terraform-aws-container with provider aws. This description is created automagically
+container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
 container-image,eliotlim,12579,aws,https://github.com/eliotlim/terraform-aws-container-image,Terraform module that builds and pushes a Docker image to AWS Elastic Container Registry
@@ -2401,6 +2403,7 @@ container-insights,Gooygeek,11152,helm,https://github.com/Gooygeek/terraform-hel
 container-instance,tomarv2,12424,azure,https://github.com/tomarv2/terraform-azure-container-instance,Terraform module for Azure Container Instance(ACI)
 container-instance-draining,edispark,6095,ecs,https://github.com/edispark/terraform-ecs-container-instance-draining,Automates Container Instance Draining in Amazon ECS by removing tasks from an instance before scaling down a cluster with Auto Scaling Groups. 
 container-job,diego-alves,8378,aws,https://github.com/diego-alves/terraform-aws-container-job,Terraform Module for running a Schedule Job on ECS
+container-node-pool,savipavan,15753,google,https://github.com/savipavan/terraform-google-container-node-pool,
 container-platform,cloud-native-toolkit,14556,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-container-platform,Terraform module to create or connect to a IBM Cloud cluster
 container-registry,DanielMabbett,6326,azurerm,https://github.com/DanielMabbett/terraform-azurerm-container-registry,Terraform module for Azure Container Registry
 container-registry,avinor,3206,azurerm,https://github.com/avinor/terraform-azurerm-container-registry,Terraform module to create a docker container registry in Azure
@@ -2646,6 +2649,7 @@ date-time-format,netascode,9786,aci,https://github.com/netascode/terraform-aci-d
 date-time-policy,netascode,9789,aci,https://github.com/netascode/terraform-aci-date-time-policy,Terraform Cisco ACI Date Time Policy Module
 dates,toowoxx,10962,external,https://github.com/toowoxx/terraform-external-dates,"Date & Time functionality for systems that support the ""date"" command with format specifier (e. g. GNU coreutils)"
 datomic-transactor-module,fr33m0nk,14277,aws,https://github.com/fr33m0nk/terraform-aws-datomic-transactor-module,AWS Terraform module for provisioning on-prem Datomic transactors with Dynamo DB
+davinci,tsigle,15741,pingidentity,https://github.com/tsigle/terraform-pingidentity-davinci,Terraform module to create DaVinci solutions
 dax,JamesWoolfenden,7830,aws,https://github.com/JamesWoolfenden/terraform-aws-dax,Basic DAX module
 dax,devops-made-easy,5711,aws,https://github.com/devops-made-easy/terraform-aws-dax,A Terraform module to create AWS DynamoDB Accelerator (DAX)
 db,mohsenSy,10928,digitalocean,https://github.com/mohsenSy/terraform-digitalocean-db,A terraform module to manage Digital Ocean Database Clusters
@@ -3063,6 +3067,9 @@ eais,terraform-alicloud-modules,12805,alicloud,https://github.com/terraform-alic
 easy-alerting,LederWorks,10426,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting,LederWorks Azure Easy Alerting Terraform Module
 easy-alerting-aks,LederWorks,10363,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting-aks,LederWorks Azure Easy Alerting AKS Terraform Module
 easy-alerting-datafactory,LederWorks,10593,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting-datafactory,LederWorks Azure Easy Alerting Data Factory Terraform Module
+easy-brick-compute-linux-vm,LederWorks,15744,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-brick-compute-linux-vm,LederWorks Compute Linux VM Brick Module
+easy-brick-compute-managed-disk,LederWorks,15740,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-brick-compute-managed-disk,LederWorks Compute Managed Disk Brick Module
+easy-brick-network-nic,LederWorks,15742,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-brick-network-nic,LederWorks Azure Network Interface Card Brick Module
 easy-certificates,LederWorks,13450,tls,https://github.com/LederWorks/terraform-tls-easy-certificates,Terraform TLS Easy Self Signed Cert
 easy-fargate,USSBA,5670,aws,https://github.com/USSBA/terraform-aws-easy-fargate,A Terraform module for deploying web applications to Fargate the easy way
 easy-fargate-service,USSBA,5906,aws,https://github.com/USSBA/terraform-aws-easy-fargate-service,A terraform module to easily stand up a fargate service
@@ -3151,6 +3158,7 @@ ec2-ebs-attach,anushkat1,9896,aws,https://github.com/anushkat1/terraform-aws-ec2
 ec2-ebs-secgrp,Vrush-cmd,10886,aws,https://github.com/Vrush-cmd/terraform-aws-ec2-ebs-secgrp,
 ec2-example,mplibunao,14431,aws,https://github.com/mplibunao/terraform-aws-ec2-example,Terraform module for creating an ec2 instance with firewall rules
 ec2-example-luigi,luispdm,10820,aws,https://github.com/luispdm/terraform-aws-ec2-example-luigi,Example of terraform module published to terraform registry
+ec2-github-runner,QuiNovas,15748,aws,https://github.com/QuiNovas/terraform-aws-ec2-github-runner,Enable the use of the Github Action machulav/ec2-github-runner@v2 in your AWS account
 ec2-iam-role,Cloud-42,3909,aws,https://github.com/Cloud-42/terraform-aws-ec2-iam-role,Creates an IAM Role. Useful for ec2 and ASGs.
 ec2-iam-role,Smartbrood,538,aws,https://github.com/Smartbrood/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,leonardobiffi,14374,aws,https://github.com/leonardobiffi/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
@@ -3670,7 +3678,7 @@ eks,chaglare,7307,aws,https://github.com/chaglare/terraform-aws-eks,
 eks,clouddrove,9091,aws,https://github.com/clouddrove/terraform-aws-eks,"Terraform module will be created Autoscaling, Workers, EKS."
 eks,codezenith,4492,aws,https://github.com/codezenith/terraform-aws-eks,AWS EKS template
 eks,cookpad,4551,aws,https://github.com/cookpad/terraform-aws-eks,A Terraform module to Provision AWS Elastic Kubernetes (EKS) clusters and worker nodes
-eks,dasmeta,14938,aws,https://github.com/dasmeta/terraform-aws-eks,
+eks,dasmeta,14938,aws,https://github.com/dasmeta/terraform-aws-eks,All terraform modules that are related or supporting EKS setup
 eks,dreckguy,15482,aws,https://github.com/dreckguy/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,elioseverojunior,14262,aws,https://github.com/elioseverojunior/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,farrukh90,4506,aws,https://github.com/farrukh90/terraform-aws-eks,
@@ -4261,6 +4269,7 @@ flux,emmekappa,6612,helm,https://github.com/emmekappa/terraform-helm-flux,
 flux,rtlnl,5554,aws,https://github.com/rtlnl/terraform-aws-flux,Terraform module to install Flux CD in a Kubernetes cluster (With optional Helm Operator)
 flux,rtlnl,5564,kubernetes,https://github.com/rtlnl/terraform-kubernetes-flux,Terraform module to install Flux CD in a Kubernetes cluster (With optional Helm Operator)
 flux,yellowmegaman,2796,google,https://github.com/yellowmegaman/terraform-google-flux,Terraform code to add weaveworks flux as a module for existing k8s cluster
+flux-bootstrap,celest-io,15751,github,https://github.com/celest-io/terraform-github-flux-bootstrap,
 flux-bootstrap,kube-champ,7240,k8s,https://github.com/kube-champ/terraform-k8s-flux-bootstrap,
 flux-deployment,jakoberpf,12490,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-flux-deployment,
 flux-install,rafaelperoco,11743,flux,https://github.com/rafaelperoco/terraform-flux-flux-install,Terraform Flux module using official provider
@@ -4565,6 +4574,7 @@ grafana,basisai,9092,helm,https://github.com/basisai/terraform-helm-grafana,
 grafana,philips-labs,6059,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-grafana,Terraform module to deploy a Grafana instance to Cloud foundry
 grafana,rickardl,8948,aws,https://github.com/rickardl/terraform-aws-grafana,
 grafana,telia-oss,1414,aws,https://github.com/telia-oss/terraform-aws-grafana,Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
+grafana,tf-cloud-modules,15743,aiven,https://github.com/tf-cloud-modules/terraform-aiven-grafana,Aiven Grafana Terraform module
 grafana-agent,scarf-sh,9061,kubernetes,https://github.com/scarf-sh/terraform-kubernetes-grafana-agent,"Deploy grafana agent in Kubernetes, using Terraform"
 grafana-dashboards,ammilam,10919,kubernetes,https://github.com/ammilam/terraform-kubernetes-grafana-dashboards,
 grafana-workload-account,escapace,14928,aws,https://github.com/escapace/terraform-aws-grafana-workload-account,
@@ -5924,6 +5934,7 @@ linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-l
 linuxscaleset,JamesWoolfenden,5582,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-linuxscaleset,Basic linuxscaleset module
 linuxvm,andrewCluey,6483,azurerm,https://github.com/andrewCluey/terraform-azurerm-linuxvm,Deploy a Linux VM with Password auth disabled.
 linuxvmpool,ryzhom,14536,azurerm,https://github.com/ryzhom/terraform-azurerm-linuxvmpool,Terraform module for Azure VM. Deploy VMs and attached managed disks based on json config file
+liquidmetal,weaveworks-liquidmetal,15746,equinix,https://github.com/weaveworks-liquidmetal/terraform-equinix-liquidmetal,Terraform modules for creating a Liquid Metal Platform in Equinix
 listenerrule-nia,joatmon08,7919,aws,https://github.com/joatmon08/terraform-aws-listenerrule-nia,Consul-Terraform-Sync Module for AWS Application Load Balancer Listener Rules
 listeners,tf-openstack-modules,6896,openstack,https://github.com/tf-openstack-modules/terraform-openstack-listeners,
 lite-account-security,DNXLabs,5741,aws,https://github.com/DNXLabs/terraform-aws-lite-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
@@ -6007,7 +6018,7 @@ loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terr
 longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
-lz-association,ldesmons-telstra,15730,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-association,Terraform module for an association between twovnets in an Azure Landing Zone based on Hub-Spoke topology.
+lz-association,ldesmons-telstra,15730,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-association,Terraform module for an association between two vnets in an Azure Landing Zone based on Hub-Spoke topology.
 lz-hub,ldesmons-telstra,15486,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-hub,Terraform module for a hub vnet in an Azure Landing Zone based on Hub-Spoke topology
 lz-keyvault,andrewCluey,6531,azurerm,https://github.com/andrewCluey/terraform-azurerm-lz-keyvault,terraform module to deploy KeyVault to a LandingZone
 lz-spoke,ldesmons-telstra,15481,azurerm,https://github.com/ldesmons-telstra/terraform-azurerm-lz-spoke,Terraform module for a spoke vnet in an Azure Landing Zone based on Hub-Spoke topology.
@@ -6595,6 +6606,7 @@ network,terraform-google-modules,1621,google,https://github.com/terraform-google
 network,viswanth165,11085,google,https://github.com/viswanth165/terraform-google-network,
 network,vosunda,9046,google,https://github.com/vosunda/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,watdafudge,13135,azurerm,https://github.com/watdafudge/terraform-azurerm-network,Terraform Azure RM Module for Network
+network,yingguo,15756,azurerm,https://github.com/yingguo/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,zahav,11729,azurerm,https://github.com/zahav/terraform-azurerm-network,Terraform module which creates Virtual Network resources in Azure
 network,zerotier,8718,zerotier,https://github.com/zerotier/terraform-zerotier-network,
 network,zoitech,200,aws,https://github.com/zoitech/terraform-aws-network,This module is intended to be used for configuring an AWS network.
@@ -6946,6 +6958,7 @@ outline,peterzam,10079,lightsail,https://github.com/peterzam/terraform-lightsail
 output-run-env-context,glenngillen,15488,tfe,https://github.com/glenngillen/terraform-tfe-output-run-env-context,Outputs the environment variables available in the context of a Terraform Cloud run.
 outputs,matti,786,shell,https://github.com/matti/terraform-shell-outputs,
 outputs-updater,gdurandvadas,4420,self,https://github.com/gdurandvadas/terraform-self-outputs-updater,Module to update changes in outputs.tf
+p1env,terraform-pingidentity-modules,15749,draft,https://github.com/terraform-pingidentity-modules/terraform-draft-p1env,Draft PingOne Environment Module
 pa-vm,equinix,8138,equinix,https://github.com/equinix/terraform-equinix-pa-vm,Terraform module for quick deployment of Palo Alto Networks VM series firewall device
 pachyderm,combinator-ml,8417,k8s,https://github.com/combinator-ml/terraform-k8s-pachyderm,Pachyderm on Kubernetes. A Terraform module for combinator.ml.
 package,cloudventure-io,10861,nodejs,https://github.com/cloudventure-io/terraform-nodejs-package,Terraform module for packaging NodeJS modules
@@ -8531,6 +8544,7 @@ security-groups,yurymkomarov,4634,aws,https://github.com/yurymkomarov/terraform-
 security-hub,clouddrove,10953,aws,https://github.com/clouddrove/terraform-aws-security-hub,
 security-hub,cloudposse,6628,aws,https://github.com/cloudposse/terraform-aws-security-hub,Terraform module to provision AWS Security Hub
 security-list,JamesWoolfenden,12484,oci,https://github.com/JamesWoolfenden/terraform-oci-security-list,
+security-policy,bootlabstech,15754,panos,https://github.com/bootlabstech/terraform-panos-security-policy,
 security-report,hendrixroa,6551,aws,https://github.com/hendrixroa/terraform-aws-security-report,Lambda that notify security issues.
 security_group,mikamakusa,4351,aws,https://github.com/mikamakusa/terraform-aws-security_group,
 securitygroup,kmayer10,13383,aws,https://github.com/kmayer10/terraform-aws-securitygroup,Terraform module to create Security Group
@@ -9408,6 +9422,7 @@ swarm,syntaqx,2951,digitalocean,https://github.com/syntaqx/terraform-digitalocea
 swarm-aws,trajano,1781,docker,https://github.com/trajano/terraform-docker-swarm-aws,Terraform script to set up a Docker Swarm on AWS
 swayam,Swayam2909,12073,azure,https://github.com/Swayam2909/terraform-azure-swayam,
 swift-digital-connectivity,aws-ia,14980,aws,https://github.com/aws-ia/terraform-aws-swift-digital-connectivity,This is the Terraform version of the Swift digital connectivity Quick Start
+synapse,crayon,15747,azurerm,https://github.com/crayon/terraform-azurerm-synapse,
 synapse-analytics,bootlabstech,15507,azurerm,https://github.com/bootlabstech/terraform-azurerm-synapse-analytics,
 sync,L2Solutions,8824,flux,https://github.com/L2Solutions/terraform-flux-sync,
 sync-files,4ops,7244,null,https://github.com/4ops/terraform-null-sync-files,Terraform module
