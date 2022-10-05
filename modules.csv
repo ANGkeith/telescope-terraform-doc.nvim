@@ -139,6 +139,7 @@ ack,nlamirault,7328,alicloud,https://github.com/nlamirault/terraform-alicloud-ac
 acm,Aplyca,1018,aws,https://github.com/Aplyca/terraform-aws-acm,Terraform AWS Certificate Manager module
 acm,Lupus-Metallum,8432,aws,https://github.com/Lupus-Metallum/terraform-aws-acm,Used to create a DNS verified ACM certificate by R53 Zone name
 acm,Selleo,12995,aws,https://github.com/Selleo/terraform-aws-acm,Terraform module for provisioning and validating TLS certificates.
+acm,TheGrowthExponent,15768,aws,https://github.com/TheGrowthExponent/terraform-aws-acm,Create and verify ACM certificate
 acm,UGNS,7551,aws,https://github.com/UGNS/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,YoshinoriSatoh,11932,aws,https://github.com/YoshinoriSatoh/terraform-aws-acm,
 acm,appzen-oss,5772,aws,https://github.com/appzen-oss/terraform-aws-acm,AWS cert manager module
@@ -1316,7 +1317,7 @@ backend,lorconksu,12893,s3,https://github.com/lorconksu/terraform-s3-backend,Exa
 backend,malepatip,14424,aws,https://github.com/malepatip/terraform-aws-backend,Terraform Backend Module in AWS with S3
 backend,mhmdio,6936,aws,https://github.com/mhmdio/terraform-aws-backend,"Creates a backend S3 bucket, DynamoDB table, and KMS key for managing Terraform state."
 backend,nourhr,7910,Azure,https://github.com/nourhr/terraform-Azure-backend,module terraform pour intégrer un stockage d'tat distant
-backend,rhythmictech,3120,aws,https://github.com/rhythmictech/terraform-aws-backend,Creates a backend S3 bucket and DynamoDB table for managing Terraform state
+backend,rhythmictech,3120,aws,https://github.com/rhythmictech/terraform-aws-backend,Creates a backend S3 bucket and DynamoDB table for managing Terraform state in external accounts
 backend,ringanta,11682,aws,https://github.com/ringanta/terraform-aws-backend,Terraform remote backend on AWS
 backend,trajano,3217,s3,https://github.com/trajano/terraform-s3-backend,"the Bucket, DynamoDB and IAM Policies for S3 Backends"
 backend-config,Invicton-Labs,9717,null,https://github.com/Invicton-Labs/terraform-null-backend-config,Retrieves the current Terraform init configuration (including backend config and workspace)
@@ -3257,6 +3258,7 @@ ec2module,mandeepmehra,10773,aws,https://github.com/mandeepmehra/terraform-aws-e
 ec2module,rkecmfilenet,8922,aws,https://github.com/rkecmfilenet/terraform-aws-ec2module,terraform-aws-ec2module
 ec2module,shailendraprasad,8311,nsp,https://github.com/shailendraprasad/terraform-nsp-ec2module,
 ec2module-test,TechTruck,8309,aws,https://github.com/TechTruck/terraform-aws-ec2module-test,
+ec2module-tutorial,MeganLiu,15765,aws,https://github.com/MeganLiu/terraform-aws-ec2module-tutorial,
 ec2module-tutorial,anuvindhs,12535,aws,https://github.com/anuvindhs/terraform-aws-ec2module-tutorial,
 ec2web,fernandocyder,5774,aws,https://github.com/fernandocyder/terraform-aws-ec2web,
 echo,mundoalem,10307,null,https://github.com/mundoalem/terraform-null-echo,
@@ -6094,6 +6096,7 @@ masters,dcos-terraform,1376,aws,https://github.com/dcos-terraform/terraform-aws-
 masters,dcos-terraform,1511,gcp,https://github.com/dcos-terraform/terraform-gcp-masters,Create DC/OS Master instance and have conditional DC/OS Prereqs for GCP
 masters,dcos-terraform,1547,azurerm,https://github.com/dcos-terraform/terraform-azurerm-masters,Create DC/OS Masters instance and have conditional DC/OS Prereqs for Azure
 match-rule,netascode,9943,aci,https://github.com/netascode/terraform-aci-match-rule,Terraform Cisco ACI Match Rule Module
+matchbox,celest-io,15766,vultr,https://github.com/celest-io/terraform-vultr-matchbox,A terraform module that will create a matchbox configuration for VMs provisioned on Vultr
 matchbox,sacloud,2104,sakuracloud,https://github.com/sacloud/terraform-sakuracloud-matchbox,Terraform Module for setup Matchbox(https://coreos.com/matchbox/docs/latest/).
 matomo,philips-labs,7502,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-matomo,Terraform module for deploying matomo to cloudfoundry
 max-host,guyvelleman,11295,cidr,https://github.com/guyvelleman/terraform-cidr-max-host,Terraform module return the largest number we can represent in the remaining bits.
@@ -6685,7 +6688,7 @@ nfs,essjayhch,5252,kubernetes,https://github.com/essjayhch/terraform-kubernetes-
 nfs-client-provisioner,sculley,7234,kubernetes,https://github.com/sculley/terraform-kubernetes-nfs-client-provisioner,Terraform module which deploys nfs-client-provisioner to a Kubernetes cluster
 nfs-provider,o0th,9353,kubernetes,https://github.com/o0th/terraform-kubernetes-nfs-provider,
 ngfw,eikenb,8019,panos,https://github.com/eikenb/terraform-panos-ngfw,
-ngfw,findkim,5679,panos,https://github.com/findkim/terraform-panos-ngfw,Terraform module that generalizes service definitions to manage Consul services across a number of network infrastructure services.
+ngfw,findkim,5679,panos,https://github.com/findkim/terraform-panos-ngfw,
 nginx,crazy-canux,14310,ingress,https://github.com/crazy-canux/terraform-ingress-nginx,
 nginx-certman,djangoflow,14741,kubernetes,https://github.com/djangoflow/terraform-kubernetes-nginx-certman,An opinionated nginx load-balancer with certificate manager suitable for Djangoflow deployments
 nginx-controller,terraform-iaac,9125,helm,https://github.com/terraform-iaac/terraform-helm-nginx-controller,Terraform module for deploy nginx ingress controller
@@ -7678,6 +7681,7 @@ redshift,terraform-aws-modules,299,aws,https://github.com/terraform-aws-modules/
 redshift-cluster,cloudposse,8463,aws,https://github.com/cloudposse/terraform-aws-redshift-cluster,Terraform module to provision an AWS Redshift Cluster
 redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-redshift-service,"Provision Postgres RDS on HSP including prometheus metrics endpoint, discoverable by variant"
 refactor-codegen,AdrienneCohea,11302,local,https://github.com/AdrienneCohea/terraform-local-refactor-codegen,Generate Terraform code to ease more complicated refactors
+refinery-starter-pack,honeycombio,15763,honeycombio,https://github.com/honeycombio/terraform-honeycombio-refinery-starter-pack,
 regex-errors,cgetzen,4993,local,https://github.com/cgetzen/terraform-local-regex-errors,Terraform module that provides error checking for regular expressions.
 region-abbreviation-mapping,PartTimeLegend,15262,azure,https://github.com/PartTimeLegend/terraform-azure-region-abbreviation-mapping,Really simple map to convert Azure regions to abbreviated names.
 regional-droplets,NicholasPCole,11565,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-regional-droplets,Terraform module for creating Droplets and DNS records in DigitalOcean regions
@@ -8602,6 +8606,8 @@ serverless-common-stepfunction,vladcar,5235,aws,https://github.com/vladcar/terra
 serverless-docker-function,1Mill,12941,aws,https://github.com/1Mill/terraform-aws-serverless-docker-function,
 serverless-docker-function,click-flow,10329,aws,https://github.com/click-flow/terraform-aws-serverless-docker-function,
 serverless-function,mcozd,14334,aws,https://github.com/mcozd/terraform-aws-serverless-function,
+serverless-function-dynamo-trigger,mcozd,15762,aws,https://github.com/mcozd/terraform-aws-serverless-function-dynamo-trigger,
+serverless-function-scheduler,mcozd,15761,aws,https://github.com/mcozd/terraform-aws-serverless-function-scheduler,
 serverless-kubernetes,terraform-alicloud-modules,4273,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-serverless-kubernetes,Terraform module which create Serverless Kubernetes cluster(s) on Alibaba Cloud.
 serverless-microservice,boxyware-terraform-modules,13917,aws,https://github.com/boxyware-terraform-modules/terraform-aws-serverless-microservice,Terraform module to deploy a REST microservice implemented with AWS Lambda and exposed by AWS API Gateway
 serverless-nextjs,graphnode-technologies,10696,aws,https://github.com/graphnode-technologies/terraform-aws-serverless-nextjs,"Used for creating Bucket, Certs, Distribution and Records for Serverless NextJS"
@@ -8610,7 +8616,6 @@ serverless-pypi-cognito,amancevice,4101,aws,https://github.com/amancevice/terraf
 serverless-react,chroto,969,aws,https://github.com/chroto/terraform-aws-serverless-react,"Terraform module which creates S3, CloudFront, and Route53 resources for hosting a React application"
 serverless-resource,Accurate0,14253,aws,https://github.com/Accurate0/terraform-aws-serverless-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
 serverless-resource,mewa,1015,aws,https://github.com/mewa/terraform-aws-serverless-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
-serverless-scheduled-function,mcozd,15573,aws,https://github.com/mcozd/terraform-aws-serverless-scheduled-function,
 serverless-static-wordpress,TechToSpeech,9087,aws,https://github.com/TechToSpeech/terraform-aws-serverless-static-wordpress,Terraform module for deploying Serverless Static Wordpress on AWS
 serverless-tf,rms1000watt,1287,aws,https://github.com/rms1000watt/terraform-aws-serverless-tf,Serverless but in Terraform 😉
 serverless-user,silinternational,7379,aws,https://github.com/silinternational/terraform-aws-serverless-user,Terraform module for creating an limited acess IAM user for the Serverless framework
@@ -9063,6 +9068,7 @@ ssm-agent,masterpointio,9192,aws,https://github.com/masterpointio/terraform-aws-
 ssm-agent-policy,telia-oss,1243,aws,https://github.com/telia-oss/terraform-aws-ssm-agent-policy,An IAM policy which grants the necessary permissions to run the SSM agent.
 ssm-bastion,JamesWoolfenden,2856,aws,https://github.com/JamesWoolfenden/terraform-aws-ssm-bastion,A quick simple bastion for AWS
 ssm-bastion,maathor,8852,aws,https://github.com/maathor/terraform-aws-ssm-bastion,
+ssm-documents,witaloandrade,15759,aws,https://github.com/witaloandrade/terraform-aws-ssm-documents,"This terraform module will allow creation and share ssm document, it can also be set to be a public document. It set to the shared it can read aws account id from json file."
 ssm-iam-role,cloudposse,1162,aws,https://github.com/cloudposse/terraform-aws-ssm-iam-role,Terraform module to provision an IAM role with configurable permissions to access SSM Parameter Store
 ssm-instance,cornerman,13962,aws,https://github.com/cornerman/terraform-aws-ssm-instance,
 ssm-instance-profile,bayupw,12920,aws,https://github.com/bayupw/terraform-aws-ssm-instance-profile,Terraform module to create IAM role and IAM instance profile for SSM
@@ -9446,6 +9452,7 @@ tagging,claranet,4178,azurerm,https://github.com/claranet/terraform-azurerm-tagg
 tagging-lambda,scholzj,423,aws,https://github.com/scholzj/terraform-aws-tagging-lambda,AWS Lambda function for tagging resources
 tagging-lambda,zendad,11283,aws,https://github.com/zendad/terraform-aws-tagging-lambda,
 tags,4ops,4590,null,https://github.com/4ops/terraform-null-tags,Simple terraform module for tags management
+tags,7clouds-terraform-modules,15767,aws,https://github.com/7clouds-terraform-modules/terraform-aws-tags,Tags Module
 tags,Flaconi,12175,null,https://github.com/Flaconi/terraform-null-tags,This helper module creates tags for the various projects
 tags,Umanis,9794,azurerm,https://github.com/Umanis/terraform-azurerm-tags,Terraform module to normalize tagging on Azure ressources.
 tags,VictorLad,7505,aws,https://github.com/VictorLad/terraform-aws-tags,Terraform module allowing the management of tags to be positioned on one or more AWS resources.
@@ -10348,6 +10355,7 @@ vpc,toluna-terraform,8688,aws,https://github.com/toluna-terraform/terraform-aws-
 vpc,tomarv2,8275,aws,https://github.com/tomarv2/terraform-aws-vpc,Terraform module for AWS VPC
 vpc,tonynv,10971,aws,https://github.com/tonynv/terraform-aws-vpc,
 vpc,traveloka,2464,aws,https://github.com/traveloka/terraform-aws-vpc,Terraform module to create all mandatory VPC components.
+vpc,truemark,15764,aws,https://github.com/truemark/terraform-aws-vpc,TrueMark's standard VPC layout
 vpc,tuanocuet,12645,aws,https://github.com/tuanocuet/terraform-aws-vpc,
 vpc,turanmehmet,7735,aws,https://github.com/turanmehmet/terraform-aws-vpc,Creating 3 public and 3 private subnets with proper assosiation
 vpc,turdalieva,6722,aws,https://github.com/turdalieva/terraform-aws-vpc,
@@ -10649,7 +10657,7 @@ waf-owasp-top-10-rules,traveloka,2264,aws,https://github.com/traveloka/terraform
 waf-regional,JamesWoolfenden,7463,aws,https://github.com/JamesWoolfenden/terraform-aws-waf-regional,Waf-regional module
 waf-regional,USSBA,4736,aws,https://github.com/USSBA/terraform-aws-waf-regional,A Terraform Module for the AWS Web Application Firewall (WAF)
 waf-rulesets,cloudposse,8293,cloudflare,https://github.com/cloudposse/terraform-cloudflare-waf-rulesets,Terraform module to manage CloudFlare WAF rulesetes.
-waf-rulesets,innovationnorway,6081,cloudflare,https://github.com/innovationnorway/terraform-cloudflare-waf-rulesets,Use this Terraform module to manage Cloudflare WAF rulesets.
+waf-rulesets,innovationnorway,6081,cloudflare,https://github.com/innovationnorway/terraform-cloudflare-waf-rulesets,This Terraform module manages Cloudflare WAF rulesets.
 waf-webacl-supporting-resources,Dr4il,3305,aws,https://github.com/Dr4il/terraform-aws-waf-webacl-supporting-resources,A module to create several resources needed by AWS WAF WebACL.
 waf-webacl-supporting-resources,traveloka,2270,aws,https://github.com/traveloka/terraform-aws-waf-webacl-supporting-resources,A module to create several resources needed by AWS WAF WebACL.
 waf-webaclv2,devopsbeast,12054,aws,https://github.com/devopsbeast/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
