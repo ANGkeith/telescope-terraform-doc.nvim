@@ -130,7 +130,6 @@ account-users,cloud-native-toolkit,14550,ibm,https://github.com/cloud-native-too
 accountomat,GoCarrot,12463,aws,https://github.com/GoCarrot/terraform-aws-accountomat,Accountomat provisions an AWS account inside of an AWS Organization
 accountomat_read,GoCarrot,12467,aws,https://github.com/GoCarrot/terraform-aws-accountomat_read,Accountomat Read reads data peristed by Accountomat and provides it for use in terraform modules
 accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-azure-accounts,Configure Azure Azure AD Resources and Permissions
-acg,terraform-ncloud-modules,15144,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-acg,Terraform module which creates ACG resources on Naver Cloud Platform
 aci,Azure,1689,azurerm,https://github.com/Azure/terraform-azurerm-aci,Azure Container Instances Module
 aci,claranet,6133,azurerm,https://github.com/claranet/terraform-azurerm-aci,Terraform module for Azure Container Instances group
 aci-devops-agent,Azure,5150,azurerm,https://github.com/Azure/terraform-azurerm-aci-devops-agent,Terraform Module to deploy a Azure DevOps self-hosted agents on Azure Container Instance
@@ -1070,6 +1069,7 @@ aurora,corpit-consulting-public,3614,aws,https://github.com/corpit-consulting-pu
 aurora,franviera92,4211,aws,https://github.com/franviera92/terraform-aws-aurora,Terraform module which creates RDS Aurora database resources on AWS and can create different type of databases. Currently it supports Postgres and MySQL.
 aurora,oozou,14499,aws,https://github.com/oozou/terraform-aws-aurora,Terraform module to create aws aurora
 aurora,terra4aws64,12147,aws,https://github.com/terra4aws64/terraform-aws-aurora,Terraform module for creating AWS RDS Aurora clusters
+aurora-alarms,truemark,15778,aws,https://github.com/truemark/terraform-aws-aurora-alarms,Alarms specific to an Aurora cluster.
 aurora-mysql,opzkit,10580,aws,https://github.com/opzkit/terraform-aws-aurora-mysql,
 aurora-mysql-provisioned,youyo,4418,aws,https://github.com/youyo/terraform-aws-aurora-mysql-provisioned,Terraform module which creates Aurora MySQL resources on AWS.
 aurora-postgresql,opzkit,10847,aws,https://github.com/opzkit/terraform-aws-aurora-postgresql,
@@ -2166,6 +2166,7 @@ codeartifact,JamesWoolfenden,7836,aws,https://github.com/JamesWoolfenden/terrafo
 codeartifact,catalystsquad,14029,aws,https://github.com/catalystsquad/terraform-aws-codeartifact,Terraform module that provisions AWS Code Artifact repositories and access to them
 codeartifact,shepherd44,10221,aws,https://github.com/shepherd44/terraform-aws-codeartifact,
 codebuild,JamesWoolfenden,2024,aws,https://github.com/JamesWoolfenden/terraform-aws-codebuild,A Terraform module for making AWS codebuilds
+codebuild,SPHTech-Platform,15769,aws,https://github.com/SPHTech-Platform/terraform-aws-codebuild,Terraform module for CodeBuild
 codebuild,aws-ia,9981,aws,https://github.com/aws-ia/terraform-aws-codebuild,AWS CodeBuild Module
 codebuild,axetrading,14934,axetrading,https://github.com/axetrading/terraform-axetrading-codebuild,Codebuild project that assumes a role so credentials can be used inside docker container
 codebuild,cloudposse,205,aws,https://github.com/cloudposse/terraform-aws-codebuild,Terraform Module to easily leverage AWS CodeBuild for Continuous Integration
@@ -2427,6 +2428,7 @@ content-library,aws-ia,13083,vsphere,https://github.com/aws-ia/terraform-vsphere
 context,Selleo,13866,null,https://github.com/Selleo/terraform-null-context,Terraform module to keep consistent naming conventions for various resources.
 context,k9securityio,7210,local,https://github.com/k9securityio/terraform-local-context,"A Terraform module to capture the context your team needs to manage, operate, and secure resources in the Cloud."
 context,terraform-components,14352,null,https://github.com/terraform-components/terraform-null-context,
+context,unfunco,15770,null,https://github.com/unfunco/terraform-null-context,Terraform module for generating consistent names and tags.
 contract,netascode,9770,aci,https://github.com/netascode/terraform-aci-contract,Terraform Cisco ACI Contract Module
 control,Echo-Stream,13244,aws,https://github.com/Echo-Stream/terraform-aws-control,EchoStream Control TF module
 control-policy,terraform-alicloud-modules,10260,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-control-policy,
@@ -4291,6 +4293,8 @@ folders,Ashishkasaudhan,5136,google,https://github.com/Ashishkasaudhan/terraform
 folders,chriskasparmayo,3347,google,https://github.com/chriskasparmayo/terraform-google-folders,This module helps create several folders under the same parent
 folders,terraform-google-modules,2604,google,https://github.com/terraform-google-modules/terraform-google-folders,This module helps create several folders under the same parent
 format-task,QuiNovas,2377,aws,https://github.com/QuiNovas/terraform-aws-format-task,terraform l3 format-task lambda function
+forseti,DotModus,15774,dotmodus,https://github.com/DotModus/terraform-dotmodus-forseti,
+forseti,Eric-Dev-Live,15773,google,https://github.com/Eric-Dev-Live/terraform-google-forseti,A Terraform module for installing Forseti on GCP
 forseti,e-koma,7452,google,https://github.com/e-koma/terraform-google-forseti,A Terraform module for installing Forseti on GCP
 forseti,terraform-google-modules,1625,google,https://github.com/terraform-google-modules/terraform-google-forseti,A Terraform module for installing Forseti on GCP
 fortigate,equinix,8179,equinix,https://github.com/equinix/terraform-equinix-fortigate,Terraform module for quick deployment of Fortinet FortiGate firewall device
@@ -5170,6 +5174,7 @@ jyotistorage,jyotirmayee01,12319,azure,https://github.com/jyotirmayee01/terrafor
 k0s,3letteragency,8952,vultr,https://github.com/3letteragency/terraform-vultr-k0s,Terraform module for deploying the K0s Kubernetes distribution on Vultr. 
 k0s,jfklingler,14829,proxmox,https://github.com/jfklingler/terraform-proxmox-k0s,A collection of modules for building and managing k0s kubernetes clusters on the Proxmox hypervisor.
 k3s,BerndDA,14150,hcloud,https://github.com/BerndDA/terraform-hcloud-k3s,Terraform module to setup k3s cluster on Hetzner cloud
+k3s,HobOps,15781,rancher,https://github.com/HobOps/terraform-rancher-k3s,
 k3s,Kab1r,12250,module,https://github.com/Kab1r/terraform-module-k3s,Terraform module to install K3S on all given instances
 k3s,aigisuk,14488,hcloud,https://github.com/aigisuk/terraform-hcloud-k3s,Terraform Module to deploy a highly available k3s cluster on Hetzner Cloud [WIP]
 k3s,boeboe,9126,azure,https://github.com/boeboe/terraform-azure-k3s,Terraform module to bootstrap a Rancher K3S Cluster on Azure Cloud
@@ -7377,6 +7382,7 @@ rancher-hosts,kiwicom,3038,aws,https://github.com/kiwicom/terraform-aws-rancher-
 rancherChart,SinnConsulting,7576,helm,https://github.com/SinnConsulting/terraform-helm-rancherChart,Terraform Helm Rancher Chart: https://registry.terraform.io/modules/SinnConsulting/rancherChart
 random,cappyzawa,7480,christmas_tree,https://github.com/cappyzawa/terraform-christmas_tree-random,A module for https://registry.terraform.io/providers/cappyzawa/christmas-tree/latest
 random-password,stsyg,13652,azurerm,https://github.com/stsyg/terraform-azurerm-random-password,Random Password Generator Terraform Module
+rbac,Infostrux-Solutions,15777,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-rbac,Terraform module which creates Snowflake RBAC resources using a simple configuration model.
 rbac,aidanmelen,12842,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-rbac,A Terraform module to manage Kubernetes RBAC Authorization.
 rbac,syneki,14052,kubernetes,https://github.com/syneki/terraform-kubernetes-rbac,
 rbac,thecomalley,9528,azure,https://github.com/thecomalley/terraform-azure-rbac,Terraform module for Role based access control of Azure & Azure DevOps resources
@@ -9331,7 +9337,7 @@ storage-bucket,dansible,1465,google,https://github.com/dansible/terraform-google
 storage-bucket,kiwicom,6442,google,https://github.com/kiwicom/terraform-google-storage-bucket,
 storage-bucket,mineiros-io,11362,google,https://github.com/mineiros-io/terraform-google-storage-bucket,A Terraform module to deploy and manage Google Cloud Storage (GCS) buckets on Google Cloud Platform (GCP) https://cloud.google.com/gcs
 storage-bucket,tomarv2,12223,google,https://github.com/tomarv2/terraform-google-storage-bucket,Terraform module for Google Storage Bucket
-storage-bucket-iam,mineiros-io,11361,google,https://github.com/mineiros-io/terraform-google-storage-bucket-iam,A Terraform module to manage Identity and Access Management (IAM) Google Cloud Storage (GCS) buckets on Google Cloud Platform (GCP) https://cloud.google.com/iam/docs/service-accounts
+storage-bucket-iam,mineiros-io,11361,google,https://github.com/mineiros-io/terraform-google-storage-bucket-iam,A Terraform module to manage Identity and Access Management (IAM) Google Cloud Storage (GCS) buckets in Google Cloud https://cloud.google.com/iam/docs/service-accounts
 storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-storage-container,Azure Storage Container Module for Terraform
 storage-container,bytejunkie,7362,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-container,
 storage-custom,michaelniotis,14408,azurerm,https://github.com/michaelniotis/terraform-azurerm-storage-custom,Terraform Module to create Azure storage account resources.
@@ -9586,6 +9592,7 @@ test,merten2000,909,aws,https://github.com/merten2000/terraform-aws-test,
 test,terraform-azure-modules,2069,file,https://github.com/terraform-azure-modules/terraform-file-test,
 test,xp-1000,4494,foobar,https://github.com/xp-1000/terraform-foobar-test,test for terraform registry structure
 test,zzbytes,8760,local,https://github.com/zzbytes/terraform-local-test,
+test-module,agustincharry,15779,aws,https://github.com/agustincharry/terraform-aws-test-module,
 test-module,davewongillies,1335,test_repo,https://github.com/davewongillies/terraform-test_repo-test-module,just a test repo
 test-module,drewmullen,12654,awscc,https://github.com/drewmullen/terraform-awscc-test-module,
 test-module,jampp-preview,14303,aws,https://github.com/jampp-preview/terraform-aws-test-module,
@@ -9955,6 +9962,7 @@ vm,hicdss,2725,azure,https://github.com/hicdss/terraform-azure-vm,Terraform modu
 vm,mikesmake,10921,azurerm,https://github.com/mikesmake/terraform-azurerm-vm,
 vm,mohammedamirk,2793,vsphere,https://github.com/mohammedamirk/terraform-vsphere-vm,Terraform vSphere module for provisioning Virtual Machines
 vm,monbostest,11929,aws,https://github.com/monbostest/terraform-aws-vm,This module will be used to create a vm
+vm,razfallow,15771,azurerm,https://github.com/razfallow/terraform-azurerm-vm,"This module creates both Windows and Linux VM, deals with data disks and networking, enabling backup and much more."
 vm,rhythmictech,3260,azurerm,https://github.com/rhythmictech/terraform-azurerm-vm,
 vm,rkoosaar,6557,proxmox,https://github.com/rkoosaar/terraform-proxmox-vm,Terraform module for creating and managing VM Qemu resources
 vm,scottwinkler,3167,cloud,https://github.com/scottwinkler/terraform-cloud-vm,
@@ -10691,6 +10699,7 @@ web-load-balancers,devops4me,3164,aws,https://github.com/devops4me/terraform-aws
 web-server,aisamji,12736,aws,https://github.com/aisamji/terraform-aws-web-server,
 web-server,mishra-demos,3494,aws,https://github.com/mishra-demos/terraform-aws-web-server,A generic web server module for MishraCorp.
 web-serverfarms,linkbynet,8913,datadog,https://github.com/linkbynet/terraform-datadog-web-serverfarms,Terraform module for deploy web serverfarms monitoring on datadog
+webapp,Andy-Sharma,15772,azurerm,https://github.com/Andy-Sharma/terraform-azurerm-webapp,
 webapp,arvindmits,8414,azurerm,https://github.com/arvindmits/terraform-azurerm-webapp,terraform-azurerm-webapp
 webapp,bootlabstech,15516,azurerm,https://github.com/bootlabstech/terraform-azurerm-webapp,
 webapp,cloudarchitectdeveloper,8354,azurerm,https://github.com/cloudarchitectdeveloper/terraform-azurerm-webapp,"TF module for provisioning Azure App Service Plan, App Service (Web App) and Application Insights"
