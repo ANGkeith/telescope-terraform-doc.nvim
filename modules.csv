@@ -4247,6 +4247,7 @@ firewall,dhoppeIT,11683,hcloud,https://github.com/dhoppeIT/terraform-hcloud-fire
 firewall,figurate,5046,digitalocean,https://github.com/figurate/terraform-digitalocean-firewall,Create firewall rules for Digital Ocean Droplets.
 firewall,freddieptf,5060,digitalocean,https://github.com/freddieptf/terraform-digitalocean-firewall,
 firewall,kumarvna,10019,azurerm,https://github.com/kumarvna/terraform-azurerm-firewall,Terraform Module to create fully stateful Azure firewall as a service with built-in high availability.  
+firewall,stwalkerster,15828,linode,https://github.com/stwalkerster/terraform-linode-firewall,"Firewall wrapper for Linode, allowing multi-protocol rule definitions"
 firewall,syntaqx,2928,digitalocean,https://github.com/syntaqx/terraform-digitalocean-firewall,A Terraform module for creating DigitalOcean Cloud Firewalls.
 firewall,tedilabs,13476,aws,https://github.com/tedilabs/terraform-aws-firewall,🌳 A sustainable Terraform Package which creates resources for Firewall Services on AWS
 firewall,terraform-do-modules,9866,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-firewall,"Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls."
@@ -4528,6 +4529,7 @@ gke-infra,dansible,2282,google,https://github.com/dansible/terraform-google-gke-
 gke-kube-prometheus-stack,ammilam,10951,google,https://github.com/ammilam/terraform-google-gke-kube-prometheus-stack,
 gke-kubeconfig,matti,2968,google,https://github.com/matti/terraform-google-gke-kubeconfig,
 gke-module,gitrahimi,7922,google,https://github.com/gitrahimi/terraform-google-gke-module,This module creates a GKE cluster
+gke-monitoring-bundle,blackbird-cloud,15825,google,https://github.com/blackbird-cloud/terraform-google-gke-monitoring-bundle,BlackBird Cloud monitoring bundle wrapped for GKE deployment
 gke-namespace,blackbird-cloud,15328,google,https://github.com/blackbird-cloud/terraform-google-gke-namespace,Simple namespace creator for GKE clusters
 gke-nfs,kiwicom,4150,kubernetes,https://github.com/kiwicom/terraform-kubernetes-gke-nfs,
 gke-node-pool,baozuo,4782,google,https://github.com/baozuo/terraform-google-gke-node-pool,A Terraform module to create GKE node pool featuring zero downtime during recreation
@@ -4623,6 +4625,7 @@ guardduty-notifications,trussworks,1540,aws,https://github.com/trussworks/terraf
 guardduty-s3,Mattias-,1752,aws,https://github.com/Mattias-/terraform-aws-guardduty-s3,
 guardduty-to-slack,phundisk,6514,aws,https://github.com/phundisk/terraform-aws-guardduty-to-slack,Terraform module to be able to get guardduty findings posted into slack using webhooks and formatted nicely.
 guardduty-to-sns,rhythmictech,5382,aws,https://github.com/rhythmictech/terraform-aws-guardduty-to-sns,Route GuardDuty Alerts to SNS. Currently only configures one region.
+ha,belalhassan91,15823,aws,https://github.com/belalhassan91/terraform-aws-ha,A Terraform Module for how to run High Avalability Architecture on AWS using Terraform
 ha,moltin,175,rancher,https://github.com/moltin/terraform-rancher-ha,Terraform Rancher HA cluster in AWS
 ha-ec2-alb,OT-CLOUD-KIT,4890,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb,This repository consists of Terraform module for Highly Available EC2 Instance in AWS.
 ha-k3s,aigisuk,8416,digitalocean,https://github.com/aigisuk/terraform-digitalocean-ha-k3s,High Availability K3s Cluster deployed on DigitalOcean (Load Balanced API Server and external Postgres/MySQL Datastore)
@@ -6332,6 +6335,7 @@ monitoring,hazelops,9204,datadog,https://github.com/hazelops/terraform-datadog-m
 monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitoring,
 monitoring,terraform-iaac,9201,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-monitoring,Terraform module for monitor your kubernetes resources via Prometheus+Alertmanager+Grafana
 monitoring,vistaprint,2994,newrelic,https://github.com/vistaprint/terraform-newrelic-monitoring,Terraform module to monitor an application using New Relic
+monitoring-bundle,blackbird-cloud,15824,helm,https://github.com/blackbird-cloud/terraform-helm-monitoring-bundle,"Core module of monitoring bundle, contains deployment of both prometheus and grafana"
 monitoring-cluster,Mtt6300,4760,kubernetes,https://github.com/Mtt6300/terraform-kubernetes-monitoring-cluster,Monitoring tools for k8s cluster by using Terraform
 monitoring-deployment,jakoberpf,12493,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-monitoring-deployment,
 monitoring-notification-channel,mineiros-io,11281,google,https://github.com/mineiros-io/terraform-google-monitoring-notification-channel,A Terraform module to manage monitoring Notification Channels on Google Cloud Platform (GCP) https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/monitoring_notification_channel
@@ -7287,6 +7291,7 @@ proteus-router,netifi,715,aws,https://github.com/netifi/terraform-aws-proteus-ro
 protonmail-dns,mrwilson,2078,aws,https://github.com/mrwilson/terraform-aws-protonmail-dns,Terraform module for DNS records to support custom domains on ProtonMail
 provider,Perepyolka,4339,aws,https://github.com/Perepyolka/terraform-aws-provider,
 provider-aws,jclopeza,2834,module,https://github.com/jclopeza/terraform-module-provider-aws,
+provider-identity,farrukh90,15826,aws,https://github.com/farrukh90/terraform-aws-provider-identity,
 provider-infoblox,naveenkashyapdv,3444,vsphere,https://github.com/naveenkashyapdv/terraform-vsphere-provider-infoblox,Infoblox plugin for Terraform
 provisioner,truemark,6644,aws,https://github.com/truemark/terraform-aws-provisioner,Terraform module to create IAM users to be used by terraform
 prowler-monitoring,dwp,1282,aws,https://github.com/dwp/terraform-aws-prowler-monitoring,A collection of log metric filters and alarms to satisfy Prowler Monitoring checks
@@ -7974,6 +7979,7 @@ route53-record,clouddrove,3663,aws,https://github.com/clouddrove/terraform-aws-r
 route53-record-mapping,OT-CLOUD-KIT,5001,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping,
 route53-recordsets,terraformdns,1175,aws,https://github.com/terraformdns/terraform-aws-route53-recordsets,Terraform module for creating DNS recordsets in a Route53 zone
 route53-recovery-controller,aws-ia,11711,aws,https://github.com/aws-ia/terraform-aws-route53-recovery-controller,Terraform Module to deploy Route53 Application Recovery Controller components
+route53-resolver-config,chanakanissanka,15827,aws,https://github.com/chanakanissanka/terraform-aws-route53-resolver-config,
 route53-resolver-dns-firewall,pjaudiomv,15168,aws,https://github.com/pjaudiomv/terraform-aws-route53-resolver-dns-firewall,Terraform module to provision AWS DNS firewall resources.
 route53-resolver-endpoint,mhmdio,8356,aws,https://github.com/mhmdio/terraform-aws-route53-resolver-endpoint,Provides a Route 53 Resolver endpoint Terraform module.
 route53-resolver-rule,rhythmictech,3132,aws,https://github.com/rhythmictech/terraform-aws-route53-resolver-rule,Create and manage a Route 53 Resolver Resolver Rule.
