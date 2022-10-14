@@ -612,6 +612,7 @@ apigw-lambda,armorfret,2201,aws,https://github.com/armorfret/terraform-aws-apigw
 apigw-lambda-proxy,rosskuyper,5521,aws,https://github.com/rosskuyper/terraform-aws-apigw-lambda-proxy,Simple direct proxy from apigw to a single lambda
 apikey,tomoki171923,13378,aws,https://github.com/tomoki171923/terraform-aws-apikey,"Terraform module, which creates AWS apigateway api key resources."
 apim-api,JoeAtRest,6087,azurerm,https://github.com/JoeAtRest/terraform-azurerm-apim-api,Manages an API for an existing Azure API Manager
+apimanagement,bootlabstech,15929,azurerm,https://github.com/bootlabstech/terraform-azurerm-apimanagement,
 apiwithwebappazure,patelsan,8349,archiectures,https://github.com/patelsan/terraform-archiectures-apiwithwebappazure,
 apm,kabisa,12322,datadog,https://github.com/kabisa/terraform-datadog-apm,
 apm,newrelic,4329,newrelic,https://github.com/newrelic/terraform-newrelic-apm,Terraform module for New Relic application monitoring
@@ -642,7 +643,6 @@ app-service-linux-containers,spy86,13422,azure,https://github.com/spy86/terrafor
 app-service-plan,KamenYovchev,6263,azurerm,https://github.com/KamenYovchev/terraform-azurerm-app-service-plan,
 app-service-plan,bootlabstech,15519,azurerm,https://github.com/bootlabstech/terraform-azurerm-app-service-plan,
 app-service-plan,claranet,3373,azurerm,https://github.com/claranet/terraform-azurerm-app-service-plan,Terraform module for Azure Service Plan
-app-service-plan,data-platform-hq,15910,azurerm,https://github.com/data-platform-hq/terraform-azurerm-app-service-plan,Terraform module for managing App Service Plan
 app-service-plan,libre-devops,13250,azurerm,https://github.com/libre-devops/terraform-azurerm-app-service-plan,"A module used to deploy an App service plan :fire: - Please note, this module will cease to work in the 4.0 provider due to changes by Microsoft."
 app-service-slot,KamenYovchev,6265,azurerm,https://github.com/KamenYovchev/terraform-azurerm-app-service-slot,
 app-service-web,claranet,4477,azurerm,https://github.com/claranet/terraform-azurerm-app-service-web,Terraform module for Azure App Service Web
@@ -1084,6 +1084,7 @@ aurora-mysql-provisioned,youyo,4418,aws,https://github.com/youyo/terraform-aws-a
 aurora-postgresql,opzkit,10847,aws,https://github.com/opzkit/terraform-aws-aurora-postgresql,
 aurora-serverless,104corp,2423,aws,https://github.com/104corp/terraform-aws-aurora-serverless,
 aurora-serverless,QuiNovas,4856,aws,https://github.com/QuiNovas/terraform-aws-aurora-serverless,Creates Aurora Serverless cluster either on mysql or postgresql engines.
+aurora-serverless-mysql-alarms,truemark,15931,aws,https://github.com/truemark/terraform-aws-aurora-serverless-mysql-alarms,Alarms specific to Aurora serverless mysql
 aurora-serverless-postgres-alarms,truemark,15843,aws,https://github.com/truemark/terraform-aws-aurora-serverless-postgres-alarms,Alarms specific to Aurora serverless postgres
 auth,TaitoUnited,10452,auth0,https://github.com/TaitoUnited/terraform-auth0-auth,
 auth,mslipets,4403,cloudfront,https://github.com/mslipets/terraform-cloudfront-auth," Terraform module to provision CloudFront Distribtition with Lambda@Edge authorization backed by a private S3 origin"
@@ -1245,6 +1246,7 @@ awsinfra,wcollins,9149,aws,https://github.com/wcollins/terraform-aws-awsinfra,Te
 awx,farrukh90,9248,aws,https://github.com/farrukh90/terraform-aws-awx,Module Location
 awx,rhythmictech,3115,aws,https://github.com/rhythmictech/terraform-aws-awx,Spin up AWX in AWS
 awx,zaharazod,3372,aws,https://github.com/zaharazod/terraform-aws-awx,Spin up AWX in AWS (simplified)
+axetrading-aurora-rds-cluster,axetrading,15925,aws,https://github.com/axetrading/terraform-aws-axetrading-aurora-rds-cluster,Terraform module for AWS Aurora RDS Cluster
 ayps3bucket,aparnapansare,15694,aws,https://github.com/aparnapansare/terraform-aws-ayps3bucket,terraform module for s3
 azagent,DeimosCloud,8391,azure,https://github.com/DeimosCloud/terraform-azure-azagent,
 azfirewall,andrewCluey,8256,azurerm,https://github.com/andrewCluey/terraform-azurerm-azfirewall,
@@ -2524,6 +2526,7 @@ crowdsec-serverless,crowdsecurity,11514,aws,https://github.com/crowdsecurity/ter
 cryptokey,badal-io,3869,google,https://github.com/badal-io/terraform-google-cryptokey,Description  An opinionated terraform module that creates key ring and authoritatively handles IAM permissions for the crypto key
 csr-sdwan,equinix,8089,equinix,https://github.com/equinix/terraform-equinix-csr-sdwan,Terraform module for quick deployment of Cisco CSR SD-WAN edge device
 csr1000v,equinix,8059,equinix,https://github.com/equinix/terraform-equinix-csr1000v,Terraform module for quick deployment of Cisco CSR1000V router on Equinix Platform
+csr1000v-equinix-configured,bayupw,15923,equinix,https://github.com/bayupw/terraform-equinix-csr1000v-equinix-configured,Terraform module for deploying an Equinix-configured Cisco CSR 1000V router in Equinix Fabric.
 csr1k,bayupw,12960,aws,https://github.com/bayupw/terraform-aws-csr1k,Terraform module to deploy CSR 1000v on AWS
 cstate-healthchecker,USSBA,5671,aws,https://github.com/USSBA/terraform-aws-cstate-healthchecker,"Uses R53, SNS and LAMBDAs to automatically create and resolve CSTATE issues."
 ctf-chal,KNOXDEV,15233,kubernetes,https://github.com/KNOXDEV/terraform-kubernetes-ctf-chal,terraform module to deploy jailed CTF challenges on k8s
@@ -2720,6 +2723,7 @@ default-vpc,bledrunner2049,6176,aws,https://github.com/bledrunner2049/terraform-
 default-vpc,calidae,14030,aws,https://github.com/calidae/terraform-aws-default-vpc,Get default VPC and subnets data for your current region availability zones
 default-vpc,trussworks,5155,aws,https://github.com/trussworks/terraform-aws-default-vpc,Default VPC resource management for AWS Accounts
 defaults,terraformita,12063,local,https://github.com/terraformita/terraform-local-defaults,
+demo,Shubhambawa98,15928,aws,https://github.com/Shubhambawa98/terraform-aws-demo,
 demo,gelbkreuz,1407,aws,https://github.com/gelbkreuz/terraform-aws-demo,
 demo,magodo,5556,outlook,https://github.com/magodo/terraform-outlook-demo,A demo terraform module for [terraform-provider-outlook](https://github.com/magodo/terraform-provider-outlook)
 demo,radeksimko,2695,aws,https://github.com/radeksimko/terraform-aws-demo,
@@ -3855,6 +3859,7 @@ eks-iam-role,cloudposse,5963,aws,https://github.com/cloudposse/terraform-aws-eks
 eks-iam-role,rallyware,10547,aws,https://github.com/rallyware/terraform-aws-eks-iam-role,
 eks-iamserviceaccount,choudharyanurag,14790,aws,https://github.com/choudharyanurag/terraform-aws-eks-iamserviceaccount,
 eks-infra,shanki84,9854,aws,https://github.com/shanki84/terraform-aws-eks-infra,
+eks-infrastructure,Tynchtyk642,15933,aws,https://github.com/Tynchtyk642/terraform-aws-eks-infrastructure,terraform modules for aws
 eks-ingress-nginx,lablabs,6871,aws,https://github.com/lablabs/terraform-aws-eks-ingress-nginx,
 eks-irsa,mitene,4658,aws,https://github.com/mitene/terraform-aws-eks-irsa,
 eks-irsa,nalbam,6100,aws,https://github.com/nalbam/terraform-aws-eks-irsa,
@@ -5403,7 +5408,7 @@ kinesis-data-stream-addon,symopsio,14383,sym,https://github.com/symopsio/terrafo
 kinesis-data-stream-addon,symopsio,15715,aws,https://github.com/symopsio/terraform-aws-kinesis-data-stream-addon,The `aws/kinesis-data-stream` add-on provisions AWS Kinesis Data Stream access for a Sym `runtime-connector` module.
 kinesis-data-stream-connector,symopsio,14384,sym,https://github.com/symopsio/terraform-sym-kinesis-data-stream-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-data-stream-connector 
 kinesis-data-stream-connector,symopsio,15700,aws,https://github.com/symopsio/terraform-aws-kinesis-data-stream-connector,The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
-kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch and IAM Roles that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
+kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch, IAM Roles and Security Groups that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
 kinesis-firehose,felipefrizzo,1778,aws,https://github.com/felipefrizzo/terraform-aws-kinesis-firehose,This code creates a Kinesis Firehose in AWS to send CloudWatch log data to S3.
 kinesis-firehose,observeinc,12199,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,Terraform module to configure a Kinesis Firehose delivery stream towards Observe
 kinesis-firehose-addon,symopsio,14385,sym,https://github.com/symopsio/terraform-sym-kinesis-firehose-addon,DEPRECATED: Use https://github.com/symopsio/terraform-aws-kinesis-firehose-addon
@@ -6285,6 +6290,7 @@ module,nirgeier,15224,my,https://github.com/nirgeier/terraform-my-module,
 module,nvibert,9497,nsxt,https://github.com/nvibert/terraform-nsxt-module,Sample module for a NSX-T configuration. 
 module,pagareajay11,15553,custom,https://github.com/pagareajay11/terraform-custom-module,
 module,prbinfo,7559,example,https://github.com/prbinfo/terraform-example-module,Example Terraform Module Scaffolding
+module,prithvirajkc,15932,azurerm,https://github.com/prithvirajkc/terraform-azurerm-module,
 module,sabikm9876,1405,vpc,https://github.com/sabikm9876/terraform-vpc-module,
 module,sandeepsaini98,13650,gcp,https://github.com/sandeepsaini98/terraform-gcp-module,
 module,tobi1972,7130,google,https://github.com/tobi1972/terraform-google-module,
@@ -6317,6 +6323,7 @@ modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terra
 modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-modules,Terraform modules for on premise setups
 modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-modules,Terraform modules that will work on any cloud (including on premise setups)
 modules,dasmeta,12172,google,https://github.com/dasmeta/terraform-google-modules,This Terraform module makes it easier to manage for resources on Google Cloud Platform.
+modules,dasmeta,15922,auth0,https://github.com/dasmeta/terraform-auth0-modules,
 modules,dzangolab,8125,digitalocean,https://github.com/dzangolab/terraform-digitalocean-modules,Terraform modules for Digital Ocean provider
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
@@ -6455,6 +6462,7 @@ myfirstmodule,AnjiMuduthanapally,13469,azurerm,https://github.com/AnjiMuduthanap
 myfirsts3bucket,Sneha1191,13642,aws,https://github.com/Sneha1191/terraform-aws-myfirsts3bucket,
 myfirsttf,Beeani,5559,aws,https://github.com/Beeani/terraform-aws-myfirsttf,
 myhttp-TU,skatta3,15565,aws,https://github.com/skatta3/terraform-aws-myhttp-TU,
+myinstance,nippydevops,15921,aws,https://github.com/nippydevops/terraform-aws-myinstance,This module will be used to create a vm
 myip,4ops,3934,http,https://github.com/4ops/terraform-http-myip,Simple data module for getting current external IP address
 mymod,EbisonJ,8308,aws,https://github.com/EbisonJ/terraform-aws-mymod,
 mymod1,irfan-git2,11530,aws,https://github.com/irfan-git2/terraform-aws-mymod1,
@@ -8751,6 +8759,7 @@ service-linked-role,terraform-alicloud-modules,12843,alicloud,https://github.com
 service-mesh,terraform-alicloud-modules,12813,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-service-mesh,Terraform Module for creating Service Mesh on Alibaba Cloud.
 service-networking-connection,nephosolutions,14584,google,https://github.com/nephosolutions/terraform-google-service-networking-connection,
 service-pan,alkiranet,15300,alkira,https://github.com/alkiranet/terraform-alkira-service-pan,This module makes it easy to provision Palo Alto VM-Series firewalls in Alkira
+service-plan,data-platform-hq,15934,azurerm,https://github.com/data-platform-hq/terraform-azurerm-service-plan,Terraform module for managing App Service Plan
 service-plan,libre-devops,13252,azurerm,https://github.com/libre-devops/terraform-azurerm-service-plan,A module used to deploy a service plan in Azure :fire:. This is the new edition of App service plans added in the version 3.0 provider
 service-principal,avinor,3475,azuread,https://github.com/avinor/terraform-azuread-service-principal,Terraform module to create service principal credentials and assign it access to resources
 service-principal,claranet,15895,azurerm,https://github.com/claranet/terraform-azurerm-service-principal,Terraform module for Azure AD Service Principal and its Azure role assignment
@@ -10425,6 +10434,7 @@ vpc,sibisaravanan,13136,aws,https://github.com/sibisaravanan/terraform-aws-vpc,T
 vpc,slimflex2,6700,aws,https://github.com/slimflex2/terraform-aws-vpc,
 vpc,smc181002,9117,aws,https://github.com/smc181002/terraform-aws-vpc,
 vpc,smrutimandal,1053,aws,https://github.com/smrutimandal/terraform-aws-vpc,
+vpc,so1omon563,15920,aws,https://github.com/so1omon563/terraform-aws-vpc,Creates a VPC and associated resources using submodules.
 vpc,source4learn,9090,aws,https://github.com/source4learn/terraform-aws-vpc,Hashicorp Terraform AWS VPC Module
 vpc,springload,2520,aws,https://github.com/springload/terraform-aws-vpc,terraform >=0.12 module for AWS VPC
 vpc,srb3,5979,aws,https://github.com/srb3/terraform-aws-vpc,
@@ -10461,6 +10471,7 @@ vpc,tutac,7082,gcp,https://github.com/tutac/terraform-gcp-vpc,
 vpc,tuyalou,4849,aws,https://github.com/tuyalou/terraform-aws-vpc,
 vpc,ucipass,10171,aws,https://github.com/ucipass/terraform-aws-vpc,Terraform module that build an AWS Virtual Private Cloud (VPC)
 vpc,ugns,11563,aws,https://github.com/ugns/terraform-aws-vpc,Terraform Module that defines a VPC with public/private subnets across multiple AZs with Internet Gateways
+vpc,usertan123,15927,aws,https://github.com/usertan123/terraform-aws-vpc,This is demo to publish module in terraform  
 vpc,vikash232,12917,aws,https://github.com/vikash232/terraform-aws-vpc,
 vpc,vitaliburak,6704,aws,https://github.com/vitaliburak/terraform-aws-vpc,
 vpc,vitaliburak,7109,gcp,https://github.com/vitaliburak/terraform-gcp-vpc,
