@@ -663,6 +663,7 @@ application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-appl
 application,cktf,14465,gitlab,https://github.com/cktf/terraform-gitlab-application,Terraform Gitlab Application Module
 application,cloudcommons,3857,kubernetes,https://github.com/cloudcommons/terraform-kubernetes-application,"Terraform module to deploy an application in Kubernetes. Equivalent to a Helm chart, but relaying purely on Terraform."
 application,innovationnorway,2786,azuread,https://github.com/innovationnorway/terraform-azuread-application,Create Azure AD Application.
+application,terraform-pingidentity-modules,15957,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-application,Ping Identity PingOne module to manage applications
 application-gateway,OT-terraform-azure-modules,11635,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-application-gateway,
 application-gateway,avinor,3216,azurerm,https://github.com/avinor/terraform-azurerm-application-gateway,
 application-gateway,aztfm,7262,azurerm,https://github.com/aztfm/terraform-azurerm-application-gateway,Terraform module for Microsoft Azure to manage Application Gateway resource.
@@ -2864,6 +2865,7 @@ dns-managed-zone,bootlabstech,12569,google,https://github.com/bootlabstech/terra
 dns-module,femnad,4015,gcp,https://github.com/femnad/terraform-gcp-dns-module,
 dns-no-mail,alexhinds,7384,digitalocean,https://github.com/alexhinds/terraform-digitalocean-dns-no-mail,Terraform module for managing DNS entries in DigitalOcean to help protect no-mail domains.
 dns-policy,netascode,9800,aci,https://github.com/netascode/terraform-aci-dns-policy,Terraform Cisco ACI DNS Policy Module
+dns-private-resolver,libre-devops,15960,azapi,https://github.com/libre-devops/terraform-azapi-dns-private-resolver,Provider for Private Resolver using Bicep API/AzApi provider
 dns-query-logs,QuiNovas,2213,aws,https://github.com/QuiNovas/terraform-aws-dns-query-logs,Setsup query logs for the hosted zone
 dns-recordsets,terraformdns,1176,azurerm,https://github.com/terraformdns/terraform-azurerm-dns-recordsets,Terraform module for creating DNS recordsets in an Azure DNS zone
 dns-recordsets,terraformdns,1178,google,https://github.com/terraformdns/terraform-google-dns-recordsets,Terraform module for creating DNS recordsets in a Google Cloud DNS zone
@@ -3838,10 +3840,12 @@ eks-efs-csi,dabble-of-devops-biodeploy,10205,aws,https://github.com/dabble-of-de
 eks-efs-csi-driver,DNXLabs,8671,aws,https://github.com/DNXLabs/terraform-aws-eks-efs-csi-driver,Terraform module for deploying aws-efs-csi-driver inside a pre-existing EKS cluster.
 eks-efs-csi-driver,lablabs,14242,aws,https://github.com/lablabs/terraform-aws-eks-efs-csi-driver,
 eks-external-dns,DNXLabs,8672,aws,https://github.com/DNXLabs/terraform-aws-eks-external-dns,Terraform module for deploying External DNS inside a pre-existing EKS cluster.
+eks-external-dns,KongHQ-CX,15955,aws,https://github.com/KongHQ-CX/terraform-aws-eks-external-dns,A Terraform module to configure and deploy external-dns onto EKS
 eks-external-dns,andreswebs,9971,aws,https://github.com/andreswebs/terraform-aws-eks-external-dns,Deploys external-dns on AWS EKS
 eks-external-dns,joaoantunes,7751,aws,https://github.com/joaoantunes/terraform-aws-eks-external-dns,
 eks-external-dns,lablabs,4434,aws,https://github.com/lablabs/terraform-aws-eks-external-dns,
 eks-external-secrets,DNXLabs,8673,aws,https://github.com/DNXLabs/terraform-aws-eks-external-secrets,"Terraform module for deploying kubernetes-external-secrets, this enables to use AWS Secrets Manager and SSM Parameters inside a pre-existing EKS cluster."
+eks-external-secrets,KongHQ-CX,15958,aws,https://github.com/KongHQ-CX/terraform-aws-eks-external-secrets,A terraform module for configuring and deploying external-secrets to an EKS cluster
 eks-external-secrets,andreswebs,10034,aws,https://github.com/andreswebs/terraform-aws-eks-external-secrets,Deploys Kubernetes External Secrets on AWS EKS
 eks-external-secrets,lablabs,15391,aws,https://github.com/lablabs/terraform-aws-eks-external-secrets,A terraform module to deploy the External Secrets Operator on Amazon EKS cluster
 eks-fargate,nalbam,6098,aws,https://github.com/nalbam/terraform-aws-eks-fargate,
@@ -6063,6 +6067,7 @@ log-export,tomarv2,12765,google,https://github.com/tomarv2/terraform-google-log-
 log-exporter,DNXLabs,5742,aws,https://github.com/DNXLabs/terraform-aws-log-exporter,This module creates a lambda function that exports log groups on the AWS account and region deployed.
 log-group,Invicton-Labs,9188,aws,https://github.com/Invicton-Labs/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-metric,davidburkitt,4670,aws,https://github.com/davidburkitt/terraform-aws-log-metric,
+loganalytics,hknutsen,15956,azurerm,https://github.com/hknutsen/terraform-azurerm-loganalytics,Terraform module which creates Azure Log Analytics resources.
 logdna,kabisa,3159,aws,https://github.com/kabisa/terraform-aws-logdna,Terraform module designed to forward AWS Cloudwatch Logs to LogDNA.
 logging,oracle-terraform-modules,10442,oci,https://github.com/oracle-terraform-modules/terraform-oci-logging,Terraform module for OCI Logging can be used to create logs and loggroups for OCI services and custom logs
 logging,rhythmictech,3131,cloudtrail,https://github.com/rhythmictech/terraform-cloudtrail-logging,Configure CloudTrail logging to CloudWatch Logs and S3
@@ -7318,7 +7323,7 @@ project-factory,terraform-google-modules,1669,google,https://github.com/terrafor
 project-hardening,unimatrixops,10693,google,https://github.com/unimatrixops/terraform-google-project-hardening,Harden a Google Cloud Platform project
 project-hierarchy,infrablocks,14418,google,https://github.com/infrablocks/terraform-google-project-hierarchy,
 project-iam,adekoyadapo,14587,google,https://github.com/adekoyadapo/terraform-google-project-iam,"Terraform Module to create a project, activate services and add members"
-project-iam,mineiros-io,11751,google,https://github.com/mineiros-io/terraform-google-project-iam,A Terraform module to manage Identity and Access Management (IAM) for projects on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/creating-managing-projects
+project-iam,mineiros-io,11751,google,https://github.com/mineiros-io/terraform-google-project-iam,A Terraform module to manage Identity and Access Management (IAM) for projects in Google Cloud https://cloud.google.com/resource-manager/docs/creating-managing-projects
 project-iam-custom-role,SweetOps,8111,google,https://github.com/SweetOps/terraform-google-project-iam-custom-role,
 project-iam-custom-role,mineiros-io,11752,google,https://github.com/mineiros-io/terraform-google-project-iam-custom-role,A Terraform module to manage a customized Identity and Access Management (IAM) project role on Google Cloud Platform (GCP) https://cloud.google.com/resource-manager/docs/access-control-org
 project-provisioner,donaldrich80,7152,gitlab,https://github.com/donaldrich80/terraform-gitlab-project-provisioner,Terraform module for configuring and maintaining your Gitlab repositories and Gitlab-CI pipelines.
@@ -8734,7 +8739,7 @@ serverless-webapp,apparentlymart,784,aws,https://github.com/apparentlymart/terra
 serverless-webapp,terraform-alicloud-modules,4008,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-serverless-webapp,Terraform module which deploys serverless web applications on Alibaba Cloud.
 serverless-workflow,terraform-alicloud-modules,12797,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-serverless-workflow,Terraform Module for creating Serverless Workflow resources on Alibaba Cloud.
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
-service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service + integrations, extensions, and more. 🇺🇦"
+service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service + Slack Connectors, integrations, extensions, and more. 🇺🇦"
 service,hazelops,7242,pagerduty,https://github.com/hazelops/terraform-pagerduty-service,
 service,matti,780,kontena,https://github.com/matti/terraform-kontena-service,
 service,mineiros-io,11365,google,https://github.com/mineiros-io/terraform-google-service,A Terraform module to create and manage API services for projects in Google Cloud https://cloud.google.com
