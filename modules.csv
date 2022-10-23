@@ -124,6 +124,7 @@ account,zoitech,159,aws,https://github.com/zoitech/terraform-aws-account,Terrafo
 account-access,lablabs,4446,aws,https://github.com/lablabs/terraform-aws-account-access,
 account-access-group,cloud-native-toolkit,14549,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-account-access-group,Module to create account-wide access groups
 account-baseline,hkebao,11338,alicloud,https://github.com/hkebao/terraform-alicloud-account-baseline,账号基线的仓库，会作为一个Modules发布到官方文档
+account-bootstrap,andyscott1547,16076,aws,https://github.com/andyscott1547/terraform-aws-account-bootstrap,Terraform module to bootstrap a new AWS.
 account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-aws-account-defaults,A Terraform module for configuring account defaults.
 account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-account-identity,This terraform module creates identity roles in AWS.
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
@@ -499,6 +500,7 @@ apache,Ali9t,10553,aws,https://github.com/Ali9t/terraform-aws-apache,
 apache,dtivadar1,11056,aws,https://github.com/dtivadar1/terraform-aws-apache,
 apache-cluster,ParkhomenkoDmitro,15156,aws,https://github.com/ParkhomenkoDmitro/terraform-aws-apache-cluster,Create an EC2 cluster of Apache webservers
 apache-esample,m-satishkumar,12469,aws,https://github.com/m-satishkumar/terraform-aws-apache-esample,
+apache-example,BondarenkoStas,16079,aws,https://github.com/BondarenkoStas/terraform-aws-apache-example,
 apache-example,CarlosCoppa,10955,aws,https://github.com/CarlosCoppa/terraform-aws-apache-example,Laboratorio de modulos de Terraform
 apache-example,DavidDTessier,12701,aws,https://github.com/DavidDTessier/terraform-aws-apache-example,
 apache-example,ExamProCo,10330,aws,https://github.com/ExamProCo/terraform-aws-apache-example,
@@ -7995,7 +7997,7 @@ rg,krisyar,13548,azurerm,https://github.com/krisyar/terraform-azurerm-rg,
 rg,libre-devops,13047,azurerm,https://github.com/libre-devops/terraform-azurerm-rg,A module used to create a resource group with a management lock in Azure :closed_lock_with_key:
 rg,monbostest,15186,azurerm,https://github.com/monbostest/terraform-azurerm-rg,This repo will be used for module purpose
 rg,namanbajaj08,6009,azure,https://github.com/namanbajaj08/terraform-azure-rg,
-rg,popravak,15971,azurerm,https://github.com/popravak/terraform-azurerm-rg,
+rg,popravak,16073,azurerm,https://github.com/popravak/terraform-azurerm-rg,
 rg,shiboyan,11497,az,https://github.com/shiboyan/terraform-az-rg,az rg
 rg,spy86,13114,azure,https://github.com/spy86/terraform-azure-rg,Terraform Module for Azure Resource Group
 rg-public,manan-manik,14777,azure,https://github.com/manan-manik/terraform-azure-rg-public,
@@ -9293,6 +9295,7 @@ ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terra
 ssm-tls-ssh-key-pair,cloudposse,1980,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-ssh-key-pair,Terraform module that provisions an SSH TLS Key pair and writes it to SSM Parameter Store
 ssm-vpc-endpoint,bayupw,12922,aws,https://github.com/bayupw/terraform-aws-ssm-vpc-endpoint,Terraform module to create Security Group and VPC Endpoints for SSM
 ssmpatching,JamesWoolfenden,3314,aws,https://github.com/JamesWoolfenden/terraform-aws-ssmpatching,A project to set-up SSM patch schedules
+ssmpfs,gibbsoft,16078,module,https://github.com/gibbsoft/terraform-module-ssmpfs,"A terraform module to allow storage of large-ish data in free-tier SSM Parameter Store.  This can be handy for certificate chains, etc."
 sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraform-aws-sso,Terraform module to manage AWS Single Sign-On (SSO) resources.
 sso,cloud-security-labs,7443,aws,https://github.com/cloud-security-labs/terraform-aws-sso,Terraform module that creates AWS SSO Permission Set
 sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
@@ -10236,6 +10239,7 @@ vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Te
 vnet,manan-manik,14778,azure,https://github.com/manan-manik/terraform-azure-vnet,
 vnet,nlarzon,2794,azure,https://github.com/nlarzon/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,nuraaly,6979,azure,https://github.com/nuraaly/terraform-azure-vnet,
+vnet,popravak,16075,azurerm,https://github.com/popravak/terraform-azurerm-vnet,
 vnet,rhythmictech,3262,azure,https://github.com/rhythmictech/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,shamal112mn,6982,azure,https://github.com/shamal112mn/terraform-azure-vnet,
 vnet,srb3,4096,azurerm,https://github.com/srb3/terraform-azurerm-vnet,
@@ -10761,6 +10765,8 @@ vpc-sample,akirosit,15387,aws,https://github.com/akirosit/terraform-aws-vpc-samp
 vpc-securitygroup,bancoripleyperu,8338,aws,https://github.com/bancoripleyperu/terraform-aws-vpc-securitygroup,Module of Terraform
 vpc-seil,sekolya,8022,aws,https://github.com/sekolya/terraform-aws-vpc-seil,
 vpc-service-controls,terraform-google-modules,2465,google,https://github.com/terraform-google-modules/terraform-google-vpc-service-controls,This module handles opinionated VPC Service Controls and Access Context Manager configuration and deployments.
+vpc-simple-public-private-subnets,samloh84,16074,aws,https://github.com/samloh84/terraform-aws-vpc-simple-public-private-subnets,This Terraform module creates an AWS VPC with Public and Private Subnets.
+vpc-simple-public-subnets,samloh84,16069,aws,https://github.com/samloh84/terraform-aws-vpc-simple-public-subnets,Terraform module that creates an AWS VPC with only public Subnets.
 vpc-single-public,yurymkomarov,4785,aws,https://github.com/yurymkomarov/terraform-aws-vpc-single-public,VPC with a single public subnet
 vpc-slb-ecs-ga-dns,terraform-alicloud-modules,10407,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-slb-ecs-ga-dns,
 vpc-slb-ecs-rds-drds,terraform-alicloud-modules,10410,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-vpc-slb-ecs-rds-drds,
