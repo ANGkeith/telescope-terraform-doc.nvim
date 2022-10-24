@@ -1597,6 +1597,7 @@ byok-template,clumio-code,14902,clumio,https://github.com/clumio-code/terraform-
 c6,aoshfan,12876,aws,https://github.com/aoshfan/terraform-aws-c6,
 ca,4ops,7246,tls,https://github.com/4ops/terraform-tls-ca,Terraform module
 ca,SOSETH,10645,vault,https://github.com/SOSETH/terraform-vault-ca,Terraform role to set up a CA using Vault's PKI secret engine
+ca,brucellino,16085,vault,https://github.com/brucellino/terraform-vault-ca,A terraform module for a Vault certificate authority 
 ca-certificate,netascode,9766,aci,https://github.com/netascode/terraform-aci-ca-certificate,Terraform Cisco ACI CA Certificate Module
 cache,terracharge,14080,aws,https://github.com/terracharge/terraform-aws-cache,Module for creating terraform-aws-cache with provider aws. This description is created automagically
 cache-for-redis,spy86,13165,azure,https://github.com/spy86/terraform-azure-cache-for-redis,Terraform Module for Azure Redis Cache
@@ -2134,6 +2135,7 @@ cloudwatch-log-group,PGBI,2814,aws,https://github.com/PGBI/terraform-aws-cloudwa
 cloudwatch-log-group,aws-ia,12657,aws,https://github.com/aws-ia/terraform-aws-cloudwatch-log-group,
 cloudwatch-log-group,florentio,15137,aws,https://github.com/florentio/terraform-aws-cloudwatch-log-group,Terraform module which creates CloudWatch Log Group on AWS
 cloudwatch-log-group,mhmdio,7356,aws,https://github.com/mhmdio/terraform-aws-cloudwatch-log-group,AWS CW Log Group Terraform Module
+cloudwatch-log-group-with-cmk,samloh84,16080,aws,https://github.com/samloh84/terraform-aws-cloudwatch-log-group-with-cmk,This Terraform module creates an AWS Cloudwatch Log Group with Customer Managed Key
 cloudwatch-logs,cloudposse,941,aws,https://github.com/cloudposse/terraform-aws-cloudwatch-logs,Terraform Module to Provide a CloudWatch Logs Endpoint
 cloudwatch-logs,cn-terraform,3245,aws,https://github.com/cn-terraform/terraform-aws-cloudwatch-logs,AWS CloudWatch Logs Terraform Module
 cloudwatch-logs,leonmwandiringa,15813,aws,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
@@ -3185,6 +3187,7 @@ ec2,tomarv2,12332,aws,https://github.com/tomarv2/terraform-aws-ec2,Terraform mod
 ec2-admin-server,cloudposse,215,aws,https://github.com/cloudposse/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
 ec2-agent-pool,glenngillen,15359,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool,
 ec2-agent-pool-autoscaler,glenngillen,15360,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool-autoscaler,
+ec2-amazon-linux-2-with-ssm,samloh84,16081,aws,https://github.com/samloh84/terraform-aws-ec2-amazon-linux-2-with-ssm,This Terraform module creates an Amazon Linux 2 EC2 instance with AWS Systems Manager enabled.
 ec2-ami-backup,cloudposse,216,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-backup,Terraform module for automatic & scheduled AMI creation
 ec2-ami-snapshot,cloudposse,217,aws,https://github.com/cloudposse/terraform-aws-ec2-ami-snapshot,Terraform module to easily generate AMI snapshots to create replica instances
 ec2-and-rds,akshatoxy,15107,aws,https://github.com/akshatoxy/terraform-aws-ec2-and-rds,EC2 server for node application and RDS MySQL instance for database.
@@ -3293,6 +3296,7 @@ ec2-ubuntu,kmayer10,13509,aws,https://github.com/kmayer10/terraform-aws-ec2-ubun
 ec2-userdata-ad-join,andreswebs,11841,aws,https://github.com/andreswebs/terraform-aws-ec2-userdata-ad-join,Generates a user-data script for dynamically joining and un-joining Windows EC2 instances to an Active Directory domain
 ec2-vpc-basic,navinds25,10007,aws,https://github.com/navinds25/terraform-aws-ec2-vpc-basic,Terraform module for creating a vpc with public and private subnets for ec2 instances.
 ec2-webapp,thanhbn87,2949,aws,https://github.com/thanhbn87/terraform-aws-ec2-webapp,Terraform modules of aws ec2 webapp 
+ec2-windows-server-2019-with-ssm,samloh84,16082,aws,https://github.com/samloh84/terraform-aws-ec2-windows-server-2019-with-ssm,
 ec2-with-ebs,jhagdu,5523,aws,https://github.com/jhagdu/terraform-aws-ec2-with-ebs,Cloud Infrastructure as Code using Terraform 
 ec2-with-efs,jhagdu,5531,aws,https://github.com/jhagdu/terraform-aws-ec2-with-efs,Repository contains complete Infrastructure as Code with EFS Volume on AWS
 ec2-with-eip,agucampao,2492,module,https://github.com/agucampao/terraform-module-ec2-with-eip,
@@ -7303,6 +7307,7 @@ postgresql,bayudwiyansatria,11525,helm,https://github.com/bayudwiyansatria/terra
 postgresql,djangoflow,14736,kubernetes,https://github.com/djangoflow/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,dodevops,8895,azure,https://github.com/dodevops/terraform-azure-postgresql,Highly opinionated management of Azure DB for PostgreSQL
 postgresql,mcalik77,11462,azurerm,https://github.com/mcalik77/terraform-azurerm-postgresql,
+postgresql,nuxion,16086,google,https://github.com/nuxion/terraform-google-postgresql,A native installation of postgresql
 postgresql,rahulagalcha97,5819,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-postgresql,Azure Database for PostgreSQL Module
 postgresql,rhythmictech,3900,azurerm,https://github.com/rhythmictech/terraform-azurerm-postgresql,Terraform module for Azure managed PostgreSQL Database
 postgresql,tf-cloud-modules,14967,aiven,https://github.com/tf-cloud-modules/terraform-aiven-postgresql,Aiven PostgreSQL Terraform module
@@ -9262,6 +9267,7 @@ ssm-agent,masterpointio,9192,aws,https://github.com/masterpointio/terraform-aws-
 ssm-agent-policy,telia-oss,1243,aws,https://github.com/telia-oss/terraform-aws-ssm-agent-policy,An IAM policy which grants the necessary permissions to run the SSM agent.
 ssm-bastion,JamesWoolfenden,2856,aws,https://github.com/JamesWoolfenden/terraform-aws-ssm-bastion,A quick simple bastion for AWS
 ssm-bastion,maathor,8852,aws,https://github.com/maathor/terraform-aws-ssm-bastion,
+ssm-configuration,samloh84,16083,aws,https://github.com/samloh84/terraform-aws-ssm-configuration,
 ssm-iam-role,cloudposse,1162,aws,https://github.com/cloudposse/terraform-aws-ssm-iam-role,Terraform module to provision an IAM role with configurable permissions to access SSM Parameter Store
 ssm-instance,cornerman,13962,aws,https://github.com/cornerman/terraform-aws-ssm-instance,
 ssm-instance-profile,bayupw,12920,aws,https://github.com/bayupw/terraform-aws-ssm-instance-profile,Terraform module to create IAM role and IAM instance profile for SSM
@@ -9295,7 +9301,7 @@ ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terra
 ssm-tls-ssh-key-pair,cloudposse,1980,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-ssh-key-pair,Terraform module that provisions an SSH TLS Key pair and writes it to SSM Parameter Store
 ssm-vpc-endpoint,bayupw,12922,aws,https://github.com/bayupw/terraform-aws-ssm-vpc-endpoint,Terraform module to create Security Group and VPC Endpoints for SSM
 ssmpatching,JamesWoolfenden,3314,aws,https://github.com/JamesWoolfenden/terraform-aws-ssmpatching,A project to set-up SSM patch schedules
-ssmpfs,gibbsoft,16078,module,https://github.com/gibbsoft/terraform-module-ssmpfs,"A terraform module to allow storage of large-ish data in free-tier SSM Parameter Store.  This can be handy for certificate chains, etc."
+ssmpfs,gibbsoft,16084,aws,https://github.com/gibbsoft/terraform-aws-ssmpfs,"A terraform module to allow storage of large-ish data in free-tier SSM Parameter Store.  This can be handy for certificate chains, etc."
 sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraform-aws-sso,Terraform module to manage AWS Single Sign-On (SSO) resources.
 sso,cloud-security-labs,7443,aws,https://github.com/cloud-security-labs/terraform-aws-sso,Terraform module that creates AWS SSO Permission Set
 sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
