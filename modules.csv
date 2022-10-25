@@ -527,6 +527,7 @@ apache-guacamole,srb3,3926,linux,https://github.com/srb3/terraform-linux-apache-
 apache-hello-world,tajpouria,12207,google,https://github.com/tajpouria/terraform-google-apache-hello-world,"NOT PRODUCTION READY: This module allows you to create a` google_compute_instance` resource, and configures an apache web server on it."
 apache-server,kabisa,15635,datadog,https://github.com/kabisa/terraform-datadog-apache-server,
 apache-superset,philips-labs,10390,hsdp,https://github.com/philips-labs/terraform-hsdp-apache-superset,Module to deploy Apache Superset on HSDP Container Host
+apache_example2,raviteja-ec-project,16090,aws,https://github.com/raviteja-ec-project/terraform-aws-apache_example2,
 apex-redirect,USSBA,14449,aws,https://github.com/USSBA/terraform-aws-apex-redirect,A Terraform Module for the AWS Domain Apex Redirect
 api,hellofresh,3055,janus,https://github.com/hellofresh/terraform-janus-api,A terraform provider for the janus API-Gateway
 api-auth-proxy,adacotech,10292,aws,https://github.com/adacotech/terraform-aws-api-auth-proxy,Oauth2 Authorization Code Flow by API Gateway Serverless
@@ -2298,6 +2299,7 @@ common-variables,container-labs,6874,tfe,https://github.com/container-labs/terra
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,
 complete-eks-cluster,dasmeta,14609,aws,https://github.com/dasmeta/terraform-aws-complete-eks-cluster,All terraform modules that are related or supporting EKS setup
+compliant-s3-bucket,andyscott1547,16087,aws,https://github.com/andyscott1547/terraform-aws-compliant-s3-bucket,Terraform module to create a S3 bucket on AWS with settings inline with secure benchmark.
 components,cloudposse,6626,aws,https://github.com/cloudposse/terraform-aws-components,"Opinionated, self-contained Terraform root modules that each solve one, specific problem"
 components,leb4r,11707,do,https://github.com/leb4r/terraform-do-components,Terraform modules that can be re-used in other projects. Built specifically for DigitalOcean. 
 components,leb4r,13072,aws,https://github.com/leb4r/terraform-aws-components,Terraform templates that can be re-used in other projects. Built specifically for AWS.
@@ -3682,6 +3684,7 @@ efs,nalbam,9991,aws,https://github.com/nalbam/terraform-aws-efs,
 efs,oozou,14364,aws,https://github.com/oozou/terraform-aws-efs,Terraform Module to define an EFS
 efs,philips-software,1221,aws,https://github.com/philips-software/terraform-aws-efs,Terraform module to create an AWS elastic file system (EFS)
 efs,pogosoftware,14422,aws,https://github.com/pogosoftware/terraform-aws-efs,
+efs,terraform-aws-modules,16095,aws,https://github.com/terraform-aws-modules/terraform-aws-efs,Terraform module which creates AWS EFS resources 🇺🇦
 efs,terraform-iaac,9114,aws,https://github.com/terraform-iaac/terraform-aws-efs,Terraform module for Amazon EFS
 efs,tomarv2,12366,aws,https://github.com/tomarv2/terraform-aws-efs,Terraform module for EFS(Elastic File System)
 efs,yurymkomarov,4796,aws,https://github.com/yurymkomarov/terraform-aws-efs,AWS EFS
@@ -3860,6 +3863,7 @@ eks-cluster,rhythmictech,5025,aws,https://github.com/rhythmictech/terraform-aws-
 eks-cluster,sidick,1149,aws,https://github.com/sidick/terraform-aws-eks-cluster,Terraform EKS Cluster Module
 eks-cluster,trallnag,7337,aws,https://github.com/trallnag/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
 eks-cluster-autoscaler,DNXLabs,8669,aws,https://github.com/DNXLabs/terraform-aws-eks-cluster-autoscaler,Terraform module for deploying Kubernetes Cluster Autoscaler inside a pre-existing EKS cluster. Cluster Autoscaler is a tool that automatically adjusts the size of the Kubernetes cluster.
+eks-cluster-autoscaler,fivetran,16091,aws,https://github.com/fivetran/terraform-aws-eks-cluster-autoscaler,Modified resource names to be shorter
 eks-cluster-autoscaler,lablabs,5506,aws,https://github.com/lablabs/terraform-aws-eks-cluster-autoscaler,
 eks-cluster-service,christonog,6344,provision,https://github.com/christonog/terraform-provision-eks-cluster-service,"This Terraform module provisions an eks cluster, as well as designated micro services in that cluster"
 eks-csi-driver,nlamirault,12697,aws,https://github.com/nlamirault/terraform-aws-eks-csi-driver,Terraform module for EKS CSI Driver
@@ -4333,6 +4337,7 @@ firewall-rules,GMafra,1020,gcp,https://github.com/GMafra/terraform-gcp-firewall-
 firewall-rules,lucaspwk,4408,google,https://github.com/lucaspwk/terraform-google-firewall-rules,Terraform module for creating Firewall rules on Google Cloud Plataform
 firewall-rules,r-teller,9563,google,https://github.com/r-teller/terraform-google-firewall-rules,Terraform module that provides an simplified approach for creating firewall rules in GCP
 firewall-rules,thojkooi,1052,digitalocean,https://github.com/thojkooi/terraform-digitalocean-firewall-rules,Terraform module for DigitalOcean providing a basic firewall rules set
+firezone-vpn,gchamon,16092,aws,https://github.com/gchamon/terraform-aws-firezone-vpn,Terraform module for easy Firezone VPN deployment
 firmware-group,netascode,9823,aci,https://github.com/netascode/terraform-aci-firmware-group,Terraform Cisco ACI Firmware Group Module
 fis,Young-ook,13053,aws,https://github.com/Young-ook/terraform-aws-fis,Terraform Module: Fault Injection Simulator
 flash-shell,eliotlim,12185,aws,https://github.com/eliotlim/terraform-aws-flash-shell,Flash helps you run shell scripts and commands without managing servers.
@@ -6281,9 +6286,11 @@ metal-hosts-with-logz,HPE,15499,hpegl,https://github.com/HPE/terraform-hpegl-met
 metal-ibm-satellite-on-baremetal,equinix,9174,equinix,https://github.com/equinix/terraform-equinix-metal-ibm-satellite-on-baremetal,Terraform module for quick deployment of IBM Satellite on Equinix Metal
 metal-kvm-edge,equinix-labs,12242,equinix,https://github.com/equinix-labs/terraform-equinix-metal-kvm-edge,"Deploy an instance at Equinix Metal to run edge network services like a router, firewall or other NFV"
 metal-vcf,equinix-labs,12243,equinix,https://github.com/equinix-labs/terraform-equinix-metal-vcf,This project will help get a VMWare VCF management domain up and running quickly on Equinix Metal
+metal-vmware-esxi,bayupw,16094,equinix,https://github.com/bayupw/terraform-equinix-metal-vmware-esxi,Terraform module to deploy an ESXi host in Equinix Metal with option to create a Metal Gateway and User SSH key.
 metal-vrf,equinix-labs,14425,equinix,https://github.com/equinix-labs/terraform-equinix-metal-vrf,Terraform script for setting up Equinix Metal Virtual Routing and Forwarding (VRF)
 metallb,colinwilson,6259,kubernetes,https://github.com/colinwilson/terraform-kubernetes-metallb,Terraform module to provision MetalLB (v0.10.2) on a Kubernetes cluster [WIP]
 metric-filter-alarm,dwp,1152,aws,https://github.com/dwp/terraform-aws-metric-filter-alarm,Terraform module that creates AWS CloudWatch metric filters and alarms
+metrics,aptible,16096,aptible,https://github.com/aptible/terraform-aptible-metrics,Easily provision and managed all of the resources necessary to monitor your Aptible Environments. All hosted in your Aptible account!
 metrics-server,cookielab,3622,kubernetes,https://github.com/cookielab/terraform-kubernetes-metrics-server,Terraform module for deploying Metrics Server to k8s cluster
 metrics-server,iplabs,4660,kubernetes,https://github.com/iplabs/terraform-kubernetes-metrics-server,Terraform module to install the Kubernetes metrics-server
 metricsserver,3191110276,8170,kubernetes,https://github.com/3191110276/terraform-kubernetes-metricsserver,
@@ -6388,7 +6395,7 @@ module1,prashanth782,5306,azurerm,https://github.com/prashanth782/terraform-azur
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
-modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terraform modules for AWS
+modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terraform modules from DasMeta to manage AWS resources
 modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-modules,Terraform modules for on premise setups
 modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-modules,Terraform modules that will work on any cloud (including on premise setups)
 modules,dasmeta,12172,google,https://github.com/dasmeta/terraform-google-modules,This Terraform module makes it easier to manage for resources on Google Cloud Platform.
@@ -7042,6 +7049,7 @@ optimization-as-code,densify-dev,1695,null,https://github.com/densify-dev/terraf
 options,4ops,4656,null,https://github.com/4ops/terraform-null-options,Simple options management tool
 orc8r,ShubhamTatvamasi,12515,aws,https://github.com/ShubhamTatvamasi/terraform-aws-orc8r,
 orc8r-helm,ShubhamTatvamasi,12516,aws,https://github.com/ShubhamTatvamasi/terraform-aws-orc8r-helm,
+org-delegation,andyscott1547,16093,aws,https://github.com/andyscott1547/terraform-aws-org-delegation,
 org-factory,ned1313,11393,tfe,https://github.com/ned1313/terraform-tfe-org-factory,"Terraform module to create Terraform Cloud organizations, workspaces, and teams."
 org-integration,uptycslabs,14245,aws,https://github.com/uptycslabs/terraform-aws-org-integration,Terraform module to integrate AWS organization's accounts into Uptycs
 org-new-account-iam-role,plus3it,7754,aws,https://github.com/plus3it/terraform-aws-org-new-account-iam-role,
@@ -9133,6 +9141,7 @@ sops,nlamirault,7688,aws,https://github.com/nlamirault/terraform-aws-sops,Terraf
 sops,nlamirault,7720,azurerm,https://github.com/nlamirault/terraform-azurerm-sops,Terraform module for Sops
 sops-secret,samcre,9056,kubernetes,https://github.com/samcre/terraform-kubernetes-sops-secret,A module to provision kubernetes secrets using a SOPS-encoded file
 sorry-cypress,feedzai,14448,aws,https://github.com/feedzai/terraform-aws-sorry-cypress,A Terraform module for deploying sorry-cypress on AWS ECS
+sorry-cypress,maathor,16088,aws,https://github.com/maathor/terraform-aws-sorry-cypress,A Terraform module for deploying sorry-cypress on AWS ECS
 souvik-s3,sroy-1983,11419,aws,https://github.com/sroy-1983/terraform-aws-souvik-s3,
 spa,doztrock,5132,aws,https://github.com/doztrock/terraform-aws-spa,Terraform module intended to ease AWS SPA creation.
 spa,kosciuszko-cloud,11480,aws,https://github.com/kosciuszko-cloud/terraform-aws-spa,kosciuszko-flavoured single-page application terraform module
@@ -10695,6 +10704,7 @@ vpc-ecs-rds-slb-redis,terraform-alicloud-modules,10412,alicloud,https://github.c
 vpc-eks,babakDoraniArab,11827,aws,https://github.com/babakDoraniArab/terraform-aws-vpc-eks,a terraform code to run aws vpc and eks
 vpc-eks,ekanatbekov,15640,aws,https://github.com/ekanatbekov/terraform-aws-vpc-eks,
 vpc-endpoint,genstackio,7899,aws,https://github.com/genstackio/terraform-aws-vpc-endpoint,Terraform module to create a VPC endpoint
+vpc-endpoints,andyscott1547,16089,aws,https://github.com/andyscott1547/terraform-aws-vpc-endpoints,Terraform module to create VPC endpoints for supported services.
 vpc-endpoints,clowdhaus,8418,aws,https://github.com/clowdhaus/terraform-aws-vpc-endpoints,Terraform module which creates AWS VPC endpoint resources
 vpc-endpoints,dod-iac,10155,aws,https://github.com/dod-iac/terraform-aws-vpc-endpoints,Creates a set of VPC endpoints for the given VPC
 vpc-endpoints,figurate,6415,aws,https://github.com/figurate/terraform-aws-vpc-endpoints,Provision VPC private link endpoints
