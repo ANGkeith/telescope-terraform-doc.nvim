@@ -2705,7 +2705,7 @@ date-time-format,netascode,9786,aci,https://github.com/netascode/terraform-aci-d
 date-time-policy,netascode,9789,aci,https://github.com/netascode/terraform-aci-date-time-policy,Terraform Cisco ACI Date Time Policy Module
 dates,toowoxx,10962,external,https://github.com/toowoxx/terraform-external-dates,"Date & Time functionality for systems that support the ""date"" command with format specifier (e. g. GNU coreutils)"
 datomic-transactor-module,fr33m0nk,14277,aws,https://github.com/fr33m0nk/terraform-aws-datomic-transactor-module,AWS Terraform module for provisioning on-prem Datomic transactors with Dynamo DB
-davinci-connector,terraform-pingidentity-modules,15918,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-davinci-connector,
+davinci-connection,terraform-pingidentity-modules,16133,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-davinci-connection,Ping Identity PingOne DaVinci modules to manage connections
 dax,JamesWoolfenden,7830,aws,https://github.com/JamesWoolfenden/terraform-aws-dax,Basic DAX module
 dax,devops-made-easy,5711,aws,https://github.com/devops-made-easy/terraform-aws-dax,A Terraform module to create AWS DynamoDB Accelerator (DAX)
 db,mohsenSy,10928,digitalocean,https://github.com/mohsenSy/terraform-digitalocean-db,A terraform module to manage Digital Ocean Database Clusters
@@ -2922,6 +2922,7 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker-container,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
+docker-ec2-instance,hm-keles,16128,aws,https://github.com/hm-keles/terraform-aws-docker-ec2-instance,
 docker-ec2-instance,oraykamberoglu,15705,aws,https://github.com/oraykamberoglu/terraform-aws-docker-ec2-instance,
 docker-ec2instance,ofidan,15032,aws,https://github.com/ofidan/terraform-aws-docker-ec2instance,
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
@@ -3674,6 +3675,7 @@ efs,AustinCloudGuru,3513,aws,https://github.com/AustinCloudGuru/terraform-aws-ef
 efs,Cloud-42,3692,aws,https://github.com/Cloud-42/terraform-aws-efs,"Creates a multi-az, private EFS cluster."
 efs,JamesWoolfenden,4297,aws,https://github.com/JamesWoolfenden/terraform-aws-efs,Basic EFS module
 efs,Placidina,9481,aws,https://github.com/Placidina/terraform-aws-efs,Terraform module which creates Elastic File System resources on AWS
+efs,ShubhamTatvamasi,16127,aws,https://github.com/ShubhamTatvamasi/terraform-aws-efs,
 efs,Smartbrood,617,aws,https://github.com/Smartbrood/terraform-aws-efs,Terraform module to create EFS volume and mount targets
 efs,boldlink,14298,aws,https://github.com/boldlink/terraform-aws-efs,Terraform registry repository for AWS EFS module
 efs,camptocamp,6609,aws,https://github.com/camptocamp/terraform-aws-efs,AWS EFS module for Terraform
@@ -4890,6 +4892,7 @@ iam-authenticating-group,riboseinc,1062,aws,https://github.com/riboseinc/terrafo
 iam-billing-roles,dod-iac,8056,aws,https://github.com/dod-iac/terraform-aws-iam-billing-roles,Creates IAM Billing Roles that can be assumed for billing operations.
 iam-chamber-s3-role,cloudposse,2205,aws,https://github.com/cloudposse/terraform-aws-iam-chamber-s3-role,Terraform module to provision an IAM role with configurable permissions to access S3 as chamber backend
 iam-chamber-user,cloudposse,1033,aws,https://github.com/cloudposse/terraform-aws-iam-chamber-user,"Terraform module to provision a basic IAM chamber user with access to SSM parameters and KMS key to decrypt secrets, suitable for CI/CD systems (e.g. TravisCI, CircleCI, CodeFresh) or systems which are external to AWS that cannot leverage AWS IAM Instance Profiles"
+iam-ci-cd,skyfjell,16134,aws,https://github.com/skyfjell/terraform-aws-iam-ci-cd,IAM Configuration for Terraform CI/CD Integration
 iam-config,uptycslabs,9532,google,https://github.com/uptycslabs/terraform-google-iam-config,Terraform module for use with Uptycs GCP integration
 iam-config,uptycslabs,9659,aws,https://github.com/uptycslabs/terraform-aws-iam-config,
 iam-connector,symopsio,14382,sym,https://github.com/symopsio/terraform-sym-iam-connector,DEPRECATED: https://github.com/symopsio/terraform-aws-iam-connector
@@ -8228,6 +8231,7 @@ s3-backend,jhern61,10926,aws,https://github.com/jhern61/terraform-aws-s3-backend
 s3-backend,kimonio,4495,aws,https://github.com/kimonio/terraform-aws-s3-backend,
 s3-backend,mscribellito,9782,aws,https://github.com/mscribellito/terraform-aws-s3-backend,Terraform AWS S3 Backend
 s3-backend,rsb,3679,aws,https://github.com/rsb/terraform-aws-s3-backend,s3 backend module for for Terraform
+s3-backend,skyfjell,16135,aws,https://github.com/skyfjell/terraform-aws-s3-backend,Create Terraform Backends in S3
 s3-backend-demo,briferz,13063,aws,https://github.com/briferz/terraform-aws-s3-backend-demo,
 s3-backend-dependencies,axetrading,14486,axetrading,https://github.com/axetrading/terraform-axetrading-s3-backend-dependencies,Resources for bootstrapping a Terraform setup
 s3-backup-bucket,rj175,6726,aws,https://github.com/rj175/terraform-aws-s3-backup-bucket,Terraform AWS module to create a bucket and IAM user for backup services.
@@ -8592,6 +8596,7 @@ scale_set_lb,Meydan52,14000,azure,https://github.com/Meydan52/terraform-azure-sc
 scaleset,chaglare,7466,azure,https://github.com/chaglare/terraform-azure-scaleset,
 scanner,opendevsecops,1772,aws,https://github.com/opendevsecops/terraform-aws-scanner,
 scdn,terraform-alicloud-modules,9977,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-scdn,Terraform module which creates SCDN domain and its config on Alibaba Cloud.
+scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,SCEPman - Certificates Simplified
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
 scheduled-function,franviera92,8250,google,https://github.com/franviera92/terraform-google-scheduled-function,This modules makes it easy to set up a scheduled job to trigger events/run functions.
 scheduled-function,terraform-google-modules,2317,google,https://github.com/terraform-google-modules/terraform-google-scheduled-function,This modules makes it easy to set up a scheduled job to trigger events/run functions.
@@ -9127,7 +9132,7 @@ sns,oozou,15557,aws,https://github.com/oozou/terraform-aws-sns,Terraform Compone
 sns,pogosoftware,13505,aws,https://github.com/pogosoftware/terraform-aws-sns,The terraform module for setup SNS on AWS cloud
 sns,rahul-amzn,10662,aws,https://github.com/rahul-amzn/terraform-aws-sns,AWS SNS Terraform Modules
 sns,so1omon563,14155,aws,https://github.com/so1omon563/terraform-aws-sns,"Module to create an SNS topic. Supports all common options. Includes submodules for SNS subscriptions, platform applications and more."
-sns,terraform-aws-modules,295,aws,https://github.com/terraform-aws-modules/terraform-aws-sns,Terraform module which creates SNS resources on AWS
+sns,terraform-aws-modules,295,aws,https://github.com/terraform-aws-modules/terraform-aws-sns,Terraform module which creates SNS resources on AWS 🇺🇦
 sns,tomarv2,12370,aws,https://github.com/tomarv2/terraform-aws-sns,Terraform module for AWS SNS
 sns-archiver,mikesir87,2992,aws,https://github.com/mikesir87/terraform-aws-sns-archiver,Terraform module that archives SNS messages to S3
 sns-cloudwatch-sns-alarms,cloudposse,5964,aws,https://github.com/cloudposse/terraform-aws-sns-cloudwatch-sns-alarms,Terraform module that configures CloudWatch SNS alerts for SNS
@@ -10920,6 +10925,7 @@ waf-rulesets,innovationnorway,6081,cloudflare,https://github.com/innovationnorwa
 waf-standard,7clouds-terraform-modules,15905,aws,https://github.com/7clouds-terraform-modules/terraform-aws-waf-standard,WAF Standard Module
 waf-webacl-supporting-resources,Dr4il,3305,aws,https://github.com/Dr4il/terraform-aws-waf-webacl-supporting-resources,A module to create several resources needed by AWS WAF WebACL.
 waf-webacl-supporting-resources,traveloka,2270,aws,https://github.com/traveloka/terraform-aws-waf-webacl-supporting-resources,A module to create several resources needed by AWS WAF WebACL.
+waf-webaclv2,Dugera27,16131,aws,https://github.com/Dugera27/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf-webaclv2,devopsbeast,12054,aws,https://github.com/devopsbeast/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf-webaclv2,umotif-public,4442,aws,https://github.com/umotif-public/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf2,JamesWoolfenden,11264,aws,https://github.com/JamesWoolfenden/terraform-aws-waf2,Provisions a WAF2 resource 
