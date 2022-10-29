@@ -1402,7 +1402,7 @@ base-networking,7clouds-terraform-modules,15906,aws,https://github.com/7clouds-t
 base-networking,infrablocks,644,aws,https://github.com/infrablocks/terraform-aws-base-networking,Terraform module for building base networking in AWS
 base-vpc,jakoberpf,12254,oracle,https://github.com/jakoberpf/terraform-oracle-base-vpc,
 base-vpc-network,MagusDevOps,8254,aws,https://github.com/MagusDevOps/terraform-aws-base-vpc-network,
-baseline,alkiranet,15450,alkira,https://github.com/alkiranet/terraform-alkira-baseline,This module creates various resources in Alkira from .yml templates
+baseline,alkiranet,15450,alkira,https://github.com/alkiranet/terraform-alkira-baseline,This module creates various resources in Alkira from .yml files
 basic-auth,chainflip-io,11736,kubernetes,https://github.com/chainflip-io/terraform-kubernetes-basic-auth,Generate a randomized htpasswd secret for use with HTTP basic auth
 basic-auth,vmfarms,3715,kubernetes,https://github.com/vmfarms/terraform-kubernetes-basic-auth,Generate a randomized htpasswd secret for use with HTTP basic auth
 basic-cluster,SurendraReddyWesco,12695,azurerm,https://github.com/SurendraReddyWesco/terraform-azurerm-basic-cluster,this module will help us to create basic kubenetes cluster
@@ -2554,6 +2554,7 @@ cryptokey,badal-io,3869,google,https://github.com/badal-io/terraform-google-cryp
 csr-sdwan,equinix,8089,equinix,https://github.com/equinix/terraform-equinix-csr-sdwan,Terraform module for quick deployment of Cisco CSR SD-WAN edge device
 csr1000v,equinix,8059,equinix,https://github.com/equinix/terraform-equinix-csr1000v,Terraform module for quick deployment of Cisco CSR1000V router on Equinix Platform
 csr1000v-equinix-configured,bayupw,15923,equinix,https://github.com/bayupw/terraform-equinix-csr1000v-equinix-configured,Terraform module for deploying an Equinix-configured Cisco CSR 1000V router in Equinix Fabric.
+csr1000v-self-configured,bayupw,16141,equinix,https://github.com/bayupw/terraform-equinix-csr1000v-self-configured,Terraform module for deploying a Self-Configured BYOL Cisco CSR 1000V router in Equinix Fabric.
 csr1k,bayupw,12960,aws,https://github.com/bayupw/terraform-aws-csr1k,Terraform module to deploy CSR 1000v on AWS
 cstate-healthchecker,USSBA,5671,aws,https://github.com/USSBA/terraform-aws-cstate-healthchecker,"Uses R53, SNS and LAMBDAs to automatically create and resolve CSTATE issues."
 ctf-chal,KNOXDEV,15233,kubernetes,https://github.com/KNOXDEV/terraform-kubernetes-ctf-chal,terraform module to deploy jailed CTF challenges on k8s
@@ -2869,6 +2870,7 @@ dns,bennu,6870,k8s,https://github.com/bennu/terraform-k8s-dns,
 dns,crazy-canux,14309,external,https://github.com/crazy-canux/terraform-external-dns,deploy externalDNS on EKS with terraform.
 dns,darzanebor,14718,yandex,https://github.com/darzanebor/terraform-yandex-dns,Yandex.Cloud Terraform DNS module
 dns,dasmeta,16005,aws,https://github.com/dasmeta/terraform-aws-dns,Route53 DNS related functionality
+dns,dtoch56,16140,yandex,https://github.com/dtoch56/terraform-yandex-dns,DNS module
 dns,garbetjie,5767,google,https://github.com/garbetjie/terraform-google-dns,A Terraform module for managing DNS records in Google Cloud.
 dns,genstackio,8003,aws,https://github.com/genstackio/terraform-aws-dns,Terraform module to create an AWS Route53 DNS resources
 dns,hanyouqing,3748,alicloud,https://github.com/hanyouqing/terraform-alicloud-dns,terraform-alicloud-dns
@@ -3405,6 +3407,7 @@ ecs,FelipeGFalcao,6136,aws,https://github.com/FelipeGFalcao/terraform-aws-ecs,
 ecs,FlexibleEngineCloud,6016,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-ecs,Terraform module which creates ECS resources on Flexible Engine cloud
 ecs,HENNGE,4018,aws,https://github.com/HENNGE/terraform-aws-ecs,"Terraform module which creates ECS (EC2 and Fargate) and related resources (autoscaling, cron fargate, etc.) on AWS"
 ecs,Moncky,11055,aws,https://github.com/Moncky/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
+ecs,SPHTech-Platform,16136,aws,https://github.com/SPHTech-Platform/terraform-aws-ecs,Reusable module to create ECS cluster
 ecs,Smartbrood,633,aws,https://github.com/Smartbrood/terraform-aws-ecs,Terraform module to create ECS cluster
 ecs,anrim,871,aws,https://github.com/anrim/terraform-aws-ecs,A Terraform module that creates an ECS Docker cluster and services
 ecs,banks,541,aws,https://github.com/banks/terraform-aws-ecs,Ignore this will be deleted soon
@@ -4859,6 +4862,7 @@ iam,Selleo,11479,aws,https://github.com/Selleo/terraform-aws-iam,Terraform IAM p
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,cytopia,7272,aws,https://github.com/cytopia/terraform-aws-iam,This Terraform module manages AWS IAM to its full extend.
 iam,d7oss,15208,aws,https://github.com/d7oss/terraform-aws-iam,Make it easier to handle users and permissions in AWS.
+iam,dasmeta,16138,aws,https://github.com/dasmeta/terraform-aws-iam,Terraform modules managing AWS IAM resources
 iam,davidcheung,5674,aws,https://github.com/davidcheung/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,dcos-terraform,1366,aws,https://github.com/dcos-terraform/terraform-aws-iam,creates policies and roles to be used with DC/OS
 iam,hadenlabs,7637,github,https://github.com/hadenlabs/terraform-github-iam,github iam for terraform
@@ -8517,6 +8521,7 @@ s3backend,threeplay,3263,aws,https://github.com/threeplay/terraform-aws-s3backen
 s3backend,turnerd450,11228,aws,https://github.com/turnerd450/terraform-aws-s3backend,
 s3backend,victoraguiar,11546,aws,https://github.com/victoraguiar/terraform-aws-s3backend,
 s3backend,victorlouie,10089,aws,https://github.com/victorlouie/terraform-aws-s3backend,
+s3backend,vihuo,16139,aws,https://github.com/vihuo/terraform-aws-s3backend,
 s3backend,webbj62,4086,aws,https://github.com/webbj62/terraform-aws-s3backend,
 s3backend,witnesel,15053,aws,https://github.com/witnesel/terraform-aws-s3backend,
 s3backend,xdc7,8557,aws,https://github.com/xdc7/terraform-aws-s3backend,
@@ -9277,6 +9282,7 @@ ssh-key,clouddrove,5035,digitalocean,https://github.com/clouddrove/terraform-dig
 ssh-key,devdynamicio,13428,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-ssh-key,Terraform module to create ssh keys in DigitalOcean 🇺🇦
 ssh-key,terraform-do-modules,9864,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key,Provides a DigitalOcean SSH key resource to allow you to manage SSH keys for Droplet access.
 ssh-key-pair,cloudposse,1044,tls,https://github.com/cloudposse/terraform-tls-ssh-key-pair,Terraform module for generating an SSH public/private key file.
+ssh-key-pair,rallyware,16137,tls,https://github.com/rallyware/terraform-tls-ssh-key-pair,A simple terraform module for generating SSH key-pair
 ssh-keypair,muhammad9970,13991,aws,https://github.com/muhammad9970/terraform-aws-ssh-keypair,
 ssh-keypair-generator,jd4883,7286,hashicorp,https://github.com/jd4883/terraform-hashicorp-ssh-keypair-generator,"A small terraform module to generate SSH keypairs. For now, this creates and outputs a private and public keypair, and by default writes these into a public and private key file. These can be toggled via bool."
 ssh-ssm,JamesWoolfenden,2049,aws,https://github.com/JamesWoolfenden/terraform-aws-ssh-ssm,Secure Storage for SSH keys in AWS parameter store
