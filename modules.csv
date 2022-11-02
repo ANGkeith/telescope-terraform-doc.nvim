@@ -90,6 +90,7 @@ aatmiktas3,Aatmikta-Sirothiya,11432,aws,https://github.com/Aatmikta-Sirothiya/te
 abc,zizisn92,13295,aws,https://github.com/zizisn92/terraform-aws-abc,
 accenturestaticwebsite,nishanthkumarpathi,15154,azurerm,https://github.com/nishanthkumarpathi/terraform-azurerm-accenturestaticwebsite,
 access,coffee-shop-devs,14140,aws,https://github.com/coffee-shop-devs/terraform-aws-access,generate the general objects necessary to access aws services
+access,terraform-cisco-modules,16178,aci,https://github.com/terraform-cisco-modules/terraform-aci-access,Terraform - ACI > Access Module
 access-control,infrablocks,3565,aws,https://github.com/infrablocks/terraform-aws-access-control,A Terraform module for configuring AWS account access control.
 access-fex-interface-profile,netascode,9676,aci,https://github.com/netascode/terraform-aci-access-fex-interface-profile,Terraform Cisco ACI Access FEX Interface Profile Module
 access-fex-interface-selector,netascode,9815,aci,https://github.com/netascode/terraform-aci-access-fex-interface-selector,Terraform Cisco ACI Access FEX Interface Selector Module
@@ -248,6 +249,7 @@ admin,TaitoUnited,10707,aws,https://github.com/TaitoUnited/terraform-aws-admin,
 admin,TaitoUnited,6120,google,https://github.com/TaitoUnited/terraform-google-admin,
 admin,TaitoUnited,8224,azurerm,https://github.com/TaitoUnited/terraform-azurerm-admin,
 admin,infrablocks,3499,aws,https://github.com/infrablocks/terraform-aws-admin,A Terraform module for managing an admin user and group.
+admin,terraform-cisco-modules,16179,aci,https://github.com/terraform-cisco-modules/terraform-aci-admin,Terraform - ACI > Admin Module
 admin-access-sg,rhythmictech,3118,aws,https://github.com/rhythmictech/terraform-aws-admin-access-sg,Creates admin access security group
 admin-bot,redpwn,7946,google,https://github.com/redpwn/terraform-google-admin-bot,Deploy redpwn/admin-bot to Google Cloud Run
 admin-bot,redpwn,8280,aws,https://github.com/redpwn/terraform-aws-admin-bot,Deploy redpwn/admin-bot to AWS Fargate and Lambda
@@ -538,6 +540,7 @@ api-cors,barneyparker,4681,aws,https://github.com/barneyparker/terraform-aws-api
 api-dynamodb,barneyparker,4677,aws,https://github.com/barneyparker/terraform-aws-api-dynamodb,API Gateway DynamoDB Integration
 api-enable,viswanth165,11143,google,https://github.com/viswanth165/terraform-google-api-enable,
 api-eventbridge,barneyparker,4678,aws,https://github.com/barneyparker/terraform-aws-api-eventbridge,terraform-aws-api-eventbridge
+api-gateway,adamwshero,16198,aws,https://github.com/adamwshero/terraform-aws-api-gateway,"Terragrunt friendly module to create AWS API Gateway (V1) w\Optional WAF, many stages/api keys/usage plans using the OpenAPI 3.x spec. 🇺🇦"
 api-gateway,aidenabled,11470,google,https://github.com/aidenabled/terraform-google-api-gateway,
 api-gateway,birkoff,1077,aws,https://github.com/birkoff/terraform-aws-api-gateway,Terraform module for AWS API Gateway resource
 api-gateway,bwindsor,6562,aws,https://github.com/bwindsor/terraform-aws-api-gateway,Terraform resources for an API gateway deployment with custom domain name
@@ -675,7 +678,6 @@ application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-appl
 application,cktf,14465,gitlab,https://github.com/cktf/terraform-gitlab-application,Terraform Gitlab Application Module
 application,cloudcommons,3857,kubernetes,https://github.com/cloudcommons/terraform-kubernetes-application,"Terraform module to deploy an application in Kubernetes. Equivalent to a Helm chart, but relaying purely on Terraform."
 application,innovationnorway,2786,azuread,https://github.com/innovationnorway/terraform-azuread-application,Create Azure AD Application.
-application,terraform-pingidentity-modules,15957,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-application,Ping Identity PingOne module to manage applications
 application-gateway,OT-terraform-azure-modules,11635,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-application-gateway,
 application-gateway,avinor,3216,azurerm,https://github.com/avinor/terraform-azurerm-application-gateway,
 application-gateway,aztfm,7262,azurerm,https://github.com/aztfm/terraform-azurerm-application-gateway,Terraform module for Microsoft Azure to manage Application Gateway resource.
@@ -751,6 +753,7 @@ arch-policies,oracle-devrel,14346,oci,https://github.com/oracle-devrel/terraform
 arch-postgresql,oracle-devrel,10864,oci,https://github.com/oracle-devrel/terraform-oci-arch-postgresql,Terraform module to deploy PostgreSQL on Oracle Cloud Infrastructure (OCI).
 arch-redis,oracle-devrel,11113,oci,https://github.com/oracle-devrel/terraform-oci-arch-redis,terraform-oci-arch-redis
 arch-spring-boot,oracle-devrel,11207,oci,https://github.com/oracle-devrel/terraform-oci-arch-spring-boot,terraform-oci-arch-spring-boot
+arch-tomcat,MervHashiCorp,16177,oci,https://github.com/MervHashiCorp/terraform-oci-arch-tomcat,terraform-oci-arch-tomcat
 arch-tomcat,oracle-devrel,13940,oci,https://github.com/oracle-devrel/terraform-oci-arch-tomcat,terraform-oci-arch-tomcat
 arch-tomcat-mds,oracle-devrel,11047,oci,https://github.com/oracle-devrel/terraform-oci-arch-tomcat-mds,Terraform to deploy Apache Tomcat on OCI
 arch-web-ha,oracle-devrel,10892,oci,https://github.com/oracle-devrel/terraform-oci-arch-web-ha,A deployable solution for web application on highly available infrastructure in Oracle Cloud Infrastructure
@@ -1286,7 +1289,7 @@ azure-container-registry,libre-devops,13434,azurerm,https://github.com/libre-dev
 azure-controller,AviatrixSystems,11348,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-azure-controller,Terraform module for Aviatrix Controller launch on Azure
 azure-csr1000v,jye-aviatrix,14939,azure,https://github.com/jye-aviatrix/terraform-azure-azure-csr1000v,"In specified Azure region, create a Cisco CSR1000v BYOL router.  Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-datalake,datarootsio,4963,module,https://github.com/datarootsio/terraform-module-azure-datalake,Terraform module for an Azure Data Lake
-azure-devops-elasticpool,tonyskidmore,16169,shell,https://github.com/tonyskidmore/terraform-shell-azure-devops-elasticpool,
+azure-devops-elasticpool,tonyskidmore,16176,shell,https://github.com/tonyskidmore/terraform-shell-azure-devops-elasticpool,Terraform Azure DevOps Scale Set Agent module
 azure-filestorage,ravensorb,13897,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filestorage,Terraform module for setting up Azure File Storage and Shares
 azure-filesync,ravensorb,13549,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filesync,Terraform module for creating and setting up Azure FileSync
 azure-function-powershell,JustinGrote,2518,azurerm,https://github.com/JustinGrote/terraform-azurerm-azure-function-powershell,Deploys a Azure Functions Powershell Worker along with Application Insights and a Key Vault
@@ -1740,6 +1743,7 @@ cf2_cluster,pawelc92,11219,openstack,https://github.com/pawelc92/terraform-opens
 cf2_instance_with_volume,pawelc92,10238,openstack,https://github.com/pawelc92/terraform-openstack-cf2_instance_with_volume,Create an instance with bootable volume. Easily associate a floating IP address automatically selected from the external pool attached to your router.
 cf2_vnet,pawelc92,11109,openstack,https://github.com/pawelc92/terraform-openstack-cf2_vnet,This Terraform module deploys a network with a subnet or a set of subnets passed in as input parameters.
 cfsw,rafaelmarques7,1705,aws,https://github.com/rafaelmarques7/terraform-aws-cfsw,
+cfw-ip-source-group-nia,zscaler,16202,zia,https://github.com/zscaler/terraform-zia-cfw-ip-source-group-nia,Zscaler Internet Access Consul-Terraform-Sync module that will dynamically create and update IP Source Groups in the ZIA Cloud Firewall
 chainguard-account-association,chainguard-dev,14453,aws,https://github.com/chainguard-dev/terraform-aws-chainguard-account-association,Terraform module to connect Chainguard Enforce to your AWS Account
 chainguard-account-association,chainguard-dev,14458,google,https://github.com/chainguard-dev/terraform-google-chainguard-account-association,Terraform module to connect Chainguard Enforce to your Google Cloud project
 chainlink-ea,ChainOrion,14469,aws,https://github.com/ChainOrion/terraform-aws-chainlink-ea,Terraform module to create AWS infra for Chainlink External Adapters
@@ -4149,6 +4153,7 @@ ethereum-node,cardstack,1438,aws,https://github.com/cardstack/terraform-aws-ethe
 ethereum-parity,4ops,3083,digitalocean,https://github.com/4ops/terraform-digitalocean-ethereum-parity,Creates ethereum node with parity.
 etl-workflow,QuiNovas,6224,aws,https://github.com/QuiNovas/terraform-aws-etl-workflow,Simple Glue ETL workflow with User supplied ETL script or default compaction ETL script
 etleap-vpc,etleap,9651,aws,https://github.com/etleap/terraform-aws-etleap-vpc,
+euclid,idatalytics,16197,azurerm,https://github.com/idatalytics/terraform-azurerm-euclid,This is the Repo for Terraform
 eve-gcp-image,bayupw,15796,google,https://github.com/bayupw/terraform-google-eve-gcp-image,"Terraform module to generate an EVE-OS image, upload it to a GCP storage bucket and store it as a GCP VM image."
 eve-vm,bayupw,15797,google,https://github.com/bayupw/terraform-google-eve-vm,Terraform module to create EVE-OS VM on GCP VM with nested virtualization enabled
 event-cloud-function,aidenabled,11476,google,https://github.com/aidenabled/terraform-google-event-cloud-function,
@@ -4228,6 +4233,7 @@ ezvpc,olindata,764,aws,https://github.com/olindata/terraform-aws-ezvpc,Creating 
 f5-bigip,memes,6621,google,https://github.com/memes/terraform-google-f5-bigip,Terraform modules for deploying F5 BIG-IP on Google Cloud Platform. Community supported.
 f5-bigip-cfe-role,memes,15338,google,https://github.com/memes/terraform-google-f5-bigip-cfe-role,Terraform role to create a custom IAM role for F5 BIG-IP CFE use.
 f5-distributed-cloud-role,memes,15687,google,https://github.com/memes/terraform-google-f5-distributed-cloud-role,
+fabric,terraform-cisco-modules,16180,aci,https://github.com/terraform-cisco-modules/terraform-aci-fabric,Terraform - ACI > Fabric Module
 fabric-connection,equinix-labs,12728,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection,Terraform module to create an ECX Fabric L2 Connection
 fabric-connection-alibaba,equinix-labs,13202,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-alibaba,Terraform module to create an ECX Fabric L2 Connection to Alibaba Express Connect
 fabric-connection-aws,equinix-labs,12729,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-aws,Terraform module to create an ECX Fabric L2 Connection to AWS Direct Connect
@@ -6079,6 +6085,8 @@ linux-web-app,libre-devops,13452,azurerm,https://github.com/libre-devops/terrafo
 linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-linuxkit-setup,Terraform module to setup the basic infrastructure for linuxkit to push AMIs to AWS.
 linuxscaleset,JamesWoolfenden,5582,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-linuxscaleset,Basic linuxscaleset module
 linuxvm,andrewCluey,6483,azurerm,https://github.com/andrewCluey/terraform-azurerm-linuxvm,Deploy a Linux VM with Password auth disabled.
+linuxvm,popravak,16199,azurerm,https://github.com/popravak/terraform-azurerm-linuxvm,Azure linux virtual machine
+linuxvm-webserver,popravak,16200,azurerm,https://github.com/popravak/terraform-azurerm-linuxvm-webserver,Ubuntu w/ Apache and PHP
 linuxvmpool,ryzhom,14536,azurerm,https://github.com/ryzhom/terraform-azurerm-linuxvmpool,Terraform module for Azure VM. Deploy VMs and attached managed disks based on json config file
 linuxwebapp,daraymonsta,16104,azurerm,https://github.com/daraymonsta/terraform-azurerm-linuxwebapp,"Terraform module for provision of Azure service plan (Linux, free tier), Application Insights and an App service"
 liquidmetal,weaveworks-liquidmetal,15746,equinix,https://github.com/weaveworks-liquidmetal/terraform-equinix-liquidmetal,Terraform modules for creating a Liquid Metal Platform in Equinix
@@ -8040,7 +8048,7 @@ rg,krisyar,13548,azurerm,https://github.com/krisyar/terraform-azurerm-rg,
 rg,libre-devops,13047,azurerm,https://github.com/libre-devops/terraform-azurerm-rg,A module used to create a resource group with a management lock in Azure :closed_lock_with_key:
 rg,monbostest,15186,azurerm,https://github.com/monbostest/terraform-azurerm-rg,This repo will be used for module purpose
 rg,namanbajaj08,6009,azure,https://github.com/namanbajaj08/terraform-azure-rg,
-rg,popravak,16073,azurerm,https://github.com/popravak/terraform-azurerm-rg,
+rg,popravak,16173,azurerm,https://github.com/popravak/terraform-azurerm-rg,Azure resource group creation with Terraform
 rg,shiboyan,11497,az,https://github.com/shiboyan/terraform-az-rg,az rg
 rg,spy86,13114,azure,https://github.com/spy86/terraform-azure-rg,Terraform Module for Azure Resource Group
 rg-public,manan-manik,14777,azure,https://github.com/manan-manik/terraform-azure-rg-public,
@@ -9357,6 +9365,7 @@ sso,cloud-security-labs,7443,aws,https://github.com/cloud-security-labs/terrafor
 sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
 sso,rhythmictech,3139,okta,https://github.com/rhythmictech/terraform-okta-sso,
 sso-account-assignment,fivexl,15979,aws,https://github.com/fivexl/terraform-aws-sso-account-assignment,Module for create Account assignments in SSO
+sso-application,terraform-pingidentity-modules,16184,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-sso-application,Ping Identity PingOne module to manage applications
 sso-arns,npalladium,15396,aws,https://github.com/npalladium/terraform-aws-sso-arns,Terraform module to get Role ARNs given SSO Permission Set names.
 sso-assignment,speee,9812,aws,https://github.com/speee/terraform-aws-sso-assignment,Terraform module which creates AWS SSO assignments on AWS.
 sso-connector,symopsio,14390,sym,https://github.com/symopsio/terraform-sym-sso-connector,DEPRECATED: Use https://github.com/symopsio/terraform-aws-sso-connector
@@ -9684,6 +9693,7 @@ swarm,syntaqx,2951,digitalocean,https://github.com/syntaqx/terraform-digitalocea
 swarm-aws,trajano,1781,docker,https://github.com/trajano/terraform-docker-swarm-aws,Terraform script to set up a Docker Swarm on AWS
 swayam,Swayam2909,12073,azure,https://github.com/Swayam2909/terraform-azure-swayam,
 swift-digital-connectivity,aws-ia,14980,aws,https://github.com/aws-ia/terraform-aws-swift-digital-connectivity,This is the Terraform version of the Swift digital connectivity Quick Start
+switch,terraform-cisco-modules,16181,aci,https://github.com/terraform-cisco-modules/terraform-aci-switch,Terraform - ACI > Switch Configuration Module
 synapse,crayon,15747,azurerm,https://github.com/crayon/terraform-azurerm-synapse,
 synapse-analytics,bootlabstech,15507,azurerm,https://github.com/bootlabstech/terraform-azurerm-synapse-analytics,
 sync,L2Solutions,8824,flux,https://github.com/L2Solutions/terraform-flux-sync,
@@ -9694,6 +9704,7 @@ sysdig-addon,sysdiglabs,15857,eksblueprints,https://github.com/sysdiglabs/terraf
 syslog-policy,netascode,10511,aci,https://github.com/netascode/terraform-aci-syslog-policy,Terraform Cisco ACI Syslog Policy Module
 system,kabisa,11763,datadog,https://github.com/kabisa/terraform-datadog-system,
 system-global-gipo,netascode,10326,aci,https://github.com/netascode/terraform-aci-system-global-gipo,Terraform Cisco ACI System Global GIPO Module
+system-settings,terraform-cisco-modules,16182,aci,https://github.com/terraform-cisco-modules/terraform-aci-system-settings,Terraform - ACI > System Settings Module
 systemd-unit,4ops,7280,null,https://github.com/4ops/terraform-null-systemd-unit,Terraform module
 systemd-wireguard,OJFord,13499,mullvad,https://github.com/OJFord/terraform-mullvad-systemd-wireguard,Terraform configuration for a Mullvad WireGuard VPN client in systemd
 systemd-wireguard,OJFord,6211,wireguard,https://github.com/OJFord/terraform-wireguard-systemd-wireguard,Configure a full-mesh WireGuard network (server provider-agnostic) with optional 'spoke' endpoints.
@@ -9807,6 +9818,7 @@ tenant,netascode,9555,aci,https://github.com/netascode/terraform-aci-tenant,Terr
 tenant,qzx,9441,aci,https://github.com/qzx/terraform-aci-tenant,"A terraform module to set up a simple ACI tenant with VRFs, Bridge Domains, Application Profiles, EPGs and VMM domain mapping"
 tenant-components,qzx,11211,aci,https://github.com/qzx/terraform-aci-tenant-components,Add components to an ACI tenant
 tenant-management,getindata,15397,azurerm,https://github.com/getindata/terraform-azurerm-tenant-management,"Terraform module for configuring Azure Tenant: Management Groups, Azure Policy, Subscription. "
+tenants,terraform-cisco-modules,16183,aci,https://github.com/terraform-cisco-modules/terraform-aci-tenants,Terraform - ACI > Tenant Module
 tencentcloud-ssl,StarUbiquitous,13326,module,https://github.com/StarUbiquitous/terraform-module-tencentcloud-ssl,Terraform module which creates tencentcloud ssl bucket for each domain in the list
 tensorflow,terraform-alicloud-modules,4205,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-tensorflow,Terraform Module for deploying Tensorflow on Alibaba Cloud.
 terra3,it-objects,15991,aws,https://github.com/it-objects/terraform-aws-terra3,Terra3 (beta) - An opinionated Terraform module for quickly ramping-up 3-tier-architectures in AWS
@@ -10220,6 +10232,7 @@ vm,bootlabstech,15500,azurerm,https://github.com/bootlabstech/terraform-azurerm-
 vm,cloud-native-toolkit,16043,azure,https://github.com/cloud-native-toolkit/terraform-azure-vm,Module to provision vm on azure
 vm,cloudgear-io,5541,google,https://github.com/cloudgear-io/terraform-google-vm,This is a collection of opinionated submodules that can be used to provision VMs in GCP.
 vm,crayon,15831,azurerm,https://github.com/crayon/terraform-azurerm-vm,"This module creates both Windows and Linux VM, deals with data disks and networking, enabling backup and much more."
+vm,divlv,16175,divlv,https://github.com/divlv/terraform-divlv-vm,Terraform module for Azure Virtula machine
 vm,gnodivad,11209,cloud,https://github.com/gnodivad/terraform-cloud-vm,
 vm,hicdss,2725,azure,https://github.com/hicdss/terraform-azure-vm,Terraform module for Azure vm
 vm,mikesmake,10921,azurerm,https://github.com/mikesmake/terraform-azurerm-vm,
@@ -10301,7 +10314,7 @@ vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Te
 vnet,manan-manik,14778,azure,https://github.com/manan-manik/terraform-azure-vnet,
 vnet,nlarzon,2794,azure,https://github.com/nlarzon/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,nuraaly,6979,azure,https://github.com/nuraaly/terraform-azure-vnet,
-vnet,popravak,16075,azurerm,https://github.com/popravak/terraform-azurerm-vnet,
+vnet,popravak,16174,azurerm,https://github.com/popravak/terraform-azurerm-vnet,Basic Azure virtual network w/o NSGs
 vnet,rhythmictech,3262,azure,https://github.com/rhythmictech/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,shamal112mn,6982,azure,https://github.com/shamal112mn/terraform-azure-vnet,
 vnet,srb3,4096,azurerm,https://github.com/srb3/terraform-azurerm-vnet,
