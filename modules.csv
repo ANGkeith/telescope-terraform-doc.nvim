@@ -675,7 +675,6 @@ applevnet,applesoftsol,13059,azurerm,https://github.com/applesoftsol/terraform-a
 appliance-paloalto,r-teller,10196,google,https://github.com/r-teller/terraform-google-appliance-paloalto,
 appliance-sftp,r-teller,11271,google,https://github.com/r-teller/terraform-google-appliance-sftp,
 application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-application,Terraform module to create an application in Azure AD.
-application,cktf,14465,gitlab,https://github.com/cktf/terraform-gitlab-application,Terraform Gitlab Application Module
 application,cloudcommons,3857,kubernetes,https://github.com/cloudcommons/terraform-kubernetes-application,"Terraform module to deploy an application in Kubernetes. Equivalent to a Helm chart, but relaying purely on Terraform."
 application,innovationnorway,2786,azuread,https://github.com/innovationnorway/terraform-azuread-application,Create Azure AD Application.
 application-gateway,OT-terraform-azure-modules,11635,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-application-gateway,
@@ -1443,6 +1442,7 @@ bastion,philips-software,1209,aws,https://github.com/philips-software/terraform-
 bastion,selfscrum,14850,opentelekomcloud,https://github.com/selfscrum/terraform-opentelekomcloud-bastion,Bastion Host for an OTC VPC
 bastion,syntaqx,2411,digitalocean,https://github.com/syntaqx/terraform-digitalocean-bastion,Terraform module for provisioning a Bastion Host on DigitalOcean
 bastion,terra4aws64,12142,aws,https://github.com/terra4aws64/terraform-aws-bastion,Terraform module for creating a dedicated Bastion host for managing private hosts in the target AWS VPC.
+bastion,truemark,16208,aws,https://github.com/truemark/terraform-aws-bastion,Stands up a basic bastion EC2 instance
 bastion,umotif-public,3780,aws,https://github.com/umotif-public/terraform-aws-bastion,Terraform module to create Bastion Host in AWS VPC.
 bastion-asg,anub1s187,3469,aws,https://github.com/anub1s187/terraform-aws-bastion-asg,terraform module for building a bastion host autoscale group which uses s3 bucket for managing ssh keys based on ubuntu
 bastion-asg,kryptondefencesolutions,4165,aws,https://github.com/kryptondefencesolutions/terraform-aws-bastion-asg,
@@ -3509,6 +3509,7 @@ ecs-container-definition,Puneeth-n,10103,aws,https://github.com/Puneeth-n/terraf
 ecs-container-definition,bryan-rhm,12057,aws,https://github.com/bryan-rhm/terraform-aws-ecs-container-definition,Terraform module for ECS container definitions
 ecs-container-definition,cloudposse,1139,aws,https://github.com/cloudposse/terraform-aws-ecs-container-definition,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the  aws_ecs_task_definition Terraform resource
 ecs-container-definition,mergermarket,3694,acuris,https://github.com/mergermarket/terraform-acuris-ecs-container-definition,
+ecs-container-definition,so1omon563,16207,aws,https://github.com/so1omon563/terraform-aws-ecs-container-definition,Module to create a container definition for ECS.
 ecs-container-definition-no-secrets,mergermarket,3695,acuris,https://github.com/mergermarket/terraform-acuris-ecs-container-definition-no-secrets,
 ecs-datadog-agent,hazelops,4847,aws,https://github.com/hazelops/terraform-aws-ecs-datadog-agent,ECS Datadog Agent
 ecs-db-migration,lmagalhaes,10902,aws,https://github.com/lmagalhaes/terraform-aws-ecs-db-migration,
@@ -4117,8 +4118,6 @@ enrich-kinesis-ec2,snowplow-devops,9314,aws,https://github.com/snowplow-devops/t
 enrich-pubsub-ce,snowplow-devops,10068,google,https://github.com/snowplow-devops/terraform-google-enrich-pubsub-ce,
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
-environment,cktf,14466,gitlab,https://github.com/cktf/terraform-gitlab-environment,Terraform Gitlab Environment Module
-environment,cktf,14480,kubernetes,https://github.com/cktf/terraform-kubernetes-environment,Terraform Kubernetes Environment Module
 environment,terraform-pingidentity-modules,15902,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-environment,Ping Identity PingOne modules to manage environments
 environment,timarenz,10544,aws,https://github.com/timarenz/terraform-aws-environment,
 environment-setup,karan6190,4684,gcp,https://github.com/karan6190/terraform-gcp-environment-setup,"IAC for provisioning Infrastructure component like network, subnetworks, route "
@@ -6028,6 +6027,7 @@ lb-dcos,dcos-terraform,1655,azurerm,https://github.com/dcos-terraform/terraform-
 lb-dcos,dcos-terraform,1841,aws,https://github.com/dcos-terraform/terraform-aws-lb-dcos,AWS LB DC/OS
 lb-http,GoogleCloudPlatform,18,google,https://github.com/GoogleCloudPlatform/terraform-google-lb-http,Modular Global HTTP Load Balancer for GCE using forwarding rules.
 lb-http,rocketlawyer,5623,google,https://github.com/rocketlawyer/terraform-google-lb-http,Modular Global HTTP Load Balancer for GCE using forwarding rules.
+lb-http-tutorial,atcomputing,16204,azurerm,https://github.com/atcomputing/terraform-azurerm-lb-http-tutorial,A module to create a http load balancer in azure for the terraform training 
 lb-internal,GoogleCloudPlatform,28,google,https://github.com/GoogleCloudPlatform/terraform-google-lb-internal,Modular Internal Load Balancer for GCE using forwarding rules.
 lb-internal,pouya-racker,1411,pouya,https://github.com/pouya-racker/terraform-pouya-lb-internal,Modular Internal Load Balancer for GCE using forwarding rules.
 lb-linker,pbar1,1796,aws,https://github.com/pbar1/terraform-aws-lb-linker,Terraform module which assigns static IP addresses to an ALB
@@ -6049,6 +6049,7 @@ learninglab,remche,8805,openstack,https://github.com/remche/terraform-openstack-
 lernmaas,mc-b,13104,lerncloud,https://github.com/mc-b/terraform-lerncloud-lernmaas,Terraform Modul lernMAAS. Legt VMs fuer ganze Klassen auf MAAS.io an.
 less,terraless,2337,aws,https://github.com/terraless/terraform-aws-less,
 letsencrypt,USSBA,5514,aws,https://github.com/USSBA/terraform-aws-letsencrypt,Terraform module to provision Let's Encrypt certificates
+levant,IamTheFij,16209,nomad,https://github.com/IamTheFij/terraform-nomad-levant,A Levant render module for Terraform 
 lex-lambda,JamesWoolfenden,2105,aws,https://github.com/JamesWoolfenden/terraform-aws-lex-lambda,"When working with lex and lambdas, we had a lot of resources associated to supporting one lambda, this just uses some sensible defaults to lighten the load."
 libvirt-cluster,mictram,13580,module,https://github.com/mictram/terraform-module-libvirt-cluster,
 libvirt-virtual-machine,eyulf,13503,module,https://github.com/eyulf/terraform-module-libvirt-virtual-machine,Terraform module for creating virtual machines using the libvirt provider.
@@ -6086,7 +6087,7 @@ linuxkit-setup,resinstack,4282,aws,https://github.com/resinstack/terraform-aws-l
 linuxscaleset,JamesWoolfenden,5582,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-linuxscaleset,Basic linuxscaleset module
 linuxvm,andrewCluey,6483,azurerm,https://github.com/andrewCluey/terraform-azurerm-linuxvm,Deploy a Linux VM with Password auth disabled.
 linuxvm,popravak,16199,azurerm,https://github.com/popravak/terraform-azurerm-linuxvm,Azure linux virtual machine
-linuxvm-webserver,popravak,16200,azurerm,https://github.com/popravak/terraform-azurerm-linuxvm-webserver,Ubuntu w/ Apache and PHP
+linuxvm-webserver,popravak,16211,azurerm,https://github.com/popravak/terraform-azurerm-linuxvm-webserver,Ubuntu w/ Apache and PHP
 linuxvmpool,ryzhom,14536,azurerm,https://github.com/ryzhom/terraform-azurerm-linuxvmpool,Terraform module for Azure VM. Deploy VMs and attached managed disks based on json config file
 linuxwebapp,daraymonsta,16104,azurerm,https://github.com/daraymonsta/terraform-azurerm-linuxwebapp,"Terraform module for provision of Azure service plan (Linux, free tier), Application Insights and an App service"
 liquidmetal,weaveworks-liquidmetal,15746,equinix,https://github.com/weaveworks-liquidmetal/terraform-equinix-liquidmetal,Terraform modules for creating a Liquid Metal Platform in Equinix
@@ -7100,6 +7101,7 @@ organization,DNXLabs,5745,aws,https://github.com/DNXLabs/terraform-aws-organizat
 organization,Flaconi,11989,github,https://github.com/Flaconi/terraform-github-organization,Terraform module to manage GitHub organization settings
 organization,HappyPathway,1558,tfe,https://github.com/HappyPathway/terraform-tfe-organization,
 organization,SunDevs,8207,grafana,https://github.com/SunDevs/terraform-grafana-organization,
+organization,cktf,16203,gitlab,https://github.com/cktf/terraform-gitlab-organization,Terraform Gitlab Organization Module
 organization,dhoppeIT,11096,tfe,https://github.com/dhoppeIT/terraform-tfe-organization,"Terraform module to manage the Terraform Cloud/Enterprise organization resources (tfe_organization, tfe_organization_membership, tfe_organization_token)"
 organization,figurate,5631,tfe,https://github.com/figurate/terraform-tfe-organization,Manage organizations in Terraform Cloud/Enterprise
 organization,garethsaxby,5536,tfe,https://github.com/garethsaxby/terraform-tfe-organization,HashiCorp Terraform Module for creating Terraform Cloud/Enterprise Organizations
@@ -7599,6 +7601,7 @@ rds,boldlink,14378,aws,https://github.com/boldlink/terraform-aws-rds,Terraform r
 rds,ceagone,5887,aws,https://github.com/ceagone/terraform-aws-rds,
 rds,cloudposse,228,aws,https://github.com/cloudposse/terraform-aws-rds," Terraform module to provision AWS RDS instances"
 rds,cytopia,2534,aws,https://github.com/cytopia/terraform-aws-rds,Remake of terraform-aws-modules/terraform-aws-rds without sub-modules
+rds,dasmeta,16205,aws,https://github.com/dasmeta/terraform-aws-rds,Terraform Aws RDS module
 rds,eduzuchetti,14045,aws,https://github.com/eduzuchetti/terraform-aws-rds,Module to create RDS Instances and Clusters on AWS
 rds,erkinsinc,5860,aws,https://github.com/erkinsinc/terraform-aws-rds,this module creates RDS through terraform
 rds,gitrahimi,5886,aws,https://github.com/gitrahimi/terraform-aws-rds,
@@ -7638,6 +7641,7 @@ rds-aurora-cluster,yurymkomarov,4798,aws,https://github.com/yurymkomarov/terrafo
 rds-aurora-mysql,truemark,11643,aws,https://github.com/truemark/terraform-aws-rds-aurora-mysql,
 rds-aurora-postgres,truemark,8265,aws,https://github.com/truemark/terraform-aws-rds-aurora-postgres,
 rds-aurora-postgres-serverless,truemark,11231,aws,https://github.com/truemark/terraform-aws-rds-aurora-postgres-serverless,
+rds-aurora-postgres-serverless-v2,truemark,16212,aws,https://github.com/truemark/terraform-aws-rds-aurora-postgres-serverless-v2,Terraform module used to standup AWS Aurora Serverless V2 PostgreSQL instances
 rds-backup,ispec-inc,4139,aws,https://github.com/ispec-inc/terraform-aws-rds-backup,Simple AWS Backup for RDS
 rds-cloudwatch-logs,trussworks,3355,aws,https://github.com/trussworks/terraform-aws-rds-cloudwatch-logs,RDS Cloudwatch Logs
 rds-cloudwatch-sns-alarms,brunordias,8316,aws,https://github.com/brunordias/terraform-aws-rds-cloudwatch-sns-alarms,Terraform module that configures important RDS alerts using CloudWatch and sends them to an SNS topic
@@ -7743,6 +7747,7 @@ rds-postgres,infrablocks,655,aws,https://github.com/infrablocks/terraform-aws-rd
 rds-postgres,rhythmictech,5007,aws,https://github.com/rhythmictech/terraform-aws-rds-postgres,Create a postgres RDS instance in AWS
 rds-postgres,terraform-alicloud-modules,4175,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-rds-postgres,Terraform module which create a PostgreSQL database based on Alibaba Cloud RDS Service.
 rds-postgres,traveloka,2461,aws,https://github.com/traveloka/terraform-aws-rds-postgres,Terraform module which creates an AWS RDS with Postgres engine
+rds-postgres,truemark,16206,aws,https://github.com/truemark/terraform-aws-rds-postgres,
 rds-postgres-alarms,truemark,15834,aws,https://github.com/truemark/terraform-aws-rds-postgres-alarms,AWS RDS postgres specific alarm definitions (not Aurora)
 rds-postgresql,kmayer10,13517,aws,https://github.com/kmayer10/terraform-aws-rds-postgresql,
 rds-project,omiradil,8885,aws,https://github.com/omiradil/terraform-aws-rds-project,
@@ -7753,6 +7758,7 @@ rds-replica,cloudposse,1961,aws,https://github.com/cloudposse/terraform-aws-rds-
 rds-scheduler,DNXLabs,5747,aws,https://github.com/DNXLabs/terraform-aws-rds-scheduler,This is a module to create a schedule to shut down or start a Relational database service(RDS).
 rds-scheduler,barryw,2502,aws,https://github.com/barryw/terraform-aws-rds-scheduler,Terraform module for starting and stopping an RDS instance/cluster on a schedule
 rds-schema-and-user,Lupus-Metallum,8436,aws,https://github.com/Lupus-Metallum/terraform-aws-rds-schema-and-user,TF module to create a Schema on RDS Aurora and generate random username and password and write to a secret.
+rds-secret,truemark,16210,aws,https://github.com/truemark/terraform-aws-rds-secret,Creates AWS secrets for AWS RDS instances and clusters
 rds-secret-rotation,JCapriotti,10444,aws,https://github.com/JCapriotti/terraform-aws-rds-secret-rotation,
 rds-snapshot-cleaner,trussworks,3353,aws,https://github.com/trussworks/terraform-aws-rds-snapshot-cleaner,RDS Snapshot Cleaner
 rds-snapshot-publicly-exposed,offensive-terraform,6144,aws,https://github.com/offensive-terraform/terraform-aws-rds-snapshot-publicly-exposed,"Offensive Terraform module which creates RDS database from a publicly exposed RDS snapshot in attacker's AWS account. After that, attacker can connect to RDS database and inspect it."
