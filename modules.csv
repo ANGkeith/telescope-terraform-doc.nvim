@@ -306,7 +306,6 @@ aks,bootlabstech,16100,azurerm,https://github.com/bootlabstech/terraform-azurerm
 aks,castai,13599,castai,https://github.com/castai/terraform-castai-aks,
 aks,claranet,5409,azurerm,https://github.com/claranet/terraform-azurerm-aks,Terraform module composition (feature) for Azure Kubernetes Service
 aks,crayon,15830,azurerm,https://github.com/crayon/terraform-azurerm-aks,Module to help set up an Azure Kubernetes Service cluster.
-aks,dasmeta,15170,azure,https://github.com/dasmeta/terraform-azure-aks,
 aks,edalferes,4726,azure,https://github.com/edalferes/terraform-azure-aks,Terraform module to deploy an aks cluster at azure
 aks,farrukh90,5997,azure,https://github.com/farrukh90/terraform-azure-aks,
 aks,geekbass,5907,azurerm,https://github.com/geekbass/terraform-azurerm-aks,Azure AKS Terraform Module (Kubing-the-Netes) 
@@ -514,6 +513,7 @@ apache-example,RAD531,16018,aws,https://github.com/RAD531/terraform-aws-apache-e
 apache-example,Rahulsingh190792,10890,aws,https://github.com/Rahulsingh190792/terraform-aws-apache-example,
 apache-example,SuhelMalik,14074,aws,https://github.com/SuhelMalik/terraform-aws-apache-example,
 apache-example,alrho007,14988,aws,https://github.com/alrho007/terraform-aws-apache-example,
+apache-example,bloodyrw,16222,aws,https://github.com/bloodyrw/terraform-aws-apache-example,
 apache-example,ivanjramos,12227,aws,https://github.com/ivanjramos/terraform-aws-apache-example,Terraform modules to provision an EC2 instance that is running Apache.
 apache-example,jlavizzo,11496,aws,https://github.com/jlavizzo/terraform-aws-apache-example,
 apache-example,jonasv05,12862,aws,https://github.com/jonasv05/terraform-aws-apache-example,
@@ -752,7 +752,6 @@ arch-policies,oracle-devrel,14346,oci,https://github.com/oracle-devrel/terraform
 arch-postgresql,oracle-devrel,10864,oci,https://github.com/oracle-devrel/terraform-oci-arch-postgresql,Terraform module to deploy PostgreSQL on Oracle Cloud Infrastructure (OCI).
 arch-redis,oracle-devrel,11113,oci,https://github.com/oracle-devrel/terraform-oci-arch-redis,terraform-oci-arch-redis
 arch-spring-boot,oracle-devrel,11207,oci,https://github.com/oracle-devrel/terraform-oci-arch-spring-boot,terraform-oci-arch-spring-boot
-arch-tomcat,MervHashiCorp,16177,oci,https://github.com/MervHashiCorp/terraform-oci-arch-tomcat,terraform-oci-arch-tomcat
 arch-tomcat,oracle-devrel,13940,oci,https://github.com/oracle-devrel/terraform-oci-arch-tomcat,terraform-oci-arch-tomcat
 arch-tomcat-mds,oracle-devrel,11047,oci,https://github.com/oracle-devrel/terraform-oci-arch-tomcat-mds,Terraform to deploy Apache Tomcat on OCI
 arch-web-ha,oracle-devrel,10892,oci,https://github.com/oracle-devrel/terraform-oci-arch-web-ha,A deployable solution for web application on highly available infrastructure in Oracle Cloud Infrastructure
@@ -1405,7 +1404,7 @@ base-module,AntonAleksandrov13,11324,aws,https://github.com/AntonAleksandrov13/t
 base-network,jakoberpf,12349,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-network,
 base-networking,7clouds-terraform-modules,15906,aws,https://github.com/7clouds-terraform-modules/terraform-aws-base-networking,Base Networking Resources
 base-networking,infrablocks,644,aws,https://github.com/infrablocks/terraform-aws-base-networking,Terraform module for building base networking in AWS
-base-vpc,jakoberpf,12254,oracle,https://github.com/jakoberpf/terraform-oracle-base-vpc,
+base-vpc,jakoberpf,12254,oracle,https://github.com/jakoberpf/terraform-oracle-base-vpc,Terreform module for integrated service deployment
 base-vpc-network,MagusDevOps,8254,aws,https://github.com/MagusDevOps/terraform-aws-base-vpc-network,
 baseline,alkiranet,15450,alkira,https://github.com/alkiranet/terraform-alkira-baseline,This module creates various resources in Alkira from .yml files
 basic-auth,chainflip-io,11736,kubernetes,https://github.com/chainflip-io/terraform-kubernetes-basic-auth,Generate a randomized htpasswd secret for use with HTTP basic auth
@@ -2307,7 +2306,7 @@ common-iam-policies,traveloka,3096,aws,https://github.com/traveloka/terraform-aw
 common-iam-roles,traveloka,2458,aws,https://github.com/traveloka/terraform-aws-common-iam-roles,Terraform module which supports the creation of common IAM Roles
 common-variables,container-labs,6874,tfe,https://github.com/container-labs/terraform-tfe-common-variables,
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
-complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,
+complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,Terraform modules from DasMeta to manage Azure AKS cluster
 complete-eks-cluster,dasmeta,14609,aws,https://github.com/dasmeta/terraform-aws-complete-eks-cluster,All terraform modules that are related or supporting EKS setup
 compliant-s3-bucket,andyscott1547,16087,aws,https://github.com/andyscott1547/terraform-aws-compliant-s3-bucket,Terraform module to create a S3 bucket on AWS with settings inline with secure benchmark.
 components,cloudposse,6626,aws,https://github.com/cloudposse/terraform-aws-components,"Opinionated, self-contained Terraform root modules that each solve one, specific problem"
@@ -3509,7 +3508,7 @@ ecs-container-definition,Puneeth-n,10103,aws,https://github.com/Puneeth-n/terraf
 ecs-container-definition,bryan-rhm,12057,aws,https://github.com/bryan-rhm/terraform-aws-ecs-container-definition,Terraform module for ECS container definitions
 ecs-container-definition,cloudposse,1139,aws,https://github.com/cloudposse/terraform-aws-ecs-container-definition,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the  aws_ecs_task_definition Terraform resource
 ecs-container-definition,mergermarket,3694,acuris,https://github.com/mergermarket/terraform-acuris-ecs-container-definition,
-ecs-container-definition,so1omon563,16207,aws,https://github.com/so1omon563/terraform-aws-ecs-container-definition,Module to create a container definition for ECS.
+ecs-container-definition,so1omon563,16207,aws,https://github.com/so1omon563/terraform-aws-ecs-container-definition,Module to create a container definition for ECS in a Terraform friendly way.
 ecs-container-definition-no-secrets,mergermarket,3695,acuris,https://github.com/mergermarket/terraform-acuris-ecs-container-definition-no-secrets,
 ecs-datadog-agent,hazelops,4847,aws,https://github.com/hazelops/terraform-aws-ecs-datadog-agent,ECS Datadog Agent
 ecs-db-migration,lmagalhaes,10902,aws,https://github.com/lmagalhaes/terraform-aws-ecs-db-migration,
@@ -3536,6 +3535,7 @@ ecs-fargate,tmknom,1887,aws,https://github.com/tmknom/terraform-aws-ecs-fargate,
 ecs-fargate,umotif-public,3773,aws,https://github.com/umotif-public/terraform-aws-ecs-fargate,Terraform module to create AWS ECS FARGATE services
 ecs-fargate,youyo,4415,aws,https://github.com/youyo/terraform-aws-ecs-fargate,Terraform module which creates ECS resources on AWS.
 ecs-fargate-cluster,oozou,15121,aws,https://github.com/oozou/terraform-aws-ecs-fargate-cluster,
+ecs-fargate-cluster,so1omon563,16218,aws,https://github.com/so1omon563/terraform-aws-ecs-fargate-cluster,Module to create and manage a FARGATE ECS cluster.
 ecs-fargate-codepipeline,StratusGrid,6222,aws,https://github.com/StratusGrid/terraform-aws-ecs-fargate-codepipeline,"ecs-fargate-codepipeline creates an end to end fargate cluster with a single task (but can be multiple containers in the task), a CodeDeploy application deployment configuration, a CodePipeline to wrap around it, and all relevant iam roles etc."
 ecs-fargate-poc,giuseppeborgese,7501,aws,https://github.com/giuseppeborgese/terraform-aws-ecs-fargate-poc,this is a POC for the ECS Fargate
 ecs-fargate-scheduled-task,babbel,10349,aws,https://github.com/babbel/terraform-aws-ecs-fargate-scheduled-task,Terraform module for deploying scheduled task to AWS ECS using AWS Fargate
@@ -3646,6 +3646,7 @@ ecs-task-definition,kvcpr,12181,aws,https://github.com/kvcpr/terraform-aws-ecs-t
 ecs-task-definition,mergermarket,3684,acuris,https://github.com/mergermarket/terraform-acuris-ecs-task-definition,
 ecs-task-definition,micronode,4945,aws,https://github.com/micronode/terraform-aws-ecs-task-definition,Provide templates for ECS Task Definitions
 ecs-task-definition,mongodb,2354,aws,https://github.com/mongodb/terraform-aws-ecs-task-definition,A Terraform module for creating Amazon ECS Task Definitions
+ecs-task-definition,so1omon563,16220,aws,https://github.com/so1omon563/terraform-aws-ecs-task-definition,Module to create a task definition for use in an ECS service.
 ecs-task-definition-with-task-role,mergermarket,9624,acuris,https://github.com/mergermarket/terraform-acuris-ecs-task-definition-with-task-role,
 ecs-task-execution-role,dod-iac,9331,aws,https://github.com/dod-iac/terraform-aws-ecs-task-execution-role,An IAM role for use as a ECS task execution role
 ecs-task-provisioning,hendrixroa,6542,aws,https://github.com/hendrixroa/terraform-aws-ecs-task-provisioning,AWS Lambda that process events from ECS if a task or container is provisioning.
@@ -5053,6 +5054,7 @@ image-builder,shadbury,14942,aws,https://github.com/shadbury/terraform-aws-image
 image-builder-component,dod-iac,13947,aws,https://github.com/dod-iac/terraform-aws-image-builder-component,Creates a component for EC2 Image Builder.
 image-builder-infrastructure-configuration,dod-iac,13946,aws,https://github.com/dod-iac/terraform-aws-image-builder-infrastructure-configuration,Creates an infrastructure configuration for EC2 Image Builder.
 image-builder-pipeline,dod-iac,13948,aws,https://github.com/dod-iac/terraform-aws-image-builder-pipeline,Creates a pipeline for EC2 Image Builder.
+image-lambda,mergermarket,16216,acuris,https://github.com/mergermarket/terraform-acuris-image-lambda,
 image-manager,jd4883,9086,docker,https://github.com/jd4883/terraform-docker-image-manager,"A terraform module that is fed in attributes about a docker image, and spits out relevant output data. Used in conjunction with other modules to get a unique list of images"
 image-registry,cloud-native-toolkit,14564,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-image-registry,Terraform module that creates/verifies the IBM Cloud Image Registry namespace and (optionally) creates configuration in the cluster
 imagebuilder,Computer15776,13050,aws,https://github.com/Computer15776/terraform-aws-imagebuilder,Create full EC2 Image Builder flows with full flexibility
@@ -6851,6 +6853,7 @@ new-relic-lambda-layer,JCapriotti,9253,aws,https://github.com/JCapriotti/terrafo
 newgroup,andrewCluey,6540,azuread,https://github.com/andrewCluey/terraform-azuread-newgroup,Create a new Azure AD group
 newrelic,Recall-Masters,11261,aws,https://github.com/Recall-Masters/terraform-aws-newrelic,Terraform module to use newrelic python layer
 newrelic,truemark,7386,aws,https://github.com/truemark/terraform-aws-newrelic,This terraform module creates the resources required to connect NewRelic to an AWS account.
+newrelic-cloudformation,devranaydin,16217,aws,https://github.com/devranaydin/terraform-aws-newrelic-cloudformation,Newrelic Integration Aws Account
 newrelic-whitelist,captn3m0,2385,data,https://github.com/captn3m0/terraform-data-newrelic-whitelist,Terraform Module that returns the latest New Relic IP and Domains Whitelists: https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/networks
 next-js,TheCallSign,7192,aws,https://github.com/TheCallSign/terraform-aws-next-js,"Terraform module for building and publishing Next.js sites to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
 next-js,dealmore,5619,aws,https://github.com/dealmore/terraform-aws-next-js,"Terraform module for building and deploying Next.js apps to AWS. Supports SSR (Lambda), Static (S3) and API (Lambda) pages."
@@ -6983,6 +6986,7 @@ ocean-aws-k8s-lb,stevenfeltner,12919,spotinst,https://github.com/stevenfeltner/t
 ocean-aws-k8s-vng,spotinst,11389,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aws-k8s-vng,A Terraform module to create an Ocean Virtual Node Group.
 ocean-controller,spotinst,4366,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-controller,A Terraform module to install Ocean Controller.
 ocean-eks,spotinst,4406,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-eks,A Terraform module to create an Amazon Elastic Kubernetes Service (EKS) cluster with Ocean.
+ocean-eks-v2,spotinst,16214,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-eks-v2,clone from terraform-spotinst-ocean-eks
 ocean-gcp-k8s,spotinst,15783,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gcp-k8s,A Terraform module to create a Spot Ocean cluster in GCP. 
 ocean-gke,spotinst,6613,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gke,A Terraform module to create a Google Kubernetes Engine (GKE) cluster with Spot Ocean.
 ocean-gke-import,stevenfeltner,10459,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-import,Terraform module for Spotinst provider resource spotinst_ocean_gke_import
@@ -7895,6 +7899,7 @@ redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-reds
 refactor-codegen,AdrienneCohea,11302,local,https://github.com/AdrienneCohea/terraform-local-refactor-codegen,Generate Terraform code to ease more complicated refactors
 refinery-starter-pack,honeycombio,15763,honeycombio,https://github.com/honeycombio/terraform-honeycombio-refinery-starter-pack,A Terraform module that creates Honeycomb resources to help you operate your Refinery cluster
 regex-errors,cgetzen,4993,local,https://github.com/cgetzen/terraform-local-regex-errors,Terraform module that provides error checking for regular expressions.
+region,terraform-toybox,16213,aws,https://github.com/terraform-toybox/terraform-aws-region,
 region-abbreviation-mapping,PartTimeLegend,15262,azure,https://github.com/PartTimeLegend/terraform-azure-region-abbreviation-mapping,Really simple map to convert Azure regions to abbreviated names.
 regional-droplets,NicholasPCole,11565,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-regional-droplets,Terraform module for creating Droplets and DNS records in DigitalOcean regions
 regional-vpc-peering,lablabs,4850,aws,https://github.com/lablabs/terraform-aws-regional-vpc-peering,Creates a VPC peering connection between two VPC's. Can be inter-region or inter-account
@@ -8147,6 +8152,7 @@ route53-freeipa-recordset,CogDisResLab,14256,aws,https://github.com/CogDisResLab
 route53-github-verification,ksatirli,15266,aws,https://github.com/ksatirli/terraform-aws-route53-github-verification,Route 53 Records for GitHub Domain Verification
 route53-github-verification,operatehappy,4057,aws,https://github.com/operatehappy/terraform-aws-route53-github-verification,Route 53 Records for GitHub Domain Verification
 route53-gmail,truemark,6652,aws,https://github.com/truemark/terraform-aws-route53-gmail,Terraform module to setup gmail records in route53
+route53-gsuite-mx,caherrera,16223,aws,https://github.com/caherrera/terraform-aws-route53-gsuite-mx,
 route53-gsuite-records,operatehappy,4244,aws,https://github.com/operatehappy/terraform-aws-route53-gsuite-records,Route 53 Records for Google G Suite
 route53-health-check,Lupus-Metallum,8467,aws,https://github.com/Lupus-Metallum/terraform-aws-route53-health-check,This Terraform module creates a Route53 Health Check and if desired a CloudWatch alarm.
 route53-health-check,Nuagic,2501,aws,https://github.com/Nuagic/terraform-aws-route53-health-check,
@@ -8242,6 +8248,7 @@ s3,skyfjall,14126,aws,https://github.com/skyfjall/terraform-aws-s3,Create Simple
 s3,skyfjell,14229,aws,https://github.com/skyfjell/terraform-aws-s3,Create Simple and Compliant S3 Buckets
 s3,so1omon563,14825,aws,https://github.com/so1omon563/terraform-aws-s3,Module to create an S3 bucket with common options using bucket configuration resources in submodules.
 s3,tomarv2,8274,aws,https://github.com/tomarv2/terraform-aws-s3,Terraform module for AWS S3
+s3,web-virtua-aws-multi-account-modules,16221,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-s3,
 s3-301-redirect,JamesBelchamber,469,aws,https://github.com/JamesBelchamber/terraform-aws-s3-301-redirect,"Easily create a 301 redirect, with support for https and IPv6"
 s3-access,Cyber-Duck,14060,aws,https://github.com/Cyber-Duck/terraform-aws-s3-access,A Terraform module to give access to S3 for specific users. This module allows the user to create users and groups with the option of using existing. The group will have granular S3 access policy attached with the option to add additional policy(s) if required.
 s3-access-log,tmknom,1730,aws,https://github.com/tmknom/terraform-aws-s3-access-log,Terraform module which creates S3 Bucket resources for Access Log on AWS.
@@ -8669,6 +8676,7 @@ secret-scope,ingenii-solutions,8825,databricks,https://github.com/ingenii-soluti
 secret-variables-json,DualbootPartnersLLC,6745,aws,https://github.com/DualbootPartnersLLC/terraform-aws-secret-variables-json,
 secrets,DeimosCloud,8389,aws,https://github.com/DeimosCloud/terraform-aws-secrets,
 secrets,hadenlabs,8351,github,https://github.com/hadenlabs/terraform-github-secrets,Terraform github secrets
+secrets,idjemaoune,16215,aws,https://github.com/idjemaoune/terraform-aws-secrets,
 secrets,ilpozzd,13562,talos,https://github.com/ilpozzd/terraform-talos-secrets,"This module allows you to generate secret data (PKI, tokens, hashes) for the deployment of Talos Kubernetes Cluster. "
 secrets,tbobm,11191,github,https://github.com/tbobm/terraform-github-secrets,Terraform module to manage Github Repository Secrets and Github Actions Environment Secrets.
 secrets,terra-mod,4262,aws,https://github.com/terra-mod/terraform-aws-secrets,AWS SecretsManager Secrets
