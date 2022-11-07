@@ -1148,6 +1148,7 @@ autoscaling-tags,webdevwilson,350,aws,https://github.com/webdevwilson/terraform-
 autospotting,AutoSpotting,2654,aws,https://github.com/AutoSpotting/terraform-aws-autospotting,Terraform module installing AutoSpotting https://autospotting.io
 autospotting,neillturner,1096,aws,https://github.com/neillturner/terraform-aws-autospotting,Automatically convert your existing AutoScaling groups to significantly cheaper spot instances with minimal(often zero) configuration changes
 availability-set,anugnes,676,azure,https://github.com/anugnes/terraform-azure-availability-set,Azure Availability Set Module for Terraform
+availability-set-proximity-group,libre-devops,16239,azurerm,https://github.com/libre-devops/terraform-azurerm-availability-set-proximity-group,"A module to create a availability set, proximity placement group or both"
 available-ips,OLeonardoRodrigues,13590,azurerm,https://github.com/OLeonardoRodrigues/terraform-azurerm-available-ips,Module responsible for getting available IPs inside a subnet.
 avd-host-pool,libre-devops,15014,azurerm,https://github.com/libre-devops/terraform-azurerm-avd-host-pool,A module used to deploy a Azure Virtual Desktop (AVD) or Windows Virtual Desktop (WVD) in Azure
 avi-alb-deployment-aws,vmware,14489,aws,https://github.com/vmware/terraform-aws-avi-alb-deployment-aws,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on AWS. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
@@ -5601,6 +5602,7 @@ kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-
 kube-hetzner,kube-hetzner,12599,hcloud,https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner,Optimized and Maintenance-free Kubernetes on Hetzner Cloud in one command!
 kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-janitor,
 kube-lab,ccliver,14727,aws,https://github.com/ccliver/terraform-aws-kube-lab,Module to setup a Kubernetes lab on AWS
+kube-prometheus-stack,SPHTech-Platform,16235,helm,https://github.com/SPHTech-Platform/terraform-helm-kube-prometheus-stack,"Installs the kube-prometheus stack, a collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator."
 kube-prometheus-stack,gfortetsanakis,15252,helm,https://github.com/gfortetsanakis/terraform-helm-kube-prometheus-stack,
 kube-state-metrics-addon,askulkarni2,12091,eksblueprints,https://github.com/askulkarni2/terraform-eksblueprints-kube-state-metrics-addon,An implementation of the kube-state-metrics addon for the Amazon EKS Blueprints for Terraform.
 kube-system-default-cluster-admin,matti,2997,kubernetes,https://github.com/matti/terraform-kubernetes-kube-system-default-cluster-admin,
@@ -6330,6 +6332,7 @@ metric-filter-alarm,dwp,1152,aws,https://github.com/dwp/terraform-aws-metric-fil
 metrics,aptible,16096,aptible,https://github.com/aptible/terraform-aptible-metrics,Easily provision and managed all of the resources necessary to monitor your Aptible Environments. All hosted in your Aptible account!
 metrics-server,cookielab,3622,kubernetes,https://github.com/cookielab/terraform-kubernetes-metrics-server,Terraform module for deploying Metrics Server to k8s cluster
 metrics-server,iplabs,4660,kubernetes,https://github.com/iplabs/terraform-kubernetes-metrics-server,Terraform module to install the Kubernetes metrics-server
+metrics-server,mateothegreat,16236,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-metrics-server,Kubernetes metrcis-server via Terraform
 metricsserver,3191110276,8170,kubernetes,https://github.com/3191110276/terraform-kubernetes-metricsserver,
 mfa,HappyPathway,1647,aws,https://github.com/HappyPathway/terraform-aws-mfa,
 mfa,clouddrove,10980,aws,https://github.com/clouddrove/terraform-aws-mfa,A terraform module to enable MFA for AWS groups and users 
@@ -6531,7 +6534,6 @@ mta-exim.tf,mildred,5604,local,https://github.com/mildred/terraform-local-mta-ex
 mta-sts,gazoakley,5569,aws,https://github.com/gazoakley/terraform-aws-mta-sts,"MTA-STS support with Route 53, CloudFront, S3 and ACM"
 mta-sts,robo9k,7253,aws,https://github.com/robo9k/terraform-aws-mta-sts,"MTA-STS and TLS-RPT with Route 53, CloudFront, S3 and ACM"
 mta-sts,rsclarke,7571,cloudflare,https://github.com/rsclarke/terraform-cloudflare-mta-sts,MTA-STS DNS records and policy worker
-mulit_vpc_subnet,Rahulkumar0909,15308,aws,https://github.com/Rahulkumar0909/terraform-aws-mulit_vpc_subnet,
 multi,Kostavro,13908,ecr,https://github.com/Kostavro/terraform-ecr-multi,Terraform Module to manage multiple repositories on AWS ECR 
 multi,bazzuka,4876,acm,https://github.com/bazzuka/terraform-acm-multi,
 multi-account-peering,clouddrove,3661,aws,https://github.com/clouddrove/terraform-aws-multi-account-peering,Terraform module to connect two VPC’s from different AWS account.
@@ -7522,6 +7524,7 @@ publish,cybojenix,3789,testing,https://github.com/cybojenix/terraform-testing-pu
 publisher-aws,netskopeoss,13921,netskope,https://github.com/netskopeoss/terraform-netskope-publisher-aws,
 publisher-gcp,netskopeoss,15230,netskope,https://github.com/netskopeoss/terraform-netskope-publisher-gcp,Terraform Module to Deploy Private Access Publishers in GCP
 publishrepo,applesoftsol,13060,azurerm,https://github.com/applesoftsol/terraform-azurerm-publishrepo,this is for terraform publish for vnet
+pubreg,prithvirajkc,16238,azurerm,https://github.com/prithvirajkc/terraform-azurerm-pubreg,
 pubsub,AckeeCZ,10946,gcp,https://github.com/AckeeCZ/terraform-gcp-pubsub,Terraform module for GCP PubSub resources
 pubsub,aidenabled,11472,google,https://github.com/aidenabled/terraform-google-pubsub,
 pubsub,airasia,4753,google,https://github.com/airasia/terraform-google-pubsub,Terraform module for a Pub/Sub Topic (with subscribers) in GCP
@@ -7745,6 +7748,7 @@ rds-mysql,kurron,707,aws,https://github.com/kurron/terraform-aws-rds-mysql,A Ter
 rds-mysql,rhythmictech,3125,aws,https://github.com/rhythmictech/terraform-aws-rds-mysql,Create a mysql RDS instance
 rds-mysql,terraform-alicloud-modules,4075,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-rds-mysql,Terraform module which create a MySql database based on Alibaba Cloud RDS Service.
 rds-mysql,tmknom,1884,aws,https://github.com/tmknom/terraform-aws-rds-mysql,Terraform module which creates MySQL RDS resources on AWS.
+rds-mysql,truemark,16237,aws,https://github.com/truemark/terraform-aws-rds-mysql,Terraform module for standing up standard MySQL RDS instances with built-in alerts etc..
 rds-mysql-read-replica,rhythmictech,10295,aws,https://github.com/rhythmictech/terraform-aws-rds-mysql-read-replica,Create a read replica for a mysql RDS instance
 rds-nlb,camptocamp,7986,aws,https://github.com/camptocamp/terraform-aws-rds-nlb,Module to update NLB target-groups with IP addresses of RDS db instances
 rds-notifications,trussworks,3354,aws,https://github.com/trussworks/terraform-aws-rds-notifications,RDS Notifications
