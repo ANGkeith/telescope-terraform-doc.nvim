@@ -1258,7 +1258,6 @@ aws-transit-firenet,terraform-aviatrix-modules,5485,aviatrix,https://github.com/
 aws-uservpn,terraform-aviatrix-modules,5544,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-uservpn,"This module deploys a VPC, Aviatrix spoke gateways and one or more Aviatrix UserVPN gateways behind an elastic loadbalancer."
 aws-vpc,Adaptavist,5411,module,https://github.com/Adaptavist/terraform-module-aws-vpc,
 aws-vpc,Harshrai3112,8943,aws,https://github.com/Harshrai3112/terraform-aws-aws-vpc,
-aws-vpc,alkiranet,11770,alkira,https://github.com/alkiranet/terraform-alkira-aws-vpc,This module makes it easy to provision an AWS VPC and connect it through Alkira
 aws-vpc,mars,1665,heroku,https://github.com/mars/terraform-heroku-aws-vpc,AWS VPC ready for 🍐 Heroku Private Spaces
 aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
@@ -1312,7 +1311,6 @@ azure-virtual-desktop,decensas,15221,azurerm,https://github.com/decensas/terrafo
 azure-virtual-machine,ravensorb,13645,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-virtual-machine,Terraform module for creating an Azure Virtual Machine (Windows or Linux)
 azure-virtual-machine-legacy,ravensorb,13878,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-virtual-machine-legacy,Terraform module for creating an Azure Virtual Machine (Windows or Linux) using the legacy azurerm_virtual_machine resource
 azure-vm,asks1012,15305,azurerm,https://github.com/asks1012/terraform-azurerm-azure-vm,
-azure-vnet,alkiranet,11842,alkira,https://github.com/alkiranet/terraform-alkira-azure-vnet,This module makes it easy to provision an Azure VNet and connect it through Alkira
 azure-vnet,gbrembati,14578,module,https://github.com/gbrembati/terraform-module-azure-vnet,
 azure-with-azure-devops_test1,AdyathimarAkshatha,12005,on,https://github.com/AdyathimarAkshatha/terraform-on-azure-with-azure-devops_test1,Terraform on Azure with Azure IaC DevOps
 azure-workspace,HappyPathway,1758,tfe,https://github.com/HappyPathway/terraform-tfe-azure-workspace,Quickly Create Workspace in TFE for use with Microsoft Azure
@@ -2685,8 +2683,8 @@ datadog-connector,symopsio,14452,sym,https://github.com/symopsio/terraform-sym-d
 datadog-connector,symopsio,15719,aws,https://github.com/symopsio/terraform-aws-datadog-connector,The `datadog-connector` module provisions a Kinesis Firehose which is configured to pipe logs to Datadog.
 datadog-firehose,nolotz,15514,aws,https://github.com/nolotz/terraform-aws-datadog-firehose,Terraform Turn Key Firehose Delivery Stream for DataDog Solution
 datadog-firewall,Utilus,1500,aws,https://github.com/Utilus/terraform-aws-datadog-firewall,Terraform module to whitelist DataDog IPs in AWS security groups
-datadog-forwarders,clowdhaus,6384,aws,https://github.com/clowdhaus/terraform-aws-datadog-forwarders,Terraform module which creates resources  on AWS to forward logs/metrics to Datadog
-datadog-forwarders,terraform-aws-modules,13119,aws,https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders,Terraform module which creates resources  on AWS to forward logs/metrics to Datadog
+datadog-forwarders,clowdhaus,6384,aws,https://github.com/clowdhaus/terraform-aws-datadog-forwarders,Terraform module which creates resources on AWS to forward logs/metrics to Datadog 🇺🇦
+datadog-forwarders,terraform-aws-modules,13119,aws,https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders,Terraform module which creates resources on AWS to forward logs/metrics to Datadog 🇺🇦
 datadog-integration,alvin-huang,507,aws,https://github.com/alvin-huang/terraform-aws-datadog-integration,Terraform Module to set up the Datadog AWS Integration
 datadog-integration,cloudposse,571,aws,https://github.com/cloudposse/terraform-aws-datadog-integration,Terraform module to configure Datadog AWS integration
 datadog-integration,devops-workflow,855,aws,https://github.com/devops-workflow/terraform-aws-datadog-integration,Terraform module to manage AWS configuration for Datadog integration
@@ -3390,6 +3388,7 @@ ecr,terraform-module,13268,aws,https://github.com/terraform-module/terraform-aws
 ecr,tmknom,1833,aws,https://github.com/tmknom/terraform-aws-ecr,Terraform module which creates ECR resources on AWS.
 ecr,toluna-terraform,13474,aws,https://github.com/toluna-terraform/terraform-aws-ecr,
 ecr,tomarv2,12406,aws,https://github.com/tomarv2/terraform-aws-ecr,Terraform module to create AWS Elastic Container Registry(ECR)
+ecr,web-virtua-aws-multi-account-modules,16242,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-ecr,
 ecr-cross-account,doingcloudright,1449,aws,https://github.com/doingcloudright/terraform-aws-ecr-cross-account,Terraform module to create an ECR repo with cross-account-access
 ecr-iam-policy,dod-iac,8299,aws,https://github.com/dod-iac/terraform-aws-ecr-iam-policy,IAM Policy that allows use of AWS ECR
 ecr-image,andreswebs,10224,aws,https://github.com/andreswebs/terraform-aws-ecr-image,Creates an ECR repository and pushes a container image using local bash scripts
@@ -4090,6 +4089,7 @@ elk,admintome,479,aws,https://github.com/admintome/terraform-aws-elk,"Terraform 
 elk,karabalta75,5353,aws,https://github.com/karabalta75/terraform-aws-elk,
 elk,pablerass,1566,aws,https://github.com/pablerass/terraform-aws-elk,
 elkdocker,mark182182,1801,aws,https://github.com/mark182182/terraform-aws-elkdocker,Terraform module using ELK Stack in Docker.
+email,TaitoUnited,16243,sendgrid,https://github.com/TaitoUnited/terraform-sendgrid-email,
 email,dvargas92495,6509,aws,https://github.com/dvargas92495/terraform-aws-email,
 email,scaffoldly,9366,aws,https://github.com/scaffoldly/terraform-aws-email,Set up the provided stages with SES email
 emergency-access-account,sjovang,14313,azuread,https://github.com/sjovang/terraform-azuread-emergency-access-account,Implement an Emergency access account in Azure
@@ -4179,6 +4179,7 @@ eventbridge-iam-role,dod-iac,14185,aws,https://github.com/dod-iac/terraform-aws-
 eventgrid,claranet,13279,azurerm,https://github.com/claranet/terraform-azurerm-eventgrid,Terraform module for Azure Eventgrid
 eventgrid-system-topic,libre-devops,13287,azurerm,https://github.com/libre-devops/terraform-azurerm-eventgrid-system-topic,A module used to deploy an eventgrid system topic based on some parameters :gun:
 eventgrid-system-topic-event-subscription,libre-devops,13307,azurerm,https://github.com/libre-devops/terraform-azurerm-eventgrid-system-topic-event-subscription,A module used to deploy an eventgrid system topic custom subscription based on some parameters :knife:
+eventgrid-topic,data-platform-hq,16244,azurerm,https://github.com/data-platform-hq/terraform-azurerm-eventgrid-topic,
 eventhub,claranet,4501,azurerm,https://github.com/claranet/terraform-azurerm-eventhub,Terraform module for Azure Eventhub
 eventhub,linkbynet,8474,datadog,https://github.com/linkbynet/terraform-datadog-eventhub,Terraform module for deploy eventhub monitoring on datadog
 eventhub,tomarv2,15865,azure,https://github.com/tomarv2/terraform-azure-eventhub,Terraform module to create Azure eventhub
@@ -4506,7 +4507,6 @@ gcp-spoke,terraform-aviatrix-modules,5483,aviatrix,https://github.com/terraform-
 gcp-tested-oses,dcos-terraform,1353,template,https://github.com/dcos-terraform/terraform-template-gcp-tested-oses,This is a module that properly configures the DC/OS prerequisites for selected OSes on top of GCP.
 gcp-transit,terraform-aviatrix-modules,5594,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-transit,This module deploys a VPC and an Aviatrix transit gateway in GCP with HA.
 gcp-transit-firenet,terraform-aviatrix-modules,10778,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-transit-firenet,"This module deploys 4 VPCs (Transit Firenet, Management, Egress and LAN), Aviatrix transit gateways (HA), and firewall instances."
-gcp-vpc,alkiranet,11843,alkira,https://github.com/alkiranet/terraform-alkira-gcp-vpc,This module makes it easy to provision a GCP VPC and connect it through Alkira
 gcp-vpn,DeLoWaN,9319,aws,https://github.com/DeLoWaN/terraform-aws-gcp-vpn,Terraform module to create a VPN between AWS and GCP
 gcp-vpn,build-and-run,8618,aws,https://github.com/build-and-run/terraform-aws-gcp-vpn,Terraform module to create a VPN between AWS and GCP
 gcp-vpn,myanees284,11190,aws,https://github.com/myanees284/terraform-aws-gcp-vpn,
@@ -4574,6 +4574,7 @@ github-repos,StarUbiquitous,13237,module,https://github.com/StarUbiquitous/terra
 github-repository,damacus,12286,module,https://github.com/damacus/terraform-module-github-repository,Terraform Module for managing defaults on GitHub Repositories
 github-repository,mikesupertrampster-corp,12446,module,https://github.com/mikesupertrampster-corp/terraform-module-github-repository,Maintained by Terraform
 github-runner,Bellese,9095,aws,https://github.com/Bellese/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
+github-runner,liatrio,16249,azure,https://github.com/liatrio/terraform-azure-github-runner,Terraform module for scalable GitHub action runners on Azure
 github-runner,philips-labs,4962,aws,https://github.com/philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
 github-runner,politician,13583,digitalocean,https://github.com/politician/terraform-digitalocean-github-runner,Terraform module to create a GitHub runner in a Digital Ocean droplet
 github-runner,waylew-lexis,11397,azurerm,https://github.com/waylew-lexis/terraform-azurerm-github-runner,terraform-azurerm-github-runner
@@ -4860,6 +4861,7 @@ https-redirect,elastic2ls-com,10302,aws,https://github.com/elastic2ls-com/terraf
 https-redirect-multi-domains,AlexanderWiechert,10455,aws,https://github.com/AlexanderWiechert/terraform-aws-https-redirect-multi-domains,
 https-redirect-multi-domains,elastic2ls-com,10456,aws,https://github.com/elastic2ls-com/terraform-aws-https-redirect-multi-domains," This module helps you create a S3 bucket which performs HTTPS redirections for multiple domains"
 https_classic-load-balancer,bootlabstech,15164,google,https://github.com/bootlabstech/terraform-google-https_classic-load-balancer,
+hub-vxlan-interconnect,poroping,16241,fortios,https://github.com/poroping/terraform-fortios-hub-vxlan-interconnect,
 hugo-s3-cloudfront,fillup,673,aws,https://github.com/fillup/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-s3-cloudfront,travka,4195,aws,https://github.com/travka/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-site,zombiezen,2421,google,https://github.com/zombiezen/terraform-google-hugo-site,Terraform module for Hugo on Firebase Hosting
@@ -6174,6 +6176,7 @@ logging-metric,smartscaling,9814,google,https://github.com/smartscaling/terrafor
 logging-service,toluna-terraform,9709,aws,https://github.com/toluna-terraform/terraform-aws-logging-service,
 logging-sink,bootlabstech,14076,google,https://github.com/bootlabstech/terraform-google-logging-sink,Creates a sink
 logging-sink,mineiros-io,12934,google,https://github.com/mineiros-io/terraform-google-logging-sink,A Terraform module to create and manage a loggin sinks on Google Cloud Platform (GCP) https://cloud.google.com/logging
+logic-app-workflow,data-platform-hq,16245,azurerm,https://github.com/data-platform-hq/terraform-azurerm-logic-app-workflow,
 login-domain,netascode,9885,aci,https://github.com/netascode/terraform-aci-login-domain,Terraform Cisco ACI Login Domain Module
 logproxy,philips-labs,8445,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-logproxy,Terraform module for Logproxy deployment
 logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,Terraform module to create a Cloudwatch log group with optional log reader.
@@ -6488,7 +6491,7 @@ monitor-diagnostics,avinor,3473,azurerm,https://github.com/avinor/terraform-azur
 monitoring,TaitoUnited,10713,aws,https://github.com/TaitoUnited/terraform-aws-monitoring,
 monitoring,TaitoUnited,6124,google,https://github.com/TaitoUnited/terraform-google-monitoring,
 monitoring,TaitoUnited,8230,azurerm,https://github.com/TaitoUnited/terraform-azurerm-monitoring,
-monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules for monitoring
+monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules from DasMeta to manage AWS monitoring resources
 monitoring,dritux,8734,kubernetes,https://github.com/dritux/terraform-kubernetes-monitoring,
 monitoring,hazelops,9204,datadog,https://github.com/hazelops/terraform-datadog-monitoring,
 monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitoring,
@@ -7004,7 +7007,6 @@ oci-controller,AviatrixSystems,14898,aviatrix,https://github.com/AviatrixSystems
 oci-spoke,terraform-aviatrix-modules,5498,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-oci-spoke,This module deploys a VCN and an Aviatrix spoke gateway in OCI with HA.
 oci-transit,terraform-aviatrix-modules,5484,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-oci-transit,This module deploys a VCN and an Aviatrix transit gateway in OCI with HA.
 oci-transit-firenet,terraform-aviatrix-modules,8700,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-oci-transit-firenet,Aviatrix Transit FireNet module for Oracle Cloud Infrastructure
-oci-vcn,alkiranet,12135,alkira,https://github.com/alkiranet/terraform-alkira-oci-vcn,This module makes it easy to provision an OCI VCN and connect it through Alkira
 ocp-ipi,cloud-native-toolkit,14572,azure,https://github.com/cloud-native-toolkit/terraform-azure-ocp-ipi,Module to provision ocp-ipi on azure
 ocp-vpc,cloud-native-toolkit,12219,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-ocp-vpc,Module to provision an openshift cluster on IBM Cloud
 octal,project-octal,8249,kubernetes,https://github.com/project-octal/terraform-kubernetes-octal,A suite of projects and configurations aimed at simplifying the deployment and management of Kubernetes clusters.
@@ -7920,6 +7922,7 @@ registry,graphnode-technologies,11235,aws,https://github.com/graphnode-technolog
 registry,shestera,6166,yandex,https://github.com/shestera/terraform-yandex-registry,
 release,AlexReisSantos,12713,helm,https://github.com/AlexReisSantos/terraform-helm-release,
 release,JamesWoolfenden,7812,helm,https://github.com/JamesWoolfenden/terraform-helm-release,
+release,SPHTech-Platform,16240,helm,https://github.com/SPHTech-Platform/terraform-helm-release,Terraform module to deploy a generic Helm Chart
 release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
 release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
 release,edalferes,4665,helm,https://github.com/edalferes/terraform-helm-release,Terraform module deployment helm chart k8s
@@ -8526,6 +8529,7 @@ s3backend,goolzerg,10049,aws,https://github.com/goolzerg/terraform-aws-s3backend
 s3backend,haripraghash,10568,aws,https://github.com/haripraghash/terraform-aws-s3backend,
 s3backend,hdowsett123,15800,aws,https://github.com/hdowsett123/terraform-aws-s3backend,This module will deploy an S3 remote backend for Terraform
 s3backend,hoalongnatsu,9628,aws,https://github.com/hoalongnatsu/terraform-aws-s3backend,
+s3backend,jamerply,16246,aws,https://github.com/jamerply/terraform-aws-s3backend,Deploys and s3 remote backend for Terraform
 s3backend,javaducky,3454,aws,https://github.com/javaducky/terraform-aws-s3backend,
 s3backend,jenkz36,4322,aws,https://github.com/jenkz36/terraform-aws-s3backend,terraform exercise
 s3backend,johnfkraus,9023,aws,https://github.com/johnfkraus/terraform-aws-s3backend,
