@@ -2927,6 +2927,7 @@ dns-no-mail,alexhinds,7384,digitalocean,https://github.com/alexhinds/terraform-d
 dns-policy,netascode,9800,aci,https://github.com/netascode/terraform-aci-dns-policy,Terraform Cisco ACI DNS Policy Module
 dns-private-resolver,libre-devops,15960,azapi,https://github.com/libre-devops/terraform-azapi-dns-private-resolver,Provider for Private Resolver using Bicep API/AzApi provider
 dns-query-logs,QuiNovas,2213,aws,https://github.com/QuiNovas/terraform-aws-dns-query-logs,Setsup query logs for the hosted zone
+dns-records,blackbird-cloud,16457,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dns-records,Terraform module to create a set of Cloudflare DNS records
 dns-recordsets,terraformdns,1176,azurerm,https://github.com/terraformdns/terraform-azurerm-dns-recordsets,Terraform module for creating DNS recordsets in an Azure DNS zone
 dns-recordsets,terraformdns,1178,google,https://github.com/terraformdns/terraform-google-dns-recordsets,Terraform module for creating DNS recordsets in a Google Cloud DNS zone
 dns-recordsets,terraformdns,1179,dyn,https://github.com/terraformdns/terraform-dyn-dns-recordsets,Terraform module for creating DNS recordsets in a DNS zone hosted by Dyn
@@ -3099,6 +3100,7 @@ docker-instance,mafuClarusway,14695,aws,https://github.com/mafuClarusway/terrafo
 docker-instance,marcus-clarusway,16315,aws,https://github.com/marcus-clarusway/terraform-aws-docker-instance,
 docker-instance,marsclick006,16304,aws,https://github.com/marsclick006/terraform-aws-docker-instance,
 docker-instance,medipnegiz,15030,aws,https://github.com/medipnegiz/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,mehmetima,16460,aws,https://github.com/mehmetima/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,mehmetozleyen,14732,aws,https://github.com/mehmetozleyen/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,mehmetozturk4438,14660,aws,https://github.com/mehmetozturk4438/terraform-aws-docker-instance,
 docker-instance,melisavcilar,16391,aws,https://github.com/melisavcilar/terraform-aws-docker-instance,
@@ -3184,6 +3186,7 @@ docker-server,4ops,3082,digitalocean,https://github.com/4ops/terraform-digitaloc
 docker-swarm,diogok,241,scaleway,https://github.com/diogok/terraform-scaleway-docker-swarm,Terraform module to create a docker swarm cluster on Scaleway.
 docker-swarm-firewall,thojkooi,528,digitalocean,https://github.com/thojkooi/terraform-digitalocean-docker-swarm-firewall,Terraform module to configure Docker Swarm mode firewall rules on DigitalOcean.
 docker-swarm-mode,thojkooi,530,digitalocean,https://github.com/thojkooi/terraform-digitalocean-docker-swarm-mode,Terraform module for provisioning a Docker Swarm mode cluster on DigitalOcean
+dockerchris,Witheleft,16459,session5,https://github.com/Witheleft/terraform-session5-dockerchris,
 dockercloud-swarm-role,npalm,756,aws,https://github.com/npalm/terraform-aws-dockercloud-swarm-role,Terraform module to create an AWS IAM role for Docker Cloud Swarm
 dockercomposehost,buildo,1321,aws,https://github.com/buildo/terraform-aws-dockercomposehost,Terraform module for creating EC2 instances with Docker and Docker Compose installed
 dockermodule,aishasemerci,16383,session5,https://github.com/aishasemerci/terraform-session5-dockermodule,
@@ -5378,6 +5381,7 @@ ip-networks,oracle,115,opc,https://github.com/oracle/terraform-opc-ip-networks,T
 ip-ranges,innovationnorway,8008,cloudflare,https://github.com/innovationnorway/terraform-cloudflare-ip-ranges,
 ip-sla-policy,netascode,15835,aci,https://github.com/netascode/terraform-aci-ip-sla-policy,Terraform Cisco ACI IP SLA Policy Module 
 ipam,aws-ia,12464,aws,https://github.com/aws-ia/terraform-aws-ipam,Terraform Module for create AWS IPAM Resources
+ipam-autopilot,openx,16464,google,https://github.com/openx/terraform-google-ipam-autopilot,
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 iq3-agw-internal-https,iq3cloud-dev,7686,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-agw-internal-https,
 iq3-aks,iq3cloud-dev,6372,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-aks,
@@ -5983,6 +5987,7 @@ lambda-api,amancevice,2047,aws,https://github.com/amancevice/terraform-aws-lambd
 lambda-api,applegreengrape,3334,aws,https://github.com/applegreengrape/terraform-aws-lambda-api,terraform aws lambda REST API (GET/POST/PUT)
 lambda-api,rahulrraj,4478,aws,https://github.com/rahulrraj/terraform-aws-lambda-api,
 lambda-api,vlobachev,2671,aws,https://github.com/vlobachev/terraform-aws-lambda-api,Simple Lambda-backed REST API
+lambda-api-gateway,7clouds-terraform-modules,16461,aws,https://github.com/7clouds-terraform-modules/terraform-aws-lambda-api-gateway,
 lambda-api-gateway,techjacker,1001,aws,https://github.com/techjacker/terraform-aws-lambda-api-gateway,Terraform module which deploys a serverless HTTP endpoint backed by AWS Lambda & API Gateway
 lambda-apigw-module,OpenClassrooms,11521,aws,https://github.com/OpenClassrooms/terraform-aws-lambda-apigw-module,Terraform module to provision one or more API on AWS API Gateway (REST). It provide ability to protect APIs with api keys and calls are redirected to AWS Lambda
 lambda-apigw-module,jeremygovi,6553,aws,https://github.com/jeremygovi/terraform-aws-lambda-apigw-module,"A terraform module to run code on lambda, exposed by API Gateway"
@@ -5996,6 +6001,7 @@ lambda-base,genstackio,8220,aws,https://github.com/genstackio/terraform-aws-lamb
 lambda-basic-execution-role,amancevice,2046,aws,https://github.com/amancevice/terraform-aws-lambda-basic-execution-role,Lambda IAM role with AWSLambdaBasicExecution policy attached
 lambda-builder,raymondbutcher,2620,aws,https://github.com/raymondbutcher/terraform-aws-lambda-builder,Terraform module to build Lambda functions in Lambda or CodeBuild
 lambda-cd,sellalong,9323,aws,https://github.com/sellalong/terraform-aws-lambda-cd,Terraform module to remote build lambdas and deploy within the context of a terraform plan/apply - build and deploy your code and infrastructure in one pipeline.
+lambda-centralized-logs,7clouds-terraform-modules,16462,aws,https://github.com/7clouds-terraform-modules/terraform-aws-lambda-centralized-logs,
 lambda-cloudwatch,voquis,5166,aws,https://github.com/voquis/terraform-aws-lambda-cloudwatch,Terraform module to provision Lambda function with CloudWatch logging
 lambda-cloudwatch-alarm-to-slack,JousP,4143,aws,https://github.com/JousP/terraform-aws-lambda-cloudwatch-alarm-to-slack,Lambda function sending slack notifications based on cloudwatch alarms
 lambda-cloudwatch-events-trigger,infrablocks,2775,aws,https://github.com/infrablocks/terraform-aws-lambda-cloudwatch-events-trigger,Terraform AWS module to trigger lambdas regularly
@@ -6735,6 +6741,7 @@ myapache,NANDU-REDDY,10574,aws,https://github.com/NANDU-REDDY/terraform-aws-myap
 myapache,skatta3,11282,aws,https://github.com/skatta3/terraform-aws-myapache,
 myapacheterraform,srinivasyadav552,10586,aws,https://github.com/srinivasyadav552/terraform-aws-myapacheterraform,
 mybase,terraform-alicloud-modules,12694,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-mybase,Terraform Module for creating ApsaraDB for MyBase resources on Alibaba Cloud.
+myec2,skatta3,16456,aws,https://github.com/skatta3/terraform-aws-myec2,
 myec2sg,BengaliCrab,5555,aws,https://github.com/BengaliCrab/terraform-aws-myec2sg,myterraform instance creating security group.
 myfirstmodule,AnjiMuduthanapally,13469,azurerm,https://github.com/AnjiMuduthanapally/terraform-azurerm-myfirstmodule,
 myfirsts3bucket,Sneha1191,13642,aws,https://github.com/Sneha1191/terraform-aws-myfirsts3bucket,
@@ -8046,6 +8053,7 @@ redis,claranet,4111,azurerm,https://github.com/claranet/terraform-azurerm-redis,
 redis,dasmeta,14983,azure,https://github.com/dasmeta/terraform-azure-redis,Terraform modules from DasMeta to manage Azure Redis and related resources
 redis,djangoflow,14735,kubernetes,https://github.com/djangoflow/terraform-kubernetes-redis,Kubernetes module to deploy Redis
 redis,galichenko,3339,google,https://github.com/galichenko/terraform-google-redis,A Terraform module for configuring GCP VM instance for the Redis Server. 
+redis,glavk,16455,yandex,https://github.com/glavk/terraform-yandex-redis,Terraform module witch creates a Redis cluster within the Yandex.Cloud
 redis,kabisa,14006,datadog,https://github.com/kabisa/terraform-datadog-redis,
 redis,kumarvna,9425,azurerm,https://github.com/kumarvna/terraform-azurerm-redis,Terraform module for Azure Cache for Redis
 redis,livelink,3724,kubernetes,https://github.com/livelink/terraform-kubernetes-redis,
@@ -9173,6 +9181,7 @@ session-manager-logs,lablabs,4646,aws,https://github.com/lablabs/terraform-aws-s
 session-manager-settings,gazoakley,1562,aws,https://github.com/gazoakley/terraform-aws-session-manager-settings,Allows configuration of logging settings for AWS SSM Session Manager
 set-rule,netascode,10319,aci,https://github.com/netascode/terraform-aci-set-rule,Terraform Cisco ACI Set Rule Module
 setcronjob-whitelist,captn3m0,1983,http,https://github.com/captn3m0/terraform-http-setcronjob-whitelist,Terraform Module that returns the latest SetCronJob IP Whitelist: https://support.setcronjob.com/hc/en-us/articles/219802207-SetCronJob-IP-addresses-list
+settings,devopsarr,16454,sonarr,https://github.com/devopsarr/terraform-sonarr-settings,terraform module for Sonarr
 sf,lablabs,3505,aws,https://github.com/lablabs/terraform-aws-sf,Terraform module for creating stateful instances
 sfabric,Bee-Projects,1615,aws,https://github.com/Bee-Projects/terraform-aws-sfabric,Terraform module for launching a Service Fabric Dev Environment on AWS
 sfabric,Bee-Projects,1617,gcp,https://github.com/Bee-Projects/terraform-gcp-sfabric,Terraform module for launching a Service Fabric Dev Environment on GCP
@@ -10158,6 +10167,7 @@ traefik,opencopilot,1251,packet,https://github.com/opencopilot/terraform-packet-
 traefik,project-octal,10910,kubernetes,https://github.com/project-octal/terraform-kubernetes-traefik,Simplifies the deployment and management of Traefik on a Kubernetes cluster.
 traefik,sculley,7249,kubernetes,https://github.com/sculley/terraform-kubernetes-traefik,Terraform module which deploys Traefik to a Kubernetes cluster
 traefik-deployment,jakoberpf,12494,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-traefik-deployment,
+traefik-middleware,math280h,16453,kubernetes,https://github.com/math280h/terraform-kubernetes-traefik-middleware,A simple collection of easy to use middlewares for traefik implemented in terraform
 traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.7.0) reverse proxy / load balancer on Docker swarm
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
 traffic-director,nlamirault,10685,google,https://github.com/nlamirault/terraform-google-traffic-director,Terraform module for Google Traffic Director
@@ -10992,6 +11002,7 @@ vpc-flow-logs-kms-key,dod-iac,10165,aws,https://github.com/dod-iac/terraform-aws
 vpc-flow-logs-s3-bucket,cloudposse,2917,aws,https://github.com/cloudposse/terraform-aws-vpc-flow-logs-s3-bucket,Terraform module to provision s3-backed flow logs for VPC and subnets
 vpc-flowlogs,aswathysobhanan22,9184,aws,https://github.com/aswathysobhanan22/terraform-aws-vpc-flowlogs,Terraform module which creates VPC flow logs to S3 on AWS https://registry.terraform.io/modules/binbashar/vpc-flowlogs
 vpc-flowlogs,binbashar,2734,aws,https://github.com/binbashar/terraform-aws-vpc-flowlogs,Terraform module which creates VPC flow logs to S3 on AWS https://registry.terraform.io/modules/binbashar/vpc-flowlogs
+vpc-full,web-virtua-aws-multi-account-modules,16463,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-vpc-full,
 vpc-gateways,cloud-native-toolkit,12217,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-vpc-gateways,Module to provision public gateways in an IBM Cloud VPC instance
 vpc-group,netascode,10347,aci,https://github.com/netascode/terraform-aci-vpc-group,Terraform Cisco ACI vPC Group Module
 vpc-infra,lokeshjawane,5170,aws,https://github.com/lokeshjawane/terraform-aws-vpc-infra,
@@ -11366,6 +11377,7 @@ yum-repo,QuiNovas,1471,aws,https://github.com/QuiNovas/terraform-aws-yum-repo,Cr
 zedcloud-aws-s3-datastore,bayupw,15810,aws,https://github.com/bayupw/terraform-aws-zedcloud-aws-s3-datastore,Terraform module for creating AWS S3 bucket to be used for Zededa ZedCloud Data Store
 zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero modules for the AWS EKS Stack
 zerossl_alicloud,Explorer1092,13427,x,https://github.com/Explorer1092/terraform-x-zerossl_alicloud,
+zerotier-haproxy,djangoflow,16458,kubernetes,https://github.com/djangoflow/terraform-kubernetes-zerotier-haproxy,
 zone,Flaconi,11080,cloudflare,https://github.com/Flaconi/terraform-cloudflare-zone,This module will create Cloudflare Hosted Zone
 zone,alex-feel,8648,cloudflare,https://github.com/alex-feel/terraform-cloudflare-zone,Terraform module that creates zone resources in Cloudflare with minimal effort on your part.
 zone,cloudposse,8292,cloudflare,https://github.com/cloudposse/terraform-cloudflare-zone,"Terraform module to provision a CloudFlare zone with DNS records, Argo, Firewall filters and rules"
