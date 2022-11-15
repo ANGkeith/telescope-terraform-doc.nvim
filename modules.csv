@@ -1120,6 +1120,7 @@ authentik-tenant,l-with,14481,module,https://github.com/l-with/terraform-module-
 auto-bastion,JamesWoolfenden,3772,aws,https://github.com/JamesWoolfenden/terraform-aws-auto-bastion,A bastion with SSH controlled by IAM
 auto-scaling,devops4me,3155,aws,https://github.com/devops4me/terraform-aws-auto-scaling,This module creates an auto scaling group and a launch configuration to enable agents like a cluster manager to add and/or remove machines to and from a cluster.
 auto-scaling,nabdilatipova,7807,aws,https://github.com/nabdilatipova/terraform-aws-auto-scaling,
+auto-scaling-group,terraform-ncloud-modules,16486,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-auto-scaling-group,
 autocloud-access-role,autoclouddev,8142,aws,https://github.com/autoclouddev/terraform-aws-autocloud-access-role,AWS IAM Role provisioning cross-account access for AutoCloud
 autocloud-enterprise-application,autoclouddev,11035,azurerm,https://github.com/autoclouddev/terraform-azurerm-autocloud-enterprise-application,Azure Enterprise Application provisioning access for AutoCloud to analyze a subscription
 autocloud-service-account,autoclouddev,10995,google,https://github.com/autoclouddev/terraform-google-autocloud-service-account,GCP service account provisioning access for AutoCloud to analyze a project
@@ -1438,6 +1439,7 @@ bastion,andrewCluey,9724,azurerm,https://github.com/andrewCluey/terraform-azurer
 bastion,anugnes,610,aws,https://github.com/anugnes/terraform-aws-bastion,Terraform module to deploy a bastion host in a custom VPC
 bastion,artrojort,4711,aws,https://github.com/artrojort/terraform-aws-bastion,Terraform module for launching an AWS Bastion host in an existing VPC.
 bastion,bpalermo,9852,oci,https://github.com/bpalermo/terraform-oci-bastion,A Terraform module that reuses an existing VCN and adds a bastion host to it on OCI
+bastion,caherrera,16488,aws,https://github.com/caherrera/terraform-aws-bastion,Simple EC2 instance used as bastion
 bastion,claranet,10628,azurerm,https://github.com/claranet/terraform-azurerm-bastion,Terraform module for Azure Bastion (Managed Jump Host)
 bastion,cloud-native-toolkit,14545,aws,https://github.com/cloud-native-toolkit/terraform-aws-bastion,Module to provision bastion service on AWS provider
 bastion,corpit-consulting-public,3545,aws,https://github.com/corpit-consulting-public/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
@@ -2482,6 +2484,7 @@ container-registry,avinor,3206,azurerm,https://github.com/avinor/terraform-azure
 container-registry,bytejunkie,7367,azurerm,https://github.com/bytejunkie/terraform-azurerm-container-registry,
 container-registry,cloud-native-toolkit,14557,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-container-registry,"Module to set up the IBM Container Registry, including creating a namespace and upgrading the plan"
 container-registry,devdynamicio,13028,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-container-registry,Terraform module to create an DigitalOcean Container Registry resource 🇺🇦
+container-registry,glavk,16483,yandex,https://github.com/glavk/terraform-yandex-container-registry,Terraform module witch creates a Container Registry within the Yandex.Cloud
 container-registry,intelligentmachines,5270,azure,https://github.com/intelligentmachines/terraform-azure-container-registry,
 container-registry,kumarvna,9987,azurerm,https://github.com/kumarvna/terraform-azurerm-container-registry,"Terraform module to create Azure Container Registry with optional scope-map, token, webhook, Network ACLs, encryption and Private endpoints."
 container-registry,tomarv2,12405,azure,https://github.com/tomarv2/terraform-azure-container-registry,Terraform module to create Azure Container Registry(ACR)
@@ -2499,6 +2502,7 @@ context,Selleo,13866,null,https://github.com/Selleo/terraform-null-context,Terra
 context,k9securityio,7210,local,https://github.com/k9securityio/terraform-local-context,"A Terraform module to capture the context your team needs to manage, operate, and secure resources in the Cloud."
 context,terraform-components,14352,null,https://github.com/terraform-components/terraform-null-context,
 context,unfunco,15770,null,https://github.com/unfunco/terraform-null-context,Terraform module for generating consistent names and tags.
+contexts,caherrera,16492,circleci,https://github.com/caherrera/terraform-circleci-contexts,A simple module to manage contexts and environment variables all-in-one
 contract,netascode,9770,aci,https://github.com/netascode/terraform-aci-contract,Terraform Cisco ACI Contract Module
 control,Echo-Stream,13244,aws,https://github.com/Echo-Stream/terraform-aws-control,EchoStream Control TF module
 control-policy,terraform-alicloud-modules,10260,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-control-policy,
@@ -2520,7 +2524,7 @@ core,ntangy,3310,alks,https://github.com/ntangy/terraform-alks-core,
 core-parameters,nuvibit,16271,aws,https://github.com/nuvibit/terraform-aws-core-parameters,Terraform module to store and read a terraform HCL map via AWS SSM Parameter Store.
 coredns-op-pack,terraform-shoreline-modules,12906,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-op-pack,Shoreline platform Op Packs (Terraform modules) for CoreDNS latency alerting and remediation.
 coreos-vm,www-aiqu-no,2613,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-coreos-vm,Deploy CoreOS virtual machine to vSphere cluster (from template)
-cos,terraform-ibm-modules,6657,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cos,Creates generic COS instance and bucket with a variety of options
+cos,terraform-ibm-modules,6657,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cos,Configures a Cloud Object Storage instance and bucket with options
 cos,terraform-tencentcloud-modules,16255,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cos,TencentCloud COS Module for Terraform
 cos,terraform-xnxk-modules,13368,tencentcloud,https://github.com/terraform-xnxk-modules/terraform-tencentcloud-cos,Terraform module which creates tencentcloud cos bucket for each bucket in the list
 cos-spa,Kagashino,11734,tencentcloud,https://github.com/Kagashino/terraform-tencentcloud-cos-spa,This module provides an easy way to upload local Single Application Page Assets to TencentCloud Cloud Object Storage(COS) Bucket.
@@ -3198,6 +3202,7 @@ dockermodule,ayladrsn,16443,session5,https://github.com/ayladrsn/terraform-sessi
 dockermodule,fredw713,16388,session5,https://github.com/fredw713/terraform-session5-dockermodule,
 dockermodule,halach2020,16385,session5,https://github.com/halach2020/terraform-session5-dockermodule,
 documentdb,JamesWoolfenden,7707,aws,https://github.com/JamesWoolfenden/terraform-aws-documentdb,Basic Documentdb module
+documentdb,clouddrove,16484,aws,https://github.com/clouddrove/terraform-aws-documentdb,terraform-aws-documentdb
 documentdb-cluster,cloudposse,2353,aws,https://github.com/cloudposse/terraform-aws-documentdb-cluster,Terraform module to provision a DocumentDB cluster on AWS
 documentdb-cluster,drpebcak,3621,aws,https://github.com/drpebcak/terraform-aws-documentdb-cluster,
 documentdb-cluster,goranvrbaski,6107,aws,https://github.com/goranvrbaski/terraform-aws-documentdb-cluster,DocumentDB Terraform module
@@ -5385,7 +5390,7 @@ ip-networks,oracle,115,opc,https://github.com/oracle/terraform-opc-ip-networks,T
 ip-ranges,innovationnorway,8008,cloudflare,https://github.com/innovationnorway/terraform-cloudflare-ip-ranges,
 ip-sla-policy,netascode,15835,aci,https://github.com/netascode/terraform-aci-ip-sla-policy,Terraform Cisco ACI IP SLA Policy Module 
 ipam,aws-ia,12464,aws,https://github.com/aws-ia/terraform-aws-ipam,Terraform Module for create AWS IPAM Resources
-ipam-autopilot,openx,16464,google,https://github.com/openx/terraform-google-ipam-autopilot,
+ipam-autopilot,openx,16464,google,https://github.com/openx/terraform-google-ipam-autopilot,Infrastructure module  for GCP IPAM Autopilot implementation using Cloud Run
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 iq3-agw-internal-https,iq3cloud-dev,7686,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-agw-internal-https,
 iq3-aks,iq3cloud-dev,6372,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-aks,
@@ -6140,6 +6145,7 @@ landscape,unimatrixops,10870,google,https://github.com/unimatrixops/terraform-go
 latest-ami,bledrunner2049,6193,aws,https://github.com/bledrunner2049/terraform-aws-latest-ami,
 laughs,sblack4,5537,terraform,https://github.com/sblack4/terraform-terraform-laughs,Laughs in terraform
 launch-configuration,QuiNovas,1482,aws,https://github.com/QuiNovas/terraform-aws-launch-configuration,Creates an EC2 Launch Configuration
+launch-configuration,terraform-ncloud-modules,16485,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-launch-configuration,
 launch-template,figurate,5181,aws,https://github.com/figurate/terraform-aws-launch-template,Common blueprints for EC2 Launch Templates
 launch-template,oozou,14504,aws,https://github.com/oozou/terraform-aws-launch-template,Terraform module to create AWS Launch Template
 layer-admin,genstackio,7932,aws,https://github.com/genstackio/terraform-aws-layer-admin,Terraform module to create an entire Layer for admin (web)
@@ -8147,6 +8153,7 @@ replicated-secure-s3-bucket,Kalepa,16025,aws,https://github.com/Kalepa/terraform
 repo,JamesWoolfenden,8798,ado,https://github.com/JamesWoolfenden/terraform-ado-repo,
 repo,trussworks,3745,github,https://github.com/trussworks/terraform-github-repo,Manage Github repos with Terraform with good defaults
 repo,vijender412,12274,vijender,https://github.com/vijender412/terraform-vijender-repo,
+repo-crawler,cyralinc,16489,aws,https://github.com/cyralinc/terraform-aws-repo-crawler,Cyral Repo Crawler module for AWS
 repo-index,rojopolis,1854,helm,https://github.com/rojopolis/terraform-helm-repo-index,Create an `index.yaml` file for a Helm repo
 repo-mgmt,sh0shin,12955,github,https://github.com/sh0shin/terraform-github-repo-mgmt,Manage GitHub user and organization repositories
 repos-branch-protection-webhooks,voquis,11807,github,https://github.com/voquis/terraform-github-repos-branch-protection-webhooks,Terraform module to manage GitHub repos and set branch protection and webhooks
@@ -8268,6 +8275,7 @@ rke,cktf,13901,hcloud,https://github.com/cktf/terraform-hcloud-rke,Terraform HCl
 rke,mcapuccini,1787,openstack,https://github.com/mcapuccini/terraform-openstack-rke,Terraform module to deploy Rancher Kubernetes Engine on OpenStack.
 rke,remche,3994,openstack,https://github.com/remche/terraform-openstack-rke,Terraform Openstack RKE
 rke,yashani,11225,openstack,https://github.com/yashani/terraform-openstack-rke,Terraform Openstack RKE
+rke2,AURIN-OFFICE,16491,openstack,https://github.com/AURIN-OFFICE/terraform-openstack-rke2,Deploy Kubernetes on OpenStack with RKE2
 rke2,remche,8973,openstack,https://github.com/remche/terraform-openstack-rke2,Deploy Kubernetes on OpenStack with RKE2
 rke2,zifeo,10592,openstack,https://github.com/zifeo/terraform-openstack-rke2,Easily deploy a RKE2 Kubernetes cluster on OpenStack providers such as Infomaniak.
 rocket-chat-notifier,KazuyaMiyagi,7164,aws,https://github.com/KazuyaMiyagi/terraform-aws-rocket-chat-notifier,
@@ -9727,6 +9735,7 @@ staticwebsitepublic,jan4victory,10846,azurerm,https://github.com/jan4victory/ter
 staticwebsitepublic,jleroux751,12320,azurerm,https://github.com/jleroux751/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,johnfdominguezrendon,12971,azurerm,https://github.com/johnfdominguezrendon/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,kaustubhchoudhury-git,11825,azurerm,https://github.com/kaustubhchoudhury-git/terraform-azurerm-staticwebsitepublic,erraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,kipper101,16490,azurerm,https://github.com/kipper101/terraform-azurerm-staticwebsitepublic,Terraform modules to be shared in terraform public repository
 staticwebsitepublic,ldelpozo6,13560,azurerm,https://github.com/ldelpozo6/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,mahesh9tsm,14478,azurerm,https://github.com/mahesh9tsm/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,michealjack1,14963,azurerm,https://github.com/michealjack1/terraform-azurerm-staticwebsitepublic,
@@ -9810,7 +9819,7 @@ storage-bucket,YoshinoriSatoh,11946,aws,https://github.com/YoshinoriSatoh/terraf
 storage-bucket,binxio,7580,google,https://github.com/binxio/terraform-google-storage-bucket,Generic google storage buckets module for Terraform
 storage-bucket,dansible,1465,google,https://github.com/dansible/terraform-google-storage-bucket,This terraform module provisions a Google Cloud Storage bucket with the option of creating an additional bucket to store audit and access logs.
 storage-bucket,kiwicom,6442,google,https://github.com/kiwicom/terraform-google-storage-bucket,
-storage-bucket,mineiros-io,11362,google,https://github.com/mineiros-io/terraform-google-storage-bucket,A Terraform module to deploy and manage Google Cloud Storage (GCS) buckets on Google Cloud Platform (GCP) https://cloud.google.com/gcs
+storage-bucket,mineiros-io,11362,google,https://github.com/mineiros-io/terraform-google-storage-bucket,A Terraform module to deploy and manage Google Cloud Storage (GCS) buckets in Google Cloud https://cloud.google.com/gcs
 storage-bucket,tomarv2,12223,google,https://github.com/tomarv2/terraform-google-storage-bucket,Terraform module for Google Storage Bucket
 storage-bucket-iam,mineiros-io,11361,google,https://github.com/mineiros-io/terraform-google-storage-bucket-iam,A Terraform module to manage Identity and Access Management (IAM) Google Cloud Storage (GCS) buckets in Google Cloud https://cloud.google.com/iam/docs/service-accounts
 storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-storage-container,Azure Storage Container Module for Terraform
@@ -9880,7 +9889,7 @@ subnets,drewmullen,12179,cidr,https://github.com/drewmullen/terraform-cidr-subne
 subnets,hashicorp,3147,cidr,https://github.com/hashicorp/terraform-cidr-subnets,A Terraform module for calculating subnet IP address prefixes
 subnets,kmayer10,13381,aws,https://github.com/kmayer10/terraform-aws-subnets,terraform module to create subnets
 subnets,marceloalmeida,4468,cidr,https://github.com/marceloalmeida/terraform-cidr-subnets,Terraform CIDR Subnets Module
-subnetwork,mineiros-io,12935,google,https://github.com/mineiros-io/terraform-google-subnetwork,A Terraform module to create and manage a subnet for a Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) https://cloud.google.com/vpc
+subnetwork,mineiros-io,12935,google,https://github.com/mineiros-io/terraform-google-subnetwork,A Terraform module to create and manage a subnet for a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
 subnetwork-iam,mineiros-io,12936,google,https://github.com/mineiros-io/terraform-google-subnetwork-iam,A Terraform module to manage Identity and Access Management (IAM) for subnets of a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
 subscription,getindata,15244,azurerm,https://github.com/getindata/terraform-azurerm-subscription,Terraform Module for Azure Subscription
 subscription,servian,5677,azurerm,https://github.com/servian/terraform-azurerm-subscription,Terraform module for Azure Subscription
