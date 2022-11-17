@@ -1112,6 +1112,7 @@ auth,TaitoUnited,10452,auth0,https://github.com/TaitoUnited/terraform-auth0-auth
 auth,mslipets,4403,cloudfront,https://github.com/mslipets/terraform-cloudfront-auth," Terraform module to provision CloudFront Distribtition with Lambda@Edge authorization backed by a private S3 origin"
 auth,schrill,15560,cloudfront,https://github.com/schrill/terraform-cloudfront-auth," Terraform module to provision CloudFront Distribtition with Lambda@Edge authorization backed by a private S3 origin"
 auth-account,lablabs,4448,aws,https://github.com/lablabs/terraform-aws-auth-account,
+auth0,particuleio,16509,auth0,https://github.com/particuleio/terraform-auth0-auth0,Terraform Module for Auth0
 auth0-authorizer,amancevice,1731,aws,https://github.com/amancevice/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 auth0-authorizer,jdpx,6741,aws,https://github.com/jdpx/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 authenticating-secgroup,riboseinc,629,aws,https://github.com/riboseinc/terraform-aws-authenticating-secgroup,Dynamically manage security group IPs through an authenticated HTTPS endpoint
@@ -1920,6 +1921,7 @@ cloud-spanner,bootlabstech,13855,google,https://github.com/bootlabstech/terrafor
 cloud-sql,mineiros-io,11373,google,https://github.com/mineiros-io/terraform-google-cloud-sql,"A Terraform module to deploy and manage Google Cloud SQL, a fully managed, relational database service for MySQL, PostgreSQL, and SQL Server on Google Cloud Platform (GCP) https://cloud.google.com/cloudsql"
 cloud-sql,snowplow-devops,10058,google,https://github.com/snowplow-devops/terraform-google-cloud-sql,
 cloud-sql-pgbouncer,christippett,5177,google,https://github.com/christippett/terraform-google-cloud-sql-pgbouncer,Automatically configure and deploy PgBouncer on Google Cloud with this Terraform module
+cloud-sql-pgbouncer,drekthral,16514,google,https://github.com/drekthral/terraform-google-cloud-sql-pgbouncer,Automatically configure and deploy PgBouncer on Google Cloud with this Terraform module
 cloud-sql-saver,mscribellito,11188,google,https://github.com/mscribellito/terraform-google-cloud-sql-saver,Terraform module to simplify cost savings of Cloud SQL instances on GCP.
 cloud-sso,terraform-alicloud-modules,11246,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-sso,Terraform module which creates and sets the cloud sso resources on Alibaba Cloud.
 cloud-storage,aidenabled,11471,google,https://github.com/aidenabled/terraform-google-cloud-storage,
@@ -2434,6 +2436,7 @@ connect-exec,srb3,6148,linux,https://github.com/srb3/terraform-linux-connect-exe
 connect-onboarding,philips-labs,8279,hsdp,https://github.com/philips-labs/terraform-hsdp-connect-onboarding,Module to onboard onto HSDP Connect IoT services
 connect-vpcs,myanees284,10190,aws,https://github.com/myanees284/terraform-aws-connect-vpcs,terraform-aws-vpc-connectivity
 connection,depot,14307,aws,https://github.com/depot/terraform-aws-connection,
+connector-aws,alkiranet,16508,alkira,https://github.com/alkiranet/terraform-alkira-connector-aws,This module makes it easy to provision AWS connectors in Alkira
 console-deploy,recipopdev,15264,aws,https://github.com/recipopdev/terraform-aws-console-deploy,Module to deploy a console application to AWS
 consul,10thmagnitude,1037,azurerm,https://github.com/10thmagnitude/terraform-azurerm-consul,A Terraform Module for how to run Consul on AzureRM using Terraform and Packer
 consul,GhostGroup,1640,aws,https://github.com/GhostGroup/terraform-aws-consul,A Terraform Module for how to run Consul on AWS using Terraform and Packer
@@ -2472,6 +2475,7 @@ container,terracharge,14079,aws,https://github.com/terracharge/terraform-aws-con
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
+container-group,getindata,16512,azurerm,https://github.com/getindata/terraform-azurerm-container-group,Terraform Module for creating Azure Container Group
 container-group,tomarv2,15864,azure,https://github.com/tomarv2/terraform-azure-container-group,Terraform module for Azure Container Instance(ACI)
 container-image,eliotlim,12579,aws,https://github.com/eliotlim/terraform-aws-container-image,Terraform module that builds and pushes a Docker image to AWS Elastic Container Registry
 container-insights,Gooygeek,11152,helm,https://github.com/Gooygeek/terraform-helm-container-insights,Deploys AWS Container Insights using helm as a terraform module. Based on the quickstart (for fluent bit) found here: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-setup-EKS-quickstart.html
@@ -3152,6 +3156,7 @@ docker-instance,seryum65,14618,aws,https://github.com/seryum65/terraform-aws-doc
 docker-instance,sevgianalay,14662,aws,https://github.com/sevgianalay/terraform-aws-docker-instance,
 docker-instance,sezar02,16371,aws,https://github.com/sezar02/terraform-aws-docker-instance,
 docker-instance,soneerceelik,14646,aws,https://github.com/soneerceelik/terraform-aws-docker-instance,
+docker-instance,sozlemkaya,16511,aws,https://github.com/sozlemkaya/terraform-aws-docker-instance,
 docker-instance,stevenmiller007,16289,aws,https://github.com/stevenmiller007/terraform-aws-docker-instance,
 docker-instance,talhaalkan,16367,aws,https://github.com/talhaalkan/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,tayyipkarahan,14656,aws,https://github.com/tayyipkarahan/terraform-aws-docker-instance,
@@ -5360,6 +5365,7 @@ instance-orchestrator,xosphere,1751,xosphere,https://github.com/xosphere/terrafo
 instance-orchestrator-event-relay,xosphere,8385,xosphere,https://github.com/xosphere/terraform-xosphere-instance-orchestrator-event-relay,
 instance-orchestrator-legacy,xosphere,5969,xosphere,https://github.com/xosphere/terraform-xosphere-instance-orchestrator-legacy,Terraform module to install Xosphere Instance Orchestrator using Terraform 0.11.x
 instance-profile,florentio,15138,aws,https://github.com/florentio/terraform-aws-instance-profile,Terraform module which creates Instance profile on AWS
+instance-template-module,elvinlari,16507,gcp,https://github.com/elvinlari/terraform-gcp-instance-template-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
 instance-types,delta50,3367,aws,https://github.com/delta50/terraform-aws-instance-types,Terraform module with AWS instance types.
 instance_vpc,dubareddy,14284,aws,https://github.com/dubareddy/terraform-aws-instance_vpc,
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
@@ -5808,6 +5814,7 @@ kubernetes,TaitoUnited,10725,digitalocean,https://github.com/TaitoUnited/terrafo
 kubernetes,TaitoUnited,6123,google,https://github.com/TaitoUnited/terraform-google-kubernetes,
 kubernetes,TaitoUnited,8229,azurerm,https://github.com/TaitoUnited/terraform-azurerm-kubernetes,
 kubernetes,aliyun,1132,alicloud,https://github.com/aliyun/terraform-alicloud-kubernetes,Terraform module which creates kubernetes(es) on Alibaba Cloud.
+kubernetes,amestofortytwo,16505,azurerm,https://github.com/amestofortytwo/terraform-azurerm-kubernetes,
 kubernetes,autonomy,742,aws,https://github.com/autonomy/terraform-aws-kubernetes,Terraform module for Kubernetes on AWS
 kubernetes,avinor,3205,azurerm,https://github.com/avinor/terraform-azurerm-kubernetes,"Terraform module to deploy a Kubernetes cluster on Azure, using AKS."
 kubernetes,bayudwiyansatria,11192,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-kubernetes,Terraform modules for provisioning Kubernetes Stack On Hetzner Cloud.
@@ -6596,6 +6603,7 @@ module,sandeepsaini98,13650,gcp,https://github.com/sandeepsaini98/terraform-gcp-
 module,tobi1972,7130,google,https://github.com/tobi1972/terraform-google-module,
 module,university-outreach-infrastructure-tf,3151,gitlab,https://github.com/university-outreach-infrastructure-tf/terraform-gitlab-module,
 module,vancluever,2096,null,https://github.com/vancluever/terraform-null-module,No-op module designed to test the Terraform registry
+module,w6hb,16510,first,https://github.com/w6hb/terraform-first-module,
 module,yuanzhou83,8631,networks,https://github.com/yuanzhou83/terraform-networks-module,
 module-apache,Mteixeira99,12751,aws,https://github.com/Mteixeira99/terraform-aws-module-apache,
 module-apachedemo,vjmidde1252,10716,aws,https://github.com/vjmidde1252/terraform-aws-module-apachedemo,
@@ -6638,6 +6646,7 @@ modules,shubhambhardwaj007,15303,aws,https://github.com/shubhambhardwaj007/terra
 modules,spectrocloud,10531,spectrocloud,https://github.com/spectrocloud/terraform-spectrocloud-modules,
 modules,srabby,5999,aws,https://github.com/srabby/terraform-aws-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
+modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,terraform-cisco-modules,9070,tfe,https://github.com/terraform-cisco-modules/terraform-tfe-modules,Module to Create Terraform workspaces with Intersight IST
 modules,unionai-oss,15373,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 modules,usmc686,1403,TFE,https://github.com/usmc686/terraform-TFE-modules,
