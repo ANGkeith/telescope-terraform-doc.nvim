@@ -385,6 +385,7 @@ alb,mswaroopa11,10354,aws,https://github.com/mswaroopa11/terraform-aws-alb,Terra
 alb,rhythmictech,3119,aws,https://github.com/rhythmictech/terraform-aws-alb,A Terraform module to create an AWS Application Load Balancer (ALB) and associated resources.
 alb,scottwinkler,2517,aws,https://github.com/scottwinkler/terraform-aws-alb,
 alb,snowplow-devops,9290,aws,https://github.com/snowplow-devops/terraform-aws-alb,
+alb,sohanyadav,16528,aws,https://github.com/sohanyadav/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources
 alb,terraform-alicloud-modules,12688,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-alb,Terraform module which creates Application load balancer on Alibaba Cloud.
 alb,terraform-aws-modules,503,aws,https://github.com/terraform-aws-modules/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources 🇺🇦
 alb,tmknom,1810,aws,https://github.com/tmknom/terraform-aws-alb,Terraform module which creates ALB resources on AWS.
@@ -1288,6 +1289,7 @@ azure,ortacu,7070,aks,https://github.com/ortacu/terraform-aks-azure,
 azure,yanehi,12975,appservice,https://github.com/yanehi/terraform-appservice-azure,
 azure-aadds,ravensorb,13524,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-aadds,Terraform module for creating and setting up Azure Active Directory Domain Servers (AADS)
 azure-auth-method,devops-rob,11709,vault,https://github.com/devops-rob/terraform-vault-azure-auth-method,This Terraform module enables and configures teh Azure auth method in HashiCorp Vault to enable workload authentication from Azure to HashiCorp Vault.
+azure-backup,ravensorb,16530,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-backup,Terraform module for setting up Azure Backup
 azure-bastion,kumarvna,6268,azurerm,https://github.com/kumarvna/terraform-azurerm-azure-bastion,Terraform module to create fully platform-managed Azure bastion PaaS service.
 azure-bastion,ravensorb,13967,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-bastion,Terraform module for creating an Azure Bastion Service
 azure-caf-hub-vnet,ravensorb,13527,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-caf-hub-vnet,Terraform module for creating a hub network based on the Microsoft recommended Hub-Spoke network topology 
@@ -2841,6 +2843,7 @@ devhost,v-bus,4417,hcloud,https://github.com/v-bus/terraform-hcloud-devhost,
 devhost,v-bus,4776,digitalocean,https://github.com/v-bus/terraform-digitalocean-devhost,
 device-selection-policy,netascode,10396,aci,https://github.com/netascode/terraform-aci-device-selection-policy,Terraform Cisco ACI Device Selection Policy Module
 devops-nexus,integr8,1085,aws,https://github.com/integr8/terraform-aws-devops-nexus,
+devops-project,twiessner,16537,azure,https://github.com/twiessner/terraform-azure-devops-project,Terraform module to use Azure Devops services at scale.
 devops-selenium,integr8,1083,aws,https://github.com/integr8/terraform-aws-devops-selenium,Terraform module to provision a selenium hub cluster on AWS
 devops-tools-conf,toluna-terraform,9839,aws,https://github.com/toluna-terraform/terraform-aws-devops-tools-conf,
 devops-vpc,integr8,1081,aws,https://github.com/integr8/terraform-aws-devops-vpc,
@@ -5945,6 +5948,7 @@ labels,appzen-oss,2026,null,https://github.com/appzen-oss/terraform-null-labels,
 labels,clouddrove,11435,azure,https://github.com/clouddrove/terraform-azure-labels,
 labels,clouddrove,5032,digitalocean,https://github.com/clouddrove/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 labels,clouddrove,9019,aws,https://github.com/clouddrove/terraform-aws-labels,
+labels,cloudlovers,16529,google,https://github.com/cloudlovers/terraform-google-labels,
 labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-null-labels,Terraform module to create consistent naming for multiple names
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 lacme,mpalmer,10647,module,https://github.com/mpalmer/terraform-module-lacme,Get certificates from an ACME CA (like Let's Encrypt) using AWS Lambdas
@@ -6106,6 +6110,7 @@ lambda-permission,Cloud-42,3569,aws,https://github.com/Cloud-42/terraform-aws-la
 lambda-poweroff,giuliocalzolari,12082,aws,https://github.com/giuliocalzolari/terraform-aws-lambda-poweroff,AWS Lambda poweroff EC2/RDS for all region with timezone
 lambda-proxy,sprutner,696,aws,https://github.com/sprutner/terraform-aws-lambda-proxy,
 lambda-proxy-integration,fukubaka0825,3335,aws,https://github.com/fukubaka0825/terraform-aws-lambda-proxy-integration,terraform public module to make Lambda and proxy API Gateway
+lambda-pyodbc-layer39-mssql,truemark,16534,aws,https://github.com/truemark/terraform-aws-lambda-pyodbc-layer39-mssql,
 lambda-python,express42,2039,aws,https://github.com/express42/terraform-aws-lambda-python,
 lambda-python,rekcah78,7155,aws,https://github.com/rekcah78/terraform-aws-lambda-python,A module that allows you to cleanly package python source code and dependencies and deploy it as a AWS Lambda function
 lambda-python-archive,mjiao,7410,aws,https://github.com/mjiao/terraform-aws-lambda-python-archive,Package python source and dependencies into Lambda package with stable hash.
@@ -6694,7 +6699,7 @@ monitoring,vistaprint,2994,newrelic,https://github.com/vistaprint/terraform-newr
 monitoring-bundle,blackbird-cloud,15824,helm,https://github.com/blackbird-cloud/terraform-helm-monitoring-bundle,"Core module of monitoring bundle, contains deployment of both prometheus and grafana"
 monitoring-cluster,Mtt6300,4760,kubernetes,https://github.com/Mtt6300/terraform-kubernetes-monitoring-cluster,Monitoring tools for k8s cluster by using Terraform
 monitoring-deployment,jakoberpf,12493,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-monitoring-deployment,
-monitoring-notification-channel,mineiros-io,11281,google,https://github.com/mineiros-io/terraform-google-monitoring-notification-channel,A Terraform module to manage monitoring Notification Channels on Google Cloud Platform (GCP) https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/monitoring_notification_channel
+monitoring-notification-channel,mineiros-io,11281,google,https://github.com/mineiros-io/terraform-google-monitoring-notification-channel,A Terraform module to manage monitoring Notification Channels in Google Cloud https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/monitoring_notification_channel
 monitoring-policies,Nepomuceno,10199,azurerm,https://github.com/Nepomuceno/terraform-azurerm-monitoring-policies,
 monitoring-policy,netascode,9946,aci,https://github.com/netascode/terraform-aci-monitoring-policy,Terraform Cisco ACI Monitoring Policy Module
 monitoring-prometheus,mateothegreat,8296,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-monitoring-prometheus,Prometheus deployment kit for production instrumented by Terraform.
@@ -7590,6 +7595,7 @@ pritunl-vpn-server,opsgang,1071,aws,https://github.com/opsgang/terraform-aws-pri
 private-agents,dcos-terraform,1385,aws,https://github.com/dcos-terraform/terraform-aws-private-agents,Create DC/OS private agents and install DC/OS
 private-agents,dcos-terraform,1513,gcp,https://github.com/dcos-terraform/terraform-gcp-private-agents,Create DC/OS Private Agents instance and have conditional DC/OS Prereqs for gcp
 private-agents,dcos-terraform,1542,azurerm,https://github.com/dcos-terraform/terraform-azurerm-private-agents,Create DC/OS Private Agents instance and have conditional DC/OS prereqs for Azure
+private-and-public-subnet,caherrera,16533,aws,https://github.com/caherrera/terraform-aws-private-and-public-subnet,Another simple wrap module for create public and private subnet
 private-bastion,memes,12092,google,https://github.com/memes/terraform-google-private-bastion,Terraform module to provision a bastion that initialises from artifact or container registry
 private-cloud,sagittaros,7430,k3s,https://github.com/sagittaros/terraform-k3s-private-cloud,"Private cluster with k3s. Why have 1 huge complicated cluster (pet) when you can have many simple, cheap clusters (cattle)?"
 private-dns,data-platform-hq,16006,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-dns,Terraform module for managing Azure Private DNS
@@ -7712,6 +7718,7 @@ public-lambda-layer,Invicton-Labs,14071,aws,https://github.com/Invicton-Labs/ter
 public-lb,libre-devops,13134,azurerm,https://github.com/libre-devops/terraform-azurerm-public-lb,"A module which tries to follow the ""KISS"" design model to deploying a Public Azure Load Balancer.  Will created 1 LBs,  a Public IP, a backend pool and a rule based on some parameters :knife:"
 public-msk,cgetzen,4971,aws,https://github.com/cgetzen/terraform-aws-public-msk,Terraform module that exposes an existing MSK cluster to the internet
 public-route53-zone,traveloka,899,aws,https://github.com/traveloka/terraform-aws-public-route53-zone,A terraform module which provisions a Public Route53 Hosted Zone
+public-subnet,caherrera,16532,aws,https://github.com/caherrera/terraform-aws-public-subnet,Short and simple create an public subnet. 
 public-website,bwindsor,5553,aws,https://github.com/bwindsor/terraform-aws-public-website,"Creates a public website behind a cloudfront distribution, SSL enabled, support for multiple domain names, CORS configured"
 public-website,scaffoldly,9455,aws,https://github.com/scaffoldly/terraform-aws-public-website,
 public-website-distribution,scaffoldly,9453,aws,https://github.com/scaffoldly/terraform-aws-public-website-distribution,Create a CloudFront Distribution and S3 bucket for a service and stage
@@ -8129,6 +8136,7 @@ registry,shestera,6166,yandex,https://github.com/shestera/terraform-yandex-regis
 release,AlexReisSantos,12713,helm,https://github.com/AlexReisSantos/terraform-helm-release,
 release,JamesWoolfenden,7812,helm,https://github.com/JamesWoolfenden/terraform-helm-release,
 release,SPHTech-Platform,16240,helm,https://github.com/SPHTech-Platform/terraform-helm-release,Terraform module to deploy a generic Helm Chart
+release,axetrading,16531,helm,https://github.com/axetrading/terraform-helm-release,
 release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
 release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
 release,edalferes,4665,helm,https://github.com/edalferes/terraform-helm-release,Terraform module deployment helm chart k8s
@@ -8767,6 +8775,7 @@ s3backend,noushi,4152,aws,https://github.com/noushi/terraform-aws-s3backend,
 s3backend,peterburrows,9910,aws,https://github.com/peterburrows/terraform-aws-s3backend,
 s3backend,pink-paws,10261,aws,https://github.com/pink-paws/terraform-aws-s3backend,
 s3backend,raed-sebti,4081,aws,https://github.com/raed-sebti/terraform-aws-s3backend,
+s3backend,roberto-mb-gamez,16535,aws,https://github.com/roberto-mb-gamez/terraform-aws-s3backend,
 s3backend,roni3103,4167,aws,https://github.com/roni3103/terraform-aws-s3backend,from tf training
 s3backend,roseacre,4323,aws,https://github.com/roseacre/terraform-aws-s3backend,
 s3backend,sbarrett08,4168,aws,https://github.com/sbarrett08/terraform-aws-s3backend,training
@@ -9693,6 +9702,7 @@ static-website,hugofabricio,8468,aws,https://github.com/hugofabricio/terraform-a
 static-website,jungopro,2636,azurerm,https://github.com/jungopro/terraform-azurerm-static-website,Terraform Module to create a storage container with static website enabled on Azure
 static-website,mazgi,774,aws,https://github.com/mazgi/terraform-aws-static-website,
 static-website,neovops,7815,aws,https://github.com/neovops/terraform-aws-static-website,Terraform module to deploy static website on AWS with S3 and CloudFront.
+static-website,prithvirajkc,16536,azurerm,https://github.com/prithvirajkc/terraform-azurerm-static-website,
 static-website,realglobe-Inc,2630,aws,https://github.com/realglobe-Inc/terraform-aws-static-website,Provision a static website hosted through S3 + CloudFront + Route53 in AWS
 static-website,sebastianmontero,14226,google,https://github.com/sebastianmontero/terraform-google-static-website,Creates the required google infrastructure to host a static website
 static-website,stuartizon,4739,aws,https://github.com/stuartizon/terraform-aws-static-website,Terraform module which creates all the resources you'll need to run a static website with AWS S3 and CloudFront
@@ -9914,6 +9924,7 @@ subnets,kmayer10,13381,aws,https://github.com/kmayer10/terraform-aws-subnets,ter
 subnets,marceloalmeida,4468,cidr,https://github.com/marceloalmeida/terraform-cidr-subnets,Terraform CIDR Subnets Module
 subnetwork,mineiros-io,12935,google,https://github.com/mineiros-io/terraform-google-subnetwork,A Terraform module to create and manage a subnet for a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
 subnetwork-iam,mineiros-io,12936,google,https://github.com/mineiros-io/terraform-google-subnetwork-iam,A Terraform module to manage Identity and Access Management (IAM) for subnets of a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
+subscription,bootlabstech,16527,google,https://github.com/bootlabstech/terraform-google-subscription,It will create subscription
 subscription,getindata,15244,azurerm,https://github.com/getindata/terraform-azurerm-subscription,Terraform Module for Azure Subscription
 subscription,servian,5677,azurerm,https://github.com/servian/terraform-azurerm-subscription,Terraform module for Azure Subscription
 subscription-base,westpac-terraform-registry,603,azurerm,https://github.com/westpac-terraform-registry/terraform-azurerm-subscription-base,Base resources to create and peer a subscription
