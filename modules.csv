@@ -797,7 +797,7 @@ artifact-registry,binxio,8235,google,https://github.com/binxio/terraform-google-
 artifact-registry,dapperlabs-platform,10288,google,https://github.com/dapperlabs-platform/terraform-google-artifact-registry,Google Cloud Artifact Registry Module
 artifact-registry,teamdatatonic,8374,gcp,https://github.com/teamdatatonic/terraform-gcp-artifact-registry,
 artifact-registry-repository,mineiros-io,11353,google,https://github.com/mineiros-io/terraform-google-artifact-registry-repository,A Terraform module to deploy and manage Google Artifact Registry repositories on Google Cloud Platform (GCP) https://cloud.google.com/artifact-registry
-artifact-registry-repository-iam,mineiros-io,11354,google,https://github.com/mineiros-io/terraform-google-artifact-registry-repository-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Artifact Registry repositories on Google Cloud Platform (GCP) https://cloud.google.com/artifact-registry
+artifact-registry-repository-iam,mineiros-io,11354,google,https://github.com/mineiros-io/terraform-google-artifact-registry-repository-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Artifact Registry repositories in Google Cloud https://cloud.google.com/artifact-registry
 artifactory,JamesWoolfenden,7052,aws,https://github.com/JamesWoolfenden/terraform-aws-artifactory,A basic module to provision artifactory
 artifactory,jainishshah17,800,aws,https://github.com/jainishshah17/terraform-aws-artifactory,Terraform Template to deploy Artifactory Enterprise
 artifactory,uridium,10021,jfrog,https://github.com/uridium/terraform-jfrog-artifactory,Terraform JFrog module which creates a Local Artifactory repository
@@ -3074,7 +3074,7 @@ docker-instance,cobany,16398,aws,https://github.com/cobany/terraform-aws-docker-
 docker-instance,coskunk5,14669,aws,https://github.com/coskunk5/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,damlab45,16333,aws,https://github.com/damlab45/terraform-aws-docker-instance,
 docker-instance,deepvirtualdoubts,14721,aws,https://github.com/deepvirtualdoubts/terraform-aws-docker-instance,
-docker-instance,devopswizard,15043,aws,https://github.com/devopswizard/terraform-aws-docker-instance,
+docker-instance,devopswizard,16555,aws,https://github.com/devopswizard/terraform-aws-docker-instance,
 docker-instance,durul55,16301,aws,https://github.com/durul55/terraform-aws-docker-instance,
 docker-instance,eakkaya64,16285,aws,https://github.com/eakkaya64/terraform-aws-docker-instance,
 docker-instance,ebagovtere,16299,aws,https://github.com/ebagovtere/terraform-aws-docker-instance,
@@ -3146,6 +3146,7 @@ docker-instance,ozy31,16362,aws,https://github.com/ozy31/terraform-aws-docker-in
 docker-instance,pol-ayt,16293,aws,https://github.com/pol-ayt/terraform-aws-docker-instance,
 docker-instance,quinzone,14647,aws,https://github.com/quinzone/terraform-aws-docker-instance,
 docker-instance,ralbero,16423,aws,https://github.com/ralbero/terraform-aws-docker-instance,
+docker-instance,rammatank,16540,aws,https://github.com/rammatank/terraform-aws-docker-instance,
 docker-instance,rasitirmak,14687,aws,https://github.com/rasitirmak/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,renatsylr,16352,aws,https://github.com/renatsylr/terraform-aws-docker-instance,
 docker-instance,rknktm,15029,aws,https://github.com/rknktm/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -3995,6 +3996,7 @@ eks,turanmehmet,7904,aws,https://github.com/turanmehmet/terraform-aws-eks,Creati
 eks,tutac,6915,aws,https://github.com/tutac/terraform-aws-eks,
 eks,vainkop,9016,aws,https://github.com/vainkop/terraform-aws-eks,terraform-aws-eks
 eks,vitaliburak,6934,aws,https://github.com/vitaliburak/terraform-aws-eks,
+eks,web-virtua-aws-multi-account-modules,16541,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-eks,
 eks,wjdwlstjd7,15972,aws,https://github.com/wjdwlstjd7/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,xchan,13089,aws,https://github.com/xchan/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS 🇺🇦
 eks,yasirbil,5470,aws,https://github.com/yasirbil/terraform-aws-eks,
@@ -7392,6 +7394,8 @@ parameter-store,srinadhkumarch,9778,aws,https://github.com/srinadhkumarch/terraf
 parameter-store-task,QuiNovas,2319,aws,https://github.com/QuiNovas/terraform-aws-parameter-store-task,Module that implements the lambdalambdalambda function parameter-store-task
 parameterstore,tomarv2,12368,aws,https://github.com/tomarv2/terraform-aws-parameterstore,Terraform module for AWS SSM ParameterStore
 paramstore-module,dirnikk,9156,ssm,https://github.com/dirnikk/terraform-ssm-paramstore-module,Module for AWS ssm params
+parked-domain-baseline,nozaq,16538,aws,https://github.com/nozaq/terraform-aws-parked-domain-baseline,A terraform module to set up DNS records to harden the parked(unused) domain using AWS Route53.
+parked-domain-baseline,nozaq,16539,google,https://github.com/nozaq/terraform-google-parked-domain-baseline,A terraform module to set up DNS records to harden the parked(unused) domain using GCP Cloud DNS.
 parser-helm,jd4883,14248,chart,https://github.com/jd4883/terraform-chart-parser-helm,A simple but clean helm chart parser. Build as a wrapper around the `helm` terraform provider
 passport,Young-ook,9787,aws,https://github.com/Young-ook/terraform-aws-passport,Terraform Module: Identity and Access Management
 password-policy,QuiNovas,1475,aws,https://github.com/QuiNovas/terraform-aws-password-policy,Sets a strong password policy for an AWS account
@@ -9386,7 +9390,7 @@ smart-vpc,jjno91,2063,aws,https://github.com/jjno91/terraform-aws-smart-vpc,Crea
 smartvan28-instance,smartvan28,16057,registry,https://github.com/smartvan28/terraform-registry-smartvan28-instance,
 smartvan28-monitoring,smartvan28,16112,registry,https://github.com/smartvan28/terraform-registry-smartvan28-monitoring,
 smartvan28-network,smartvan28,16113,registry,https://github.com/smartvan28/terraform-registry-smartvan28-network,
-smartvan28-runner,smartvan28,16157,registry,https://github.com/smartvan28/terraform-registry-smartvan28-runner,
+smartvan28-runner,smartvan28,16542,registry,https://github.com/smartvan28/terraform-registry-smartvan28-runner,
 smtp-mail,cloudposse,1720,null,https://github.com/cloudposse/terraform-null-smtp-mail,Terraform module to send transactional emails via an SMTP server (e.g. mailgun)
 snapshot,robertdebock,14216,vault,https://github.com/robertdebock/terraform-vault-snapshot,
 snat,terraform-alicloud-modules,4214,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-snat,Terraform Module for creating several SNAT entries for Nat Gateway on  Alibaba Cloud.
