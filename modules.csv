@@ -1511,6 +1511,7 @@ bigip-module,arielazem,7113,azure,https://github.com/arielazem/terraform-azure-b
 bigquery,terraform-google-modules,2299,google,https://github.com/terraform-google-modules/terraform-google-bigquery,This module allows you to create opinionated Google Cloud Platform BigQuery datasets and tables.
 bigquery-dataset,mineiros-io,11355,google,https://github.com/mineiros-io/terraform-google-bigquery-dataset,"A Terraform module to deploy and manage datasets in Google BigQuery, a serverless, highly scalable, and cost-effective multicloud data warehouse designed for business agility.on Google Cloud Platform (GCP) https://cloud.google.com/bigquery"
 bigquery-dataset-iam,mineiros-io,11356,google,https://github.com/mineiros-io/terraform-google-bigquery-dataset-iam,A Terraform module to manage Identity and Access Management (IAM) for datasets in Google BigQuery repositories on Google Cloud Platform (GCP) https://cloud.google.com/bigquery
+bigquery-loader-pubsub-ce,snowplow-devops,16562,google,https://github.com/snowplow-devops/terraform-google-bigquery-loader-pubsub-ce,
 bigquery-view,janjagusch,5364,google,https://github.com/janjagusch/terraform-google-bigquery-view,A Terraform module for creating BigQuery views
 bigtable,bootlabstech,14321,google,https://github.com/bootlabstech/terraform-google-bigtable,
 billing,DNXLabs,5723,aws,https://github.com/DNXLabs/terraform-aws-billing,AWS Billing Module 
@@ -1660,6 +1661,7 @@ caf-virtual-network-spoke,kumarvna,5438,azurerm,https://github.com/kumarvna/terr
 caf-vm,aztfmod,4066,azurerm,https://github.com/aztfmod/terraform-azurerm-caf-vm,Azure Virtual Machine module for Cloud Adoption Framework for Azure landing zones
 camellia,ninthnails,4514,aws,https://github.com/ninthnails/terraform-aws-camellia,Terraform module which creates a cluster of Apache Kafka brokers along with Yahoo CMAK and LinkedIn Cruise Control.
 camellia-image,ninthnails,4513,aws,https://github.com/ninthnails/terraform-aws-camellia-image,Terraform module which creates Amazon Machine Images (AMI) for Camellia using HashiCorp Packer and AWS CodeBuild.
+canary,kaihendry,16565,aws,https://github.com/kaihendry/terraform-aws-canary,Terraform Amazon CloudWatch Synthetics to create canaries
 canary-security-sensor-capture-rest-api,joshdurbin,156,aws,https://github.com/joshdurbin/terraform-aws-canary-security-sensor-capture-rest-api,A TF module for periodically checking in with the Canary API to capture and store Canary sensor data in dynamodb tables and produce an API endpoint for accessing the data.
 cap-merge,nullstone-modules,9317,ns,https://github.com/nullstone-modules/terraform-ns-cap-merge,Terraform module to merge outputs from multiple Nullstone modules
 cardano,regel,11619,azure,https://github.com/regel/terraform-azure-cardano,A Terraform Module for how to run Cardano on Azure using Terraform
@@ -2971,6 +2973,7 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker-container,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-damla,damlab45,16416,aws,https://github.com/damlab45/terraform-aws-docker-damla,
+docker-ec2,vlkn38akyz,16564,aws,https://github.com/vlkn38akyz/terraform-aws-docker-ec2,Terraform module which creates a docker instance resource on AWS.
 docker-ec2-instance,RamizMrt,16402,aws,https://github.com/RamizMrt/terraform-aws-docker-ec2-instance,
 docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
 docker-ec2-instance,hm-keles,16128,aws,https://github.com/hm-keles/terraform-aws-docker-ec2-instance,
@@ -2983,7 +2986,7 @@ docker-instance,8mehmet11,15710,aws,https://github.com/8mehmet11/terraform-aws-d
 docker-instance,AAsimCoskun,14624,aws,https://github.com/AAsimCoskun/terraform-aws-docker-instance,
 docker-instance,ABlest8,14664,aws,https://github.com/ABlest8/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,AkgunD,16280,aws,https://github.com/AkgunD/terraform-aws-docker-instance,
-docker-instance,AlexDuncan2100,15012,aws,https://github.com/AlexDuncan2100/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,AlexDuncan2100,16580,aws,https://github.com/AlexDuncan2100/terraform-aws-docker-instance,
 docker-instance,AnthonyDelCato,14754,aws,https://github.com/AnthonyDelCato/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Aslantekin,16334,aws,https://github.com/Aslantekin/terraform-aws-docker-instance,
 docker-instance,Awesome28208,16354,aws,https://github.com/Awesome28208/terraform-aws-docker-instance,
@@ -2996,6 +2999,7 @@ docker-instance,CIHATYILDIRIM,16329,aws,https://github.com/CIHATYILDIRIM/terrafo
 docker-instance,CihanKuku,16348,aws,https://github.com/CihanKuku/terraform-aws-docker-instance,
 docker-instance,CyberSuat,16397,aws,https://github.com/CyberSuat/terraform-aws-docker-instance,
 docker-instance,Derekondevops,16294,aws,https://github.com/Derekondevops/terraform-aws-docker-instance,
+docker-instance,EminUnsal,16571,aws,https://github.com/EminUnsal/terraform-aws-docker-instance,
 docker-instance,EmirhanImranTuzel,16493,aws,https://github.com/EmirhanImranTuzel/terraform-aws-docker-instance,
 docker-instance,F-4308-ENG,16324,aws,https://github.com/F-4308-ENG/terraform-aws-docker-instance,
 docker-instance,F3525-Ice,16302,aws,https://github.com/F3525-Ice/terraform-aws-docker-instance,
@@ -3005,6 +3009,7 @@ docker-instance,F4481sinan,16351,aws,https://github.com/F4481sinan/terraform-aws
 docker-instance,GavaTech,14697,aws,https://github.com/GavaTech/terraform-aws-docker-instance,
 docker-instance,GencVahti,16374,aws,https://github.com/GencVahti/terraform-aws-docker-instance,
 docker-instance,GylychJelilov,14666,aws,https://github.com/GylychJelilov/terraform-aws-docker-instance,
+docker-instance,HIANDIC,16569,aws,https://github.com/HIANDIC/terraform-aws-docker-instance,
 docker-instance,HaciYasar,14653,aws,https://github.com/HaciYasar/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS
 docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Hvlkrs,15031,aws,https://github.com/Hvlkrs/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -3013,6 +3018,7 @@ docker-instance,JamesFrostyy,15706,aws,https://github.com/JamesFrostyy/terraform
 docker-instance,JasminYousef,15045,aws,https://github.com/JasminYousef/terraform-aws-docker-instance,
 docker-instance,JasonmKahraman,14700,aws,https://github.com/JasonmKahraman/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,JohnWhyter,14699,aws,https://github.com/JohnWhyter/terraform-aws-docker-instance,
+docker-instance,KaityLeG,16579,aws,https://github.com/KaityLeG/terraform-aws-docker-instance,
 docker-instance,Kaplanibrahim,14726,aws,https://github.com/Kaplanibrahim/terraform-aws-docker-instance,
 docker-instance,KeremKaragulle,16290,aws,https://github.com/KeremKaragulle/terraform-aws-docker-instance,
 docker-instance,MAcikel,16357,aws,https://github.com/MAcikel/terraform-aws-docker-instance,
@@ -3069,6 +3075,7 @@ docker-instance,bhandary1419,14698,aws,https://github.com/bhandary1419/terraform
 docker-instance,bournemouth91,16372,aws,https://github.com/bournemouth91/terraform-aws-docker-instance,
 docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,burhanca,16376,aws,https://github.com/burhanca/terraform-aws-docker-instance,
+docker-instance,cagatayakk,16568,aws,https://github.com/cagatayakk/terraform-aws-docker-instance,
 docker-instance,casilys,16355,aws,https://github.com/casilys/terraform-aws-docker-instance,
 docker-instance,cetinakkaya,16317,aws,https://github.com/cetinakkaya/terraform-aws-docker-instance,
 docker-instance,cmakkaya,16326,aws,https://github.com/cmakkaya/terraform-aws-docker-instance,
@@ -3076,7 +3083,7 @@ docker-instance,cobany,16398,aws,https://github.com/cobany/terraform-aws-docker-
 docker-instance,coskunk5,14669,aws,https://github.com/coskunk5/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,damlab45,16333,aws,https://github.com/damlab45/terraform-aws-docker-instance,
 docker-instance,deepvirtualdoubts,14721,aws,https://github.com/deepvirtualdoubts/terraform-aws-docker-instance,
-docker-instance,devopswizard,16555,aws,https://github.com/devopswizard/terraform-aws-docker-instance,
+docker-instance,devopswizard,16570,aws,https://github.com/devopswizard/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,durul55,16301,aws,https://github.com/durul55/terraform-aws-docker-instance,
 docker-instance,eakkaya64,16285,aws,https://github.com/eakkaya64/terraform-aws-docker-instance,
 docker-instance,ebagovtere,16299,aws,https://github.com/ebagovtere/terraform-aws-docker-instance,
@@ -3088,6 +3095,7 @@ docker-instance,f4323-Aziz,16332,aws,https://github.com/f4323-Aziz/terraform-aws
 docker-instance,f4354aysun,16368,aws,https://github.com/f4354aysun/terraform-aws-docker-instance,
 docker-instance,farukisik10,16356,aws,https://github.com/farukisik10/terraform-aws-docker-instance,
 docker-instance,fatihabdioglu,16330,aws,https://github.com/fatihabdioglu/terraform-aws-docker-instance,
+docker-instance,furkanalp,16567,aws,https://github.com/furkanalp/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,gncalper,14709,aws,https://github.com/gncalper/terraform-aws-docker-instance,
 docker-instance,gokhanoylum,16292,aws,https://github.com/gokhanoylum/terraform-aws-docker-instance,
 docker-instance,gokhanwell,16300,aws,https://github.com/gokhanwell/terraform-aws-docker-instance,
@@ -3108,6 +3116,7 @@ docker-instance,jasperdara222,14733,aws,https://github.com/jasperdara222/terrafo
 docker-instance,johnwise2022,16364,aws,https://github.com/johnwise2022/terraform-aws-docker-instance,
 docker-instance,jonathan4926,16328,aws,https://github.com/jonathan4926/terraform-aws-docker-instance,
 docker-instance,joseph-saint,14668,aws,https://github.com/joseph-saint/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,kanearona,16582,aws,https://github.com/kanearona/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS.
 docker-instance,karacaaslan,16378,aws,https://github.com/karacaaslan/terraform-aws-docker-instance,
 docker-instance,kaslan65,14644,aws,https://github.com/kaslan65/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,kayretlifatih,16349,aws,https://github.com/kayretlifatih/terraform-aws-docker-instance,
@@ -5385,6 +5394,7 @@ instances,ulm0,3341,scaleway,https://github.com/ulm0/terraform-scaleway-instance
 integrations,TaitoUnited,10711,aws,https://github.com/TaitoUnited/terraform-aws-integrations,
 integrations,TaitoUnited,8228,azurerm,https://github.com/TaitoUnited/terraform-azurerm-integrations,
 integrations,claranet,3654,datadog,https://github.com/claranet/terraform-datadog-integrations,Manage Datadog integrations with terraform dedicated modules.
+integrations,honeycombio,16583,aws,https://github.com/honeycombio/terraform-aws-integrations,Terraform module to integrate Honeycomb and AWS
 interactsh,Explorer1092,13994,x,https://github.com/Explorer1092/terraform-x-interactsh,
 interactsh_web,Explorer1092,13988,x,https://github.com/Explorer1092/terraform-x-interactsh_web,
 intercom,adriantr,14332,google,https://github.com/adriantr/terraform-google-intercom,Google module for setting up SSL for intercom
@@ -6314,6 +6324,7 @@ load-balanced-ecs-service,mergermarket,3704,acuris,https://github.com/mergermark
 load-balanced-ecs-service-no-target-group,mergermarket,14255,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service-no-target-group,sub module to create ECS service in various configurations
 load-balanced-vms,GoogleCloudPlatform,15074,google,https://github.com/GoogleCloudPlatform/terraform-google-load-balanced-vms,
 load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP
+load-balancer,axetrading,16575,aws,https://github.com/axetrading/terraform-aws-load-balancer,
 load-balancer,bayudwiyansatria,11174,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-load-balancer,Provisioning Hetzner Cloud Load Balancer
 load-balancer,figurate,5182,aws,https://github.com/figurate/terraform-aws-load-balancer,Templates for load balancer configurations
 load-balancer,garbetjie,2626,google,https://github.com/garbetjie/terraform-google-load-balancer,Terraform 0.12 module to simplify the creation of a load balancer.
@@ -8846,6 +8857,7 @@ sagemaker-iam-role,dod-iac,8381,aws,https://github.com/dod-iac/terraform-aws-sag
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 sam,xiaohei417,11290,tf,https://github.com/xiaohei417/terraform-tf-sam,
+sam-gitflow,toluna-terraform,16573,aws,https://github.com/toluna-terraform/terraform-aws-sam-gitflow,
 sam-pipeline,toluna-terraform,9556,aws,https://github.com/toluna-terraform/terraform-aws-sam-pipeline,
 saml,ballj,11772,keycloak,https://github.com/ballj/terraform-keycloak-saml,SAML module
 saml,zoitech,202,aws,https://github.com/zoitech/terraform-aws-saml,Terraform module which creates AWS access via SAML.
@@ -9996,6 +10008,7 @@ tags,WeAreRetail,16523,azurerm,https://github.com/WeAreRetail/terraform-azurerm-
 tags,agisoft-cloud,5463,null,https://github.com/agisoft-cloud/terraform-null-tags,Tag helper terraform module
 tags,aws-ia,13084,vsphere,https://github.com/aws-ia/terraform-vsphere-tags,"The vSphere tags Terraform module either creates or imports a tag category as well as a list of tags in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects."
 tags,cloudopsworks,12930,local,https://github.com/cloudopsworks/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
+tags,clowdhaus,16576,aws,https://github.com/clowdhaus/terraform-aws-tags,Terraform module to manage organization wide standard tag structure and minimum required tags
 tags,elasticguru,5715,local,https://github.com/elasticguru/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
 tags,elioseverojunior,13400,module,https://github.com/elioseverojunior/terraform-module-tags,terraform-module-tags
 tags,hadenlabs,8353,null,https://github.com/hadenlabs/terraform-null-tags,Terraform tags
@@ -10514,6 +10527,7 @@ vm,crayon,15831,azurerm,https://github.com/crayon/terraform-azurerm-vm,"This mod
 vm,divlv,16175,divlv,https://github.com/divlv/terraform-divlv-vm,Terraform module for Azure Virtula machine
 vm,gnodivad,11209,cloud,https://github.com/gnodivad/terraform-cloud-vm,
 vm,hicdss,2725,azure,https://github.com/hicdss/terraform-azure-vm,Terraform module for Azure vm
+vm,kubmeta,16572,google,https://github.com/kubmeta/terraform-google-vm,This is a collection of opinionated submodules that can be used to provision VMs in GCP.
 vm,mikesmake,10921,azurerm,https://github.com/mikesmake/terraform-azurerm-vm,
 vm,mohammedamirk,2793,vsphere,https://github.com/mohammedamirk/terraform-vsphere-vm,Terraform vSphere module for provisioning Virtual Machines
 vm,monbostest,11929,aws,https://github.com/monbostest/terraform-aws-vm,This module will be used to create a vm
