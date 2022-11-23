@@ -244,6 +244,7 @@ addons,free-devops,5845,kubernetes,https://github.com/free-devops/terraform-kube
 addons,particuleio,6559,kubernetes,https://github.com/particuleio/terraform-kubernetes-addons,Terraform module to deploy curated Kubernetes middlewares on multiple cloud providers.
 address,terraform-google-modules,2009,google,https://github.com/terraform-google-modules/terraform-google-address,A Terraform module for managing Google Cloud IP addresses.
 address-group-builder,StratusGrid,5917,fortios,https://github.com/StratusGrid/terraform-fortios-address-group-builder,"This module takes a map of network configurations and makes address groups for each one, nested in an address group."
+adfinis-governance,adfinis,16584,azurerm,https://github.com/adfinis/terraform-azurerm-adfinis-governance,Terraform Module for providing the basic variables of the Adfinis Azure governance
 adhilas3,adhilaea,12228,aws,https://github.com/adhilaea/terraform-aws-adhilas3,
 adls-v2,data-platform-hq,15909,azurerm,https://github.com/data-platform-hq/terraform-azurerm-adls-v2,Terraform module for managing Azure Datalake Storage gen2
 admin,TaitoUnited,10707,aws,https://github.com/TaitoUnited/terraform-aws-admin,
@@ -2536,7 +2537,7 @@ core,ntangy,3310,alks,https://github.com/ntangy/terraform-alks-core,
 core-parameters,nuvibit,16271,aws,https://github.com/nuvibit/terraform-aws-core-parameters,Terraform module to store and read a terraform HCL map via AWS SSM Parameter Store.
 coredns-op-pack,terraform-shoreline-modules,12906,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-op-pack,Shoreline platform Op Packs (Terraform modules) for CoreDNS latency alerting and remediation.
 coreos-vm,www-aiqu-no,2613,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-coreos-vm,Deploy CoreOS virtual machine to vSphere cluster (from template)
-cos,terraform-ibm-modules,6657,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cos,Configures a Cloud Object Storage instance and bucket with options
+cos,terraform-ibm-modules,6657,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cos,Configures a Cloud Object Storage instance and/or bucket with options
 cos,terraform-tencentcloud-modules,16255,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cos,TencentCloud COS Module for Terraform
 cos,terraform-xnxk-modules,13368,tencentcloud,https://github.com/terraform-xnxk-modules/terraform-tencentcloud-cos,Terraform module which creates tencentcloud cos bucket for each bucket in the list
 cos-spa,Kagashino,11734,tencentcloud,https://github.com/Kagashino/terraform-tencentcloud-cos-spa,This module provides an easy way to upload local Single Application Page Assets to TencentCloud Cloud Object Storage(COS) Bucket.
@@ -2962,6 +2963,7 @@ do-k8s-lb,ondrejsika,4778,module,https://github.com/ondrejsika/terraform-module-
 do-nfs,ondrejsika,4689,module,https://github.com/ondrejsika/terraform-module-do-nfs,
 docdb,boldlink,14299,aws,https://github.com/boldlink/terraform-aws-docdb,Terraform registry repository for DocDB module
 docker,Dhruv0Upadhyay,15304,aws,https://github.com/Dhruv0Upadhyay/terraform-aws-docker,
+docker,HIANDIC,16591,aws,https://github.com/HIANDIC/terraform-aws-docker,
 docker,faisalapp1,9108,nginx,https://github.com/faisalapp1/terraform-nginx-docker,
 docker,scottwinkler,2904,codebuild,https://github.com/scottwinkler/terraform-codebuild-docker,"A Terraform module for building a Docker container during ""terraform apply"""
 docker,shiv0112,9267,aws,https://github.com/shiv0112/terraform-aws-docker,
@@ -3009,7 +3011,6 @@ docker-instance,F4481sinan,16351,aws,https://github.com/F4481sinan/terraform-aws
 docker-instance,GavaTech,14697,aws,https://github.com/GavaTech/terraform-aws-docker-instance,
 docker-instance,GencVahti,16374,aws,https://github.com/GencVahti/terraform-aws-docker-instance,
 docker-instance,GylychJelilov,14666,aws,https://github.com/GylychJelilov/terraform-aws-docker-instance,
-docker-instance,HIANDIC,16569,aws,https://github.com/HIANDIC/terraform-aws-docker-instance,
 docker-instance,HaciYasar,14653,aws,https://github.com/HaciYasar/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS
 docker-instance,HasanBALKANCI,14657,aws,https://github.com/HasanBALKANCI/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Hvlkrs,15031,aws,https://github.com/Hvlkrs/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -3459,6 +3460,7 @@ ec2-instance-profile-builder,StratusGrid,2706,aws,https://github.com/StratusGrid
 ec2-instance-reverse-shell,offensive-terraform,6030,aws,https://github.com/offensive-terraform/terraform-aws-ec2-instance-reverse-shell,Offensive Terraform module which creates EC2 instance and reverse shell from an EC2 instance to attacker machine.
 ec2-instance-role,dod-iac,7979,aws,https://github.com/dod-iac/terraform-aws-ec2-instance-role,IAM role for use as an EC2 instance role
 ec2-instance-simple,trung,462,aws,https://github.com/trung/terraform-aws-ec2-instance-simple,Provision fleet of EC2 instances distributed across subnets
+ec2-instance-type-metrics,snowplow-devops,16592,aws,https://github.com/snowplow-devops/terraform-aws-ec2-instance-type-metrics,
 ec2-instanceswitcher,wakumaku,7964,aws,https://github.com/wakumaku/terraform-aws-ec2-instanceswitcher,"start, stop, reboot or terminate AWS EC2 instances on scheduled times"
 ec2-kali-linux,offensive-terraform,6236,aws,https://github.com/offensive-terraform/terraform-aws-ec2-kali-linux,"Offensive Terraform module which creates Kali Linux from the AWS marketplace and installs cloud security tools (Pacu, Cloudsplaining, ScoutSuite)."
 ec2-key-pair,so1omon563,14602,aws,https://github.com/so1omon563/terraform-aws-ec2-key-pair,Creates an EC2 Key Pair that can be used when launching instances and stores private key in Secrets Manager. Can also import existing keys.
@@ -3569,6 +3571,7 @@ ecr-kms-key,dod-iac,7497,aws,https://github.com/dod-iac/terraform-aws-ecr-kms-ke
 ecr-lifecycle-policy-rule,doingcloudright,1470,aws,https://github.com/doingcloudright/terraform-aws-ecr-lifecycle-policy-rule,Terraform module which creates a JSON lifecycle policy rule for ECR
 ecr-lifecycle-policy-rule,littlejo,15978,aws,https://github.com/littlejo/terraform-aws-ecr-lifecycle-policy-rule,Create a lifecycle policy rule
 ecr-mirror,TechToSpeech,7428,aws,https://github.com/TechToSpeech/terraform-aws-ecr-mirror,A Terraform module that performs a local docker pull and push to a given AWS ECR repository
+ecr-module,Athena-Tech-Services,16590,aws,https://github.com/Athena-Tech-Services/terraform-aws-ecr-module,
 ecr-public,cloudposse,12500,aws,https://github.com/cloudposse/terraform-aws-ecr-public,Terraform Module to manage Public Docker Container Registries on AWS ECR
 ecr-registry,boldlink,14020,aws,https://github.com/boldlink/terraform-aws-ecr-registry,Terraform registry repository for ECR registry module
 ecr-repo,dod-iac,8297,aws,https://github.com/dod-iac/terraform-aws-ecr-repo,An AWS ECR repository
@@ -3639,6 +3642,7 @@ ecs-atlantis,cloudposse,2010,aws,https://github.com/cloudposse/terraform-aws-ecs
 ecs-backend-service,mergermarket,3706,acuris,https://github.com/mergermarket/terraform-acuris-ecs-backend-service,
 ecs-bare-metal-instance,terraform-alicloud-modules,4222,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ecs-bare-metal-instance,Terraform module for creating Bare Metal instance(s) on Alibaba Cloud.
 ecs-bootstrap,terraform-module,14279,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
+ecs-builder,Athena-Tech-Services,16585,aws,https://github.com/Athena-Tech-Services/terraform-aws-ecs-builder,ecs wrapper module
 ecs-capacity-provider,figurate,5681,aws,https://github.com/figurate/terraform-aws-ecs-capacity-provider,Provision an ECS Capacity Provider
 ecs-capacity-provider,ganexcloud,13152,aws,https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider,
 ecs-cloud9,hazelops,4848,aws,https://github.com/hazelops/terraform-aws-ecs-cloud9,Terraform Cloud9 IDE on ECS
@@ -7448,6 +7452,7 @@ pipeline-common-workflow,fmontezuma,2763,aws,https://github.com/fmontezuma/terra
 pipeline-controller,toluna-terraform,11534,aws,https://github.com/toluna-terraform/terraform-aws-pipeline-controller,
 pipeline-eks-deploy,fmontezuma,2765,aws,https://github.com/fmontezuma/terraform-aws-pipeline-eks-deploy,
 pipeline-k8s-common,fmontezuma,2778,aws,https://github.com/fmontezuma/terraform-aws-pipeline-k8s-common,
+pipeline-maker,Athena-Tech-Services,16586,aws,https://github.com/Athena-Tech-Services/terraform-aws-pipeline-maker,
 pipeline-resources,axetrading,14935,axetrading,https://github.com/axetrading/terraform-axetrading-pipeline-resources,Resources to support a AWS CodePipeline
 pipelines,T-Systems-MMS,12101,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-pipelines,Configure Azure DevOps Pipelines
 pki,particuleio,11926,tls,https://github.com/particuleio/terraform-tls-pki,Manage a certificate authority with Terraform
