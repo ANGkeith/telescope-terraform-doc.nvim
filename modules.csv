@@ -401,6 +401,7 @@ alb-cloudwatch-logs-json,claranet,4002,aws,https://github.com/claranet/terraform
 alb-connector,lvthillo,8953,nlb,https://github.com/lvthillo/terraform-nlb-alb-connector,Terraform module to deploy an NLB in front of your ALB and automatically update the targetgroups.
 alb-demo,mkam,10289,aws,https://github.com/mkam/terraform-aws-alb-demo,Terraform module for demoing AWS load balancers and Consul-Terraform-Sync
 alb-ecs-task,rhythmictech,5163,aws,https://github.com/rhythmictech/terraform-aws-alb-ecs-task,Simple ECS task behind an ALB with CloudWatch logging. Batteries included. 
+alb-error-rate-based-alarm,topotal,16593,aws,https://github.com/topotal/terraform-aws-alb-error-rate-based-alarm,Terraform module for creating AWS ALB Error rate based CloudWatch Alarm.
 alb-for-vpc-internal-requests,babbel,7629,aws,https://github.com/babbel/terraform-aws-alb-for-vpc-internal-requests,Terraform module creating a private ALB for VPC-internal requests
 alb-http,terraform-alicloud-modules,12820,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-alb-http,Terraform Module for creating HTTP listener for Application Load Balancer and setting forwarding rules on Alibaba Cloud.
 alb-http-listener,deepak7093,1608,aws,https://github.com/deepak7093/terraform-aws-alb-http-listener,AWS ALB HTTP Listner
@@ -1204,6 +1205,7 @@ aws-controller,AviatrixSystems,14981,aviatrix,https://github.com/AviatrixSystems
 aws-core,lean-delivery,7586,module,https://github.com/lean-delivery/terraform-module-aws-core,Terraform module for creating AWS core service
 aws-customer-gw-static-routes,mergermarket,3771,acuris,https://github.com/mergermarket/terraform-acuris-aws-customer-gw-static-routes,
 aws-dashboards,lightstep,12045,lightstep,https://github.com/lightstep/terraform-lightstep-aws-dashboards,Terraform module for Lightstep AWS Dashboards
+aws-deployment,axetrading,16595,helm,https://github.com/axetrading/terraform-helm-aws-deployment,
 aws-docker-instance,BoRaN61,16405,boran,https://github.com/BoRaN61/terraform-boran-aws-docker-instance,
 aws-docker-swarm,dzangolab,4507,dzangolab,https://github.com/dzangolab/terraform-dzangolab-aws-docker-swarm,
 aws-ebs-csi-plugin,KristophUK,6181,nomad,https://github.com/KristophUK/terraform-nomad-aws-ebs-csi-plugin,Terraform Module to deploy the AWS EBS CSI plugin to a Nomad cluster.
@@ -2002,6 +2004,7 @@ cloudfront,SebastianUA,8080,aws,https://github.com/SebastianUA/terraform-aws-clo
 cloudfront,Selleo,13453,aws,https://github.com/Selleo/terraform-aws-cloudfront,Terraform module for AWS Cloudfront
 cloudfront,USSBA,4737,aws,https://github.com/USSBA/terraform-aws-cloudfront,Terraform module for AWS CloudFront (CDN)
 cloudfront,anttiviljami,5620,protected,https://github.com/anttiviljami/terraform-protected-cloudfront,Terraform module to create a CloudFront distribution with HTTPS and IP protection
+cloudfront,blackbird-cloud,16596,aws,https://github.com/blackbird-cloud/terraform-aws-cloudfront,ℹ️ Terraform AWS Cloudfront.
 cloudfront,cesarpball,2724,aws,https://github.com/cesarpball/terraform-aws-cloudfront,Amazon Cloudfront module for Terraform.
 cloudfront,clouddrove,10053,aws,https://github.com/clouddrove/terraform-aws-cloudfront,Terraform module provisions CloudFront CDN resource on AWS.
 cloudfront,corpit-consulting-public,5421,aws,https://github.com/corpit-consulting-public/terraform-aws-cloudfront,
@@ -3036,6 +3039,7 @@ docker-instance,Mustafacan76,16284,aws,https://github.com/Mustafacan76/terraform
 docker-instance,Nihat-Nayir,16297,aws,https://github.com/Nihat-Nayir/terraform-aws-docker-instance,
 docker-instance,Nihatcan17,16331,aws,https://github.com/Nihatcan17/terraform-aws-docker-instance,
 docker-instance,OdabasiMehmet,14684,aws,https://github.com/OdabasiMehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,Ozkanyuce,16603,aws,https://github.com/Ozkanyuce/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Ramicho,16296,aws,https://github.com/Ramicho/terraform-aws-docker-instance,
 docker-instance,RamizMrt,16325,aws,https://github.com/RamizMrt/terraform-aws-docker-instance,
 docker-instance,Rootea,14630,aws,https://github.com/Rootea/terraform-aws-docker-instance,
@@ -3599,6 +3603,7 @@ ecs,SPHTech-Platform,16136,aws,https://github.com/SPHTech-Platform/terraform-aws
 ecs,Smartbrood,633,aws,https://github.com/Smartbrood/terraform-aws-ecs,Terraform module to create ECS cluster
 ecs,anrim,871,aws,https://github.com/anrim/terraform-aws-ecs,A Terraform module that creates an ECS Docker cluster and services
 ecs,banks,541,aws,https://github.com/banks/terraform-aws-ecs,Ignore this will be deleted soon
+ecs,caherrera,16597,aws,https://github.com/caherrera/terraform-aws-ecs,Terraform Module for deploy a ECS Cluster
 ecs,coresolutions-ltd,6395,aws,https://github.com/coresolutions-ltd/terraform-aws-ecs,Terraform module to provision all aspects of ECS with minimal configuration.
 ecs,damacus,5128,aws,https://github.com/damacus/terraform-aws-ecs,Terraform Module to handle the heavy lifting of creating an ECS Service
 ecs,genstackio,8000,aws,https://github.com/genstackio/terraform-aws-ecs,Terraform module to create an AWS ECS cluster
@@ -4616,7 +4621,7 @@ foundryvtt,Justinon,5524,aws,https://github.com/Justinon/terraform-aws-foundryvt
 fpc-ops,ketzacoatl,735,aws,https://github.com/ketzacoatl/terraform-aws-fpc-ops,
 fqdn-firenet,bayupw,13118,aviatrix,https://github.com/bayupw/terraform-aviatrix-fqdn-firenet,Terraform module to create an Aviatrix FQDN Gateway for FireNet
 freeform,terraform-cisco-modules,16016,dcnm,https://github.com/terraform-cisco-modules/terraform-dcnm-freeform,Terraform module for deploying ACLs to DCNM/NDFC
-front-door,claranet,6465,azurerm,https://github.com/claranet/terraform-azurerm-front-door,Terraform module for Azure Front Door
+front-door,claranet,6465,azurerm,https://github.com/claranet/terraform-azurerm-front-door,Terraform module for Azure Front Door (classic)
 front-door,spy86,13554,azure,https://github.com/spy86/terraform-azure-front-door,Terraform Module for Front Door
 frontdoor,T-Systems-MMS,12106,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-frontdoor,Configure Azure FrontDoor
 frontdoor,andrewCluey,5565,azurerm,https://github.com/andrewCluey/terraform-azurerm-frontdoor,
@@ -5395,6 +5400,7 @@ instance_vpc,dubareddy,14284,aws,https://github.com/dubareddy/terraform-aws-inst
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
 instances,ulm0,3341,scaleway,https://github.com/ulm0/terraform-scaleway-instances,Create server instances in Scaleway
+instellar,upmaru,16594,digitalocean,https://github.com/upmaru/terraform-digitalocean-instellar,Terraform module for bootstrapping instellar cluster
 integrations,TaitoUnited,10711,aws,https://github.com/TaitoUnited/terraform-aws-integrations,
 integrations,TaitoUnited,8228,azurerm,https://github.com/TaitoUnited/terraform-azurerm-integrations,
 integrations,claranet,3654,datadog,https://github.com/claranet/terraform-datadog-integrations,Manage Datadog integrations with terraform dedicated modules.
@@ -7186,6 +7192,7 @@ nsg,cloud-native-toolkit,16042,azure,https://github.com/cloud-native-toolkit/ter
 nsg,dcos-terraform,1532,azurerm,https://github.com/dcos-terraform/terraform-azurerm-nsg,
 nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,"A module used to generate a sensible default NSG and attach it to an Azure subnet.  Note, this NSG is deployed with some default rules including an explicit deny :bomb:"
 nsg,walmartdigital,7373,azure,https://github.com/walmartdigital/terraform-azure-nsg,
+nsg-administration,Pwd9000-ML,16598,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-nsg-administration,A simple module to administer a large subset of different NSGs across different networks and subnets hosted in Azure
 nsg-public,manan-manik,14787,azure,https://github.com/manan-manik/terraform-azure-nsg-public,
 nsx-t-manager,adarobin,8104,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-t-manager,
 nsx-v-manager,adarobin,8105,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-v-manager,
@@ -7371,6 +7378,7 @@ organizations-policy,figurate,8093,aws,https://github.com/figurate/terraform-aws
 organizations-policy,tim0git,14913,aws,https://github.com/tim0git/terraform-aws-organizations-policy,A repository that contains the code for terraform-aws-organizations-policy
 organizations-policy,tmknom,1836,aws,https://github.com/tmknom/terraform-aws-organizations-policy,Terraform module which creates AWS Organizations Policy resources on AWS.
 organzation-and-sso,chris-qa-org,12141,aws,https://github.com/chris-qa-org/terraform-aws-organzation-and-sso,Terraform module for AWS to create and manage Organizations and SSO
+origin-ca-certificate,rallyware,16600,cloudflare,https://github.com/rallyware/terraform-cloudflare-origin-ca-certificate,Terraform module to provision Cloudflare Origin CA certificate used to protect traffic to your origin without involving a third party Certificate Authority.
 os4ml,WOGRA-AG,15938,kustomization,https://github.com/WOGRA-AG/terraform-kustomization-os4ml,A Terraform module for running Os4ML on a kubernetes cluster. 
 osb-example,cgetzen,6255,null,https://github.com/cgetzen/terraform-null-osb-example,
 osb-example-service-binding,cgetzen,6405,null,https://github.com/cgetzen/terraform-null-osb-example-service-binding,
@@ -7605,6 +7613,7 @@ postgresql-for-hasura,crismali,15177,aws,https://github.com/crismali/terraform-a
 postgresql-rds,azavea,169,aws,https://github.com/azavea/terraform-aws-postgresql-rds,A Terraform module to create an Amazon Web Services (AWS) PostgreSQL Relational Database Server (RDS).
 postgresql-read-replica,booyaa,3333,azurerm,https://github.com/booyaa/terraform-azurerm-postgresql-read-replica,A module for creating Azure Database for PostgreSQL Read Replicas
 postgresql-server,spy86,13375,azure,https://github.com/spy86/terraform-azure-postgresql-server,Terraform Module for Azure Postgresql Server
+powervs-sap,terraform-ibm-modules,16599,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap,Creates and configures Linux-based Power Virtual Servers instances for SAP and connects them to a proxy server
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
 presto,Lewuathe,4149,aws,https://github.com/Lewuathe/terraform-aws-presto,Terraform module to create Presto cluster
@@ -8160,7 +8169,6 @@ registry,shestera,6166,yandex,https://github.com/shestera/terraform-yandex-regis
 release,AlexReisSantos,12713,helm,https://github.com/AlexReisSantos/terraform-helm-release,
 release,JamesWoolfenden,7812,helm,https://github.com/JamesWoolfenden/terraform-helm-release,
 release,SPHTech-Platform,16240,helm,https://github.com/SPHTech-Platform/terraform-helm-release,Terraform module to deploy a generic Helm Chart
-release,axetrading,16531,helm,https://github.com/axetrading/terraform-helm-release,
 release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
 release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
 release,edalferes,4665,helm,https://github.com/edalferes/terraform-helm-release,Terraform module deployment helm chart k8s
@@ -9680,6 +9688,7 @@ standard,MagnetarIT,4626,naming,https://github.com/MagnetarIT/terraform-naming-s
 standard,highgarden-io,11718,labels,https://github.com/highgarden-io/terraform-labels-standard,"Terraform Module to generate consistent names, ids, and labels/tags according to Highgarden.io standard labeling scheme."
 standard-project,aoggz,3168,gitlab,https://github.com/aoggz/terraform-gitlab-standard-project,Terraform module to provision a GitLab project with sensible default settings
 standard-secret,QuiNovas,1486,aws,https://github.com/QuiNovas/terraform-aws-standard-secret,Creates a secrets manager non-rotating secret
+standard-tags,truemark,16601,aws,https://github.com/truemark/terraform-aws-standard-tags,Produces a map of tags following the tagging strategy document at https://doc.clickup.com/45017321/d/h/1axu79-4090/66320c3fa686fba.
 standardbucket,kerryhatcher,13370,aws,https://github.com/kerryhatcher/terraform-aws-standardbucket,
 starterkit-mirror,carrete,2112,aws,https://github.com/carrete/terraform-aws-starterkit-mirror,This is only a mirror. Please see the official repository on GitLab.
 starterkit-mirror,carrete,2113,digitalocean,https://github.com/carrete/terraform-digitalocean-starterkit-mirror,This is only a mirror. Please see the official repository on GitLab.
@@ -9893,6 +9902,7 @@ storage-static-website,jdpleiness,833,google,https://github.com/jdpleiness/terra
 storage2,boss916,14879,azure,https://github.com/boss916/terraform-azure-storage2,
 storageaccount,JamesWoolfenden,7677,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-storageaccount,Basic storageaccount module
 storagee_bucket,abhi-dev91,14432,google,https://github.com/abhi-dev91/terraform-google-storagee_bucket,
+storagegateway,aws-ia,16602,aws,https://github.com/aws-ia/terraform-aws-storagegateway,
 storagegateway,harsh-del,9089,aws,https://github.com/harsh-del/terraform-aws-storagegateway,
 storagemodule,LiniKurian123,9345,azure,https://github.com/LiniKurian123/terraform-azure-storagemodule,
 storagemoduledev,ChetanD1,9347,azure,https://github.com/ChetanD1/terraform-azure-storagemoduledev,terraform-azure-storagemoduledev
