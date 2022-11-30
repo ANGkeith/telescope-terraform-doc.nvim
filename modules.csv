@@ -2178,6 +2178,7 @@ cloudwatch-log,kurron,526,aws,https://github.com/kurron/terraform-aws-cloudwatch
 cloudwatch-log-group,Haplo-tech,3791,aws,https://github.com/Haplo-tech/terraform-aws-cloudwatch-log-group,
 cloudwatch-log-group,PGBI,2814,aws,https://github.com/PGBI/terraform-aws-cloudwatch-log-group,
 cloudwatch-log-group,aws-ia,12657,aws,https://github.com/aws-ia/terraform-aws-cloudwatch-log-group,
+cloudwatch-log-group,figurate,16671,aws,https://github.com/figurate/terraform-aws-cloudwatch-log-group,Create a CloudWatch Log Group
 cloudwatch-log-group,florentio,15137,aws,https://github.com/florentio/terraform-aws-cloudwatch-log-group,Terraform module which creates CloudWatch Log Group on AWS
 cloudwatch-log-group,mhmdio,7356,aws,https://github.com/mhmdio/terraform-aws-cloudwatch-log-group,AWS CW Log Group Terraform Module
 cloudwatch-log-group-with-cmk,samloh84,16080,aws,https://github.com/samloh84/terraform-aws-cloudwatch-log-group-with-cmk,This Terraform module creates an AWS Cloudwatch Log Group with Customer Managed Key
@@ -2341,6 +2342,7 @@ common,ksaito1125,5433,aws,https://github.com/ksaito1125/terraform-aws-common,
 common-alb,truemark,7313,aws,https://github.com/truemark/terraform-aws-common-alb,Terraform module that implements a commonly used ALB pattern
 common-iam-policies,traveloka,3096,aws,https://github.com/traveloka/terraform-aws-common-iam-policies,A collection of IAM Policies
 common-iam-roles,traveloka,2458,aws,https://github.com/traveloka/terraform-aws-common-iam-roles,Terraform module which supports the creation of common IAM Roles
+common-infrastructure,axetrading,16657,aws,https://github.com/axetrading/terraform-aws-common-infrastructure,
 common-variables,container-labs,6874,tfe,https://github.com/container-labs/terraform-tfe-common-variables,
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,Terraform modules from DasMeta to manage Azure AKS cluster
@@ -3263,6 +3265,7 @@ domain-setup,daringway,5633,aws,https://github.com/daringway/terraform-aws-domai
 download,dealmore,7432,npm,https://github.com/dealmore/terraform-npm-download,Terraform module for downloading files from npm.
 download,matti,826,http,https://github.com/matti/terraform-http-download,
 download,milliHQ,10109,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
+dragondrop-compute,dragondrop-cloud,16654,google,https://github.com/dragondrop-cloud/terraform-google-dragondrop-compute,Terraform code for deploying the compute services to run dragondrop.cloud within your cloud.
 drg,oracle-terraform-modules,14121,oci,https://github.com/oracle-terraform-modules/terraform-oci-drg,A reusable and extensible Terraform module that provisions a Dynamic Routing Gateway on Oracle Cloud Infrastructure
 drone-repository,rancher,13088,module,https://github.com/rancher/terraform-module-drone-repository,Terraform module which creates repository and secret resources for the drone server.
 droplet,Loodos,3377,digitalocean,https://github.com/Loodos/terraform-digitalocean-droplet,Terraform Module for Create Droplet on DigitalOcean
@@ -3383,6 +3386,7 @@ ec2,mandeepmehra,7177,aws,https://github.com/mandeepmehra/terraform-aws-ec2,
 ec2,miere,5187,aws,https://github.com/miere/terraform-aws-ec2,Zero Downtime and Highly Available deployment infrastructure using Terraform and EC2
 ec2,monbostest,10803,aws,https://github.com/monbostest/terraform-aws-ec2,
 ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terraform-aws-ec2
+ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-ec2,
 ec2,phyominhtun1990,6155,aws,https://github.com/phyominhtun1990/terraform-aws-ec2,terraform for aws ec2
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-ec2,Manages EC2 instance
@@ -5657,6 +5661,10 @@ key-pair,terraform-aws-modules,3165,aws,https://github.com/terraform-aws-modules
 key-pair,terraform-iaac,7921,aws,https://github.com/terraform-iaac/terraform-aws-key-pair,Simple terraform module for create AWS Key Pair and store them in S3
 key-pair-ssm,victorcechinel,8486,aws,https://github.com/victorcechinel/terraform-aws-key-pair-ssm,📦 ⚡ 🔐 Terraform Module to provision an AWS Keypair and store on SSM
 key-protect,cloud-native-toolkit,14565,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-key-protect,Terraform module to provision Key Protect into an account
+key-protect,terraform-ibm-modules,16665,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-key-protect,Terraform module to create and work with IBM Key Protect
+key-protect-all-inclusive,terraform-ibm-modules,16662,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-key-protect-all-inclusive,"Creates a Key Protect instance, key rings for different services, and a key for each instance of the service."
+key-protect-key,terraform-ibm-modules,16666,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-key-protect-key,Module for creation of Key Protect keys
+key-protect-key-ring,terraform-ibm-modules,16667,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-key-protect-key-ring,Module to create Key Rings in a Key Protect instance
 key-vault,DeimosCloud,8394,azure,https://github.com/DeimosCloud/terraform-azure-key-vault,
 key-vault,avinor,3210,azurerm,https://github.com/avinor/terraform-azurerm-key-vault,Terraform module to create a Key Vault in Azure
 key-vault,aztfm,7444,azurerm,https://github.com/aztfm/terraform-azurerm-key-vault,Terraform module for the Azure public cloud destined for the Key Vault resource.
@@ -5834,7 +5842,7 @@ kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-ja
 kube-lab,ccliver,14727,aws,https://github.com/ccliver/terraform-aws-kube-lab,Module to setup a Kubernetes lab on AWS
 kube-prometheus-stack,SPHTech-Platform,16235,helm,https://github.com/SPHTech-Platform/terraform-helm-kube-prometheus-stack,"Installs the kube-prometheus stack, a collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator."
 kube-prometheus-stack,gfortetsanakis,15252,helm,https://github.com/gfortetsanakis/terraform-helm-kube-prometheus-stack,
-kube-state-metrics,mateothegreat,16652,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-kube-state-metrics,kube-state-metrics for kubernetes via Terraform.
+kube-state-metrics,mateothegreat,16655,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-kube-state-metrics,kube-state-metrics for kubernetes via Terraform.
 kube-state-metrics-addon,askulkarni2,12091,eksblueprints,https://github.com/askulkarni2/terraform-eksblueprints-kube-state-metrics-addon,An implementation of the kube-state-metrics addon for the Amazon EKS Blueprints for Terraform.
 kube-system-default-cluster-admin,matti,2997,kubernetes,https://github.com/matti/terraform-kubernetes-kube-system-default-cluster-admin,
 kubeadm,dannyburke1,6297,hetzner,https://github.com/dannyburke1/terraform-hetzner-kubeadm,Terraform code for Hetzner Cloud with a kubeadm provisioned cluster
@@ -6206,8 +6214,11 @@ lambdalambdalambda,QuiNovas,2204,aws,https://github.com/QuiNovas/terraform-aws-l
 lambdalayer,JamesWoolfenden,2343,aws,https://github.com/JamesWoolfenden/terraform-aws-lambdalayer,This is a small module to support lambda layers
 landing-zone,MitocGroup,3750,aws,https://github.com/MitocGroup/terraform-aws-landing-zone,Terraform Module for AWS Landing Zone
 landing-zone,getindata,15496,azurerm,https://github.com/getindata/terraform-azurerm-landing-zone,Terraform Module for creating a landing zone in Azure Cloud
+landing-zone,terraform-ibm-modules,16660,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone,"Creates a fully customizable VPC environment and compute resources (VSI, Red Hat OpenShift) with presets designed to meet strict compliance needs."
 landing-zone-cloud-sso-multi-account-policy,terraform-alicloud-modules,12832,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-landing-zone-cloud-sso-multi-account-policy,Terraform module which creates RD account and manage it policy by cloud sso on Alibaba Cloud.
 landing-zone-reader,MitocGroup,3846,aws,https://github.com/MitocGroup/terraform-aws-landing-zone-reader,Terraform Module for AWS Landing Zone (Read-Only)
+landing-zone-vpc,terraform-ibm-modules,16661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vpc,
+landing-zone-vsi,terraform-ibm-modules,16663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vsi,
 landscape,unimatrixops,10870,google,https://github.com/unimatrixops/terraform-google-landscape,Deploy an application landscape on Google Cloud Platform.
 latest-ami,bledrunner2049,6193,aws,https://github.com/bledrunner2049/terraform-aws-latest-ami,
 laughs,sblack4,5537,terraform,https://github.com/sblack4/terraform-terraform-laughs,Laughs in terraform
@@ -7172,7 +7183,7 @@ node,gregone,2930,do,https://github.com/gregone/terraform-do-node,
 node,pwelch,2120,do,https://github.com/pwelch/terraform-do-node,
 node-control-policy,netascode,9948,aci,https://github.com/netascode/terraform-aci-node-control-policy,Terraform Cisco ACI Node Control Policy Module
 node-exporter,anvibo,2257,docker,https://github.com/anvibo/terraform-docker-node-exporter,
-node-exporter,mateothegreat,11070,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-node-exporter,Node exporter for kubernetes via terraform
+node-exporter,mateothegreat,16656,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-node-exporter,Node exporter for kubernetes via terraform
 node-ignition,matti,831,kontena,https://github.com/matti/terraform-kontena-node-ignition,
 node-outputs,matti,803,kontena,https://github.com/matti/terraform-kontena-node-outputs,
 node-pool,DeimosCloud,8402,google,https://github.com/DeimosCloud/terraform-google-node-pool,
@@ -7245,6 +7256,7 @@ observability,nlamirault,6634,aws,https://github.com/nlamirault/terraform-aws-ob
 observability,nlamirault,6642,google,https://github.com/nlamirault/terraform-google-observability,Terraform module for Observability components on Google Cloud Platform
 observability,tedilabs,14586,aws,https://github.com/tedilabs/terraform-aws-observability,🌳 A sustainable Terraform Package which creates resources for Observability Services on AWS
 observability,terraform-ibm-modules,7636,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-observability,"Terraform module to create and work with - IBM Log Analysis, IBM Cloud Monitoring, and IBM Activity Tracker services on IBM Cloud "
+observability-instances,terraform-ibm-modules,16668,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances,"Deploys services for LogDNA, Activity Tracker, and SysDig"
 ocean-aks,spotinst,8443,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aks,A Terraform module to create an Azure Kubernetes Service (AKS) cluster with Ocean.
 ocean-aws-k8s,spotinst,11388,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aws-k8s,A Terraform module to create an Ocean Cluster.
 ocean-aws-k8s-lb,stevenfeltner,12919,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-aws-k8s-lb,Terraform Module to Add and Remove Loadbalancer from Ocean Cluster
@@ -7449,6 +7461,7 @@ parameterstore,tomarv2,12368,aws,https://github.com/tomarv2/terraform-aws-parame
 paramstore-module,dirnikk,9156,ssm,https://github.com/dirnikk/terraform-ssm-paramstore-module,Module for AWS ssm params
 parked-domain-baseline,nozaq,16538,aws,https://github.com/nozaq/terraform-aws-parked-domain-baseline,A terraform module to set up DNS records to harden the parked(unused) domain using AWS Route53.
 parked-domain-baseline,nozaq,16539,google,https://github.com/nozaq/terraform-google-parked-domain-baseline,A terraform module to set up DNS records to harden the parked(unused) domain using GCP Cloud DNS.
+parked-domain-baseline,nozaq,16670,cloudflare,https://github.com/nozaq/terraform-cloudflare-parked-domain-baseline,A terraform module to set up DNS records to harden the parked(unused) domain using Cloudflare DNS.
 parser-helm,jd4883,14248,chart,https://github.com/jd4883/terraform-chart-parser-helm,A simple but clean helm chart parser. Build as a wrapper around the `helm` terraform provider
 passport,Young-ook,9787,aws,https://github.com/Young-ook/terraform-aws-passport,Terraform Module: Identity and Access Management
 password-policy,QuiNovas,1475,aws,https://github.com/QuiNovas/terraform-aws-password-policy,Sets a strong password policy for an AWS account
@@ -7639,8 +7652,6 @@ postgresql-for-hasura,crismali,15177,aws,https://github.com/crismali/terraform-a
 postgresql-rds,azavea,169,aws,https://github.com/azavea/terraform-aws-postgresql-rds,A Terraform module to create an Amazon Web Services (AWS) PostgreSQL Relational Database Server (RDS).
 postgresql-read-replica,booyaa,3333,azurerm,https://github.com/booyaa/terraform-azurerm-postgresql-read-replica,A module for creating Azure Database for PostgreSQL Read Replicas
 postgresql-server,spy86,13375,azure,https://github.com/spy86/terraform-azure-postgresql-server,Terraform Module for Azure Postgresql Server
-powervs-infrastructure,terraform-ibm-modules,16606,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure,Sets up and configures a Linux-based Power Virtual Servers workspace on a private network interface
-powervs-sap,terraform-ibm-modules,16599,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap,Creates and configures Linux-based Power Virtual Servers instances for SAP and connects them to a proxy server
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
 presto,Lewuathe,4149,aws,https://github.com/Lewuathe/terraform-aws-presto,Terraform module to create Presto cluster
@@ -8317,6 +8328,7 @@ resource-group,rink72,3817,azurerm,https://github.com/rink72/terraform-azurerm-r
 resource-group,rkoosaar,6565,azurerm,https://github.com/rkoosaar/terraform-azurerm-resource-group,Terraform module for creating and managing Azure Resource Group resources
 resource-group,sanjeevmagoo,5815,azurerm,https://github.com/sanjeevmagoo/terraform-azurerm-resource-group,
 resource-group,sbeyn,11804,azurerm,https://github.com/sbeyn/terraform-azurerm-resource-group,
+resource-group,terraform-ibm-modules,16664,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-resource-group,Looks up or creates a resource group by name
 resource-group,terraformation,3954,azurerm,https://github.com/terraformation/terraform-azurerm-resource-group,
 resource-group,tomarv2,11343,azure,https://github.com/tomarv2/terraform-azure-resource-group,Terraform module for Azure Resource Group
 resource-group-data,krezreb,6478,azurerm,https://github.com/krezreb/terraform-azurerm-resource-group-data,
@@ -10504,6 +10516,7 @@ velitheda-networking,Velitheda,11598,aws,https://github.com/Velitheda/terraform-
 vendor-access,CoffeeAndCode,4412,aws,https://github.com/CoffeeAndCode/terraform-aws-vendor-access,Provide AWS assume role capabiliites for vendor account access.
 verify,gordonbondon,1055,common,https://github.com/gordonbondon/terraform-common-verify,Terraform module to verify variables
 versa-flexvnf,equinix,8140,equinix,https://github.com/equinix/terraform-equinix-versa-flexvnf,Terraform module for quick deployment of VERSA Networks FlexVNF SD-WAN edge device
+vertex-cc-service-agent,teamdatatonic,16658,google,https://github.com/teamdatatonic/terraform-google-vertex-cc-service-agent,
 vertexai,bootlabstech,15801,google,https://github.com/bootlabstech/terraform-google-vertexai,vertex ai
 vgw-strongwan-site-to-site-vpn,jye-aviatrix,15245,aws,https://github.com/jye-aviatrix/terraform-aws-vgw-strongwan-site-to-site-vpn,"Create AWS VGW on one VPC, and EC2 instance with StrongWAN on another VPC, create Site to Site VPN between them"
 video-transcoding,simonknittel,6172,google,https://github.com/simonknittel/terraform-google-video-transcoding,Terraform Module to transcode and serve videos via Google Cloud services.
@@ -10808,6 +10821,7 @@ vpc,chetanchatrath,12933,aws,https://github.com/chetanchatrath/terraform-aws-vpc
 vpc,ckmzdevops,8808,aws,https://github.com/ckmzdevops/terraform-aws-vpc,"This module creates AWS VPC with 3 public ,3 private subnets ,IG and NAT."
 vpc,cloud-native-toolkit,12007,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-vpc,Terraform module to provision vpc resources
 vpc,cloud3rsio,1341,aws,https://github.com/cloud3rsio/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,clouddrove,16669,gcp,https://github.com/clouddrove/terraform-gcp-vpc,
 vpc,clouddrove,3638,aws,https://github.com/clouddrove/terraform-aws-vpc,Terraform module to create VPC resource on AWS.
 vpc,clouddrove,5033,digitalocean,https://github.com/clouddrove/terraform-digitalocean-vpc," VPCs are virtual networks containing resources that can communicate with each other in full isolation, using private IP addresses"
 vpc,cloudposse,235,aws,https://github.com/cloudposse/terraform-aws-vpc,Terraform Module that defines a VPC with public/private subnets across multiple AZs with Internet Gateways
