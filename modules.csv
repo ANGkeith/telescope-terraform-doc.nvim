@@ -131,6 +131,7 @@ account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-a
 account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-account-identity,This terraform module creates identity roles in AWS.
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
 account-security,DNXLabs,5717,aws,https://github.com/DNXLabs/terraform-aws-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
+account-security,blackbird-cloud,16676,aws,https://github.com/blackbird-cloud/terraform-aws-account-security,terraform-aws-account-security
 account-setup,daringway,4290,aws,https://github.com/daringway/terraform-aws-account-setup,An opinionated AWS account setup with the only options to adjust settings impacting cost.
 account-setup,philips-software,1237,aws,https://github.com/philips-software/terraform-aws-account-setup,Terraform module configure IAM in a new AWS account setup
 account-users,cloud-native-toolkit,14550,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-account-users,Terraform module to invite users to the IBM Cloud account
@@ -778,7 +779,7 @@ argo-cd,gfortetsanakis,15223,helm,https://github.com/gfortetsanakis/terraform-he
 argo-vault,Ioasys-org,14405,helm,https://github.com/Ioasys-org/terraform-helm-argo-vault,
 argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kubernetes-argocd,A terraform Module to deploy Argocd on Kubernetes
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
-argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.4.9) on a Kubernetes Cluster via Helm
+argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.5.3) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
 argocd,devdynamicio,15210,kubernetes,https://github.com/devdynamicio/terraform-kubernetes-argocd,Terraform module to create Argo CD in Kubernetes 🇺🇦
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
@@ -1084,6 +1085,7 @@ athena-s3-log-table,ekanai,15469,aws,https://github.com/ekanai/terraform-aws-ath
 athena-task,QuiNovas,2344,aws,https://github.com/QuiNovas/terraform-aws-athena-task,Module that implements L3 function athena-task
 athena-view,iconara,6508,aws,https://github.com/iconara/terraform-aws-athena-view,Terraform module for creating Athena views
 athena-workgroup,dod-iac,8114,aws,https://github.com/dod-iac/terraform-aws-athena-workgroup,AWS Athena workgroup
+atlantis,getindata,16675,azurerm,https://github.com/getindata/terraform-azurerm-atlantis,Terraform module for deploying Atlantis in Azure Container Group
 atlantis,terraform-aws-modules,1091,aws,https://github.com/terraform-aws-modules/terraform-aws-atlantis,"Terraform configurations for running Atlantis on AWS Fargate. Github, Gitlab and BitBucket are supported 🇺🇦"
 atlantis-repo-config,getindata,16649,null,https://github.com/getindata/terraform-null-atlantis-repo-config,Module for generating Atlantis repo config file. It contains set of custom workflows
 atlassian-bamboo,devoptimist,3710,linux,https://github.com/devoptimist/terraform-linux-atlassian-bamboo,
@@ -1380,6 +1382,7 @@ backend-service,dcos-terraform,1506,gcp,https://github.com/dcos-terraform/terraf
 backend-service-routing,mergermarket,2360,acuris,https://github.com/mergermarket/terraform-acuris-backend-service-routing,This module creates the DNS and routing rule for a backend service
 backup,DNXLabs,5722,aws,https://github.com/DNXLabs/terraform-aws-backup,Terraform module to automate the backup of data across AWS services using a resource tag.
 backup,ashwini9860,7616,aws,https://github.com/ashwini9860/terraform-aws-backup,create backup on aws using this module
+backup,blackbird-cloud,16677,aws,https://github.com/blackbird-cloud/terraform-aws-backup,terraform-aws-backup
 backup,cloudposse,3289,aws,https://github.com/cloudposse/terraform-aws-backup,"Terraform module to provision AWS Backup, a fully managed backup service that makes it easy to centralize and automate the back up of data across AWS services such as EBS volumes, RDS databases, DynamoDB tables, EFS file systems, and AWS Storage Gateway volumes."
 backup,kabisa,3110,aws,https://github.com/kabisa/terraform-aws-backup,Terraform module designed to create AWS backup plans. https://www.kabisa.nl/
 backup,lgallard,3332,aws,https://github.com/lgallard/terraform-aws-backup,"Terraform module to create AWS Backup plans. AWS Backup is a fully managed backup service that makes it easy to centralize and automate the back up of data across AWS services (EBS volumes, RDS databases, DynamoDB tables, EFS file systems, and Storage Gateway volumes)."
@@ -1625,6 +1628,7 @@ bulk-iam-groups,olivr-com,4813,aws,https://github.com/olivr-com/terraform-aws-bu
 bulk-iam-roles,olivr-com,4814,aws,https://github.com/olivr-com/terraform-aws-bulk-iam-roles,Create many AWS IAM roles at once
 bulk-iam-users,Olivr,9197,aws,https://github.com/Olivr/terraform-aws-bulk-iam-users,Create many AWS IAM users at once
 bulk-iam-users,olivr-com,4815,aws,https://github.com/olivr-com/terraform-aws-bulk-iam-users,Create many AWS IAM users at once
+bulk-virtual-network,shannuvijaya,16672,azure,https://github.com/shannuvijaya/terraform-azure-bulk-virtual-network,terraform-azure-bulk-virtual-network
 byok-template,clumio-code,14902,clumio,https://github.com/clumio-code/terraform-clumio-byok-template,Terraform module containing resources required for Clumio BYOK.
 c6,aoshfan,12876,aws,https://github.com/aoshfan/terraform-aws-c6,
 ca,4ops,7246,tls,https://github.com/4ops/terraform-tls-ca,Terraform module
@@ -1859,6 +1863,7 @@ client,bcgov,10656,keycloak,https://github.com/bcgov/terraform-keycloak-client,
 client-tags,shadbury,14782,aws,https://github.com/shadbury/terraform-aws-client-tags,
 client-vpn,DNXLabs,5726,aws,https://github.com/DNXLabs/terraform-aws-client-vpn,This terraform module installs a client VPN.
 client-vpn,bgillett,10384,aws,https://github.com/bgillett/terraform-aws-client-vpn,Terraform module which creates Client VPN resources on AWS
+client-vpn,blackbird-cloud,16678,aws,https://github.com/blackbird-cloud/terraform-aws-client-vpn,terraform-aws-client-vpn
 client-vpn,caylent,15147,aws,https://github.com/caylent/terraform-aws-client-vpn,This terraform module installs a client VPN.
 client-vpn,clouddrove,9177,aws,https://github.com/clouddrove/terraform-aws-client-vpn,This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
 client-vpn,janschumann,6437,aws,https://github.com/janschumann/terraform-aws-client-vpn,
@@ -2968,6 +2973,7 @@ dns-zones,DeimosCloud,8392,azure,https://github.com/DeimosCloud/terraform-azure-
 dns-zones,infrablocks,647,aws,https://github.com/infrablocks/terraform-aws-dns-zones,Terraform module for creating public private DNS zones
 dnssec-kms,Lupus-Metallum,8490,aws,https://github.com/Lupus-Metallum/terraform-aws-dnssec-kms,A Terraform module to create a KMS key for use with Route53 DNSSEC. 
 dnssec-kms-key,dod-iac,8023,aws,https://github.com/dod-iac/terraform-aws-dnssec-kms-key,Creates a KMS key for DNSSEC
+dnszones,blackbird-cloud,16687,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dnszones,terraform-cloudflare-dnszones
 do,diceone,1437,module,https://github.com/diceone/terraform-module-do,
 do-builder,f5devcentral,8869,bigip,https://github.com/f5devcentral/terraform-bigip-do-builder,Terraform modules to support deployment of BIG-IP on multiple clouds
 do-k8s-lb,ondrejsika,4778,module,https://github.com/ondrejsika/terraform-module-do-k8s-lb,
@@ -4049,6 +4055,7 @@ eks-ak,synectiks-sddc,10379,aws,https://github.com/synectiks-sddc/terraform-aws-
 eks-alb-controller,KongHQ-CX,15943,aws,https://github.com/KongHQ-CX/terraform-aws-eks-alb-controller,A terraform module to deploy an ALB controller to EKS
 eks-alb-ingress,lablabs,4435,aws,https://github.com/lablabs/terraform-aws-eks-alb-ingress,
 eks-alb-ingress,mrnim94,16635,aws,https://github.com/mrnim94/terraform-aws-eks-alb-ingress,
+eks-alb-ingress-controller,blackbird-cloud,16679,aws,https://github.com/blackbird-cloud/terraform-aws-eks-alb-ingress-controller,terraform-aws-eks-alb-ingress-controller
 eks-argocd,DNXLabs,8665,aws,https://github.com/DNXLabs/terraform-aws-eks-argocd,Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.
 eks-argocd,lablabs,15388,aws,https://github.com/lablabs/terraform-aws-eks-argocd,A terraform module to deploy ArgoCD on Amazon EKS cluster
 eks-audit-log,lacework,13137,aws,https://github.com/lacework/terraform-aws-eks-audit-log,Terraform module for configuring an integration with AWS to analyze EKS Audit Logs for monitoring EKS cluster security and configuration compliance.
@@ -4072,6 +4079,7 @@ eks-calico,lablabs,4436,aws,https://github.com/lablabs/terraform-aws-eks-calico,
 eks-cert-manager,DNXLabs,8666,aws,https://github.com/DNXLabs/terraform-aws-eks-cert-manager,"Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller."
 eks-cert-manager,andreswebs,9889,aws,https://github.com/andreswebs/terraform-aws-eks-cert-manager,Deploys cert-manager via Helm on AWS EKS
 eks-cert-manager,lablabs,6931,aws,https://github.com/lablabs/terraform-aws-eks-cert-manager,
+eks-cert-manager-cloudflare,blackbird-cloud,16680,aws,https://github.com/blackbird-cloud/terraform-aws-eks-cert-manager-cloudflare,terraform-aws-eks-cert-manager-cloudflare
 eks-cert-manager-trust,lablabs,15389,aws,https://github.com/lablabs/terraform-aws-eks-cert-manager-trust,
 eks-chartmuseum,andreswebs,9884,aws,https://github.com/andreswebs/terraform-aws-eks-chartmuseum,Deploys Chartmuseum via Helm on AWS EKS
 eks-chartmuseum,lablabs,16419,aws,https://github.com/lablabs/terraform-aws-eks-chartmuseum,
@@ -4095,6 +4103,7 @@ eks-cluster,rhythmictech,5025,aws,https://github.com/rhythmictech/terraform-aws-
 eks-cluster,sidick,1149,aws,https://github.com/sidick/terraform-aws-eks-cluster,Terraform EKS Cluster Module
 eks-cluster,trallnag,7337,aws,https://github.com/trallnag/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
 eks-cluster-autoscaler,DNXLabs,8669,aws,https://github.com/DNXLabs/terraform-aws-eks-cluster-autoscaler,Terraform module for deploying Kubernetes Cluster Autoscaler inside a pre-existing EKS cluster. Cluster Autoscaler is a tool that automatically adjusts the size of the Kubernetes cluster.
+eks-cluster-autoscaler,blackbird-cloud,16682,aws,https://github.com/blackbird-cloud/terraform-aws-eks-cluster-autoscaler,terraform-aws-eks-cluster-autoscaler
 eks-cluster-autoscaler,fivetran,16091,aws,https://github.com/fivetran/terraform-aws-eks-cluster-autoscaler,Modified resource names to be shorter
 eks-cluster-autoscaler,lablabs,5506,aws,https://github.com/lablabs/terraform-aws-eks-cluster-autoscaler,
 eks-cluster-service,christonog,6344,provision,https://github.com/christonog/terraform-provision-eks-cluster-service,"This Terraform module provisions an eks cluster, as well as designated micro services in that cluster"
@@ -4116,6 +4125,7 @@ eks-external-dns,KongHQ-CX,15955,aws,https://github.com/KongHQ-CX/terraform-aws-
 eks-external-dns,andreswebs,9971,aws,https://github.com/andreswebs/terraform-aws-eks-external-dns,Deploys external-dns on AWS EKS
 eks-external-dns,joaoantunes,7751,aws,https://github.com/joaoantunes/terraform-aws-eks-external-dns,
 eks-external-dns,lablabs,4434,aws,https://github.com/lablabs/terraform-aws-eks-external-dns,
+eks-external-dns-cloudflare,blackbird-cloud,16683,aws,https://github.com/blackbird-cloud/terraform-aws-eks-external-dns-cloudflare," terraform-aws-eks-external-dns-cloudflare"
 eks-external-secrets,DNXLabs,8673,aws,https://github.com/DNXLabs/terraform-aws-eks-external-secrets,"Terraform module for deploying kubernetes-external-secrets, this enables to use AWS Secrets Manager and SSM Parameters inside a pre-existing EKS cluster."
 eks-external-secrets,KongHQ-CX,15958,aws,https://github.com/KongHQ-CX/terraform-aws-eks-external-secrets,A terraform module for configuring and deploying external-secrets to an EKS cluster
 eks-external-secrets,andreswebs,10034,aws,https://github.com/andreswebs/terraform-aws-eks-external-secrets,Deploys Kubernetes External Secrets on AWS EKS
@@ -4129,6 +4139,7 @@ eks-fargate-profile,umotif-public,4207,aws,https://github.com/umotif-public/terr
 eks-github-actions-runner,lablabs,15394,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner,
 eks-github-actions-runner-controller,lablabs,15395,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-controller,Terraform module to deploy Github Actions runner Kubernetes Controller
 eks-github-runner,DNXLabs,9098,aws,https://github.com/DNXLabs/terraform-aws-eks-github-runner,
+eks-gitlab-runner,blackbird-cloud,16684,aws,https://github.com/blackbird-cloud/terraform-aws-eks-gitlab-runner,terraform-aws-eks-gitlab-runner
 eks-gitlab-runner,lablabs,16420,aws,https://github.com/lablabs/terraform-aws-eks-gitlab-runner,Terraform module for spawning gitlab-runner as addon into EKS cluster
 eks-grafana,lablabs,11198,aws,https://github.com/lablabs/terraform-aws-eks-grafana,
 eks-grafana-prometheus,DNXLabs,8674,aws,https://github.com/DNXLabs/terraform-aws-eks-grafana-prometheus,Terraform module for deploying Kubernetes Prometheus and Grafana inside a pre-existing EKS cluster.
@@ -4149,6 +4160,7 @@ eks-irsa,mitene,4658,aws,https://github.com/mitene/terraform-aws-eks-irsa,
 eks-irsa,nalbam,6100,aws,https://github.com/nalbam/terraform-aws-eks-irsa,
 eks-irsa-policy-document,andreswebs,9547,aws,https://github.com/andreswebs/terraform-aws-eks-irsa-policy-document,Creates a trust policy for an IAM role that can be assumed by a Kubernetes service account
 eks-istio,DNXLabs,13481,aws,https://github.com/DNXLabs/terraform-aws-eks-istio,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications. Istio’s powerful features provide a uniform and more efficient way to secure, connect, and monitor services. Istio is the path to load balancing, service-to-service authentication, and monitoring – with few or no service code changes."
+eks-istio,blackbird-cloud,16685,aws,https://github.com/blackbird-cloud/terraform-aws-eks-istio,
 eks-istio-operator,DNXLabs,9673,aws,https://github.com/DNXLabs/terraform-aws-eks-istio-operator,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications."
 eks-istio-operator,bakuppus,10701,aws,https://github.com/bakuppus/terraform-aws-eks-istio-operator,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications."
 eks-jupyterhub,dabble-of-devops-bioanalyze,10448,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
@@ -4172,6 +4184,7 @@ eks-litmus-operator,PartTimeLegend,15257,aws,https://github.com/PartTimeLegend/t
 eks-load-balancer-controller,lablabs,10056,aws,https://github.com/lablabs/terraform-aws-eks-load-balancer-controller,
 eks-loki,lablabs,16421,aws,https://github.com/lablabs/terraform-aws-eks-loki,
 eks-metrics-server,DNXLabs,8676,aws,https://github.com/DNXLabs/terraform-aws-eks-metrics-server,"Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler."
+eks-metrics-server,blackbird-cloud,16686,aws,https://github.com/blackbird-cloud/terraform-aws-eks-metrics-server,terraform-aws-eks-metrics-server
 eks-metrics-server,lablabs,5510,aws,https://github.com/lablabs/terraform-aws-eks-metrics-server,
 eks-minio-operator,DNXLabs,11775,aws,https://github.com/DNXLabs/terraform-aws-eks-minio-operator,
 eks-module,OpenClassrooms,13141,aws,https://github.com/OpenClassrooms/terraform-aws-eks-module,Terraform module to provision an EKS cluster and all associated resources.
@@ -4191,6 +4204,7 @@ eks-px-backup,andreswebs,9920,aws,https://github.com/andreswebs/terraform-aws-ek
 eks-resources,rails-on-services,3600,k8s,https://github.com/rails-on-services/terraform-k8s-eks-resources,"Manages EKS resources(istio, alb ingress, autoscaler, fluentd cluster logging)"
 eks-role-iam,castai,13025,castai,https://github.com/castai/terraform-castai-eks-role-iam,
 eks-roles,arkhoss,5165,aws,https://github.com/arkhoss/terraform-aws-eks-roles,"A terraform module to create all necessary resources for Admin, Operations and ViewOnly AWS policies/roles and its respective ClusterRoles, ClusterRoleBindings and its ConfigMap aws-auth."
+eks-secret-store-csi,blackbird-cloud,16688,aws,https://github.com/blackbird-cloud/terraform-aws-eks-secret-store-csi,terraform-aws-eks-secret-store-csi
 eks-secrets-store-csi-driver,andreswebs,9893,aws,https://github.com/andreswebs/terraform-aws-eks-secrets-store-csi-driver,Deploys the Kubernetes Secrets Store CSI Driver via Helm on AWS EKS
 eks-service-account-with-oidc-iam-role,tinfoilcipher,10209,aws,https://github.com/tinfoilcipher/terraform-aws-eks-service-account-with-oidc-iam-role,Terraform Module to create an EKS Service Account and Related AWS IAM Componenets
 eks-spotinst,mateothegreat,9715,aws,https://github.com/mateothegreat/terraform-aws-eks-spotinst,AWS EKS + Spot.io
@@ -5059,7 +5073,7 @@ helpers,logicalclocks,9059,hopsworksai,https://github.com/logicalclocks/terrafor
 heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-heroku-master,
 home-assistant,Marlinc,9653,helm,https://github.com/Marlinc/terraform-helm-home-assistant,
 honeycomb,terra-farm,2243,aws,https://github.com/terra-farm/terraform-aws-honeycomb,
-honeycomb-cloudwatch-metric-stream,honeycombio,8998,aws,https://github.com/honeycombio/terraform-aws-honeycomb-cloudwatch-metric-stream,Terraform module to send a CloudWatch Metric Stream to https://honeycomb.io.
+honeycomb-cloudwatch-metric-stream,honeycombio,8998,aws,https://github.com/honeycombio/terraform-aws-honeycomb-cloudwatch-metric-stream,DEPRECATED - Please use the AWS Integrations CloudWatch Metrics Submodule Instead
 honeytoken,opendevsecops,1719,aws,https://github.com/opendevsecops/terraform-aws-honeytoken,
 hosted-zone,rhythmictech,3124,aws,https://github.com/rhythmictech/terraform-aws-hosted-zone,Create a Route53 Hosted Zone
 hostedzone,DNXLabs,5737,aws,https://github.com/DNXLabs/terraform-aws-hostedzone,This terraform module creates hosted zones in AWS.
@@ -8726,6 +8740,7 @@ s3-webapp,Krish6987,8548,aws,https://github.com/Krish6987/terraform-aws-s3-webap
 s3-webapp,Lohithakolla,11481,aws,https://github.com/Lohithakolla/terraform-aws-s3-webapp,
 s3-webapp,PrajjawalBanati,4836,aws,https://github.com/PrajjawalBanati/terraform-aws-s3-webapp,
 s3-webapp,bilalcaliskan,8662,aws,https://github.com/bilalcaliskan/terraform-aws-s3-webapp,
+s3-webapp,captainill,16689,aws,https://github.com/captainill/terraform-aws-s3-webapp,
 s3-webapp,cbates255,15997,aws,https://github.com/cbates255/terraform-aws-s3-webapp,
 s3-webapp,cedric-adrs,7856,aws,https://github.com/cedric-adrs/terraform-aws-s3-webapp,
 s3-webapp,chinmaydev-creator,11802,aws,https://github.com/chinmaydev-creator/terraform-aws-s3-webapp,
@@ -9017,6 +9032,7 @@ secretsmgr-addon,symopsio,14389,sym,https://github.com/symopsio/terraform-sym-se
 secretsmgr-addon,symopsio,15713,aws,https://github.com/symopsio/terraform-aws-secretsmgr-addon,The `aws/secretsmgr` add-on provisions AWS Secrets Manager access for a Sym `runtime-connector` module.
 secure-backend,Pwd9000-ML,3862,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-secure-backend,Public Terraform Registry module for setting up a secure AZURE backend environment for a team to use in AZURE
 secure-base,appzen-oss,12256,aws,https://github.com/appzen-oss/terraform-aws-secure-base,"AWS multi-account, multi-region organization secure base"
+secure-baseline,Liangtian-hcp,16673,aws,https://github.com/Liangtian-hcp/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations and AWS Foundational Security Best Practices.
 secure-baseline,Marcin-Duszynski,3073,aws,https://github.com/Marcin-Duszynski/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 secure-baseline,anonfriese,11341,aws,https://github.com/anonfriese/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 secure-baseline,cgomestw,5782,aws,https://github.com/cgomestw/terraform-aws-secure-baseline,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
@@ -9978,6 +9994,7 @@ subnet,anugnes,679,azure,https://github.com/anugnes/terraform-azure-subnet,Azure
 subnet,bcochofel,7570,azurerm,https://github.com/bcochofel/terraform-azurerm-subnet,Terraform module to create Azure Subnet
 subnet,bootlabstech,11400,google,https://github.com/bootlabstech/terraform-google-subnet,
 subnet,claranet,3214,azurerm,https://github.com/claranet/terraform-azurerm-subnet,Terraform module for Azure virtual networks subnets
+subnet,clouddrove,16674,gcp,https://github.com/clouddrove/terraform-gcp-subnet,
 subnet,clouddrove,3659,aws,https://github.com/clouddrove/terraform-aws-subnet,"Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log."
 subnet,data-platform-hq,15999,azurerm,https://github.com/data-platform-hq/terraform-azurerm-subnet,Terraform module for managing Azure Virtual Network Subnet
 subnet,devops4mecode,6769,aws,https://github.com/devops4mecode/terraform-aws-subnet,
@@ -10291,7 +10308,7 @@ tor-bridge,sr2c,11333,openstack,https://github.com/sr2c/terraform-openstack-tor-
 tor-bridge,sr2c,11334,hcloud,https://github.com/sr2c/terraform-hcloud-tor-bridge,
 tor-bridge,sr2c,12833,aws,https://github.com/sr2c/terraform-aws-tor-bridge,
 torrc,sr2c,11313,null,https://github.com/sr2c/terraform-null-torrc,Terraform module to define a configuration file for tor
-traefik,aigisuk,11265,kubernetes,https://github.com/aigisuk/terraform-kubernetes-traefik,Simple Terraform module; deploys Traefik (v2.8.0) to a Kubernetes cluster via Helm
+traefik,aigisuk,11265,kubernetes,https://github.com/aigisuk/terraform-kubernetes-traefik,Simple Terraform module; deploys Traefik (v2.9.5) to a Kubernetes cluster via Helm
 traefik,anvibo,2255,docker,https://github.com/anvibo/terraform-docker-traefik,
 traefik,mateothegreat,16477,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-traefik,Traefik on kubernetes via terraform.
 traefik,numtide,6145,linuxbox,https://github.com/numtide/terraform-linuxbox-traefik,
@@ -11141,6 +11158,7 @@ vpc-flowlogs,aswathysobhanan22,9184,aws,https://github.com/aswathysobhanan22/ter
 vpc-flowlogs,binbashar,2734,aws,https://github.com/binbashar/terraform-aws-vpc-flowlogs,Terraform module which creates VPC flow logs to S3 on AWS https://registry.terraform.io/modules/binbashar/vpc-flowlogs
 vpc-full,web-virtua-aws-multi-account-modules,16463,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-vpc-full,
 vpc-gateways,cloud-native-toolkit,12217,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-vpc-gateways,Module to provision public gateways in an IBM Cloud VPC instance
+vpc-gk,lucardcoder,16681,aws,https://github.com/lucardcoder/terraform-aws-vpc-gk,
 vpc-group,netascode,10347,aci,https://github.com/netascode/terraform-aci-vpc-group,Terraform Cisco ACI vPC Group Module
 vpc-infra,lokeshjawane,5170,aws,https://github.com/lokeshjawane/terraform-aws-vpc-infra,
 vpc-ipam,davaba86,15685,aws,https://github.com/davaba86/terraform-aws-vpc-ipam,Terraform AWS VPC IPAM module.
