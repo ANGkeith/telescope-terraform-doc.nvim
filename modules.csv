@@ -1241,9 +1241,11 @@ aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terr
 aws-linux-vm-public,jye-aviatrix,14925,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-public,"In specified AWS region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP. "
 aws-load-balancer-controller,bailey84j,11702,kubernetes,https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller,Terraform module which deploys AWS Load Balancer Controller
 aws-logs-bucket,costradar,12209,costradar,https://github.com/costradar/terraform-costradar-aws-logs-bucket,
+aws-mysql,intel,16702,intel,https://github.com/intel/terraform-intel-aws-mysql,Intel Cloud Optimization Module - AWS RDS MySQL
 aws-networking,kalenarndt,16412,hcp,https://github.com/kalenarndt/terraform-hcp-aws-networking,Terraform module for the AWS networking configuration required for HCP
 aws-node-termination-handler,iplabs,4808,kubernetes,https://github.com/iplabs/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
 aws-node-termination-handler,pavlospt,9798,kubernetes,https://github.com/pavlospt/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
+aws-postgresql,intel,16703,intel,https://github.com/intel/terraform-intel-aws-postgresql,Intel Cloud Optimization Module - AWS RDS PostgreSQL
 aws-private-endpoint,infrablocks,7778,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-aws-private-endpoint,A Terraform module for creating a private endpoint for AWS for MongoDB Atlas.
 aws-router,mergermarket,4100,acuris,https://github.com/mergermarket/terraform-acuris-aws-router,
 aws-s3-bucket,Adaptavist,5410,module,https://github.com/Adaptavist/terraform-module-aws-s3-bucket,
@@ -1317,6 +1319,9 @@ azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-
 azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
+azure-mysql_flexible_server,intel,16704,intel,https://github.com/intel/terraform-intel-azure-mysql_flexible_server,Intel Cloud Optimization Module - Azure MySQL Flexible Server
+azure-postgresql_flexible_server,intel,16705,intel,https://github.com/intel/terraform-intel-azure-postgresql_flexible_server,Intel Cloud Optimization Module - Azure PostgreSQL Flexible Server
+azure-postgresql_flexible_server2,kalenarndt,16701,intel,https://github.com/kalenarndt/terraform-intel-azure-postgresql_flexible_server2,
 azure-rg,e113de,9266,module,https://github.com/e113de/terraform-module-azure-rg,Terraform module to create Azure Resource Groups. Used to ensure naming conventions.
 azure-route-server,terraform-aviatrix-modules,14966,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-route-server,Deploys Azure route server and ties it to a transit of choice.
 azure-secrets-engine,devops-rob,7436,vault,https://github.com/devops-rob/terraform-vault-azure-secrets-engine,This module enables and configures the Azure secrets engine for Vault.
@@ -1942,6 +1947,7 @@ cloud-sql,snowplow-devops,10058,google,https://github.com/snowplow-devops/terraf
 cloud-sql-pgbouncer,christippett,5177,google,https://github.com/christippett/terraform-google-cloud-sql-pgbouncer,Automatically configure and deploy PgBouncer on Google Cloud with this Terraform module
 cloud-sql-pgbouncer,drekthral,16514,google,https://github.com/drekthral/terraform-google-cloud-sql-pgbouncer,Automatically configure and deploy PgBouncer on Google Cloud with this Terraform module
 cloud-sql-saver,mscribellito,11188,google,https://github.com/mscribellito/terraform-google-cloud-sql-saver,Terraform module to simplify cost savings of Cloud SQL instances on GCP.
+cloud-sql-user,AckeeCZ,16700,gcp,https://github.com/AckeeCZ/terraform-gcp-cloud-sql-user,Terraform module for setting up users in GCP Cloud SQL for Postgresql
 cloud-sso,terraform-alicloud-modules,11246,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-sso,Terraform module which creates and sets the cloud sso resources on Alibaba Cloud.
 cloud-storage,aidenabled,11471,google,https://github.com/aidenabled/terraform-google-cloud-storage,
 cloud-storage,chriskasparmayo,3346,google,https://github.com/chriskasparmayo/terraform-google-cloud-storage,"This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users."
@@ -3000,6 +3006,7 @@ docker-ec2-instance,oraykamberoglu,15705,aws,https://github.com/oraykamberoglu/t
 docker-ec2instance,ofidan,15032,aws,https://github.com/ofidan/terraform-aws-docker-ec2instance,
 docker-host,colinwilson,5870,hcloud,https://github.com/colinwilson/terraform-hcloud-docker-host,Terraform module to deploy a single Docker host (in swarm mode) on Hetzner Cloud. A Hetzner Cloud volume is used as the Docker root directory.
 docker-ihsany,Iyigit03,16393,aws,https://github.com/Iyigit03/terraform-aws-docker-ihsany,terraform-aws-docker-ihsanyigit
+docker-instance,3116yusufcan,16692,aws,https://github.com/3116yusufcan/terraform-aws-docker-instance,
 docker-instance,73abdurrahman,16342,aws,https://github.com/73abdurrahman/terraform-aws-docker-instance,
 docker-instance,8mehmet11,15710,aws,https://github.com/8mehmet11/terraform-aws-docker-instance,
 docker-instance,AAsimCoskun,14624,aws,https://github.com/AAsimCoskun/terraform-aws-docker-instance,
@@ -4189,6 +4196,7 @@ eks-metrics-server,lablabs,5510,aws,https://github.com/lablabs/terraform-aws-eks
 eks-minio-operator,DNXLabs,11775,aws,https://github.com/DNXLabs/terraform-aws-eks-minio-operator,
 eks-module,OpenClassrooms,13141,aws,https://github.com/OpenClassrooms/terraform-aws-eks-module,Terraform module to provision an EKS cluster and all associated resources.
 eks-monitoring,andreswebs,9919,aws,https://github.com/andreswebs/terraform-aws-eks-monitoring,"Deploys Prometheus, Grafana, Loki and Promtail on AWS EKS via Helm"
+eks-monitoring-bundle,blackbird-cloud,16695,aws,https://github.com/blackbird-cloud/terraform-aws-eks-monitoring-bundle,terraform-aws-eks-monitoring-bundle
 eks-node-group,cloudposse,3709,aws,https://github.com/cloudposse/terraform-aws-eks-node-group,Terraform module to provision a fully managed AWS EKS Node Group
 eks-node-group,native-cube,12167,aws,https://github.com/native-cube/terraform-aws-eks-node-group,Terraform module to provision EKS Managed Node Group
 eks-node-group,trallnag,7335,aws,https://github.com/trallnag/terraform-aws-eks-node-group,Terraform module to provision an EKS Node Group
@@ -4772,6 +4780,7 @@ ghost,mateothegreat,11448,kubernetes,https://github.com/mateothegreat/terraform-
 ghost,wderezin,11591,aws,https://github.com/wderezin/terraform-aws-ghost,Deployment of full stack for Content Management System.
 ghost-docker,jmarhee,9490,digitalocean,https://github.com/jmarhee/terraform-digitalocean-ghost-docker,
 girder,girder,5245,aws,https://github.com/girder/terraform-aws-girder,A Terraform module to provision Girder infrastructure on AWS.
+girder3,girder,16706,aws,https://github.com/girder/terraform-aws-girder3,A Terraform module to provision Girder3 infrastructure on AWS.
 girder4,girder,15247,heroku,https://github.com/girder/terraform-heroku-girder4,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 git-info,Invicton-Labs,9327,external,https://github.com/Invicton-Labs/terraform-external-git-info,Retrieves Git info for a given repository.
 git-repository,skyfjall,14128,flux,https://github.com/skyfjall/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
@@ -6024,7 +6033,7 @@ labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-mo
 lacme,mpalmer,10647,module,https://github.com/mpalmer/terraform-module-lacme,Get certificates from an ACME CA (like Let's Encrypt) using AWS Lambdas
 lagom,SpongePowered,10632,kubernetes,https://github.com/SpongePowered/terraform-kubernetes-lagom,Terraform module for simplifying deployments of SystemOfADownload
 lakeformation,cloudposse,14958,aws,https://github.com/cloudposse/terraform-aws-lakeformation,
-lakehouse-blueprints,databricks,14484,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,"Automatically provision a secure workspace with ACLs, standard policies, and code assets to jumpstart your Lakehouse"
+lakehouse-blueprints,databricks,14484,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,Set of Terraform automation templates and quickstart demos to jumpstart the design of a Lakehouse on Databricks. This project has incorporated best practices across the industries we work with to deliver composable modules to build a workspace to comply with the highest platform security and governance standards. 
 lambda,Cloud-42,3487,aws,https://github.com/Cloud-42/terraform-aws-lambda,Creates a Lambda function.
 lambda,Haplo-tech,3804,aws,https://github.com/Haplo-tech/terraform-aws-lambda,
 lambda,JamesWoolfenden,14023,aws,https://github.com/JamesWoolfenden/terraform-aws-lambda,Basic lambda module
@@ -6788,6 +6797,7 @@ monitoring-with-elastic-stack,Mtt6300,9655,kubernetes,https://github.com/Mtt6300
 monitors,claranet,3655,datadog,https://github.com/claranet/terraform-datadog-monitors,Manage Datadog monitors with terraform dedicated modules.
 moo,darren-rose,5028,module,https://github.com/darren-rose/terraform-module-moo,
 mps3bucket,manaswinipanda,13974,aws,https://github.com/manaswinipanda/terraform-aws-mps3bucket,Acc Terraform session activity
+mq,dare-global,16697,aws,https://github.com/dare-global/terraform-aws-mq,Terraform module for provisioning an Amazon MQ broker
 mq,jungopro,4473,aws,https://github.com/jungopro/terraform-aws-mq,Terraform Module to deploy AWS MQ
 mq-broker,cloudposse,2013,aws,https://github.com/cloudposse/terraform-aws-mq-broker,Terraform module for provisioning an AmazonMQ broker
 msa-exim.tf,mildred,5608,local,https://github.com/mildred/terraform-local-msa-exim.tf,"terraform module to deploy a local Exim non relaying submission server (port 587 only, not 25)"
@@ -8227,6 +8237,7 @@ release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
 release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
 release,edalferes,4665,helm,https://github.com/edalferes/terraform-helm-release,Terraform module deployment helm chart k8s
 release,guifabmello,11144,helm,https://github.com/guifabmello/terraform-helm-release,Terraform module deployment helm chart k8s
+release,mikzuit,16691,helm,https://github.com/mikzuit/terraform-helm-release,A helm release module for terraform
 release,terraform-module,3814,helm,https://github.com/terraform-module/terraform-helm-release,App release with terraform and helm
 release-prometheus-msteams,OpenQAI,5331,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-msteams,A helm_release terraform module type for prometheus_msteams chart. 
 release-prometheus-operator,OpenQAI,5333,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-operator,"Terraform Module: prometheus-operator, helm release resource deployment.  "
@@ -8823,7 +8834,7 @@ s3backend,dbandoni,13585,aws,https://github.com/dbandoni/terraform-aws-s3backend
 s3backend,deanhamilton11,8094,aws,https://github.com/deanhamilton11/terraform-aws-s3backend,
 s3backend,dmalevski,6589,aws,https://github.com/dmalevski/terraform-aws-s3backend,
 s3backend,echeadle,4575,aws,https://github.com/echeadle/terraform-aws-s3backend,"Terraform In Action, Chapter 6"
-s3backend,edwinalex035,10914,aws,https://github.com/edwinalex035/terraform-aws-s3backend,
+s3backend,edwinalex035,16699,aws,https://github.com/edwinalex035/terraform-aws-s3backend,
 s3backend,enricomzz,6485,aws,https://github.com/enricomzz/terraform-aws-s3backend,
 s3backend,fa9004jmh,3046,aws,https://github.com/fa9004jmh/terraform-aws-s3backend,
 s3backend,fernandochristyanto,6923,aws,https://github.com/fernandochristyanto/terraform-aws-s3backend,Terraform module with S3 backend
@@ -8940,6 +8951,7 @@ sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
 san-multi-zone,karankohli13,10385,acm,https://github.com/karankohli13/terraform-acm-san-multi-zone,
 sandbox,obay,15384,azure,https://github.com/obay/terraform-azure-sandbox,This Terraform module deploys a sandbox environment in Azure that will be used for testing and development purposes.
+sandirmtest,sandipdas,16694,azurerm,https://github.com/sandipdas/terraform-azurerm-sandirmtest,
 sanjustorage,sny258,12315,azure,https://github.com/sny258/terraform-azure-sanjustorage,Repo for custom azure storage account module
 sankarbucket,Sankz-0930,12719,aws,https://github.com/Sankz-0930/terraform-aws-sankarbucket,
 sap,terraform-google-modules,2690,google,https://github.com/terraform-google-modules/terraform-google-sap,This module is a collection of multiple opinionated submodules to deploy SAP Products.
@@ -9587,6 +9599,7 @@ sqlserver-seed,metadevpro,514,azurerm,https://github.com/metadevpro/terraform-az
 sqlserver_db,airasia,6420,google,https://github.com/airasia/terraform-google-sqlserver_db,Terraform module for a MSSQL / SQLServer CloudSQL Instance in GCP
 sqlservers,linkbynet,8477,datadog,https://github.com/linkbynet/terraform-datadog-sqlservers,Terraform module for deploy sqlservers monitoring on datadog
 sqlservers-databases,linkbynet,8478,datadog,https://github.com/linkbynet/terraform-datadog-sqlservers-databases,Terraform module for deploy sqlservers databases monitoring on datadog
+sqlvm,bootlabstech,16696,azurerm,https://github.com/bootlabstech/terraform-azurerm-sqlvm,
 sqs,Aplyca,1343,aws,https://github.com/Aplyca/terraform-aws-sqs,Create a AWS SQS Queue with Death Letter Queue
 sqs,Cloud-42,4841,aws,https://github.com/Cloud-42/terraform-aws-sqs,Creates SQS queue (s).
 sqs,JamesWoolfenden,7811,aws,https://github.com/JamesWoolfenden/terraform-aws-sqs,Basic SQS module
@@ -11139,6 +11152,7 @@ vpc-eip,tf-cloud-modules,16098,sbercloud,https://github.com/tf-cloud-modules/ter
 vpc-eks,babakDoraniArab,11827,aws,https://github.com/babakDoraniArab/terraform-aws-vpc-eks,a terraform code to run aws vpc and eks
 vpc-eks,ekanatbekov,15640,aws,https://github.com/ekanatbekov/terraform-aws-vpc-eks,
 vpc-endpoint,genstackio,7899,aws,https://github.com/genstackio/terraform-aws-vpc-endpoint,Terraform module to create a VPC endpoint
+vpc-endpoint,infrablocks,16693,aws,https://github.com/infrablocks/terraform-aws-vpc-endpoint,Terraform module for managing a VPC endpoint
 vpc-endpoints,andyscott1547,16089,aws,https://github.com/andyscott1547/terraform-aws-vpc-endpoints,Terraform module to create VPC endpoints for supported services.
 vpc-endpoints,clowdhaus,8418,aws,https://github.com/clowdhaus/terraform-aws-vpc-endpoints,Terraform module which creates AWS VPC endpoint resources
 vpc-endpoints,dod-iac,10155,aws,https://github.com/dod-iac/terraform-aws-vpc-endpoints,Creates a set of VPC endpoints for the given VPC
@@ -11545,3 +11559,4 @@ zone-lockdown,alicankustemur,6412,cloudflare,https://github.com/alicankustemur/t
 zookeeper,barryw,8656,aws,https://github.com/barryw/terraform-aws-zookeeper,Terraform module for bringing up a Zookeeper ensemble
 zookeeper,philips-labs,6012,hsdp,https://github.com/philips-labs/terraform-hsdp-zookeeper,Terraform module to create Zookeeper ensemble on HSDP Container Host
 zpa-app-connector-modules,zscaler,15799,aws,https://github.com/zscaler/terraform-aws-zpa-app-connector-modules,Terraform Reusable Modules for ZPA App Connector VMs on AWS
+zpa-app-connector-modules,zscaler,16690,azurerm,https://github.com/zscaler/terraform-azurerm-zpa-app-connector-modules,
