@@ -636,6 +636,7 @@ apigw,SPHTech-Platform,14748,aws,https://github.com/SPHTech-Platform/terraform-a
 apigw-lambda,armorfret,2201,aws,https://github.com/armorfret/terraform-aws-apigw-lambda,AWS API Gateway backed by a Lambda function
 apigw-lambda-proxy,rosskuyper,5521,aws,https://github.com/rosskuyper/terraform-aws-apigw-lambda-proxy,Simple direct proxy from apigw to a single lambda
 apikey,tomoki171923,13378,aws,https://github.com/tomoki171923/terraform-aws-apikey,"Terraform module, which creates AWS apigateway api key resources."
+apim,JamesWoolfenden,16719,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-apim,
 apim-api,JoeAtRest,6087,azurerm,https://github.com/JoeAtRest/terraform-azurerm-apim-api,Manages an API for an existing Azure API Manager
 apimanagement,bootlabstech,15929,azurerm,https://github.com/bootlabstech/terraform-azurerm-apimanagement,
 apiwithwebappazure,patelsan,8349,archiectures,https://github.com/patelsan/terraform-archiectures-apiwithwebappazure,
@@ -2325,6 +2326,7 @@ codepipline-github-dockerhub,cloudacode,16557,aws,https://github.com/cloudacode/
 codepipline-test-framework,toluna-terraform,11724,aws,https://github.com/toluna-terraform/terraform-aws-codepipline-test-framework,
 codestar,aws-ia,9980,aws,https://github.com/aws-ia/terraform-aws-codestar,AWS CodeStar Integration
 codestar-connection,tim0git,12157,aws,https://github.com/tim0git/terraform-aws-codestar-connection,Terraform module which creates codestar connection resources
+cognito,clouddrove,16708,aws,https://github.com/clouddrove/terraform-aws-cognito,Terraform module to create an Cognito resource on AWS.
 cognito-auth,squidfunk,1549,aws,https://github.com/squidfunk/terraform-aws-cognito-auth,Serverless Authentication as a Service (AaaS) provider built on top of AWS Cognito
 cognito-elasticsearch,hendrixroa,6558,aws,https://github.com/hendrixroa/terraform-aws-cognito-elasticsearch,Module to provisioning elasticsearch domain protected with cognito.
 cognito-identity-pool-mod,corpit-consulting-public,2800,aws,https://github.com/corpit-consulting-public/terraform-aws-cognito-identity-pool-mod,
@@ -3272,6 +3274,7 @@ domain,tedilabs,7745,aws,https://github.com/tedilabs/terraform-aws-domain,🌳 A
 domain,wderezin,11594,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
 domain-join,kumarvna,8970,azurerm,https://github.com/kumarvna/terraform-azurerm-domain-join,Terraform module to joins a VM to an Active Directory Domain
 domain-redirect,Invicton-Labs,10887,aws,https://github.com/Invicton-Labs/terraform-aws-domain-redirect,
+domain-redirect,Kalepa,16709,aws,https://github.com/Kalepa/terraform-aws-domain-redirect,
 domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-domain-redirect,Redirects from one domain to another using S3 bucket & Cloudfront distribution
 domain-redirect,simplycubed,11653,google,https://github.com/simplycubed/terraform-google-domain-redirect,Terraform module to simplify redirecting domains on Google Cloud DNS.
 domain-setup,daringway,5633,aws,https://github.com/daringway/terraform-aws-domain-setup,An opinionated setup your AWS domain (route52) related features.
@@ -5796,6 +5799,7 @@ kms,basisai,7302,aws,https://github.com/basisai/terraform-aws-kms,Utility to cre
 kms,binxio,6861,google,https://github.com/binxio/terraform-google-kms,Generic google KMS module for Terraform 
 kms,boldlink,13914,aws,https://github.com/boldlink/terraform-aws-kms,Terraform registry repository for KMS module
 kms,bootlabstech,12477,google,https://github.com/bootlabstech/terraform-google-kms,"Terraform module to create KMS Key-Ring , Crypto Key  with KMS Key-Ring IAM binding and Crypto key IAM binding"
+kms,clouddrove,16715,gcp,https://github.com/clouddrove/terraform-gcp-kms,
 kms,clouddrove,3645,aws,https://github.com/clouddrove/terraform-aws-kms,This terraform module creates a KMS Customer Master Key (CMK) and its alias.
 kms,devops4mecode,6803,aws,https://github.com/devops4mecode/terraform-aws-kms,
 kms,foss-cafe,6072,aws,https://github.com/foss-cafe/terraform-aws-kms,terraform module for kms key
@@ -5874,6 +5878,7 @@ kubeadm,weibeld,4822,aws,https://github.com/weibeld/terraform-aws-kubeadm,Terraf
 kubeadm-token,scholzj,244,random,https://github.com/scholzj/terraform-random-kubeadm-token,Terraform module for generating kubeadm tokens
 kubeconfig,HumbertoPeluso,10808,aws,https://github.com/HumbertoPeluso/terraform-aws-kubeconfig,
 kubeconfig,redeux,8462,kubernetes,https://github.com/redeux/terraform-kubernetes-kubeconfig,Generate kubeconfig files with Terraform
+kubeconfig,zzh8829,16718,gke,https://github.com/zzh8829/terraform-gke-kubeconfig,📝 Terraform module that generates a Kubeconfig for accessing GKE clusters
 kubectl-cmd,LuxChanLu,15712,kubernetes,https://github.com/LuxChanLu/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
 kubectl-cmd,agseijas,11820,kubernetes,https://github.com/agseijas/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
 kubectl-cmd,magnolia-sre,13199,kubernetes,https://github.com/magnolia-sre/terraform-kubernetes-kubectl-cmd,Terraform kubectl-cmd
@@ -7399,6 +7404,7 @@ org-new-account-support-case,plus3it,8608,aws,https://github.com/plus3it/terrafo
 org-new-account-trust-policy,plus3it,3169,aws,https://github.com/plus3it/terraform-aws-org-new-account-trust-policy,A Terraform Module
 org-policy,terraform-google-modules,1627,google,https://github.com/terraform-google-modules/terraform-google-org-policy,A Terraform module for managing GCP org policies.
 org-policy-document,Invicton-Labs,13572,aws,https://github.com/Invicton-Labs/terraform-aws-org-policy-document,"A Terraform module that creates IAM policy documents that grant permissions to Organizations, Organizational Units, or Accounts."
+org-policy-document,Kalepa,16710,aws,https://github.com/Kalepa/terraform-aws-org-policy-document,"A Terraform module that creates IAM policy documents that grant permissions to Organizations, Organizational Units, or Accounts."
 org-project,Xorima,11819,tfe,https://github.com/Xorima/terraform-tfe-org-project,Terraform module to manage organisation projects
 org-project,bootlabstech,11291,google,https://github.com/bootlabstech/terraform-google-org-project,
 org-roles,Xorima,11854,tfe,https://github.com/Xorima/terraform-tfe-org-roles,Terraform Module to help manage the organisational roles within TF
@@ -7427,6 +7433,7 @@ organization-iam,mineiros-io,11749,google,https://github.com/mineiros-io/terrafo
 organization-policy,mineiros-io,12940,google,https://github.com/mineiros-io/terraform-google-organization-policy,A Terraform module to create and manage an Organization Policy for a Google Cloud Organization in Google Cloud https://cloud.google.com/resource-manager/docs/organization-policy/overview
 organization-secret,mineiros-io,11118,github,https://github.com/mineiros-io/terraform-github-organization-secret,A Terraform module to manage GitHub Organization Secrets. https://github.com/
 organization-structure,Invicton-Labs,12211,aws,https://github.com/Invicton-Labs/terraform-aws-organization-structure,
+organization-structure,Kalepa,16713,aws,https://github.com/Kalepa/terraform-aws-organization-structure,
 organizational-unit-members,devops-workflow,1880,aws,https://github.com/devops-workflow/terraform-aws-organizational-unit-members,Terraform module to move organization member account to right organizational unit
 organizational-units,devops-workflow,1849,aws,https://github.com/devops-workflow/terraform-aws-organizational-units,Terraform module to create AWS Organizational Units
 organizations,arkhoss,6398,aws,https://github.com/arkhoss/terraform-aws-organizations,
@@ -9366,6 +9373,7 @@ shell-data,BrynardSecurity-terraform,12993,external,https://github.com/BrynardSe
 shell-data,Invicton-Labs,9249,external,https://github.com/Invicton-Labs/terraform-external-shell-data,
 shell-escape,Invicton-Labs,12362,null,https://github.com/Invicton-Labs/terraform-null-shell-escape,
 shell-resource,Invicton-Labs,9433,external,https://github.com/Invicton-Labs/terraform-external-shell-resource,A module for running shell commands and capturing their outputs as resources.
+shell-resource,Kalepa,16707,external,https://github.com/Kalepa/terraform-external-shell-resource,A module for running shell commands and capturing their outputs as resources.
 shem,sdkpage,11585,aws,https://github.com/sdkpage/terraform-aws-shem,Terraform lesson
 shepard,WOGRA-AG,13262,kustomization,https://github.com/WOGRA-AG/terraform-kustomization-shepard,A Terraform module for running Shepard on a kubernetes cluster. 
 shepherd,spdns,7727,aws,https://github.com/spdns/terraform-aws-shepherd,This module is used to configure AWS resources to work with the Shepherd Protective DNS records.
@@ -9384,6 +9392,7 @@ sidecred,telia-oss,4927,aws,https://github.com/telia-oss/terraform-aws-sidecred,
 siderite-backend,philips-labs,8157,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-siderite-backend,Siderite backend for hsdp_function resource 
 signalr,claranet,6683,azurerm,https://github.com/claranet/terraform-azurerm-signalr,Terraform module for Azure SignalR
 signed-certificate,Invicton-Labs,11982,tls,https://github.com/Invicton-Labs/terraform-tls-signed-certificate,
+signed-certificate,Kalepa,16711,tls,https://github.com/Kalepa/terraform-tls-signed-certificate,
 signed-request,Invicton-Labs,9875,aws,https://github.com/Invicton-Labs/terraform-aws-signed-request,Creates an AWS v4 signed request.
 sikalabs-do-k8s,sikalabs,8788,module,https://github.com/sikalabs/terraform-module-sikalabs-do-k8s,
 sikalabs-vm-do,sikalabs,10908,module,https://github.com/sikalabs/terraform-module-sikalabs-vm-do,
@@ -9829,6 +9838,7 @@ staticip,JamesWoolfenden,3422,gcp,https://github.com/JamesWoolfenden/terraform-g
 staticsite,JamesWoolfenden,2714,aws,https://github.com/JamesWoolfenden/terraform-aws-staticsite,Basic Static Site module
 staticsite,devtheops,844,aws,https://github.com/devtheops/terraform-aws-staticsite,The Terraform module creates everything needed to make a static website
 staticsite,justincampbell,86,aws,https://github.com/justincampbell/terraform-aws-staticsite,"Terraform module for an S3 website, logging, and DNSimple records"
+staticweb,zeljkosuput,16717,azurerm,https://github.com/zeljkosuput/terraform-azurerm-staticweb,
 staticwebpublic,KiranNirmalkar,11740,azurerm,https://github.com/KiranNirmalkar/terraform-azurerm-staticwebpublic,Terraform static website 
 staticwebsite,Rajkumar-21,15458,azurerm,https://github.com/Rajkumar-21/terraform-azurerm-staticwebsite,Terraform local modules shared in Terraform registry public
 staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform-azurerm-staticwebsite,
@@ -9997,6 +10007,7 @@ sts-csi-disks,basisai,8452,aws,https://github.com/basisai/terraform-aws-sts-csi-
 sts-role-assumption,Invicton-Labs,9132,aws,https://github.com/Invicton-Labs/terraform-aws-sts-role-assumption,A Terraform module for assuming a role via STS and obtaining a temporary token
 subhadips3creation,subhadipdey13,10796,aws,https://github.com/subhadipdey13/terraform-aws-subhadips3creation,
 subminute-lambda-event,Invicton-Labs,10932,aws,https://github.com/Invicton-Labs/terraform-aws-subminute-lambda-event,
+subminute-lambda-event,Kalepa,16712,aws,https://github.com/Kalepa/terraform-aws-subminute-lambda-event,
 subnet,Aristocrat-B2B,8599,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-subnet,A module that builds subnets on Nutanix hypervisor
 subnet,GMafra,1019,gcp,https://github.com/GMafra/terraform-gcp-subnet," Terraform module for creating Subnets on Google Cloud"
 subnet,OT-CLOUD-KIT,5143,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-subnet,Module to manage subnets
@@ -11554,6 +11565,7 @@ zone,Flaconi,11080,cloudflare,https://github.com/Flaconi/terraform-cloudflare-zo
 zone,alex-feel,8648,cloudflare,https://github.com/alex-feel/terraform-cloudflare-zone,Terraform module that creates zone resources in Cloudflare with minimal effort on your part.
 zone,cloudposse,8292,cloudflare,https://github.com/cloudposse/terraform-cloudflare-zone,"Terraform module to provision a CloudFlare zone with DNS records, Argo, Firewall filters and rules"
 zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cloudflare-zone,
+zone,samarkand-global,16714,cloudflare,https://github.com/samarkand-global/terraform-cloudflare-zone,A Terraform module to manage a Zone in Cloudflare
 zone,tcarrondo,3043,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-zone,Setup a zone in Cloudflare
 zone-lockdown,alicankustemur,6412,cloudflare,https://github.com/alicankustemur/terraform-cloudflare-zone-lockdown,
 zookeeper,barryw,8656,aws,https://github.com/barryw/terraform-aws-zookeeper,Terraform module for bringing up a Zookeeper ensemble
