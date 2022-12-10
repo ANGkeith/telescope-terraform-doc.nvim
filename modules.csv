@@ -442,6 +442,7 @@ alb-web-containers,trussworks,1346,aws,https://github.com/trussworks/terraform-a
 alb_target_group,OT-CLOUD-KIT,5056,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-alb_target_group,This repository consists of Terraform module for ALB Target Group in AWS.
 alert,SunDevs,8021,mongodbatlas,https://github.com/SunDevs/terraform-mongodbatlas-alert,
 alerting,claranet,4464,azurerm,https://github.com/claranet/terraform-azurerm-alerting,Terraform module for Azure Alerting
+alerting,rookie-terraform-modules,16900,aws,https://github.com/rookie-terraform-modules/terraform-aws-alerting,A Terraform module which creates an SNS topic which receives alerts from publishers and forwards them to an email address or HTTP webhook. It also creates a CloudWatch alarm which monitors the number of failed notifications and sends an email to a failure email address.
 alertmanager,philips-labs,10540,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-alertmanager,
 alerts-to-s3,lacework,16278,aws,https://github.com/lacework/terraform-aws-alerts-to-s3,Terraform Lacework Alerts to AWS-S3
 algo,armorfret,2199,linode,https://github.com/armorfret/terraform-linode-algo,Terraform module for creating an Algo VPN on a Linode
@@ -1043,6 +1044,7 @@ asgroup,baydullod,13830,aws,https://github.com/baydullod/terraform-aws-asgroup,
 asgroup,botasun,13812,aws,https://github.com/botasun/terraform-aws-asgroup,
 asgroup,dskz,13789,aws,https://github.com/dskz/terraform-aws-asgroup,
 asgroup,ekanatbekov,13833,aws,https://github.com/ekanatbekov/terraform-aws-asgroup,
+asgroup,ekanzharbekova,16910,aws,https://github.com/ekanzharbekova/terraform-aws-asgroup,
 asgroup,fadimecanoglu,13826,aws,https://github.com/fadimecanoglu/terraform-aws-asgroup,
 asgroup,farrukh90,13817,aws,https://github.com/farrukh90/terraform-aws-asgroup,
 asgroup,gulbeia,13846,aws,https://github.com/gulbeia/terraform-aws-asgroup,
@@ -1334,8 +1336,8 @@ azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-
 azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
-azure-mysql_flexible_server,intel,16704,intel,https://github.com/intel/terraform-intel-azure-mysql_flexible_server,Intel Cloud Optimization Module - Azure MySQL Flexible Server
-azure-postgresql_flexible_server,intel,16705,intel,https://github.com/intel/terraform-intel-azure-postgresql_flexible_server,Intel Cloud Optimization Module - Azure PostgreSQL Flexible Server
+azure-mysql-flexible-server,intel,16905,intel,https://github.com/intel/terraform-intel-azure-mysql-flexible-server,Intel Cloud Optimization Module - Azure MySQL Flexible Server
+azure-postgresql-flexible-server,intel,16906,intel,https://github.com/intel/terraform-intel-azure-postgresql-flexible-server,Intel Cloud Optimization Module - Azure PostgreSQL Flexible Server
 azure-postgresql_flexible_server2,kalenarndt,16701,intel,https://github.com/kalenarndt/terraform-intel-azure-postgresql_flexible_server2,
 azure-rg,e113de,9266,module,https://github.com/e113de/terraform-module-azure-rg,Terraform module to create Azure Resource Groups. Used to ensure naming conventions.
 azure-role,ptonini,16789,vault,https://github.com/ptonini/terraform-vault-azure-role,
@@ -6006,7 +6008,7 @@ kubernetes-auth,kalenarndt,16279,vault,https://github.com/kalenarndt/terraform-v
 kubernetes-auth-backend,ptonini,16806,vault,https://github.com/ptonini/terraform-vault-kubernetes-auth-backend,
 kubernetes-auth-role,ptonini,16807,vault,https://github.com/ptonini/terraform-vault-kubernetes-auth-role,
 kubernetes-azuread-integration,avinor,2999,azurerm,https://github.com/avinor/terraform-azurerm-kubernetes-azuread-integration,Terraform module to create the required applications and roles in AzureAD for Kubernetes AD integration
-kubernetes-backend,ptonini,16808,vault,https://github.com/ptonini/terraform-vault-kubernetes-backend,
+kubernetes-backend,ptonini,16909,vault,https://github.com/ptonini/terraform-vault-kubernetes-backend,
 kubernetes-bgp,displague,5314,packet,https://github.com/displague/terraform-packet-kubernetes-bgp,Kubernetes on Packet using Calico and MetalLB
 kubernetes-cluster,T-Systems-MMS,12111,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-kubernetes-cluster,Configure Azure Kubernetes Cluster Service
 kubernetes-cluster,bytejunkie,7372,azurerm,https://github.com/bytejunkie/terraform-azurerm-kubernetes-cluster,
@@ -6540,7 +6542,6 @@ logstore-alb-listener,terraform-alicloud-modules,10415,alicloud,https://github.c
 logzio-rbac,sanarena,7327,kubernetes,https://github.com/sanarena/terraform-kubernetes-logzio-rbac,Ship K8S-RBAC logs to logz.io via terraform
 loki,loafoe,13408,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-loki,Grafana Loki deployment for Cloud foundry
 loki-aws,iplabs,4984,kubernetes,https://github.com/iplabs/terraform-kubernetes-loki-aws,Terraform module to install Loki on a Kubernetes cluster to utilize storage (S3 and DynamoDB) in AWS.
-loki-on-ecs,tobeyOguney,16850,aws,https://github.com/tobeyOguney/terraform-aws-loki-on-ecs,A Terraform module to install Loki on an ECS cluster utilizing DynamoDB and S3 as storage backends.
 loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-loki-stack,
 longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
@@ -6789,6 +6790,7 @@ module-test,eduardogspereira,11953,registry,https://github.com/eduardogspereira/
 module-test,hiroto3432,10191,aws,https://github.com/hiroto3432/terraform-aws-module-test,
 module-test-jenkins,Azure,669,azurerm,https://github.com/Azure/terraform-azurerm-module-test-jenkins,The test infrastructure (Jenkins on Azure VM) to be provisioned for Terraform module testing purpose.
 module-vault-enterprise,einyx,1814,aws,https://github.com/einyx/terraform-aws-module-vault-enterprise,
+module-vpc-project,martapol1230,16908,google,https://github.com/martapol1230/terraform-google-module-vpc-project,
 module-vpn,sirlegendary,15809,aws,https://github.com/sirlegendary/terraform-aws-module-vpn,
 module01,Sathizz95,7967,sathiz,https://github.com/Sathizz95/terraform-sathiz-module01,Terraform Module
 module1,applesoftsol,6177,azurerm,https://github.com/applesoftsol/terraform-azurerm-module1,This module is for creating vnet
@@ -6887,6 +6889,7 @@ mse,terraform-alicloud-modules,12825,alicloud,https://github.com/terraform-alicl
 msi,tomarv2,12427,azure,https://github.com/tomarv2/terraform-azure-msi,Terraform module for Azure Managed Service Identity (MSI) 
 msk,infrablocks,8878,aws,https://github.com/infrablocks/terraform-aws-msk," Terraform module for building AWS Managed Streaming for Kafka cluster"
 msk-apache-kafka-cluster,cloudposse,5962,aws,https://github.com/cloudposse/terraform-aws-msk-apache-kafka-cluster,Terraform module to provision AWS MSK
+msk-apache-kafka-cluster,vunhan,16897,aws,https://github.com/vunhan/terraform-aws-msk-apache-kafka-cluster,Terraform module to provision AWS MSK
 msk-cluster,angelabad,4702,aws,https://github.com/angelabad/terraform-aws-msk-cluster,Terraform module which creates Msk Kafka Cluster on AWS
 msk-kafka-cluster,clowdhaus,9970,aws,https://github.com/clowdhaus/terraform-aws-msk-kafka-cluster,Terraform module which creates AWS MSK (Managed Streaming for Kafka) resources 
 msk-sasl,vietanhduong,10874,aws,https://github.com/vietanhduong/terraform-aws-msk-sasl,Provision an Amazon MSK cluster with SASL SCRAM authentication using Terraform 
@@ -7181,6 +7184,7 @@ network,zerotier,8718,zerotier,https://github.com/zerotier/terraform-zerotier-ne
 network,zoitech,200,aws,https://github.com/zoitech/terraform-aws-network,This module is intended to be used for configuring an AWS network.
 network-access,pselle,7448,aws,https://github.com/pselle/terraform-aws-network-access,
 network-basic,cybergavin,10717,azurerm,https://github.com/cybergavin/terraform-azurerm-network-basic,Terraform module for provisioning VNets and subnets on Azure
+network-data,andreswebs,16907,google,https://github.com/andreswebs/terraform-google-network-data,
 network-ddos-protection-plan,bytejunkie,5548,azurerm,https://github.com/bytejunkie/terraform-azurerm-network-ddos-protection-plan,terraform registry to deploy the DDOS Protection Plan resource
 network-firewall,JamesWoolfenden,16624,aws,https://github.com/JamesWoolfenden/terraform-aws-network-firewall,Its a firewall module
 network-firewall,binbashar,9957,aws,https://github.com/binbashar/terraform-aws-network-firewall,Terraform module for creating AWS Network Firewall resources
@@ -9998,6 +10002,7 @@ staticwebsitepublic,ch798543,15185,azurerm,https://github.com/ch798543/terraform
 staticwebsitepublic,crossmaster86,12028,azurerm,https://github.com/crossmaster86/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,dacdo,16519,azurerm,https://github.com/dacdo/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,devops-phani,14772,azurerm,https://github.com/devops-phani/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,g2gm2m,16895,azurerm,https://github.com/g2gm2m/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,gnu699,12442,azurerm,https://github.com/gnu699/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,gopal1409,12855,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsitepublic,Terraform module for static website in azure
 staticwebsitepublic,hbeerangi,10110,azurerm,https://github.com/hbeerangi/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -10191,7 +10196,7 @@ sumo-logic-integrations,SumoLogic,7191,sumologic,https://github.com/SumoLogic/te
 sumo-logic-monitor,SumoLogic,7489,sumologic,https://github.com/SumoLogic/terraform-sumologic-sumo-logic-monitor,Package to setup SumoLogic Alert Monitors via Terraform
 sunrays,surajsunrays,2083,aws,https://github.com/surajsunrays/terraform-aws-sunrays,This is sample dev env terraform module
 suparnastorage,trainsup,10157,azure,https://github.com/trainsup/terraform-azure-suparnastorage,
-superblocks,superblocksteam,16883,aws,https://github.com/superblocksteam/terraform-aws-superblocks,
+superblocks,superblocksteam,16883,aws,https://github.com/superblocksteam/terraform-aws-superblocks,Superblocks Terraform Module - AWS
 superblocks,superblocksteam,16884,google,https://github.com/superblocksteam/terraform-google-superblocks,Superblocks Terraform Module - Google
 support-access,xosphere,6058,xosphere,https://github.com/xosphere/terraform-xosphere-support-access,Temporarily provide Xosphere Support read-only access to Xosphere log files for troubleshooting purposes
 surajs3,SurajMishra261293,11427,aws,https://github.com/SurajMishra261293/terraform-aws-surajs3,
@@ -10843,6 +10848,7 @@ vnet,ingenii-solutions,8817,azurerm,https://github.com/ingenii-solutions/terrafo
 vnet,jungopro,3854,azurerm,https://github.com/jungopro/terraform-azurerm-vnet,Module to create a basic vNet in Azure
 vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Terraform Module to create Azure Virtual Network resources.
 vnet,manan-manik,14778,azure,https://github.com/manan-manik/terraform-azure-vnet,
+vnet,mariaashurova,16904,azure,https://github.com/mariaashurova/terraform-azure-vnet,
 vnet,nlarzon,2794,azure,https://github.com/nlarzon/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,nuraaly,6979,azure,https://github.com/nuraaly/terraform-azure-vnet,
 vnet,popravak,16174,azurerm,https://github.com/popravak/terraform-azurerm-vnet,Basic Azure virtual network w/o NSGs
@@ -11083,6 +11089,7 @@ vpc,mandeepmehra,4550,aws,https://github.com/mandeepmehra/terraform-aws-vpc,
 vpc,manojdotwork,10965,aws,https://github.com/manojdotwork/terraform-aws-vpc,
 vpc,manuscriptify,16642,aws,https://github.com/manuscriptify/terraform-aws-vpc,manuscriptify vpc
 vpc,marieane22,15583,gcp,https://github.com/marieane22/terraform-gcp-vpc,
+vpc,martapol1230,16896,aws,https://github.com/martapol1230/terraform-aws-vpc,
 vpc,mateothegreat,15275,aws,https://github.com/mateothegreat/terraform-aws-vpc,Create and manage AWS VPC's via Terraform.
 vpc,maxat2416,9375,aws,https://github.com/maxat2416/terraform-aws-vpc,
 vpc,mediapop,1241,aws,https://github.com/mediapop/terraform-aws-vpc,Create a preconfigured public VPC.
