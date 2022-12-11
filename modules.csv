@@ -390,6 +390,7 @@ alb,mergermarket,3711,acuris,https://github.com/mergermarket/terraform-acuris-al
 alb,mineiros-io,11349,aws,https://github.com/mineiros-io/terraform-aws-alb,A Terraform module to manage an Application Load Balancer (ALB) on Amazon Web Services (AWS). https://aws.amazon.com/elasticloadbalancing/application-load-balancer
 alb,mswaroopa11,10354,aws,https://github.com/mswaroopa11/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources
 alb,rhythmictech,3119,aws,https://github.com/rhythmictech/terraform-aws-alb,A Terraform module to create an AWS Application Load Balancer (ALB) and associated resources.
+alb,rookie-terraform-modules,16915,aws,https://github.com/rookie-terraform-modules/terraform-aws-alb,Terraform module to create an AWS Application Load Balancer
 alb,scottwinkler,2517,aws,https://github.com/scottwinkler/terraform-aws-alb,
 alb,snowplow-devops,9290,aws,https://github.com/snowplow-devops/terraform-aws-alb,
 alb,sohanyadav,16528,aws,https://github.com/sohanyadav/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources
@@ -4246,6 +4247,7 @@ eks-minio-operator,DNXLabs,11775,aws,https://github.com/DNXLabs/terraform-aws-ek
 eks-module,OpenClassrooms,13141,aws,https://github.com/OpenClassrooms/terraform-aws-eks-module,Terraform module to provision an EKS cluster and all associated resources.
 eks-monitoring,andreswebs,9919,aws,https://github.com/andreswebs/terraform-aws-eks-monitoring,"Deploys Prometheus, Grafana, Loki and Promtail on AWS EKS via Helm"
 eks-monitoring-bundle,blackbird-cloud,16695,aws,https://github.com/blackbird-cloud/terraform-aws-eks-monitoring-bundle,terraform-aws-eks-monitoring-bundle
+eks-nlb,RaftechNL,16917,aws,https://github.com/RaftechNL/terraform-aws-eks-nlb,Terraform AWS module for creating EKS cluster with NLBs
 eks-node-group,cloudposse,3709,aws,https://github.com/cloudposse/terraform-aws-eks-node-group,Terraform module to provision a fully managed AWS EKS Node Group
 eks-node-group,native-cube,12167,aws,https://github.com/native-cube/terraform-aws-eks-node-group,Terraform module to provision EKS Managed Node Group
 eks-node-group,trallnag,7335,aws,https://github.com/trallnag/terraform-aws-eks-node-group,Terraform module to provision an EKS Node Group
@@ -4857,6 +4859,7 @@ github-oidc,Invicton-Labs,15061,aws,https://github.com/Invicton-Labs/terraform-a
 github-oidc,StratusGrid,15091,aws,https://github.com/StratusGrid/terraform-aws-github-oidc,Configures AWS For GitHub Actions OIDC Authentation.
 github-oidc,bryan-rhm,14047,aws,https://github.com/bryan-rhm/terraform-aws-github-oidc,Module to create github oidc integration.
 github-oidc,digitalocean,12865,vault,https://github.com/digitalocean/terraform-vault-github-oidc,Terraform module to configure Vault for GitHub OIDC authentication from Action runners.
+github-oidc,krewenki,16916,aws,https://github.com/krewenki/terraform-aws-github-oidc,A module for setting up and managing AWS/Github OIDC for github actions
 github-oidc,oozou,14502,aws,https://github.com/oozou/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
 github-oidc,philips-labs,12226,aws,https://github.com/philips-labs/terraform-aws-github-oidc,Terraform module to  setup OIDC with AWS and GH Actions 
 github-oidc,saidsef,16406,aws,https://github.com/saidsef/terraform-aws-github-oidc,Terraform AWS GitHub OIDC Module
@@ -5630,6 +5633,7 @@ jupyterhub-singleuser,sodre,2349,triton,https://github.com/sodre/terraform-trito
 jvm-cron-lambda,sdmichelini,7388,aws,https://github.com/sdmichelini/terraform-aws-jvm-cron-lambda,Opinionated AWS lambda function used for cron based JVM workloads
 jvm-op-pack,terraform-shoreline-modules,11699,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-jvm-op-pack,Shoreline platform OpPack for Java JVM remediation and debugging.
 jwt-auth,kalenarndt,14542,vault,https://github.com/kalenarndt/terraform-vault-jwt-auth,Repository for generic jwt auth with Vault
+jwt-auth-role,ptonini,16918,vault,https://github.com/ptonini/terraform-vault-jwt-auth-role,
 jwt-authorizer,stuartizon,4758,aws,https://github.com/stuartizon/terraform-aws-jwt-authorizer,Terraform module which creates a custom lambda authorizer for use with API gateway
 jx,jenkins-x,4343,google,https://github.com/jenkins-x/terraform-google-jx,A Terraform module for creating Jenkins X infrastructure on Google Cloud
 jyotistorage,jyotirmayee01,12319,azure,https://github.com/jyotirmayee01/terraform-azure-jyotistorage,
@@ -7237,6 +7241,7 @@ networking,7Factor,13007,aws,https://github.com/7Factor/terraform-aws-networking
 networking,clouddrove,16631,azure,https://github.com/clouddrove/terraform-azure-networking,
 networking,cn-terraform,3242,aws,https://github.com/cn-terraform/terraform-aws-networking,Networking Terraform Module for AWS
 networking,myanees284,9430,aws,https://github.com/myanees284/terraform-aws-networking,
+networking,rookie-terraform-modules,16911,aws,https://github.com/rookie-terraform-modules/terraform-aws-networking,Terraform module to create networking resources on AWS
 networking,royge,2118,aws,https://github.com/royge/terraform-aws-networking,AWS Networking Template
 networking-nat-gateway,ptonini,16832,aws,https://github.com/ptonini/terraform-aws-networking-nat-gateway,
 networking-subnet,ptonini,16831,aws,https://github.com/ptonini/terraform-aws-networking-subnet,
@@ -7515,6 +7520,7 @@ organization,infrablocks,3316,aws,https://github.com/infrablocks/terraform-aws-o
 organization,lablabs,6159,aws,https://github.com/lablabs/terraform-aws-organization,
 organization,mhmdio,7271,aws,https://github.com/mhmdio/terraform-aws-organization,A Terraform module for managing an AWS Organisation.
 organization,mineiros-io,4126,github,https://github.com/mineiros-io/terraform-github-organization,A Terraform module to manage GitHub Organizations. https://github.com/
+organization,nephosolutions,16914,google,https://github.com/nephosolutions/terraform-google-organization,Bootstrap a Google Cloud Platform organization.
 organization,nishant-jain-94,3895,gitlab,https://github.com/nishant-jain-94/terraform-gitlab-organization,A Terraform Module to Provision Gitlab Resources on Gitlab Instance
 organization,scaffoldly,9357,aws,https://github.com/scaffoldly/terraform-aws-organization,Create an AWS organization.
 organization,terracharge,14093,aws,https://github.com/terracharge/terraform-aws-organization,Module for creating terraform-aws-organization with provider aws. This description is created automagically
@@ -8520,7 +8526,7 @@ rke,remche,3994,openstack,https://github.com/remche/terraform-openstack-rke,Terr
 rke,yashani,11225,openstack,https://github.com/yashani/terraform-openstack-rke,Terraform Openstack RKE
 rke2,AURIN-OFFICE,16491,openstack,https://github.com/AURIN-OFFICE/terraform-openstack-rke2,Deploy Kubernetes on OpenStack with RKE2
 rke2,remche,8973,openstack,https://github.com/remche/terraform-openstack-rke2,Deploy Kubernetes on OpenStack with RKE2
-rke2,zifeo,10592,openstack,https://github.com/zifeo/terraform-openstack-rke2,Easily deploy a RKE2 Kubernetes cluster on OpenStack providers such as Infomaniak.
+rke2,zifeo,10592,openstack,https://github.com/zifeo/terraform-openstack-rke2,Easily deploy a high-availability RKE2 Kubernetes cluster on OpenStack providers like Infomaniak.
 rocket-chat-notifier,KazuyaMiyagi,7164,aws,https://github.com/KazuyaMiyagi/terraform-aws-rocket-chat-notifier,
 rocketmq-redis,terraform-alicloud-modules,10256,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-rocketmq-redis,
 rogue-endpoint-control,netascode,10315,aci,https://github.com/netascode/terraform-aci-rogue-endpoint-control,Terraform Cisco ACI Rogue Endpoint Control Module
@@ -10038,6 +10044,7 @@ staticwesitepublic,andreistancu10,10699,azurerm,https://github.com/andreistancu1
 status-api,Open-Attestation,3348,aws,https://github.com/Open-Attestation/terraform-aws-status-api,Terraform deployment of status API to return status code for a given id
 status-monitor-storage-and-api,joshdurbin,597,network,https://github.com/joshdurbin/terraform-network-status-monitor-storage-and-api,
 statuscake-whitelist,vaibhavkhurana2018,2686,http,https://github.com/vaibhavkhurana2018/terraform-http-statuscake-whitelist,Terraform Module that returns the latest StatusCake IP Whitelist: https://www.statuscake.com/kb/knowledge-base/what-are-your-ips/
+statwebpub,lexothink,16913,azurerm,https://github.com/lexothink/terraform-azurerm-statwebpub,Terraform Modules to be shared in Terraform Public Registry
 std-path,kiwicom,4062,vault,https://github.com/kiwicom/terraform-vault-std-path,Terraform module for standardized vault paths - shared & third party 
 step-function-alarm,wesol05,2910,aws,https://github.com/wesol05/terraform-aws-step-function-alarm,
 step-functions,oozou,15129,aws,https://github.com/oozou/terraform-aws-step-functions,
