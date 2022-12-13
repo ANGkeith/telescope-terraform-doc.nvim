@@ -2496,6 +2496,8 @@ connect-onboarding,philips-labs,8279,hsdp,https://github.com/philips-labs/terraf
 connect-vpcs,myanees284,10190,aws,https://github.com/myanees284/terraform-aws-connect-vpcs,terraform-aws-vpc-connectivity
 connection,depot,14307,aws,https://github.com/depot/terraform-aws-connection,
 connector-aws,alkiranet,16508,alkira,https://github.com/alkiranet/terraform-alkira-connector-aws,This module makes it easy to provision AWS connectors in Alkira
+connector-internet-exit,alkiranet,16934,alkira,https://github.com/alkiranet/terraform-alkira-connector-internet-exit,This module makes it easy to provision Internet connectors in Alkira
+connector-ipsec,alkiranet,16935,alkira,https://github.com/alkiranet/terraform-alkira-connector-ipsec,This module makes it easy to provision IPSEC connectors in Alkira
 console-deploy,recipopdev,15264,aws,https://github.com/recipopdev/terraform-aws-console-deploy,Module to deploy a console application to AWS
 consul,10thmagnitude,1037,azurerm,https://github.com/10thmagnitude/terraform-azurerm-consul,A Terraform Module for how to run Consul on AzureRM using Terraform and Packer
 consul,GhostGroup,1640,aws,https://github.com/GhostGroup/terraform-aws-consul,A Terraform Module for how to run Consul on AWS using Terraform and Packer
@@ -3752,6 +3754,7 @@ ecs-cluster,miguelaferreira,636,aws,https://github.com/miguelaferreira/terraform
 ecs-cluster,mineiros-io,11093,aws,https://github.com/mineiros-io/terraform-aws-ecs-cluster,A Terraform module to manage Amazon Elastic Container Service (ECS) Clusters on Amazon Web Services (AWS). https://aws.amazon.com/ecs
 ecs-cluster,nogsantos,14344,aws,https://github.com/nogsantos/terraform-aws-ecs-cluster,Terraform AWS ECS Cluster definition
 ecs-cluster,opendevsecops,1783,aws,https://github.com/opendevsecops/terraform-aws-ecs-cluster,
+ecs-cluster,pmreddy87,16932,aws,https://github.com/pmreddy87/terraform-aws-ecs-cluster,A terraform module to create an ECS cluster
 ecs-cluster,rhythmictech,3123,aws,https://github.com/rhythmictech/terraform-aws-ecs-cluster,Create an ECS cluster in AWS fronted by an ALB
 ecs-cluster,santi698,464,aws,https://github.com/santi698/terraform-aws-ecs-cluster,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) cluster.
 ecs-cluster,springload,2519,aws,https://github.com/springload/terraform-aws-ecs-cluster,terraform >=0.12 module for AWS ECS cluster
@@ -5532,7 +5535,6 @@ internal-dns,jd4883,11200,pihole,https://github.com/jd4883/terraform-pihole-inte
 internal-external-dns-automation-docker,jd4883,6954,docker,https://github.com/jd4883/terraform-docker-internal-external-dns-automation-docker,"Small automation module that calls other submodules to automatically generate traefik configurations (v2 syntax), updates a internal dns server (tested with bind9 with and without a keypair attached), digitalocean (this can definitely be modified to use other providers, DO works very well with terraform and was a no brainer to setup and can forward any domain for free), and Okta oauth using a forward auth container intermediary. All pieces are intended to be called from a parent module (designed for docker but will work with other use-cases)"
 internal-lb-container,garbetjie,6489,google,https://github.com/garbetjie/terraform-google-internal-lb-container,
 internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-internal-terraform,
-internet-exit,alkiranet,12123,alkira,https://github.com/alkiranet/terraform-alkira-internet-exit,This module makes it easy to provision internet exit through Alkira
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
 iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-topic-rule,QuiNovas,4897,aws,https://github.com/QuiNovas/terraform-aws-iot-topic-rule,Creates AWS IOT Topic rule 
@@ -5762,6 +5764,7 @@ key-vault,DeimosCloud,8394,azure,https://github.com/DeimosCloud/terraform-azure-
 key-vault,avinor,3210,azurerm,https://github.com/avinor/terraform-azurerm-key-vault,Terraform module to create a Key Vault in Azure
 key-vault,aztfm,7444,azurerm,https://github.com/aztfm/terraform-azurerm-key-vault,Terraform module for the Azure public cloud destined for the Key Vault resource.
 key-vault,bytejunkie,7354,azurerm,https://github.com/bytejunkie/terraform-azurerm-key-vault,
+key-vault,clouddrove,16933,azure,https://github.com/clouddrove/terraform-azure-key-vault,
 key-vault,data-platform-hq,15912,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault,Terraform module for managing Azure Key Vault
 key-vault,dfar-io,3017,azurerm,https://github.com/dfar-io/terraform-azurerm-key-vault,Azure Key Vault Terraform Module
 key-vault,geekwhocodes,3432,azurerm,https://github.com/geekwhocodes/terraform-azurerm-key-vault,
@@ -5890,6 +5893,7 @@ kms-cmk,terraform-components,14347,google,https://github.com/terraform-component
 kms-decrypter-module,bschaatsbergen,12514,aws,https://github.com/bschaatsbergen/terraform-aws-kms-decrypter-module,Terraform module to decrypt AWS KMS encrypted values
 kms-key,Infrastrukturait,14357,aws,https://github.com/Infrastrukturait/terraform-aws-kms-key,Terraform module to provision a KMS encryption key
 kms-key,PGBI,2812,aws,https://github.com/PGBI/terraform-aws-kms-key,
+kms-key,blackbird-cloud,16936,aws,https://github.com/blackbird-cloud/terraform-aws-kms-key,terraform-aws-kms-key
 kms-key,cloudposse,993,aws,https://github.com/cloudposse/terraform-aws-kms-key,Terraform module to provision a KMS key with alias
 kms-key,figurate,5814,aws,https://github.com/figurate/terraform-aws-kms-key,Provision a KMS customer-managed key (CMK)
 kms-key,k9securityio,7211,aws,https://github.com/k9securityio/terraform-aws-kms-key,Provision AWS KMS keys safely with least privilege access and comprehensive tagging using Terraform.
@@ -7821,6 +7825,7 @@ private-zone,terraform-alicloud-modules,2127,alicloud,https://github.com/terrafo
 privateendpoint,imjoseangel,11773,azurerm,https://github.com/imjoseangel/terraform-azurerm-privateendpoint,Terraform Module for deploying a Private Endpoint
 privileges,TaitoUnited,6127,mysql,https://github.com/TaitoUnited/terraform-mysql-privileges,
 privileges,TaitoUnited,6128,postgresql,https://github.com/TaitoUnited/terraform-postgresql-privileges,
+prober,chainguard-dev,16931,google,https://github.com/chainguard-dev/terraform-google-prober,A terraform module and Go library for deploying probers to Google Cloud Run
 profiles,terraform-cisco-modules,15683,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles,Terraform - Intersight > Profiles Module
 profiles-chassis,terraform-cisco-modules,15676,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles-chassis,Terraform - Intersight > Profiles > Chassis Module
 profiles-domain,terraform-cisco-modules,15550,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-profiles-domain,Terraform - Intersight > Profiles > Domain Module
@@ -9988,7 +9993,7 @@ staticwebsitepublic,Ayoadara,13278,azurerm,https://github.com/Ayoadara/terraform
 staticwebsitepublic,Bryantellis1,11297,azurerm,https://github.com/Bryantellis1/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,DimaSerbenyuk,14412,azurerm,https://github.com/DimaSerbenyuk/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
-staticwebsitepublic,Mahaveerdoss,15678,azurerm,https://github.com/Mahaveerdoss/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,Mahaveerdoss,16930,azurerm,https://github.com/Mahaveerdoss/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKChoudhary/terraform-azurerm-staticwebsitepublic,Terraform
 staticwebsitepublic,PerRoll,10818,azurerm,https://github.com/PerRoll/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,RajendraBobade,13536,azurerm,https://github.com/RajendraBobade/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
