@@ -64,6 +64,7 @@ RDS-project,maxat2416,9701,aws,https://github.com/maxat2416/terraform-aws-RDS-pr
 RG-VNET,Ahmed14ak,14105,azurerm,https://github.com/Ahmed14ak/terraform-azurerm-RG-VNET,
 Rajesh,1994RajeshKundu,13658,azure,https://github.com/1994RajeshKundu/terraform-azure-Rajesh,
 Redislabs-Cloud-Account-Resources,TobyHFerguson,7261,aws,https://github.com/TobyHFerguson/terraform-aws-Redislabs-Cloud-Account-Resources,Terraform module to create AWS resources for a Redis Labs Cloud Account
+Service-account,clouddrove,16945,gcp,https://github.com/clouddrove/terraform-gcp-Service-account,
 SingleRegion-MultiAZ-Module,WEEMR,8594,aws,https://github.com/WEEMR/terraform-aws-SingleRegion-MultiAZ-Module," Terraform code to deploy Single VPC in US-East-1 Region and Create a public and a Private subnet in AZ1 and AZ2 to deploy High Availability resources"
 SingleRegion-SingleAZ-Module,WEEMR,8607,aws,https://github.com/WEEMR/terraform-aws-SingleRegion-SingleAZ-Module,Terraform code to deploy Single VPC in US-East-1 Region and Create a public and a Private subnet
 SnsToCiscoSpark,johntdyer,852,aws,https://github.com/johntdyer/terraform-aws-SnsToCiscoSpark,Terraform module to send SNS notifications to Cisco spark space
@@ -2863,6 +2864,7 @@ default-vpc,bledrunner2049,6176,aws,https://github.com/bledrunner2049/terraform-
 default-vpc,calidae,14030,aws,https://github.com/calidae/terraform-aws-default-vpc,Get default VPC and subnets data for your current region availability zones
 default-vpc,trussworks,5155,aws,https://github.com/trussworks/terraform-aws-default-vpc,Default VPC resource management for AWS Accounts
 defaults,terraformita,12063,local,https://github.com/terraformita/terraform-local-defaults,
+defender,JamesWoolfenden,16950,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-defender,
 demo,Shubhambawa98,15928,aws,https://github.com/Shubhambawa98/terraform-aws-demo,
 demo,gelbkreuz,1407,aws,https://github.com/gelbkreuz/terraform-aws-demo,
 demo,magodo,5556,outlook,https://github.com/magodo/terraform-outlook-demo,A demo terraform module for [terraform-provider-outlook](https://github.com/magodo/terraform-provider-outlook)
@@ -6049,6 +6051,7 @@ kubernetes-engine,turdalieva,7131,google,https://github.com/turdalieva/terraform
 kubernetes-engine,tutac,7123,google,https://github.com/tutac/terraform-google-kubernetes-engine,
 kubernetes-engine,vitaliburak,7124,google,https://github.com/vitaliburak/terraform-google-kubernetes-engine,
 kubernetes-engine,vrodi18,7117,google,https://github.com/vrodi18/terraform-google-kubernetes-engine,
+kubernetes-iamserviceaccount,bigdatabr,16948,aws,https://github.com/bigdatabr/terraform-aws-kubernetes-iamserviceaccount,Terraform module to associate a Kubernetes Service Account to an AWS IAM Role
 kubernetes-infrastructure,TaitoUnited,3761,aws,https://github.com/TaitoUnited/terraform-aws-kubernetes-infrastructure,Kubernetes infrastructure for AWS
 kubernetes-infrastructure,TaitoUnited,3764,azurerm,https://github.com/TaitoUnited/terraform-azurerm-kubernetes-infrastructure,Kubernetes infrastructure for Azure
 kubernetes-infrastructure,TaitoUnited,3767,digitalocean,https://github.com/TaitoUnited/terraform-digitalocean-kubernetes-infrastructure,Kubernetes infrastructure for Digital Ocean
@@ -6812,6 +6815,7 @@ modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-modules,Terra
 modules,dasmeta,12172,google,https://github.com/dasmeta/terraform-google-modules,This Terraform module makes it easier to manage for resources on Google Cloud Platform.
 modules,dasmeta,15922,auth0,https://github.com/dasmeta/terraform-auth0-modules,Terraform modules from DasMeta to manage auth0 setup
 modules,dzangolab,8125,digitalocean,https://github.com/dzangolab/terraform-digitalocean-modules,Terraform modules for Digital Ocean provider
+modules,fevzitopcu,16944,aws,https://github.com/fevzitopcu/terraform-aws-modules,
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
 modules,makandra,16498,aws,https://github.com/makandra/terraform-aws-modules,Collection of some standard modules for deployment in AWS accounts.
@@ -6904,6 +6908,7 @@ mssql,DeimosCloud,8395,azure,https://github.com/DeimosCloud/terraform-azure-mssq
 mssql,T-Systems-MMS,14817,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-mssql,
 mssql-cluster-ec2,Rubynahal,13285,aws,https://github.com/Rubynahal/terraform-aws-mssql-cluster-ec2,Terraform module to create mssql cluster on ec2 using ssm automation document. Inspired by the cloudformation template provided by AWS
 mssql-database,data-platform-hq,16052,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-database,Terraform module for managing Azure SQL Database
+mssql-db,clouddrove,16949,azure,https://github.com/clouddrove/terraform-azure-mssql-db,
 mssql-db,kumarvna,4825,azurerm,https://github.com/kumarvna/terraform-azurerm-mssql-db,"Terraform Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group. The module can create an auto-failover group with a private link and geo-redundant database for high availability needs."
 mssql-server,data-platform-hq,16051,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-server," Terraform module for managing Azure SQL Server"
 mssqlserver,JamesWoolfenden,7791,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-mssqlserver,Basic mssqlserver module
@@ -7732,6 +7737,7 @@ polkadot-deployer,w3f,4923,google,https://github.com/w3f/terraform-google-polkad
 polkadot-k8s,w3f,4720,azure,https://github.com/w3f/terraform-azure-polkadot-k8s,
 polkadot-lab,w3f,4422,google,https://github.com/w3f/terraform-google-polkadot-lab,Creates the infrastructure for running polkadot network tests
 polygon-technology-edge,aws-ia,14996,aws,https://github.com/aws-ia/terraform-aws-polygon-technology-edge,Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud
+polygon-technology-edge,darwinmc,16943,aws,https://github.com/darwinmc/terraform-aws-polygon-technology-edge,Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud
 pool,rishabhkalra,11645,proxmox,https://github.com/rishabhkalra/terraform-proxmox-pool,A terraform module to provision similarly configured pools of VMs.
 pool,srb3,9263,libvirt,https://github.com/srb3/terraform-libvirt-pool,
 pool,tf-openstack-modules,6895,openstack,https://github.com/tf-openstack-modules/terraform-openstack-pool,
@@ -9119,6 +9125,7 @@ scripts,garyellis,7345,cloudinit,https://github.com/garyellis/terraform-cloudini
 sd-addr.tf,mildred,5609,local,https://github.com/mildred/terraform-local-sd-addr.tf,Generate loopback (IPv4) or ULA (IPv6) address on the fly using systemd
 sd-proxy.tf,mildred,5614,local,https://github.com/mildred/terraform-local-sd-proxy.tf,manages systemd socket activation proxy
 sealed-secrets-bootstrap,kube-champ,9803,k8s,https://github.com/kube-champ/terraform-k8s-sealed-secrets-bootstrap,A terraform module that will bootstrap a Kubernetes cluster with Sealed Secret controller
+search,JamesWoolfenden,16951,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-search,
 search-service,Azure,623,azurerm,https://github.com/Azure/terraform-azurerm-search-service,Terraform module to create Azure Search service resource
 search-service,claranet,4503,azurerm,https://github.com/claranet/terraform-azurerm-search-service,Terraform module for Azure Search Service
 search-test,wjdwlstjd7,15973,ami,https://github.com/wjdwlstjd7/terraform-ami-search-test,
