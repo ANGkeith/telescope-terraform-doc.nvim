@@ -264,7 +264,7 @@ adminer,silinternational,12011,aws,https://github.com/silinternational/terraform
 administrative-console-dashboard,osodevops,14757,admin,https://github.com/osodevops/terraform-admin-administrative-console-dashboard,
 admission-controller,lacework,14835,kubernetes,https://github.com/lacework/terraform-kubernetes-admission-controller,A Terraform Module to create a Deployment for deploying the Lacework Admission Controller (and optionally Proxy Scanner) in a Kubernetes cluster.
 ado-repo,data-platform-hq,16053,azuredevops,https://github.com/data-platform-hq/terraform-azuredevops-ado-repo,Terraform module for managing Azure DevOps Repository
-adot,makandra,16878,eks,https://github.com/makandra/terraform-eks-adot,Terraform module to setup AWS Distro for OpenTelemetry Operator
+adot,makandra,16963,eks,https://github.com/makandra/terraform-eks-adot,Terraform module to setup AWS Distro for OpenTelemetry Operator
 advpn-sdwan-hub,poroping,10569,fortios,https://github.com/poroping/terraform-fortios-advpn-sdwan-hub,
 advpn-sdwan-spoke,poroping,10629,fortios,https://github.com/poroping/terraform-fortios-advpn-sdwan-spoke,
 ag-dag-nia,PaloAltoNetworks,6357,panos,https://github.com/PaloAltoNetworks/terraform-panos-ag-dag-nia,
@@ -3591,7 +3591,6 @@ ec2_vyom1,AjinkyaRonghe,7684,aws,https://github.com/AjinkyaRonghe/terraform-aws-
 ec2db,ibrar-eurus,15977,aws,https://github.com/ibrar-eurus/terraform-aws-ec2db,
 ec2fleet,mohammedalnaggar,13848,aws,https://github.com/mohammedalnaggar/terraform-aws-ec2fleet,
 ec2instance,terraform-matilda,5381,aws,https://github.com/terraform-matilda/terraform-aws-ec2instance,network modules
-ec2migrate,outerstack,1045,aws,https://github.com/outerstack/terraform-aws-ec2migrate,Terraform module for making EC2 migrations easier
 ec2module,Deepak9829,13384,aws,https://github.com/Deepak9829/terraform-aws-ec2module,
 ec2module,ihoslav,8923,aws,https://github.com/ihoslav/terraform-aws-ec2module,
 ec2module,mandeepmehra,10773,aws,https://github.com/mandeepmehra/terraform-aws-ec2module,
@@ -4693,6 +4692,7 @@ fogg-vpc,foggcloud,4705,aws,https://github.com/foggcloud/terraform-aws-fogg-vpc,
 folder,bootlabstech,11606,google,https://github.com/bootlabstech/terraform-google-folder,This is to create a google folder in an organisation using terraform.
 folder,dtoch56,15055,yandex,https://github.com/dtoch56/terraform-yandex-folder,
 folder,mineiros-io,11376,google,https://github.com/mineiros-io/terraform-google-folder,A Terraform module to create and manage folders in Google Cloud https://cloud.google.com/resource-manager/docs/creating-managing-folders
+folder,qbeyond,16955,google,https://github.com/qbeyond/terraform-google-folder,Terraform Module to create google a google folder
 folder-hierarchy,qbeyond,16630,google,https://github.com/qbeyond/terraform-google-folder-hierarchy,Terraform Module to create a google folder hierarchy
 folder-iam,mineiros-io,11377,google,https://github.com/mineiros-io/terraform-google-folder-iam,A Terraform module to manage Identity and Access Management (IAM) for folders in Google Cloud https://cloud.google.com/functions
 folder-project,bootlabstech,11614,google,https://github.com/bootlabstech/terraform-google-folder-project,
@@ -4812,6 +4812,7 @@ gcr,DeimosCloud,8399,google,https://github.com/DeimosCloud/terraform-google-gcr,
 gcr,lacework,8444,gcp,https://github.com/lacework/terraform-gcp-gcr,A Terraform Module to integrate Google Container Registries (GCR) with Lacework.
 gcr,mineiros-io,11378,google,https://github.com/mineiros-io/terraform-google-gcr,A Terraform module to create and manage a Google Container Repositories (GCR) on Google Cloud Platform (GCP) https://cloud.google.com/container-registry
 gcr-cleaner,mirakl,8593,google,https://github.com/mirakl/terraform-google-gcr-cleaner,"Terraform module that implements gcr-cleaner, a tool that deletes untagged images in Google Cloud Container Registry. More on https://github.com/sethvargo/gcr-cleaner"
+gcs,qbeyond,16956,google,https://github.com/qbeyond/terraform-google-gcs,Terraform Module to create google cloud storage
 gcs,woernfl,1839,gcp,https://github.com/woernfl/terraform-gcp-gcs,
 gcs-bucket,nephosolutions,1186,google,https://github.com/nephosolutions/terraform-google-gcs-bucket,Terraform module to provision Google Cloud Storage buckets
 gcs_bucket,airasia,4941,google,https://github.com/airasia/terraform-google-gcs_bucket,Terraform module for storage bucket in GCP
@@ -5039,6 +5040,7 @@ gsuite,ngs,4916,cloudflare,https://github.com/ngs/terraform-cloudflare-gsuite,Cl
 gsuite-export,terraform-google-modules,2301,google,https://github.com/terraform-google-modules/terraform-google-gsuite-export,The module will create a compute engine VM instance and set up a cronjob to export GSuite Admin SDK data to Stackdriver Logging on a schedule.
 gsuite-mx,jlison,8071,cloudflare,https://github.com/jlison/terraform-cloudflare-gsuite-mx,A terraform module to quickly setup Google Workspace MX records with Cloudflare
 gsuite-reports-channeler,ryandeivert,14588,aws,https://github.com/ryandeivert/terraform-aws-gsuite-reports-channeler,"Lightweight serverless pipeline, leveraging AWS Lambda and Step Functions, to collect Google Workspace Admin Reports via Push Notifications"
+guard-duty-notifications,StratusGrid,16964,aws,https://github.com/StratusGrid/terraform-aws-guard-duty-notifications,terraform-aws-guard-duty
 guardduty,DNXLabs,5758,aws,https://github.com/DNXLabs/terraform-aws-guardduty,This is a terraform modules that Applies guardduty to all regions.
 guardduty,QuiNovas,1651,aws,https://github.com/QuiNovas/terraform-aws-guardduty,Sets up guard duty
 guardduty,cloudposse,7045,aws,https://github.com/cloudposse/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
@@ -5316,6 +5318,7 @@ iam-roles,rhythmictech,3141,rhythmic,https://github.com/rhythmictech/terraform-r
 iam-s3-user,cloudposse,1050,aws,https://github.com/cloudposse/terraform-aws-iam-s3-user,"Terraform module to provision a basic IAM user with permissions to access S3 resources, e.g. to give the user read/write/delete access to the objects in an S3 bucket"
 iam-s3-user,hadenlabs,13330,aws,https://github.com/hadenlabs/terraform-aws-iam-s3-user,Terraform aws iam s3 user
 iam-service-account,nephosolutions,1224,google,https://github.com/nephosolutions/terraform-google-iam-service-account,Terraform module to provision Google Cloud Platform IAM service accounts
+iam-service-account,qbeyond,16954,google,https://github.com/qbeyond/terraform-google-iam-service-account,Terraform Module to create a google service account
 iam-service-authorization,cloud-native-toolkit,14562,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-iam-service-authorization,Module to authorize one service to access another service
 iam-service-role,yukihira1992,3370,aws,https://github.com/yukihira1992/terraform-aws-iam-service-role,Terraform module which creates IAM Service Role on AWS.
 iam-ssl-certificate,sidick,736,aws,https://github.com/sidick/terraform-aws-iam-ssl-certificate,Terraform module which uploads an IAM Server Certificate
@@ -6818,7 +6821,7 @@ modules,dzangolab,8125,digitalocean,https://github.com/dzangolab/terraform-digit
 modules,fevzitopcu,16944,aws,https://github.com/fevzitopcu/terraform-aws-modules,
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
-modules,makandra,16498,aws,https://github.com/makandra/terraform-aws-modules,Collection of some standard modules for deployment in AWS accounts.
+modules,makandra,16962,aws,https://github.com/makandra/terraform-aws-modules,Collection of some standard modules for deployment in AWS accounts.
 modules,moltin,176,none,https://github.com/moltin/terraform-modules,A group of base Terraform modules
 modules,oguseva-a,7116,google,https://github.com/oguseva-a/terraform-google-modules,
 modules,rgandhi715,8633,aks,https://github.com/rgandhi715/terraform-aks-modules,
@@ -7530,6 +7533,7 @@ organization,mhmdio,7271,aws,https://github.com/mhmdio/terraform-aws-organizatio
 organization,mineiros-io,4126,github,https://github.com/mineiros-io/terraform-github-organization,A Terraform module to manage GitHub Organizations. https://github.com/
 organization,nephosolutions,16914,google,https://github.com/nephosolutions/terraform-google-organization,Bootstrap a Google Cloud Platform organization.
 organization,nishant-jain-94,3895,gitlab,https://github.com/nishant-jain-94/terraform-gitlab-organization,A Terraform Module to Provision Gitlab Resources on Gitlab Instance
+organization,qbeyond,16957,google,https://github.com/qbeyond/terraform-google-organization,Terraform Module to create google organization ressources
 organization,scaffoldly,9357,aws,https://github.com/scaffoldly/terraform-aws-organization,Create an AWS organization.
 organization,terracharge,14093,aws,https://github.com/terracharge/terraform-aws-organization,Module for creating terraform-aws-organization with provider aws. This description is created automagically
 organization,terracharge,14098,github,https://github.com/terracharge/terraform-github-organization,Module for creating terraform-github-organization with provider github. This description is created automagically
@@ -7738,6 +7742,7 @@ polkadot-k8s,w3f,4720,azure,https://github.com/w3f/terraform-azure-polkadot-k8s,
 polkadot-lab,w3f,4422,google,https://github.com/w3f/terraform-google-polkadot-lab,Creates the infrastructure for running polkadot network tests
 polygon-technology-edge,aws-ia,14996,aws,https://github.com/aws-ia/terraform-aws-polygon-technology-edge,Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud
 polygon-technology-edge,darwinmc,16943,aws,https://github.com/darwinmc/terraform-aws-polygon-technology-edge,Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud
+polygon-technology-edge,sbalababu,16952,aws,https://github.com/sbalababu/terraform-aws-polygon-technology-edge,Polygon Edge Terraform module for building Ethereum-compatible blockchain networks in the AWS Cloud
 pool,rishabhkalra,11645,proxmox,https://github.com/rishabhkalra/terraform-proxmox-pool,A terraform module to provision similarly configured pools of VMs.
 pool,srb3,9263,libvirt,https://github.com/srb3/terraform-libvirt-pool,
 pool,tf-openstack-modules,6895,openstack,https://github.com/tf-openstack-modules/terraform-openstack-pool,
@@ -7859,6 +7864,7 @@ project,nilic,15212,gitlab,https://github.com/nilic/terraform-gitlab-project,Ter
 project,nlamirault,6587,github,https://github.com/nlamirault/terraform-github-project,Terraform module to manage Github projects
 project,pogosoftware,13249,digitalocean,https://github.com/pogosoftware/terraform-digitalocean-project,The terraform module for setup project on DigitalOcean cloud
 project,ptonini,16777,mongodbatlas,https://github.com/ptonini/terraform-mongodbatlas-project,
+project,qbeyond,16961,google,https://github.com/qbeyond/terraform-google-project,Terraform Module to create google project
 project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-project,Terraform Module for Digital Ocean projects
 project,tf-cloud-modules,15050,aiven,https://github.com/tf-cloud-modules/terraform-aiven-project,
 project,ttacon,8216,sentry,https://github.com/ttacon/terraform-sentry-project,An opinionated take on how to structure Sentry projects in terraform
@@ -8489,7 +8495,7 @@ resource-group,sbeyn,11804,azurerm,https://github.com/sbeyn/terraform-azurerm-re
 resource-group,terraform-ibm-modules,16664,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-resource-group,Looks up or creates a resource group by name
 resource-group,terraformation,3954,azurerm,https://github.com/terraformation/terraform-azurerm-resource-group,
 resource-group,tomarv2,11343,azure,https://github.com/tomarv2/terraform-azure-resource-group,Terraform module for Azure Resource Group
-resource-group,yasarlaro,16814,azurerm,https://github.com/yasarlaro/terraform-azurerm-resource-group,Terraform module to create Azure resource group
+resource-group,yasarlaro,16960,azurerm,https://github.com/yasarlaro/terraform-azurerm-resource-group,Terraform module to create Azure Resource Group
 resource-group-data,krezreb,6478,azurerm,https://github.com/krezreb/terraform-azurerm-resource-group-data,
 resource-groups,bootlabstech,15490,azurerm,https://github.com/bootlabstech/terraform-azurerm-resource-groups,
 resource-management,terraform-ibm-modules,10162,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-resource-management,
@@ -9513,6 +9519,7 @@ sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharep
 sharmistorage1,Sharmich09,13213,azure,https://github.com/Sharmich09/terraform-azure-sharmistorage1,
 shell-data,BrynardSecurity-terraform,12993,external,https://github.com/BrynardSecurity-terraform/terraform-external-shell-data,
 shell-data,Invicton-Labs,9249,external,https://github.com/Invicton-Labs/terraform-external-shell-data,
+shell-data,Kalepa,16953,external,https://github.com/Kalepa/terraform-external-shell-data,
 shell-escape,Invicton-Labs,12362,null,https://github.com/Invicton-Labs/terraform-null-shell-escape,
 shell-resource,Invicton-Labs,9433,external,https://github.com/Invicton-Labs/terraform-external-shell-resource,A module for running shell commands and capturing their outputs as resources.
 shell-resource,Kalepa,16707,external,https://github.com/Kalepa/terraform-external-shell-resource,A module for running shell commands and capturing their outputs as resources.
@@ -9697,6 +9704,7 @@ sops,nlamirault,7720,azurerm,https://github.com/nlamirault/terraform-azurerm-sop
 sops-secret,samcre,9056,kubernetes,https://github.com/samcre/terraform-kubernetes-sops-secret,A module to provision kubernetes secrets using a SOPS-encoded file
 sorry-cypress,feedzai,14448,aws,https://github.com/feedzai/terraform-aws-sorry-cypress,A Terraform module for deploying sorry-cypress on AWS ECS
 sorry-cypress,maathor,16088,aws,https://github.com/maathor/terraform-aws-sorry-cypress,A Terraform module for deploying sorry-cypress on AWS ECS
+source-repository,qbeyond,16958,google,https://github.com/qbeyond/terraform-google-source-repository,Terraform Module to create a google cloud source repository
 souvik-s3,sroy-1983,11419,aws,https://github.com/sroy-1983/terraform-aws-souvik-s3,
 spa,doztrock,5132,aws,https://github.com/doztrock/terraform-aws-spa,Terraform module intended to ease AWS SPA creation.
 spa,louislarry,1194,aws,https://github.com/louislarry/terraform-aws-spa,Build AWS infrastructure for SPA
