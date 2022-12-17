@@ -513,6 +513,7 @@ antitheft-credentials,umihico,12517,aws,https://github.com/umihico/terraform-aws
 anupamstorage,anupammp,12239,aws,https://github.com/anupammp/terraform-aws-anupamstorage,
 apache,Ali9t,10553,aws,https://github.com/Ali9t/terraform-aws-apache,
 apache,dtivadar1,11056,aws,https://github.com/dtivadar1/terraform-aws-apache,
+apache,itisaby,16996,aws,https://github.com/itisaby/terraform-aws-apache,Terraform Module to run an ec2 instance that is running Apache
 apache-cluster,ParkhomenkoDmitro,15156,aws,https://github.com/ParkhomenkoDmitro/terraform-aws-apache-cluster,Create an EC2 cluster of Apache webservers
 apache-esample,m-satishkumar,12469,aws,https://github.com/m-satishkumar/terraform-aws-apache-esample,
 apache-example,BondarenkoStas,16079,aws,https://github.com/BondarenkoStas/terraform-aws-apache-example,
@@ -1917,6 +1918,8 @@ cloud-composer,bootlabstech,12896,google,https://github.com/bootlabstech/terrafo
 cloud-config,4ops,3914,null,https://github.com/4ops/terraform-null-cloud-config,Cloud config generator
 cloud-config,terraform-alicloud-modules,12809,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-config,Terraform Module for creating Cloud Config resources on Alibaba Cloud.
 cloud-config-tool,4ops,3861,template,https://github.com/4ops/terraform-template-cloud-config-tool,Cloud config helper Terraform module
+cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on AWS
+cloud-connector-modules,zscaler,16998,azurerm,https://github.com/zscaler/terraform-azurerm-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on Azure
 cloud-datastore,terraform-google-modules,1620,google,https://github.com/terraform-google-modules/terraform-google-cloud-datastore,A Terraform module to help you to manage Google Cloud Datastore.
 cloud-dns,terraform-google-modules,2616,google,https://github.com/terraform-google-modules/terraform-google-cloud-dns,"This module makes it easy to create and manage Google Cloud DNS public or private zones, and their records."
 cloud-firewall,terraform-alicloud-modules,12790,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-firewall,Terraform Module for creating Cloud Firewall resources on Alibaba Cloud.
@@ -3460,6 +3463,7 @@ ec2,tedilabs,14196,aws,https://github.com/tedilabs/terraform-aws-ec2,🌳 A sust
 ec2,terra4aws64,12148,aws,https://github.com/terra4aws64/terraform-aws-ec2,Terraform module for creating AWS EC2 instances
 ec2,tobi1972,7163,aws,https://github.com/tobi1972/terraform-aws-ec2,
 ec2,tomarv2,12332,aws,https://github.com/tomarv2/terraform-aws-ec2,Terraform module for AWS EC2
+ec2,web-virtua-aws-multi-account-modules,16995,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-ec2,
 ec2-admin-server,cloudposse,215,aws,https://github.com/cloudposse/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
 ec2-agent-pool,glenngillen,15359,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool,
 ec2-agent-pool-autoscaler,glenngillen,15360,aws,https://github.com/glenngillen/terraform-aws-ec2-agent-pool-autoscaler,
@@ -4059,7 +4063,6 @@ eks,highgarden-io,12976,aws,https://github.com/highgarden-io/terraform-aws-eks,T
 eks,howdio,1213,aws,https://github.com/howdio/terraform-aws-eks,Terraform module which creates EKS resources on AWS
 eks,it-without-politics,13542,aws,https://github.com/it-without-politics/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
 eks,john24rel,7614,gcp,https://github.com/john24rel/terraform-gcp-eks,
-eks,karthikrajdev99,16813,aws,https://github.com/karthikrajdev99/terraform-aws-eks,
 eks,ksalrin,5365,aws,https://github.com/ksalrin/terraform-aws-eks,
 eks,kyfelipe,4394,aws,https://github.com/kyfelipe/terraform-aws-eks,Terraform module to AWS EKS.
 eks,laverya,1322,aws,https://github.com/laverya/terraform-aws-eks,A Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS.
@@ -5069,6 +5072,9 @@ habitat,devoptimist,2923,chef,https://github.com/devoptimist/terraform-chef-habi
 habitat,srb3,3922,chef,https://github.com/srb3/terraform-chef-habitat,
 haproxy-ingress-controller,sanarena,7309,kubernetes,https://github.com/sanarena/terraform-kubernetes-haproxy-ingress-controller,HAProxy Ingress controller for EKS via Terraform 
 hardened-bastion,ordinaryexperts,10081,aws,https://github.com/ordinaryexperts/terraform-aws-hardened-bastion,Terraform module to deploy a security-hardened SSH bastion host in AWS
+harness-ccm,harness-community,17001,aws,https://github.com/harness-community/terraform-aws-harness-ccm,Configure the Harness cloud cost management (CCM) module for AWS.
+harness-delegate,harness,17003,kubernetes,https://github.com/harness/terraform-kubernetes-harness-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
+harness-delegate-ecs-fargate,harness-community,17002,aws,https://github.com/harness-community/terraform-aws-harness-delegate-ecs-fargate,deploy a harness delegate on ecs fargate using terraform
 harsha,hsvsurya,12282,aws,https://github.com/hsvsurya/terraform-aws-harsha,
 hashicat-aws,akbongu,6284,aws,https://github.com/akbongu/terraform-aws-hashicat-aws,Sample app for Terraform workshops
 hashicorp-s1,mootpt,10698,sec,https://github.com/mootpt/terraform-sec-hashicorp-s1,module for checking hashicorp s-1
@@ -7094,6 +7100,7 @@ nat-gateway,claranet,7987,azurerm,https://github.com/claranet/terraform-azurerm-
 nat-gateway,cloud-native-toolkit,14573,azure,https://github.com/cloud-native-toolkit/terraform-azure-nat-gateway,Module to provision nat-gateway on azure
 nat-gateway,clouddrove,16885,azure,https://github.com/clouddrove/terraform-azure-nat-gateway,
 nat-gateway,garbetjie,2513,google,https://github.com/garbetjie/terraform-google-nat-gateway,A simple Terraform module to create a Cloud NAT gateway
+nat-gateway,getindata,16993,azurerm,https://github.com/getindata/terraform-azurerm-nat-gateway,Terraform module for managing Azure NAT Gateway
 nat-gateway,kumarvna,10040,azurerm,https://github.com/kumarvna/terraform-azurerm-nat-gateway,Terraform module to create Azure NAT Gateway to provide source network address translation (SNAT) for a subnet.
 nat-gateway,ptonini,16757,azurerm,https://github.com/ptonini/terraform-azurerm-nat-gateway,
 nat-gateway,terraform-alicloud-modules,1830,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-nat-gateway,Terraform module which creates NAT gateway and route entry resources on Alibaba Cloud
@@ -7829,6 +7836,7 @@ private-and-public-subnet,caherrera,16533,aws,https://github.com/caherrera/terra
 private-bastion,memes,12092,google,https://github.com/memes/terraform-google-private-bastion,Terraform module to provision a bastion that initialises from artifact or container registry
 private-cloud,sagittaros,7430,k3s,https://github.com/sagittaros/terraform-k3s-private-cloud,"Private cluster with k3s. Why have 1 huge complicated cluster (pet) when you can have many simple, cheap clusters (cattle)?"
 private-dns,data-platform-hq,16006,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-dns,Terraform module for managing Azure Private DNS
+private-dns-resolver,claranet,16992,azurerm,https://github.com/claranet/terraform-azurerm-private-dns-resolver,Terraform module for Azure DNS Private Resolver
 private-dns-zone,Gbon1275,14263,azurerm,https://github.com/Gbon1275/terraform-azurerm-private-dns-zone,
 private-dns-zone,ptonini,16835,azurerm,https://github.com/ptonini/terraform-azurerm-private-dns-zone,
 private-domain-checker,Olgoetz,14192,aws,https://github.com/Olgoetz/terraform-aws-private-domain-checker,Module to deploy a health checker for private domains.
@@ -9188,6 +9196,7 @@ secrets-manager,pogosoftware,13139,aws,https://github.com/pogosoftware/terraform
 secrets-manager,rocketlawyer,6000,google,https://github.com/rocketlawyer/terraform-google-secrets-manager,Terraform module for managing GCP secrets manager
 secrets-manager,so1omon563,14204,aws,https://github.com/so1omon563/terraform-aws-secrets-manager,Create and manage secrets in Secrets Manager.
 secrets-manager-parser,hendrixroa,8090,aws,https://github.com/hendrixroa/terraform-aws-secrets-manager-parser,AWS Secrets manager parser to handle ECS containers or another integration service.
+secrets-manager-rds-aurora-mysql-user-rotation,ekanai,16994,aws,https://github.com/ekanai/terraform-aws-secrets-manager-rds-aurora-mysql-user-rotation,
 secrets-manager-rds-mysql-multi-user-rotator,ekanai,16966,aws,https://github.com/ekanai/terraform-aws-secrets-manager-rds-mysql-multi-user-rotator,
 secrets-manager-rds-mysql-single-user-rotator,ekanai,16967,aws,https://github.com/ekanai/terraform-aws-secrets-manager-rds-mysql-single-user-rotator,
 secrets-store-csi,SPHTech-Platform,14005,aws,https://github.com/SPHTech-Platform/terraform-aws-secrets-store-csi,Module to install secrets-store csi driver and aws secrets-store provider
@@ -9218,7 +9227,7 @@ secure-baseline,nozaq,1205,aws,https://github.com/nozaq/terraform-aws-secure-bas
 secure-baseline,telia-oss,5012,aws,https://github.com/telia-oss/terraform-aws-secure-baseline,
 secure-baseline-checkov,gerbenoostra,5106,aws,https://github.com/gerbenoostra/terraform-aws-secure-baseline-checkov,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 secure-bucket-policy,QuiNovas,1485,aws,https://github.com/QuiNovas/terraform-aws-secure-bucket-policy,Creates a bucket policy that enforces secure transport and encryption
-secure-cicd,GoogleCloudPlatform,13373,google,https://github.com/GoogleCloudPlatform/terraform-google-secure-cicd,This Terraform blueprint demonstrates building a secure CI/CD pipeline on Google Cloud.
+secure-cicd,GoogleCloudPlatform,13373,google,https://github.com/GoogleCloudPlatform/terraform-google-secure-cicd,Builds a secure CI/CD pipeline on Google Cloud
 secure-firewall,CiscoDevNet,15837,aws,https://github.com/CiscoDevNet/terraform-aws-secure-firewall,
 secure-for-cloud,sysdiglabs,10113,aws,https://github.com/sysdiglabs/terraform-aws-secure-for-cloud,Terraform module that deploys the Sysdig Secure For Cloud stack in AWS
 secure-for-cloud,sysdiglabs,10433,google,https://github.com/sysdiglabs/terraform-google-secure-for-cloud,Terraform module that deploys the Sysdig Secure For Cloud stack in Google Cloud Platform
@@ -9922,6 +9931,7 @@ stack-pachyderm-minio,combinator-ml,8466,k8s,https://github.com/combinator-ml/te
 stackdriver-logs-exclusion,kiwicom,3320,google,https://github.com/kiwicom/terraform-google-stackdriver-logs-exclusion,
 stackdriver-module,DrFaust92,8492,grafana,https://github.com/DrFaust92/terraform-grafana-stackdriver-module,Terraform module which creates a Grafana Stackdriver data source with a minimal GCP service account.
 stackdriver-uptime,DNXLabs,5754,google,https://github.com/DNXLabs/terraform-google-stackdriver-uptime,
+stacks,alex067,17004,spacelift,https://github.com/alex067/terraform-spacelift-stacks,Terraform module which helps manage and create Spacelift Stacks 🚀
 stackx-cluster,ventx,15272,aws,https://github.com/ventx/terraform-aws-stackx-cluster,stackx - Terraform - AWS - Cluster
 stackx-network,ventx,15271,aws,https://github.com/ventx/terraform-aws-stackx-network,stackx - Terraform - AWS - Network
 stage-config-files,scaffoldly,9473,github,https://github.com/scaffoldly/terraform-github-stage-config-files,Write stage config files to a GitHub repository
@@ -11237,6 +11247,7 @@ vpc,tomarv2,8275,aws,https://github.com/tomarv2/terraform-aws-vpc,Terraform modu
 vpc,tonynv,10971,aws,https://github.com/tonynv/terraform-aws-vpc,
 vpc,traveloka,2464,aws,https://github.com/traveloka/terraform-aws-vpc,Terraform module to create all mandatory VPC components.
 vpc,truemark,15764,aws,https://github.com/truemark/terraform-aws-vpc,TrueMark's standard VPC layout
+vpc,tuannguyen03011988,16991,aws,https://github.com/tuannguyen03011988/terraform-aws-vpc,
 vpc,tuanocuet,12645,aws,https://github.com/tuanocuet/terraform-aws-vpc,
 vpc,turanmehmet,7735,aws,https://github.com/turanmehmet/terraform-aws-vpc,Creating 3 public and 3 private subnets with proper assosiation
 vpc,turdalieva,6722,aws,https://github.com/turdalieva/terraform-aws-vpc,
@@ -11590,6 +11601,7 @@ web-app-security,volterraedge,7418,volterra,https://github.com/volterraedge/terr
 web-application-with-ami,turanmehmet,7755,aws,https://github.com/turanmehmet/terraform-aws-web-application-with-ami,
 web-fargate-task-definition,aoggz,3827,aws,https://github.com/aoggz/terraform-aws-web-fargate-task-definition,
 web-load-balancers,devops4me,3164,aws,https://github.com/devops4me/terraform-aws-web-load-balancers,This module can create a set of enterprise grade load balancers and target groups with a secure https (TLS) listener and a http listener that redirects to port 443.
+web-redirect,santiagon610,17000,aws,https://github.com/santiagon610/terraform-aws-web-redirect,Terraform module to create a web redirect using S3 and Route 53
 web-server,aisamji,12736,aws,https://github.com/aisamji/terraform-aws-web-server,
 web-server,mishra-demos,3494,aws,https://github.com/mishra-demos/terraform-aws-web-server,A generic web server module for MishraCorp.
 web-serverfarms,linkbynet,8913,datadog,https://github.com/linkbynet/terraform-datadog-web-serverfarms,Terraform module for deploy web serverfarms monitoring on datadog
