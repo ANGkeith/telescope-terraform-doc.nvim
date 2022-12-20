@@ -230,7 +230,7 @@ activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-act
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
 ad,srb3,11111,azure,https://github.com/srb3/terraform-azure-ad,
-ad-application,lacework,6441,azure,https://github.com/lacework/terraform-azure-ad-application,Terraform module that creates an Azure AD application to provide Lacework read-only access to Azure Subscriptions and Tenants
+ad-application,lacework,17021,azure,https://github.com/lacework/terraform-azure-ad-application,Terraform module that creates an Azure AD application to provide Lacework read-only access to Azure Subscriptions and Tenants
 ad-config,uptycslabs,10071,azurerm,https://github.com/uptycslabs/terraform-azurerm-ad-config,
 ad-create,ghostinthewires,1696,azurerm,https://github.com/ghostinthewires/terraform-azurerm-ad-create,This module quickly creates an Azure Windows VM and creates an Active Directory Forest using a VM Extension
 ad-fsx,andreswebs,11559,aws,https://github.com/andreswebs/terraform-aws-ad-fsx,Deploys Active Directory and FSx for Windows file system
@@ -271,6 +271,7 @@ ag-dag-nia,PaloAltoNetworks,6357,panos,https://github.com/PaloAltoNetworks/terra
 agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-agent,A Terraform Module to create a Secret and DaemonSet for deploying the Lacework Datacollector Agent in a Kubernetes cluster.
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
+agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,
 agnostic,DOboznyi,6599,cloud,https://github.com/DOboznyi/terraform-cloud-agnostic,
 ahmkabeer,ahmkabeer,12723,aws,https://github.com/ahmkabeer/terraform-aws-ahmkabeer,
 ai-inference-onboarding,philips-labs,9819,hsdp,https://github.com/philips-labs/terraform-hsdp-ai-inference-onboarding,Onboarding module for HSDP AI Inference service
@@ -1532,8 +1533,10 @@ bfd-interface-policy,netascode,9714,aci,https://github.com/netascode/terraform-a
 bg-ecs-pipeline,toluna-terraform,9271,aws,https://github.com/toluna-terraform/terraform-aws-bg-ecs-pipeline,
 bgp,netascode,13412,nxos,https://github.com/netascode/terraform-nxos-bgp,Terraform Cisco NX-OS BGP Module
 bgp-address-family-context-policy,netascode,15872,aci,https://github.com/netascode/terraform-aci-bgp-address-family-context-policy,Terraform Cisco ACI BGP Address Family Context Policy Module
+bgp-best-path-policy,netascode,17017,aci,https://github.com/netascode/terraform-aci-bgp-best-path-policy,Terraform Cisco ACI BGP Best Path Policy Module
 bgp-over-gre-between-new-tgw-avx-transit,jye-aviatrix,15404,aviatrix,https://github.com/jye-aviatrix/terraform-aviatrix-bgp-over-gre-between-new-tgw-avx-transit,"This module builds Aviatrix Transit Gateways and TGW in the same region, then peer them using BGP over GRE."
 bgp-over-gre-brownfield-tgw-avx-transit,jye-aviatrix,15424,aviatrix,https://github.com/jye-aviatrix/terraform-aviatrix-bgp-over-gre-brownfield-tgw-avx-transit,This module builds BGP over GRE tunnels between existing Aviatrix Transit Gateways and TGW in the same region
+bgp-peer-prefix-policy,netascode,17015,aci,https://github.com/netascode/terraform-aci-bgp-peer-prefix-policy,Terraform Cisco ACI BGP Peer Prefix Policy Module 
 bgp-policy,netascode,9716,aci,https://github.com/netascode/terraform-aci-bgp-policy,Terraform Cisco ACI BGP Policy Module
 bgp-timer-policy,netascode,9718,aci,https://github.com/netascode/terraform-aci-bgp-timer-policy,Terraform Cisco ACI BGP Timer Policy Module
 bgtest,loafoe,8449,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-bgtest,Module to test blue-green deployment with Cloud foundry provider
@@ -2099,6 +2102,7 @@ cloudfront-s3-cdn,juanConversalab,7206,aws,https://github.com/juanConversalab/te
 cloudfront-s3-cdn,nickpack,15798,aws,https://github.com/nickpack/terraform-aws-cloudfront-s3-cdn,"S3, Cloudfront, ACM and Route53 powered CDN populated with files from a local directory, file state managed by terraform."
 cloudfront-s3-object,QuiNovas,1555,aws,https://github.com/QuiNovas/terraform-aws-cloudfront-s3-object,"Creates or updates a cloudfront S3 orgin object, and then invalidates the object in cloudfront"
 cloudfront-s3-origin-acm,voquis,6031,aws,https://github.com/voquis/terraform-aws-cloudfront-s3-origin-acm,CloudFront distribution with S3 Origin and ACM Certificate
+cloudfront-s3-update-only,aolvictim,17020,aws,https://github.com/aolvictim/terraform-aws-cloudfront-s3-update-only,
 cloudfront-s3-website,HarishKM7,8616,aws,https://github.com/HarishKM7/terraform-aws-cloudfront-s3-website,Terraform module for S3 website with CloudFront.
 cloudfront-s3-website,caherrera,6092,aws,https://github.com/caherrera/terraform-aws-cloudfront-s3-website,Terraform module for creating a s3 static website with CloudFront distribution
 cloudfront-s3-website,chgangaraju,2251,aws,https://github.com/chgangaraju/terraform-aws-cloudfront-s3-website,Terraform module for creating a s3 static website with CloudFront distribution
@@ -3143,6 +3147,7 @@ docker-instance,arslantobe,14642,aws,https://github.com/arslantobe/terraform-aws
 docker-instance,asumankamberoglu,16170,aws,https://github.com/asumankamberoglu/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS
 docker-instance,avcimehmet,14670,aws,https://github.com/avcimehmet/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,aykutakgnu,14637,aws,https://github.com/aykutakgnu/terraform-aws-docker-instance,
+docker-instance,bahadiralsan,17016,aws,https://github.com/bahadiralsan/terraform-aws-docker-instance,
 docker-instance,bahadrtosun,16336,aws,https://github.com/bahadrtosun/terraform-aws-docker-instance,
 docker-instance,bahattinatalay,14663,aws,https://github.com/bahattinatalay/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,bekirbilgec,15711,aws,https://github.com/bekirbilgec/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -3305,6 +3310,7 @@ dockermodule,fredw713,16388,session5,https://github.com/fredw713/terraform-sessi
 dockermodule,halach2020,16385,session5,https://github.com/halach2020/terraform-session5-dockermodule,
 documentdb,JamesWoolfenden,7707,aws,https://github.com/JamesWoolfenden/terraform-aws-documentdb,Basic Documentdb module
 documentdb,clouddrove,16484,aws,https://github.com/clouddrove/terraform-aws-documentdb,terraform-aws-documentdb
+documentdb,osgurisdosre,17014,aws,https://github.com/osgurisdosre/terraform-aws-documentdb,Terraform module which creates DocumentDB resources on AWS
 documentdb-cluster,cloudposse,2353,aws,https://github.com/cloudposse/terraform-aws-documentdb-cluster,Terraform module to provision a DocumentDB cluster on AWS
 documentdb-cluster,drpebcak,3621,aws,https://github.com/drpebcak/terraform-aws-documentdb-cluster,
 documentdb-cluster,goranvrbaski,6107,aws,https://github.com/goranvrbaski/terraform-aws-documentdb-cluster,DocumentDB Terraform module
@@ -4617,6 +4623,7 @@ fastmail-records,jeromegamez,174,digitalocean,https://github.com/jeromegamez/ter
 fc,Explorer1092,13426,alicloud,https://github.com/Explorer1092/terraform-alicloud-fc,"Terraform module which creates Function Compute service, function and trigger on Alibaba Cloud"
 fc,terraform-alicloud-modules,1713,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-fc,"Terraform module which creates Function Compute service, function and trigger on Alibaba Cloud"
 fc-oss-trigger,terraform-alicloud-modules,10413,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-fc-oss-trigger,
+fck-nat,ahodges22,17011,aws,https://github.com/ahodges22/terraform-aws-fck-nat,
 fcos,sedlund,9355,hcloud,https://github.com/sedlund/terraform-hcloud-fcos,Terraform module to Install Fedora CoreOS on Hetzner Cloud
 feast,combinator-ml,8642,k8s,https://github.com/combinator-ml/terraform-k8s-feast,Feast as a combinator.ml component
 features,netascode,13200,nxos,https://github.com/netascode/terraform-nxos-features,Terraform Cisco NX-OS Features Module
@@ -4877,7 +4884,7 @@ github-oidc,digitalocean,12865,vault,https://github.com/digitalocean/terraform-v
 github-oidc,krewenki,16916,aws,https://github.com/krewenki/terraform-aws-github-oidc,A module for setting up and managing AWS/Github OIDC for github actions
 github-oidc,oozou,14502,aws,https://github.com/oozou/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
 github-oidc,philips-labs,12226,aws,https://github.com/philips-labs/terraform-aws-github-oidc,Terraform module to  setup OIDC with AWS and GH Actions 
-github-oidc,saidsef,16406,aws,https://github.com/saidsef/terraform-aws-github-oidc,Terraform AWS GitHub OIDC Module
+github-oidc,saidsef,16406,aws,https://github.com/saidsef/terraform-aws-github-oidc,Terraform AWS GitHub OIDC Integration  Module
 github-oidc-idp-role,ekanai,16820,aws,https://github.com/ekanai/terraform-aws-github-oidc-idp-role,
 github-oidc-provider,SamuelBagattin,12156,aws,https://github.com/SamuelBagattin/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect.
 github-oidc-provider,terraform-module,14280,aws,https://github.com/terraform-module/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect. 
@@ -5380,6 +5387,7 @@ idp-gsuite,DNXLabs,5738,aws,https://github.com/DNXLabs/terraform-aws-idp-gsuite,
 idp-okta,cyralinc,9076,cyral,https://github.com/cyralinc/terraform-cyral-idp-okta,Cyral IdP Integration Module for Okta
 iglu-server-ce,snowplow-devops,10070,google,https://github.com/snowplow-devops/terraform-google-iglu-server-ce,
 iglu-server-ec2,snowplow-devops,9312,aws,https://github.com/snowplow-devops/terraform-aws-iglu-server-ec2,
+igmp-interface-policy,netascode,17018,aci,https://github.com/netascode/terraform-aci-igmp-interface-policy,Terraform Cisco ACI IGMP Interface Policy Module 
 ignite,trung,4504,quorum,https://github.com/trung/terraform-quorum-ignite,A Terraform module that bootstraps resources in order to run a Quorum network from scratch
 ignition,omarabid,1283,coreos,https://github.com/omarabid/terraform-coreos-ignition,Terraform Module for CoreOS configuration
 iip,DTherHtun,4270,aws,https://github.com/DTherHtun/terraform-aws-iip,Terraform module which creates IAM Instance Profile on AWS
@@ -9620,6 +9628,7 @@ sites,joeymoore,7607,incapsula,https://github.com/joeymoore/terraform-incapsula-
 siva,sivawiswa,13653,azure,https://github.com/sivawiswa/terraform-azure-siva,
 skaylink-agw-internal-https,skaylink,13603,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-agw-internal-https,Deploy an application gateway with internal https setup
 skaylink-aks,skaylink,13589,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-aks,Azure Kubernetes Service module for Skaylink (IQ3)
+skaylink-buildagents,skaylink,17013,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-buildagents,
 skaylink-flexible-mysql,skaylink,16099,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-flexible-mysql,Deploy a flexible MySQL instance on Azure
 skaylink-grafana,skaylink,13953,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-grafana,Deploys an Azure managed Grafana instance with optional log analytics workspace.
 skaylink-linux-vm,skaylink,13602,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-linux-vm,Deploys a Linux virtual machine to Azure.
@@ -11085,6 +11094,7 @@ vpc,devops4mecode,6761,aws,https://github.com/devops4mecode/terraform-aws-vpc,
 vpc,dinrk,9105,aws,https://github.com/dinrk/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,djangoflow,14896,google,https://github.com/djangoflow/terraform-google-vpc,Opinionated GCP VPC with cloud-nat and firewall rules for nginx
 vpc,doztrock,5133,aws,https://github.com/doztrock/terraform-aws-vpc,Terraform module intended to ease AWS VPC creation.
+vpc,duylinh245,17012,aws,https://github.com/duylinh245/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,dwp,2123,aws,https://github.com/dwp/terraform-aws-vpc,A Terraform module to create an AWS VPC with consistent features
 vpc,emilbek-abdyrazakov,9403,aws,https://github.com/emilbek-abdyrazakov/terraform-aws-vpc,
 vpc,emine1576,9379,aws,https://github.com/emine1576/terraform-aws-vpc,
