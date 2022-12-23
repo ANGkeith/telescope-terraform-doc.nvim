@@ -792,7 +792,7 @@ argo-cd,gfortetsanakis,15223,helm,https://github.com/gfortetsanakis/terraform-he
 argo-vault,Ioasys-org,14405,helm,https://github.com/Ioasys-org/terraform-helm-argo-vault,
 argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kubernetes-argocd,A terraform Module to deploy Argocd on Kubernetes
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
-argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.5.3) on a Kubernetes Cluster via Helm
+argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.5.5) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
 argocd,devdynamicio,15210,kubernetes,https://github.com/devdynamicio/terraform-kubernetes-argocd,Terraform module to create Argo CD in Kubernetes 🇺🇦
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
@@ -1395,7 +1395,7 @@ backend,lorconksu,12893,s3,https://github.com/lorconksu/terraform-s3-backend,Exa
 backend,malepatip,14424,aws,https://github.com/malepatip/terraform-aws-backend,Terraform Backend Module in AWS with S3
 backend,mhmdio,6936,aws,https://github.com/mhmdio/terraform-aws-backend,"Creates a backend S3 bucket, DynamoDB table, and KMS key for managing Terraform state."
 backend,nourhr,7910,Azure,https://github.com/nourhr/terraform-Azure-backend,module terraform pour intégrer un stockage d'tat distant
-backend,rhythmictech,3120,aws,https://github.com/rhythmictech/terraform-aws-backend,Creates a backend S3 bucket and DynamoDB table for managing Terraform state
+backend,rhythmictech,3120,aws,https://github.com/rhythmictech/terraform-aws-backend,Creates a backend S3 bucket and DynamoDB table for managing Terraform state in external accounts
 backend,ringanta,11682,aws,https://github.com/ringanta/terraform-aws-backend,Terraform remote backend on AWS
 backend,trajano,3217,s3,https://github.com/trajano/terraform-s3-backend,"the Bucket, DynamoDB and IAM Policies for S3 Backends"
 backend-config,Invicton-Labs,9717,null,https://github.com/Invicton-Labs/terraform-null-backend-config,Retrieves the current Terraform init configuration (including backend config and workspace)
@@ -2564,6 +2564,7 @@ container-node-pool,savipavan,15753,google,https://github.com/savipavan/terrafor
 container-platform,cloud-native-toolkit,14556,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-container-platform,Terraform module to create or connect to a IBM Cloud cluster
 container-registry,DanielMabbett,6326,azurerm,https://github.com/DanielMabbett/terraform-azurerm-container-registry,Terraform module for Azure Container Registry
 container-registry,avinor,3206,azurerm,https://github.com/avinor/terraform-azurerm-container-registry,Terraform module to create a docker container registry in Azure
+container-registry,bootlabstech,17050,azurerm,https://github.com/bootlabstech/terraform-azurerm-container-registry,
 container-registry,bytejunkie,7367,azurerm,https://github.com/bytejunkie/terraform-azurerm-container-registry,
 container-registry,cloud-native-toolkit,14557,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-container-registry,"Module to set up the IBM Container Registry, including creating a namespace and upgrading the plan"
 container-registry,devdynamicio,13028,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-container-registry,Terraform module to create an DigitalOcean Container Registry resource 🇺🇦
@@ -2638,6 +2639,11 @@ cranehost,buildo,664,aws,https://github.com/buildo/terraform-aws-cranehost,Terra
 crap,rkoteck,1395,training,https://github.com/rkoteck/terraform-training-crap,
 createModuleDemo,leroykayanda,12536,aws,https://github.com/leroykayanda/terraform-aws-createModuleDemo,
 createProject,UrsysC,5425,gcp,https://github.com/UrsysC/terraform-gcp-createProject,
+create_ec2,kmayer10,17048,aws,https://github.com/kmayer10/terraform-aws-create_ec2,Terraform module to create EC2 server with Security Group
+create_ec2,vaseemw,17049,aws,https://github.com/vaseemw/terraform-aws-create_ec2,Terraform module to create EC2 server with Security Group
+create_route,jmandal-1234,17055,aws,https://github.com/jmandal-1234/terraform-aws-create_route,AWS Route module
+create_route_table,himanirajput,17054,aws,https://github.com/himanirajput/terraform-aws-create_route_table,Terraform module to create route tables
+createigw,babujigr,17058,aws,https://github.com/babujigr/terraform-aws-createigw,
 createinstance,learncode2100,10943,aws,https://github.com/learncode2100/terraform-aws-createinstance,Create AWS Instance
 credential,aq-terraform-modules,14167,aws,https://github.com/aq-terraform-modules/terraform-aws-credential,
 credential,pbgarodi,13930,aws,https://github.com/pbgarodi/terraform-aws-credential,Terraform modules fo aws provider.
@@ -3362,6 +3368,7 @@ dropshare,aws-ia,14041,awscc,https://github.com/aws-ia/terraform-awscc-dropshare
 druid,spaghettifunk,5051,aws,https://github.com/spaghettifunk/terraform-aws-druid,Terraform module to deploy Apache Druid in Kubernetes
 drupal-clone,bennu,7315,helm,https://github.com/bennu/terraform-helm-drupal-clone,
 ds-directory,dod-iac,7980,aws,https://github.com/dod-iac/terraform-aws-ds-directory,AWS Directory Service directory
+dsf,eytannnaim,17064,imperva,https://github.com/eytannnaim/terraform-imperva-dsf,
 dts,terraform-alicloud-modules,12810,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-dts,Terraform Module for creating Data Transmission Service (DTS) on Alibaba Cloud.
 dualstack-k8s,tibordp,8715,hcloud,https://github.com/tibordp/terraform-hcloud-dualstack-k8s,Terraform module for a dual-stack Kubernetes cluster on Hetzner Cloud
 duo-ips,captn3m0,6044,data,https://github.com/captn3m0/terraform-data-duo-ips,This module provides an updated list of Duo's public CIDRs. These are maintained against the Duo Documentation: https://help.duo.com/s/article/1337
@@ -5130,6 +5137,7 @@ hdfs,terraform-alicloud-modules,12693,alicloud,https://github.com/terraform-alic
 hdinsight,kumarvna,9773,azurerm,https://github.com/kumarvna/terraform-azurerm-hdinsight,"Terraform module to create managed, full-spectrum, open-source analytics service Azure HDInsight. This module creates Apache Hadoop, Apache Spark, Apache HBase, Interactive Query (Apache Hive LLAP) and Apache Kafka clusters."
 health-events,cloudposse,9128,aws,https://github.com/cloudposse/terraform-aws-health-events,Terraform module to configure AWS EventBridge Rules and SNS Notifications for AWS Personal Health Dashboard
 health-notifications,trussworks,3357,aws,https://github.com/trussworks/terraform-aws-health-notifications,Health Notifications
+health-score-evaluation-policy,netascode,17065,aci,https://github.com/netascode/terraform-aci-health-score-evaluation-policy,Terraform Cisco ACI Health Score Evaluation Policy Module
 healthcare,terraform-google-modules,3629,google,https://github.com/terraform-google-modules/terraform-google-healthcare,This module handles opinionated Google Cloud Platform Healthcare datasets and stores.
 healthcheck,wmariuss,3079,aws,https://github.com/wmariuss/terraform-aws-healthcheck,Healthcheck and DNS routing policy
 hedwig,cloudchacho,9332,google,https://github.com/cloudchacho/terraform-google-hedwig,
@@ -5397,6 +5405,7 @@ idp-okta,cyralinc,9076,cyral,https://github.com/cyralinc/terraform-cyral-idp-okt
 iglu-server-ce,snowplow-devops,10070,google,https://github.com/snowplow-devops/terraform-google-iglu-server-ce,
 iglu-server-ec2,snowplow-devops,9312,aws,https://github.com/snowplow-devops/terraform-aws-iglu-server-ec2,
 igmp-interface-policy,netascode,17018,aci,https://github.com/netascode/terraform-aci-igmp-interface-policy,Terraform Cisco ACI IGMP Interface Policy Module 
+igmp-snooping-policy,netascode,17056,aci,https://github.com/netascode/terraform-aci-igmp-snooping-policy,Terraform Cisco ACI IGMP Snooping Policy Module 
 ignite,trung,4504,quorum,https://github.com/trung/terraform-quorum-ignite,A Terraform module that bootstraps resources in order to run a Quorum network from scratch
 ignition,omarabid,1283,coreos,https://github.com/omarabid/terraform-coreos-ignition,Terraform Module for CoreOS configuration
 iip,DTherHtun,4270,aws,https://github.com/DTherHtun/terraform-aws-iip,Terraform module which creates IAM Instance Profile on AWS
@@ -5554,6 +5563,7 @@ instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aw
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
 instances,ulm0,3341,scaleway,https://github.com/ulm0/terraform-scaleway-instances,Create server instances in Scaleway
 instellar,upmaru,16594,digitalocean,https://github.com/upmaru/terraform-digitalocean-instellar,Terraform module for bootstrapping instellar cluster
+intance-testing-example,PrinceAhirwar,17066,aws,https://github.com/PrinceAhirwar/terraform-aws-intance-testing-example,
 integration,toluna-terraform,16608,sonarqube,https://github.com/toluna-terraform/terraform-sonarqube-integration,
 integrations,TaitoUnited,10711,aws,https://github.com/TaitoUnited/terraform-aws-integrations,
 integrations,TaitoUnited,8228,azurerm,https://github.com/TaitoUnited/terraform-azurerm-integrations,
@@ -7060,6 +7070,7 @@ mysql-server,bootlabstech,15502,azurerm,https://github.com/bootlabstech/terrafor
 mysql-server,justinm,4558,kubernetes,https://github.com/justinm/terraform-kubernetes-mysql-server,A simple to setup K8S MySQL server
 mysql-utf8,ispec-inc,2351,rds,https://github.com/ispec-inc/terraform-rds-mysql-utf8,顔文字、日本語に対応したRDSモジュール
 mysql_db,airasia,5327,google,https://github.com/airasia/terraform-google-mysql_db,Terraform module for a MySQL CloudSQL Instance in GCP
+mysql_db,cto-data-infra,17053,google,https://github.com/cto-data-infra/terraform-google-mysql_db,
 mystorage,164168varsha,12283,aws,https://github.com/164168varsha/terraform-aws-mystorage,
 mystorage,Dimple-12,13214,azure,https://github.com/Dimple-12/terraform-azure-mystorage,
 mystorage,Kuldeep90158,12070,azure,https://github.com/Kuldeep90158/terraform-azure-mystorage,
@@ -8249,6 +8260,7 @@ rds-postgres,traveloka,2461,aws,https://github.com/traveloka/terraform-aws-rds-p
 rds-postgres,truemark,16206,aws,https://github.com/truemark/terraform-aws-rds-postgres,
 rds-postgres-alarms,truemark,15834,aws,https://github.com/truemark/terraform-aws-rds-postgres-alarms,AWS RDS postgres specific alarm definitions (not Aurora)
 rds-postgresql,kmayer10,13517,aws,https://github.com/kmayer10/terraform-aws-rds-postgresql,
+rds-postgresql,vaseemw,17057,aws,https://github.com/vaseemw/terraform-aws-rds-postgresql,
 rds-project,omiradil,8885,aws,https://github.com/omiradil/terraform-aws-rds-project,
 rds-proxy,clowdhaus,7301,aws,https://github.com/clowdhaus/terraform-aws-rds-proxy,Terraform module which creates AWS RDS Proxy resources 🇺🇦
 rds-proxy,terraform-aws-modules,13120,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module which creates AWS RDS Proxy resources 🇺🇦
@@ -8381,6 +8393,7 @@ redis,tf-cloud-modules,14926,aiven,https://github.com/tf-cloud-modules/terraform
 redis,zhangwk1,13455,alicloud,https://github.com/zhangwk1/terraform-alicloud-redis,Terraform module which creates Redis instance and other resources on Alibaba Cloud.
 redis-bigkeys-monitoring,AckeeCZ,10401,kubernetes,https://github.com/AckeeCZ/terraform-kubernetes-redis-bigkeys-monitoring,Created Kubernetes Pod to parse output of Redis --bigkeys command and submits the metrics to Google Cloud Monitoring.
 redis-cache,KamenYovchev,6260,azurerm,https://github.com/KamenYovchev/terraform-azurerm-redis-cache,
+redis-cache,bootlabstech,17051,azurerm,https://github.com/bootlabstech/terraform-azurerm-redis-cache,
 redis-cluster,PGBI,3520,aws,https://github.com/PGBI/terraform-aws-redis-cluster,
 redis-cluster,dod-iac,11208,aws,https://github.com/dod-iac/terraform-aws-redis-cluster,A Redis cluster on Elasticache
 redis-cluster,viceIII,787,aws,https://github.com/viceIII/terraform-aws-redis-cluster,
@@ -8389,6 +8402,7 @@ redis-idle-connection-cleanup,StratusGrid,8730,aws,https://github.com/StratusGri
 redis-service,philips-labs,9153,hsdp,https://github.com/philips-labs/terraform-hsdp-redis-service,Provision Redis on HSP which is prometheus metrics endpoint
 redis_store,airasia,4751,google,https://github.com/airasia/terraform-google-redis_store,Terraform module for a Redis MemoryStore in GCP
 redis_store,goquovn,15399,gcp,https://github.com/goquovn/terraform-gcp-redis_store,
+redisrr,bootlabstech,17062,google,https://github.com/bootlabstech/terraform-google-redisrr,Creates Redis with Read Replicas
 redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-aws-redshift,Basic Redshift module
 redshift,QuiNovas,1496,aws,https://github.com/QuiNovas/terraform-aws-redshift,Creates a Redshift cluster
 redshift,terraform-aws-modules,299,aws,https://github.com/terraform-aws-modules/terraform-aws-redshift,Terraform module which creates Redshift resources on AWS 🇺🇦
@@ -9443,6 +9457,7 @@ service-account-vault,gendall,3957,google,https://github.com/gendall/terraform-g
 service-accounts,terraform-google-modules,2538,google,https://github.com/terraform-google-modules/terraform-google-service-accounts,"This module allows easy creation of one or more service accounts, and granting them basic roles."
 service-build,recipopdev,12193,aws,https://github.com/recipopdev/terraform-aws-service-build,Terraform module for building a docker image and publishing to a registry
 service-build,recipopdev,12545,azurerm,https://github.com/recipopdev/terraform-azurerm-service-build,Terraform module for building a docker image and pushing to Azure container registry
+service-bus,bootlabstech,17052,azurerm,https://github.com/bootlabstech/terraform-azurerm-service-bus,
 service-bus,claranet,4500,azurerm,https://github.com/claranet/terraform-azurerm-service-bus,Terraform module for Azure Service bus
 service-bus,innovationnorway,2716,azurerm,https://github.com/innovationnorway/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus,thuanvltk,8233,azurerm,https://github.com/thuanvltk/terraform-azurerm-service-bus,Create Service Bus in Azure.
@@ -9563,6 +9578,7 @@ sha256-of-base64,Invicton-Labs,12408,null,https://github.com/Invicton-Labs/terra
 shanstorage,Balashanthoshi,13211,azure,https://github.com/Balashanthoshi/terraform-azure-shanstorage,
 shardingsphere,SphereEx,17032,aws,https://github.com/SphereEx/terraform-aws-shardingsphere,
 share,KamilBlaz,11806,aws,https://github.com/KamilBlaz/terraform-aws-share,
+share-storage,bootlabstech,17046,azurerm,https://github.com/bootlabstech/terraform-azurerm-share-storage,Azure bucket creation using Terraform
 shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
 sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 / 2013 on Azure
@@ -10052,6 +10068,7 @@ staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform
 staticwebsite,mittalabhishek02,12854,azurerm,https://github.com/mittalabhishek02/terraform-azurerm-staticwebsite,Terraform Module for static website in Azure
 staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform-aws-staticwebsite,Terraform module to setup a static website with good defaults on S3 + CloudFront
 staticwebsite,worldofprasanna,4791,aws,https://github.com/worldofprasanna/terraform-aws-staticwebsite,Terraform module to create & host static UI application in AWS S3
+staticwebsite-on-k8s-minikube,Z4ck404,17067,azure,https://github.com/Z4ck404/terraform-azure-staticwebsite-on-k8s-minikube,terraform'ing the deployement of a static wesbite in azure with kubernetes 
 staticwebsite-public,rajeshr264,14409,azure,https://github.com/rajeshr264/terraform-azure-staticwebsite-public,Sample  Terraform Modules to be shared in Terraform Public Registry
 staticwebsitefiletransfer,firaun2020,13196,azurerm,https://github.com/firaun2020/terraform-azurerm-staticwebsitefiletransfer,"This module will enable you to createe & host a static website on Azure Storage. Plus, will also move your html/static files from local to Azure in the same deploy"
 staticwebsitemodule,gopal1409,11607,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsitemodule,
@@ -10225,6 +10242,7 @@ subnet,Aristocrat-B2B,8599,nutanix,https://github.com/Aristocrat-B2B/terraform-n
 subnet,GMafra,1019,gcp,https://github.com/GMafra/terraform-gcp-subnet," Terraform module for creating Subnets on Google Cloud"
 subnet,OT-CLOUD-KIT,5143,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-subnet,Module to manage subnets
 subnet,OT-terraform-azure-modules,11633,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-subnet,
+subnet,Praveenkviswan,17059,aws,https://github.com/Praveenkviswan/terraform-aws-subnet,
 subnet,Terraform-Modules-Lib,9637,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet,
 subnet,andrewCluey,8428,azurerm,https://github.com/andrewCluey/terraform-azurerm-subnet,Creates a Subnet in an existing vNET
 subnet,anugnes,679,azure,https://github.com/anugnes/terraform-azure-subnet,Azure Subnet Module for Terraform
@@ -10927,6 +10945,7 @@ vnet,claranet,3213,azurerm,https://github.com/claranet/terraform-azurerm-vnet,Te
 vnet,cloud-native-toolkit,14580,azure,https://github.com/cloud-native-toolkit/terraform-azure-vnet,Module to provision vpc on azure
 vnet,cloudcommons,3842,azure,https://github.com/cloudcommons/terraform-azure-vnet,Terraform Azure VNET Module
 vnet,dcos-terraform,1546,azurerm,https://github.com/dcos-terraform/terraform-azurerm-vnet,Create a VNET to be used for DC/OS for Azure
+vnet,getindata,17061,azurerm,https://github.com/getindata/terraform-azurerm-vnet,Terraform module for managing Azure VNET
 vnet,ingenii-solutions,8817,azurerm,https://github.com/ingenii-solutions/terraform-azurerm-vnet,A module that creates and manages Azure VNETs and their route tables and subnets.
 vnet,jungopro,3854,azurerm,https://github.com/jungopro/terraform-azurerm-vnet,Module to create a basic vNet in Azure
 vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Terraform Module to create Azure Virtual Network resources.
@@ -11738,11 +11757,13 @@ wordpress-support,AaronForce1,13337,aws,https://github.com/AaronForce1/terraform
 worker-node-group,notespacejp,12649,aws,https://github.com/notespacejp/terraform-aws-worker-node-group,aws managed worker node group module
 worker-pool,garbetjie,8658,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
 workers,garbetjie,8012,google,https://github.com/garbetjie/terraform-google-workers,Terraform module to easily create Docker-based background workers.
+workforce-identity-federation,SudharsaneSivamany,17063,google,https://github.com/SudharsaneSivamany/terraform-google-workforce-identity-federation,
 workload,andrewCluey,9997,azurerm,https://github.com/andrewCluey/terraform-azurerm-workload,Creates a baseline set of foundation resources and name conventions.
 workload-cluster,drpebcak,3482,rancher,https://github.com/drpebcak/terraform-rancher-workload-cluster,
 workload-identity,Brindster,4123,google,https://github.com/Brindster/terraform-google-workload-identity,A terraform module to create a service account on Google Cloud Platform that grants IAM roles to a Kubernetes service account via Workload Identity
 workload-identity,gplusmedia,5040,google,https://github.com/gplusmedia/terraform-google-workload-identity,A terraform module to create a service account on Google Cloud Platform that grants IAM roles to a Kubernetes service account via Workload Identity
 workload-identity-federation,mscribellito,13039,google,https://github.com/mscribellito/terraform-google-workload-identity-federation,Terraform module for workload identity federation on GCP.
+workload-identity-federation-multi-provider,SudharsaneSivamany,17047,google,https://github.com/SudharsaneSivamany/terraform-google-workload-identity-federation-multi-provider,
 workmail-kms-key,QuiNovas,2704,aws,https://github.com/QuiNovas/terraform-aws-workmail-kms-key,
 workmail-route53,QuiNovas,2705,aws,https://github.com/QuiNovas/terraform-aws-workmail-route53,Terraform module for all Route53 records of a WorkMail domain
 workshop-fargate,dahlke,3438,aws,https://github.com/dahlke/terraform-aws-workshop-fargate,
@@ -11805,6 +11826,7 @@ zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero mod
 zerossl_alicloud,Explorer1092,13427,x,https://github.com/Explorer1092/terraform-x-zerossl_alicloud,
 zerotier-haproxy,djangoflow,16458,kubernetes,https://github.com/djangoflow/terraform-kubernetes-zerotier-haproxy,
 zone,Flaconi,11080,cloudflare,https://github.com/Flaconi/terraform-cloudflare-zone,This module will create Cloudflare Hosted Zone
+zone,Infrastrukturait,17068,cloudflare,https://github.com/Infrastrukturait/terraform-cloudflare-zone,Terraform module to provision a CloudFlare zone with DNS records
 zone,alex-feel,8648,cloudflare,https://github.com/alex-feel/terraform-cloudflare-zone,Terraform module that creates zone resources in Cloudflare with minimal effort on your part.
 zone,cloudposse,8292,cloudflare,https://github.com/cloudposse/terraform-cloudflare-zone,"Terraform module to provision a CloudFlare zone with DNS records, Argo, Firewall filters and rules"
 zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cloudflare-zone,
