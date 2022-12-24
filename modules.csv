@@ -4499,6 +4499,7 @@ eventgrid-system-topic,libre-devops,13287,azurerm,https://github.com/libre-devop
 eventgrid-system-topic-event-subscription,libre-devops,13307,azurerm,https://github.com/libre-devops/terraform-azurerm-eventgrid-system-topic-event-subscription,A module used to deploy an eventgrid system topic custom subscription based on some parameters :knife:
 eventgrid-topic,data-platform-hq,16244,azurerm,https://github.com/data-platform-hq/terraform-azurerm-eventgrid-topic,
 eventhub,claranet,4501,azurerm,https://github.com/claranet/terraform-azurerm-eventhub,Terraform module for Azure Eventhub
+eventhub,data-platform-hq,17070,azurerm,https://github.com/data-platform-hq/terraform-azurerm-eventhub,Terraform module for managing Azure Event Hub
 eventhub,linkbynet,8474,datadog,https://github.com/linkbynet/terraform-datadog-eventhub,Terraform module for deploy eventhub monitoring on datadog
 eventhub,tomarv2,15865,azure,https://github.com/tomarv2/terraform-azure-eventhub,Terraform module to create Azure eventhub
 events,ONSdigital,8745,aws,https://github.com/ONSdigital/terraform-aws-events,A Terraform module for handling AWS Events.
@@ -4636,7 +4637,7 @@ fastmail-records,michaelcontento,17034,gandi,https://github.com/michaelcontento/
 fc,Explorer1092,13426,alicloud,https://github.com/Explorer1092/terraform-alicloud-fc,"Terraform module which creates Function Compute service, function and trigger on Alibaba Cloud"
 fc,terraform-alicloud-modules,1713,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-fc,"Terraform module which creates Function Compute service, function and trigger on Alibaba Cloud"
 fc-oss-trigger,terraform-alicloud-modules,10413,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-fc-oss-trigger,
-fck-nat,ahodges22,17011,aws,https://github.com/ahodges22/terraform-aws-fck-nat,
+fck-nat,ahodges22,17011,aws,https://github.com/ahodges22/terraform-aws-fck-nat,https://registry.terraform.io/modules/ahodges22/fck-nat
 fcos,sedlund,9355,hcloud,https://github.com/sedlund/terraform-hcloud-fcos,Terraform module to Install Fedora CoreOS on Hetzner Cloud
 feast,combinator-ml,8642,k8s,https://github.com/combinator-ml/terraform-k8s-feast,Feast as a combinator.ml component
 features,netascode,13200,nxos,https://github.com/netascode/terraform-nxos-features,Terraform Cisco NX-OS Features Module
@@ -8434,6 +8435,7 @@ release,terraform-module,3814,helm,https://github.com/terraform-module/terraform
 release-prometheus-msteams,OpenQAI,5331,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-msteams,A helm_release terraform module type for prometheus_msteams chart. 
 release-prometheus-operator,OpenQAI,5333,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-operator,"Terraform Module: prometheus-operator, helm release resource deployment.  "
 release-prometheus-operator,bakuppus,10703,helm,https://github.com/bakuppus/terraform-helm-release-prometheus-operator,"Terraform Module: prometheus-operator, helm release resource deployment.  "
+reloader,with-cardinal,17072,kubernetes,https://github.com/with-cardinal/terraform-kubernetes-reloader,Terraform Module for Reloader
 remote-agents,dcos-terraform,1975,aws,https://github.com/dcos-terraform/terraform-aws-remote-agents,
 remote-backend,avinor,2439,azurerm,https://github.com/avinor/terraform-azurerm-remote-backend,Terraform module to deploy a remote backend storage for Azure
 remote-backend,ryan-harper-dentsu,3287,azurerm,https://github.com/ryan-harper-dentsu/terraform-azurerm-remote-backend,Terraform module to deploy a remote backend storage for Azure
@@ -9154,6 +9156,7 @@ sample-l7-fw,nvibert,9514,nsxt,https://github.com/nvibert/terraform-nsxt-sample-
 sampleProject,ChotelalHans,13655,azurerm,https://github.com/ChotelalHans/terraform-azurerm-sampleProject,
 sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry-sampleec2,
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
+samplemodule,rajmohanma,17071,azurerm,https://github.com/rajmohanma/terraform-azurerm-samplemodule,
 san-multi-zone,karankohli13,10385,acm,https://github.com/karankohli13/terraform-acm-san-multi-zone,
 sandbox,obay,15384,azure,https://github.com/obay/terraform-azure-sandbox,This Terraform module deploys a sandbox environment in Azure that will be used for testing and development purposes.
 sandirmtest,sandipdas,16694,azurerm,https://github.com/sandipdas/terraform-azurerm-sandirmtest,
@@ -11576,6 +11579,7 @@ vpn-pbr-route-entry,terraform-alicloud-modules,12807,alicloud,https://github.com
 vpn-server,cloud-native-toolkit,16039,azure,https://github.com/cloud-native-toolkit/terraform-azure-vpn-server,Module to provision vpn-server on azure
 vrf,netascode,13066,nxos,https://github.com/netascode/terraform-nxos-vrf,Terraform Cisco NX-OS VRF Module
 vrf,netascode,9755,aci,https://github.com/netascode/terraform-aci-vrf,Terraform Cisco ACI VRF Module
+vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
 vsphere,equinix,7455,metal,https://github.com/equinix/terraform-metal-vsphere,Terraform Module to deploy VMware vSphere on Equinix Metal
 vsphere-cloud-foundation-vcsa-base,jd4883,6909,vmware,https://github.com/jd4883/terraform-vmware-vsphere-cloud-foundation-vcsa-base,"Once imported, this is a working base with minimal tweaks to what cloud foundation brings up. This gives a more granular set of controls post deployment. I am developing a series of submodules for different purposes here to fully automate the bringup of Tanzu Kubernetes"
 vsphere-cloudfoundation-folders,jd4883,6907,vmware,https://github.com/jd4883/terraform-vmware-vsphere-cloudfoundation-folders,A small terraform module for folder management within vsphere. This is designed to handle folders created by vmware cloud foundation
