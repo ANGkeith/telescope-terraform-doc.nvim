@@ -272,7 +272,7 @@ ag-dag-nia,PaloAltoNetworks,6357,panos,https://github.com/PaloAltoNetworks/terra
 agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-agent,A Terraform Module to create a Secret and DaemonSet for deploying the Lacework Datacollector Agent in a Kubernetes cluster.
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
-agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,
+agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,Terraform module for configuring an integration with Lacework and Google Cloud for agentless scanning
 agnostic,DOboznyi,6599,cloud,https://github.com/DOboznyi/terraform-cloud-agnostic,
 ahmkabeer,ahmkabeer,12723,aws,https://github.com/ahmkabeer/terraform-aws-ahmkabeer,
 ai-inference-onboarding,philips-labs,9819,hsdp,https://github.com/philips-labs/terraform-hsdp-ai-inference-onboarding,Onboarding module for HSDP AI Inference service
@@ -543,6 +543,7 @@ apache-example,monicalimachi,12957,aws,https://github.com/monicalimachi/terrafor
 apache-example,pks111607,10843,aws,https://github.com/pks111607/terraform-aws-apache-example,
 apache-example,preetsindhal,12610,aws,https://github.com/preetsindhal/terraform-aws-apache-example,
 apache-example,rafalwitalski,16233,aws,https://github.com/rafalwitalski/terraform-aws-apache-example,
+apache-example,verma-kunal,17090,aws,https://github.com/verma-kunal/terraform-aws-apache-example,Terraform Module to provision an EC2 instance that is running Apache server - Example
 apache-example,yumoL,11654,aws,https://github.com/yumoL/terraform-aws-apache-example,
 apache-gk,HoldemGK,12898,aws,https://github.com/HoldemGK/terraform-aws-apache-gk,
 apache-guacamole,devoptimist,3007,linux,https://github.com/devoptimist/terraform-linux-apache-guacamole,
@@ -1984,6 +1985,7 @@ cloud-storage,chriskasparmayo,3346,google,https://github.com/chriskasparmayo/ter
 cloud-storage,terraform-google-modules,2514,google,https://github.com/terraform-google-modules/terraform-google-cloud-storage,"This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users."
 cloud-storage,viswanth165,11084,google,https://github.com/viswanth165/terraform-google-cloud-storage,
 cloud-storage-bucket,bootlabstech,12174,google,https://github.com/bootlabstech/terraform-google-cloud-storage-bucket,Terraform module for creating a gcs bucket
+cloud-storage-bucket-testing,bootlabstech,17091,google,https://github.com/bootlabstech/terraform-google-cloud-storage-bucket-testing,
 cloud-storage-gateway,terraform-alicloud-modules,12791,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-storage-gateway,Terraform Module for creating Cloud Storage Gateway resources on Alibaba Cloud.
 cloud-vault,farrukh90,9280,hashicorp,https://github.com/farrukh90/terraform-hashicorp-cloud-vault,https://registry.terraform.io/modules/farrukh90/cloud-vault/hashicorp/latest
 cloud1,NguyenTruongThanh-74,15495,aws,https://github.com/NguyenTruongThanh-74/terraform-aws-cloud1,
@@ -3749,6 +3751,7 @@ ecs-app-scheduler,DNXLabs,5733,aws,https://github.com/DNXLabs/terraform-aws-ecs-
 ecs-app-worker,DNXLabs,5734,aws,https://github.com/DNXLabs/terraform-aws-ecs-app-worker,This terraform module is an AWS ECS Application Module for Workers without Application Load Balancer (ALB).
 ecs-application,emyller,12089,aws,https://github.com/emyller/terraform-aws-ecs-application,A Terraform module to manage an application in AWS ECS.
 ecs-appmesh,toluna-terraform,14373,aws,https://github.com/toluna-terraform/terraform-aws-ecs-appmesh,
+ecs-appmesh-gitflow,toluna-terraform,17092,aws,https://github.com/toluna-terraform/terraform-aws-ecs-appmesh-gitflow,Module to create Pipeline for ECS apps using App Mesh
 ecs-asg,silinternational,765,aws,https://github.com/silinternational/terraform-aws-ecs-asg,Terraform Module for creating an ECS cluster and auto-scaling group that scales based on CPU or Memory reservation for the cluster.
 ecs-atlantis,cloudposse,2010,aws,https://github.com/cloudposse/terraform-aws-ecs-atlantis,Terraform module for deploying Atlantis as an ECS Task
 ecs-backend-service,mergermarket,3706,acuris,https://github.com/mergermarket/terraform-acuris-ecs-backend-service,
@@ -5215,6 +5218,7 @@ https-redirect-multi-domains,AlexanderWiechert,10455,aws,https://github.com/Alex
 https-redirect-multi-domains,elastic2ls-com,10456,aws,https://github.com/elastic2ls-com/terraform-aws-https-redirect-multi-domains," This module helps you create a S3 bucket which performs HTTPS redirections for multiple domains"
 https_classic-load-balancer,bootlabstech,15164,google,https://github.com/bootlabstech/terraform-google-https_classic-load-balancer,
 hub-vxlan-interconnect,poroping,16241,fortios,https://github.com/poroping/terraform-fortios-hub-vxlan-interconnect,
+hubandspoke,camposwilliam,17096,azure,https://github.com/camposwilliam/terraform-azure-hubandspoke,
 hugo-s3-cloudfront,fillup,673,aws,https://github.com/fillup/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-s3-cloudfront,travka,4195,aws,https://github.com/travka/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-site,zombiezen,2421,google,https://github.com/zombiezen/terraform-google-hugo-site,Terraform module for Hugo on Firebase Hosting
@@ -7892,6 +7896,7 @@ private-route53-zone,traveloka,984,aws,https://github.com/traveloka/terraform-aw
 private-vpc,anugnes,612,aws,https://github.com/anugnes/terraform-aws-private-vpc,Terraform module to create a custom VPC in AWS
 private-zone,terraform-alicloud-modules,2127,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-private-zone,Terraform module which create private zones and records on Alibaba Cloud
 privateendpoint,imjoseangel,11773,azurerm,https://github.com/imjoseangel/terraform-azurerm-privateendpoint,Terraform Module for deploying a Private Endpoint
+privatelink-aws,getindata,17093,snowflake,https://github.com/getindata/terraform-snowflake-privatelink-aws,Terraform module for Snowflake AWS PrivateLink management
 privileges,TaitoUnited,6127,mysql,https://github.com/TaitoUnited/terraform-mysql-privileges,
 privileges,TaitoUnited,6128,postgresql,https://github.com/TaitoUnited/terraform-postgresql-privileges,
 prober,chainguard-dev,16931,google,https://github.com/chainguard-dev/terraform-google-prober,A terraform module and Go library for deploying probers to Google Cloud Run
@@ -8564,6 +8569,7 @@ resource-group,yasarlaro,16960,azurerm,https://github.com/yasarlaro/terraform-az
 resource-group-data,krezreb,6478,azurerm,https://github.com/krezreb/terraform-azurerm-resource-group-data,
 resource-groups,bootlabstech,15490,azurerm,https://github.com/bootlabstech/terraform-azurerm-resource-groups,
 resource-management,terraform-ibm-modules,10162,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-resource-management,
+resource-monitor,getindata,17094,snowflake,https://github.com/getindata/terraform-snowflake-resource-monitor,Terraform module that can create and manage Snowflake Resource Monitors.
 resource-name,bellyslap,10939,azurerm,https://github.com/bellyslap/terraform-azurerm-resource-name,Terraform module that generates names for Azure resources using Microsoft's recommended abbreviations
 resource-naming,traveloka,2463,aws,https://github.com/traveloka/terraform-aws-resource-naming,Terraform module to generate resource name with random_id added as suffix.
 resource-provision,prophetstor-ai,8744,federatorai,https://github.com/prophetstor-ai/terraform-federatorai-resource-provision,Terraform modules for Federator.ai
