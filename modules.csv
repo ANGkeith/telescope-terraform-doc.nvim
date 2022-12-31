@@ -564,6 +564,7 @@ api-eventbridge,barneyparker,4678,aws,https://github.com/barneyparker/terraform-
 api-gateway,adamwshero,16198,aws,https://github.com/adamwshero/terraform-aws-api-gateway,"Terragrunt friendly module to create AWS API Gateway (V1) w\Optional WAF, many stages/api keys/usage plans using the OpenAPI 3.x spec. 🇺🇦"
 api-gateway,aidenabled,11470,google,https://github.com/aidenabled/terraform-google-api-gateway,
 api-gateway,birkoff,1077,aws,https://github.com/birkoff/terraform-aws-api-gateway,Terraform module for AWS API Gateway resource
+api-gateway,bootlabstech,17145,azurerm,https://github.com/bootlabstech/terraform-azurerm-api-gateway,Creates Azure API gateway
 api-gateway,bwindsor,6562,aws,https://github.com/bwindsor/terraform-aws-api-gateway,Terraform resources for an API gateway deployment with custom domain name
 api-gateway,clouddrove,3649,aws,https://github.com/clouddrove/terraform-aws-api-gateway,Terraform module to create Route53 resource on AWS for create api gateway with it's basic elements.
 api-gateway,cloudposse,11227,aws,https://github.com/cloudposse/terraform-aws-api-gateway,
@@ -1953,7 +1954,7 @@ cloud-nat,goquovn,15402,gcp,https://github.com/goquovn/terraform-gcp-cloud-nat,
 cloud-nat,terraform-google-modules,2418,google,https://github.com/terraform-google-modules/terraform-google-cloud-nat,This module handles opinionated Google Cloud Platform Cloud NAT creation and configuration.
 cloud-network-module,elvinlari,16502,gcp,https://github.com/elvinlari/terraform-gcp-cloud-network-module,A Terraform module that makes it easy to set up a new VPC Network in Google Cloud Platform.
 cloud-nodes,matti,792,kontena,https://github.com/matti/terraform-kontena-cloud-nodes,
-cloud-operations,terraform-google-modules,6086,google,https://github.com/terraform-google-modules/terraform-google-cloud-operations,This module is a collection of submodules related to Google Cloud Operations (Logging and Monitoring).
+cloud-operations,terraform-google-modules,6086,google,https://github.com/terraform-google-modules/terraform-google-cloud-operations,Manages Google Cloud's operations suite (Cloud Logging and Cloud Monitoring)
 cloud-operator,cloud-native-toolkit,14555,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-cloud-operator,Terraform module to install the IBM Cloud Operator in a cluster
 cloud-platform,matti,797,kontena,https://github.com/matti/terraform-kontena-cloud-platform,
 cloud-private-link-aws,math280h,12965,elastic,https://github.com/math280h/terraform-elastic-cloud-private-link-aws,Terraform module for Elastic Cloud deployments using AWS PrivateLink
@@ -3304,6 +3305,7 @@ docker-instance,zynpce,14638,aws,https://github.com/zynpce/terraform-aws-docker-
 docker-instance-late,usuladams,16288,aws,https://github.com/usuladams/terraform-aws-docker-instance-late,terraform-aws-docker-instance-late
 docker-instance-latest,usuladams,16109,aws,https://github.com/usuladams/terraform-aws-docker-instance-latest,Terraform module which creates a docker instance resource on AWS.
 docker-instance-recap,JamesFrostyy,16110,aws,https://github.com/JamesFrostyy/terraform-aws-docker-instance-recap,Terraform module which creates a docker instance resource on AWS.
+docker-instance-tekrar,RamizMrt,17147,aws,https://github.com/RamizMrt/terraform-aws-docker-instance-tekrar,
 docker-instance-test,halach2020,14598,aws,https://github.com/halach2020/terraform-aws-docker-instance-test,
 docker-instance-try,osmnnunal,16282,aws,https://github.com/osmnnunal/terraform-aws-docker-instance-try,
 docker-instance2,mehmetima,16637,aws,https://github.com/mehmetima/terraform-aws-docker-instance2,
@@ -3457,6 +3459,7 @@ ebs-optimized,terraform-aws-modules,1146,aws,https://github.com/terraform-aws-mo
 ebs-snapshot-publicly-exposed,offensive-terraform,6131,aws,https://github.com/offensive-terraform/terraform-aws-ebs-snapshot-publicly-exposed,"Offensive Terraform module which copies publicly exposed EBS snapshot to us-east-1 region in attacker's AWS account and creates EBS volume from the copied EBS snapshot. After that, the module attaches and mounts the EBS volume to an EC2 instance. Finally, attacker can ssh into an EC2 instance and inspect a mounted volume ""/usr/src/hack""."
 ebs-volume,Infrastrukturait,14330,aws,https://github.com/Infrastrukturait/terraform-aws-ebs-volume,Terraform Modules for AWS EBS volumes 
 ebs-volume,bootlabstech,17126,aws,https://github.com/bootlabstech/terraform-aws-ebs-volume,
+ebs-volume-snapshot,bootlabstech,17141,aws,https://github.com/bootlabstech/terraform-aws-ebs-volume-snapshot,
 ebs_tagger,pmoranga,2727,module,https://github.com/pmoranga/terraform-module-ebs_tagger,Terraform module to deploy AWS lambda code to automatically tag new volumes.
 ebssnap,JamesWoolfenden,2027,aws,https://github.com/JamesWoolfenden/terraform-aws-ebssnap,A module that implements automated snapshotting of EBS volumes
 ec2,EconomistDigitalSolutions,1873,aws,https://github.com/EconomistDigitalSolutions/terraform-aws-ec2,Use Terraform to create and manage AWS EC2 instances
@@ -3885,8 +3888,8 @@ ecs-mongo,clibot,5159,aws,https://github.com/clibot/terraform-aws-ecs-mongo,terr
 ecs-nginx-proxy,hazelops,6271,aws,https://github.com/hazelops/terraform-aws-ecs-nginx-proxy,Add ability to add a proxy in front of any ECS container dynamically
 ecs-non-traffic,hendrixroa,3851,aws,https://github.com/hendrixroa/terraform-aws-ecs-non-traffic,Module to provisioning services and rolling update deployments and autoscaling ecs task with cloudwatch alarms
 ecs-ocean,joshdlee,14396,spotinst,https://github.com/joshdlee/terraform-spotinst-ecs-ocean,Spotinst Terraform Module to integrate existing ECS cluster with Spot.io Ocean
-ecs-ocean,stevenfeltner,9144,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ecs-ocean,Spotinst Terraform Module to integrate existing ECS cluster with Spot.io Ocean
-ecs-ocean-launchspec,stevenfeltner,9145,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ecs-ocean-launchspec,Terraform module to create an Ocean LaunchSpec (VNG) for AWS ECS cluster
+ecs-ocean,stevenfeltner,9144,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ecs-ocean,***Deprecated - Moved to Spotinst Repo*** Spotinst Terraform Module to integrate existing ECS cluster with Spot.io Ocean
+ecs-ocean-launchspec,stevenfeltner,9145,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ecs-ocean-launchspec,***Deprecated - Moved to Spotinst Repo*** Terraform module to create an Ocean LaunchSpec (VNG) for AWS ECS cluster
 ecs-pipeline,ispec-inc,3364,aws,https://github.com/ispec-inc/terraform-aws-ecs-pipeline,
 ecs-pipeline,murawakimitsuhiro,2167,aws,https://github.com/murawakimitsuhiro/terraform-aws-ecs-pipeline,
 ecs-private-ethereum-blockchain,SCB-TechX-Saber-Labs,10219,aws,https://github.com/SCB-TechX-Saber-Labs/terraform-aws-ecs-private-ethereum-blockchain,A Terraform module to setup a private Ethereum network on Amazon ECS
@@ -4032,7 +4035,6 @@ efs-kms-key,dod-iac,10366,aws,https://github.com/dod-iac/terraform-aws-efs-kms-k
 efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-efs-mount,"Creates EFS, mount targets and security groups for use with EC2 to mount an EFS"
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
-eg-aws,stevenfeltner,14441,spotinst,https://github.com/stevenfeltner/terraform-spotinst-eg-aws,[WIP] Terraform Module for spotinst_elastigroup_aws
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
 eip,jfcantu,4353,aws,https://github.com/jfcantu/terraform-aws-eip,Terraform module for creating an AWS Elastic IP.
@@ -5769,8 +5771,6 @@ k8s-infrastructure,sculley,12846,libvirt,https://github.com/sculley/terraform-li
 k8s-multus-gtp5g,boeboe,11164,aws,https://github.com/boeboe/terraform-aws-k8s-multus-gtp5g,Terraform module to bootstrap a K8S Cluster with Multus and GTP5G on AWS
 k8s-network,opzkit,10310,aws,https://github.com/opzkit/terraform-aws-k8s-network,Terraform network setup for k8s
 k8s-node-pool,bfrunza,3531,google,https://github.com/bfrunza/terraform-google-k8s-node-pool,Terraform module which deploys a node-pool on GCP
-k8s-ocean,stevenfeltner,9141,spotinst,https://github.com/stevenfeltner/terraform-spotinst-k8s-ocean,***Deprecated - Moved to Spotinst Repo*** Spotinst Terraform Module to integrate existing AWS k8s cluster with Ocean
-k8s-ocean-launchspec,stevenfeltner,9142,spotinst,https://github.com/stevenfeltner/terraform-spotinst-k8s-ocean-launchspec,***Deprecated - Moved to Spotinst Repo*** Terraform module to create an Ocean LaunchSpec (VNG) for AWS k8s cluster
 k8s-vm,seadiaz,4373,azurerm,https://github.com/seadiaz/terraform-azurerm-k8s-vm,Azure Virtual Machine resources Terraform module for k8s cluster.
 kafka,darzanebor,14842,yandex,https://github.com/darzanebor/terraform-yandex-kafka,Yandex.Cloud Terraform Kafka Cluster module
 kafka,kabisa,13632,datadog,https://github.com/kabisa/terraform-datadog-kafka,
@@ -6184,7 +6184,7 @@ labels,appzen-oss,2026,null,https://github.com/appzen-oss/terraform-null-labels,
 labels,clouddrove,11435,azure,https://github.com/clouddrove/terraform-azure-labels,
 labels,clouddrove,16604,gcp,https://github.com/clouddrove/terraform-gcp-labels,
 labels,clouddrove,5032,digitalocean,https://github.com/clouddrove/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
-labels,clouddrove,9019,aws,https://github.com/clouddrove/terraform-aws-labels,
+labels,clouddrove,9019,aws,https://github.com/clouddrove/terraform-aws-labels,This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 labels,cloudlovers,16529,google,https://github.com/cloudlovers/terraform-google-labels,
 labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-null-labels,Terraform module to create consistent naming for multiple names
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
@@ -7489,7 +7489,7 @@ ocean-eks-v2,spotinst,16214,spotinst,https://github.com/spotinst/terraform-spoti
 ocean-gcp-k8s,spotinst,15783,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gcp-k8s,A Terraform module to create a Spot Ocean cluster in GCP. 
 ocean-gke,spotinst,6613,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gke,A Terraform module to create a Google Kubernetes Engine (GKE) cluster with Spot Ocean.
 ocean-gke-import,stevenfeltner,10459,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-import,Terraform module for Spotinst provider resource spotinst_ocean_gke_import
-ocean-gke-launchspec,stevenfeltner,10460,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-launchspec,Terraform module for Spotinst provider resource spotinst_ocean_gke_launch_spec
+ocean-gke-launchspec,stevenfeltner,10460,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-launchspec,***Deprecated - Moved to Spotinst Repo*** Terraform module for Spotinst provider resource spotinst_ocean_gke_launch_spec
 ocean-metric-exporter,spotinst,13436,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-metric-exporter,A Terraform module to install Ocean Metric Exporter using Helm.
 ocean-network-client,spotinst,15483,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-network-client,A Terraform module to install Ocean Network Client using Helm.
 ocean-spark,spotinst,12992,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-spark,
@@ -7924,6 +7924,7 @@ private-vpc,anugnes,612,aws,https://github.com/anugnes/terraform-aws-private-vpc
 private-zone,terraform-alicloud-modules,2127,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-private-zone,Terraform module which create private zones and records on Alibaba Cloud
 privateendpoint,imjoseangel,11773,azurerm,https://github.com/imjoseangel/terraform-azurerm-privateendpoint,Terraform Module for deploying a Private Endpoint
 privatelink-aws,getindata,17093,snowflake,https://github.com/getindata/terraform-snowflake-privatelink-aws,Terraform module for Snowflake AWS PrivateLink management
+privates3,bootlabstech,17146,aws,https://github.com/bootlabstech/terraform-aws-privates3,
 privileges,TaitoUnited,6127,mysql,https://github.com/TaitoUnited/terraform-mysql-privileges,
 privileges,TaitoUnited,6128,postgresql,https://github.com/TaitoUnited/terraform-postgresql-privileges,
 prober,chainguard-dev,16931,google,https://github.com/chainguard-dev/terraform-google-prober,A terraform module and Go library for deploying probers to Google Cloud Run
@@ -8065,7 +8066,7 @@ pubsub,diego-alves,11391,google,https://github.com/diego-alves/terraform-google-
 pubsub,franviera92,7105,google,https://github.com/franviera92/terraform-google-pubsub,This module makes it easy to create Google Cloud Pub/Sub topic and subscriptions associated with the topic.
 pubsub,mineiros-io,11748,google,https://github.com/mineiros-io/terraform-google-pubsub,"A Terraform module to deploy and manage Google Pub/Sub Topics, Subscriptions and IAM on Google Cloud Platform (GCP) https://cloud.google.com/pubsub"
 pubsub,russmedia,1142,google,https://github.com/russmedia/terraform-google-pubsub,Terraform module for pub/sub on Google Cloud Platform
-pubsub,terraform-google-modules,2300,google,https://github.com/terraform-google-modules/terraform-google-pubsub,This module makes it easy to create Google Cloud Pub/Sub topic and subscriptions associated with the topic.
+pubsub,terraform-google-modules,2300,google,https://github.com/terraform-google-modules/terraform-google-pubsub,Creates Pub/Sub topic and subscriptions associated with the topic
 pubsub,tomarv2,12430,google,https://github.com/tomarv2/terraform-google-pubsub,Terraform module for Google PubSub
 pubsub-lite,bootlabstech,13581,google,https://github.com/bootlabstech/terraform-google-pubsub-lite,PubSub Lite module
 pubsub-subscription,mineiros-io,12937,google,https://github.com/mineiros-io/terraform-google-pubsub-subscription,A Terraform module to create and manage a Google Pub/Sub subscription in Google Cloud https://cloud.google.com/pubsub
@@ -8958,7 +8959,7 @@ s3-logs,MagnetarIT,4724,aws,https://github.com/MagnetarIT/terraform-aws-s3-logs,
 s3-logs-bucket,damacus,921,aws,https://github.com/damacus/terraform-aws-s3-logs-bucket,Terraform module which creates a S3 bucket designed for logging
 s3-module,sinaowolabi,10609,aws,https://github.com/sinaowolabi/terraform-aws-s3-module,Chapter 6 of Terraform Up and Running
 s3-myapp,zainulabidin302,10880,aws,https://github.com/zainulabidin302/terraform-aws-s3-myapp,
-s3-new,bootlabstech,17130,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
+s3-new,bootlabstech,17144,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
 s3-object,jason-morsley,5109,aws,https://github.com/jason-morsley/terraform-aws-s3-object,
 s3-object-folder,chandan-singh,5174,aws,https://github.com/chandan-singh/terraform-aws-s3-object-folder,"Terraform module, which takes care of uploading a folder and its content to a bucket with content-type"
 s3-object-tagging,adacotech,13857,aws,https://github.com/adacotech/terraform-aws-s3-object-tagging,A terraform module that attaches the specified tag to the object uploaded to the s3 bucket.
