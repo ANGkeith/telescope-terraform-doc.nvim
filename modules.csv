@@ -164,6 +164,7 @@ acm,spirius,5173,aws,https://github.com/spirius/terraform-aws-acm,AWS ACM Certif
 acm,terraform-aws-modules,1881,aws,https://github.com/terraform-aws-modules/terraform-aws-acm,Terraform module which creates and validates ACM certificate 🇺🇦
 acm,terraform-module,3812,aws,https://github.com/terraform-module/terraform-aws-acm,ℹ️ Terraform AWS ACM module.
 acm,tomarv2,12363,aws,https://github.com/tomarv2/terraform-aws-acm,Terraform module for Amazon Certificate Manager
+acm,web-virtua-aws-multi-account-modules,17167,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-acm,
 acm,yurymkomarov,4632,aws,https://github.com/yurymkomarov/terraform-aws-acm,AWS Certificate Manager
 acm-cert,trussworks,1345,aws,https://github.com/trussworks/terraform-aws-acm-cert,Creates a TLS certificate using AWS ACM for domains hosted on Route53.
 acm-cert-akamai-dns,trussworks,2066,aws,https://github.com/trussworks/terraform-aws-acm-cert-akamai-dns,Creates a TLS certificate using AWS ACM for domains hosted on Akamai.
@@ -1476,6 +1477,7 @@ basic-tags,msaavedra91,5148,datadog,https://github.com/msaavedra91/terraform-dat
 basic_vpc_module,mmichel122,3543,gcp,https://github.com/mmichel122/terraform-gcp-basic_vpc_module,
 basicmodule,xianghaiyang,7222,xhy,https://github.com/xianghaiyang/terraform-xhy-basicmodule,这是首个module项目
 basics,dodevops,8601,azure,https://github.com/dodevops/terraform-azure-basics,"Highly opinionated management of very basic resources (resource groups, locks) for Azure"
+basimstorage,shahidmd78,17169,azurerm,https://github.com/shahidmd78/terraform-azurerm-basimstorage,Test module
 bastion,Cloud-42,1780,aws,https://github.com/Cloud-42/terraform-aws-bastion,Auto-scaled Bastion Server for use in AWS.
 bastion,Guimove,770,aws,https://github.com/Guimove/terraform-aws-bastion," Terraform module which creates SSH bastion infrastructure on AWS"
 bastion,JamesWoolfenden,3329,gcp,https://github.com/JamesWoolfenden/terraform-gcp-bastion,Bastion for GCP
@@ -1503,6 +1505,7 @@ bastion,syntaqx,2411,digitalocean,https://github.com/syntaqx/terraform-digitaloc
 bastion,terra4aws64,12142,aws,https://github.com/terra4aws64/terraform-aws-bastion,Terraform module for creating a dedicated Bastion host for managing private hosts in the target AWS VPC.
 bastion,truemark,16208,aws,https://github.com/truemark/terraform-aws-bastion,Stands up a basic bastion EC2 instance
 bastion,umotif-public,3780,aws,https://github.com/umotif-public/terraform-aws-bastion,Terraform module to create Bastion Host in AWS VPC.
+bastion,vnisolutions,17165,aws,https://github.com/vnisolutions/terraform-aws-bastion,
 bastion-asg,anub1s187,3469,aws,https://github.com/anub1s187/terraform-aws-bastion-asg,terraform module for building a bastion host autoscale group which uses s3 bucket for managing ssh keys based on ubuntu
 bastion-asg,kryptondefencesolutions,4165,aws,https://github.com/kryptondefencesolutions/terraform-aws-bastion-asg,
 bastion-asg,kube-kloud,3816,aws,https://github.com/kube-kloud/terraform-aws-bastion-asg,
@@ -2272,6 +2275,7 @@ cluster,gitrahimi,5888,aws,https://github.com/gitrahimi/terraform-aws-cluster,
 cluster,husneozmen,7881,aws,https://github.com/husneozmen/terraform-aws-cluster,
 cluster,infrablocks,7779,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-cluster,A Terraform module for creating a MongoDB cluster in MongoDB Atlas.
 cluster,ingenii-solutions,8941,databricks,https://github.com/ingenii-solutions/terraform-databricks-cluster,A module that is used to create and manage Databricks clusters
+cluster,iomete,17157,iomete,https://github.com/iomete/terraform-iomete-cluster,
 cluster,kyfelipe,4391,digitalocean,https://github.com/kyfelipe/terraform-digitalocean-cluster,Terraform module for Kubernetes cluster on provider digitalocean.
 cluster,mc19acy,15739,aks,https://github.com/mc19acy/terraform-aks-cluster,AKS-CLuster
 cluster,ptonini,16776,mongodbatlas,https://github.com/ptonini/terraform-mongodbatlas-cluster,
@@ -2987,7 +2991,7 @@ divya,Divyap29,12306,test,https://github.com/Divyap29/terraform-test-divya,
 divyastorage,vmwaregopi,17107,azure,https://github.com/vmwaregopi/terraform-azure-divyastorage,
 django,briancaffey,12411,aws,https://github.com/briancaffey/terraform-aws-django,Terraform modules for deploying Django applications on AWS using ECS Fargate
 django,djangoflow,14737,kubernetes,https://github.com/djangoflow/terraform-kubernetes-django,Deploy Django with Terraform to Kubernetes with optional support for AWS/EKS or GCP/GKE
-django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
+django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Girder4 infrastructure on Heroku + AWS.
 django,zachmullen,12659,heroku,https://github.com/zachmullen/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 dlm-lifecycle-policies,julien-langlois,4502,aws,https://github.com/julien-langlois/terraform-aws-dlm-lifecycle-policies,AWS Data Lifecycle Manager Policies
 dlm-role,limitusus,8997,aws,https://github.com/limitusus/terraform-aws-dlm-role,Data Lifecycle Manager (DLM) role
@@ -4375,7 +4379,7 @@ elasticache-redis,stroeer,15574,aws,https://github.com/stroeer/terraform-aws-ela
 elasticache-redis,tmknom,1886,aws,https://github.com/tmknom/terraform-aws-elasticache-redis,Terraform module which creates Redis ElastiCache resources on AWS.
 elasticache-redis,umotif-public,3795,aws,https://github.com/umotif-public/terraform-aws-elasticache-redis,A Terraform module to create an AWS Redis ElastiCache cluster.
 elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimian/terraform-aws-elasticache-redis-cluster,
-elasticache-secondary-on-global-store,mrnim94,17156,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-store,
+elasticache-secondary-on-global-store,mrnim94,17156,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-store,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
 elasticbeanstalk-cicd,josephphyo,11139,aws,https://github.com/josephphyo/terraform-aws-elasticbeanstalk-cicd,terraform-aws-elasticbeanstalk-cicd
 elasticbeanstalk-https,rohitnsaigal,10543,aws,https://github.com/rohitnsaigal/terraform-aws-elasticbeanstalk-https,This module is intended to help you establish all the insfrastructure needed in order to create an elasticbeanstalk application with an additional listener so that we can access via HTTPS
@@ -4460,6 +4464,7 @@ enforce-mfa,terraform-module,5138,aws,https://github.com/terraform-module/terraf
 engine-google-latest,kedish9,7127,kubernetes,https://github.com/kedish9/terraform-kubernetes-engine-google-latest,
 enrich-kinesis-ec2,snowplow-devops,9314,aws,https://github.com/snowplow-devops/terraform-aws-enrich-kinesis-ec2,
 enrich-pubsub-ce,snowplow-devops,10068,google,https://github.com/snowplow-devops/terraform-google-enrich-pubsub-ce,
+enterprise-scale-aks,OmnipotentOwl,17170,azurerm,https://github.com/OmnipotentOwl/terraform-azurerm-enterprise-scale-aks,Terraform Module for deploying an AKS cluster following Microsoft's Cloud Adoption Framework
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
 environment,terraform-pingidentity-modules,15902,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-environment,Ping Identity PingOne modules to manage environments
@@ -4489,6 +4494,7 @@ ess-alb,terraform-alicloud-modules,12841,alicloud,https://github.com/terraform-a
 ess-clb,terraform-alicloud-modules,12786,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ess-clb,Terraform Module for creating scaling service for classic load balancer on Alibaba Cloud.
 ess-scaling-rule,terraform-alicloud-modules,10130,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-ess-scaling-rule,Alibaba Cloud ESS Terraform Module
 eswarstorage,eprasadp,12275,aws,https://github.com/eprasadp/terraform-aws-eswarstorage,
+etcd,ballj,17163,kubernetes,https://github.com/ballj/terraform-kubernetes-etcd,
 eth-netstats,Nuagic,10359,aws,https://github.com/Nuagic/terraform-aws-eth-netstats,Ethereum monitoring solution based on https://github.com/cubedro/eth-netstats
 ethereum,T-Wong,659,aws,https://github.com/T-Wong/terraform-aws-ethereum,A Terraform Module for running an Ethereum mining farm on AWS using Terraform.
 ethereum-geth,4ops,3084,digitalocean,https://github.com/4ops/terraform-digitalocean-ethereum-geth,Create Ethereum full node with geth
@@ -4902,7 +4908,7 @@ ghost,wderezin,11591,aws,https://github.com/wderezin/terraform-aws-ghost,Deploym
 ghost-docker,jmarhee,9490,digitalocean,https://github.com/jmarhee/terraform-digitalocean-ghost-docker,
 girder,girder,5245,aws,https://github.com/girder/terraform-aws-girder,A Terraform module to provision Girder infrastructure on AWS.
 girder3,girder,16706,aws,https://github.com/girder/terraform-aws-girder3,A Terraform module to provision Girder3 infrastructure on AWS.
-girder4,girder,15247,heroku,https://github.com/girder/terraform-heroku-girder4,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
+girder4,girder,15247,heroku,https://github.com/girder/terraform-heroku-girder4,A Terraform module to provision Girder4 infrastructure on Heroku + AWS.
 git-info,Invicton-Labs,9327,external,https://github.com/Invicton-Labs/terraform-external-git-info,Retrieves Git info for a given repository.
 git-repository,skyfjall,14128,flux,https://github.com/skyfjall/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
 git-repository,skyfjell,14231,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
@@ -6568,6 +6574,7 @@ load-balancer,quortex,4587,azurerm,https://github.com/quortex/terraform-azurerm-
 load-balancer,quortex,5104,aws,https://github.com/quortex/terraform-aws-load-balancer,A terraform module for Quortex infrastructure AWS load balancing layer.
 load-balancer,tedilabs,12088,aws,https://github.com/tedilabs/terraform-aws-load-balancer,🌳 A sustainable Terraform Package which creates resources for Load Balancers on AWS
 load-balancer,terraform-ncloud-modules,15861,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-load-balancer,
+load-balancer,web-virtua-aws-multi-account-modules,17166,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-load-balancer,
 load-balancer-controller,chriszhangusc,9523,aws,https://github.com/chriszhangusc/terraform-aws-load-balancer-controller,Provision AWS Load Balancer Controller with Terraform
 load-balancer-fargate,nullstone-modules,8812,aws,https://github.com/nullstone-modules/terraform-aws-load-balancer-fargate,Terraform module to attach a load balancer to a fargate service
 loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
@@ -8832,6 +8839,7 @@ s3,skyfjall,14126,aws,https://github.com/skyfjall/terraform-aws-s3,Create Simple
 s3,skyfjell,14229,aws,https://github.com/skyfjell/terraform-aws-s3,Create Simple and Compliant S3 Buckets
 s3,so1omon563,14825,aws,https://github.com/so1omon563/terraform-aws-s3,Module to create an S3 bucket with common options using bucket configuration resources in submodules.
 s3,tomarv2,8274,aws,https://github.com/tomarv2/terraform-aws-s3,Terraform module for AWS S3
+s3,vnisolutions,17164,aws,https://github.com/vnisolutions/terraform-aws-s3,
 s3,web-virtua-aws-multi-account-modules,16221,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-s3,
 s3-301-redirect,JamesBelchamber,469,aws,https://github.com/JamesBelchamber/terraform-aws-s3-301-redirect,"Easily create a 301 redirect, with support for https and IPv6"
 s3-access,Cyber-Duck,14060,aws,https://github.com/Cyber-Duck/terraform-aws-s3-access,A Terraform module to give access to S3 for specific users. This module allows the user to create users and groups with the option of using existing. The group will have granular S3 access policy attached with the option to add additional policy(s) if required.
@@ -9516,6 +9524,7 @@ service-build,recipopdev,12193,aws,https://github.com/recipopdev/terraform-aws-s
 service-build,recipopdev,12545,azurerm,https://github.com/recipopdev/terraform-azurerm-service-build,Terraform module for building a docker image and pushing to Azure container registry
 service-bus,bootlabstech,17052,azurerm,https://github.com/bootlabstech/terraform-azurerm-service-bus,
 service-bus,claranet,4500,azurerm,https://github.com/claranet/terraform-azurerm-service-bus,Terraform module for Azure Service bus
+service-bus,clouddrove,17160,azure,https://github.com/clouddrove/terraform-azure-service-bus,
 service-bus,innovationnorway,2716,azurerm,https://github.com/innovationnorway/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus,thuanvltk,8233,azurerm,https://github.com/thuanvltk/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus-namespace,spy86,13389,azure,https://github.com/spy86/terraform-azure-service-bus-namespace,Terraform module for Azure service bus namespace
@@ -9689,6 +9698,7 @@ simple-eks,vistaprint,7412,aws,https://github.com/vistaprint/terraform-aws-simpl
 simple-eks-addons,vistaprint,7413,aws,https://github.com/vistaprint/terraform-aws-simple-eks-addons,Terraform module to install several add-ons on an existing EKS cluster
 simple-eks-node-group,vistaprint,7784,aws,https://github.com/vistaprint/terraform-aws-simple-eks-node-group,Simple Terraform module to manage an AWS EKS cluster node group
 simple-loadbalancer,ka-myl,12979,upcloud,https://github.com/ka-myl/terraform-upcloud-simple-loadbalancer,Basic load balancer setup for UpCloud
+simple-login,uceumice,17159,cloudflare,https://github.com/uceumice/terraform-cloudflare-simple-login,
 simple-postgres,srb3,10095,kong,https://github.com/srb3/terraform-kong-simple-postgres,
 simple-private-bucket,PGBI,2829,aws,https://github.com/PGBI/terraform-aws-simple-private-bucket,
 simple-s3-cdn,brandonc,9822,aws,https://github.com/brandonc/terraform-aws-simple-s3-cdn,"DNS, SSL Certificate, S3 bucket, and a CloudFront distribution to enable an immutable store of static assets in a CDN configuration"
@@ -10077,6 +10087,7 @@ static-site,byrnedo,13543,aws,https://github.com/byrnedo/terraform-aws-static-si
 static-site,cookielab,15655,aws,https://github.com/cookielab/terraform-aws-static-site,Terraform module for creating static [web]site in AWS (with S3 & CloudFront)
 static-site,dvargas92495,6022,aws,https://github.com/dvargas92495/terraform-aws-static-site,
 static-site,egarbi,424,aws,https://github.com/egarbi/terraform-aws-static-site,Module to create a fully functional static site in AWS based on CloudFront and S3
+static-site,m4xmorris,17168,digitalocean,https://github.com/m4xmorris/terraform-digitalocean-static-site,Terraform module for deploying static sites to DigitalOcean's App Platform
 static-site,reifnir,8915,azurerm,https://github.com/reifnir/terraform-azurerm-static-site,"This Terraform module stands up a static website and supports custom domain names and generates Let's Encrypt TLS certs. It currently only supports Azure DNS Zones, but I'll implement more DNS providers if someone requests it."
 static-site,telia-oss,1861,aws,https://github.com/telia-oss/terraform-aws-static-site,Terraform module for creating a static site using S3 and Cloudfront
 static-site,viceIII,789,aws,https://github.com/viceIII/terraform-aws-static-site,
@@ -10123,6 +10134,7 @@ staticweb,zeljkosuput,16717,azurerm,https://github.com/zeljkosuput/terraform-azu
 staticwebpublic,KiranNirmalkar,11740,azurerm,https://github.com/KiranNirmalkar/terraform-azurerm-staticwebpublic,Terraform static website 
 staticwebsite,Rajkumar-21,15458,azurerm,https://github.com/Rajkumar-21/terraform-azurerm-staticwebsite,Terraform local modules shared in Terraform registry public
 staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform-azurerm-staticwebsite,
+staticwebsite,gopal1409,17158,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsite,terraform static website module
 staticwebsite,mittalabhishek02,12854,azurerm,https://github.com/mittalabhishek02/terraform-azurerm-staticwebsite,Terraform Module for static website in Azure
 staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform-aws-staticwebsite,Terraform module to setup a static website with good defaults on S3 + CloudFront
 staticwebsite,worldofprasanna,4791,aws,https://github.com/worldofprasanna/terraform-aws-staticwebsite,Terraform module to create & host static UI application in AWS S3
@@ -11382,6 +11394,7 @@ vpc,vikash232,12917,aws,https://github.com/vikash232/terraform-aws-vpc,
 vpc,vitaliburak,6704,aws,https://github.com/vitaliburak/terraform-aws-vpc,
 vpc,vitaliburak,7109,gcp,https://github.com/vitaliburak/terraform-gcp-vpc,
 vpc,vladbielov,5827,aws,https://github.com/vladbielov/terraform-aws-vpc,
+vpc,vnisolutions,17162,aws,https://github.com/vnisolutions/terraform-aws-vpc,
 vpc,vrodi18,6698,aws,https://github.com/vrodi18/terraform-aws-vpc,
 vpc,vrodi18,7103,gcp,https://github.com/vrodi18/terraform-gcp-vpc,
 vpc,wderezin,11595,aws,https://github.com/wderezin/terraform-aws-vpc,
@@ -11650,6 +11663,7 @@ vpn-server,cloud-native-toolkit,16039,azure,https://github.com/cloud-native-tool
 vrf,netascode,13066,nxos,https://github.com/netascode/terraform-nxos-vrf,Terraform Cisco NX-OS VRF Module
 vrf,netascode,9755,aci,https://github.com/netascode/terraform-aci-vrf,Terraform Cisco ACI VRF Module
 vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
+vspan-session,netascode,17161,aci,https://github.com/netascode/terraform-aci-vspan-session,Terraform Cisco ACI VSPAN Session Module
 vsphere,equinix,7455,metal,https://github.com/equinix/terraform-metal-vsphere,Terraform Module to deploy VMware vSphere on Equinix Metal
 vsphere-cloud-foundation-vcsa-base,jd4883,6909,vmware,https://github.com/jd4883/terraform-vmware-vsphere-cloud-foundation-vcsa-base,"Once imported, this is a working base with minimal tweaks to what cloud foundation brings up. This gives a more granular set of controls post deployment. I am developing a series of submodules for different purposes here to fully automate the bringup of Tanzu Kubernetes"
 vsphere-cloudfoundation-folders,jd4883,6907,vmware,https://github.com/jd4883/terraform-vmware-vsphere-cloudfoundation-folders,A small terraform module for folder management within vsphere. This is designed to handle folders created by vmware cloud foundation
