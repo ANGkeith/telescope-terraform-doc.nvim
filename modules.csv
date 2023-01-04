@@ -2991,7 +2991,7 @@ divya,Divyap29,12306,test,https://github.com/Divyap29/terraform-test-divya,
 divyastorage,vmwaregopi,17107,azure,https://github.com/vmwaregopi/terraform-azure-divyastorage,
 django,briancaffey,12411,aws,https://github.com/briancaffey/terraform-aws-django,Terraform modules for deploying Django applications on AWS using ECS Fargate
 django,djangoflow,14737,kubernetes,https://github.com/djangoflow/terraform-kubernetes-django,Deploy Django with Terraform to Kubernetes with optional support for AWS/EKS or GCP/GKE
-django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Girder4 infrastructure on Heroku + AWS.
+django,girder,5580,heroku,https://github.com/girder/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 django,zachmullen,12659,heroku,https://github.com/zachmullen/terraform-heroku-django,A Terraform module to provision Django-Girder infrastructure on Heroku + AWS.
 dlm-lifecycle-policies,julien-langlois,4502,aws,https://github.com/julien-langlois/terraform-aws-dlm-lifecycle-policies,AWS Data Lifecycle Manager Policies
 dlm-role,limitusus,8997,aws,https://github.com/limitusus/terraform-aws-dlm-role,Data Lifecycle Manager (DLM) role
@@ -3307,6 +3307,7 @@ docker-instance,ysfyl,16311,aws,https://github.com/ysfyl/terraform-aws-docker-in
 docker-instance,yunusadil,14655,aws,https://github.com/yunusadil/terraform-aws-docker-instance,
 docker-instance,yusufyilmaz030,14930,aws,https://github.com/yusufyilmaz030/terraform-aws-docker-instance,
 docker-instance,zynpce,14638,aws,https://github.com/zynpce/terraform-aws-docker-instance," Description: Terraform module which creates a docker instance resource on AWS.                                                                                                                                                       "
+docker-instance-1,bhandary1419,17171,aws,https://github.com/bhandary1419/terraform-aws-docker-instance-1,
 docker-instance-late,usuladams,16288,aws,https://github.com/usuladams/terraform-aws-docker-instance-late,terraform-aws-docker-instance-late
 docker-instance-latest,usuladams,16109,aws,https://github.com/usuladams/terraform-aws-docker-instance-latest,Terraform module which creates a docker instance resource on AWS.
 docker-instance-recap,JamesFrostyy,16110,aws,https://github.com/JamesFrostyy/terraform-aws-docker-instance-recap,Terraform module which creates a docker instance resource on AWS.
@@ -3388,7 +3389,6 @@ dropshare,aws-ia,14041,awscc,https://github.com/aws-ia/terraform-awscc-dropshare
 druid,spaghettifunk,5051,aws,https://github.com/spaghettifunk/terraform-aws-druid,Terraform module to deploy Apache Druid in Kubernetes
 drupal-clone,bennu,7315,helm,https://github.com/bennu/terraform-helm-drupal-clone,
 ds-directory,dod-iac,7980,aws,https://github.com/dod-iac/terraform-aws-ds-directory,AWS Directory Service directory
-dsf,eytannnaim,17064,imperva,https://github.com/eytannnaim/terraform-imperva-dsf,
 dts,terraform-alicloud-modules,12810,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-dts,Terraform Module for creating Data Transmission Service (DTS) on Alibaba Cloud.
 dualstack-k8s,tibordp,8715,hcloud,https://github.com/tibordp/terraform-hcloud-dualstack-k8s,Terraform module for a dual-stack Kubernetes cluster on Hetzner Cloud
 duo-ips,captn3m0,6044,data,https://github.com/captn3m0/terraform-data-duo-ips,This module provides an updated list of Duo's public CIDRs. These are maintained against the Duo Documentation: https://help.duo.com/s/article/1337
@@ -3476,6 +3476,7 @@ ec2,VenkiiChowdary,12232,aws,https://github.com/VenkiiChowdary/terraform-aws-ec2
 ec2,arvindpal05,7182,aws,https://github.com/arvindpal05/terraform-aws-ec2,
 ec2,bluehackrafestefano,16864,aws,https://github.com/bluehackrafestefano/terraform-aws-ec2,
 ec2,boldlink,14016,aws,https://github.com/boldlink/terraform-aws-ec2,Terraform registry repository for AWS EC2 module
+ec2,bootlabstech,17175,aws,https://github.com/bootlabstech/terraform-aws-ec2,
 ec2,cloud-native-toolkit,14546,aws,https://github.com/cloud-native-toolkit/terraform-aws-ec2,Module to provision ec2 on aws
 ec2,clouddrove,3632,aws,https://github.com/clouddrove/terraform-aws-ec2,Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 ec2,csakalis,5116,aws,https://github.com/csakalis/terraform-aws-ec2,
@@ -3636,7 +3637,6 @@ ec2-with-eip,jclopeza,2832,module,https://github.com/jclopeza/terraform-module-e
 ec2-with-eip,shkpk,10342,aws,https://github.com/shkpk/terraform-aws-ec2-with-eip,Terraform Module for AWS EC2 instance with option to enable/disable EIP and Additional Network Interface
 ec2-with-ssm-access,matt-joe-hunt,9094,aws,https://github.com/matt-joe-hunt/terraform-aws-ec2-with-ssm-access,A simple opinionated module that will deploy an EC2 instance with SSM Access
 ec2_dev_instance,s3d-group,15381,aws,https://github.com/s3d-group/terraform-aws-ec2_dev_instance,
-ec2_instance,bootlabstech,14145,aws,https://github.com/bootlabstech/terraform-aws-ec2_instance,
 ec2_vyom1,AjinkyaRonghe,7684,aws,https://github.com/AjinkyaRonghe/terraform-aws-ec2_vyom1,
 ec2db,ibrar-eurus,15977,aws,https://github.com/ibrar-eurus/terraform-aws-ec2db,
 ec2fleet,mohammedalnaggar,13848,aws,https://github.com/mohammedalnaggar/terraform-aws-ec2fleet,
@@ -4379,7 +4379,7 @@ elasticache-redis,stroeer,15574,aws,https://github.com/stroeer/terraform-aws-ela
 elasticache-redis,tmknom,1886,aws,https://github.com/tmknom/terraform-aws-elasticache-redis,Terraform module which creates Redis ElastiCache resources on AWS.
 elasticache-redis,umotif-public,3795,aws,https://github.com/umotif-public/terraform-aws-elasticache-redis,A Terraform module to create an AWS Redis ElastiCache cluster.
 elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimian/terraform-aws-elasticache-redis-cluster,
-elasticache-secondary-on-global-store,mrnim94,17156,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-store,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
+elasticache-secondary-on-global-datastore,mrnim94,17179,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-datastore,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
 elasticbeanstalk-cicd,josephphyo,11139,aws,https://github.com/josephphyo/terraform-aws-elasticbeanstalk-cicd,terraform-aws-elasticbeanstalk-cicd
 elasticbeanstalk-https,rohitnsaigal,10543,aws,https://github.com/rohitnsaigal/terraform-aws-elasticbeanstalk-https,This module is intended to help you establish all the insfrastructure needed in order to create an elasticbeanstalk application with an additional listener so that we can access via HTTPS
@@ -6897,6 +6897,7 @@ module01,Sathizz95,7967,sathiz,https://github.com/Sathizz95/terraform-sathiz-mod
 module1,applesoftsol,6177,azurerm,https://github.com/applesoftsol/terraform-azurerm-module1,This module is for creating vnet
 module1,prashanth782,5306,azurerm,https://github.com/prashanth782/terraform-azurerm-module1,This module is for creating vnet
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
+modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws-modules,Opta AWS modules for terraform module registry
 modules,ankush0991,16433,aws,https://github.com/ankush0991/terraform-aws-modules,
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
@@ -6921,7 +6922,6 @@ modules,srabby,5999,aws,https://github.com/srabby/terraform-aws-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
 modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,terraform-cisco-modules,9070,tfe,https://github.com/terraform-cisco-modules/terraform-tfe-modules,Module to Create Terraform workspaces with Intersight IST
-modules,unionai-oss,15373,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 modules,usmc686,1403,TFE,https://github.com/usmc686/terraform-TFE-modules,
 modules-terraform-google-kubernetes-engine,aldarionsevero,3534,google,https://github.com/aldarionsevero/terraform-google-modules-terraform-google-kubernetes-engine,
 modules_practice,Alig1493,15278,aws,https://github.com/Alig1493/terraform-aws-modules_practice,
@@ -8009,6 +8009,7 @@ prometheus-to-monitoring,AckeeCZ,13943,gcp,https://github.com/AckeeCZ/terraform-
 promote-dc,ghostinthewires,1701,azurerm,https://github.com/ghostinthewires/terraform-azurerm-promote-dc,This module quickly promotes an Azure VM to be a Domain Controller
 promregator,philips-labs,7453,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-promregator,Terraform module to deploy promregator to cloudfoundry
 proteus-router,netifi,715,aws,https://github.com/netifi/terraform-aws-proteus-router,Rapidly deploy a Proteus Router
+protonmail,m4xmorris,17174,cloudflare,https://github.com/m4xmorris/terraform-cloudflare-protonmail,Terraform module to configure a domain for ProtonMail
 protonmail-dns,mrwilson,2078,aws,https://github.com/mrwilson/terraform-aws-protonmail-dns,Terraform module for DNS records to support custom domains on ProtonMail
 provider,Perepyolka,4339,aws,https://github.com/Perepyolka/terraform-aws-provider,
 provider-aws,jclopeza,2834,module,https://github.com/jclopeza/terraform-module-provider-aws,
@@ -8664,7 +8665,7 @@ role,BotTech,5029,aws,https://github.com/BotTech/terraform-aws-role,Terraform mo
 role,Infostrux-Solutions,14986,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-role,"Open Source Snowflake Terraform Module for Role Implementation, also in the terraform registry, http://registry.terraform.io/modules/Infostrux-Solutions/role/snowflake/latest"
 role,ballj,17081,vault,https://github.com/ballj/terraform-vault-role,Terraform module for Hashicorp Vault roles.
 role,dza89,14244,irsa,https://github.com/dza89/terraform-irsa-role,Terraform module to generate a role with IRSA configured
-role,getindata,16857,snowflake,https://github.com/getindata/terraform-snowflake-role,
+role,getindata,16857,snowflake,https://github.com/getindata/terraform-snowflake-role,Terraform module for managing Snowflake role and grants
 role,kmayer10,13401,aws,https://github.com/kmayer10/terraform-aws-role,module to create different roles needs to setup EKS cluster
 role,mineiros-io,11358,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-role,A Terraform module to create and manage roles and cluster roles in Kubernetes https://kubernetes.io/docs/reference/access-authn-authz/rbac
 role,ptonini,16779,postgresql,https://github.com/ptonini/terraform-postgresql-role,
@@ -9275,7 +9276,7 @@ secret-manager,Infrastrukturait,17122,aws,https://github.com/Infrastrukturait/te
 secret-manager,OT-CLOUD-KIT,8571,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-secret-manager,
 secret-manager,binxio,6852,google,https://github.com/binxio/terraform-google-secret-manager,Generic google Secrets manager module for Terraform 
 secret-manager,memes,6424,google,https://github.com/memes/terraform-google-secret-manager,A Terraform module for creating GCP Secret Manager secrets and assigning read-permissions to them
-secret-manager,mineiros-io,11367,google,https://github.com/mineiros-io/terraform-google-secret-manager,A Terraform module for creating and managing secrets in Google Secret Manager on Google Cloud Platform (GCP) https://cloud.google.com/secret-manager
+secret-manager,mineiros-io,11367,google,https://github.com/mineiros-io/terraform-google-secret-manager,A Terraform module for creating and managing secrets in Google Secret Manager in Google Cloud https://cloud.google.com/secret-manager
 secret-manager,teamdatatonic,8819,gcp,https://github.com/teamdatatonic/terraform-gcp-secret-manager,
 secret-manager,tomarv2,12766,google,https://github.com/tomarv2/terraform-google-secret-manager,Terraform module for Google Secret Manager
 secret-manager-iam,mineiros-io,11366,google,https://github.com/mineiros-io/terraform-google-secret-manager-iam,A Terraform module to manage Identity and Access Management (IAM) for secrets in Google Secret Manager in Google Cloud https://cloud.google.com/secret-manager
@@ -9647,6 +9648,7 @@ share,KamilBlaz,11806,aws,https://github.com/KamilBlaz/terraform-aws-share,
 share-storage,bootlabstech,17046,azurerm,https://github.com/bootlabstech/terraform-azurerm-share-storage,Azure bucket creation using Terraform
 shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
+shared-vpc-tagger,oslokommune,17178,aws,https://github.com/oslokommune/terraform-aws-shared-vpc-tagger,Tags VPCs and subnets that you did not create yourself (ie. shared VPCs)
 sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 / 2013 on Azure
 sharmistorage1,Sharmich09,13213,azure,https://github.com/Sharmich09/terraform-azure-sharmistorage1,
 sharp-server,Sharp-Server,16985,aws,https://github.com/Sharp-Server/terraform-aws-sharp-server,Terraform module to create the infrastructure on AWS for Sharp Server
@@ -10659,7 +10661,7 @@ traefik,sculley,7249,kubernetes,https://github.com/sculley/terraform-kubernetes-
 traefik-deployment,jakoberpf,12494,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-traefik-deployment,
 traefik-eks,sculley,17134,aws,https://github.com/sculley/terraform-aws-traefik-eks,Terraform module to deploy Traefik into an AWS EKS Kubernetes cluster along with an ALB & ACM
 traefik-middleware,math280h,16453,kubernetes,https://github.com/math280h/terraform-kubernetes-traefik-middleware,A simple collection of easy to use middlewares for traefik implemented in terraform
-traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.7.0) reverse proxy / load balancer on Docker swarm
+traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.9.6) reverse proxy / load balancer on Docker swarm
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
 traffic-director,nlamirault,10685,google,https://github.com/nlamirault/terraform-google-traffic-director,Terraform module for Google Traffic Director
 traffic-manager,guidalabs,10285,azure,https://github.com/guidalabs/terraform-azure-traffic-manager,
