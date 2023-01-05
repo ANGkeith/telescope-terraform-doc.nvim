@@ -405,6 +405,7 @@ alb,tmknom,1810,aws,https://github.com/tmknom/terraform-aws-alb,Terraform module
 alb,umotif-public,3722,aws,https://github.com/umotif-public/terraform-aws-alb,A Terraform module to create an AWS Application Load Balancer (ALB).
 alb,yurymkomarov,4793,aws,https://github.com/yurymkomarov/terraform-aws-alb,AWS Application Load balancer
 alb,zoitech,999,aws,https://github.com/zoitech/terraform-aws-alb,
+alb-acm-records,web-virtua-aws-multi-account-modules,17197,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-alb-acm-records,
 alb-alarms,lorenzoaiello,4013,aws,https://github.com/lorenzoaiello/terraform-aws-alb-alarms,This Terraform module manages Cloudwatch Alarms for an ALB in the region.
 alb-asg,babakDoraniArab,11661,aws,https://github.com/babakDoraniArab/terraform-aws-alb-asg,a module to create a aws Application load Balancer with Auto Scaling Group and launch Configuration
 alb-basicauth,KazuyaMiyagi,7581,aws,https://github.com/KazuyaMiyagi/terraform-aws-alb-basicauth,
@@ -730,6 +731,7 @@ approle,makezbs,4306,vault,https://github.com/makezbs/terraform-vault-approle,Te
 approle,ptonini,16781,vault,https://github.com/ptonini/terraform-vault-approle,
 apprunner,bhegazy,13197,aws,https://github.com/bhegazy/terraform-aws-apprunner,Terraform module which creates AWS AppRunner resources
 apprunner,parikshitgupta1,13275,aws,https://github.com/parikshitgupta1/terraform-aws-apprunner,Terraform module which creates AWS AppRunner resources
+apps,rallyware,17188,argocd,https://github.com/rallyware/terraform-argocd-apps,Terraform module to provision ArgoCD applications using app of apps pattern.
 appservice,imjoseangel,10900,azurerm,https://github.com/imjoseangel/terraform-azurerm-appservice,Terraform Module for deploying an Azure App Service
 appservice,patela31,10954,azure,https://github.com/patela31/terraform-azure-appservice,
 appservice-acmebot,shibayan,6937,azurerm,https://github.com/shibayan/terraform-azurerm-appservice-acmebot,Terraform Module for App Service Acmebot
@@ -1105,6 +1107,7 @@ athena-s3-log-table,ekanai,15469,aws,https://github.com/ekanai/terraform-aws-ath
 athena-task,QuiNovas,2344,aws,https://github.com/QuiNovas/terraform-aws-athena-task,Module that implements L3 function athena-task
 athena-view,iconara,6508,aws,https://github.com/iconara/terraform-aws-athena-view,Terraform module for creating Athena views
 athena-workgroup,dod-iac,8114,aws,https://github.com/dod-iac/terraform-aws-athena-workgroup,AWS Athena workgroup
+atlantis,bschaatsbergen,17198,gce,https://github.com/bschaatsbergen/terraform-gce-atlantis,A set of @hashicorp Terraform configurations for running Atlantis on @googlecloud Compute Engine
 atlantis,getindata,16675,azurerm,https://github.com/getindata/terraform-azurerm-atlantis,Terraform module for deploying Atlantis in Azure Container Group
 atlantis,terraform-aws-modules,1091,aws,https://github.com/terraform-aws-modules/terraform-aws-atlantis,"Terraform configurations for running Atlantis on AWS Fargate. Github, Gitlab and BitBucket are supported 🇺🇦"
 atlantis-repo-config,getindata,16649,null,https://github.com/getindata/terraform-null-atlantis-repo-config,Module for generating Atlantis repo config file. It contains set of custom workflows
@@ -1991,7 +1994,7 @@ cloud-sql-user,AckeeCZ,16700,gcp,https://github.com/AckeeCZ/terraform-gcp-cloud-
 cloud-sso,terraform-alicloud-modules,11246,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-cloud-sso,Terraform module which creates and sets the cloud sso resources on Alibaba Cloud.
 cloud-storage,aidenabled,11471,google,https://github.com/aidenabled/terraform-google-cloud-storage,
 cloud-storage,chriskasparmayo,3346,google,https://github.com/chriskasparmayo/terraform-google-cloud-storage,"This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users."
-cloud-storage,terraform-google-modules,2514,google,https://github.com/terraform-google-modules/terraform-google-cloud-storage,"This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users."
+cloud-storage,terraform-google-modules,2514,google,https://github.com/terraform-google-modules/terraform-google-cloud-storage,Creates one or more Cloud Storage buckets and assigns basic permissions on them to arbitrary users
 cloud-storage,viswanth165,11084,google,https://github.com/viswanth165/terraform-google-cloud-storage,
 cloud-storage-bucket,bootlabstech,12174,google,https://github.com/bootlabstech/terraform-google-cloud-storage-bucket,Terraform module for creating a gcs bucket
 cloud-storage-bucket-testing,bootlabstech,17091,google,https://github.com/bootlabstech/terraform-google-cloud-storage-bucket-testing,
@@ -2298,6 +2301,7 @@ cluster-role,ptonini,16965,kubernetes,https://github.com/ptonini/terraform-kuber
 cluster-storage,terraform-ibm-modules,11230,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cluster-storage,"Use this repo to create and configure different types of storages like portworx, object storage, file storage etc"
 cluster-tls,srb3,10093,kong,https://github.com/srb3/terraform-kong-cluster-tls,
 clusterload,3191110276,8156,kubernetes,https://github.com/3191110276/terraform-kubernetes-clusterload,
+cn-vcn,ivandelic,17187,oci,https://github.com/ivandelic/terraform-oci-cn-vcn,"OCI Cloud Native VCN is an MVP-like Virtual Cloud Network designed to support cloud-native workloads. It's tailored to support integrated communication for cloud-native components, such as Container Engine for Kubernetes (OKE), Functions, Container Instances, and others."
 cname-generator,jd4883,6949,digitalocean,https://github.com/jd4883/terraform-digitalocean-cname-generator,a dynamic digital ocean terraform based dns record generator; used as a submodule for the docker provider to seamlessly automate internal and external dns records
 cnb,3191110276,8367,kubernetes,https://github.com/3191110276/terraform-kubernetes-cnb,
 code-build,toluna-terraform,8929,aws,https://github.com/toluna-terraform/terraform-aws-code-build,Toluna terraform module for codeBuild
@@ -3046,6 +3050,7 @@ dns-policy,netascode,9800,aci,https://github.com/netascode/terraform-aci-dns-pol
 dns-private-resolver,haflidif,17008,azurerm,https://github.com/haflidif/terraform-azurerm-dns-private-resolver,Terraform module for creating Azure DNS Private Resolver and additional resources
 dns-private-resolver,libre-devops,15960,azapi,https://github.com/libre-devops/terraform-azapi-dns-private-resolver,Provider for Private Resolver using Bicep API/AzApi provider
 dns-query-logs,QuiNovas,2213,aws,https://github.com/QuiNovas/terraform-aws-dns-query-logs,Setsup query logs for the hosted zone
+dns-record,m4xmorris,17194,cloudflare,https://github.com/m4xmorris/terraform-cloudflare-dns-record,Terraform Module for managing DNS records on Cloudflare.
 dns-records,blackbird-cloud,16457,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dns-records,Terraform module to create a set of Cloudflare DNS records
 dns-recordsets,terraformdns,1176,azurerm,https://github.com/terraformdns/terraform-azurerm-dns-recordsets,Terraform module for creating DNS recordsets in an Azure DNS zone
 dns-recordsets,terraformdns,1178,google,https://github.com/terraformdns/terraform-google-dns-recordsets,Terraform module for creating DNS recordsets in a Google Cloud DNS zone
@@ -4378,6 +4383,7 @@ elasticache-redis,rails-on-services,3589,aws,https://github.com/rails-on-service
 elasticache-redis,stroeer,15574,aws,https://github.com/stroeer/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,tmknom,1886,aws,https://github.com/tmknom/terraform-aws-elasticache-redis,Terraform module which creates Redis ElastiCache resources on AWS.
 elasticache-redis,umotif-public,3795,aws,https://github.com/umotif-public/terraform-aws-elasticache-redis,A Terraform module to create an AWS Redis ElastiCache cluster.
+elasticache-redis,vnisolutions,17182,aws,https://github.com/vnisolutions/terraform-aws-elasticache-redis,
 elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimian/terraform-aws-elasticache-redis-cluster,
 elasticache-secondary-on-global-datastore,mrnim94,17179,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-datastore,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
@@ -4896,7 +4902,7 @@ generic-monitor,kabisa,11755,datadog,https://github.com/kabisa/terraform-datadog
 genericpassword,raimialiu,11279,password,https://github.com/raimialiu/terraform-password-genericpassword,
 geolocation,netascode,9841,aci,https://github.com/netascode/terraform-aci-geolocation,Terraform Cisco ACI Geolocation Module
 gergo-public,kadigergo,15403,aws,https://github.com/kadigergo/terraform-aws-gergo-public,
-get-manifests,ptonini,16773,kubectl,https://github.com/ptonini/terraform-kubectl-get-manifests,
+get-manifests,ptonini,17189,kubectl,https://github.com/ptonini/terraform-kubectl-get-manifests,
 get-secret,MrJoshLab,7267,kubernetes,https://github.com/MrJoshLab/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-secret,gearnode,854,kubernetes,https://github.com/gearnode/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-state,Invicton-Labs,9729,null,https://github.com/Invicton-Labs/terraform-null-get-state,Retrieves the current Terraform state
@@ -6922,6 +6928,7 @@ modules,srabby,5999,aws,https://github.com/srabby/terraform-aws-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
 modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,terraform-cisco-modules,9070,tfe,https://github.com/terraform-cisco-modules/terraform-tfe-modules,Module to Create Terraform workspaces with Intersight IST
+modules,unionai-oss,17181,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 modules,usmc686,1403,TFE,https://github.com/usmc686/terraform-TFE-modules,
 modules-terraform-google-kubernetes-engine,aldarionsevero,3534,google,https://github.com/aldarionsevero/terraform-google-modules-terraform-google-kubernetes-engine,
 modules_practice,Alig1493,15278,aws,https://github.com/Alig1493/terraform-aws-modules_practice,
@@ -8009,7 +8016,7 @@ prometheus-to-monitoring,AckeeCZ,13943,gcp,https://github.com/AckeeCZ/terraform-
 promote-dc,ghostinthewires,1701,azurerm,https://github.com/ghostinthewires/terraform-azurerm-promote-dc,This module quickly promotes an Azure VM to be a Domain Controller
 promregator,philips-labs,7453,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-promregator,Terraform module to deploy promregator to cloudfoundry
 proteus-router,netifi,715,aws,https://github.com/netifi/terraform-aws-proteus-router,Rapidly deploy a Proteus Router
-protonmail,m4xmorris,17174,cloudflare,https://github.com/m4xmorris/terraform-cloudflare-protonmail,Terraform module to configure a domain for ProtonMail
+protonmail,m4xmorris,17195,cloudflare,https://github.com/m4xmorris/terraform-cloudflare-protonmail,Terraform module to configure a domain for ProtonMail
 protonmail-dns,mrwilson,2078,aws,https://github.com/mrwilson/terraform-aws-protonmail-dns,Terraform module for DNS records to support custom domains on ProtonMail
 provider,Perepyolka,4339,aws,https://github.com/Perepyolka/terraform-aws-provider,
 provider-aws,jclopeza,2834,module,https://github.com/jclopeza/terraform-module-provider-aws,
@@ -9250,6 +9257,7 @@ scheduler,deep-custom-module,12191,aws,https://github.com/deep-custom-module/ter
 scheduler,kadzielawa,10425,aws,https://github.com/kadzielawa/terraform-aws-scheduler,
 scheduler,naeemark,9470,google,https://github.com/naeemark/terraform-google-scheduler,A terraform test repo
 scheduler,teamdatatonic,8820,gcp,https://github.com/teamdatatonic/terraform-gcp-scheduler,
+schema,getindata,17183,snowflake,https://github.com/getindata/terraform-snowflake-schema,Terraform module for managing Snowflake schemas
 scp,boldlink,14891,aws,https://github.com/boldlink/terraform-aws-scp,Terraform registry repository for AWS Organizations SCP module
 scripts,garyellis,7345,cloudinit,https://github.com/garyellis/terraform-cloudinit-scripts,A terraform module to store cloud-init scripts
 sd-addr.tf,mildred,5609,local,https://github.com/mildred/terraform-local-sd-addr.tf,Generate loopback (IPv4) or ULA (IPv6) address on the fly using systemd
@@ -9771,7 +9779,7 @@ slb-tcp,terraform-alicloud-modules,4284,alicloud,https://github.com/terraform-al
 slb-tcp,wang415,9503,alicloud,https://github.com/wang415/terraform-alicloud-slb-tcp,Terraform Module for creating TCP Load Balancer on Alibaba Cloud.
 slb-udp,terraform-alicloud-modules,4283,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-slb-udp,Terraform Module for creating UDP Load Balancer on Alibaba Cloud.
 slo,borgified,4074,datadog,https://github.com/borgified/terraform-datadog-slo,
-slo,terraform-google-modules,4898,google,https://github.com/terraform-google-modules/terraform-google-slo,Create SLOs on GCP from custom Stackdriver metrics. Capability to export SLOs to GCP services and other systems.
+slo,terraform-google-modules,4898,google,https://github.com/terraform-google-modules/terraform-google-slo,Creates SLOs on Google Cloud from custom Stackdriver metrics capability to export SLOs to Google Cloud services and other systems
 slowlog-to-datadog,scribd,4741,elasticache,https://github.com/scribd/terraform-elasticache-slowlog-to-datadog,Deploy Elasticache Slowlog to Datadog lambda function to AWS account
 sls,terraform-alicloud-modules,3999,alicloud,https://github.com/terraform-alicloud-modules/terraform-alicloud-sls,Terraform module which creates log service's resources (SLS) on Alibaba Cloud.
 sls-app,hazelops,15077,aws,https://github.com/hazelops/terraform-aws-sls-app,
@@ -9973,7 +9981,7 @@ ssl-checker,fivexl,7780,aws,https://github.com/fivexl/terraform-aws-ssl-checker,
 sslcert,JamesWoolfenden,2906,aws,https://github.com/JamesWoolfenden/terraform-aws-sslcert,"Creates an SSL cert for you, in a Public Zone"
 sslcert,nullstone-modules,8615,aws,https://github.com/nullstone-modules/terraform-aws-sslcert,Terraform module to create an SSL Certificate using AWS Certificate Manager.
 sslvpn,poroping,9550,fortios,https://github.com/poroping/terraform-fortios-sslvpn,
-ssm,Selleo,12981,aws,https://github.com/Selleo/terraform-aws-ssm,SSM documents module
+ssm,Selleo,12981,aws,https://github.com/Selleo/terraform-aws-ssm,AWS Systems Manager module
 ssm,Young-ook,8641,aws,https://github.com/Young-ook/terraform-aws-ssm,Terraform Module: AWS Systems Manager
 ssm,areguera,13913,aws,https://github.com/areguera/terraform-aws-ssm,Terraform module to compose AWS Systems Manager (SSM) configurations
 ssm-adjoin,neillturner,2416,aws,https://github.com/neillturner/terraform-aws-ssm-adjoin,SSM Document to join Instance to AD Domain of AWS Directory Service 
@@ -10087,9 +10095,10 @@ static-site,biddellns,6397,aws,https://github.com/biddellns/terraform-aws-static
 static-site,briansunter,3787,aws,https://github.com/briansunter/terraform-aws-static-site,Cloudfront + CodePipeline deploy on commit static site
 static-site,byrnedo,13543,aws,https://github.com/byrnedo/terraform-aws-static-site,Terraform module for s3 cloudfront static hosted site.
 static-site,cookielab,15655,aws,https://github.com/cookielab/terraform-aws-static-site,Terraform module for creating static [web]site in AWS (with S3 & CloudFront)
+static-site,data-platform-hq,17199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-static-site,Terraform module for managing Azure Static Web Apps
 static-site,dvargas92495,6022,aws,https://github.com/dvargas92495/terraform-aws-static-site,
 static-site,egarbi,424,aws,https://github.com/egarbi/terraform-aws-static-site,Module to create a fully functional static site in AWS based on CloudFront and S3
-static-site,m4xmorris,17168,digitalocean,https://github.com/m4xmorris/terraform-digitalocean-static-site,Terraform module for deploying static sites to DigitalOcean's App Platform
+static-site,m4xmorris,17196,digitalocean,https://github.com/m4xmorris/terraform-digitalocean-static-site,Terraform module for deploying static sites to DigitalOcean's App Platform
 static-site,reifnir,8915,azurerm,https://github.com/reifnir/terraform-azurerm-static-site,"This Terraform module stands up a static website and supports custom domain names and generates Let's Encrypt TLS certs. It currently only supports Azure DNS Zones, but I'll implement more DNS providers if someone requests it."
 static-site,telia-oss,1861,aws,https://github.com/telia-oss/terraform-aws-static-site,Terraform module for creating a static site using S3 and Cloudfront
 static-site,viceIII,789,aws,https://github.com/viceIII/terraform-aws-static-site,
