@@ -1224,6 +1224,7 @@ aws-acm,lean-delivery,7583,module,https://github.com/lean-delivery/terraform-mod
 aws-alarms-slack,Adaptavist,5624,module,https://github.com/Adaptavist/terraform-module-aws-alarms-slack,"Terraform module that links a Lambda function to an SNS topic, expecting to receive CloudWatch alarms, forwarding the alarms to a Slack channel."
 aws-alb,lean-delivery,7584,module,https://github.com/lean-delivery/terraform-module-aws-alb,Terraform module for creating AWS Application Load Balancer service
 aws-alerts,lightstep,12046,lightstep,https://github.com/lightstep/terraform-lightstep-aws-alerts,Terraform module for Lightstep Alerts for AWS services
+aws-apigateway-swagger-ui,timo-reymann,17233,module,https://github.com/timo-reymann/terraform-module-aws-apigateway-swagger-ui,Serve Swagger documentation right from your API-Gateway.
 aws-athena,Adaptavist,5491,module,https://github.com/Adaptavist/terraform-module-aws-athena,
 aws-aurora,mergermarket,9723,acuris,https://github.com/mergermarket/terraform-acuris-aws-aurora,
 aws-backend,ptonini,16784,vault,https://github.com/ptonini/terraform-vault-aws-backend,
@@ -1884,6 +1885,7 @@ cicd-bootstrap-aws,recarnot,5299,github,https://github.com/recarnot/terraform-gi
 cinegy-base,Cinegy,12672,aws,https://github.com/Cinegy/terraform-aws-cinegy-base,Base Terraform modules for re-use in rapid Cinegy cloud deployment projects
 cinegy-base-linvm,Cinegy,12696,aws,https://github.com/Cinegy/terraform-aws-cinegy-base-linvm,Linux VM definition in Terraform
 cinegy-base-winvm,Cinegy,12698,aws,https://github.com/Cinegy/terraform-aws-cinegy-base-winvm,
+circleci_oidc,GoCarrot,17232,aws,https://github.com/GoCarrot/terraform-aws-circleci_oidc,
 cis,einyx,3238,aws,https://github.com/einyx/terraform-aws-cis,Terraform module to manage CIS Benchmark
 cis,terraform-ibm-modules,9245,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cis,Terraform module to create and work with - internet services on IBM Cloud
 cis-cloudwatch-monitors,rhythmictech,5391,aws,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
@@ -2173,7 +2175,7 @@ cloudsql-proxy,colinwilson,8967,docker,https://github.com/colinwilson/terraform-
 cloudsql-serverless-database-export,ammilam,15002,google,https://github.com/ammilam/terraform-google-cloudsql-serverless-database-export,
 cloudtrail,JamesWoolfenden,4160,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudtrail,A basic cloudtrail setup
 cloudtrail,OT-CLOUD-KIT,11542,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-cloudtrail,
-cloudtrail,QuiNovas,1479,aws,https://github.com/QuiNovas/terraform-aws-cloudtrail,"Sets up CloudTrail for an AWS account, including encryption and writing to CliudWatch, an S3 bucket and an SNS topic"
+cloudtrail,QuiNovas,1479,aws,https://github.com/QuiNovas/terraform-aws-cloudtrail,"Sets up CloudTrail for an AWS account, including encryption and writing to CloudWatch, an S3 bucket and an SNS topic"
 cloudtrail,StratusGrid,2549,aws,https://github.com/StratusGrid/terraform-aws-cloudtrail,"Sets up CloudTrail for an AWS account, including encryption and writing to CliudWatch, an S3 bucket and an SNS topic"
 cloudtrail,appzen-oss,7867,aws,https://github.com/appzen-oss/terraform-aws-cloudtrail,Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 cloudtrail,avlcloudtechnologies,8569,aws,https://github.com/avlcloudtechnologies/terraform-aws-cloudtrail,Terraform module to create cloudtrail and related resources
@@ -2283,7 +2285,6 @@ cluster,gitrahimi,5888,aws,https://github.com/gitrahimi/terraform-aws-cluster,
 cluster,husneozmen,7881,aws,https://github.com/husneozmen/terraform-aws-cluster,
 cluster,infrablocks,7779,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-cluster,A Terraform module for creating a MongoDB cluster in MongoDB Atlas.
 cluster,ingenii-solutions,8941,databricks,https://github.com/ingenii-solutions/terraform-databricks-cluster,A module that is used to create and manage Databricks clusters
-cluster,iomete,17157,iomete,https://github.com/iomete/terraform-iomete-cluster,
 cluster,kyfelipe,4391,digitalocean,https://github.com/kyfelipe/terraform-digitalocean-cluster,Terraform module for Kubernetes cluster on provider digitalocean.
 cluster,mc19acy,15739,aks,https://github.com/mc19acy/terraform-aks-cluster,AKS-CLuster
 cluster,ptonini,16776,mongodbatlas,https://github.com/ptonini/terraform-mongodbatlas-cluster,
@@ -2729,6 +2730,7 @@ custom-role-definitions,Pwd9000-ML,12133,azurerm,https://github.com/Pwd9000-ML/t
 custom-vpc,gfortetsanakis,15195,aws,https://github.com/gfortetsanakis/terraform-aws-custom-vpc,
 custom-vpc,quangdvn,14283,aws,https://github.com/quangdvn/terraform-aws-custom-vpc,
 customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module which creates Customer Gateway on AWS 🇺🇦
+customer-stack,iomete,17239,aws,https://github.com/iomete/terraform-aws-customer-stack,
 cvm,terraform-tencentcloud-modules,16257,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cvm,TencentCloud CVM Storage Module for Terraform
 daas-sonar,caleidosmedia,15365,aws,https://github.com/caleidosmedia/terraform-aws-daas-sonar,Terraform module to deploy sonarqube with ECS and fargate
 daemonset,terraform-iaac,8076,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-daemonset,
@@ -6828,6 +6830,7 @@ migrationtest,cgriggs01,2067,null,https://github.com/cgriggs01/terraform-null-mi
 migrationtest,terraform-azure-modules,2006,null,https://github.com/terraform-azure-modules/terraform-null-migrationtest,Terraform Registry Migration Test
 mime-map,reifnir,8579,null,https://github.com/reifnir/terraform-null-mime-map,This Terraform module returns a map of file extensions to content/MIME types (no characterset encoding info). It also takes a map of custom types that can be used to augment the list with missing/custom types as well or override existing values.
 minecraft,0luhancheng0,14351,aws,https://github.com/0luhancheng0/terraform-aws-minecraft,
+minecraft,Tom01098,17235,aws,https://github.com/Tom01098/terraform-aws-minecraft,Create a Minecraft server running on AWS EC2
 minecraft-server,brucellino,15484,digitalocean,https://github.com/brucellino/terraform-digitalocean-minecraft-server,Minecraft server on Digital Ocean
 minecraft-server,cezarmathe,8796,docker,https://github.com/cezarmathe/terraform-docker-minecraft-server,A Terraform module for deploying a Vanilla Minecraft Server. Uses itzg/minecraft-server.
 minecraft-server-properties,cezarmathe,8739,null,https://github.com/cezarmathe/terraform-null-minecraft-server-properties,Create a server.properties configuration for your Minecraft server.
@@ -8080,6 +8083,7 @@ publiccloud-consul,ovh,606,ovh,https://github.com/ovh/terraform-ovh-publiccloud-
 publiccloud-docker-swarm,ovh,640,ovh,https://github.com/ovh/terraform-ovh-publiccloud-docker-swarm,
 publiccloud-docker-swarm,rienafairefr,6434,ovh,https://github.com/rienafairefr/terraform-ovh-publiccloud-docker-swarm,
 publiccloud-etcd,ovh,835,ovh,https://github.com/ovh/terraform-ovh-publiccloud-etcd,
+publiccloud-kube,qalita-io,17240,ovh,https://github.com/qalita-io/terraform-ovh-publiccloud-kube,
 publiccloud-network,ovh,569,ovh,https://github.com/ovh/terraform-ovh-publiccloud-network,
 publiccloud-network,rienafairefr,6435,ovh,https://github.com/rienafairefr/terraform-ovh-publiccloud-network,
 publiccloud-spark,ovh,570,ovh,https://github.com/ovh/terraform-ovh-publiccloud-spark,
@@ -10174,6 +10178,7 @@ staticwebsitepb,stacksimplify,9048,azurerm,https://github.com/stacksimplify/terr
 staticwebsitepublic,Ayoadara,13278,azurerm,https://github.com/Ayoadara/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Bryantellis1,11297,azurerm,https://github.com/Bryantellis1/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,DimaSerbenyuk,14412,azurerm,https://github.com/DimaSerbenyuk/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,GowdamTF,17234,azurerm,https://github.com/GowdamTF/terraform-azurerm-staticwebsitepublic,Myteststaticwebsitepublic for DEMO
 staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Mahaveerdoss,16930,azurerm,https://github.com/Mahaveerdoss/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKChoudhary/terraform-azurerm-staticwebsitepublic,Terraform
