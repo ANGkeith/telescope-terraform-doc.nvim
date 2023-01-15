@@ -1579,6 +1579,7 @@ bigquery-loader-pubsub-ce,snowplow-devops,16562,google,https://github.com/snowpl
 bigquery-view,janjagusch,5364,google,https://github.com/janjagusch/terraform-google-bigquery-view,A Terraform module for creating BigQuery views
 bigtable,bootlabstech,14321,google,https://github.com/bootlabstech/terraform-google-bigtable,
 billing,DNXLabs,5723,aws,https://github.com/DNXLabs/terraform-aws-billing,AWS Billing Module 
+billing,nlamirault,17327,aws,https://github.com/nlamirault/terraform-aws-billing,Terraform module for Billing components on AWS
 billing-alarm,billtrust,2358,aws,https://github.com/billtrust/terraform-aws-billing-alarm,Creates billing alarm with an sns topic for alerting for estimated costs over a threshold
 billing-alarm,mayurdeshmukh,5761,aws,https://github.com/mayurdeshmukh/terraform-aws-billing-alarm,Creates billing alarm with an sns topic for alerting for estimated costs over a threshold
 billing-budget,mineiros-io,11266,google,https://github.com/mineiros-io/terraform-google-billing-budget,A Terraform module to manage Billing Budgets in Google Cloud https://cloud.google.com/billing/docs/how-to/budgets
@@ -4961,6 +4962,7 @@ git-repository,skyfjall,14128,flux,https://github.com/skyfjall/terraform-flux-gi
 git-repository,skyfjell,14231,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
 github-action-token-rotator,cloudposse,14511,aws,https://github.com/cloudposse/terraform-aws-github-action-token-rotator,A Terraform module to deploy the GitHub Action Runner Token Rotator lambda function
 github-actions-oidc,hectcastro,10785,aws,https://github.com/hectcastro/terraform-aws-github-actions-oidc,Terraform module to configure Amazon Web Services (AWS) to trust GitHub's OpenID Connect (OIDC) as a federated identity.
+github-actions-oidc,playgroundtech,17328,aws,https://github.com/playgroundtech/terraform-aws-github-actions-oidc,AWS Terraform Github Actions Open ID Connect module
 github-actions-oidc-role,voquis,11507,aws,https://github.com/voquis/terraform-aws-github-actions-oidc-role,Terraform module to create a role used by GitHub Actions OIDC Provider
 github-actions-runners,terraform-google-modules,6806,google,https://github.com/terraform-google-modules/terraform-google-github-actions-runners,Creates self-hosted GitHub Actions Runners on Google Cloud
 github-asset-to-s3,cloudventure-io,11552,aws,https://github.com/cloudventure-io/terraform-aws-github-asset-to-s3,Terraform module that copies GitHub releases and assets to an AWS s3 bucket
@@ -5444,6 +5446,7 @@ iam-service-account,nephosolutions,1224,google,https://github.com/nephosolutions
 iam-service-account,qbeyond,16954,google,https://github.com/qbeyond/terraform-google-iam-service-account,Terraform Module to create a google service account
 iam-service-authorization,cloud-native-toolkit,14562,ibm,https://github.com/cloud-native-toolkit/terraform-ibm-iam-service-authorization,Module to authorize one service to access another service
 iam-service-role,yukihira1992,3370,aws,https://github.com/yukihira1992/terraform-aws-iam-service-role,Terraform module which creates IAM Service Role on AWS.
+iam-settings,Neo-Cobolt,17326,aws,https://github.com/Neo-Cobolt/terraform-aws-iam-settings,
 iam-simple,Infrastrukturait,17123,aws,https://github.com/Infrastrukturait/terraform-aws-iam-simple,Terraform Module to Provision a Basic IAM System
 iam-ssl-certificate,sidick,736,aws,https://github.com/sidick/terraform-aws-iam-ssl-certificate,Terraform module which uploads an IAM Server Certificate
 iam-system-user,cloudposse,406,aws,https://github.com/cloudposse/terraform-aws-iam-system-user,"Terraform Module to Provision a Basic IAM System User Suitable for CI/CD Systems (E.g. TravisCI, CircleCI)"
@@ -7497,6 +7500,7 @@ nomad,scottwinkler,3235,aws,https://github.com/scottwinkler/terraform-aws-nomad,
 nomad,scottwinkler,3236,azure,https://github.com/scottwinkler/terraform-azure-nomad,
 nomad,terraform-in-action,7484,azure,https://github.com/terraform-in-action/terraform-azure-nomad,
 nomad,terraform-in-action,7485,aws,https://github.com/terraform-in-action/terraform-aws-nomad,
+nomad-consul-module,wenzel-felix,17329,hetzner,https://github.com/wenzel-felix/terraform-hetzner-nomad-consul-module,"This project serves as test setup for consul and nomad cluster tests. Currently setup with Hetzner cloud, but the setup script is cloud agnostic and is usable on any Cloud computing platform."
 nomad-integration,AdrienneCohea,11466,consul,https://github.com/AdrienneCohea/terraform-consul-nomad-integration,Nomad ACL policy integration
 nomad-integration,AdrienneCohea,11513,vault,https://github.com/AdrienneCohea/terraform-vault-nomad-integration,Create least privilege Vault tokens for a Nomad cluster
 nomad-podman-rootless-static,mazehall,10237,ssh,https://github.com/mazehall/terraform-ssh-nomad-podman-rootless-static,A terraform module to provision a rootless nomad cluster without consul.
