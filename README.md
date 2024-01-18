@@ -64,18 +64,18 @@ nnoremap <space>otk :Telescope terraform_doc full_name=hashicorp/kubernetes<cr>
 ```
 
 ### Configurable settings
-| Keys                     | Description                                                      | Options                           |
-|--------------------------|------------------------------------------------------------------|-----------------------------------|
-| `url_open_command`       | The shell command to open the url                                | string (default: `open`)          |
-| `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)             |
-| `wincmd`                 | Command to open documentation in a split window                  | string (default: `botright vnew`) |
-| `wrap`                   | Wrap lines in a documentation in a split window                  | string (default: `nowrap`)        |
+| Keys                     | Description                                                      | Options                             |
+|--------------------------|------------------------------------------------------------------|-------------------------------------|
+| `url_open_command`       | The shell command to open the url                                | string (default: `open`/`xdg-open`) |
+| `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)               |
+| `wincmd`                 | Command to open documentation in a split window                  | string (default: `botright vnew`)   |
+| `wrap`                   | Wrap lines in a documentation in a split window                  | string (default: `nowrap`)          |
 
 ```lua
 require("telescope").setup({
   extensions = {
     terraform_doc = {
-      url_open_command = "xdg-open",
+      url_open_command = vim.fn.has("macunix") and "open" or "xdg-open",
       latest_provider_symbol = "  ",
       wincmd = "botright vnew",
       wrap = "nowrap",

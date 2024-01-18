@@ -1,6 +1,6 @@
 local M = {
   opts = {
-    url_open_command = "open",
+    url_open_command = vim.fn.has("macunix") and "open" or "xdg-open",
     latest_provider_symbol = "*",
     version = "latest",
     wincmd = "botright vnew",
