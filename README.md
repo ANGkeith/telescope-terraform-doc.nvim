@@ -23,7 +23,7 @@ use {
     "nvim-telescope/telescope.nvim",
     requires = {
         { "nvim-lua/plenary.nvim" },
-        { "nvim-telescope/telescope-terraform-doc.nvim" },
+        { "ANGkeith/telescope-terraform-doc.nvim" },
     },
 }
 ```
