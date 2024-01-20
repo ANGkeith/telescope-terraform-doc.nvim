@@ -253,6 +253,7 @@ func (e *entries) UnmarshalJSON(data []byte) error {
 // Progress Bar
 // //////////////////////////////////////////////////////////////////////////////
 type progressBar struct {
+	startTime   time.Time
 	cur         int    // current progress
 	percent     int    // current progress
 	total       int    // total value for progress
@@ -285,18 +286,19 @@ func (bar *progressBar) progressBar() string {
 	return strings.Repeat("#", bar.percent/2)
 }
 
-func (bar *progressBar) print(elapsed time.Duration) {
+func (bar *progressBar) print() {
+	elapsed := time.Since(bar.startTime)
 	fmt.Printf("\r[%-50s] %3d%%  %8d/%d [%ds]", bar.progressBar(), bar.percent, bar.cur, bar.total, int(elapsed.Seconds()))
 }
 
 type fn func() int
 
 func (bar *progressBar) start(f fn) {
-	start := time.Now()
+	bar.startTime = time.Now()
 	for bar.cur < bar.total {
 		bar.setCur(f())
 		time.Sleep(bar.refreshRate)
-		bar.print(time.Since(start))
+		bar.print()
 	}
-	bar.print(time.Since(start))
+	bar.print()
 }
