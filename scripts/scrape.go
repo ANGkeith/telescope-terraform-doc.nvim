@@ -13,6 +13,7 @@ import (
 	"os/exec"
 	"reflect"
 	"strings"
+	"sync"
 	"time"
 )
 
@@ -24,9 +25,8 @@ var outputDir string
 func main() {
 	var progressBar progressBar
 
-	ch := make(chan entry)
-	chIsFinished := make(chan bool)
 	urls := getUrls()
+	ch := make(chan entries, len(urls))
 	progressBar.InitBar(0, len(urls))
 
 	o := flag.String("o", "", "Absolute path of the output directory")
@@ -39,21 +39,25 @@ func main() {
 
 	go progressBar.start()
 
+	wg := sync.WaitGroup{}
 	for i, url := range urls {
 		if i%concurrency == concurrency-1 {
 			time.Sleep(1 * time.Second)
 		}
+
 		progressBar.setCur(i + 1)
-		go start(url, ch, chIsFinished)
+		wg.Add(1)
+		go start(url, ch, &wg)
 	}
 
 	var entries []entry
-	for i := 0; i < len(urls); {
-		select {
-		case e := <-ch:
+
+	wg.Wait()
+	close(ch)
+
+	for c := range ch {
+		for _, e := range c {
 			entries = append(entries, e)
-		case <-chIsFinished:
-			i++
 		}
 	}
 
@@ -71,10 +75,8 @@ func fetchURL(url string) (*http.Response, error) {
 	return resp, nil
 }
 
-func start(url string, ch chan entry, chIsFinished chan bool) {
-	defer func() {
-		chIsFinished <- true
-	}()
+func start(url string, ch chan<- entries, wg *sync.WaitGroup) {
+	defer wg.Done()
 
 	resp, err := fetchURL(url)
 	if resp.StatusCode == 429 {
@@ -90,9 +92,7 @@ func start(url string, ch chan entry, chIsFinished chan bool) {
 		log.Fatal(err)
 	}
 
-	for _, e := range entries {
-		ch <- e
-	}
+	ch <- entries
 }
 
 func getModuleCount() int {
