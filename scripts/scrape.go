@@ -19,9 +19,9 @@ import (
 )
 
 const retriesLimit = 5
+const initalConcurrentRequest = 50 // There is a X-Ratelimit-Limit of 61
 
 var isDebug = false
-var concurrency = 2 // Number of urls to fetch concurrently per second
 var pageSize = 100
 var outputDir string
 
@@ -46,12 +46,12 @@ func main() {
 
 	wg := sync.WaitGroup{}
 	for i, url := range urls {
-		if i%concurrency == concurrency-1 {
-			time.Sleep(1 * time.Second)
-		}
-
 		wg.Add(1)
 		go start(url, ch, &wg)
+
+		if i >= initalConcurrentRequest-1 {
+			time.Sleep(1 * time.Second)
+		}
 	}
 
 	var entries []entry
