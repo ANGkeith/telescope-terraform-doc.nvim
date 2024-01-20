@@ -18,6 +18,8 @@ import (
 	"time"
 )
 
+const retriesLimit = 5
+
 var isDebug = false
 var concurrency = 2 // Number of urls to fetch concurrently per second
 var pageSize = 100
@@ -71,7 +73,7 @@ func fetchURL(url string) (*http.Response, error) {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", url, nil)
 
-	for backoff := rand.Intn(10) + 1; ; backoff++ {
+	for retries, backoff := 0, rand.Intn(10)+1; ; {
 		resp, err := client.Do(req)
 		if err != nil {
 			return resp, err
@@ -81,12 +83,19 @@ func fetchURL(url string) (*http.Response, error) {
 		case http.StatusOK:
 			return resp, nil
 		case http.StatusTooManyRequests:
-			time.Sleep(time.Duration(backoff) * time.Second)
-			continue
+		case http.StatusInternalServerError:
+			if retries > retriesLimit {
+				fmt.Println()
+				log.Fatalf("Retry limit exceeded: \n%v", resp)
+			}
 		default:
 			fmt.Println()
 			log.Fatalf("Unexpected http status code received: \n%v", resp)
 		}
+
+		time.Sleep(time.Duration(backoff) * time.Second)
+		retries++
+		backoff++
 	}
 }
 
