@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"log"
 	"math"
+	"math/rand"
 	"net/http"
 	"os"
 	"os/exec"
@@ -68,20 +69,30 @@ func main() {
 func fetchURL(url string) (*http.Response, error) {
 	client := &http.Client{}
 	req, _ := http.NewRequest("GET", url, nil)
-	resp, err := client.Do(req)
-	if err != nil {
-		return resp, err
+
+	for backoff := rand.Intn(10) + 1; ; backoff++ {
+		resp, err := client.Do(req)
+		if err != nil {
+			return resp, err
+		}
+
+		switch responseCode := resp.StatusCode; responseCode {
+		case http.StatusOK:
+			return resp, nil
+		case http.StatusTooManyRequests:
+			time.Sleep(time.Duration(backoff) * time.Second)
+			continue
+		default:
+			fmt.Println()
+			log.Fatalf("Unexpected http status code received: \n%v", resp)
+		}
 	}
-	return resp, nil
 }
 
 func start(url string, ch chan<- entries, wg *sync.WaitGroup) {
 	defer wg.Done()
 
 	resp, err := fetchURL(url)
-	if resp.StatusCode == 429 {
-		log.Fatal("Hashicorp rate limited")
-	}
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		log.Fatal(err)
