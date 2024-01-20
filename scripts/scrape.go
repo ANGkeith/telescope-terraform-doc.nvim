@@ -24,7 +24,7 @@ var outputDir string
 func main() {
 	var progressBar progressBar
 
-	chEntry := make(chan entry)
+	ch := make(chan entry)
 	chIsFinished := make(chan bool)
 	urls := getUrls()
 	progressBar.InitBar(0, len(urls))
@@ -44,13 +44,13 @@ func main() {
 			time.Sleep(1 * time.Second)
 		}
 		progressBar.setCur(i + 1)
-		go start(url, chEntry, chIsFinished)
+		go start(url, ch, chIsFinished)
 	}
 
 	var entries []entry
 	for i := 0; i < len(urls); {
 		select {
-		case e := <-chEntry:
+		case e := <-ch:
 			entries = append(entries, e)
 		case <-chIsFinished:
 			i++
@@ -71,7 +71,7 @@ func fetchURL(url string) (*http.Response, error) {
 	return resp, nil
 }
 
-func start(url string, chEntry chan entry, chIsFinished chan bool) {
+func start(url string, ch chan entry, chIsFinished chan bool) {
 	defer func() {
 		chIsFinished <- true
 	}()
@@ -91,7 +91,7 @@ func start(url string, chEntry chan entry, chIsFinished chan bool) {
 	}
 
 	for _, e := range entries {
-		chEntry <- e
+		ch <- e
 	}
 }
 
