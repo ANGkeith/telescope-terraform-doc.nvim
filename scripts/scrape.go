@@ -38,7 +38,9 @@ func main() {
 		log.Fatalf("The path `%s` is not valid\n", outputDir)
 	}
 
-	go progressBar.start()
+	go progressBar.start(func() int {
+		return len(ch)
+	})
 
 	wg := sync.WaitGroup{}
 	for i, url := range urls {
@@ -46,7 +48,6 @@ func main() {
 			time.Sleep(1 * time.Second)
 		}
 
-		progressBar.setCur(i + 1)
 		wg.Add(1)
 		go start(url, ch, &wg)
 	}
@@ -275,9 +276,12 @@ func (bar *progressBar) print(elapsed time.Duration) {
 	fmt.Printf("\r[%-50s] %3d%%  %8d/%d [%ds]", bar.progressBar(), bar.percent, bar.cur, bar.total, int(elapsed.Seconds()))
 }
 
-func (bar *progressBar) start() {
+type fn func() int
+
+func (bar *progressBar) start(f fn) {
 	start := time.Now()
 	for bar.cur < bar.total {
+		bar.setCur(f())
 		time.Sleep(bar.refreshRate)
 		bar.print(time.Since(start))
 	}
