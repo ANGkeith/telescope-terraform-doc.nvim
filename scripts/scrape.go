@@ -261,6 +261,10 @@ type progressBar struct {
 }
 
 func (bar *progressBar) setCur(cur int) {
+	// Enforces that the progress should always be increasing
+	if cur < bar.cur {
+		return
+	}
 	bar.cur = cur
 	bar.percent = bar.getPercent()
 }
