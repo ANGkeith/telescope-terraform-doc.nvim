@@ -17,7 +17,7 @@ import (
 )
 
 var isDebug = false
-var queryPerLoop = 2
+var concurrency = 2 // Number of urls to fetch concurrently per second
 var pageSize = 100
 var outputDir string
 
@@ -26,8 +26,8 @@ func main() {
 
 	chEntry := make(chan entry)
 	chIsFinished := make(chan bool)
-	urlsList := getURLLists()
-	progressBar.InitBar(0, len(urlsList))
+	urls := getUrls()
+	progressBar.InitBar(0, len(urls))
 
 	o := flag.String("o", "", "Absolute path of the output directory")
 	flag.Parse()
@@ -39,8 +39,8 @@ func main() {
 
 	go progressBar.start()
 
-	for i, url := range urlsList {
-		if i%queryPerLoop == queryPerLoop-1 {
+	for i, url := range urls {
+		if i%concurrency == concurrency-1 {
 			time.Sleep(1 * time.Second)
 		}
 		progressBar.setCur(i + 1)
@@ -48,7 +48,7 @@ func main() {
 	}
 
 	var entries []entry
-	for i := 0; i < len(urlsList); {
+	for i := 0; i < len(urls); {
 		select {
 		case e := <-chEntry:
 			entries = append(entries, e)
@@ -121,7 +121,7 @@ func getModuleTotalPage() int {
 	return int(math.Ceil(float64(getModuleCount()) / float64(pageSize)))
 }
 
-func getURLLists() []string {
+func getUrls() []string {
 	var res []string
 	if isDebug {
 		pageSize = 5
@@ -228,9 +228,9 @@ func (e *entries) UnmarshalJSON(data []byte) error {
 	return nil
 }
 
-////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////
 // Progress Bar
-////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////
 type progressBar struct {
 	cur         int    // current progress
 	percent     int    // current progress
