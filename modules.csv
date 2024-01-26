@@ -973,6 +973,7 @@ arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws
 arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,Repo for managing the ECS Fargate Terraform Module.
 arc-eks,sourcefuse,21304,aws,https://github.com/sourcefuse/terraform-aws-arc-eks,Repo for managing the EKS Terraform Module.
 arc-eks-addon,sourcefuse,21399,aws,https://github.com/sourcefuse/terraform-aws-arc-eks-addon,
+arc-github-iam,sourcefuse,22929,aws,https://github.com/sourcefuse/terraform-aws-arc-github-iam,To create your OIDC Connection from GitHub to AWS and manage the IAM Policies / Roles to assume in Actions. 
 arc-github-runner,sourcefuse,22538,aws,https://github.com/sourcefuse/terraform-aws-arc-github-runner,Repo for managing the self hosted GitHub Actions Runner.
 arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws-arc-healthcheck,
 arc-kms,mayank0202,21434,aws,https://github.com/mayank0202/terraform-aws-arc-kms,KMS Module
@@ -1461,9 +1462,13 @@ avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com
 avm-res-desktopvirtualization-workspace,Azure,22157,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace,Azure Verified Module for Desktop Virtualization Workspace Terraform
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Azure Verified Module for Key Vault
 avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan AVM module
+avm-res-network-firewall,Azure,22928,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewall,Azure Firewall AVM Module
+avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
 avm-res-network-loadbalancer,Azure,22017,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
+avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
+avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
 awesome-modules,armagankaratosun,20105,vsphere,https://github.com/armagankaratosun/terraform-vsphere-awesome-modules,Armagan's Awesome Terraform Modules for VMware vSphere/vCenter
@@ -3984,6 +3989,7 @@ docker-instance,Monty1Crypto,18231,aws,https://github.com/Monty1Crypto/terraform
 docker-instance,Msimba1,18748,aws,https://github.com/Msimba1/terraform-aws-docker-instance,
 docker-instance,MucahitCrn,16295,aws,https://github.com/MucahitCrn/terraform-aws-docker-instance,
 docker-instance,Muhammet-Gokmen,14658,aws,https://github.com/Muhammet-Gokmen/terraform-aws-docker-instance,
+docker-instance,MuratOflaz,22921,aws,https://github.com/MuratOflaz/terraform-aws-docker-instance,
 docker-instance,Mustafacan76,16284,aws,https://github.com/Mustafacan76/terraform-aws-docker-instance,
 docker-instance,Mustafaoz35,18180,aws,https://github.com/Mustafaoz35/terraform-aws-docker-instance,
 docker-instance,NazBilgic,18261,aws,https://github.com/NazBilgic/terraform-aws-docker-instance,
@@ -4444,6 +4450,7 @@ doublecloud-byoc,doublecloud,21575,gcp,https://github.com/doublecloud/terraform-
 download,dealmore,7432,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
 download,matti,826,http,https://github.com/matti/terraform-http-download,
 download,milliHQ,10109,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
+downscaler,tx-pts-dai,22917,kubernetes,https://github.com/tx-pts-dai/terraform-kubernetes-downscaler,Terraform module to deploy kube-downscaler to allow for shutting down workloads
 dragondrop-compute,dragondrop-cloud,16654,google,https://github.com/dragondrop-cloud/terraform-google-dragondrop-compute,Terraform module for deploying the compute services needed to run dragondrop.cloud within your cloud.
 dragondrop-compute,dragondrop-cloud,18361,aws,https://github.com/dragondrop-cloud/terraform-aws-dragondrop-compute,Terraform module for deploying the compute services needed to run dragondrop.cloud within your cloud.
 dragondrop-compute,dragondrop-cloud,19271,azurerm,https://github.com/dragondrop-cloud/terraform-azurerm-dragondrop-compute,Module for self-hosting a dragondrop Job within your Azure cloud environment
@@ -7652,7 +7659,6 @@ keypair,farrukh90,11884,aws,https://github.com/farrukh90/terraform-aws-keypair,
 keypair,franlov,15421,module,https://github.com/franlov/terraform-module-keypair,Modulo keypair terraform
 keypair,groundbreaker89,21782,aws,https://github.com/groundbreaker89/terraform-aws-keypair,
 keypair,illiaSoroka,21804,aws,https://github.com/illiaSoroka/terraform-aws-keypair,
-keypair,iuliamzaharia,21790,aws,https://github.com/iuliamzaharia/terraform-aws-keypair,
 keypair,jangjaelee,5850,aws,https://github.com/jangjaelee/terraform-aws-keypair,Terraform Module for AWS Key Pair
 keypair,jawadyousoufi,11897,aws,https://github.com/jawadyousoufi/terraform-aws-keypair,
 keypair,juratbek02,21784,aws,https://github.com/juratbek02/terraform-aws-keypair,
@@ -8788,6 +8794,7 @@ media-services,bootlabstech,15511,azurerm,https://github.com/bootlabstech/terraf
 mediawiki,jttait,20666,aws,https://github.com/jttait/terraform-aws-mediawiki,Terraform module for creating MediaWiki wiki in AWS
 meenurepos,meenus641,19972,azure,https://github.com/meenus641/terraform-azure-meenurepos,
 meerkat,borchero,4894,vault,https://github.com/borchero/terraform-vault-meerkat,Terraform Module for Meerkat Vault Configuration.
+mega-mesh,JudeQuintana,22915,aws,https://github.com/JudeQuintana/terraform-aws-mega-mesh,Mega Mesh
 member,zerotier,8738,zerotier,https://github.com/zerotier/terraform-zerotier-member,
 members,devops-workflow,952,github,https://github.com/devops-workflow/terraform-github-members,Terraform module to manage Github organization members
 membership,Flaconi,11493,github,https://github.com/Flaconi/terraform-github-membership,This module include existing users into organisation
@@ -9235,6 +9242,7 @@ multitier-app-template,danielvelasquez,8286,azurerm,https://github.com/danielvel
 multiversx-lighthouse,ritch2022,18391,tencentcloud,https://github.com/ritch2022/terraform-tencentcloud-multiversx-lighthouse,
 multiversx-node,tencentcloud-tci,21585,tencentcloud,https://github.com/tencentcloud-tci/terraform-tencentcloud-multiversx-node,
 munki-repo,grahamgilbert,2022,aws,https://github.com/grahamgilbert/terraform-aws-munki-repo,A Terraform module to set up a Munki repo
+mutlistack--with-beanstalk,kmkouokam,22933,aws,https://github.com/kmkouokam/terraform-aws-mutlistack--with-beanstalk,
 mutual-security-groups,skwashd,11124,aws,https://github.com/skwashd/terraform-aws-mutual-security-groups,This module creates mutual AWS security group rules where matching ingress and egress to allow traffic between two security groups. This makes it easier to create security network configuration in your AWS environments.
 mwaa,Almenon,17384,aws,https://github.com/Almenon/terraform-aws-mwaa,Terraform module for Amazon MWAA(Apache Airflow)
 mwaa,Infrastrukturait,18003,aws,https://github.com/Infrastrukturait/terraform-aws-mwaa,Terraform module for Amazon MWAA (Apache Airflow orchestrates)
@@ -9464,6 +9472,7 @@ namespace-setup,DeimosCloud,8410,kubernetes,https://github.com/DeimosCloud/terra
 namespace-technical-role,MagusDevOps,5984,aws,https://github.com/MagusDevOps/terraform-aws-namespace-technical-role,"provides an opinionated module to create a namespace based technical role for an AWS account restricted by resources paths, similar permissions to the service account; with the ability to restrict role assumption to corporate networks"
 namespace1,nadiaconeaev89,22912,kubernetes,https://github.com/nadiaconeaev89/terraform-kubernetes-namespace1,
 namespace1,viksan17,21965,kubernetes,https://github.com/viksan17/terraform-kubernetes-namespace1,
+namespace2,MiraRay13,22923,kubernetes,https://github.com/MiraRay13/terraform-kubernetes-namespace2,
 namespace2023,farrukh90,22908,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2023,
 naming,Azure,5297,azurerm,https://github.com/Azure/terraform-azurerm-naming,
 naming,CloudNationHQ,21738,azure,https://github.com/CloudNationHQ/terraform-azure-naming,A forked terraform module that streamlines the naming process for azure resources
@@ -10186,6 +10195,7 @@ palo-bootstrap,jye-aviatrix,21602,aws,https://github.com/jye-aviatrix/terraform-
 palo_alto,tpeterson66,13315,azurerm,https://github.com/tpeterson66/terraform-azurerm-palo_alto,Terraform module for Palo Alto firewalls in Azure
 paloalto-vmseries,aws-ia,14381,aws,https://github.com/aws-ia/terraform-aws-paloalto-vmseries,
 pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pals3tfmodule,
+palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panos-azure-nva,jye-aviatrix,17961,azurerm,https://github.com/jye-aviatrix/terraform-azurerm-panos-azure-nva,"This Repo will create Palo Alto Networks VM-Series firewalls in Azure, it will also bootstrap the Firewall, as well as provision Azure Internal Load Balancer."
@@ -12115,7 +12125,9 @@ sd-addr.tf,mildred,5609,local,https://github.com/mildred/terraform-local-sd-addr
 sd-proxy.tf,mildred,5614,local,https://github.com/mildred/terraform-local-sd-proxy.tf,manages systemd socket activation proxy
 sdcore-amf-k8s,gatici,22855,juju,https://github.com/gatici/terraform-juju-sdcore-amf-k8s,
 sdcore-ausf-k8s,gatici,22856,juju,https://github.com/gatici/terraform-juju-sdcore-ausf-k8s,
+sdcore-control-plane-k8s,gatici,22920,juju,https://github.com/gatici/terraform-juju-sdcore-control-plane-k8s,
 sdcore-gnbsim-k8s,gatici,22868,juju,https://github.com/gatici/terraform-juju-sdcore-gnbsim-k8s,
+sdcore-nms-k8s,gatici,22919,juju,https://github.com/gatici/terraform-juju-sdcore-nms-k8s,
 sdcore-nrf-k8s,gatici,22852,juju,https://github.com/gatici/terraform-juju-sdcore-nrf-k8s,
 sdcore-nssf-k8s,gatici,22859,juju,https://github.com/gatici/terraform-juju-sdcore-nssf-k8s,
 sdcore-pcf-k8s,gatici,22858,juju,https://github.com/gatici/terraform-juju-sdcore-pcf-k8s,
@@ -12542,6 +12554,7 @@ ses,rails-on-services,3653,aws,https://github.com/rails-on-services/terraform-aw
 ses,raisaaaan,6919,aws,https://github.com/raisaaaan/terraform-aws-ses," Terraform module to create send-only SES resources on AWS"
 ses,rhythmictech,6335,aws,https://github.com/rhythmictech/terraform-aws-ses,
 ses,rpstreef,6763,aws,https://github.com/rpstreef/terraform-aws-ses,"AWS Simple Email Service (SES) Terraform Module, configures Route53 records and a minimal SES with mail FROM domain"
+ses,tculp,22927,aws,https://github.com/tculp/terraform-aws-ses,Creates a DKIM-validated SES domain and an IAM user
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
@@ -13902,6 +13915,7 @@ traefik,solution-libre,17390,helm,https://github.com/solution-libre/terraform-he
 traefik,truemark,21433,kubernetes,https://github.com/truemark/terraform-kubernetes-traefik,TrueMark Traefik pattern for Kubernetes
 traefik-deployment,jakoberpf,12494,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-traefik-deployment,Terreform module for integrated service deployment
 traefik-eks,sculley,17134,aws,https://github.com/sculley/terraform-aws-traefik-eks,Terraform module to deploy Traefik into an AWS EKS Kubernetes cluster along with an ALB & ACM
+traefik-k8s,gatici,22918,juju,https://github.com/gatici/terraform-juju-traefik-k8s,
 traefik-middleware,math280h,16453,kubernetes,https://github.com/math280h/terraform-kubernetes-traefik-middleware,A simple collection of easy to use middlewares for traefik implemented in terraform
 traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.10.3) reverse proxy / load balancer on Docker swarm
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
@@ -15024,7 +15038,7 @@ vpc-peering-accepter,StayWell,2330,aws,https://github.com/StayWell/terraform-aws
 vpc-peering-accepter,jjno91,2064,aws,https://github.com/jjno91/terraform-aws-vpc-peering-accepter,Accept a VPC peering connection and build the route required to utilize the connection
 vpc-peering-connection,voquis,6049,aws,https://github.com/voquis/terraform-aws-vpc-peering-connection,VPC Peering connection within a single AWS account
 vpc-peering-connector,KeisukeYamashita,5903,aws,https://github.com/KeisukeYamashita/terraform-aws-vpc-peering-connector,This module creates an AWS VPC peering connector and route
-vpc-peering-deluxe,JudeQuintana,22825,aws,https://github.com/JudeQuintana/terraform-aws-vpc-peering-deluxe,VPC Peering Deluxe
+vpc-peering-deluxe,JudeQuintana,22916,aws,https://github.com/JudeQuintana/terraform-aws-vpc-peering-deluxe,VPC Peering Deluxe
 vpc-peering-multi-account,cloudposse,1967,aws,https://github.com/cloudposse/terraform-aws-vpc-peering-multi-account,Terraform module to provision a VPC peering across multiple VPCs in different accounts by using multiple providers
 vpc-peering-multi-region,opencloudsource,15515,aws,https://github.com/opencloudsource/terraform-aws-vpc-peering-multi-region,Terraform module to provision a VPC peering across two VPCs in different regions in the same account
 vpc-peering-multi-region,terraform-alicloud-modules,4372,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-peering-multi-region,Terraform module to create a peering connection between two VPCs in the same Alibaba Cloud account and multi region.
