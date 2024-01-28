@@ -166,6 +166,7 @@ ack,nlamirault,7328,alicloud,https://github.com/nlamirault/terraform-alicloud-ac
 acm,Aplyca,1018,aws,https://github.com/Aplyca/terraform-aws-acm,Terraform AWS Certificate Manager module
 acm,Lupus-Metallum,8432,aws,https://github.com/Lupus-Metallum/terraform-aws-acm,Used to create a DNS verified ACM certificate by R53 Zone name
 acm,Selleo,12995,aws,https://github.com/Selleo/terraform-aws-acm,Terraform module for provisioning and validating TLS certificates.
+acm,Smartbrood,22954,aws,https://github.com/Smartbrood/terraform-aws-acm,Terraform module to create ACM Certificate
 acm,TheGrowthExponent,15768,aws,https://github.com/TheGrowthExponent/terraform-aws-acm,Create and verify ACM certificate
 acm,UGNS,7551,aws,https://github.com/ugns/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,YoshinoriSatoh,11932,aws,https://github.com/YoshinoriSatoh/terraform-aws-acm,
@@ -3859,6 +3860,7 @@ dockeInstance,ADMYZZ,20762,aws,https://github.com/ADMYZZ/terraform-aws-dockeInst
 docker,Dhruv0Upadhyay,15304,aws,https://github.com/Dhruv0Upadhyay/terraform-aws-docker,
 docker,HIANDIC,16591,aws,https://github.com/HIANDIC/terraform-aws-docker,
 docker,Younaluna,18227,tf5,https://github.com/Younaluna/terraform-tf5-docker,
+docker,abdullahakyuz,22953,aws,https://github.com/abdullahakyuz/terraform-aws-docker,
 docker,brianng09,18224,tf5,https://github.com/brianng09/terraform-tf5-docker,
 docker,gitlawr,17538,lawr,https://github.com/gitlawr/terraform-lawr-docker,
 docker,sabrc,20539,aws,https://github.com/sabrc/terraform-aws-docker,
@@ -5723,6 +5725,7 @@ elasticache-redis,vnisolutions,17182,aws,https://github.com/vnisolutions/terrafo
 elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimian/terraform-aws-elasticache-redis-cluster,
 elasticache-redis-cluster,geekcell,19777,aws,https://github.com/geekcell/terraform-aws-elasticache-redis-cluster,Terraform module to provision an AWS ElastiCache Redis Cluster.
 elasticache-secondary-on-global-datastore,mrnim94,17179,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-datastore,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
+elasticache-serverless-redis,jparnaudeau,22952,aws,https://github.com/jparnaudeau/terraform-aws-elasticache-serverless-redis,Terraform module to deploy an AWS Elasticache Serverless Redis Cluster
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
 elasticbeanstalk-cicd,josephphyo,11139,aws,https://github.com/josephphyo/terraform-aws-elasticbeanstalk-cicd,terraform-aws-elasticbeanstalk-cicd
 elasticbeanstalk-https,rohitnsaigal,10543,aws,https://github.com/rohitnsaigal/terraform-aws-elasticbeanstalk-https,This module is intended to help you establish all the insfrastructure needed in order to create an elasticbeanstalk application with an additional listener so that we can access via HTTPS
@@ -6842,6 +6845,7 @@ heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-herok
 hetzner-lb-firewall-cert-servers,rmalenko,21339,hz,https://github.com/rmalenko/terraform-hz-hetzner-lb-firewall-cert-servers,"Provisioning on Hetzner Cloud  LB, certificates, firewall and several servers"
 hks,Stupremee,17849,hcloud,https://github.com/Stupremee/terraform-hcloud-hks,Terraform Module for deploying a Kubernetes Cluster to Hetzner Cloud.
 home-assistant,Marlinc,9653,helm,https://github.com/Marlinc/terraform-helm-home-assistant,
+homelab,iamgauravpande,22950,google,https://github.com/iamgauravpande/terraform-google-homelab,Terraform Module for GCP resources creation.
 homelab-project,lsampaioweb,17647,proxmox,https://github.com/lsampaioweb/terraform-proxmox-homelab-project,"Terraform module with all the default folders, files and settings used in the homelab projects"
 honeycomb,terra-farm,2243,aws,https://github.com/terra-farm/terraform-aws-honeycomb,
 honeycomb-cloudwatch-metric-stream,honeycombio,8998,aws,https://github.com/honeycombio/terraform-aws-honeycomb-cloudwatch-metric-stream,DEPRECATED - Please use the AWS Integrations CloudWatch Metrics Submodule Instead
@@ -8964,6 +8968,7 @@ module-alb,vnisolutions,21896,aws,https://github.com/vnisolutions/terraform-aws-
 module-apache,MrHTD,20672,aws,https://github.com/MrHTD/terraform-aws-module-apache,
 module-apache,Mteixeira99,12751,aws,https://github.com/Mteixeira99/terraform-aws-module-apache,
 module-apache,abishop-Insight,17510,aws,https://github.com/abishop-Insight/terraform-aws-module-apache,
+module-apache-example,pratiksinha-kol,22951,aws,https://github.com/pratiksinha-kol/terraform-aws-module-apache-example,
 module-apache-example,stevine22,18251,aws,https://github.com/stevine22/terraform-aws-module-apache-example,terraform-aws-module-apache-example
 module-apachedemo,vjmidde1252,10716,aws,https://github.com/vjmidde1252/terraform-aws-module-apachedemo,
 module-artifact,cloudposse,1890,external,https://github.com/cloudposse/terraform-external-module-artifact,Terraform module to fetch any kind of artifacts using curl (binary and text okay)
@@ -10578,6 +10583,7 @@ prometheus-crds,tensor5,12495,kubernetes,https://github.com/tensor5/terraform-ku
 prometheus-dashboards,terorie,6643,grafana,https://github.com/terorie/terraform-grafana-prometheus-dashboards,Terraform module bundling Grafana dashboards for Prometheus components.
 prometheus-operator,aareet,7822,kubernetes,https://github.com/aareet/terraform-kubernetes-prometheus-operator,Terraform Module to install the Prometheus operator into your Kubernetes cluster.
 prometheus-operator,martin-schaefer,7405,kubernetes,https://github.com/martin-schaefer/terraform-kubernetes-prometheus-operator,Terraform module to deploy the Prometheus operator to Kubernetes
+prometheus-operator-crds,serhii-riabov,22947,kubernetes,https://github.com/serhii-riabov/terraform-kubernetes-prometheus-operator-crds,Terraform module which creates Prometheus Operator CRDs in Kubernetes cluster
 prometheus-pushgateway,heureka,12138,kubernetes,https://github.com/heureka/terraform-kubernetes-prometheus-pushgateway,For deploying Prometheus pushgateway in your kubernetes cluster
 prometheus-stack,DevFontes,20213,sparkfabrik,https://github.com/DevFontes/terraform-sparkfabrik-prometheus-stack,A terraform module to configure kube-prometheus-stack
 prometheus-stack,escomputers,22312,kube,https://github.com/escomputers/terraform-kube-prometheus-stack,A terraform module to configure kube-prometheus-stack
@@ -11847,6 +11853,7 @@ s3-swagger-ui,whitebread-cloud,3887,aws,https://github.com/whitebread-cloud/terr
 s3-sync,raphaeljoie,18102,aws,https://github.com/widespot/terraform-aws-s3-sync,
 s3-sync,scaffoldly,18362,aws,https://github.com/scaffoldly/terraform-aws-s3-sync,
 s3-sync,widespot,19950,aws,https://github.com/widespot/terraform-aws-s3-sync,
+s3-tfstate,trumpeteer,22949,aws,https://github.com/trumpeteer/terraform-aws-s3-tfstate,Terraform module for setting up a remote S3 backend with DynamoDB locking
 s3-trigger,figurate,5043,aws,https://github.com/figurate/terraform-aws-s3-trigger,Templates for S3 bucket notification triggers
 s3-unzip,robbytaylor,4095,aws,https://github.com/robbytaylor/terraform-aws-s3-unzip,Terraform module to deploy a Lambda function to automatically unzip files in an S3 bucket
 s3-versioning,bootlabstech,17491,aws,https://github.com/bootlabstech/terraform-aws-s3-versioning,
