@@ -12,7 +12,7 @@ local M_opts = require("telescope._extensions.terraform_doc.config").opts
 local M = {}
 
 function M.search(opts)
-  opts = vim.tbl_extend("keep", opts, M_opts)
+  opts = vim.tbl_extend("keep", opts or {}, M_opts)
 
   if not opts.full_name then
     M.providers(opts)
