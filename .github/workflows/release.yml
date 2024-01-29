@@ -8,10 +8,11 @@ on:
 jobs:
   semantic-release:
     runs-on: ubuntu-latest
+    environment: release
     steps:
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROJECT_ACCESS_TOKEN }}
       - name: Import GPG key
         id: import-gpg
         uses: crazy-max/ghaction-import-gpg@v4
