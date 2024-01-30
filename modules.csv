@@ -11,7 +11,7 @@
 3cx-instance-module,companytone,2580,azure,https://github.com/companytone/terraform-azure-tcx-instance-module,Create 3CX Instance on Azure as per CompanyTone Standards
 A1-Always-Free-Instance,adarobin,9744,oci,https://github.com/adarobin/terraform-oci-A1-Always-Free-Instance,
 AA-fargate,eric-viera,14371,aws,https://github.com/eric-viera/terraform-aws-AA-fargate,"modules to provision a fargate cluster, and service in AWS"
-ADDC,soysoliscarlos,20883,azurerm,https://github.com/soysoliscarlos/terraform-azurerm-ADDS,Terraform module to create a VM in Azure with Active Directory Domain Services  (AD DS)
+ADDS,soysoliscarlos,22967,azurerm,https://github.com/soysoliscarlos/terraform-azurerm-ADDS,Terraform module to create a VM in Azure with Active Directory Domain Services  (AD DS)
 ASGroup,Meydan52,13839,aws,https://github.com/Meydan52/terraform-aws-ASGroup,
 AWS-Azure,krishnabhore,9186,wordpress,https://github.com/krishnabhore/terraform-wordpress-AWS-Azure,
 Alfred,AlfredLeonce11,20897,azure,https://github.com/AlfredLeonce11/terraform-azure-Alfred,
@@ -1530,7 +1530,7 @@ aws-eks,lean-delivery,7588,module,https://github.com/lean-delivery/terraform-mod
 aws-eks-cluster-bootstrap,rallyware,11250,argocd,https://github.com/rallyware/terraform-argocd-aws-eks-cluster-bootstrap,A terraform module to bootstrap apps on AWS EKS using ArgoCD
 aws-elasticache,lean-delivery,7589,module,https://github.com/lean-delivery/terraform-module-aws-elasticache,Terraform module to setup Elasticache
 aws-elasticache-redis,intel,18796,intel,https://github.com/intel/terraform-intel-aws-elasticache-redis,Intel Cloud Optimization Module - AWS ElastiCache for Redis
-aws-elasticache-redis,mergermarket,4052,acuris,https://github.com/mergermarket/terraform-acuris-aws-elasticache-redis,
+aws-elasticache-redis,mergermarket,22963,acuris,https://github.com/mergermarket/terraform-acuris-aws-elasticache-redis,
 aws-elasticsearch,bytebugs,487,moudles,https://github.com/tejasgoradia/terraform-moudles-aws-elasticsearch,
 aws-example,Rocio441,15069,apache,https://github.com/Rocio441/terraform-apache-aws-example,"Terraform module created to ""learn publishing terraform code"""
 aws-fargate,Adaptavist,6603,module,https://github.com/Adaptavist/terraform-module-aws-fargate,
@@ -3214,6 +3214,7 @@ container-group,getindata,16512,azurerm,https://github.com/getindata/terraform-a
 container-group,tomarv2,15864,azure,https://github.com/tomarv2/terraform-azure-container-group,Terraform module for Azure Container Instance(ACI)
 container-image,eliotlim,12579,aws,https://github.com/eliotlim/terraform-aws-container-image,Terraform module that builds and pushes a Docker image to AWS Elastic Container Registry
 container-insights,Gooygeek,11152,helm,https://github.com/Gooygeek/terraform-helm-container-insights,Deploys AWS Container Insights using helm as a terraform module. Based on the quickstart (for fluent bit) found here: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-setup-EKS-quickstart.html
+container-instance,data-platform-hq,22965,azurerm,https://github.com/data-platform-hq/terraform-azurerm-container-instance,
 container-instance,tomarv2,12424,azure,https://github.com/tomarv2/terraform-azure-container-group,Terraform module for Azure Container Instance(ACI)
 container-instance-draining,edispark,6095,ecs,https://github.com/mridehalgh/terraform-ecs-container-instance-draining,Automates Container Instance Draining in Amazon ECS by removing tasks from an instance before scaling down a cluster with Auto Scaling Groups. 
 container-job,diego-alves,8378,aws,https://github.com/diego-alves/terraform-aws-container-job,Terraform Module for running a Schedule Job on ECS
@@ -6109,6 +6110,7 @@ file-data,Kalepa,16103,local,https://github.com/Kalepa/terraform-local-file-data
 file-filter,aledsdavies,8373,util,https://github.com/aledsdavies/terraform-util-file-filter,This is a Terraform module for getting the file paths and adding configurations to files based on the file type. See the examples for use cases
 file-module,raimialiu,11277,archive,https://github.com/raimialiu/terraform-archive-file-module,
 file-resource,Invicton-Labs,12409,local,https://github.com/Invicton-Labs/terraform-local-file-resource,
+file-share,data-platform-hq,22964,azurerm,https://github.com/data-platform-hq/terraform-azurerm-file-share,
 file-to-object,1Mill,13012,local,https://github.com/1Mill/terraform-local-file-to-object,
 filestore,bootlabstech,12648,google,https://github.com/bootlabstech/terraform-google-filestore,module for GCP filestore.
 filestore,rojopolis,1561,google,https://github.com/rojopolis/terraform-google-filestore,A module to manage Google Cloud Filestore deployments until an official resource type is added to TF proper.
@@ -9440,6 +9442,7 @@ namespace,Chelz1990,22914,kubernetes,https://github.com/Chelz1990/terraform-kube
 namespace,IremKarakoyun,21962,kubernetes,https://github.com/IremKarakoyun/terraform-kubernetes-namespace,
 namespace,SaphiaEliza,21989,kebernetes,https://github.com/SaphiaEliza/terraform-kebernetes-namespace,
 namespace,Shukur91,22439,kubernetes,https://github.com/Shukur91/terraform-kubernetes-namespace,
+namespace,TinaMaftuna,22968,kubernetes,https://github.com/TinaMaftuna/terraform-kubernetes-namespace,
 namespace,ViktoriyaXIII,21964,kubernetes,https://github.com/ViktoriyaXIII/terraform-kubernetes-namespace,
 namespace,aidagaiti,21958,kubernetes,https://github.com/aidagaiti/terraform-kubernetes-namespace,
 namespace,akw-devsecops,19739,kubernetes,https://github.com/akw-devsecops/terraform-kubernetes-namespace,Terraform module to provision Kubernetes namespaces.
@@ -13238,6 +13241,7 @@ staticwebsitepublic,DimaSerbenyuk,14412,azurerm,https://github.com/dimaserbenyuk
 staticwebsitepublic,GowdamTF,17234,azurerm,https://github.com/GowdamTF/terraform-azurerm-staticwebsitepublic,Myteststaticwebsitepublic for DEMO
 staticwebsitepublic,HrIyEn07,18837,azurerm,https://github.com/HrIyEn07/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,Kescefko,22966,azurerm,https://github.com/Kescefko/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,LakshmiKondeti,17625,azurerm,https://github.com/LakshmiKondeti/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Mahaveerdoss,21692,azurerm,https://github.com/Mahaveerdoss/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Michelle1982ZJ,20848,azurerm,https://github.com/Michelle1982ZJ/terraform-azurerm-staticwebsitepublic,2023-09-01-L52
