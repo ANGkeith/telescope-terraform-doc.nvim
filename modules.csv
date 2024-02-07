@@ -174,6 +174,7 @@ acm,babbel,11627,aws,https://github.com/babbel/terraform-aws-acm,Terraform modul
 acm,boldlink,21253,aws,https://github.com/boldlink/terraform-aws-acm,Terraform registry repository for AWS ACM certificate
 acm,button-inc,8791,aws,https://github.com/button-inc/terraform-aws-acm,
 acm,clouddrove,3633,aws,https://github.com/clouddrove/terraform-aws-acm,This terraform module is used for requesting or importing SSL/TLS certificate with validation.
+acm,finisterra-io,23067,aws,https://github.com/finisterra-io/terraform-aws-acm,Terraform module for AWS Certificate Manager
 acm,kadragon,12760,aws,https://github.com/kadragon/terraform-aws-acm,
 acm,khaledez,12145,aws,https://github.com/khaledez/terraform-aws-acm,AWS Certificate Manager Terraform Module
 acm,oozou,15117,aws,https://github.com/oozou/terraform-aws-acm,AWS Certificate manager Terraform
@@ -1457,6 +1458,7 @@ avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurer
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
+avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,terraform-azurerm-avm-res-desktopvirtualization-applicationgroup
 avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,Azure Verified Module for Desktop Virtualization Hostpools
 avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan,Azure Verified Module for Desktop Virtualization Scaling Plans Terraform
@@ -3072,6 +3074,7 @@ compute,namanbajaj08,6003,azurerm,https://github.com/namanbajaj08/terraform-azur
 compute,oraziobattaglia,6337,azurerm,https://github.com/oraziobattaglia/terraform-azurerm-compute,"This Terraform module deploys Virtual Machines in Azure, ideas from official module."
 compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex-compute,Terraform module which creates Compute resources on Yandex Cloud
 compute,srb3,4093,azurerm,https://github.com/srb3/terraform-azurerm-compute,
+compute,wittdennis,23079,hetzner,https://github.com/wittdennis/terraform-hetzner-compute,Terraform module to manage Hetzner Cloud Server.
 compute,wmariuss,2094,scaleway,https://github.com/wmariuss/terraform-scaleway-compute,Terraform scaleway compute module
 compute-address,bootlabstech,15939,google,https://github.com/bootlabstech/terraform-google-compute-address,
 compute-address,mineiros-io,11375,google,https://github.com/mineiros-io/terraform-google-compute-address,A Terraform module to deploy and manage Google Compute Addresses on Google Cloud Platform (GCP) https://cloud.google.com/compute
@@ -3106,6 +3109,8 @@ compute-instance,tinslice,8128,gcp,https://github.com/tinslice/terraform-gcp-com
 compute-instance-internal,ichundu,2363,google,https://github.com/ichundu/terraform-google-compute-instance-internal,terraform google cloud VMs
 compute-instance-module,elvinlari,16522,gcp,https://github.com/elvinlari/terraform-gcp-compute-instance-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
 compute-instance-public,ichundu,2364,google,https://github.com/ichundu/terraform-google-compute-instance-public,Provision gce instance with external IP address associated
+compute-instance-v2,pmikus,23072,openstack,https://github.com/pmikus/terraform-openstack-compute-instance-v2,Terraform module to manage a V2 VM instance resource within OpenStack.
+compute-keypair-v2,pmikus,23071,openstack,https://github.com/pmikus/terraform-openstack-compute-keypair-v2,Terraform module to create V2 keypair resource within OpenStack.
 compute-network,JAYAKUMAR-hub,11001,google,https://github.com/JAYAKUMAR-hub/terraform-google-compute-network,
 compute-region-health-check,pratik141,3886,google,https://github.com/pratik141/terraform-google-compute-region-health-check,Health Checks
 compute-vm,iqz-systems,12323,google,https://github.com/iqz-systems/terraform-google-compute-vm,Terraform module to create a Google Compute Engine Engine with meaningful defaults.
@@ -4791,6 +4796,7 @@ ec2-instance-type-metrics,snowplow-devops,16592,aws,https://github.com/snowplow-
 ec2-instance1,CloudSihmar,19084,aws,https://github.com/CloudSihmar/terraform-aws-ec2-instance1,
 ec2-instanceswitcher,wakumaku,7964,aws,https://github.com/wakumaku/terraform-aws-ec2-instanceswitcher,"start, stop, reboot or terminate AWS EC2 instances on scheduled times"
 ec2-k8s-cluster,gloria-daemonia,19531,aws,https://github.com/gloria-daemonia/terraform-aws-ec2-k8s-cluster,Terraform module which creates a single/multi master K8S cluster completely based on AWS EC2.
+ec2-k8s-resources,rallyware,23081,aws,https://github.com/rallyware/terraform-aws-ec2-k8s-resources,
 ec2-kali-linux,offensive-terraform,6236,aws,https://github.com/offensive-terraform/terraform-aws-ec2-kali-linux,"Offensive Terraform module which creates Kali Linux from the AWS marketplace and installs cloud security tools (Pacu, Cloudsplaining, ScoutSuite)."
 ec2-key-pair,so1omon563,14602,aws,https://github.com/so1omon563/terraform-aws-ec2-key-pair,Creates an EC2 Key Pair that can be used when launching instances and stores private key in Secrets Manager. Can also import existing keys.
 ec2-keypair,emyller,12064,aws,https://github.com/emyller/terraform-aws-ec2-keypair,A Terraform module to manage a SSH key as an EC2 key pair.
@@ -5517,6 +5523,7 @@ eks-cert-manager,lablabs,6931,aws,https://github.com/lablabs/terraform-aws-eks-c
 eks-cert-manager-cloudflare,blackbird-cloud,16680,aws,https://github.com/blackbird-cloud/terraform-aws-eks-cert-manager-cloudflare,terraform-aws-eks-cert-manager-cloudflare
 eks-cert-manager-iam-policy-document,andreswebs,18817,aws,https://github.com/andreswebs/terraform-aws-eks-cert-manager-iam-policy-document,
 eks-cert-manager-trust,lablabs,15389,aws,https://github.com/lablabs/terraform-aws-eks-trust-manager,
+eks-certmanager,truemark,23078,aws,https://github.com/truemark/terraform-aws-eks-certmanager,
 eks-chartmuseum,andreswebs,9884,aws,https://github.com/andreswebs/terraform-aws-eks-chartmuseum,Deploys Chartmuseum via Helm on AWS EKS
 eks-chartmuseum,lablabs,16419,aws,https://github.com/lablabs/terraform-aws-eks-chartmuseum,
 eks-cilium,lablabs,23019,aws,https://github.com/lablabs/terraform-aws-eks-cilium,
@@ -5817,6 +5824,7 @@ elb-rds,Moiz-Ali-Moomin,9036,aws,https://github.com/Moiz-Ali-Moomin/terraform-aw
 elb-ssl-negotiation,sidick,637,aws,https://github.com/sidick/terraform-aws-elb-ssl-negotiation,Terraform module which creates ELB SSL Negotiation Policy
 elb-targetgroup,cloud3rsio,1349,aws,https://github.com/cloud3rsio/terraform-aws-elb-targetgroup,
 elblogging-bucket,rhythmictech,5099,aws,https://github.com/rhythmictech/terraform-aws-elblogging-bucket,Create and manage a bucket suitable for access logging for ELBs.
+elbv2,finisterra-io,23068,aws,https://github.com/finisterra-io/terraform-aws-elbv2,Terraform AWS Load Balancer Module
 elk,JamesWoolfenden,4161,aws,https://github.com/JamesWoolfenden/terraform-aws-elk,A basic ELK stack in Terraform
 elk,admintome,479,aws,https://github.com/admintome/terraform-aws-elk,"Terraform module to deploy an Elasticsearch, Logstash, and Kibana server to AWS."
 elk,karabalta75,5353,aws,https://github.com/karabalta75/terraform-aws-elk,
@@ -6810,6 +6818,7 @@ hcloud,fogs,3426,k8s,https://github.com/fogs/terraform-k8s-hcloud,"A simple proj
 hcloud,solidnerd,5601,k8s,https://github.com/solidnerd/terraform-k8s-hcloud,"A simple project to spin your k8s cluster with terraform, kubeadm on hcloud"
 hcloud-controller-manager,colinwilson,5313,kubernetes,https://github.com/colinwilson/terraform-kubernetes-hcloud-controller-manager,A Terraform module to deploy the Hetzner Cloud Controller Manager on a Kubernetes cluster.
 hcloud-csi-driver,colinwilson,5595,kubernetes,https://github.com/colinwilson/terraform-kubernetes-hcloud-csi-driver,A Terraform module to provision the Hetzner CSI Driver within a Kubernetes cluster. 
+hcloud-k3s-cluster-autoscaler,NiklasRosenstein,23083,helm,https://github.com/NiklasRosenstein/terraform-helm-hcloud-k3s-cluster-autoscaler,Deploy Kubernetes cluster-autoscaler for Hetzner cloud using Helm + Terraform.
 hcp,joatmon08,6061,aws,https://github.com/joatmon08/terraform-aws-hcp,Terraform Module for Configuring AWS Components for HashiCorp Cloud Platform
 hcp,kalenarndt,10061,hcp,https://github.com/kalenarndt/terraform-hcp-hcp,Terraform module to configure HashiCorp Cloud Platform services
 hcp-consul,hashicorp,10626,aws,https://github.com/hashicorp/terraform-aws-hcp-consul,Terraform module for HCP Consul on AWS
@@ -8644,6 +8653,7 @@ log-analytics-VMInsights,qbeyond,13660,azurerm,https://github.com/qbeyond/terraf
 log-analytics-solution,libre-devops,13424,azurerm,https://github.com/libre-devops/terraform-azurerm-log-analytics-solution,"A module used to deploy a log analytics solution.  Please note, some of the solutions are no longer being maintained :fire:"
 log-analytics-workspace,Umanis,9806,azurerm,https://github.com/Umanis/terraform-azurerm-log-analytics-workspace,Terraform Azure RM Log Analytics Workspace module 
 log-analytics-workspace,WeAreRetail,22581,azurerm,https://github.com/WeAreRetail/terraform-azurerm-log-analytics-workspace,
+log-analytics-workspace,blackbird-cloud,23073,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-log-analytics-workspace,A module which is used to deploy a log analytics workspace into a subscription.
 log-analytics-workspace,bootlabstech,15510,azurerm,https://github.com/bootlabstech/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,cyber-scot,21544,azurerm,https://github.com/cyber-scot/terraform-azurerm-log-analytics-workspace,A module used to deploy a log analytics workspace 🪵🕵️
 log-analytics-workspace,ionicloud,21618,azurerm,https://github.com/ionicloud/terraform-azurerm-log-analytics-workspace,
@@ -10219,6 +10229,7 @@ output-data-share,tobeyOguney,15961,aws,https://github.com/tobeyOguney/terraform
 output-run-env-context,glenngillen,15488,tfe,https://github.com/glenngillen/terraform-tfe-output-run-env-context,Outputs the environment variables available in the context of a Terraform Cloud run.
 outputs,matti,786,shell,https://github.com/matti/terraform-shell-outputs,
 overlays-api-management,azurenoops,18923,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-api-management,Terraform Overlay module for SCCA Compliant Azure Api Management to use with the Azure NoOps Accelerator
+overlays-app-configuration,azurenoops,23076,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-app-configuration,Terraform overlay module to manage a SCCA Compliant App Configuration Service to be used with Azure NoOps.
 overlays-app-service,azurenoops,18993,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-app-service,Terraform module overlay to create an SCCA Compliant Azure App Service to use with Azure NoOps.
 overlays-app-service-environment,azurenoops,18953,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-app-service-environment,Terraform Overlay module to create and configure an SCCA compliant Azure Service Environment to be used with the Azure NoOps
 overlays-arm-deployment,azurenoops,21449,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-arm-deployment,Terraform module overlay to deploy and manage ARM deployments based on the Microsoft Azure Resource Manager functionally to be use with Azure NoOps.
@@ -10229,6 +10240,7 @@ overlays-bastionhost,azurenoops,21622,azurerm,https://github.com/azurenoops/terr
 overlays-compute-image-gallery,azurenoops,23036,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-compute-image-gallery,Terraform overlay module to create and manage Azure Compute Gallery (formerly known as Shared Image Gallery) for use with the Azure NoOps.
 overlays-container-registry,azurenoops,18128,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-container-registry,Terraform Overlay module for SCCA Compliant Azure Container Registry to use with the Azure NoOps Accelerator
 overlays-cost-management,azurenoops,18114,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-cost-management,"Terraform modules that simplifies the creation of create all necessary components for budget monitoring in Azure Managment Group, Subscription or Resource Group to be used with the Azure NoOps Accelerator"
+overlays-custom-virtual-machine,azurenoops,23077,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-custom-virtual-machine,A Terraform module for Azure that allows you to create a virtual machine from a custom VHD.
 overlays-dmz-spoke,azurenoops,20965,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-dmz-spoke,Terraform module overlay to create SCCA compliant DMZ Spoke based on the Microsoft Azure Hub-Spoke Architecture using Azure NoOps.
 overlays-hubspoke,azurenoops,17765,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-hubspoke,Terraform module composition to create SCCA compliant Landing Zone based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps Accelerator.
 overlays-key-vault,azurenoops,18116,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-key-vault,Terraform Overlay module for SCCA Compliant Azure Key Vault to use with the Azure NoOps Accelerator
@@ -10246,7 +10258,9 @@ overlays-role-definition,azurenoops,19131,azurerm,https://github.com/azurenoops/
 overlays-sentinel,azurenoops,21611,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-sentinel,Terraform module for creating and deploying Azure Sentinel components to be used with Azure NoOps
 overlays-service-principal,azurenoops,18151,azuread,https://github.com/azurenoops/terraform-azuread-overlays-service-principal,Terraform module to create a service principal and configure access to Azure resources using the Azure NoOps Accelerator
 overlays-storage-account,azurenoops,18988,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-storage-account,Terraform module for Azure Storage to use with the Azure NoOps Accelerator
+overlays-subscription,azurenoops,23074,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-subscription,"Terraform overlay module to manage an alias for a subscription or create a new subscription with a new alias (Optional) under an Enrollment, Partner or Microsoft Customer Account to be used with Azure NoOps"
 overlays-virtual-machine,azurenoops,18912,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-virtual-machine,Terraform module overlay to deploy single or multiple SCCA compliant Virtual Machines of Linux or Windows with optional features to be used with Azure NoOps.
+overlays-waf-policy,azurenoops,23075,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-waf-policy,Terraform overlay module to create and manage Azure WAF Policies for use with the Azure NoOps.
 overlays-workload-spoke,azurenoops,19128,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-workload-spoke,Terraform module overlay to create SCCA compliant Workload Spoke based on the Microsoft Azure Hub-Spoke Architecture using with Azure NoOps.
 overmind,davidjeddy,20118,aws,https://github.com/davidjeddy/terraform-aws-overmind,Terraform module to enable Overmind quickly and easily to a project.
 pa-vm,equinix,8138,equinix,https://github.com/equinix/terraform-equinix-pa-vm,Terraform module for quick deployment of Palo Alto Networks VM series firewall device
@@ -10266,6 +10280,7 @@ palo_alto,tpeterson66,13315,azurerm,https://github.com/tpeterson66/terraform-azu
 paloalto-vmseries,aws-ia,14381,aws,https://github.com/aws-ia/terraform-aws-paloalto-vmseries,
 pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pals3tfmodule,
 palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
+palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-aws-palworld-windows,Terraform module for Palworld Server Infrastructure on AWS
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panos-azure-nva,jye-aviatrix,17961,azurerm,https://github.com/jye-aviatrix/terraform-azurerm-panos-azure-nva,"This Repo will create Palo Alto Networks VM-Series firewalls in Azure, it will also bootstrap the Firewall, as well as provision Azure Internal Load Balancer."
@@ -12117,6 +12132,7 @@ sa-container,bootlabstech,18602,azurerm,https://github.com/bootlabstech/terrafor
 sa-queue,bootlabstech,19013,azurerm,https://github.com/bootlabstech/terraform-azurerm-sa-queue,
 sa1,monbostest,13034,azurerm,https://github.com/monbostest/terraform-azurerm-sa1,This module will help to create a storage account
 saWorkSample,renemartinezb86,2229,AWS,https://github.com/renemartinezb86/terraform-AWS-saWorkSample,
+saas,yindia,23070,opta,https://github.com/yindia/terraform-opta-saas,Maintaining opta terraform module for personal use
 sabirstorage,jksabir,22628,azure,https://github.com/jksabir/terraform-azure-sabirstorage,
 sadiqs3,alqamasadiq,11414,aws,https://github.com/alqamasadiq/terraform-aws-sadiqs3,
 sae,terraform-alicloud-modules,12685,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sae,Terraform Module for creating SAE resources on Alibaba Cloud.
@@ -13324,6 +13340,7 @@ staticwebsitepublic,ajaytak19,13176,azurerm,https://github.com/ajaytak19/terrafo
 staticwebsitepublic,amitkrmzp,12858,azurerm,https://github.com/amitkrmzp/terraform-azurerm-staticwebsitepublic,terraform public wensite
 staticwebsitepublic,amruthbomma,15191,azurerm,https://github.com/amruthbomma/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,anshuktr,12844,azure,https://github.com/anshuktr/terraform-azure-staticwebsitepublic,Terraform modules to be shared in Terraform Public Registry
+staticwebsitepublic,antoniodee,23080,azurerm,https://github.com/antoniodee/terraform-azurerm-staticwebsitepublic,Demo on Terraform Public Registry
 staticwebsitepublic,avinashumbardand01,11064,azurerm,https://github.com/avinashumbardand01/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,bhagwatkhushwaha,11745,azurerm,https://github.com/bhagwatkhushwaha/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,brucezwhub,10198,azurerm,https://github.com/brucezwhub/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
