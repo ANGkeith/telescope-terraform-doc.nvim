@@ -1999,6 +1999,7 @@ bitcoin-sv,4ops,2769,digitalocean,https://github.com/4ops/terraform-digitalocean
 bitcoind,miketwenty1,9658,aws,https://github.com/miketwenty1/terraform-aws-bitcoind,Bitcoin core daemon spun up on EC2 instance in AWS. 
 blob,bootlabstech,17669,azurerm,https://github.com/bootlabstech/terraform-azurerm-blob,
 blob-storage,bootlabstech,14361,azure,https://github.com/bootlabstech/terraform-azurerm-share-storage,Azure bucket creation using Terraform
+blobstore,terraform-nexus-modules,23229,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-blobstore,Terraform module for create Nexus Blobstore
 blockchain-service-wrapper,cladular,7601,azurerm,https://github.com/cladular/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
@@ -2797,6 +2798,7 @@ cloudwatch-agent,cloudposse,5242,aws,https://github.com/cloudposse-archives/terr
 cloudwatch-agent,kota65535,20150,aws,https://github.com/kota65535/terraform-aws-cloudwatch-agent,Terraform module which deploys CloudWatch Agent as an ECS service.
 cloudwatch-alarm,figurate,5041,aws,https://github.com/figurate/terraform-aws-cloudwatch-alarm,Templates for CloudWatch metrics alarms
 cloudwatch-alarm,matteotv,23057,aws,https://github.com/matteotv/terraform-aws-cloudwatch-alarm,terraform module for cloudwatch alarms 
+cloudwatch-alarm,ncfxutilities,23226,aws,https://github.com/ncfxutilities/terraform-aws-cloudwatch-alarm,Terraform module for cloudwatch alamrs
 cloudwatch-alarm,oozou,15120,aws,https://github.com/oozou/terraform-aws-cloudwatch-alarm,
 cloudwatch-alarm,suhussai,8563,aws,https://github.com/suhussai/terraform-aws-cloudwatch-alarm,Terraform module which creates AWS CloudWatch Alarms
 cloudwatch-alarm,youyo,6723,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm,
@@ -3762,6 +3764,7 @@ diagnostic-setting,rink72,3826,azurerm,https://github.com/rink72/terraform-azure
 diagnostic-settings,claranet,6879,azurerm,https://github.com/claranet/terraform-azurerm-diagnostic-settings,Fork of the `terraform-azurerm-diagnostic-settings` module with Claranet's contributions and improvements.
 diagnostic-settings,jsathler,21095,azurerm,https://github.com/jsathler/terraform-azurerm-diagnostic-settings,
 diagnostic-settings,justincampbell,2523,azurerm,https://github.com/justincampbell/terraform-azurerm-diagnostic-settings,
+diagnostic-settings,libre-devops,23224,azurerm,https://github.com/libre-devops/terraform-azurerm-diagnostic-settings,A module used to deploy diagnostic settings 🕵️‍♂️
 diagnostic_setting,andrewCluey,6513,azurerm,https://github.com/andrewCluey/terraform-azurerm-diagnostic_setting,
 dicom,philips-labs,7696,hsdp,https://github.com/philips-labs/terraform-hsdp-dicom,Terraform module to onboard to HSDP DICOM services
 dict-converter-yaml,jd4883,6958,yaml,https://github.com/jd4883/terraform-yaml-dict-converter-yaml,Small terrafom module to convert yaml to a terraform map which can be referenced in many useful ways. Strongly recommend storing this to one or more locals and using this as an alternate to tfvars for filling in values. I wrote this to easily handle building terraform code at scale with terraform 13's dynamic module instantiation features in a human readable manner.
@@ -6045,6 +6048,7 @@ exo-ts-code-build-task-runner,exobase-inc,13530,aws,https://github.com/exobase-i
 exo-ts-lambda-api,exobase-inc,13270,aws,https://github.com/exobase-inc/terraform-aws-exo-ts-lambda-api,
 experiments,GlennChia,8927,azurerm,https://github.com/GlennChia/terraform-azurerm-experiments,experiments to upload modules to terraform registry
 expiring-s3,kurron,734,aws,https://github.com/kurron/terraform-aws-expiring-s3,Terraform module that creates an S3 bucket that ages out objects.  Great for holding logs.
+export-rds-snapshot,dlddu,23216,aws,https://github.com/dlddu/terraform-aws-export-rds-snapshot,
 expose-service-ingress,alemuro,11931,kubernetes,https://github.com/alemuro/terraform-kubernetes-expose-service-ingress,Terraform module to deploy and expose a kubernetes service using Traefik
 express-lambda-layer,amancevice,2165,aws,https://github.com/amancevice/terraform-aws-express-lambda-layer,Lambda layer for express/aws-serverless-express
 expressroute,claranet,15353,azurerm,https://github.com/claranet/terraform-azurerm-expressroute,Terraform module for Azure ExpressRoute link
@@ -6759,7 +6763,6 @@ grafana,rickardl,8948,aws,https://github.com/rickardl/terraform-aws-grafana,
 grafana,telia-oss,1414,aws,https://github.com/telia-oss/terraform-aws-grafana,Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
 grafana,tf-cloud-modules,15743,aiven,https://github.com/tf-cloud-modules/terraform-aiven-grafana,Aiven Grafana Terraform module
 grafana-agent,scarf-sh,9061,kubernetes,https://github.com/scarf-sh/terraform-kubernetes-grafana-agent,"Deploy grafana agent in Kubernetes, using Terraform"
-grafana-agent-k8s,gatici,22900,juju,https://github.com/gatici/terraform-juju-grafana-agent-k8s,
 grafana-appservice,alessiofilippin,15836,azure,https://github.com/alessiofilippin/terraform-azure-grafana-appservice,Use terraform to deploy an AppService hosting Grafana. In a ready to use setup and AD auth.
 grafana-dashboards,ammilam,10919,kubernetes,https://github.com/ammilam/terraform-kubernetes-grafana-dashboards,
 grafana-prometheus,Nosaj123,19385,aws,https://github.com/Nosaj123/terraform-aws-grafana-prometheus,Terraform Script to setup AWS ASG to run Grafana & Prometheus.
@@ -8782,7 +8785,7 @@ magento-dashboards,davidalger,3728,datadog,https://github.com/davidalger/terrafo
 magma,ShubhamTatvamasi,12716,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma,
 magma-galaxy,ShubhamTatvamasi,14943,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-galaxy,
 magma-pricing,ShubhamTatvamasi,12542,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-pricing,
-mail,terraform-nexus-modules,23178,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-mail,
+mail,terraform-nexus-modules,23230,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-mail,Terraform module for create Nexus Mail
 mailcow,nsmith5,6648,aws,https://github.com/nsmith5/terraform-aws-mailcow,
 mailcow,nsmith5,6649,vultr,https://github.com/nsmith5/terraform-vultr-mailcow,Mailcow on Vultr using the magic of Fedora CoreOS ✨
 maildns,foxmoon,3734,alicloud,https://github.com/foxmoon/terraform-alicloud-maildns,module for alicloud mail dns record auto add 
@@ -9101,7 +9104,7 @@ module-bps-agent,armdupre,22864,google,https://github.com/armdupre/terraform-goo
 module-bps-app,armdupre,22306,aws,https://github.com/armdupre/terraform-aws-module-bps-app,
 module-bps-app,armdupre,22713,azurerm,https://github.com/armdupre/terraform-azurerm-module-bps-app,
 module-bps-app,armdupre,22865,google,https://github.com/armdupre/terraform-google-module-bps-app,
-module-bps-shared-image-gallery,armdupre,22773,azurerm,https://github.com/armdupre/terraform-azurerm-module-bps-shared-image-gallery,
+module-bps-shared-image-gallery,armdupre,23234,azurerm,https://github.com/armdupre/terraform-azurerm-module-bps-shared-image-gallery,
 module-cloudfront,vnisolutions,21897,aws,https://github.com/vnisolutions/terraform-aws-module-cloudfront,
 module-code-pipeline,vnisolutions,21922,aws,https://github.com/vnisolutions/terraform-aws-module-code-pipeline,
 module-cyperf-agent,armdupre,19322,aws,https://github.com/armdupre/terraform-aws-module-cyperf-agent,
@@ -9221,7 +9224,6 @@ mongodb-cluster,elestio-examples,18872,elestio,https://github.com/elestio-exampl
 mongodb-ec2,everest-engineering,5017,aws,https://github.com/everest-engineering/terraform-aws-mongodb-ec2,Terraform MongoDB provisioner using AWS EC2
 mongodb-ecs,everest-engineering,5016,aws,https://github.com/everest-engineering/terraform-aws-mongodb-ecs,Terraform module to provision MongoDB using AWS-ECS
 mongodb-high-incoming-connections-on-mongodb,terraform-shoreline-modules,20402,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mongodb-high-incoming-connections-on-mongodb,This repository was generated automatically based on a Shoreline Insights Runbook.
-mongodb-k8s,gatici,22832,juju,https://github.com/gatici/terraform-juju-mongodb-k8s,
 mongodb-mongodb-cpu-usage-is-higher-than-average-on-host,terraform-shoreline-modules,20385,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mongodb-mongodb-cpu-usage-is-higher-than-average-on-host,This repository was generated automatically based on a Shoreline Insights Runbook.
 mongodb-mongodb-cursors-timeouts,terraform-shoreline-modules,20388,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mongodb-mongodb-cursors-timeouts,This repository was generated automatically based on a Shoreline Insights Runbook.
 mongodb-mongodb-efficiency-of-queries-is-degrading,terraform-shoreline-modules,20341,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mongodb-mongodb-efficiency-of-queries-is-degrading,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -9959,6 +9961,7 @@ nlb-for-apigateway-vpc-link,beginerbeginer,10730,aws,https://github.com/beginerb
 nlb-tg-to-alb,trussworks,10124,aws,https://github.com/trussworks/terraform-aws-nlb-tg-to-alb,Sets up a Lambda function to update an NLB's target group to point at an ALB's IPs.
 no-email,rsclarke,7561,cloudflare,https://github.com/rsclarke/terraform-cloudflare-no-email,"SPF, DKIM and DMARC records for zones which do not send email."
 no-mail,vojtechmares,8246,cloudflare,https://github.com/vojtechmares/terraform-cloudflare-no-mail,"Terraform module for a Cloudflare hosted domain, to configure to prevent spammers sending mail from your domain"
+nobody,anandctx,23236,azure,https://github.com/anandctx/terraform-azure-nobody,
 node,gregone,2930,do,https://github.com/gregone/terraform-do-node,
 node,pwelch,2120,do,https://github.com/pwelch/terraform-do-node,
 node-control-policy,netascode,9948,aci,https://github.com/netascode/terraform-aci-node-control-policy,Terraform Cisco ACI Node Control Policy Module
@@ -10635,7 +10638,7 @@ privateendpoint,imjoseangel,11773,azurerm,https://github.com/imjoseangel/terrafo
 privatelink,BorisLabs,17684,aws,https://github.com/BorisLabs/terraform-aws-privatelink,Terraform module to setup AWS PrivateLink resources
 privatelink-aws,getindata,17093,snowflake,https://github.com/getindata/terraform-snowflake-privatelink-aws,Terraform module for Snowflake AWS PrivateLink management
 privates3,bootlabstech,17146,aws,https://github.com/bootlabstech/terraform-aws-privates3,
-privilege,terraform-nexus-modules,23179,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-privilege,Terraform module to create Nexus Privilege
+privilege,terraform-nexus-modules,23235,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-privilege,Terraform module for create Nexus Privilege
 privileges,TaitoUnited,6127,mysql,https://github.com/TaitoUnited/terraform-mysql-privileges,
 privileges,TaitoUnited,6128,postgresql,https://github.com/TaitoUnited/terraform-postgresql-privileges,
 priyanka,Priyanka210696,18384,aws,https://github.com/Priyanka210696/terraform-aws-priyanka,
@@ -11418,6 +11421,7 @@ repository,operatehappy,5449,github,https://github.com/ksatirli/terraform-github
 repository,scaffoldly,9444,github,https://github.com/scaffoldly/terraform-github-repository,Create a GitHub repostiory from a template repository
 repository,terracharge,14064,github,https://github.com/terracharge/terraform-github-repository,Module for creating terraform-github-repository with provider github. This description is created automagically
 repository,terracharge,14095,aws,https://github.com/terracharge/terraform-aws-repository,Module for creating terraform-aws-repository with provider aws. This description is created automagically
+repository,terraform-nexus-modules,23227,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-repository,Terraform module for create Nexus Repository
 repository,tim0git,12304,github,https://github.com/tim0git/terraform-github-repository,Terraform module which creates a github repository
 repository,tylottr-iac,20455,github,https://github.com/tylottr-iac/terraform-github-repository,A Terraform module used to create and manage a Github repository.
 repository,withmethod,162,github,https://github.com/ksatirli/terraform-github-repository,:octocat: Terraform Module for managing Github Repositories
@@ -11722,6 +11726,7 @@ routeros-router,selfscrum,6630,hcloud,https://github.com/selfscrum/terraform-hcl
 routeros-router-configuration,selfscrum,6631,hcloud,https://github.com/selfscrum/terraform-hcloud-routeros-router-configuration,Configures a Hetzner server with an RouterOS Router.
 routetable,Azure,1639,azurerm,https://github.com/Azure/terraform-azurerm-routetable,This Terraform module deploys a Route Table in Azure with a route or a set of routes passed in as input parameters. The routes are newly created with explicit next hop specified as input parameters. 
 routetables,walmartdigital,7393,azure,https://github.com/walmartdigital/terraform-azure-routetables,
+routing,terraform-nexus-modules,23228,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-routing,Terraform module for create Nexus Routing
 rsa-bastion,oracle-devrel,10958,oci,https://github.com/oracle-devrel/terraform-oci-rsa-bastion,Bastion Terraform Module on OCI
 rsa-encrypt,zeroae,7285,shell,https://github.com/zeroae/terraform-shell-rsa-encrypt,A Terraform module for encrypting content using an RSA public key
 rsa-wazuh,oracle-devrel,10959,oci,https://github.com/oracle-devrel/terraform-oci-rsa-wazuh,Wazuh Terraform Module on OCI
@@ -12292,22 +12297,11 @@ scheduler-function2,blackbird-cloud,18680,google,https://github.com/blackbird-cl
 schema,getindata,17183,snowflake,https://github.com/getindata/terraform-snowflake-schema,Terraform module for managing Snowflake schemas
 scp,boldlink,14891,aws,https://github.com/boldlink/terraform-aws-scp,Terraform registry repository for AWS Organizations SCP module
 script,cktf,21732,module,https://github.com/cktf/terraform-module-script,Terraform SSH/WinRM Script Module
+script,terraform-nexus-modules,23233,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-script,Terraform module for create Nexus Script
 scripts,dasmeta,18708,cloud,https://github.com/dasmeta/terraform-cloud-scripts,
 scripts,garyellis,7345,cloudinit,https://github.com/garyellis/terraform-cloudinit-scripts,A terraform module to store cloud-init scripts
 sd-addr.tf,mildred,5609,local,https://github.com/mildred/terraform-local-sd-addr.tf,Generate loopback (IPv4) or ULA (IPv6) address on the fly using systemd
 sd-proxy.tf,mildred,5614,local,https://github.com/mildred/terraform-local-sd-proxy.tf,manages systemd socket activation proxy
-sdcore-amf-k8s,gatici,22855,juju,https://github.com/gatici/terraform-juju-sdcore-amf-k8s,
-sdcore-ausf-k8s,gatici,22856,juju,https://github.com/gatici/terraform-juju-sdcore-ausf-k8s,
-sdcore-control-plane-k8s,gatici,22920,juju,https://github.com/gatici/terraform-juju-sdcore-control-plane-k8s,
-sdcore-gnbsim-k8s,gatici,22868,juju,https://github.com/gatici/terraform-juju-sdcore-gnbsim-k8s,
-sdcore-nms-k8s,gatici,22919,juju,https://github.com/gatici/terraform-juju-sdcore-nms-k8s,
-sdcore-nrf-k8s,gatici,22852,juju,https://github.com/gatici/terraform-juju-sdcore-nrf-k8s,
-sdcore-nssf-k8s,gatici,22859,juju,https://github.com/gatici/terraform-juju-sdcore-nssf-k8s,
-sdcore-pcf-k8s,gatici,22858,juju,https://github.com/gatici/terraform-juju-sdcore-pcf-k8s,
-sdcore-smf-k8s,gatici,22857,juju,https://github.com/gatici/terraform-juju-sdcore-smf-k8s,
-sdcore-udm-k8s,gatici,22860,juju,https://github.com/gatici/terraform-juju-sdcore-udm-k8s,
-sdcore-udr-k8s,gatici,22861,juju,https://github.com/gatici/terraform-juju-sdcore-udr-k8s,
-sdcore-webui-k8s,gatici,22897,juju,https://github.com/gatici/terraform-juju-sdcore-webui-k8s,
 sealed-secrets,kubestack-modules,21108,kustomization,https://github.com/kubestack-modules/terraform-kustomization-sealed-secrets,Sealed-Secrets Terraform Module for Kubernetes by Kubestack
 sealed-secrets-bootstrap,kube-champ,9803,k8s,https://github.com/kuptan/terraform-k8s-sealed-secrets-bootstrap,A terraform module that will bootstrap a Kubernetes cluster with Sealed Secret controller
 search,JamesWoolfenden,16951,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-search,
@@ -12445,6 +12439,7 @@ secured-static-website,tjboudreaux,2607,aws,https://github.com/tjboudreaux/terra
 security,bitcot,11065,aws,https://github.com/bitcot/terraform-aws-security,
 security,centriascolocation,6928,aws,https://github.com/centriascolocation/terraform-aws-security,Collection of reusable Terraform Modules aim to help with recurring topics.
 security,tedilabs,11567,aws,https://github.com/tedilabs/terraform-aws-security,🌳 A sustainable Terraform Package which creates Security resources on AWS
+security,terraform-nexus-modules,23231,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-security,Terraform module for create Nexus Security
 security-alerts,JamesWoolfenden,8799,aws,https://github.com/JamesWoolfenden/terraform-aws-security-alerts,It's a security module
 security-baseline,DNXLabs,5749,aws,https://github.com/DNXLabs/terraform-aws-security-baseline,Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 security-buckets,JamesWoolfenden,1962,aws,https://github.com/JamesWoolfenden/terraform-aws-security-buckets,Contains a module that creates a location for keeping newly generated secure objects
@@ -12541,7 +12536,6 @@ selenoid,4ops,4592,aws,https://github.com/4ops/terraform-aws-selenoid,
 self-extractable-archive,andreygubarev,18094,external,https://github.com/andreygubarev/terraform-external-self-extractable-archive,Terraform module that uses makeself to create a self-extractable archive from a directory
 self-manage-credentials,dod-iac,7039,aws,https://github.com/dod-iac/terraform-aws-self-manage-credentials,Configures IAM policy to allow users to manage their own credentials.
 self-managed-k8s,Archisman-Mridha,19115,aws,https://github.com/Archisman-Mridha/terraform-aws-self-managed-k8s,Terraform module to create a self-managed Kubernetes cluster in AWS using Kubeadm
-self-signed-certificates,gatici,22833,juju,https://github.com/gatici/terraform-juju-self-signed-certificates,
 selfdestruct,gabrielmccoll,17504,azurerm,https://github.com/gabrielmccoll/terraform-azurerm-selfdestruct,Terraform module to self destruct a deployment in AzureRM after X hours.
 selfhostedrunnervmss,amestofortytwo,21121,azurerm,https://github.com/amestofortytwo/terraform-azurerm-selfhostedrunnervmss,Module for creating a simple virtual machine scale set for Azure DevOps and GitHub self hosted runners
 send-alert-slack,hendrixroa,6546,aws,https://github.com/hendrixroa/terraform-aws-send-alert-slack,AWS Lambda to send a notification to slack workspace.
@@ -14109,7 +14103,6 @@ traefik,solution-libre,17390,helm,https://github.com/solution-libre/terraform-he
 traefik,truemark,21433,kubernetes,https://github.com/truemark/terraform-kubernetes-traefik,TrueMark Traefik pattern for Kubernetes
 traefik-deployment,jakoberpf,12494,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-traefik-deployment,Terreform module for integrated service deployment
 traefik-eks,sculley,17134,aws,https://github.com/sculley/terraform-aws-traefik-eks,Terraform module to deploy Traefik into an AWS EKS Kubernetes cluster along with an ALB & ACM
-traefik-k8s,gatici,22918,juju,https://github.com/gatici/terraform-juju-traefik-k8s,
 traefik-middleware,math280h,16453,kubernetes,https://github.com/math280h/terraform-kubernetes-traefik-middleware,A simple collection of easy to use middlewares for traefik implemented in terraform
 traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.10.3) reverse proxy / load balancer on Docker swarm
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
