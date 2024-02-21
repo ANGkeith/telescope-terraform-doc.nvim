@@ -1465,6 +1465,7 @@ avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurer
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
+avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
@@ -1480,6 +1481,7 @@ avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terr
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
 avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
+avm-res-network-privatednszone,Azure,23274,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone,Terraform AVM module for Private DNS zones
 avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Repository for 'Public IP address' AVM module
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
@@ -1620,6 +1622,7 @@ aws-vpc,Adaptavist,5411,module,https://github.com/Adaptavist/terraform-module-aw
 aws-vpc,Harshrai3112,8943,aws,https://github.com/Harshrai3112/terraform-aws-aws-vpc,
 aws-vpc,mars,1665,heroku,https://github.com/mars/terraform-heroku-aws-vpc,AWS VPC ready for 🍐 Heroku Private Spaces
 aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
+aws-vpc-cni,kwaziio,23284,kubernetes,https://github.com/kwaziio/terraform-kubernetes-aws-vpc-cni,Terraform Module for Managing AWS VPC CNI Configuration for an EKS Cluster on AWS
 aws-vpc-site,f5devcentral,21754,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site,Terraform module which creates AWS VPC Site for F5 Distributed Cloud (XC)
 aws-vpc-site-networking,f5devcentral,21750,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site-networking,Terraform module which creates AWS VPC for F5 Distributed Cloud (XC) AWS VPC Site
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
@@ -2005,6 +2008,7 @@ blobstore,terraform-nexus-modules,23254,nexus,https://github.com/terraform-nexus
 blockchain-service-wrapper,cladular,7601,azurerm,https://github.com/cladular/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
+blueprint,J0hn-B,23283,port,https://github.com/J0hn-B/terraform-port-blueprint,Create Port blueprints using their json definition files
 blueprints,cafe-com-deploy,20474,aws,https://github.com/cafe-com-deploy/terraform-aws-blueprints,Terraform modules blueprints
 boolean,devops-workflow,635,local,https://github.com/devops-workflow/terraform-local-boolean,Terraform module to simplify and expand boolean use
 bootcamp-2023,jbangurajr,21471,beginner,https://github.com/jbangurajr/terraform-beginner-bootcamp-2023,TerraTowns is a community website where terraformers launch their own Terra House (user-created website)
@@ -2543,6 +2547,7 @@ cloud1,NguyenTruongThanh-74,15495,aws,https://github.com/NguyenTruongThanh-74/te
 cloud9,Xat59,18713,aws,https://github.com/Xat59/terraform-aws-cloud9,Terraform module that creates AWS Cloud9 resources.
 cloud9,adamwshero,12977,aws,https://github.com/adamwshero/terraform-aws-cloud9,Terraform & Terragrunt friendly module to create an Amazon Cloud9 EC2 Environment with an optional static IP (EIP). 🇺🇦
 cloudSQL,bootlabstech,18538,google,https://github.com/bootlabstech/terraform-google-cloudSQL,
+cloud_build-private-worker_pool,mdiloreto,23266,google,https://github.com/mdiloreto/terraform-google-cloud_build-private-worker_pool,
 cloud_init,l-with,18312,module,https://github.com/l-with/terraform-module-cloud_init,
 cloud_run,airasia,6564,google,https://github.com/airasia/terraform-google-cloud_run,Terraform module for a Cloud Run service in GCP
 cloud_workspace,aws-ia,9054,hashicorp,https://github.com/aws-ia/terraform-hashicorp-cloud_workspace,Terraform Cloud Workspace
@@ -2839,6 +2844,7 @@ cloudwatch-log-group,florentio,15137,aws,https://github.com/florentio/terraform-
 cloudwatch-log-group,geekcell,19757,aws,https://github.com/geekcell/terraform-aws-cloudwatch-log-group,Terraform module to provision an AWS Cloudwatch Log Group.
 cloudwatch-log-group,mhmdio,7356,aws,https://github.com/mhmdio/terraform-aws-cloudwatch-log-group,AWS CW Log Group Terraform Module
 cloudwatch-log-group-with-cmk,samloh84,16080,aws,https://github.com/samloh84/terraform-aws-cloudwatch-log-group-with-cmk,This Terraform module creates an AWS Cloudwatch Log Group with Customer Managed Key
+cloudwatch-log-retention,Codzs-Architecture,23270,aws,https://github.com/Codzs-Architecture/terraform-aws-cloudwatch-log-retention,
 cloudwatch-log-storage,SevenPico,17790,aws,https://github.com/SevenPico/terraform-aws-cloudwatch-log-storage,
 cloudwatch-logs,Infrastrukturait,17119,aws,https://github.com/Infrastrukturait/terraform-aws-cloudwatch-logs,Terraform module to provision a CloudWatch logs
 cloudwatch-logs,cloudposse,941,aws,https://github.com/cloudposse/terraform-aws-cloudwatch-logs,Terraform Module to Provide a CloudWatch Logs Endpoint
@@ -4231,6 +4237,7 @@ docker-instance,husbagci,20764,aws,https://github.com/husbagci/terraform-aws-doc
 docker-instance,huseyingultekin,18682,aws,https://github.com/huseyingultekin/terraform-aws-docker-instance,
 docker-instance,iamdevopser,14626,aws,https://github.com/iamdevopser/terraform-aws-docker-instance,- Description: Terraform module which creates a docker instance resource on AWS.
 docker-instance,ilgea,16323,aws,https://github.com/ilgea/terraform-aws-docker-instance,
+docker-instance,irembeyza6173,23267,aws,https://github.com/irembeyza6173/terraform-aws-docker-instance,
 docker-instance,isdedegit,20810,aws,https://github.com/isdedegit/terraform-aws-docker-instance,
 docker-instance,ismailmin,20780,aws,https://github.com/ismailmin/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,james-clarusway,20788,aws,https://github.com/james-clarusway/terraform-aws-docker-instance,
@@ -7983,6 +7990,7 @@ kubeflow,WOGRA-AG,11622,kustomization,https://github.com/WOGRA-AG/terraform-kust
 kubeflow,bharath-krishna,12079,module,https://github.com/bharath-krishna/terraform-module-kubeflow,Kubeflow deployment purely in Terraform
 kubeflow,combinator-ml,9492,k8s,https://github.com/combinator-ml/terraform-k8s-kubeflow,Kubeflow terraform module
 kubeflow,datarootsio,5152,module,https://github.com/datarootsio/terraform-module-kubeflow,Kubeflow deployment purely in Terraform
+kubeflow,treebeardtech,23272,kubernetes,https://github.com/treebeardtech/terraform-kubernetes-kubeflow,a Terraform module for managing Kubeflow
 kubeflow-cluster,Deepbody-inc,5654,gke,https://github.com/Deepbody-inc/terraform-gke-kubeflow-cluster,Terraform module for creating GKE clusters to run Kubeflow
 kubeflow-cluster,spotify,3725,gke,https://github.com/spotify/terraform-gke-kubeflow-cluster,
 kubeflow-metal,kubeflow-onprem,13276,kustomize,https://github.com/kubeflow-onprem/terraform-kustomize-kubeflow-metal,
@@ -10305,7 +10313,7 @@ ou-scp,Appsilon,9093,aws,https://github.com/Appsilon/terraform-aws-ou-scp,
 ou-scp,trussworks,5459,aws,https://github.com/trussworks/terraform-aws-ou-scp,Combines AWS Organizations Service Control Policies (SCP)
 out-of-band-security,GoogleCloudPlatform,22413,google,https://github.com/GoogleCloudPlatform/terraform-google-out-of-band-security,Creates a 3P out-of-band security appliance deployment
 outline,peterzam,10079,lightsail,https://github.com/peterzam/terraform-lightsail-outline,
-outline-vpn,ghdwlsgur,19537,ghdwlsgur,https://github.com/ghdwlsgur/terraform-ghdwlsgur-outline-vpn,Terraform Registry (Outline VPN)
+outline-vpn,ghdwlsgur,23273,ghdwlsgur,https://github.com/ghdwlsgur/terraform-ghdwlsgur-outline-vpn,Terraform Registry (Outline VPN)
 output-data-share,tobeyOguney,15961,aws,https://github.com/tobeyOguney/terraform-aws-output-data-share,A Terraform module to set up secure sharing of module outputs across workspaces with fine-grained access control as an alternative to remote state access.
 output-run-env-context,glenngillen,15488,tfe,https://github.com/glenngillen/terraform-tfe-output-run-env-context,Outputs the environment variables available in the context of a Terraform Cloud run.
 outputs,matti,786,shell,https://github.com/matti/terraform-shell-outputs,
@@ -10402,6 +10410,7 @@ peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terra
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
 permutations,ixydo,2101,null,https://github.com/ixydo/terraform-null-permutations,Simple module to return all possible combinations for a given pair of input lists.
 persistent-storage,jd4883,12052,kubernetes,https://github.com/jd4883/terraform-kubernetes-persistent-storage,A small module for persistent volume claim creation; designed to use externally to charts to pre-provision volumes
+persistent-storage-nfs,jd4883,23285,kubernetes,https://github.com/jd4883/terraform-kubernetes-persistent-storage-nfs,
 personal,rmalenko,21200,github,https://github.com/rmalenko/terraform-github-personal,AWS ALB EC2 R53 IAM
 personal-org,george-richardson,12519,aws,https://github.com/george-richardson/terraform-aws-personal-org,A set of modules that make running a single user AWS Organization easier.
 personas-deployment,fmunozmiranda,14992,ciscoise,https://github.com/fmunozmiranda/terraform-ciscoise-personas-deployment,
@@ -12453,6 +12462,7 @@ secured-static-website,tjboudreaux,2607,aws,https://github.com/tjboudreaux/terra
 security,bitcot,11065,aws,https://github.com/bitcot/terraform-aws-security,
 security,centriascolocation,6928,aws,https://github.com/centriascolocation/terraform-aws-security,Collection of reusable Terraform Modules aim to help with recurring topics.
 security,tedilabs,11567,aws,https://github.com/tedilabs/terraform-aws-security,🌳 A sustainable Terraform Package which creates Security resources on AWS
+security,terraform-nexus-modules,23282,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-security,Terraform module for create Nexus Security
 security-alerts,JamesWoolfenden,8799,aws,https://github.com/JamesWoolfenden/terraform-aws-security-alerts,It's a security module
 security-baseline,DNXLabs,5749,aws,https://github.com/DNXLabs/terraform-aws-security-baseline,Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 security-buckets,JamesWoolfenden,1962,aws,https://github.com/JamesWoolfenden/terraform-aws-security-buckets,Contains a module that creates a location for keeping newly generated secure objects
@@ -14127,12 +14137,12 @@ traffic-traffic-server-5xx-errors-higher-than-usual,terraform-shoreline-modules,
 trafficmirror,JamesWoolfenden,5347,aws,https://github.com/JamesWoolfenden/terraform-aws-trafficmirror,Basic Trafficmirror module
 trailwatch,thedeo,12597,aws,https://github.com/thedeo/terraform-aws-trailwatch,AWS Organization Monitor
 training-mandy,amandine-perichon,11584,aws,https://github.com/amandine-perichon/terraform-aws-training-mandy,Terraform training
+training-repository,riezebosch,23281,github,https://github.com/riezebosch/terraform-github-training-repository,
 training-vpc,murthyanish,8542,aws,https://github.com/murthyanish/terraform-aws-training-vpc,
 trainingEC2,vinodkumarkv,7181,aws,https://github.com/vinodkumarkv/terraform-aws-trainingEC2,
 trainingTF,pavan1239,17470,azure,https://github.com/pavan1239/terraform-azure-trainingTF,
 trainingec2module,mandeepmehra,8306,aws,https://github.com/mandeepmehra/terraform-aws-trainingec2module,
 trainingec2module,simranhussain,8305,aws,https://github.com/simranhussain/terraform-aws-trainingec2module,
-trainingrepo,riezebosch,23264,github,https://github.com/riezebosch/terraform-github-trainingrepo,
 transfer,BorisLabs,3328,aws,https://github.com/BorisLabs/terraform-aws-transfer,Terraform Module for AWS SFTP Transfer for S3
 transfer,devopsgoat,3510,aws,https://github.com/darren-reddick/terraform-aws-transfer,Terraform Module for a custom identity provider for the AWS Transfer for SFTP service.
 transfer-custom-idp,gotooooo,5259,aws,https://github.com/gotooooo/terraform-aws-transfer-custom-idp,Terraform module which creates Custom Identity Provider for AWS Transfer Family.
@@ -14726,7 +14736,7 @@ vpc,Gulnaz88,21559,module,https://github.com/Gulnaz88/terraform-module-vpc,
 vpc,HDE,4281,aws,https://github.com/HDE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,HENNGE,15630,aws,https://github.com/HENNGE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,HiroyukiYagihashi,6285,aws,https://github.com/yagipy/terraform-aws-vpc,
-vpc,HristoDimitrovv,21145,aws,https://github.com/HristoDimitrovv/terraform-aws-vpc,Module for AWS VPC
+vpc,HristoDimitrovv,23268,aws,https://github.com/HristoDimitrovv/terraform-aws-vpc,Module for deploying an AWS VPC
 vpc,Hushaim,20166,module,https://github.com/Hushaim/terraform-module-vpc,
 vpc,Indirka,7733,aws,https://github.com/Indirka/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,JakubBialoskorski,23135,aws,https://github.com/JakubBialoskorski/terraform-aws-vpc,Module for AWS VPC
