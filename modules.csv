@@ -1491,6 +1491,7 @@ avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/ter
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
+avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
@@ -1973,7 +1974,7 @@ bigquery,data-platform-hq,17445,google,https://github.com/data-platform-hq/terra
 bigquery,terraform-google-modules,2299,google,https://github.com/terraform-google-modules/terraform-google-bigquery,Creates opinionated BigQuery datasets and tables
 bigquery-dataset,bootlabstech,18593,google,https://github.com/bootlabstech/terraform-google-bigquery-dataset,Creates a big query datasets
 bigquery-dataset,mineiros-io,11355,google,https://github.com/mineiros-io/terraform-google-bigquery-dataset,"A Terraform module to deploy and manage datasets in Google BigQuery, a serverless, highly scalable, and cost-effective multicloud data warehouse designed for business agility.on Google Cloud Platform (GCP) https://cloud.google.com/bigquery"
-bigquery-dataset-iam,mineiros-io,11356,google,https://github.com/mineiros-io/terraform-google-bigquery-dataset-iam,A Terraform module to manage Identity and Access Management (IAM) for datasets in Google BigQuery repositories on Google Cloud Platform (GCP) https://cloud.google.com/bigquery
+bigquery-dataset-iam,mineiros-io,11356,google,https://github.com/mineiros-io/terraform-google-bigquery-dataset-iam,A Terraform module to manage Identity and Access Management (IAM) for datasets in Google BigQuery repositories in Google Cloud https://cloud.google.com/bigquery
 bigquery-destination,airbytehq,20795,airbyte,https://github.com/airbytehq/terraform-airbyte-bigquery-destination,Terraform Module for Setting Up BigQuery Destination with Airbyte
 bigquery-loader-pubsub-ce,snowplow-devops,16562,google,https://github.com/snowplow-devops/terraform-google-bigquery-loader-pubsub-ce,
 bigquery-view,janjagusch,5364,google,https://github.com/janjagusch/terraform-google-bigquery-view,A Terraform module for creating BigQuery views
@@ -3583,7 +3584,7 @@ datadog-firehose,nolotz,15514,aws,https://github.com/nolotz/terraform-aws-datado
 datadog-firewall,Utilus,1500,aws,https://github.com/Utilus/terraform-aws-datadog-firewall,Terraform module to whitelist DataDog IPs in AWS security groups
 datadog-forwarder,notespacejp,19593,aws,https://github.com/notespacejp/terraform-aws-datadog-forwarder,datadog aws forwarder module
 datadog-forwarders,clowdhaus,6384,aws,https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders,Terraform module to create resources on AWS to forward logs/metrics to Datadog 🇺🇦
-datadog-forwarders,terraform-aws-modules,13119,aws,https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders,Terraform module which creates resources on AWS to forward logs/metrics to Datadog 🇺🇦
+datadog-forwarders,terraform-aws-modules,13119,aws,https://github.com/terraform-aws-modules/terraform-aws-datadog-forwarders,Terraform module to create resources on AWS to forward logs/metrics to Datadog 🇺🇦
 datadog-integration,alvin-huang,507,aws,https://github.com/alvin-huang/terraform-aws-datadog-integration,Terraform Module to set up the Datadog AWS Integration
 datadog-integration,cloudposse,571,aws,https://github.com/cloudposse/terraform-aws-datadog-integration,Terraform module to configure Datadog AWS integration
 datadog-integration,devops-workflow,855,aws,https://github.com/devops-workflow/terraform-aws-datadog-integration,Terraform module to manage AWS configuration for Datadog integration
@@ -6033,6 +6034,7 @@ eventhub-namespace,segateway,20638,azurerm,https://github.com/segateway/terrafor
 events,SevenPico,17756,aws,https://github.com/SevenPico/terraform-aws-events,
 events,TaitoUnited,6156,google,https://github.com/TaitoUnited/terraform-google-events,
 events,emyller,13449,aws,https://github.com/emyller/terraform-aws-events,
+evh,CloudNationHQ,23323,azure,https://github.com/CloudNationHQ/terraform-azure-evh,Terraform module which creates eventhub resources used by workloads and accelerators.
 evidence-reporter,kosli-dev,19697,aws,https://github.com/kosli-dev/terraform-aws-evidence-reporter,Terraform module to deploy the Kosli ECS Evidence Reporter
 evpn,netascode,13473,nxos,https://github.com/netascode/terraform-nxos-evpn,Terraform NX-OS EVPN Module
 evpn-ospf-underlay,netascode,13445,iosxe,https://github.com/netascode/terraform-iosxe-evpn-ospf-underlay,Terraform Cisco IOS-XE EVPN OSPF Underlay Module
@@ -7091,6 +7093,7 @@ iam-group-restricted-read-only,StratusGrid,6681,aws,https://github.com/StratusGr
 iam-group-with-user-self-service,StratusGrid,2693,aws,https://github.com/StratusGrid/terraform-aws-iam-group-with-user-self-service,This module is used to create an IAM group which has user self service permissions.
 iam-groups,anthunt,6369,aws,https://github.com/anthunt/terraform-aws-iam-groups,Managing AWS IAM Groups for terraform
 iam-identity-center,OT-CLOUD-KIT,19207,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-iam-identity-center,
+iam-identity-center,aws-ia,23326,aws,https://github.com/aws-ia/terraform-aws-iam-identity-center,
 iam-instance-profile,geoffsmiller,19477,aws,https://github.com/geoffsmiller/terraform-aws-iam-instance-profile,"Terraform module that creates an AWS IAM role, attaches a list of existing policies, and create an instance profile using the role."
 iam-keys-check,trussworks,3356,aws,https://github.com/trussworks/terraform-aws-iam-keys-check,IAM Keys Check
 iam-member,bootlabstech,20612,google,https://github.com/bootlabstech/terraform-google-iam-member,
@@ -9356,6 +9359,7 @@ mssql,T-Systems-MMS,14817,azurerm,https://github.com/T-Systems-MMS/terraform-azu
 mssql,cypik,22841,google,https://github.com/cypik/terraform-google-mssql,
 mssql,yky-labs,17361,kubernetes,https://github.com/yky-labs/terraform-kubernetes-mssql,Terraform module to install Microsoft SQL Server.
 mssql-cluster-ec2,Rubynahal,13285,aws,https://github.com/Rubynahal/terraform-aws-mssql-cluster-ec2,Terraform module to create mssql cluster on ec2 using ssm automation document. Inspired by the cloudformation template provided by AWS
+mssql-configuration,data-platform-hq,23327,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-configuration,
 mssql-database,bootlabstech,17877,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-database,
 mssql-database,data-platform-hq,16052,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-database,Terraform module for managing Azure SQL Database
 mssql-db,clouddrove,16949,azure,https://github.com/clouddrove/terraform-azure-mssql-db,
@@ -10864,10 +10868,10 @@ pubsub,terraform-google-modules,2300,google,https://github.com/terraform-google-
 pubsub,tomarv2,12430,google,https://github.com/tomarv2/terraform-google-pubsub,Terraform module for Google PubSub
 pubsub-lite,bootlabstech,13581,google,https://github.com/bootlabstech/terraform-google-pubsub-lite,PubSub Lite module
 pubsub-subscription,mineiros-io,12937,google,https://github.com/mineiros-io/terraform-google-pubsub-subscription,A Terraform module to create and manage a Google Pub/Sub subscription in Google Cloud https://cloud.google.com/pubsub
-pubsub-subscription-iam,mineiros-io,11747,google,https://github.com/mineiros-io/terraform-google-pubsub-subscription-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub subscriptions on Google Cloud Platform (GCP) https://cloud.google.com/pubsub
+pubsub-subscription-iam,mineiros-io,11747,google,https://github.com/mineiros-io/terraform-google-pubsub-subscription-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub subscriptions in Google Cloud https://cloud.google.com/pubsub
 pubsub-topic,mineiros-io,12938,google,https://github.com/mineiros-io/terraform-google-pubsub-topic,A Terraform module to create and manage a Google Pub/Sub topic in Google Cloud https://cloud.google.com/pubsub
 pubsub-topic,snowplow-devops,9992,google,https://github.com/snowplow-devops/terraform-google-pubsub-topic,
-pubsub-topic-iam,mineiros-io,12939,google,https://github.com/mineiros-io/terraform-google-pubsub-topic-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub Topics on Google Cloud Platform (GCP) https://cloud.google.com/pubsub
+pubsub-topic-iam,mineiros-io,12939,google,https://github.com/mineiros-io/terraform-google-pubsub-topic-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Pub/Sub Topics in Google Cloud https://cloud.google.com/pubsub
 pulsar,terraform-tencentcloud-modules,19051,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-pulsar,
 pumej_modules-eks,Mexxy-lab,21956,aws,https://github.com/Mexxy-lab/terraform-aws-pumej_modules-eks,EKS modules sample creation project
 pumejrds-module,Mexxy-lab,22115,aws,https://github.com/Mexxy-lab/terraform-aws-pumejrds-module,"Creating a Module for deploying an AWS RDS for MySQL DB with a custom vpc, deployed using a private subnet."
@@ -12132,6 +12136,7 @@ s3backend,Ravibs139,10585,aws,https://github.com/Ravibs139/terraform-aws-s3backe
 s3backend,ScottHensen,3893,aws,https://github.com/ScottHensen/terraform-aws-s3backend,Terraform remote (s3) backend 
 s3backend,SharpenTheSoulJJ,22023,aws,https://github.com/SharpenTheSoulJJ/terraform-aws-s3backend,
 s3backend,ShebaVTech,13148,aws,https://github.com/ShebaVTech/terraform-aws-s3backend,
+s3backend,ShriyaBramdeo,23324,aws,https://github.com/ShriyaBramdeo/terraform-aws-s3backend,
 s3backend,SupSkiFun,10533,aws,https://github.com/SupSkiFun/terraform-aws-s3backend,Terraform S3 Backend Module
 s3backend,ThenjiweN,22052,aws,https://github.com/ThenjiweN/terraform-aws-s3backend,
 s3backend,Thirsty2,5070,aws,https://github.com/Thirsty2/terraform-aws-s3backend,
