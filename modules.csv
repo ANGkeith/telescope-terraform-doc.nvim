@@ -40,6 +40,7 @@ Docker-instance,danacitugba,18190,aws,https://github.com/danacitugba/terraform-a
 E2-Micro-Always-Free-Instance,adarobin,9746,oci,https://github.com/adarobin/terraform-oci-E2-Micro-Always-Free-Instance,
 EC2,sreedhar-555,14335,AWS,https://github.com/sreedhar-555/terraform-AWS-EC2,
 EC2-VPC-Webserver,swamirajp7,11539,aws,https://github.com/swamirajp7/terraform-aws-EC2-VPC-Webserver,
+EC2SecGroups,bensh199,23340,bens99,https://github.com/bensh199/terraform-bens99-EC2SecGroups,
 EKS,erkinsinc,5911,aws,https://github.com/erkinsinc/terraform-aws-EKS,
 EKS-Cluster,yashhirulkar701,16467,aws,https://github.com/yashhirulkar701/terraform-aws-EKS-Cluster,
 EKS-Lil,lily4499,21997,AWS,https://github.com/lily4499/terraform-AWS-EKS-Lil,
@@ -1069,7 +1070,7 @@ artifact-packager,cruxstack,20230,docker,https://github.com/cruxstack/terraform-
 artifact-packager,sgtoj,19929,docker,https://github.com/cruxstack/terraform-docker-artifact-packager,Terraform Module to build extractable artifacts using docker without polluting host environment. 
 artifact-reader,JamesWoolfenden,21297,gcp,https://github.com/JamesWoolfenden/terraform-gcp-artifact-reader,
 artifact-registry,Aselya2507,17980,google,https://github.com/Aselya2507/terraform-google-artifact-registry,module-for-pulish
-artifact-registry,GoogleCloudPlatform,22159,google,https://github.com/GoogleCloudPlatform/terraform-google-artifact-registry,Terraform Module to create Google Artifact Registry Repositories
+artifact-registry,GoogleCloudPlatform,22159,google,https://github.com/GoogleCloudPlatform/terraform-google-artifact-registry,Create and manage Google Artifact Registry Repositories
 artifact-registry,Serdesta,18075,google,https://github.com/Serdesta/terraform-google-artifact-registry,
 artifact-registry,Tamiyudan,17965,google,https://github.com/Tamiyudan/terraform-google-artifact-registry,
 artifact-registry,binxio,8235,google,https://github.com/binxio/terraform-google-artifact-registry,Generic Google Artifact Registry module for Terraform 
@@ -6739,7 +6740,6 @@ glue-data-catalog-encryption,dod-iac,8596,aws,https://github.com/dod-iac/terrafo
 glue-dev-endpoint,MitocGroup,2540,aws,https://github.com/MitocGroup/terraform-aws-glue-dev-endpoint,"Terraform code to create, update or delete AWS Glue dev endpoint(s)"
 glue-iam-policy,dod-iac,8335,aws,https://github.com/dod-iac/terraform-aws-glue-iam-policy,Creates an IAM policy for AWS Glue
 glue-iam-role,dod-iac,8049,aws,https://github.com/dod-iac/terraform-aws-glue-iam-role,IAM Role for use as a Glue service role
-glue-job,komminarlab,22337,aws,https://github.com/komminarlab/terraform-aws-glue-job,Terraform module to create and manage a AWS Glue job
 glue-job,komminarlabs,23005,aws,https://github.com/komminarlabs/terraform-aws-glue-job,Terraform module to create and manage a AWS Glue job
 glue-job,pquintero,11450,aws,https://github.com/pquintero/terraform-aws-glue-job,This repository contains the basic definition for the AWS Glue job deployment
 glue-job,vitalibo,13888,aws,https://github.com/vitalibo/terraform-aws-glue-job,Terraform module which creates Glue Job resources on AWS.
@@ -8952,7 +8952,6 @@ mcp,netascode,9944,aci,https://github.com/netascode/terraform-aci-mcp,Terraform 
 mcp-policy,netascode,9945,aci,https://github.com/netascode/terraform-aci-mcp-policy,Terraform Cisco ACI MCP Policy Module
 mdb-opensearch,terraform-yacloud-modules,22783,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-opensearch,
 mdc-defender-plans-azure,Azure,18893,azure,https://github.com/Azure/terraform-azure-mdc-defender-plans-azure,
-meadow,GrassfedTools,8130,aws,https://github.com/GrassfedTools/terraform-aws-meadow,
 media-cdn-vod,GoogleCloudPlatform,15839,google,https://github.com/GoogleCloudPlatform/terraform-google-media-cdn-vod,
 media-convert-queue,JamesWoolfenden,12483,aws,https://github.com/JamesWoolfenden/terraform-aws-media-convert-queue,Basic media-convert-queue module
 media-services,bootlabstech,15511,azurerm,https://github.com/bootlabstech/terraform-azurerm-media-services,
@@ -9087,6 +9086,8 @@ module,EtgaErdem7,22283,eks,https://github.com/EtgaErdem7/terraform-eks-module,
 module,Georgii-M,10436,nat,https://github.com/Georgii-M/terraform-nat-module,This repo contains terraform modules ready-to-use in production
 module,Grokon,17026,digitalocean,https://github.com/Grokon/terraform-digitalocean-module,Terraform module for managing DigitalOcean Droplets and related resources
 module,Lavanya2509,17109,azure,https://github.com/Lavanya2509/terraform-azure-module,
+module,MasterAB28,23338,sg,https://github.com/MasterAB28/terraform-sg-module,
+module,agelosnm,23344,eks,https://github.com/agelosnm/terraform-eks-module,
 module,alinefr,6525,docker,https://github.com/alinefr/terraform-docker-module,Module to create & maintain docker resources from terraform
 module,bmahathi,14886,aws,https://github.com/bmahathi/terraform-aws-module,
 module,cloudposse,5322,example,https://github.com/cloudposse/terraform-example-module,Example Terraform Module Scaffolding
@@ -9732,6 +9733,7 @@ network,AshwiniKhedekar,19029,google,https://github.com/AshwiniKhedekar/terrafor
 network,Azure,33,azurerm,https://github.com/Azure/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,DNXLabs,5743,aws,https://github.com/DNXLabs/terraform-aws-network,"Terraform module for creating basic network resources: VPC, subnets and NAT."
 network,DanielMabbett,6002,azurerm,https://github.com/DanielMabbett/terraform-azurerm-network,A better AzureRM network (vnet) module
+network,FlyingSnake,23345,aws,https://github.com/FlyingSnake/terraform-aws-network,Terraform Module (AWS Network Resource Initialization)
 network,JamesWoolfenden,7708,gcp,https://github.com/JamesWoolfenden/terraform-gcp-network,Basic Network module
 network,LorenaUdroiu,10835,google,https://github.com/LorenaUdroiu/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,Muraliazure,5693,azurerm,https://github.com/Muraliazure/terraform-azurerm-updatednetwork,Terraform Azure RM Module for Network
@@ -12278,7 +12280,6 @@ sagemaker-domain,bootlabstech-m,20818,aws,https://github.com/bootlabstech-m/terr
 sagemaker-huggingface,philschmid,11944,aws,https://github.com/philschmid/terraform-aws-sagemaker-huggingface,
 sagemaker-iam-role,dod-iac,8381,aws,https://github.com/dod-iac/terraform-aws-sagemaker-iam-role,IAM Role for use as a SageMaker service role
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
-sagemaker-studio,komminarlab,22339,aws,https://github.com/komminarlab/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
 sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 sam-gitflow,toluna-terraform,16573,aws,https://github.com/toluna-terraform/terraform-aws-sam-gitflow,
@@ -12839,7 +12840,7 @@ shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terrafo
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
 shared-image-gallery,claranet,21466,azurerm,https://github.com/claranet/terraform-azurerm-shared-image-gallery,Terraform module for Azure Shared Image Gallery
 shared-vpc-tagger,oslokommune,17178,aws,https://github.com/oslokommune/terraform-aws-shared-vpc-tagger,Tags VPCs and subnets that you did not create yourself (ie. shared VPCs)
-sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 / 2013 on Azure
+sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 on Azure
 sharmistorage1,Sharmich09,13213,azure,https://github.com/Sharmich09/terraform-azure-sharmistorage1,
 sharp-server,Krossnine,17569,aws,https://github.com/Krossnine/terraform-aws-sharp-server,Terraform module to deploy Sharp Server on AWS
 shell-data,BrynardSecurity-terraform,12993,external,https://github.com/BrynardSecurity-terraform/terraform-external-shell-data,
@@ -13357,6 +13358,7 @@ static,srujanvk,16860,azurerm,https://github.com/srujanvk/terraform-azurerm-stat
 static-app,DNXLabs,5751,aws,https://github.com/DNXLabs/terraform-aws-static-app,This is a module that creates a static application with a OAI Cloudfront.
 static-assets,gruntwork-io,2441,google,https://github.com/gruntwork-io/terraform-google-static-assets,"Modules for managing static assets (CSS, JS, images) in GCP"
 static-assets,simplycubed,9954,google,https://github.com/simplycubed/terraform-google-static-assets,"Modules for managing static assets (CSS, JS, images) in GCP"
+static-cdn-web-app,tal-rofe,23337,aws,https://github.com/tal-rofe/terraform-aws-static-cdn-web-app," Terraform module for AWS to host static web application on S3 and cached on CloudFront"
 static-https-website,hendrixroa,7641,aws,https://github.com/hendrixroa/terraform-aws-static-https-website,Terraform module to provision a Cloudfront distribution to enable https traffic to a s3 static website.
 static-ip,tf-cloud-modules,15096,aiven,https://github.com/tf-cloud-modules/terraform-aiven-static-ip,
 static-s3-website-template,LeonFedotov,15083,aws,https://github.com/LeonFedotov/terraform-aws-static-s3-website-template,A Terraform template for creating a static s3 website fronted by Cloudfront
@@ -13993,6 +13995,7 @@ terraformmodules,tasinight,13851,aws,https://github.com/tasinight/terraform-aws-
 terragrantEC2,Abdulpersonal,16977,aws,https://github.com/Abdulpersonal/terraform-aws-terragrantEC2,
 terragrunt-registry-test,denis256,23328,null,https://github.com/denis256/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
 terragrunt-registry-test,yorinasub17,9932,null,https://github.com/yorinasub17/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
+terramodule,Nikxy,23341,nikxy,https://github.com/Nikxy/terraform-nikxy-terramodule,
 terrible,cloudboss,5406,cloudinit,https://github.com/cloudboss/terraform-cloudinit-terrible,
 tesseract,metailurini,22690,metailurini,https://github.com/metailurini/terraform-metailurini-tesseract,
 test,Hacknerr,20847,azurerm,https://github.com/Hacknerr/terraform-azurerm-test,This should be a simple one sentence description of the module.
@@ -15522,6 +15525,7 @@ webapp-arch,bootlabstech,18005,azurerm,https://github.com/bootlabstech/terraform
 webapp-php,genstackio,7898,aws,https://github.com/genstackio/terraform-aws-webapp-php,Terraform module to create a PHP Webapp embedded in a Lambda
 webapp-symfony,genstackio,7897,aws,https://github.com/genstackio/terraform-aws-webapp-symfony,Terraform module to create a Symfony (PHP) Webapp embedded in a Lambda
 webapp-windows,bootlabstech,19945,azurerm,https://github.com/bootlabstech/terraform-azurerm-webapp-windows,
+webapp-windows-with-vnet,bootlabstech,23336,azurerm,https://github.com/bootlabstech/terraform-azurerm-webapp-windows-with-vnet,terraform-azurerm-webapp-windows-with-vnet
 webapp1,attila1010,7954,azurerm,https://github.com/attila1010/terraform-azurerm-webapp1,
 webapp_module,scalesafely,21230,azure,https://github.com/scalesafely/terraform-azure-webapp_module,
 webappcert,AdamCoulterOz,6358,azurerm,https://github.com/AdamCoulterOz/terraform-azurerm-webappcert,
