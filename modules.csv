@@ -867,7 +867,6 @@ app-service,kumarvna,9636,azurerm,https://github.com/kumarvna/terraform-azurerm-
 app-service,miljodir,22154,azurerm,https://github.com/miljodir/terraform-azurerm-app-service,Terraform module composition (feature) for Azure App Service (Service Plan + WebApp)
 app-service,telekom-mms,21874,azurerm,https://github.com/telekom-mms/terraform-azurerm-app-service,A Terraform module that manages the app service resources from the azurerm provider.
 app-service,userdev-ops,19943,azurerm,https://github.com/userdev-ops/terraform-azurerm-app-service,Terraform module that deploys an azure web app
-app-service-linux-containers,spy86,13422,azure,https://github.com/spy86/terraform-azure-app-service-linux-containers,Terraform Module for Azure App Service (docker containers)
 app-service-plan,KamenYovchev,6263,azurerm,https://github.com/KamenYovchev/terraform-azurerm-app-service-plan,
 app-service-plan,bootlabstech,15519,azurerm,https://github.com/bootlabstech/terraform-azurerm-app-service-plan,
 app-service-plan,claranet,3373,azurerm,https://github.com/claranet/terraform-azurerm-app-service-plan,Terraform module for Azure Service Plan
@@ -3481,8 +3480,10 @@ dashboard,cookielab,3420,kubernetes,https://github.com/cookielab/terraform-kuber
 dashboard,hadenlabs,11934,grafana,https://github.com/hadenlabs/terraform-grafana-dashboard,Grafana dashboard Terraform module
 dashboard,kumarvna,10172,azurerm,https://github.com/kumarvna/terraform-azurerm-dashboard,Terraform module to create a focused and organised view of the cloud resources in the Azure portal. 
 dashboard,projectkerberus,9068,kerberus,https://github.com/projectkerberus/terraform-kerberus-dashboard,Terraform module which deploys the Kerberus Dashboard on your Kubernetes cluster.
+dashboard,synvert-datadrivers,23347,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard,Create SignalFX Dashboards based on the json export scheme
 dashboard,terraform-iaac,9285,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard,Terraform module create dashboard for access to kubernetes cluster
 dashboard-apicall,KamranBiglari,21216,aws,https://github.com/KamranBiglari/terraform-aws-dashboard-apicall,
+dashboard-converter,synvert-datadrivers,23346,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard-converter,
 dashboard-ldap-auth,terraform-iaac,9286,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard-ldap-auth,Terraform module for auth to kubernetes dashboard via LDAP 
 dashboards,SunDevs,8210,grafana,https://github.com/SunDevs/terraform-grafana-dashboards,
 data,diego-alves,8269,aws,https://github.com/diego-alves/terraform-aws-data,A Terraform Module for obtein dta from AWS resource
@@ -3855,6 +3856,7 @@ dns,darzanebor,14718,yandex,https://github.com/darzanebor/terraform-yandex-dns,Y
 dns,dasmeta,16005,aws,https://github.com/dasmeta/terraform-aws-dns,Route53 DNS related functionality
 dns,dmaclaury,17826,pihole,https://github.com/dmaclaury/terraform-pihole-dns,Terraform module for PiHole local dns records
 dns,dtoch56,16140,yandex,https://github.com/dtoch56/terraform-yandex-dns,DNS module
+dns,finisterra-io,23351,cloudflare,https://github.com/finisterra-io/terraform-cloudflare-dns,
 dns,garbetjie,5767,google,https://github.com/garbetjie/terraform-google-dns,A Terraform module for managing DNS records in Google Cloud.
 dns,genstackio,8003,aws,https://github.com/genstackio/terraform-aws-dns,Terraform module to create an AWS Route53 DNS resources
 dns,hanyouqing,3748,alicloud,https://github.com/hanyouqing/terraform-alicloud-dns,terraform-alicloud-dns
@@ -4321,6 +4323,7 @@ docker-instance,oraykamberoglu,14625,aws,https://github.com/oraykamberoglu/terra
 docker-instance,orhanbicak,20778,aws,https://github.com/orhanbicak/terraform-aws-docker-instance,
 docker-instance,osman-cimen,20794,aws,https://github.com/osman-cimen/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,osman-e,20774,aws,https://github.com/osman-cimen/terraform-aws-docker-instance,
+docker-instance,osmantas1638,23348,aws,https://github.com/osmantas1638/terraform-aws-docker-instance," Description: Terraform module which creates a docker instance resource on AWS."
 docker-instance,osmnnunal,15708,aws,https://github.com/osmnnunal/terraform-aws-docker-instance,
 docker-instance,ozcan19,15709,aws,https://github.com/ozcan19/terraform-aws-docker-instance,
 docker-instance,ozcanyolcu,16319,aws,https://github.com/ozcanyolcu/terraform-aws-docker-instance,
@@ -8655,7 +8658,6 @@ linux-vm,claranet,3508,azurerm,https://github.com/claranet/terraform-azurerm-lin
 linux-vm,data-platform-hq,20156,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-vm,
 linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-linux-vm,This module provisions a stand-alone Linux VM and uses Terraform 0.12+.
 linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
-linux-vm,spy86,13318,azure,https://github.com/spy86/terraform-azure-linux-vm,Terraform Module for Azure Linux VM
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
 linux-vm-scale-sets,libre-devops,13608,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm-scale-sets,A module which will build Linux Virtual Machine Scale Sets
 linux-web-app,data-platform-hq,16002,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-web-app,Terraform module for managing Azure Linux Web App
@@ -9641,7 +9643,7 @@ namespace,sentinelfox-labs,22501,utils,https://github.com/sentinelfox-labs/terra
 namespace,sergiupascal,22935,kubernetes,https://github.com/sergiupascal/terraform-kubernetes-namespace,
 namespace,shuhreeezy,21967,kubernetes,https://github.com/shuhreeezy/terraform-kubernetes-namespace,repo for namespace via terraform k8s
 namespace,tatianazubco11,22945,kubernetes,https://github.com/tatianazubco11/terraform-kubernetes-namespace,
-namespace,terraform-ibm-modules,23137,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-namespace,"Implements a ICD Postgresql instance with tags, users, memory allocation, disk allocation, cpu allocation and context based restrictions"
+namespace,terraform-ibm-modules,23137,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-namespace,Configures a Kubernetes namespace or Openshift project.
 namespace,terraform-module,4948,kubernetes,https://github.com/terraform-module/terraform-kubernetes-namespace,Wrapper for https://www.terraform.io/docs/providers/kubernetes/r/namespace.html
 namespace,thejondaw,22907,kubernetes,https://github.com/thejondaw/terraform-kubernetes-namespace,
 namespace,xinya0203,21971,kubernetes,https://github.com/xinya0203/terraform-kubernetes-namespace,
@@ -10274,6 +10276,7 @@ org-project,bootlabstech,11291,google,https://github.com/bootlabstech/terraform-
 org-roles,Xorima,11854,tfe,https://github.com/xorima/terraform-tfe-org-roles,Terraform Module to help manage the organisational roles within TF
 org-scp,trussworks,4246,aws,https://github.com/trussworks/terraform-aws-org-scp,Enables AWS Organizations Service Control Policies (SCP) with good defaults
 org-units-map,cgetzen,5004,aws,https://github.com/cgetzen/terraform-aws-org-units-map,Collects existing AWS organizational units for easy use
+organisation,opsheaven,23349,github,https://github.com/opsheaven/terraform-github-organisation,OpsHeaven's Terraform module to manage GitHub Organizations.
 organization,DNXLabs,5745,aws,https://github.com/DNXLabs/terraform-aws-organization,Terraform module to create a AWS Organization.
 organization,Flaconi,11989,github,https://github.com/Flaconi/terraform-github-organization,Terraform module to manage GitHub organization settings
 organization,HappyPathway,1558,tfe,https://github.com/HappyPathway/terraform-tfe-organization,
@@ -10619,7 +10622,6 @@ postgresql-for-hasura,crismali,15177,aws,https://github.com/crismali/terraform-a
 postgresql-rds,azavea,169,aws,https://github.com/azavea/terraform-aws-postgresql-rds,A Terraform module to create an Amazon Web Services (AWS) PostgreSQL Relational Database Server (RDS).
 postgresql-read-replica,booyaa,3333,azurerm,https://github.com/booyaa/terraform-azurerm-postgresql-read-replica,A module for creating Azure Database for PostgreSQL Read Replicas
 postgresql-server,snowplow-devops,19636,azurerm,https://github.com/snowplow-devops/terraform-azurerm-postgresql-server,
-postgresql-server,spy86,13375,azure,https://github.com/spy86/terraform-azure-postgresql-server,Terraform Module for Azure Postgresql Server
 powervs-infrastructure,terraform-ibm-modules,19742,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-infrastructure,Sets up and configures a ready-to-use Power Virtual Servers infrastructure with IBM Cloud landing zone.
 powervs-instance,terraform-ibm-modules,21573,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-instance,Creates and configures Power Virtual Server instance
 powervs-sap,terraform-ibm-modules,19763,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-powervs-sap,Creates and configures Linux-based Power Virtual Servers instances for SAP and connects them to a proxy server
@@ -12697,7 +12699,6 @@ service-bus,clouddrove,17160,azure,https://github.com/clouddrove/terraform-azure
 service-bus,innovationnorway,2716,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus,thuanvltk,8233,azurerm,https://github.com/thuanvltk/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus-namespace,ptonini,22177,azurerm,https://github.com/ptonini/terraform-azurerm-service-bus-namespace,
-service-bus-namespace,spy86,13389,azure,https://github.com/spy86/terraform-azure-service-bus-namespace,Terraform module for Azure service bus namespace
 service-bus-queue,ptonini,22176,azurerm,https://github.com/ptonini/terraform-azurerm-service-bus-queue,
 service-bus-queue,spy86,13394,azure,https://github.com/spy86/terraform-azure-service-bus-queue,Terraform module for Azure service bus queue
 service-bus-subscription,ptonini,22174,azurerm,https://github.com/ptonini/terraform-azurerm-service-bus-subscription,
@@ -12733,6 +12734,7 @@ service-principal,claranet,15895,azurerm,https://github.com/claranet/terraform-a
 service-principal,innovationnorway,1371,azurerm,https://github.com/innovationnorway-archive/terraform-azuread-service-principal,Create a service principal and configure it's access to Azure resources.
 service-principal,innovationnorway,2166,azuread,https://github.com/innovationnorway-archive/terraform-azuread-service-principal,Create a service principal and configure it's access to Azure resources.
 service-principal,kumarvna,5477,azuread,https://github.com/kumarvna/terraform-azuread-service-principal,Terraform module to create a service principal and configure access to Azure resources
+service-principal,libre-devops,23350,azuread,https://github.com/libre-devops/terraform-azuread-service-principal,A module used to help deploy a service principal in Azure
 service-principal,ptonini,16753,azuread,https://github.com/ptonini/terraform-azuread-service-principal,
 service-principal,tomarv2,12431,azure,https://github.com/tomarv2/terraform-azure-service-principal,Terraform module for Azure Service Principal
 service-principle,CalvinRodo,1761,azurerm,https://github.com/CalvinRodo/terraform-azurerm-service-principle,A terraform module for creating service principles in azure
@@ -14517,7 +14519,6 @@ virtual-network-manager-configuration,cyber-scot,22412,azurerm,https://github.co
 virtual-network-manager-security-admin-rules,cyber-scot,22492,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager-security-admin-rules,A module used to add security admin rules to Azure Virtual Network Manager (Azure Virtual Network Manager) 🛜👩‍💼
 virtual-network-peering,aztfm,6545,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network-peering,Terraform module for Microsoft Azure to manage Virtual Network Peering resource.
 virtual-network-spoke,avinor,2537,azurerm,https://github.com/avinor/terraform-azurerm-virtual-network-spoke,Terraform module to create a spoke virtual network according to Microsoft Best Practice of deploying Hub-Spoke
-virtual-network-with-bastion-host,spy86,13333,azure,https://github.com/spy86/terraform-azure-virtual-network-with-bastion-host,Terraform Module for Azure Virtual Network with Azure Bastion Host
 virtual-wan,claranet,11058,azurerm,https://github.com/claranet/terraform-azurerm-virtual-wan,Terraform module for Azure Virtual WAN
 virtual-wan,innovationnorway,6204,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-virtual-wan,
 virtualMachine,monbostest,15518,google,https://github.com/monbostest/terraform-google-virtualMachine,This Repo will be published to terraform registry
