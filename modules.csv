@@ -475,6 +475,7 @@ alb,josephphyo,9261,aws,https://github.com/josephphyo/terraform-aws-alb,Terrafor
 alb,justtrackio,20957,aws,https://github.com/justtrackio/terraform-aws-alb,Terraform module which creates an alb
 alb,kurron,523,aws,https://github.com/kurron/terraform-aws-alb,Terraform module that sets up an Application Load Balancer
 alb,luizandrends,19456,aws,https://github.com/luizandrends/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources 🇺🇦
+alb,magicorntech,23362,aws,https://github.com/magicorntech/terraform-aws-alb,Magicorn AWS Application Load Balancer Module
 alb,mergermarket,3711,acuris,https://github.com/mergermarket/terraform-acuris-alb,
 alb,mineiros-io,11349,aws,https://github.com/mineiros-io/terraform-aws-alb,A Terraform module to manage an Application Load Balancer (ALB) on Amazon Web Services (AWS). https://aws.amazon.com/elasticloadbalancing/application-load-balancer
 alb,mswaroopa11,10354,aws,https://github.com/mswaroopa11/terraform-aws-alb,Terraform module to create an AWS Application/Network Load Balancer (ALB/NLB) and associated resources
@@ -844,7 +845,7 @@ app,terraform-do-modules,20670,digitalocean,https://github.com/terraform-do-modu
 app,zahiar,10573,docker,https://github.com/zahiar/terraform-docker-app,"A Terraform module that takes in a Docker Compose like config, and outputs valid Docker Compose YAML & AWS ECS Task Definition JSON."
 app-boundary,devops-rob,11293,azuread,https://github.com/devops-rob/terraform-azuread-app-boundary,This Terraform module creates an application in Azure AD for HashiCorp Boundary to use when configuring Azure OIDC authentication. 
 app-configuration,claranet,19914,azurerm,https://github.com/claranet/terraform-azurerm-app-configuration,Terraform module for Azure App Configuration
-app-configuration,terraform-ibm-modules,21663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-app-configuration,
+app-configuration,terraform-ibm-modules,21663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-app-configuration,Create an App Configuration instance and optionally allows for multiple App Configuration Collections to be created.
 app-consul-sync-nia,arielazem,6433,bigip,https://github.com/arielazem/terraform-bigip-app-consul-sync-nia,This terraform module leverages consul-terraform-sync to create and update application services on BIG-IP based on registered services within Consul
 app-consul-sync-nia,f5devcentral,6354,bigip,https://github.com/f5devcentral/terraform-bigip-app-consul-sync-nia,This terraform module leverages consul-terraform-sync to create and update application services on BIG-IP based on registered services within Consul
 app-delivery-network,volterraedge,7446,volterra,https://github.com/volterraedge/terraform-volterra-app-delivery-network,Volterra Terraform Module for App Delivery Network Use-Case
@@ -1492,6 +1493,7 @@ avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/ter
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
+avm-res-storage-storageaccount,chinthakaru,23355,azurerm,https://github.com/chinthakaru/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
@@ -2539,6 +2541,7 @@ cloud-storage,chriskasparmayo,3346,google,https://github.com/chriskasparmayo/ter
 cloud-storage,data-platform-hq,17449,google,https://github.com/data-platform-hq/terraform-google-cloud-storage,Terraform module for managing Google Cloud Storage
 cloud-storage,drandell,18865,google,https://github.com/drandell/terraform-google-cloud-storage,A modern google cloud storage module
 cloud-storage,getindata,17281,google,https://github.com/getindata/terraform-google-cloud-storage,Terraform module for managing GCP Cloud Storage 
+cloud-storage,shansrii,23357,google,https://github.com/shansrii/terraform-google-cloud-storage,Creates one or more Cloud Storage buckets and assigns basic permissions on them to arbitrary users
 cloud-storage,terraform-google-modules,2514,google,https://github.com/terraform-google-modules/terraform-google-cloud-storage,Creates one or more Cloud Storage buckets and assigns basic permissions on them to arbitrary users
 cloud-storage,viswanth165,11084,google,https://github.com/viswanth165/terraform-google-cloud-storage,
 cloud-storage,yuyatinnefeld,17663,google,https://github.com/yuyatinnefeld/terraform-google-cloud-storage,
@@ -3483,7 +3486,7 @@ dashboard,projectkerberus,9068,kerberus,https://github.com/projectkerberus/terra
 dashboard,synvert-datadrivers,23347,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard,Create SignalFX Dashboards based on the json export scheme
 dashboard,terraform-iaac,9285,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard,Terraform module create dashboard for access to kubernetes cluster
 dashboard-apicall,KamranBiglari,21216,aws,https://github.com/KamranBiglari/terraform-aws-dashboard-apicall,
-dashboard-converter,synvert-datadrivers,23346,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard-converter,
+dashboard-converter,synvert-datadrivers,23346,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard-converter,Terraform module which parses dashboard exports into terraform parameters
 dashboard-ldap-auth,terraform-iaac,9286,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard-ldap-auth,Terraform module for auth to kubernetes dashboard via LDAP 
 dashboards,SunDevs,8210,grafana,https://github.com/SunDevs/terraform-grafana-dashboards,
 data,diego-alves,8269,aws,https://github.com/diego-alves/terraform-aws-data,A Terraform Module for obtein dta from AWS resource
@@ -5135,6 +5138,7 @@ ecs-cluster,infrablocks,649,aws,https://github.com/infrablocks/terraform-aws-ecs
 ecs-cluster,jerinrathnam,19103,aws,https://github.com/jerinrathnam/terraform-aws-ecs-cluster,Terraform Module for AWS ECS Cluster
 ecs-cluster,l4gdev,17500,aws,https://github.com/l4gdev/terraform-aws-ecs-cluster,
 ecs-cluster,madelabs,20546,aws,https://github.com/madelabs/terraform-aws-ecs-cluster,A Terraform module for managing an AWS ECS Cluster.
+ecs-cluster,magicorntech,23363,aws,https://github.com/magicorntech/terraform-aws-ecs-cluster,Magicorn AWS ECS Cluster Module (Fargate Only)
 ecs-cluster,meshhq,191,meshhq,https://github.com/meshhq/terraform-meshhq-ecs-cluster,
 ecs-cluster,mhmdio,7334,aws,https://github.com/mhmdio/terraform-aws-ecs-cluster,Terraform module for AWS ECS Cluster
 ecs-cluster,miguelaferreira,636,aws,https://github.com/miguelaferreira/terraform-aws-ecs-cluster,Mirror of https://gitlab.com/open-source-devex/terraform-modules/aws/ecs-cluster
@@ -5286,6 +5290,7 @@ ecs-service,l4gdev,13339,aws,https://github.com/l4gdev/terraform-aws-ecs-service
 ecs-service,lazzurs,4000,aws,https://github.com/lazzurs/terraform-aws-ecs-service,Terraform module for creating an ECS service
 ecs-service,leonardobiffi,14048,aws,https://github.com/leonardobiffi/terraform-aws-ecs-service,"Terraform module to create an ECS Service for a web app (task), with existint ALB and Cluster"
 ecs-service,luboleg,11475,aws,https://github.com/luboleg/terraform-aws-ecs-service,Terraform module for creating an ECS service
+ecs-service,magicorntech,23364,aws,https://github.com/magicorntech/terraform-aws-ecs-service,Magicorn AWS ECS Service Module (Fargate Only)
 ecs-service,mergermarket,3689,acuris,https://github.com/mergermarket/terraform-acuris-ecs-service,Create ECS service and associated resources
 ecs-service,mesmeromair,11774,aws,https://github.com/mesmeromair/terraform-aws-ecs-service,Creates an ECS Service.
 ecs-service,mineiros-io,11350,aws,https://github.com/mineiros-io/terraform-aws-ecs-service,A Terraform module to manage Amazon Elastic Container Service (ECS) Services on Amazon Web Services (AWS). https://aws.amazon.com/ecs
@@ -6070,6 +6075,7 @@ exchange-online-dns-records,companytone,2600,cloudflare,https://github.com/compa
 exchange-online-dns-records-module,companytone,2597,cloudflare,https://github.com/companytone/terraform-cloudflare-exchange-online-dns-records,Create all DNS needed for Microsoft Exchange Online on Cloudflare
 exclude-files,ofhouse,9743,test,https://github.com/ofhouse/terraform-test-exclude-files,Terraform module test
 exclude-files,terraform-registry-test,9741,test,https://github.com/ofhouse/terraform-test-exclude-files,Terraform module test
+executor,theorigamicorporation,23361,ssh,https://github.com/theorigamicorporation/terraform-ssh-executor,Terraform module to easily execute scripts via SSH with many customizable features
 executors,sourcegraph,10336,aws,https://github.com/sourcegraph/terraform-aws-executors,
 executors,sourcegraph,10337,google,https://github.com/sourcegraph/terraform-google-executors,
 exo-domain,exobase-inc,14579,aws,https://github.com/exobase-inc/terraform-aws-exo-domain,
@@ -8401,6 +8407,7 @@ lambda-layer,figurate,4973,aws,https://github.com/figurate/terraform-aws-lambda-
 lambda-layer,hendrixroa,5703,aws,https://github.com/hendrixroa/terraform-aws-lambda-layer,Module to avoid the continues installing dependencies and libraries for functions lambda
 lambda-layer-auto-package,damacus,5130,aws,https://github.com/damacus/terraform-aws-lambda-layer-auto-package,A terraform module to define a lambda layer which source files are automatically built and packaged for deployment.
 lambda-layer-generator,Robyt96,22553,aws,https://github.com/Robyt96/terraform-aws-lambda-layer-generator,Terraform module to create a Lambda function able to create Lambda Layers with custom Python packages
+lambda-layer-python,brentnequin,23353,aws,https://github.com/brentnequin/terraform-aws-lambda-layer-python,
 lambda-layer-version-mod,corpit-consulting-public,2799,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-layer-version,
 lambda-madlibrarian,armorfret,2196,aws,https://github.com/armorfret/terraform-aws-lambda-madlibrarian,Terraform module for provisioning akerl/madlibrarian-lambda
 lambda-metric-alarms,dod-iac,7175,aws,https://github.com/dod-iac/terraform-aws-lambda-metric-alarms,Metric alarms for AWS Lambda
@@ -10336,6 +10343,7 @@ oss-object,terraform-alicloud-modules,2125,alicloud,https://github.com/alibabacl
 oss-project,relaycorp,11226,github,https://github.com/relaycorp/terraform-github-oss-project,Terraform module for open source projects by Relaycorp
 ottertune-iam,ottertune,11701,aws,https://github.com/ottertune/terraform-aws-ottertune-iam,IAM resources for OtterTune customers
 ou-scp,Appsilon,9093,aws,https://github.com/Appsilon/terraform-aws-ou-scp,
+ou-scp,transcom,23359,aws,https://github.com/transcom/terraform-aws-ou-scp,Combines AWS Organizations Service Control Policies (SCP)
 ou-scp,trussworks,5459,aws,https://github.com/trussworks/terraform-aws-ou-scp,Combines AWS Organizations Service Control Policies (SCP)
 out-of-band-security,GoogleCloudPlatform,22413,google,https://github.com/GoogleCloudPlatform/terraform-google-out-of-band-security,Creates a 3P out-of-band security appliance deployment
 outline,peterzam,10079,lightsail,https://github.com/peterzam/terraform-lightsail-outline,
@@ -11655,6 +11663,7 @@ root-login-notification,Neo-Cobolt,17089,aws,https://github.com/Neo-Cobolt/terra
 root-login-notifications,trussworks,3352,aws,https://github.com/trussworks/terraform-aws-root-login-notifications,Root Login Notifications
 root-records,jd4883,7269,digitalocean,https://github.com/jd4883/terraform-digitalocean-root-records,Small terraform module for creating root records for one or more domains (if instantiated in a loop) with DigitalOcean. 
 rosa,terraform-redhat,21675,rhcs,https://github.com/terraform-redhat/terraform-rhcs-rosa,Terraform module which creates ROSA cluster
+rosa-classic,terraform-redhat,23354,rhcs,https://github.com/terraform-redhat/terraform-rhcs-rosa-classic,Terraform module which creates ROSA cluster
 rosa-privatelink-vpc,rh-mobb,14011,aws,https://github.com/rh-mobb/terraform-aws-rosa-privatelink-vpc,This is the terraform module to provision a rosa AWS VPC
 rosa-sts,terraform-redhat,17511,aws,https://github.com/terraform-redhat/terraform-aws-rosa-sts,"Create ROSA cluster resources, operator IAM roles, policies and identity provider in an declarative way"
 rosa-sts-account-roles,rh-mobb,15794,aws,https://github.com/rh-mobb/terraform-aws-rosa-sts-account-roles,This module has deprecated. Please refer the official module https://registry.terraform.io/modules/terraform-redhat/rosa-sts/aws/latest
@@ -13828,6 +13837,7 @@ tagger,Infrastrukturait,14306,null,https://github.com/Infrastrukturait/terraform
 tagging,claranet,4178,azurerm,https://github.com/claranet/terraform-azurerm-tagging,Terraform module for Resources Tagging
 tagging-lambda,scholzj,423,aws,https://github.com/scholzj/terraform-aws-tagging-lambda,AWS Lambda function for tagging resources
 tagging-lambda,zendad,11283,aws,https://github.com/zendad/terraform-aws-tagging-lambda,
+taggingpolicies,obay,23352,azurerm,https://github.com/obay/terraform-azurerm-taggingpolicies,Tagging policies for Azure
 taggingpolicy,Trishisingh,20025,azure,https://github.com/Trishisingh/terraform-azure-taggingpolicy,
 tags,4ops,4590,null,https://github.com/4ops/terraform-null-tags,Simple terraform module for tags management
 tags,7clouds-terraform-modules,15767,aws,https://github.com/7clouds-terraform-modules/terraform-aws-tags,Tags Module
@@ -14059,7 +14069,6 @@ tf-state,jacops,4489,azurerm,https://github.com/jacops/terraform-azurerm-tf-stat
 tf5-docker,gsharp23,18277,aws,https://github.com/gsharp23/terraform-aws-tf5-docker,
 tfbackend,claque2000,948,aws,https://github.com/claque2000/terraform-aws-tfbackend,A module to abstract s3 secured backend with dynamodb lock for Terraform
 tfbackend,tf-mod,2839,aws,https://github.com/tf-mod/terraform-aws-tfbackend,
-tfc-aws-workspace,pogosoftware,23331,tfe,https://github.com/pogosoftware/terraform-tfe-tfc-aws-workspace,Terraform module that will create TFC workspace and proper role to auth to the AWS
 tfc-cloud-agent,cloudposse,6379,kubernetes,https://github.com/cloudposse/terraform-kubernetes-tfc-cloud-agent,Provision a Terraform Cloud Agent on an existing Kubernetes cluster.
 tfc-dynamic-authentication-ex,tf-vault-modules,19374,vault,https://github.com/tf-vault-modules/terraform-vault-tfc-dynamic-authentication-ex,Terraform module for setting up a Terraform Cloud workspaces whose runs will be automatically authenticated to Vault using Workload Identity
 tfc-dynamic-creds-provider,hashi-strawb,17555,aws,https://github.com/hashi-strawb/terraform-aws-tfc-dynamic-creds-provider,Creates (or finds) an OIDC Provider in AWS for Terraform Cloud Dynamic Credentials
@@ -14772,6 +14781,7 @@ vpc,Gulnaz88,21559,module,https://github.com/Gulnaz88/terraform-module-vpc,
 vpc,HDE,4281,aws,https://github.com/HDE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,HENNGE,15630,aws,https://github.com/HENNGE/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,HiroyukiYagihashi,6285,aws,https://github.com/yagipy/terraform-aws-vpc,
+vpc,Hjn4Pwn,23356,aws,https://github.com/Hjn4Pwn/terraform-aws-vpc,
 vpc,HristoDimitrovv,23268,aws,https://github.com/HristoDimitrovv/terraform-aws-vpc,Module for deploying an AWS VPC
 vpc,Hushaim,20166,module,https://github.com/Hushaim/terraform-module-vpc,
 vpc,Indirka,7733,aws,https://github.com/Indirka/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
@@ -15679,6 +15689,7 @@ workspace,hashicorp-modules,1533,tfe,https://github.com/hashicorp-modules/terraf
 workspace,mmcelreath,14819,tfe,https://github.com/mmcelreath/terraform-tfe-workspace,Terraform module for creating Terraform Cloud/Enterprise workspaces.
 workspace,nephosolutions,3144,tfe,https://github.com/nephosolutions/terraform-tfe-workspace,This module provisions a Terraform Cloud Enterprise workspace.
 workspace,nthings,14603,tfe,https://github.com/nthings/terraform-tfe-workspace,Terraform module to create workspaces in Terraform Cloud
+workspace,pogosoftware,23360,tfe,https://github.com/pogosoftware/terraform-tfe-workspace,Terraform module that will create TFC workspace and proper role to auth to the AWS
 workspace,psychopenguin,5320,tfe,https://github.com/psychopenguin/terraform-tfe-workspace,
 workspace,rsmets,9259,tfe,https://github.com/rsmets/terraform-tfe-workspace,This module provisions a Terraform Cloud / Terraform Enterprise workspace
 workspace,srijanone,7740,tfe,https://github.com/srijanone/terraform-tfe-workspace,Terraform Module for TFE workspace management
