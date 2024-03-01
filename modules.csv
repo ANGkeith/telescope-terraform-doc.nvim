@@ -430,6 +430,7 @@ aks-flux,Shivakumar1702,22452,azurerm,https://github.com/Shivakumar1702/terrafor
 aks-helm,cloudopsworks,13350,azure,https://github.com/cloudopsworks/terraform-azure-aks-helm,Azure AKS - Helm Install module
 aks-helm-release,blackbird-cloud,21743,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-aks-helm-release,
 aks-light,claranet,21976,azurerm,https://github.com/claranet/terraform-azurerm-aks-light,Terraform module for Azure Kubernetes Service
+aks-monitor-workspace,blackbird-cloud,23370,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-aks-monitor-workspace,
 aks-nginx-certmgr,evillgenius75,2592,azurerm,https://github.com/evillgenius75/terraform-azurerm-aks-nginx-certmgr,Terrafrom Module to deploy Azure Kubernetes Service with Nginx-ingress and CertManager for SSL Certificate Issuance
 aks-nginx-ingress-controller,spy86,13904,azure,https://github.com/spy86/terraform-azure-aks-nginx-ingress-controller,Terraform module for AKS Nginx Ingress Controller
 aks-nginxingress,evillgenius75,2548,azurerm,https://github.com/evillgenius75/terraform-azurerm-aks-nginx-certmgr,Terrafrom Module to deploy Azure Kubernetes Service with Nginx-ingress and CertManager for SSL Certificate Issuance
@@ -1493,7 +1494,6 @@ avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/ter
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
-avm-res-storage-storageaccount,chinthakaru,23355,azurerm,https://github.com/chinthakaru/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
@@ -2215,6 +2215,7 @@ cdn,terraform-alicloud-modules,3891,alicloud,https://github.com/alibabacloud-aut
 cdn,terraform-do-modules,20240,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-cdn," Terraform module to create CDN resources. DigitalOcean also includes a CDN with DigitalOcean Spaces, our object storage solution, and App Platform, our Platform as a Service solution. Sign up for a DigitalOcean account today to get started."
 cdn,terraform-tencentcloud-modules,19047,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cdn,TencentCloud CDN Module for Terraform.
 cdn,terraform-xnxk-modules,13386,tencentcloud,https://github.com/terraform-xnxk-modules/terraform-tencentcloud-cdn,Terraform module which creates tencentcloud cdn bucket for each domain in the list
+cdn,terraform-yacloud-modules,23373,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-cdn,Terraform module to manage of Yandex.Cloud CDN resources.
 cdn,vaskevich,4174,aws,https://github.com/oleg-codaio/terraform-aws-cdn,Terraform module for an AWS S3/CloudFront-backed CDN configured with SNI-based SSL
 cdn,wenchao-h,20830,tencentcloud,https://github.com/wenchao-h/terraform-tencentcloud-cdn,terraform-tencentcloud-cdn
 cdn-frontdoor,claranet,16632,azurerm,https://github.com/claranet/terraform-azurerm-cdn-frontdoor,Terraform module for Azure CDN FrontDoor (Standard/Premium)
@@ -3487,6 +3488,7 @@ dashboard,synvert-datadrivers,23347,signalfx,https://github.com/synvert-datadriv
 dashboard,terraform-iaac,9285,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard,Terraform module create dashboard for access to kubernetes cluster
 dashboard-apicall,KamranBiglari,21216,aws,https://github.com/KamranBiglari/terraform-aws-dashboard-apicall,
 dashboard-converter,synvert-datadrivers,23346,signalfx,https://github.com/synvert-datadrivers/terraform-signalfx-dashboard-converter,Terraform module which parses dashboard exports into terraform parameters
+dashboard-grafana,blackbird-cloud,23369,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-dashboard-grafana,
 dashboard-ldap-auth,terraform-iaac,9286,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-dashboard-ldap-auth,Terraform module for auth to kubernetes dashboard via LDAP 
 dashboards,SunDevs,8210,grafana,https://github.com/SunDevs/terraform-grafana-dashboards,
 data,diego-alves,8269,aws,https://github.com/diego-alves/terraform-aws-data,A Terraform Module for obtein dta from AWS resource
@@ -9534,6 +9536,7 @@ mysql-mysql-slow-queries,terraform-shoreline-modules,20422,shoreline,https://git
 mysql-mysql-too-many-connections,terraform-shoreline-modules,20423,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mysql-mysql-too-many-connections,This repository was generated automatically based on a Shoreline Insights Runbook.
 mysql-query,vexxhost,20842,kubernetes,https://github.com/vexxhost/terraform-kubernetes-mysql-query,Terraform module for running MySQL queries
 mysql-s3-backup,terraform-iaac,9115,aws,https://github.com/terraform-iaac/terraform-aws-mysql-s3-backup,
+mysql-server,blackbird-cloud,23372,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-mysql-server,
 mysql-server,bootlabstech,15502,azurerm,https://github.com/bootlabstech/terraform-azurerm-mysql-server,terraform-azure-mysql-server
 mysql-server,justinm,4558,kubernetes,https://github.com/justinm/terraform-kubernetes-mysql-server,A simple to setup K8S MySQL server
 mysql-unusual-drop-in-select-query-rate-on-server,terraform-shoreline-modules,20364,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-mysql-unusual-drop-in-select-query-rate-on-server,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -10359,6 +10362,7 @@ overlays-arm-deployment,azurenoops,21449,azurerm,https://github.com/azurenoops/t
 overlays-azmaps,azurenoops,18150,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-azmaps,Terraform module for Azure Maps for using with the Azure NoOps Accelerator
 overlays-azregions-lookup,azurenoops,17581,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-azregions-lookup,Terraform module to lookup Azure Regions for using with the Azure NoOps Accelerator
 overlays-azsql,azurenoops,18958,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-azsql,Terraform module overlay to create an SCCA Compliant Azure SQL Database (SQLServer based) to use with Azure NoOps.
+overlays-azure-monitor-private-link-scope,azurenoops,23365,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-azure-monitor-private-link-scope,
 overlays-bastionhost,azurenoops,21622,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-bastionhost,
 overlays-compute-image-gallery,azurenoops,23036,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-compute-image-gallery,Terraform overlay module to create and manage Azure Compute Gallery (formerly known as Shared Image Gallery) for use with the Azure NoOps.
 overlays-container-registry,azurenoops,18128,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-container-registry,Terraform Overlay module for SCCA Compliant Azure Container Registry to use with the Azure NoOps Accelerator
@@ -10370,7 +10374,7 @@ overlays-key-vault,azurenoops,18116,azurerm,https://github.com/azurenoops/terraf
 overlays-linux-scaleset,azurenoops,18518,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-linux-scaleset,Terraform Overlay module for SCCA Compliant Azure Linux VM Scale Set to use with the Azure NoOps Accelerator
 overlays-management-groups,azurenoops,18009,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-groups,Terraform modules that simplifies the creation of custom management groups to be used with the Azure NoOps Accelerator
 overlays-management-hub,azurenoops,19064,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-hub,Terraform module overlay to create SCCA compliant Management Hub based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps.
-overlays-management-logging,azurenoops,19039,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-logging,Terraform module overlay to create SCCA compliant Management Logging Components based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps Accelerator.
+overlays-management-logging,azurenoops,19039,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-logging,Terraform module overlay to create SCCA compliant Management Logging Components based on the Microsoft Azure Hub-Spoke Architecture using with Azure NoOps.
 overlays-management-spoke,azurenoops,19110,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-spoke,Terraform module overlay to create SCCA compliant Management Spoke based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps.
 overlays-monitoring-service-alerts,azurenoops,20706,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-monitoring-service-alerts,Terraform overlay module for Azure Service and Monitoring alerts to be used with Azure NoOps Accelerator
 overlays-openai-cognitive-account,azurenoops,21711,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-openai-cognitive-account,Terraform module overlay to create SCCA compliant Azure OpenAI Cognitive Account to use with Azure NoOps.
@@ -10800,6 +10804,7 @@ protonmail-dns,mrwilson,2078,aws,https://github.com/mrwilson/terraform-aws-proto
 provider-aws,jclopeza,2834,module,https://github.com/jclopeza/terraform-module-provider-aws,
 provider-identity,farrukh90,15826,aws,https://github.com/farrukh90/terraform-aws-provider-identity,
 provider-infoblox,naveenkashyapdv,3444,vsphere,https://github.com/naveenkashyapdv/terraform-vsphere-provider-infoblox,Infoblox plugin for Terraform
+provision-aws,terraform-mirantis-modules,23371,mirantis,https://github.com/terraform-mirantis-modules/terraform-mirantis-provision-aws,Terraform module for provisioning infra for launchpad or k0s
 provisioner,truemark,6644,aws,https://github.com/truemark/terraform-aws-provisioner,Terraform module to create IAM users to be used by terraform
 provisioner-local-remote-file-exec,kodal035,19678,aws,https://github.com/kodal035/terraform-aws-provisioner-local-remote-file-exec,
 provisoner-local-remote-file-exec,kodal035,19677,aws,https://github.com/kodal035/terraform-aws-provisioner-local-remote-file-exec,
@@ -11662,7 +11667,6 @@ rookout-deployment,Rookout,15187,azure,https://github.com/Rookout/terraform-azur
 root-login-notification,Neo-Cobolt,17089,aws,https://github.com/Neo-Cobolt/terraform-aws-root-login-notification,Terraform AWS notification module for AWS root user login
 root-login-notifications,trussworks,3352,aws,https://github.com/trussworks/terraform-aws-root-login-notifications,Root Login Notifications
 root-records,jd4883,7269,digitalocean,https://github.com/jd4883/terraform-digitalocean-root-records,Small terraform module for creating root records for one or more domains (if instantiated in a loop) with DigitalOcean. 
-rosa,terraform-redhat,21675,rhcs,https://github.com/terraform-redhat/terraform-rhcs-rosa,Terraform module which creates ROSA cluster
 rosa-classic,terraform-redhat,23354,rhcs,https://github.com/terraform-redhat/terraform-rhcs-rosa-classic,Terraform module which creates ROSA cluster
 rosa-privatelink-vpc,rh-mobb,14011,aws,https://github.com/rh-mobb/terraform-aws-rosa-privatelink-vpc,This is the terraform module to provision a rosa AWS VPC
 rosa-sts,terraform-redhat,17511,aws,https://github.com/terraform-redhat/terraform-aws-rosa-sts,"Create ROSA cluster resources, operator IAM roles, policies and identity provider in an declarative way"
@@ -12551,7 +12555,7 @@ security-group,satishkesharwani,9160,aws,https://github.com/satishkesharwani/ter
 security-group,shepherdcloud,2277,openstack,https://github.com/shepherdcloud/terraform-openstack-security-group,Terraform OpenStack Module to create security group with multiple rules
 security-group,so1omon563,15950,aws,https://github.com/so1omon563/terraform-aws-security-group,Module to create and manage Security Groups and Rule attachments.
 security-group,srb3,5977,aws,https://github.com/srb3/terraform-aws-security-group,
-security-group,terraform-aws-modules,451,aws,https://github.com/terraform-aws-modules/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
+security-group,terraform-aws-modules,451,aws,https://github.com/terraform-aws-modules/terraform-aws-security-group,Terraform module to create AWS Security Group resources 🇺🇦
 security-group,terraform-ibm-modules,19455,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-security-group,Creates a security group with the option to add rules for internal IBM Cloud flows
 security-group,terraform-opentelekomcloud-modules,10193,opentelekomcloud,https://github.com/terraform-opentelekomcloud-modules/terraform-opentelekomcloud-security-group,OpenTelekomCloud Security Group Terraform module
 security-group,terraform-tencentcloud-modules,3882,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-security-group,TencentCloud Security Group Module for Terraform
@@ -14081,6 +14085,7 @@ tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-P
 tfc-workload-identity,SPHTech-Platform,15674,vault,https://github.com/SPHTech-Platform/terraform-vault-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
+tfe-iam-role,pogosoftware,23366,aws,https://github.com/pogosoftware/terraform-aws-tfe-iam-role,
 tfe-management,mikesupertrampster-corp,12447,module,https://github.com/mikesupertrampster-corp/terraform-module-tfe-management,Maintained by Terraform
 tfe-workspace,nephosolutions,16876,google,https://github.com/nephosolutions/terraform-google-tfe-workspace,Terraform Cloud workspace for deployments into Google Cloud projects
 tfe-workspace-sa,nephosolutions,16868,google,https://github.com/nephosolutions/terraform-google-tfe-workspace-sa,Google service accounts for Terraform Cloud workspaces
@@ -14957,6 +14962,7 @@ vpc,janashj,7977,aws,https://github.com/janashj/terraform-aws-vpc,
 vpc,jand0manski,20668,aws,https://github.com/jand0manski/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,jason-morsley,5107,aws,https://github.com/jason-morsley/terraform-aws-vpc,
 vpc,jasonkuehl,11985,aws,https://github.com/jasonkuehl/terraform-aws-vpc,Another VPC Module
+vpc,jimmynguyen13,23368,aws,https://github.com/jimmynguyen13/terraform-aws-vpc,terraform-aws-vpc module
 vpc,jmavlanbek,19822,module,https://github.com/jmavlanbek/terraform-module-vpc,
 vpc,john-morsley,6596,aws,https://github.com/john-morsley/terraform-aws-vpc-module,An AWS VPC module for the Terraform Registry.
 vpc,john24rel,6720,aws,https://github.com/john24rel/terraform-aws-vpc,
@@ -15086,6 +15092,7 @@ vpc,terraform-tencentcloud-modules,3858,tencentcloud,https://github.com/terrafor
 vpc,terraform-yacloud-modules,17924,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-vpc,
 vpc,tf-cloud-modules,16265,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-vpc,Sbercloud VPC Terraform module
 vpc,thearaseng,16723,aws,https://github.com/thearaseng/terraform-aws-vpc,
+vpc,thinhnpptit,23367,aws,https://github.com/thinhnpptit/terraform-aws-vpc,terraform-aws-vpc module
 vpc,thomas1864,20686,as,https://github.com/thomas1864/terraform-as-vpc,
 vpc,thunderbird86,12577,aws,https://github.com/thunderbird86/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,tigpt,23205,aws,https://github.com/tigpt/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
