@@ -4780,6 +4780,7 @@ ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terra
 ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-ec2,
 ec2,nullc4t,17501,vultr,https://github.com/const-tmp/terraform-vultr-ec2,Creating batch EC2 instances in Vultr with a single config. Easy scalable. 
 ec2,panovmikhail,22284,aws,https://github.com/panovmikhail/terraform-aws-ec2,Terraform module for creating EC2 instances
+ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,Create an EC2 instance with access secured to the local host.
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
 ec2,punitporwal07,21801,aws,https://github.com/punitporwal07/terraform-aws-ec2,
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-cnfs,Manages EC2 instance
@@ -6383,6 +6384,7 @@ flatcar-vm,celest-io,13614,openstack,https://github.com/celest-io/terraform-open
 fleet,zwinnerman-fleetdm,17796,aws,https://github.com/zwinnerman-fleetdm/terraform-aws-fleet,A terraform module for fleetdm (test)
 flex-plugin,RJPearson94,8684,twilio,https://github.com/RJPearson94/terraform-twilio-flex-plugin,
 flexible-mysql,clouddrove,17841,azure,https://github.com/clouddrove/terraform-azure-flexible-mysql,"Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud. "
+flexible-orchestration-vm-scale-sets,libre-devops,23735,azurerm,https://github.com/libre-devops/terraform-azurerm-flexible-orchestration-vm-scale-sets,A module used to deploy Windows Virtual Machine Scale Sets :rocket:
 flink,skydome,3080,kubernetes,https://github.com/skydome/terraform-kubernetes-flink,Apache Flink Terraform module for kubernetes
 flink,tf-cloud-modules,15093,aiven,https://github.com/tf-cloud-modules/terraform-aiven-flink,Aiven Flink Terraform module
 flink-cluster-base,justtrackio,22054,aws,https://github.com/justtrackio/terraform-aws-flink-cluster-base,Terraform module which creates a iam role with policies and ecr repositories apps
@@ -6932,7 +6934,7 @@ ha-k3s,aigisuk,8416,digitalocean,https://github.com/aigisuk/terraform-digitaloce
 ha-vpc-module,binxio,13309,aws,https://github.com/binxio/terraform-aws-ha-vpc-module,Terraform module containing a highly available AWS VPC
 habitat,devoptimist,2923,chef,https://github.com/srb3/terraform-chef-habitat,
 habitat,srb3,3922,chef,https://github.com/srb3/terraform-chef-habitat,
-hackathon,kadadhic,23707,ftdv,https://github.com/kadadhic/terraform-ftdv-hackathon,
+hackathon,kadadhic,23707,ftdv,https://github.com/kadadhic/terraform-ftdv-hackathon,Terraform-module
 hamid-module,hamidgit2021,22662,aws,https://github.com/hamidgit2021/terraform-aws-hamid-module,
 haproxy-anomalous-frontend-request-rate-for-host-incident,terraform-shoreline-modules,20327,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-haproxy-anomalous-frontend-request-rate-for-host-incident,This repository was generated automatically based on a Shoreline Insights Runbook.
 haproxy-anomalous-number-of-frontend-4xx-http-responses-for-haproxy,terraform-shoreline-modules,20331,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-haproxy-anomalous-number-of-frontend-4xx-http-responses-for-haproxy,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -9466,18 +9468,6 @@ msk-kafka-cluster,terraform-aws-modules,19833,aws,https://github.com/terraform-a
 msk-privatelink,MaterializeInc,18954,aws,https://github.com/MaterializeInc/terraform-aws-msk-privatelink,A Terraform module for configuring Kafka with AWS PrivateLink.
 msk-sasl,vietanhduong,10874,aws,https://github.com/vietanhduong/terraform-aws-msk-sasl,Provision an Amazon MSK cluster with SASL SCRAM authentication using Terraform 
 msk-status-monitor,stefanfreitag,21601,aws,https://github.com/stefanfreitag/terraform-aws-msk-status-monitor,Monitors the status of all MSK cluster in an AWS account and sends out notifications when a cluster is not in the ACTIVE state.
-mspsdi-avm-res-compute-containerregistry,mspsdi,23623,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-compute-containerregistry,
-mspsdi-avm-res-diagnostics-diagnosticsetting,mspsdi,23671,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-diagnostics-diagnosticsetting,
-mspsdi-avm-res-diagnostics-loganalyticsworkspace,mspsdi,23704,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-diagnostics-loganalyticsworkspace,
-mspsdi-avm-res-framework-landingzone,mspsdi,23699,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-framework-landingzone,
-mspsdi-avm-res-framework-solutionaccelerator,mspsdi,23700,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-framework-solutionaccelerator,
-mspsdi-avm-res-network-applicationgateway,mspsdi,23664,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-network-applicationgateway,
-mspsdi-avm-res-network-privateendpoint,mspsdi,23666,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-network-privateendpoint,
-mspsdi-avm-res-network-subnet,mspsdi,23669,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-network-subnet,
-mspsdi-avm-res-network-subnetnatgatewayassociation,mspsdi,23670,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-network-subnetnatgatewayassociation,
-mspsdi-avm-res-sql-database,mspsdi,23662,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-sql-database,
-mspsdi-avm-res-sql-elasticpool,mspsdi,23663,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-sql-elasticpool,
-mspsdi-avm-res-sql-server,mspsdi,23661,azurerm,https://github.com/mspsdi/terraform-azurerm-mspsdi-avm-res-sql-server,
 mssql,DeimosCloud,8395,azure,https://github.com/DeimosCloud/terraform-azure-mssql,
 mssql,T-Systems-MMS,14817,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-mssql,
 mssql,cypik,22841,google,https://github.com/cypik/terraform-google-mssql,
@@ -9808,6 +9798,7 @@ nat-gateway,data-platform-hq,20983,azurerm,https://github.com/data-platform-hq/t
 nat-gateway,garbetjie,2513,google,https://github.com/garbetjie/terraform-google-nat-gateway,A simple Terraform module to create a Cloud NAT gateway
 nat-gateway,getindata,16993,azurerm,https://github.com/getindata/terraform-azurerm-nat-gateway,Terraform module for managing Azure NAT Gateway
 nat-gateway,kumarvna,10040,azurerm,https://github.com/kumarvna/terraform-azurerm-nat-gateway,Terraform module to create Azure NAT Gateway to provide source network address translation (SNAT) for a subnet.
+nat-gateway,libre-devops,23736,azurerm,https://github.com/libre-devops/terraform-azurerm-nat-gateway,A module used to deploy an Azure Nat gateway ⚓
 nat-gateway,ptonini,16757,azurerm,https://github.com/ptonini/terraform-azurerm-nat-gateway,
 nat-gateway,terraform-alicloud-modules,1830,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nat-gateway,Terraform module which creates NAT gateway and route entry resources on Alibaba Cloud
 nat-gateway-traffic-alert,hazelops,7342,aws,https://github.com/hazelops/terraform-aws-nat-gateway-traffic-alert,
@@ -9904,7 +9895,6 @@ network,ikemerrix,13290,azurerm,https://github.com/ikemerrix/terraform-azurerm-n
 network,incentro-cloud,10970,google,https://github.com/incentro-cloud/terraform-google-network,"Module for creating a VPC network, subnets, routes, rules, connectors, and peerings."
 network,info4rashid,10634,google,https://github.com/info4rashid/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,innovationnorway,2012,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-network-archived-itp,Terraform module which creates networking resources on Azure
-network,jidejones,23713,phpipam,https://github.com/jidejones/terraform-phpipam-network,Terrform provider for PHPIPAM
 network,jimgaspari,10935,libvirt,https://github.com/jimgaspari/terraform-libvirt-network,Terraform Module for building Libvirt Networks
 network,jsathler,21056,azurerm,https://github.com/jsathler/terraform-azurerm-network,
 network,kral2,14119,hcp,https://github.com/kral2/terraform-hcp-network,A composable Terraform module to provision the HCP networking resources
@@ -10568,7 +10558,7 @@ pcx,0opsops,13618,aws,https://github.com/0opsops/terraform-aws-pcx,
 pcx,rhythmictech,5095,aws,https://github.com/rhythmictech/terraform-aws-pcx,Create route table entries associated with a Peering Connection.
 pcx-route-cidr,rhythmictech,5540,aws,https://github.com/rhythmictech/terraform-aws-pcx-route-cidr,Create route table entries associated with a Peering Connection.
 pdns,CloudNationHQ,23675,azure,https://github.com/CloudNationHQ/terraform-azure-pdns,Terraform module which create private dns zone resources used by workloads and accelerators.
-pe,CloudNationHQ,23718,azure,https://github.com/CloudNationHQ/terraform-azure-pe,
+pe,CloudNationHQ,23718,azure,https://github.com/CloudNationHQ/terraform-azure-pe,Terraform module which creates private endpoint resources used by workloads and accelerators.
 peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terraform-azurerm-peering,
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
 permutations,ixydo,2101,null,https://github.com/ixydo/terraform-null-permutations,Simple module to return all possible combinations for a given pair of input lists.
@@ -14195,6 +14185,7 @@ terraformdemo,gopalaa,8258,aws,https://github.com/gopalaa/terraform-aws-terrafor
 terraformmodules,tasinight,13851,aws,https://github.com/tasinight/terraform-aws-terraformmodules,
 terragrantEC2,Abdulpersonal,16977,aws,https://github.com/Abdulpersonal/terraform-aws-terragrantEC2,
 terragrunt-registry-test,denis256,23328,null,https://github.com/denis256/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
+terragrunt-registry-test,gruntwork-io,23731,null,https://github.com/gruntwork-io/terraform-null-terragrunt-registry-test,
 terragrunt-registry-test,yorinasub17,9932,null,https://github.com/yorinasub17/terraform-null-terragrunt-registry-test,Simple module with null_resource for testing terragrunt functionality with module registry.
 terramodule,Nikxy,23341,nikxy,https://github.com/Nikxy/terraform-nikxy-terramodule,
 terrible,cloudboss,5406,cloudinit,https://github.com/cloudboss/terraform-cloudinit-terrible,
@@ -14775,6 +14766,7 @@ vm,daohung01,17668,aws,https://github.com/daohung01/terraform-aws-vm,
 vm,diademiemi,19473,libvirt,https://github.com/diademiemi/terraform-libvirt-vm,Terraform module to deploy a Libvirt domain including volume and cloudinit disk
 vm,diademiemi,22419,hetzner,https://github.com/diademiemi/terraform-hetzner-vm,Terraform module to create a VM in Hetzner cloud
 vm,divlv,16175,divlv,https://github.com/divlv/terraform-divlv-vm,Terraform module for Azure Virtula machine
+vm,equinor,23730,azurerm,https://github.com/equinor/terraform-azurerm-vm,Terraform module which creates Azure Virtual Machine resources
 vm,gnodivad,11209,cloud,https://github.com/gnodivad/terraform-cloud-vm,
 vm,hicdss,2725,azure,https://github.com/hicsh/terraform-azure-vm,Terraform module for Azure vm
 vm,kubmeta,16572,google,https://github.com/kubmeta/terraform-google-vm,This is a collection of opinionated submodules that can be used to provision VMs in GCP.
@@ -14822,6 +14814,8 @@ vm-module,prashantsolanki3,19173,proxmox,https://github.com/prashantsolanki3/ter
 vm-nsg-lb,bootlabstech,17971,azurerm,https://github.com/bootlabstech/terraform-azurerm-clone-virtual-machine,
 vm-nsg-linux,bootlabstech,19104,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-linux,Azure VM provisioning using Terraform
 vm-nsg-windows,bootlabstech,18734,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-windows,
+vm-os-sku-calculator,libre-devops,23734,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. :rocket:"
+vm-os-sku-with-plan-calculator,libre-devops,23733,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-with-plan-calculator,"A module used to simplify the generation of image Azure marketplace image which contain the a dedicated Plan, such as CIS images. It works by passing a simple variable to this module will output the config items. :rocket:"
 vm-qemu,dselders,6006,proxmox,https://github.com/dselders/terraform-proxmox-vm-qemu,
 vm-qemu,lsampaioweb,17595,proxmox,https://github.com/lsampaioweb/terraform-proxmox-vm-qemu,Terraform module to create a virtual machine (server or desktop) on Proxmox VE.
 vm-requirements,ptonini,22220,azurerm,https://github.com/ptonini/terraform-azurerm-vm-requirements,
@@ -15572,6 +15566,7 @@ vpc_network,airasia,4765,google,https://github.com/airasia/terraform-google-vpc_
 vpc_router_nat,airasia,6505,google,https://github.com/airasia/terraform-google-vpc_router_nat,Terraform module for additional Cloud Router + Cloud NAT for a VPC
 vpc_serverless_access,airasia,6377,google,https://github.com/airasia/terraform-google-vpc_serverless_access,Terraform module for Serverless VPC Access in GCP
 vpcec2webapp,muraliallcloud,13856,aws,https://github.com/muraliallcloud/terraform-aws-vpcec2webapp,Terraform Module for AWS VPC-EC2-Webapp Creation
+vpcendpoints,SimplifiedData,23728,aws,https://github.com/SimplifiedData/terraform-aws-vpcendpoints,This is Terraform module for create VPC Endpoint for deploy use with concept landing zone in Organizations
 vpces,toluna-terraform,11254,aws,https://github.com/toluna-terraform/terraform-aws-vpces,
 vpcflowlog-bucket,rhythmictech,5097,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlog-bucket,Creates an S3 bucket suitable for receiving VPC flow logs from one or more AWS account.
 vpcflowlogs,rhythmictech,3128,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlogs,Configure VPC flow logs for one or more VPCs.
@@ -15794,6 +15789,7 @@ windows-os-sku-with-plan-calculator,libre-devops,13271,azurerm,https://github.co
 windows-password-lambda-rotation,giuseppeborgese,2403,aws,https://github.com/giuseppeborgese/terraform-aws-windows-password-lambda-rotation,When you create an EC2 windows the password will remain the same for the whole life of the machine. It can be rotated automatically with this module
 windows-password-rotation,giuliocalzolari,2795,aws,https://github.com/giuliocalzolari/terraform-aws-windows-password-rotation,AWS SSM Windows Password Rotation
 windows-password-rotation-secret-manager,giuseppeborgese,2404,aws,https://github.com/giuseppeborgese/terraform-aws-windows-password-rotation-secret-manager,When you create an EC2 windows the password will remain the same for the whole life of the machine. It can be rotated automatically with this module 
+windows-uniform-orchestration-vm-scale-sets,libre-devops,23732,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-uniform-orchestration-vm-scale-sets,A module used to deploy Windows Virtual Machine Scale Sets :rocket:
 windows-virtual-machine,cyber-scot,21190,azurerm,https://github.com/cyber-scot/terraform-azurerm-windows-virtual-machine,A module used to deploy a Windows VM and various component resources in an easy way 🪟
 windows-virtual-machine-os-sku-calculator,cyber-scot,21171,azurerm,https://github.com/cyber-scot/terraform-azurerm-windows-virtual-machine-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. Design to work with the CyberScot Windows VM module🚀 "
 windows-virtual-machine-os-sku-with-plan-calculator,cyber-scot,21172,azurerm,https://github.com/cyber-scot/terraform-azurerm-windows-virtual-machine-os-sku-with-plan-calculator,"A module used to simplify the generation of image Azure marketplace image which contain the a dedicated Plan, such as CIS images. It works by passing a simple variable to this module will output the config items. Design to work with the CyberScot Windows VM module 🚀"
@@ -15964,6 +15960,7 @@ yum-repo,QuiNovas,1471,aws,https://github.com/QuiNovas/terraform-aws-yum-repo,Cr
 zedcloud-aws-s3-datastore,bayupw,15810,aws,https://github.com/bayupw/terraform-aws-zedcloud-aws-s3-datastore,Terraform module for creating AWS S3 bucket to be used for Zededa ZedCloud Data Store
 zenata,hakimzenata,23162,aws,https://github.com/hakimzenata/terraform-aws-zenata,
 zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero modules for the AWS EKS Stack
+zero-to-ec2,defilippomattia,23737,aws,https://github.com/defilippomattia/terraform-aws-zero-to-ec2,Terraform module which creates all the resources needed for VM on AWS.
 zerossl_alicloud,Explorer1092,13427,x,https://github.com/Explorer1092/terraform-x-zerossl_alicloud,
 zerotier-haproxy,djangoflow,16458,kubernetes,https://github.com/djangoflow/terraform-kubernetes-zerotier-haproxy,
 zia-sentinel-cloud-nss,zscaler,19638,azurerm,https://github.com/zscaler/terraform-azurerm-zia-sentinel-cloud-nss,This repository contains a Terraform module template for deploying Azure Sentinel integration with Zscaler Cloud NSS in Azure cloud.
