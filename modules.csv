@@ -895,6 +895,7 @@ appdynamics,3191110276,8260,kubernetes,https://github.com/3191110276/terraform-k
 appengine,JamesWoolfenden,3470,gcp,https://github.com/JamesWoolfenden/terraform-gcp-appengine,"Get your container running, simply."
 appgw-ingress-k8s-cluster,Azure,1946,azurerm,https://github.com/Azure/terraform-azurerm-appgw-ingress-k8s-cluster,"The Application Gateway Ingress Controller allows the Azure Application Gateway to be used as the ingress for an Azure Kubernetes Service aka AKS cluster. As shown in the figure below, the ingress controller runs as a pod within the AKS cluster. It consumes Kubernetes Ingress Resources and converts them to an Azure Application Gateway configuration which allows the gateway to load-balance traffic to Kubernetes pods."
 appid,cloud-native-toolkit,14552,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-appid,Terraform module to provision AppId instance into account
+appid,terraform-ibm-modules,23792,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-appid,Creates an IBM AppID instance.
 appinsights,bootlabstech,17397,azurerm,https://github.com/bootlabstech/terraform-azurerm-appinsights,
 applevnet,applesoftsol,13059,azurerm,https://github.com/applesoftsol/terraform-azurerm-applevnet,it creates vnet and subnet
 appliance-paloalto,r-teller,10196,google,https://github.com/r-teller/terraform-google-appliance-paloalto,
@@ -2271,6 +2272,7 @@ cert-manager,basisai,7190,helm,https://github.com/basisai/terraform-helm-cert-ma
 cert-manager,boeboe,16411,helm,https://github.com/boeboe/terraform-helm-cert-manager,Terraform module for cert-manager deployment on Kubernetes using Helm
 cert-manager,cloud-native-toolkit,14553,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cert-manager,Module to provision IBM Cloud Certificate Manager
 cert-manager,gfortetsanakis,15219,helm,https://github.com/gfortetsanakis/terraform-helm-cert-manager,
+cert-manager,granito-source,23787,kubernetes,https://github.com/granito-source/terraform-kubernetes-cert-manager,Terraform module for cert-manager in Kubernetes
 cert-manager,kubestack-modules,21101,kustomization,https://github.com/kubestack-modules/terraform-kustomization-cert-manager,Cert-Manager Terraform Module for Kubernetes by Kubestack
 cert-manager,mateothegreat,17561,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-cert-manager,Cert manager on kubernetes via terraform.
 cert-manager,nlamirault,7664,google,https://github.com/nlamirault/terraform-google-cert-manager,Terraform module for Cert-Manager
@@ -2588,6 +2590,7 @@ cloud_workspace,aws-ia,9054,hashicorp,https://github.com/aws-ia/terraform-hashic
 cloudant,terraform-ibm-modules,21709,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloudant,Deploys and configures an IBM Cloudant instance
 cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,terraform gcp module for cloudbase
 cloudbase,Levetty,17707,aws,https://github.com/Levetty/terraform-aws-cloudbase,terraform aws module for cloudbase
+cloudbees-ci-eks-addon,cloudbees,23791,aws,https://github.com/cloudbees/terraform-aws-cloudbees-ci-eks-addon,CloudBees CI Add-on for AWS EKS
 cloudberry-bucket,rhythmictech,6116,aws,https://github.com/rhythmictech/terraform-aws-cloudberry-bucket,
 cloudbricks-adb-database,oracle-devrel,10263,oci,https://github.com/oracle-devrel/terraform-oci-cloudbricks-adb-database,OCI Cloud Bricks: Autonomous Database
 cloudbricks-apex,oracle-devrel,10264,oci,https://github.com/oracle-devrel/terraform-oci-cloudbricks-apex,Cloud Bricks framework: APEX
@@ -3108,7 +3111,6 @@ compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules
 compartment,web-virtua-oci-multi-account-modules,18783,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-compartment,
 complete,dasmeta,19955,cloudflare,https://github.com/dasmeta/terraform-cloudflare-complete,
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,Terraform modules from DasMeta to manage Azure AKS cluster
-complete-eks-cluster,dasmeta,14609,aws,https://github.com/dasmeta/terraform-aws-eks,All terraform modules that are related or supporting EKS setup
 compliant-s3-bucket,andyscott1547,16087,aws,https://github.com/andyscott1547/terraform-aws-compliant-s3-bucket,Terraform module to create a S3 bucket on AWS with settings inline with secure benchmark.
 component-module,onsight-productions,18698,child,https://github.com/onsight-productions/terraform-child-component-module,
 components,cloudposse,6626,aws,https://github.com/cloudposse/terraform-aws-components,"Opinionated, self-contained Terraform root modules that each solve one, specific problem"
@@ -4943,6 +4945,7 @@ ec2-openvpn-as,rizkiprass,19928,aws,https://github.com/rizkiprass/terraform-aws-
 ec2-openvpn-connector,hazelops,10179,aws,https://github.com/hazelops/terraform-aws-ec2-openvpn-connector,
 ec2-park,kurron,527,aws,https://github.com/kurron/terraform-aws-ec2-park,Terraform module that starts/stops EC2 instances on a schedule
 ec2-pricing,bendrucker,4208,aws,https://github.com/bendrucker/terraform-aws-ec2-pricing,Terraform module that uses the AWS Pricing API to query EC2 instance type attributes
+ec2-pritunl,iops-team,23795,aws,https://github.com/iops-team/terraform-aws-ec2-pritunl,This module automates the deployment of Pritunl VPN  on an EC2 instance in AWS.
 ec2-pritunl,raino007,21400,aws,https://github.com/raino007/terraform-aws-ec2-pritunl,
 ec2-rds-scheduler,eanselmi,20147,aws,https://github.com/eanselmi/terraform-aws-ec2-rds-scheduler,Terraform module to schedule ec2 and rds instances stop/start.
 ec2-role,andreswebs,9792,aws,https://github.com/andreswebs/terraform-aws-ec2-role,"Creates an IAM Role and an EC2 instance profile using the role, with a list of attached IAM policies"
@@ -5052,7 +5055,7 @@ ecr,s3d-club,15666,aws,https://github.com/s3d-club/terraform-aws-ecr,Terraform f
 ecr,sudo-terraform-aws-modules,15462,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecr,Terraform module to create the ECR repo.
 ecr,techadontech,8127,aws,https://github.com/leonmwandiringa/terraform-aws-ecr,"AWS ECR Terraform module, production ready"
 ecr,telia-oss,1392,aws,https://github.com/telia-oss/terraform-aws-ecr,A Terraform module for creating a cross-account-accessible ECR repository. 
-ecr,terraform-aws-modules,13125,aws,https://github.com/terraform-aws-modules/terraform-aws-ecr,Terraform module which creates AWS ECR resources 🇺🇦
+ecr,terraform-aws-modules,13125,aws,https://github.com/terraform-aws-modules/terraform-aws-ecr,Terraform module to create AWS ECR resources 🇺🇦
 ecr,terraform-module,13268,aws,https://github.com/terraform-module/terraform-aws-ecr,ℹ️ Terraform module which creates AWS ECR resources.
 ecr,tmknom,1833,aws,https://github.com/tmknom/terraform-aws-ecr,Terraform module which creates ECR resources on AWS.
 ecr,toluna-terraform,13474,aws,https://github.com/toluna-terraform/terraform-aws-ecr,
@@ -5824,6 +5827,7 @@ eks-nodegroup,nalbam,10182,aws,https://github.com/nalbam/terraform-aws-eks-nodeg
 eks-npm,nirmata,17313,nirmata,https://github.com/nirmata/terraform-nirmata-eks-npm,
 eks-pipeline,magicorntech,19647,aws,https://github.com/magicorntech/terraform-aws-eks-pipeline,Magicorn AWS EKS Pipeline Module
 eks-platform,skyfjell,15432,aws,https://github.com/skyfjell/terraform-aws-eks-platform,Deploy an Enhanced EKS Cluster
+eks-pod-identity,terraform-aws-modules,23800,aws,https://github.com/terraform-aws-modules/terraform-aws-eks-pod-identity,Terraform module to create AWS EKS Pod Identity resources 🇺🇦
 eks-prometheus,lablabs,11199,aws,https://github.com/lablabs/terraform-aws-eks-prometheus,"Terraform module to deploy Prometheus, Alertmanager, Prometheus-operator"
 eks-prometheus-node-exporter,lablabs,5539,aws,https://github.com/lablabs/terraform-aws-eks-prometheus-node-exporter,
 eks-px-backup,andreswebs,9920,aws,https://github.com/andreswebs/terraform-aws-eks-px-backup,Deploys PX Backup via Helm on AWS EKS
@@ -5891,6 +5895,7 @@ elasticache,pogosoftware,13349,aws,https://github.com/pogosoftware/terraform-aws
 elasticache,rhythmictech,4966,aws,https://github.com/rhythmictech/terraform-aws-elasticache,Terraform ElastiCache Module: Simple and Sensibly Opinionated
 elasticache,slitsevych,21318,aws,https://github.com/slitsevych/terraform-aws-elasticache,Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
 elasticache,telia-oss,1391,aws,https://github.com/telia-oss/terraform-aws-elasticache,Terraform module for AWS ElastiCache
+elasticache,terraform-aws-modules,23799,aws,https://github.com/terraform-aws-modules/terraform-aws-elasticache,Terraform module to create AWS ElastiCache resources 🇺🇦 
 elasticache,tomarv2,12367,aws,https://github.com/tomarv2/terraform-aws-elasticache,Terraform module for AWS Elasticache
 elasticache,web-virtua-aws-multi-account-modules,17513,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-elasticache,
 elasticache,yonetimacademy,19505,aws,https://github.com/yonetimacademy/terraform-aws-elasticache,CC AWS ElastiCache Module
@@ -6477,6 +6482,7 @@ frontend-service-routing,mergermarket,8559,acuris,https://github.com/mergermarke
 frontend-web-app,caribouhealth,11776,aws,https://github.com/caribouhealth/terraform-aws-frontend-web-app,A terraform module for deploying a front-end web app to AWS via S3 and Cloudfront
 fronter,strawberryutopia,13471,strawb,https://github.com/strawberryutopia/terraform-strawb-fronter,Who is currently fronting? But as a Terraform module.
 fs-account-basic,rjminsha,4905,ibmcloud,https://github.com/rjminsha/terraform-ibmcloud-fs-account-basic,"Terraform module providing example setup of IAM Cloud Account with IAM Access Groups, Policy and Logging"
+fsx,terraform-aws-modules,23798,aws,https://github.com/terraform-aws-modules/terraform-aws-fsx,Terraform module to create AWS FSx resources 🇺🇦 
 fsx-lustre,niaid,18079,aws,https://github.com/niaid/terraform-aws-fsx-lustre,Terraform Module for a AWS FSx Lustre
 fsx-ontap,trimnormal,20483,aws,https://github.com/trimnormal/terraform-aws-fsx-ontap,"Terraform module to deploy fsx-ontap filesystem, storage virtual machines, and volumes."
 fsx-openzfs,JamesWoolfenden,15653,aws,https://github.com/JamesWoolfenden/terraform-aws-fsx-openzfs,Basic fsx-openzfs module
@@ -6685,6 +6691,7 @@ github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terr
 github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,CloudFlare Terraform module for setup GitHub Pages.
 github-pages-dns,robbyoconnor,10602,cloudflare,https://github.com/robbyoconnor/terraform-cloudflare-github-pages-dns,Terraform Module to add the DNS entries required for GitHub pages with a custom domain name
 github-repo,twindb,2633,twindb,https://github.com/twindb/terraform-twindb-github-repo,GitHub workflow terraform module
+github-repo-key,yivolve,23788,flux,https://github.com/yivolve/terraform-flux-github-repo-key,This module deploys part of the https://registry.terraform.io/providers/fluxcd/flux/latest/docs/guides/github module
 github-repos,StarUbiquitous,13237,module,https://github.com/StarUbiquitous/terraform-module-github-repos,Terraform module which creates GitHub repository for each repository in the list
 github-repositories,gabops,17484,module,https://github.com/gabops/terraform-module-github-repositories,Terraform module for managing Github repositories.
 github-repository,damacus,12286,module,https://github.com/damacus/terraform-module-github-repository,Terraform Module for managing defaults on GitHub Repositories
@@ -8905,6 +8912,7 @@ loki,loafoe,13408,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-
 loki-aws,iplabs,4984,kubernetes,https://github.com/iplabs/terraform-kubernetes-loki-aws,Terraform module to install Loki on a Kubernetes cluster to utilize storage (S3 and DynamoDB) in AWS.
 loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-loki-stack,"Terraform Kubernetes Loki module, with multi cloud support. Logs storage: AWS S3, GCP GCS, Azure Blob, PV Local"
 longhorn,Feleuxens,22187,helm,https://github.com/Feleuxens/terraform-helm-longhorn,Terraform module to provision Longhorn
+longhorn,granito-source,23794,kubernetes,https://github.com/granito-source/terraform-kubernetes-longhorn,Terraform module for Longhorn in Kubernetes
 longhorn-deployment,jakoberpf,12492,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-longhorn-deployment,Terreform module for integrated service deployment
 looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-ips,Terraform data lookup for Looker IP Ranges
 lookup,InfiniteLoopIO,17898,cidr,https://github.com/InfiniteLoopIO/terraform-cidr-lookup,Lookup CIDR block network details
@@ -9320,7 +9328,7 @@ modulejan24,Mitchxxx,23520,eks,https://github.com/Mitchxxx/terraform-eks-modulej
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
 modules,EngMohamedElEmam,17845,azure,https://github.com/EngMohamedElEmam/terraform-azure-modules,Terraform Modules for Azure Services
 modules,RonasIT,21577,google,https://github.com/RonasIT/terraform-google-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
-modules,RonasIT,23650,aws,https://github.com/RonasIT/terraform-aws-modules,
+modules,RonasIT,23650,aws,https://github.com/RonasIT/terraform-aws-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
 modules,Srivandan0705,23432,aws,https://github.com/Srivandan0705/terraform-aws-modules,
 modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws-modules,Opta AWS modules for terraform module registry
 modules,ankush0991,16433,aws,https://github.com/Devops0091/terraform-aws-modules,
@@ -9879,6 +9887,7 @@ network,alberto-martinez-zurita,19133,google,https://github.com/alberto-martinez
 network,allinn,16121,azurerm,https://github.com/allinn/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,andrewCluey,9708,azurerm,https://github.com/andrewCluey/terraform-azurerm-network,"Create an Azure vNet, Subnets and associated resources"
 network,angadev,8784,google,https://github.com/angadev/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
+network,appvia,23790,aws,https://github.com/appvia/terraform-aws-network,Used to provision a standard network (vpc) within an account
 network,azhar927,10633,google,https://github.com/azhar927/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,bayudwiyansatria,11149,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-network,Provisioning Hetzner Cloud Network
 network,bcochofel,8132,azurerm,https://github.com/bcochofel/terraform-azurerm-network,Terraform AzureRM module for Networking
@@ -10351,6 +10360,7 @@ opensearch,cyberlabrs,17537,aws,https://github.com/cyberlabrs/terraform-aws-open
 opensearch,devkinetics,17854,aws,https://github.com/devkinetics/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
 opensearch,idealo,11248,aws,https://github.com/idealo/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML authentication.
 opensearch,oozou,19847,aws,https://github.com/oozou/terraform-aws-opensearch,
+opensearch,terraform-aws-modules,23801,aws,https://github.com/terraform-aws-modules/terraform-aws-opensearch,Terraform module to create AWS OpenSearch resources 🇺🇦 
 opensearch,tf-cloud-modules,15034,aiven,https://github.com/tf-cloud-modules/terraform-aiven-opensearch,Aiven Opensearch Terraform module
 opensearch,toluna-terraform,17667,aws,https://github.com/toluna-terraform/terraform-aws-opensearch,OpenSearch module
 opensearch,trussworks,14450,aws,https://github.com/trussworks/terraform-aws-opensearch,A module that spins up an OpenSearch cluster.
@@ -12097,6 +12107,7 @@ s3-bucket,joetortorelli,8712,aws,https://github.com/joetortorelli/terraform-aws-
 s3-bucket,john-morsley,6660,aws,https://github.com/john-morsley/terraform-aws-s3-bucket-module,An S3 bucket in AWS
 s3-bucket,k9securityio,7212,aws,https://github.com/k9securityio/terraform-aws-s3-bucket,Provision AWS S3 buckets safely with least privilege access and comprehensive tagging using Terraform.
 s3-bucket,karthickrajann,15068,aws,https://github.com/karthickrajann/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
+s3-bucket,kiranguda,23802,aws,https://github.com/kiranguda/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,lablabs,4103,aws,https://github.com/lablabs/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,langga27,20707,aws,https://github.com/langga27/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,lptech-io,19366,aws,https://github.com/lptech-io/terraform-aws-s3-bucket,Module to create s3 bucket with terraform
@@ -12227,7 +12238,7 @@ s3-static-site-cdn-ssl,dpmerron,1064,aws,https://github.com/dpmerron/terraform-a
 s3-static-website,Lupus-Metallum,8434,aws,https://github.com/Lupus-Metallum/terraform-aws-s3-static-website,Used to publish static website files to an S3 bucket with proper MIME type based on lookup using the file extension. 
 s3-static-website,cn-terraform,9553,aws,https://github.com/cn-terraform/terraform-aws-s3-static-website,Terraform Module for AWS to host Static Website on S3
 s3-static-website,conortm,1516,aws,https://github.com/conortm/terraform-aws-s3-static-website,Terraform Module for an Amazon S3 Static Website
-s3-static-website,flanger001,22983,aws,https://github.com/flanger001/terraform-aws-s3-static-website,Terraform module that creates a static web site hosted on AWS
+s3-static-website,flanger001,22983,aws,https://github.com/flanger001/terraform-aws-s3-static-website,A Terraform module that creates a static web site hosted on AWS.
 s3-static-website,mm-devops-cloud,18771,aws,https://github.com/mm-devops-cloud/terraform-aws-s3-static-website,this module to create s3 on aws and make it public to host static website
 s3-static-website,shahdk,7383,aws,https://github.com/shahdk/terraform-aws-s3-static-website,Highly opinionated Terraform module for hosting a secure static website on AWS S3
 s3-static-website-cloudfront,millbj92,10374,aws,https://github.com/millbj92/terraform-aws-s3-static-website-cloudfront,Terraform module to create an s3 bucket and distribute it via cloudfront. Also creates a policy so that only the cloudfront distro can see the contents of the bucket over the web.
@@ -14239,7 +14250,6 @@ test-module,skoobasteeve,15225,ray,https://github.com/skoobasteeve/terraform-ray
 test-module,weakpixel,13041,tfcli,https://github.com/weakpixel/terraform-tfcli-test-module,
 test-runner,toluna-terraform,12831,unit,https://github.com/toluna-terraform/terraform-unit-test-runner,
 test-symlinks,mhuxtable,20751,random,https://github.com/mhuxtable/terraform-random-test-symlinks,Module to test whether Terraform Registry follows symlinks when publishing modules.
-test-tf-module,omricohenn,23777,google,https://github.com/omricohenn/terraform-google-test-tf-module,
 test-user-terraform-test-simple,sai4214,9080,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple,
 test-user-terraform-test-simple1,sai4214,9084,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple1,
 test-user-terraform-test-simple2,sai4214,9085,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple2,
@@ -14912,6 +14922,7 @@ vnet,itsmesureshmadineni,21808,azurerm,https://github.com/itsmesureshmadineni/te
 vnet,jungopro,3854,azurerm,https://github.com/jungopro/terraform-azurerm-vnet,Module to create a basic vNet in Azure
 vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Terraform Module to create Azure Virtual Network resources.
 vnet,mariaashurova,16904,azure,https://github.com/mariaashurova/terraform-azure-vnet,
+vnet,mariadubita,23797,azure,https://github.com/mariadubita/terraform-azure-vnet,
 vnet,nlarzon,2794,azure,https://github.com/nlarzon/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,nuraaly,6979,azure,https://github.com/nuraaly/terraform-azure-vnet,
 vnet,popravak,16174,azurerm,https://github.com/popravak/terraform-azurerm-vnet,Basic Azure virtual network w/o NSGs
@@ -14945,6 +14956,7 @@ vnet-peerings,qbeyond,14028,azurerm,https://github.com/qbeyond/terraform-azurerm
 vnet-registrypublish,nag97030,11465,azurerm,https://github.com/nag97030/terraform-azurerm-vnet-registrypublish,this is terraform vnet code
 vnet-sample,akirosit,20257,azurerm,https://github.com/akirosit/terraform-azurerm-vnet-sample,Terraform module deploying a VNET for training purpose
 vnet-snet,naikmuzammil,19873,azurerm,https://github.com/naikmuzammil/terraform-azurerm-vnet-snet,
+vnet-ss-lb-mysql-key_vault,mariadubita,23796,azure,https://github.com/mariadubita/terraform-azure-vnet-ss-lb-mysql-key_vault,
 vnet-with-subnet,soumyarahul,19848,azurerm,https://github.com/soumyarahul/terraform-azurerm-vnet-with-subnet,
 vnetpeering,Azure,1590,azurerm,https://github.com/Azure/terraform-azurerm-vnetpeering,Module to create and manage virtual network peering which allows resources to access other resources in the linked virtual network.
 vnetpublish,nag97030,11463,azurerm,https://github.com/nag97030/terraform-azurerm-vnetpublish,
@@ -15788,6 +15800,7 @@ website,truemark,7148,aws,https://github.com/truemark/terraform-aws-website,
 website-automation-user,Any-DevOps-Solutions,4887,aws,https://github.com/Any-DevOps-Solutions/terraform-aws-website-automation-user,A terraform module to create the necessary IAM resources for an automation user that will be updating S3 and CloudFront resources
 website-automation-user,sbogacz,1003,aws,https://github.com/sbogacz/terraform-aws-website-automation-user,A terraform module to create the necessary IAM resources for an automation user that will be updating S3 and CloudFront resources
 website-aws-s3-cloudfront,eyulf,8194,module,https://github.com/eyulf/terraform-module-website-aws-s3-cloudfront,Terraform module for creating websites in AWS using S3 and Cloudfront. Ideal for Static Websites.
+website-crawler,frolly,23789,aws,https://github.com/frolly/terraform-aws-website-crawler,"Crawl Website for cache or check website page and copy pages to S3. Service used are : AWS Lambda, AWS SQS, AWS S3"
 website-pod,infrahouse,20541,aws,https://github.com/infrahouse/terraform-aws-website-pod,Module that creates an autoscaling group with an ALB and SSL certificate for a website.
 website-redirect,CloudPediaAI,23376,aws,https://github.com/CloudPediaAI/terraform-aws-website-redirect,Terraform Module to redirect from your Source URL to Target URL
 website-redirection,robbytaylor,3749,static,https://github.com/robbytaylor/terraform-static-website-redirection,A Terraform module for a static website with Lambda@edge redirect to the primary hostname
