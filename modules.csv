@@ -815,6 +815,7 @@ apigateway-cors,bridgecrewio,2552,aws,https://github.com/bridgecrewio/terraform-
 apigateway-cors,kevinkjt2000,7195,aws,https://github.com/kevinkjt2000/terraform-aws-apigateway-cors,Terraform module that sets up CORS
 apigateway-cors,mewa,926,aws,https://github.com/mewa/terraform-aws-apigateway-cors,Terraform module that sets up CORS
 apigateway-cors,opendevsecops,1792,aws,https://github.com/opendevsecops/terraform-aws-apigateway-cors,
+apigateway-custom-domain,theherk,23808,aws,https://github.com/theherk/terraform-aws-apigateway-custom-domain,Custom domain for private AWS API Gateway
 apigateway-method,opendevsecops,1793,aws,https://github.com/opendevsecops/terraform-aws-apigateway-method,
 apigateway-provision,hendrixroa,6556,aws,https://github.com/hendrixroa/terraform-aws-apigateway-provision,Provision API Gateway resources to deploy a OpenAPI (aka swagger) specification.
 apigateway-proxy,theherk,14436,aws,https://github.com/theherk/terraform-aws-apigateway-proxy,Terraform module to create an api gateway that proxies requests.
@@ -3578,6 +3579,7 @@ database-for-postgres,sjones-sot,731,azurerm,https://github.com/jackofallops/ter
 database-integration,AdrienneCohea,7681,vault,https://github.com/AdrienneCohea/terraform-vault-database-integration,Vault integration module for various databases
 database-lab,postgres-ai,10248,postgresai,https://github.com/postgres-ai/terraform-postgresai-database-lab,
 database-migration-service,mnanchev,5519,aws,https://github.com/mnanchev/terraform-aws-database-migration-service,Module to migrate database to AWS
+database-refresh-orchestrator,akirosit,23804,aws,https://github.com/akirosit/terraform-aws-database-refresh-orchestrator,This is a Terraform module for deploying the database refresh orchestrator on AWS.
 database-role,ptonini,16800,vault,https://github.com/ptonini/terraform-vault-database-role,
 database-secret,truemark,11284,aws,https://github.com/truemark/terraform-aws-database-secret,
 databases,TaitoUnited,10709,aws,https://github.com/TaitoUnited/terraform-aws-databases,
@@ -4410,6 +4412,7 @@ docker-instance,selcukzorlu,20822,aws,https://github.com/selcukzorlu/terraform-a
 docker-instance,senaayaz,18243,aws,https://github.com/senaayaz/terraform-aws-docker-instance,
 docker-instance,senolkeklik,16379,aws,https://github.com/senolkeklik/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS.  - Website: https://registry.terraform.io/modules/senolkeklik/docker-instance/aws/latest 
 docker-instance,ser30,16314,aws,https://github.com/ser30/terraform-aws-docker-instance,
+docker-instance,sergenkmert,23810,aws,https://github.com/sergenkmert/terraform-aws-docker-instance,
 docker-instance,serkantayfur,14645,aws,https://github.com/serkantayfur/terraform-aws-docker-instance,terraform-aws-docker-instance Please check readme
 docker-instance,servetaksoy,18666,aws,https://github.com/servetaksoy/terraform-aws-docker-instance,
 docker-instance,seryum65,14618,aws,https://github.com/seryum65/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -5481,6 +5484,7 @@ efs-csi-drivers,SPHTech-Platform,14077,aws,https://github.com/SPHTech-Platform/t
 efs-filesystem,rhythmictech,5910,aws,https://github.com/rhythmictech/terraform-aws-efs-filesystem,"Creates an AWS EFS file system and associated mount points and security group. Optionally (on by default), configures a one-off AWS Backup plan/vault to back up the volume."
 efs-kms-key,dod-iac,10366,aws,https://github.com/dod-iac/terraform-aws-efs-kms-key,A KMS key used to encrypt data-at-rest stored in EFS
 efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-efs-mount,"Creates EFS, mount targets and security groups for use with EC2 to mount an EFS"
+efs-refresh-orchestrator,akirosit,23803,aws,https://github.com/akirosit/terraform-aws-efs-refresh-orchestrator,This is a Terraform module for deploying the EFS refresh orchestrator on AWS.
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
@@ -7575,7 +7579,7 @@ internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-i
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
 intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuintana/terraform-aws-intra-vpc-security-group-rule,Intra VPC Security Group Rule
 inventory,eeyoontaek,17242,ansible,https://github.com/eeyoontaek/terraform-ansible-inventory,
-iomete-data-plane,iomete,23765,aws,https://github.com/iomete/terraform-aws-iomete-data-plane,
+iomete-data-plane,iomete,23811,aws,https://github.com/iomete/terraform-aws-iomete-data-plane,
 iona-org,ION-Analytics,18254,acuris,https://github.com/ION-Analytics/terraform-acuris-iona-org,
 iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-arch,bootlabstech,17681,google,https://github.com/bootlabstech/terraform-google-iot-arch,
@@ -8029,7 +8033,7 @@ kms,terraform-yacloud-modules,17956,yandex,https://github.com/terraform-yacloud-
 kms,umotif-public,4198,aws,https://github.com/umotif-public/terraform-aws-kms,Terraform module to configure a KMS Customer Master Key (CMK) and its alias.
 kms,wearetechnative,23132,aws,https://github.com/wearetechnative/terraform-aws-kms,
 kms,yonetimacademy,19506,aws,https://github.com/yonetimacademy/terraform-aws-kms,CC AWS KMS Module
-kms-all-inclusive,terraform-ibm-modules,22556,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-kms-all-inclusive,"Creates a Key Protect instance, key rings for different services, and a key for each instance of the service."
+kms-all-inclusive,terraform-ibm-modules,22556,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-kms-all-inclusive,"Supports creating a Key Protect instance, KMS Key Rings and Keys."
 kms-decrypter-module,bschaatsbergen,12514,aws,https://github.com/bschaatsbergen/terraform-aws-kms-decrypter-module,Terraform module to decrypt AWS KMS encrypted values
 kms-key,Infrastrukturait,14357,aws,https://github.com/Infrastrukturait/terraform-aws-kms-key,Terraform module to provision a KMS encryption key
 kms-key,PGBI,2812,aws,https://github.com/PGBI/terraform-aws-kms-key,
@@ -10369,6 +10373,7 @@ opensearch-cluster,elestio-examples,19135,elestio,https://github.com/elestio-exa
 opensearch-domain,data-platform-hq,19359,aws,https://github.com/data-platform-hq/terraform-aws-opensearch-domain,
 opensearch-domain,dod-iac,15417,aws,https://github.com/dod-iac/terraform-aws-opensearch-domain,An Amazon OpenSearch Service domain 
 opensearch-kms-key,dod-iac,15416,aws,https://github.com/dod-iac/terraform-aws-opensearch-kms-key,A KMS key for use with Amazon OpenSearch Service
+opensearch-serverless,fdmsantos,23812,aws,https://github.com/fdmsantos/terraform-aws-opensearch-serverless,"Dynamic Terraform module, which creates a Opensearch Serverless Collection"
 openshift,DTherHtun,5766,vsphere,https://github.com/dtherhtun/terraform-vsphere-openshift,Create VM for Openshift in vsphere
 openshift,bcgov,13150,deployer,https://github.com/bcgov/terraform-deployer-openshift,
 openshift,literalice,842,aws,https://github.com/literalice/terraform-aws-openshift,Creates OpenShift Container Platform(OCP) or OKD cluster
@@ -10590,6 +10595,7 @@ pdns,CloudNationHQ,23675,azure,https://github.com/CloudNationHQ/terraform-azure-
 pe,CloudNationHQ,23718,azure,https://github.com/CloudNationHQ/terraform-azure-pe,Terraform module which creates private endpoint resources used by workloads and accelerators.
 peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terraform-azurerm-peering,
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
+permissionset,appvia,23805,aws,https://github.com/appvia/terraform-aws-permissionset,Provisions and assigns a permissionset to one or more accounts
 permutations,ixydo,2101,null,https://github.com/ixydo/terraform-null-permutations,Simple module to return all possible combinations for a given pair of input lists.
 persistent-storage,jd4883,12052,kubernetes,https://github.com/jd4883/terraform-kubernetes-persistent-storage,A small module for persistent volume claim creation; designed to use externally to charts to pre-provision volumes
 persistent-storage-nfs,jd4883,23285,kubernetes,https://github.com/jd4883/terraform-kubernetes-persistent-storage-nfs,
@@ -10912,6 +10918,7 @@ project-resources,TaitoUnited,3769,google,https://github.com/TaitoUnited/terrafo
 project-resources,TaitoUnited,5489,digitalocean,https://github.com/TaitoUnited/terraform-digitalocean-project-resources,Digital Ocean project resources
 project-template,HobOps,12303,google,https://github.com/HobOps/terraform-google-project-template,
 project-vpc,dskz,11925,aws,https://github.com/dskz/terraform-aws-project-vpc,
+project-vpc,keldibek34,23809,aws,https://github.com/keldibek34/terraform-aws-project-vpc,
 project1-repo,sibikmc,21233,aws,https://github.com/sibikmc/terraform-aws-project1-repo,Creating an vpc in aws in terraform scripts 
 project3,AibikeKasym,22659,aws,https://github.com/AibikeKasym/terraform-aws-project3,
 project3,Heavenlistic,20826,aws,https://github.com/Heavenlistic/terraform-aws-project3,
@@ -15364,6 +15371,7 @@ vpc,y-batsianouski,6254,aws,https://github.com/y-batsianouski/terraform-aws-vpc,
 vpc,yagipy,9546,aws,https://github.com/yagipy/terraform-aws-vpc,
 vpc,yojota,5567,aws,https://github.com/yojota/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,yonetimacademy,20515,aws,https://github.com/yonetimacademy/terraform-aws-vpc,CC AWS VPC Module
+vpc,ysakova90,23807,aws,https://github.com/ysakova90/terraform-aws-vpc,
 vpc,zahitusta,9389,aws,https://github.com/zahitusta/terraform-aws-vpc,
 vpc,zazuwka,19801,module,https://github.com/zazuwka/terraform-module-vpc,
 vpc-1,Indirka,7763,aws,https://github.com/Indirka/terraform-aws-vpc-1,
