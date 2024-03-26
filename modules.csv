@@ -36,7 +36,7 @@ DataCenter_Enviroment_2C,WEEMR,10787,aws,https://github.com/WEEMR/terraform-aws-
 DataCenter_Enviroment_2D,WEEMR,10792,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_2D,
 DataCenter_Enviroment_2E,WEEMR,10791,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_2E,
 DataCenter_Enviroment_3B,WEEMR,12836,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_3B,Terraform Code to deploy a single Hub FortiGate and 4 x Spoke FortiGates
-DeleteUnusedEBS,ClaxtonOps,23820,aws,https://github.com/ClaxtonOps/terraform-aws-DeleteUnusedEBS,
+DeleteUnusedEBS,ClaxtonOps,23825,aws,https://github.com/ClaxtonOps/terraform-aws-DeleteUnusedEBS,"Modulo Terraform que utiliza EventBridge, SNS e Lambda Function. A função lambda deleta todos os volumes que não estão sendo utilizados, menos os que EBS com a tag em conformidade com o ambiente."
 Docker-instance,danacitugba,18190,aws,https://github.com/danacitugba/terraform-aws-Docker-instance,
 E2-Micro-Always-Free-Instance,adarobin,9746,oci,https://github.com/adarobin/terraform-oci-E2-Micro-Always-Free-Instance,
 EC2,sreedhar-555,14335,AWS,https://github.com/sreedhar-555/terraform-AWS-EC2,
@@ -451,6 +451,7 @@ aksacr,AmitGujar,21653,azure,https://github.com/AmitGujar/terraform-azure-aksacr
 akscluster,seg-way,20502,azurerm,https://github.com/segateway/terraform-azurerm-akscluster,
 akscluster,segateway,20640,azurerm,https://github.com/segateway/terraform-azurerm-akscluster,
 alarm,cloud-labs-infra,21774,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-alarm,
+alarm-baseline,appvia,23822,aws,https://github.com/appvia/terraform-aws-alarm-baseline,Creates and provisions a collections of CIS 1.4.0 backed cloudwatch alarms.
 alarm-chat-notification,aloukiala,5006,aws,https://github.com/aloukiala/terraform-aws-alarm-chat-notification,Terraform module for AWS alarm to chat webhook
 alarm-service-resources,justtrackio,22737,aws,https://github.com/justtrackio/terraform-aws-alarm-service-resources,Terraform module which creates an alarms for service resource utilization
 alarms,kiwicom,3025,datadog,https://github.com/kiwicom/terraform-datadog-alarms,
@@ -6651,7 +6652,7 @@ git-info,Invicton-Labs,9327,external,https://github.com/Invicton-Labs/terraform-
 git-repositories,kwame-mintah,20905,azuredevops,https://github.com/kwame-mintah/terraform-azuredevops-git-repositories,Terraform module for creating Azure DevOps Git repositories
 git-repository,skyfjall,14128,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
 git-repository,skyfjell,14231,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
-github,yivolve,23769,flux,https://github.com/yivolve/terraform-flux-github,Terraform module for the flux_bootstrap_git  resource.
+github,yivolve,23769,flux,https://github.com/yivolve/terraform-flux-github,Terraform module to bootstrap Flux with GitHub.
 github-action-token-rotator,cloudposse,14511,aws,https://github.com/cloudposse/terraform-aws-github-action-token-rotator,A Terraform module to deploy the GitHub Action Runner Token Rotator lambda function
 github-actions-oidc,br3ndonland,21707,aws,https://github.com/br3ndonland/terraform-aws-github-actions-oidc,
 github-actions-oidc,hectcastro,10785,aws,https://github.com/hectcastro/terraform-aws-github-actions-oidc,Terraform module to configure Amazon Web Services (AWS) to trust GitHub's OpenID Connect (OIDC) as a federated identity.
@@ -8534,6 +8535,7 @@ lambda-packager,dntsk,4708,aws,https://github.com/dntsk/terraform-aws-lambda-pac
 lambda-packerjanitor,trussworks,2673,aws,https://github.com/trussworks/terraform-aws-lambda-packerjanitor,Terraform module for deploying a lambda job to clean up abandoned Packer resources
 lambda-parcelled,roylines,3255,aws,https://github.com/roylines/terraform-aws-lambda-parcelled,terraform module for creating nodejs lambdas that use parcel to bundle them
 lambda-permission,Cloud-42,3569,aws,https://github.com/Cloud-42/terraform-aws-lambda-permission,Creates Lambda IAM permissions.
+lambda-power-tuning,sfloresk,23826,aws,https://github.com/sfloresk/terraform-aws-lambda-power-tuning,Terraform module for AWS Lambda power tuning
 lambda-poweroff,giuliocalzolari,12082,aws,https://github.com/giuliocalzolari/terraform-aws-lambda-poweroff,AWS Lambda poweroff EC2/RDS for all region with timezone
 lambda-proxy,sprutner,696,aws,https://github.com/sprutner/terraform-aws-lambda-proxy,
 lambda-proxy-integration,fukubaka0825,3335,aws,https://github.com/fukubaka0825/terraform-aws-lambda-proxy-integration,terraform public module to make Lambda and proxy API Gateway
@@ -9803,6 +9805,7 @@ namespace2,MiraRay13,22923,kubernetes,https://github.com/MiraRay13/terraform-kub
 namespace2023,farrukh90,22908,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2023,
 naming,Azure,5297,azurerm,https://github.com/Azure/terraform-azurerm-naming,
 naming,CloudNationHQ,21738,azure,https://github.com/CloudNationHQ/terraform-azure-naming,A forked terraform module that streamlines the naming process for azure resources
+naming,DownAtTheBottomOfTheMoleHole,23823,azuredevops,https://github.com/DownAtTheBottomOfTheMoleHole/terraform-azuredevops-naming,A terraform module to provide consistent naming to Azure DevOps resource inspired by https://github.com/Azure/terraform-azurerm-naming
 naming,Umanis,9795,azurerm,https://github.com/Umanis/terraform-azurerm-naming,Terraform module to normalize naming on Azure ressources. Based on Microsoft CAF naming.
 naming,WeAreRetail,17998,azurerm,https://github.com/WeAreRetail/terraform-azurerm-naming,Common Azure Terraform module to normalize naming on ressources.
 naming,azurerm,20077,azure,https://github.com/azurerm/terraform-azure-naming,Terraform module to generation Azure resource name.
@@ -14254,6 +14257,7 @@ test,kachawla,19364,aws,https://github.com/kachawla/terraform-aws-test,
 test,kachawla,19376,kubernetes,https://github.com/kachawla/terraform-kubernetes-test,Terraform Kubernetes module for Redis
 test,merten2000,909,aws,https://github.com/merten2000/terraform-aws-test,
 test,muratmozdemir,20252,branching,https://github.com/muratmozdemir/terraform-branching-test,
+test,ofidan,23821,aws,https://github.com/ofidan/terraform-aws-test,
 test,patterned-designs,17586,null,https://github.com/patterned-designs/terraform-null-test,Testing connectivity between Organization and Terraform Registry
 test,terraform-azure-modules,2069,file,https://github.com/terraform-azure-modules/terraform-file-test,
 test,vishwa1312,21288,aws,https://github.com/vishwa1312/terraform-aws-test,
