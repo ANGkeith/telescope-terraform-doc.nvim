@@ -1363,8 +1363,9 @@ athena-s3-log-table,ekanai,15469,aws,https://github.com/ekanai/terraform-aws-ath
 athena-task,QuiNovas,2344,aws,https://github.com/QuiNovas/terraform-aws-athena-task,Module that implements L3 function athena-task
 athena-view,iconara,6508,aws,https://github.com/iconara/terraform-aws-athena-view,Terraform module for creating Athena views
 athena-workgroup,dod-iac,8114,aws,https://github.com/dod-iac/terraform-aws-athena-workgroup,AWS Athena workgroup
-atlantis,bschaatsbergen,17220,gce,https://github.com/bschaatsbergen/terraform-gce-atlantis,A set of @hashicorp Terraform configurations for running Atlantis on @googlecloud Compute Engine
+atlantis,bschaatsbergen,17220,gce,https://github.com/bschaatsbergen/terraform-gce-atlantis,A set of  Terraform configurations for running Atlantis on @googlecloud Compute Engine
 atlantis,getindata,16675,azurerm,https://github.com/getindata/terraform-azurerm-atlantis,Terraform module for deploying Atlantis in Azure Container Group
+atlantis,runatlantis,23885,gce,https://github.com/runatlantis/terraform-gce-atlantis,A set of  Terraform configurations for running Atlantis on @googlecloud Compute Engine
 atlantis,terraform-aws-modules,1091,aws,https://github.com/terraform-aws-modules/terraform-aws-atlantis,Terraform module to deploy Atlantis on AWS Fargate 🇺🇦
 atlantis-repo-config,getindata,16649,null,https://github.com/getindata/terraform-null-atlantis-repo-config,Module for generating Atlantis repo config file. It contains set of custom workflows
 atlantis-server,frgrisk,21759,aws,https://github.com/frgrisk/terraform-aws-atlantis-server,
@@ -1932,6 +1933,7 @@ bastion,umotif-public,3780,aws,https://github.com/umotif-public/terraform-aws-ba
 bastion,vnisolutions,17165,aws,https://github.com/vnisolutions/terraform-aws-bastion,
 bastion-asg,kryptondefencesolutions,4165,aws,https://github.com/kryptondefencesolutions/terraform-aws-bastion-asg,
 bastion-asg,kube-kloud,3816,aws,https://github.com/kryptondefencesolutions/terraform-aws-bastion-asg,
+bastion-ghost,messypoutine,23880,google,https://github.com/messypoutine/terraform-google-bastion-ghost,
 bastion-host,7hoenix,4210,aws,https://github.com/7hoenix/terraform-aws-bastion-host,AWS bastion host 
 bastion-host,TheAksel,18250,aws,https://github.com/TheAksel/terraform-aws-bastion-host,Terraform module which creates a Bastion Host resource on AWS
 bastion-host,cypik,23176,google,https://github.com/cypik/terraform-google-bastion-host,
@@ -6427,6 +6429,7 @@ flagscript-organization,flagscript,21763,aws,https://github.com/flagscript/terra
 flagscript-s3-bucket,flagscript,21770,aws,https://github.com/flagscript/terraform-aws-flagscript-s3-bucket,S3 bucket modules for flagscript setups adhering to reasonable aws standards.
 flagscript-state-backend,flagscript,21771,aws,https://github.com/flagscript/terraform-aws-flagscript-state-backend,Flagscript standard state backend setup.
 flash-shell,eliotlim,12185,aws,https://github.com/eliotlim/terraform-aws-flash-shell,Flash helps you run shell scripts and commands without managing servers.
+flask-instance,sakiphan,23883,aws,https://github.com/sakiphan/terraform-aws-flask-instance,
 flatcar-baremetal,celest-io,14278,ovh,https://github.com/celest-io/terraform-ovh-flatcar-baremetal,Terraform module which creates a Flatcar Baremetal instance in OVH
 flatcar-k8s-worker,bsdlp,20626,libvirt,https://github.com/bsdlp/terraform-libvirt-flatcar-k8s-worker,use libvirt to deploy a flatcar k8s worker instance
 flatcar-vm,celest-io,13550,vultr,https://github.com/celest-io/terraform-vultr-flatcar-vm,Terraform module which creates a Flatcar instance in Vultr
@@ -6809,6 +6812,7 @@ gke,loughlintuba,17317,google,https://github.com/loughlintuba/terraform-google-g
 gke,matti,2530,google,https://github.com/matti/terraform-google-gke,
 gke,nlamirault,6275,google,https://github.com/nlamirault/terraform-google-gke,Terraform module for Google Kubernetes Engine
 gke,shamal112mn,7134,google,https://github.com/shamal112mn/terraform-google-gke,
+gke,subzone,23878,gcp,https://github.com/subzone/terraform-gcp-gke,
 gke-addons,squareops,20049,google,https://github.com/squareops/terraform-google-gke-addons,"Terraform module which provides a set of reusable, configurable, and scalable GKE addons configurations."
 gke-audit-log,lacework,14325,gcp,https://github.com/lacework/terraform-gcp-gke-audit-log,Terraform module for configuring an integration with GCP to analyze GKE Audit Logs for FKE cluster security and configuration.
 gke-autopilot-cluster,mineiros-io,12982,google,https://github.com/mineiros-io/terraform-google-gke-autopilot-cluster,A Terraform module to create and manage a Google Kubernetes Engine (GKE) Autopilot Cluster on Google Cloud Platform (GCP) https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview
@@ -7049,6 +7053,7 @@ health-notifications,trussworks,3357,aws,https://github.com/trussworks/terraform
 health-score-evaluation-policy,netascode,17065,aci,https://github.com/netascode/terraform-aci-health-score-evaluation-policy,Terraform Cisco ACI Health Score Evaluation Policy Module
 healthcare,terraform-google-modules,3629,google,https://github.com/terraform-google-modules/terraform-google-healthcare,Handles opinionated Google Cloud Healthcare datasets and stores
 healthcheck,wmariuss,3079,aws,https://github.com/wmariuss/terraform-aws-healthcheck,Healthcheck and DNS routing policy
+healthchecks,shurkys,23877,aws,https://github.com/shurkys/terraform-aws-healthchecks,Healthchecks on AWS Fargate Terraform Module
 hedwig,cloudchacho,9332,google,https://github.com/cloudchacho/terraform-google-hedwig,
 hedwig-alerts,cloudchacho,9297,google,https://github.com/cloudchacho/terraform-google-hedwig-alerts,Messaging bus for micro-services that works on cloud native queues http://authedwig.rtfd.io 
 hedwig-lambda-subscription,cloudchacho,9302,aws,https://github.com/cloudchacho/terraform-aws-hedwig-lambda-subscription,Messaging bus for micro-services that works on cloud native queues http://authedwig.rtfd.io 
@@ -7489,6 +7494,7 @@ inspector,rhythmictech,5096,aws,https://github.com/rhythmictech/terraform-aws-in
 inspector,snapdocs,8183,aws,https://github.com/snapdocs/terraform-aws-inspector,
 install,skyfjall,14131,flux,https://github.com/skyfjell/terraform-flux-install,Install Flux to a Kubernetes Cluster w/ Helm
 install,skyfjell,14234,flux,https://github.com/skyfjell/terraform-flux-install,Install Flux to a Kubernetes Cluster w/ Helm
+install-access,nuonco,23876,aws,https://github.com/nuonco/terraform-aws-install-access,Terraform module for granting access to Nuon to provision an install.
 installer,akemoah,11560,kubernetes,https://github.com/akemoah/terraform-kubernetes-installer,Terraform Installer for Kubernetes on Oracle Cloud Infrastructure
 instance,4ltieres,3112,openstack,https://github.com/altieresfreitas/terraform-openstack-instance,Terraform module to create openstack Instance
 instance,ASparkOfFire,18002,aws,https://github.com/ASparkOfFire/terraform-aws-instance,Terraform AWS Instance Module for Learning how Terraform Modules work.
@@ -8734,6 +8740,7 @@ lb-dcos,dcos-terraform,1841,aws,https://github.com/dcos-terraform/terraform-aws-
 lb-http,GoogleCloudPlatform,18,google,https://github.com/terraform-google-modules/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-http,terraform-google-modules,18685,google,https://github.com/terraform-google-modules/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-http-tutorial,atcomputing,16204,azurerm,https://github.com/atcomputing/terraform-azurerm-lb-http-tutorial,A module to create a http load balancer in azure for the terraform training 
+lb-http-v4-compat,akiyamasho,23886,google,https://github.com/akiyamasho/terraform-google-lb-http-v4-compat,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-internal,GoogleCloudPlatform,28,google,https://github.com/terraform-google-modules/terraform-google-lb-internal,Creates an internal load balancer for Compute Engine by using forwarding rules
 lb-internal,pouya-racker,1411,pouya,https://github.com/pouya-racker/terraform-pouya-lb-internal,Modular Internal Load Balancer for GCE using forwarding rules.
 lb-internal,terraform-google-modules,18683,google,https://github.com/terraform-google-modules/terraform-google-lb-internal,Creates an internal load balancer for Compute Engine by using forwarding rules
@@ -12723,6 +12730,7 @@ secure-storage-account,ultratendency,20536,azurerm,https://github.com/ultratende
 secure-vertex-workbench,teamdatatonic,19069,google,https://github.com/teamdatatonic/terraform-google-secure-vertex-workbench,Terraform module for secured deployment of Vertex Workbench instances
 secure-vnet-nva,poroping,16224,azurerm,https://github.com/poroping/terraform-azurerm-secure-vnet-nva,
 secure-vpc,nozaq,1206,aws,https://github.com/nozaq/terraform-aws-secure-vpc,A terraform module to create a VPC with secure default configurations.
+secure-web-proxy,GoogleCloudPlatform,23884,google,https://github.com/GoogleCloudPlatform/terraform-google-secure-web-proxy,Create and manage Secure Web Proxy in GCP for secured egress web traffic.
 secure_secrets,airasia,5112,google,https://github.com/airasia/terraform-google-secure_secrets,Terraform module for decrypting secrets (that were encrypted with KMS Keys) in GCP. Can optionally store the encrypted secrets into Secret Manager as well.
 secured-data-warehouse,GoogleCloudPlatform,15840,google,https://github.com/GoogleCloudPlatform/terraform-google-secured-data-warehouse,
 secured-data-warehouse-onprem-ingest,GoogleCloudPlatform,20595,google,https://github.com/GoogleCloudPlatform/terraform-google-secured-data-warehouse-onprem-ingest,Secured Data Warehouse blueprint variant for ingesting encrypted data from on-prem sources
@@ -13328,6 +13336,7 @@ solidblocks-rds-postgresql,pellepelster,19095,hcloud,https://github.com/pellepel
 solutions,terraform-aws-modules,19744,aws,https://github.com/terraform-aws-modules/terraform-aws-solutions,Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules 🇺🇦
 solutions-eksNodeUpdater,bdobay,20090,aws,https://github.com/bdobay/terraform-aws-solutions-eksNodeUpdater,Terraform module to periodically update EKS worker nodes to the latest patched AMI for the current version i.e 1.23.
 sombra,transcend-io,4155,aws,https://github.com/transcend-io/terraform-aws-sombra,Launch Sombra gateways on AWS using Terraform.
+some-vm,messypoutine,23879,google,https://github.com/messypoutine/terraform-google-some-vm,
 something,abhishekPhukan,22381,powermax,https://github.com/abhishekPhukan/terraform-powermax-something,
 sonarqube,cn-terraform,3243,aws,https://github.com/cn-terraform/terraform-aws-sonarqube,SonarQube Terraform Module for AWS
 sonarqube,telia-oss,1451,aws,https://github.com/telia-oss/terraform-aws-sonarqube,A Terraform module for deploying Sonarqube.
