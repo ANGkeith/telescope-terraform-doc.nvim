@@ -431,6 +431,7 @@ aks-acr,Shivakumar1702,22294,azurerm,https://github.com/Shivakumar1702/terraform
 aks-addons,squareops,20028,azurerm,https://github.com/squareops/terraform-azurerm-aks-addons,"This module provides a set of reusable, configurable, and scalable Azure AKS addons configurations. It enables users to easily deploy and manage a highly available AKS cluster using infrastructure as code."
 aks-agic,kuhlman-labs,5230,azurerm,https://github.com/kuhlman-labs/terraform-azurerm-aks-agic,A Terraform Module for how to run AKS on Azure with an App Gateway Ingress Controller
 aks-appgw-fe,richminchukio,6171,azurerm,https://github.com/richminchukio/terraform-azurerm-aks-appgw-fe,A Terraform Registry Module for creating a generic frontend web application in AKS with SSL termination at an AppGW
+aks-byovpn-sandbox,nuonco,23927,azure,https://github.com/nuonco/terraform-azure-aks-byovpn-sandbox,Azure AKS BYOVPN sandbox for Nuon apps.
 aks-centos7-vmss,chilicat,10728,azurerm,https://github.com/chilicat/terraform-azurerm-aks-centos7-vmss,
 aks-cluster,cyber-scot,21455,azurerm,https://github.com/cyber-scot/terraform-azurerm-aks-cluster,A module used to make deploying Azure Kubernetes Cluster easily 🚢⚓
 aks-cluster,jacops,3776,azurerm,https://github.com/jacops/terraform-azurerm-aks-cluster,Terraform module for creating Azure Kubernetes Service (autoscaling)
@@ -954,6 +955,7 @@ applicationset,logscale-contrib,20475,argocd,https://github.com/logscale-contrib
 apply,matti,2998,kubectl,https://github.com/matti/terraform-kubectl-apply,
 apply-manifests,ptonini,16772,kubectl,https://github.com/ptonini/terraform-kubectl-apply-manifests,
 apppolicy,sebbycorp,21829,fortigate,https://github.com/sebbycorp/terraform-fortigate-apppolicy,
+appreg,EvanSnowden,23932,azurerm,https://github.com/EvanSnowden/terraform-azurerm-appreg,Test to publish module to public TF registry
 approle,devops-rob,7414,vault,https://github.com/devops-rob/terraform-vault-approle,The Vault AppRole Terraform module configures HashiCorp Vault AppRoles and associated policies for machines or applications to authenticate against Vault. 
 approle,infrablocks,14302,vault,https://github.com/infrablocks/terraform-vault-approle,A Terraform module for creating an app role in Hashicorp Vault.
 approle,makezbs,4306,vault,https://github.com/makezbs/terraform-vault-approle,Terraform module which creates AppRole resources in Hashicorp Vault
@@ -2438,6 +2440,7 @@ circleci_oidc,GoCarrot,17232,aws,https://github.com/GoCarrot/terraform-aws-circl
 cis,einyx,3238,aws,https://github.com/einyx/terraform-aws-cis,Terraform module to manage CIS Benchmark
 cis,terraform-ibm-modules,9245,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cis,Terraform module to create and work with internet services on IBM Cloud
 cis-cloudwatch-monitors,rhythmictech,5391,aws,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
+cis-landingzone-quickstart,andrecorreaneto,23931,oci,https://github.com/andrecorreaneto/terraform-oci-cis-landingzone-quickstart,Quickstart Terraform configuration for tenancy setup according to CIS OCI Foundations Benchmark.
 cisco-ngfw-vpc,itprosource,12927,aws,https://github.com/itprosource/terraform-aws-cisco-ngfw-vpc,Template which builds a secure AWS VPC environment ready for Cisco NGFW vFTD deployment.. 
 cisco8000v,bayupw,15883,equinix,https://github.com/bayupw/terraform-equinix-cisco8000v,Terraform module for deploying Cisco 8000V router in Equinix Fabric
 ciscoasav-vm,gehoumi,11247,google,https://github.com/gehoumi/terraform-google-ciscoasav-vm,Terraform module to deploy Cisco ASAv on GCP
@@ -3397,6 +3400,7 @@ copy-bq-datasets,yu-iskw,10299,google,https://github.com/yu-iskw/terraform-googl
 core,ntangy,3310,alks,https://github.com/ntangy/terraform-alks-core,
 core,telekom-mms,20277,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-core,A Terraform module that manages the core resources from the azuredevops provider.
 core-parameters,nuvibit,16271,aws,https://github.com/nuvibit/terraform-aws-core-parameters,Terraform module to store and read a terraform HCL map via AWS SSM Parameter Store.
+core-services,brucellino,23925,consul,https://github.com/brucellino/terraform-consul-core-services,A Terraform module for registering infrastructure core services in Consul
 coredns-high-request-duration-on-coredns,terraform-shoreline-modules,20307,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-high-request-duration-on-coredns,This repository was generated automatically based on a Shoreline Insights Runbook.
 coredns-low-cache-hits-count-in-coredns-test-environment,terraform-shoreline-modules,20320,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-low-cache-hits-count-in-coredns-test-environment,This repository was generated automatically based on a Shoreline Insights Runbook.
 coredns-op-pack,terraform-shoreline-modules,12906,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-op-pack,Shoreline platform Op Packs (Terraform modules) for CoreDNS latency alerting and remediation.
@@ -6074,6 +6078,7 @@ enclave,vespa-cloud,17777,aws,https://github.com/vespa-cloud/terraform-aws-encla
 enclave,vespa-cloud,20961,google,https://github.com/vespa-cloud/terraform-google-enclave,Terraform modules for Vespa Cloud Enclave (GCP)
 encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,A terraform module for creating an encrypted bucket in S3
 encryptedmanageddisk,Azure,595,azurerm,https://github.com/Azure/terraform-azurerm-encryptedmanageddisk,Terraform Azure RM Encrypted Managed Disk Module 
+endpoint-backup,michael-denino,23924,aws,https://github.com/michael-denino/terraform-aws-endpoint-backup,"Terraform AWS module to create the S3 and IAM resources needed for endpoint backup software such as Arq, and MSP360 Standalone Backup (Formerly CloudBerry Backup)."
 endpoint-group,netascode,9753,aci,https://github.com/netascode/terraform-aci-endpoint-group,Terraform Cisco ACI Endpoint Group Module
 endpoint-loop-protection,netascode,9801,aci,https://github.com/netascode/terraform-aci-endpoint-loop-protection,Terraform Cisco ACI Endpoint Loop Protection Module
 endpoint-security-group,netascode,10450,aci,https://github.com/netascode/terraform-aci-endpoint-security-group,Terraform Cisco ACI Endpoint Security Group Module
@@ -9806,6 +9811,7 @@ namer,cawcaw253,22082,aws,https://github.com/cawcaw253/terraform-aws-namer,Terra
 namespace,2catsandkate,21963,kubernetes,https://github.com/2catsandkate/terraform-kubernetes-namespace,
 namespace,2catsandkate,22909,k8s,https://github.com/2catsandkate/terraform-k8s-namespace,
 namespace,Aizhamal23,21972,kubernetes,https://github.com/Aizhamal23/terraform-kubernetes-namespace,
+namespace,AnastasiaZinych,23933,kubernetes,https://github.com/AnastasiaZinych/terraform-kubernetes-namespace,
 namespace,Chelz1990,22914,kubernetes,https://github.com/Chelz1990/terraform-kubernetes-namespace,
 namespace,IremKarakoyun,21962,kubernetes,https://github.com/IremKarakoyun/terraform-kubernetes-namespace,
 namespace,SaphiaEliza,21989,kebernetes,https://github.com/SaphiaEliza/terraform-kebernetes-namespace,
@@ -10227,6 +10233,7 @@ node-outputs,matti,803,kontena,https://github.com/matti/terraform-kontena-node-o
 node-pool,devdynamicio,12904,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-node-pool,Terraform module to create an node pools for Kubernetes cluster in DigitalOcean 🇺🇦
 node-registration,netascode,9949,aci,https://github.com/netascode/terraform-aci-node-registration,Terraform Cisco ACI Node Registration Module
 nodejs-cluster,ESSch,2631,google,https://github.com/ESSch/terraform-google-nodejs-cluster,"The node js cluster for kubernetes, expample, Kubernetes Engine of GCP."
+nodejs-instance,sakiphan,23929,aws,https://github.com/sakiphan/terraform-aws-nodejs-instance,
 nodejs-lambda-layer,kota65535,22235,aws,https://github.com/kota65535/terraform-aws-nodejs-lambda-layer,
 nodejs-repo,container-labs,6594,github,https://github.com/container-labs/terraform-github-nodejs-repo,
 nodepool,avisi-cloud,21883,acloud,https://github.com/avisi-cloud/terraform-acloud-nodepool,Terraform Module for Provisioning an Avisi Cloud Kubernetes Node Pool
@@ -10384,6 +10391,8 @@ olm,e-breuninger,22576,module,https://github.com/e-breuninger/terraform-module-o
 olm,tensor5,12733,kubernetes,https://github.com/tensor5/terraform-kubernetes-olm,Terraform module for OLM
 omkar2305storage,beingomkardalvi,21533,azurerm,https://github.com/beingomkardalvi/terraform-azurerm-omkar2305storage,
 omniosce-lab,jmarhee,7173,aws,https://github.com/jmarhee/terraform-aws-omniosce-lab,
+onboarding,aquasecurity,23928,gcp,https://github.com/aquasecurity/terraform-gcp-onboarding,Terraform module to configure Aqua Security’s CSPM and agentless solutions on GCP
+onboarding,aquasecurity,23930,azure,https://github.com/aquasecurity/terraform-azure-onboarding,Terraform module to configure Aqua Security’s CSPM and agentless solutions on Azure
 onboarding,shadbury,14776,aws,https://github.com/shadbury/terraform-aws-onboarding,List of resources required for onboarding clients into AWS
 onboarding,strongdm,6153,sdm,https://github.com/strongdm/terraform-sdm-onboarding,Create your strongDM onboarding environment in AWS
 onboarding-module,kalenarndt,15456,tfe,https://github.com/kalenarndt/terraform-tfe-onboarding-module,TFC/E onboarding module. Originally forked from WhatsARanjit
