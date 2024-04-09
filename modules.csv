@@ -184,7 +184,6 @@ acm,Lupus-Metallum,8432,aws,https://github.com/Lupus-Metallum/terraform-aws-acm,
 acm,Selleo,12995,aws,https://github.com/Selleo/terraform-aws-acm,Terraform module for provisioning and validating TLS certificates.
 acm,Smartbrood,22954,aws,https://github.com/Smartbrood/terraform-aws-acm,Terraform module to create ACM Certificate
 acm,TheGrowthExponent,15768,aws,https://github.com/TheGrowthExponent/terraform-aws-acm,Create and verify ACM certificate
-acm,UGNS,7551,aws,https://github.com/ugns/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,YoshinoriSatoh,11932,aws,https://github.com/YoshinoriSatoh/terraform-aws-acm,
 acm,appzen-oss,5772,aws,https://github.com/appzen-oss/terraform-aws-acm,AWS cert manager module
 acm,babbel,11627,aws,https://github.com/babbel/terraform-aws-acm,Terraform module creating an ACM certificate
@@ -201,6 +200,7 @@ acm,spirius,5173,aws,https://github.com/spirius/terraform-aws-acm,AWS ACM Certif
 acm,terraform-aws-modules,1881,aws,https://github.com/terraform-aws-modules/terraform-aws-acm,Terraform module to create AWS ACM resources 🇺🇦
 acm,terraform-module,3812,aws,https://github.com/terraform-module/terraform-aws-acm,ℹ️ Terraform AWS ACM module.
 acm,tomarv2,12363,aws,https://github.com/tomarv2/terraform-aws-acm,Terraform module for Amazon Certificate Manager
+acm,ugns,7551,aws,https://github.com/ugns/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,web-virtua-aws-multi-account-modules,17167,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-acm,
 acm,yurymkomarov,4632,aws,https://github.com/yurymkomarov/terraform-aws-acm,AWS Certificate Manager
 acm-cert,trussworks,1345,aws,https://github.com/trussworks/terraform-aws-acm-cert,Creates a TLS certificate using AWS ACM for domains hosted on Route53.
@@ -678,6 +678,7 @@ apache-example,GaboH97,19325,aws,https://github.com/GaboH97/terraform-aws-apache
 apache-example,MarceCost,11844,aws,https://github.com/mcostabile/terraform-aws-apache-example,
 apache-example,Ndzenyuy,19899,aws,https://github.com/Ndzenyuy/terraform-aws-apache-example,
 apache-example,Nick-Kotsalis,15729,aws,https://github.com/Nick-Kotsalis/terraform-aws-apache-example,This is me practicing with Terraform modules. Not intended for use other than personal practice
+apache-example,Niyi-lad,23999,aws,https://github.com/Niyi-lad/terraform-aws-apache-example,
 apache-example,Rahulsingh190792,10890,aws,https://github.com/Rahulsingh190792/terraform-aws-apache-example,
 apache-example,Sangamesh21,16880,aws,https://github.com/Sangamesh21/terraform-aws-apache-example,Terraform Module to provision an EC2 Instance that is running Apache.
 apache-example,SuhelMalik,14074,aws,https://github.com/SuhelMalik/terraform-aws-apache-example,
@@ -891,6 +892,7 @@ app-service,T-Systems-MMS,14531,azurerm,https://github.com/telekom-mms/terraform
 app-service,claranet,13973,azurerm,https://github.com/claranet/terraform-azurerm-app-service,Terraform module composition (feature) for Azure App Service (Service Plan + WebApp)
 app-service,clouddrove,18620,azure,https://github.com/clouddrove/terraform-azure-app-service,
 app-service,dfar-io,2771,azurerm,https://github.com/dfar-io/terraform-azurerm-app-service,
+app-service,equinor,23984,azurerm,https://github.com/equinor/terraform-azurerm-app-service,Terraform module which creates Azure App Service resources
 app-service,kumarvna,9636,azurerm,https://github.com/kumarvna/terraform-azurerm-app-service,Terraform module to deploy Azure App Service for hosting web applications on both Windows and Linux-based environments with optional resources
 app-service,miljodir,22154,azurerm,https://github.com/miljodir/terraform-azurerm-app-service,Terraform module composition (feature) for Azure App Service (Service Plan + WebApp)
 app-service,telekom-mms,21874,azurerm,https://github.com/telekom-mms/terraform-azurerm-app-service,A Terraform module that manages the app service resources from the azurerm provider.
@@ -1490,6 +1492,7 @@ available-ips,fr-platform,17832,azurerm,https://github.com/fr-platform/terraform
 avd,ColeHeard,17823,azurerm,https://github.com/ColeHeard/terraform-azurerm-avd,An Azure Virtual Desktop module. Uploaded for the public Terraform Registry.
 avd,claranet,21467,azurerm,https://github.com/claranet/terraform-azurerm-avd,Terraform module for Azure Virtual Desktop
 avd-host-pool,libre-devops,15014,azurerm,https://github.com/libre-devops/terraform-azurerm-avd-host-pool,A module used to deploy a Azure Virtual Desktop (AVD) or Windows Virtual Desktop (WVD) in Azure
+avd-module,tobster2k15,23998,azure,https://github.com/tobster2k15/terraform-azure-avd-module,
 avdhp,CMCS-Norway,23645,azurerm,https://github.com/CMCS-Norway/terraform-azurerm-avdhp,CMCS AzureRM Azure Virtual Desktop Hostpool deployment module
 avdsh,ColeHeard,23972,azurerm,https://github.com/ColeHeard/terraform-azurerm-avdsh,This module creates sessionhosts for Azure Virtual desktop. It is a companion module for terraform-azurerm-avd.
 avi-alb-deployment-aws,vmware,14489,aws,https://github.com/vmware/terraform-aws-avi-alb-deployment-aws,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on AWS. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
@@ -1538,6 +1541,7 @@ avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-az
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
 awesome-modules,armagankaratosun,20105,vsphere,https://github.com/armagankaratosun/terraform-vsphere-awesome-modules,Armagan's Awesome Terraform Modules for VMware vSphere/vCenter
+awp-aws,dome9,24005,dome9,https://github.com/dome9/terraform-dome9-awp-aws,CloudGuard AWP Module
 aws,ActionIQ-OSS,12331,duckbillgroup,https://github.com/ActionIQ-OSS/terraform-duckbillgroup-aws,
 aws,Varshitha-Gundluru,15310,registry,https://github.com/Varshitha-Gundluru/terraform-registry-aws,
 aws,Yvz-DevOps,5808,asg,https://github.com/hyvz-devops/terraform-asg-aws,
@@ -3216,8 +3220,11 @@ compute-network,JAYAKUMAR-hub,11001,google,https://github.com/JAYAKUMAR-hub/terr
 compute-region-health-check,pratik141,3886,google,https://github.com/pratik141/terraform-google-compute-region-health-check,Health Checks
 compute-vm,iqz-systems,12323,google,https://github.com/iqz-systems/terraform-google-compute-vm,Terraform module to create a Google Compute Engine Engine with meaningful defaults.
 compute-with-public-ip,anvibo,2254,google,https://github.com/bfrunza/terraform-google-compute-with-public-ip,
+compute_external_ip_address,ankitr-c,23996,google,https://github.com/ankitr-c/terraform-google-compute_external_ip_address,
+compute_forwarding_rule_for_target,ankitr-c,23992,google,https://github.com/ankitr-c/terraform-google-compute_forwarding_rule_for_target,
 compute_instance_from_machineimage,bootlabstech,19942,google,https://github.com/bootlabstech/terraform-google-compute_instance_from_machineimage,Creates a GCP instance from a machine image.
 compute_instance_group,bootlabstech,15161,google,https://github.com/bootlabstech/terraform-google-compute_instance_group,
+compute_target_instance,ankitr-c,23997,google,https://github.com/ankitr-c/terraform-google-compute_target_instance,
 computegroup,Azure,40,azurerm,https://github.com/Azure/terraform-azurerm-computegroup,Terraform Azure RM Compute Group Module
 computesingle,oraziobattaglia,6635,azurerm,https://github.com/oraziobattaglia/terraform-azurerm-computesingle,"This Terraform module deploys 1 Virtual Machines in Azure, ideas from official module."
 computesoftware-roles,ComputeSoftware,6246,aws,https://github.com/ComputeSoftware/terraform-aws-computesoftware-roles,Terraform modules which creates AWS IAM roles for use with the Compute Software Platform.
@@ -4401,6 +4408,7 @@ docker-instance,momoch4n,14692,aws,https://github.com/momoch4n/terraform-aws-doc
 docker-instance,mosmant,18161,aws,https://github.com/mosmant/terraform-aws-docker-instance,The GitHub repository description is used to populate the short description of the module. This should be a simple one sentence description of the module.
 docker-instance,msaidcevik,14665,aws,https://github.com/msaidcevik/terraform-aws-docker-instance,
 docker-instance,mstf38,14690,aws,https://github.com/mstf38/terraform-aws-docker-instance,
+docker-instance,muallaakman,23985,aws,https://github.com/muallaakman/terraform-aws-docker-instance,
 docker-instance,muammer-acarab,14659,aws,https://github.com/muammer-acarab/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,mucahitmel,20755,aws,https://github.com/mucahitmel/terraform-aws-docker-instance,terraform-aws-docker-instance
 docker-instance,muratyenidogan,23839,aws,https://github.com/muratyenidogan/terraform-aws-docker-instance,
@@ -6309,6 +6317,7 @@ fargate,JamesWoolfenden,2853,aws,https://github.com/JamesWoolfenden/terraform-aw
 fargate,Rishang,17075,aws,https://github.com/Rishang/terraform-aws-fargate,terraform module to deploy aws ecs fargate 
 fargate,almirosmanovic,4304,aws,https://github.com/almirosmanovic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate,atrakic,18720,aws,https://github.com/atrakic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
+fargate,ryanef,24004,aws,https://github.com/ryanef/terraform-aws-fargate,
 fargate,strvcom,2107,aws,https://github.com/strvcom/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate,termit-uanic,8425,aws,https://github.com/termit-uanic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate-bluegreen,zkfmapf123,20815,ecs,https://github.com/zkfmapf123/terraform-ecs-fargate-bluegreen,ecs fargate use deploy blue/green
@@ -7177,6 +7186,7 @@ hpdbaas-mongodb,cloud-native-toolkit,14560,ibm,https://github.com/terraform-ibm-
 hpdbaas-postgresql,cloud-native-toolkit,14561,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-hpdbaas-postgresql,Module to provision a Hyper Protect DB as a Service Postgresql instance
 hprakashstorage,hprakashhub,10159,azure,https://github.com/hprakashhub/terraform-azure-hprakashstorage,
 html-form-action,TechNative-B-V,15944,aws,https://github.com/TechNative-B-V/terraform-aws-html-form-action,Creates a simple form handler for plain html forms. Great for static website. Sets up Lambda and API Gateway.
+html-form-action,wearetechnative,24001,aws,https://github.com/wearetechnative/terraform-aws-html-form-action,Simple self-hosted form handler with Lambda and API Gateway. Great for static websites.
 http-api-gateway,SevenPico,19656,aws,https://github.com/SevenPico/terraform-aws-http-api-gateway,
 http-cloud-function,aidenabled,11474,google,https://github.com/aidenabled/terraform-google-http-cloud-function,
 http-cloudfunction,iraza,10505,google,https://github.com/iraza/terraform-google-http-cloudfunction,
@@ -8202,7 +8212,7 @@ kubeflow,WOGRA-AG,11622,kustomization,https://github.com/WOGRA-AG/terraform-kust
 kubeflow,bharath-krishna,12079,module,https://github.com/bharath-krishna/terraform-module-kubeflow,Kubeflow deployment purely in Terraform
 kubeflow,combinator-ml,9492,k8s,https://github.com/combinator-ml/terraform-k8s-kubeflow,Kubeflow terraform module
 kubeflow,datarootsio,5152,module,https://github.com/datarootsio/terraform-module-kubeflow,Kubeflow deployment purely in Terraform
-kubeflow,treebeardtech,23476,helm,https://github.com/treebeardtech/terraform-helm-kubeflow,🪐 1-click Kubeflow
+kubeflow,treebeardtech,23476,helm,https://github.com/treebeardtech/terraform-helm-kubeflow,🪐 1-click Kubeflow using ArgoCD
 kubeflow-cluster,Deepbody-inc,5654,gke,https://github.com/Deepbody-inc/terraform-gke-kubeflow-cluster,Terraform module for creating GKE clusters to run Kubeflow
 kubeflow-cluster,spotify,3725,gke,https://github.com/spotify/terraform-gke-kubeflow-cluster,
 kubeflow-metal,kubeflow-onprem,13276,kustomize,https://github.com/kubeflow-onprem/terraform-kustomize-kubeflow-metal,
@@ -10934,6 +10944,7 @@ private-endpoint,data-platform-hq,16050,azurerm,https://github.com/data-platform
 private-endpoint,jsathler,21662,azurerm,https://github.com/jsathler/terraform-azurerm-private-endpoint,
 private-endpoint,lestermarch,23528,azurerm,https://github.com/lestermarch/terraform-azurerm-private-endpoint,"Helper module for provisioning private endpoints, including network interface monitoring."
 private-endpoint,libre-devops,18634,azurerm,https://github.com/libre-devops/terraform-azurerm-private-endpoint,A module used to deploy an Azure private endpoint
+private-endpoints,appvia,24002,aws,https://github.com/appvia/terraform-aws-private-endpoints,Used to manage a shared private endpoints vpc
 private-gke,Pruthvi2340,22563,google,https://github.com/Pruthvi2340/terraform-google-private-gke,
 private-gke-cluster,memes,17976,google,https://github.com/memes/terraform-google-private-gke-cluster,Terraform module to create regional GKE clusters without public IP addresses on nodes or control plane
 private-key,pmikus,20008,tls,https://github.com/pmikus/terraform-tls-private-key,Terraform module creates a TLS key. 
@@ -11990,7 +12001,7 @@ route53-alias,mediapop,1087,aws,https://github.com/mediapop/terraform-aws-route5
 route53-autocname,giuliocalzolari,2776,aws,https://github.com/giuliocalzolari/terraform-aws-route53-autocname,AWS Lambda to create automatic Route53 CNAME on RunInstance
 route53-backup-restore,bridgecrewio,3264,aws,https://github.com/bridgecrewio/terraform-aws-route53-backup-restore,A module that backs up and restores route53 zones and records
 route53-backup-restore,outsideopen,17140,aws,https://github.com/outsideopen/terraform-aws-route53-backup-restore,Terraform module for provisioning Route53 backup/restore lambda functions.
-route53-caa,UGNS,7934,aws,https://github.com/ugns/terraform-aws-route53-caa,Certificate Authority Authorization for AWS Route53
+route53-caa,ugns,7934,aws,https://github.com/ugns/terraform-aws-route53-caa,Certificate Authority Authorization for AWS Route53
 route53-cluster-hostname,cloudposse,231,aws,https://github.com/cloudposse/terraform-aws-route53-cluster-hostname,Terraform module to define a consistent AWS Route53 hostname
 route53-cluster-zone,cloudposse,232,aws,https://github.com/cloudposse/terraform-aws-route53-cluster-zone,Terraform module to easily define consistent cluster domains on Route53 (e.g. `prod.ourcompany.com`)
 route53-cluster-zone,gabeio,18092,aws,https://github.com/gabeio/terraform-aws-route53-cluster-zone,Terraform module to easily define consistent cluster domains on Route53 (e.g. `prod.ourcompany.com`)
@@ -11999,7 +12010,7 @@ route53-dns,mergermarket,3705,acuris,https://github.com/mergermarket/terraform-a
 route53-dns-entry,mishra-demos,3500,aws,https://github.com/mishra-demos/terraform-aws-route53-dns-entry,A Route53 DNS entry module for domain name buycoffee.app
 route53-dns01,rgrizzell,23621,aws,https://github.com/rgrizzell/terraform-aws-route53-dns01,Terraform module to allow a given IAM role to update its DNS01 TXT records in a given Route53 zone.
 route53-dnssec,CogDisResLab,13634,aws,https://github.com/CogDisResLab/terraform-aws-route53-dnssec,
-route53-dnssec,UGNS,7923,aws,https://github.com/ugns/terraform-aws-route53-dnssec,Terraform AWS Route53 DNSSEC module
+route53-dnssec,ugns,7923,aws,https://github.com/ugns/terraform-aws-route53-dnssec,Terraform AWS Route53 DNSSEC module
 route53-domain-redirect,trebidav,3052,module,https://github.com/trebidav/terraform-module-route53-domain-redirect,Terraform module for permanent domain redirect using AWS Route53
 route53-elb,dcos-terraform,1727,aws,https://github.com/dcos-terraform/terraform-aws-route53-elb,Creates Route53 Alias Module for Master LB
 route53-endpoint,rhythmictech,3126,aws,https://github.com/rhythmictech/terraform-aws-route53-endpoint,Route53 Resolver Endpoint with Proper Security Groups
@@ -12024,7 +12035,7 @@ route53-instances,dcos-terraform,1728,aws,https://github.com/dcos-terraform/terr
 route53-keybase-domain-proof,ksatirli,15352,aws,https://github.com/ksatirli/terraform-aws-route53-keybase-domain-proof,Terraform Module: Route 53 Records for Keybase Domain Proofs
 route53-keybase-domain-proof,operatehappy,4179,aws,https://github.com/ksatirli/terraform-aws-route53-keybase-domain-proof,Route 53 Records for Keybase Domain Proofs
 route53-module,nashvan,7141,aws,https://github.com/nbmustafa/terraform-aws-route53-module,AWS Route53 Terraform module with existing Hosted Zone and complete examples
-route53-mta-sts,UGNS,7935,aws,https://github.com/ugns/terraform-aws-route53-mta-sts,Mail Transport Agent - Strict Transport Security for AWS Route53
+route53-mta-sts,ugns,7935,aws,https://github.com/ugns/terraform-aws-route53-mta-sts,Mail Transport Agent - Strict Transport Security for AWS Route53
 route53-multi-account,phzietsman,5415,aws,https://github.com/phzietsman/terraform-aws-route53-multi-account,A module to help manage Route53 records sets across many accounts  
 route53-nia,escapace,13990,aws,https://github.com/escapace/terraform-aws-route53-nia,
 route53-o365,mccanney,1714,aws,https://github.com/mccanney/terraform-aws-route53-o365,Terraform module to create Office 365 Route53 DNS records
@@ -12048,7 +12059,7 @@ route53-resolver-endpoint,mhmdio,8356,aws,https://github.com/mhmdio/terraform-aw
 route53-resolver-rule,rhythmictech,3132,aws,https://github.com/rhythmictech/terraform-aws-route53-resolver-rule,Create and manage a Route 53 Resolver Resolver Rule.
 route53-resolver-rules,lgallard,4263,aws,https://github.com/lgallard/terraform-aws-route53-resolver-rules,Terraform module to create AWS Route53 Resolver Rules.
 route53-s3-http-redirect,TechNative-B-V,15941,aws,https://github.com/TechNative-B-V/terraform-aws-module-route53-s3-http-redirect,Creates a simple http-url forwarding redirect using a Route 53 alias record and a S3 bucket.
-route53-ses,UGNS,7936,aws,https://github.com/ugns/terraform-aws-route53-ses,A Simple Email Service setup with AWS Route53
+route53-ses,ugns,7936,aws,https://github.com/ugns/terraform-aws-route53-ses,A Simple Email Service setup with AWS Route53
 route53-workmail-records,ksatirli,15265,aws,https://github.com/ksatirli/terraform-aws-route53-workmail-records,Route 53 Records for AWS WorkMail
 route53-workmail-records,operatehappy,2991,aws,https://github.com/ksatirli/terraform-aws-route53-workmail-records,Route 53 Records for AWS WorkMail
 route53-zone,brunordias,5586,aws,https://github.com/brunordias/terraform-aws-route53-zone,Terraform module which create a AWS Route53 Hosted Public or Private Zone
@@ -14828,8 +14839,9 @@ virtual-desktop,amestofortytwo,20154,azurerm,https://github.com/amestofortytwo/t
 virtual-machine,Azure,17546,azurerm,https://github.com/Azure/terraform-azurerm-virtual-machine,Terraform Azure RM Virtual Machine Module
 virtual-machine,OT-terraform-azure-modules,22278,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-virtual-machine,
 virtual-machine,anugnes,680,azure,https://github.com/anugnes/terraform-azure-virtual-machine,Azure Virtual Machine Module for Terraform
-virtual-machine,clouddrove,17268,azure,https://github.com/clouddrove/terraform-azure-virtual-machine,
+virtual-machine,clouddrove,17268,azure,https://github.com/clouddrove/terraform-azure-virtual-machine,Terraform module to create virtual machine resource on AZURE. 
 virtual-machine,cypik,22849,azure,https://github.com/cypik/terraform-azure-virtual-machine,
+virtual-machine,d4kverma,24000,azurerm,https://github.com/d4kverma/terraform-azurerm-virtual-machine,Terraform module to deploy single or multiple Virtual Machines of Linux or Windows with optional features.
 virtual-machine,heathen1878,20155,azurerm,https://github.com/heathen1878/terraform-azurerm-virtual-machine,Manages Windows and Linux virtual machines
 virtual-machine,iankesh,6237,azure,https://github.com/iankesh/terraform-azure-virtual-machine,This is a Terraform custom module to create Virtual Machine in Azure Cloud. 
 virtual-machine,jakoberpf,20854,proxmox,https://github.com/jakoberpf/terraform-proxmox-virtual-machine,Terreform module for integrated service deployment
