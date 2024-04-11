@@ -303,6 +303,7 @@ addons,free-devops,5845,kubernetes,https://github.com/free-devops/terraform-kube
 addons,particuleio,6559,kubernetes,https://github.com/particuleio/terraform-kubernetes-addons,Terraform module to deploy curated Kubernetes middlewares on multiple cloud providers.
 addons,shalb,21157,eks,https://github.com/shalb/terraform-eks-addons,
 addons,shalb,21158,gke,https://github.com/shalb/terraform-gke-addons,
+address,cypik,24027,google,https://github.com/cypik/terraform-google-address,
 address,terraform-google-modules,2009,google,https://github.com/terraform-google-modules/terraform-google-address,Manages Google Cloud IP addresses
 address-group,cloud-labs-infra,21156,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group,
 address-group-builder,StratusGrid,5917,fortios,https://github.com/StratusGrid/terraform-fortios-address-group-builder,"This module takes a map of network configurations and makes address groups for each one, nested in an address group."
@@ -1527,6 +1528,7 @@ avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,Azure Firewall AVM Module
 avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost,repository for AVM Azure Bastion module
 avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan AVM module
+avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,AVM Terraform module for private DNS resolver
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
@@ -2797,6 +2799,7 @@ cloudfunctions,kiwicom,5668,google,https://github.com/kiwicom/terraform-google-c
 cloudfunctions-http,google-terraform-modules,992,google,https://github.com/google-terraform-modules/terraform-google-cloudfunctions-http,Create Google CloudFunctions HTTP 
 cloudgenix-sdwan,equinix,8155,equinix,https://github.com/equinix/terraform-equinix-cloudgenix-sdwan,Terraform module for quick deployment of GloudGenix SD-WAN edge device
 cloudguard,equinix,8203,equinix,https://github.com/equinix/terraform-equinix-cloudguard,Terraform module for quick deployment of Check Point CloudGuard firewall device
+cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
 cloudinit,rsjethani,3231,libvirt,https://github.com/rsjethani/terraform-libvirt-cloudinit,
 cloudinit,tedivm,12433,general,https://github.com/tedivm/terraform-general-cloudinit,A cloudinit wrapper module that enables quick machine configuration
@@ -5968,6 +5971,7 @@ elasticache,7clouds-terraform-modules,16987,aws,https://github.com/7clouds-terra
 elasticache,JamesWoolfenden,11326,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticache,Basic elasticache module
 elasticache,OT-CLOUD-KIT,10598,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache,
 elasticache,clouddrove,3651,aws,https://github.com/clouddrove/terraform-aws-elasticache,Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
+elasticache,cypik,24028,aws,https://github.com/cypik/terraform-aws-elasticache,
 elasticache,dasmeta,20919,aws,https://github.com/dasmeta/terraform-aws-elasticache,Terraform modules from DasMeta to manage AWS ElasitCache
 elasticache,deepak7093,1688,aws,https://github.com/deepak7093/terraform-aws-elasticache,Terraform module for AWS Elasticache 
 elasticache,flaudisio,17246,aws,https://github.com/flaudisio/terraform-aws-elasticache,Modules for deploying and managing ElastiCache resources on AWS.
@@ -7132,6 +7136,7 @@ helloworld,briancain,5792,aws,https://github.com/briancain/terraform-aws-hellowo
 helloworld,miguelhrocha,17499,aws,https://github.com/miguelhrocha/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
 helm,T-Systems-MMS,12108,helm,https://github.com/T-Systems-MMS/terraform-helm-helm,Configure helm over terraform
 helm,cloudopsworks,14509,aws,https://github.com/cloudopsworks/terraform-aws-helm,AWS EKS - Helm Install module
+helm,cypik,24025,eks,https://github.com/cypik/terraform-eks-helm,
 helm,gitlawr,17539,kubernetes,https://github.com/gitlawr/terraform-kubernetes-helm,
 helm,gruntwork-io,2432,kubernetes,https://github.com/gruntwork-io/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
 helm,ruaan,6519,kubernetes,https://github.com/ruaan/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
@@ -8534,6 +8539,7 @@ lambda-at-edge,transcend-io,4742,aws,https://github.com/transcend-io/terraform-a
 lambda-auto-package,damacus,4885,aws,https://github.com/damacus/terraform-aws-lambda-auto-package,A terraform module to define a lambda function which source files are automatically built and packaged for lambda deployment.
 lambda-auto-package,nozaq,2908,aws,https://github.com/nozaq/terraform-aws-lambda-auto-package,A terraform module to define a lambda function which source files are automatically built and packaged for lambda deployment.
 lambda-auto-update-security-group-ips,karvounis,7094,aws,https://github.com/karvounis/terraform-aws-lambda-auto-update-security-group-ips,Terraform module that creates the resources in order to be able to update the security group rules based on an AWS Autoscaling Groups's IPs
+lambda-base,andreswebs,24035,aws,https://github.com/andreswebs/terraform-aws-lambda-base,
 lambda-base,genstackio,8220,aws,https://github.com/genstackio/terraform-aws-lambda-base,Terraform module to be used as a basis for creating an entire lambda
 lambda-basic-execution-role,amancevice,2046,aws,https://github.com/amancevice/terraform-aws-lambda-basic-execution-role,Lambda IAM role with AWSLambdaBasicExecution policy attached
 lambda-blindclock,armorfret,19326,aws,https://github.com/armorfret/terraform-aws-lambda-blindclock,
@@ -8796,10 +8802,12 @@ lb-controller,basisai,8543,aws,https://github.com/basisai/terraform-aws-lb-contr
 lb-dcos,dcos-terraform,1655,azurerm,https://github.com/dcos-terraform/terraform-azurerm-lb-dcos,This module creates three load balancers for DC/OS.
 lb-dcos,dcos-terraform,1841,aws,https://github.com/dcos-terraform/terraform-aws-lb-dcos,AWS LB DC/OS
 lb-http,GoogleCloudPlatform,18,google,https://github.com/terraform-google-modules/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
+lb-http,cypik,24024,google,https://github.com/cypik/terraform-google-lb-http,
 lb-http,terraform-google-modules,18685,google,https://github.com/terraform-google-modules/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-http-tutorial,atcomputing,16204,azurerm,https://github.com/atcomputing/terraform-azurerm-lb-http-tutorial,A module to create a http load balancer in azure for the terraform training 
 lb-http-v4-compat,akiyamasho,23886,google,https://github.com/akiyamasho/terraform-google-lb-http-v4-compat,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-internal,GoogleCloudPlatform,28,google,https://github.com/terraform-google-modules/terraform-google-lb-internal,Creates an internal load balancer for Compute Engine by using forwarding rules
+lb-internal,cypik,24026,google,https://github.com/cypik/terraform-google-lb-internal,
 lb-internal,pouya-racker,1411,pouya,https://github.com/pouya-racker/terraform-pouya-lb-internal,Modular Internal Load Balancer for GCE using forwarding rules.
 lb-internal,terraform-google-modules,18683,google,https://github.com/terraform-google-modules/terraform-google-lb-internal,Creates an internal load balancer for Compute Engine by using forwarding rules
 lb-linker,pbar1,1796,aws,https://github.com/pbar1/terraform-aws-lb-linker,Terraform module which assigns static IP addresses to an ALB
@@ -8875,6 +8883,7 @@ linux-vm,claranet,3508,azurerm,https://github.com/claranet/terraform-azurerm-lin
 linux-vm,data-platform-hq,20156,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-vm,
 linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-linux-vm,This module provisions a stand-alone Linux VM and uses Terraform 0.12+.
 linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
+linux-vm,qbeyond,24031,azurerm,https://github.com/qbeyond/terraform-azurerm-linux-vm,Azure Linux VM module
 linux-vm,www-aiqu-no,3076,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-linux-vm,Deploy Linux VM's from template on vSphere infrastructure
 linux-vm-scale-sets,libre-devops,13608,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm-scale-sets,A module which will build Linux Virtual Machine Scale Sets
 linux-web-app,data-platform-hq,16002,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-web-app,Terraform module for managing Azure Linux Web App
@@ -8937,6 +8946,8 @@ load-balancer-controller,chriszhangusc,9523,aws,https://github.com/chriszhangusc
 load-balancer-fargate,nullstone-modules,8812,aws,https://github.com/nullstone-modules/terraform-aws-load-balancer-fargate,Terraform module to attach a load balancer to a fargate service
 loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
 loadbalancer,MissionCriticalCloud,6534,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-loadbalancer,Terraform module to create and manage a Cosmic load balancer.
+loadbalancer,diademiemi,24020,digitalocean,https://github.com/diademiemi/terraform-digitalocean-loadbalancer,
+loadbalancer,diademiemi,24022,hetzner,https://github.com/diademiemi/terraform-hetzner-loadbalancer,
 loadbalancer,particuleio,10857,scaleway,https://github.com/particuleio/terraform-scaleway-loadbalancer,Terraform module used to create and configure Scaleway Loadbalancers.
 loadbalancer,rahulagalcha97,5818,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
 loadbalancer,ryanef,23409,aws,https://github.com/ryanef/terraform-aws-loadbalancer,
@@ -9065,6 +9076,7 @@ managed-disk,bootlabstech,15506,azurerm,https://github.com/bootlabstech/terrafor
 managed-disk,ptonini,16756,azurerm,https://github.com/ptonini/terraform-azurerm-managed-disk,
 managed-disk-copy,bootlabstech,18739,azurerm,https://github.com/bootlabstech/terraform-azurerm-managed-disk-copy,
 managed-disk-snapshot,bootlabstech,18591,azurerm,https://github.com/bootlabstech/terraform-azurerm-managed-disk-copy,
+managed-grafana,komminarlabs,24034,aws,https://github.com/komminarlabs/terraform-aws-managed-grafana,Terraform module to create and manage Amazon Managed Grafana
 managed-identity,ptonini,21931,azurerm,https://github.com/ptonini/terraform-azurerm-managed-identity,
 managed-instance,stevenfeltner,10088,spotinst,https://github.com/stevenfeltner/terraform-spotinst-managed-instance,Spotinst Provider Module for Managed Instance resource
 managed-instance-group,GoogleCloudPlatform,26,google,https://github.com/GoogleCloudPlatform/terraform-google-managed-instance-group,Modular Google Compute Engine managed instance group for Terraform.
@@ -9248,6 +9260,7 @@ metrics-server,serhii-riabov,23644,kubernetes,https://github.com/serhii-riabov/t
 metricsserver,3191110276,8170,kubernetes,https://github.com/3191110276/terraform-kubernetes-metricsserver,
 mfa,HappyPathway,1647,aws,https://github.com/HappyPathway/terraform-aws-mfa,
 mfa,clouddrove,10980,aws,https://github.com/clouddrove/terraform-aws-mfa,A terraform module to enable MFA for AWS groups and users 
+mfa,cypik,24029,aws,https://github.com/cypik/terraform-aws-mfa,
 mfa,trussworks,2797,aws,https://github.com/trussworks/terraform-aws-mfa,Enforces MFA on an AWS account
 mg-hierarchysettings,matt-FFFFFF,13009,azapi,https://github.com/matt-FFFFFF/terraform-azapi-mg-hierarchysettings,Terraform module for creation and management of Azure management group hierarchy settings
 mgmt,SPHTech-Platform,16494,boundary,https://github.com/SPHTech-Platform/terraform-boundary-mgmt,HCP Boundary Mgmt Module 
@@ -11000,6 +11013,7 @@ project,innovationnorway,4773,tfe,https://github.com/innovationnorway-archive/te
 project,juratbek02,22019,aws,https://github.com/juratbek02/terraform-aws-project,
 project,justtrackio,18894,sentry,https://github.com/justtrackio/terraform-sentry-project,Terraform module which creates a sentry project
 project,kiwicom,4021,vault,https://github.com/kiwicom/terraform-vault-project,Vault resources for Gitlab project.
+project,mariuszRep,24032,azuredevops,https://github.com/mariuszRep/terraform-azuredevops-project,
 project,mineiros-io,11750,google,https://github.com/mineiros-io/terraform-google-project,"A Terraform module to create and manage projects, the basis for creating, enabling, and using all Google Cloud services including managing APIs, enabling billing, adding and removing collaborators, and managing permissions in Google Cloud https://cloud.google.com/resource-manager/docs/creating-managing-projects"
 project,mrlesmithjr,5330,gitlab,https://github.com/mrlesmithjr/terraform-gitlab-project,
 project,nilic,15212,gitlab,https://github.com/nilic/terraform-gitlab-project,Terraform module for GitLab project creation and configuration
@@ -13829,6 +13843,7 @@ staticwebsitepublic,g2gm2m,16895,azurerm,https://github.com/g2gm2m/terraform-azu
 staticwebsitepublic,gagjat91,21437,azurerm,https://github.com/gagjat91/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,gnu699,12442,azurerm,https://github.com/gnu699/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,gopal1409,12855,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsitepublic,Terraform module for static website in azure
+staticwebsitepublic,gurappa9797,24023,azurerm,https://github.com/gurappa9797/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,hbeerangi,10110,azurerm,https://github.com/hbeerangi/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,jleroux751,12320,azurerm,https://github.com/jleroux751/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,johnfdominguezrendon,12971,azurerm,https://github.com/johnfdominguezrendon/terraform-azurerm-staticwebsitepublic,
@@ -14950,6 +14965,7 @@ vm,cypik,22753,google,https://github.com/cypik/terraform-google-vm,
 vm,daohung01,17668,aws,https://github.com/daohung01/terraform-aws-vm,
 vm,diademiemi,19473,libvirt,https://github.com/diademiemi/terraform-libvirt-vm,Terraform module to deploy a Libvirt domain including volume and cloudinit disk
 vm,diademiemi,22419,hetzner,https://github.com/diademiemi/terraform-hetzner-vm,Terraform module to create a VM in Hetzner cloud
+vm,diademiemi,24021,digitalocean,https://github.com/diademiemi/terraform-digitalocean-vm,
 vm,divlv,16175,divlv,https://github.com/divlv/terraform-divlv-vm,Terraform module for Azure Virtula machine
 vm,equinor,23730,azurerm,https://github.com/equinor/terraform-azurerm-vm,Terraform module which creates Azure Virtual Machine resources
 vm,gnodivad,11209,cloud,https://github.com/gnodivad/terraform-cloud-vm,
@@ -16103,7 +16119,7 @@ workspaces,hadenlabs,7417,aws,https://github.com/hadenlabs/terraform-aws-workspa
 workspaces,kodal035,19679,aws,https://github.com/kodal035/terraform-aws-workspaces,terraform-aws-workspacess
 workspaces,maxnasonov,13609,tfe,https://github.com/maxnasonov/terraform-tfe-workspaces,TFE/C workspaces Terraform module
 workspaces,orion-global,17419,tfe,https://github.com/orion-global/terraform-tfe-workspaces,
-workspaces,saidsef,23334,tfe,https://github.com/saidsef/terraform-tfe-workspaces,Terraform module to configure TFE/C workspaces in Terraform Cloud
+workspaces,saidsef,23334,tfe,https://github.com/saidsef/terraform-tfe-workspaces,Terraform module to configure TFE/TFC workspaces in Terraform Cloud
 workspaces,scalefactory,10689,tfe,https://github.com/scalefactory/terraform-tfe-workspaces,TFE/C workspaces Terraform module
 workspaces,trustd-solutions,10984,tfe,https://github.com/trustd-solutions/terraform-tfe-workspaces,Terraform Cloud Workspace bootstraping module
 workspaces-directory-service,voquis,11765,aws,https://github.com/voquis/terraform-aws-workspaces-directory-service,Terraform module to create Amazon Workspace machines backed by Managed Active Directory
