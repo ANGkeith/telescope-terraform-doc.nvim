@@ -1572,6 +1572,7 @@ aws,robertdebock,13456,vault,https://github.com/robertdebock/terraform-vault-aws
 aws,samstav,976,mailgun,https://github.com/stavxyz/terraform-mailgun-aws,"A Terraform module for creating a Mailgun domain, Route53 Zone, and corresponding DNS records"
 aws,terraform-in-action,5833,bluegreen,https://github.com/terraform-in-action/terraform-bluegreen-aws,
 aws,tobi1972,6872,rds,https://github.com/tobi1972/terraform-rds-aws,
+aws-account-integration,falcon-terraform-modules,24139,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-account-integration,This Terraform module constructs and configures the necessary resources for integrating AWS Accounts into New Relic.
 aws-acm,lean-delivery,7583,module,https://github.com/lean-delivery/terraform-module-aws-acm,
 aws-alarms-slack,Adaptavist,5624,module,https://github.com/Adaptavist/terraform-module-aws-alarms-slack,"Terraform module that links a Lambda function to an SNS topic, expecting to receive CloudWatch alarms, forwarding the alarms to a Slack channel."
 aws-alb,lean-delivery,7584,module,https://github.com/lean-delivery/terraform-module-aws-alb,Terraform module for creating AWS Application Load Balancer service
@@ -2165,7 +2166,7 @@ bucketS3,davimarcel,10891,aws,https://github.com/davimarcel/terraform-aws-bucket
 budget,DNXLabs,8990,aws,https://github.com/DNXLabs/terraform-aws-budget,"Terraform module to add billing-related AWS resources like AWS Budget, SNS Budget Alarm, AWS Chatbot integration to send notifications to Slack channel."
 budget,JamesWoolfenden,1993,aws,https://github.com/JamesWoolfenden/terraform-aws-budget,Creates budgets for AWS Usage
 budget,boldlink,17348,aws,https://github.com/boldlink/terraform-aws-budget,Terraform registry repository for AWS budget
-budget,ganexcloud,23940,aws,https://github.com/ganexcloud/terraform-aws-budget,
+budget,ganexcloud,24146,aws,https://github.com/ganexcloud/terraform-aws-budget,
 budget,getindata,15243,aws,https://github.com/getindata/terraform-aws-budget,Terraform module to manage AWS Budgets
 budget,osgurisdosre,17322,aws,https://github.com/osgurisdosre/terraform-aws-budget,Terraform module which creates Budget on AWS
 budget,shadbury,14781,aws,https://github.com/shadbury/terraform-aws-budget,
@@ -2633,6 +2634,7 @@ cloud-storage-iam,data-platform-hq,21440,google,https://github.com/data-platform
 cloud-storage-security,cloudstoragesec,23655,aws,https://github.com/cloudstoragesec/terraform-aws-cloud-storage-security,A Terraform Module for CSS products 
 cloud-vault,farrukh90,9280,hashicorp,https://github.com/farrukh90/terraform-hashicorp-cloud-vault,https://registry.terraform.io/modules/farrukh90/cloud-vault/hashicorp/latest
 cloud-vpn,r-teller,19202,google,https://github.com/r-teller/terraform-google-cloud-vpn,
+cloud-waf,imperva,24141,incapsula,https://github.com/imperva/terraform-incapsula-cloud-waf,
 cloud-workflows,GoogleCloudPlatform,17214,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-workflows,Manage Workflows with optional Scheduler or Event Arc triggers
 cloud1,NguyenTruongThanh-74,15495,aws,https://github.com/NguyenTruongThanh-74/terraform-aws-cloud1,
 cloud9,Xat59,18713,aws,https://github.com/Xat59/terraform-aws-cloud9,Terraform module that creates AWS Cloud9 resources.
@@ -6496,6 +6498,7 @@ firewall-policy-rule-collection-group,jsathler,21060,azurerm,https://github.com/
 firewall-rule,bfrunza,3525,google,https://github.com/bfrunza/terraform-google-firewall-rule,Terraform module which creates VPC firewall rule on GCP
 firewall-rule,kickin6,1190,google,https://github.com/kickin6/terraform-google-firewall-rule,Modular Network Firewall Rule on Google Compute Engine for Terraform. Includes sub-modules for every allowed variable combination in both INGRESS and EGRESS directions.
 firewall-rules,GMafra,1020,gcp,https://github.com/GMafra/terraform-gcp-firewall-rules," Terraform module for creating Firewall rules on Google Cloud"
+firewall-rules,appvia,24143,aws,https://github.com/appvia/terraform-aws-firewall-rules,Terraform module for creating AWS Network Firewall rules
 firewall-rules,lucaspwk,4408,google,https://github.com/lucaspwk/terraform-google-firewall-rules,Terraform module for creating Firewall rules on Google Cloud Plataform
 firewall-rules,r-teller,9563,google,https://github.com/r-teller/terraform-google-firewall-rules,Terraform module that provides an simplified approach for creating firewall rules in GCP
 firewall-rules,thojkooi,1052,digitalocean,https://github.com/thojkooi/terraform-digitalocean-firewall-rules,Terraform module for DigitalOcean providing a basic firewall rules set
@@ -7688,6 +7691,7 @@ instances,ulm0,3341,scaleway,https://github.com/ulm0/terraform-scaleway-instance
 instellar,upmaru,16594,digitalocean,https://github.com/upmaru/terraform-digitalocean-instellar,Terraform module for bootstrapping LXD cluster for using with https://opsmaru.com
 instellar,upmaru,18861,hcloud,https://github.com/upmaru/terraform-hcloud-instellar,Instellar Terraform Module for Hetzner Cloud
 instellar,upmaru,19031,aws,https://github.com/upmaru/terraform-aws-instellar,Terraform module for bootstrapping LXD cluster for using with https://opsmaru.com
+instellar,upmaru,24144,cloudflare,https://github.com/upmaru/terraform-cloudflare-instellar,Cloudflare modules for OpsMaru
 instruqt,jpelchat,22286,aws,https://github.com/jpelchat/terraform-aws-instruqt,Deploy custom resources from AWS in Instruqt sandboxes
 intance-testing-example,PrinceAhirwar,17066,aws,https://github.com/PrinceAhirwar/terraform-aws-intance-testing-example,
 integration,toluna-terraform,16608,sonarqube,https://github.com/toluna-terraform/terraform-sonarqube-integration,
@@ -8746,6 +8750,7 @@ landing-zone-log-archive,alibabacloud-automation,21561,alicloud,https://github.c
 landing-zone-reader,MitocGroup,3846,aws,https://github.com/MitocGroup/terraform-aws-landing-zone-reader,Terraform Module for AWS Landing Zone (Read-Only)
 landing-zone-vpc,terraform-ibm-modules,16661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vpc,Creates virtual servers across subnets in a single VPC connected by a single security group. Supports floating IP addresses and multiple load balancers.
 landing-zone-vsi,terraform-ibm-modules,16663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vsi,Creates virtual server instances (VSI) across multiple subnets with any number of block storage volumes that are connected by any number of load balancers
+landing-zone-vsi-autoscale,terraform-ibm-modules,24145,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vsi-autoscale,
 landingzone,dhamibeena25,21214,azurerm,https://github.com/dhamibeena25/terraform-azurerm-landingzone,
 landscape,unimatrixops,10870,google,https://github.com/unimatrixops/terraform-google-landscape,Deploy an application landscape on Google Cloud Platform.
 latest-ami,bledrunner2049,6193,aws,https://github.com/bledrunner2049/terraform-aws-latest-ami,
@@ -10365,6 +10370,7 @@ notary,patoarvizu,3581,kubernetes,https://github.com/patoarvizu/terraform-kubern
 notification,dhoppeIT,11094,tfe,https://github.com/dhoppeIT/terraform-tfe-notification,Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_notification_configuration)
 notification,philips-labs,8696,hsdp,https://github.com/philips-labs/terraform-hsdp-notification,Onboarding module for HSDP Notification service
 notification-integration-aws,Snowflake-Labs,19234,snowflake,https://github.com/Snowflake-Labs/terraform-snowflake-notification-integration-aws,Terraform module to create a notification integration.
+notifications,Projects-tm,24147,google,https://github.com/Projects-tm/terraform-google-notifications,Terraform script for the Notification service.
 notifications,machadovilaca,8223,aws,https://github.com/machadovilaca/terraform-aws-notifications,Terraform AWS module to create a Lambda function that sends notifications to Slack and/or S3 bucket from subscribed SNS topics and/or Cloudwatch log groups
 notify-slack,itsyndicate,13656,aws,https://github.com/itsyndicate/terraform-aws-notify-slack,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack 🇺🇦
 notify-slack,terraform-aws-modules,805,aws,https://github.com/terraform-aws-modules/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
@@ -10918,6 +10924,7 @@ postgres,bootlabstech,15512,azurerm,https://github.com/bootlabstech/terraform-az
 postgres,dtoch56,15183,yandex,https://github.com/dtoch56/terraform-yandex-postgres,Terraform Module for Yandex.Cloud Managed Service for PostgreSQL
 postgres,equinor,23392,azurerm,https://github.com/equinor/terraform-azurerm-postgres,Terraform module which creates Azure PostgreSQL resources
 postgres,joatmon08,23723,aws,https://github.com/joatmon08/terraform-aws-postgres,
+postgres,kachawla,24135,azure,https://github.com/kachawla/terraform-azure-postgres,Postgres db on Azure
 postgres,o0th,9560,kubernetes,https://github.com/o0th/terraform-kubernetes-postgres,
 postgres-configuration,bootlabstech,17852,azurerm,https://github.com/bootlabstech/terraform-azurerm-postgres-configuration,
 postgres-firewall_rule,bootlabstech,17870,azurerm,https://github.com/bootlabstech/terraform-azurerm-postgres-firewall_rule,
@@ -14868,6 +14875,7 @@ vaulthelm,joatmon08,4487,google,https://github.com/joatmon08/terraform-google-va
 vaultkey,jtcarnes,14275,awx,https://github.com/jtcarnes/terraform-awx-vaultkey,Terraform module to create ssh key for Ansible AWX using Hashicorp Vaults ssh cert backend
 vaults,crazy-canux,14446,bank,https://github.com/crazy-canux/terraform-aws-bank-vaults,terraform deploy vault-secret-webhook on eks.
 vaultwarden,OJFord,17822,fly,https://github.com/OJFord/terraform-fly-vaultwarden,Let Vaultwarden Fly with Terraform
+vbacth5,kaizenacademy,24133,aws,https://github.com/kaizenacademy/terraform-aws-vbacth5,
 vbr,terraform-alicloud-modules,12799,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vbr,Terraform Module for creating Virtual Border Router on Alibaba Cloud.
 vcenter-content-library,kalenarndt,13188,vsphere,https://github.com/kalenarndt/terraform-vsphere-vcenter-content-library,Terraform module to create a Content Library in vCenter
 vcenter-generic-folders,kalenarndt,13189,vsphere,https://github.com/kalenarndt/terraform-vsphere-vcenter-generic-folders,"Terraform module to create a parent folder and a list of sub folders for network, hosts, and vms"
@@ -14929,6 +14937,7 @@ vinodh,vinodhreddyidisireddy,12278,aws,https://github.com/vinodhreddyidisireddy/
 viraj-publish-test,virajmparekh,12601,google,https://github.com/virajmparekh/terraform-google-viraj-publish-test,Testing Hashicorp Registry Contribution Flow
 virnet,applesoftsol,5581,azurerm,https://github.com/applesoftsol/terraform-azurerm-virnet,
 virtual-desktop,amestofortytwo,20154,azurerm,https://github.com/amestofortytwo/terraform-azurerm-virtual-desktop,Azure Virtual Desktop
+virtual-desktop,fortytwoservices,24142,azurerm,https://github.com/fortytwoservices/terraform-azurerm-virtual-desktop,Azure Virtual Desktop
 virtual-machine,Azure,17546,azurerm,https://github.com/Azure/terraform-azurerm-virtual-machine,Terraform Azure RM Virtual Machine Module
 virtual-machine,OT-terraform-azure-modules,22278,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-virtual-machine,
 virtual-machine,anugnes,680,azure,https://github.com/anugnes/terraform-azure-virtual-machine,Azure Virtual Machine Module for Terraform
@@ -15513,6 +15522,7 @@ vpc,rayslan,8854,aws,https://github.com/rayslan/terraform-aws-vpc,"This module c
 vpc,robertdebock,7665,digitalocean,https://github.com/robertdebock/terraform-digitalocean-vpc,
 vpc,romagtgt,9371,aws,https://github.com/romagtgt/terraform-aws-vpc,
 vpc,ronithanand,8954,aws,https://github.com/ronithanand/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,rstmvaaz,24151,aws,https://github.com/rstmvaaz/terraform-aws-vpc,
 vpc,ryanchun91,12626,aws,https://github.com/ryanchun91/terraform-aws-vpc,
 vpc,ryanef,23408,aws,https://github.com/ryanef/terraform-aws-vpc,aws vpc
 vpc,ryansrepos,23438,aws,https://github.com/ryansrepos/terraform-aws-vpc,Terraform AWS VPC Module for TF Registry
@@ -15679,6 +15689,7 @@ vpc-basic,moarpheus,17831,aws,https://github.com/moarpheus/terraform-aws-vpc-bas
 vpc-bastion,jwa-lab,18536,aws,https://github.com/jwa-lab/terraform-aws-vpc-bastion,
 vpc-bastion,we-work-in-the-cloud,7317,ibm,https://github.com/we-work-in-the-cloud/terraform-ibm-vpc-bastion,Bastion for VPC Terraform Module
 vpc-bastionhost,terraform-alicloud-modules,10405,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-bastionhost,
+vpc-batch5,ruslanbaba,24155,aws,https://github.com/ruslanbaba/terraform-aws-vpc-batch5,
 vpc-bejjenki,Sandeep-Bejjenki,20691,aws,https://github.com/Sandeep-Bejjenki/terraform-aws-vpc-bejjenki,
 vpc-bsn,onminhthien,18887,aws,https://github.com/onminhthien/terraform-aws-vpc-bsn,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc-click-house-cluster-account,terraform-alicloud-modules,10416,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-click-house-cluster-account,
@@ -15725,6 +15736,7 @@ vpc-group-4,akadyrakunov,22609,aws,https://github.com/akadyrakunov/terraform-aws
 vpc-high-available,pcfeduardo,17966,aws,https://github.com/pcfeduardo/terraform-aws-vpc-high-available,terraform-aws-vpc-high-available
 vpc-impl,Codzs-Architecture,23247,aws,https://github.com/Codzs-Architecture/terraform-aws-vpc-impl,
 vpc-infra,lokeshjawane,5170,aws,https://github.com/lokeshjawane/terraform-aws-vpc-infra,
+vpc-inudzuka,inudzuka-mitsu,24148,aws,https://github.com/inudzuka-mitsu/terraform-aws-vpc-inudzuka,custom terrafrom module 
 vpc-ipam,davaba86,15685,aws,https://github.com/davaba86/terraform-aws-vpc-ipam,Terraform AWS VPC IPAM module.
 vpc-ips,adithyapathipaka,19555,aws,https://github.com/adithyapathipaka/terraform-aws-vpc-ips,
 vpc-jawad,jawadyousoufi,14067,aws,https://github.com/jawadyousoufi/terraform-aws-vpc-jawad,
@@ -15842,11 +15854,29 @@ vpc_module,mmichel122,3488,aws,https://github.com/mmichel122/terraform-aws-vpc_m
 vpc_network,airasia,4765,google,https://github.com/airasia/terraform-google-vpc_network,Terraform module for a VPC Network in GCP
 vpc_router_nat,airasia,6505,google,https://github.com/airasia/terraform-google-vpc_router_nat,Terraform module for additional Cloud Router + Cloud NAT for a VPC
 vpc_serverless_access,airasia,6377,google,https://github.com/airasia/terraform-google-vpc_serverless_access,Terraform module for Serverless VPC Access in GCP
+vpcbatch5,01Zak01,24149,aws,https://github.com/01Zak01/terraform-aws-vpcbatch5,
+vpcbatch5,1askat9,24154,aws,https://github.com/1askat9/terraform-aws-vpcbatch5,
+vpcbatch5,AidaOmir,24156,was,https://github.com/AidaOmir/terraform-was-vpcbatch5,
+vpcbatch5,AidaOmir,24168,aws,https://github.com/AidaOmir/terraform-aws-vpcbatch5,
+vpcbatch5,Aijan13,24150,aws,https://github.com/Aijan13/terraform-aws-vpcbatch5,
+vpcbatch5,Asyl0512,24159,aws,https://github.com/Asyl0512/terraform-aws-vpcbatch5,
+vpcbatch5,BakytTyn,24165,aws,https://github.com/BakytTyn/terraform-aws-vpcbatch5,
+vpcbatch5,Munara241,24163,aws,https://github.com/Munara241/terraform-aws-vpcbatch5,
+vpcbatch5,eldosz,24173,aws,https://github.com/eldosz/terraform-aws-vpcbatch5,
+vpcbatch5,holmesgulnara,24152,aws,https://github.com/holmesgulnara/terraform-aws-vpcbatch5,
+vpcbatch5,iliasDzh,24166,aws,https://github.com/iliasDzh/terraform-aws-vpcbatch5,
+vpcbatch5,kaizenacademy,24153,aws,https://github.com/kaizenacademy/terraform-aws-vpcbatch5,
+vpcbatch5,mirdaus,24157,aws,https://github.com/mirdaus/terraform-aws-vpcbatch5,
+vpcbatch5,rmbkva,24164,aws,https://github.com/rmbkva/terraform-aws-vpcbatch5,
+vpcbatch5,smbek,24175,aws,https://github.com/smbek/terraform-aws-vpcbatch5,
+vpcbatch8,nursulu97,24162,as,https://github.com/nursulu97/terraform-as-vpcbatch8,
+vpcbatch8,nursulu97,24167,aws,https://github.com/nursulu97/terraform-aws-vpcbatch8,
 vpcec2webapp,muraliallcloud,13856,aws,https://github.com/muraliallcloud/terraform-aws-vpcec2webapp,Terraform Module for AWS VPC-EC2-Webapp Creation
 vpcendpoints,SimplifiedData,23728,aws,https://github.com/SimplifiedData/terraform-aws-vpcendpoints,This is Terraform module for create VPC Endpoint for deploy use with concept landing zone in Organizations
 vpces,toluna-terraform,11254,aws,https://github.com/toluna-terraform/terraform-aws-vpces,
 vpcflowlog-bucket,rhythmictech,5097,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlog-bucket,Creates an S3 bucket suitable for receiving VPC flow logs from one or more AWS account.
 vpcflowlogs,rhythmictech,3128,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlogs,Configure VPC flow logs for one or more VPCs.
+vpcjkk,jarkynaialym,24160,aws,https://github.com/jarkynaialym/terraform-aws-vpcjkk,
 vpcjuly,DaryaArtsyman,21458,module,https://github.com/DaryaArtsyman/terraform-module-vpcjuly,
 vpcjuly,Diusupova,21631,module,https://github.com/Diusupova/terraform-module-vpcjuly,
 vpcjuly,Ulan8888,21470,module,https://github.com/Ulan8888/terraform-module-vpcjuly,
