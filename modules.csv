@@ -1647,6 +1647,7 @@ aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terr
 aws-linux-vm-public,jye-aviatrix,14925,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-public,"In specified AWS region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP. "
 aws-load-balancer-controller,bailey84j,11702,kubernetes,https://github.com/bailey84j/terraform-kubernetes-aws-load-balancer-controller,Terraform module which deploys AWS Load Balancer Controller
 aws-logs-bucket,costradar,12209,costradar,https://github.com/costradar-obsolete/terraform-costradar-aws-logs-bucket,
+aws-logs-integration,falcon-terraform-modules,24180,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-logs-integration,
 aws-mariadb,intel,18340,intel,https://github.com/intel/terraform-intel-aws-mariadb,Intel Cloud Optimization Module - AWS MariaDB
 aws-mssql,intel,17531,intel,https://github.com/intel/terraform-intel-aws-mssql,Intel Cloud Optimization Module - AWS RDS Mssql
 aws-mysql,intel,16702,intel,https://github.com/intel/terraform-intel-aws-mysql,Intel Cloud Optimization Module - AWS RDS MySQL
@@ -4474,7 +4475,6 @@ docker-instance,ozcanyolcu,16319,aws,https://github.com/ozcanyolcu/terraform-aws
 docker-instance,ozgurtaylankarakoc,21992,aws,https://github.com/ozgurtaylankarakoc/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,ozkanuk,18194,aws,https://github.com/ozkanuk/terraform-aws-docker-instance,
 docker-instance,ozulfikar,16283,aws,https://github.com/ozulfikar/terraform-aws-docker-instance,
-docker-instance,ozy31,16362,aws,https://github.com/ozy31/terraform-aws-docker-instance,
 docker-instance,plnknr,23859,aws,https://github.com/plnknr/terraform-aws-docker-instance,
 docker-instance,pol-ayt,23061,aws,https://github.com/pol-ayt/terraform-aws-docker-instance,
 docker-instance,polilies,18160,aws,https://github.com/polilies/terraform-aws-docker-instance,
@@ -6226,9 +6226,11 @@ eventbridge,terraform-alicloud-modules,12823,alicloud,https://github.com/alibaba
 eventbridge,terraform-aws-modules,8205,aws,https://github.com/terraform-aws-modules/terraform-aws-eventbridge,Terraform module to create AWS EventBridge resources 🇺🇦
 eventbridge-alerts-module,sam-jones1,10684,aws,https://github.com/sam-jones1/terraform-aws-eventbridge-alerts-module,An AWS EventBridge alerts module to create alert rules
 eventbridge-default,DNXLabs,5735,aws,https://github.com/DNXLabs/terraform-aws-eventbridge-default,"EventBridge --> EventBus, Policy and Rule"
+eventbridge-domain-bus,akw-devsecops,24179,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-domain-bus,Creates Domain Bus for an EventHub with AWS EventBridge
 eventbridge-iam-role,dod-iac,14185,aws,https://github.com/dod-iac/terraform-aws-eventbridge-iam-role,Creates an IAM role for use as an EventBridge service role.
 eventbridge-invoke-lambda,1Mill,20911,aws,https://github.com/1Mill/terraform-aws-eventbridge-invoke-lambda,Terraform AWS Eventbridge rules to invoke AWS Lambda functions using Cloudevents
 eventbridge-lambda-trigger,daniel-devine-nrel,17868,aws,https://github.com/daniel-devine-nrel/terraform-aws-eventbridge-lambda-trigger,A public Terraform module used to create AWS EventBridge scheduled events for lambda functions.
+eventbridge-local-bus,akw-devsecops,24181,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-local-bus,
 eventbridge-log,barneyparker,22520,aws,https://github.com/barneyparker/terraform-aws-eventbridge-log,
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
 eventgrid,bootlabstech,17074,azurerm,https://github.com/bootlabstech/terraform-azurerm-eventgrid,
@@ -15868,7 +15870,7 @@ vpcbatch5,iliasDzh,24166,aws,https://github.com/iliasDzh/terraform-aws-vpcbatch5
 vpcbatch5,kaizenacademy,24153,aws,https://github.com/kaizenacademy/terraform-aws-vpcbatch5,
 vpcbatch5,mirdaus,24157,aws,https://github.com/mirdaus/terraform-aws-vpcbatch5,
 vpcbatch5,rmbkva,24164,aws,https://github.com/rmbkva/terraform-aws-vpcbatch5,
-vpcbatch5,smbek,24175,aws,https://github.com/smbek/terraform-aws-vpcbatch5,
+vpcbatch5,smbek,24178,aws,https://github.com/smbek/terraform-aws-vpcbatch5,
 vpcbatch8,nursulu97,24162,as,https://github.com/nursulu97/terraform-as-vpcbatch8,
 vpcbatch8,nursulu97,24167,aws,https://github.com/nursulu97/terraform-aws-vpcbatch8,
 vpcec2webapp,muraliallcloud,13856,aws,https://github.com/muraliallcloud/terraform-aws-vpcec2webapp,Terraform Module for AWS VPC-EC2-Webapp Creation
