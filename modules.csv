@@ -240,6 +240,7 @@ acm-multiple-hosted-zone,ringanta,4912,aws,https://github.com/ringanta/terraform
 acm-request-certificate,SevenPicoForks,17740,aws,https://github.com/SevenPicoForks/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-request-certificate,cloudposse,947,aws,https://github.com/cloudposse/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-route53,shamimice03,18044,aws,https://github.com/shamimice03/terraform-aws-acm-route53,Request a public SSL/TLS certificate from AWS Certificate Manager and add record to AWS Route53
+acme,Kid-debug,24251,certificate,https://github.com/Kid-debug/terraform-certificate-acme,
 acme,yellowmegaman,2178,google,https://github.com/yellowmegaman/terraform-google-acme,Get ssl certs via acme with gcloud dns challenge
 acme-certificate,cloud-native-toolkit,16045,azure,https://github.com/cloud-native-toolkit/terraform-azure-acme-certificate,Module to provision acme-certificate on azure
 acme-certificate,rms1000watt,1634,aws,https://github.com/rms1000watt/terraform-aws-acme-certificate,Terraform Module for ACME Certificate (with Route 53 validation and saving the certs to S3)
@@ -3625,9 +3626,6 @@ data-management-zone,PerfectThymeTech,19232,azurerm,https://github.com/PerfectTh
 data-name-tags,s3d-club,15665,external,https://github.com/s3d-club/terraform-external-name,Terraform External Name and Tag Module
 data-pipeline-ecs-task,dod-iac,10612,aws,https://github.com/dod-iac/terraform-aws-data-pipeline-ecs-task,An ECS task as part of a data pipeline
 data-pipeline-iam-policy,dod-iac,10594,aws,https://github.com/dod-iac/terraform-aws-data-pipeline-iam-policy,
-data-plane-aws,iomete,22820,aws,https://github.com/iomete/terraform-aws-data-plane-aws,IOMETE Data-Plane module for Terraform.
-data-plane-azure,iomete,20558,azure,https://github.com/iomete/terraform-azure-data-plane-azure,
-data-plane-google,iomete,19688,google,https://github.com/iomete/terraform-google-data-plane-google,IOMETE Data-Plane module for Terraform.
 data-result-mappings,Kagashino,15006,tencentcloud,https://github.com/Kagashino/terraform-tencentcloud-data-result-mappings,A terraform module contains static output keys of most of tencentcloud datasource result
 data-security-center,terraform-alicloud-modules,12794,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-data-security-center,Terraform Module for creating Data Security Center resources on Alibaba Cloud.
 database,Azure,74,azurerm,https://github.com/Azure/terraform-azurerm-database,Terraform Azure RM Module for Database
@@ -3741,6 +3739,7 @@ datalake-house-ingress,parisnakitakejser,23011,aws,https://github.com/parisnakit
 datalake-storage,bootlabstech,15505,azurerm,https://github.com/bootlabstech/terraform-azurerm-datalake-storage,
 dataplex,drandell,14899,google,https://github.com/drandell/terraform-google-dataplex,Terraform module for using Dataplex resources
 dataplex,nag-gude,18696,google,https://github.com/nag-gude/terraform-google-dataplex,This module allows to provision the below Dataplex resources.
+dataplex-quality-checks,surquest,24260,google,https://github.com/surquest/terraform-google-dataplex-quality-checks,Terraform module for data quality assurance of BigQuery tables 
 dataproc,bootlabstech,12750,google,https://github.com/bootlabstech/terraform-google-dataproc,
 dataproduct-aws-athena,datamesh-architecture,19183,aws,https://github.com/datamesh-architecture/terraform-aws-dataproduct-aws-athena,Provide a data product on aws from an exising S3 bucket with an Athena query transformation
 dataproduct-confluent-kafka-to-aws-s3,datamesh-architecture,19182,aws,https://github.com/datamesh-architecture/terraform-aws-dataproduct-confluent-kafka-to-aws-s3,Provide a data product on aws from confluent kafka topics
@@ -3975,6 +3974,7 @@ dns,TaitoUnited,10724,digitalocean,https://github.com/TaitoUnited/terraform-digi
 dns,TaitoUnited,6122,google,https://github.com/TaitoUnited/terraform-google-dns,
 dns,TaitoUnited,8227,azurerm,https://github.com/TaitoUnited/terraform-azurerm-dns,
 dns,Xat59,18715,azurerm,https://github.com/Xat59/terraform-azurerm-dns,"Terraform module to manage public or private Azure DNS zone, and DNS records."
+dns,appvia,24253,aws,https://github.com/appvia/terraform-aws-dns,Terraform module for creating centralised DNS
 dns,bennu,6870,k8s,https://github.com/bennu/terraform-k8s-dns,
 dns,clouddrove,18435,azure,https://github.com/clouddrove/terraform-azure-dns,
 dns,crazy-canux,14309,external,https://github.com/crazy-canux/terraform-aws-external-dns,deploy externalDNS on EKS with terraform.
@@ -4816,6 +4816,7 @@ dynamodb-table,QuiNovas,1481,aws,https://github.com/QuiNovas/terraform-aws-dynam
 dynamodb-table,Samuel-Sulo,15159,aws,https://github.com/samuelsulo/terraform-aws-dynamodb-table,
 dynamodb-table,bootlabstech-m,17438,aws,https://github.com/bootlabstech-m/terraform-aws-dynamodb-table,Creates a AWS dynamodb table 
 dynamodb-table,elastic2ls-com,20498,aws,https://github.com/elastic2ls-com/terraform-aws-dynamodb-table,This module helps you create a dynamoDB table. It includes the following:  * dynamodb table * autoscaling settings
+dynamodb-table,evners,24261,aws,https://github.com/evners/terraform-aws-dynamodb-table,This Terraform module provides a simple and efficient way to create and configure DynamoDB tables in your Amazon Web Services (AWS) environment. 
 dynamodb-table,figurate,6033,aws,https://github.com/figurate/terraform-aws-dynamodb,Provision DynamoDB tables from predefined templates
 dynamodb-table,justtrackio,17255,aws,https://github.com/justtrackio/terraform-aws-dynamodb-table,Terraform module which create a dynamodb table incl. indices and scaling via the terraform-aws-dynamodb-autoscaler module
 dynamodb-table,terraform-aws-modules,4416,aws,https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table,Terraform module to create AWS DynamoDB resources 🇺🇦
@@ -7209,6 +7210,7 @@ helmrepo,rhythmictech,5091,aws,https://github.com/rhythmictech/terraform-aws-hel
 helper,masterpointio,20222,secrets,https://github.com/masterpointio/terraform-secrets-helper,The Terraform module that abstracts the way we manage secrets.
 helper,wsalmi,10296,configcat,https://github.com/wsalmi/terraform-configcat-helper,"This helper to speed up and facilitate the control of feature flags in ConfigCat. Its construction is very complex and verbose, which makes us avoid using it."
 helper-acm-validation,guidion-digital,23240,aws,https://github.com/guidion-digital/terraform-aws-helper-acm-validation,Performs necessary tasks to get valid ACM certificates for domains passed to it
+helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digital/terraform-aws-helper-application-dns,"Simple helper module which will create Route53 records, and create assumable roles that will be able to edit them from another account"
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
 helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital/terraform-aws-helper-assume-roles,Small helper module which creates assumable roles for other accounts
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
@@ -7734,8 +7736,7 @@ internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-i
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
 intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuintana/terraform-aws-intra-vpc-security-group-rule,Intra VPC Security Group Rule
 inventory,eeyoontaek,17242,ansible,https://github.com/eeyoontaek/terraform-ansible-inventory,
-iomete-data-plane,iomete,23811,aws,https://github.com/iomete/terraform-aws-iomete-data-plane,
-iomete-data-plane,iomete,24241,gcp,https://github.com/iomete/terraform-gcp-iomete-data-plane,
+iomete-data-plane,iomete,24256,gcp,https://github.com/iomete/terraform-gcp-iomete-data-plane,
 iona-org,ION-Analytics,18254,acuris,https://github.com/ION-Analytics/terraform-acuris-iona-org,
 iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-arch,bootlabstech,17681,google,https://github.com/bootlabstech/terraform-google-iot-arch,
@@ -10853,8 +10854,6 @@ platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Ter
 platform,kuptan-platform,17570,aws,https://github.com/kuptan-platform/terraform-aws-platform,terraform code for creating a Kubernetes platform on AWS
 platform,neutrinobaas,18611,neutrinobaas,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
 platform,terraform-ns1-modules,4223,ns1,https://github.com/ns1-terraform/terraform-ns1-platform,
-platform,tomorrowstack,20139,azure,https://github.com/tomorrowstack/terraform-azure-platform,
-platform,tomorrowstack,20140,gcp,https://github.com/tomorrowstack/terraform-gcp-platform,
 platform-config,mergermarket,5843,acuris,https://github.com/mergermarket/terraform-acuris-platform-config,
 platform-firewall-rules,qbeyond,19918,azurerm,https://github.com/qbeyond/terraform-azurerm-platform-firewall-rules,
 platform9-k8s,equinix,7404,metal,https://github.com/equinix/terraform-metal-platform9-k8s,Platform9 Managed Kubernetes Free Tier on Equinix Metal
@@ -10865,6 +10864,7 @@ playground,jagoodhand,17771,snowflake,https://github.com/GoodhandSolutions/terra
 playground,mackdelany,11596,aws,https://github.com/mackdelany/terraform-aws-playground,
 plex,cezarmathe,8647,docker,https://github.com/cezarmathe/terraform-docker-plex,A Terraform module for deploying the Plex Media Server.
 plugin,ptonini,16792,vault,https://github.com/ptonini/terraform-vault-plugin,
+poc,terraform-aviatrix-modules,24254,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-poc,Simplified poc deployment
 pod,garbetjie,6189,kubernetes,https://github.com/garbetjie/terraform-kubernetes-pod,
 pod-identity,DeimosCloud,8396,azure,https://github.com/DeimosCloud/terraform-azure-pod-identity,
 pod-setup,netascode,10244,aci,https://github.com/netascode/terraform-aci-pod-setup,Terraform Cisco ACI Pod Setup Module
@@ -11007,6 +11007,7 @@ pras,prasannakaup,18904,aws,https://github.com/prasannakaup/terraform-aws-pras,t
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
 prebid-cache,Prebidly,17761,aws,https://github.com/Prebidly/terraform-aws-prebid-cache,
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
+prefix_list,arul-ap,24250,aws,https://github.com/arul-ap/terraform-aws-prefix_list,Module to create managed prefix list
 presto,Lewuathe,4149,aws,https://github.com/Lewuathe/terraform-aws-presto,Terraform module to create Presto cluster
 pricing,terraform-aws-modules,7440,aws,https://github.com/terraform-aws-modules/terraform-aws-pricing,Terraform module which calculates price of AWS infrastructure (from Terraform state and plan) 🇺🇦
 print,findkim,8017,cts,https://github.com/findkim/terraform-cts-print,Compatible Consul Terraform Sync module used for development
@@ -11133,6 +11134,7 @@ project-template,HobOps,12303,google,https://github.com/HobOps/terraform-google-
 project-vpc,dskz,11925,aws,https://github.com/dskz/terraform-aws-project-vpc,
 project-vpc,keldibek34,23809,aws,https://github.com/keldibek34/terraform-aws-project-vpc,
 project1-repo,sibikmc,21233,aws,https://github.com/sibikmc/terraform-aws-project1-repo,Creating an vpc in aws in terraform scripts 
+project2,nursulu97,24247,aws,https://github.com/nursulu97/terraform-aws-project2,
 project3,AibikeKasym,22659,aws,https://github.com/AibikeKasym/terraform-aws-project3,
 project3,Heavenlistic,20826,aws,https://github.com/Heavenlistic/terraform-aws-project3,
 project3,herabakirova,22678,aws,https://github.com/herabakirova/terraform-aws-project3,
@@ -14120,6 +14122,7 @@ storageaccount,Tfarook28,23199,azurerm,https://github.com/Tfarook28/terraform-az
 storageaccount,asajoshi,17252,azurerm,https://github.com/asajoshi/terraform-azurerm-storageaccount,This contains terraform code for creating storage account module with private endpoint
 storageaccount,chaitanyachavan12,24009,azure,https://github.com/chaitanyachavan12/terraform-azure-storageaccount,
 storageaccount,diwa31,21936,azure,https://github.com/diwa31/terraform-azure-storageaccount,Diwa's Storage account
+storageaccount,grateanil,24252,azure,https://github.com/grateanil/terraform-azure-storageaccount,
 storageaccount,sandyp47,24011,azure,https://github.com/sandyp47/terraform-azure-storageaccount,
 storageaccount,srikanthdandevena,21530,azure,https://github.com/srikanthdandevena/terraform-azure-storageaccount,
 storageaccount,sudhakarann33,24008,azure,https://github.com/sudhakarann33/terraform-azure-storageaccount,
