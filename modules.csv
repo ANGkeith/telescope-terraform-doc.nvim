@@ -2959,7 +2959,6 @@ cloudwatch-logs,cn-terraform,3245,aws,https://github.com/cn-terraform/terraform-
 cloudwatch-logs,leonmwandiringa,15813,aws,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
 cloudwatch-logs,so1omon563,14604,aws,https://github.com/so1omon563/terraform-aws-cloudwatch-logs,Module to create a CloudWatch Log Group as well as other CloudWatch Log related resources (destinations and streams)..
 cloudwatch-logs,spymobilfon,21955,aws,https://github.com/spymobilfon/terraform-aws-cloudwatch-logs,AWS CloudWatch Logs Terraform module
-cloudwatch-logs-enhanced-alerts,0nwerd,21382,aws,https://github.com/0nwerd/terraform-aws-cloudwatch-logs-enhanced-alerts,Terraform module which creates an enhanced CloudWatch Logs alerts system 🚨
 cloudwatch-logs-exporter,gadgetry-io,1808,aws,https://github.com/gadgetry-io/terraform-aws-cloudwatch-logs-exporter,Export a CloudWatch log group to S3 on a recurring schedule using Lambda and CloudWatch Events
 cloudwatch-logs-management,Han-Lon,11270,aws,https://github.com/Han-Lon/terraform-aws-cloudwatch-logs-management,A Terraform module to automate CloudWatch log configuration
 cloudwatch-logs-subscription,observeinc,14042,aws,https://github.com/observeinc/terraform-aws-cloudwatch-logs-subscription,"Terraform module that sets up CloudWatch Log Group Subscription Filters. This makes it easier to forward log data to Observe, through the Observe Kinesis Firehose module."
@@ -3963,6 +3962,7 @@ dms-rocketmq,cloud-labs-infra,18712,huaweicloud,https://github.com/cloud-labs-in
 dmvpn-hub,kecorbin,5303,csr,https://github.com/kecorbin/terraform-csr-dmvpn-hub,
 dnaas,tf-openstack-modules,9985,openstack,https://github.com/tf-openstack-modules/terraform-openstack-dnaas,
 dnat,terraform-alicloud-modules,4215,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-dnat,Terraform Module for creating several DNAT entries for Nat Gateway on  Alibaba Cloud.
+dns,CodewaySA,24268,aws,https://github.com/CodewaySA/terraform-aws-dns,
 dns,EKGF,21834,aws,https://github.com/EKGF/terraform-aws-dns,Configure AWS Route53 for running an EKG (or Digital Twin so you will) supporting multiple environments
 dns,FlexibleEngineCloud,6302,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-dns,A Terraform module to create and manage domains and recordsets
 dns,JamesWoolfenden,7676,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-dns,Basic DNS module
@@ -5559,7 +5559,6 @@ edgedns-primary,jaescalo,22555,akamai,https://github.com/jaescalo/terraform-akam
 edjec2,edanielj,8320,aws,https://github.com/edanielj/terraform-aws-edjec2,
 eds,terraform-alicloud-modules,12796,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-eds,Terraform Module for creating Elastic Desktop Service on Alibaba Cloud.
 eds-jawad,jawadyousoufi,14068,aws,https://github.com/jawadyousoufi/terraform-aws-eds-jawad,
-effortless-archiver,0nwerd,21868,aws,https://github.com/0nwerd/terraform-aws-effortless-archiver,Terraform module to export and archive Cloudwatch Log Groups logs or QLDB journal into an S3 bucket 💾
 effortless-bootstrap,devoptimist,2922,chef,https://github.com/srb3/terraform-chef-effortless-bootstrap,
 effortless-bootstrap,srb3,3921,chef,https://github.com/srb3/terraform-chef-effortless-bootstrap,
 efs,Aplyca,1012,aws,https://github.com/Aplyca/terraform-aws-efs,A Terraform Module for how to create EFS on AWS
@@ -7737,6 +7736,7 @@ internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terr
 intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuintana/terraform-aws-intra-vpc-security-group-rule,Intra VPC Security Group Rule
 inventory,eeyoontaek,17242,ansible,https://github.com/eeyoontaek/terraform-ansible-inventory,
 iomete-data-plane,iomete,24256,gcp,https://github.com/iomete/terraform-gcp-iomete-data-plane,
+iomete-data-plane,iomete,24266,aws,https://github.com/iomete/terraform-aws-iomete-data-plane,
 iona-org,ION-Analytics,18254,acuris,https://github.com/ION-Analytics/terraform-acuris-iona-org,
 iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-arch,bootlabstech,17681,google,https://github.com/bootlabstech/terraform-google-iot-arch,
@@ -9014,6 +9014,7 @@ loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbal
 loadbalancer,MissionCriticalCloud,6534,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-loadbalancer,Terraform module to create and manage a Cosmic load balancer.
 loadbalancer,diademiemi,24020,digitalocean,https://github.com/diademiemi/terraform-digitalocean-loadbalancer,
 loadbalancer,diademiemi,24022,hetzner,https://github.com/diademiemi/terraform-hetzner-loadbalancer,
+loadbalancer,kmayer10,24265,azurerm,https://github.com/kmayer10/terraform-azurerm-loadbalancer,This repository is to maintain Terraform Module
 loadbalancer,particuleio,10857,scaleway,https://github.com/particuleio/terraform-scaleway-loadbalancer,Terraform module used to create and configure Scaleway Loadbalancers.
 loadbalancer,rahulagalcha97,5818,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
 loadbalancer,ryanef,23409,aws,https://github.com/ryanef/terraform-aws-loadbalancer,
@@ -9997,7 +9998,7 @@ naming,data-platform-hq,23196,azurerm,https://github.com/data-platform-hq/terraf
 naming,gsoft-inc,3343,azurerm,https://github.com/gsoft-inc/terraform-azurerm-naming,Terraform Azure RM Module for naming resources and resource groups following Microsoft's naming guidelines.
 naming,heathen1878,21907,azurecaf,https://github.com/heathen1878/terraform-azurecaf-naming,Uses Azurecaf to manage naming conventions
 naming,opsvibe,8202,azurerm,https://github.com/opsvibe/terraform-azurerm-naming,
-naming,ralf-it,24113,azurerm,https://github.com/ralf-it/terraform-azurerm-naming,
+naming,ralf-it,24271,azurerm,https://github.com/ralf-it/terraform-azurerm-naming,
 naming,terraformation,3678,local,https://github.com/terraformation/terraform-local-naming,Module for naming harmonization for resources (by Terraformation)
 naming-generator,taimlog,17730,proxmox,https://github.com/taimlog/terraform-proxmox-naming-generator,cloned from https://github.com/cloudposse/terraform-null-label
 naming-validated,VirtuslabWorkshops,21278,azurerm,https://github.com/VirtuslabWorkshops/terraform-azurerm-naming-validated,
@@ -10864,7 +10865,7 @@ playground,jagoodhand,17771,snowflake,https://github.com/GoodhandSolutions/terra
 playground,mackdelany,11596,aws,https://github.com/mackdelany/terraform-aws-playground,
 plex,cezarmathe,8647,docker,https://github.com/cezarmathe/terraform-docker-plex,A Terraform module for deploying the Plex Media Server.
 plugin,ptonini,16792,vault,https://github.com/ptonini/terraform-vault-plugin,
-poc,terraform-aviatrix-modules,24254,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-poc,Simplified poc deployment
+poc,terraform-aviatrix-modules,24263,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-poc,Simplified poc deployment
 pod,garbetjie,6189,kubernetes,https://github.com/garbetjie/terraform-kubernetes-pod,
 pod-identity,DeimosCloud,8396,azure,https://github.com/DeimosCloud/terraform-azure-pod-identity,
 pod-setup,netascode,10244,aci,https://github.com/netascode/terraform-aci-pod-setup,Terraform Cisco ACI Pod Setup Module
@@ -11133,6 +11134,7 @@ project-resources,TaitoUnited,5489,digitalocean,https://github.com/TaitoUnited/t
 project-template,HobOps,12303,google,https://github.com/HobOps/terraform-google-project-template,
 project-vpc,dskz,11925,aws,https://github.com/dskz/terraform-aws-project-vpc,
 project-vpc,keldibek34,23809,aws,https://github.com/keldibek34/terraform-aws-project-vpc,
+project1,Munara241,24269,aws,https://github.com/Munara241/terraform-aws-project1,
 project1-repo,sibikmc,21233,aws,https://github.com/sibikmc/terraform-aws-project1-repo,Creating an vpc in aws in terraform scripts 
 project2,nursulu97,24247,aws,https://github.com/nursulu97/terraform-aws-project2,
 project3,AibikeKasym,22659,aws,https://github.com/AibikeKasym/terraform-aws-project3,
@@ -11276,6 +11278,7 @@ python-lambda-layer,kota65535,22224,aws,https://github.com/kota65535/terraform-a
 python-slack-notifications,Lupus-Metallum,13547,aws,https://github.com/Lupus-Metallum/terraform-aws-python-slack-notifications,
 qa-envs,moonswitch,11528,google,https://github.com/moonswitch/terraform-google-qa-envs,Terraform module to create and manage a Firestore table with information about QA environments to be consumed by the the Moonswitch GitHub Actions select-qa-env and release-qa-env.
 qdrant,CTOFriendly,19132,aws,https://github.com/CTOFriendly/terraform-aws-qdrant,Terraform module to deploy QDrant  vector DB on EC2 AWS
+qdrant,iLert,24264,kubernetes,https://github.com/iLert/terraform-kubernetes-qdrant,
 qip-address,Vitesco-Technologies,22420,module,https://github.com/Vitesco-Technologies/terraform-module-qip-address,"Manage IPv4 addresses in a subnet of Nokia QIP, based on https://github.com/Vitesco-Technologies/terraform-provider-qip"
 qos,netascode,10308,aci,https://github.com/netascode/terraform-aci-qos,Terraform Cisco ACI QoS Module
 qos-policy,netascode,15871,aci,https://github.com/netascode/terraform-aci-qos-policy,Terraform Cisco ACI QoS Policy Module 
@@ -11817,6 +11820,7 @@ remote-state-s3-backend,sergioUjo,7487,aws,https://github.com/sergioUjo/terrafor
 remote-state-s3-backend,tigpt,19865,aws,https://github.com/tigpt/terraform-aws-remote-state-s3-backend,A terraform module to set up remote state management with S3 backend for your account.
 remote-state-s3-dynamodb-backend,tigpt,23009,aws,https://github.com/tigpt/terraform-aws-remote-state-s3-dynamodb-backend,A terraform module to set up remote state management with S3 backend for your account.
 remote-state-storage,sjones-sot,723,azurerm,https://github.com/jackofallops/terraform-azurerm-remote-state-storage,Terraform module to set up a storage account on Azure and prep it for use as remote state storage
+remotestate,CodewaySA,24267,aws,https://github.com/CodewaySA/terraform-aws-remotestate,
 remotestate,MauroSoli,21594,aws,https://github.com/MauroSoli/terraform-aws-remotestate,Terraform module which creates some resources that can be used as Terraform remote state
 remove-known-hosts,matti,874,ssh,https://github.com/matti/terraform-ssh-remove-known-hosts,
 renovate-encrypted-secret,bendrucker,10552,gpg,https://github.com/bendrucker/terraform-gpg-renovate-encrypted-secret,Terraform module for encrypting secrets for Renovate (https://app.renovatebot.com/encrypt)
@@ -12536,6 +12540,7 @@ s3-zip-uploader,cruxstack,20229,aws,https://github.com/cruxstack/terraform-aws-s
 s3-zip-uploader,sgtoj,20017,aws,https://github.com/cruxstack/terraform-aws-s3-zip-uploader,Terraform Module to an upload zip to S3 bucket
 s3_bucket,vinhdat4999,20872,kmsdemo,https://github.com/vinhdat4999/terraform-kmsdemo-s3_bucket,
 s3_bucket_notification,vinhdat4999,20873,kmsdemo,https://github.com/vinhdat4999/terraform-kmsdemo-s3_bucket_notification,
+s3_static_web,smbek,24273,aws,https://github.com/smbek/terraform-aws-s3_static_web,The Terraform Code that creates a bucket and host static website in it.
 s3backend,AKSHAY-JADHAV-0,23973,aws,https://github.com/AKSHAY-JADHAV-0/terraform-aws-s3backend,
 s3backend,Abdel-Raouf,11038,aws,https://github.com/Abdel-Raouf/terraform-aws-s3backend,
 s3backend,Ali-Stack-2000,23129,aws,https://github.com/Ali-Stack-2000/terraform-aws-s3backend,
@@ -15904,7 +15909,7 @@ vpcbatch5,kaizenacademy,24153,aws,https://github.com/kaizenacademy/terraform-aws
 vpcbatch5,mirdaus,24157,aws,https://github.com/mirdaus/terraform-aws-vpcbatch5,
 vpcbatch5,rmbkva,24164,aws,https://github.com/rmbkva/terraform-aws-vpcbatch5,
 vpcbatch5,ruslanbaba,24182,aws,https://github.com/ruslanbaba/terraform-aws-vpcbatch5,
-vpcbatch5,smbek,24178,aws,https://github.com/smbek/terraform-aws-vpcbatch5,
+vpcbatch5,smbek,24272,aws,https://github.com/smbek/terraform-aws-vpcbatch5,
 vpcbatch8,nursulu97,24162,as,https://github.com/nursulu97/terraform-as-vpcbatch8,
 vpcbatch8,nursulu97,24167,aws,https://github.com/nursulu97/terraform-aws-vpcbatch8,
 vpcec2webapp,muraliallcloud,13856,aws,https://github.com/muraliallcloud/terraform-aws-vpcec2webapp,Terraform Module for AWS VPC-EC2-Webapp Creation
