@@ -240,7 +240,6 @@ acm-multiple-hosted-zone,ringanta,4912,aws,https://github.com/ringanta/terraform
 acm-request-certificate,SevenPicoForks,17740,aws,https://github.com/SevenPicoForks/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-request-certificate,cloudposse,947,aws,https://github.com/cloudposse/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-route53,shamimice03,18044,aws,https://github.com/shamimice03/terraform-aws-acm-route53,Request a public SSL/TLS certificate from AWS Certificate Manager and add record to AWS Route53
-acme,Kid-debug,24251,certificate,https://github.com/Kid-debug/terraform-certificate-acme,
 acme,yellowmegaman,2178,google,https://github.com/yellowmegaman/terraform-google-acme,Get ssl certs via acme with gcloud dns challenge
 acme-certificate,cloud-native-toolkit,16045,azure,https://github.com/cloud-native-toolkit/terraform-azure-acme-certificate,Module to provision acme-certificate on azure
 acme-certificate,rms1000watt,1634,aws,https://github.com/rms1000watt/terraform-aws-acme-certificate,Terraform Module for ACME Certificate (with Route 53 validation and saving the certs to S3)
@@ -687,6 +686,7 @@ apache-example,BondarenkoStas,16079,aws,https://github.com/BondarenkoStas/terraf
 apache-example,DavidDTessier,12701,aws,https://github.com/DavidDTessier/terraform-aws-apache-example,
 apache-example,ExamProCo,10330,aws,https://github.com/ExamProCo/terraform-aws-apache-example,
 apache-example,FOdeks,19536,aws,https://github.com/FOdeks/terraform-aws-apache-example,Terraform Module to provision an EC2 Instance that is running Apache.  Not intended for production use. Just showcasing how to create a custom module on Terraform Registry.
+apache-example,Farid-Atmani,24298,aws,https://github.com/Farid-Atmani/terraform-aws-apache-example,
 apache-example,GaboH97,19325,aws,https://github.com/GaboH97/terraform-aws-apache-example,
 apache-example,MarceCost,11844,aws,https://github.com/mcostabile/terraform-aws-apache-example,
 apache-example,Ndzenyuy,19899,aws,https://github.com/Ndzenyuy/terraform-aws-apache-example,
@@ -1870,6 +1870,7 @@ backend-router,mergermarket,2359,acuris,https://github.com/mergermarket/terrafor
 backend-s3,youngfeldt,1034,aws,https://github.com/youngfeldt/terraform-aws-backend-s3,Terraform S3 backend with state locking.
 backend-service,dcos-terraform,1506,gcp,https://github.com/dcos-terraform/terraform-gcp-backend-service,Create an ILB to be used for DC/OS for GCP
 backend-service-routing,mergermarket,2360,acuris,https://github.com/mergermarket/terraform-acuris-backend-service-routing,This module creates the DNS and routing rule for a backend service
+backend-state,miladbeigi,24305,aws,https://github.com/miladbeigi/terraform-aws-backend-state,This module creates a bucket and a DynamoDB table to store the Terraform state.
 backendifier,gekken,19078,aws,https://github.com/gekken/terraform-aws-backendifier,This TF Module creates a reasonably secure S3 backend for small to medium teams.
 backup,DNXLabs,5722,aws,https://github.com/DNXLabs/terraform-aws-backup,Terraform module to automate the backup of data across AWS services using a resource tag.
 backup,SevenPico,21352,aws,https://github.com/SevenPico/terraform-aws-backup,"Terraform module to provision AWS Backup, a fully managed backup service that makes it easy to centralize and automate the back up of data across AWS services such as EBS volumes, RDS databases, DynamoDB tables, EFS file systems, and AWS Storage Gateway volumes."
@@ -3087,6 +3088,7 @@ codecommit-repository,figurate,5042,aws,https://github.com/figurate/terraform-aw
 codecommit-sqs,riboseinc,502,aws,https://github.com/riboseinc/terraform-aws-codecommit-sqs,Terraform module for creating an AWS CodeCommit repo with Trigger for SQS and Queue that works with Jenkins CodeCommit Trigger Plugin
 codedeploy,Cloud-42,3916,aws,https://github.com/Cloud-42/terraform-aws-codedeploy,"Simple module that creates a CodeDeploy application, deployment group & associates the deployment group with an ASG."
 codedeploy,JamesWoolfenden,15644,aws,https://github.com/JamesWoolfenden/terraform-aws-codedeploy,Basic codedeploy module
+codedeploy,Senora-dev,24302,aws,https://github.com/Senora-dev/terraform-aws-codedeploy,
 codedeploy,foss-cafe,7257,aws,https://github.com/ionicloud/terraform-aws-codedeploy,
 codedeploy-bluegreen,unifa-inc,21668,aws,https://github.com/unifa-inc/terraform-aws-codedeploy-bluegreen,Terraform module to create CodeDeploy resource
 codedeploy-ecr,l4gdev,13340,aws,https://github.com/l4gdev/terraform-aws-codedeploy-ecr,
@@ -4845,6 +4847,7 @@ easy-certificates,LederWorks,13450,tls,https://github.com/LederWorks/terraform-t
 easy-fargate,USSBA,5670,aws,https://github.com/USSBA/terraform-aws-easy-fargate,A Terraform module for deploying web applications to Fargate the easy way
 easy-fargate-service,USSBA,5906,aws,https://github.com/USSBA/terraform-aws-easy-fargate-service,A terraform module to easily stand up a fargate service
 easy-imm,terraform-cisco-modules,9731,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-easy-imm,This Module is provided to deploy a standard UCS IMM domain with very few inputs.
+easy-installation-template,kodal035,24304,kubernetes,https://github.com/kodal035/terraform-kubernetes-easy-installation-template,terraform-kubernetes-easy-installation-template
 easy-ip-info,LederWorks,13451,curl,https://github.com/LederWorks/terraform-curl-easy-ip-info," Terraform Curl Easy IP Info "
 easy-sagemaker,jbencook,7752,aws,https://github.com/sparrowml/terraform-aws-easy-sagemaker,Easy configuration for SageMaker notebook instances.
 easy-sg,rms1000watt,1522,aws,https://github.com/rms1000watt/terraform-aws-easy-sg,Terraform Module for AWS Security Group (Auto Whitelist WAN IP)
@@ -5391,6 +5394,7 @@ ecs-fargate,tmknom,1887,aws,https://github.com/tmknom/terraform-aws-ecs-fargate,
 ecs-fargate,umotif-public,3773,aws,https://github.com/umotif-public/terraform-aws-ecs-fargate,Terraform module to create AWS ECS FARGATE services
 ecs-fargate,vnisolutions,17204,aws,https://github.com/vnisolutions/terraform-aws-ecs-fargate,
 ecs-fargate,youyo,4415,aws,https://github.com/youyo/terraform-aws-ecs-fargate,Terraform module which creates ECS resources on AWS.
+ecs-fargate,zkfmapf123,24292,lee,https://github.com/zkfmapf123/terraform-lee-ecs-fargate,ecs-fargate module 
 ecs-fargate-alb,geekcell,19770,aws,https://github.com/geekcell/terraform-aws-ecs-fargate-alb,Terraform module to provision an AWS ECS Fargate Cluster with an ALB.
 ecs-fargate-cluster,oozou,15121,aws,https://github.com/oozou/terraform-aws-ecs-fargate-cluster,
 ecs-fargate-cluster,so1omon563,16218,aws,https://github.com/so1omon563/terraform-aws-ecs-fargate-cluster,Module to create and manage a FARGATE ECS cluster.
@@ -6070,6 +6074,7 @@ elasticsearch,dasmeta,21735,aws,https://github.com/dasmeta/terraform-aws-elastic
 elasticsearch,dtoch56,15160,yandex,https://github.com/dtoch56/terraform-yandex-elasticsearch,Terraform module form Yandex Managed Service for Elasticsearch
 elasticsearch,finisterra-io,23566,aws,https://github.com/finisterra-io/terraform-aws-elasticsearch,Terraform AWS Elasticsearch module
 elasticsearch,foss-cafe,7208,aws,https://github.com/ionicloud/terraform-aws-elasticsearch,Terraform module for AWS Elasticsearch service
+elasticsearch,ikigailabs,24299,ikigai,https://github.com/ikigailabs/terraform-ikigai-elasticsearch,"  Deploys the Elasticsearch infrastructure required for an Ikigai application setup "
 elasticsearch,infrahouse,23084,aws,https://github.com/infrahouse/terraform-aws-elasticsearch,Module that deploys an Elasticsearch cluster
 elasticsearch,kiwicom,4671,kubernetes,https://github.com/kiwicom/terraform-kubernetes-elasticsearch,Elasticsearch module for Kubernetes based on elastic Helm charts
 elasticsearch,lablabs,3793,aws,https://github.com/lablabs/terraform-aws-elasticsearch,Terraform module to provision an Elasticsearch cluster with built-in integrations with Kibana and Logstash.
@@ -8548,6 +8553,7 @@ lambda,boldlink,16496,aws,https://github.com/boldlink/terraform-aws-lambda,Terra
 lambda,claranet,684,aws,https://github.com/claranet/terraform-aws-lambda,Terraform module for AWS Lambda functions
 lambda,clouddrove,3644,aws,https://github.com/clouddrove/terraform-aws-lambda," Terraform module to create Lambda resource on AWS for create lambda function. "
 lambda,cornerman,15457,aws,https://github.com/cornerman/terraform-aws-lambda,
+lambda,crisnicogonzalez,24301,nuberu,https://github.com/crisnicogonzalez/terraform-nuberu-lambda,
 lambda,devticon,5807,aws,https://github.com/devticon/terraform-aws-lambda,"Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations"
 lambda,dgmike,2056,fluxo,https://github.com/dgmike/terraform-fluxo-lambda,A lambda module to fluxo app.
 lambda,dvargas92495,8707,roamjs,https://github.com/dvargas92495/terraform-roamjs-lambda,
@@ -11394,6 +11400,7 @@ rds,exnodeshub,22510,aws,https://github.com/exnodeshub/terraform-aws-rds,
 rds,finisterra-io,23573,aws,https://github.com/finisterra-io/terraform-aws-rds,Terraform AWS RDS module
 rds,foss-cafe,18583,aws,https://github.com/ionicloud/terraform-aws-rds,
 rds,gitrahimi,5886,aws,https://github.com/gitrahimi/terraform-aws-rds,
+rds,ikigailabs,24303,ikigai,https://github.com/ikigailabs/terraform-ikigai-rds,"  Deploys the RDS infrastructure required for an Ikigai application setup "
 rds,jerinrathnam,19767,aws,https://github.com/jerinrathnam/terraform-aws-rds,Terraform module for AWS RDS service
 rds,jvefferson,17727,aws,https://github.com/jvefferson/terraform-aws-rds,
 rds,lily4499,22078,aws,https://github.com/lily4499/terraform-aws-rds,
@@ -11868,6 +11875,7 @@ repository,TheYorkshireDev,15379,github,https://github.com/TheYorkshireDev/terra
 repository,akur8-oss,11927,github,https://github.com/akur8-oss/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,amachsoftware,24078,github,https://github.com/amachsoftware/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,antmelekhin,20918,github,https://github.com/antmelekhin/terraform-github-repository,A Terraform module to manage GitHub Repositories.
+repository,benoit-garcia,24294,github,https://github.com/benoit-garcia/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,boldlink,13889,github,https://github.com/boldlink/terraform-github-repository,Terraform registry repository for Github organization module
 repository,cncsc,17022,github,https://github.com/cncsc/terraform-github-repository,
 repository,dasmeta,15306,github,https://github.com/dasmeta/terraform-github-repository,This repo allows you to create and manage repositories within your GitHub organization or personal account.
@@ -15480,6 +15488,7 @@ vpc,husneozmen,7741,aws,https://github.com/h-ozmen/terraform-aws-vpc,
 vpc,iasadova,9383,aws,https://github.com/iasadova/terraform-aws-vpc,
 vpc,idcosregistry,13563,tencentcloud,https://github.com/iacstore/terraform-tencentcloud-vpc,TencentCloud VPC Module for Terraform
 vpc,igorlesnichii,12621,aws,https://github.com/igorlesnichii/terraform-aws-vpc,
+vpc,ikigailabs,24300,ikigai,https://github.com/ikigailabs/terraform-ikigai-vpc," Deploys the VPC infrastructure required for an Ikigai application setup "
 vpc,iljailz,12630,aws,https://github.com/iljailz/terraform-aws-vpc,
 vpc,ilkhomk,5876,aws,https://github.com/ilkhomk/terraform-aws-vpc,
 vpc,ionicloud,22525,aws,https://github.com/ionicloud/terraform-aws-vpc,AWS terraform module for VPC
@@ -15919,6 +15928,7 @@ vpcbatch5,Aijan13,24150,aws,https://github.com/Aijan13/terraform-aws-vpcbatch5,
 vpcbatch5,Asyl0512,24159,aws,https://github.com/Asyl0512/terraform-aws-vpcbatch5,
 vpcbatch5,BakytTyn,24165,aws,https://github.com/BakytTyn/terraform-aws-vpcbatch5,
 vpcbatch5,Munara241,24163,aws,https://github.com/Munara241/terraform-aws-vpcbatch5,
+vpcbatch5,NuriSapa,24297,was,https://github.com/NuriSapa/terraform-was-vpcbatch5,
 vpcbatch5,eldosz,24173,aws,https://github.com/eldosz/terraform-aws-vpcbatch5,
 vpcbatch5,holmesgulnara,24152,aws,https://github.com/holmesgulnara/terraform-aws-vpcbatch5,
 vpcbatch5,iliasDzh,24166,aws,https://github.com/iliasDzh/terraform-aws-vpcbatch5,
@@ -16210,6 +16220,7 @@ wireguard-image,armorfret,2305,linode,https://github.com/armorfret-archived/terr
 wireguard-stackscript,armorfret,2424,linode,https://github.com/armorfret-archived/terraform-linode-wireguard-stackscript,Terraformed Stackscript for provisioning WireGuard Linodes
 woodpecker,Dan6erbond,17462,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-woodpecker,
 wordpress,AleksaSka,12772,aws,https://github.com/aleksaska/terraform-aws-wordpress,
+wordpress,Asyl0512,24291,rds,https://github.com/Asyl0512/terraform-rds-wordpress,The module to create an RDS database
 wordpress,Saske912,16445,site,https://github.com/Saske912/terraform-site-wordpress,
 wordpress,StayWell,2379,aws,https://github.com/StayWell/terraform-aws-wordpress,Docker based Wordpress deployment backed by a serverless MySQL database
 wordpress,erkinsinc,5840,aws,https://github.com/erkinsinc/terraform-aws-wordpress,with elastic load balancer and auto scaling group support
