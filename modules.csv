@@ -243,6 +243,7 @@ acm-route53,shamimice03,18044,aws,https://github.com/shamimice03/terraform-aws-a
 acme,yellowmegaman,2178,google,https://github.com/yellowmegaman/terraform-google-acme,Get ssl certs via acme with gcloud dns challenge
 acme-certificate,cloud-native-toolkit,16045,azure,https://github.com/cloud-native-toolkit/terraform-azure-acme-certificate,Module to provision acme-certificate on azure
 acme-certificate,rms1000watt,1634,aws,https://github.com/rms1000watt/terraform-aws-acme-certificate,Terraform Module for ACME Certificate (with Route 53 validation and saving the certs to S3)
+acme-certificates,komailo,24358,modules,https://github.com/komailo/terraform-modules-acme-certificates,This Terraform module simplifies the process of obtaining a signed certificate from an ACME server and deploying it to one of the supported destinations.
 acme-registration,rms1000watt,1633,aws,https://github.com/rms1000watt/terraform-aws-acme-registration,Terraform Module for ACME Registration (and saving the Key to S3)
 acme-ssm,pbar1,2365,aws,https://github.com/pbar1/terraform-aws-acme-ssm,Terraform module for creating ACME TLS certificates and storing them in AWS SSM
 acr,CloudNationHQ,21727,azure,https://github.com/CloudNationHQ/terraform-azure-acr,Terraform module which creates container registry resources used by workloads and accelerators.
@@ -1379,7 +1380,7 @@ aspnetframeworkappservice,webmasterdevlin,10556,azurerm,https://github.com/webma
 assert,kchugalinskiy,496,null,https://github.com/kchugalinskiy/terraform-null-assert,Terraform assertion module
 assertion,Invicton-Labs,7542,null,https://github.com/Invicton-Labs/terraform-null-assertion,"A simple module that asserts (during planning) that a condition is true, and prints a custom error message if not."
 assertion,Kalepa,16030,null,https://github.com/Kalepa/terraform-null-assertion,A simple module that asserts (during planning) that a condition is true
-assertion,plzdontbanme,22998,null,https://github.com/plzdontbanme/terraform-null-assertion,
+assertion,plzdontbanme,24373,null,https://github.com/plzdontbanme/terraform-null-assertion,
 asskicker,cha2lenger,1399,oldtimers,https://github.com/cha2lenger/terraform-oldtimers-asskicker,
 assumable-roles-policy,infrablocks,3561,aws,https://github.com/infrablocks/terraform-aws-assumable-roles-policy,A Terraform module for managing an AWS IAM policy allowing assumption of specified roles.
 assume-aws-role,wandb,12499,google,https://github.com/wandb/terraform-google-assume-aws-role,
@@ -2873,6 +2874,7 @@ cloudtrail,StratusGrid,2549,aws,https://github.com/StratusGrid/terraform-aws-clo
 cloudtrail,appzen-oss,7867,aws,https://github.com/appzen-oss/terraform-aws-cloudtrail,Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
 cloudtrail,avlcloudtechnologies,8569,aws,https://github.com/avlcloudtechnologies/terraform-aws-cloudtrail,Terraform module to create cloudtrail and related resources
 cloudtrail,aws-ss,18642,aws,https://github.com/aws-ss/terraform-aws-cloudtrail,A Terraform module that creates an AWS CloudTrail.
+cloudtrail,axetrading,24356,aws,https://github.com/axetrading/terraform-aws-cloudtrail,
 cloudtrail,azavea,1913,aws,https://github.com/azavea/terraform-aws-cloudtrail,A Terraform module to create an Amazon Web Services (AWS) CloudTrail Trail.
 cloudtrail,blackbird-cloud,19249,aws,https://github.com/blackbird-cloud/terraform-aws-cloudtrail,Terraform module for deploying AWS Cloudtrail to your Organization
 cloudtrail,boldlink,14018,aws,https://github.com/boldlink/terraform-aws-cloudtrail,Terraform registry repository for AWS Cloudtrail module
@@ -5993,6 +5995,8 @@ eks-thanos,lablabs,11197,aws,https://github.com/lablabs/terraform-aws-eks-thanos
 eks-trust-manager,lablabs,23021,aws,https://github.com/lablabs/terraform-aws-eks-trust-manager,
 eks-v1,lily4499,24345,aws,https://github.com/lily4499/terraform-aws-eks-v1,
 eks-v2,lily4499,24349,aws,https://github.com/lily4499/terraform-aws-eks-v2,
+eks-v3,lily4499,24350,aws,https://github.com/lily4499/terraform-aws-eks-v3,
+eks-v4,lily4499,24374,aws,https://github.com/lily4499/terraform-aws-eks-v4,
 eks-vector-agent-log,lablabs,8460,aws,https://github.com/lablabs/terraform-aws-eks-vector-agent-log,
 eks-velero,DNXLabs,8678,aws,https://github.com/DNXLabs/terraform-aws-eks-velero,"Terraform module for deploying Kubernetes Velero inside a pre-existing EKS cluster. Velero (formerly Heptio Ark) is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes."
 eks-vpc,quadri-olamilekan,22873,aws,https://github.com/quadri-olamilekan/terraform-aws-eks-vpc,VPC  module for EKS provisioning on AWS
@@ -6660,8 +6664,11 @@ ftnt-oci-modules,jmvigueras,22721,oci,https://github.com/jmvigueras/terraform-oc
 ftp-transfer-user,kiwicom,3023,aws,https://github.com/kiwicom/terraform-aws-ftp-transfer-user,
 full-mesh-intra-vpc-security-group-rules,JudeQuintana,22127,aws,https://github.com/JudeQuintana/terraform-aws-full-mesh-intra-vpc-security-group-rules,Full Mesh Intra VPC Security Group Rules
 full-mesh-trio,JudeQuintana,22827,aws,https://github.com/JudeQuintana/terraform-aws-full-mesh-trio,Full Mesh Trio
+fullstory-bigquery-setup,fullstorydev,24365,google,https://github.com/fullstorydev/terraform-google-fullstory-bigquery-setup,This module assists in the setup of BigQuery for use with Fullstory
 fullstory-cloud-relay,fullstorydev,19189,aws,https://github.com/fullstorydev/terraform-aws-fullstory-cloud-relay,This module creates a relay that allows you to route all captured FullStory traffic from your users’ browser directly through your own domain
 fullstory-cloud-relay,fullstorydev,19190,google,https://github.com/fullstorydev/terraform-google-fullstory-cloud-relay,This module creates a relay that allows you to route all captured FullStory traffic from your users’ browser directly through your own domain. 
+fullstory-redshift-setup,fullstorydev,24364,aws,https://github.com/fullstorydev/terraform-aws-fullstory-redshift-setup,This module assists in the setup of Redshift for use with Fullstory
+fullstory-warehouse-setup,fullstorydev,24366,snowflake,https://github.com/fullstorydev/terraform-snowflake-fullstory-warehouse-setup,This modules assists in the setup of Snowflake for use with Fullstory
 fully-connected-vpn,bsrodrigs,12784,aws,https://github.com/bsrodrigs/terraform-aws-selfconfig-cgw,Deploy a self-configured Customer Gateway (CGW) along with an AWS site-to-site VPN
 fully-loaded-eks-cluster,bootlabstech,16017,aws,https://github.com/bootlabstech/terraform-aws-fully-loaded-eks-cluster,
 fun,fun-stack,11205,aws,https://github.com/fun-stack/terraform-aws-fun,Terraform module to provision AWS infrastructure for fun-stack
@@ -6922,6 +6929,7 @@ gitlab-runners,AckeeCZ,10331,gcp,https://github.com/AckeeCZ/terraform-gcp-gitlab
 gitlab-server,Nosaj123,19026,aws,https://github.com/Nosaj123/terraform-aws-gitlab-server,Terraform Script & instructions to spin up a GitLab Server (options to backup from old to new server)
 gitlab-shell-runner,infraspecdev,17459,aws,https://github.com/infraspecdev/terraform-aws-gitlab-shell-runner,Terraform module which provisions EC2 instances as Shell Runners for Gitlab Projects
 gitlab-stale-merge-requests-slack-app,alanjonesit,24233,aws,https://github.com/alanjonesit/terraform-aws-gitlab-stale-merge-requests-slack-app,Terraform module using AWS resources to notify a Slack workspace about GitLab merge requests that haven't been updated within a certain amount of days.
+gitlab-workload-identity,xgourmandin,24359,google,https://github.com/xgourmandin/terraform-google-gitlab-workload-identity,Authorize some Gitlab projects to connect to GCP service accounts using Workload Identity Provider
 gitlab_server,kenvpt,4880,aws,https://github.com/kenvpt/terraform-aws-gitlab_server,
 gitlabaccesstoken,puzl-cloud,21912,puzl,https://github.com/puzl-cloud/terraform-puzl-gitlabaccesstoken,Terraform module for GitLab access token management on puzl.cloud
 gitlabpipelinesintegration,puzl-cloud,21913,puzl,https://github.com/puzl-cloud/terraform-puzl-gitlabpipelinesintegration,Terraform module for integration of GitLab to Cloud Pipelines service by puzl.cloud
@@ -7247,6 +7255,7 @@ helpers,dasmeta,20645,null,https://github.com/dasmeta/terraform-null-helpers,
 helpers,logicalclocks,9059,hopsworksai,https://github.com/logicalclocks/terraform-hopsworksai-helpers,Terraform module that creates the required cloud resources for Hopsworks.ai clusters on AWS and AZURE.
 heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-heroku-master,
 hetzner-lb-firewall-cert-servers,rmalenko,21339,hz,https://github.com/rmalenko/terraform-hz-hetzner-lb-firewall-cert-servers,"Provisioning on Hetzner Cloud  LB, certificates, firewall and several servers"
+hetzner-loadbalancer,hegerdes,24375,hcloud,https://github.com/hegerdes/terraform-hcloud-hetzner-loadbalancer,A terraform module to quicly generate hetzner hcloud loadbalancers and supporting services 🚀
 hetzner-node-pool,hegerdes,23964,hcloud,https://github.com/hegerdes/terraform-hcloud-hetzner-node-pool,A terraform module to quicly generate multiple hetzner hcloud vm servers and supporting services 🚀 
 hetzner-zone,opsheaven,23517,hetzner,https://github.com/opsheaven/terraform-hetzner-hetzner-zone,OpsHeaven's Terraform module to manage Hetzner DNS Zones.
 hks,Stupremee,17849,hcloud,https://github.com/Stupremee/terraform-hcloud-hks,Terraform Module for deploying a Kubernetes Cluster to Hetzner Cloud.
@@ -7765,6 +7774,7 @@ intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuin
 inventory,eeyoontaek,17242,ansible,https://github.com/eeyoontaek/terraform-ansible-inventory,
 iomete-data-plane,iomete,24256,gcp,https://github.com/iomete/terraform-gcp-iomete-data-plane,
 iomete-data-plane,iomete,24266,aws,https://github.com/iomete/terraform-aws-iomete-data-plane,
+iomete-data-plane,iomete,24355,azure,https://github.com/iomete/terraform-azure-iomete-data-plane,
 iona-org,ION-Analytics,18254,acuris,https://github.com/ION-Analytics/terraform-acuris-iona-org,
 iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-arch,bootlabstech,17681,google,https://github.com/bootlabstech/terraform-google-iot-arch,
@@ -9561,6 +9571,7 @@ modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws
 modules,ankush0991,16433,aws,https://github.com/Devops0091/terraform-aws-modules,
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
+modules,cyclelabs-allenstill,24363,aws,https://github.com/cyclelabs-allenstill/terraform-aws-modules,This repository serves to store the AWS existing-VPC version of the Cycle Appliance
 modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terraform modules from DasMeta to manage AWS resources
 modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-onpremise,Terraform modules for on premise setups
 modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
@@ -9591,6 +9602,7 @@ modules,srabby,5999,aws,https://github.com/sry90/terraform-aws-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
 modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,terraform-cisco-modules,9070,tfe,https://github.com/terraform-cisco-modules/terraform-tfe-modules,Module to Create Terraform workspaces with Intersight IST
+modules,thomasmelison,24360,aws,https://github.com/thomasmelison/terraform-aws-modules,Repository for AWS Terraform modules.
 modules,unionai-oss,17181,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 modules,usmc686,1403,TFE,https://github.com/usmc686/terraform-TFE-modules,
 modules-VPC-MySql_ActiveMQ-Elasticached-Beanstalk,kmkouokam,23501,aws,https://github.com/kmkouokam/terraform-aws-modules-VPC-MySql_ActiveMQ-Elasticached-Beanstalk,"Terraform module to create VPC, Bastion, MySQL, Elasticached, ActiveMQ, and Beanstalk"
@@ -9949,7 +9961,6 @@ myvm,monbostest,13377,google,https://github.com/monbostest/terraform-google-myvm
 myvm,nippydevops,11316,google,https://github.com/nippydevops/terraform-google-myvm,This module will be used to create a vm on google cloud
 n8n,elasticscale,20693,aws,https://github.com/elasticscale/terraform-aws-n8n,Run N8n on AWS ECS Fargate
 nac-access-policies,netascode,14156,aci,https://github.com/netascode/terraform-aci-nac-access-policies,Terraform Cisco ACI Access Policies Module
-nac-aci,brightpuddle,24101,aci,https://github.com/brightpuddle/terraform-aci-nac-aci,Terraform Cisco ACI Nexus-as-Code Module
 nac-aci,netascode,19004,aci,https://github.com/netascode/terraform-aci-nac-aci,Terraform Cisco ACI Nexus-as-Code Module
 nac-fabric-policies,netascode,14157,aci,https://github.com/netascode/terraform-aci-nac-fabric-policies,Terraform Cisco ACI Fabric Policies Module
 nac-interface-policies,netascode,14158,aci,https://github.com/netascode/terraform-aci-nac-interface-policies,Terraform Cisco ACI Interface Policies Module
@@ -10842,6 +10853,7 @@ pdns,CloudNationHQ,23675,azure,https://github.com/CloudNationHQ/terraform-azure-
 pe,CloudNationHQ,23718,azure,https://github.com/CloudNationHQ/terraform-azure-pe,Terraform module which creates private endpoint resources used by workloads and accelerators.
 peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terraform-azurerm-peering,
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
+permissions-dba,WeAreRetail,24368,mssql,https://github.com/WeAreRetail/terraform-mssql-permissions-dba,Manage the permissions for the DBA
 permissionset,appvia,23805,aws,https://github.com/appvia/terraform-aws-permissionset,Provisions and assigns a permissionset to one or more accounts
 permutations,ixydo,2101,null,https://github.com/ixydo/terraform-null-permutations,Simple module to return all possible combinations for a given pair of input lists.
 persistent-storage,jd4883,12052,kubernetes,https://github.com/jd4883/terraform-kubernetes-persistent-storage,A small module for persistent volume claim creation; designed to use externally to charts to pre-provision volumes
@@ -11066,6 +11078,7 @@ private-dns-administration,Pwd9000-ML,20195,azurerm,https://github.com/Pwd9000-M
 private-dns-resolver,claranet,16992,azurerm,https://github.com/claranet/terraform-azurerm-private-dns-resolver,Terraform module for Azure DNS Private Resolver
 private-dns-zone,Gbon1275,14263,azurerm,https://github.com/Gbon1275/terraform-azurerm-private-dns-zone,
 private-dns-zone,WeAreRetail,20284,azurerm,https://github.com/WeAreRetail/terraform-azurerm-private-dns-zone,Terraform Azure RM Private DNS Zone module
+private-dns-zone,aztfm,24354,azurerm,https://github.com/aztfm/terraform-azurerm-private-dns-zone,Terraform module for Microsoft Azure to manage Private Dns Zone resource.
 private-dns-zone,bootlabstech,18875,azurerm,https://github.com/bootlabstech/terraform-azurerm-private-dns-zone,
 private-dns-zone,libre-devops,18633,azurerm,https://github.com/libre-devops/terraform-azurerm-private-dns-zone,A module used to deploy Azure Private DNZ zones
 private-dns-zone,ptonini,16835,azurerm,https://github.com/ptonini/terraform-azurerm-private-dns-zone,
@@ -11869,6 +11882,7 @@ replicated-s3-bucket,Lupus-Metallum,8435,aws,https://github.com/Lupus-Metallum/t
 replicated-secret,Invicton-Labs,9050,aws,https://github.com/Invicton-Labs/terraform-aws-replicated-secret,"A module that is similar to the aws_secretsmanager_secret resource, but adds support for cross-region replication."
 replicated-secure-s3-bucket,Invicton-Labs,13868,aws,https://github.com/Invicton-Labs/terraform-aws-replicated-secure-s3-bucket,This module creates two copies of the Invicton-Labs/secure-s3-bucket/aws module and sets up replication between them.
 replicated-secure-s3-bucket,Kalepa,16025,aws,https://github.com/Kalepa/terraform-aws-replicated-secure-s3-bucket,This module creates two copies of the Invicton-Labs/secure-s3-bucket/aws module and sets up replication between them.
+repo,HappyPathway,24361,github,https://github.com/HappyPathway/terraform-github-repo,
 repo,JamesWoolfenden,8798,ado,https://github.com/JamesWoolfenden/terraform-ado-repo,
 repo,sathakur4022,21855,azurerm,https://github.com/sathakur4022/terraform-azurerm-repo,
 repo,trussworks,3745,github,https://github.com/trussworks/terraform-github-repo,Manage Github repos with Terraform with good defaults
@@ -13292,6 +13306,7 @@ ses-sandbox,lbrealdev,4567,aws,https://github.com/lbrealdev/terraform-aws-ses-sa
 ses-sending-domain,babbel,11739,aws,https://github.com/babbel/terraform-aws-ses-sending-domain,Terraform module creating an SES sending domain
 ses-to-s3,notablehealth,18062,aws,https://github.com/notablehealth/terraform-aws-ses-to-s3,Receive mail via SES and put it in a S3 bucket
 ses-validated-domain-and-emails,voquis,11165,aws,https://github.com/voquis/terraform-aws-ses-validated-domain-and-emails,
+session-manager,SevenPico,24367,aws,https://github.com/SevenPico/terraform-aws-session-manager,
 session-manager,YoshinoriSatoh,11798,aws,https://github.com/YoshinoriSatoh/terraform-aws-session-manager,
 session-manager,bridgecrewio,4458,aws,https://github.com/bridgecrewio/terraform-aws-session-manager,Terraform module for deploying AWS Session Manager
 session-manager,foss-cafe,6073,aws,https://github.com/ionicloud/terraform-aws-session-manager,Terraform module which creates Session Manager resources on AWS.
@@ -13921,6 +13936,7 @@ static-website-module-manifests,aneesdevops,10571,azure,https://github.com/anees
 static-website-redirect,dsueltenfuss,12153,aws,https://github.com/dsueltenfuss/terraform-aws-static-website-redirect,
 static-website-s3-cloudfront-acm,joshuamkite,15253,aws,https://github.com/joshuamkite/terraform-aws-static-website-s3-cloudfront-acm,Static https website using AWS S3; Cloudfront; ACM; TLS; public DNS entries.
 static-website-with-cicd,ordinaryexperts,1926,aws,https://github.com/ordinaryexperts/terraform-aws-static-website-with-cicd,"A static s3-backed website with CloudFront, SSL, and automatic deployments on commit to a git repo"
+staticWebsite,MilindMiddha09,24353,azurerm,https://github.com/MilindMiddha09/terraform-azurerm-staticWebsite,
 static_website,DvLearnOps,15090,azurerm,https://github.com/DvLearnOps/terraform-azurerm-static_website,A sample module to create azure storage static website
 staticazurewebsite,lokesh0412,12857,azurerm,https://github.com/lokesh0412/terraform-azurerm-staticazurewebsite,This is a test terraform module
 staticbucket,bmahathi,14887,aws,https://github.com/bmahathi/terraform-aws-staticbucket,
@@ -13954,6 +13970,7 @@ staticwebsitepublic,Ayoadara,13278,azurerm,https://github.com/Ayoadara/terraform
 staticwebsitepublic,Bryantellis1,18836,azurerm,https://github.com/Bryantellis1/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,DimaSerbenyuk,14412,azurerm,https://github.com/dimaserbenyuk/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,GowdamTF,17234,azurerm,https://github.com/GowdamTF/terraform-azurerm-staticwebsitepublic,Myteststaticwebsitepublic for DEMO
+staticwebsitepublic,Harsh5006,24351,azurerm,https://github.com/Harsh5006/terraform-azurerm-staticwebsitepublic,Terraform module for registry
 staticwebsitepublic,HrIyEn07,18837,azurerm,https://github.com/HrIyEn07/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Joseph2290w,14276,azurerm,https://github.com/Joseph2290w/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Kescefko,22966,azurerm,https://github.com/Kescefko/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -13962,6 +13979,7 @@ staticwebsitepublic,Mahaveerdoss,21692,azurerm,https://github.com/Mahaveerdoss/t
 staticwebsitepublic,Michelle1982ZJ,20848,azurerm,https://github.com/Michelle1982ZJ/terraform-azurerm-staticwebsitepublic,2023-09-01-L52
 staticwebsitepublic,MissPiggy111,17813,azurerm,https://github.com/MissPiggy111/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,MukeshKChoudhary,10042,azurerm,https://github.com/MukeshKChoudhary/terraform-azurerm-staticwebsitepublic,Terraform
+staticwebsitepublic,Navpreet14-02,24352,azurerm,https://github.com/Navpreet14-02/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,PurnachandRaja,17969,azurerm,https://github.com/PurnachandRaja/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,RajendraBobade,13536,azurerm,https://github.com/RajendraBobade/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,Rajeshhv1,17912,azurerm,https://github.com/Rajeshhv1/terraform-azurerm-staticwebsitepublic,
