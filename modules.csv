@@ -1651,6 +1651,7 @@ aws-integration-role,costradar,12170,costradar,https://github.com/costradar-obso
 aws-kinesis-sqs,jhoward-adaptavist,19611,module,https://github.com/jhoward-adaptavist/terraform-module-aws-kinesis-sqs,terraform--module-aws-kinesis-sqs
 aws-lambda,Adaptavist,5490,module,https://github.com/Adaptavist/terraform-module-aws-lambda,
 aws-lambda,alekc,7172,module,https://github.com/alekc/terraform-module-aws-lambda,
+aws-lambda,bschaatsbergen,24424,go,https://github.com/bschaatsbergen/terraform-go-aws-lambda,Package Go based AWS Lambda functions
 aws-lambda,mergermarket,2407,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda,Terraform module to create a simple Lambda with the associated Cloudwatch log group
 aws-lambda-cron,mergermarket,2412,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-cron,Creates AWS Lambda with a Cloudwatch cron trigger
 aws-lambda-sns,mergermarket,2541,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-sns,Create a AWS Lambda function triggered from SNS
@@ -2031,6 +2032,7 @@ bc-proxy,sr2c,12482,aws,https://github.com/sr2c/terraform-aws-bc-proxy,Bypass Ce
 bc-redirector,sr2c,17430,aws,https://github.com/sr2c/terraform-aws-bc-redirector,Bypass Censorship Redirector (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-bc-redirector)
 bc-smart-proxy-instance,sr2c,13564,aws,https://github.com/sr2c/terraform-aws-bc-smart-proxy-instance,Bypass Censorship Smart Proxy Instance (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-bc-smart-proxy-instance)
 beamMP-server-module,Harry-Moore-dev,22311,aws,https://github.com/Harry-Moore-dev/terraform-aws-beamMP-server-module,Terraform module to deploy a BeamMP server to AWS
+beanstalk,HappyPathway,24425,aws,https://github.com/HappyPathway/terraform-aws-beanstalk,
 beanstalk,jwa-lab,18549,aws,https://github.com/jwa-lab/terraform-aws-beanstalk,Terraform module to create an AWS Elastic Beanstalk environment
 beanstalk-deploy,cloudopsworks,12985,aws,https://github.com/cloudopsworks/terraform-aws-beanstalk-deploy,Terraform module for deployments used in environments
 beanstalk-dns,cloudopsworks,12986,aws,https://github.com/cloudopsworks/terraform-aws-beanstalk-dns,Terraform module for DNS management for Environments
@@ -5002,6 +5004,7 @@ ec2-elb-instance,aimaratova003,24406,aws,https://github.com/aimaratova003/terraf
 ec2-elb-instance,dlysenko6745,24404,aws,https://github.com/dlysenko6745/terraform-aws-ec2-elb-instance,
 ec2-elb-instance,freyac777,24402,aws,https://github.com/freyac777/terraform-aws-ec2-elb-instance,
 ec2-elb-instance,pauldchang,24401,aws,https://github.com/pauldchang/terraform-aws-ec2-elb-instance,
+ec2-elb-instance,rshabralieva2024,24428,aws,https://github.com/rshabralieva2024/terraform-aws-ec2-elb-instance,
 ec2-elb-instance,techtorialdevops,24405,aws,https://github.com/techtorialdevops/terraform-aws-ec2-elb-instance,
 ec2-example,guru059,15992,aws,https://github.com/guru059/terraform-aws-ec2-example,
 ec2-example,mplibunao,14431,aws,https://github.com/mplibunao/terraform-aws-ec2-example,Terraform module for creating an ec2 instance with firewall rules
@@ -6096,6 +6099,7 @@ elasticache-redis-cluster,Mehdikarimian,13160,aws,https://github.com/Mehdikarimi
 elasticache-redis-cluster,geekcell,19777,aws,https://github.com/geekcell/terraform-aws-elasticache-redis-cluster,Terraform module to provision an AWS ElastiCache Redis Cluster.
 elasticache-secondary-on-global-datastore,mrnim94,17179,aws,https://github.com/mrnim94/terraform-aws-elasticache-secondary-on-global-datastore,This module helps you to create an Elasticache secondary (Redis) based on the Global Datastore that was made beforehand.
 elasticache-serverless-redis,jparnaudeau,22957,aws,https://github.com/jparnaudeau/terraform-aws-elasticache-serverless-redis,Terraform module to deploy an AWS Elasticache Serverless Redis Cluster
+elasticache_alarms,cloudomat,24432,aws,https://github.com/cloudomat/terraform-aws-elasticache_alarms,
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
 elasticbeanstalk-cicd,josephphyo,11139,aws,https://github.com/josephphyo/terraform-aws-elasticbeanstalk-cicd,terraform-aws-elasticbeanstalk-cicd
 elasticbeanstalk-https,rohitnsaigal,10543,aws,https://github.com/rohitnsaigal/terraform-aws-elasticbeanstalk-https,This module is intended to help you establish all the insfrastructure needed in order to create an elasticbeanstalk application with an additional listener so that we can access via HTTPS
@@ -8723,7 +8727,6 @@ lambda-github-app,npalm,4779,aws,https://github.com/npalm/terraform-aws-lambda-g
 lambda-githubauth,armorfret,2191,aws,https://github.com/armorfret/terraform-aws-lambda-githubauth,Terraform module for provisioning akerl/github-auth-lambda
 lambda-glue-trigger-role,MagusDevOps,6088,aws,https://github.com/MagusDevOps/terraform-aws-lambda-glue-trigger-role,an opinionated module for a global role for lambda to trigger glue jobs
 lambda-go,kh42z,12361,aws,https://github.com/kh42z/terraform-aws-lambda-go,
-lambda-go-packer,bschaatsbergen,24398,aws,https://github.com/bschaatsbergen/terraform-aws-lambda-go-packer,Package Go based AWS Lambda functions
 lambda-healthcheck,lablabs,4389,aws,https://github.com/lablabs/terraform-aws-lambda-healthcheck,
 lambda-hellolinodians,armorfret,2192,aws,https://github.com/armorfret-archived/terraform-aws-lambda-hellolinodians,Terraform module for provisioning akerl/go-hello-linodians
 lambda-hookexporter,armorfret,19609,aws,https://github.com/armorfret/terraform-aws-lambda-hookexporter,
@@ -9276,6 +9279,7 @@ marketplace-oe-patterns-mastodon,ordinaryexperts,20909,aws,https://github.com/or
 marketplace-oe-patterns-peertube,ordinaryexperts,20935,aws,https://github.com/ordinaryexperts/terraform-aws-marketplace-oe-patterns-peertube,Terraform module which provisions Ordinary Experts' AWS Marketplace pattern for PeerTube
 marketplace-oe-patterns-pixelfed,ordinaryexperts,20925,aws,https://github.com/ordinaryexperts/terraform-aws-marketplace-oe-patterns-pixelfed,Terraform Module for provisioning Ordinary Experts' AWS Marketplace Pixelfed Pattern
 marketplace-oe-patterns-wordpress,ordinaryexperts,21131,aws,https://github.com/ordinaryexperts/terraform-aws-marketplace-oe-patterns-wordpress,Terraform Module for provisioning Ordinary Experts' AWS Marketplace WordPress Pattern
+mas,terraform-ibm-modules,24423,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-mas,Deploys Maximo Application Suite on an IBM Cloud openshift cluster.
 maskopy,DNXLabs,10529,aws,https://github.com/DNXLabs/terraform-aws-maskopy,"Maskopy solution is to Copy and Obfuscate Production Data to Target Environments in AWS. It uses AWS Serverless services, Step functions, Lambda and Fargate."
 master-outputs,matti,771,kontena,https://github.com/matti/terraform-kontena-master-outputs,
 master-to-main,trussworks,5509,aws,https://github.com/trussworks/terraform-aws-master-to-main,
@@ -9311,6 +9315,7 @@ mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,Terraform module to setup and manage AWS network firewall
 mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,Terraform module to create and manage a GitLab project.
 mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,Terraform module to create and manage a GitHub repository.
+mcaf-role,schubergphilis,24422,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,A Terraform module that creates an IAM role.
 mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
 mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,Terraform module to create an AWS s3 bucket
 mcaf-securityhub-findings-manager,schubergphilis,19581,aws,https://github.com/schubergphilis/terraform-aws-mcaf-securityhub-findings-manager,Terraform module to suppress specific events from security hub based on a dynamodb based configuration.
@@ -12185,6 +12190,7 @@ route53,nalbam,6104,aws,https://github.com/nalbam/terraform-aws-route53,
 route53,oozou,14506,aws,https://github.com/oozou/terraform-aws-route53,Terraform module to create aws route53
 route53,pauldchang,24411,aws,https://github.com/pauldchang/terraform-aws-route53,
 route53,rails-on-services,3585,aws,https://github.com/rails-on-services/terraform-aws-route53,Manages AWS Route53 zone
+route53,rshabralieva2024,24429,aws,https://github.com/rshabralieva2024/terraform-aws-route53,
 route53,srb3,11042,aws,https://github.com/srb3/terraform-aws-route53,
 route53,techtorialdevops,24416,aws,https://github.com/techtorialdevops/terraform-aws-route53,
 route53,terraform-aws-modules,5240,aws,https://github.com/terraform-aws-modules/terraform-aws-route53,Terraform module to create AWS Route53 resources 🇺🇦
@@ -12812,7 +12818,6 @@ samnet,applesoftsol,7498,azurerm,https://github.com/applesoftsol/terraform-azure
 sampathstorage,sampathraja0466,21534,azurerm,https://github.com/sampathraja0466/terraform-azurerm-sampathstorage,
 sample,boss916,14816,azure,https://github.com/boss916/terraform-azure-sample,
 sample-l7-fw,nvibert,9514,nsxt,https://github.com/nvibert/terraform-nsxt-sample-l7-fw,"Module with a sample Terraform configuration for NSX-T Advanced Firewall (IDS/IPS, Context-Aware Filtering and FQDN)."
-sample2024,aakashtayal,24400,aws,https://github.com/aakashtayal/terraform-aws-sample2024,
 sampleProject,ChotelalHans,13655,azurerm,https://github.com/ChotelalHans/terraform-azurerm-sampleProject,
 sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry-sampleec2,
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
@@ -14667,6 +14672,7 @@ tfc-workload-identity,SPHTech-Platform,15342,aws,https://github.com/SPHTech-Plat
 tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-Platform/terraform-google-tfc-workload-identity,
 tfc-workload-identity,SPHTech-Platform,15674,vault,https://github.com/SPHTech-Platform/terraform-vault-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
+tfcloud-oidc-iam,naftulikay,24427,aws,https://github.com/naftulikay/terraform-aws-tfcloud-oidc-iam,A Terraform module for AWS which sets up an IAM OpenID Connect Provider for Terraform Cloud.
 tfe,pogosoftware,23428,tfe,https://github.com/pogosoftware/terraform-tfe-tfe,This is terraform module that will have helpful modules to provision reousrces in Terraform Cloud
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
 tfe-management,mikesupertrampster-corp,12447,module,https://github.com/mikesupertrampster-corp/terraform-module-tfe-management,Maintained by Terraform
@@ -15383,6 +15389,7 @@ vpc,Cherticha,12624,aws,https://github.com/Cherticha/terraform-aws-vpc,
 vpc,Cholpon83,12619,aws,https://github.com/cholpon83/terraform-aws-vpc,
 vpc,Cloud-42,3418,aws,https://github.com/Cloud-42/terraform-aws-vpc,Creates a multi-az VPC.
 vpc,Codzs-Architecture,23246,aws,https://github.com/Codzs-Architecture/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
+vpc,Devoper777,24420,aws,https://github.com/Devoper777/terraform-aws-vpc,
 vpc,EHolovan,9477,aws,https://github.com/EHolovan/terraform-aws-vpc,
 vpc,EdwardNgo,20131,aws,https://github.com/EdwardNgo/terraform-aws-vpc,
 vpc,Ekowambre,23539,aws,https://github.com/Ekowambre/terraform-aws-vpc,
@@ -15414,6 +15421,7 @@ vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
 vpc,Mpdev007,12629,aws,https://github.com/Mpdev007/terraform-aws-vpc,
 vpc,MrVF7777,12612,aws,https://github.com/MrVF7777/terraform-aws-vpc,
 vpc,Myeongseok-Kim,12559,ncloud,https://github.com/Myeongseok-Kim/terraform-ncloud-vpc,
+vpc,NODAR6,24419,aws,https://github.com/NODAR6/terraform-aws-vpc,
 vpc,Natallia-A,7765,aws,https://github.com/Natallia-A/terraform-aws-vpc,
 vpc,NazymSmagulova,12616,aws,https://github.com/NazymSmagulova/terraform-aws-vpc,
 vpc,Neelaveni0620,19834,module,https://github.com/Neelaveni0620/terraform-module-vpc,
@@ -15544,6 +15552,7 @@ vpc,farrukh90,4867,aws,https://github.com/farrukh90/terraform-aws-vpc,
 vpc,fatmacamalan,9396,aws,https://github.com/fatmacamalan/terraform-aws-vpc,
 vpc,finisterra-io,23579,aws,https://github.com/finisterra-io/terraform-aws-vpc,Terraform AWS VPC module
 vpc,foss-cafe,5648,aws,https://github.com/ionicloud/terraform-aws-vpc,AWS terraform module for VPC
+vpc,freyac777,24418,aws,https://github.com/freyac777/terraform-aws-vpc,
 vpc,fstuck37,2698,aws,https://github.com/fstuck37/terraform-aws-vpc,Used to build a standard AWS VPC.
 vpc,gadgetry-io,9983,aws,https://github.com/gadgetry-io/terraform-aws-vpc,Terraform AWS VPC Module
 vpc,gentledev10,7949,aws,https://github.com/gentledev10/terraform-aws-vpc,Terraform AWS VPC module
@@ -15648,6 +15657,7 @@ vpc,oozou,15130,aws,https://github.com/oozou/terraform-aws-vpc,Terraform compone
 vpc,openmulticloud,19042,aws,https://github.com/openmulticloud/terraform-aws-vpc,
 vpc,opslivia,15656,aws,https://github.com/opslivia/terraform-aws-vpc-test-copy,Test copy of Terraform module which creates VPC resources on AWS 
 vpc,ortacu,6707,aws,https://github.com/ortacu/terraform-aws-vpc,
+vpc,pauldchang,24417,aws,https://github.com/pauldchang/terraform-aws-vpc,
 vpc,philips-software,1218,aws,https://github.com/philips-software/terraform-aws-vpc,"Terraform module to create an AWS VPC (public, or public and private)"
 vpc,pocoq,14312,aws,https://github.com/pocoq/terraform-aws-vpc,
 vpc,polganesh,3747,aws,https://github.com/polganesh/terraform-aws-vpc,Repository for provisioning AWS VPC with Terraform
@@ -15698,6 +15708,7 @@ vpc,stoktobekova,7762,aws,https://github.com/stoktobekova/terraform-aws-vpc,
 vpc,swapnamareddy,5156,aws,https://github.com/swapnamareddy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,tangerkulov,9541,aws,https://github.com/beibars96/terraform-aws-vpc,
 vpc,tarak,2666,opentelekomcloud,https://github.com/tarak/terraform-opentelekomcloud-vpc,Terraform module which creates VPC resources on Open Telekom Cloud (OTC)
+vpc,techtorialdevops,24431,aws,https://github.com/techtorialdevops/terraform-aws-vpc,
 vpc,telia-oss,1161,aws,https://github.com/telia-oss/terraform-aws-vpc,VPC module for Terraform
 vpc,terra-mod,6580,aws,https://github.com/terra-mod/terraform-aws-vpc,Provisions a VPC in AWS
 vpc,terra4aws64,12150,aws,https://github.com/terra4aws64/terraform-aws-vpc,Terraform module for creating AWS VPCs
@@ -16392,6 +16403,7 @@ wp_do,Resnak1499,24102,digitalocean,https://github.com/Resnak1499/terraform-digi
 wp_do,diegosanchomagalhaes,21409,digitalocean,https://github.com/diegosanchomagalhaes/terraform-digitalocean-wp_do,
 wp_do,fabricioveronez,18316,digitalocean,https://github.com/fabricioveronez/terraform-digitalocean-wp_do,
 wp_do,fernandokoj3,20857,digitalocean,https://github.com/fernandokoj3/terraform-digitalocean-wp_do,Terraform studies and handlers modules
+wp_do,lauromazzoni,24421,aws,https://github.com/lauromazzoni/terraform-aws-wp_do,
 wp_do,marcelomess,21234,digitalocean,https://github.com/marcelomess/terraform-digitalocean-wp_do,
 wp_do,matheussiqq,18924,digitalocean,https://github.com/matheussiqq/terraform-digitalocean-wp_do,
 ws-lb,mcjara,23708,aws,https://github.com/mcjara/terraform-aws-ws-lb,This project holds the code to generate a Terraform Module which intents to wrap creating load balancers required for a public web service
