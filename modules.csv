@@ -1534,12 +1534,15 @@ avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-az
 avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,AVM Terraform Pattern Module for ALZ Management.
 avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,Azure Virtual Desktop Insights
+avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,This Terraform module is designed to manage Azure Cognitive Services. It provides a comprehensive set of variables and resources to configure and deploy Cognitive Services in Azure.
+avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
+avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
@@ -2200,6 +2203,7 @@ budgets,appvia,23624,aws,https://github.com/appvia/terraform-aws-budgets,Contain
 budgets,cloudposse,11689,aws,https://github.com/cloudposse/terraform-aws-budgets,Terraform module to manage AWS Budgets.
 budgets,devops-workflow,1106,aws,https://github.com/devops-workflow/terraform-aws-budgets,Terraform module for configuring AWS budgets
 budgets,geekcell,19724,aws,https://github.com/geekcell/terraform-aws-budgets,Terraform module to provision an AWS Budgets.
+budgets,instantstack,24460,aws,https://github.com/instantstack/terraform-aws-budgets,Terraform module for budgets alerts management
 budgets-alerts,sculley,7340,aws,https://github.com/sculley/terraform-aws-budgets-alerts,Terraform module which deploys AWS Budgets alerts to your AWS account
 budgets-with-notify-lambda-vpc-params,boris-dyga-SM,22488,aws,https://github.com/boris-dyga-SM/terraform-aws-budgets-with-notify-lambda-vpc-params,Terraform module to manage AWS Budgets with the VPC params of the notifying Lambda.
 build,telekom-mms,20276,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-build,A Terraform module that manages the build resources from the azuredevops provider.
@@ -6949,7 +6953,6 @@ gitlab-runner,digio,3412,google,https://github.com/digio/terraform-google-gitlab
 gitlab-runner,jand0manski,18613,aws,https://github.com/jand0manski/terraform-aws-gitlab-runner,Terraform module for AWS GitLab runners on ec2 (spot) instances
 gitlab-runner,kasna-cloud,15344,google,https://github.com/kasna-cloud/terraform-google-gitlab-runner,Automatically build and register a Gitlab runner to your Gitlab instance.
 gitlab-runner,mantel-digio,3044,google,https://github.com/digio/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
-gitlab-runner,npalm,622,aws,https://github.com/cattle-ops/terraform-aws-gitlab-runner,Terraform module for AWS GitLab runners on ec2 (spot) instances
 gitlab-runner,pyranja,11437,aws,https://github.com/pyranja/terraform-aws-gitlab-runner,Deploy gitlab runner on AWS EC2
 gitlab-runner-autoscaler,nesty92,23943,aws,https://github.com/nesty92/terraform-aws-gitlab-runner-autoscaler,Terraform module to create GitLab Runner Autoscaler on AWS Spot Instances
 gitlab-runner-scale,cmdlabs,16560,aws,https://github.com/cmdlabs/terraform-aws-gitlab-runner-scale,Gitlab runners created via Lambda check
@@ -7341,6 +7344,7 @@ hybridcontainerservice,Azure,19387,azapi,https://github.com/Azure/terraform-azap
 iam,BorisLabs,8011,aws,https://github.com/BorisLabs/terraform-aws-iam,Terraform module to manage IAM permissions.
 iam,Noonchak,18106,scaleway,https://github.com/Noonchak/terraform-scaleway-iam,
 iam,OT-CLOUD-KIT,14702,gcp,https://github.com/OT-CLOUD-KIT/terraform-gcp-iam,
+iam,PCDEV-Cloud,24453,google,https://github.com/PCDEV-Cloud/terraform-google-iam,
 iam,Selleo,11479,aws,https://github.com/Selleo/terraform-aws-iam,Terraform IAM policies for common tasks
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,clouddrove,18542,aws,https://github.com/clouddrove/terraform-aws-iam,Terraform module which creates IAM resources on AWS
@@ -9956,6 +9960,7 @@ mystorage,aamirkadri2605,11433,aws,https://github.com/aamirkadri2605/terraform-a
 mystorage,accngit,13212,azure,https://github.com/accngit/terraform-azure-mystorage,
 mystorage,akhlesh-jain,20901,azure,https://github.com/akhlesh-jain/terraform-azure-mystorage,Training repository
 mystorage,akilagithub,9506,azure,https://github.com/akilagithub/terraform-azure-mystorage,
+mystorage,birendrapaul,24457,azure,https://github.com/birendrapaul/terraform-azure-mystorage,
 mystorage,deepaannie466,19735,azure,https://github.com/deepaannie466/terraform-azure-mystorage,
 mystorage,dpkkumar1,9509,azure,https://github.com/dpkkumar1/terraform-azure-mystorage,
 mystorage,irfana7788,13657,azure,https://github.com/irfana7788/terraform-azure-mystorage,
@@ -9982,6 +9987,7 @@ mystorage,vijaypandey2019,17115,azure,https://github.com/vijaypandey2019/terrafo
 mystorage,vishallodha84,15260,azure,https://github.com/vishallodha84/terraform-azure-mystorage,
 mystorage1,DaminiShende,21539,azurerm,https://github.com/DaminiShende/terraform-azurerm-mystorage1,
 mystorage1,acepathak,17102,azure,https://github.com/acepathak/terraform-azure-mystorage1,
+mystorage1,arjunmenaria,24456,azure,https://github.com/arjunmenaria/terraform-azure-mystorage1,
 mystorage1,biswajeetmalla,19641,Azure,https://github.com/biswajeetmalla/terraform-Azure-mystorage1,
 mystorage1,sindhu23-demo,19726,azure,https://github.com/sindhu23-demo/terraform-azure-mystorage1,
 mystorage_Sayooj,sayooj4u,22627,azure,https://github.com/sayooj4u/terraform-azure-mystorage_Sayooj,This is terraform module
@@ -14691,6 +14697,8 @@ tfe-management,mikesupertrampster-corp,12447,module,https://github.com/mikesuper
 tfe-workspace,nephosolutions,16876,google,https://github.com/nephosolutions/terraform-google-tfe-workspace,Terraform Cloud workspace for deployments into Google Cloud projects
 tfe-workspace-sa,nephosolutions,16868,google,https://github.com/nephosolutions/terraform-google-tfe-workspace-sa,Google service accounts for Terraform Cloud workspaces
 tfe2,pogosoftware,23429,tfe,https://github.com/pogosoftware/terraform-tfe-tfe2,This is terraform module that will have helpful modules to provision reousrces in Terraform Cloud
+tfe_project,PCDEV-Cloud,24454,tfe,https://github.com/PCDEV-Cloud/terraform-tfe-tfe_project,
+tfe_workspace,PCDEV-Cloud,24455,tfe,https://github.com/PCDEV-Cloud/terraform-tfe-tfe_workspace,
 tfmodule,nashub2012,22607,aws,https://github.com/nashub2012/terraform-aws-tfmodule,
 tfnext,Athena-Tech-Services,15067,aws,https://github.com/Athena-Tech-Services/terraform-aws-tfnext,TF Next module that abstracts away the deployment for nextjs applications
 tfs3backend,Athena-Tech-Services,14194,aws,https://github.com/Athena-Tech-Services/terraform-aws-tfs3backend,The repo for terraform s3 backend
@@ -15689,6 +15697,7 @@ vpc,rayslan,8854,aws,https://github.com/rayslan/terraform-aws-vpc,"This module c
 vpc,robertdebock,7665,digitalocean,https://github.com/robertdebock/terraform-digitalocean-vpc,
 vpc,romagtgt,9371,aws,https://github.com/romagtgt/terraform-aws-vpc,
 vpc,ronithanand,8954,aws,https://github.com/ronithanand/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,rshabralieva2024,24461,aws,https://github.com/rshabralieva2024/terraform-aws-vpc,
 vpc,rstmvaaz,24151,aws,https://github.com/rstmvaaz/terraform-aws-vpc,
 vpc,ryanchun91,12626,aws,https://github.com/ryanchun91/terraform-aws-vpc,
 vpc,ryanef,23408,aws,https://github.com/ryanef/terraform-aws-vpc,aws vpc
