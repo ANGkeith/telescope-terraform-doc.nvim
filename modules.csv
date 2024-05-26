@@ -1552,6 +1552,7 @@ avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azure
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
+avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,AVM Terraform Module for Azure CDN Profiles
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,This Terraform module is designed to manage Azure Cognitive Services. It provides a comprehensive set of variables and resources to configure and deploy Cognitive Services in Azure.
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
@@ -6753,6 +6754,7 @@ fully-loaded-eks-cluster,bootlabstech,16017,aws,https://github.com/bootlabstech/
 fun,fun-stack,11205,aws,https://github.com/fun-stack/terraform-aws-fun,Terraform module to provision AWS infrastructure for fun-stack
 func,CloudNationHQ,24514,azure,https://github.com/CloudNationHQ/terraform-azure-func,Terraform module which creates function app resources used by workloads and accelerators.
 function,DevSecNinja,17041,azurerm,https://github.com/DevSecNinja/terraform-azurerm-function,Terraform Module to deploy my Azure functions
+function,Shivakumar1702,24681,azurerm,https://github.com/Shivakumar1702/terraform-azurerm-function,
 function,multani,23522,google,https://github.com/multani/terraform-google-function,
 function,teamdatatonic,8751,gcp,https://github.com/teamdatatonic/terraform-gcp-function,
 function,terracharge,14085,aws,https://github.com/terracharge/terraform-aws-function,Module for creating terraform-aws-function with provider aws. This description is created automagically
@@ -9010,6 +9012,7 @@ lb-internal,cypik,24026,google,https://github.com/cypik/terraform-google-lb-inte
 lb-internal,pouya-racker,1411,pouya,https://github.com/pouya-racker/terraform-pouya-lb-internal,Modular Internal Load Balancer for GCE using forwarding rules.
 lb-internal,terraform-google-modules,18683,google,https://github.com/terraform-google-modules/terraform-google-lb-internal,Creates an internal load balancer for Compute Engine by using forwarding rules
 lb-linker,pbar1,1796,aws,https://github.com/pbar1/terraform-aws-lb-linker,Terraform module which assigns static IP addresses to an ALB
+lb-listener,SoleksDataGroup,24678,aws,https://github.com/SoleksDataGroup/terraform-aws-lb-listener,
 lb-listener,mineiros-io,11351,aws,https://github.com/mineiros-io/terraform-aws-lb-listener,A Terraform module to manage an Elastic Load Balancing (ELB) Listener on Amazon Web Services (AWS). https://aws.amazon.com/elasticloadbalancing
 lb-masters,dcos-terraform,1649,azurerm,https://github.com/dcos-terraform/terraform-azurerm-lb-masters,This module create a load balancer to access the masters externally.
 lb-masters,dcos-terraform,1832,aws,https://github.com/dcos-terraform/terraform-aws-lb-masters,AWS LB Masters
@@ -10208,6 +10211,7 @@ nats,orange-cloudavenue,22011,cloudavenue,https://github.com/orange-cloudavenue/
 nats,yky-labs,17362,kubernetes,https://github.com/yky-labs/terraform-kubernetes-nats,Terraform module to install NATS.
 naushin,naushin162,18905,aws,https://github.com/naushin162/terraform-aws-naushin,
 naveens3bucket,kumarn5,13641,aws,https://github.com/kumarn5/terraform-aws-naveens3bucket,
+ncc,data-platform-hq,24685,databricks,https://github.com/data-platform-hq/terraform-databricks-ncc,Terraform module for management of Azure Databricks Network Connectivity Configs
 ndfc-fabric,rjohnston6,22164,dcnm,https://github.com/rjohnston6/terraform-dcnm-ndfc-fabric,Terraform Module for NDFC Fabric Creation and Management
 nemo-eks-cluster,kaonmir,13966,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster,
 nemo-eks-cluster-autoscale,kaonmir,13965,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster-autoscale,
@@ -10754,6 +10758,7 @@ opensearch-domain,data-platform-hq,19359,aws,https://github.com/data-platform-hq
 opensearch-domain,dod-iac,15417,aws,https://github.com/dod-iac/terraform-aws-opensearch-domain,An Amazon OpenSearch Service domain 
 opensearch-kms-key,dod-iac,15416,aws,https://github.com/dod-iac/terraform-aws-opensearch-kms-key,A KMS key for use with Amazon OpenSearch Service
 opensearch-serverless,fdmsantos,23812,aws,https://github.com/fdmsantos/terraform-aws-opensearch-serverless,"Dynamic Terraform module, which creates a Opensearch Serverless Collection and all related Resources"
+opensearch-wick,zhulei-pacvue,24676,aws,https://github.com/zhulei-pacvue/terraform-aws-opensearch-wick,
 openshift,DTherHtun,5766,vsphere,https://github.com/dtherhtun/terraform-vsphere-openshift,Create VM for Openshift in vsphere
 openshift,bcgov,13150,deployer,https://github.com/bcgov/terraform-deployer-openshift,
 openshift,literalice,842,aws,https://github.com/literalice/terraform-aws-openshift,Creates OpenShift Container Platform(OCP) or OKD cluster
@@ -10927,6 +10932,7 @@ packer,selfscrum,14734,opentelekomcloud,https://github.com/selfscrum/terraform-o
 packer-cleanup,claranet,1323,aws,https://github.com/claranet/terraform-aws-packer-cleanup,Terraform module to clean up Packer AWS resources
 packet-filter,sacloud,960,sakuracloud,https://github.com/sacloud/terraform-sakuracloud-packet-filter,Terraform module for provisioning packet-filter
 pact-broker,akadircakil,7284,kubernetes,https://github.com/akadircakil/terraform-kubernetes-pact-broker,Pack Broker Terraform Module For Kubernetes
+pacvue-wick,zhulei-pacvue,24679,opensearch,https://github.com/zhulei-pacvue/terraform-opensearch-pacvue-wick,
 page-rule,blackbird-cloud,16629,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-page-rule,Terraform module for CloudFlare page rule
 page-rules,Flaconi,24076,cloudflare,https://github.com/Flaconi/terraform-cloudflare-page-rules,This module will create Cloudflare Page Rules
 pageload,elisemercury,8554,thousandeyes,https://github.com/elisemercury/terraform-thousandeyes-pageload,Module that allows for page load testing with ThousandEyes through the Terraform platform.
@@ -12422,6 +12428,7 @@ rubrik-cloud-cluster-elastic-storage,rubrikinc,21681,azure,https://github.com/ru
 rubrik-cloud-cluster-es,lee-vincent,13606,aws,https://github.com/lee-vincent/terraform-aws-rubrik-cloud-cluster-es,Terraform module to deploy a new Rubrik Cloud Cluster ES in AWS
 rubrik-cloudon,rubrikinc,2357,aws,https://github.com/rubrikinc/terraform-aws-rubrik-cloudon,Terraform module to configure a new Rubrik CloudOn deployment in AWS
 rubrik-s3-cloudout,rubrikinc,2313,aws,https://github.com/rubrikinc/terraform-aws-rubrik-s3-cloudout,Terraform module that configures an AWS as an S3 archive target and adds that target to the Rubrik cluster.
+ruleset,bibek469,24684,cloudflare,https://github.com/bibek469/terraform-cloudflare-ruleset,Terraform Modules for provisioning CloudFlare Ruleset
 rulesets,Flaconi,24082,cloudflare,https://github.com/Flaconi/terraform-cloudflare-rulesets,This module will create Cloudflare Rulesets
 run,claranet,17523,azurerm,https://github.com/claranet/terraform-azurerm-run,Terraform module composition (feature) to setup Claranet MSP Azure tools
 run-common,claranet,3272,azurerm,https://github.com/claranet/terraform-azurerm-run-common,Terraform module composition (feature) to setup Claranet MSP Azure common tools
@@ -14008,6 +14015,7 @@ stackdriver-module,DrFaust92,8492,grafana,https://github.com/DrFaust92/terraform
 stackdriver-uptime,DNXLabs,5754,google,https://github.com/DNXLabs/terraform-google-stackdriver-uptime,
 stacks,alex067,17004,spacelift,https://github.com/alex067/terraform-spacelift-stacks,Terraform module which helps manage and create Spacelift Stacks 🚀
 stacks,rmalenko,20749,vultr,https://github.com/rmalenko/terraform-vultr-stacks,"Provisioning on Vultr several servers in one zone, including ansible tasks."
+stackset,appvia,24683,aws,https://github.com/appvia/terraform-aws-stackset,Terraform module used to wrap the deployment of a stackset
 stackx-cluster,ventx,15272,aws,https://github.com/ventx/terraform-aws-stackx-cluster,stackx - Terraform - AWS - Cluster
 stackx-network,ventx,15271,aws,https://github.com/ventx/terraform-aws-stackx-network,stackx - Terraform - AWS - Network
 stackx-network,ventx,21660,azurerm,https://github.com/ventx/terraform-azurerm-stackx-network,stackx - Terraform - Azure - Network
@@ -14627,6 +14635,7 @@ tardigrade-vpc-endpoints,plus3it,2989,aws,https://github.com/plus3it/terraform-a
 tardigrade-vpc-flow-log,plus3it,2986,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-flow-log,Terraform module to create a VPC Flow Log
 tardigrade-vpn-connection,plus3it,3004,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpn-connection,Terraform module to create a VPN Connection
 target,snowplow-devops,12576,snowflake,https://github.com/snowplow-devops/terraform-snowflake-target,
+target-group,SoleksDataGroup,24677,aws,https://github.com/SoleksDataGroup/terraform-aws-target-group,
 target-group,terraform-ncloud-modules,15856,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-target-group,
 target-group,tomarv2,12337,aws,https://github.com/tomarv2/terraform-aws-target-group,Terraform module for AWS Target Group
 target-group-alarms,egarbi,643,aws,https://github.com/egarbi/terraform-aws-target-group-alarms,This will add basic alarms for ecs services
@@ -15243,6 +15252,7 @@ virtual-machine,kumarvna,5443,azurerm,https://github.com/kumarvna/terraform-azur
 virtual-machine,miljodir,22045,azurerm,https://github.com/miljodir/terraform-azurerm-virtual-machine,Creates a virtual machine and connects it to a vnet.
 virtual-machine,philipdvo,12812,azure,https://github.com/philipdvo/terraform-azure-virtual-machine,
 virtual-machine,sagar2395,12775,azurerm,https://github.com/sagar2395/terraform-azurerm-virtual-machine,Terraform module to deploy single or multiple Virtual Machines of Linux or Windows with optional features.
+virtual-machine,terraform-magalu-cloud,24686,mgc,https://github.com/terraform-magalu-cloud/terraform-mgc-virtual-machine,Create Virtual Machine in Magalu Cloud
 virtual-machine,vancluever,1193,vsphere,https://github.com/vancluever/terraform-vsphere-virtual-machine,Universal module for deploying vSphere virtual machines with Terraform
 virtual-machine,yashhirulkar701,15479,azure,https://github.com/yashhirulkar701/terraform-azure-virtual-machine,
 virtual-machine-Windows10Pro,Muzammil-Naik,20889,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-virtual-machine-Windows10Pro,
@@ -15722,6 +15732,7 @@ vpc,headout,21916,aws,https://github.com/headout/terraform-aws-vpc,Terraform mod
 vpc,hhmmll,5684,aws,https://github.com/hhmmll/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,highgarden-io,12596,aws,https://github.com/highgarden-io/terraform-aws-vpc,Highgarden VPC Root Module
 vpc,hoalongnatsu,12096,aws,https://github.com/hoalongnatsu/terraform-aws-vpc,
+vpc,huanboss,24682,aws,https://github.com/huanboss/terraform-aws-vpc,
 vpc,hugovallada,18437,aws,https://github.com/hugovallada/terraform-aws-vpc,
 vpc,husneozmen,7741,aws,https://github.com/h-ozmen/terraform-aws-vpc,
 vpc,iasadova,9383,aws,https://github.com/iasadova/terraform-aws-vpc,
