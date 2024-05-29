@@ -1038,6 +1038,7 @@ aqua-cspm,SPHTech-Platform,17835,aws,https://github.com/SPHTech-Platform/terrafo
 aradhana-storage,shivaarusoni678,12318,azure,https://github.com/shivaarusoni678/terraform-azure-aradhana-storage,
 aravindhs3bucket,aravindh1307,18381,aws,https://github.com/aravindh1307/terraform-aws-aravindhs3bucket,
 arc-backstage-ecs-app,sourcefuse,21336,aws,https://github.com/sourcefuse/terraform-aws-arc-backstage-ecs-app,
+arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-backup,
 arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,
 arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Repo for managing the Bootstrap (DynamoDB + S3) Terraform Module..
 arc-cloud-custodian,sourcefuse,21263,aws,https://github.com/sourcefuse/terraform-aws-arc-cloud-custodian,
@@ -1058,6 +1059,7 @@ arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
+arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,Arc Synthetic monitoring i.e canaries 
 arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Repo for managing the ARC Tags Terraform Module.
 arc-vpn,sourcefuse,21309,aws,https://github.com/sourcefuse/terraform-aws-arc-vpn,Terraform module for managing VPN configuration
 arc-waf,sourcefuse,21310,aws,https://github.com/sourcefuse/terraform-aws-arc-waf,Terraform module for supporting WAF configuration
@@ -1431,6 +1433,7 @@ audit,rockset,10973,aws,https://github.com/rockset/terraform-aws-audit,
 audit-buckets,DNXLabs,5718,aws,https://github.com/DNXLabs/terraform-aws-audit-buckets,This terraform module creates buckets to save audit logs from accounts in the organization.
 audit-config,bootlabstech,20582,google,https://github.com/bootlabstech/terraform-google-audit-config,Creates audit config for a GCP project.
 audit-log,lacework,6439,gcp,https://github.com/lacework/terraform-gcp-audit-log,Terraform module for configuring an integration with Google Cloud Platform Organziations and Projects for Audit Logs analysis
+audit-log-bucket,common-fate,24697,aws,https://github.com/common-fate/terraform-aws-audit-log-bucket,A Terraform module to provision resources for the S3 log destination
 audit-member,DNXLabs,5719,aws,https://github.com/DNXLabs/terraform-aws-audit-member,This terraform module enables guardduty for a member account.
 audit-root,DNXLabs,5720,aws,https://github.com/DNXLabs/terraform-aws-audit-root,This terraform module is an audit module to apply into root account (master).
 aurora,104corp,2422,aws,https://github.com/104corp/terraform-aws-aurora,
@@ -1581,7 +1584,7 @@ avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terr
 avm-res-network-networksecuritygroup,Azure,23301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networksecuritygroup,AVM Terraform Module for Network Security Group
 avm-res-network-privatednszone,Azure,23274,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone,Terraform AVM module for Private DNS zones
 avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Repository for 'Public IP address' AVM module
-avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,
+avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Azure Verified Module for Virtual Network
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
@@ -3132,6 +3135,7 @@ codebuild-webdeploy-package,GenesisFunction,3039,aws,https://github.com/StratusG
 codecommit,JamesWoolfenden,2014,aws,https://github.com/JamesWoolfenden/terraform-aws-codecommit,"Contains the module, permissions and sample code to create a feature branching enabled repo."
 codecommit,lgallard,4968,aws,https://github.com/lgallard/terraform-aws-codecommit,Terraform module to create AWS CodeCommit repositories. AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories.
 codecommit,tim0git,12155,aws,https://github.com/tim0git/terraform-aws-codecommit,Terraform module which creates CodeCommit resources
+codecommit,tokarev-artem,24705,aws,https://github.com/tokarev-artem/terraform-aws-codecommit,
 codecommit-cicd,slalompdx,1021,aws,https://github.com/slalompdx/terraform-aws-codecommit-cicd,Terraform module that stands up a new AWS CodeCommit repository integrated with AWS CodePipeline and CodeBuild for a end to end CI/CD pipeline in AWS.
 codecommit-flow-ci,plus3it,1201,aws,https://github.com/plus3it/terraform-aws-codecommit-flow-ci,Implement an event-based CI workflow on a CodeCommit repository
 codecommit-repository,figurate,5042,aws,https://github.com/figurate/terraform-aws-codecommit,Provision and mirror Git repositories in CodeCommit
@@ -5146,6 +5150,7 @@ ec2-loadbalancer,ptonini,16737,aws,https://github.com/ptonini/terraform-aws-ec2-
 ec2-loadbalancer-listener,ptonini,16738,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-listener,
 ec2-loadbalancer-redirector,ptonini,22018,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-redirector,
 ec2-loadbalancer-target-group,ptonini,16739,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-target-group,
+ec2-masood,masoodmls,24707,aws,https://github.com/masoodmls/terraform-aws-ec2-masood,
 ec2-module-bgunawan,gunawanbambang,14032,aws,https://github.com/gunawanbambang/terraform-aws-ec2-module-bgunawan,
 ec2-multi-nics-disks,pyjoepy06,9247,aws,https://github.com/pyjoepy06/terraform-aws-ec2-multi-nics-disks,Deploy EC2 Servers with Multi-Disk and/or Multi-NICs
 ec2-nat,hazelops,9982,aws,https://github.com/hazelops/terraform-aws-ec2-nat,Terraform EC2 NAT Host Module
@@ -7151,7 +7156,6 @@ grafana,equinor,23387,azurerm,https://github.com/equinor/terraform-azurerm-grafa
 grafana,mateothegreat,16653,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-grafana,Grafana on kubernetes via Terraform.
 grafana,philips-labs,6059,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-grafana,Terraform module to deploy a Grafana instance to Cloud foundry
 grafana,rickardl,8948,aws,https://github.com/rickardl/terraform-aws-grafana,
-grafana,smbek,24582,prometheus,https://github.com/smbek/terraform-prometheus-grafana,
 grafana,telia-oss,1414,aws,https://github.com/telia-oss/terraform-aws-grafana,Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
 grafana,tf-cloud-modules,15743,aiven,https://github.com/tf-cloud-modules/terraform-aiven-grafana,Aiven Grafana Terraform module
 grafana-agent,scarf-sh,9061,kubernetes,https://github.com/scarf-sh/terraform-kubernetes-grafana-agent,"Deploy grafana agent in Kubernetes, using Terraform"
@@ -9129,6 +9133,7 @@ load-balanced-ecs-service,mergermarket,3704,acuris,https://github.com/mergermark
 load-balanced-ecs-service-no-target-group,mergermarket,14255,acuris,https://github.com/mergermarket/terraform-acuris-load-balanced-ecs-service-no-target-group,sub module to create ECS service in various configurations
 load-balanced-vms,GoogleCloudPlatform,15074,google,https://github.com/GoogleCloudPlatform/terraform-google-load-balanced-vms,Creates a Managed Instance Group with a loadbalancer
 load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP
+load-balancer,aflalahmad,24700,azurerm,https://github.com/aflalahmad/terraform-azurerm-load-balancer,
 load-balancer,axetrading,16575,aws,https://github.com/axetrading/terraform-aws-load-balancer,
 load-balancer,bayudwiyansatria,11174,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-load-balancer,Provisioning Hetzner Cloud Load Balancer
 load-balancer,clouddrove,17506,azure,https://github.com/clouddrove/terraform-azure-load-balancer,
@@ -10092,6 +10097,7 @@ named-subnets,cloudposse,515,aws,https://github.com/cloudposse/terraform-aws-nam
 namer,cawcaw253,22082,aws,https://github.com/cawcaw253/terraform-aws-namer,Terraform module which creates name format for AWS resources
 namespace,2catsandkate,21963,kubernetes,https://github.com/2catsandkate/terraform-kubernetes-namespace,
 namespace,2catsandkate,22909,k8s,https://github.com/2catsandkate/terraform-k8s-namespace,
+namespace,Adnan-IT,24709,kubernetes,https://github.com/Adnan-IT/terraform-kubernetes-namespace,
 namespace,AdnanGrifat,23981,kubernetes,https://github.com/AdnanGrifat/terraform-kubernetes-namespace,
 namespace,Aizhamal23,21972,kubernetes,https://github.com/Aizhamal23/terraform-kubernetes-namespace,
 namespace,AnastasiaZinych,23933,kubernetes,https://github.com/AnastasiaZinych/terraform-kubernetes-namespace,
@@ -10573,6 +10579,7 @@ notifications,Projects-tm,24147,google,https://github.com/Projects-tm/terraform-
 notifications,appvia,24240,aws,https://github.com/appvia/terraform-aws-notifications,Module used to forward events from an sns source to one or more destinatsions
 notifications,machadovilaca,8223,aws,https://github.com/machadovilaca/terraform-aws-notifications,Terraform AWS module to create a Lambda function that sends notifications to Slack and/or S3 bucket from subscribed SNS topics and/or Cloudwatch log groups
 notify-slack,anonfriese,24213,aws,https://github.com/anonfriese/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
+notify-slack,hazmei,24701,aws,https://github.com/hazmei/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack,itsyndicate,13656,aws,https://github.com/itsyndicate/terraform-aws-notify-slack,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack 🇺🇦
 notify-slack,terraform-aws-modules,805,aws,https://github.com/terraform-aws-modules/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack-kms,dod-iac,9039,aws,https://github.com/dod-iac/terraform-aws-notify-slack-kms,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack with KMS keys pre-configured
@@ -11429,6 +11436,7 @@ publiccloud-etcd,ovh,835,ovh,https://github.com/ovh/terraform-ovh-publiccloud-et
 publiccloud-network,ovh,569,ovh,https://github.com/ovh/terraform-ovh-publiccloud-network,
 publiccloud-network,rienafairefr,6435,ovh,https://github.com/rienafairefr/terraform-ovh-publiccloud-network,
 publiccloud-spark,ovh,570,ovh,https://github.com/ovh/terraform-ovh-publiccloud-spark,
+publicip,aflalahmad,24696,azurerm,https://github.com/aflalahmad/terraform-azurerm-publicip,
 publicip,dodevops,10539,azure,https://github.com/dodevops/terraform-azure-publicip,Highly opinionaged management of public IP in Azure
 publii-hosting,chris-qa-org,13611,aws,https://github.com/chris-qa-org/terraform-aws-publii-hosting,Terraform module to host a static site generated by Publii
 publish,cybojenix,3789,testing,https://github.com/antdking/terraform-testing-publish,"repo for testing publishing, diagnosing an issue for github api use"
@@ -12995,6 +13003,7 @@ scc,terraform-ibm-modules,22872,ibm,https://github.com/terraform-ibm-modules/ter
 scc-workload-protection,terraform-ibm-modules,21803,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-scc-workload-protection,Module that supports provisioning a Security and Compliance Center Workload Protection instance
 scc-workload-protection-agent,terraform-ibm-modules,22285,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-scc-workload-protection-agent,A module that supports deploying the Security and Compliance Center Workload Protection agent
 scdn,terraform-alicloud-modules,9977,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-scdn,Terraform module which creates SCDN domain and its config on Alibaba Cloud.
+sce-core,aws-ia,24702,aws,https://github.com/aws-ia/terraform-aws-sce-core,
 scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,SCEPman - Certificates Simplified
 scf,terraform-tencentcloud-modules,19050,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-scf,
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
@@ -15826,6 +15835,7 @@ vpc,oozou,15130,aws,https://github.com/oozou/terraform-aws-vpc,Terraform compone
 vpc,openmulticloud,19042,aws,https://github.com/openmulticloud/terraform-aws-vpc,
 vpc,opslivia,15656,aws,https://github.com/opslivia/terraform-aws-vpc-test-copy,Test copy of Terraform module which creates VPC resources on AWS 
 vpc,ortacu,6707,aws,https://github.com/ortacu/terraform-aws-vpc,
+vpc,pashaimran,24699,aws,https://github.com/pashaimran/terraform-aws-vpc,
 vpc,pauldchang,24417,aws,https://github.com/pauldchang/terraform-aws-vpc,
 vpc,philips-software,1218,aws,https://github.com/philips-software/terraform-aws-vpc,"Terraform module to create an AWS VPC (public, or public and private)"
 vpc,pocoq,14312,aws,https://github.com/pocoq/terraform-aws-vpc,
@@ -16086,6 +16096,7 @@ vpc-nat,viceIII,769,aws,https://github.com/viceIII/terraform-aws-vpc-nat,
 vpc-network,cruxstack,20225,aws,https://github.com/cruxstack/terraform-aws-vpc-network,Terraform Module to deploy a VPC network.
 vpc-network,cto-data-infra,16849,google,https://github.com/cto-data-infra/terraform-google-vpc-network,
 vpc-network,devops4me,3108,aws,https://github.com/devops4me/terraform-aws-vpc-network,Intelligently creates a redundant VPC network across availability zones with subnets gateways and routes to house any service eco-system.
+vpc-network,dflook,24708,aws,https://github.com/dflook/terraform-aws-vpc-network,Composable modules for creating AWS VPCs
 vpc-networks,data-platform-hq,17451,google,https://github.com/data-platform-hq/terraform-google-vpc-networks,Terraform module for managing Google Virtual Private Cloud networks
 vpc-new,kamilakebere1078,8148,aws,https://github.com/kamilakebere1078/terraform-aws-vpc-new,
 vpc-october,Aucajor-2016,22603,aws,https://github.com/Aucajor-2016/terraform-aws-vpc-october,
