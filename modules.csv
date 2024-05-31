@@ -2534,6 +2534,7 @@ cis,einyx,3238,aws,https://github.com/einyx/terraform-aws-cis,Terraform module t
 cis,terraform-ibm-modules,9245,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cis,Terraform module to create and work with internet services on IBM Cloud
 cis-cloudwatch-monitors,rhythmictech,5391,aws,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
 cis-landingzone-quickstart,andrecorreaneto,23931,oci,https://github.com/andrecorreaneto/terraform-oci-cis-landingzone-quickstart,Quickstart Terraform configuration for tenancy setup according to CIS OCI Foundations Benchmark.
+cis_cloudwatch_controls,cweiblen,24738,aws,https://github.com/cweiblen/terraform-aws-cis_cloudwatch_controls,CIS CloudWatch Controls Terraform Module
 cisco-ngfw-vpc,itprosource,12927,aws,https://github.com/itprosource/terraform-aws-cisco-ngfw-vpc,Template which builds a secure AWS VPC environment ready for Cisco NGFW vFTD deployment.. 
 cisco8000v,bayupw,15883,equinix,https://github.com/bayupw/terraform-equinix-cisco8000v,Terraform module for deploying Cisco 8000V router in Equinix Fabric
 ciscoasav-vm,gehoumi,11247,google,https://github.com/gehoumi/terraform-google-ciscoasav-vm,Terraform module to deploy Cisco ASAv on GCP
@@ -3307,6 +3308,7 @@ compute-instance-internal,ichundu,2363,google,https://github.com/ichundu/terrafo
 compute-instance-module,elvinlari,16522,gcp,https://github.com/elvinlari/terraform-gcp-compute-instance-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
 compute-instance-public,ichundu,2364,google,https://github.com/ichundu/terraform-google-compute-instance-public,Provision gce instance with external IP address associated
 compute-instance-scheduler,bootlabstech,23253,google,https://github.com/bootlabstech/terraform-google-compute-instance-scheduler,
+compute-instance-singleserver,bootlabstech,24723,google,https://github.com/bootlabstech/terraform-google-compute-instance-singleserver,
 compute-instance-v2,pmikus,23072,openstack,https://github.com/pmikus/terraform-openstack-compute-instance-v2,Terraform module to manage a V2 VM instance resource within OpenStack.
 compute-keypair-v2,pmikus,23071,openstack,https://github.com/pmikus/terraform-openstack-compute-keypair-v2,Terraform module to create V2 keypair resource within OpenStack.
 compute-network,JAYAKUMAR-hub,11001,google,https://github.com/JAYAKUMAR-hub/terraform-google-compute-network,
@@ -3506,6 +3508,7 @@ convention,recarnot,5319,aws,https://github.com/recarnot/terraform-aws-conventio
 conventions,Jsoconno,10650,azure,https://github.com/jsoconno/terraform-azure-conventions,A Terraform module for enforcing standard naming conventions for Azure resources.
 convert-format,hacomono,22774,string,https://github.com/hacomono/terraform-string-convert-format,string型の文字列をcamelcase、snakecaseなどのformatで返すterraform module
 converter,hacomono,14875,time,https://github.com/hacomono/terraform-time-converter,時間とTimezoneを指定して実行すると望んだTimezoneで様々な形式で返す
+cool,Keerthi13122002,24730,azure,https://github.com/Keerthi13122002/terraform-azure-cool,
 coop-policy,netascode,9785,aci,https://github.com/netascode/terraform-aci-coop-policy,Terraform Cisco ACI COOP Policy Module
 copy-ami,ifunky,4169,aws,https://github.com/ifunky/terraform-aws-copy-ami," Copies AMIs from one region to another and optionally applies launch permissions to other accounts"
 copy-bq-datasets,yu-iskw,10299,google,https://github.com/yu-iskw/terraform-google-copy-bq-datasets,A terraform module to copy BigQuery datasets across regions
@@ -6262,6 +6265,7 @@ endpoint-backup,michael-denino,23924,aws,https://github.com/michael-denino/terra
 endpoint-group,netascode,9753,aci,https://github.com/netascode/terraform-aci-endpoint-group,Terraform Cisco ACI Endpoint Group Module
 endpoint-loop-protection,netascode,9801,aci,https://github.com/netascode/terraform-aci-endpoint-loop-protection,Terraform Cisco ACI Endpoint Loop Protection Module
 endpoint-security-group,netascode,10450,aci,https://github.com/netascode/terraform-aci-endpoint-security-group,Terraform Cisco ACI Endpoint Security Group Module
+endpoint-service,shoplineapp,24733,shoplineapp,https://github.com/shoplineapp/terraform-shoplineapp-endpoint-service,The module for creating NLB and endpoint service. Currently only support ALB as Target.
 endpoints-dns,terraform-google-modules,1646,google,https://github.com/terraform-google-modules/terraform-google-endpoints-dns,This module creates a DNS record on the .cloud.goog domain using Cloud Endpoints.
 enforce-mfa,jeromegamez,1027,aws,https://github.com/jeromegamez/terraform-aws-enforce-mfa,A terraform module to enforce MFA for AWS groups and users
 enforce-mfa,terraform-module,5138,aws,https://github.com/terraform-module/terraform-aws-enforce-mfa,:information_source: Enforce MFA policy creation and enforcing on groups.
@@ -9293,6 +9297,7 @@ managed-disk,bootlabstech,15506,azurerm,https://github.com/bootlabstech/terrafor
 managed-disk,ptonini,16756,azurerm,https://github.com/ptonini/terraform-azurerm-managed-disk,
 managed-disk-copy,bootlabstech,18739,azurerm,https://github.com/bootlabstech/terraform-azurerm-managed-disk-copy,
 managed-disk-snapshot,bootlabstech,18591,azurerm,https://github.com/bootlabstech/terraform-azurerm-managed-disk-copy,
+managed-grafana,cloudposse,24740,aws,https://github.com/cloudposse/terraform-aws-managed-grafana,
 managed-grafana,komminarlabs,24034,aws,https://github.com/komminarlabs/terraform-aws-managed-grafana,Terraform module to create and manage Amazon Managed Grafana
 managed-identity,ptonini,21931,azurerm,https://github.com/ptonini/terraform-azurerm-managed-identity,
 managed-instance,stevenfeltner,10088,spotinst,https://github.com/stevenfeltner/terraform-spotinst-managed-instance,Spotinst Provider Module for Managed Instance resource
@@ -9306,6 +9311,7 @@ managed-lustre,pranoybej,21629,azurerm,https://github.com/pranoybej/terraform-az
 managed-policies,yukihira1992,3376,aws,https://github.com/yukihira1992/terraform-aws-managed-policies,A collection of AWS managed policies.
 managed-postgress,OT-terraform-azure-modules,22296,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-managed-postgress,
 managed-prefix-list,ionosphere-io,6501,aws,https://github.com/ionosphere-io/terraform-aws-managed-prefix-list,Manage a prefix list from ip-ranges.json
+managed-prometheus,cloudposse,24739,aws,https://github.com/cloudposse/terraform-aws-managed-prometheus,
 managed-service-grafana,blackbird-cloud,19045,aws,https://github.com/blackbird-cloud/terraform-aws-managed-service-grafana,Terraform module which creates AWS Managed Service for Grafana (AMG) resources 🇺🇦
 managed-service-grafana,clowdhaus,12962,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-grafana,Terraform module to create AWS Managed Service for Grafana (AMG) resources 🇺🇦
 managed-service-grafana,terraform-aws-modules,13112,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-grafana,Terraform module to create AWS Managed Service for Grafana (AMG) resources 🇺🇦
@@ -10036,6 +10042,7 @@ mystorage,Nadeem456,19965,azure,https://github.com/Nadeem456/terraform-azure-mys
 mystorage,Prachi0998,17472,azure,https://github.com/Prachi0998/terraform-azure-mystorage,training
 mystorage,SandhyaBadgujar,18139,azure,https://github.com/SandhyaBadgujar/terraform-azure-mystorage,
 mystorage,Siva20221228,17116,azure,https://github.com/Siva20221228/terraform-azure-mystorage,
+mystorage,Siva5246894,24729,azure,https://github.com/Siva5246894/terraform-azure-mystorage,
 mystorage,aamirkadri2605,11433,aws,https://github.com/aamirkadri2605/terraform-aws-mystorage,
 mystorage,accngit,13212,azure,https://github.com/accngit/terraform-azure-mystorage,
 mystorage,akhlesh-jain,20901,azure,https://github.com/akhlesh-jain/terraform-azure-mystorage,Training repository
@@ -11058,6 +11065,7 @@ playbook,tenvecera,21821,ansible,https://github.com/tenvecera/terraform-ansible-
 playground,jagoodhand,17771,snowflake,https://github.com/GoodhandSolutions/terraform-snowflake-playground,Create a Playground environment within your Snowflake account.
 playground,mackdelany,11596,aws,https://github.com/mackdelany/terraform-aws-playground,
 plex,cezarmathe,8647,docker,https://github.com/cezarmathe/terraform-docker-plex,A Terraform module for deploying the Plex Media Server.
+plex,zahorniak,24724,aws,https://github.com/zahorniak/terraform-aws-plex,Terraform module for Plex server on AWS backed by S3
 plugin,ptonini,16792,vault,https://github.com/ptonini/terraform-vault-plugin,
 poc,terraform-aviatrix-modules,24263,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-poc,Simplified poc deployment
 pod,garbetjie,6189,kubernetes,https://github.com/garbetjie/terraform-kubernetes-pod,
@@ -12815,6 +12823,7 @@ s3backend,akhilp19,17311,aws,https://github.com/akhilp19/terraform-aws-s3backend
 s3backend,alexey-rudenko,15580,aws,https://github.com/alexey-rudenko/terraform-aws-s3backend,
 s3backend,ammarion,7595,aws,https://github.com/ammarion/terraform-aws-s3backend,
 s3backend,antikuz,21386,aws,https://github.com/antikuz/terraform-aws-s3backend,
+s3backend,aoshfan,24736,aws,https://github.com/aoshfan/terraform-aws-s3backend,
 s3backend,arnoldharteveld,6593,aws,https://github.com/arnoldharteveld/terraform-aws-s3backend,
 s3backend,arunstiwari,11965,aws,https://github.com/arunstiwari/terraform-aws-s3backend,Terraform module to support S3 Backend
 s3backend,bugbiteme,6096,aws,https://github.com/bugbiteme/terraform-aws-s3backend,
@@ -13439,6 +13448,7 @@ service-principal,kumarvna,5477,azuread,https://github.com/kumarvna/terraform-az
 service-principal,libre-devops,23350,azuread,https://github.com/libre-devops/terraform-azuread-service-principal,A module used to help deploy a service principal in Azure
 service-principal,ptonini,16753,azuread,https://github.com/ptonini/terraform-azuread-service-principal,
 service-principal,tomarv2,12431,azure,https://github.com/tomarv2/terraform-azure-service-principal,Terraform module for Azure Service Principal
+service-principals,heathen1878,24734,azuread,https://github.com/heathen1878/terraform-azuread-service-principals,Managed Service Principals in AAD
 service-principle,CalvinRodo,1761,azurerm,https://github.com/CalvinRodo/terraform-azurerm-service-principle,A terraform module for creating service principles in azure
 service-project-attach,r-teller,10091,google,https://github.com/r-teller/terraform-google-service-project-attach,
 service-quotas,cloudposse,11675,aws,https://github.com/cloudposse/terraform-aws-service-quotas,Terraform module to manage AWS Service Quotas
@@ -14388,11 +14398,13 @@ storageaccount,Anjumhub,23200,azurerm,https://github.com/Anjumhub/terraform-azur
 storageaccount,BhuvanaPidugu,21538,azure,https://github.com/BhuvanaPidugu/terraform-azure-storageaccount,
 storageaccount,DivyaParthasarathy,24007,azure,https://github.com/DivyaParthasarathy/terraform-azure-storageaccount,
 storageaccount,JamesWoolfenden,7677,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-storageaccount,Basic storageaccount module
+storageaccount,LahariSaiP,24725,azure,https://github.com/LahariSaiP/terraform-azure-storageaccount,
 storageaccount,NeeharikaRN,20559,azure,https://github.com/NeeharikaRN/terraform-azure-storageaccount,
 storageaccount,SangyaSagareeka,19733,azure,https://github.com/SangyaSagareeka/terraform-azure-storageaccount,
 storageaccount,Sekhar531,21536,azure,https://github.com/Sekhar531/terraform-azure-storageaccount,
 storageaccount,SrinivasuluPamulapati,20542,azurerm,https://github.com/SrinivasuluPamulapati/terraform-azurerm-storageaccount,
 storageaccount,Tfarook28,23199,azurerm,https://github.com/Tfarook28/terraform-azurerm-storageaccount,
+storageaccount,Vivienne1Ash,24735,azure,https://github.com/Vivienne1Ash/terraform-azure-storageaccount,
 storageaccount,asajoshi,17252,azurerm,https://github.com/asajoshi/terraform-azurerm-storageaccount,This contains terraform code for creating storage account module with private endpoint
 storageaccount,chaitanyachavan12,24009,azure,https://github.com/chaitanyachavan12/terraform-azure-storageaccount,
 storageaccount,diwa31,21936,azure,https://github.com/diwa31/terraform-azure-storageaccount,Diwa's Storage account
@@ -14608,6 +14620,7 @@ tailscale-subnet-router,hardfinhq,14430,aws,https://github.com/hardfinhq/terrafo
 tailscale-vpn,d7oss,13853,aws,https://github.com/d7oss/terraform-aws-tailscale-vpn,A Terraform module to manage a Tailscale VPN server - why not a bastion too - in your VPC.
 talos,hcloud-talos,23742,hcloud,https://github.com/hcloud-talos/terraform-hcloud-talos,This repository contains a Terraform module for creating a Kubernetes cluster with Talos in the Hetzner Cloud.
 talos,masoudbahar,7287,virtualbox,https://github.com/ossfellow/terraform-virtualbox-talos,Terraform module which creates Talos Kubernetes clusters on VirtualBox
+talos,trinami,24737,hcloud,https://github.com/trinami/terraform-hcloud-talos,This repository contains a Terraform module for creating a Kubernetes cluster with Talos in the Hetzner Cloud.
 talos,tvories,7772,vsphere,https://github.com/tvories/terraform-vsphere-talos,A Terraform module for deploying a Talos cluster on vSphere
 tarakesh,Tarakesh93,17567,aws,https://github.com/Tarakesh93/terraform-aws-tarakesh,
 tardigrade-account-alternate-contacts,plus3it,18306,aws,https://github.com/plus3it/terraform-aws-tardigrade-account-alternate-contacts,
@@ -15041,6 +15054,7 @@ ubuntu-repo-manager,InternalServiceSystem,5503,nexus,https://github.com/Internal
 ubuntu-vm,bayupw,13181,google,https://github.com/bayupw/terraform-google-ubuntu-vm,Terraform module to create ubuntu vm in Google Cloud Platform
 ucs-domain-profiles,terraform-cisco-modules,15682,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-ucs-domain-profiles,Terraform - Intersight > UCS Domain Profile Module
 uday-s3,lakshmilokeshhema,21798,aws,https://github.com/lakshmilokeshhema/terraform-aws-uday-s3,
+umastorage,umarani353,24731,azurerm,https://github.com/umarani353/terraform-azurerm-umastorage,terraform-azurerm-umastorage
 umig-alb,bootlabstech,24218,google,https://github.com/bootlabstech/terraform-google-umig-alb,Application load balancer for unmanaged instance group (Compute instance)
 unarchive,escapace,10807,null,https://github.com/escapace/terraform-null-unarchive,"create & extract archives, compress & decompress files"
 underused-servers,kiwicom,3028,datadog,https://github.com/kiwicom/terraform-datadog-underused-servers,
@@ -15115,10 +15129,12 @@ utils,oozou,14507,aws,https://github.com/oozou/terraform-aws-utils,Terraform Mod
 utils,pingidentity,21062,pingone,https://github.com/pingidentity/terraform-pingone-utils,A Terraform module that provides common utility functions and constant variables when using the PingOne Terraform provider
 utils,r-teller,22648,google,https://github.com/r-teller/terraform-google-utils,Gets the short names for a given Google Cloud region
 utils,terraform-google-modules,4194,google,https://github.com/terraform-google-modules/terraform-google-utils,Gets the short names for a given Google Cloud region
+utkarsh,utkarshk85,24727,azure,https://github.com/utkarshk85/terraform-azure-utkarsh,
 uuid,Invicton-Labs,14197,random,https://github.com/Invicton-Labs/terraform-random-uuid,
 uuid,Kalepa,16854,random,https://github.com/Kalepa/terraform-random-uuid,
 uuid,ryanuber,21417,random,https://github.com/ryanuber/terraform-random-uuid,
 vAPVcloud,arraynetworksinc,19527,ArrayNetworks,https://github.com/arraynetworksinc/terraform-ArrayNetworks-vAPVcloud,
+vaibhavi,vaibhavi-w,24732,Azure,https://github.com/vaibhavi-w/terraform-Azure-vaibhavi,
 valheim,ScottGuymer,8333,azurerm,https://github.com/ScottGuymer/terraform-azurerm-valheim,
 valheim-server,Tzrlk,15854,aws,https://github.com/Tzrlk/terraform-aws-valheim-server,A terraform module that sets up a Valheim dedicated server in ECS and S3.
 validate-list-item,plus3it,3005,null,https://github.com/plus3it/terraform-null-validate-list-item,Terraform module that will validate that a specified items is within the list of valid items
@@ -15219,6 +15235,7 @@ vcsa_config,rptcloud,6387,vsphere,https://github.com/rptcloud/terraform-vsphere-
 vds-portgroups,kalenarndt,11436,vsphere,https://github.com/kalenarndt/terraform-vsphere-vds-portgroups,Terraform module that creates Virtual Distributed Switch Port Groups. 
 vector,nlamirault,7660,google,https://github.com/nlamirault/terraform-google-vector,Terraform module for Vector
 vector,nlamirault,7689,aws,https://github.com/nlamirault/terraform-aws-vector,Terraform module for Vector
+veenastorage,veena259,24728,azure,https://github.com/veena259/terraform-azure-veenastorage,
 velero,djangoflow,16143,google,https://github.com/djangoflow/terraform-google-velero,Opinionated Velero deployment to Google GKE/GCS
 velero,dodevops,11000,azure,https://github.com/dodevops/terraform-azure-velero,Highly opinionated management of Kubernetes backup with velero on AKS (Azure Kubernetes Service)
 velero,elsbrock,11511,google,https://github.com/elsbrock/terraform-google-velero,Terraform module for Velero
