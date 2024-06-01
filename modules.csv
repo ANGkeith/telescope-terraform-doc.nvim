@@ -183,6 +183,13 @@ accountomat,GoCarrot,12463,aws,https://github.com/GoCarrot/terraform-aws-account
 accountomat_read,GoCarrot,12467,aws,https://github.com/GoCarrot/terraform-aws-accountomat_read,Accountomat Read reads data peristed by Accountomat and provides it for use in terraform modules
 accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-azure-accounts,Configure Azure Azure AD Resources and Permissions
 accounts,widespot,19947,aws,https://github.com/widespot/terraform-aws-accounts,
+acf-account-cache,acai-consulting,24742,aws,https://github.com/acai-consulting/terraform-aws-acf-account-cache,"Will create a chache contailing the account context like ID, Name, OU-ID, OU path and tags"
+acf-core-configuration,acai-consulting,24743,aws,https://github.com/acai-consulting/terraform-aws-acf-core-configuration,Module to exchange dynamic resource configuration between Core Pipelines
+acf-idc,acai-consulting,24744,aws,https://github.com/acai-consulting/terraform-aws-acf-idc,ACAI Cloud Foundation module for AWS Identity Center
+acf-org-cloudtrail,acai-consulting,24745,aws,https://github.com/acai-consulting/terraform-aws-acf-org-cloudtrail,
+acf-org-delegation,acai-consulting,24747,aws,https://github.com/acai-consulting/terraform-aws-acf-org-delegation,Manage AWS Organization delegations
+acf-org-ou-mgmt,acai-consulting,24748,aws,https://github.com/acai-consulting/terraform-aws-acf-org-ou-mgmt,Manage the OU structure of your AWS Organization
+acf-scp,acai-consulting,24746,aws,https://github.com/acai-consulting/terraform-aws-acf-scp,Terraform module to manage AWS SCPs
 aci,Azure,1689,azurerm,https://github.com/Azure/terraform-azurerm-aci,Azure Container Instances Module
 aci,claranet,6133,azurerm,https://github.com/claranet/terraform-azurerm-aci,Terraform module for Azure Container Instances group
 aci-devops-agent,Azure,5150,azurerm,https://github.com/Azure/terraform-azurerm-aci-devops-agent,Terraform Module to deploy a Azure DevOps self-hosted agents on Azure Container Instance
@@ -4995,7 +5002,7 @@ ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terra
 ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-ec2,
 ec2,nullc4t,17501,vultr,https://github.com/const-tmp/terraform-vultr-ec2,Creating batch EC2 instances in Vultr with a single config. Easy scalable. 
 ec2,panovmikhail,22284,aws,https://github.com/panovmikhail/terraform-aws-ec2,Terraform module for creating EC2 instances
-ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,Create an EC2 instance with access secured to the local host.
+ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,"Creates an EC2 instance with access secured to the local host.  Deploys Plaid QuickStart service. Upon completion of Provision instructions, run the following command to initialize the root directory: ./.terraform/modules/ec2/examples/init.sh"
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
 ec2,punitporwal07,21801,aws,https://github.com/punitporwal07/terraform-aws-ec2,
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-cnfs,Manages EC2 instance
@@ -6772,7 +6779,6 @@ function,terracharge,14085,aws,https://github.com/terracharge/terraform-aws-func
 function,tomarv2,15863,azure,https://github.com/tomarv2/terraform-azure-function,Terraform module for Azure Functions
 function,web-virtua-oci-multi-account-modules,21132,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-function,
 function-app,BzSpi,13263,azurerm,https://github.com/BzSpi/terraform-azurerm-function-app,Terraform module for Azure Function App
-function-app,InnovationNorway,1359,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-function-app-obsolete,This terraform module deploys a Function App in Azure. 
 function-app,Xat59,18716,azurerm,https://github.com/Xat59/terraform-azurerm-function-app,Terraform module for Azure Function App
 function-app,bootlabstech,15859,azurerm,https://github.com/bootlabstech/terraform-azurerm-function-app,
 function-app,claranet,9529,azurerm,https://github.com/claranet/terraform-azurerm-function-app,Terraform module for Azure Function App
@@ -8392,6 +8398,7 @@ kops-vpc-peering,cloudposse,961,aws,https://github.com/cloudposse-archives/terra
 kosli-reporter,kosli-dev,15108,aws,https://github.com/kosli-dev/terraform-aws-kosli-reporter,Terraform module to deploy the Kosli Lambda reporter
 ksoc-connect,ksoclabs,10895,aws,https://github.com/ksoclabs/terraform-aws-ksoc-connect,A terraform module for allowing KSOC to connect to your AWS account.
 ksoc-connect,ksoclabs,12262,azurerm,https://github.com/ksoclabs/terraform-azurerm-ksoc-connect,A terraform module for allowing KSOC to connect to your Azure account.
+kube,damoun,24750,hetzner,https://github.com/damoun/terraform-hetzner-kube,Terraform module to deploy Kubernetes on Hetzner Cloud.
 kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-gitlab-kube-cluster,Terraform module to easily connect any existing Kubernetes cluster with Gitlab
 kube-hetzner,kube-hetzner,12599,hcloud,https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner,Optimized and Maintenance-free Kubernetes on Hetzner Cloud in one command!
 kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-janitor,
@@ -9798,6 +9805,7 @@ monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring
 monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/terraform-azurerm-monitoring,Terraform module for creation of Azure Workbooks and Dashboards for Databricks and ADF
 monitoring,dritux,8734,kubernetes,https://github.com/dritux/terraform-kubernetes-monitoring,
 monitoring,hazelops,9204,datadog,https://github.com/hazelops/terraform-datadog-monitoring,
+monitoring,montblu,24749,newrelic,https://github.com/montblu/terraform-newrelic-monitoring,Terraform module to create communication between NewRelic and PagerDuty
 monitoring,notablehealth,19046,google,https://github.com/notablehealth/terraform-google-monitoring,Manage Google Cloud Monitoring
 monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitoring,
 monitoring,terraform-do-modules,20251,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-monitoring,"Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure"
@@ -10305,7 +10313,6 @@ network,ijajmomin76,19101,google,https://github.com/ijajmomin76/terraform-google
 network,ikemerrix,13290,azurerm,https://github.com/ikemerrix/terraform-azurerm-network,Terraform module which creates networking resources on Azure
 network,incentro-cloud,10970,google,https://github.com/incentro-cloud/terraform-google-network,"Module for creating a VPC network, subnets, routes, rules, connectors, and peerings."
 network,info4rashid,10634,google,https://github.com/info4rashid/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
-network,innovationnorway,2012,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-network-archived-itp,Terraform module which creates networking resources on Azure
 network,jimgaspari,10935,libvirt,https://github.com/jimgaspari/terraform-libvirt-network,Terraform Module for building Libvirt Networks
 network,jsathler,21056,azurerm,https://github.com/jsathler/terraform-azurerm-network,
 network,kral2,14119,hcp,https://github.com/kral2/terraform-hcp-network,A composable Terraform module to provision the HCP networking resources
@@ -11301,7 +11308,6 @@ project,hadenlabs,7226,github,https://github.com/hadenlabs/terraform-github-proj
 project,hadenlabs,8126,gitlab,https://github.com/hadenlabs/terraform-gitlab-project,terraform gitlab repository
 project,hadenlabs,8347,sentry,https://github.com/hadenlabs/terraform-sentry-project,terraform sentry project
 project,infrablocks,7703,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-project,A Terraform module for creating a project in a MongoDB Atlas organisation.
-project,innovationnorway,4773,tfe,https://github.com/innovationnorway-archive/terraform-tfe-project,"Use this Terraform module to create a project, which is a collection of workspaces."
 project,juratbek02,22019,aws,https://github.com/juratbek02/terraform-aws-project,
 project,justtrackio,18894,sentry,https://github.com/justtrackio/terraform-sentry-project,Terraform module which creates a sentry project
 project,kiwicom,4021,vault,https://github.com/kiwicom/terraform-vault-project,Vault resources for Gitlab project.
@@ -12090,7 +12096,6 @@ repository,dwp,8146,github,https://github.com/dwp/terraform-github-repository,Te
 repository,gaima8,23944,github,https://github.com/gaima8/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,hadenlabs,7227,github,https://github.com/hadenlabs/terraform-github-repository,github repository for terraform
 repository,hadenlabs,8116,gitlab,https://github.com/hadenlabs/terraform-gitlab-project,terraform gitlab repository
-repository,innovationnorway,2122,github,https://github.com/innovationnorway-archive/terraform-github-repository-archived-itp,Create a new GitHub repository
 repository,ksatirli,15701,github,https://github.com/ksatirli/terraform-github-repository,:octocat: Terraform Module: Github Repositories and associated Resources
 repository,lasuillard,23818,github,https://github.com/lasuillard/terraform-github-repository,Terraform module to create GitHub repository and relevant resources.
 repository,mineiros-io,4127,github,https://github.com/mineiros-io/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
@@ -13442,8 +13447,6 @@ service-plan,data-platform-hq,15934,azurerm,https://github.com/data-platform-hq/
 service-plan,libre-devops,13252,azurerm,https://github.com/libre-devops/terraform-azurerm-service-plan,A module used to deploy a service plan in Azure :fire:. This is the new edition of App service plans added in the version 3.0 provider
 service-principal,avinor,3475,azuread,https://github.com/avinor/terraform-azuread-service-principal,Terraform module to create service principal credentials and assign it access to resources
 service-principal,claranet,15895,azurerm,https://github.com/claranet/terraform-azurerm-service-principal,Terraform module for Azure AD Service Principal and its Azure role assignment
-service-principal,innovationnorway,1371,azurerm,https://github.com/innovationnorway-archive/terraform-azuread-service-principal,Create a service principal and configure it's access to Azure resources.
-service-principal,innovationnorway,2166,azuread,https://github.com/innovationnorway-archive/terraform-azuread-service-principal,Create a service principal and configure it's access to Azure resources.
 service-principal,kumarvna,5477,azuread,https://github.com/kumarvna/terraform-azuread-service-principal,Terraform module to create a service principal and configure access to Azure resources
 service-principal,libre-devops,23350,azuread,https://github.com/libre-devops/terraform-azuread-service-principal,A module used to help deploy a service principal in Azure
 service-principal,ptonini,16753,azuread,https://github.com/ptonini/terraform-azuread-service-principal,
@@ -14312,7 +14315,6 @@ storage,equinor,23377,azurerm,https://github.com/equinor/terraform-azurerm-stora
 storage,heathen1878,19907,azurerm,https://github.com/heathen1878/terraform-azurerm-storage,Manages Azure Storage Accounts and associated features
 storage,imjoseangel,10904,azurerm,https://github.com/imjoseangel/terraform-azurerm-storage,Terraform Module for deploying an Azure Storage Account
 storage,incentro-cloud,11066,google,https://github.com/incentro-cloud/terraform-google-storage,"Module for creating a storage bucket, objects, IAM bindings, and assigning IAM members."
-storage,innovationnorway,2676,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-storage,Create storage account in Azure.
 storage,jaysson1710,18014,azurerm,https://github.com/jaysson1710/terraform-azurerm-storage,
 storage,kachawla,20574,azure,https://github.com/kachawla/terraform-azure-storage,Terraform module for Azure blob storage
 storage,kumarvna,4775,azurerm,https://github.com/kumarvna/terraform-azurerm-storage,Terraform Module to create Azure storage account resources.
@@ -14774,6 +14776,7 @@ terrible,cloudboss,5406,cloudinit,https://github.com/cloudboss/terraform-cloudin
 tesseract,metailurini,22690,metailurini,https://github.com/metailurini/terraform-metailurini-tesseract,
 test,Hacknerr,20847,azurerm,https://github.com/Hacknerr/terraform-azurerm-test,This should be a simple one sentence description of the module.
 test,IbraheemAlSaady,11548,module,https://github.com/IbraheemAlSaady/terraform-module-test,
+test,Richaz-eng,24753,aws,https://github.com/Richaz-eng/terraform-aws-test,
 test,Tanmay795,22577,local,https://github.com/Tanmay795/terraform-local-test,A test Terraform Module.
 test,Thegsgs,14740,module,https://github.com/Thegsgs/terraform-module-lab,Some random description
 test,Yvz-DevOps,5787,class4,https://github.com/hyvz-devops/terraform-class4-test,
@@ -15440,7 +15443,6 @@ vm-qemu,dselders,6006,proxmox,https://github.com/dselders/terraform-proxmox-vm-q
 vm-qemu,lsampaioweb,17595,proxmox,https://github.com/lsampaioweb/terraform-proxmox-vm-qemu,Terraform module to create a virtual machine (server or desktop) on Proxmox VE.
 vm-requirements,ptonini,22220,azurerm,https://github.com/ptonini/terraform-azurerm-vm-requirements,
 vm-run-command,erlacherl-city,3465,azurerm,https://github.com/erlacherl-city/terraform-azurerm-vm-run-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks. NOTE: This repo is archived and will be deleted soon.
-vm-run-command,innovationnorway,2215,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-vm-run-command-archived-itp,Run commands on virtual machines. This can be used to bootstrap/install software or run administrative tasks.
 vm-scale-sets,kumarvna,5448,azurerm,https://github.com/kumarvna/terraform-azurerm-vm-scale-sets,Terraform Module to create Windows or Linux Virtual Machine Scale set with Auto Scaling and Load Balancer support
 vm-start-stop-solution,cyber-scot,21274,azurerm,https://github.com/cyber-scot/terraform-azurerm-vm-start-stop-solution,A terraform module used to deploy various components for the Microsoft start/stop solution⌚
 vm-userdata,ilpozzd,13559,talos,https://github.com/ilpozzd/terraform-talos-vm-userdata,This module is used to describe the configuration of Talos OS v1.0.x with Terraform variables and convert them to a Base64 encoded string that can be used for bootstarap Kubernetes nodes on any Virtualization platform that supports VM initialization via user-data.
@@ -16131,6 +16133,7 @@ vpc-peering,OT-CLOUD-KIT,6091,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-
 vpc-peering,QuiNovas,2121,aws,https://github.com/QuiNovas/terraform-aws-vpc-peering,Creates a VPC peering connection between two VPC's. Can be inter-region or inter-account
 vpc-peering,ahmedzidan,7697,aws,https://github.com/ahmedzidan/terraform-aws-vpc-peering,
 vpc-peering,asantos2000,1706,aws,https://github.com/asantos2000/terraform-aws-vpc-peering,Terraform VPC Peering Module
+vpc-peering,blackbird-cloud,24741,aws,https://github.com/blackbird-cloud/terraform-aws-vpc-peering,Terraform module to peer vpcs together
 vpc-peering,clouddrove,3637,aws,https://github.com/clouddrove/terraform-aws-vpc-peering,Terraform module to connect two VPC's on AWS.
 vpc-peering,cloudposse,918,aws,https://github.com/cloudposse/terraform-aws-vpc-peering,Terraform module to create a peering connection between two VPCs in the same AWS account.
 vpc-peering,cornfeedhobo,3019,aws,https://github.com/cornfeedhobo/terraform-aws-vpc-peering,Terraform module to handle AWS VPC Peering
@@ -16387,7 +16390,6 @@ web,kennship,2453,aws,https://github.com/kennship/terraform-aws-web,Terraform mo
 web,lakshmipath,18742,ec2m,https://github.com/lakshmipath/terraform-ec2m-web,
 web-ami,StayWell,2328,aws,https://github.com/StayWell/terraform-aws-web-ami,Simple Terraform module to quickly launch an EC2 instance from an arbitrary AMI and expose it through an ALB
 web-app,equinor,23389,azurerm,https://github.com/equinor/terraform-azurerm-web-app,Terraform module which creates Azure Web App resources
-web-app,innovationnorway,1548,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-web-app,This terraform module deploys a Web App in Azure.
 web-app,wurde,6168,aws,https://github.com/wurde/terraform-aws-web-app,Terraform module for deploying a web application to AWS.
 web-app-container,academydistrict20,3498,azurerm,https://github.com/academydistrict20/terraform-azurerm-web-app-container,Create Web App for Containers (Azure App Service).
 web-app-container,innovationnorway,2128,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-web-app-container,Create Web App for Containers (Azure App Service).
