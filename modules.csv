@@ -359,6 +359,7 @@ ag,friday1996101,18497,azurerm,https://github.com/friday1996101/terraform-azurer
 ag-dag-nia,PaloAltoNetworks,6357,panos,https://github.com/PaloAltoNetworks/terraform-panos-ag-dag-nia,
 agent,cookielab,19244,gitlab,https://github.com/cookielab/terraform-gitlab-agent,
 agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-agent,A Terraform Module to create a Secret and DaemonSet for deploying the Lacework Datacollector Agent in a Kubernetes cluster.
+agent,linuxpatch,24767,linuxpatch,https://github.com/linuxpatch/terraform-linuxpatch-agent,Terraform Module for linuxpatch.com's agent
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
 agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,Terraform module for configuring an integration with Lacework and Google Cloud for agentless scanning
@@ -2891,6 +2892,7 @@ cloudgenix-sdwan,equinix,8155,equinix,https://github.com/equinix/terraform-equin
 cloudguard,equinix,8203,equinix,https://github.com/equinix/terraform-equinix-cloudguard,Terraform module for quick deployment of Check Point CloudGuard firewall device
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
+cloudinit,SoleksDataGroup,24766,aws,https://github.com/SoleksDataGroup/terraform-aws-cloudinit,
 cloudinit,rsjethani,3231,libvirt,https://github.com/rsjethani/terraform-libvirt-cloudinit,
 cloudinit,tedivm,12433,general,https://github.com/tedivm/terraform-general-cloudinit,A cloudinit wrapper module that enables quick machine configuration
 cloudinit-example,devyanshi-t,11048,azure,https://github.com/devyanshi-t/terraform-azure-cloudinit-example,
@@ -5381,7 +5383,7 @@ ecs-alb-service-task,SevenPicoForks,17816,aws,https://github.com/SevenPicoForks/
 ecs-alb-service-task,cloudposse,1154,aws,https://github.com/cloudposse/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
 ecs-alb-service-task,justtrackio,17369,aws,https://github.com/justtrackio/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
 ecs-app,DNXLabs,5731,aws,https://github.com/DNXLabs/terraform-aws-ecs-app,This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).
-ecs-app,hazelops,11486,aws,https://github.com/hazelops/terraform-aws-ecs-app,Terraform module to create AWS ECS application.
+ecs-app,hazelops,11486,aws,https://github.com/hazelops/terraform-aws-ecs-app,Terraform module to create and manage AWS ECS application.
 ecs-app,ianrodrigues,6452,aws,https://github.com/ianrodrigues/terraform-aws-ecs-app,
 ecs-app,justtrackio,17257,aws,https://github.com/justtrackio/terraform-aws-ecs-app,Terraform module which creates a ecs app
 ecs-app,madelabs,19272,aws,https://github.com/madelabs/terraform-aws-ecs-app,A Terraform module for managing a multi-AZ ECS application.
@@ -7318,6 +7320,7 @@ hello-world,sblack4,6659,terraform,https://github.com/sblack4/terraform-terrafor
 hello_world,Nciso,18721,autocloud,https://github.com/Nciso/terraform-autocloud-hello_world,Simple module for quick start tutorial
 helloworld,ZahraTee,11405,aws,https://github.com/ZahraTee/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
 helloworld,briancain,5792,aws,https://github.com/briancain/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
+helloworld,cloudeteer,24769,azurerm,https://github.com/cloudeteer/terraform-azurerm-helloworld,A simple hello world module
 helloworld,miguelhrocha,17499,aws,https://github.com/miguelhrocha/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
 helm,T-Systems-MMS,12108,helm,https://github.com/T-Systems-MMS/terraform-helm-helm,Configure helm over terraform
 helm,cloudopsworks,14509,aws,https://github.com/cloudopsworks/terraform-aws-helm,AWS EKS - Helm Install module
@@ -7478,6 +7481,7 @@ iam-cross-account-trust-maps,StratusGrid,1916,aws,https://github.com/StratusGrid
 iam-cross-acct-dest,trussworks,3311,aws,https://github.com/trussworks/terraform-aws-iam-cross-acct-dest,Creates an IAM role to allow cross account assumption from specified source role.
 iam-cross-acct-src,trussworks,3312,aws,https://github.com/trussworks/terraform-aws-iam-cross-acct-src,Creates an IAM role to allow cross account assumption to specified destination role.
 iam-custom-role,mineiros-io,11829,google,https://github.com/mineiros-io/terraform-google-iam-custom-role,A Terraform module to create and manage a custom Identity and Access Management (IAM) role in Google Cloud https://cloud.google.com/resource-manager/docs/access-control-org
+iam-ec2-profile,SoleksDataGroup,24771,aws,https://github.com/SoleksDataGroup/terraform-aws-iam-ec2-profile,
 iam-ecr-ci,trussworks,2214,aws,https://github.com/trussworks/terraform-aws-iam-ecr-ci,Creates an IAM user/group for CI to use to push images to ECR
 iam-github-oidc-provider,geekcell,19778,aws,https://github.com/geekcell/terraform-aws-iam-github-oidc-provider,Terraform module to provision an AWS IAM GitHub OIDC Provider.
 iam-group,boldlink,14339,aws,https://github.com/boldlink/terraform-aws-iam-group,Terraform registry repository for AWS IAM Group module
@@ -13442,6 +13446,7 @@ service-ec2,snowplow-devops,17887,aws,https://github.com/snowplow-devops/terrafo
 service-epg-policy,netascode,17283,aci,https://github.com/netascode/terraform-aci-service-epg-policy,Terraform Cisco ACI Service EPG Policy Module 
 service-event-rules-datadog,cookielab,9566,pagerduty,https://github.com/cookielab/terraform-pagerduty-service-event-rules-datadog,Terraform Module for Pagerduty Service Event Rules and Datadog priorities / severity
 service-graph-template,netascode,10318,aci,https://github.com/netascode/terraform-aci-service-graph-template,Terraform Cisco ACI Service Graph Template Module
+service-group,SoleksDataGroup,24770,aws,https://github.com/SoleksDataGroup/terraform-aws-service-group,
 service-group-sync-nia,a10networks,6375,thunder,https://github.com/a10networks/terraform-thunder-service-group-sync-nia,Terraform NIA Module for A10 Networks Thunder Service Groups
 service-identity,bootlabstech,20591,google,https://github.com/bootlabstech/terraform-google-service-identity,Creates GCP service-identity.
 service-integration,tf-cloud-modules,15132,aiven,https://github.com/tf-cloud-modules/terraform-aiven-service-integration,
@@ -14167,6 +14172,7 @@ staticsitepublic,anil1226,20467,azurerm,https://github.com/anil1226/terraform-az
 staticweb,Dayo678,20533,azurerm,https://github.com/Dayo678/terraform-azurerm-staticweb,
 staticweb,vikash2890git,18519,azurerm,https://github.com/vikash2890git/terraform-azurerm-staticweb,module for static website
 staticwebsite,GirijalaAditya,19837,azurerm,https://github.com/GirijalaAditya/terraform-azurerm-staticwebsite,
+staticwebsite,Prakazsh,24768,azurerm,https://github.com/Prakazsh/terraform-azurerm-staticwebsite,Terraform modules to be shared in Terraform Public Registry
 staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform-azurerm-staticwebsite,
 staticwebsite,beacloudguy,19030,azure,https://github.com/beacloudguy/terraform-azure-staticwebsite,Terraform Modules to be shared in Terraform Public Registry
 staticwebsite,gopal1409,17158,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsite,terraform static website module
