@@ -554,6 +554,7 @@ alb-ingress-controller,byuoitav,4138,kubernetes,https://github.com/byuoitav/terr
 alb-ingress-controller,campaand,12932,aws,https://github.com/campaand/terraform-aws-alb-ingress-controller,"Terraform module to ease deployment of the AWS ALB Ingress Controller, based on best practices."
 alb-ingress-controller,cookielab,3949,kubernetes,https://github.com/cookielab/terraform-kubernetes-alb-ingress-controller,Terraform module for deploying ALB Ingress Controller to k8s cluster
 alb-ingress-controller,iplabs,2369,kubernetes,https://github.com/iplabs/terraform-kubernetes-alb-ingress-controller,Terraform module to ease deployment of the AWS ALB Ingress Controller
+alb-ingress-controller,qvest-digital,24777,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-alb-ingress-controller,Terraform module to ease deployment of the AWS ALB Ingress Controller
 alb-ingress-controller,v-bus,6169,kubernetes,https://github.com/v-bus/terraform-kubernetes-alb-ingress-controller,Terraform module to ease deployment of the AWS ALB Ingress Controller
 alb-ingress-rules,fivexl,9626,aws,https://github.com/fivexl/terraform-aws-alb-ingress-rules,ALB Ingress Rules/TLS/Target Groups
 alb-listener-rule,bryan-rhm,12041,aws,https://github.com/bryan-rhm/terraform-aws-alb-listener-rule,Terraform aws ALB Listener rule module
@@ -1051,6 +1052,7 @@ arc-backstage-ecs-app,sourcefuse,21336,aws,https://github.com/sourcefuse/terrafo
 arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-backup,
 arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,
 arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Repo for managing the Bootstrap (DynamoDB + S3) Terraform Module..
+arc-cache,sourcefuse,24773,aws,https://github.com/sourcefuse/terraform-aws-arc-cache,ARC Module for managing elasticache redis clusters
 arc-cloud-custodian,sourcefuse,21263,aws,https://github.com/sourcefuse/terraform-aws-arc-cloud-custodian,
 arc-cloudfront,sourcefuse,21302,aws,https://github.com/sourcefuse/terraform-aws-arc-cloudfront,Repo for managing the ARC CloudFront Terraform Module.
 arc-common-data,sourcefuse,22743,aws,https://github.com/sourcefuse/terraform-aws-arc-common-data,
@@ -1706,6 +1708,7 @@ aws-mysql-parameter-group,intel,19587,intel,https://github.com/intel/terraform-i
 aws-networking,kalenarndt,16412,hcp,https://github.com/kalenarndt/terraform-hcp-aws-networking,Terraform module for the AWS networking configuration required for HCP
 aws-node-termination-handler,iplabs,4808,kubernetes,https://github.com/iplabs/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
 aws-node-termination-handler,pavlospt,9798,kubernetes,https://github.com/pavlospt/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
+aws-node-termination-handler,qvest-digital,24778,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
 aws-organization,cyberlabrs,19268,aws,https://github.com/cyberlabrs/terraform-aws-aws-organization," Terraform module to provision an AWS Organization"
 aws-postgresql,intel,16703,intel,https://github.com/intel/terraform-intel-aws-postgresql,Intel Cloud Optimization Module - AWS RDS PostgreSQL
 aws-postgresql-parameter-group,intel,20479,intel,https://github.com/intel/terraform-intel-aws-postgresql-parameter-group,Intel Cloud Optimization Module - AWS PostgreSQL Parameter Group
@@ -9191,6 +9194,7 @@ loadtest-distributed,samd2,21811,aws,https://github.com/samd2/terraform-aws-load
 local-cluster,drape-io,21690,kubernetes,https://github.com/drape-io/terraform-kubernetes-local-cluster,Terraform module for spinning up a local development experience for kubernetes using kind
 local-excec-packer,Kreditorforeningens-Driftssentral-DA,6322,null,https://github.com/Kreditorforeningens-Driftssentral-DA/terraform-null-local-excec-packer,Execute packer builds locally using terraform
 local-keypair,KyleOndy,10991,aws,https://github.com/KyleOndy/terraform-aws-local-keypair,
+local-volumes,enocquet,24775,create,https://github.com/enocquet/terraform-create-local-volumes,
 location_codes,de4dwood,21723,azure,https://github.com/de4dwood/terraform-azure-location_codes,
 locations,azurerm,20074,azure,https://github.com/azurerm/terraform-azure-locations,Terraform module to provide Azure location information.
 lockbox,terraform-yacloud-modules,17925,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-lockbox,
@@ -9259,6 +9263,7 @@ logstore-alb-listener,terraform-alicloud-modules,10415,alicloud,https://github.c
 logzio-rbac,sanarena,7327,kubernetes,https://github.com/sanarena/terraform-kubernetes-logzio-rbac,Ship K8S-RBAC logs to logz.io via terraform
 loki,loafoe,13408,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-loki,Grafana Loki deployment for Cloud foundry
 loki-aws,iplabs,4984,kubernetes,https://github.com/iplabs/terraform-kubernetes-loki-aws,Terraform module to install Loki on a Kubernetes cluster to utilize storage (S3 and DynamoDB) in AWS.
+loki-aws,qvest-digital,24779,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-loki-aws,Terraform module to install Loki on a Kubernetes cluster to utilize storage (S3 and DynamoDB) in AWS.
 loki-stack,terraform-iaac,9974,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-loki-stack,"Terraform Kubernetes Loki module, with multi cloud support. Logs storage: AWS S3, GCP GCS, Azure Blob, PV Local"
 longhorn,Feleuxens,22187,helm,https://github.com/Feleuxens/terraform-helm-longhorn,Terraform module to provision Longhorn
 longhorn,granito-source,23794,kubernetes,https://github.com/granito-source/terraform-kubernetes-longhorn,Terraform module for Longhorn in Kubernetes
@@ -9502,6 +9507,7 @@ metrics-server,boeboe,16410,helm,https://github.com/boeboe/terraform-helm-metric
 metrics-server,cookielab,3622,kubernetes,https://github.com/cookielab/terraform-kubernetes-metrics-server,Terraform module for deploying Metrics Server to k8s cluster
 metrics-server,iplabs,4660,kubernetes,https://github.com/iplabs/terraform-kubernetes-metrics-server,Terraform module to install the Kubernetes metrics-server
 metrics-server,mateothegreat,16236,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-metrics-server,Kubernetes metrcis-server via Terraform
+metrics-server,qvest-digital,24780,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-metrics-server,Terraform module to install the Kubernetes metrics-server
 metrics-server,serhii-riabov,23644,kubernetes,https://github.com/serhii-riabov/terraform-kubernetes-metrics-server,Terraform module which deploys Metrics Server in Kubernetes cluster
 metricsserver,3191110276,8170,kubernetes,https://github.com/3191110276/terraform-kubernetes-metricsserver,
 mfa,HappyPathway,1647,aws,https://github.com/HappyPathway/terraform-aws-mfa,
@@ -11556,6 +11562,7 @@ ram-vpc-ecs-cloudmonitor,terraform-alicloud-modules,10387,alicloud,https://githu
 rancher,StayWell,4988,aws,https://github.com/StayWell/terraform-aws-rancher,
 rancher,squareops,19415,kubernetes,https://github.com/squareops/terraform-kubernetes-rancher,Terraform module for deploying Rancher on a Kubernetes cluster
 rancher-agent,iplabs,4910,kubernetes,https://github.com/iplabs/terraform-kubernetes-rancher-agent,Terraform module to deploy the Rancher 2 agents a.k.a. cattle-node-agent and cattle-cluster-agent
+rancher-agent,qvest-digital,24781,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-rancher-agent,Terraform module to deploy the Rancher 2 agents a.k.a. cattle-node-agent and cattle-cluster-agent
 rancher-cloudflare,wenzel-felix,18222,hcloud,https://github.com/wenzel-felix/terraform-hcloud-rancher-cloudflare,This project deploys rancher on hetzner with a custom cluster configuration.
 rancher-hosts,kiwicom,3038,aws,https://github.com/kiwicom/terraform-aws-rancher-hosts,
 rancherChart,SinnConsulting,7576,helm,https://github.com/SinnConsulting/terraform-helm-rancherChart,Terraform Helm Rancher Chart: https://registry.terraform.io/modules/SinnConsulting/rancherChart
@@ -12794,6 +12801,7 @@ s3-website,cloudposse,193,aws,https://github.com/cloudposse/terraform-aws-s3-web
 s3-website,phenixcoder,15193,aws,https://github.com/phenixcoder/terraform-aws-s3-website,Terraform module to build aws s3 website and cloudfront in the front 
 s3-website,subbachaudhary,19175,aws,https://github.com/subbachaudhary/terraform-aws-s3-website,Terraform Modules to be shared in Private Registry
 s3-website,thrashr888,1358,aws,https://github.com/thrashr888/terraform-aws-s3-website,Terraform module for publishing AWS S3 websites
+s3-website-tests,Nilaycloudengineer,24776,aws,https://github.com/Nilaycloudengineer/terraform-aws-s3-website-tests,terraform testing
 s3-with-replica,echomike80,10090,aws,https://github.com/echomike80/terraform-aws-s3-with-replica,
 s3-yum-repo,claranet,738,aws,https://github.com/claranet/terraform-aws-s3-yum-repo,Manages a YUM repository in an S3 bucket
 s3-yum-repo,rhythmictech,7941,aws,https://github.com/rhythmictech/terraform-aws-s3-yum-repo,WIP turn an S3 bucket into a yum repo :yum:
@@ -13495,6 +13503,7 @@ ses,SevenPico,19462,aws,https://github.com/SevenPico/terraform-aws-ses,Terraform
 ses,clouddrove,3657,aws,https://github.com/clouddrove/terraform-aws-ses,Terraform module to create an SES Identity with SES IAM user on AWS.
 ses,cloudposse,5241,aws,https://github.com/cloudposse/terraform-aws-ses,Terraform module to provision Simple Email Service on AWS
 ses,genstackio,7972,aws,https://github.com/genstackio/terraform-aws-ses,Terraform module to create an SES architecture on AWS
+ses,infrablocks,24783,aws,https://github.com/infrablocks/terraform-aws-ses,
 ses,ispec-inc,4979,aws,https://github.com/ispec-inc/terraform-aws-ses,
 ses,jessiehernandez,20188,aws,https://github.com/jessiehernandez/terraform-aws-ses,Terraform module which creates Simple Email Service (SES) resources on AWS.
 ses,nventive,22829,aws,https://github.com/nventive/terraform-aws-ses,Terraform module to provision Simple Email Service (SES) on AWS.
@@ -14923,6 +14932,7 @@ tiered-vpc-ng,JudeQuintana,22309,aws,https://github.com/JudeQuintana/terraform-a
 tile-service,addresscloud,14254,aws,https://github.com/addresscloud/terraform-aws-tile-service,Terraform module to create a map tile service using Amazon API Gateway and S3
 tiller,Vidimensional,2185,kubernetes,https://github.com/Vidimensional/terraform-kubernetes-tiller,Terraform module for deploying Helm's Tiller on you k8s cluster.
 tiller,iplabs,2368,kubernetes,https://github.com/iplabs/terraform-kubernetes-tiller,Terraform module to ease Tiller deployments
+tiller,qvest-digital,24782,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-tiller,Terraform module to ease Tiller deployments
 tiller,terraform-module,3811,kubernetes,https://github.com/terraform-module/terraform-kubernetes-tiller,Kubernetes Tiller
 tilores-cognito,tilotech,11172,aws,https://github.com/tilotech/terraform-aws-tilores-cognito,
 tilores-core,tilotech,11473,aws,https://github.com/tilotech/terraform-aws-tilores-core,
@@ -16145,6 +16155,7 @@ vpc-peering,JamesWoolfenden,7464,aws,https://github.com/JamesWoolfenden/terrafor
 vpc-peering,KeisukeYamashita,5904,mongodbatlas,https://github.com/KeisukeYamashita/terraform-mongodbatlas-vpc-peering,This module creates an MongoDB Atlas VPC peering.
 vpc-peering,OT-CLOUD-KIT,6091,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-vpc-peering,
 vpc-peering,QuiNovas,2121,aws,https://github.com/QuiNovas/terraform-aws-vpc-peering,Creates a VPC peering connection between two VPC's. Can be inter-region or inter-account
+vpc-peering,Unverified,24774,aws,https://github.com/Unverified/terraform-aws-vpc-peering,Terraform module to setup VPC peering connection
 vpc-peering,ahmedzidan,7697,aws,https://github.com/ahmedzidan/terraform-aws-vpc-peering,
 vpc-peering,asantos2000,1706,aws,https://github.com/asantos2000/terraform-aws-vpc-peering,Terraform VPC Peering Module
 vpc-peering,blackbird-cloud,24741,aws,https://github.com/blackbird-cloud/terraform-aws-vpc-peering,Terraform module to peer vpcs together
