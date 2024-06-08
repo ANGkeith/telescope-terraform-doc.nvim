@@ -10,7 +10,7 @@ function M.url_opener(opts)
     actions.close(prompt_bufnr)
 
     local url = M_api.get_docs_url(opts.full_name, opts.version, selection.category, selection.slug)
-    os.execute(string.format('%s "%s"', opts.url_open_command, url))
+    vim.ui.open(url)
   end
 end
 
@@ -41,7 +41,7 @@ function M.url_opener_module(opts)
     local selection = action_state.get_selected_entry()
     actions.close(prompt_bufnr)
     local url = M_api.get_docs_url_module(selection.full_name, selection.provider_name)
-    os.execute(string.format('%s "%s"', opts.url_open_command, url))
+    vim.ui.open(url)
   end
 end
 
