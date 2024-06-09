@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/ANGkeith/telescope-terraform-doc.nvim/compare/v1.3.0...v2.0.0) (2024-06-09)
+
+
+### Code Refactoring
+
+* use 0.10.0 vim.ui.open for opening url, falling back to custom defined open ([56bd79c](https://github.com/ANGkeith/telescope-terraform-doc.nvim/commit/56bd79c285fbe552ddf7052a9f8d0e19d557f6cc))
+
+
+### BREAKING CHANGES
+
+* `url_open_command` replaced with `url_open_handler`
+
 # [1.3.0](https://github.com/ANGkeith/telescope-terraform-doc.nvim/compare/v1.2.0...v1.3.0) (2024-01-29)
 
 
