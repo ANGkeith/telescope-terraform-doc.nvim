@@ -1055,6 +1055,7 @@ arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-
 arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,
 arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Repo for managing the Bootstrap (DynamoDB + S3) Terraform Module..
 arc-cache,sourcefuse,24773,aws,https://github.com/sourcefuse/terraform-aws-arc-cache,ARC Module for managing elasticache redis clusters
+arc-cicd,sourcefuse,24818,aws,https://github.com/sourcefuse/terraform-aws-arc-cicd,Terraform module creating CICD pipelines
 arc-cloud-custodian,sourcefuse,21263,aws,https://github.com/sourcefuse/terraform-aws-arc-cloud-custodian,
 arc-cloudfront,sourcefuse,21302,aws,https://github.com/sourcefuse/terraform-aws-arc-cloudfront,Repo for managing the ARC CloudFront Terraform Module.
 arc-common-data,sourcefuse,22743,aws,https://github.com/sourcefuse/terraform-aws-arc-common-data,
@@ -2857,6 +2858,7 @@ cloudfront-s3,aolvictim,12050,aws,https://github.com/aolvictim/terraform-aws-clo
 cloudfront-s3,philips-software,1654,aws,https://github.com/philips-software/terraform-aws-cloudfront-s3,Terraform module CloudFront Distribution for S3
 cloudfront-s3,rails-on-services,3587,aws,https://github.com/rails-on-services/terraform-aws-cloudfront-s3,Manages S3 backed Cloudfront Distribution
 cloudfront-s3-cdn,MoveoTech,19226,aws,https://github.com/MoveoTech/terraform-aws-cloudfront-s3-cdn,Terraform module to easily provision CloudFront CDN backed by an S3 origin
+cloudfront-s3-cdn,SevenPico,24820,aws,https://github.com/SevenPico/terraform-aws-cloudfront-s3-cdn,Terraform module to easily provision CloudFront CDN backed by an S3 origin
 cloudfront-s3-cdn,cloudposse,182,aws,https://github.com/cloudposse/terraform-aws-cloudfront-s3-cdn,Terraform module to easily provision CloudFront CDN backed by an S3 origin
 cloudfront-s3-cdn,corpit-consulting-public,4090,aws,https://github.com/corpit-consulting-public/terraform-aws-cloudfront-s3-cdn,Terraform module to easily provision CloudFront CDN backed by an S3 origin
 cloudfront-s3-cdn,juanConversalab,7206,aws,https://github.com/juanConversalab/terraform-aws-cloudfront-s3-cdn,Terraform module to easily provision CloudFront CDN backed by an S3 origin
@@ -9076,6 +9078,7 @@ learninglab,remche,8805,openstack,https://github.com/remche/terraform-openstack-
 lernmaas,mc-b,13104,lerncloud,https://github.com/mc-b/terraform-lerncloud-lernmaas,Terraform Modul lernMAAS. Legt VMs fuer ganze Klassen auf MAAS.io an.
 less,terraless,2337,aws,https://github.com/terraless/terraform-aws-less,
 letsencrypt,USSBA,5514,aws,https://github.com/USSBA/terraform-aws-letsencrypt,Terraform module to provision Let's Encrypt certificates
+letsencrypt-lambda,kvendingoldo,24821,aws,https://github.com/kvendingoldo/terraform-aws-letsencrypt-lambda,The AWS Let's Encrypt Lambda with Terraform Automation is a comprehensive solution designed to automate the acquisition and renewal of SSL/TLS certificates for your web applications hosted on the AWS.
 levant,IamTheFij,16209,nomad,https://github.com/IamTheFij/terraform-nomad-levant,A Levant render module for Terraform 
 lex-lambda,JamesWoolfenden,2105,aws,https://github.com/JamesWoolfenden/terraform-aws-lex-lambda,"When working with lex and lambdas, we had a lot of resources associated to supporting one lambda, this just uses some sensible defaults to lighten the load."
 library,heathen1878,20055,azuredevops,https://github.com/heathen1878/terraform-azuredevops-library,Manages Azure DevOps library items
@@ -9259,6 +9262,7 @@ logging-sink,bootlabstech,14076,google,https://github.com/bootlabstech/terraform
 logging-sink,mineiros-io,12934,google,https://github.com/mineiros-io/terraform-google-logging-sink,A Terraform module to create and manage a loggin sinks in Google Cloud https://cloud.google.com/logging
 logic-app,clouddrove,17918,azure,https://github.com/clouddrove/terraform-azure-logic-app,
 logic-app,cyber-scot,22722,azurerm,https://github.com/cyber-scot/terraform-azurerm-logic-app,A module used to deploy Azure Logic Apps 📈
+logic-app-standard,SkittleBomb,24811,azurerm,https://github.com/SkittleBomb/terraform-azurerm-logic-app-standard,
 logic-app-standard,data-platform-hq,18052,azurerm,https://github.com/data-platform-hq/terraform-azurerm-logic-app-standard,Terraform module for manage Azure Logic App (Standard)
 logic-app-workflow,data-platform-hq,16245,azurerm,https://github.com/data-platform-hq/terraform-azurerm-logic-app-workflow,
 logicapp,bootlabstech,17338,azurerm,https://github.com/bootlabstech/terraform-azurerm-logicapp,
@@ -9501,6 +9505,7 @@ metaflow,outerbounds,11636,aws,https://github.com/outerbounds/terraform-aws-meta
 metal-ecs-anywhere,equinix,8918,equinix,https://github.com/equinix/terraform-equinix-metal-ecs-anywhere,Run on Equinix Metal your ECS tasks
 metal-eks-anywhere,equinix-labs,14827,equinix,https://github.com/equinix-labs/terraform-equinix-metal-eks-anywhere,EKS Anywhere on Equinix Metal (Baremetal)
 metal-hosts-with-logz,HPE,15499,hpegl,https://github.com/HPE/terraform-hpegl-metal-hosts-with-logz,
+metal-hybrid-gateway,equinix-labs,24817,equinix,https://github.com/equinix-labs/terraform-equinix-metal-hybrid-gateway,Terraform module for a Hybrid-Bonded public gateway node in front of private Layer2 nodes
 metal-ibm-satellite-on-baremetal,equinix,9174,equinix,https://github.com/equinix/terraform-equinix-metal-ibm-satellite-on-baremetal,Terraform module for quick deployment of IBM Satellite on Equinix Metal
 metal-kvm-edge,equinix-labs,12242,equinix,https://github.com/equinix-labs/terraform-equinix-metal-kvm-edge,"Deploy an instance at Equinix Metal to run edge network services like a router, firewall or other NFV"
 metal-nutanix-cluster,equinix-labs,24289,equinix,https://github.com/equinix-labs/terraform-equinix-metal-nutanix-cluster,Nutanix Cluster on Equinix Metal
@@ -11005,6 +11010,7 @@ panos-azure-nva,jye-aviatrix,17961,azurerm,https://github.com/jye-aviatrix/terra
 panos-bootstrap,PaloAltoNetworks,5695,aws,https://github.com/PaloAltoNetworks/terraform-aws-panos-bootstrap,This Terraform Module creates a PAN-OS bootstrap package in an AWS S3 bucket to be used for bootstrapping Palo Alto Networks VM-Series virtual firewall instances.
 panos-bootstrap,PaloAltoNetworks,5873,azurerm,https://github.com/PaloAltoNetworks/terraform-azurerm-panos-bootstrap,Creates a PAN-OS bootstrap package in Microsoft Azure.
 panos-bootstrap,PaloAltoNetworks,5874,google,https://github.com/PaloAltoNetworks/terraform-google-panos-bootstrap,This Terraform Module creates a PAN-OS bootstrap package in a Google Cloud Storage bucket.
+parallelcluster,aws-tf,24816,aws,https://github.com/aws-tf/terraform-aws-parallelcluster,AWS ParallelCluster Module for Terraform
 parameter,iac-factory,14372,local,https://github.com/iac-factory/terraform-local-parameter,Terraform Cloud Resource Naming + Tagging
 parameter-store,Codzs-Architecture,23304,aws,https://github.com/Codzs-Architecture/terraform-aws-parameter-store,
 parameter-store,leonmwandiringa,15817,aws,https://github.com/leonmwandiringa/terraform-aws-parameter-store,
@@ -11559,6 +11565,8 @@ rabbitmq-operator,mateothegreat,6579,kubernetes,https://github.com/mateothegreat
 rabbitmq-role,ptonini,16795,vault,https://github.com/ptonini/terraform-vault-rabbitmq-role,
 rabbitmq-secrets-engine,devops-rob,7439,vault,https://github.com/devops-rob/terraform-vault-rabbitmq-secrets-engine,This module enables and configures the RabbitMQ secrets engine.
 rabbitmq-service,philips-labs,9106,hsdp,https://github.com/philips-labs/terraform-hsdp-rabbitmq-service,
+rad-security-connect,rad-security,24812,aws,https://github.com/rad-security/terraform-aws-rad-security-connect,A terraform module for allowing Rad Security to connect to your AWS account.
+rad-security-connect,rad-security,24813,azurerm,https://github.com/rad-security/terraform-azurerm-rad-security-connect,A terraform module for allowing Rad Security to connect to your Azure account.
 radarr,Feleuxens,22279,helm,https://github.com/Feleuxens/terraform-helm-radarr,Terraform module to provision Radarr
 radius,rapster83,24790,azure,https://github.com/rapster83/terraform-azure-radius,
 radiusmssql,implodingduck,21715,azurerm,https://github.com/implodingduck/terraform-azurerm-radiusmssql,
@@ -12155,6 +12163,7 @@ reposync,danielpodwysocki,11535,aws,https://github.com/danielpodwysocki/terrafor
 request-signer,Invicton-Labs,9874,aws,https://github.com/Invicton-Labs/terraform-aws-request-signer,Creates an AWS v4 signed request.
 res-app-containerapp,kewalaka,22564,azapi,https://github.com/kewalaka/terraform-azapi-res-app-containerapp,
 res-resources-resourcegroups,SkittleBomb,23599,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-resources-resourcegroups,Creates one or multiple resource groups
+res-service-plan,SkittleBomb,24815,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-service-plan,
 res-storage-storageaccount,SkittleBomb,23600,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-storage-storageaccount,Module to deploy storage accounts in Azure
 res-storage-storageaccount,kewalaka,22526,azurerm,https://github.com/kewalaka/terraform-azurerm-res-storage-storageaccount,
 resiliencehub-app,aws-ia,15142,aws,https://github.com/aws-ia/terraform-aws-resiliencehub-app,
@@ -12389,6 +12398,7 @@ route53,tomarv2,12338,aws,https://github.com/tomarv2/terraform-aws-route53,Terra
 route53,web-virtua-aws-multi-account-modules,17087,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-route53,
 route53-acm-domain-registration,millbj92,10373,aws,https://github.com/millbj92/terraform-aws-route53-acm-domain-registration,Module to create an SSL Certificate on ACM and then register it on Route53. Well work with custom or default domain.
 route53-alarm,wesol05,2862,aws,https://github.com/wesol05/terraform-aws-route53-alarm,
+route53-alias,SevenPico,24819,aws,https://github.com/SevenPico/terraform-aws-route53-alias,Terraform Module to Define Vanity Host/Domain (e.g. `brand.com`) as an ALIAS record
 route53-alias,cloudposse,181,aws,https://github.com/cloudposse/terraform-aws-route53-alias,Terraform Module to Define Vanity Host/Domain (e.g. `brand.com`) as an ALIAS record
 route53-alias,devops-workflow,841,aws,https://github.com/devops-workflow/terraform-aws-route53-alias,Terraform Module to Define Vanity Host/Domain (e.g. `brand.com`) as an ALIAS record
 route53-alias,mediapop,1087,aws,https://github.com/mediapop/terraform-aws-route53-alias,Simplest way to set up IPv4 and IPv6 aliases.
@@ -12412,7 +12422,7 @@ route53-fastmail,daringway,4291,aws,https://github.com/wderezin/terraform-aws-ro
 route53-fastmail,wderezin,11592,aws,https://github.com/wderezin/terraform-aws-route53-fastmail,"Setups an AWS Route 53  zone for fastmail with needed MX, SPF, and TXT resources. "
 route53-flashpoint,K8sKween,22003,aws,https://github.com/K8sKween/terraform-aws-route53-flashpoint,"An efficient Terraform module for dynamic management of temporary AWS Route53 DNS records, featuring automated lifecycle management, API-driven interaction, and integrated AWS services"
 route53-freeipa-recordset,CogDisResLab,14256,aws,https://github.com/CogDisResLab/terraform-aws-route53-freeipa-recordset,
-route53-github-verification,ksatirli,15266,aws,https://github.com/ksatirli/terraform-aws-route53-github-verification,Route 53 Records for GitHub Domain Verification
+route53-github-verification,ksatirli,15266,aws,https://github.com/ksatirli/terraform-aws-route53-github-verification,Terraform Module: Route 53 Records for GitHub Domain Verification
 route53-github-verification,operatehappy,4057,aws,https://github.com/ksatirli/terraform-aws-route53-github-verification,Route 53 Records for GitHub Domain Verification
 route53-gmail,truemark,6652,aws,https://github.com/truemark/terraform-aws-route53-gmail,Terraform module to setup gmail records in route53
 route53-gsuite-mx,caherrera,16223,aws,https://github.com/caherrera/terraform-aws-route53-gsuite-mx,
@@ -12454,7 +12464,7 @@ route53-resolver-rule,rhythmictech,3132,aws,https://github.com/rhythmictech/terr
 route53-resolver-rules,lgallard,4263,aws,https://github.com/lgallard/terraform-aws-route53-resolver-rules,Terraform module to create AWS Route53 Resolver Rules.
 route53-s3-http-redirect,TechNative-B-V,15941,aws,https://github.com/TechNative-B-V/terraform-aws-module-route53-s3-http-redirect,Creates a simple http-url forwarding redirect using a Route 53 alias record and a S3 bucket.
 route53-ses,ugns,7936,aws,https://github.com/ugns/terraform-aws-route53-ses,A Simple Email Service setup with AWS Route53
-route53-workmail-records,ksatirli,15265,aws,https://github.com/ksatirli/terraform-aws-route53-workmail-records,Route 53 Records for AWS WorkMail
+route53-workmail-records,ksatirli,15265,aws,https://github.com/ksatirli/terraform-aws-route53-workmail-records,Terraform Module: Route 53 Records for AWS WorkMail
 route53-workmail-records,operatehappy,2991,aws,https://github.com/ksatirli/terraform-aws-route53-workmail-records,Route 53 Records for AWS WorkMail
 route53-zone,brunordias,5586,aws,https://github.com/brunordias/terraform-aws-route53-zone,Terraform module which create a AWS Route53 Hosted Public or Private Zone
 route53-zone,cytopia,1883,aws,https://github.com/cytopia/terraform-aws-route53-zone,A Terraform module that handles creation of multiple Route53 zones including attachment to new or existing delegation set
@@ -16603,7 +16613,7 @@ workload-identity,chrisarcand,22639,hcp,https://github.com/chrisarcand/terraform
 workload-identity,gplusmedia,5040,google,https://github.com/gplusmedia/terraform-google-workload-identity,A terraform module to create a service account on Google Cloud Platform that grants IAM roles to a Kubernetes service account via Workload Identity
 workload-identity,ishuar,22434,azure,https://github.com/ishuar/terraform-azure-workload-identity,Terraform module for creating workload identity in azure.
 workload-identity,paul-pfeiffer,19254,azurerm,https://github.com/paul-pfeiffer/terraform-azurerm-workload-identity,Azure Kubernetes Cluster Azure workload Identity integration module for terraform
-workload-identity-federation,data-platform-hq,24079,azurerm,https://github.com/data-platform-hq/terraform-azurerm-workload-identity-federation,
+workload-identity-federation,data-platform-hq,24079,azurerm,https://github.com/data-platform-hq/terraform-azurerm-workload-identity-federation,Terraform module for creation Azure User Assigned Identity
 workload-identity-federation,mscribellito,13039,google,https://github.com/mscribellito/terraform-google-workload-identity-federation,Terraform module for workload identity federation on GCP.
 workload-identity-federation-multi-provider,SudharsaneSivamany,17047,google,https://github.com/SudharsaneSivamany/terraform-google-workload-identity-federation-multi-provider,
 worklytics-export,Worklytics,17536,aws,https://github.com/Worklytics/terraform-aws-worklytics-export,Terraform module to setup an export from Worklytics to AWS.
