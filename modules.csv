@@ -2759,6 +2759,7 @@ cloudbricks-windows-compute,oracle-devrel,10281,oci,https://github.com/oracle-de
 cloudbricks-windows-iscsi-disks,oracle-devrel,10282,oci,https://github.com/oracle-devrel/terraform-oci-cloudbricks-windows-iscsi-disks,OCI Cloud Bricks: iSCSI Disks (Windows)
 cloudbuild,memes,12067,google,https://github.com/memes/terraform-google-cloudbuild,Helper module to setup various Cloud Build triggers
 cloudbuild-gcr,google-terraform-modules,1567,google,https://github.com/google-terraform-modules/terraform-google-cloudbuild-gcr," Create triggers CloudBuild GCR"
+cloudbuild-notifier,altissimo-hq,24844,google,https://github.com/altissimo-hq/terraform-google-cloudbuild-notifier,Deploys the Google Cloud Build Notifier as a Cloud Run Service
 cloudbuildv2-connection,altissimo-hq,18660,google,https://github.com/altissimo-hq/terraform-google-cloudbuildv2-connection,Creates a Google CloudBuild v2 GitHub Connection and Repositories
 cloudcheckr,rhythmictech,3121,aws,https://github.com/rhythmictech/terraform-aws-cloudcheckr,Enable cloudcheckr in AWS
 cloudcraft-blueprint,DomWeldon,10287,aws,https://github.com/DomWeldon/terraform-aws-cloudcraft-blueprint,A Terraform module to create a Cloudcraft blueprint of your AWS infrastructure.
@@ -3566,6 +3567,7 @@ cosmotech-common,Cosmo-Tech,21289,azure,https://github.com/Cosmo-Tech/terraform-
 cosmotech-platform,Cosmo-Tech,18898,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-platform,
 cosmotech-prerequisites,Cosmo-Tech,18977,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-prerequisites,
 cosmotech-tenant,Cosmo-Tech,21328,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-tenant,
+cosmotech-tenant,Cosmo-Tech,24848,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-tenant,
 cosmotech-workspace,enocquet,24066,azure,https://github.com/enocquet/terraform-azure-cosmotech-workspace,
 cost,squat,21815,saladcloud,https://github.com/squat/terraform-saladcloud-cost,Calculate the cost of running an instance on SaladCloud
 cost,tedilabs,18398,aws,https://github.com/tedilabs/terraform-aws-cost,🌳 A sustainable Terraform Package which creates resources for Cost on AWS
@@ -4022,6 +4024,7 @@ dir,hashicorp,5157,template,https://github.com/hashicorp/terraform-template-dir,
 direct-mail,terraform-alicloud-modules,12795,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-direct-mail,Terraform Module for creating Direct Mail resources on Alibaba Cloud.
 directconnect,BorisLabs,2559,aws,https://github.com/BorisLabs/terraform-aws-directconnect,Terraform module to setup AWS Direct Connect resources
 directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terraform-aws-directory-service-with-logging,Terraform AWS module for Directory service directory with logging
+directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
 disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terraform-azurerm-disallow-ragrs-policy,"This Terraform module creates a custom Azure policy definition that prevents the creation of storage accounts with Standard_RAGRS SKU unless they have the exemption tag ""Exempt: Disallow Standard_RAGRS"". The policy can be assigned to a management group or subscription."
 discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,DiscrimiNAT Firewall for egress filtering by FQDNs on AWS. Architecture with ENIs in VPCs for Private Subnets' route table entries to the Internet.
 discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,"HTTPS, TLS, SSH, SFTP micro-segmentation firewall to filter VPC egress by hostnames. Architecture with Gateway Load Balancer (GWLB) VPC Endpoints for Private Subnets' route table entries to the Internet. "
@@ -5020,6 +5023,7 @@ ec2,monbostest,10803,aws,https://github.com/monbostest/terraform-aws-ec2,
 ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terraform-aws-ec2
 ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-ec2,
 ec2,nullc4t,17501,vultr,https://github.com/const-tmp/terraform-vultr-ec2,Creating batch EC2 instances in Vultr with a single config. Easy scalable. 
+ec2,pankajsao11,24846,aws,https://github.com/pankajsao11/terraform-aws-ec2,Collection of Terraform AWS modules
 ec2,panovmikhail,22284,aws,https://github.com/panovmikhail/terraform-aws-ec2,Terraform module for creating EC2 instances
 ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,"Creates an EC2 instance with access secured to the local host. Deploys Plaid Quickstart service on it. Upon completion of Provision instructions, run the following command to initialize the root directory: ./.terraform/modules/ec2/scripts/init.sh "
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
@@ -7251,6 +7255,7 @@ ha,belalhassan91,15823,aws,https://github.com/belalhassan91/terraform-aws-ha,A T
 ha,moltin,175,rancher,https://github.com/moltin/terraform-rancher-ha,Terraform Rancher HA cluster in AWS
 ha-ec2-alb,OT-CLOUD-KIT,4890,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-ha-ec2-alb,This repository consists of Terraform module for Highly Available EC2 Instance in AWS.
 ha-k3s,aigisuk,8416,digitalocean,https://github.com/aigisuk/terraform-digitalocean-ha-k3s,High Availability K3s Cluster deployed on DigitalOcean (Load Balanced API Server and external Postgres/MySQL Datastore)
+ha-k3s,jmarhee,24849,digitalocean,https://github.com/jmarhee/terraform-digitalocean-ha-k3s,
 ha-vpc-module,binxio,13309,aws,https://github.com/binxio/terraform-aws-ha-vpc-module,Terraform module containing a highly available AWS VPC
 habitat,devoptimist,2923,chef,https://github.com/srb3/terraform-chef-habitat,
 habitat,srb3,3922,chef,https://github.com/srb3/terraform-chef-habitat,
@@ -10255,6 +10260,7 @@ nat-instance,garbetjie,6076,google,https://github.com/garbetjie/terraform-google
 nat-instance,gfortetsanakis,15200,aws,https://github.com/gfortetsanakis/terraform-aws-nat-instance,
 nat-instance,hgambarian,24788,aws,https://github.com/hgambarian/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance,int128,3097,aws,https://github.com/int128/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
+nat-instance,nibuild,24850,aws,https://github.com/nibuild/terraform-aws-nat-instance,Terraform module to provision an auto-healing NAT Instance using an Auto Scaling Group and Spot Instances.
 nat-instance,slitsevych,20037,aws,https://github.com/slitsevych/terraform-aws-nat-instance,Terraform module to create AWS NAT instances
 nat-instance,truemark,17644,aws,https://github.com/truemark/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance-setup,bennesp,8914,aws,https://github.com/bennesp/terraform-aws-nat-instance-setup,Module to create a VPC with two subnets (private and public) and a NAT instance
@@ -11572,7 +11578,6 @@ rabbitmq-service,philips-labs,9106,hsdp,https://github.com/philips-labs/terrafor
 rad-security-connect,rad-security,24812,aws,https://github.com/rad-security/terraform-aws-rad-security-connect,A terraform module for allowing Rad Security to connect to your AWS account.
 rad-security-connect,rad-security,24813,azurerm,https://github.com/rad-security/terraform-azurerm-rad-security-connect,A terraform module for allowing Rad Security to connect to your Azure account.
 radarr,Feleuxens,22279,helm,https://github.com/Feleuxens/terraform-helm-radarr,Terraform module to provision Radarr
-radius,rapster83,24790,azure,https://github.com/rapster83/terraform-azure-radius,
 radiusmssql,implodingduck,21715,azurerm,https://github.com/implodingduck/terraform-azurerm-radiusmssql,
 radiusredis,implodingduck,21733,azurerm,https://github.com/implodingduck/terraform-azurerm-radiusredis,
 rails-app,henryaddison,5003,heroku,https://github.com/henryaddison/terraform-heroku-rails-app,Terraform module to assist provisioning a Heroku app and addons for a Rails web app
@@ -13554,6 +13559,7 @@ ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-dashboard,connect-group,1099,aws,https://github.com/connect-group/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
+ses-dashboard,duboiss,24847,aws,https://github.com/duboiss/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-dashboard,nutellinoit,12563,aws,https://github.com/nutellinoit/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-domain,Invicton-Labs,10469,aws,https://github.com/Invicton-Labs/terraform-aws-ses-domain,"Creates and fully validates an SES domain identity, including DKIM, SPF, custom MAIL FROM domain, and DMARC."
 ses-domain,dod-iac,6496,aws,https://github.com/dod-iac/terraform-aws-ses-domain,AWS SES Domain
