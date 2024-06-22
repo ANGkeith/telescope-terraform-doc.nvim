@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/ANGkeith/telescope-terraform-doc.nvim/compare/v2.0.0...v2.1.0) (2024-06-22)
+
+
+### Features
+
+* hackery to inject attach_mappings to the search picker ([#34](https://github.com/ANGkeith/telescope-terraform-doc.nvim/issues/34)) ([642b4ef](https://github.com/ANGkeith/telescope-terraform-doc.nvim/commit/642b4ef8ce1e2e2129efdf7139d526a5a0573e77))
+
 # [2.0.0](https://github.com/ANGkeith/telescope-terraform-doc.nvim/compare/v1.3.0...v2.0.0) (2024-06-09)
 
 
