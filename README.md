@@ -66,10 +66,11 @@ nnoremap <space>otk :Telescope terraform_doc full_name=hashicorp/kubernetes<cr>
 ### Configurable settings
 | Keys                     | Description                                                      | Options                             |
 |--------------------------|------------------------------------------------------------------|-------------------------------------|
-| `url_open_handler`       | A function that will be used to open the url                     | function                            |
+| `url_open_handler`       | The handler for opening url                                      | function                            |
 | `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)               |
 | `wincmd`                 | Command to open documentation in a split window                  | string (default: `botright vnew`)   |
 | `wrap`                   | Wrap lines in a documentation in a split window                  | string (default: `nowrap`)          |
+| `search_attach_mappings` | The `attach_mapping` handler to pass to the search picker        | function                            |
 
 ```lua
 local function customOpen(url)
@@ -93,3 +94,28 @@ require("telescope").setup({
 |---------|--------------------------------------------|
 | `<cr>`  | Open documentation with `url_open_handler` |
 | `<c-d>` | Open documentation in a split window       |
+
+##### Quirks
+
+Due to how the `search` picker is written, `attach_mapping` cannot be used directly to override the mappings.
+
+This is how you can customize the `search` picker mappings.
+
+```lua
+local telescope_actions = require("telescope.actions")
+local terraform_doc_actions = require("telescope._extensions.terraform_doc.actions")
+local terraform_doc_opts = require("telescope._extensions.terraform_doc.config").opts
+local function search_attach_mappings()
+    telescope_actions.select_default:replace(terraform_doc_actions.doc_view(terraform_doc_opts()))
+    return true
+end
+
+require("telescope").setup({
+  extensions = {
+    terraform_doc = {
+      search_attach_mappings = search_attach_mappings,
+    }
+  }
+})
+require("telescope").load_extension("terraform_doc")
+```

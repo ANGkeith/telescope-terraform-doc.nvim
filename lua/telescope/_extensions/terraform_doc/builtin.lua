@@ -12,7 +12,7 @@ local M_opts = require("telescope._extensions.terraform_doc.config").opts
 local M = {}
 
 function M.search(opts)
-  opts = vim.tbl_extend("keep", opts or {}, M_opts)
+  opts = vim.tbl_extend("keep", opts or {}, M_opts())
 
   if not opts.full_name then
     M.providers(opts)
@@ -29,7 +29,7 @@ function M.search(opts)
         results = M_api.get_provider_resources(provider_version_meta.id),
         entry_maker = M_make_entry.gen_from_run(opts),
       }),
-      attach_mappings = function(_, map)
+      attach_mappings = opts.search_attach_mappings or function(_, map)
         actions.select_default:replace(M_actions.url_opener(opts))
         map("i", "<c-d>", M_actions.doc_view(opts))
         return true
@@ -39,7 +39,7 @@ function M.search(opts)
 end
 
 function M.providers(opts)
-  opts = vim.tbl_extend("keep", opts, M_opts)
+  opts = vim.tbl_extend("keep", opts or {}, M_opts())
 
   pickers
     .new(opts, {
@@ -58,7 +58,7 @@ function M.providers(opts)
 end
 
 function M.modules(opts)
-  opts = vim.tbl_extend("keep", opts, M_opts)
+  opts = vim.tbl_extend("keep", opts, M_opts())
 
   pickers
     .new(opts, {
