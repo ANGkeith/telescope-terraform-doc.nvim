@@ -71,7 +71,7 @@ function M.gen_prompt_title(provider_version_meta)
       .. " (v"
       .. provider_version_meta.version
       .. ")"
-      .. M_opts.latest_provider_symbol
+      .. M_opts().latest_provider_symbol
   end
   return provider_version_meta.full_name .. " (v" .. provider_version_meta.version .. ")"
 end

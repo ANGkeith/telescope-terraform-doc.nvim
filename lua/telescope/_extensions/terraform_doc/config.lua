@@ -1,12 +1,3 @@
-local M = {
-  opts = {
-    latest_provider_symbol = "*",
-    version = "latest",
-    wincmd = "botright vnew",
-    wrap = "nowrap",
-  },
-}
-
 local function open(url)
   if vim.fn.has("mac") == 1 then
     vim.fn.system('open "' .. url .. '"')
@@ -17,11 +8,21 @@ local function open(url)
   end
 end
 
+local default_opts = {
+  latest_provider_symbol = "*",
+  version = "latest",
+  wincmd = "botright vnew",
+  wrap = "nowrap",
+  url_open_handler = vim.ui.open or open,
+}
+local M = {}
+
 M.setup = function(opts)
-  M.opts.url_open_handler = opts.url_open_handler or vim.ui.open or open
-  M.opts.latest_provider_symbol = opts.latest_provider_symbol or M.opts.latest_provider_symbol
-  M.opts.wincmd = opts.wincmd or M.opts.wincmd
-  M.opts.wrap = opts.wrap or M.opts.wrap
+  M._opts = vim.tbl_extend("keep", opts or {}, default_opts)
+end
+
+M.opts = function()
+  return M._opts
 end
 
 return M
