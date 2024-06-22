@@ -29,7 +29,7 @@ function M.search(opts)
         results = M_api.get_provider_resources(provider_version_meta.id),
         entry_maker = M_make_entry.gen_from_run(opts),
       }),
-      attach_mappings = function(_, map)
+      attach_mappings = opts.search_attach_mappings or function(_, map)
         actions.select_default:replace(M_actions.url_opener(opts))
         map("i", "<c-d>", M_actions.doc_view(opts))
         return true
