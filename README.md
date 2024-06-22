@@ -66,7 +66,7 @@ nnoremap <space>otk :Telescope terraform_doc full_name=hashicorp/kubernetes<cr>
 ### Configurable settings
 | Keys                     | Description                                                      | Options                             |
 |--------------------------|------------------------------------------------------------------|-------------------------------------|
-| `url_open_handler`       | A function that will be used to open the url                     | function                            |
+| `url_open_handler`       | The handler for opening url                                      | function                            |
 | `latest_provider_symbol` | The symbol for indicating that the current version is the latest | string (default: `*`)               |
 | `wincmd`                 | Command to open documentation in a split window                  | string (default: `botright vnew`)   |
 | `wrap`                   | Wrap lines in a documentation in a split window                  | string (default: `nowrap`)          |
