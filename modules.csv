@@ -185,7 +185,7 @@ accountomat,GoCarrot,12463,aws,https://github.com/GoCarrot/terraform-aws-account
 accountomat_read,GoCarrot,12467,aws,https://github.com/GoCarrot/terraform-aws-accountomat_read,Accountomat Read reads data peristed by Accountomat and provides it for use in terraform modules
 accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-azure-accounts,Configure Azure Azure AD Resources and Permissions
 accounts,widespot,19947,aws,https://github.com/widespot/terraform-aws-accounts,
-acf-account-cache,acai-consulting,24742,aws,https://github.com/acai-consulting/terraform-aws-acf-account-cache,"Will create a chache contailing the account context like ID, Name, OU-ID, OU path and tags"
+acf-account-cache,acai-consulting,24742,aws,https://github.com/acai-consulting/terraform-aws-acf-account-cache,"Will create a cache containing the account context like account-ID, account-name, OU-ID, OU path and tags"
 acf-core-configuration,acai-consulting,24743,aws,https://github.com/acai-consulting/terraform-aws-acf-core-configuration,Module to exchange dynamic resource configuration between Core Pipelines
 acf-idc,acai-consulting,24744,aws,https://github.com/acai-consulting/terraform-aws-acf-idc,ACAI Cloud Foundation module for AWS Identity Center
 acf-org-cloudtrail,acai-consulting,24745,aws,https://github.com/acai-consulting/terraform-aws-acf-org-cloudtrail,
@@ -212,12 +212,14 @@ acm,clouddrove,3633,aws,https://github.com/clouddrove/terraform-aws-acm,This ter
 acm,finisterra-io,23548,aws,https://github.com/finisterra-io/terraform-aws-acm,Terraform module for AWS Certificate Manager
 acm,kadragon,12760,aws,https://github.com/kadragon/terraform-aws-acm,
 acm,khaledez,12145,aws,https://github.com/khaledez/terraform-aws-acm,AWS Certificate Manager Terraform Module
+acm,mikamakusa,24938,aws,https://github.com/mikamakusa/terraform-aws-acm,
 acm,oozou,15117,aws,https://github.com/oozou/terraform-aws-acm,AWS Certificate manager Terraform
 acm,rails-on-services,3586,aws,https://github.com/rails-on-services/terraform-aws-acm,Manages AWS ACM resources
 acm,safanaj,7416,aws,https://github.com/safanaj/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,spirius,5173,aws,https://github.com/spirius/terraform-aws-acm,AWS ACM Certificate
 acm,terraform-aws-modules,1881,aws,https://github.com/terraform-aws-modules/terraform-aws-acm,Terraform module to create AWS ACM resources 🇺🇦
 acm,terraform-module,3812,aws,https://github.com/terraform-module/terraform-aws-acm,ℹ️ Terraform AWS ACM module.
+acm,tigpt,24940,aws,https://github.com/tigpt/terraform-aws-acm,Terraform module to create AWS ACM resources 🇺🇦
 acm,tomarv2,12363,aws,https://github.com/tomarv2/terraform-aws-acm,Terraform module for Amazon Certificate Manager
 acm,ugns,7551,aws,https://github.com/ugns/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,web-virtua-aws-multi-account-modules,17167,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-acm,
@@ -2389,6 +2391,7 @@ cdo-sdc,CiscoDevNet,21022,vsphere,https://github.com/CiscoDevNet/terraform-vsphe
 cdo-sec,CiscoDevNet,19305,aws,https://github.com/CiscoDevNet/terraform-aws-cdo-sec,
 cdp,aws-ia,21203,cloudera,https://github.com/aws-ia/terraform-cloudera-cdp,This Amazon Web Services (AWS) Partner Solution uses a Terraform module to deploy Cloudera Data Platform (CDP) in the AWS Cloud.
 cdp-policy,netascode,9767,aci,https://github.com/netascode/terraform-aci-cdp-policy,Terraform Cisco ACI CDP Policy Module
+celestia,Crouton-Digital,24937,ssh,https://github.com/Crouton-Digital/terraform-ssh-celestia,
 cen-bandwidth,terraform-alicloud-modules,2263,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-bandwidth,Terraform module which creates CEN bandwidth on Alibaba Cloud
 cen-instance,terraform-alicloud-modules,2262,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-instance,Terraform module which creates CEN instances and attach them with other instance on Alibaba Cloud
 cen-transit-router,terraform-alicloud-modules,12789,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-transit-router,Terraform Module for creating CEN Transit Router resources on Alibaba Cloud.
@@ -9868,7 +9871,7 @@ monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitori
 monitoring,terraform-do-modules,20251,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-monitoring,"Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure"
 monitoring,terraform-iaac,9201,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-monitoring,Terraform module for monitor your kubernetes resources via Prometheus+Alertmanager+Grafana
 monitoring,vistaprint,2994,newrelic,https://github.com/vistaprint/terraform-newrelic-monitoring,Terraform module to monitor an application using New Relic
-monitoring-alert-policy,Albahli,24909,gcp,https://github.com/Albahli/terraform-gcp-monitoring-alert-policy,A custom Terraform module that creates a Google Cloud Monitoring Alert Policy.
+monitoring-alert-policy,albahli,24936,gcp,https://github.com/albahli/terraform-gcp-monitoring-alert-policy,A custom Terraform module that creates a Google Cloud Monitoring Alert Policy.
 monitoring-bundle,blackbird-cloud,15824,helm,https://github.com/blackbird-cloud/terraform-helm-monitoring-bundle,"Core module of monitoring bundle, contains deployment of both prometheus and grafana"
 monitoring-cluster,Mtt6300,4760,kubernetes,https://github.com/Mtt6300/terraform-kubernetes-monitoring-cluster,Monitoring tools for k8s cluster by using Terraform
 monitoring-notification-channel,mineiros-io,11281,google,https://github.com/mineiros-io/terraform-google-monitoring-notification-channel,A Terraform module to manage monitoring Notification Channels in Google Cloud https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/monitoring_notification_channel
@@ -10189,6 +10192,7 @@ namespace,aidagaiti,23046,kubernetes,https://github.com/aidagaiti/terraform-kube
 namespace,akw-devsecops,19739,kubernetes,https://github.com/akw-devsecops/terraform-kubernetes-namespace,Terraform module to provision Kubernetes namespaces.
 namespace,alex-dev0ps,24921,kubernetes,https://github.com/alex-dev0ps/terraform-kubernetes-namespace,
 namespace,alina-agalakova,21966,kubernetes,https://github.com/alina-agalakova/terraform-kubernetes-namespace,
+namespace,almazaidarov,24941,kubernetes,https://github.com/almazaidarov/terraform-kubernetes-namespace,
 namespace,aszumilas99,24922,kubernetes,https://github.com/aszumilas99/terraform-kubernetes-namespace,
 namespace,ausmartway,10146,vault,https://github.com/ausmartway/terraform-vault-namespace,A Terraform module for Vault namespace
 namespace,baydullod,21970,kubernetes,https://github.com/baydullod/terraform-kubernetes-namespace,
@@ -10220,6 +10224,7 @@ namespace,natenatep420,22031,kubernetes,https://github.com/natenatep420/terrafor
 namespace,nazikmusa,22960,kubernetes,https://github.com/nazikmusa/terraform-kubernetes-namespace,
 namespace,ofurmaniuk,22946,kubernetes,https://github.com/ofurmaniuk/terraform-kubernetes-namespace,
 namespace,olgaver24,22936,kubernetes,https://github.com/olgaver24/terraform-kubernetes-namespace,
+namespace,ostafon1,24935,kubernetes,https://github.com/ostafon1/terraform-kubernetes-namespace,
 namespace,pro100olya,24934,kubernetes,https://github.com/pro100olya/terraform-kubernetes-namespace,
 namespace,ridwanbejo,22578,kubernetes,https://github.com/ridwanbejo/terraform-kubernetes-namespace,Terraform module for managing Kubernetes namespace and resource quota
 namespace,sentinelfox-labs,22501,utils,https://github.com/sentinelfox-labs/terraform-utils-namespace,
@@ -10242,6 +10247,7 @@ namespace-setup,DeimosCloud,8410,kubernetes,https://github.com/DeimosCloud/terra
 namespace-technical-role,MagusDevOps,5984,aws,https://github.com/MagusDevOps/terraform-aws-namespace-technical-role,"provides an opinionated module to create a namespace based technical role for an AWS account restricted by resources paths, similar permissions to the service account; with the ability to restrict role assumption to corporate networks"
 namespace1,akalybekova5,24928,kubernetes,https://github.com/akalybekova5/terraform-kubernetes-namespace1,
 namespace1,nadiaconeaev89,22912,kubernetes,https://github.com/nadiaconeaev89/terraform-kubernetes-namespace1,
+namespace1,valentinabalan,24942,kubernetes,https://github.com/valentinabalan/terraform-kubernetes-namespace1,
 namespace1,viksan17,21965,kubernetes,https://github.com/viksan17/terraform-kubernetes-namespace1,
 namespace2,MiraRay13,22923,kubernetes,https://github.com/MiraRay13/terraform-kubernetes-namespace2,
 namespace2,farrukh90,24592,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2,
@@ -12109,7 +12115,7 @@ release,ivanababec,24563,helm,https://github.com/ivanababec/terraform-helm-relea
 release,mariadubita,24642,helm,https://github.com/mariadubita/terraform-helm-release,
 release,mariiak42,24893,helm,https://github.com/mariiak42/terraform-helm-release,
 release,mikzuit,16691,helm,https://github.com/mikzuit/terraform-helm-release,A terraform module to create/modify helm releases
-release,moldangrus,24895,helm,https://github.com/moldangrus/terraform-helm-release,
+release,moldangrus,24939,helm,https://github.com/moldangrus/terraform-helm-release,
 release,ptonini,16771,helm,https://github.com/ptonini/terraform-helm-release,
 release,ruslan8424,24904,helm,https://github.com/ruslan8424/terraform-helm-release,
 release,siyabendboral,24646,helm,https://github.com/siyabendboral/terraform-helm-release,
