@@ -368,6 +368,7 @@ agent,cookielab,19244,gitlab,https://github.com/cookielab/terraform-gitlab-agent
 agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-agent,A Terraform Module to create a Secret and DaemonSet for deploying the Lacework Datacollector Agent in a Kubernetes cluster.
 agent,linuxpatch,24767,linuxpatch,https://github.com/linuxpatch/terraform-linuxpatch-agent,"Automate the installation of the LinuxPatch.com, a Patch Management platform for Linux servers. Compatible with Debian, Ubuntu, CentOS, Redhat, Rocky Linux, AlmaLinux, Amazon Linux, and more. Ideal for efficient management of multiple nodes."
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
+agentless-onboarding,imperva,24973,dsfhub,https://github.com/imperva/terraform-dsfhub-agentless-onboarding,Terraform modules for onboarding cloud sources to DSF hub
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
 agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,Terraform module for configuring an integration with Lacework and Google Cloud for agentless scanning
 agentless-scanning,lacework,22113,azure,https://github.com/lacework/terraform-azure-agentless-scanning,Terraform module for configuring an integration with Lacework and Azure for Agentless scanning
@@ -4691,7 +4692,7 @@ docker-instance,volkan-sahin,14677,aws,https://github.com/volkan-sahin/terraform
 docker-instance,volkan4242,16310,aws,https://github.com/volkan4242/terraform-aws-docker-instance2,
 docker-instance,wookeemin,15044,aws,https://github.com/wookeemin/terraform-aws-docker-instance,
 docker-instance,xxhaciixx,18209,aws,https://github.com/xxhaciixx/terraform-aws-docker-instance,
-docker-instance,yagzblt,23966,aws,https://github.com/yagzblt/terraform-aws-docker-instance,
+docker-instance,yagzblt,24971,aws,https://github.com/yagzblt/terraform-aws-docker-instance,
 docker-instance,yakin68,20746,aws,https://github.com/yakin68/terraform-aws-docker-instance,
 docker-instance,yaman5891,23850,aws,https://github.com/yaman5891/terraform-aws-docker-instance,
 docker-instance,yarimci,14828,aws,https://github.com/yarimci/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -5877,7 +5878,7 @@ eks,source4learn,11040,aws,https://github.com/source4learn/terraform-aws-eks," H
 eks,squareops,17706,aws,https://github.com/squareops/terraform-aws-eks,"Terraform module to create an Elastic Kubernetes Service(EKS) cluster, managed(CIS) node group and associated resources"
 eks,stoktobekova,8121,aws,https://github.com/stoktobekova/terraform-aws-eks,
 eks,telia-oss,1648,aws,https://github.com/telia-oss/terraform-aws-eks,A Terraform module for deploying a EKS cluster in AWS
-eks,terraform-aws-modules,1143,aws,https://github.com/terraform-aws-modules/terraform-aws-eks,Terraform module to create AWS Elastic Kubernetes (EKS) resources 🇺🇦
+eks,terraform-aws-modules,1143,aws,https://github.com/terraform-aws-modules/terraform-aws-eks,Terraform module to create Amazon Elastic Kubernetes (EKS) resources 🇺🇦
 eks,thunderbird86,12650,aws,https://github.com/thunderbird86/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
 eks,tmccoy14,8101,aws,https://github.com/tmccoy14/terraform-aws-eks,Terraform Module that defines an EKS cluster and node group with IAM roles and policies.
 eks,tnguyen14,4788,aws,https://github.com/tnguyen14/terraform-aws-eks,Terraform module to bring up an eks cluster with vpc
@@ -10202,7 +10203,7 @@ namespace,almazaidarov,24941,kubernetes,https://github.com/almazaidarov/terrafor
 namespace,aszumilas99,24922,kubernetes,https://github.com/aszumilas99/terraform-kubernetes-namespace,
 namespace,ausmartway,10146,vault,https://github.com/ausmartway/terraform-vault-namespace,A Terraform module for Vault namespace
 namespace,baydullod,21970,kubernetes,https://github.com/baydullod/terraform-kubernetes-namespace,
-namespace,beibars96,24932,kubernetes,https://github.com/beibars96/terraform-kubernetes-namespace,
+namespace,beibars96,24974,kubernetes,https://github.com/beibars96/terraform-kubernetes-namespace,
 namespace,bigmofree,24929,kubernetes,https://github.com/bigmofree/terraform-kubernetes-namespace,
 namespace,blackbird-cloud,15326,kubernetes,https://github.com/blackbird-cloud/terraform-kubernetes-namespace,Simple terraform module to create namespace
 namespace,bukieajayi,24924,kubernetes,https://github.com/bukieajayi/terraform-kubernetes-namespace,
@@ -10261,13 +10262,14 @@ namespace2,farrukh90,24592,kubernetes,https://github.com/farrukh90/terraform-kub
 namespace2,nazikmusa,23916,kubernetes,https://github.com/nazikmusa/terraform-kubernetes-namespace2,
 namespace2023,farrukh90,22908,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2023,
 namespace3,farrukh90,24923,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace3,
+namespace3,moldangrus,24969,kubernetes,https://github.com/moldangrus/terraform-kubernetes-namespace3,
 naming,Azure,5297,azurerm,https://github.com/Azure/terraform-azurerm-naming,
 naming,CloudNationHQ,21738,azure,https://github.com/CloudNationHQ/terraform-azure-naming,A forked terraform module that streamlines the naming process for azure resources
 naming,DownAtTheBottomOfTheMoleHole,23828,azuredevops,https://github.com/DownAtTheBottomOfTheMoleHole/terraform-azuredevops-naming,A terraform module to provide consistent naming to Azure DevOps resource inspired by https://github.com/Azure/terraform-azurerm-naming
 naming,Umanis,9795,azurerm,https://github.com/Umanis/terraform-azurerm-naming,Terraform module to normalize naming on Azure ressources. Based on Microsoft CAF naming.
 naming,WeAreRetail,17998,azurerm,https://github.com/WeAreRetail/terraform-azurerm-naming,Common Azure Terraform module to normalize naming on ressources.
 naming,azurerm,20077,azure,https://github.com/azurerm/terraform-azure-naming,Terraform module to generation Azure resource name.
-naming,data-platform-hq,23196,azurerm,https://github.com/data-platform-hq/terraform-azurerm-naming,
+naming,data-platform-hq,23196,azurerm,https://github.com/data-platform-hq/terraform-azurerm-naming,Terraform module for creation of standardized naming for Azure resources.
 naming,gsoft-inc,3343,azurerm,https://github.com/gsoft-inc/terraform-azurerm-naming,Terraform Azure RM Module for naming resources and resource groups following Microsoft's naming guidelines.
 naming,heathen1878,21907,azurecaf,https://github.com/heathen1878/terraform-azurecaf-naming,Uses Azurecaf to manage naming conventions
 naming,opsvibe,8202,azurerm,https://github.com/opsvibe/terraform-azurerm-naming,
@@ -11094,6 +11096,7 @@ passport,Young-ook,9787,aws,https://github.com/Young-ook/terraform-aws-passport,
 password-policy,QuiNovas,1475,aws,https://github.com/QuiNovas/terraform-aws-password-policy,Sets a strong password policy for an AWS account
 password-policy,rhythmictech,3138,iam,https://github.com/rhythmictech/terraform-aws-iam-password-policy,
 patching,shadbury,16159,aws,https://github.com/shadbury/terraform-aws-patching,
+patistorageaccount,prasanthipati,24967,azure,https://github.com/prasanthipati/terraform-azure-patistorageaccount,
 pavanstorage,pavan1239,12321,azure,https://github.com/pavan1239/terraform-azure-pavanstorage,
 pcluster-amis,dabble-of-devops-bioanalyze,14317,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-pcluster-amis,Build custom AMIS that are compatible with AWS PCluster
 pcstaticwebsitepublic,pchettri3,14577,azurerm,https://github.com/pchettri3/terraform-azurerm-pcstaticwebsitepublic,
@@ -11313,6 +11316,7 @@ practice,Nazarkulova,22746,aws,https://github.com/Nazarkulova/terraform-aws-prac
 practice,vijaykumar8564,23297,azurerm,https://github.com/vijaykumar8564/terraform-azurerm-practice,
 pranitrepo,pranit9067,21223,azure,https://github.com/pranit9067/terraform-azure-pranitrepo,
 pras,prasannakaup,18904,aws,https://github.com/prasannakaup/terraform-aws-pras,terraform-aws-mys3bucket
+prasannastorage,haripriya20036,24960,azurerm,https://github.com/haripriya20036/terraform-azurerm-prasannastorage,
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
 prebid-cache,Prebidly,17761,aws,https://github.com/Prebidly/terraform-aws-prebid-cache,
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
@@ -12108,6 +12112,7 @@ release,alex-dev0ps,24887,helm,https://github.com/alex-dev0ps/terraform-helm-rel
 release,almazaidarov,24918,helm,https://github.com/almazaidarov/terraform-helm-release,
 release,aszumilas99,24888,helm,https://github.com/aszumilas99/terraform-helm-release,
 release,aziz200115,24559,helm,https://github.com/aziz200115/terraform-helm-release,
+release,beibars96,24972,helm,https://github.com/beibars96/terraform-helm-release,
 release,bery,9685,helm,https://github.com/bery/terraform-helm-release,
 release,bigmofree,24886,helm,https://github.com/bigmofree/terraform-helm-release,
 release,boldlink,15294,helm,https://github.com/boldlink/terraform-helm-release,Terraform registry repository for helm release
@@ -12136,6 +12141,7 @@ release-prometheus-operator,bakuppus,10703,helm,https://github.com/bakuppus/terr
 release1,AliAQ9,24898,helm,https://github.com/AliAQ9/terraform-helm-release1,
 release1,akalybekova5,24916,helm,https://github.com/akalybekova5/terraform-helm-release1,
 release1,ostafon1,24896,helm,https://github.com/ostafon1/terraform-helm-release1,
+release2,aszumilas99,24975,helm,https://github.com/aszumilas99/terraform-helm-release2,
 release2,farrukh90,24885,helm,https://github.com/farrukh90/terraform-helm-release2,
 release2,pinar15,24915,helm,https://github.com/pinar15/terraform-helm-release2,
 remote-agents,dcos-terraform,1975,aws,https://github.com/dcos-terraform/terraform-aws-remote-region,
@@ -12228,6 +12234,7 @@ repository,terracharge,14095,aws,https://github.com/terracharge/terraform-aws-re
 repository,terraform-nexus-modules,23299,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-repository,Terraform module for create Nexus Repository
 repository,tim0git,12304,github,https://github.com/tim0git/terraform-github-repository,Terraform module which creates a github repository
 repository,tylottr-iac,20455,github,https://github.com/tylottr-iac/terraform-github-repository,A Terraform module used to create and manage a Github repository.
+repository,vmvarela,24968,github,https://github.com/vmvarela/terraform-github-repository,Terraform module to create Github repositories
 repository,withmethod,162,github,https://github.com/ksatirli/terraform-github-repository,:octocat: Terraform Module for managing Github Repositories
 repository,yivolve,23760,github,https://github.com/yivolve/terraform-github-repository,Terraform module to create repositories.
 repository-config,cyralinc,10400,cyral,https://github.com/cyralinc/terraform-cyral-repository-config,DEPRECATED - Cyral Repository Configuration Module
@@ -13139,6 +13146,7 @@ satellite-azure,terraform-ibm-modules,11975,ibm,https://github.com/terraform-ibm
 satellite-gcp,terraform-ibm-modules,13172,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite-gcp,Use this terrafrom automation to set up satellite location on IBM cloud with Google host.
 satisfactoryserver,Feyko,10931,docker,https://github.com/Feyko/terraform-docker-satisfactoryserver,A Terraform module for Satisfactory dedicated server creation
 sawyer,sawyerbrink,10430,aws,https://github.com/sawyerbrink/terraform-aws-sawyer,This is a terraform module to deploy the Sawyer risk & governance solution by SawyerBrink
+sbstorage,beastsb,24964,azurerm,https://github.com/beastsb/terraform-azurerm-sbstorage,
 scalable-infrastructure,UpCloudLtd,13996,upcloud,https://github.com/UpCloudLtd/terraform-upcloud-scalable-infrastructure,"Terraform module which creates an UpCloud infrastructure for a typical, easy to scale web app"
 scale_set_lb,Meydan52,14000,azure,https://github.com/Meydan52/terraform-azure-scale_set_lb,
 scaled-compute,ksatirli,21842,aws,https://github.com/ksatirli/terraform-aws-scaled-compute,Terraform Module: Scaled Compute for AWS
@@ -14460,6 +14468,7 @@ storage,incentro-cloud,11066,google,https://github.com/incentro-cloud/terraform-
 storage,jaysson1710,18014,azurerm,https://github.com/jaysson1710/terraform-azurerm-storage,
 storage,kachawla,20574,azure,https://github.com/kachawla/terraform-azure-storage,Terraform module for Azure blob storage
 storage,kumarvna,4775,azurerm,https://github.com/kumarvna/terraform-azurerm-storage,Terraform Module to create Azure storage account resources.
+storage,madhurie57,24965,azure,https://github.com/madhurie57/terraform-azure-storage,
 storage,nileshaqua,23311,azure,https://github.com/nileshaqua/terraform-azure-storage,
 storage,pbijumon85,16844,azurerm,https://github.com/pbijumon85/terraform-azurerm-storage,
 storage,quortex,4483,google,https://github.com/quortex/terraform-google-storage,A terraform module for Quortex infrastructure GCP persistent storage layer.
@@ -14537,6 +14546,10 @@ storage-static-website,jdpleiness,833,google,https://github.com/jdpleiness/terra
 storage2,boss916,14879,azure,https://github.com/boss916/terraform-azure-storage2,
 storage_account,Muzammil-Naik,22477,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-storage_account,
 storage_account,sironite,19876,azurerm,https://github.com/sironite/terraform-azurerm-storage_account,
+storageac,Gitanjali-bh,24961,azure,https://github.com/Gitanjali-bh/terraform-azure-storageac,
+storageac,VamsiVijayKumarK,24962,azure,https://github.com/VamsiVijayKumarK/terraform-azure-storageac,
+storageac,enna17,24963,azure,https://github.com/enna17/terraform-azure-storageac,
+storageac,jayshree4912,24966,azure,https://github.com/jayshree4912/terraform-azure-storageac,
 storageacc,Anku-work,21940,azure,https://github.com/Anku-work/terraform-azure-storageacc,
 storageaccount,Anjumhub,23200,azurerm,https://github.com/Anjumhub/terraform-azurerm-storageaccount,
 storageaccount,BhuvanaPidugu,21538,azure,https://github.com/BhuvanaPidugu/terraform-azure-storageaccount,
@@ -14866,6 +14879,7 @@ template,rhythmictech,3160,azurerm,https://github.com/rhythmictech/terraform-azu
 template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template,rhythmictech,5399,terraform,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template-directory,escapace,14606,null,https://github.com/escapace/terraform-null-template-directory,
+template-files,evershade,24958,config,https://github.com/evershade/terraform-config-template-files,
 template-instance,cypik,22788,google,https://github.com/cypik/terraform-google-template-instance,
 template-sync,nullc4t,17502,null,https://github.com/const-tmp/terraform-null-template-sync,Auto-updatable templates
 templates,Terraform-GCP-Templates,7279,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-templates,
@@ -15655,6 +15669,7 @@ vnet,indla28,19308,azure,https://github.com/indla28/terraform-azure-Vnet,creatio
 vnet,itsmesureshmadineni,21808,azurerm,https://github.com/itsmesureshmadineni/terraform-azurerm-vnet,This is for terraform registry 
 vnet,jungopro,3854,azurerm,https://github.com/jungopro/terraform-azurerm-vnet,Module to create a basic vNet in Azure
 vnet,kumarvna,4772,azurerm,https://github.com/kumarvna/terraform-azurerm-vnet,Terraform Module to create Azure Virtual Network resources.
+vnet,madhurie57,24959,azure,https://github.com/madhurie57/terraform-azure-vnet,
 vnet,mariaashurova,16904,azure,https://github.com/mariaashurova/terraform-azure-vnet,
 vnet,mariadubita,23797,azure,https://github.com/mariadubita/terraform-azure-vnet,
 vnet,nlarzon,2794,azure,https://github.com/nlarzon/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
