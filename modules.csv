@@ -1010,6 +1010,7 @@ application-segment-nia,zscaler,15785,zpa,https://github.com/zscaler/terraform-z
 application-server-nia,zscaler,15844,zpa,https://github.com/zscaler/terraform-zpa-application-server-nia,Zscaler Private Access Consul-Terraform-Sync module that will create and update application servers in the ZPA Cloud
 application-set,tagesspiegel,21086,argocd,https://github.com/tagesspiegel/terraform-argocd-application-set,This module creates an applicationSet in an ArgoCD instance.
 applicationgateway,imjoseangel,10905,azurerm,https://github.com/imjoseangel/terraform-azurerm-applicationgateway,Terraform Module for deploying a Azure Application Gateway
+applicationinsights,mikamakusa,24979,azure,https://github.com/mikamakusa/terraform-azure-applicationinsights,
 applications,jrcasso,6341,aws,https://github.com/jrcasso/terraform-aws-applications,Minimal network infrastructure to support an application within an operation.
 applicationset,logscale-contrib,20475,argocd,https://github.com/logscale-contrib/terraform-argocd-applicationset,
 apply,matti,2998,kubectl,https://github.com/matti/terraform-kubectl-apply,
@@ -1575,6 +1576,7 @@ avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-p
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,AVM Terraform Pattern Module for ALZ Management.
 avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,Azure Virtual Desktop Insights
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
+avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
@@ -2187,6 +2189,7 @@ bootstrap,dcos-terraform,1375,aws,https://github.com/dcos-terraform/terraform-aw
 bootstrap,dcos-terraform,1507,gcp,https://github.com/dcos-terraform/terraform-gcp-bootstrap,Create a DC/OS Bootstrap instance and have conditional DC/OS prereqs for gcp
 bootstrap,dcos-terraform,1541,azurerm,https://github.com/dcos-terraform/terraform-azurerm-bootstrap,Create a DC/OS Bootstrap instance and have conditional DC/OS prereqs for Azure
 bootstrap,eriktisme,7365,aws,https://github.com/eriktisme/terraform-aws-bootstrap,Creates a DynamoDB table for managing Terraform state.
+bootstrap,gb3s,24977,azure,https://github.com/gb3s/terraform-azure-bootstrap,
 bootstrap,iits-consulting,12656,argocd,https://github.com/iits-consulting/terraform-argocd-bootstrap,Easy way to bootstrap ArgoCD into your Kubernetes Cluster
 bootstrap,imjoseangel,12561,aws,https://github.com/imjoseangel/terraform-aws-bootstrap,Terraform Module for AWS backend bootstrap  
 bootstrap,poseidon,3560,render,https://github.com/poseidon/terraform-render-bootstrap,Low-level bootstrap a Kubernetes control plane with Terraform (part of Typhoon)
@@ -2593,6 +2596,7 @@ clickhouse,tf-cloud-modules,15080,aiven,https://github.com/tf-cloud-modules/terr
 clickhouse-cluster,elestio-examples,24118,elestio,https://github.com/elestio-examples/terraform-elestio-clickhouse-cluster,Terraform module from Elestio to deploy a ClickHouse Cluster with ease
 clickhouse-server,4ops,2909,kubernetes,https://github.com/4ops/terraform-kubernetes-clickhouse-server,Terraform module for creating simple ClickHouse server.
 clickops-notifier,cloudandthings,12506,aws,https://github.com/cloudandthings/terraform-aws-clickops-notifier,Get notified when actions are taken in the AWS Console.
+client,SolaceProducts,24980,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-client,Solace software broker Terraform module to abstract an application client user configuration
 client,bcgov,10656,keycloak,https://github.com/bcgov/sso-terraform-keycloak-client,
 client-tags,shadbury,14782,aws,https://github.com/shadbury/terraform-aws-client-tags,
 client-to-site-vpn,terraform-ibm-modules,19446,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-client-to-site-vpn,Creates a client-to-site VPN gateway in a VPC
@@ -2668,7 +2672,7 @@ cloud-nat,goquovn,15402,gcp,https://github.com/goquovn/terraform-gcp-cloud-nat,
 cloud-nat,terraform-google-modules,2418,google,https://github.com/terraform-google-modules/terraform-google-cloud-nat,Creates and configures Cloud NAT
 cloud-network-module,elvinlari,16502,gcp,https://github.com/elvinlari/terraform-gcp-cloud-network-module,A Terraform module that makes it easy to set up a new VPC Network in Google Cloud Platform.
 cloud-nodes,matti,792,kontena,https://github.com/matti/terraform-kontena-cloud-nodes,
-cloud-operations,terraform-google-modules,6086,google,https://github.com/terraform-google-modules/terraform-google-cloud-operations,Manages Google Cloud's operations suite (Cloud Logging and Cloud Monitoring)
+cloud-operations,terraform-google-modules,6086,google,https://github.com/terraform-google-modules/terraform-google-cloud-operations,Manages Cloud Logging and Cloud Monitoring
 cloud-operator,cloud-native-toolkit,14555,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cloud-operator,Terraform module to install the IBM Cloud Operator in a cluster
 cloud-platform,matti,797,kontena,https://github.com/matti/terraform-kontena-cloud-platform,
 cloud-policies,artefactory,21169,google,https://github.com/artefactory/terraform-google-cloud-policies,
@@ -6151,6 +6155,7 @@ eks_install,FlyingSnake,23484,aws,https://github.com/FlyingSnake/terraform-aws-e
 eks_installer,FlyingSnake,23471,aws,https://github.com/FlyingSnake/terraform-aws-eks_installer,
 ekscloudfunction,AnanyaJain111,9269,google,https://github.com/AnanyaJain111/terraform-google-ekscloudfunction,
 eksjan24module,ooghenekaro,23436,aws,https://github.com/ooghenekaro/terraform-aws-eksjan24module,
+eksjune24module,taiwoj14,24985,aws,https://github.com/taiwoj14/terraform-aws-eksjune24module,
 eksmar24module,winfred008,23542,aws,https://github.com/winfred008/terraform-aws-eksmar24module,
 eksmodule,lily4499,22718,aws,https://github.com/lily4499/terraform-aws-eksmodule,
 elastic,JamesWoolfenden,7816,aws,https://github.com/JamesWoolfenden/terraform-aws-elastic,Provision an elasticsearch cluster from the AWS managed service
@@ -7067,7 +7072,6 @@ gitlab-runner,cattle-ops,18001,aws,https://github.com/cattle-ops/terraform-aws-g
 gitlab-runner,digio,3412,google,https://github.com/digio/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
 gitlab-runner,jand0manski,18613,aws,https://github.com/jand0manski/terraform-aws-gitlab-runner,Terraform module for AWS GitLab runners on ec2 (spot) instances
 gitlab-runner,kasna-cloud,15344,google,https://github.com/kasna-cloud/terraform-google-gitlab-runner,Automatically build and register a Gitlab runner to your Gitlab instance.
-gitlab-runner,lefterisALEX,24953,aws,https://github.com/lefterisALEX/terraform-aws-gitlab-runner,Terraform module for AWS GitLab runners on ec2 (spot) instances
 gitlab-runner,mantel-digio,3044,google,https://github.com/digio/terraform-google-gitlab-runner,Terraform module for provisioning a GitLab CI Runner in a GCP project using the docker+machine executor.
 gitlab-runner,pyranja,11437,aws,https://github.com/pyranja/terraform-aws-gitlab-runner,Deploy gitlab runner on AWS EC2
 gitlab-runner-autoscaler,nesty92,23943,aws,https://github.com/nesty92/terraform-aws-gitlab-runner-autoscaler,Terraform module to create GitLab Runner Autoscaler on AWS Spot Instances
@@ -8031,6 +8035,7 @@ jmeter,davidalger,3731,aws,https://github.com/davidalger/terraform-aws-jmeter,De
 jmeter,r4dx,246,aws,https://github.com/r4dx/terraform-aws-jmeter,Easy way to create jMeter cluster with terraform on your AWS infrastructure.
 jmeter-distributed-load-test-infra,QAInsights,11941,aws,https://github.com/QAInsights/terraform-aws-jmeter-distributed-load-test-infra,JMeter Distributed Load Testing Infrastructure on AWS using Terraform
 jmusicbot,RCFromCLE,17131,azure,https://github.com/RCFromCLE/terraform-azure-jmusicbot,https://registry.terraform.io/modules/RCFromCLE/jmusicbot/azure/latest?tab=inputs
+jndi,SolaceProducts,24984,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-jndi,Solace software broker Terraform module to abstract jndi configuration
 job,garbetjie,6313,kubernetes,https://github.com/garbetjie/terraform-kubernetes-job,
 join-metrics-scope,ammilam,10918,google,https://github.com/ammilam/terraform-google-join-metrics-scope,
 joplin-s3-bucket,DustinAlandzes,10789,aws,https://github.com/DustinAlandzes/terraform-aws-joplin-s3-bucket,This is a Terraform module that creates an s3 bucket to use to sync your notes from Joplin.
@@ -11123,6 +11128,7 @@ petstore,dsa0x,23497,blueprint,https://github.com/dsa0x/terraform-blueprint-pets
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
 petstore,terraform-in-action,7228,aws,https://github.com/terraform-in-action/terraform-aws-petstore,
 pfx-name-sfx,thpang,18071,null,https://github.com/thpang/terraform-null-pfx-name-sfx,Terraform module that outputs a string based on the provided name concatenated with an optional prefix or suffix
+pga-private-dns-records,mdiloreto,24976,google,https://github.com/mdiloreto/terraform-google-pga-private-dns-records,
 pgsql-dbs,EduardGol,15145,azure,https://github.com/golaneduard/terraform-azure-pgsql-dbs,This registry contain postgresql flexible server module & flexible database
 phone-number,philips-labs,6201,twilio,https://github.com/loafoe/terraform-twilio-phone-number,Terraform module to provision Twilio phone numbers
 photon-s3-content-library,nvibert,9561,vsphere,https://github.com/nvibert/terraform-vsphere-photon-s3-content-library,Terraform Module to deploy in 3 minutes a Linux VM (Photon OS) from a content library hosted on S3 
@@ -11605,6 +11611,7 @@ quansang,quansang,10050,aws,https://github.com/quansang/terraform-aws-quansang,T
 queue,terracharge,14094,aws,https://github.com/terracharge/terraform-aws-queue,Module for creating terraform-aws-queue with provider aws. This description is created automagically
 queue-consumer,diego-alves,8536,aws,https://github.com/diego-alves/terraform-aws-queue-consumer,
 queue-driven-lambda,bmd,4053,aws,https://github.com/bmd/terraform-aws-queue-driven-lambda,Easily create SQS-fed Lambda functions
+queue-endpoint,SolaceProducts,24983,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-queue-endpoint,Solace software broker Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration
 quicksight-user-pruning-module,StateFarmIns,13945,aws,https://github.com/StateFarmIns/terraform-aws-quicksight-user-pruning-module,Save money by pruning inactive QuickSight users with this easy-to-use Terraform module.
 quota-limits,Cyclenerd,18758,google,https://github.com/Cyclenerd/terraform-google-quota-limits,🌪️ Terraform module to update Google Cloud consumer quota limits
 r1soft-server,turanmehmet,7824,aws,https://github.com/turanmehmet/terraform-aws-r1soft-server,
@@ -12335,6 +12342,7 @@ rest-api-architecture,MoveoTech,13393,aws,https://github.com/MoveoTech/terraform
 rest-api-gateway,xorima,21889,aws,https://github.com/xorima/terraform-aws-rest-api-gateway,
 rest-api-gateway-custom-domain-stage,xorima,21890,aws,https://github.com/xorima/terraform-aws-rest-api-gateway-custom-domain-stage,
 rest-api-gateway-lambda-endpoint,xorima,21891,aws,https://github.com/xorima/terraform-aws-rest-api-gateway-lambda-endpoint,
+rest-delivery,SolaceProducts,24982,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-rest-delivery,Solace software broker Terraform module to abstract a broker rest delivery point configuration
 rest-endpoint,dod-iac,4668,aws,https://github.com/dod-iac/terraform-aws-rest-endpoint,AWS API Gateway REST API with one endpoint that submits data to an AWS Lambda function.
 restapi,tomoki171923,13226,aws,https://github.com/tomoki171923/terraform-aws-restapi,"Terraform module, which creates simple RestAPI invoking lambda function on Amazon API Gateway."
 restricted-apis-dns,memes,17745,google,https://github.com/memes/terraform-google-restricted-apis-dns,Terraform module to create Cloud DNS zones to support restricted Google API access.
@@ -13527,6 +13535,7 @@ serverless-webapp,terraform-alicloud-modules,4008,alicloud,https://github.com/al
 serverless-website,tarekmulla,20820,aws,https://github.com/tarekmulla/terraform-aws-serverless-website,Terraform module to create single-page serverless website in AWS
 serverless-workflow,terraform-alicloud-modules,12797,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-workflow,Terraform Module for creating Serverless Workflow resources on Alibaba Cloud.
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
+service,SolaceProducts,24981,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-service,"Solace software broker Terraform module to abstract broker VPN, authentication and authorization configuration"
 service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service + Slack Connectors, integrations, extensions, and more. 🇺🇦"
 service,dasmeta,22549,aws,https://github.com/dasmeta/terraform-aws-service,Terraform module to create Service
 service,hazelops,7242,pagerduty,https://github.com/hazelops/terraform-pagerduty-service,
@@ -14879,7 +14888,7 @@ template,rhythmictech,3160,azurerm,https://github.com/rhythmictech/terraform-azu
 template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template,rhythmictech,5399,terraform,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template-directory,escapace,14606,null,https://github.com/escapace/terraform-null-template-directory,
-template-files,evershade,24958,config,https://github.com/evershade/terraform-config-template-files,
+template-files,evershade,24987,config,https://github.com/evershade/terraform-config-template-files,
 template-instance,cypik,22788,google,https://github.com/cypik/terraform-google-template-instance,
 template-sync,nullc4t,17502,null,https://github.com/const-tmp/terraform-null-template-sync,Auto-updatable templates
 templates,Terraform-GCP-Templates,7279,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-templates,
@@ -14903,6 +14912,7 @@ terrablog,davidnewman,1393,aws,https://github.com/davidnewman/terraform-aws-terr
 terraboard,Dan6erbond,17528,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-terraboard,
 terraform-Linux-instances,JayyyJayyyyy,23896,aws,https://github.com/JayyyJayyyyy/terraform-aws-terraform-Linux-instances,
 terraform-backend,escapace,21836,aws,https://github.com/escapace/terraform-aws-terraform-backend,A terraform module to set up remote state management with S3 backend for your account.
+terraform-backend,yivolve,24986,azure,https://github.com/yivolve/terraform-azure-terraform-backend,Terraform module to create a terraform backend to be used on Azure.
 terraform-cloud,BrynardSecurity-terraform,13504,tfe,https://github.com/BrynardSecurity-terraform/terraform-tfe-tc-organization,
 terraform-cloud-agent,redeux,6498,kubernetes,https://github.com/redeux/terraform-kubernetes-terraform-cloud-agent,A Terraform module for deploying the Terraform Cloud for Business Agent in Kubernetes
 terraform-cloud-jwt-auth,hashi-strawb,17805,vault,https://github.com/hashi-strawb/terraform-vault-terraform-cloud-jwt-auth,"Configures a JWT Auth method in Vault for Terraform Cloud, and configures Terraform Cloud Workspaces with the required variables to use this auth method"
