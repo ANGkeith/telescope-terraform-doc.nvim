@@ -1574,7 +1574,7 @@ avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terrafor
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,AVM Terraform Pattern Module for ALZ Management.
-avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,Azure Virtual Desktop Insights
+avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,AVM for Azure Virtual Desktop Insights
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
@@ -1592,10 +1592,10 @@ avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terr
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
-avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,terraform-azurerm-avm-res-desktopvirtualization-applicationgroup
-avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,Azure Verified Module for Desktop Virtualization Hostpools
-avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan,Azure Verified Module for Desktop Virtualization Scaling Plans Terraform
-avm-res-desktopvirtualization-workspace,Azure,22157,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace,Azure Verified Module for Desktop Virtualization Workspace Terraform
+avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,AVM for Desktop Virtualization Application group
+avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,AVM for Desktop Virtualization Hostpools
+avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan,AVM for Desktop Virtualization Scaling Plans
+avm-res-desktopvirtualization-workspace,Azure,22157,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace,AVM Terraform Module for Desktop Virtualization Workspace
 avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,AVM Terraform Module for Application Insights
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Azure Verified Module for Key Vault
@@ -1821,6 +1821,7 @@ azure-bastion,kumarvna,6268,azurerm,https://github.com/kumarvna/terraform-azurer
 azure-bastion,qbeyond,17673,azurerm,https://github.com/qbeyond/terraform-azurerm-azure-bastion,Terraform module to create an Azure Bastion instance and associate it with the corresponding NSG
 azure-bastion,ravensorb,13967,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-bastion,Terraform module for creating an Azure Bastion Service
 azure-builder,alkiranet,22320,alkira,https://github.com/alkiranet/terraform-alkira-azure-builder,This module creates various Alkira and Azure resources from .yaml files
+azure-cache-for-redis,connectgeeks,25005,azurerm,https://github.com/connectgeeks/terraform-azurerm-azure-cache-for-redis,
 azure-caf-hub-vnet,ravensorb,13527,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-caf-hub-vnet,Terraform module for creating a hub network based on the Microsoft recommended Hub-Spoke network topology 
 azure-cassandra,intel,19588,intel,https://github.com/intel/terraform-intel-azure-cassandra,Intel Cloud Optimization Module - Azure Cassandra
 azure-cloud-credentials,f5devcentral,21749,xc,https://github.com/f5devcentral/terraform-xc-azure-cloud-credentials,Terraform module which creates Azure Cloud Credentials for F5 Distributed Cloud (XC)
@@ -2631,6 +2632,7 @@ cloud-apic-tenant,rjohnston6,13849,aci,https://github.com/rjohnston6/terraform-a
 cloud-armor,GoogleCloudPlatform,17356,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-armor,Deploy Cloud Armor security policy
 cloud-armour,JamesWoolfenden,21488,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloud-armour,
 cloud-bootstrap,bayudwiyansatria,11169,kubernetes,https://github.com/bayudwiyansatria/terraform-kubernetes-cloud-bootstrap,Terraform module to install Kubernetes stack on cloud or self-hosted on-premise infrastructures such as Bare Metal or Virtual Machine in various Hypervisors.
+cloud-build,layer-3,25010,google,https://github.com/layer-3/terraform-google-cloud-build,
 cloud-build,tomarv2,12439,google,https://github.com/tomarv2/terraform-google-cloud-build,Terraform module for Google Cloud Build
 cloud-build-gen-2,kasna-cloud,21624,google,https://github.com/kasna-cloud/terraform-google-cloud-build-gen-2,A Terraform Module to simplify the connection of GitHub and GitLab repositories to Cloud Build using Cloud Build Gen 2 Terraform resources
 cloud-build-slack-notifier,simplifi,9474,google,https://github.com/simplifi/terraform-google-cloud-build-slack-notifier,Terraform Module to add Slack notifications to Cloud Build
@@ -12103,7 +12105,8 @@ regional-cidrs,workloads,21704,aws,https://github.com/workloads/terraform-aws-re
 regional-droplets,NicholasPCole,11565,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-regional-droplets,Terraform module for creating Droplets and DNS records in DigitalOcean regions
 regional-vpc-peering,lablabs,4850,aws,https://github.com/lablabs/terraform-aws-regional-vpc-peering,Creates a VPC peering connection between two VPC's. Can be inter-region or inter-account
 regional-workspace,ksatirli,17386,tfe,https://github.com/ksatirli/terraform-tfe-regional-workspace,Terraform Module: Regional Terraform Cloud Workspaces
-regions,Azure,21528,azurerm,https://github.com/Azure/terraform-azurerm-regions,Terraform module that provides data about Azure regions. Data is sourced from Azure APIs.
+regions,Azure,21528,azurerm,https://github.com/Azure/terraform-azurerm-regions,"Terraform module that provides data about Azure regions, including availability zones! Data is sourced from Azure APIs."
+regions,Azure-Terraformer,25003,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-regions,
 regions,claranet,3212,azurerm,https://github.com/claranet/terraform-azurerm-regions,Terraform module to handle Azure Regions
 register-esxi-hosts,jd4883,11202,vsphere,https://github.com/jd4883/terraform-vsphere-register-esxi-hosts,Small vsphere terraform module for registering ESXI hosts; minimal design that can also add hosts to a clusters if the argument is provided (clluster). 
 registry,Irinaberidze,17932,artifact,https://github.com/Irinaberidze/terraform-artifact-registry,
@@ -14271,6 +14274,7 @@ static-site,m4xmorris,17202,digitalocean,https://github.com/m4xmorris/terraform-
 static-site,reifnir,8915,azurerm,https://github.com/reifnir/terraform-azurerm-static-site,"This Terraform module stands up a static website and supports custom domain names and generates Let's Encrypt TLS certs. It currently only supports Azure DNS Zones, but I'll implement more DNS providers if someone requests it."
 static-site,telia-oss,1861,aws,https://github.com/telia-oss/terraform-aws-static-site,Terraform module for creating a static site using S3 and Cloudfront
 static-site,viceIII,789,aws,https://github.com/viceIII/terraform-aws-static-site,
+static-site-mtls,flozonn,25006,aws,https://github.com/flozonn/terraform-aws-static-site-mtls,
 static-site-stack,DamyrFr,8489,aws,https://github.com/DamyrFr/terraform-aws-static-site-stack,"Terraform module for create a AWS static website hosting (S3, Cloudfront, ACM)."
 static-web-app,nventive,23190,azurerm,https://github.com/nventive/terraform-azurerm-static-web-app,Terraform module to provision a static web app with Azure Storage Account and Azure CDN.
 static-website,0x6C38,18760,aws,https://github.com/0x6C38/terraform-aws-static-website,A simple terraform module for deploying a static website to AWS. Using S3 and cloudfront for caching.
