@@ -1581,6 +1581,7 @@ avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://githu
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
+avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
@@ -6199,6 +6200,8 @@ elasticache,foss-cafe,5645,aws,https://github.com/ionicloud/terraform-aws-elasti
 elasticache,magicorntech,19307,aws,https://github.com/magicorntech/terraform-aws-elasticache,Magicorn AWS ElastiCache Module
 elasticache,mesmeromair,12051,aws,https://github.com/mesmeromair/terraform-aws-elasticache,Terraform module to create Elasticache Cluster and replica for Redis and Memcache.
 elasticache,mrnim94,17098,aws,https://github.com/mrnim94/terraform-aws-elasticache,You can refer to this module to provisioning Redis and enable Global Datastore for Elasticache.
+elasticache,octavianneagoe,25026,aws,https://github.com/octavianneagoe/terraform-aws-elasticache,
+elasticache,octavianneagoe,25028,redis,https://github.com/octavianneagoe/terraform-redis-elasticache,
 elasticache,oozou,15124,aws,https://github.com/oozou/terraform-aws-elasticache,Terraform Module to define an elasticcache
 elasticache,osgurisdosre,18877,aws,https://github.com/osgurisdosre/terraform-aws-elasticache,Terraform module which creates Elasticache resources on AWS
 elasticache,pogosoftware,13349,aws,https://github.com/pogosoftware/terraform-aws-elasticache,
@@ -6223,6 +6226,7 @@ elasticache-redis,infrablocks,2542,aws,https://github.com/infrablocks/terraform-
 elasticache-redis,jand0manski,21740,aws,https://github.com/jand0manski/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,kurron,710,aws,https://github.com/kurron/terraform-aws-elasticache-redis,Terraform module that creates a Redis-based ElastiCache instance.
 elasticache-redis,lablabs,3792,aws,https://github.com/lablabs/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
+elasticache-redis,octavianneagoe,25025,aws,https://github.com/octavianneagoe/terraform-aws-elasticache-redis,
 elasticache-redis,opzkit,10617,aws,https://github.com/opzkit/terraform-aws-elasticache-redis,
 elasticache-redis,rails-on-services,3589,aws,https://github.com/rails-on-services/terraform-aws-elasticache-redis,Manages AWS Redis Elasticache
 elasticache-redis,squareops,19440,aws,https://github.com/squareops/terraform-aws-elasticache-redis,Terraform module for simplified provisioning and management of AWS ElastiCache Redis.
@@ -9458,6 +9462,7 @@ marketplace-oe-patterns-pixelfed,ordinaryexperts,20925,aws,https://github.com/or
 marketplace-oe-patterns-wordpress,ordinaryexperts,21131,aws,https://github.com/ordinaryexperts/terraform-aws-marketplace-oe-patterns-wordpress,Terraform Module for provisioning Ordinary Experts' AWS Marketplace WordPress Pattern
 mas,terraform-ibm-modules,24423,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-mas,Deploys Maximo Application Suite on an IBM Cloud openshift cluster.
 maskopy,DNXLabs,10529,aws,https://github.com/DNXLabs/terraform-aws-maskopy,"Maskopy solution is to Copy and Obfuscate Production Data to Target Environments in AWS. It uses AWS Serverless services, Step functions, Lambda and Fargate."
+masood,masoodmls,25035,azurerm,https://github.com/masoodmls/terraform-azurerm-masood,
 master-outputs,matti,771,kontena,https://github.com/matti/terraform-kontena-master-outputs,
 master-to-main,trussworks,5509,aws,https://github.com/trussworks/terraform-aws-master-to-main,
 masters,dcos-terraform,1376,aws,https://github.com/dcos-terraform/terraform-aws-masters,Create DC/OS Master instance and install DC/OS on it
@@ -9551,6 +9556,7 @@ meshplatform,meshcloud,12421,aws,https://github.com/meshcloud/terraform-aws-mesh
 meshplatform,meshcloud,12487,gcp,https://github.com/meshcloud/terraform-gcp-meshplatform,Terraform module to integrate GCP as a meshPlatform 
 meshplatform,meshcloud,12488,azure,https://github.com/meshcloud/terraform-azure-meshplatform,Terraform module to integrate Azure as a meshPlatform
 message-template,cloud-labs-infra,21799,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template,
+messages,neonembrace,25029,linux,https://github.com/neonembrace/terraform-linux-messages,A module for tests only
 messaging,tedilabs,21412,aws,https://github.com/tedilabs/terraform-aws-messaging,"🌳 A sustainable Terraform Package which creates resources for Messaging Services (EventBridge, MSK, SNS, SQS) on AWS"
 metabase,HippoLabs-UK,21626,aws,https://github.com/HippoLabs-UK/terraform-aws-metabase,Terraform module for setting up a self-hosted Metabase solution on AWS
 metabase,StayWell,4344,aws,https://github.com/StayWell/terraform-aws-metabase,
@@ -9919,7 +9925,9 @@ monitors,arkhoss,17582,datadog,https://github.com/arkhoss/terraform-datadog-moni
 monitors,claranet,3655,datadog,https://github.com/claranet/terraform-datadog-monitors,Manage Datadog monitors with terraform dedicated modules.
 monitors,rhythmictech,18908,datadog,https://github.com/rhythmictech/terraform-datadog-monitors,Manage Datadog monitors with terraform dedicated modules.
 moo,darren-rose,5028,module,https://github.com/darren-rose/terraform-module-moo,
+moo,neonembrace,25033,linux,https://github.com/neonembrace/terraform-linux-moo,
 moonswitch-sso,moonswitch,20033,aws,https://github.com/moonswitch/terraform-aws-moonswitch-sso,Terraform module for enabling Moonswitch SSO access.
+moremessages,neonembrace,25031,linux,https://github.com/neonembrace/terraform-linux-moremessages,
 mount,pmikus,18746,vault,https://github.com/pmikus/terraform-vault-mount,Terraform module creates mount for Vault. 
 mount,ptonini,16796,vault,https://github.com/ptonini/terraform-vault-mount,
 moveo-sagemaker,chelouche9,20875,aws,https://github.com/MoveoTech/terraform-aws-moveo-sagemaker,
@@ -12074,6 +12082,7 @@ redis-cluster,PGBI,3520,aws,https://github.com/PGBI/terraform-aws-redis-cluster,
 redis-cluster,dod-iac,11208,aws,https://github.com/dod-iac/terraform-aws-redis-cluster,A Redis cluster on Elasticache
 redis-cluster,viceIII,787,aws,https://github.com/viceIII/terraform-aws-redis-cluster,
 redis-elasticache,azavea,168,aws,https://github.com/azavea/terraform-aws-redis-elasticache,A Terraform module to create an Amazon Web Services (AWS) Redis ElastiCache cluster.
+redis-elasticache,octavianneagoe,25027,aws,https://github.com/octavianneagoe/terraform-aws-redis-elasticache,
 redis-high-memory-consumption-in-redis,terraform-shoreline-modules,20428,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-high-memory-consumption-in-redis,This repository was generated automatically based on a Shoreline Insights Runbook.
 redis-idle-connection-cleanup,StratusGrid,8730,aws,https://github.com/StratusGrid/terraform-aws-redis-idle-connection-cleanup,Lambda triggered on a scheduleto cleanup idle redis connection based on idle threshold input value. Can optionally create alarms from a list of elasticache node names and sns topic arn.
 redis-instance,sakiphan,24838,aws,https://github.com/sakiphan/terraform-aws-redis-instance,
@@ -12626,6 +12635,7 @@ run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraf
 runbook-ps7,hlokensgard,22153,azure,https://github.com/hlokensgard/terraform-azure-runbook-ps7,
 runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-runiap,Identity-Aware Proxy on Cloud Run. Based on https://github.com/terraform-google-modules/terraform-google-lb
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
+runner-group,Flaconi,25030,github,https://github.com/Flaconi/terraform-github-runner-group,Terraform module to manage GitHub action runner group settings
 runtask-iam-access-analyzer,aws-ia,18971,aws,https://github.com/aws-ia/terraform-aws-runtask-iam-access-analyzer,
 runtime-connector,symopsio,15717,aws,https://github.com/symopsio/terraform-aws-runtime-connector,The `runtime-connector` module provisions an IAM role that a Sym Runtime uses to execute a Flow.
 rvm,Ramyacv123,18895,aws,https://github.com/Ramyacv123/terraform-aws-rvm,
@@ -14621,6 +14631,7 @@ storagemoduledev,komalgithub16,9342,azure,https://github.com/komalgithub16/terra
 storagemoduledev,shindeyogesh29,9344,azure,https://github.com/shindeyogesh29/terraform-azure-storagemoduledev,terraform-azure-storagemoduledev
 storagemoduledev,ulhaskadao,9338,azure,https://github.com/ulhaskadao/terraform-azure-storagemoduledev,terraform-azure-storagemoduledev
 storagemoduletest,angelinagettiyil,9343,azure,https://github.com/angelinagettiyil/terraform-azure-storagemoduletest,
+storagemover,mikamakusa,25034,azure,https://github.com/mikamakusa/terraform-azure-storagemover,
 store,techadontech,13593,parameter,https://github.com/leonmwandiringa/terraform-aws-parameter-store,
 storm-control-policy,netascode,10324,aci,https://github.com/netascode/terraform-aci-storm-control-policy,Terraform Cisco ACI Storm Control Policy Module
 stream,assemble-inc,1948,kinesis,https://github.com/assembleinc/terraform-kinesis-stream,This is a convenience module for AWS Kinesis Stream
