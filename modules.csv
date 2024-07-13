@@ -130,7 +130,8 @@ access,rancher,20548,aws,https://github.com/rancher/terraform-aws-access,A Terra
 access,terraform-cisco-modules,16178,aci,https://github.com/terraform-cisco-modules/terraform-aci-access,Terraform - ACI > Access Module
 access-application,m4xmorris,21768,cloudflare,https://github.com/m4xmorris/terraform-cloudflare-access-application,Terraform module for deploying an application to Cloudflare Access
 access-control,infrablocks,3565,aws,https://github.com/infrablocks/terraform-aws-access-control,A Terraform module for configuring AWS account access control.
-access-control-group,terraform-modules-navercloudpatform,24103,navercloudpatform,https://github.com/terraform-modules-navercloudpatform/terraform-navercloudpatform-access-control-group,
+access-control-group-rule-vpc,terraform-navercloudplatform-modules,25142,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-access-control-group-rule-vpc,Terraform module to create access control group rule resources for the vpc configuration
+access-control-group-vpc,terraform-navercloudplatform-modules,25143,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-access-control-group-vpc,Terraform module to create access control group resources for the vpc configuration
 access-fex-interface-profile,netascode,9676,aci,https://github.com/netascode/terraform-aci-access-fex-interface-profile,Terraform Cisco ACI Access FEX Interface Profile Module
 access-fex-interface-selector,netascode,9815,aci,https://github.com/netascode/terraform-aci-access-fex-interface-selector,Terraform Cisco ACI Access FEX Interface Selector Module
 access-group,cloud-native-toolkit,12674,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-access-group,"Terraform module to create ADMIN, EDIT, and VIEW access groups for a set of resource groups"
@@ -150,7 +151,6 @@ access-spine-interface-profile,netascode,9705,aci,https://github.com/netascode/t
 access-spine-interface-selector,netascode,10323,aci,https://github.com/netascode/terraform-aci-access-spine-interface-selector,Terraform Cisco ACI Access Spine Interface Selector Module
 access-spine-switch-policy-group,netascode,15989,aci,https://github.com/netascode/terraform-aci-access-spine-switch-policy-group,Terraform Cisco ACI Access Spine Switch Policy Group Module
 access-spine-switch-profile,netascode,9706,aci,https://github.com/netascode/terraform-aci-access-spine-switch-profile,Terraform Cisco ACI Access Spine Switch Profile Module
-access_control_group_rule,terraform-modules-navercloudpatform,24104,navercloudpatform,https://github.com/terraform-modules-navercloudpatform/terraform-navercloudpatform-access_control_group_rule,
 access_policy,insobi,12881,aci,https://github.com/insobi/terraform-aci-access_policy,Manage ACI Access Policy.
 accessanalyzer,snapdocs,8152,aws,https://github.com/snapdocs/terraform-aws-accessanalyzer,Sets up Access Analyzer
 account,DNXLabs,5716,aws,https://github.com/DNXLabs/terraform-aws-account,Terraform module to create an AWS Account under an Organization.
@@ -1510,8 +1510,12 @@ auto-scaling,devops4me,3155,aws,https://github.com/devops4me/terraform-aws-auto-
 auto-scaling,exnodeshub,22506,aws,https://github.com/exnodeshub/terraform-aws-auto-scaling,
 auto-scaling,nabdilatipova,7807,aws,https://github.com/nabdilatipova/terraform-aws-auto-scaling,
 auto-scaling-group,terraform-ncloud-modules,16486,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-auto-scaling-group,
+auto-scaling-group-classic,terraform-navercloudplatform-modules,25144,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-group-classic,Terraform module to create auto scaling group resources for the classic configuration
+auto-scaling-group-vpc,terraform-navercloudplatform-modules,25145,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-group-vpc,Terraform module to create auto scaling group resources for the vpc configuration
+auto-scaling-policy,terraform-navercloudplatform-modules,25146,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-policy,Terraform module to create auto scaling policy resources
+auto-scaling-schedule-classic,terraform-navercloudplatform-modules,25157,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-schedule-classic,Terraform module to create auto scaling schedule resources for the classic configuration
+auto-scaling-schedule-vpc,terraform-navercloudplatform-modules,25158,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-schedule-vpc,Terraform module to create auto scaling schedule resources for the vpc configuration
 auto-sg,tegarimansyah,23333,aws,https://github.com/tegarimansyah/terraform-aws-auto-sg,Auto Generate Multiple AWS Security Group Rules with Less Code
-auto_scaling_group_classic,terraform-modules-navercloudpatform,24105,navercloudpatform,https://github.com/terraform-modules-navercloudpatform/terraform-navercloudpatform-auto_scaling_group_classic,
 autocloud-access-role,autoclouddev,8142,aws,https://github.com/autoclouddev/terraform-aws-autocloud-access-role,AWS IAM Role provisioning cross-account access for AutoCloud
 autocloud-enterprise-application,autoclouddev,11035,azurerm,https://github.com/autoclouddev/terraform-azurerm-autocloud-enterprise-application,Azure Enterprise Application provisioning access for AutoCloud to analyze a subscription
 autocloud-service-account,autoclouddev,10995,google,https://github.com/autoclouddev/terraform-google-autocloud-service-account,GCP service account provisioning access for AutoCloud to analyze a project
@@ -2185,6 +2189,9 @@ bitcoind,miketwenty1,9658,aws,https://github.com/miketwenty1/terraform-aws-bitco
 blob,bootlabstech,17669,azurerm,https://github.com/bootlabstech/terraform-azurerm-blob,
 blob-storage,bootlabstech,14361,azure,https://github.com/bootlabstech/terraform-azurerm-share-storage,Azure bucket creation using Terraform
 blobstore,terraform-nexus-modules,23254,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-blobstore,Terraform module for create Nexus Blobstore
+block-storage-classic,terraform-navercloudplatform-modules,25159,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-block-storage-classic,Terraform module to create block storage resources for the classic configuration
+block-storage-snapshot-classic,terraform-navercloudplatform-modules,25160,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-block-storage-snapshot-classic,Terraform module to create block storage snapshot resources for the classic configuration
+block-storage-vpc,terraform-navercloudplatform-modules,25161,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-block-storage-vpc,Terraform module to create block storage resources for the vpc configuration
 blockchain-service-wrapper,cladular,7601,azurerm,https://github.com/cladular/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
@@ -2618,6 +2625,7 @@ clickhouse-cluster,elestio-examples,24118,elestio,https://github.com/elestio-exa
 clickhouse-server,4ops,2909,kubernetes,https://github.com/4ops/terraform-kubernetes-clickhouse-server,Terraform module for creating simple ClickHouse server.
 clickops-notifier,cloudandthings,12506,aws,https://github.com/cloudandthings/terraform-aws-clickops-notifier,Get notified when actions are taken in the AWS Console.
 client,SolaceProducts,24980,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-client,Solace software broker Terraform module to abstract an application client user configuration
+client,SolaceProducts,25193,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-client,Solace appliance Terraform module to abstract an application client user configuration
 client,bcgov,10656,keycloak,https://github.com/bcgov/sso-terraform-keycloak-client,
 client-tags,shadbury,14782,aws,https://github.com/shadbury/terraform-aws-client-tags,
 client-to-site-vpn,terraform-ibm-modules,19446,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-client-to-site-vpn,Creates a client-to-site VPN gateway in a VPC
@@ -2664,6 +2672,8 @@ cloud-config-tool,4ops,3861,template,https://github.com/4ops/terraform-template-
 cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on AWS
 cloud-connector-modules,zscaler,16998,azurerm,https://github.com/zscaler/terraform-azurerm-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on Azure
 cloud-connector-modules,zscaler,21619,gcp,https://github.com/zscaler/terraform-gcp-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on GCP
+cloud-data-streaming-service-cluster-vpc,terraform-navercloudplatform-modules,25162,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-cluster-vpc,Terraform module to create cloud data streaming service cluster resources for the vpc configuration
+cloud-data-streaming-service-config-group-vpc,terraform-navercloudplatform-modules,25163,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-config-group-vpc,Terraform module to create cloud data streaming service config group resources for the vpc configuration
 cloud-datastore,terraform-google-modules,1620,google,https://github.com/terraform-google-modules/terraform-google-cloud-datastore,Manages Datastore
 cloud-deploy,GoogleCloudPlatform,19021,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-deploy,Create Cloud Deploy pipelines and targets
 cloud-deploy,bootlabstech,20590,google,https://github.com/bootlabstech/terraform-google-cloud-deploy,
@@ -4488,6 +4498,7 @@ docker-instance,bhandary1419,14698,aws,https://github.com/bhandary1419/terraform
 docker-instance,bostantrt1,18206,aws,https://github.com/bostantrt1/terraform-aws-docker-instance,
 docker-instance,bournemouth91,16372,aws,https://github.com/bournemouth91/terraform-aws-docker-instance,
 docker-instance,bozmerve,17674,aws,https://github.com/bozmerve/terraform-aws-docker-instance,
+docker-instance,bozzcan,25141,aws,https://github.com/bozzcan/terraform-aws-docker-instance,
 docker-instance,broderickg,18229,aws,https://github.com/broderickg/terraform-aws-docker-instance,
 docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,burhanca,16376,aws,https://github.com/burhanca/terraform-aws-docker-instance,
@@ -7860,6 +7871,7 @@ ingress-nginx,yky-labs,17359,kubernetes,https://github.com/yky-labs/terraform-ku
 ingress-nginx-controller,zioproto,2547,kubernetes,https://github.com/zioproto/terraform-kubernetes-ingress-nginx-controller,Terraform module to deploy the ingress nginx controller
 init-control-cluster,ArcfieldSTC,22057,azure,https://github.com/ArcfieldSTC/terraform-azure-init-control-cluster,Azure setup for a Controlling K8 cluster to control other downstream deployments. Intended to be small and primarily carry InfluxDB to handle azure terraform deployments of new infrastructure and settings separate from production workloads.
 init-kubernetes,jd4883,12020,namespace,https://github.com/jd4883/terraform-namespace-init-kubernetes,Small Tanzu Kubernetes Mini Module to Spin up Namespaces with Permissions Granted to the vSphere Role
+init-script,terraform-navercloudplatform-modules,25164,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-init-script,Terraform module to create init script resources
 initia,Crouton-Digital,24944,ssh,https://github.com/Crouton-Digital/terraform-ssh-initia,
 input-provided,Invicton-Labs,15059,null,https://github.com/Invicton-Labs/terraform-null-input-provided,A module that checks if a non-null input was provided.
 insecure-ec2-key-pair,andreswebs,9791,aws,https://github.com/andreswebs/terraform-aws-insecure-ec2-key-pair,Creates an SSH key pair and stores the private key in an SSM parameter
@@ -8101,6 +8113,7 @@ jmeter,r4dx,246,aws,https://github.com/r4dx/terraform-aws-jmeter,Easy way to cre
 jmeter-distributed-load-test-infra,QAInsights,11941,aws,https://github.com/QAInsights/terraform-aws-jmeter-distributed-load-test-infra,JMeter Distributed Load Testing Infrastructure on AWS using Terraform
 jmusicbot,RCFromCLE,17131,azure,https://github.com/RCFromCLE/terraform-azure-jmusicbot,https://registry.terraform.io/modules/RCFromCLE/jmusicbot/azure/latest?tab=inputs
 jndi,SolaceProducts,24984,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-jndi,Solace software broker Terraform module to abstract jndi configuration
+jndi,SolaceProducts,25194,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-jndi,Solace PubSub+ appliance Terraform module to abstract jndi configuration
 job,garbetjie,6313,kubernetes,https://github.com/garbetjie/terraform-kubernetes-job,
 join-metrics-scope,ammilam,10918,google,https://github.com/ammilam/terraform-google-join-metrics-scope,
 joplin-s3-bucket,DustinAlandzes,10789,aws,https://github.com/DustinAlandzes/terraform-aws-joplin-s3-bucket,This is a Terraform module that creates an s3 bucket to use to sync your notes from Joplin.
@@ -8628,6 +8641,7 @@ kubernetes-cluster,russmedia,1270,google,https://github.com/russmedia/terraform-
 kubernetes-cluster,tsadoklf,1774,google,https://github.com/tsadoklf/terraform-google-kubernetes-cluster,Google Cloud Platform Kubernetes Cluster Terraform Module
 kubernetes-cluster,yellowmegaman,2293,google,https://github.com/yellowmegaman/terraform-google-kubernetes-cluster,RBAC-only reevaluate-friendly cluster
 kubernetes-cluster-node-pools,Retoxx-dev,20223,azurerm,https://github.com/Retoxx-dev/terraform-azurerm-kubernetes-cluster-node-pools,
+kubernetes-cluster-vpc,terraform-navercloudplatform-modules,25172,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-cluster-vpc,Terraform module to create kubernetes cluster resources for the vpc configuration
 kubernetes-controller,spotinst,23526,ocean,https://github.com/spotinst/terraform-ocean-kubernetes-controller,
 kubernetes-crashloopbackoff-on-kubernetes-pod,terraform-shoreline-modules,20350,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-crashloopbackoff-on-kubernetes-pod,This repository was generated automatically based on a Shoreline Insights Runbook.
 kubernetes-datadog-agent-not-running-in-kubernetes-cluster,terraform-shoreline-modules,20348,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-datadog-agent-not-running-in-kubernetes-cluster,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -8709,6 +8723,7 @@ kubernetes-node,jakoberpf,12354,oracle,https://github.com/jakoberpf/terraform-or
 kubernetes-node,jakoberpf,12999,proxmox,https://github.com/jakoberpf/terraform-proxmox-kubernetes-node,Terreform module for integrated service deployment
 kubernetes-node-pool,matti,726,google,https://github.com/matti/terraform-google-kubernetes-node-pool,
 kubernetes-node-pool,yellowmegaman,2294,google,https://github.com/yellowmegaman/terraform-google-kubernetes-node-pool,noodle pool
+kubernetes-node-pool-vpc,terraform-navercloudplatform-modules,25174,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-node-pool-vpc,Terraform module to create kubernetes node pool resources for the vpc configuration
 kubernetes-nodes,kwaziio,22440,aws,https://github.com/kwaziio/terraform-aws-kubernetes-nodes,Terraform Module for Creating Configurable Kubernetes Nodes on AWS
 kubernetes-nodes-supplement,terraform-alicloud-modules,5295,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-kubernetes-nodes-supplement,"Terraform Module for attaching more resources, like security groups, eips and so on, to kubernetes nodes on Alibaba Cloud."
 kubernetes-nodes-with-pid-pressure-in-kubernetes,terraform-shoreline-modules,20359,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-nodes-with-pid-pressure-in-kubernetes,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -9064,6 +9079,8 @@ laughs,sblack4,5537,terraform,https://github.com/sblack4/terraform-terraform-lau
 launch,wandb,19970,helm,https://github.com/wandb/terraform-helm-launch,
 launch-configuration,QuiNovas,1482,aws,https://github.com/QuiNovas/terraform-aws-launch-configuration,Creates an EC2 Launch Configuration
 launch-configuration,terraform-ncloud-modules,16485,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-launch-configuration,
+launch-configuration-classic,terraform-navercloudplatform-modules,25175,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-launch-configuration-classic,Terraform module to create launch configuration resources for the classic configuration
+launch-configuration-vpc,terraform-navercloudplatform-modules,25176,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-launch-configuration-vpc,Terraform module to create launch configuration resources for the vpc configuration
 launch-template,Infrastrukturait,19627,aws,https://github.com/Infrastrukturait/terraform-aws-launch-template,Terraform module to provisioning new AWS Launch Template
 launch-template,figurate,5181,aws,https://github.com/figurate/terraform-aws-launch-template,Common blueprints for EC2 Launch Templates
 launch-template,finisterra-io,23571,aws,https://github.com/finisterra-io/terraform-aws-launch-template,Terraform AWS Launch Template module
@@ -9298,8 +9315,13 @@ load-balancer,terraform-do-modules,20239,digitalocean,https://github.com/terrafo
 load-balancer,terraform-ncloud-modules,15861,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-load-balancer,
 load-balancer,web-virtua-aws-multi-account-modules,17166,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-load-balancer,
 load-balancer,zoro16,21294,hcloud,https://github.com/zoro16/terraform-hcloud-load-balancer,Terraform module to provision `Load Balancer` resources in Hetzner Cloud.
+load-balancer-classic,terraform-navercloudplatform-modules,25177,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-classic,Terraform module to create load balancer resources for the classic configuration
 load-balancer-controller,chriszhangusc,9523,aws,https://github.com/chriszhangusc/terraform-aws-load-balancer-controller,Provision AWS Load Balancer Controller with Terraform
 load-balancer-fargate,nullstone-modules,8812,aws,https://github.com/nullstone-modules/terraform-aws-load-balancer-fargate,Terraform module to attach a load balancer to a fargate service
+load-balancer-listener-vpc,terraform-navercloudplatform-modules,25181,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-listener-vpc,Terraform module to create load balancer listener resources for the vpc configuration
+load-balancer-ssl-certificate-classic,terraform-navercloudplatform-modules,25182,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-ssl-certificate-classic,Terraform module to create load balancer ssl certificate resources for the classic configuration
+load-balancer-target-group-vpc,terraform-navercloudplatform-modules,25148,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-target-group-vpc,Terraform module to create load balancer target group resources for the vpc configuration
+load-balancer-vpc,terraform-navercloudplatform-modules,25147,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-vpc,Terraform module to create load balancer resources for the vpc configuration
 loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
 loadbalancer,MissionCriticalCloud,6534,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-loadbalancer,Terraform module to create and manage a Cosmic load balancer.
 loadbalancer,diademiemi,24020,digitalocean,https://github.com/diademiemi/terraform-digitalocean-loadbalancer,
@@ -9377,6 +9399,7 @@ logicapp,bootlabstech,17338,azurerm,https://github.com/bootlabstech/terraform-az
 logicapp,fdmsantos,24322,azurerm,https://github.com/fdmsantos/terraform-azurerm-logicapp,"Dynamic Terraform module, which creates a Logic App and others resources."
 logicapp-workflow,bootlabstech,24951,azurerm,https://github.com/bootlabstech/terraform-azurerm-logicapp-workflow,
 login-domain,netascode,9885,aci,https://github.com/netascode/terraform-aci-login-domain,Terraform Cisco ACI Login Domain Module
+login-key,terraform-navercloudplatform-modules,25149,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-login-key,Terraform module to create login key resources
 logproxy,philips-labs,8445,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-logproxy,Terraform module for Logproxy deployment
 logpush-newrelic,Flaconi,24074,cloudflare,https://github.com/Flaconi/terraform-cloudflare-logpush-newrelic,This module will create Cloudflare Logpush Jobs for NewRelic
 logs,dod-iac,16983,aws,https://github.com/dod-iac/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
@@ -9928,6 +9951,7 @@ mongodb-security-groups,Ferlab-Ste-Justine,17709,openstack,https://github.com/Fe
 mongodb-server,Ferlab-Ste-Justine,17710,openstack,https://github.com/Ferlab-Ste-Justine/terraform-openstack-mongodb-server,Terraform module to deploy a mongodb replicaset on openstack
 mongodb-sharded,bayudwiyansatria,11527,helm,https://github.com/bayudwiyansatria/terraform-helm-mongodb-sharded,Terraform Module MongoDB High Availability provisioner using terraform. Provisioning A High Availability MongoDB using Helm Charts.
 mongodb-sharding,terraform-alicloud-modules,3996,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mongodb-sharding,Terraform module which creates MongoDB Sharding instance on Alibaba Cloud
+mongodb-vpc,terraform-navercloudplatform-modules,25150,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-mongodb-vpc,Terraform module to create mongodb resources for the vpc configuration
 mongodbatlas,guyelia,5462,aws,https://github.com/guyelia/terraform-aws-mongodbatlas,Terraform module which creates an operational MongoDB Atlas cluster on AWS
 mongodbatlas,opszero,17606,aws,https://github.com/opszero/terraform-aws-mongodbatlas,
 mongodbatlas,pen-pal,12683,aws,https://github.com/pen-pal/terraform-aws-mongodbatlas,This is a terraform module to create resources in mongodb atlas.
@@ -10030,6 +10054,7 @@ mssql-db,ryuzakyl,20522,azurerm,https://github.com/ryuzakyl/terraform-azurerm-ms
 mssql-server,bootlabstech,24619,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-server,
 mssql-server,data-platform-hq,16051,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-server," Terraform module for managing Azure SQL Server"
 mssql-server-database,bootlabstech,24639,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-server-database,
+mssql-vpc,terraform-navercloudplatform-modules,25183,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-mssql-vpc,Terraform module to create mssql resources for the vpc configuration
 mssqlserver,JamesWoolfenden,7791,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-mssqlserver,Basic mssqlserver module
 mst-policy,netascode,9947,aci,https://github.com/netascode/terraform-aci-mst-policy,Terraform Cisco ACI MST Policy Module
 msteams,spacelift-io,18534,spacelift,https://github.com/spacelift-io/terraform-spacelift-msteams,Policy-based integration between Spacelift and Microsoft Teams
@@ -10371,6 +10396,8 @@ naming-validated,VirtuslabWorkshops,21278,azurerm,https://github.com/VirtuslabWo
 nandhas3module,nandhakumarm5,12718,aws,https://github.com/nandhakumarm5/terraform-aws-nandhas3module,
 nas,Explorer1092,13981,xalicloud,https://github.com/Explorer1092/terraform-xalicloud-nas,Terraform module which creates NAS resources on Alibaba Cloud
 nas,terraform-alicloud-modules,2316,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nas,Terraform module which creates NAS resources on Alibaba Cloud
+nas-volume-classic,terraform-navercloudplatform-modules,25184,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nas-volume-classic,Terraform module to create nas volume resources for the classic configuration
+nas-volume-vpc,terraform-navercloudplatform-modules,25185,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nas-volume-vpc,Terraform module to create nas volume resources for the vpc configuration
 nat,Aplyca,2723,aws,https://github.com/Aplyca/terraform-aws-nat,Creates a NAT Gateway Resource
 nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,
 nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT Gateway resources
@@ -10391,6 +10418,7 @@ nat-gateway,libre-devops,23736,azurerm,https://github.com/libre-devops/terraform
 nat-gateway,ptonini,16757,azurerm,https://github.com/ptonini/terraform-azurerm-nat-gateway,
 nat-gateway,terraform-alicloud-modules,1830,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nat-gateway,Terraform module which creates NAT gateway and route entry resources on Alibaba Cloud
 nat-gateway-traffic-alert,hazelops,7342,aws,https://github.com/hazelops/terraform-aws-nat-gateway-traffic-alert,
+nat-gateway-vpc,terraform-navercloudplatform-modules,25151,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nat-gateway-vpc,Terraform module to create nat gateway resources for the vpc configuration
 nat-instance,System-aan-den-Rijn,15013,oci,https://github.com/System-aan-den-Rijn/terraform-oci-nat-instance,"Terraform module that deploys a Compute Instance that can be used as a Nat Gateway in the Oracle Cloud, for example, when you're using the Always Free Resources which do not include the standard Nat Gateway."
 nat-instance,TableCheck-Labs,15282,aws,https://github.com/TableCheck-Labs/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance,dacut,10584,aws,https://github.com/dacut/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
@@ -10539,6 +10567,9 @@ network,zerotier,8718,zerotier,https://github.com/zerotier/terraform-zerotier-ne
 network,zoitech,200,aws,https://github.com/zoitech/terraform-aws-network,This module is intended to be used for configuring an AWS network.
 network,zoro16,21279,hcloud,https://github.com/zoro16/terraform-hcloud-network,Terraform module to provision Network resouces in Hetzner Cloud 
 network-access,pselle,7448,aws,https://github.com/pselle/terraform-aws-network-access,
+network-acl-deny-allow-group-vpc,terraform-navercloudplatform-modules,25152,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-network-acl-deny-allow-group-vpc,Terraform module to create network acl deny allow group resources for the vpc configuration
+network-acl-rule-vpc,terraform-navercloudplatform-modules,25186,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-network-acl-rule-vpc,Terraform module to create network acl rule resources for the vpc configuration
+network-acl-vpc,terraform-navercloudplatform-modules,25187,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-network-acl-vpc,Terraform module to create network acl resources for the vpc configuration
 network-basic,cybergavin,10717,azurerm,https://github.com/cybergavin/terraform-azurerm-network-basic,Terraform module for provisioning VNets and subnets on Azure
 network-ddos-protection-plan,bytejunkie,5548,azurerm,https://github.com/bytejunkie/terraform-azurerm-network-ddos-protection-plan,terraform registry to deploy the DDOS Protection Plan resource
 network-edge,equinix,24342,equinix,https://github.com/equinix/terraform-equinix-network-edge,Terraform Equinix Network Edge Modules
@@ -10558,6 +10589,7 @@ network-hubandspoke,aws-ia,14043,aws,https://github.com/aws-ia/terraform-aws-net
 network-info,andreswebs,16919,google,https://github.com/andreswebs/terraform-google-network-info,A helper data module to get network info on GCP
 network-interface,iankesh,6235,azure,https://github.com/iankesh/terraform-azure-network-interface,This is a Terraform custom module to create Network Interface Controller in Azure Cloud. 
 network-interface,ptonini,16758,azurerm,https://github.com/ptonini/terraform-azurerm-network-interface,
+network-interface-vpc,terraform-navercloudplatform-modules,25153,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-network-interface-vpc,Terraform module to create network interface resources for the vpc configuration
 network-load-balancer,infrablocks,2629,aws,https://github.com/infrablocks/terraform-aws-network-load-balancer,A Terraform module for building a network load balancer in AWS.
 network-loadbalancer,bootlabstech-m,20189,aws,https://github.com/bootlabstech-m/terraform-aws-network-loadbalancer,
 network-manager,claranet,25054,azurerm,https://github.com/claranet/terraform-azurerm-network-manager,Terraform module for Azure Network Manager
@@ -11252,6 +11284,7 @@ pki-backend,ptonini,16794,vault,https://github.com/ptonini/terraform-vault-pki-b
 pki-role,ptonini,16791,vault,https://github.com/ptonini/terraform-vault-pki-role,
 pki-secret-backend-role,pmikus,18695,vault,https://github.com/pmikus/terraform-vault-pki-secret-backend-role,Terraform module creates a role on an PKI Secret Backend for Vault.
 placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lambda-placeholder,Placeholders for AWS Lambda to be used when creating Lambda functions with Terraform
+placement-group,terraform-navercloudplatform-modules,25189,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-placement-group,Terraform module to create placement group resources
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Terraform module for the deployment of the GrayMeta Platform into AWS. Contact GrayMeta for an enterprise license to gain access to the required AMIs.
@@ -11336,6 +11369,7 @@ populate_nlb_tg_with_rds,neillturner,9721,aws,https://github.com/neillturner/ter
 port-channel-member-policy,netascode,10245,aci,https://github.com/netascode/terraform-aci-port-channel-member-policy,Terraform Cisco ACI Port Channel Member Policy Module
 port-channel-policy,netascode,10247,aci,https://github.com/netascode/terraform-aci-port-channel-policy,Terraform Cisco ACI Port Channel Policy Module
 port-exporter,port-labs,19606,aws,https://github.com/port-labs/terraform-aws-port-exporter,Terraform module which creates Port's AWS exporter
+port-forwarding-rule-classic,terraform-navercloudplatform-modules,25188,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-port-forwarding-rule-classic,Terraform module to create port forwarding rule resources for the classic configuration
 port-tracking,netascode,10249,aci,https://github.com/netascode/terraform-aci-port-tracking,Terraform Cisco ACI Port Tracking Module
 portainer,jhole89,4949,kubernetes,https://github.com/jhole89/terraform-kubernetes-portainer,Terraform module for running portainer on Kubernetes
 portservicemapping,a3linux,17992,null,https://github.com/a3linux/terraform-null-portservicemapping,"A simple terraform module define Port Service Mappings, make it easy to define security rules"
@@ -11629,8 +11663,10 @@ public-ip,guidalabs,10831,azure,https://github.com/guidalabs/terraform-azure-pub
 public-ip,iankesh,6234,azure,https://github.com/iankesh/terraform-azure-public-ip,This is a Terraform custom module to create Public IP Address in Azure Cloud. 
 public-ip,lonegunmanb,19605,lonegunmanb,https://github.com/lonegunmanb/terraform-lonegunmanb-public-ip,
 public-ip,web-virtua-azure-multi-account-modules,21745,azurerm,https://github.com/web-virtua-azure-multi-account-modules/terraform-azurerm-public-ip,
+public-ip-classic,terraform-navercloudplatform-modules,25154,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-public-ip-classic,Terraform module to create public ip resources for the classic configuration
 public-ip-list,beezly,599,fastly,https://github.com/beezly/terraform-fastly-public-ip-list,Terraform Module for Fastly IP addresses
 public-ip-prefix,guidalabs,10832,azure,https://github.com/guidalabs/terraform-azure-public-ip-prefix,
+public-ip-vpc,terraform-navercloudplatform-modules,25180,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-public-ip-vpc,Terraform module to create public ip resources for the vpc configuration
 public-lambda-layer,Invicton-Labs,14071,aws,https://github.com/Invicton-Labs/terraform-aws-public-lambda-layer,Retrieves data for a public lambda layer hosted by Invicton Labs
 public-lb,bootlabstech,17972,azurerm,https://github.com/bootlabstech/terraform-azurerm-public-lb,
 public-lb,libre-devops,13134,azurerm,https://github.com/libre-devops/terraform-azurerm-public-lb,"A module which tries to follow the ""KISS"" design model to deploying a Public Azure Load Balancer.  Will created 1 LBs,  a Public IP, a backend pool and a rule based on some parameters :knife:"
@@ -11704,8 +11740,10 @@ queue,terracharge,14094,aws,https://github.com/terracharge/terraform-aws-queue,M
 queue-consumer,diego-alves,8536,aws,https://github.com/diego-alves/terraform-aws-queue-consumer,
 queue-driven-lambda,bmd,4053,aws,https://github.com/bmd/terraform-aws-queue-driven-lambda,Easily create SQS-fed Lambda functions
 queue-endpoint,SolaceProducts,24983,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-queue-endpoint,Solace software broker Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration
+queue-endpoint,SolaceProducts,25195,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-queue-endpoint,Solace PubSub+ appliance Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration 
 quicksight-user-pruning-module,StateFarmIns,13945,aws,https://github.com/StateFarmIns/terraform-aws-quicksight-user-pruning-module,Save money by pruning inactive QuickSight users with this easy-to-use Terraform module.
 quota-limits,Cyclenerd,18758,google,https://github.com/Cyclenerd/terraform-google-quota-limits,🌪️ Terraform module to update Google Cloud consumer quota limits
+quotas,Azure-Terraformer,25140,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-quotas,
 r1soft-server,turanmehmet,7824,aws,https://github.com/turanmehmet/terraform-aws-r1soft-server,
 r2-api-token,Cyb3r-Jak3,20557,cloudflare,https://github.com/Cyb3r-Jak3/terraform-cloudflare-r2-api-token,Terraform module to create a Cloudflare API token that have bucket scope tokens.
 r53-certbot,armorfret,7071,aws,https://github.com/armorfret/terraform-aws-r53-certbot,Terraform module for delegating a zone for certbot to manage LetsEncrypt certificates
@@ -12145,6 +12183,7 @@ redis-cache,bootlabstech,17051,azurerm,https://github.com/bootlabstech/terraform
 redis-cluster,PGBI,3520,aws,https://github.com/PGBI/terraform-aws-redis-cluster,
 redis-cluster,dod-iac,11208,aws,https://github.com/dod-iac/terraform-aws-redis-cluster,A Redis cluster on Elasticache
 redis-cluster,viceIII,787,aws,https://github.com/viceIII/terraform-aws-redis-cluster,
+redis-config-group-vpc,terraform-navercloudplatform-modules,25179,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-redis-config-group-vpc,Terraform module to create redis config group resources for the vpc configuration
 redis-elasticache,azavea,168,aws,https://github.com/azavea/terraform-aws-redis-elasticache,A Terraform module to create an Amazon Web Services (AWS) Redis ElastiCache cluster.
 redis-elasticache,octavianneagoe,25027,aws,https://github.com/octavianneagoe/terraform-aws-redis-elasticache,
 redis-high-memory-consumption-in-redis,terraform-shoreline-modules,20428,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-high-memory-consumption-in-redis,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -12158,6 +12197,7 @@ redis-redis-rejected-connections,terraform-shoreline-modules,20432,shoreline,htt
 redis-redis-replication-broken,terraform-shoreline-modules,20433,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-redis-replication-broken,This repository was generated automatically based on a Shoreline Insights Runbook.
 redis-redis-too-many-masters,terraform-shoreline-modules,20434,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-redis-too-many-masters,This repository was generated automatically based on a Shoreline Insights Runbook.
 redis-service,philips-labs,9153,hsdp,https://github.com/philips-labs/terraform-hsdp-redis-service,Provision Redis on HSP which is prometheus metrics endpoint
+redis-vpc,terraform-navercloudplatform-modules,25155,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-redis-vpc,Terraform module to create redis resources for the vpc configuration
 redis-wrapper,kachawla,20245,azure,https://github.com/kachawla/terraform-azure-redis-wrapper,Wrapper to deploy azure redis module with outputs
 redis_store,airasia,4751,google,https://github.com/airasia/terraform-google-redis_store,Terraform module for a Redis MemoryStore in GCP
 redis_store,goquovn,15399,gcp,https://github.com/goquovn/terraform-gcp-redis_store,
@@ -12441,6 +12481,7 @@ rest-api-gateway,xorima,21889,aws,https://github.com/xorima/terraform-aws-rest-a
 rest-api-gateway-custom-domain-stage,xorima,21890,aws,https://github.com/xorima/terraform-aws-rest-api-gateway-custom-domain-stage,
 rest-api-gateway-lambda-endpoint,xorima,21891,aws,https://github.com/xorima/terraform-aws-rest-api-gateway-lambda-endpoint,
 rest-delivery,SolaceProducts,24982,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-rest-delivery,Solace software broker Terraform module to abstract a broker rest delivery point configuration
+rest-delivery,SolaceProducts,25196,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-rest-delivery,Solace PubSub+ appliance Terraform module to abstract a broker rest delivery point configuration
 rest-endpoint,dod-iac,4668,aws,https://github.com/dod-iac/terraform-aws-rest-endpoint,AWS API Gateway REST API with one endpoint that submits data to an AWS Lambda function.
 restapi,tomoki171923,13226,aws,https://github.com/tomoki171923/terraform-aws-restapi,"Terraform module, which creates simple RestAPI invoking lambda function on Amazon API Gateway."
 restricted-apis-dns,memes,17745,google,https://github.com/memes/terraform-google-restricted-apis-dns,Terraform module to create Cloud DNS zones to support restricted Google API access.
@@ -12559,7 +12600,10 @@ route-table,claranet,3781,azurerm,https://github.com/claranet/terraform-azurerm-
 route-table,data-platform-hq,17398,azurerm,https://github.com/data-platform-hq/terraform-azurerm-route-table,Terraform module for route table and its routes creation
 route-table,libre-devops,13430,azurerm,https://github.com/libre-devops/terraform-azurerm-route-table,A module used to deploy a route table and some routes :knife:
 route-table,web-virtua-aws-multi-account-modules,16446,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-route-table,
+route-table-association-vpc,terraform-navercloudplatform-modules,25178,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-table-association-vpc,Terraform module to create route table association resources for the vpc configuration
+route-table-vpc,terraform-navercloudplatform-modules,25156,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-table-vpc,Terraform module to create route table resources for the vpc configuration
 route-tag-policy,netascode,20902,aci,https://github.com/netascode/terraform-aci-route-tag-policy,Terraform Cisco ACI Route Tag Policy Module 
+route-vpc,terraform-navercloudplatform-modules,25173,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-vpc,Terraform module to create route resources for the vpc configuration
 route53,Aplyca,1011,aws,https://github.com/Aplyca/terraform-aws-route53,Terraform AWS Route53 module.  Create a Route53 zone and dns records
 route53,Devoper777,24413,aws,https://github.com/Devoper777/terraform-aws-route53,
 route53,KoeSystems,473,aws,https://github.com/KoeSystems/terraform-aws-route53,Terraform AWS Route53 module to create public hosted zones.
@@ -13298,6 +13342,7 @@ sealed-secrets,kubestack-modules,21108,kustomization,https://github.com/kubestac
 sealed-secrets-bootstrap,kube-champ,9803,k8s,https://github.com/kuptan/terraform-k8s-sealed-secrets-bootstrap,A terraform module that will bootstrap a Kubernetes cluster with Sealed Secret controller
 search,JamesWoolfenden,16951,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-search,
 search-agents-subnets,WeAreRetail,22584,azurerm,https://github.com/WeAreRetail/terraform-azurerm-search-agents-subnets,
+search-engine-service-cluster-vpc,terraform-navercloudplatform-modules,25171,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-search-engine-service-cluster-vpc,Terraform module to create search engine service cluster resources for the vpc configuration
 search-service,Azure,623,azurerm,https://github.com/Azure/terraform-azurerm-search-service,Terraform module to create Azure Search service resource
 search-service,claranet,4503,azurerm,https://github.com/claranet/terraform-azurerm-search-service,Terraform module for Azure Search Service
 search-sql-fog,WeAreRetail,22680,azurerm,https://github.com/WeAreRetail/terraform-azurerm-search-sql-fog,
@@ -13555,6 +13600,7 @@ self-managed-k8s,Archisman-Mridha,19115,aws,https://github.com/Archisman-Mridha/
 self-service-agent,Senora-dev,23710,aws,https://github.com/Senora-dev/terraform-aws-self-service-agent,"Terraform module that creates an AWS Lambda function to act as an agent, receiving events from Port Self-Service Hub and executing the relevant runner (implemented by AWS CodeBuild)."
 self-service-runner,Senora-dev,23711,aws,https://github.com/Senora-dev/terraform-aws-self-service-runner,This Terraform module creates an AWS CodeBuild project designed to serve as a runner for Port self-service actions. The CodeBuild project is configured to be triggered by the Lambda Agent.
 selfdestruct,gabrielmccoll,17504,azurerm,https://github.com/gabrielmccoll/terraform-azurerm-selfdestruct,Terraform module to self destruct a deployment in AzureRM after X hours.
+selfhosted-runner-module,koklushkin,25192,bitbucket,https://github.com/koklushkin/terraform-bitbucket-selfhosted-runner-module,Bitbucket Runner with Job and Pod
 selfhostedrunnervmss,amestofortytwo,21121,azurerm,https://github.com/amestofortytwo/terraform-azurerm-selfhostedrunnervmss,Module for creating a simple virtual machine scale set for Azure DevOps and GitHub self hosted runners
 selfhostedrunnervmss,fortytwoservices,24387,azurerm,https://github.com/fortytwoservices/terraform-azurerm-selfhostedrunnervmss,Module for creating a simple virtual machine scale set for Azure DevOps and GitHub self hosted runners
 send-alert-slack,hendrixroa,6546,aws,https://github.com/hendrixroa/terraform-aws-send-alert-slack,AWS Lambda to send a notification to slack workspace.
@@ -13573,9 +13619,11 @@ server,robertdebock,19825,hetzner,https://github.com/robertdebock/terraform-hetz
 server,sacloud,958,sakuracloud,https://github.com/sacloud/terraform-sakuracloud-server,Terraform module for provisioning server instance
 server,terraform-ncloud-modules,15155,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-server,Terraform module which creates Server resources on Naver Cloud Platform
 server,zoro16,21280,hcloud,https://github.com/zoro16/terraform-hcloud-server,"Terraform module to provision Server resource in Hetzner Cloud along with other optional resources e.g. Snapshot, Primary IP etc."
+server-classic,terraform-navercloudplatform-modules,25170,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-server-classic,Terraform module to create server resources for the classic configuration
 server-ha-aws,srb3,3924,chef,https://github.com/srb3/terraform-chef-server-ha-aws,
 server-profile,peterchristoph,10893,intersight,https://github.com/peterchristoph/terraform-intersight-server-profile,Terraform module to configure Intersight Server Profiles
 server-profile,terraform-cisco-modules,8336,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-server-profile,Terraform module to configure Intersight Server Profiles
+server-vpc,terraform-navercloudplatform-modules,25169,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-server-vpc,Terraform module to create server resources for the vpc configuration
 serverless,FormidableLabs,2116,aws,https://github.com/FormidableLabs/terraform-aws-serverless,"Infrastructure support for Serverless framework apps, done the right way"
 serverless,ardeshir,3528,azure,https://github.com/ardeshir/terraform-azure-serverless,terraform azure serverless 
 serverless,ganexcloud,15173,aws,https://github.com/ganexcloud/terraform-aws-serverless,
@@ -13636,6 +13684,7 @@ serverless-website,tarekmulla,20820,aws,https://github.com/tarekmulla/terraform-
 serverless-workflow,terraform-alicloud-modules,12797,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-workflow,Terraform Module for creating Serverless Workflow resources on Alibaba Cloud.
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
 service,SolaceProducts,24981,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-service,"Solace software broker Terraform module to abstract broker VPN, authentication and authorization configuration"
+service,SolaceProducts,25197,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-service,"Solace PubSub+ appliance Terraform module to abstract broker VPN, authentication and authorization configuration"
 service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service + Slack Connectors, integrations, extensions, and more. 🇺🇦"
 service,dasmeta,22549,aws,https://github.com/dasmeta/terraform-aws-service,Terraform module to create Service
 service,hazelops,7242,pagerduty,https://github.com/hazelops/terraform-pagerduty-service,
@@ -14762,6 +14811,7 @@ subnet-demo,jiteshkanherkar,13070,aws,https://github.com/jiteshkanherkar/terrafo
 subnet-iam-attach,lancyqusa,19602,google,https://github.com/lancyqusa/terraform-google-subnet-iam-attach,
 subnet-private,Terraform-Modules-Lib,9640,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-private,Manage OCI private subnet
 subnet-public,Terraform-Modules-Lib,9629,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-public,Manage public subnet
+subnet-vpc,terraform-navercloudplatform-modules,25168,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-subnet-vpc,Terraform module to create subnet resources for the vpc configuration
 subnet_network_security_group_association,sironite,19772,azurerm,https://github.com/sironite/terraform-azurerm-subnet_network_security_group_association,Terraform module creates Azure Subnet network security group association
 subnets,Azure,16829,azurerm,https://github.com/Azure/terraform-azurerm-subnets,Terraform module to create/provision Azure Virtual Network and Subnets
 subnets,MagnetarIT,4623,aws,https://github.com/MagnetarIT/terraform-aws-subnets,Terraform module for creating subnets
@@ -14948,6 +14998,7 @@ target-group,SoleksDataGroup,24677,aws,https://github.com/SoleksDataGroup/terraf
 target-group,terraform-ncloud-modules,15856,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-target-group,
 target-group,tomarv2,12337,aws,https://github.com/tomarv2/terraform-aws-target-group,Terraform module for AWS Target Group
 target-group-alarms,egarbi,643,aws,https://github.com/egarbi/terraform-aws-target-group-alarms,This will add basic alarms for ecs services
+target-group-attachment-vpc,terraform-navercloudplatform-modules,25167,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-target-group-attachment-vpc,Terraform module to create target group attachment resources for the vpc configuration
 target-node,lsampaioweb,17596,random,https://github.com/lsampaioweb/terraform-random-target-node,Repository of a Terraform module that generates random numbers that are used as the servers that will receive the new VM.
 task-definition,egarbi,458,aws,https://github.com/egarbi/terraform-aws-task-definition,This is a submodule usuful to be called from a service module to create a task-definition
 task-definition-with-task-role,mergermarket,3687,acuris,https://github.com/mergermarket/terraform-acuris-task-definition-with-task-role,
@@ -16451,6 +16502,7 @@ vpc-peering-multi-region,opencloudsource,15515,aws,https://github.com/openclouds
 vpc-peering-multi-region,terraform-alicloud-modules,4372,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-peering-multi-region,Terraform module to create a peering connection between two VPCs in the same Alibaba Cloud account and multi region.
 vpc-peering-requester,StayWell,2329,aws,https://github.com/StayWell/terraform-aws-vpc-peering-requester,Request a VPC peering connection and build the route required to utilize the connection
 vpc-peering-requester,jjno91,2065,aws,https://github.com/jjno91/terraform-aws-vpc-peering-requester,Request a VPC peering connection and build the route required to utilize the connection
+vpc-peering-vpc,terraform-navercloudplatform-modules,25166,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-vpc-peering-vpc,Terraform module to create vpc peering resources for the vpc configuration
 vpc-policy,netascode,10348,aci,https://github.com/netascode/terraform-aci-vpc-policy,Terraform Cisco ACI vPC Policy Module
 vpc-privatelink-connection,terraform-alicloud-modules,10255,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-privatelink-connection,
 vpc-project,sibikmc,21285,alicloud,https://github.com/sibikmc/terraform-alicloud-vpc-project,
@@ -16475,6 +16527,7 @@ vpc-t1,rus777777,13906,aws,https://github.com/rus777777/terraform-aws-vpc-t1,
 vpc-team1,lucardcoder,16729,aws,https://github.com/lucardcoder/terraform-aws-vpc-team1,
 vpc-test,bmfernand,17138,aws,https://github.com/bmfernand/terraform-aws-vpc-test,
 vpc-via-cfn,ordinaryexperts,2042,aws,https://github.com/ordinaryexperts/terraform-aws-vpc-via-cfn,VPC via CloudFormation as a Terraform module
+vpc-vpc,terraform-navercloudplatform-modules,25165,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-vpc-vpc,Terraform module to create vpc resources for the vpc configuration
 vpc-vsi,cloud-native-toolkit,14570,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-vpc-vsi,Module to provision a Virtual Server instance in an IBM Cloud Virtual Private Cloud instance
 vpc-with-nat-instance,phenixcoder,11510,aws,https://github.com/phenixcoder/terraform-aws-vpc-with-nat-instance,
 vpc-with-subnets,Quansight,21748,aws,https://github.com/Quansight/terraform-aws-vpc-with-subnets,A terraform module to create a vpc with dynamic subnets.
