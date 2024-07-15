@@ -1129,7 +1129,9 @@ archive,glenngillen,15356,gg,https://github.com/glenngillen/terraform-gg-archive
 archive-builder,opendevsecops,4989,local,https://github.com/opendevsecops/terraform-local-archive-builder,A helper terraform module to perform builds using local shell and docker.
 archive-python,JayDoubleu,2583,external,https://github.com/JayDoubleu/terraform-external-archive-python,Python script to archive files to be used by terraform
 archiving-s3,kurron,733,aws,https://github.com/kurron/terraform-aws-archiving-s3,Terraform module that creates an S3 bucket that moves objects into Glacier after a period of time
-aredsft-networking,JohnMaturan97,25205,aws,https://github.com/JohnMaturan97/terraform-aws-aredsft-networking,
+aredsft-cluster,JohnMaturan97,25206,aws,https://github.com/JohnMaturan97/terraform-aws-aredsft-cluster,
+aredsft-networking,JohnMaturan97,25208,aws,https://github.com/JohnMaturan97/terraform-aws-aredsft-networking,
+aredsft-security,JohnMaturan97,25207,aws,https://github.com/JohnMaturan97/terraform-aws-aredsft-security,
 arfa,Arfa7007,12277,aws,https://github.com/Arfa7007/terraform-aws-arfa,
 argo-cd,gfortetsanakis,15223,helm,https://github.com/gfortetsanakis/terraform-helm-argo-cd,
 argo-cd,kubestack-modules,21100,kustomization,https://github.com/kubestack-modules/terraform-kustomization-argo-cd,Argo-Cd Terraform Module for Kubernetes by Kubestack
@@ -1639,7 +1641,8 @@ avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-az
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
 awesome-modules,armagankaratosun,20105,vsphere,https://github.com/armagankaratosun/terraform-vsphere-awesome-modules,Armagan's Awesome Terraform Modules for VMware vSphere/vCenter
-awp-aws,dome9,24005,dome9,https://github.com/dome9/terraform-dome9-awp-aws,CloudGuard AWP Module
+awp-aws,dome9,24005,dome9,https://github.com/dome9/terraform-dome9-awp-aws,CloudGuard AWP Module (AWS)
+awp-azure,dome9,25213,dome9,https://github.com/dome9/terraform-dome9-awp-azure,CloudGuard AWP Module (Azure)
 aws,ActionIQ-OSS,12331,duckbillgroup,https://github.com/ActionIQ-OSS/terraform-duckbillgroup-aws,
 aws,Varshitha-Gundluru,15310,registry,https://github.com/Varshitha-Gundluru/terraform-registry-aws,
 aws,Yvz-DevOps,5808,asg,https://github.com/hyvz-devops/terraform-asg-aws,
@@ -3474,6 +3477,7 @@ console-deploy,recipopdev,15264,aws,https://github.com/recipopdev/terraform-aws-
 consul,10thmagnitude,1037,azurerm,https://github.com/10thmagnitude/terraform-azurerm-consul,A Terraform Module for how to run Consul on AzureRM using Terraform and Packer
 consul,basisai,6876,kubernetes,https://github.com/basisai/terraform-kubernetes-consul,Deploy Consul on Kubernetes using Terraform
 consul,brucellino,14795,digitalocean,https://github.com/brucellino/terraform-digitalocean-consul,Consul cluster on digitalocean
+consul,gomex,25223,aws,https://github.com/gomex/terraform-aws-consul,A Terraform Module for how to run Consul on AWS using Terraform and Packer
 consul,hashicorp,107,google,https://github.com/hashicorp/terraform-google-consul,A Terraform Module for how to run Consul on Google Cloud using Terraform and Packer
 consul,hashicorp,111,aws,https://github.com/hashicorp/terraform-aws-consul,A Terraform Module for how to run Consul on AWS using Terraform and Packer
 consul,hashicorp,83,azurerm,https://github.com/hashicorp/terraform-azurerm-consul,A Terraform Module for how to run Consul on AzureRM using Terraform and Packer
@@ -4487,6 +4491,7 @@ docker-instance,aykutakgnu,14637,aws,https://github.com/aykutakgnu/terraform-aws
 docker-instance,baaserosman,21572,aws,https://github.com/baaserosman/terraform-aws-docker-instance,
 docker-instance,bahadiralsan,17016,aws,https://github.com/bahadiralsan/terraform-aws-docker-instance,
 docker-instance,bahattinatalay,14663,aws,https://github.com/bahattinatalay/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,balaban1432,25222,aws,https://github.com/balaban1432/terraform-aws-docker-instance,
 docker-instance,bekirbilgec,15711,aws,https://github.com/bekirbilgec/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,bekirokutan,18191,aws,https://github.com/bekirokutan/terraform-aws-docker-instance,
 docker-instance,bekirtechpro,23415,aws,https://github.com/bekirtechpro/terraform-aws-docker-instance,
@@ -5945,6 +5950,7 @@ eks,rhythmictech,5394,aws,https://github.com/rhythmictech/terraform-aws-eks,A Te
 eks,richardsonlima,14607,aws,https://github.com/richardsonlima/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
 eks,s3d-club,15581,aws,https://github.com/s3d-club/terraform-aws-eks,
 eks,samimcloud2020,13869,aws,https://github.com/samimcloud2020/terraform-aws-eks,
+eks,saturnops,25215,aws,https://github.com/saturnops/terraform-aws-eks,
 eks,scalesafely,22245,aws,https://github.com/scalesafely/terraform-aws-eks,
 eks,shamal112mn,6926,aws,https://github.com/shamal112mn/terraform-aws-eks,
 eks,shukla2112,8359,aws,https://github.com/shukla2112/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
@@ -8040,6 +8046,7 @@ ipam,blackbird-cloud,24496,aws,https://github.com/blackbird-cloud/terraform-aws-
 ipam,tedilabs,21164,aws,https://github.com/tedilabs/terraform-aws-ipam,"🌳 A sustainable Terraform Package which creates IPAM resources (IPAM, Elastic IP, Prefix List) on AWS"
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infinera-ipm-modules,
+ipv6-intra-vpc-security-group-rule,JudeQuintana,25219,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-intra-vpc-security-group-rule,
 ipwhitelist,a3linux,17967,null,https://github.com/a3linux/terraform-null-ipwhitelist,A simple terraform module to manage IP whitelist easy and flexible
 iq3-agw-internal-https,iq3cloud-dev,7686,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-agw-internal-https,
 iq3-aks,iq3cloud-dev,6372,azurerm,https://github.com/iq3cloud-dev/terraform-azurerm-iq3-aks,
@@ -8366,6 +8373,7 @@ keypair,ofurmaniuk,21791,aws,https://github.com/ofurmaniuk/terraform-aws-keypair
 keypair,oshakirov5505,11880,aws,https://github.com/oshakirov5505/terraform-aws-keypair,
 keypair,rhythmictech,3143,secretsmanager,https://github.com/rhythmictech/terraform-aws-secretsmanager-keypair,Generates and stores an EC2 Keypair in Secrets Manager
 keypair,roseyildiztas,11904,aws,https://github.com/roseyildiztas/terraform-aws-keypair,
+keypair,saturnops,25216,aws,https://github.com/saturnops/terraform-aws-keypair,
 keypair,shepherdcloud,2278,openstack,https://github.com/shepherdcloud/terraform-openstack-keypair,"Terraform OpenStack Module to create keypair, generated or provided"
 keypair,squareops,17479,aws,https://github.com/squareops/terraform-aws-keypair,Terraform Module to create an EC2 SSH keypair on AWS and save the private key to SSM Parameter Store
 keypair,tatianazubco11,21795,aws,https://github.com/tatianazubco11/terraform-aws-keypair,
@@ -10673,6 +10681,7 @@ new,rano87,21545,module,https://github.com/rano87/terraform-module-new,
 new-database,iqz-systems,10120,postgresql,https://github.com/iqz-systems/terraform-postgresql-new-database,Terraform module to create a new database using the [postgresql](https://registry.terraform.io/providers/cyrilgdn/postgresql/latest/docs) provider.
 new-relic-integration,geekcell,19783,aws,https://github.com/geekcell/terraform-aws-new-relic-integration,Terraform module to provision an AWS New Relic Integration.
 new-relic-lambda-layer,JCapriotti,9253,aws,https://github.com/JCapriotti/terraform-aws-new-relic-lambda-layer,
+new-tf,anudeepk29,25220,anudeep,https://github.com/anudeepk29/terraform-anudeep-new-tf,
 new1,javedansari278,25042,azurerm,https://github.com/javedansari278/terraform-azurerm-new1,
 newgroup,andrewCluey,6540,azuread,https://github.com/andrewCluey/terraform-azuread-newgroup,Create a new Azure AD group
 newmodule,Rajkumar7878,17101,azure,https://github.com/Rajkumar7878/terraform-azure-newmodule,
@@ -11427,6 +11436,7 @@ postgresql,mcalik77,11462,azurerm,https://github.com/mcalik77/terraform-azurerm-
 postgresql,nuxion,16086,google,https://github.com/nuxion/terraform-google-postgresql,A native installation of postgresql
 postgresql,rahulagalcha97,5819,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-postgresql,Azure Database for PostgreSQL Module
 postgresql,rhythmictech,3900,azurerm,https://github.com/rhythmictech/terraform-azurerm-postgresql,Terraform module for Azure managed PostgreSQL Database
+postgresql,saturnops,25218,azure,https://github.com/saturnops/terraform-azure-postgresql,
 postgresql,squareops,20696,azurerm,https://github.com/squareops/terraform-azurerm-postgresql,"This module is designed to facilitate the deployment of PostgreSQL databases within the Azure environment, enabling seamless management and utilization of the database resources."
 postgresql,terraform-tencentcloud-modules,16261,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-postgresql,TencentCloud PostgreSQL for Terraform
 postgresql,tf-cloud-modules,14967,aiven,https://github.com/tf-cloud-modules/terraform-aiven-postgresql,Aiven PostgreSQL Terraform module
@@ -12214,7 +12224,6 @@ redshift,terraform-aws-modules,299,aws,https://github.com/terraform-aws-modules/
 redshift-cluster,SevenPico,18670,aws,https://github.com/SevenPico/terraform-aws-redshift-cluster,Terraform module to provision an AWS Redshift Cluster
 redshift-cluster,cloudposse,8463,aws,https://github.com/cloudposse/terraform-aws-redshift-cluster,Terraform module to provision an AWS Redshift Cluster
 redshift-loader-ec2,snowplow-devops,18098,aws,https://github.com/snowplow-devops/terraform-aws-redshift-loader-ec2,
-redshift-networking,JohnMaturan97,25204,aws,https://github.com/JohnMaturan97/terraform-aws-redshift-networking,
 redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-redshift-service,"Provision Postgres RDS on HSP including prometheus metrics endpoint, discoverable by variant"
 redshift_alarms,cloudomat,24433,aws,https://github.com/cloudomat/terraform-aws-redshift_alarms,
 redteam,robertaaron1999,18459,robert,https://github.com/robertaaron1999/terraform-robert-redteam,terraform repo to check exfil 
@@ -14253,6 +14262,7 @@ ssh-key,nerdrobot,19338,do,https://github.com/nerdrobot/terraform-do-ssh-key,Ter
 ssh-key,terraform-do-modules,9864,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-ssh-key,
 ssh-key-pair,cloudposse,1044,tls,https://github.com/cloudposse/terraform-tls-ssh-key-pair,Terraform module for generating an SSH public/private key file.
 ssh-key-pair,rallyware,16137,tls,https://github.com/rallyware/terraform-tls-ssh-key-pair,A simple terraform module for generating SSH key-pair
+ssh-keypair,saturnops,25212,aws,https://github.com/saturnops/terraform-aws-ssh-keypair,
 ssh-keypair-generator,jd4883,7286,hashicorp,https://github.com/jd4883/terraform-hashicorp-ssh-keypair-generator,"A small terraform module to generate SSH keypairs. For now, this creates and outputs a private and public keypair, and by default writes these into a public and private key file. These can be toggled via bool."
 ssh-ssm,JamesWoolfenden,2049,aws,https://github.com/JamesWoolfenden/terraform-aws-ssh-ssm,Secure Storage for SSH keys in AWS parameter store
 ssh_file,OJFord,3148,module,https://github.com/OJFord/terraform-module-ssh_file,"Easily acquire file contents over SSH. Like `data ""local_file""`, but remote."
@@ -16229,6 +16239,7 @@ vpc,ryanef,23408,aws,https://github.com/ryanef/terraform-aws-vpc,aws vpc
 vpc,ryansrepos,23438,aws,https://github.com/ryansrepos/terraform-aws-vpc,Terraform AWS VPC Module for TF Registry
 vpc,samnurik,21456,module,https://github.com/samnurik/terraform-module-vpc,
 vpc,satishkesharwani,9159,aws,https://github.com/satishkesharwani/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,saturnops,25217,aws,https://github.com/saturnops/terraform-aws-vpc,
 vpc,scalereal,4913,aws,https://github.com/scalereal/terraform-aws-vpc,Terraform Module for AWS VPC creation.
 vpc,scaleway-terraform-modules,17629,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-vpc,Manage Scaleway VPC and Gateways with Terraform.
 vpc,scholzj,242,aws,https://github.com/scholzj/terraform-aws-vpc,Terraform module for creating s simple Amazon AWS VPC and subnets
@@ -16450,6 +16461,7 @@ vpc-lite,JamesWoolfenden,8995,aws,https://github.com/JamesWoolfenden/terraform-a
 vpc-log-flows,terraform-alicloud-modules,10422,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-log-flows,
 vpc-module,BreakingPitt,21371,packer,https://github.com/BreakingPitt/terraform-packer-vpc-module,Terraform module to create a Packer's build vpc
 vpc-module,JAYAKUMAR-hub,10781,aws,https://github.com/JAYAKUMAR-hub/terraform-aws-vpc-module,This is a terraform module for aws vpc
+vpc-module,JohnMaturan97,25210,aws,https://github.com/JohnMaturan97/terraform-aws-vpc-module,
 vpc-module,chrisley75,6960,aws,https://github.com/chrisley75/terraform-aws-vpc-module,My personal TF module to create VPC in AWS
 vpc-module,devopstia,22483,aws,https://github.com/devopstia/terraform-aws-vpc-module,Terraform Module to Create AWS VPC Resources Created by Tia
 vpc-module,ibrar-eurus,15976,aws,https://github.com/ibrar-eurus/terraform-aws-vpc-module,
