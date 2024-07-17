@@ -1521,6 +1521,7 @@ auto-scaling-policy,terraform-navercloudplatform-modules,25250,ncloud,https://gi
 auto-scaling-schedule-classic,terraform-navercloudplatform-modules,25252,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-schedule-classic,Terraform module to create auto scaling schedule resources for the classic configuration
 auto-scaling-schedule-vpc,terraform-navercloudplatform-modules,25253,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-schedule-vpc,Terraform module to create auto scaling schedule resources for the vpc configuration
 auto-sg,tegarimansyah,23333,aws,https://github.com/tegarimansyah/terraform-aws-auto-sg,Auto Generate Multiple AWS Security Group Rules with Less Code
+autoalarm,truemark,25289,aws,https://github.com/truemark/terraform-aws-autoalarm,Terraform wrapper for AutoAlarm deployment
 autocloud-access-role,autoclouddev,8142,aws,https://github.com/autoclouddev/terraform-aws-autocloud-access-role,AWS IAM Role provisioning cross-account access for AutoCloud
 autocloud-enterprise-application,autoclouddev,11035,azurerm,https://github.com/autoclouddev/terraform-azurerm-autocloud-enterprise-application,Azure Enterprise Application provisioning access for AutoCloud to analyze a subscription
 autocloud-service-account,autoclouddev,10995,google,https://github.com/autoclouddev/terraform-google-autocloud-service-account,GCP service account provisioning access for AutoCloud to analyze a project
@@ -2160,6 +2161,7 @@ bigquery-dataset-member,hiracky16,24906,google,https://github.com/hiracky16/terr
 bigquery-destination,airbytehq,20795,airbyte,https://github.com/airbytehq/terraform-airbyte-bigquery-destination,Terraform Module for Setting Up BigQuery Destination with Airbyte
 bigquery-loader-pubsub-ce,snowplow-devops,16562,google,https://github.com/snowplow-devops/terraform-google-bigquery-loader-pubsub-ce,
 bigquery-view,janjagusch,5364,google,https://github.com/janjagusch/terraform-google-bigquery-view,A Terraform module for creating BigQuery views
+bigtable,GoogleCloudPlatform,25287,google,https://github.com/GoogleCloudPlatform/terraform-google-bigtable,Create and manage Google Bigtable resources
 bigtable,JamesWoolfenden,21487,gcp,https://github.com/JamesWoolfenden/terraform-gcp-bigtable,
 bigtable,bootlabstech,14321,google,https://github.com/bootlabstech/terraform-google-bigtable,
 bigtable-backups,JamesWoolfenden,21714,gcp,https://github.com/JamesWoolfenden/terraform-gcp-bigtable-backups,Need a backup solution for bigtable? This does it.
@@ -3827,6 +3829,7 @@ database-integration,AdrienneCohea,7681,vault,https://github.com/AdrienneCohea/t
 database-lab,postgres-ai,10248,postgresai,https://github.com/postgres-ai/terraform-postgresai-database-lab,
 database-migration-service,mnanchev,5519,aws,https://github.com/mnanchev/terraform-aws-database-migration-service,Module to migrate database to AWS
 database-refresh-orchestrator,akirosit,23804,aws,https://github.com/akirosit/terraform-aws-database-refresh-orchestrator,This is a Terraform module for deploying the database refresh orchestrator on AWS.
+database-role,getindata,25280,snowflake,https://github.com/getindata/terraform-snowflake-database-role,Terraform Database role module for Snowflake
 database-role,ptonini,16800,vault,https://github.com/ptonini/terraform-vault-database-role,
 database-secret,truemark,11284,aws,https://github.com/truemark/terraform-aws-database-secret,
 databases,TaitoUnited,10709,aws,https://github.com/TaitoUnited/terraform-aws-databases,
@@ -3839,7 +3842,7 @@ databasesystem,skbanerj88,3237,oci,https://github.com/skbanerj88-zz/terraform-oc
 databasesystem,sourish88,7456,oci,https://github.com/sourish88/terraform-oci-databasesystem,
 databricks,WeAreRetail,22571,azurerm,https://github.com/WeAreRetail/terraform-azurerm-databricks,
 databricks,atrakic,18723,azure,https://github.com/atrakic/terraform-azure-databricks,A Terraform module to create Azure Databricks ressources.
-databricks,baydullod,25198,azurerm,https://github.com/baydullod/terraform-azurerm-databricks,This project
+databricks,baydullod,25286,az,https://github.com/baydullod/terraform-az-databricks,
 databricks,clouddrove,17689,azure,https://github.com/clouddrove/terraform-azure-databricks,
 databricks,equinor,23385,azurerm,https://github.com/equinor/terraform-azurerm-databricks,Terraform module which creates Azure Databricks resources
 databricks-account-groups,data-platform-hq,19165,databricks,https://github.com/data-platform-hq/terraform-databricks-databricks-account-groups,Terraform module for creation Databricks Account Groups and assignments to the Databricks Premium Workspace
@@ -10812,6 +10815,7 @@ nomad-service,Chhed13,3541,aws,https://github.com/Chhed13/terraform-aws-nomad-se
 nomad-setup,hashicorp-modules,21752,consul,https://github.com/hashicorp-modules/terraform-consul-nomad-setup,Terraform module to configure a Consul cluster for Nomad workload identities. 
 nomad-setup,hashicorp-modules,21753,vault,https://github.com/hashicorp-modules/terraform-vault-nomad-setup,Terraform module to configure a Vault cluster for Nomad workload identities.
 nomad-standalone,brucellino,17028,digitalocean,https://github.com/brucellino/terraform-digitalocean-nomad-standalone,A Terraform module for a Standalone Nomad cluster in Digital Ocean
+nomad-starter,ChrisAdkin8,25285,aws,https://github.com/ChrisAdkin8/terraform-aws-nomad-starter,Terraform Module for Provisioning Nomad on AWS
 nomad-starter,hashicorp,6066,aws,https://github.com/hashicorp/terraform-aws-nomad-starter,Terraform Module for Provisioning Nomad on AWS
 nomad-webhooks,brucellino,21935,github,https://github.com/brucellino/terraform-github-nomad-webhooks,A terraform module to create webhooks for your repos to send data to a nomad webhooks
 non-vcs-connected-workspace,ausmartway,10464,tfe,https://github.com/ausmartway/terraform-tfe-non-vcs-connected-workspace,
@@ -11265,7 +11269,7 @@ personal-org,george-richardson,12519,aws,https://github.com/george-richardson/te
 personas-deployment,fmunozmiranda,14992,ciscoise,https://github.com/fmunozmiranda/terraform-ciscoise-personas-deployment,
 pet,BrynardSecurity-terraform,12997,random,https://github.com/BrynardSecurity-terraform/terraform-random-pet,
 pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,Example Terraform Module Repo
-pet,roooms,25013,random,https://github.com/roooms/terraform-random-pet,
+pet,roooms,25282,random,https://github.com/roooms/terraform-random-pet,
 petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,testing outputs
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
@@ -11880,6 +11884,7 @@ rds,philips-software,1223,aws,https://github.com/philips-software/terraform-aws-
 rds,pododso,5638,aws,https://github.com/pododso/terraform-aws-rds,Module for managing RDS Instances
 rds,pogosoftware,13127,aws,https://github.com/pogosoftware/terraform-aws-rds,
 rds,polganesh,4731,aws,https://github.com/polganesh/terraform-aws-rds,terraform repo for creating rds
+rds,rkoron007,25288,aws,https://github.com/rkoron007/terraform-aws-rds,
 rds,sdh63,5893,aws,https://github.com/sdh63/terraform-aws-rds,
 rds,snarlaa,14188,aws,https://github.com/snarlaa/terraform-aws-rds,Terraform module which creates RDS resources on AWS
 rds,snowplow-devops,9268,aws,https://github.com/snowplow-devops/terraform-aws-rds,
@@ -14297,6 +14302,7 @@ ssm,Selleo,12981,aws,https://github.com/Selleo/terraform-aws-ssm,AWS Systems Man
 ssm,Young-ook,8641,aws,https://github.com/Young-ook/terraform-aws-ssm,Terraform Module: AWS Systems Manager
 ssm,areguera,13913,aws,https://github.com/areguera/terraform-aws-ssm,Terraform module to compose AWS Systems Manager (SSM) configurations
 ssm,boldlink,21388,aws,https://github.com/boldlink/terraform-aws-ssm,Terraform registry repository for AWS Systems Manager
+ssm,mikamakusa,25281,aws,https://github.com/mikamakusa/terraform-aws-ssm,
 ssm,opszero,17611,aws,https://github.com/opszero/terraform-aws-ssm,
 ssm-adjoin,neillturner,2416,aws,https://github.com/neillturner/terraform-aws-ssm-adjoin,SSM Document to join Instance to AD Domain of AWS Directory Service 
 ssm-agent,bailey84j,11704,kubernetes,https://github.com/bailey84j/terraform-kubernetes-ssm-agent,
