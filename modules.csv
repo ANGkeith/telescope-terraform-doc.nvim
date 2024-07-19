@@ -384,6 +384,7 @@ ai-check-gpu-statistics,terraform-shoreline-modules,20285,shoreline,https://gith
 ai-gpu-environment-debugging,terraform-shoreline-modules,20286,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-ai-gpu-environment-debugging,This repository was generated automatically based on a Shoreline Insights Runbook.
 ai-inference-onboarding,philips-labs,9819,hsdp,https://github.com/philips-labs/terraform-hsdp-ai-inference-onboarding,Onboarding module for HSDP AI Inference service
 ai-notebook-environment,teamdatatonic,8375,gcp,https://github.com/teamdatatonic/terraform-gcp-ai-notebook-environment,
+ai-stack,datastax,25323,astra,https://github.com/datastax/terraform-astra-ai-stack,
 airbyte-flows,artefactory,20667,google,https://github.com/artefactory/terraform-google-airbyte-flows,A Terraform module to programatically deploy end-to-end ELT flows to BigQuery on Airbyte.
 airbyte-infra,artefactory,20757,google,https://github.com/artefactory/terraform-google-airbyte-infra,A Terraform module to programatically deploy an Airbyte server on GCP
 airflow,PowerDataHub,2267,aws,https://github.com/PowerDataHub/terraform-aws-airflow,"Terraform module to deploy an Apache Airflow cluster on AWS, backed by RDS PostgreSQL for metadata, S3 for logs and SQS as message broker with CeleryExecutor"
@@ -1867,7 +1868,7 @@ azure-firewall,data-platform-hq,21919,azurerm,https://github.com/data-platform-h
 azure-firewall,jsathler,21063,azurerm,https://github.com/jsathler/terraform-azurerm-azure-firewall,
 azure-function-powershell,JustinGrote,2518,azurerm,https://github.com/JustinGrote/terraform-azurerm-azure-function-powershell,Deploys a Azure Functions Powershell Worker along with Application Insights and a Key Vault
 azure-functions-static-site,reifnir,8337,azurerm,https://github.com/reifnir/terraform-azurerm-azure-functions-static-site,This module creates an Azure Functions application that serves a static content.
-azure-infrastructure,ikigailabs,25077,ikigai,https://github.com/ikigailabs/terraform-ikigai-azure-infrastructure,
+azure-infrastructure,ikigailabs,25077,ikigai,https://github.com/ikigailabs/terraform-ikigai-azure-infrastructure,Creates all of the Azure infrastructure necessary to launch the Ikigai application 
 azure-interconnect,maxjahn,5872,oci,https://github.com/maxjahn/terraform-oci-azure-interconnect,Include an OCI-Azure interconnect in your project more easily by using this terraform module
 azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-azure-k8s,
 azure-keyvault-secrets-provider,markti,23743,kubernetes,https://github.com/markti/terraform-kubernetes-azure-keyvault-secrets-provider,Connect AKS to Azure KeyVault Secrets Provider
@@ -2663,6 +2664,7 @@ client-vpn,finisterra-io,23721,aws,https://github.com/finisterra-io/terraform-aw
 client-vpn,janschumann,6437,aws,https://github.com/janschumann/terraform-aws-client-vpn,
 client-vpn,masterpointio,9193,aws,https://github.com/masterpointio/terraform-aws-client-vpn,This terraform module installs the AWS Client VPN into an account and sets up the VPN Certificates for usage.
 client-vpn,mericozkayagan,13439,aws,https://github.com/mericozkayagan/terraform-aws-client-vpn,This terraform module installs a client VPN.
+client-vpn-authorization-rules,Invicton-Labs,25330,aws,https://github.com/Invicton-Labs/terraform-aws-client-vpn-authorization-rules,Calculates a minimal set of AWS Client VPN authorization rules that meet given requirements.
 client-vpn-directory-auth,voquis,9527,aws,https://github.com/voquis/terraform-aws-client-vpn-directory-auth,Terraform module for AWS Client VPN that uses AWS managed Microsoft Active Directory
 client-vpn-endpoint,alvarodelvalle,8920,aws,https://github.com/alvarodelvalle/terraform-aws-client-vpn-endpoint,Authorize a client VPN in a VPC
 client-vpn-endpoint,fivexl,10386,aws,https://github.com/fivexl/terraform-aws-client-vpn-endpoint,AWS Client VPN endpoint
@@ -7512,6 +7514,7 @@ helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digi
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
 helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital/terraform-aws-helper-assume-roles,Small helper module which creates assumable roles for other accounts
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
+helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
 helper-workspace-policy,guidion-digital,23051,aws,https://github.com/guidion-digital/terraform-aws-helper-workspace-policy,Small helper module which generates least-privilage policies necessary for application modules to be able to create their resources
 helpers,MaxKelsen,8095,aws,https://github.com/MaxKelsen/terraform-aws-helpers,Max Kelsen's Common Terraform Module Library
 helpers,ScottG489,5499,aws,https://github.com/ScottG489/terraform-aws-helpers,Helper modules for my projects
@@ -7977,7 +7980,7 @@ instance,shamal112mn,6825,rds,https://github.com/shamal112mn/terraform-rds-insta
 instance,shepherdcloud,2280,openstack,https://github.com/shepherdcloud/terraform-openstack-instance,Terraform module to create OpenStack Compute instance
 instance,slimflex2,6813,rds,https://github.com/slimflex2/terraform-rds-instance,
 instance,terraform-openstack-modules,1413,openstack,https://github.com/terraform-openstack-modules/terraform-openstack-instance,Terraform Provision Instance at Openstack
-instance,terraform-yacloud-modules,17923,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-instance,
+instance,terraform-yacloud-modules,17923,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-instance,Terraform module to manage Compute Instance resources within the Yandex.Cloud.
 instance,turdalieva,6820,rds,https://github.com/turdalieva/terraform-rds-instance,
 instance,tutac,6817,rds,https://github.com/tutac/terraform-rds-instance,
 instance,tyncha,6821,rds,https://github.com/tyncha/terraform-rds-instance,
@@ -8057,6 +8060,7 @@ iot,Angelszm,10240,aws,https://github.com/Angelszm/terraform-aws-iot,
 iot-arch,bootlabstech,17681,google,https://github.com/bootlabstech/terraform-google-iot-arch,
 iot-arch,bootlabstech,18022,azurerm,https://github.com/bootlabstech/terraform-azurerm-iot-arch,
 iot-arch,bootlabstech-m,17737,aws,https://github.com/bootlabstech-m/terraform-aws-iot-arch,
+iot-edge,sebastianconsuegra95,25332,azure,https://github.com/sebastianconsuegra95/terraform-azure-iot-edge,This module uses Terraform to manage the identity of an IoT Edge device in Azure
 iot-topic-rule,QuiNovas,4897,aws,https://github.com/QuiNovas/terraform-aws-iot-topic-rule,Creates AWS IOT Topic rule 
 iotarch,bootlabstech-m,18087,aws,https://github.com/bootlabstech-m/terraform-aws-iotarch,
 iothub,regelcloud,4908,azurerm,https://github.com/regelcloud/terraform-azurerm-iothub,Terraform module for Azure IoTHub
@@ -8115,7 +8119,7 @@ jayaworld-s3-logs-bucket,JayavardhanTummidi,9965,aws,https://github.com/Jayavard
 jayaworld-security-group,JayavardhanTummidi,11549,aws,https://github.com/JayavardhanTummidi/terraform-aws-jayaworld-security-group,
 jellyfin,Feleuxens,22198,helm,https://github.com/Feleuxens/terraform-helm-jellyfin,Terraform module for provisioning Jellyfin
 jellyseerr,Feleuxens,22204,helm,https://github.com/Feleuxens/terraform-helm-jellyseerr,Terraform module for provisioning Jellyseerr
-jenkins,Cloud-42,1917,aws,https://github.com/Cloud-42/terraform-aws-jenkins,"Immutable, auto-updating Jenkins Master. Data stored on encrypted EFS."
+jenkins,Cloud-42,25327,aws,https://github.com/Cloud-42/terraform-aws-jenkins,"Immutable, auto-updating Jenkins Master. Data stored on encrypted EFS."
 jenkins,DNXLabs,5739,aws,https://github.com/DNXLabs/terraform-aws-jenkins,A Terraform module for deploying Jenkins master and build agents in AWS.
 jenkins,Evolve-Cyber-Organization,4960,aws,https://github.com/Evolve-Cyber-Organization/terraform-aws-jenkins,This Repo is used for creating Highly-available Jenkins on AWS
 jenkins,IGNW,511,aws,https://github.com/IGNW/terraform-aws-jenkins,Terraform module to deploy Jenkins Master->Slave cluster on AWS.
@@ -9655,7 +9659,7 @@ memorystore-redis,tsadoklf,1776,google,https://github.com/tsadoklf/terraform-goo
 memstore,badal-io,3875,google,https://github.com/badal-io/terraform-google-memstore,
 mendix-private-cloud,aws-ia,17658,aws,https://github.com/aws-ia/terraform-aws-mendix-private-cloud,This AWS Partner Solution uses Terraform to deploy a Mendix infrastructure in the AWS Cloud.
 merge,mbrancato,7230,yaml,https://github.com/mbrancato/terraform-yaml-merge,Merge two YAML files
-merge-cidr,Invicton-Labs,25319,null,https://github.com/Invicton-Labs/terraform-null-merge-cidr,Merges sets of CIDRs into a minimal set that covers the exact same IP addresses.
+merge-cidrs,Invicton-Labs,25325,null,https://github.com/Invicton-Labs/terraform-null-merge-cidrs,Merges sets of CIDRs into a minimal set that covers the exact same IP addresses.
 merge-values,dabble-of-devops-bioanalyze,10449,helm,https://github.com/dabble-of-devops-bioanalyze/terraform-helm-merge-values,Merge your helm --values to a single values file
 merge-values,dabble-of-devops-biodeploy,10375,helm,https://github.com/dabble-of-devops-bioanalyze/terraform-helm-merge-values,Merge your helm --values to a single values file
 merlin-node,tencentcloud-tci,23951,tencentcloud,https://github.com/tencentcloud-tci/terraform-tencentcloud-merlin-node,
@@ -12512,6 +12516,8 @@ resource-provision,prophetstor-ai,8744,federatorai,https://github.com/prophetsto
 resource_group,sironite,17434,azurerm,https://github.com/sironite/terraform-azurerm-resource_group,Terraform module creates Azure resource group(s)
 resource_group-single,Muzammil-Naik,22340,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_group-single,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
+resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
+resource_group_storage,kkiirill,25328,azurerm,https://github.com/kkiirill/terraform-azurerm-resource_group_storage,
 resource_group_storage,yaaszp,25202,azurerm,https://github.com/yaaszp/terraform-azurerm-resource_group_storage,Terraform azurerm module for creating resource group and storage account
 resource_groups-multiple,Muzammil-Naik,22343,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_groups-multiple,
 resourcedirectory,wjluo,3718,alicloud,https://github.com/wjluo/terraform-alicloud-resourcedirectory,
@@ -14487,6 +14493,7 @@ static-website,dashdevs,24443,google,https://github.com/dashdevs/terraform-googl
 static-website,davidjeddy,22481,aws,https://github.com/davidjeddy/terraform-aws-static-website,"AWS hosted static website leveraging CloudPosse and TrussWorks modules. Includes DNSSEC, DNS query logging, TLS, and S3 bucket access logging."
 static-website,ekozynin,10226,aws,https://github.com/ekozynin/terraform-aws-static-website,"Static HTML site, backed by S3 & Cloudfront"
 static-website,garyrule,20019,aws,https://github.com/garyrule/terraform-aws-static-website,"Deploy secure, static websites leveraging CloudFront w/ Origin Access Control (OAC), private s3 buckets and Route 53 or Gandi LiveDNS."
+static-website,halimocakli,25326,azurerm,https://github.com/halimocakli/terraform-azurerm-static-website,"Custom ""Terraform Module"" to be shared in Terraform Public Registry"
 static-website,hd-deman,477,aws,https://github.com/hd-deman/terraform-aws-static-website,Module to create a fully functional static site in AWS based on S3 with optional CloudFront and Route53
 static-website,hugofabricio,8468,aws,https://github.com/hugofabricio/terraform-aws-static-website,
 static-website,jungopro,2636,azurerm,https://github.com/jungopro/terraform-azurerm-static-website,Terraform Module to create a storage container with static website enabled on Azure
