@@ -392,6 +392,7 @@ ai-notebook-environment,teamdatatonic,8375,gcp,https://github.com/teamdatatonic/
 ai-stack,datastax,25372,aws,https://github.com/datastax/terraform-aws-ai-stack,
 ai-stack,datastax,25373,azure,https://github.com/datastax/terraform-azure-ai-stack,
 ai-stack,datastax,25374,gcp,https://github.com/datastax/terraform-gcp-ai-stack,
+ainotebooks,mikamakusa,25683,google,https://github.com/mikamakusa/terraform-google-ainotebooks,
 airbyte-flows,artefactory,20667,google,https://github.com/artefactory/terraform-google-airbyte-flows,A Terraform module to programatically deploy end-to-end ELT flows to BigQuery on Airbyte.
 airbyte-infra,artefactory,20757,google,https://github.com/artefactory/terraform-google-airbyte-infra,A Terraform module to programatically deploy an Airbyte server on GCP
 airflow,PowerDataHub,2267,aws,https://github.com/PowerDataHub/terraform-aws-airflow,"Terraform module to deploy an Apache Airflow cluster on AWS, backed by RDS PostgreSQL for metadata, S3 for logs and SQS as message broker with CeleryExecutor"
@@ -7989,6 +7990,7 @@ infrastructure-apps,TaitoUnited,6041,helm,https://github.com/TaitoUnited/terrafo
 infrastructure-eks,AaronForce1,10837,aws,https://github.com/AaronForce1/terraform-aws-infrastructure-eks,"Terraform-powered, infrastructure-as-code for provisioning an AWS EKS Cluster with ""base"" installations of essential kubernetes deployments, such as: Nginx Ingress, Gitlab Runner, Cert Manager, Hashicorp Consul, Hashicorp Vault, Kubernetes Dashboard."
 infrastructure-events,infrablocks,654,aws,https://github.com/infrablocks/terraform-aws-infrastructure-events,Terraform module for publishing infrastructure events created by other modules.
 ingress,YoshinoriSatoh,11960,aws,https://github.com/YoshinoriSatoh/terraform-aws-ingress,
+ingress,andre177,25691,kubernetes,https://github.com/andre177/terraform-kubernetes-ingress,Terraform module to manage a Kubernetes ingress
 ingress,ballj,9018,kubernetes,https://github.com/ballj/terraform-kubernetes-ingress,Creates an ingress resource and registers the name in DNS
 ingress,skydome,3056,kubernetes,https://github.com/skydome/terraform-kubernetes-ingress,Ingress Controller on Kubernetes
 ingress,terraform-iaac,8358,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-ingress,
@@ -9497,6 +9499,7 @@ log-analytics,avinor,2438,azurerm,https://github.com/avinor/terraform-azurerm-lo
 log-analytics,clouddrove,17974,azure,https://github.com/clouddrove/terraform-azure-log-analytics,
 log-analytics,cypik,22765,azure,https://github.com/cypik/terraform-azure-log-analytics,
 log-analytics,equinor,23380,azurerm,https://github.com/equinor/terraform-azurerm-log-analytics,Terraform module which creates Azure Log Analytics resources
+log-analytics,mikamakusa,25693,azure,https://github.com/mikamakusa/terraform-azure-log-analytics,
 log-analytics,rkoosaar,6568,azurerm,https://github.com/rkoosaar/terraform-azurerm-log-analytics,Terraform module for creating and managing Azure Log Analytics resources
 log-analytics,telekom-mms,21776,azurerm,https://github.com/telekom-mms/terraform-azurerm-log-analytics,A Terraform module that manages the log analytics resources from the azurerm provider.
 log-analytics-VMInsights,qbeyond,13660,azurerm,https://github.com/qbeyond/terraform-azurerm-log-analytics-VMInsights,Enables the VMInsights Solution for a Workspace with Linux and Windows PerformanceCounters
@@ -9723,6 +9726,7 @@ mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/te
 mcaf-role,schubergphilis,24422,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,A Terraform module that creates an IAM role.
 mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
 mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,Terraform module to create an AWS s3 bucket
+mcaf-saas-audit-logs,schubergphilis,25681,aws,https://github.com/schubergphilis/terraform-aws-mcaf-saas-audit-logs,Terraform module to fetch audit logs from SaaS providers
 mcaf-securityhub-findings-manager,schubergphilis,19581,aws,https://github.com/schubergphilis/terraform-aws-mcaf-securityhub-findings-manager,Terraform module to suppress specific events from security hub based on a dynamodb based configuration.
 mcaf-service-quotas-manager,schubergphilis,22514,aws,https://github.com/schubergphilis/terraform-aws-mcaf-service-quotas-manager,Terraform module to manage AWS Service Quotas within an AWS Organization
 mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,Terraform module to setup and manage an AWS Transit Gateway
@@ -12657,6 +12661,7 @@ resource_group,sironite,17434,azurerm,https://github.com/sironite/terraform-azur
 resource_group-single,Muzammil-Naik,22340,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_group-single,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
+resource_group_storage,YegorVolkov,25685,azurerm,https://github.com/YegorVolkov/terraform-azurerm-resource_group_storage,
 resource_group_storage,kkiirill,25328,azurerm,https://github.com/kkiirill/terraform-azurerm-resource_group_storage,
 resource_group_storage,yaaszp,25202,azurerm,https://github.com/yaaszp/terraform-azurerm-resource_group_storage,Terraform azurerm module for creating resource group and storage account
 resource_groups-multiple,Muzammil-Naik,22343,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_groups-multiple,
@@ -13554,6 +13559,7 @@ scripts,dasmeta,18708,cloud,https://github.com/dasmeta/terraform-cloud-scripts,
 scripts,garyellis,7345,cloudinit,https://github.com/garyellis/terraform-cloudinit-scripts,A terraform module to store cloud-init scripts
 sd-addr.tf,mildred,5609,local,https://github.com/mildred/terraform-local-sd-addr.tf,Generate loopback (IPv4) or ULA (IPv6) address on the fly using systemd
 sd-proxy.tf,mildred,5614,local,https://github.com/mildred/terraform-local-sd-proxy.tf,manages systemd socket activation proxy
+sdb,scaleway-terraform-modules,25692,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-sdb,Manage Serverless Databases on Scaleway with Terraform.
 sealed-secrets,kubestack-modules,21108,kustomization,https://github.com/kubestack-modules/terraform-kustomization-sealed-secrets,Sealed-Secrets Terraform Module for Kubernetes by Kubestack
 sealed-secrets-bootstrap,kube-champ,9803,k8s,https://github.com/kuptan/terraform-k8s-sealed-secrets-bootstrap,A terraform module that will bootstrap a Kubernetes cluster with Sealed Secret controller
 search,JamesWoolfenden,16951,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-search,
@@ -13998,6 +14004,7 @@ serviceplan,JamesWoolfenden,16727,azurerm,https://github.com/JamesWoolfenden/ter
 serviceprincipal,imjoseangel,11299,azurerm,https://github.com/imjoseangel/terraform-azurerm-serviceprincipal,Terraform Module for creating a Azure Service Principal
 serviceprincipal,ned1313,14833,azuread,https://github.com/ned1313/terraform-azuread-serviceprincipal,Terraform module for creating service principals in Azure AD.
 ses,7Factor,14433,aws,https://github.com/7Factor/terraform-aws-ses,A small module for adding Simple Email Service to an aws account.
+ses,CalvinE,25677,aws,https://github.com/CalvinE/terraform-aws-ses,"A Simple module for adding email capabilities for an application. Receiving email optionally available. DKIM, SPF and DMARC included!"
 ses,Lupus-Metallum,8423,aws,https://github.com/Lupus-Metallum/terraform-aws-ses,Used to create a fully compliant SES domain
 ses,MagnetarIT,4635,aws,https://github.com/MagnetarIT/terraform-aws-ses,Terraform module to create SES email domain and verify using r53
 ses,OT-CLOUD-KIT,15307,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-ses,
@@ -14824,6 +14831,7 @@ std-path,kiwicom,4062,vault,https://github.com/kiwicom/terraform-vault-std-path,
 step,b-b3rn4rd,18288,emrstreaming,https://github.com/b-b3rn4rd/terraform-emrstreaming-step,Terraform module to manage steps on an EMR cluster on AWS.
 step-function,finisterra-io,23578,aws,https://github.com/finisterra-io/terraform-aws-step-function,Terraform AWS Step Functions module
 step-function-alarm,wesol05,2910,aws,https://github.com/wesol05/terraform-aws-step-function-alarm,
+step-functions,SevenPico,25687,aws,https://github.com/SevenPico/terraform-aws-step-functions,Terraform module to provision AWS Step Functions
 step-functions,cloudposse,18546,aws,https://github.com/cloudposse/terraform-aws-step-functions,Terraform module to provision AWS Step Functions
 step-functions,oozou,15129,aws,https://github.com/oozou/terraform-aws-step-functions,
 step-functions,terraform-aws-modules,6736,aws,https://github.com/terraform-aws-modules/terraform-aws-step-functions,Terraform module to create AWS Step Functions 🇺🇦
@@ -14934,6 +14942,7 @@ storage-integration,Infostrux-Solutions,15042,snowflake,https://github.com/Infos
 storage-integration,getindata,17496,snowflake,https://github.com/getindata/terraform-snowflake-storage-integration,Terraform module for managing Snowflake storage integration
 storage-integration-aws,Snowflake-Labs,13292,snowflake,https://github.com/Snowflake-Labs/terraform-snowflake-storage-integration-aws,To create the base infrastructure for storage only pipelines that load data from S3 to Snowflake.
 storage-master,srinathgadalaye,19566,azurerm,https://github.com/srinathgadalaye/terraform-azurerm-storage-master,
+storage-module,hemantbhosale916,25686,azure,https://github.com/hemantbhosale916/terraform-azure-storage-module,
 storage-monitor,arivictor,19259,google,https://github.com/arivictor/terraform-google-storage-monitor,Basic module to monitor object count in buckets.
 storage-pubsub,vikramshinde12,6582,google,https://github.com/vikramshinde12/terraform-google-storage-pubsub,Terraform module to create Pub/Sub notifications for Cloud Storage
 storage-sas-token,claranet,4082,azurerm,https://github.com/claranet/terraform-azurerm-storage-sas-token,Terraform module for Azure Storage SAS Token access
@@ -17226,6 +17235,7 @@ wp_do,Resnak1499,24102,digitalocean,https://github.com/Resnak1499/terraform-digi
 wp_do,diegosanchomagalhaes,21409,digitalocean,https://github.com/diegosanchomagalhaes/terraform-digitalocean-wp_do,
 wp_do,fabricioveronez,18316,digitalocean,https://github.com/fabricioveronez/terraform-digitalocean-wp_do,
 wp_do,fernandokoj3,20857,digitalocean,https://github.com/fernandokoj3/terraform-digitalocean-wp_do,Terraform studies and handlers modules
+wp_do,jordanidsc,25688,digitalocean,https://github.com/jordanidsc/terraform-digitalocean-wp_do,
 wp_do,lauromazzoni,24421,aws,https://github.com/lauromazzoni/terraform-aws-wp_do,
 wp_do,marcelomess,21234,digitalocean,https://github.com/marcelomess/terraform-digitalocean-wp_do,
 wp_do,matheussiqq,18924,digitalocean,https://github.com/matheussiqq/terraform-digitalocean-wp_do,
