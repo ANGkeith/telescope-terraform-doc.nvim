@@ -1474,6 +1474,7 @@ athena,babbel,8048,aws,https://github.com/babbel/terraform-aws-athena,"Terraform
 athena,bootlabstech-m,17487,aws,https://github.com/bootlabstech-m/terraform-aws-athena,Creates an AWS Athena 
 athena,clouddrove,20712,aws,https://github.com/clouddrove/terraform-aws-athena,"This module provides an easy way to set up Athena queries, The module can set up Athena database and table from an input S3 bucket and create-table SQL script."
 athena,cloudposse,14959,aws,https://github.com/cloudposse/terraform-aws-athena,
+athena,infraspecdev,25797,aws,https://github.com/infraspecdev/terraform-aws-athena,This Terraform module automates the setup of AWS Athena to query ALB access and connection logs stored in an S3 bucket. 
 athena-alb-table,StratusGrid,20503,aws,https://github.com/StratusGrid/terraform-aws-athena-alb-table,Creates a named query in Athena for easy table creation from an S3 bucket.
 athena-cloudfront-logs-integration,KumarManoj-S,7669,aws,https://github.com/KumarManoj-S/terraform-aws-athena-cloudfront-logs-integration,
 athena-iam-policy,dod-iac,8102,aws,https://github.com/dod-iac/terraform-aws-athena-iam-policy,IAM Policy that allows use of AWS Athena
@@ -1573,7 +1574,7 @@ automation-runbook,data-platform-hq,19598,azurerm,https://github.com/data-platfo
 automation-setup,Arrow-air,20076,google,https://github.com/Arrow-air/terraform-google-automation-setup,Arrow Terraform module - Automation resources
 automation_account,sironite,19997,azurerm,https://github.com/sironite/terraform-azurerm-automation_account,
 automount,abokov,1697,azurerm,https://github.com/abokov/terraform-azurerm-automount,
-automq-byoc-environmet,AutoMQ,25727,aws,https://github.com/AutoMQ/terraform-aws-automq-byoc-environmet,Terraform module to create AutoMQ BYOC resources
+automq-byoc-environmet,AutoMQ,25727,aws,https://github.com/AutoMQ/terraform-aws-automq-byoc-environmet,Terraform module to create AutoMQ BYOC resources with AWS providers
 autopilot,RJPearson94,6239,twilio,https://github.com/RJPearson94/terraform-twilio-autopilot,Terraform module for managing an autopilot assistant
 autopilot,layer-3,25294,google,https://github.com/layer-3/terraform-google-autopilot,
 autorotated-database-credentials,jessiehernandez,8806,aws,https://github.com/jessiehernandez/terraform-aws-autorotated-database-credentials,Module that creates an AWS Secrets Manager secret that holds database credentials and has a Lambda rotator function attached.
@@ -1678,6 +1679,7 @@ avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/ter
 avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Azure Verified Module for Virtual Network
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
+avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
@@ -1726,6 +1728,7 @@ aws-cloudfront-ld-router,Adaptavist,7283,module,https://github.com/Adaptavist/te
 aws-cloudfront-router,Adaptavist,6985,module,https://github.com/Adaptavist/terraform-module-aws-cloudfront-router,
 aws-cloudtrail,lean-delivery,7585,module,https://github.com/lean-delivery/terraform-module-aws-cloudtrail,Terraform module for CloudTrail setup with storing logs to S3/CloudWatch
 aws-cluster,drpebcak,3451,k3s,https://github.com/drpebcak/terraform-k3s-aws-cluster,
+aws-cluster,fw-ai-external,25806,fireworksai,https://github.com/fw-ai-external/terraform-fireworksai-aws-cluster,A Terraform module for creating the necessary resources to run Fireworks inference in your own AWS account.
 aws-cluster,maathor,14722,k3s,https://github.com/maathor/terraform-k3s-aws-cluster,
 aws-connect,spotinst,11385,spotinst,https://github.com/spotinst/terraform-spotinst-aws-connect,A Terraform module to connect an AWS account to Spot.io.
 aws-controller,AviatrixSystems,14981,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-aws-controller,
@@ -3245,6 +3248,7 @@ cn-vcn,ivandelic,17187,oci,https://github.com/ivandelic/terraform-oci-cn-vcn,"OC
 cname-generator,jd4883,6949,digitalocean,https://github.com/jd4883/terraform-digitalocean-cname-generator,a dynamic digital ocean terraform based dns record generator; used as a submodule for the docker provider to seamlessly automate internal and external dns records
 cnb,3191110276,8367,kubernetes,https://github.com/3191110276/terraform-kubernetes-cnb,
 cockroachdb,manvalls,23904,kubernetes,https://github.com/manvalls/terraform-kubernetes-cockroachdb,
+cockroachdb-k3s,jmarhee,25805,linode,https://github.com/jmarhee/terraform-linode-cockroachdb-k3s,
 code-artifact,finisterra-io,23091,aws,https://github.com/finisterra-io/terraform-aws-code-artifact,Terraform AWS Code Artifact Module
 code-artifact-repo,bootlabstech-m,17786,aws,https://github.com/bootlabstech-m/terraform-aws-code-artifact-repo,
 code-build,bootlabstech-m,17563,aws,https://github.com/bootlabstech-m/terraform-aws-code-build,Creates AWS Code Build
@@ -3544,6 +3548,7 @@ connect,Altinity,15435,altinitycloud,https://github.com/Altinity/terraform-altin
 connect-aws,Altinity,22038,altinitycloud,https://github.com/Altinity/terraform-altinitycloud-connect-aws,Terraform module for connecting AWS accounts to Altinity.Cloud ☁️
 connect-c8r,cloudchipr,25344,cloudchipr,https://github.com/cloudchipr/terraform-cloudchipr-connect-c8r,Terraform module to connect your infrastructure to Cloudchipr.
 connect-exec,srb3,6148,linux,https://github.com/srb3/terraform-linux-connect-exec,
+connect-gcp,spotinst,25800,spotinst,https://github.com/spotinst/terraform-spotinst-connect-gcp,A Terraform module to connect Google Cloud Platform (GCP) accounts to the Spot platform.
 connect-onboarding,philips-labs,8279,hsdp,https://github.com/philips-labs/terraform-hsdp-connect-onboarding,Module to onboard onto HSDP Connect IoT services
 connect-vpcs,myanees284,10190,aws,https://github.com/myanees284/terraform-aws-connect-vpcs,terraform-aws-vpc-connectivity
 connection,aballiet,22167,airbyte,https://github.com/aballiet/terraform-airbyte-connection,Define Airbyte OSS connections with exhaustive params
@@ -5340,6 +5345,7 @@ ec2-instance,hadenlabs,10465,aws,https://github.com/hadenlabs/terraform-aws-ec2-
 ec2-instance,hayaah,11790,aws,https://github.com/hayaah/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
 ec2-instance,jand0manski,19044,aws,https://github.com/jand0manski/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
 ec2-instance,magicorntech,19513,aws,https://github.com/magicorntech/terraform-aws-ec2-instance,Magicorn AWS EC2 Instance Module
+ec2-instance,miapferreira,25807,aws,https://github.com/miapferreira/terraform-aws-ec2-instance,Module for ec2 instance creation
 ec2-instance,nholuongut,19631,aws,https://github.com/nholuongut/terraform-aws-ec2-instance,Owner avatar terraform-aws-ec2-instance
 ec2-instance,nutritionistm,20926,aws,https://github.com/nutritionistm/terraform-aws-ec2-instance,
 ec2-instance,odise,6882,aws,https://github.com/odise/terraform-aws-ec2-instance,Terraform module to deploy EC2 instances with some sugar.
@@ -6897,6 +6903,7 @@ firstmodule,evelazcowork,22834,euc,https://github.com/evelazcowork/terraform-euc
 fis,SPHTech-Platform,19630,aws,https://github.com/SPHTech-Platform/terraform-aws-fis,
 fis,Young-ook,13053,aws,https://github.com/Young-ook/terraform-aws-fis,Terraform Module: AWS FIS
 flagscript-cloudfront-distribution,flagscript,21847,aws,https://github.com/flagscript/terraform-aws-flagscript-cloudfront-distribution,Module to create a cloudfront distribution adhering to reasonable aws standards.
+flagscript-kms,flagscript,25796,aws,https://github.com/flagscript/terraform-aws-flagscript-kms,Kms modules for flagscript setups adhering to reasonable aws standards.
 flagscript-organization,flagscript,21763,aws,https://github.com/flagscript/terraform-aws-flagscript-organization,Flagscript organization terraform modules - simple org for enthusiasts.
 flagscript-s3-bucket,flagscript,21770,aws,https://github.com/flagscript/terraform-aws-flagscript-s3-bucket,S3 bucket modules for flagscript setups adhering to reasonable aws standards.
 flagscript-state-backend,flagscript,21771,aws,https://github.com/flagscript/terraform-aws-flagscript-state-backend,Flagscript standard state backend setup.
@@ -7036,7 +7043,7 @@ function-app,BzSpi,13263,azurerm,https://github.com/BzSpi/terraform-azurerm-func
 function-app,Xat59,18716,azurerm,https://github.com/Xat59/terraform-azurerm-function-app,Terraform module for Azure Function App
 function-app,bootlabstech,15859,azurerm,https://github.com/bootlabstech/terraform-azurerm-function-app,
 function-app,claranet,9529,azurerm,https://github.com/claranet/terraform-azurerm-function-app,Terraform module for Azure Function App
-function-app,equinor,23386,azurerm,https://github.com/equinor/terraform-azurerm-function-app,erraform module which creates Azure Function App resources
+function-app,equinor,23386,azurerm,https://github.com/equinor/terraform-azurerm-function-app,Terraform module which creates Azure Function App resources
 function-app,jungopro,2833,azurerm,https://github.com/jungopro/terraform-azurerm-function-app,Terraform Module To Create Azure Function App
 function-app,libre-devops,13254,azurerm,https://github.com/libre-devops/terraform-azurerm-function-app,"A module used to generate a single Azure function app based on some parameters :star:. Please note, this module will cease to work in the 4.0 provider due to changes by Microsoft."
 function-app,miljodir,22136,azurerm,https://github.com/miljodir/terraform-azurerm-function-app,Terraform module for Azure Function App with private endpoint support.
@@ -8054,6 +8061,7 @@ instance,BESTSELLER,8996,google,https://github.com/BESTSELLER/terraform-google-i
 instance,Bekzhan-osh,6812,rds,https://github.com/Bekzhan-osh/terraform-rds-instance,
 instance,DTherHtun,4271,multicloud,https://github.com/dtherhtun/terraform-multicloud-instance,Terraform module which creates  Instance on Multi Cloud (GCP/AWS/Azure)
 instance,Gheorghe-Rodideal,6814,rds,https://github.com/grodideal/terraform-aws-rds-cluster,
+instance,HappyPathway,25804,aws,https://github.com/HappyPathway/terraform-aws-instance,Terraform Workspace
 instance,JamesWoolfenden,12485,gcp,https://github.com/JamesWoolfenden/terraform-gcp-instance,A simple instance
 instance,JamesWoolfenden,7336,linode,https://github.com/JamesWoolfenden/terraform-linode-instance,First module for use with Linode
 instance,Kelleyc718,2032,oci,https://github.com/Kelleyc718/terraform-oci-instance,Terraform Instance Module for Oracle Cloud Infrastructure
@@ -10143,7 +10151,7 @@ mongodb-vpc,terraform-navercloudplatform-modules,25272,ncloud,https://github.com
 mongodbatlas,guyelia,5462,aws,https://github.com/guyelia/terraform-aws-mongodbatlas,Terraform module which creates an operational MongoDB Atlas cluster on AWS
 mongodbatlas,opszero,17606,aws,https://github.com/opszero/terraform-aws-mongodbatlas,
 mongodbatlas,pen-pal,12683,aws,https://github.com/pen-pal/terraform-aws-mongodbatlas,This is a terraform module to create resources in mongodb atlas.
-mongodbatlas,tx-pts-dai,25776,aws,https://github.com/tx-pts-dai/terraform-aws-mongodbatlas,Terraform module to manage MongoDB Atlas Project and VPC peering between MongoDB Atlas and AWS
+mongodbatlas,tx-pts-dai,25798,aws,https://github.com/tx-pts-dai/terraform-aws-mongodbatlas,Terraform module to manage MongoDB Atlas Project and VPC peering between MongoDB Atlas and AWS
 mongodbatlas-backend,ptonini,16797,vault,https://github.com/ptonini/terraform-vault-mongodbatlas-backend,
 mongodbatlas-role,ptonini,16764,vault,https://github.com/ptonini/terraform-vault-mongodbatlas-role,
 monitor,GuanceCloud,19038,guance,https://github.com/GuanceCloud/terraform-guance-monitor,Terraform provider for Guance Cloud
@@ -14116,7 +14124,7 @@ sfn-state,jhole89,5630,aws,https://github.com/jhole89/terraform-aws-sfn-state,
 sfs-turbo,tf-cloud-modules,18560,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-sfs-turbo,Sbercloud SFS Turbo Terraform module
 sftp,andresb39,15649,aws,https://github.com/andresb39/terraform-aws-sftp,Terraform AWS Transfer Family with Identity Provider
 sftp,clouddrove,4511,aws,https://github.com/clouddrove/terraform-aws-sftp,This terraform module is used to create sftp on AWS for S3.
-sftp,delivops,25790,aws,https://github.com/delivops/terraform-aws-sftp,
+sftp,delivops,25803,aws,https://github.com/delivops/terraform-aws-sftp,
 sftp,hyperionpulse,25765,aws,https://github.com/hyperionpulse/terraform-aws-sftp,Provision an SFTP server using AWS
 sftp,trussworks,3690,aws,https://github.com/trussworks/terraform-aws-sftp,Configures an AWS SFTP Server (aka AWS Transfer Server)
 sftp-custom-idp,itprosource,13208,aws,https://github.com/itprosource/terraform-aws-sftp-custom-idp,"Template for AWS Transfer Family SFTP server in VPC with Custom IDP via API Gateway, Lambda, and Secrets Manager. "
@@ -14613,6 +14621,7 @@ sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraf
 sso,cloud-security-labs,7443,aws,https://github.com/cloud-security-labs/terraform-aws-sso,Terraform module that creates AWS SSO Permission Set
 sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
 sso,rhythmictech,3139,okta,https://github.com/rhythmictech/terraform-aws-okta-sso,
+sso-abac,HK-Transfield,25808,aws,https://github.com/HK-Transfield/terraform-aws-sso-abac,Terraform Module for configuring Attribute-based Access Control (ABAC) in AWS using IAM Identity Center.
 sso-account-assignment,fivexl,15979,aws,https://github.com/fivexl/terraform-aws-sso-account-assignment,Module for create Account assignments in SSO
 sso-application,terraform-pingidentity-modules,16184,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-sso-application,Ping Identity PingOne module to manage applications
 sso-arns,npalladium,15396,aws,https://github.com/npalladium/terraform-aws-sso-arns,Terraform module to get Role ARNs given SSO Permission Set names.
@@ -16783,6 +16792,7 @@ vpc-module,jvefferson,17728,aws,https://github.com/jvefferson/terraform-aws-vpc-
 vpc-module,mandeepmehra,8537,aws,https://github.com/mandeepmehra/terraform-aws-vpc-module,
 vpc-module,rajeevdl,8538,aws,https://github.com/rajeevdl/terraform-aws-vpc-module,
 vpc-module,reachmenetym,8541,aws,https://github.com/reachmenetym/terraform-aws-vpc-module,
+vpc-module,rohitsinghpanwar,25799,aws,https://github.com/rohitsinghpanwar/terraform-aws-vpc-module,
 vpc-module,scaleway,19071,scaleway,https://github.com/scaleway/terraform-scaleway-vpc-module,Terraform module for configuring a VPC
 vpc-modules,claranet,739,aws,https://github.com/claranet/terraform-aws-vpc-modules,Terraform modules for AWS VPC management
 vpc-nat,viceIII,769,aws,https://github.com/viceIII/terraform-aws-vpc-nat,
@@ -16918,7 +16928,6 @@ vpces,toluna-terraform,11254,aws,https://github.com/toluna-terraform/terraform-a
 vpcexample,Capasiter,25753,aws,https://github.com/Capasiter/terraform-aws-vpcexample,
 vpcexample,dustindortch,25738,aws,https://github.com/dustindortch/terraform-aws-vpcexample,
 vpcexample,gwalsh3,25781,aws,https://github.com/gwalsh3/terraform-aws-vpcexample,
-vpcexample,linusdigi,25773,aws,https://github.com/linusdigi/terraform-aws-vpcexample,
 vpcexample,pradeep-collab,25739,aws,https://github.com/pradeep-collab/terraform-aws-vpcexample,terraform-aws-vpcexample
 vpcflowlog-bucket,rhythmictech,5097,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlog-bucket,Creates an S3 bucket suitable for receiving VPC flow logs from one or more AWS account.
 vpcflowlogs,rhythmictech,3128,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlogs,Configure VPC flow logs for one or more VPCs.
