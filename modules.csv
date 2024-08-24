@@ -93,7 +93,7 @@ RamBofa,RamachnadranS012,25047,azurerm,https://github.com/RamachnadranS012/terra
 Redislabs-Cloud-Account-Resources,TobyHFerguson,7261,aws,https://github.com/TobyHFerguson/terraform-aws-Redislabs-Cloud-Account-Resources,Terraform module to create AWS resources for a Redis Labs Cloud Account
 SSM-EC2StopStart,ClaxtonOps,23768,aws,https://github.com/ClaxtonOps/terraform-aws-SSM-EC2StopStart,
 Sarthak-test-vpc,Sarthak-017s,25722,aws,https://github.com/Sarthak-017s/terraform-aws-Sarthak-test-vpc,
-Service-account,clouddrove,16945,gcp,https://github.com/clouddrove/terraform-gcp-Service-account,
+Service-account,clouddrove,16945,gcp,https://github.com/clouddrove/terraform-gcp-Service-account,A Terraform module to create default Service-account with management of service-account
 SingleRegion-MultiAZ-Module,WEEMR,8594,aws,https://github.com/WEEMR/terraform-aws-SingleRegion-MultiAZ-Module," Terraform code to deploy Single VPC in US-East-1 Region and Create a public and a Private subnet in AZ1 and AZ2 to deploy High Availability resources"
 SingleRegion-SingleAZ-Module,WEEMR,8607,aws,https://github.com/WEEMR/terraform-aws-SingleRegion-SingleAZ-Module,Terraform code to deploy Single VPC in US-East-1 Region and Create a public and a Private subnet
 SnsToCiscoSpark,johntdyer,852,aws,https://github.com/johntdyer/terraform-aws-snsToWebexTeams,Terraform module to send SNS notifications to Cisco spark space
@@ -347,6 +347,7 @@ adfinis-governance,adfinis,16584,azurerm,https://github.com/adfinis/terraform-az
 adhilas3,adhilaea,12228,aws,https://github.com/adhilaea/terraform-aws-adhilas3,
 aditi,aditicloud,20938,aws,https://github.com/aditicloud/terraform-aws-aditi,
 adls-v2,data-platform-hq,15909,azurerm,https://github.com/data-platform-hq/terraform-azurerm-adls-v2,Terraform module for managing Azure Datalake Storage gen2
+adm,mikamakusa,25813,oci,https://github.com/mikamakusa/terraform-oci-adm,
 admin,TaitoUnited,10707,aws,https://github.com/TaitoUnited/terraform-aws-admin,
 admin,TaitoUnited,6120,google,https://github.com/TaitoUnited/terraform-google-admin,
 admin,TaitoUnited,8224,azurerm,https://github.com/TaitoUnited/terraform-azurerm-admin,
@@ -3403,6 +3404,7 @@ common-infrastructure,axetrading,16657,aws,https://github.com/axetrading/terrafo
 common-smartgroups,terraform-aviatrix-modules,18095,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-common-smartgroups,This module allows you to easily create commonly used smartgroups.
 common-variables,container-labs,6874,tfe,https://github.com/container-labs/terraform-tfe-common-variables,
 commons,ptonini,16841,aws,https://github.com/ptonini/terraform-aws-commons,
+community-modules,sebastianczech,25819,databricks,https://github.com/sebastianczech/terraform-databricks-community-modules,Terraform modules for Databricks community edition
 commvault-iam,kelyn-technologies,19215,aws,https://github.com/kelyn-technologies/terraform-aws-commvault-iam,Kelyn Technologies terraform modules for AWS
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 compartment,web-virtua-oci-multi-account-modules,18783,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-compartment,
@@ -3682,6 +3684,7 @@ copy-ami,ifunky,4169,aws,https://github.com/ifunky/terraform-aws-copy-ami," Copi
 copy-bq-datasets,yu-iskw,10299,google,https://github.com/yu-iskw/terraform-google-copy-bq-datasets,A terraform module to copy BigQuery datasets across regions
 copy-files-same-repo,yivolve,23946,github,https://github.com/yivolve/terraform-github-copy-files-same-repo,Terraform module to copy files within the same repo.
 copy-new-files,yivolve,24382,github,https://github.com/yivolve/terraform-github-copy-new-files,
+core,mikamakusa,25811,oci,https://github.com/mikamakusa/terraform-oci-core,
 core,ntangy,3310,alks,https://github.com/ntangy/terraform-alks-core,
 core,telekom-mms,20277,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-core,A Terraform module that manages the core resources from the azuredevops provider.
 core-parameters,nuvibit,16271,aws,https://github.com/nuvibit/terraform-aws-core-parameters,Terraform module to store and read a terraform HCL map via AWS SSM Parameter Store.
@@ -5530,6 +5533,7 @@ ecr,vrs-factory,20869,aws,https://github.com/vrs-factory/terraform-aws-ecr,
 ecr,web-virtua-aws-multi-account-modules,16242,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-ecr,
 ecr-access,nuonco,23516,aws,https://github.com/nuonco/terraform-aws-ecr-access,Terraform module for granting access for Nuon container image components.
 ecr-archiver,barneyparker,22301,aws,https://github.com/barneyparker/terraform-aws-ecr-archiver,Archive ECR images to S3
+ecr-clone,HappyPathway,25818,aws,https://github.com/HappyPathway/terraform-aws-ecr-clone,Terraform Workspace
 ecr-config,uptycslabs,19269,aws,https://github.com/uptycslabs/terraform-aws-ecr-config,Terraform module for use with Uptycs ECR integration
 ecr-cross-account,doingcloudright,1449,aws,https://github.com/doingcloudright/terraform-aws-ecr-cross-account,Terraform module to create an ECR repo with cross-account-access
 ecr-custom-domain,pinge,20537,aws,https://github.com/pinge/terraform-aws-ecr-custom-domain,Terraform Module to provision a custom domain for AWS ECR 🐳
@@ -8638,6 +8642,7 @@ kms,geekcell,19723,aws,https://github.com/geekcell/terraform-aws-kms,Terraform m
 kms,lptech-io,25714,aws,https://github.com/lptech-io/terraform-aws-kms,Terraform module for KMS creation
 kms,magicorntech,19377,aws,https://github.com/magicorntech/terraform-aws-kms,Magicorn AWS KMS Module
 kms,mikamakusa,25540,aws,https://github.com/mikamakusa/terraform-aws-kms,
+kms,mikamakusa,25812,oci,https://github.com/mikamakusa/terraform-oci-kms,
 kms,mineiros-io,11380,google,https://github.com/mineiros-io/terraform-google-kms,A Terraform module to create and manage Google Key Management (KMS) encryption keys on Google Cloud Platform (GCP) https://cloud.google.com/container-registry
 kms,native-cube,11570,aws,https://github.com/native-cube/terraform-aws-kms,Terraform module to configure a KMS Customer Master Key (CMK) and its alias
 kms,nephosolutions,18429,google,https://github.com/nephosolutions/terraform-google-kms,"Allows managing a keyring, zero or more keys in the keyring, and IAM role bindings on individual keys"
@@ -10557,6 +10562,7 @@ namespace,ridwanbejo,22578,kubernetes,https://github.com/ridwanbejo/terraform-ku
 namespace,ruslan8424,24943,kubernetes,https://github.com/ruslan8424/terraform-kubernetes-namespace,
 namespace,sentinelfox-labs,22501,utils,https://github.com/sentinelfox-labs/terraform-utils-namespace,
 namespace,sergiupascal,22935,kubernetes,https://github.com/sergiupascal/terraform-kubernetes-namespace,
+namespace,sharan954,25814,kubernetes,https://github.com/sharan954/terraform-kubernetes-namespace,terraform-kubernetes-namespace
 namespace,shuhreeezy,21967,kubernetes,https://github.com/shuhreeezy/terraform-kubernetes-namespace,repo for namespace via terraform k8s
 namespace,siyabendboral,24649,kubernetes,https://github.com/siyabendboral/terraform-kubernetes-namespace,
 namespace,tatianazubco11,22945,kubernetes,https://github.com/tatianazubco11/terraform-kubernetes-namespace,
@@ -11320,6 +11326,7 @@ organizations,cloudopsworks,12931,aws,https://github.com/cloudopsworks/terraform
 organizations,elasticguru,5746,aws,https://github.com/elasticguru/terraform-aws-organizations,Organizations Module for organization maintenance by https://e.lastic.guru
 organizations,infraspecdev,25377,aws,https://github.com/infraspecdev/terraform-aws-organizations,"This Terraform module can be used to create an AWS Organization, and it includes sub-modules to create Organizational Units and provision AWS member accounts."
 organizations,jrcasso,6343,aws,https://github.com/jrcasso/terraform-aws-organizations,Minimal network infrastructure to support an organization backed by a domain.
+organizations,terraform-cisco-modules,25817,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-organizations,Terraform - Intersight > Organizations Module
 organizations-organizational-unit,OT-CLOUD-KIT,19205,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-organizations-organizational-unit,
 organizations-policy,tim0git,14913,aws,https://github.com/tim0git/terraform-aws-organizations-policy,A repository that contains the code for terraform-aws-organizations-policy
 organizations-policy,tmknom,1836,aws,https://github.com/tmknom/terraform-aws-organizations-policy,Terraform module which creates AWS Organizations Policy resources on AWS.
@@ -16928,6 +16935,7 @@ vpces,toluna-terraform,11254,aws,https://github.com/toluna-terraform/terraform-a
 vpcexample,Capasiter,25753,aws,https://github.com/Capasiter/terraform-aws-vpcexample,
 vpcexample,dustindortch,25738,aws,https://github.com/dustindortch/terraform-aws-vpcexample,
 vpcexample,gwalsh3,25781,aws,https://github.com/gwalsh3/terraform-aws-vpcexample,
+vpcexample,linusdigi,25816,aws,https://github.com/linusdigi/terraform-aws-vpcexample,
 vpcexample,pradeep-collab,25739,aws,https://github.com/pradeep-collab/terraform-aws-vpcexample,terraform-aws-vpcexample
 vpcflowlog-bucket,rhythmictech,5097,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlog-bucket,Creates an S3 bucket suitable for receiving VPC flow logs from one or more AWS account.
 vpcflowlogs,rhythmictech,3128,aws,https://github.com/rhythmictech/terraform-aws-vpcflowlogs,Configure VPC flow logs for one or more VPCs.
