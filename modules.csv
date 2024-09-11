@@ -1653,6 +1653,7 @@ avm-ptn-azuremonitorwindowsagent,Azure,25935,azurerm,https://github.com/Azure/te
 avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners,Azure Verified Module for Azure DevOps Agents and GitHub Runners
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
+avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Multi-hub networking pattern module for Terraform
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
@@ -2771,6 +2772,7 @@ client-vpn-multiple-users,eanselmi,24098,aws,https://github.com/eanselmi/terrafo
 client-vpn-tls-file,mhmdio,7638,aws,https://github.com/mhmdio/terraform-aws-client-vpn-tls-file,
 clis,cloud-native-toolkit,12673,util,https://github.com/cloud-native-toolkit/terraform-util-clis,Module to install missing clis into a local bin directory
 clone-virtual-machine,bootlabstech,24661,azurerm,https://github.com/bootlabstech/terraform-azurerm-clone-virtual-machine,
+closed-source,relaycorp,26117,github,https://github.com/relaycorp/terraform-github-closed-source,Terraform module for closed source projects by Relaycorp
 cloud,andreygubarev,24875,aws,https://github.com/andreygubarev/terraform-aws-cloud,Collecton of Terraform modules for deploying AWS resources
 cloud,aws-ia,12246,elastic,https://github.com/aws-ia/terraform-elastic-cloud," Terraform module automates Elastic Cloud deployment and optional data migration to the AWS Cloud."
 cloud,dasmeta,17324,tfe,https://github.com/dasmeta/terraform-tfe-cloud,Automatically create terraform module from yamls and push workspaces into Terraform Cloud
@@ -6901,7 +6903,7 @@ file-data,Kalepa,16103,local,https://github.com/Kalepa/terraform-local-file-data
 file-filter,aledsdavies,8373,util,https://github.com/aledsdavies/terraform-util-file-filter,This is a Terraform module for getting the file paths and adding configurations to files based on the file type. See the examples for use cases
 file-module,raimialiu,11277,archive,https://github.com/raimialiu/terraform-archive-file-module,
 file-resource,Invicton-Labs,12409,local,https://github.com/Invicton-Labs/terraform-local-file-resource,
-file-share,data-platform-hq,22964,azurerm,https://github.com/data-platform-hq/terraform-azurerm-file-share,
+file-share,data-platform-hq,22964,azurerm,https://github.com/data-platform-hq/terraform-azurerm-file-share,Terraform module for creation Azure File Share
 file-to-object,1Mill,13012,local,https://github.com/1Mill/terraform-local-file-to-object,
 files,HappyPathway,26061,ls,https://github.com/HappyPathway/terraform-ls-files,Terraform Module
 filestore,bootlabstech,12648,google,https://github.com/bootlabstech/terraform-google-filestore,module for GCP filestore.
@@ -7672,6 +7674,7 @@ hello,joernchen,12030,test,https://github.com/joernchen/terraform-test-hello,
 hello,mkam,9131,cts,https://github.com/mkam/terraform-cts-hello,Terraform module for testing Consul-Terraform-Sync user provided metadata
 hello,redeux,7305,random,https://github.com/redeux/terraform-random-hello,
 hello,rmadamanchi,9014,null,https://github.com/rmadamanchi/terraform-null-hello,
+hello-modules,tjololo,26113,azurerm,https://github.com/tjololo/terraform-azurerm-hello-modules,Test project for developing and publishing modules
 hello-world,sblack4,6659,terraform,https://github.com/sblack4/terraform-terraform-hello-world,testing pre-commit hooks and github actions
 hello_world,Nciso,18721,autocloud,https://github.com/Nciso/terraform-autocloud-hello_world,Simple module for quick start tutorial
 helloworld,ZahraTee,11405,aws,https://github.com/ZahraTee/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
@@ -9527,7 +9530,7 @@ linux-vm,Eimert,15017,azure,https://github.com/Eimert/terraform-azure-linux-vm,A
 linux-vm,ayusmadi,4097,azurerm,https://github.com/rahmancloud/terraform-azurerm-linux-vm,Terraform module to deploy a Linux virtual machine
 linux-vm,bootlabstech,18766,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-linux,Azure VM provisioning using Terraform
 linux-vm,claranet,3508,azurerm,https://github.com/claranet/terraform-azurerm-linux-vm,Terraform module composition (feature) for ARM Linux Virtual Machine (VM)
-linux-vm,data-platform-hq,20156,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-vm,
+linux-vm,data-platform-hq,20156,azurerm,https://github.com/data-platform-hq/terraform-azurerm-linux-vm,Terraform module for creation Azure linux vm
 linux-vm,kjanshair,3324,azurerm,https://github.com/kjanshair/terraform-azurerm-linux-vm,This module provisions a stand-alone Linux VM and uses Terraform 0.12+.
 linux-vm,libre-devops,13064,azurerm,https://github.com/libre-devops/terraform-azurerm-linux-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 linux-vm,mjbright,25381,azurerm,https://github.com/mjbright/terraform-azurerm-linux-vm,"A simple module for creating a azurerm_linux_virtual_machine, intended to be used in training labs"
@@ -9849,6 +9852,7 @@ mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,Terraform module to create AWS Budgets
 mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,Terraform module to manage certificates in AWS Certificate Manager
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,Terraform module to setup and manage cost and usage reports
+mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,Terraform module to create an integration between AWS and Datadog
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
 mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,Terraform module to create an AWS ECR repositories
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,Terraform module to create an AWS Fargate cluster
@@ -10351,7 +10355,7 @@ mssql,T-Systems-MMS,14817,azurerm,https://github.com/T-Systems-MMS/terraform-azu
 mssql,cypik,22841,google,https://github.com/cypik/terraform-google-mssql,
 mssql,yky-labs,17361,kubernetes,https://github.com/yky-labs/terraform-kubernetes-mssql,Terraform module to install Microsoft SQL Server.
 mssql-cluster-ec2,Rubynahal,13285,aws,https://github.com/Rubynahal/terraform-aws-mssql-cluster-ec2,Terraform module to create mssql cluster on ec2 using ssm automation document. Inspired by the cloudformation template provided by AWS
-mssql-configuration,data-platform-hq,23327,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-configuration,
+mssql-configuration,data-platform-hq,23327,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-configuration,Terraform module for managing Azure MSSQL User
 mssql-database,bootlabstech,17877,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-database,
 mssql-database,data-platform-hq,16052,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-database,Terraform module for managing Azure SQL Database
 mssql-db,clouddrove,16949,azure,https://github.com/clouddrove/terraform-azure-mssql-db,
@@ -11587,7 +11591,7 @@ pcx,rhythmictech,5095,aws,https://github.com/rhythmictech/terraform-aws-pcx,Crea
 pcx-route-cidr,rhythmictech,5540,aws,https://github.com/rhythmictech/terraform-aws-pcx-route-cidr,Create route table entries associated with a Peering Connection.
 pdns,CloudNationHQ,23675,azure,https://github.com/CloudNationHQ/terraform-azure-pdns,Terraform module which create private dns zone resources used by workloads and accelerators.
 pe,CloudNationHQ,23718,azure,https://github.com/CloudNationHQ/terraform-azure-pe,Terraform module which creates private endpoint resources used by workloads and accelerators.
-peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terraform-azurerm-peering,
+peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terraform-azurerm-peering,Terraform module for peering establishment between two virtual networks
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
 permission-sets,aws-ia,26059,aws,https://github.com/aws-ia/terraform-aws-permission-sets,
 permissions-dba,WeAreRetail,24368,mssql,https://github.com/WeAreRetail/terraform-mssql-permissions-dba,Manage the permissions for the DBA
@@ -12085,7 +12089,7 @@ pumej_modules-eks,Mexxy-lab,21956,aws,https://github.com/Mexxy-lab/terraform-aws
 pumejrds-module,Mexxy-lab,22115,aws,https://github.com/Mexxy-lab/terraform-aws-pumejrds-module,"Creating a Module for deploying an AWS RDS for MySQL DB with a custom vpc, deployed using a private subnet."
 puppet,admintome,486,nomad,https://github.com/admintome/terraform-nomad-puppet,Terraform module to deploy a puppet environment to a nomad cluster
 purple-s3-cloudfront,sprylab,15575,aws,https://github.com/sprylab/terraform-aws-purple-s3-cloudfront,Terraform module to configure Cloudfront for custom bucket configurations
-purview,data-platform-hq,23633,azurerm,https://github.com/data-platform-hq/terraform-azurerm-purview,
+purview,data-platform-hq,23633,azurerm,https://github.com/data-platform-hq/terraform-azurerm-purview,Terraform module for creation Azure Purview Account
 push-based-log-export,terraform-mongodbatlas-modules,25580,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-push-based-log-export,
 push-to-s3,axetrading,15385,axetrading,https://github.com/axetrading/terraform-axetrading-push-to-s3,A simple Terraform module that reads the contents of yaml or json files (or both) and turns it into objects that can be used later with the terraform_remote_state data source.
 pve-lxc,f1uff3h,24447,bpg,https://github.com/f1uff3h/terraform-bpg-pve-lxc,"This module deploys an LXC container on ProxmoxVE host, with optional firewall configuration and LXC template download from URL."
@@ -12143,6 +12147,7 @@ rad-security-plugins,rad-security,25905,helm,https://github.com/rad-security/ter
 radarr,Feleuxens,22279,helm,https://github.com/Feleuxens/terraform-helm-radarr,Terraform module to provision Radarr
 radiusmssql,implodingduck,21715,azurerm,https://github.com/implodingduck/terraform-azurerm-radiusmssql,
 radiusredis,implodingduck,21733,azurerm,https://github.com/implodingduck/terraform-azurerm-radiusredis,
+rafay-test-vpc,Abdurafey,26112,aws,https://github.com/Abdurafey/terraform-aws-rafay-test-vpc,
 rails-app,henryaddison,5003,heroku,https://github.com/henryaddison/terraform-heroku-rails-app,Terraform module to assist provisioning a Heroku app and addons for a Rails web app
 raja,rajagopisetty21,25043,azurem,https://github.com/rajagopisetty21/terraform-azurem-raja,
 rajendra,mabhay76,22631,azure,https://github.com/mabhay76/terraform-azure-rajendra,
@@ -13161,7 +13166,7 @@ run-vm-command,craigthackerx,7731,azurerm,https://github.com/craigthackerx/terra
 run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraform-azurerm-run-vm-command,"A module that run commands on virtual machines in Azure. It is a programmatic way to use the ""Run Command"" option in the portal :rose:"
 runbook-ps7,hlokensgard,22153,azure,https://github.com/hlokensgard/terraform-azure-runbook-ps7,
 runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-runiap,Identity-Aware Proxy on Cloud Run. Based on https://github.com/terraform-google-modules/terraform-google-lb
-runner,HappyPathway,25650,ghe,https://github.com/HappyPathway/terraform-ghe-runner,Terraform Workspace
+runner,HappyPathway,25650,ghe,https://github.com/HappyPathway/terraform-ghe-runner,Terraform Module
 runner,jvm2023,25825,google,https://github.com/jvm2023/terraform-google-runner,
 runner,koklushkin,25201,bitbucket,https://github.com/koklushkin/terraform-bitbucket-runner,Terraform module to set up Bitbucket self-hosted runner on a Kubernetes cluster 
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
@@ -13750,6 +13755,7 @@ scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terrafo
 scf,terraform-tencentcloud-modules,19050,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-scf,
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
 schedule-auto-stop-start-aws-services,bigfantech-cloud,20622,aws,https://github.com/bigfantech-cloud/terraform-aws-schedule-auto-stop-start-aws-services,Terraform module: schedule auto Stop and Start CRON for AWS services with Lambda function
+scheduled-ecs-task,silinternational,26111,aws,https://github.com/silinternational/terraform-aws-scheduled-ecs-task,Terraform module for an AWS ECS task scheduled with EventBridge
 scheduled-function,franviera92,8250,google,https://github.com/franviera92/terraform-google-scheduled-function,This modules makes it easy to set up a scheduled job to trigger events/run functions.
 scheduled-function,terraform-google-modules,2317,google,https://github.com/terraform-google-modules/terraform-google-scheduled-function,Sets up a scheduled job to trigger events and run functions
 scheduled-job,CloudPediaAI,23433,aws,https://github.com/CloudPediaAI/terraform-aws-scheduled-job,Terraform module to create AWS Lambda as Scheduled Jobs
@@ -15394,7 +15400,7 @@ taggingpolicies,obay,23352,azurerm,https://github.com/obay/terraform-azurerm-tag
 taggingpolicy,Trishisingh,20025,azure,https://github.com/Trishisingh/terraform-azure-taggingpolicy,
 tags,4ops,4590,null,https://github.com/4ops/terraform-null-tags,Simple terraform module for tags management
 tags,7clouds-terraform-modules,15767,aws,https://github.com/7clouds-terraform-modules/terraform-aws-tags,Tags Module
-tags,CloudAtScale,25234,null,https://github.com/CloudAtScale/terraform-null-tags,Terraform module to manage tags
+tags,CloudAtScale,25234,null,https://github.com/CloudAtScale/terraform-null-tags,Cloud agnostic Terraform module to manage tags with null resources. This module is used to standardize tags across all resources in a Terraform project. Terraform Registry: https://registry.terraform.io/modules/CloudAtScale/tags/null/latest
 tags,Flaconi,12175,null,https://github.com/Flaconi/terraform-null-tags,This helper module creates tags for the various projects
 tags,GoogleCloudPlatform,22431,google,https://github.com/GoogleCloudPlatform/terraform-google-tags,Create and manage Google Cloud Tags.
 tags,Umanis,9794,azurerm,https://github.com/Umanis/terraform-azurerm-tags,Terraform module to normalize tagging on Azure ressources.
@@ -16101,6 +16107,7 @@ version-source,viccro,18906,viccro,https://github.com/viccro/terraform-viccro-ve
 vertex-ai,GoogleCloudPlatform,24451,google,https://github.com/GoogleCloudPlatform/terraform-google-vertex-ai,Deploy Vertex AI resources
 vertex-cc-service-agent,teamdatatonic,16658,google,https://github.com/teamdatatonic/terraform-google-vertex-cc-service-agent,
 vertexai,bootlabstech,15801,google,https://github.com/bootlabstech/terraform-google-vertexai,vertex ai
+ververica-cloud,ververica,26114,aws,https://github.com/ververica/terraform-aws-ververica-cloud,
 vessl-eks-addons,vessl-ai,19721,aws,https://github.com/vessl-ai/terraform-aws-vessl-eks-addons,
 vessl-eks-node-group-iam,vessl-ai,19718,aws,https://github.com/vessl-ai/terraform-aws-vessl-eks-node-group-iam,IAM roles and policies for EKS node groups
 vessl-eks-node-groups,vessl-ai,19696,aws,https://github.com/vessl-ai/terraform-aws-vessl-eks-node-groups,
@@ -16299,6 +16306,7 @@ vm3nic,Terraform-VMWare-Modules,2408,vsphere,https://github.com/Terraform-VMWare
 vm_cluster_free_tier,wiseupdata,22107,oci,https://github.com/wiseupdata/terraform-oci-vm_cluster_free_tier,
 vm_instance,airasia,4756,google,https://github.com/airasia/terraform-google-vm_instance,Terraform module for a Compute Engine VM Instance in GCP
 vmbot,zyborg-tf,5027,aws,https://github.com/zyborg-tf/terraform-aws-vmbot,Terraform module to deploy the VMBot Lambda Function
+vmcreate,learncode2100,26115,azurerm,https://github.com/learncode2100/terraform-azurerm-vmcreate,
 vmext,gethuravi2020,22467,azurerm,https://github.com/gethuravi2020/terraform-azurerm-vmext,
 vmmodule,Mamatha-Parvathaneni,14294,azure,https://github.com/Mamatha-Parvathaneni/terraform-azure-vmmodule,
 vms,lanets,3563,vsphere,https://github.com/lanets/terraform-vsphere-vms,A teraform module for deploy virtual machines on a vSphere cluster.
@@ -17367,7 +17375,7 @@ windows-vm,andrewCluey,6190,azurerm,https://github.com/andrewCluey/terraform-azu
 windows-vm,ayusmadi,3551,azurerm,https://github.com/rahmancloud/terraform-azurerm-windows-vm,Terraform module to deploy a virtual network and a Windows virtual machine into existing resource group.
 windows-vm,bootlabstech,18118,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-windows,
 windows-vm,claranet,3782,azurerm,https://github.com/claranet/terraform-azurerm-windows-vm,Terraform module composition (feature) for ARM Windows Virtual Machine (VM)
-windows-vm,data-platform-hq,21125,azurerm,https://github.com/data-platform-hq/terraform-azurerm-windows-vm,
+windows-vm,data-platform-hq,21125,azurerm,https://github.com/data-platform-hq/terraform-azurerm-windows-vm,Terraform module for creation Azure Windows vm
 windows-vm,libre-devops,13054,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-vm,"A module which tries to follow the ""KISS"" design model to deploying a VM.  Will created 1 ore more VMs, a NIC and a OS disk based on some parameters :knife:"
 windows-vm,ptonini,16768,azurerm,https://github.com/ptonini/terraform-azurerm-windows-vm,
 windows-vm,qbeyond,20023,azurerm,https://github.com/qbeyond/terraform-azurerm-windows-vm,
@@ -17516,7 +17524,7 @@ wp_do,matheussiqq,18924,digitalocean,https://github.com/matheussiqq/terraform-di
 ws-lb,mcjara,23708,aws,https://github.com/mcjara/terraform-aws-ws-lb,This project holds the code to generate a Terraform Module which intents to wrap creating load balancers required for a public web service
 ws-networking,mcjara,23715,aws,https://github.com/mcjara/terraform-aws-ws-networking,This project holds the code to generate a Terraform Module which intents to wrap creating a simple and secure networking for a web service in AWS
 ws-storage,mcjara,23709,aws,https://github.com/mcjara/terraform-aws-ws-storage,This project holds the code to generate a Terraform Module which intents to wrap creating storage buckets to hold logs and assets for a web service in AWS
-wwi-demos,data-platform-hq,22199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-wwi-demos,
+wwi-demos,data-platform-hq,22199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-wwi-demos,Terraform module for creation Azure WWI Demo and it's components creation
 x-account-az-mapping,MagusDevOps,8253,aws,https://github.com/foxvalleyops/terraform-aws-x-account-az-mapping,
 x509,cktf,15082,kubernetes,https://github.com/cktf/terraform-kubernetes-x509,Terraform Kubernetes X.509 Module
 x509-auth-manager,rhythmictech,5154,kubernetes,https://github.com/rhythmictech/terraform-kubernetes-x509-auth-manager,Create Namespace Admins in Kubernetes
