@@ -2866,7 +2866,7 @@ cloud-scheduler-job,blackbird-cloud,18829,google,https://github.com/blackbird-cl
 cloud-server,alexraskin,16012,hetzner,https://github.com/alexraskin/terraform-hetzner-cloud-server,Creates Hetzer Cloud Server Infrastructure
 cloud-server,deff-dev,20718,timeweb,https://github.com/deff-dev/terraform-timeweb-cloud-server,Terraform module which creates server on TimeWeb Cloud
 cloud-source-repositories,bootlabstech,14022,google,https://github.com/bootlabstech/terraform-google-cloud-source-repositories,
-cloud-spanner,GoogleCloudPlatform,22433,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-spanner,Deploy Spanner
+cloud-spanner,GoogleCloudPlatform,22433,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-spanner,Deploy Spanner instances
 cloud-spanner,bootlabstech,13855,google,https://github.com/bootlabstech/terraform-google-cloud-spanner,
 cloud-sql,FFerrinho,21348,google,https://github.com/FFerrinho/terraform-google-cloud-sql,A Terraform module to manage Cloud SQL deployments.
 cloud-sql,data-platform-hq,17448,google,https://github.com/data-platform-hq/terraform-google-cloud-sql,Terraform module for managing Google Cloud SQL
@@ -6078,6 +6078,7 @@ eks,Gulnaz1992,5380,aws,https://github.com/gulnazkk/terraform-aws-eks,aws-eks
 eks,Ioasys-org,14404,aws,https://github.com/ioasys/terraform-aws-eks,
 eks,JahnaviM77,6409,aws,https://github.com/JahnaviM77/terraform-aws-eks,
 eks,MOHIT-JANGIR,9559,aws,https://github.com/mohit-jangir/terraform-aws-eks,
+eks,Mosesrich,26163,aws,https://github.com/Mosesrich/terraform-aws-eks,
 eks,NargizaOsmon,5357,aws,https://github.com/nargizaos/terraform-aws-eks,
 eks,OT-CLOUD-KIT,4891,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-eks,This repository consists of Terraform module for EKS cluster in AWS.
 eks,QuiNovas,2356,aws,https://github.com/QuiNovas/terraform-aws-eks,A Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS.
@@ -8146,7 +8147,7 @@ inspector,QuiNovas,1498,aws,https://github.com/QuiNovas/terraform-aws-inspector,
 inspector,USSBA,4769,aws,https://github.com/USSBA/terraform-aws-inspector,A terraform module to deploy Amazon Inspector
 inspector,blackbird-cloud,21838,aws,https://github.com/blackbird-cloud/terraform-aws-inspector,A Terraform module to help manage AWS Inspector
 inspector,cloudposse,7825,aws,https://github.com/cloudposse/terraform-aws-inspector,Terraform module to provision AWS Inspector
-inspector,rhythmictech,5096,aws,https://github.com/rhythmictech/terraform-aws-inspector,
+inspector,rhythmictech,5096,aws,https://github.com/rhythmictech/terraform-aws-inspector,Configures AWS Inspector. Optionally configures a CloudWatch scheduled event to trigger assessments based on a specified schedule.
 inspector,snapdocs,8183,aws,https://github.com/snapdocs/terraform-aws-inspector,
 inspector2-report,stroeer,26077,aws,https://github.com/stroeer/terraform-aws-inspector2-report,
 install,skyfjall,14131,flux,https://github.com/skyfjell/terraform-flux-install,Install Flux to a Kubernetes Cluster w/ Helm
@@ -9087,7 +9088,7 @@ labels,clouddrove,16604,gcp,https://github.com/clouddrove/terraform-gcp-labels,
 labels,clouddrove,5032,digitalocean,https://github.com/clouddrove/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 labels,clouddrove,9019,aws,https://github.com/clouddrove/terraform-aws-labels,This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 labels,cloudlovers,16529,google,https://github.com/cloudlovers/terraform-google-labels,
-labels,cypik,22703,google,https://github.com/cypik/terraform-google-labels,
+labels,cypik,22703,google,https://github.com/cypik/terraform-google-labels,This Terraform module provides a standardized approach to labeling Google Cloud Platform (GCP) resources.
 labels,cypik,22706,azure,https://github.com/cypik/terraform-azure-labels,
 labels,cypik,22725,aws,https://github.com/cypik/terraform-aws-labels,
 labels,cypik,22731,digitalocean,https://github.com/cypik/terraform-digitalocean-labels,
@@ -11080,6 +11081,7 @@ nginx-example,Mangesh-Dawkore,21244,aws,https://github.com/Mangesh-Dawkore/terra
 nginx-high-error-rate-on-nginx,terraform-shoreline-modules,20411,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-nginx-high-error-rate-on-nginx,This repository was generated automatically based on a Shoreline Insights Runbook.
 nginx-higher-than-usual-4xx-errors-on-nginx,terraform-shoreline-modules,20424,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-nginx-higher-than-usual-4xx-errors-on-nginx,This repository was generated automatically based on a Shoreline Insights Runbook.
 nginx-higher-than-usual-5xx-errors-on-nginx-upstreams,terraform-shoreline-modules,20425,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-nginx-higher-than-usual-5xx-errors-on-nginx-upstreams,This repository was generated automatically based on a Shoreline Insights Runbook.
+nginx-ingress,lapinsandris9,26164,helm,https://github.com/lapinsandris9/terraform-helm-nginx-ingress,Opined way of deploying nginx-ingress on kubernetes using helm
 nginx-ingress-controller,byuoitav,4196,kubernetes,https://github.com/byuoitav/terraform-kubernetes-nginx-ingress-controller,
 nginx-ingress-controller,sanarena,7310,kubernetes,https://github.com/sanarena/terraform-kubernetes-nginx-ingress-controller,
 nginx-instance,vaibhav17octo,25457,aws,https://github.com/vaibhav17octo/terraform-aws-nginx-instance,Install an ec2 instance using terraform 
@@ -12528,6 +12530,7 @@ record,srb3,4330,dnsimple,https://github.com/srb3/terraform-dnsimple-record,
 record-certs,devoptimist,2974,dnsimple,https://github.com/srb3/terraform-dnsimple-record-certs,
 record-certs,srb3,3925,dnsimple,https://github.com/srb3/terraform-dnsimple-record-certs,
 record-sync-nia,ns1-terraform,8051,ns1,https://github.com/ns1-terraform/terraform-ns1-record-sync-nia,
+records,Catalyst-Consulting-Group,26166,r53,https://github.com/Catalyst-Consulting-Group/terraform-r53-records,A collection of opinionated Terraform modules for creating Route 53 records
 records,Flaconi,11991,cloudflare,https://github.com/Flaconi/terraform-cloudflare-records,Create DNS records in specified Cloudflare Hosted Zone
 records,ecanuto,19122,cloudflare,https://github.com/ecanuto/terraform-cloudflare-records,Terraform module to provision a CloudFlare DNS records
 records,zoro16,21444,cloudflare,https://github.com/zoro16/terraform-cloudflare-records,Terraform module to create/update DNS Records in Cloudflare
@@ -14057,6 +14060,7 @@ securitygroup,ysakova90,23443,aws,https://github.com/ysakova90/terraform-aws-sec
 securitygroup,zarnigor87,23505,aws,https://github.com/zarnigor87/terraform-aws-securitygroup,
 securitygroup,ziia21,23441,aws,https://github.com/ziia21/terraform-aws-securitygroup,
 securityhub,blackbird-cloud,19250,aws,https://github.com/blackbird-cloud/terraform-aws-securityhub,Terraform module for creating AWS Securityhub resources
+securityhub,rhythmictech,26165,aws,https://github.com/rhythmictech/terraform-aws-securityhub,
 securityhub,snapdocs,8185,aws,https://github.com/snapdocs/terraform-aws-securityhub,controls securityhub
 securityhub-batchupdatefindings,infralicious,24761,aws,https://github.com/infralicious/terraform-aws-securityhub-batchupdatefindings,Terraform module to update AWS securityhub findings such as suppressions
 securityhub-summary-email,Gooygeek,10977,aws,https://github.com/Gooygeek/terraform-aws-securityhub-summary-email,Generates and sends a periodic email summarising of Security Hub. Based on https://github.com/aws-samples/aws-security-hub-summary-email
@@ -16617,7 +16621,7 @@ vpc,congvosoftyn,16120,aws,https://github.com/congvosoftyn/terraform-aws-vpc,
 vpc,container-labs,18811,scaleway,https://github.com/container-labs/terraform-scaleway-vpc,
 vpc,coolapso,24287,scaleway,https://github.com/coolapso/terraform-scaleway-vpc,Module to create scaleway vpc network
 vpc,cuneytoghan,20072,aws,https://github.com/cuneytoghan/terraform-aws-vpc,
-vpc,cypik,22705,google,https://github.com/cypik/terraform-google-vpc,
+vpc,cypik,22705,google,https://github.com/cypik/terraform-google-vpc,"Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and serverless workloads"
 vpc,cypik,22740,aws,https://github.com/cypik/terraform-aws-vpc,
 vpc,cypik,22874,digitalocean,https://github.com/cypik/terraform-digitalocean-vpc,
 vpc,dalerboboev,9395,aws,https://github.com/dalerboboev/terraform-aws-vpc,
