@@ -1715,6 +1715,7 @@ avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terrafor
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Azure Verified Module for Virtual Network
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-oracledatabase-cloudexadatainfrastructure,Azure,26079,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure,Azure Verified Module for Oracle Exadata Infrastructure
+avm-res-oracledatabase-cloudvmcluster,Azure,26198,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudvmcluster,Azure Verified Module for Oracle Exadata VM Cluster
 avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup,"To gain access, please finish setting up this repository now at: "
 avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
@@ -9529,6 +9530,7 @@ linkerd2,OuFinx,11217,helm,https://github.com/OuFinx/terraform-helm-linkerd2,Ins
 linkerd2,neko1101,24624,kubernetes,https://github.com/neko1101/terraform-kubernetes-linkerd2,An unofficial Linkerd2 Terraform Module for Kubernetes Cluster.
 linkerd2,rtlnl,5577,kubernetes,https://github.com/rtlnl/terraform-kubernetes-linkerd2,Terraform module to deploy Linkerd2 on Kubernetes
 linkerd2,run-x,12668,helm,https://github.com/run-x/terraform-helm-linkerd2,Install Linkerd2 using Terraform Helm Provider
+linux,hyukjuns,26189,azurerm,https://github.com/hyukjuns/terraform-azurerm-linux,Connected to TFC Module Registry
 linux-ami,mamemomonga,5572,aws,https://github.com/mamemomonga/terraform-aws-linux-ami,Favorite Linux AMIs
 linux-docker-app-service,guillaume-dussault,22768,azure,https://github.com/guillaume-dussault/terraform-azure-linux-docker-app-service,
 linux-docker-app-service,nventive,23210,azurerm,https://github.com/nventive/terraform-azurerm-linux-docker-app-service,Terraform module to provision an Azure Linux Web App (App Service) that runs a Docker image.
@@ -10877,6 +10879,7 @@ network,gruntwork-io,2430,google,https://github.com/gruntwork-io/terraform-googl
 network,haflidif,12086,azurerm,https://github.com/haflidif/terraform-azurerm-network,Terraform module to create Azure network resources
 network,haxorof,2736,openstack,https://github.com/haxorof/terraform-openstack-network,Terraform module which creates networks including subnets on OpenStack
 network,hongjunjeong95,12582,aws,https://github.com/hongjunjeong95/terraform-aws-network,terraform-aws-network modules
+network,hyukjuns,26188,azurerm,https://github.com/hyukjuns/terraform-azurerm-network,terraform cloud private repository
 network,ijajmomin76,19101,google,https://github.com/ijajmomin76/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,ikemerrix,13290,azurerm,https://github.com/ikemerrix/terraform-azurerm-network,Terraform module which creates networking resources on Azure
 network,incentro-cloud,10970,google,https://github.com/incentro-cloud/terraform-google-network,"Module for creating a VPC network, subnets, routes, rules, connectors, and peerings."
@@ -11193,6 +11196,7 @@ nsg,claranet,3223,azurerm,https://github.com/claranet/terraform-azurerm-nsg,Terr
 nsg,cloud-native-toolkit,16042,azure,https://github.com/cloud-native-toolkit/terraform-azure-nsg,Module to provision nsg on azure
 nsg,cyber-scot,21150,azurerm,https://github.com/cyber-scot/terraform-azurerm-nsg,A module used to deploy a sensible default NSG to Azure 😎
 nsg,dcos-terraform,1532,azurerm,https://github.com/dcos-terraform/terraform-azurerm-nsg,
+nsg,hyukjuns,26190,azurerm,https://github.com/hyukjuns/terraform-azurerm-nsg,Connected to TFC Module Registry
 nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,"A module used to generate a sensible default NSG and attach it to an Azure subnet.  Note, this NSG is deployed with some default rules including an explicit deny :bomb:"
 nsg,miljodir,22046,azurerm,https://github.com/miljodir/terraform-azurerm-nsg,Creates an NSG with some default rules
 nsg,qbeyond,20013,azurerm,https://github.com/qbeyond/terraform-azurerm-nsg,Creates a network security group that takes a .yaml File as input where network security group rules are defined.
@@ -12062,6 +12066,7 @@ public-ip,bootlabstech,15491,azurerm,https://github.com/bootlabstech/terraform-a
 public-ip,equinor,23395,azurerm,https://github.com/equinor/terraform-azurerm-public-ip,Terraform module which creates Azure Public IP resources
 public-ip,getindata,16976,azurerm,https://github.com/getindata/terraform-azurerm-public-ip,
 public-ip,guidalabs,10831,azure,https://github.com/guidalabs/terraform-azure-public-ip,
+public-ip,hyukjuns,26191,azurerm,https://github.com/hyukjuns/terraform-azurerm-public-ip,Connected to TFC Module Registry
 public-ip,iankesh,6234,azure,https://github.com/iankesh/terraform-azure-public-ip,This is a Terraform custom module to create Public IP Address in Azure Cloud. 
 public-ip,lonegunmanb,19605,lonegunmanb,https://github.com/lonegunmanb/terraform-lonegunmanb-public-ip,
 public-ip,web-virtua-azure-multi-account-modules,21745,azurerm,https://github.com/web-virtua-azure-multi-account-modules/terraform-azurerm-public-ip,
@@ -12901,9 +12906,11 @@ resource_group,sironite,17434,azurerm,https://github.com/sironite/terraform-azur
 resource_group-single,Muzammil-Naik,22340,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_group-single,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
+resource_group_storage,OKochubeii,26197,azurerm,https://github.com/OKochubeii/terraform-azurerm-resource_group_storage,This repository is created for mate task 6
 resource_group_storage,SHCHERBANV,25845,azurerm,https://github.com/SHCHERBANV/terraform-azurerm-resource_group_storage,
 resource_group_storage,Serveladik,26172,azurerm,https://github.com/Serveladik/terraform-azurerm-resource_group_storage,
 resource_group_storage,YegorVolkov,25685,azurerm,https://github.com/YegorVolkov/terraform-azurerm-resource_group_storage,
+resource_group_storage,cth-usq,26196,azurerm,https://github.com/cth-usq/terraform-azurerm-resource_group_storage,
 resource_group_storage,kkiirill,25328,azurerm,https://github.com/kkiirill/terraform-azurerm-resource_group_storage,
 resource_group_storage,salaxambar,25991,azurerm,https://github.com/salaxambar/terraform-azurerm-resource_group_storage,
 resource_group_storage,yaaszp,25202,azurerm,https://github.com/yaaszp/terraform-azurerm-resource_group_storage,Terraform azurerm module for creating resource group and storage account
@@ -13812,6 +13819,7 @@ scheduler,teamdatatonic,8820,gcp,https://github.com/teamdatatonic/terraform-gcp-
 scheduler-event,KamranBiglari,22103,aws,https://github.com/KamranBiglari/terraform-aws-scheduler-event,
 scheduler-function2,blackbird-cloud,18680,google,https://github.com/blackbird-cloud/terraform-google-scheduler-function2,Google generation 2 function with EventArc and Scheduler
 schema,getindata,17183,snowflake,https://github.com/getindata/terraform-snowflake-schema,Terraform module for managing Snowflake schemas
+schematics-agent,terraform-ibm-modules,26192,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-schematics-agent,Creates a Schematics Agent and deploys it on the existing cluster.
 scp,boldlink,14891,aws,https://github.com/boldlink/terraform-aws-scp,Terraform registry repository for AWS Organizations SCP module
 script,cktf,21732,module,https://github.com/cktf/terraform-module-script,Terraform SSH/WinRM Script Module
 script,devops-ia,25621,nexus,https://github.com/devops-ia/terraform-nexus-script,Terraform module for create Nexus Script
@@ -14052,6 +14060,7 @@ security-list,web-virtua-oci-multi-account-modules,18867,oci,https://github.com/
 security-notifications,3sne,19231,google,https://github.com/3sne/terraform-google-security-notifications,Configures security findings notification in the Security Command Center.
 security-policy,bootlabstech,15754,panos,https://github.com/bootlabstech/terraform-panos-security-policy,
 security-report,hendrixroa,6551,aws,https://github.com/hendrixroa/terraform-aws-security-report,Lambda that notify security issues.
+security-verify,terraform-ibm-modules,26193,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-security-verify,"IBM Verify provides Single Sign-On (SSO), multi-factor authentication (MFA), identity governance, and identity lifecycle controls for internal (workforce) and external (consumer) user types."
 security_gr,Tumik94,26176,aws,https://github.com/Tumik94/terraform-aws-security_gr,
 security_group,mayankagarwal19911,22941,aws,https://github.com/mayankagarwal19911/terraform-aws-security_group,
 security_group,mikamakusa,4351,aws,https://github.com/mikamakusa/terraform-aws-security_group,
@@ -14360,6 +14369,7 @@ shardingsphere,SphereEx,17124,aws,https://github.com/SphereEx/terraform-aws-shar
 share,KamilBlaz,11806,aws,https://github.com/KamilBlaz/terraform-aws-share,
 share-storage,bootlabstech,17046,azurerm,https://github.com/bootlabstech/terraform-azurerm-share-storage,Azure bucket creation using Terraform
 shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
+shared-database,getindata,26194,snowflake,https://github.com/getindata/terraform-snowflake-shared-database,Terraform module for managing Shared Databases in Snowflake 
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
 shared-image-gallery,claranet,21466,azurerm,https://github.com/claranet/terraform-azurerm-shared-image-gallery,Terraform module for Azure Shared Image Gallery
 shared-vars,libre-devops,23616,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-vars,A module used to help replicate vars across multiple builds ⚡
