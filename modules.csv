@@ -618,6 +618,7 @@ alert-export,carlzxc71,18804,azurerm,https://github.com/carlzxc71/terraform-azur
 alert-rules,alemuro,25716,grafana,https://github.com/alemuro/terraform-grafana-alert-rules,Terraform Module for managing Grafana Alert Rules easily
 alerting,claranet,4464,azurerm,https://github.com/claranet/terraform-azurerm-alerting,Terraform module for Azure Alerting
 alertmanager,philips-labs,10540,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-alertmanager,
+alerts,delivops,26227,groundcover,https://github.com/delivops/terraform-groundcover-alerts,
 alerts,falcon-terraform-modules,23865,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-alerts,"This Terraform module constructs and configures the necessary resources for NewRelic alert settings, including Alert Conditions, Alert Policies, Destinations, and Workflows."
 alerts-to-s3,lacework,16278,aws,https://github.com/lacework/terraform-aws-alerts-to-s3,Terraform Lacework Alerts to AWS-S3
 algo,armorfret,2199,linode,https://github.com/armorfret-archived/terraform-linode-algo,Terraform module for creating an Algo VPN on a Linode
@@ -1719,6 +1720,7 @@ avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terr
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
 avm-res-oracledatabase-cloudexadatainfrastructure,Azure,26079,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure,Azure Verified Module for Oracle Exadata Infrastructure
 avm-res-oracledatabase-cloudvmcluster,Azure,26198,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudvmcluster,Azure Verified Module for Oracle Exadata VM Cluster
+avm-res-portal-dashboard,Azure,26228,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-portal-dashboard,AVM Terraform module for Azure portal dashboard.
 avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup,"To gain access, please finish setting up this repository now at: "
 avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
@@ -2198,6 +2200,7 @@ batch,dabble-of-devops-biodeploy,10356,aws,https://github.com/dabble-of-devops-b
 batch,iamlmn,5522,aws,https://github.com/iamlmn/terraform-aws-batch,High Throughout Batch Computing in AWS - Terraform module
 batch,system123,7719,aws,https://github.com/system123/terraform-aws-batch,High Throughput Batch Computing in AWS - Terraform module
 batch,terraform-aws-modules,13124,aws,https://github.com/terraform-aws-modules/terraform-aws-batch,Terraform module to create AWS Batch resources 🇺🇦
+batch-account,bootlabstech,26221,azurerm,https://github.com/bootlabstech/terraform-azurerm-batch-account,
 batch-compute-environment,QuiNovas,3448,aws,https://github.com/QuiNovas/terraform-aws-batch-compute-environment,Creates a batch compute environment
 batch-compute-environment,corpit-consulting-public,8661,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-compute-environment,Terraform module which creates Batch Compute Environment resources on AWS
 batch-compute-environment-mod,corpit-consulting-public,2649,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-compute-environment,Terraform module which creates Batch Compute Environment resources on AWS
@@ -3728,6 +3731,7 @@ control_tower_account_factory,l4gdev,12508,aws,https://github.com/l4gdev/terrafo
 controller,ivorsmorenburg,11502,unifi,https://github.com/ivorsmorenburg/terraform-unifi-controller,Terraform UniFi Module
 controller,rkoosaar,6523,unifi,https://github.com/rkoosaar/terraform-unifi-controller,Terraform module for managing Unifi Controller resources
 controller-gcp,mlin-aviatrix,11153,aviatrix,https://github.com/mlin-aviatrix/terraform-aviatrix-controller-gcp,
+controller-init,terraform-aviatrix-modules,26222,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-controller-init,This module initializes a freshly deployed controller.
 controlplane,jrhouston,16482,clusterapi,https://github.com/jrhouston/terraform-clusterapi-controlplane,
 controlshift-redshift-sync,controlshift,3077,aws,https://github.com/controlshift/terraform-aws-controlshift-redshift-sync,Terraform module for synchronizing ControlShift data into your data warehouse
 controlstack,sspaky,22976,digitalocean,https://github.com/sspaky/terraform-digitalocean-controlstack,
@@ -5092,6 +5096,7 @@ domain,tedilabs,7745,aws,https://github.com/tedilabs/terraform-aws-domain,🌳 A
 domain,terraform-do-modules,20241,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-domain,"Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers."
 domain,wderezin,11594,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
 domain-join,kumarvna,8970,azurerm,https://github.com/kumarvna/terraform-azurerm-domain-join,Terraform module to joins a VM to an Active Directory Domain
+domain-protect,domain-protect,26226,aws,https://github.com/domain-protect/terraform-aws-domain-protect,Terraform module for OWASP Domain Protect on AWS
 domain-redirect,Invicton-Labs,10887,aws,https://github.com/Invicton-Labs/terraform-aws-domain-redirect,
 domain-redirect,Kalepa,16709,aws,https://github.com/Kalepa/terraform-aws-domain-redirect,
 domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-domain-redirect,Redirects from one domain to another using S3 bucket & Cloudfront distribution
@@ -11690,7 +11695,7 @@ pki-role,ptonini,16791,vault,https://github.com/ptonini/terraform-vault-pki-role
 pki-secret-backend-role,pmikus,18695,vault,https://github.com/pmikus/terraform-vault-pki-secret-backend-role,Terraform module creates a role on an PKI Secret Backend for Vault.
 placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lambda-placeholder,Placeholders for AWS Lambda to be used when creating Lambda functions with Terraform
 placement-group,terraform-navercloudplatform-modules,25189,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-placement-group,Terraform module to create placement group resources
-plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,
+plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,Terraform module which service plans used by workloads and accelerators.
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Terraform module for the deployment of the GrayMeta Platform into AWS. Contact GrayMeta for an enterprise license to gain access to the required AMIs.
@@ -12265,6 +12270,7 @@ rds,cytopia,2534,aws,https://github.com/cytopia/terraform-aws-rds,Remake of terr
 rds,dashdevs,24528,aws,https://github.com/dashdevs/terraform-aws-rds,RDS module for terraform
 rds,dasmeta,16205,aws,https://github.com/dasmeta/terraform-aws-rds,Terraform Aws RDS module
 rds,dbeleva-af,20960,aws,https://github.com/dbeleva-af/terraform-aws-rds,
+rds,delivops,26223,groundcover,https://github.com/delivops/terraform-groundcover-rds,
 rds,dsa0x,23537,aws,https://github.com/dsa0x/terraform-aws-rds,
 rds,eduzuchetti,14045,aws,https://github.com/eduzuchetti/terraform-aws-rds,Module to create RDS Instances and Clusters on AWS
 rds,erkinsinc,5860,aws,https://github.com/erkinsinc/terraform-aws-rds,this module creates RDS through terraform
@@ -13810,6 +13816,7 @@ scdn,terraform-alicloud-modules,9977,alicloud,https://github.com/alibabacloud-au
 sce-core,aws-ia,24702,aws,https://github.com/aws-ia/terraform-aws-sce-core,
 sce-tf-community,aws-ia,24721,aws,https://github.com/aws-ia/terraform-aws-sce-tf-community,
 scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,SCEPman - Certificates Simplified
+scepman,scepman,26225,azurerm,https://github.com/scepman/terraform-azurerm-scepman,SCEPman - Certificates Simplified
 scf,terraform-tencentcloud-modules,19050,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-scf,
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
 schedule-auto-stop-start-aws-services,bigfantech-cloud,20622,aws,https://github.com/bigfantech-cloud/terraform-aws-schedule-auto-stop-start-aws-services,Terraform module: schedule auto Stop and Start CRON for AWS services with Lambda function
@@ -15006,6 +15013,7 @@ staticsitepublic,anil1226,20467,azurerm,https://github.com/anil1226/terraform-az
 staticweb,10shravani,25851,azurerm,https://github.com/10shravani/terraform-azurerm-staticweb,azure module for terraform static web
 staticweb,Dayo678,20533,azurerm,https://github.com/Dayo678/terraform-azurerm-staticweb,
 staticweb,vikash2890git,18519,azurerm,https://github.com/vikash2890git/terraform-azurerm-staticweb,module for static website
+staticwebsite,Dupo24,26229,azurerm,https://github.com/Dupo24/terraform-azurerm-staticwebsite,
 staticwebsite,GirijalaAditya,19837,azurerm,https://github.com/GirijalaAditya/terraform-azurerm-staticwebsite,
 staticwebsite,Prakazsh,24768,azurerm,https://github.com/Prakazsh/terraform-azurerm-staticwebsite,Terraform modules to be shared in Terraform Public Registry
 staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform-azurerm-staticwebsite,
