@@ -945,7 +945,7 @@ apigw-sns,andreswebs,22246,aws,https://github.com/andreswebs/terraform-aws-apigw
 apigw-sqs,andreswebs,24061,aws,https://github.com/andreswebs/terraform-aws-apigw-sqs,Create an API Gateway endpoint that publishes to an SQS queue
 apikey,tomoki171923,13378,aws,https://github.com/tomoki171923/terraform-aws-apikey,"Terraform module, which creates AWS apigateway api key resources."
 apikeys,bootlabstech,20585,google,https://github.com/bootlabstech/terraform-google-apikeys,
-apim,CloudNationHQ,26210,azure,https://github.com/CloudNationHQ/terraform-azure-apim,
+apim,CloudNationHQ,26210,azure,https://github.com/CloudNationHQ/terraform-azure-apim,Terraform module which creates api manager resources used by workloads and accelerators.
 apim,JamesWoolfenden,16719,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-apim,
 apim-api,JoeAtRest,6087,azurerm,https://github.com/JoeAtRest/terraform-azurerm-apim-api,Manages an API for an existing Azure API Manager
 apim-apiops,robertbrandso,19214,azurerm,https://github.com/robertbrandso/terraform-azurerm-apim-apiops,"APIM APIOps enables you to publish and manage your APIs via Azure API Management (APIM) using a GitOps approach, with the help of a Terraform module."
@@ -1193,6 +1193,7 @@ argocd,DeimosCloud,8753,kubernetes,https://github.com/DeimosCloud/terraform-kube
 argocd,aareet,7820,kubernetes,https://github.com/aareet/terraform-kubernetes-argocd,Terraform module to install ArgoCD into your Kubernetes cluster
 argocd,aigisuk,11697,kubernetes,https://github.com/aigisuk/terraform-kubernetes-argocd,A Terraform Module to deploy ArgoCD (v2.6.6) on a Kubernetes Cluster via Helm
 argocd,alekc,13859,application,https://github.com/alekc/terraform-application-argocd,Terraform module for argocd application
+argocd,cloudwise-devops,26233,helm,https://github.com/cloudwise-devops/terraform-helm-argocd,Opined way of deploying argocd on kubernetes using helm
 argocd,devdynamicio,15210,kubernetes,https://github.com/devdynamicio/terraform-kubernetes-argocd,Terraform module to create ArgoCD in Kubernetes 🇺🇦
 argocd,easy-modules,19113,easy,https://github.com/easy-modules/terraform-easy-argocd,ARGO CD
 argocd,lablabs,10112,helm,https://github.com/lablabs/terraform-helm-argocd,Terraform module for deploying ArgoCD
@@ -2915,7 +2916,7 @@ cloud_build-private-worker_pool,mdiloreto,23266,google,https://github.com/mdilor
 cloud_init,l-with,18312,module,https://github.com/l-with/terraform-module-cloud_init,
 cloud_run,airasia,6564,google,https://github.com/airasia/terraform-google-cloud_run,Terraform module for a Cloud Run service in GCP
 cloud_workspace,aws-ia,9054,hashicorp,https://github.com/aws-ia/terraform-hashicorp-cloud_workspace,Terraform Cloud Workspace
-cloudaccess-lza,appvia,23899,aws,https://github.com/appvia/terraform-aws-cloudaccess-lza,Terraform module used to provision pipeline access for the landing zone accelerator
+cloudaccess-lza,appvia,23899,aws,https://github.com/appvia/terraform-aws-cloudaccess-lza,Terraform module used to provision resources and access for a landing zone
 cloudant,terraform-ibm-modules,21709,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloudant,Deploys and configures an IBM Cloudant instance
 cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,terraform gcp module for cloudbase
 cloudbase,Levetty,17707,aws,https://github.com/Levetty/terraform-aws-cloudbase,terraform aws module for cloudbase
@@ -5434,6 +5435,7 @@ ec2-instance,garyellis,7343,aws,https://github.com/garyellis/terraform-aws-ec2-i
 ec2-instance,grupoadvincula,19278,aws,https://github.com/grupoadvincula/terraform-aws-ec2-instance,
 ec2-instance,hadenlabs,10465,aws,https://github.com/hadenlabs/terraform-aws-ec2-instance,A Terraform module to create instance ec2 on Amazon Web Services (AWS).
 ec2-instance,hayaah,11790,aws,https://github.com/hayaah/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
+ec2-instance,iam-premkumardr,26232,aws,https://github.com/iam-premkumardr/terraform-aws-ec2-instance,Create AWS EC2 Instance with modular approach
 ec2-instance,jand0manski,19044,aws,https://github.com/jand0manski/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
 ec2-instance,magicorntech,19513,aws,https://github.com/magicorntech/terraform-aws-ec2-instance,Magicorn AWS EC2 Instance Module
 ec2-instance,miapferreira,25807,aws,https://github.com/miapferreira/terraform-aws-ec2-instance,Module for ec2 instance creation
@@ -7171,7 +7173,7 @@ functionapp-group,JoeAtRest,6036,azurerm,https://github.com/JoeAtRest/terraform-
 functionbeat,PacoVK,13301,aws,https://github.com/PacoVK/terraform-aws-functionbeat,A Terraform module for Elastic Functionbeat to ship Cloudwatch logs 
 functions,tomarv2,12425,azure,https://github.com/tomarv2/terraform-azure-function,Terraform module for Azure Functions
 fw,CloudNationHQ,26134,azure,https://github.com/CloudNationHQ/terraform-azure-fw,Terraform module which creates firewall resources used by workloads and accelerators.
-fwp,CloudNationHQ,26168,azure,https://github.com/CloudNationHQ/terraform-azure-fwp,
+fwp,CloudNationHQ,26168,azure,https://github.com/CloudNationHQ/terraform-azure-fwp,Terraform module which creates firewall policy resources used by workloads and accelerators.
 ga-slb-ecs-cdn-oss,terraform-alicloud-modules,10259,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ga-slb-ecs-cdn-oss,
 gameserver,udohsolomon,4994,cloud,https://github.com/udohsolomon/terraform-cloud-gameserver,Multi-player online web game server on multi-cloud 
 ganga1april2022,Ganga-dhar,12873,aws,https://github.com/Ganga-dhar/terraform-aws-ganga1april2022,
@@ -9221,7 +9223,6 @@ lambda-cloudwatch-events-trigger,infrablocks,2775,aws,https://github.com/infrabl
 lambda-cloudwatch-report,lablabs,4410,aws,https://github.com/lablabs/terraform-aws-lambda-cloudwatch-report,
 lambda-code-pipeline,abdellatif05,6805,aws,https://github.com/abdellatif05/terraform-aws-lambda-code-pipeline,Terraform code for create a CodePipeline for lambda
 lambda-connector,symopsio,15721,aws,https://github.com/symopsio/terraform-aws-lambda-connector,The `lambda-connector` module provisions a Lambda role that the AWS Lambda Strategy can use to invoke AWS Lambda Functions.
-lambda-container,andreswebs,9765,aws,https://github.com/andreswebs/terraform-aws-lambda-container,Terraform module to deploy an AWS Lambda using a container image from AWS ECR
 lambda-cors-anywhere,bali-ibrahim,20534,aws,https://github.com/n-ae/terraform-aws-lambda-cors-anywhere,
 lambda-cors-anywhere,n-ae,20535,aws,https://github.com/n-ae/terraform-aws-lambda-cors-anywhere,
 lambda-datadog,DataDog,24492,aws,https://github.com/DataDog/terraform-aws-lambda-datadog,Terraform module to install Datadog Serverless Monitoring for AWS Lambda
@@ -10869,7 +10870,7 @@ network,azhar927,10633,google,https://github.com/azhar927/terraform-google-netwo
 network,bayudwiyansatria,11149,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-network,Provisioning Hetzner Cloud Network
 network,bcochofel,8132,azurerm,https://github.com/bcochofel/terraform-azurerm-network,Terraform AzureRM module for Networking
 network,bigfantech-cloud,18945,aws,https://github.com/bigfantech-cloud/terraform-aws-network,"Terraform config: creates AWS network resources, VPC, Subnet, NAT GW, IGW, RouteTable"
-network,bodhikshakti,26216,azurerm,https://github.com/bodhikshakti/terraform-azurerm-network,Terraform Azure RM Module for Network
+network,bodhikshakti,26230,azurerm,https://github.com/bodhikshakti/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,boltops-tools,11105,azure,https://github.com/boltops-tools/terraform-azure-network,Terraform Azure Network Module
 network,bootlabstech,12188,google,https://github.com/bootlabstech/terraform-google-network,Terraform module for creating a network in GCP
 network,boxyware-terraform-modules,14075,aws,https://github.com/boxyware-terraform-modules/terraform-aws-network,"Terraform module to deploy a VPC with subnets, public and private, and all the component to let the network ready to deploy VM and let them access to Internet."
@@ -17137,6 +17138,7 @@ vpc-sample,akirosit,15387,aws,https://github.com/akirosit/terraform-aws-vpc-samp
 vpc-securitygroup,bancoripleyperu,8338,aws,https://github.com/bancoripleyperu/terraform-aws-vpc-securitygroup,Module of Terraform
 vpc-seil,sekolya,8022,aws,https://github.com/sekolya/terraform-aws-vpc-seil,
 vpc-service-controls,terraform-google-modules,2465,google,https://github.com/terraform-google-modules/terraform-google-vpc-service-controls,Handles opinionated VPC Service Controls and Access Context Manager configuration and deployments
+vpc-services,HappyPathway,26234,aws,https://github.com/HappyPathway/terraform-aws-vpc-services,Terraform Module
 vpc-setup,Prashant-jumpbyte,20260,aws,https://github.com/Prashant-jumpbyte/terraform-aws-vpc-setup,"It will create a VPC, multiple subnets(Public and Private), Internet gateway, security group, In addition, Custom Route Tables and associate them with sub nets with NAT gateway support."
 vpc-simple-public-private-subnets,samloh84,16074,aws,https://github.com/samloh84/terraform-aws-vpc-simple-public-private-subnets,This Terraform module creates an AWS VPC with Public and Private Subnets.
 vpc-simple-public-subnets,samloh84,16069,aws,https://github.com/samloh84/terraform-aws-vpc-simple-public-subnets,Terraform module that creates an AWS VPC with only public Subnets.
