@@ -1665,6 +1665,7 @@ avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terr
 avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Multi-hub networking pattern module for Terraform
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
+avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
@@ -2424,6 +2425,7 @@ budget-alarms,rribeiro1,5525,aws,https://github.com/rribeiro1/terraform-aws-budg
 budget-alert,hazelops,8060,aws,https://github.com/hazelops/terraform-aws-budget-alert,
 budgets,appvia,23624,aws,https://github.com/appvia/terraform-aws-budgets,Contains a number of modules related to cost controls and AWS budgets
 budgets,cloudposse,11689,aws,https://github.com/cloudposse/terraform-aws-budgets,Terraform module to manage AWS Budgets.
+budgets,delivops,26271,aws,https://github.com/delivops/terraform-aws-budgets,
 budgets,devops-workflow,1106,aws,https://github.com/devops-workflow/terraform-aws-budgets,Terraform module for configuring AWS budgets
 budgets,geekcell,19724,aws,https://github.com/geekcell/terraform-aws-budgets,Terraform module to provision an AWS Budgets.
 budgets,instantstack,24460,aws,https://github.com/instantstack/terraform-aws-budgets,Terraform module for budgets alerts management
@@ -3750,6 +3752,7 @@ converter,hacomono,14875,time,https://github.com/hacomono/terraform-time-convert
 cool,Keerthi13122002,24730,azure,https://github.com/Keerthi13122002/terraform-azure-cool,
 coolify,damoun,24810,hetzner,https://github.com/damoun/terraform-hetzner-coolify,A terraform module to deploy Coolify on Hetzner Cloud
 coop-policy,netascode,9785,aci,https://github.com/netascode/terraform-aci-coop-policy,Terraform Cisco ACI COOP Policy Module
+copilot-init,terraform-aviatrix-modules,26267,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-copilot-init,This module initializes a freshly deployed copilot.
 cops,tqindia,24824,cloud,https://github.com/tqindia/terraform-cloud-cops,Maintaining opta terraform module for cops
 copy-ami,ifunky,4169,aws,https://github.com/ifunky/terraform-aws-copy-ami," Copies AMIs from one region to another and optionally applies launch permissions to other accounts"
 copy-bq-datasets,yu-iskw,10299,google,https://github.com/yu-iskw/terraform-google-copy-bq-datasets,A terraform module to copy BigQuery datasets across regions
@@ -11399,6 +11402,7 @@ opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraf
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
 opensearch,Ant-Tech-Cloud,16986,aws,https://github.com/Ant-Tech-Cloud/terraform-aws-opensearch,Terraform module which creates Opensearch Domain on AWS
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
+opensearch,HappyPathway,26272,aws,https://github.com/HappyPathway/terraform-aws-opensearch,Terraform module to create AWS OpenSearch resources 🇺🇦 
 opensearch,OT-CLOUD-KIT,19806,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-opensearch,
 opensearch,SPHTech-Platform,16250,aws,https://github.com/SPHTech-Platform/terraform-aws-opensearch,Terraform module to create aws opensearch (elasticsearch)
 opensearch,akw-devsecops,23754,aws,https://github.com/akw-devsecops/terraform-aws-opensearch,
@@ -11675,6 +11679,7 @@ personas-deployment,fmunozmiranda,14992,ciscoise,https://github.com/fmunozmirand
 pet,BrynardSecurity-terraform,12997,random,https://github.com/BrynardSecurity-terraform/terraform-random-pet,
 pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,Example Terraform Module Repo
 pet,roooms,25282,random,https://github.com/roooms/terraform-random-pet,
+pet2,roooms,26273,random,https://github.com/roooms/terraform-random-pet2,
 petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,testing outputs
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
@@ -16394,7 +16399,7 @@ vm-module,prashantsolanki3,19173,proxmox,https://github.com/prashantsolanki3/ter
 vm-nocloud,sparrow-bork,25228,proxmox,https://github.com/sparrow-bork/terraform-proxmox-vm-nocloud,Terraform module for provisioning proxmox VM with nocloud
 vm-nsg-lb,bootlabstech,17971,azurerm,https://github.com/bootlabstech/terraform-azurerm-clone-virtual-machine,
 vm-nsg-linux,bootlabstech,19104,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-linux,Azure VM provisioning using Terraform
-vm-nsg-windows,bootlabstech,24640,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-windows,
+vm-nsg-windows,bootlabstech,26270,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-windows,
 vm-os-sku-calculator,libre-devops,23734,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. :rocket:"
 vm-os-sku-with-plan-calculator,libre-devops,23733,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-with-plan-calculator,"A module used to simplify the generation of image Azure marketplace image which contain the a dedicated Plan, such as CIS images. It works by passing a simple variable to this module will output the config items. :rocket:"
 vm-qemu,dselders,6006,proxmox,https://github.com/dselders/terraform-proxmox-vm-qemu,
