@@ -1709,6 +1709,7 @@ avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terrafo
 avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan AVM module
 avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,AVM Terraform module for private DNS resolver
 avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone,AVM Terraform Module for DNS Zone
+avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,AVM Terraform module for ExpressRoute Circuits.
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
@@ -2044,6 +2045,7 @@ b2c-app-registration,Schumann-IT,24381,azuread,https://github.com/Schumann-IT/te
 b2c-directory,Schumann-IT,23757,azureadb2c,https://github.com/Schumann-IT/terraform-azureadb2c-b2c-directory,
 backbone,terraform-aviatrix-modules,17985,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-backbone,"This module composes the mc-transit, mc-firenet and peering modules together to provide a reference backbone implementation."
 backbones-resources,dinhdobathi1992,19252,aws,https://github.com/dinhdobathi1992/terraform-aws-backbones-resources,
+backend,CamiloLagos,26283,azure,https://github.com/CamiloLagos/terraform-azure-backend,Backend de terraform para despliegue de IaC
 backend,DNXLabs,5721,aws,https://github.com/DNXLabs/terraform-aws-backend,This terraform module implements what is described in the Terraform S3 Backend.
 backend,Selleo,8315,aws,https://github.com/Selleo/terraform-aws-backend,Collection of Terraform modules for backend app deployment on AWS.
 backend,StayWell,3535,aws,https://github.com/StayWell/terraform-aws-backend,
@@ -2336,7 +2338,7 @@ bofa-web,masoodmls,25039,azurerm,https://github.com/masoodmls/terraform-azurerm-
 bookstack,infrahouse,24659,aws,https://github.com/infrahouse/terraform-aws-bookstack,Module that deploys BookStack.
 boolean,devops-workflow,635,local,https://github.com/devops-workflow/terraform-local-boolean,Terraform module to simplify and expand boolean use
 bootcamp-2023,jbangurajr,21471,beginner,https://github.com/jbangurajr/terraform-beginner-bootcamp-2023,TerraTowns is a community website where terraformers launch their own Terra House (user-created website)
-bootstrap,FFerrinho,25612,google,https://github.com/FFerrinho/terraform-google-bootstrap,A Terraform module to start the foundations for your GCP Landing Zone.
+bootstrap,FFerrinho,25612,google,https://github.com/FFerrinho/terraform-google-bootstrap,"A Terraform module to start the foundations for your GCP Landing Zone. Can create folder, project, bucket and service account. It is expected to be the first Terraform code you run on the platform."
 bootstrap,KongHQ-CX,15947,flux,https://github.com/KongHQ-CX/terraform-flux-bootstrap,
 bootstrap,VictorLad,7504,aws,https://github.com/shinsekai/terraform-aws-bootstrap,Terraform module initializing an S3 bucket for tfstate storage as well as a DynamoDB table in order to use a lock on this same file.
 bootstrap,aespindola09,12840,google,https://github.com/aespindola09/terraform-google-bootstrap,A module for bootstrapping Terraform usage in a new GCP organization.
@@ -5272,6 +5274,7 @@ ebs-kms-key,dod-iac,7538,aws,https://github.com/dod-iac/terraform-aws-ebs-kms-ke
 ebs-module,kmsulekha,15309,aws,https://github.com/kmsulekha/terraform-aws-ebs-module,
 ebs-optimized,terraform-aws-modules,1146,aws,https://github.com/terraform-aws-modules/terraform-aws-ebs-optimized,Terraform module to determine if an instance can be flagged for EBS optimization
 ebs-snapshot,bootlabstech-m,17427,aws,https://github.com/bootlabstech-m/terraform-aws-ebs-snapshot,Creates an EBS snapshot.
+ebs-snapshot-builder,clowdhaus,26285,aws,https://github.com/clowdhaus/terraform-aws-ebs-snapshot-builder,Terraform module to provision an EBS snapshot builder state machine
 ebs-snapshot-publicly-exposed,offensive-terraform,6131,aws,https://github.com/offensive-terraform/terraform-aws-ebs-snapshot-publicly-exposed,"Offensive Terraform module which copies publicly exposed EBS snapshot to us-east-1 region in attacker's AWS account and creates EBS volume from the copied EBS snapshot. After that, the module attaches and mounts the EBS volume to an EC2 instance. Finally, attacker can ssh into an EC2 instance and inspect a mounted volume ""/usr/src/hack""."
 ebs-volume,Infrastrukturait,14330,aws,https://github.com/Infrastrukturait/terraform-aws-ebs-volume,Terraform Modules for AWS EBS volumes
 ebs-volume,bootlabstech,17126,aws,https://github.com/bootlabstech/terraform-aws-ebs-volume,
@@ -6814,6 +6817,7 @@ external-registry,matti,790,kontena,https://github.com/matti/terraform-kontena-e
 external-secrets,dasmeta,25383,any,https://github.com/dasmeta/terraform-any-external-secrets,Terraform modules for External Secrets
 external-secrets,easy-modules,20114,easy,https://github.com/easy-modules/terraform-easy-external-secrets,External Secrets Operator is a Kubernetes operator that integrates external secret management
 external-secrets-deployment,jakoberpf,12675,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-external-secrets-deployment,Terreform module for integrated service deployment
+external-secrets-gcp,cloudwise-devops,26276,helm,https://github.com/cloudwise-devops/terraform-helm-external-secrets-gcp,Terraform module to install external secrets on GKE and connect to GCP
 external_access,airasia,4997,google,https://github.com/airasia/terraform-google-external_access,Terraform module for managing external accesses using IAM Roles in GCP
 extras,ridwanbejo,22800,netbox,https://github.com/ridwanbejo/terraform-netbox-extras,Terraform module for managing Netbox extras config
 ezbastion,juweins,20173,azurerm,https://github.com/juweins/terraform-azurerm-ezbastion,A lightweight terraform module for on-demand Azure Bastion Deployment
@@ -9912,6 +9916,7 @@ mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schuberg
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,Terraform module to create an integration between AWS and Datadog
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
 mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,Terraform module to create an AWS ECR repositories
+mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,Module to deploy infrastructure to generate energy labels for your AWS landing zone
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,Terraform module to create an AWS Fargate cluster
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
@@ -10218,6 +10223,7 @@ module-vault-enterprise,einyx,1814,aws,https://github.com/einyx/terraform-aws-va
 module-vpc,JayyyJayyyyy,23922,aws,https://github.com/JayyyJayyyyy/terraform-aws-module-vpc,
 module-vpc,dinhdobathi1992,19246,aws,https://github.com/dinhdobathi1992/terraform-aws-module-vpc,
 module-vpc,vnisolutions,21859,aws,https://github.com/vnisolutions/terraform-aws-module-vpc,
+module-vpc-jbn,jbn1995,26281,aws,https://github.com/jbn1995/terraform-aws-module-vpc-jbn,
 module-vpc-project,martapol1230,16908,google,https://github.com/martapol1230/terraform-google-module-vpc-project,
 module-vpn,sirlegendary,15809,aws,https://github.com/sirlegendary/terraform-aws-module-vpn,
 module-waf,vnisolutions,21952,aws,https://github.com/vnisolutions/terraform-aws-module-waf,
@@ -10460,6 +10466,7 @@ multiec2,prakash-meti,25757,aws,https://github.com/prakash-meti/terraform-aws-mu
 multiline-command,glenngillen,15354,gg,https://github.com/glenngillen/terraform-gg-multiline-command,Terraform module to enable execution of multiple commands across multiple lines.
 multipass,mc-b,13095,lerncloud,https://github.com/mc-b/terraform-lerncloud-multipass,LernCloud Terraform Module fuer Multipass
 multiple-ec2,ihoslav,8924,aws,https://github.com/ihoslav/terraform-aws-multiple-ec2,
+multiple-release,zahornyak,26278,helm,https://github.com/zahornyak/terraform-helm-multiple-release,Terraform module that simplifies multiple helm releases creation.
 multiple-secrets,zahornyak,18531,aws,https://github.com/zahornyak/terraform-aws-multiple-secrets,Terraform module that simplifies the creation of AWS Secrets from Secrets Manager and allows for the creation of the necessary number of secrets in a single module.
 multiple-sqs,zahornyak,18100,aws,https://github.com/zahornyak/terraform-aws-multiple-sqs,"Terraform module that allows for the easy creation of multiple SQS queues in a single module, with the ability to create a Dead Letter Queue."
 multiple-ssm-parameters,zahornyak,18728,aws,https://github.com/zahornyak/terraform-aws-multiple-ssm-parameters,Terraform module that simplifies creation of multiple parameter store secrets
@@ -11679,7 +11686,6 @@ personas-deployment,fmunozmiranda,14992,ciscoise,https://github.com/fmunozmirand
 pet,BrynardSecurity-terraform,12997,random,https://github.com/BrynardSecurity-terraform/terraform-random-pet,
 pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,Example Terraform Module Repo
 pet,roooms,25282,random,https://github.com/roooms/terraform-random-pet,
-pet2,roooms,26273,random,https://github.com/roooms/terraform-random-pet2,
 petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,testing outputs
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
@@ -13726,6 +13732,7 @@ s3backend3,fa9004jmh,3048,aws,https://github.com/fa9004jmh/terraform-aws-s3backe
 s3backend4,fa9004jmh,3049,aws,https://github.com/fa9004jmh/terraform-aws-s3backend4,
 s3backendexample,niels4,10235,aws,https://github.com/niels4/terraform-aws-s3backendexample,example backend from following terraform in action book
 s3buc,sunithaposa,13643,aws,https://github.com/sunithaposa/terraform-aws-s3buc,
+s3buckend,joseteamonly,26274,aws,https://github.com/joseteamonly/terraform-aws-s3buckend,
 s3bucket,akilagithub,8873,aws,https://github.com/akilagithub/terraform-aws-s3bucket,
 s3bucket,anilchalissery,14510,aws,https://github.com/anilchalissery/terraform-aws-s3bucket,
 s3bucket,lokiharsha,24120,aws,https://github.com/lokiharsha/terraform-aws-s3bucket,
@@ -14617,6 +14624,7 @@ sns,boldlink,14017,aws,https://github.com/boldlink/terraform-aws-sns,Terraform r
 sns,clouddrove,3642,aws,https://github.com/clouddrove/terraform-aws-sns,Terraform module is used to setup SNS service to manage notifications on application.
 sns,dasmeta,13495,aws,https://github.com/dasmeta/terraform-aws-sns,Module(s) allow managing AWS SNS functionality
 sns,easy-modules,18352,easy,https://github.com/easy-modules/terraform-easy-sns,AWS SNS
+sns,eazycloudlife,26282,aws,https://github.com/eazycloudlife/terraform-aws-sns," terraform-aws-sns is a Terraform module that simplifies the creation and management of AWS SNS (Simple Notification Service) topics. It allows you to easily configure and deploy SNS topics, subscriptions, and policies, enabling seamless messaging and notification workflows in your AWS environment with minimal configuration effort."
 sns,finisterra-io,23576,aws,https://github.com/finisterra-io/terraform-aws-sns,Terraform AWS SNS module
 sns,foss-cafe,5642,aws,https://github.com/ionicloud/terraform-aws-sns,Terraform module for SNS 
 sns,genstackio,7997,aws,https://github.com/genstackio/terraform-aws-sns,Terraform module to create an AWS SNS topic
@@ -17698,4 +17706,5 @@ zpa-app-connector-modules,zscaler,20204,gcp,https://github.com/zscaler/terraform
 zpa-app-connector-modules,zscaler,21508,docker,https://github.com/zscaler/terraform-docker-zpa-app-connector-modules,Terraform Reusable Modules for ZPA App Connector VMs on Docker
 zpa-private-service-edge-modules,zscaler,17293,aws,https://github.com/zscaler/terraform-aws-zpa-private-service-edge-modules,Terraform Modules for Zscaler Private Service Edge on AWS
 zpa-private-service-edge-modules,zscaler,19147,azurerm,https://github.com/zscaler/terraform-azurerm-zpa-private-service-edge-modules,Terraform Reusable Modules for ZPA Private Service Edge VMs on Azure
+zpa-private-service-edge-modules,zscaler,26284,gcp,https://github.com/zscaler/terraform-gcp-zpa-private-service-edge-modules,Terraform Reusable Modules for ZPA Private Service Edge VMs on GCP
 zpa-pse-modules,zscaler,24763,docker,https://github.com/zscaler/terraform-docker-zpa-pse-modules,Terraform Reusable Modules for ZPA Private Service Edge VMs on Docker
