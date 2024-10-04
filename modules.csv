@@ -749,7 +749,6 @@ apache,atharva2109,17651,aws,https://github.com/atharva2109/terraform-aws-apache
 apache,ishan-akhouri,26295,aws,https://github.com/ishan-akhouri/terraform-aws-apache,
 apache,itisaby,16996,aws,https://github.com/itisaby/terraform-aws-apache,Terraform Module to run an ec2 instance that is running Apache
 apache,pomych,20556,aws,https://github.com/pomych/terraform-aws-apache,
-apache-a,ishan-akhouri,26297,aws,https://github.com/ishan-akhouri/terraform-aws-apache-a,
 apache-cluster,ParkhomenkoDmitro,15156,aws,https://github.com/dmytropark/terraform-aws-apache-cluster,Create an EC2 cluster of Apache webservers
 apache-demo,soficx,18596,aws,https://github.com/soficx/terraform-aws-apache-demo,This is a demonstration of how to create a Terraform module that installs Apache on an EC2 instance
 apache-e,Dake2144,22622,aws,https://github.com/Dake2144/terraform-aws-apache-e,
@@ -2602,6 +2601,7 @@ cert-manager,terraform-iaac,9120,kubernetes,https://github.com/terraform-iaac/te
 cert-manager,yky-labs,17358,kubernetes,https://github.com/yky-labs/terraform-kubernetes-cert-manager,Terraform module to install cert-manager.
 cert-manager,ystkfujii,20955,nifcloud,https://github.com/ystkfujii/terraform-nifcloud-cert-manager,Terraform module for managing certificates on NIFCLOUD
 cert-manager-cert,cloud-native-toolkit,14554,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cert-manager-cert,Module to import an existing cert and private key into IBM Certificate Manager
+cert-manager-cloudflare,cloudwise-devops,26301,helm,https://github.com/cloudwise-devops/terraform-helm-cert-manager-cloudflare,Terraform module to install cert-manager on K8s with Cloudflare issuer
 cert-manager-cross-ns,jd4883,12158,kubernetes,https://github.com/jd4883/terraform-kubernetes-cert-manager-cross-ns,"A cross namespace wrapper around https://registry.terraform.io/modules/terraform-iaac/cert-manager/kubernetes/latest, designed to be a very lazy but viable solution to deploying cert-manager and having a cert available in all namespaces you wish to consume it as a secret. Designed and tested with digitalocean but should work with other providers that cert-manager supports"
 cert-op-pack,terraform-shoreline-modules,12868,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-cert-op-pack,Shoreline platform Op Packs (Terraform modules) for SSL/TLS alerting and automatic remediation.
 cert-resolver,terraform-iaac,9881,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-cert-resolver,
@@ -4147,6 +4147,7 @@ ddb,scaleway-terraform-modules,24347,scaleway,https://github.com/scaleway-terraf
 ddb-single-table,QuiNovas,5512,aws,https://github.com/QuiNovas/terraform-aws-ddb-single-table,Creates a DynamoDb table with single table design
 ddisk1,indlaKasthrui,19279,azure,https://github.com/indlaKasthrui/terraform-azure-ddisk1,this is used for azure managed disk creation
 ddm-platform-deployment,deseretdigital,21003,kubernetes,https://github.com/deseretdigital/terraform-kubernetes-ddm-platform-deployment,
+ddm-pubsub-topic,deseretdigital,26310,google,https://github.com/deseretdigital/terraform-google-ddm-pubsub-topic,Creates a Pub/Sub topic.
 ddm-secret-key-value,deseretdigital,19213,google,https://github.com/deseretdigital/terraform-google-ddm-secret-key-value,Creates a key-value pair in Google Secrets Manager that can be accessed by compute instances in the project.
 ddm-wip-service-account,deseretdigital,19054,google,https://github.com/deseretdigital/terraform-google-ddm-wip-service-account,Creates a service account with the necessary information to be used as the Workload Identity Federation in CI/CD Pipelines
 deadtous,jonohill,9641,aws,https://github.com/jonohill/terraform-aws-deadtous,Module for deploying deadtous to AWS
@@ -5120,6 +5121,7 @@ domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-dom
 domain-redirect,simplycubed,11653,google,https://github.com/simplycubed/terraform-google-domain-redirect,Terraform module to simplify redirecting domains on Google Cloud DNS.
 domain-setup,daringway,5633,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
 dorkly-flags,dorklyorg,24575,aws,https://github.com/dorklyorg/terraform-aws-dorkly-flags,Terraform provider for dorkly feature flags system
+dotfiles-after-vscode-web,katorlys-samples,26300,coder,https://github.com/katorlys-samples/terraform-coder-dotfiles-after-vscode-web,Terraform Module to install dotfiles after vscode-web installation in Coderv2
 doublecloud-byoc,doublecloud,21298,aws,https://github.com/doublecloud/terraform-aws-doublecloud-byoc,
 doublecloud-byoc,doublecloud,21575,gcp,https://github.com/doublecloud/terraform-gcp-doublecloud-byoc,
 download,dealmore,7432,npm,https://github.com/milliHQ/terraform-npm-download,Terraform module for downloading files from npm.
@@ -8237,6 +8239,7 @@ instance,foss-cafe,6074,aws,https://github.com/ionicloud/terraform-aws-instance,
 instance,gulmira07,6815,rds,https://github.com/gulmira07/terraform-rds-instance,
 instance,harodggg,23121,gcp,https://github.com/harodggg/terraform-gcp-instance,
 instance,htetnaing92,10096,aws,https://github.com/htetnaing92/terraform-aws-instance,
+instance,ishan-akhouri,26311,aws,https://github.com/ishan-akhouri/terraform-aws-instance,
 instance,john24rel,6810,rds,https://github.com/john24rel/terraform-rds-instance,
 instance,julienlevasseur,453,openstack,https://github.com/julienlevasseur/terraform-openstack-instance,Terraform OpenStack Instance Module
 instance,kallakruparaju,11626,aws,https://github.com/kallakruparaju/terraform-aws-instance,
@@ -8569,6 +8572,7 @@ kafka-service,philips-labs,12978,hsdp,https://github.com/philips-labs/terraform-
 kafka-unused-topic-partition-in-kafka,terraform-shoreline-modules,20361,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kafka-unused-topic-partition-in-kafka,This repository was generated automatically based on a Shoreline Insights Runbook.
 kailashec2,asylumprince7,12230,aws,https://github.com/asylumprince7/terraform-aws-kailashec2,
 kalannagaris3,viswa4kv,11412,aws,https://github.com/viswa4kv/terraform-aws-kalannagaris3,
+kamrulshakervpc,shakertanim,26303,aws,https://github.com/shakertanim/terraform-aws-kamrulshakervpc,
 kapsule,gris-gris,4368,scaleway,https://github.com/gris-gris/terraform-scaleway-kapsule,
 kapsule,nlamirault,6274,scaleway,https://github.com/nlamirault/terraform-scaleway-kapsule,Terraform module for Scaleway Kapsule
 kapsule,particuleio,6250,scaleway,https://github.com/particuleio/terraform-scaleway-kapsule,Terraform module to deploy a Scaleway Kapsule Kubernetes Cluster
@@ -9141,6 +9145,9 @@ labels,cypik,22706,azure,https://github.com/cypik/terraform-azure-labels,
 labels,cypik,22725,aws,https://github.com/cypik/terraform-aws-labels,
 labels,cypik,22731,digitalocean,https://github.com/cypik/terraform-digitalocean-labels,
 labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-null-labels,Terraform module to create consistent naming for multiple names
+labels,eazycloudlife,26307,aws,https://github.com/eazycloudlife/terraform-aws-labels,"The `terraform-aws-labels` module for AWS provides a standard set of tags to apply across AWS resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your AWS infrastructure."
+labels,eazycloudlife,26308,azure,https://github.com/eazycloudlife/terraform-azure-labels,"The `terraform-azure-labels` module for Azure provides a standard set of tags to apply across Azure resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your Azure infrastructure."
+labels,eazycloudlife,26309,gcp,https://github.com/eazycloudlife/terraform-gcp-labels,"The `terraform-gcp-labels` module for GCP provides a standard set of tags to apply across GCP resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your GCP infrastructure."
 labels,sureshyadav76,24125,google,https://github.com/sureshyadav76/terraform-google-labels,
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 labs,equinix-labs,21540,equinix,https://github.com/equinix-labs/terraform-equinix-labs,Terraform Equinix Labs v0
@@ -11413,7 +11420,7 @@ opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraf
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
 opensearch,Ant-Tech-Cloud,16986,aws,https://github.com/Ant-Tech-Cloud/terraform-aws-opensearch,Terraform module which creates Opensearch Domain on AWS
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
-opensearch,HappyPathway,26272,aws,https://github.com/HappyPathway/terraform-aws-opensearch,Terraform module to create AWS OpenSearch resources 🇺🇦 
+opensearch,HappyPathway,26305,aws,https://github.com/HappyPathway/terraform-aws-opensearch,Terraform Module
 opensearch,OT-CLOUD-KIT,19806,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-opensearch,
 opensearch,SPHTech-Platform,16250,aws,https://github.com/SPHTech-Platform/terraform-aws-opensearch,Terraform module to create aws opensearch (elasticsearch)
 opensearch,akw-devsecops,23754,aws,https://github.com/akw-devsecops/terraform-aws-opensearch,
@@ -12919,6 +12926,7 @@ resource-group,clouddrove,11477,azure,https://github.com/clouddrove/terraform-az
 resource-group,cybergavin,8724,azurerm,https://github.com/cybergavin/terraform-azurerm-resource-group,Create one or more Azure resource groups
 resource-group,cypik,22733,azure,https://github.com/cypik/terraform-azure-resource-group,
 resource-group,data-platform-hq,15908,azurerm,https://github.com/data-platform-hq/terraform-azurerm-resource-group,Terraform module for managing Azure Resource Group
+resource-group,eazycloudlife,26302,azure,https://github.com/eazycloudlife/terraform-azure-resource-group,The `terraform-azure-resource-group` repository provides a Terraform module for creating an Azure Resource Group. It simplifies the setup by automating the creation of a Resource Group with customizable parameters such as location and name. Ideal for quickly initializing infrastructure in any Azure environment.
 resource-group,getindata,14590,azurerm,https://github.com/getindata/terraform-azurerm-resource-group,Terraform module that manages Azure Resource Group
 resource-group,iankesh,6170,azure,https://github.com/iankesh/terraform-azure-resource-group,This is a Terraform custom module to create Resource Group in Azure Cloud.
 resource-group,intelligentmachines,5269,azure,https://github.com/intelligentmachines/terraform-azure-resource-group,
@@ -14631,7 +14639,7 @@ sns,boldlink,14017,aws,https://github.com/boldlink/terraform-aws-sns,Terraform r
 sns,clouddrove,3642,aws,https://github.com/clouddrove/terraform-aws-sns,Terraform module is used to setup SNS service to manage notifications on application.
 sns,dasmeta,13495,aws,https://github.com/dasmeta/terraform-aws-sns,Module(s) allow managing AWS SNS functionality
 sns,easy-modules,18352,easy,https://github.com/easy-modules/terraform-easy-sns,AWS SNS
-sns,eazycloudlife,26282,aws,https://github.com/eazycloudlife/terraform-aws-sns," terraform-aws-sns is a Terraform module that simplifies the creation and management of AWS SNS (Simple Notification Service) topics. It allows you to easily configure and deploy SNS topics, subscriptions, and policies, enabling seamless messaging and notification workflows in your AWS environment with minimal configuration effort."
+sns,eazycloudlife,26304,aws,https://github.com/eazycloudlife/terraform-aws-sns,"terraform-aws-sns is a Terraform module that simplifies the creation and management of AWS SNS (Simple Notification Service) topics. It allows you to easily configure and deploy SNS topics, subscriptions, and policies, enabling seamless messaging and notification workflows in your AWS environment with minimal configuration effort."
 sns,finisterra-io,23576,aws,https://github.com/finisterra-io/terraform-aws-sns,Terraform AWS SNS module
 sns,foss-cafe,5642,aws,https://github.com/ionicloud/terraform-aws-sns,Terraform module for SNS 
 sns,genstackio,7997,aws,https://github.com/genstackio/terraform-aws-sns,Terraform module to create an AWS SNS topic
@@ -15508,6 +15516,7 @@ tabular-storage-profile,tabular-io,20685,aws,https://github.com/tabular-io/terra
 tacacs,netascode,10328,aci,https://github.com/netascode/terraform-aci-tacacs,Terraform Cisco ACI TACACS Module
 tag-formatter,Xorima,11730,tfe,https://github.com/xorima/terraform-tfe-tag-formatter,A Terraform module to convert any inputted string into a valid TFC/TFE Tag
 tag-generator,fivexl,7369,aws,https://github.com/fivexl/terraform-aws-tag-generator,Simple tag generator for AWS resources using best practices from AWS
+tag-policy,rhythmictech,26306,aws,https://github.com/rhythmictech/terraform-aws-tag-policy,
 tag_lookup,InfiniteLoopIO,18110,vsphere,https://github.com/InfiniteLoopIO/terraform-vsphere-tag_lookup,get vsphere tag details
 tagged-ecr,lynnlin827,2397,aws,https://github.com/lynnlin827/terraform-aws-tagged-ecr,Terraform module which creates ECR with image rotation by given tags
 tagged-subnets,a3linux,17994,aws,https://github.com/a3linux/terraform-aws-tagged-subnets,A Simple terraform module to fetch AWS Subnets information by given Subnets tags
