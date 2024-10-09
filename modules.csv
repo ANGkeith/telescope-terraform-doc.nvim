@@ -1668,6 +1668,7 @@ avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terr
 avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Multi-hub networking pattern module for Terraform
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
+avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
@@ -2716,6 +2717,7 @@ cherno-instance,danCherno,21703,aws,https://github.com/danCherno/terraform-aws-c
 chevereto,Dan6erbond,17529,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-chevereto,
 child-account-module,LoreM9,3570,aws,https://github.com/LoreM9/terraform-aws-child-account-module,
 child-project,kislerdm,16559,google,https://github.com/kislerdm/terraform-google-child-project,Terraform module to provision a child GCP project managed with CI
+chiru-demo-vpc,ChiruDevOpsFaculty,26336,aws,https://github.com/ChiruDevOpsFaculty/terraform-aws-chiru-demo-vpc,
 chocoserver,gyamada619,1184,aws,https://github.com/gyamada619/terraform-aws-chocoserver,A Terraform module to build a single EC2 instance used for Chocolately.Server.
 chucknorris,rocazac1,5123,module,https://github.com/rocazac1/terraform-module-chucknorris,
 ci-cd,infrahouse,21603,aws,https://github.com/infrahouse/terraform-aws-ci-cd,"Module that creates roles, state bucket, and dynamodb table for Terraform CI/CD."
@@ -3507,6 +3509,7 @@ compute,Myeongseok-Kim,12560,ncloud,https://github.com/Myeongseok-Kim/terraform-
 compute,T-Systems-MMS,13364,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-compute,
 compute,TaitoUnited,10708,aws,https://github.com/TaitoUnited/terraform-aws-compute,
 compute,TaitoUnited,10722,digitalocean,https://github.com/TaitoUnited/terraform-digitalocean-compute,
+compute,TaitoUnited,26337,google,https://github.com/TaitoUnited/terraform-google-compute,
 compute,TaitoUnited,8225,azurerm,https://github.com/TaitoUnited/terraform-azurerm-compute,
 compute,adfinis-forks,2225,azurerm,https://github.com/adfinis-forks/terraform-azurerm-compute,Terraform Azure RM Compute Module
 compute,akbaribnu,1493,google,https://github.com/unbirabka/terraform-google-compute,terraform for google compute engine / instance
@@ -3791,14 +3794,9 @@ cosmosdb,fortytwoservices,24388,azurerm,https://github.com/fortytwoservices/terr
 cosmosdb,kumarvna,9634,azurerm,https://github.com/kumarvna/terraform-azurerm-cosmosdb,Terraform module to manage a CosmosDB (formally DocumentDB) with optional resources. 
 cosmosdb,libre-devops,17921,azurerm,https://github.com/libre-devops/terraform-azurerm-cosmosdb,A module to deploy a CosmosDB
 cosmosdb,mcalik77,6860,azurerm,https://github.com/mcalik77/terraform-azurerm-cosmosdb,
-cosmotech-app-registrations,Cosmo-Tech,22487,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-app-registrations,
-cosmotech-bot,Cosmo-Tech,24013,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-bot,
-cosmotech-common,Cosmo-Tech,21289,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-common,
-cosmotech-common,Cosmo-Tech,24856,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-common,
-cosmotech-platform,Cosmo-Tech,18898,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-platform,
-cosmotech-prerequisites,Cosmo-Tech,18977,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-prerequisites,
-cosmotech-tenant,Cosmo-Tech,21328,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-tenant,
-cosmotech-tenant,Cosmo-Tech,24848,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-tenant,
+cosmotech-app-registrations,Cosmo-Tech,26339,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-app-registrations,
+cosmotech-bot,Cosmo-Tech,26340,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-bot,
+cosmotech-common,Cosmo-Tech,26341,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-common,
 cosmotech-workspace,enocquet,24066,azure,https://github.com/enocquet/terraform-azure-cosmotech-workspace,
 cost,squat,21815,saladcloud,https://github.com/squat/terraform-saladcloud-cost,Calculate the cost of running an instance on SaladCloud
 cost,tedilabs,18398,aws,https://github.com/tedilabs/terraform-aws-cost,🌳 A sustainable Terraform Package which creates resources for Cost on AWS
@@ -10511,6 +10509,7 @@ mwaa,aws-ia,14326,aws,https://github.com/aws-ia/terraform-aws-mwaa,Terraform mod
 mwaa,cloudposse,11573,aws,https://github.com/cloudposse/terraform-aws-mwaa,Terraform module to provision Amazon Managed Workflows for Apache Airflow (MWAA)
 mwaa,idealo,9813,aws,https://github.com/idealo/terraform-aws-mwaa,Terraform module to setup Managed Workflows with Apache Airflow. (Airflow as managed service by AWS)
 mwaa,rallyware,14411,aws,https://github.com/rallyware/terraform-aws-mwaa,Terraform module to provision Amazon Managed Workflows for Apache Airflow (MWAA)
+mx,tcarrondo,26343,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-mx,Setup MX configuration on a zone in Cloudflare
 my-account,cornerman,13949,aws,https://github.com/cornerman/terraform-aws-my-account,
 my-ec2,monbostest,10989,aws,https://github.com/monbostest/terraform-aws-my-ec2,terraform-aws-my-ec2
 my-vnet,vijaykumar8564,23287,azurerm,https://github.com/vijaykumar8564/terraform-azurerm-my-vnet,
@@ -10871,6 +10870,7 @@ ncc,data-platform-hq,24685,databricks,https://github.com/data-platform-hq/terraf
 ndfc-fabric,rjohnston6,22164,dcnm,https://github.com/rjohnston6/terraform-dcnm-ndfc-fabric,Terraform Module for NDFC Fabric Creation and Management
 nebuly-platform,nebuly-ai,24871,aws,https://github.com/nebuly-ai/terraform-aws-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on AWS.
 nebuly-platform,nebuly-ai,25902,azurerm,https://github.com/nebuly-ai/terraform-azurerm-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on Azure.
+nebuly-platform,nebuly-ai,26338,google,https://github.com/nebuly-ai/terraform-google-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on Google Cloud Platform (GCP).
 nemo-eks-cluster,kaonmir,13966,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster,
 nemo-eks-cluster-autoscale,kaonmir,13965,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster-autoscale,
 neptune,EKGF,23477,aws,https://github.com/EKGF/terraform-aws-neptune,A Terraform module that sets up AWS Neptune
@@ -11758,7 +11758,6 @@ platform,kuptan-platform,17570,aws,https://github.com/kuptan-platform/terraform-
 platform,neutrinobaas,18611,neutrinobaas,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
 platform,terraform-ns1-modules,4223,ns1,https://github.com/ns1-terraform/terraform-ns1-platform,
 platform-config,mergermarket,5843,acuris,https://github.com/mergermarket/terraform-acuris-platform-config,
-platform-core,Cosmo-Tech,24787,cosmotech,https://github.com/Cosmo-Tech/terraform-cosmotech-platform-core,
 platform-firewall-rules,qbeyond,19918,azurerm,https://github.com/qbeyond/terraform-azurerm-platform-firewall-rules,
 platform9-k8s,equinix,7404,metal,https://github.com/equinix/terraform-metal-platform9-k8s,Platform9 Managed Kubernetes Free Tier on Equinix Metal
 plausible,colinwilson,17203,docker,https://github.com/colinwilson/terraform-docker-plausible,Terraform module to deploy Plausible Analytics on Docker Swarm
@@ -17316,6 +17315,7 @@ vpcoctober,origa2001,22589,as,https://github.com/origa2001/terraform-as-vpcoctob
 vpcpeer,JamesWoolfenden,7679,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-vpcpeer,Basic vpcpeer module
 vpcpeering,FlexibleEngineCloud,6015,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-vpcpeering,Terraform module which creates VPC Peering between two VPC
 vpcproject,kikuli,13979,aws,https://github.com/kikuli/terraform-aws-vpcproject,
+vpcpublish,dustindortch,26335,aws,https://github.com/dustindortch/terraform-aws-vpcpublish,
 vpct,Shokhinur,25569,aws,https://github.com/Shokhinur/terraform-aws-vpct,
 vpcytestmodule,HumbertoPeluso,10800,aws,https://github.com/HumbertoPeluso/terraform-aws-vpcytestmodule,
 vpe-gateway,terraform-ibm-modules,20263,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpe-gateway,Create Virtual Private Endpoint Gateways across VPC subnets.
