@@ -193,6 +193,7 @@ account-security,blackbird-cloud,16676,aws,https://github.com/blackbird-cloud/te
 account-setup,daringway,4290,aws,https://github.com/wderezin/terraform-aws-infrastructure,An opinionated AWS account setup with the only options to adjust settings impacting cost.
 account-setup,philips-software,1237,aws,https://github.com/philips-software/terraform-aws-account-setup,Terraform module configure IAM in a new AWS account setup
 account-users,cloud-native-toolkit,14550,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-account-users,Terraform module to invite users to the IBM Cloud account
+account1,arunaknarava,26349,storage,https://github.com/arunaknarava/terraform-storage-account1,Config files for my GitHub profile.
 accountomat,GoCarrot,12463,aws,https://github.com/GoCarrot/terraform-aws-accountomat,Accountomat provisions an AWS account inside of an AWS Organization
 accountomat_read,GoCarrot,12467,aws,https://github.com/GoCarrot/terraform-aws-accountomat_read,Accountomat Read reads data peristed by Accountomat and provides it for use in terraform modules
 accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-azure-accounts,Configure Azure Azure AD Resources and Permissions
@@ -1250,6 +1251,7 @@ artifactory,uridium,10021,jfrog,https://github.com/uridium/terraform-jfrog-artif
 artifactory-ecs,JamesWoolfenden,7027,aws,https://github.com/JamesWoolfenden/terraform-aws-artifactory-ecs,A basic module to provision artifactory
 artifactory-oss,JamesWoolfenden,7028,aws,https://github.com/JamesWoolfenden/terraform-aws-artifactory-oss,EC2 based solution for Artifactory OSS edition.
 artifactregistry,ekanzharbekova,17982,gcp,https://github.com/ekanzharbekova/terraform-gcp-artifactregistry,
+aruna,arunaknarava,26353,aws,https://github.com/arunaknarava/terraform-aws-aruna,
 arunmariappan,arunmariappan,13229,tfcustommodule,https://github.com/arunmariappan/terraform-tfcustommodule-arunmariappan,terraform custommodule by arun mariappan
 arunstorage,arundeva2k18,17112,azurerm,https://github.com/arundeva2k18/terraform-azurerm-arunstorage,
 asg,AQ0D,7194,aws,https://github.com/AQ0D/terraform-aws-asg,
@@ -1912,6 +1914,7 @@ axetrading-deployment-resources,axetrading,18530,helm,https://github.com/axetrad
 axetrading-lambda,axetrading,18432,aws,https://github.com/axetrading/terraform-aws-axetrading-lambda,
 axetrading-monitoring,axetrading,19402,aws,https://github.com/axetrading/terraform-aws-axetrading-monitoring,
 axetrading-sftp,axetrading,18517,aws,https://github.com/axetrading/terraform-aws-axetrading-sftp,terraform sftp-efs module
+axiom-cloudwatch-forwarder,axiomhq,26374,aws,https://github.com/axiomhq/terraform-aws-axiom-cloudwatch-forwarder,Official Terraform modules for Axiom Cloudwatch Forwarder
 ayps3bucket,aparnapansare,15694,aws,https://github.com/aparnapansare/terraform-aws-ayps3bucket,terraform module for s3
 az-sort,dtherhtun,16020,aws,https://github.com/dtherhtun/terraform-aws-az-sort,Sorting AWS Availability Zone from Data Soruce
 azadnanstorage,adnan2218709,18138,azure,https://github.com/adnan2218709/terraform-azure-azadnanstorage,
@@ -2366,6 +2369,7 @@ bootstrap,terraform-google-modules,3564,google,https://github.com/terraform-goog
 bootstrap,trussworks,5593,aws,https://github.com/trussworks/terraform-aws-bootstrap,🐓 🥚 Terraform for your Terraform remote state configuration
 bootstrap,upmaru,19220,instellar,https://github.com/upmaru/terraform-instellar-bootstrap,Terraform module for bootstrapping cluster on https://opsmaru.com
 bootstrap,vexingcodes,5416,aws,https://github.com/vexingcodes/terraform-aws-bootstrap,A walkthrough and automation for the initial steps to use S3 for Terraform state storage.
+bootstrap-hvd,hashicorp,26369,boundary,https://github.com/hashicorp/terraform-boundary-bootstrap-hvd,A Terraform module for bootstrapping a Boundary Enterprise Controller as described in HashiCorp Validated Designs
 bootstrapper,USSBA,4768,aws,https://github.com/USSBA/terraform-aws-bootstrapper,A Terraform Module to create initial resources needed to use Terraform in AWS
 bot-channel-msteams,HiltonGiesenow,3605,azurerm,https://github.com/HiltonGiesenow/terraform-azurerm-bot-channel-msteams,An MsTeams bot channel registration for Terraform
 bot-service,Redevaerk,20514,azurerm,https://github.com/Redevaerk/terraform-azurerm-bot-service,Deploy Azure Bot Service effortlessly with this Terraform module.
@@ -2373,6 +2377,12 @@ boundary,jasonwalsh,6479,aws,https://github.com/jasonwalsh/terraform-aws-boundar
 boundary,joatmon08,10833,aws,https://github.com/joatmon08/terraform-aws-boundary,Terraform module for deploying a HashiCorp Boundary cluster on AWS. Testing purposes only.
 boundary,joatmon08,12782,azurerm,https://github.com/joatmon08/terraform-azurerm-boundary,
 boundary,resinstack,10798,aws,https://github.com/resinstack/terraform-aws-boundary,Terraform module to deploy ResinStack based Hashicorp Boundary
+boundary-enterprise-controller-hvd,hashicorp,26365,aws,https://github.com/hashicorp/terraform-aws-boundary-enterprise-controller-hvd,A Terraform module for provisioning and installing Boundary Enterprise Controller on AWS EC2 as described in HashiCorp Validated Designs
+boundary-enterprise-controller-hvd,hashicorp,26367,azurerm,https://github.com/hashicorp/terraform-azurerm-boundary-enterprise-controller-hvd,A Terraform module for provisioning and installing Boundary Enterprise Controller on Azure virtual machines as described in HashiCorp Validated Designs
+boundary-enterprise-controller-hvd,hashicorp,26370,google,https://github.com/hashicorp/terraform-google-boundary-enterprise-controller-hvd,A Terraform module for provisioning and installing Boundary Enterprise Controller on Google Compute Engine as described in HashiCorp Validated Designs
+boundary-enterprise-worker-hvd,hashicorp,26366,aws,https://github.com/hashicorp/terraform-aws-boundary-enterprise-worker-hvd,A Terraform module for provisioning and installing Boundary Enterprise Worker on AWS EC2 as described in HashiCorp Validated Designs
+boundary-enterprise-worker-hvd,hashicorp,26368,azurerm,https://github.com/hashicorp/terraform-azurerm-boundary-enterprise-worker-hvd,A Terraform module for provisioning and installing Boundary Enterprise Worker on Azure virtual machines as described in HashiCorp Validated Designs
+boundary-enterprise-worker-hvd,hashicorp,26371,google,https://github.com/hashicorp/terraform-google-boundary-enterprise-worker-hvd,A Terraform module for provisioning and installing Boundary Enterprise Worker on Google Compute Engine as described in HashiCorp Validated Designs
 boundary-stack,appvia,23817,aws,https://github.com/appvia/terraform-aws-boundary-stack,A wrapper to deploy an IAM boundary via a cloudformation stackset
 boundary-worker,TomTucka,21476,aws,https://github.com/TomTucka/terraform-aws-boundary-worker,Deploy a Boundary Worker into AWS
 branch-connector-modules,zscaler,18702,esxi,https://github.com/zscaler/terraform-esxi-branch-connector-modules,Terraform Modules for Zscaler Branch Connector on VMware vCenter
@@ -3797,6 +3807,11 @@ cosmosdb,mcalik77,6860,azurerm,https://github.com/mcalik77/terraform-azurerm-cos
 cosmotech-app-registrations,Cosmo-Tech,26339,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-app-registrations,
 cosmotech-bot,Cosmo-Tech,26340,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-bot,
 cosmotech-common,Cosmo-Tech,26341,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-common,
+cosmotech-common,Cosmo-Tech,26357,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-common,
+cosmotech-platform,Cosmo-Tech,26359,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-platform,
+cosmotech-prerequisites,Cosmo-Tech,26360,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-prerequisites,
+cosmotech-tenant,Cosmo-Tech,26356,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-tenant,
+cosmotech-tenant,Cosmo-Tech,26358,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-tenant,
 cosmotech-workspace,enocquet,24066,azure,https://github.com/enocquet/terraform-azure-cosmotech-workspace,
 cost,squat,21815,saladcloud,https://github.com/squat/terraform-saladcloud-cost,Calculate the cost of running an instance on SaladCloud
 cost,tedilabs,18398,aws,https://github.com/tedilabs/terraform-aws-cost,🌳 A sustainable Terraform Package which creates resources for Cost on AWS
@@ -7341,6 +7356,8 @@ github-audit-oidc,SPHTech-Platform,14793,aws,https://github.com/SPHTech-Platform
 github-auth-backend,ptonini,16803,vault,https://github.com/ptonini/terraform-vault-github-auth-backend,
 github-auth-team,ptonini,16804,vault,https://github.com/ptonini/terraform-vault-github-auth-team,
 github-backend,ptonini,16805,vault,https://github.com/ptonini/terraform-vault-github-backend,
+github-backup,infrahouse,26344,aws,https://github.com/infrahouse/terraform-aws-github-backup,Module to provision infrahouse-github-backup GitHub App.
+github-backup-configuration,infrahouse,26373,aws,https://github.com/infrahouse/terraform-aws-github-backup-configuration,Module that configures infrahouse-github-backup GitHub App client.
 github-ci,squidfunk,1131,aws,https://github.com/squidfunk/terraform-aws-github-ci,[DEPRECATED] Serverless CI for GitHub using AWS CodeBuild with PR and status support
 github-deploy-role,YoshinoriSatoh,11933,aws,https://github.com/YoshinoriSatoh/terraform-aws-github-deploy-role,
 github-events,rclark,12783,aws,https://github.com/rclark/terraform-aws-github-events,Creates EventBridge events in your AWS account representing developer activity in your GitHub repositories.
@@ -7836,6 +7853,7 @@ hubnetworking,Azure,18863,azurerm,https://github.com/Azure/terraform-azurerm-hub
 hugo-s3-cloudfront,fillup,673,aws,https://github.com/fillup/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-s3-cloudfront,travka,4195,aws,https://github.com/travka/terraform-aws-hugo-s3-cloudfront,Terraform module to create S3 bucket and CloudFront distribution for hosting a Hugo site
 hugo-site,zombiezen,2421,google,https://github.com/zombiezen/terraform-google-hugo-site,Terraform module for Hugo on Firebase Hosting
+human,1d3df9903ad,26364,aws,https://github.com/1d3df9903ad/terraform-aws-human,Create humans using `terraform apply`
 human,andresriancho,26332,aws,https://github.com/andresriancho/terraform-aws-human,Create humans using `terraform apply`
 hvn-aws,ksatirli,15007,hcp,https://github.com/ksatirli/terraform-hcp-hvn-aws,Terraform Module: HashiCorp Cloud Platform (HCP) HVN for AWS
 hvn-azure,ksatirli,15047,hcp,https://github.com/ksatirli/terraform-hcp-hvn-azure,Terraform Module: HashiCorp Cloud Platform (HCP) HVN for Azure
@@ -8361,6 +8379,7 @@ ip-blocks,leptonyu,7472,icymint,https://github.com/leptonyu/terraform-icymint-ip
 ip-networks,oracle,115,opc,https://github.com/oracle/terraform-opc-ip-networks,Terraform Module for creating Oracle Cloud Infrastructure OPC IP Neworks
 ip-sla-policy,netascode,15835,aci,https://github.com/netascode/terraform-aci-ip-sla-policy,Terraform Cisco ACI IP SLA Policy Module 
 ip_group,sironite,17457,azurerm,https://github.com/sironite/terraform-azurerm-ip_group,Terraform module creates Azure IP group(s)
+ipam,appvia,26361,aws,https://github.com/appvia/terraform-aws-ipam,Terraform module for provisioning AWS IPAM
 ipam,aws-ia,12464,aws,https://github.com/aws-ia/terraform-aws-ipam,Terraform Module for create AWS IPAM Resources
 ipam,blackbird-cloud,24496,aws,https://github.com/blackbird-cloud/terraform-aws-ipam,Creating resources for AWS IPAM using terraform
 ipam,tedilabs,21164,aws,https://github.com/tedilabs/terraform-aws-ipam,"🌳 A sustainable Terraform Package which creates IPAM resources (IPAM, Elastic IP, Prefix List) on AWS"
@@ -8589,6 +8608,7 @@ karanstorage,karanvirkaranvir,15263,azure,https://github.com/karanvirkaranvir/te
 karbon,Aristocrat-B2B,8598,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-karbon,A module that builds Karbon K8s cluster on Nutanix hypervisor
 karpenter,bigfantech-cloud,18847,k8s,https://github.com/bigfantech-cloud/terraform-k8s-karpenter,Terraform module: Install Karpenter in EKS Cluster
 karpenter,clouddrove,18418,aws,https://github.com/clouddrove/terraform-aws-karpenter,
+karthiks3bucket,Karthikchinnu,26354,aws,https://github.com/Karthikchinnu/terraform-aws-karthiks3bucket,
 kaushal,kaushal540,23139,hw,https://github.com/kaushal540/terraform-hw-kaushal,
 kaushikstorage,kaushikjaingp,15988,azure,https://github.com/kaushikjaingp/terraform-azure-kaushikstorage,
 kavistorage,Kavi2210,15985,azure,https://github.com/Kavi2210/terraform-azure-kavistorage,
@@ -9990,7 +10010,7 @@ memcached-cluster,yurymkomarov,4797,aws,https://github.com/yurymkomarov/terrafor
 memcached-elasticache,azavea,170,aws,https://github.com/azavea/terraform-aws-memcached-elasticache,A Terraform module to create an Amazon Web Services (AWS) Memcached ElastiCache cluster.
 memorable-id,DanielFallon,1986,random,https://github.com/DanielFallon/terraform-random-memorable-id,Terraform module which generates a fixed length memorable random id of the form <memorable pet>-<random id>
 memory-db,clowdhaus,11547,aws,https://github.com/terraform-aws-modules/terraform-aws-memory-db,Terraform module to create AWS MemoryDB resources 🇺🇦
-memory-db,terraform-aws-modules,13123,aws,https://github.com/terraform-aws-modules/terraform-aws-memory-db,Terraform module which creates AWS MemoryDB resources 🇺🇦
+memory-db,terraform-aws-modules,13123,aws,https://github.com/terraform-aws-modules/terraform-aws-memory-db,Terraform module to create AWS MemoryDB resources 🇺🇦
 memorydb,JamesWoolfenden,11821,aws,https://github.com/JamesWoolfenden/terraform-aws-memorydb,Its a memorydb module
 memorydb,cloudposse,25904,aws,https://github.com/cloudposse/terraform-aws-memorydb,Provision AWS MemoryDB resources with Terraform
 memorydb-cluster,geekcell,19781,aws,https://github.com/geekcell/terraform-aws-memorydb-cluster,Terraform module to provision an AWS MemoryDB Cluster.
@@ -10657,6 +10677,7 @@ mystorage,kpkaur2015,12075,azure,https://github.com/kpkaur2015/terraform-azure-m
 mystorage,krantt,19645,azure,https://github.com/krantt/terraform-azure-mystorage,
 mystorage,mkumartripathi,18135,azure,https://github.com/mkumartripathi/terraform-azure-mystorage,
 mystorage,nidhirathee565,12316,azure,https://github.com/nidhirathee565/terraform-azure-mystorage,
+mystorage,nilam721,26347,azure,https://github.com/nilam721/terraform-azure-mystorage,To store module
 mystorage,pandirlatarunkumar7,20121,azure,https://github.com/pandirlatarunkumar7/terraform-azure-mystorage,
 mystorage,payal2592,21221,azurerm,https://github.com/payal2592/terraform-azurerm-mystorage,
 mystorage,pooja9199,19966,azure,https://github.com/pooja9199/terraform-azure-mystorage,
@@ -12728,6 +12749,7 @@ regional-vpc-peering,lablabs,4850,aws,https://github.com/lablabs/terraform-aws-r
 regional-workspace,ksatirli,17386,tfe,https://github.com/ksatirli/terraform-tfe-regional-workspace,Terraform Module: Regional Terraform Cloud Workspaces
 regions,Azure,21528,azurerm,https://github.com/Azure/terraform-azurerm-regions,"Terraform module that provides data about Azure regions, including availability zones! Data is sourced from Azure APIs."
 regions,Azure-Terraformer,25003,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-regions,
+regions,TaleLearnCode,26375,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-regions,Terraform module to provide Azure region information.
 regions,claranet,3212,azurerm,https://github.com/claranet/terraform-azurerm-regions,Terraform module to handle Azure Regions
 register-esxi-hosts,jd4883,11202,vsphere,https://github.com/jd4883/terraform-vsphere-register-esxi-hosts,Small vsphere terraform module for registering ESXI hosts; minimal design that can also add hosts to a clusters if the argument is provided (clluster). 
 registry,Irinaberidze,17932,artifact,https://github.com/Irinaberidze/terraform-artifact-registry,
@@ -13774,6 +13796,7 @@ s3bucktes,mhdanees,14169,aws,https://github.com/mhdanees/terraform-aws-s3bucktes
 s3cloudfront,techfumes,15251,aws,https://github.com/techfumes/terraform-aws-s3cloudfront,terraform module to create a s3 cloudfront website site 
 s3logging-bucket,rhythmictech,5398,aws,https://github.com/rhythmictech/terraform-aws-s3logging-bucket,Create and manage a bucket suitable for access logging for other S3 buckets.
 s3module,BalaAravind-ADCSKLM,24541,aws,https://github.com/BalaAravind-ADCSKLM/terraform-aws-s3module,
+s3module,DeviPalani,26352,aws,https://github.com/DeviPalani/terraform-aws-s3module,
 s3module,LahariSaiP,24320,aws,https://github.com/LahariSaiP/terraform-aws-s3module,
 s3module,Naveenm413,24323,aws,https://github.com/Naveenm413/terraform-aws-s3module,
 s3module,NeeharikaRN,20197,aws,https://github.com/NeeharikaRN/terraform-aws-s3module,
@@ -13788,6 +13811,7 @@ s3module,arpananaidu,25526,aws,https://github.com/arpananaidu/terraform-aws-s3mo
 s3module,avineha,21899,aws,https://github.com/avineha/terraform-aws-s3module,
 s3module,chandramouli92,24946,aws,https://github.com/chandramouli92/terraform-aws-s3module,terraform-multi-cloud-training
 s3module,chandregowdabc,24329,aws,https://github.com/chandregowdabc/terraform-aws-s3module,
+s3module,cloudpractice5760,26355,aws,https://github.com/cloudpractice5760/terraform-aws-s3module,
 s3module,jyoti-singh1808,20939,aws,https://github.com/jyoti-singh1808/terraform-aws-s3module,
 s3module,kannanp007,24331,aws,https://github.com/kannanp007/terraform-aws-s3module,
 s3module,ksaiprasanthi,20947,aws,https://github.com/ksaiprasanthi/terraform-aws-s3module,
@@ -15330,11 +15354,13 @@ storage-sas-token,claranet,4082,azurerm,https://github.com/claranet/terraform-az
 storage-sftp,claranet,18012,azurerm,https://github.com/claranet/terraform-azurerm-storage-sftp,Terraform module for Azure Storage SFTP
 storage-static-website,jdpleiness,833,google,https://github.com/jdpleiness/terraform-google-storage-static-website,A Terraform Module for a static website hosted on Google Cloud Storage
 storage-tf-module,somex6,26102,azure,https://github.com/somex6/terraform-azure-storage-tf-module,
+storage1,nilam721,26350,gcp,https://github.com/nilam721/terraform-gcp-storage1,
 storage2,boss916,14879,azure,https://github.com/boss916/terraform-azure-storage2,
 storage_account,Muzammil-Naik,22477,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-storage_account,
 storage_account,sironite,19876,azurerm,https://github.com/sironite/terraform-azurerm-storage_account,
 storageac,Gitanjali-bh,24961,azure,https://github.com/Gitanjali-bh/terraform-azure-storageac,
 storageac,VamsiVijayKumarK,24962,azure,https://github.com/VamsiVijayKumarK/terraform-azure-storageac,
+storageac,aamani401,26351,azure,https://github.com/aamani401/terraform-azure-storageac,
 storageac,enna17,24963,azure,https://github.com/enna17/terraform-azure-storageac,
 storageac,jayshree4912,24966,azure,https://github.com/jayshree4912/terraform-azure-storageac,
 storageac,manashbob,25557,azure,https://github.com/manashbob/terraform-azure-storageac,
@@ -15345,6 +15371,7 @@ storageaccount,BhuvanaPidugu,21538,azure,https://github.com/BhuvanaPidugu/terraf
 storageaccount,Dhariniyoga,24785,azure,https://github.com/Dhariniyoga/terraform-azure-storageaccount,
 storageaccount,DivyaParthasarathy,24007,azure,https://github.com/DivyaParthasarathy/terraform-azure-storageaccount,
 storageaccount,JamesWoolfenden,7677,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-storageaccount,Basic storageaccount module
+storageaccount,Karthikchinnu,26348,az,https://github.com/Karthikchinnu/terraform-az-storageaccount,
 storageaccount,LahariSaiP,24725,azure,https://github.com/LahariSaiP/terraform-azure-storageaccount,
 storageaccount,NeeharikaRN,20559,azure,https://github.com/NeeharikaRN/terraform-azure-storageaccount,
 storageaccount,Sahana19911997,26029,azure,https://github.com/Sahana19911997/terraform-azure-storageaccount,
@@ -15355,6 +15382,7 @@ storageaccount,Tfarook28,23199,azurerm,https://github.com/Tfarook28/terraform-az
 storageaccount,Vivienne1Ash,24735,azure,https://github.com/Vivienne1Ash/terraform-azure-storageaccount,
 storageaccount,asajoshi,17252,azurerm,https://github.com/asajoshi/terraform-azurerm-storageaccount,This contains terraform code for creating storage account module with private endpoint
 storageaccount,chaitanyachavan12,24009,azure,https://github.com/chaitanyachavan12/terraform-azure-storageaccount,
+storageaccount,cloudpractice5760,26346,azure,https://github.com/cloudpractice5760/terraform-azure-storageaccount,
 storageaccount,diwa31,21936,azure,https://github.com/diwa31/terraform-azure-storageaccount,Diwa's Storage account
 storageaccount,grateanil,24252,azure,https://github.com/grateanil/terraform-azure-storageaccount,
 storageaccount,pankajs-hash,26025,azure,https://github.com/pankajs-hash/terraform-azure-storageaccount,
@@ -15388,6 +15416,7 @@ streams-app-acl,NitorCreations,3492,kafka,https://github.com/NitorCreations/terr
 strongdm,highwingio,9689,aws,https://github.com/highwingio/terraform-aws-strongdm,Terraform Module for deploying strongDM Relays on ECS Clusters
 strongdm-gateway-ec2,truemark,12032,aws,https://github.com/truemark/terraform-aws-strongdm-gateway-ec2,Creates a strongDM gateway and EC2 instance running the daemon
 strongdm-relay-ec2,truemark,12033,aws,https://github.com/truemark/terraform-aws-strongdm-relay-ec2,Creates a strongDM relay and EC2 instance running the daemon
+strorageaccount,DeviPalani,26345,azure,https://github.com/DeviPalani/terraform-azure-strorageaccount,
 structure,harness-community,18295,harness,https://github.com/harness-community/terraform-harness-structure,A collection of Terraform resources used to support the base structure of the Harness Platform
 sts-csi-disks,basisai,8331,google,https://github.com/basisai/terraform-google-sts-csi-disks,Create Disks for use with CSI Driver. Optional snapshot policy attached to disks.
 sts-csi-disks,basisai,8452,aws,https://github.com/basisai/terraform-aws-sts-csi-disks,Create Disks for use with CSI Driver. Optional snapshot policy attached to disks. 
@@ -15584,6 +15613,7 @@ talos,hcloud-talos,23742,hcloud,https://github.com/hcloud-talos/terraform-hcloud
 talos,masoudbahar,7287,virtualbox,https://github.com/ossfellow/terraform-virtualbox-talos,Terraform module which creates Talos Kubernetes clusters on VirtualBox
 talos,trinami,24737,hcloud,https://github.com/trinami/terraform-hcloud-talos,This repository contains a Terraform module for creating a Kubernetes cluster with Talos in the Hetzner Cloud.
 talos,tvories,7772,vsphere,https://github.com/tvories/terraform-vsphere-talos,A Terraform module for deploying a Talos cluster on vSphere
+talos-cluster,kgierke,26363,hcloud,https://github.com/kgierke/terraform-hcloud-talos-cluster,Terraform module for bootstrapping a Kubernetes Cluster on Hetzner Cloud infrastructure using Talos as OS.
 tarakesh,Tarakesh93,17567,aws,https://github.com/Tarakesh93/terraform-aws-tarakesh,
 tardigrade-account-alternate-contacts,plus3it,18306,aws,https://github.com/plus3it/terraform-aws-tardigrade-account-alternate-contacts,
 tardigrade-acm,plus3it,3904,aws,https://github.com/plus3it/terraform-aws-tardigrade-acm,
