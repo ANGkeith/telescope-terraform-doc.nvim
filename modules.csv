@@ -6,6 +6,7 @@
 2023,gulshan9308,19930,april,https://github.com/gulshan9308/terraform-april-2023,
 2ec2machines,sumeetninawe,7320,aws,https://github.com/sumeetninawe/terraform-aws-2ec2machines,
 2vmx2vm,dahai0013,1762,aws,https://github.com/dahai0013/terraform-aws-2vmx2vm,Will create 2x vMX from Juniper and 2x Ubuntu VMs
+3-tier-app,aia89,26482,aws,https://github.com/aia89/terraform-aws-3-tier-app,
 3-tier-architecture,Srivandan0705,24109,aws,https://github.com/Srivandan0705/terraform-aws-3-tier-architecture,This module contains terraform code to deploy 3 tier architecture in AWS Cloud provider
 3Tier,rakhar20,24490,aws,https://github.com/rakhar20/terraform-aws-3Tier,
 3cx,svetek,22476,azurerm,https://github.com/svetek/terraform-azurerm-3cx,Deploy 3CX v20 to Azure cloud 
@@ -1867,7 +1868,7 @@ aws-organization,cyberlabrs,19268,aws,https://github.com/cyberlabrs/terraform-aw
 aws-postgresql,intel,16703,intel,https://github.com/intel/terraform-intel-aws-postgresql,Intel Cloud Optimization Module - AWS RDS PostgreSQL
 aws-postgresql-parameter-group,intel,20479,intel,https://github.com/intel/terraform-intel-aws-postgresql-parameter-group,Intel Cloud Optimization Module - AWS PostgreSQL Parameter Group
 aws-private-endpoint,infrablocks,7778,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-aws-private-endpoint,A Terraform module for creating a private endpoint for AWS for MongoDB Atlas.
-aws-rds-event-integration,falcon-tech,26458,newrelic,https://github.com/falcon-tech/terraform-newrelic-aws-rds-event-integration,
+aws-rds-event-integration,falcon-terraform-modules,26476,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-rds-event-integration,
 aws-role,ptonini,16785,vault,https://github.com/ptonini/terraform-vault-aws-role,
 aws-route53,locus313,20714,module,https://github.com/locus313/terraform-module-aws-route53,Terraform module which manages Route53 resources on AWS
 aws-router,mergermarket,4100,acuris,https://github.com/mergermarket/terraform-acuris-aws-router,
@@ -2320,6 +2321,7 @@ billing-budget,mineiros-io,11266,google,https://github.com/mineiros-io/terraform
 billing-export,IAmFrench,18439,google,https://github.com/IAmFrench/terraform-google-billing-export,Terraform module for Google Cloud Billing export
 billing-export,IAmFrench,18451,alicloud,https://github.com/IAmFrench/terraform-alicloud-billing-export,Terraform module for Alibaba Cloud Billing export.
 billing-export,IAmFrench,24956,aws,https://github.com/IAmFrench/terraform-aws-billing-export,"Terraform Module witch creates billing export, including FOCUS, on AWS."
+billing-export,IAmFrench,26480,azurerm,https://github.com/IAmFrench/terraform-azurerm-billing-export,"Terraform Module witch creates billing export, including FOCUS, on Azure. "
 billing-notifications,squareops,26447,aws,https://github.com/squareops/terraform-aws-billing-notifications,"Terraform module to deploy an AWS budget forecast, automatically sending notifications when usage exceeds specified budget limits, ensuring proactive cost management and alerts."
 billing-policy,infrablocks,3597,aws,https://github.com/infrablocks/terraform-aws-billing-policy,A Terraform module for managing an AWS IAM policy allowing viewing or modifying billing information.
 billing-role,DNXLabs,5724,aws,https://github.com/DNXLabs/terraform-aws-billing-role,This terraform module creates an Identity Access Management (IAM) role that allows an Identity Providers and Federation (IDP) account to assume billing functions.
@@ -3299,6 +3301,7 @@ cloudwatch-s3,JamesWoolfenden,2851,aws,https://github.com/JamesWoolfenden/terraf
 cloudwatch-stddev-alarm-creator,QuiNovas,2545,aws,https://github.com/QuiNovas/terraform-aws-cloudwatch-stddev-alarm-creator,Provisions the cloudwatch-stddev-alarm-creator LambdaLambdaLambda function
 cloudwatch-subscription-elasticsearch,jparnaudeau,12047,aws,https://github.com/jparnaudeau/terraform-aws-cloudwatch-subscription-elasticsearch,Automate the subscription of a cloudwatch log group to an ElasticSearch endpoint
 cloudwatch-synthetics,clouddrove,18368,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics,CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
+cloudwatch-to-gchat,akw-devsecops,26474,aws,https://github.com/akw-devsecops/terraform-aws-cloudwatch-to-gchat,
 cloudwatch-to-syslog-server,aiden,2296,aws,https://github.com/aiden/terraform-aws-cloudwatch-to-syslog-server,"Terraform module to send CloudWatch logs to a syslog server. Compatible with papertrail, logstash, and datadog."
 cloudwatchdoggo,nabeken,19378,aws,https://github.com/nabeken/terraform-aws-cloudwatchdoggo,A Terraform Module that provisions nabeken/cloudwatchdoggo
 cloudwatchlogs,Aplyca,1337,aws,https://github.com/Aplyca/terraform-aws-cloudwatchlogs,Create AWS CloudWatch Logs resources
@@ -3324,6 +3327,7 @@ cluster,erkinsinc,5861,aws,https://github.com/erkinsinc/terraform-aws-cluster,
 cluster,gitrahimi,5888,aws,https://github.com/gitrahimi/terraform-aws-cluster,
 cluster,husneozmen,7881,aws,https://github.com/h-ozmen/terraform-aws-cluster,
 cluster,infrablocks,7779,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-cluster,A Terraform module for creating a MongoDB cluster in MongoDB Atlas.
+cluster,julzor42,26478,ovh,https://github.com/julzor42/terraform-ovh-cluster,Terraform module to create an OVHCloud cluster
 cluster,logscale-contrib,20476,argocd,https://github.com/logscale-contrib/terraform-argocd-cluster,
 cluster,ptonini,16776,mongodbatlas,https://github.com/ptonini/terraform-mongodbatlas-cluster,
 cluster,radupana,18392,cockroach,https://github.com/radupana/terraform-cockroach-cluster,Terraform module for provisioning CockroachDB clusters
@@ -5790,7 +5794,7 @@ ecs-alb,cn-terraform,4729,aws,https://github.com/cn-terraform/terraform-aws-ecs-
 ecs-alb-service-task,SevenPicoForks,17816,aws,https://github.com/SevenPicoForks/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
 ecs-alb-service-task,cloudposse,1154,aws,https://github.com/cloudposse/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
 ecs-alb-service-task,justtrackio,17369,aws,https://github.com/justtrackio/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
-ecs-app,DNXLabs,5731,aws,https://github.com/DNXLabs/terraform-aws-ecs-app,This terraform module is an AWS ECS Application Module for Scheduler without an Application Load Balancer(ALB).
+ecs-app,DNXLabs,5731,aws,https://github.com/DNXLabs/terraform-aws-ecs-app,This terraform module for AWS ECS Service with ALB target group (to be used with terraform-aws-ecs)
 ecs-app,hazelops,11486,aws,https://github.com/hazelops/terraform-aws-ecs-app,Terraform module to create and manage AWS ECS application.
 ecs-app,ianrodrigues,6452,aws,https://github.com/ianrodrigues/terraform-aws-ecs-app,
 ecs-app,justtrackio,17257,aws,https://github.com/justtrackio/terraform-aws-ecs-app,Terraform module which creates a ecs app
@@ -7037,7 +7041,7 @@ firewall,badal-io,3870,google,https://github.com/badal-io/terraform-google-firew
 firewall,claranet,8323,azurerm,https://github.com/claranet/terraform-azurerm-firewall,Terraform module for Azure Firewall
 firewall,clouddrove,5034,digitalocean,https://github.com/clouddrove/terraform-digitalocean-firewall,"Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls."
 firewall,cyber-scot,21645,azurerm,https://github.com/cyber-scot/terraform-azurerm-firewall,A module used to deploy an Azure Firewall 🧱
-firewall,cypik,22739,google,https://github.com/cypik/terraform-google-firewall,
+firewall,cypik,22739,google,https://github.com/cypik/terraform-google-firewall,Google Cloud Platform (GCP) firewall rules let you allow or deny traffic to and from your virtual machine (VM) instances based on a configuration you specify
 firewall,cypik,22878,digitalocean,https://github.com/cypik/terraform-digitalocean-firewall,
 firewall,cypik,24069,azure,https://github.com/cypik/terraform-azure-firewall,
 firewall,data-platform-hq,17442,google,https://github.com/data-platform-hq/terraform-google-firewall,Terraform module for creation Google firewall
@@ -11312,6 +11316,7 @@ nomad-webhooks,brucellino,21935,github,https://github.com/brucellino/terraform-g
 non-vcs-connected-workspace,ausmartway,10464,tfe,https://github.com/ausmartway/terraform-tfe-non-vcs-connected-workspace,
 nonsense-words,alisdair,5160,random,https://github.com/alisdair/terraform-random-nonsense-words,
 noop,jrhouston,19617,module,https://github.com/jrhouston/terraform-module-noop,A test module that sleeps 
+nops-integration,nops-io,26479,aws,https://github.com/nops-io/terraform-aws-nops-integration,Terraform module for integrating AWS with the nOps platform
 nops-onboarding-testing,mkahnlein-caylent,26461,aws,https://github.com/mkahnlein-caylent/terraform-aws-nops-onboarding-testing,nOps terraform repository for testing
 normalize,Olivr,13485,null,https://github.com/Olivr/terraform-null-normalize,"Terraform module to normalize strings (replace accents, trim special characters)"
 normalize-recordsets,terraformdns,6244,template,https://github.com/terraformdns/terraform-template-normalize-recordsets,An internal preprocessing module for the terraformdns project
@@ -14719,6 +14724,7 @@ snapshot-policy,kasna-cloud,19937,google,https://github.com/kasna-cloud/terrafor
 snat,terraform-alicloud-modules,4214,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-snat,Terraform Module for creating several SNAT entries for Nat Gateway on  Alibaba Cloud.
 snet,gribanj,21113,azure,https://github.com/gribanj/terraform-azure-snet,A terraform module to provision a customizable azure virtaul network
 snifpolgen,binxio,4129,aws,https://github.com/binxio/terraform-aws-snifpolgen,Snif/record AWS API usage with CloudTrail and generate policies that are just allowing that.
+snipeit,rodchristiansen,26477,azurerm,https://github.com/rodchristiansen/terraform-azurerm-snipeit,A Terraform module to set up a Snipe IT in Azure
 snmp-policy,netascode,10320,aci,https://github.com/netascode/terraform-aci-snmp-policy,Terraform Cisco ACI SNMP Policy Module
 snmp-trap-policy,netascode,10510,aci,https://github.com/netascode/terraform-aci-snmp-trap-policy,Terraform Cisco ACI SNMP Trap Policy Module
 snowfamily-iam-role,dod-iac,21491,aws,https://github.com/dod-iac/terraform-aws-snowfamily-iam-role,IAM role for use as a Snow Family service role.
@@ -14862,6 +14868,7 @@ sql-sql-server-database-not-marked-for-replication-sync,terraform-shoreline-modu
 sql-sql-server-deadlock-incident,terraform-shoreline-modules,20377,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-sql-sql-server-deadlock-incident,This repository was generated automatically based on a Shoreline Insights Runbook.
 sqldb,andrewCluey,5570,azurerm,https://github.com/andrewCluey/terraform-azurerm-sqldb,
 sqldb,vikash232,14201,azure,https://github.com/vikash232/terraform-azure-sqldb,
+sqlmi,CloudNationHQ,26472,azure,https://github.com/CloudNationHQ/terraform-azure-sqlmi,Terraform module which creates sql managed instance resources used by workloads and accelerators.
 sqlserver-seed,metadevpro,514,azurerm,https://github.com/metadevpro/terraform-azurerm-sqlserver-seed,Terraform module for creating an Azure SQL Server Database and initialize it with a SQL script.
 sqlserver_db,airasia,6420,google,https://github.com/airasia/terraform-google-sqlserver_db,Terraform module for a MSSQL / SQLServer CloudSQL Instance in GCP
 sqlvm,bootlabstech,16696,azurerm,https://github.com/bootlabstech/terraform-azurerm-sqlvm,
@@ -15263,6 +15270,7 @@ staticwebsitepublic,onaiculluciano,17815,azurerm,https://github.com/onaicullucia
 staticwebsitepublic,peegee13,15535,azurerm,https://github.com/peegee13/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,pnkjmahto029,17117,azurerm,https://github.com/pnkjmahto029/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,rajatukai,20462,azurerm,https://github.com/rajatukai/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,ranjith-hash,26470,azurerm,https://github.com/ranjith-hash/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,ravican09,14704,azurerm,https://github.com/ravican09/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,richbjhudson,11688,azurerm,https://github.com/richbjhudson/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ritishadhikari,23774,azurerm,https://github.com/ritishadhikari/terraform-azurerm-staticwebsitepublic,Terraform modules to be shared in Terraform Public Registry
@@ -15481,6 +15489,7 @@ storm-control-policy,netascode,10324,aci,https://github.com/netascode/terraform-
 stream,assemble-inc,1948,kinesis,https://github.com/assembleinc/terraform-kinesis-stream,This is a convenience module for AWS Kinesis Stream
 stream-discovery,airbytehq,21849,airbyte,https://github.com/airbytehq/terraform-airbyte-stream-discovery,Terraform Module to Discover Available Streams for a Connection
 streamanalytics,mikamakusa,25016,azure,https://github.com/mikamakusa/terraform-azure-streamanalytics,
+streamhost,XMPro,26481,xmpro,https://github.com/XMPro/terraform-xmpro-streamhost,
 streamhost,jonahfrany,26459,xmpro,https://github.com/jonahfrany/terraform-xmpro-streamhost,
 streams-app-acl,NitorCreations,3492,kafka,https://github.com/NitorCreations/terraform-kafka-streams-app-acl,Kafka ACL for Kafka Streams App
 strongdm,highwingio,9689,aws,https://github.com/highwingio/terraform-aws-strongdm,Terraform Module for deploying strongDM Relays on ECS Clusters
@@ -16535,6 +16544,7 @@ vm-linux,OLeonardoRodrigues,10080,azurerm,https://github.com/fr-platform/terrafo
 vm-linux,OliveiraLeonardo17,8564,azurerm,https://github.com/fr-platform/terraform-azurerm-vm-linux,A module to create a Linux Virtual Machine on Azure using Terraform.
 vm-linux,fr-platform,17833,azurerm,https://github.com/fr-platform/terraform-azurerm-vm-linux,A module to create a Linux Virtual Machine on Azure using Terraform.
 vm-linux,lro17,9252,azurerm,https://github.com/fr-platform/terraform-azurerm-vm-linux,A module to create a Linux Virtual Machine on Azure using Terraform.
+vm-linux-availabilityset,bootlabstech,26471,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-linux-availabilityset,
 vm-logs,claranet,3224,azurerm,https://github.com/claranet/terraform-azurerm-vm-logs,Terraform module to enable Diagnostics and Logs on Azure VM
 vm-module,caermeglaeddyv,6755,vsphere,https://github.com/caermeglaeddyv/terraform-vsphere-vm-module,
 vm-module,prashantsolanki3,19173,proxmox,https://github.com/prashantsolanki3/terraform-proxmox-vm-module,Terraform module to create a vm in promox using templates.
@@ -17727,6 +17737,7 @@ workshop-server,srb3,4094,azurerm,https://github.com/srb3/terraform-azurerm-work
 workspace,ALT-F4-LLC,19291,tfe,https://github.com/ALT-F4-LLC/terraform-tfe-workspace,Terraform module which creates Terraform Enterprise workspace resources.
 workspace,DevOpsJake,6051,tfc,https://github.com/DevOpsJake/terraform-tfc-workspace,
 workspace,HappyPathway,26107,docker,https://github.com/HappyPathway/terraform-docker-workspace,Terraform Module
+workspace,HappyPathway,26483,github,https://github.com/HappyPathway/terraform-github-workspace,Terraform Module
 workspace,Selleo,21430,tfe,https://github.com/Selleo/terraform-tfe-workspace,Easily manage Terraform Workspaces in TF Cloud
 workspace,clouddrove,18421,aws,https://github.com/clouddrove/terraform-aws-workspace,Terraform module to create workspace resources on AWS for manage betterly.
 workspace,container-labs,6873,tfe,https://github.com/container-labs/terraform-tfe-workspace,
