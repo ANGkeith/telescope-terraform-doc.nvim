@@ -3861,6 +3861,7 @@ cpu-autoscaling,kiwicom,3021,aws,https://github.com/kiwicom/terraform-aws-cpu-au
 cr,roura356a,4036,alicloud,https://github.com/rouralberto/terraform-alicloud-cr,Terraform module which creates a private CR namespace & RAM user on Alibaba Cloud.
 cranehost,buildo,664,aws,https://github.com/buildo/terraform-aws-cranehost,Terraform module for creating EC2 instances with Docker and Crane installed
 crap,rkoteck,1395,training,https://github.com/rkoteck/terraform-training-crap,
+crayon-recommender-export-big-query,admbrijanelwadhi,26488,gcp,https://github.com/admbrijanelwadhi/terraform-gcp-crayon-recommender-export-big-query,
 crd-demo-module,shernandez5,26022,kubernetes,https://github.com/shernandez5/terraform-kubernetes-crd-demo-module,
 crds,iits-consulting,17839,helm,https://github.com/iits-consulting/terraform-helm-crds,This module installs Kubernetes CRDs required to run iits argocd module and related modules
 createProject,UrsysC,5425,gcp,https://github.com/saraangelmurphy/terraform-gcp-createProject,
@@ -4272,6 +4273,7 @@ deployomat,GoCarrot,11955,aws,https://github.com/GoCarrot/terraform-aws-deployom
 derri,derrianson,16871,aws,https://github.com/derrianson/terraform-aws-derri,
 deso-nodes,domderen,10854,aws,https://github.com/domderen/terraform-aws-deso-nodes,
 destroy-default-vpc,trussworks,5710,aws,https://github.com/trussworks/terraform-aws-destroy-default-vpc,Default VPC resource management for AWS Accounts
+destroy-delay,ausmartway,26484,time,https://github.com/ausmartway/terraform-time-destroy-delay,
 detectors,claranet,6884,signalfx,https://github.com/claranet/terraform-signalfx-detectors,Collection of terraform modules for SignalFx detectors.
 detectors,xp-1000,6885,signalfx,https://github.com/xp-1000/terraform-signalfx-detectors,Collection of terraform modules for SignalFX detectors.
 dev-center,libre-devops,26260,azurerm,https://github.com/libre-devops/terraform-azurerm-dev-center,A module used to deploy Azure Dev Center
@@ -5392,7 +5394,7 @@ ec2,monbostest,10803,aws,https://github.com/monbostest/terraform-aws-ec2,
 ec2,nirpendra83,10834,aws,https://github.com/nirpendra83/terraform-aws-ec2,terraform-aws-ec2
 ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-ec2,
 ec2,nullc4t,17501,vultr,https://github.com/const-tmp/terraform-vultr-ec2,Creating batch EC2 instances in Vultr with a single config. Easy scalable. 
-ec2,pankajsao11,24846,aws,https://github.com/pankajsao11/terraform-aws-ec2,Collection of Terraform AWS modules
+ec2,pankajsao11,24846,aws,https://github.com/pankajsao11/terraform-aws-ec2,Terraform AWS EC2 modules
 ec2,panovmikhail,22284,aws,https://github.com/panovmikhail/terraform-aws-ec2,Terraform module for creating EC2 instances
 ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,"Creates an EC2 instance with access secured to the local host. Deploys Plaid Quickstart service on it. Upon completion of Provision instructions, run the following command to initialize the root directory: ./.terraform/modules/ec2/scripts/init.sh "
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
@@ -8774,6 +8776,7 @@ keypair,tatianazubco11,21795,aws,https://github.com/tatianazubco11/terraform-aws
 keypair,terraform-opentelekomcloud-modules,9661,opentelekomcloud,https://github.com/terraform-opentelekomcloud-modules/terraform-opentelekomcloud-keypair,OpenTelekomCloud KeyPair Terraform module
 keypair,thejondaw,21781,aws,https://github.com/thejondaw/terraform-aws-keypair,
 keypair,thomasvjoseph,26387,aws,https://github.com/thomasvjoseph/terraform-aws-keypair,Creating KeyPair using terraform
+keypair,thomasvjoseph,26487,azurerm,https://github.com/thomasvjoseph/terraform-azurerm-keypair,Terraform Azure RM SSH KeyPair Module
 keypair,tuncaytas,11882,aws,https://github.com/tuncaytas/terraform-aws-keypair,
 keypair,turkanamammadova,11891,aws,https://github.com/turkanamammadova/terraform-aws-keypair,
 keypair,yiitkarakaya,12034,aws,https://github.com/yiitkarakaya/terraform-aws-keypair,
@@ -12048,6 +12051,7 @@ private-gke-cluster,memes,17976,google,https://github.com/memes/terraform-google
 private-key,pmikus,20008,tls,https://github.com/pmikus/terraform-tls-private-key,Terraform module creates a TLS key. 
 private-lb,libre-devops,13161,azurerm,https://github.com/libre-devops/terraform-azurerm-private-lb,"A module which tries to follow the ""KISS"" design model to deploying a Private Azure Load Balancer.  Will created 1 LBs and a backend pool based on some parameters :knife:"
 private-nat-vm,data-platform-hq,17497,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-nat-vm,
+private-registry,registry-tools,26490,rt,https://github.com/registry-tools/terraform-rt-private-registry,Creates a Terraform private registry and connects your GitHub modules to it using https://registrytools.cloud
 private-registry-s3,StratusGrid,15010,aws,https://github.com/StratusGrid/terraform-aws-private-registry-s3,Creates a Private Terraform Provider Registry in S3.
 private-sql-server,bootlabstech,17865,azurerm,https://github.com/bootlabstech/terraform-azurerm-sql-server-database,
 private-subnet,HappyPathway,24524,aws,https://github.com/HappyPathway/terraform-aws-private-subnet,Creates a Private Subnet in AWS
@@ -13581,6 +13585,7 @@ s3-container-registry,b-n,18554,aws,https://github.com/b-n/terraform-aws-s3-cont
 s3-csi-driver,krupakar0307,22395,aws,https://github.com/krupakar0307/terraform-aws-s3-csi-driver,
 s3-data-export,lacework,9318,aws,https://github.com/lacework/terraform-aws-s3-data-export,A Terraform Module to configure the S3 Data Export integration for Lacework.
 s3-data-to-parquet,dod-iac,8479,aws,https://github.com/dod-iac/terraform-aws-s3-data-to-parquet,Module to convert s3 data to parquet
+s3-demo,vinaysunhare,26485,module,https://github.com/vinaysunhare/terraform-module-s3-demo,
 s3-deployment,kota65535,17844,aws,https://github.com/kota65535/terraform-aws-s3-deployment,Terraform module which deploys a static website to a S3 bucket.
 s3-dummy,bootlabstech,14033,aws,https://github.com/bootlabstech/terraform-aws-s3-dummy,
 s3-dynamodb-remote-backend,my-devops-way,13663,aws,https://github.com/my-devops-way/terraform-aws-s3-dynamodb-remote-backend,
@@ -15162,6 +15167,7 @@ static-website-s3-cloudfront-acm,joshuamkite,15253,aws,https://github.com/joshua
 static-website-with-cicd,ordinaryexperts,1926,aws,https://github.com/ordinaryexperts/terraform-aws-static-website-with-cicd,"A static s3-backed website with CloudFront, SSL, and automatic deployments on commit to a git repo"
 staticWebsite,MilindMiddha09,24353,azurerm,https://github.com/MilindMiddha09/terraform-azurerm-staticWebsite,
 staticWebsite,nikhil0333,25610,azurerm,https://github.com/nikhil0333/terraform-azurerm-staticWebsite,Terraform module to be shared in public registry
+static_web_app,TaleLearnCode,26489,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-static_web_app,Terraform module for managing Azure Static Web App and associated resources.
 static_website,DvLearnOps,15090,azurerm,https://github.com/DvLearnOps/terraform-azurerm-static_website,A sample module to create azure storage static website
 staticazurewebsite,lokesh0412,12857,azurerm,https://github.com/lokesh0412/terraform-azurerm-staticazurewebsite,This is a test terraform module
 staticbucket,bmahathi,14887,aws,https://github.com/bmahathi/terraform-aws-staticbucket,
@@ -15490,7 +15496,6 @@ stream,assemble-inc,1948,kinesis,https://github.com/assembleinc/terraform-kinesi
 stream-discovery,airbytehq,21849,airbyte,https://github.com/airbytehq/terraform-airbyte-stream-discovery,Terraform Module to Discover Available Streams for a Connection
 streamanalytics,mikamakusa,25016,azure,https://github.com/mikamakusa/terraform-azure-streamanalytics,
 streamhost,XMPro,26481,xmpro,https://github.com/XMPro/terraform-xmpro-streamhost,
-streamhost,jonahfrany,26459,xmpro,https://github.com/jonahfrany/terraform-xmpro-streamhost,
 streams-app-acl,NitorCreations,3492,kafka,https://github.com/NitorCreations/terraform-kafka-streams-app-acl,Kafka ACL for Kafka Streams App
 strongdm,highwingio,9689,aws,https://github.com/highwingio/terraform-aws-strongdm,Terraform Module for deploying strongDM Relays on ECS Clusters
 strongdm-gateway-ec2,truemark,12032,aws,https://github.com/truemark/terraform-aws-strongdm-gateway-ec2,Creates a strongDM gateway and EC2 instance running the daemon
