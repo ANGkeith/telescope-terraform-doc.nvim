@@ -300,6 +300,8 @@ acr-enterprise,terraform-alicloud-modules,12792,alicloud,https://github.com/alib
 acr-personal,terraform-alicloud-modules,12793,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-acr-personal,Terraform Module for creating Container Registry Personal Edition on Alibaba Cloud.
 acs,ipolyzos,547,azurerm,https://github.com/ipolyzos/terraform-azurerm-acs,Terraform module for the Azure Access Control Service (ACS) 
 acsenginek8scluster,hmarcelodn,880,azurerm,https://github.com/hmarcelodn/terraform-azurerm-acsenginek8scluster,Terraform Module to Create Kubernetes cluster using acs-engine
+acstoragedemo,RaghavNC-Cloud,26499,azurerm,https://github.com/RaghavNC-Cloud/terraform-azurerm-acstoragedemo,terraform-azurerm-acstoragedemo
+acstoragetest,RaghavNC-Cloud,26498,azurerm,https://github.com/RaghavNC-Cloud/terraform-azurerm-acstoragetest,
 acstoragetest,mmcelreath,14444,azurerm,https://github.com/mmcelreath/terraform-azurerm-acstoragetest,Test module to demonstrate publishing to the Terraform Registry
 action-group,rink72,3911,azurerm,https://github.com/rink72/terraform-azurerm-action-group,Terraform module to create alert groups in Azure
 action-helper,maunzCache,13875,aws,https://github.com/maunzCache/terraform-aws-action-helper,aws-action-helper is a Terraform module which helps implementing AWS IAM policies by providing abstracting actions (or permissions) as usable object in Terraform.
@@ -620,7 +622,7 @@ alert-export,carlzxc71,18804,azurerm,https://github.com/carlzxc71/terraform-azur
 alert-rules,alemuro,25716,grafana,https://github.com/alemuro/terraform-grafana-alert-rules,Terraform Module for managing Grafana Alert Rules easily
 alerting,claranet,4464,azurerm,https://github.com/claranet/terraform-azurerm-alerting,Terraform module for Azure Alerting
 alertmanager,philips-labs,10540,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-alertmanager,
-alerts,CloudNationHQ,26457,azure,https://github.com/CloudNationHQ/terraform-azure-alerts,
+alerts,CloudNationHQ,26457,azure,https://github.com/CloudNationHQ/terraform-azure-alerts,Terraform module which creates azure alert resources used by workloads and accelerators.
 alerts,delivops,26227,groundcover,https://github.com/delivops/terraform-groundcover-alerts,
 alerts,falcon-terraform-modules,23865,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-alerts,"This Terraform module constructs and configures the necessary resources for NewRelic alert settings, including Alert Conditions, Alert Policies, Destinations, and Workflows."
 alerts-to-s3,lacework,16278,aws,https://github.com/lacework/terraform-aws-alerts-to-s3,Terraform Lacework Alerts to AWS-S3
@@ -1666,6 +1668,7 @@ avi-controller-azure,slarimore02,9311,azurerm,https://github.com/slarimore02/ter
 avi-controller-gcp,slarimore02,7435,gcp,https://github.com/slarimore02/terraform-gcp-avi-controller-gcp,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on GCP
 avi-controller-vsphere,slarimore02,8612,vsphere,https://github.com/slarimore02/terraform-vsphere-avi-controller-vsphere,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on vSphere
 avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terraform-azure-avinashstorage,
+avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-aks-production,tembo-io,26403,azurerm,https://github.com/tembo-io/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
@@ -9559,6 +9562,7 @@ layer-webhooks,genstackio,11147,aws,https://github.com/genstackio/terraform-aws-
 layer-widget,genstackio,7985,aws,https://github.com/genstackio/terraform-aws-layer-widget,Terraform module to create an entire Layer for widget (web widget)
 lazyspot,femnad,21762,gcp,https://github.com/femnad/terraform-gcp-lazyspot,Terraform module for lazy GCP spot instances
 lb,AckeeCZ,14755,gcp,https://github.com/AckeeCZ/terraform-gcp-lb,Terraform module for provisioning of GCP LB on top of precreated named NEG passed as parameter to this module.
+lb,CloudNationHQ,26494,azure,https://github.com/CloudNationHQ/terraform-azure-lb,Terraform module which creates load balancer resources used by workloads and accelerators.
 lb,GoogleCloudPlatform,124,google,https://github.com/terraform-google-modules/terraform-google-lb,Creates a regional TCP proxy load balancer for Compute Engine by using target pools and forwarding rules
 lb,JamesWoolfenden,7705,aws,https://github.com/JamesWoolfenden/terraform-aws-lb,Load balancer
 lb,Selleo,17557,aws,https://github.com/Selleo/terraform-aws-lb,Terraform Load Balancer module for AWS
@@ -11507,6 +11511,7 @@ opencloudcx,OpenCloudCX,7409,aws,https://github.com/OpenCloudCX/terraform-aws-op
 openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,OpenID module for apps on Kubernetes.
 openid-config-crawler,beranek1,15184,aws,https://github.com/beranek1/terraform-aws-openid-config-crawler,Automatically copies openid configurations to cloud storage.
 openid-jwks-crawler,beranek1,15189,aws,https://github.com/beranek1/terraform-aws-openid-jwks-crawler,Automatically fetches JWKS from openid configurations.
+openix-modules,openixit-solutions,26502,aws,https://github.com/openixit-solutions/terraform-aws-openix-modules,OpenixIT Solution Organization modules
 opennext,SRGSSR,21578,aws,https://github.com/SRGSSR/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
@@ -12830,6 +12835,7 @@ registry,tfelab,26084,tfe,https://github.com/tfelab/terraform-tfe-registry,Terra
 registry-credentials,iits-consulting,17838,helm,https://github.com/iits-consulting/terraform-helm-registry-credentials,This module installs a docker login to all default service accounts in the cluster.
 registry-test,abprakash405,19383,module,https://github.com/abprakash405/terraform-module-registry-test,
 registry1,Ugavhar,17931,artifact,https://github.com/Ugavhar/terraform-artifact-registry1,
+relativistic,kadreio,26503,kubernetes,https://github.com/kadreio/terraform-kubernetes-relativistic,"Best in class Open Source tools, in production, with the press of a button."
 release,Adnan-IT,24694,helm,https://github.com/Adnan-IT/terraform-helm-release,
 release,AlexReisSantos,12713,helm,https://github.com/AlexReisSantos/terraform-helm-release,
 release,AliAQ9,24894,helm,https://github.com/AliAQ9/terraform-helm-release,
@@ -13132,6 +13138,7 @@ rg,vijaykumar8564,21773,azurerm,https://github.com/vijaykumar8564/terraform-azur
 rg1,Ramkhushi,20828,azurerm,https://github.com/Ramkhushi/terraform-azurerm-rg1,
 rg10,Ramkhushi,20829,azurerm,https://github.com/Ramkhushi/terraform-azurerm-rg10,This is a test repo which will be used on Terraform Registry
 rggNew,Premm1,23056,azurerm,https://github.com/Premm1/terraform-azurerm-rggNew,
+rgmodule,DODDAKA,26501,azurerm,https://github.com/DODDAKA/terraform-azurerm-rgmodule,This module is for testing. And it can create a resource group on azure.
 rgpipdisk,sampoornadevops,24535,azurerm,https://github.com/sampoornadevops/terraform-azurerm-rgpipdisk,"this is for rg, pip and disk"
 rgs,Premm1,23062,azurerm,https://github.com/Premm1/terraform-azurerm-rgs,
 rgsapip,mounikakatepalli,24527,azurerm,https://github.com/mounikakatepalli/terraform-azurerm-rgsapip,"This Module is for rg, sa and pip"
@@ -13960,6 +13967,7 @@ satellite-azure,terraform-ibm-modules,11975,ibm,https://github.com/terraform-ibm
 satellite-gcp,terraform-ibm-modules,13172,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-satellite-gcp,Use this terrafrom automation to set up satellite location on IBM cloud with Google host.
 satisfactoryserver,Feyko,10931,docker,https://github.com/Feyko/terraform-docker-satisfactoryserver,A Terraform module for Satisfactory dedicated server creation
 sawyer,sawyerbrink,10430,aws,https://github.com/sawyerbrink/terraform-aws-sawyer,This is a terraform module to deploy the Sawyer risk & governance solution by SawyerBrink
+sb,CloudNationHQ,26493,azure,https://github.com/CloudNationHQ/terraform-azure-sb,Terraform module which creates servicebus resources used by workloads and accelerators.
 sbonds-manning-terraform-in-action-chapter-6,sbonds-terraform,26082,aws,https://github.com/sbonds-terraform/terraform-aws-sbonds-manning-terraform-in-action-chapter-6,Holds the example code from Terraform in Action chapter 6
 sbstorage,beastsb,24964,azurerm,https://github.com/beastsb/terraform-azurerm-sbstorage,
 scalable-infrastructure,UpCloudLtd,13996,upcloud,https://github.com/UpCloudLtd/terraform-upcloud-scalable-infrastructure,"Terraform module which creates an UpCloud infrastructure for a typical, easy to scale web app"
@@ -14375,7 +14383,7 @@ service-account,SweetOps,474,google,https://github.com/SweetOps/terraform-google
 service-account,alxrem,11244,yandex,https://github.com/alxrem/terraform-yandex-service-account,Terraform module which describes service account in Yandex Cloud
 service-account,binxio,6851,google,https://github.com/binxio/terraform-google-service-account,Generic google Service Accounts module for Terraform 
 service-account,blackbird-cloud,19001,google,https://github.com/blackbird-cloud/terraform-google-service-account,Google Service Account
-service-account,cypik,22789,google,https://github.com/cypik/terraform-google-service-account,
+service-account,cypik,22789,google,https://github.com/cypik/terraform-google-service-account,Creates one or more service accounts and grants them basic roles
 service-account,garbetjie,5615,google,https://github.com/garbetjie/terraform-google-service-account,A simple Terraform module to create a service account and assign permissions to it.
 service-account,lacework,6421,gcp,https://github.com/lacework/terraform-gcp-service-account,Terraform module that creates a service account to provide Lacework read-only access to Google Cloud Platform Organizations and Projects
 service-account,mineiros-io,11364,google,https://github.com/mineiros-io/terraform-google-service-account,A Terraform module to deploy and manage service accounts in Google Cloud https://cloud.google.com/iam/docs/service-accounts
