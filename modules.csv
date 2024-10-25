@@ -228,6 +228,7 @@ acm,clouddrove,3633,aws,https://github.com/clouddrove/terraform-aws-acm,This ter
 acm,finisterra-io,23548,aws,https://github.com/finisterra-io/terraform-aws-acm,Terraform module for AWS Certificate Manager
 acm,kadragon,12760,aws,https://github.com/kadragon/terraform-aws-acm,
 acm,khaledez,12145,aws,https://github.com/khaledez/terraform-aws-acm,AWS Certificate Manager Terraform Module
+acm,mhrzn-terraform,26546,aws,https://github.com/mhrzn-terraform/terraform-aws-acm,
 acm,mikamakusa,24938,aws,https://github.com/mikamakusa/terraform-aws-acm,
 acm,oozou,15117,aws,https://github.com/oozou/terraform-aws-acm,AWS Certificate manager Terraform
 acm,rails-on-services,3586,aws,https://github.com/rails-on-services/terraform-aws-acm,Manages AWS ACM resources
@@ -1916,7 +1917,7 @@ aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
 aws-vpc-cni,kwaziio,23284,kubernetes,https://github.com/kwaziio/terraform-kubernetes-aws-vpc-cni,Terraform Module for Managing AWS VPC CNI Configuration for an EKS Cluster on AWS
 aws-vpc-site,f5devcentral,21754,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site,Terraform module which creates AWS VPC Site for F5 Distributed Cloud (XC)
 aws-vpc-site-networking,f5devcentral,21750,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site-networking,Terraform module which creates AWS VPC for F5 Distributed Cloud (XC) AWS VPC Site
-aws-workspace,terraform-databricks-modules,26465,databricks,https://github.com/terraform-databricks-modules/terraform-databricks-aws-workspace,
+aws-workspace,terraform-databricks-modules,26465,databricks,https://github.com/terraform-databricks-modules/terraform-databricks-aws-workspace,Terraform module for creating Databricks workspaces in AWS
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
 awsec2,CharlyRos,26249,carlosros,https://github.com/CharlyRos/terraform-carlosros-awsec2,Curso Terraform
 awsec2,Espectro123,26250,modulo2,https://github.com/Espectro123/terraform-modulo2-awsec2,A practice repository for advance terraform managment
@@ -1965,6 +1966,7 @@ azure-auth-backend,ptonini,16786,vault,https://github.com/ptonini/terraform-vaul
 azure-auth-method,devops-rob,11709,vault,https://github.com/devops-rob/terraform-vault-azure-auth-method,This Terraform module enables and configures teh Azure auth method in HashiCorp Vault to enable workload authentication from Azure to HashiCorp Vault.
 azure-auth-role,ptonini,16787,vault,https://github.com/ptonini/terraform-vault-azure-auth-role,
 azure-backend,ptonini,16788,vault,https://github.com/ptonini/terraform-vault-azure-backend,
+azure-backup,Kurmanbek10,26542,azurerm,https://github.com/Kurmanbek10/terraform-azurerm-azure-backup,Terraform module for setting up Azure Backup
 azure-backup,ravensorb,16530,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-backup,Terraform module for setting up Azure Backup
 azure-backup,theamit,19626,azurerm,https://github.com/theamit/terraform-azurerm-azure-backup,Terraform module for setting up Azure Backup
 azure-bastion,kumarvna,6268,azurerm,https://github.com/kumarvna/terraform-azurerm-azure-bastion,Terraform module to create fully platform-managed Azure bastion PaaS service.
@@ -3463,6 +3465,7 @@ codepipeline-trigger-schedule,pavelpichrt,18443,aws,https://github.com/pavelpich
 codepipline-github-dockerhub,cloudacode,16557,aws,https://github.com/cloudacode/terraform-aws-codepipline-github-dockerhub,Terraform module which builds multiple architecture docker images using AWS CodeBuild and AWS CodePipeline
 codepipline-test-framework,toluna-terraform,11724,aws,https://github.com/toluna-terraform/terraform-aws-codepipline-test-framework,
 codestar-connection,tim0git,12157,aws,https://github.com/tim0git/terraform-aws-codestar-connection,Terraform module which creates codestar connection resources
+cognitive-account,libre-devops,26557,azurerm,https://github.com/libre-devops/terraform-azurerm-cognitive-account,A module used to deploy a cognitive account 🧠
 cognitive-service,mikamakusa,24908,azure,https://github.com/mikamakusa/terraform-azure-cognitive-service,
 cognito,KevinDeNotariis,26328,aws,https://github.com/KevinDeNotariis/terraform-aws-cognito,Terraform module to deploy cognito and all necessary resources associated with it
 cognito,SevenPico,20101,aws,https://github.com/SevenPico/terraform-aws-cognito,
@@ -9032,7 +9035,6 @@ kubernetes,dtoch56,15227,yandex,https://github.com/dtoch56/terraform-yandex-kube
 kubernetes,einyx,4292,scaleway,https://github.com/einyx/terraform-scaleway-kubernetes,
 kubernetes,elct9620,10948,proxmox,https://github.com/elct9620/terraform-proxmox-kubernetes,The terraform module for create Kuberentes cluster on ProxmoxVE
 kubernetes,facilitatech,25021,aws,https://github.com/facilitatech/terraform-aws-kubernetes,Terraform module for Kubernetes setup on AWS
-kubernetes,hcloud-k8s,26537,hcloud,https://github.com/hcloud-k8s/terraform-hcloud-kubernetes,
 kubernetes,high-cloud-team,1895,aws,https://github.com/high-cloud-team/terraform-aws-kubernetes,AWS Kubernetes Terraform is a module for terraform that you can implement on your terraform projects easily to install k8s resources into aws
 kubernetes,imjoseangel,10899,azurerm,https://github.com/imjoseangel/terraform-azurerm-kubernetes,Terraform Module for deploying a Azure Kubernetes (AKS) cluster
 kubernetes,initializ,22008,civo,https://github.com/initializ/terraform-civo-kubernetes,Terraform module to create Production Grade CIVO Kubernetes cluster and associated resources
@@ -9082,7 +9084,7 @@ kubernetes-cluster,russmedia,1270,google,https://github.com/russmedia/terraform-
 kubernetes-cluster,tsadoklf,1774,google,https://github.com/tsadoklf/terraform-google-kubernetes-cluster,Google Cloud Platform Kubernetes Cluster Terraform Module
 kubernetes-cluster,yellowmegaman,2293,google,https://github.com/yellowmegaman/terraform-google-kubernetes-cluster,RBAC-only reevaluate-friendly cluster
 kubernetes-cluster-node-pools,Retoxx-dev,20223,azurerm,https://github.com/Retoxx-dev/terraform-azurerm-kubernetes-cluster-node-pools,
-kubernetes-cluster-vpc,terraform-navercloudplatform-modules,25261,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-cluster-vpc,Terraform module to create kubernetes cluster resources for the vpc configuration
+kubernetes-cluster-vpc,terraform-navercloudplatform-modules,26545,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-cluster-vpc,Terraform module to create kubernetes cluster resources for the vpc configuration
 kubernetes-controller,spotinst,23526,ocean,https://github.com/spotinst/terraform-ocean-kubernetes-controller,
 kubernetes-crashloopbackoff-on-kubernetes-pod,terraform-shoreline-modules,20350,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-crashloopbackoff-on-kubernetes-pod,This repository was generated automatically based on a Shoreline Insights Runbook.
 kubernetes-datadog-agent-not-running-in-kubernetes-cluster,terraform-shoreline-modules,20348,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-datadog-agent-not-running-in-kubernetes-cluster,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -9165,7 +9167,7 @@ kubernetes-node,jakoberpf,12354,oracle,https://github.com/jakoberpf/terraform-or
 kubernetes-node,jakoberpf,12999,proxmox,https://github.com/jakoberpf/terraform-proxmox-kubernetes-node,Terreform module for integrated service deployment
 kubernetes-node-pool,matti,726,google,https://github.com/matti/terraform-google-kubernetes-node-pool,
 kubernetes-node-pool,yellowmegaman,2294,google,https://github.com/yellowmegaman/terraform-google-kubernetes-node-pool,noodle pool
-kubernetes-node-pool-vpc,terraform-navercloudplatform-modules,25262,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-node-pool-vpc,Terraform module to create kubernetes node pool resources for the vpc configuration
+kubernetes-node-pool-vpc,terraform-navercloudplatform-modules,26551,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-kubernetes-node-pool-vpc,Terraform module to create kubernetes node pool resources for the vpc configuration
 kubernetes-nodes,kwaziio,22440,aws,https://github.com/kwaziio/terraform-aws-kubernetes-nodes,Terraform Module for Creating Configurable Kubernetes Nodes on AWS
 kubernetes-nodes-supplement,terraform-alicloud-modules,5295,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-kubernetes-nodes-supplement,"Terraform Module for attaching more resources, like security groups, eips and so on, to kubernetes nodes on Alibaba Cloud."
 kubernetes-nodes-with-pid-pressure-in-kubernetes,terraform-shoreline-modules,20359,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-kubernetes-nodes-with-pid-pressure-in-kubernetes,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -12769,6 +12771,7 @@ redis,kabisa,14006,datadog,https://github.com/kabisa/terraform-datadog-redis,
 redis,kumarvna,9425,azurerm,https://github.com/kumarvna/terraform-azurerm-redis,Terraform module for Azure Cache for Redis
 redis,libre-devops,18614,azurerm,https://github.com/libre-devops/terraform-azurerm-redis,A module used to deploy a Azure Cache for Redis
 redis,livelink,3724,kubernetes,https://github.com/livelink/terraform-kubernetes-redis,
+redis,magicorntech,26556,azurerm,https://github.com/magicorntech/terraform-azurerm-redis,Magicorn Azure Cache for Redis Module
 redis,ptonini,22173,azurerm,https://github.com/ptonini/terraform-azurerm-redis,
 redis,rahulkhengare,1210,azurerm,https://github.com/rahulkhengare/terraform-azurerm-redis,Terraform Module for Azure Redis Service
 redis,sanarena,7321,kubernetes,https://github.com/sanarena/terraform-kubernetes-redis,Terraform module for deploying redis to Kubernetes
@@ -15581,7 +15584,7 @@ subnet-demo,jiteshkanherkar,13070,aws,https://github.com/jiteshkanherkar/terrafo
 subnet-iam-attach,lancyqusa,19602,google,https://github.com/lancyqusa/terraform-google-subnet-iam-attach,
 subnet-private,Terraform-Modules-Lib,9640,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-private,Manage OCI private subnet
 subnet-public,Terraform-Modules-Lib,9629,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-subnet-public,Manage public subnet
-subnet-vpc,terraform-navercloudplatform-modules,25168,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-subnet-vpc,Terraform module to create subnet resources for the vpc configuration
+subnet-vpc,terraform-navercloudplatform-modules,26554,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-subnet-vpc,Terraform module to create subnet resources for the vpc configuration
 subnet_network_security_group_association,sironite,19772,azurerm,https://github.com/sironite/terraform-azurerm-subnet_network_security_group_association,Terraform module creates Azure Subnet network security group association
 subnets,Azure,16829,azurerm,https://github.com/Azure/terraform-azurerm-subnets,Terraform module to create/provision Azure Virtual Network and Subnets
 subnets,MagnetarIT,4623,aws,https://github.com/MagnetarIT/terraform-aws-subnets,Terraform module for creating subnets
@@ -17027,6 +17030,7 @@ vpc,nnaike,11269,aws,https://github.com/nnaike/terraform-aws-vpc,Terraform modul
 vpc,no-brand,11215,aws,https://github.com/no-brand/terraform-aws-vpc,Terraform module to deploy AWS VPC.
 vpc,npalm,730,aws,https://github.com/npalm/terraform-aws-vpc,Terraform module for creating a VPC on AWS
 vpc,ntmsvicky1,5973,aws,https://github.com/ntmsvicky1/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,nuonco,26555,aws,https://github.com/nuonco/terraform-aws-vpc,Terraform module for creating a VPC to install BYOPC installs into.
 vpc,nuraaly,6721,aws,https://github.com/nuraaly/terraform-aws-vpc,
 vpc,nurdin2303,9391,aws,https://github.com/nurdin2303/terraform-aws-vpc,
 vpc,nyeincz,10097,aws,https://github.com/nyeincz/terraform-aws-vpc,Deploy AWS VPC with terraform modules
@@ -17378,7 +17382,7 @@ vpc-t1,rus777777,13906,aws,https://github.com/rus777777/terraform-aws-vpc-t1,
 vpc-team1,lucardcoder,16729,aws,https://github.com/lucardcoder/terraform-aws-vpc-team1,
 vpc-test,bmfernand,17138,aws,https://github.com/bmfernand/terraform-aws-vpc-test,
 vpc-via-cfn,ordinaryexperts,2042,aws,https://github.com/ordinaryexperts/terraform-aws-vpc-via-cfn,VPC via CloudFormation as a Terraform module
-vpc-vpc,terraform-navercloudplatform-modules,25165,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-vpc-vpc,Terraform module to create vpc resources for the vpc configuration
+vpc-vpc,terraform-navercloudplatform-modules,26549,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-vpc-vpc,Terraform module to create vpc resources for the vpc configuration
 vpc-vsi,cloud-native-toolkit,14570,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-vpc-vsi,Module to provision a Virtual Server instance in an IBM Cloud Virtual Private Cloud instance
 vpc-with-nat-instance,phenixcoder,11510,aws,https://github.com/phenixcoder/terraform-aws-vpc-with-nat-instance,
 vpc-with-subnets,Quansight,21748,aws,https://github.com/Quansight/terraform-aws-vpc-with-subnets,A terraform module to create a vpc with dynamic subnets.
