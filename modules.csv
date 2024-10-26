@@ -669,6 +669,7 @@ ambassador,sailthru,1995,kubernetes,https://github.com/sailthru/terraform-kubern
 ambassador-endpoint,basisai,7397,kubernetes,https://github.com/basisai/terraform-kubernetes-ambassador-endpoint,Create CRDs for an endpoint served by Ambassador
 ambavarapu-vpcmodule,jayakrishnaambavarapu,26109,aws,https://github.com/jayakrishnaambavarapu/terraform-aws-ambavarapu-vpcmodule,
 ambiente-professor,descomplicando-terraform,25226,aws,https://github.com/descomplicando-terraform/terraform-aws-ambiente-professor,Módulo para criação do ambiente sugerido pelo professor
+ami,itsaconsulting,26566,aws,https://github.com/itsaconsulting/terraform-aws-ami,This terraform module will deploy a CodeBuild project that will build an AMI and place the AMI ID in an SSM Parameter.
 ami,srb3,5976,aws,https://github.com/srb3/terraform-aws-ami,
 ami,terra4aws64,12146,aws,https://github.com/terra4aws64/terraform-aws-ami,Terraform module for creating a curated catalog of AWS AMIs
 ami-amzn2,andreswebs,9938,aws,https://github.com/andreswebs/terraform-aws-ami-amzn2,Fetch the most recent Amazon Linux 2 AMI
@@ -1140,6 +1141,7 @@ arc-cloudfront,sourcefuse,21302,aws,https://github.com/sourcefuse/terraform-aws-
 arc-common-data,sourcefuse,22743,aws,https://github.com/sourcefuse/terraform-aws-arc-common-data,
 arc-control-tower-aft,sourcefuse,21308,aws,https://github.com/sourcefuse/terraform-aws-arc-control-tower-aft,Terraform Module repo for managing the parent AFT configuration responsible for deploying AFT resources into accounts.
 arc-db,sourcefuse,21303,aws,https://github.com/sourcefuse/terraform-aws-arc-db,Repo for managing the Database (RDS + Aurora) Terraform Module.
+arc-dms,sourcefuse,26561,aws,https://github.com/sourcefuse/terraform-aws-arc-dms,This Terraform module for AWS Database Migration Service (DMS) simplifies the process of setting up and managing database migrations. 
 arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws-arc-document-db,ARC module to provision an Amazon DocumentDB cluster.
 arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2,Terraform module provisioning  EC2 instances and Load Balancer
 arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,Repo for managing the ECS Fargate Terraform Module.
@@ -2123,7 +2125,7 @@ backup,tf-cloud-modules,14984,aws,https://github.com/tf-cloud-modules/terraform-
 backup,umotif-public,6581,aws,https://github.com/umotif-public/terraform-aws-backup,Terraform module to provision AWS Backup resources
 backup,web-virtua-oci-multi-account-modules,19584,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-backup,
 backup,zsvs,19458,aws,https://github.com/zsvs/terraform-aws-backup,Terraform AWS Backup module
-backup-dr,GoogleCloudPlatform,21207,google,https://github.com/GoogleCloudPlatform/terraform-google-backup-dr,Terraform module for Google BackupDR components
+backup-dr,GoogleCloudPlatform,21207,google,https://github.com/GoogleCloudPlatform/terraform-google-backup-dr,Deploy Backup and DR appliances
 backup-job-starter,KazuyaMiyagi,9512,aws,https://github.com/KazuyaMiyagi/terraform-aws-backup-job-starter,
 backup-notifications,binbashar,8617,aws,https://github.com/binbashar/terraform-aws-backup-notifications,Terraform module to enable notifications support on AWS Backup events.
 backup-plans,USSBA,4734,aws,https://github.com/USSBA/terraform-aws-backup-plans,A Terraform Module for AWS Backup Plans
@@ -5760,6 +5762,7 @@ ecrs,terraform-module,13267,aws,https://github.com/terraform-module/terraform-aw
 ecs,Aembit,20469,aembit,https://github.com/Aembit/terraform-aembit-ecs,
 ecs,AustinCloudGuru,3459,aws,https://github.com/AustinCloudGuru/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
 ecs,BrynardSecurity-terraform,13347,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-ecs,Terraform module which creates AWS ECS resources 🇺🇦
+ecs,Catalyst-Consulting-Group,26567,aws,https://github.com/Catalyst-Consulting-Group/terraform-aws-ecs,
 ecs,DNXLabs,5472,aws,https://github.com/DNXLabs/terraform-aws-ecs,This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.
 ecs,Fasal-Tech,17872,aws,https://github.com/Fasal-Tech/terraform-aws-ecs,
 ecs,FlexibleEngineCloud,6016,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-ecs,Terraform module which creates ECS resources on Flexible Engine cloud
@@ -9035,6 +9038,7 @@ kubernetes,dtoch56,15227,yandex,https://github.com/dtoch56/terraform-yandex-kube
 kubernetes,einyx,4292,scaleway,https://github.com/einyx/terraform-scaleway-kubernetes,
 kubernetes,elct9620,10948,proxmox,https://github.com/elct9620/terraform-proxmox-kubernetes,The terraform module for create Kuberentes cluster on ProxmoxVE
 kubernetes,facilitatech,25021,aws,https://github.com/facilitatech/terraform-aws-kubernetes,Terraform module for Kubernetes setup on AWS
+kubernetes,hcloud-k8s,26564,hcloud,https://github.com/hcloud-k8s/terraform-hcloud-kubernetes,
 kubernetes,high-cloud-team,1895,aws,https://github.com/high-cloud-team/terraform-aws-kubernetes,AWS Kubernetes Terraform is a module for terraform that you can implement on your terraform projects easily to install k8s resources into aws
 kubernetes,imjoseangel,10899,azurerm,https://github.com/imjoseangel/terraform-azurerm-kubernetes,Terraform Module for deploying a Azure Kubernetes (AKS) cluster
 kubernetes,initializ,22008,civo,https://github.com/initializ/terraform-civo-kubernetes,Terraform module to create Production Grade CIVO Kubernetes cluster and associated resources
@@ -11716,6 +11720,7 @@ overlays-diagnostic-settings,azurenoops,23614,azurerm,https://github.com/azureno
 overlays-dmz-spoke,azurenoops,20965,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-dmz-spoke,Terraform module overlay to create SCCA compliant DMZ Spoke based on the Microsoft Azure Hub-Spoke Architecture using Azure NoOps.
 overlays-hubspoke,azurenoops,17765,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-hubspoke,Terraform module composition to create SCCA compliant Landing Zone based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps Accelerator.
 overlays-key-vault,azurenoops,18116,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-key-vault,Terraform module overlay to create an SCCA Compliant Azure Key Vault to use with Azure NoOps.
+overlays-kubernetes,azurenoops,26565,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-kubernetes,Terraform overlay module to manage a SCCA Compliant Managed Kubernetes Cluster (also known as AKS / Azure Kubernetes Service) and optional resources for use with the Azure NoOps.
 overlays-linux-scaleset,azurenoops,18518,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-linux-scaleset,Terraform Overlay module for SCCA Compliant Azure Linux VM Scale Set to use with the Azure NoOps Accelerator
 overlays-management-groups,azurenoops,18009,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-groups,Terraform modules that simplifies the creation of custom management groups to be used with the Azure NoOps Accelerator
 overlays-management-hub,azurenoops,23467,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-management-hub,Terraform module overlay to create SCCA compliant Management Hub based on the Microsoft Azure Hub-Spoke Architecture using with the Azure NoOps.
@@ -14391,6 +14396,7 @@ serverless-webapp,apparentlymart,784,aws,https://github.com/apparentlymart/terra
 serverless-webapp,terraform-alicloud-modules,4008,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-webapp,Terraform module which deploys serverless web applications on Alibaba Cloud.
 serverless-website,tarekmulla,20820,aws,https://github.com/tarekmulla/terraform-aws-serverless-website,Terraform module to create single-page serverless website in AWS
 serverless-workflow,terraform-alicloud-modules,12797,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-workflow,Terraform Module for creating Serverless Workflow resources on Alibaba Cloud.
+serverlessapplication,KamranBiglari,26563,aws,https://github.com/KamranBiglari/terraform-aws-serverlessapplication,"Easily deploy an AWS serverless application using Terraform by simply providing the application ID and ARN. This module automatically validates all required parameters, ensuring a smooth and error-free setup."
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
 service,SolaceProducts,24981,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-service,"Solace software broker Terraform module to abstract broker VPN, authentication and authorization configuration"
 service,SolaceProducts,25197,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-service,"Solace PubSub+ appliance Terraform module to abstract broker VPN, authentication and authorization configuration"
@@ -14587,6 +14593,7 @@ shared,dasmeta,11624,any,https://github.com/dasmeta/terraform-any-shared,Terrafo
 shared-database,getindata,26194,snowflake,https://github.com/getindata/terraform-snowflake-shared-database,Terraform module for managing Shared Databases in Snowflake 
 shared-image,libre-devops,13587,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-image,A module used to add a shared image to an Azure Compute Gallery
 shared-image-gallery,claranet,21466,azurerm,https://github.com/claranet/terraform-azurerm-shared-image-gallery,Terraform module for Azure Shared Image Gallery
+shared-parameters,fivexl,26559,aws,https://github.com/fivexl/terraform-aws-shared-parameters,# Terraform AWS Shared Parameter Module This Terraform module simplifies the creation and management of AWS Systems Manager (SSM) parameters and securely shares these resources within an organization using AWS Resource Access Manager (RAM).
 shared-vars,libre-devops,23616,azurerm,https://github.com/libre-devops/terraform-azurerm-shared-vars,A module used to help replicate vars across multiple builds ⚡
 shared-vpc-tagger,oslokommune,17178,aws,https://github.com/oslokommune/terraform-aws-shared-vpc-tagger,Tags VPCs and subnets that you did not create yourself (ie. shared VPCs)
 sharepoint,Yvand,15157,azurerm,https://github.com/Yvand/terraform-azurerm-sharepoint,Terraform module to deploy SharePoint Subscription / 2019 / 2016 on Azure
@@ -14646,6 +14653,7 @@ simple-architecture,kaonmir,13964,aws,https://github.com/kaonmir/terraform-aws-s
 simple-autoscaling,michael-act,22012,aws,https://github.com/michael-act/terraform-aws-simple-autoscaling,"This Terraform module has a different purpose and use cases than https://github.com/terraform-aws-modules/terraform-aws-autoscaling! It enables your services, such as ECS Service and ECS Cluster, to scale dynamically based on resource utilization. Take control of your scaling effortlessly with this module."
 simple-cloudfront-s3-web,JuanLSanchez,2401,aws,https://github.com/JuanLSanchez/terraform-aws-simple-cloudfront-s3-web,"Terraform module to create a static web with s3, cloudfront and route53"
 simple-cloudfront-s3-web,sancastlem,8154,aws,https://github.com/sancastlem/terraform-aws-simple-cloudfront-s3-web,"Terraform module to create a static web with s3, cloudfront and route53"
+simple-context,cloudopusnet,26570,aws,https://github.com/cloudopusnet/terraform-aws-simple-context,
 simple-deployment,srb3,9524,kubernetes,https://github.com/srb3/terraform-kubernetes-simple-deployment,
 simple-ec2,duksh,22604,aws,https://github.com/duksh/terraform-aws-simple-ec2,Terraform AWS EC2 101 - this terraform module creates X numbers of terraform resources of type AWS security group and ec2 instance. This module will give beginers an idea on how to start with IaC using terraform and aws-ec2 instance and security group
 simple-ecs-service,JuanLSanchez,2400,aws,https://github.com/JuanLSanchez/terraform-aws-simple-ecs-service," Terraform module to create a service in a ecs cluster."
@@ -16816,6 +16824,7 @@ vpc,Taherasharifi,9001,aws,https://github.com/Taherasharifi/terraform-aws-vpc,
 vpc,TanTruong1992,25352,aws,https://github.com/TanTruong1992/terraform-aws-vpc,
 vpc,TarikIdri,12623,aws,https://github.com/TarikIdri/terraform-aws-vpc,
 vpc,Uulzhan,9421,aws,https://github.com/Uulzhan/terraform-aws-vpc,
+vpc,VIET-TU,26560,aws,https://github.com/VIET-TU/terraform-aws-vpc,
 vpc,VictorPos,12622,aws,https://github.com/VictorPos/terraform-aws-vpc,
 vpc,ViktorUJ,26128,aws,https://github.com/ViktorUJ/terraform-aws-vpc,Terraform Module that defines a VPC with public/private subnets across multiple AZs with Internet Gateways
 vpc,Voyagese,6711,aws,https://github.com/oguseva-a/terraform-aws-vpc,
@@ -17513,6 +17522,7 @@ vscode-web-ext-fix,Flowrome,26437,flowrome,https://github.com/Flowrome/terraform
 vsensor,darktrace,21925,aws,https://github.com/darktrace/terraform-aws-vsensor,Terraform module for deploying Darktrace vSensor in AWS
 vsensor,darktrace,21926,gcp,https://github.com/darktrace/terraform-gcp-vsensor,Terraform module for deploying Darktrace vSensor in GCP
 vsocket-aws,catonetworks,26504,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws,
+vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
 vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
 vspan-session,netascode,17161,aci,https://github.com/netascode/terraform-aci-vspan-session,Terraform Cisco ACI VSPAN Session Module
 vsphere,NX1X,26331,vmware,https://github.com/NX1X/terraform-vmware-vsphere,This Terraform module allows you to deploy multiple virtual machines on VMware vSphere with the same configuration. It supports various operating systems and provides flexibility in configuring VM attributes. Disclaimer: This module was developed to serve my workplace. The repository is a template without credentials and is still under development.
