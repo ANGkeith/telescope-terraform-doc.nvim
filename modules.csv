@@ -601,7 +601,7 @@ alb-listener-rules,mergermarket,3693,acuris,https://github.com/mergermarket/terr
 alb-logging,lawliet89,12522,aws,https://github.com/lawliet89/terraform-aws-alb-logging,
 alb-logs-to-elasticsearch,neillturner,2680,aws,https://github.com/neillturner/terraform-aws-alb-logs-to-elasticsearch,Send ALB logs from S3 bucket to ElasticSearch using AWS Lambda
 alb-metric-alarms,dod-iac,6968,aws,https://github.com/dod-iac/terraform-aws-alb-metric-alarms,ALB Metric Alarms
-alb-nia,escapace,13256,aws,https://github.com/escapace/terraform-aws-alb-nia,
+alb-nia,escapace,26576,aws,https://github.com/escapace/terraform-aws-alb-nia,
 alb-per-host,egarbi,482,aws,https://github.com/egarbi/terraform-aws-alb-per-host,This create an internet-facing ALB with support to forward traffic based on host field in the HTTP header.
 alb-public-web,GenesisFunction,3086,aws,https://github.com/StratusGrid/terraform-aws-alb-public-web,alb-public-web is used to make a load balancer for standard 80/443 traffic which can automatically redirect all traffic to the secure port (443). The module uses a map of maps to be able to define multiple sites behind the same ALB (Maximum of 25!) to help with cost.
 alb-quic,terraform-alicloud-modules,12690,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-alb-quic,Terraform Module for creating QUIC listener for Application Load Balancer and setting forwarding rules on Alibaba Cloud.
@@ -5528,6 +5528,7 @@ ec2-instance,borkar-shubham,15858,aws,https://github.com/borkar-shubham/terrafor
 ec2-instance,brndnmg,19116,aws,https://github.com/brndnmg/terraform-aws-ec2-instance,Terraform module for provisioning a general purpose EC2 host
 ec2-instance,byrnedo,13544,aws,https://github.com/byrnedo/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
 ec2-instance,cloudposse,219,aws,https://github.com/cloudposse/terraform-aws-ec2-instance,Terraform module for provisioning a general purpose EC2 host
+ec2-instance,franzudev,26580,aws,https://github.com/franzudev/terraform-aws-ec2-instance,Simple terraform module to create an instance on AWS with an ssh connectivity
 ec2-instance,freyac777,24408,aws,https://github.com/freyac777/terraform-aws-ec2-instance,
 ec2-instance,frgrisk,17650,aws,https://github.com/frgrisk/terraform-aws-ec2-instance,
 ec2-instance,garyellis,7343,aws,https://github.com/garyellis/terraform-aws-ec2-instance,A generic AWS EC2 instance Terraform module.
@@ -6991,8 +6992,8 @@ fastly-routing-config-vcl-backend,mergermarket,8622,acuris,https://github.com/me
 fastly-s3-staticwebsite,opsgang,463,aws,https://github.com/opsgang/terraform-aws-fastly-s3-staticwebsite,This module allows you serving S3 bucket website through Fastly
 fastmail,MartiUK,10607,digitalocean,https://github.com/MartiUK/terraform-digitalocean-fastmail,Module to set all the DNS records required for Fastmail email hosting on Digital Ocean.
 fastmail,MartiUK,10797,cloudflare,https://github.com/MartiUK/terraform-cloudflare-fastmail,Module to set all the DNS records required for Fastmail email hosting on Cloudflare.
-fastmail,escapace,10824,cloudflare,https://github.com/escapace/terraform-cloudflare-fastmail,fastmail domain configuration for cloudflare
-fastmail,escapace,10839,aws,https://github.com/escapace/terraform-aws-fastmail,fastmail domain configuration for route53
+fastmail,escapace,26577,aws,https://github.com/escapace/terraform-aws-fastmail,fastmail domain configuration for route53
+fastmail,escapace,26583,cloudflare,https://github.com/escapace/terraform-cloudflare-fastmail,fastmail domain configuration for cloudflare
 fastmail-dns,bluk,1708,google,https://github.com/bluk/terraform-google-fastmail-dns,Unofficial Terraform module to create Google DNS records for setting up FastMail
 fastmail-dns,bluk,1709,aws,https://github.com/bluk/terraform-aws-fastmail-dns,Unofficial Terraform module to create AWS Route 53 records for setting up FastMail
 fastmail-dns,bluk,1750,cloudflare,https://github.com/bluk/terraform-cloudflare-fastmail-dns,Unofficial Terraform module to create Cloudflare records for setting up FastMail.
@@ -7027,7 +7028,7 @@ federated-service-principal,ptonini,21930,azuread,https://github.com/ptonini/ter
 federated-service-principal-connection,libre-devops,23453,azuredevops,https://github.com/libre-devops/terraform-azuredevops-federated-service-principal-connection,"A module that uses the Azuredevops, AzureRm and AzureAD provider to create a service principal (spn), scope that spn to a subscription with a role of your choice, it then configures OIDC with Azure DevOps on Entra ID and adds that newly created service principal to a Azure DevOps service connection for use. Use script for Azure DevOps Org id 🚀"
 feelgood,harukaxq,17905,lambda,https://github.com/harukaxq/terraform-lambda-feelgood,
 fetch,cloudventure-io,10862,nodejs,https://github.com/cloudventure-io/terraform-nodejs-fetch,Terraform NodeJS fetch module
-fetch-github,escapace,10806,null,https://github.com/escapace/terraform-null-fetch-github,"download files, folders, and release assets from a specific git commit, branch, or tag of public and private GitHub repositories"
+fetch-github,escapace,26584,null,https://github.com/escapace/terraform-null-fetch-github,"download files, folders, and release assets from a specific git commit, branch, or tag of public and private GitHub repositories"
 fetching,KhalifaBL,6588,aws,https://github.com/KhalifaBL/terraform-aws-fetching,
 file,opendevsecops,2126,local,https://github.com/opendevsecops/terraform-local-file,Helper terraform module to write to local files in a consistent way
 file-based-role-assignments,wenzel-felix,17628,azurerm,https://github.com/wenzel-felix/terraform-azurerm-file-based-role-assignments,This terraform module allows the user to create Azure role assignments based on json files. By providing this setup the terraform code itself is highly minimized while also allowing better overview through a fully customizable file structure.
@@ -7672,7 +7673,6 @@ grafana-dashboards,ammilam,10919,kubernetes,https://github.com/ammilam/terraform
 grafana-prometheus,Nosaj123,19385,aws,https://github.com/Nosaj123/terraform-aws-grafana-prometheus,Terraform Script to setup AWS ASG to run Grafana & Prometheus.
 grafana-rule-groups,timtorChen,26314,module,https://github.com/timtorChen/terraform-module-grafana-rule-groups,
 grafana-stack,squareops,26446,kubernetes,https://github.com/squareops/terraform-kubernetes-grafana-stack,"Terraform module to create a Prometheus, Grafana, and Loki stack. This module automates the deployment and configuration of Prometheus for metrics collection, Grafana for data visualization, and Loki for log aggregation, resulting in a cohesive observability stack"
-grafana-workload-account,escapace,14928,aws,https://github.com/escapace/terraform-aws-grafana-workload-account,
 grant-bitbucket-workload-provider-sa-impersonate,llcloudstudio,10975,google,https://github.com/llcloudstudio/terraform-google-grant-bitbucket-workload-provider-sa-impersonate,This module will configure an existing workload identity pool provider so that it is allowed to impersonate a service account.
 granted-approvals,bjsscloud,15917,aws,https://github.com/bjsscloud/terraform-aws-granted-approvals,Complete deployment of Granted Approvals by Common Fate (https://docs.commonfate.io/granted-approvals/introduction)
 graphdb,Ontotext-AD,20731,aws,https://github.com/Ontotext-AD/terraform-aws-graphdb,Terraform module for deploying GraphDB in AWS
@@ -9227,7 +9227,7 @@ label,bigfantech-cloud,19151,null,https://github.com/bigfantech-cloud/terraform-
 label,cloudposse,1065,terraform,https://github.com/cloudposse/terraform-terraform-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,cloudposse,179,null,https://github.com/cloudposse/terraform-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,devops-workflow,631,local,https://github.com/devops-workflow/terraform-local-label,Terraform module to create consistent naming
-label,escapace,13615,null,https://github.com/escapace/terraform-null-label,consistent naming convention
+label,escapace,26575,null,https://github.com/escapace/terraform-null-label,consistent naming convention
 label,geekcell,19557,aws,https://github.com/geekcell/terraform-aws-label,Terraform module to provision an AWS Label.
 label,justtrackio,19089,null,https://github.com/justtrackio/terraform-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,lablabs,3506,terraform,https://github.com/lablabs/terraform-terraform-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
@@ -13339,7 +13339,7 @@ route53-keybase-domain-proof,operatehappy,4179,aws,https://github.com/ksatirli/t
 route53-module,nashvan,7141,aws,https://github.com/nbmustafa/terraform-aws-route53-module,AWS Route53 Terraform module with existing Hosted Zone and complete examples
 route53-mta-sts,ugns,7935,aws,https://github.com/ugns/terraform-aws-route53-mta-sts,Mail Transport Agent - Strict Transport Security for AWS Route53
 route53-multi-account,phzietsman,5415,aws,https://github.com/phzietsman/terraform-aws-route53-multi-account,A module to help manage Route53 records sets across many accounts  
-route53-nia,escapace,13990,aws,https://github.com/escapace/terraform-aws-route53-nia,
+route53-nia,escapace,26578,aws,https://github.com/escapace/terraform-aws-route53-nia,
 route53-o365,mccanney,1714,aws,https://github.com/mccanney/terraform-aws-route53-o365,Terraform module to create Office 365 Route53 DNS records
 route53-o365,tiguard,1016,aws,https://github.com/mccanney/terraform-aws-route53-o365,Terraform module to create Office 365 Route53 DNS records
 route53-public-hosted-zone,armakuni,21128,aws,https://github.com/armakuni/terraform-aws-route53-public-hosted-zone,Terraform module to easily provision a public hosted zone with given records on Route53
@@ -13415,7 +13415,7 @@ runner,koklushkin,25201,bitbucket,https://github.com/koklushkin/terraform-bitbuc
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
 runner-group,Flaconi,25030,github,https://github.com/Flaconi/terraform-github-runner-group,Terraform module to manage GitHub action runner group settings
 runtask-iam-access-analyzer,aws-ia,18971,aws,https://github.com/aws-ia/terraform-aws-runtask-iam-access-analyzer,
-runtask-tf-plan-analyzer,aws-ia,26130,aws,https://github.com/aws-ia/terraform-aws-runtask-tf-plan-analyzer,
+runtask-tf-plan-analyzer,aws-ia,26130,aws,https://github.com/aws-ia/terraform-aws-runtask-tf-plan-analyzer,Terraform plan analyzer using Amazon Bedrock
 runtime-connector,symopsio,15717,aws,https://github.com/symopsio/terraform-aws-runtime-connector,The `runtime-connector` module provisions an IAM role that a Sym Runtime uses to execute a Flow.
 ruunerongcp,jvm2023,25827,google,https://github.com/jvm2023/terraform-google-ruunerongcp,git lab runner on gcp
 rvm,Ramyacv123,18895,aws,https://github.com/Ramyacv123/terraform-aws-rvm,
@@ -13647,7 +13647,7 @@ s3-modules,iphorobets,19356,aws,https://github.com/iphorobets/terraform-aws-s3-m
 s3-myapp,zainulabidin302,10880,aws,https://github.com/zainulabidin302/terraform-aws-s3-myapp,
 s3-new,bootlabstech,17144,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
 s3-object,chgasparoto,21856,aws,https://github.com/chgasparoto/terraform-aws-s3-object,Terraform module to handle S3 buckets and objects.
-s3-object,escapace,19599,aws,https://github.com/escapace/terraform-aws-s3-object,
+s3-object,escapace,26579,aws,https://github.com/escapace/terraform-aws-s3-object,
 s3-object,jason-morsley,5109,aws,https://github.com/jason-morsley/terraform-aws-s3-object,
 s3-object-folder,chandan-singh,5174,aws,https://github.com/chandan-singh/terraform-aws-s3-object-folder,"Terraform module, which takes care of uploading a folder and its content to a bucket with content-type"
 s3-object-tagging,adacotech,13857,aws,https://github.com/adacotech/terraform-aws-s3-object-tagging,A terraform module that attaches the specified tag to the object uploaded to the s3 bucket.
@@ -14661,6 +14661,7 @@ simple-ecs-service,sancastlem,8099,aws,https://github.com/sancastlem/terraform-a
 simple-eks,vistaprint,7412,aws,https://github.com/vistaprint/terraform-aws-simple-eks,Simple Terraform module to manage an AWS EKS cluster
 simple-eks-addons,vistaprint,7413,aws,https://github.com/vistaprint/terraform-aws-simple-eks-addons,Terraform module to install several add-ons on an existing EKS cluster
 simple-eks-node-group,vistaprint,7784,aws,https://github.com/vistaprint/terraform-aws-simple-eks-node-group,Simple Terraform module to manage an AWS EKS cluster node group
+simple-ipv4-vpc,cloudopusnet,26574,aws,https://github.com/cloudopusnet/terraform-aws-simple-ipv4-vpc,
 simple-lambda,barneyparker,22084,aws,https://github.com/barneyparker/terraform-aws-simple-lambda,Simple Lambda function deployment
 simple-loadbalancer,ka-myl,12979,upcloud,https://github.com/ka-myl/terraform-upcloud-simple-loadbalancer,Basic load balancer setup for UpCloud
 simple-login,uceumice,17159,cloudflare,https://github.com/uceumice/terraform-cloudflare-simple-login,
@@ -15380,6 +15381,8 @@ storage,TaitoUnited,8232,azurerm,https://github.com/TaitoUnited/terraform-azurer
 storage,ajay21ks,17114,azure,https://github.com/ajay21ks/terraform-azure-storage,
 storage,ajijnadaf,18140,azure,https://github.com/ajijnadaf/terraform-azure-storage,
 storage,amanbaj70,22239,azure,https://github.com/amanbaj70/terraform-azure-storage,
+storage,bellanov,26571,google,https://github.com/bellanov/terraform-google-storage,Google Cloud Storage Terraform Module.
+storage,bellanov,26572,aws,https://github.com/bellanov/terraform-aws-storage,Amazon Web Services Storage Module.
 storage,clouddrove,16627,gcp,https://github.com/clouddrove/terraform-gcp-storage,
 storage,clouddrove,16875,azure,https://github.com/clouddrove/terraform-azure-storage,"This terraform module is designed to create Azure Storage Account  resources. The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud."
 storage,crayudu425,26031,azure,https://github.com/crayudu425/terraform-azure-storage,
@@ -15841,7 +15844,7 @@ template,jakoberpf,11866,module,https://github.com/jakoberpf/terraform-module-te
 template,rhythmictech,3160,azurerm,https://github.com/rhythmictech/terraform-azurerm-template,Template repo for Azure module
 template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template,rhythmictech,5399,terraform,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
-template-directory,escapace,14606,null,https://github.com/escapace/terraform-null-template-directory,
+template-directory,escapace,26585,null,https://github.com/escapace/terraform-null-template-directory,
 template-files,evershade,24987,config,https://github.com/evershade/terraform-config-template-files,
 template-instance,cypik,22788,google,https://github.com/cypik/terraform-google-template-instance,
 template-sync,nullc4t,17502,null,https://github.com/const-tmp/terraform-null-template-sync,Auto-updatable templates
@@ -15866,7 +15869,7 @@ terrable-api,terrable-dev,25822,aws,https://github.com/terrable-dev/terraform-aw
 terrablog,davidnewman,1393,aws,https://github.com/davidnewman/terraform-aws-terrablog,Terraform module for provisioning S3/CloudFront hosted sites.
 terraboard,Dan6erbond,17528,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-terraboard,
 terraform-Linux-instances,JayyyJayyyyy,23896,aws,https://github.com/JayyyJayyyyy/terraform-aws-terraform-Linux-instances,
-terraform-backend,escapace,21836,aws,https://github.com/escapace/terraform-aws-terraform-backend,A terraform module to set up remote state management with S3 backend for your account.
+terraform-backend,escapace,26581,aws,https://github.com/escapace/terraform-aws-terraform-backend,A terraform module to set up remote state management with S3 backend for your account.
 terraform-backend,yivolve,24986,azure,https://github.com/yivolve/terraform-azure-terraform-backend,Terraform module to create a terraform backend to be used on Azure.
 terraform-cloud,BrynardSecurity-terraform,13504,tfe,https://github.com/BrynardSecurity-terraform/terraform-tfe-tc-organization,
 terraform-cloud-agent,redeux,6498,kubernetes,https://github.com/redeux/terraform-kubernetes-terraform-cloud-agent,A Terraform module for deploying the Terraform Cloud for Business Agent in Kubernetes
@@ -16199,7 +16202,7 @@ ucs-domain-profiles,terraform-cisco-modules,15682,intersight,https://github.com/
 uday-s3,lakshmilokeshhema,21798,aws,https://github.com/lakshmilokeshhema/terraform-aws-uday-s3,
 umastorage,umarani353,24731,azurerm,https://github.com/umarani353/terraform-azurerm-umastorage,terraform-azurerm-umastorage
 umig-alb,bootlabstech,24218,google,https://github.com/bootlabstech/terraform-google-umig-alb,Application load balancer for unmanaged instance group (Compute instance)
-unarchive,escapace,10807,null,https://github.com/escapace/terraform-null-unarchive,"create & extract archives, compress & decompress files"
+unarchive,escapace,26586,null,https://github.com/escapace/terraform-null-unarchive,"create & extract archives, compress & decompress files"
 underused-servers,kiwicom,3028,datadog,https://github.com/kiwicom/terraform-datadog-underused-servers,
 ungpg,factorysh,472,basic,https://github.com/factorysh/terraform-basic-ungpg,Decrypt settings for Terraform
 unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocean-unifi,Provision Unifi Controller on DigitalOcean
@@ -16928,7 +16931,7 @@ vpc,easyweb-devops,25749,digital_ocean_instance,https://github.com/easyweb-devop
 vpc,emine1576,9379,aws,https://github.com/emine1576/terraform-aws-vpc,
 vpc,eminealbayram,9394,aws,https://github.com/eminealbayram/terraform-aws-vpc,
 vpc,erkinsinc,5798,aws,https://github.com/erkinsinc/terraform-aws-vpc,
-vpc,escapace,13623,aws,https://github.com/escapace/terraform-aws-vpc,define a vpc
+vpc,escapace,26582,aws,https://github.com/escapace/terraform-aws-vpc,define a vpc
 vpc,exnodeshub,22512,aws,https://github.com/exnodeshub/terraform-aws-vpc,
 vpc,ezzat223,25947,aws,https://github.com/ezzat223/terraform-aws-vpc,
 vpc,faheemjmi,19185,aws,https://github.com/faheemjmi/terraform-aws-vpc,Terraform module to create vpc with tgw
@@ -17841,6 +17844,7 @@ wp-infrastructure,jhagdu,5902,gcp,https://github.com/jhagdu/terraform-gcp-wp-inf
 wp-stack,Kelvinloucosta,21147,google,https://github.com/Kelvinloucosta/terraform-google-wp-stack,Word Press with SQL (Devops_Pro)
 wp_do,Filype05,24583,digitalocean,https://github.com/Filype05/terraform-digitalocean-wp_do,
 wp_do,LuizMeier,20970,digitalocean,https://github.com/LuizMeier/terraform-digitalocean-wp_do,
+wp_do,MAGSON-OLIVEIRA,26573,digitalocean,https://github.com/MAGSON-OLIVEIRA/terraform-digitalocean-wp_do,
 wp_do,Resnak1499,24102,digitalocean,https://github.com/Resnak1499/terraform-digitalocean-wp_do,
 wp_do,diegosanchomagalhaes,21409,digitalocean,https://github.com/diegosanchomagalhaes/terraform-digitalocean-wp_do,
 wp_do,fabricioveronez,18316,digitalocean,https://github.com/fabricioveronez/terraform-digitalocean-wp_do,
