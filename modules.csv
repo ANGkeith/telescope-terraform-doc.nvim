@@ -1876,7 +1876,7 @@ aws-organization,cyberlabrs,19268,aws,https://github.com/cyberlabrs/terraform-aw
 aws-postgresql,intel,16703,intel,https://github.com/intel/terraform-intel-aws-postgresql,Intel Cloud Optimization Module - AWS RDS PostgreSQL
 aws-postgresql-parameter-group,intel,20479,intel,https://github.com/intel/terraform-intel-aws-postgresql-parameter-group,Intel Cloud Optimization Module - AWS PostgreSQL Parameter Group
 aws-private-endpoint,infrablocks,7778,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-aws-private-endpoint,A Terraform module for creating a private endpoint for AWS for MongoDB Atlas.
-aws-rds-event-integration,falcon-terraform-modules,26476,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-rds-event-integration,
+aws-rds-event-integration,falcon-terraform-modules,26476,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-rds-event-integration,This Terraform module constructs and configures the necessary resources for integrating AWS RDS Event into New Relic.
 aws-role,ptonini,16785,vault,https://github.com/ptonini/terraform-vault-aws-role,
 aws-route53,locus313,20714,module,https://github.com/locus313/terraform-module-aws-route53,Terraform module which manages Route53 resources on AWS
 aws-router,mergermarket,4100,acuris,https://github.com/mergermarket/terraform-acuris-aws-router,
@@ -3701,6 +3701,9 @@ consul-ecs,hashicorp,8826,aws,https://github.com/hashicorp/terraform-aws-consul-
 consul-ent-k8s,hashicorp,13576,aws,https://github.com/hashicorp/terraform-aws-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on EKS as described by HashiCorp reference architecture.
 consul-ent-k8s,hashicorp,13577,gcp,https://github.com/hashicorp/terraform-gcp-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on GKE as described by HashiCorp reference architecture.
 consul-ent-k8s,hashicorp,13578,azure,https://github.com/hashicorp/terraform-azure-consul-ent-k8s,A Terraform Module for provisioning an Enterprise Consul cluster on AKS as described by HashiCorp reference architecture.
+consul-enterprise-hvd,hashicorp,26596,aws,https://github.com/hashicorp/terraform-aws-consul-enterprise-hvd,A Terraform module for provisioning and installing Consul Enterprise on AWS EC2 as described in HashiCorp Validated Designs
+consul-enterprise-hvd,hashicorp,26597,azurerm,https://github.com/hashicorp/terraform-azurerm-consul-enterprise-hvd,A Terraform module for provisioning and installing Consul Enterprise on Azure virtual machines as described in HashiCorp Validated Designs
+consul-enterprise-hvd,hashicorp,26598,google,https://github.com/hashicorp/terraform-google-consul-enterprise-hvd,A Terraform module for provisioning and installing Consul Enterprise on Google Compute Engine as described in HashiCorp Validated Designs
 consul-event-waf,scshitole,14701,bigip,https://github.com/scshitole/terraform-bigip-consul-event-waf,
 consul-firewall,jarensaa,4800,digitalocean,https://github.com/jarensaa/terraform-digitalocean-consul-firewall,Terraform module for creating a standard firewall with ports open for a Consul server.
 consul-k8s-integration,kalenarndt,16276,vault,https://github.com/kalenarndt/terraform-vault-consul-k8s-integration,"Module that configures all of the secrets engines, secrets, and certificates for Consul to use"
@@ -3838,6 +3841,7 @@ cosmosdb,fortytwoservices,24388,azurerm,https://github.com/fortytwoservices/terr
 cosmosdb,kumarvna,9634,azurerm,https://github.com/kumarvna/terraform-azurerm-cosmosdb,Terraform module to manage a CosmosDB (formally DocumentDB) with optional resources. 
 cosmosdb,libre-devops,17921,azurerm,https://github.com/libre-devops/terraform-azurerm-cosmosdb,A module to deploy a CosmosDB
 cosmosdb,mcalik77,6860,azurerm,https://github.com/mcalik77/terraform-azurerm-cosmosdb,
+cosmosdb-account,libre-devops,26599,azurerm,https://github.com/libre-devops/terraform-azurerm-cosmosdb-account,A module to deploy a CosmosDB
 cosmosdb_account,TaleLearnCode,26406,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_account,Terraform module for managing Azure Cosmos DB accounts.
 cosmosdb_sql_container,TaleLearnCode,26410,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_sql_container,Terraform module for managing Azure Cosmos DB NoSQL containers.
 cosmosdb_sql_database,TaleLearnCode,26409,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_sql_database,Terraform module for managing Azure Cosmos DB NoSQL databases.
@@ -5588,6 +5592,7 @@ ec2-module,nataliagranato,25421,aws,https://github.com/nataliagranato/terraform-
 ec2-module-bgunawan,gunawanbambang,14032,aws,https://github.com/gunawanbambang/terraform-aws-ec2-module-bgunawan,
 ec2-multi-nics-disks,pyjoepy06,9247,aws,https://github.com/pyjoepy06/terraform-aws-ec2-multi-nics-disks,Deploy EC2 Servers with Multi-Disk and/or Multi-NICs
 ec2-nat,hazelops,9982,aws,https://github.com/hazelops/terraform-aws-ec2-nat,Terraform EC2 NAT Host Module
+ec2-nginx-module,mahir-makwana,26591,aws,https://github.com/mahir-makwana/terraform-aws-ec2-nginx-module,
 ec2-nginx-plus,f5devcentral,17464,aws,https://github.com/f5devcentral/terraform-aws-ec2-nginx-plus,Create an NGINX Plus AWS EC2 Instance
 ec2-no-ip-var,vinaynb,1253,aws,https://github.com/vinaynb/terraform-aws-ec2-no-ip-var,
 ec2-openvpn-as,rizkiprass,19928,aws,https://github.com/rizkiprass/terraform-aws-ec2-openvpn-as,Terraform module which creates EC2 resources with OpenVPN Access Server installed on AWS
@@ -8165,6 +8170,7 @@ icloud-domain,nikaro,23215,aws,https://github.com/nikaro/terraform-aws-icloud-do
 icp,GSLabDev,1207,module,https://github.com/GSLabDev/terraform-module-icp,Terraform module for IBM Cloud Platform which is IBM's cloud orchestration platform. Module helps in doing installation of ICP in Distributed and Base mode.
 id,BrynardSecurity-terraform,12996,random,https://github.com/BrynardSecurity-terraform/terraform-null-random-id,
 identities,misurellig,4703,vault,https://github.com/misurellig/terraform-vault-identities,A terraform module to setup identities in Hashicorp Vault
+identity,bellanov,26601,google,https://github.com/bellanov/terraform-google-identity,Google Cloud Identity Module.
 identity,mikamakusa,25764,oci,https://github.com/mikamakusa/terraform-oci-identity,
 identity-engine-data-plane,LiveRamp,23010,google,https://github.com/LiveRamp/terraform-google-identity-engine-data-plane,Identity/Identity-Engine - Data plane Terraform module
 identity-group,mineiros-io,11381,google,https://github.com/mineiros-io/terraform-google-identity-group,A Terraform module to create and manage a Google Identity Group (GCR) in Google Cloud https://cloud.google.com/container-registry
@@ -11625,7 +11631,7 @@ organization,PCDEV-Cloud,24439,google,https://github.com/PCDEV-Cloud/terraform-g
 organization,SunDevs,8207,grafana,https://github.com/SunDevs/terraform-grafana-organization,
 organization,altissimo-hq,18651,github,https://github.com/altissimo-hq/terraform-github-organization,"Manages a GitHub Organization, Members, Teams, and Repositories"
 organization,altissimo-hq,18821,google,https://github.com/altissimo-hq/terraform-google-organization,Manages a Google Cloud Organization
-organization,blackbird-cloud,19240,aws,https://github.com/blackbird-cloud/terraform-aws-organization,AWS Organization module
+organization,blackbird-cloud,19240,aws,https://github.com/blackbird-cloud/terraform-aws-organization,Terraform module to create an AWS Organization
 organization,cktf,25975,gitlab,https://github.com/cktf/terraform-gitlab-organization,Terraform Gitlab Organization Module
 organization,cktf,25976,grafana,https://github.com/cktf/terraform-grafana-organization,Terraform Grafana Organization Module
 organization,cktf,25977,sentry,https://github.com/cktf/terraform-sentry-organization,Terraform Sentry Organization Module
@@ -13207,6 +13213,8 @@ rogue-endpoint-control,netascode,10315,aci,https://github.com/netascode/terrafor
 rohitstorage,RohitBaweja,18136,azure,https://github.com/RohitBaweja/terraform-azure-rohitstorage,
 role,BotTech,5029,aws,https://github.com/BotTech/terraform-aws-role,Terraform module for AWS which creates an IAM role.
 role,Infostrux-Solutions,14986,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-role,"Open Source Snowflake Terraform Module for Role Implementation, also in the terraform registry, http://registry.terraform.io/modules/Infostrux-Solutions/role/snowflake/latest"
+role,bellanov,26600,google,https://github.com/bellanov/terraform-google-role,Google Cloud Role Module.
+role,bellanov,26602,aws,https://github.com/bellanov/terraform-aws-role,Amazon Web Services Role Module.
 role,dza89,14244,irsa,https://github.com/dza89/terraform-irsa-role,Terraform module to generate a role with IRSA configured
 role,getindata,16857,snowflake,https://github.com/getindata/terraform-snowflake-role,Terraform module for managing Snowflake role and grants
 role,kmayer10,13401,aws,https://github.com/kmayer10/terraform-aws-role,module to create different roles needs to setup EKS cluster
@@ -15995,6 +16003,7 @@ tfc-workload-identity,SPHTech-Platform,15342,aws,https://github.com/SPHTech-Plat
 tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-Platform/terraform-google-tfc-workload-identity,
 tfc-workload-identity,SPHTech-Platform,15674,vault,https://github.com/SPHTech-Platform/terraform-vault-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
+tfc_oidc,ned1313,26589,azuread,https://github.com/ned1313/terraform-azuread-tfc_oidc,Create OIDC Credentials in Azure for HCP Terraform
 tfcloud-oidc-iam,naftulikay,24427,aws,https://github.com/naftulikay/terraform-aws-tfcloud-oidc-iam,A Terraform module for AWS which sets up an IAM OpenID Connect Provider for Terraform Cloud.
 tfe,pogosoftware,23428,tfe,https://github.com/pogosoftware/terraform-tfe-tfe,This is terraform module that will have helpful modules to provision reousrces in Terraform Cloud
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
