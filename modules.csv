@@ -1142,7 +1142,7 @@ arc-cloud-custodian,sourcefuse,21263,aws,https://github.com/sourcefuse/terraform
 arc-cloudfront,sourcefuse,21302,aws,https://github.com/sourcefuse/terraform-aws-arc-cloudfront,Repo for managing the ARC CloudFront Terraform Module.
 arc-common-data,sourcefuse,22743,aws,https://github.com/sourcefuse/terraform-aws-arc-common-data,
 arc-control-tower-aft,sourcefuse,21308,aws,https://github.com/sourcefuse/terraform-aws-arc-control-tower-aft,Terraform Module repo for managing the parent AFT configuration responsible for deploying AFT resources into accounts.
-arc-db,sourcefuse,21303,aws,https://github.com/sourcefuse/terraform-aws-arc-db,Repo for managing the Database (RDS + Aurora) Terraform Module.
+arc-db,sourcefuse,21303,aws,https://github.com/sourcefuse/terraform-aws-arc-db,Repo for managing the Database (RDS + Aurora+Proxy) Terraform Module.
 arc-dms,sourcefuse,26561,aws,https://github.com/sourcefuse/terraform-aws-arc-dms,This Terraform module for AWS Database Migration Service (DMS) simplifies the process of setting up and managing database migrations. 
 arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws-arc-document-db,ARC module to provision an Amazon DocumentDB cluster.
 arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2,Terraform module provisioning  EC2 instances and Load Balancer
@@ -1921,6 +1921,7 @@ aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
 aws-vpc-cni,kwaziio,23284,kubernetes,https://github.com/kwaziio/terraform-kubernetes-aws-vpc-cni,Terraform Module for Managing AWS VPC CNI Configuration for an EKS Cluster on AWS
 aws-vpc-site,f5devcentral,21754,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site,Terraform module which creates AWS VPC Site for F5 Distributed Cloud (XC)
 aws-vpc-site-networking,f5devcentral,21750,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site-networking,Terraform module which creates AWS VPC for F5 Distributed Cloud (XC) AWS VPC Site
+aws-workspace,data-platform-hq,26671,databricks,https://github.com/data-platform-hq/terraform-databricks-aws-workspace,
 aws-workspace,terraform-databricks-modules,26465,databricks,https://github.com/terraform-databricks-modules/terraform-databricks-aws-workspace,Terraform module for creating Databricks workspaces in AWS
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
 awsec2,CharlyRos,26249,carlosros,https://github.com/CharlyRos/terraform-carlosros-awsec2,Curso Terraform
@@ -2285,7 +2286,7 @@ beanstalk-environment,HappyPathway,24672,aws,https://github.com/HappyPathway/ter
 beanstalk-version,cloudopsworks,12987,aws,https://github.com/cloudopsworks/terraform-aws-beanstalk-version,Terraform Application Version modules used in environment templates
 beanstalk-web,jwa-lab,19547,aws,https://github.com/jwa-lab/terraform-aws-beanstalk-web,Terraform module to create an AWS Elastic Beanstalk WebServer environment
 beanstalk-worker,jwa-lab,18550,aws,https://github.com/jwa-lab/terraform-aws-beanstalk-worker,Terraform module to create an AWS Elastic Beanstalk Worker environment
-bedrock-agents,aws-ia,26668,aws,https://github.com/aws-ia/terraform-aws-bedrock-agents,
+bedrock-agents,aws-ia,26674,aws,https://github.com/aws-ia/terraform-aws-bedrock-agents,
 bedrock-agents,quixoticmonk,26669,aws,https://github.com/quixoticmonk/terraform-aws-bedrock-agents,
 bedrock-user,peytoncasper,24868,aws,https://github.com/peytoncasper/terraform-aws-bedrock-user,
 benthos-serverless,cludden,11674,aws,https://github.com/cludden/terraform-aws-benthos-serverless,a Terraform module for deploying Benthos as an AWS Lambda function with dynamic configuration via Gomplate
@@ -2572,6 +2573,7 @@ casty,CastyLab,7268,kubernetes,https://github.com/castyapp/terraform-kubernetes-
 catalyst-cluster-bootstrap,catalystsquad,13928,kubernetes,https://github.com/catalystsquad/terraform-kubernetes-catalyst-cluster-bootstrap,Terraform module that bootstraps a Kubernetes cluster with useful development and monitoring tools
 catalyst-platform,catalystsquad,13925,aws,https://github.com/catalystsquad/terraform-aws-catalyst-platform,Terraform module that provisions the Catalyst Platform in AWS
 catdogs,lostcatdog,21861,google,https://github.com/lostcatdog/terraform-google-catdogs,
+cave,CAVEconnectome,26675,google,https://github.com/CAVEconnectome/terraform-google-cave,A repository to store terraform modules for setting up infrastructure as code for CAVE in google cloud
 cbr,terraform-ibm-modules,19445,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cbr,This module can be used to provision and configure Context Based Restrictions.
 cbr,tf-cloud-modules,19016,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-cbr,Sbercloud CBR Terraform module
 cce,FlexibleEngineCloud,6019,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-cce,Terraform module which creates CCE resources on Flexible Engine 
@@ -2861,6 +2863,7 @@ cloud-bootstrap,bayudwiyansatria,11169,kubernetes,https://github.com/bayudwiyans
 cloud-build,layer-3,25010,google,https://github.com/layer-3/terraform-google-cloud-build,
 cloud-build,tomarv2,12439,google,https://github.com/tomarv2/terraform-google-cloud-build,Terraform module for Google Cloud Build
 cloud-build-gen-2,kasna-cloud,21624,google,https://github.com/kasna-cloud/terraform-google-cloud-build-gen-2,A Terraform Module to simplify the connection of GitHub and GitLab repositories to Cloud Build using Cloud Build Gen 2 Terraform resources
+cloud-build-notifications,chrisrickenbacher,26673,google,https://github.com/chrisrickenbacher/terraform-google-cloud-build-notifications,Terraform Module to set up Cloud Build notifications.
 cloud-build-slack-notifier,simplifi,9474,google,https://github.com/simplifi/terraform-google-cloud-build-slack-notifier,Terraform Module to add Slack notifications to Cloud Build
 cloud-carbon-footprint-export,IAmFrench,18441,google,https://github.com/IAmFrench/terraform-google-cloud-carbon-footprint-export,Terraform Module for Google Cloud Carbon Footprint export to BigQuery.
 cloud-composer,bootlabstech,12896,google,https://github.com/bootlabstech/terraform-google-cloud-composer,
@@ -8434,6 +8437,7 @@ integrations,TaitoUnited,10711,aws,https://github.com/TaitoUnited/terraform-aws-
 integrations,TaitoUnited,8228,azurerm,https://github.com/TaitoUnited/terraform-azurerm-integrations,
 integrations,claranet,3654,datadog,https://github.com/claranet/terraform-datadog-integrations,Manage Datadog integrations with terraform dedicated modules.
 integrations,honeycombio,16583,aws,https://github.com/honeycombio/terraform-aws-integrations,Terraform module to integrate Honeycomb and AWS
+integrations,truefoundry,26672,truefoundry,https://github.com/truefoundry/terraform-truefoundry-integrations,
 integrations,uptrace,18791,aws,https://github.com/uptrace/terraform-aws-integrations,Terraform AWS CloudWatch integration for Uptrace
 interactsh,Explorer1092,13994,x,https://github.com/Explorer1092/terraform-x-interactsh,
 interactsh_web,Explorer1092,13988,x,https://github.com/Explorer1092/terraform-x-interactsh_web,
@@ -8481,6 +8485,7 @@ ipam,tedilabs,21164,aws,https://github.com/tedilabs/terraform-aws-ipam,"🌳 A s
 ipam-autopilot,openx,25356,google,https://github.com/openx/terraform-google-ipam-autopilot,Infrastructure module  for GCP IPAM Autopilot implementation using Cloud Run
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infinera-ipm-modules,
+ipsec-aws,catonetworks,26676,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws,
 ipv6-intra-vpc-security-group-rule,JudeQuintana,25219,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-intra-vpc-security-group-rule,
 ipv6-subnet,goarano,26245,random,https://github.com/goarano/terraform-random-ipv6-subnet," Random IPv6 subnet generator for Terraform "
 ipwhitelist,a3linux,17967,null,https://github.com/a3linux/terraform-null-ipwhitelist,A simple terraform module to manage IP whitelist easy and flexible
