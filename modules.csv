@@ -2255,6 +2255,7 @@ batch-compute-environment,QuiNovas,3448,aws,https://github.com/QuiNovas/terrafor
 batch-compute-environment,corpit-consulting-public,8661,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-compute-environment,Terraform module which creates Batch Compute Environment resources on AWS
 batch-compute-environment-mod,corpit-consulting-public,2649,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-compute-environment,Terraform module which creates Batch Compute Environment resources on AWS
 batch-container-properties,karvounis,7142,aws,https://github.com/karvounis/terraform-aws-batch-container-properties,Terraform module that generates the container properties object to use in AWS Batch.
+batch-job,Freakisimo,26695,aws,https://github.com/Freakisimo/terraform-aws-batch-job,
 batch-job,bootlabstech-m,17897,aws,https://github.com/bootlabstech-m/terraform-aws-batch-job,Creates an AWS batch job
 batch-job-definition-mod,corpit-consulting-public,2663,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-job-definition,Terraform module which creates Batch Job Definition resources on AWS
 batch-job-queue-mod,corpit-consulting-public,2650,aws,https://github.com/corpit-consulting-public/terraform-aws-batch-job-queue,Terraform module which creates Batch Job Queue resources on AWS
@@ -2857,7 +2858,7 @@ cloud,andreygubarev,24875,aws,https://github.com/andreygubarev/terraform-aws-clo
 cloud,aws-ia,12246,elastic,https://github.com/aws-ia/terraform-elastic-cloud," Terraform module automates Elastic Cloud deployment and optional data migration to the AWS Cloud."
 cloud,dasmeta,17324,tfe,https://github.com/dasmeta/terraform-tfe-cloud,Automatically create terraform module from yamls and push workspaces into Terraform Cloud
 cloud,iitsDelbruegger,8917,otc,https://github.com/iitsDelbruegger/terraform-otc-cloud,
-cloud,streamnative,9324,aws,https://github.com/streamnative/terraform-aws-cloud,Terraform modules for provisioning StreamNative Cloud on aws cloud
+cloud,streamnative,9324,aws,https://github.com/streamnative/terraform-aws-cloud,Terraform modules for provisioning StreamNative Cloud on AWS
 cloud-NAT,bootlabstech,13968,google,https://github.com/bootlabstech/terraform-google-cloud-nat,
 cloud-access-keys,thoughtbot,26684,aws,https://github.com/thoughtbot/terraform-aws-cloud-access-keys,
 cloud-apic-tenant,rjohnston6,13849,aci,https://github.com/rjohnston6/terraform-aci-cloud-apic-tenant,Terraform module to manage Cisco Cloud ACI Tenants
@@ -4344,6 +4345,7 @@ diagnostic-settings,libre-devops,23224,azurerm,https://github.com/libre-devops/t
 diagnostic_setting,andrewCluey,6513,azurerm,https://github.com/andrewCluey/terraform-azurerm-diagnostic_setting,
 diana11d,Diana11d,23907,helm,https://github.com/Diana11d/terraform-helm-diana11d,
 dibbs,alismx,26393,aws,https://github.com/alismx/terraform-aws-dibbs,
+dibbs-ecr-viewer,CDCgov,26698,aws,https://github.com/CDCgov/terraform-aws-dibbs-ecr-viewer,
 dicom,philips-labs,7696,hsdp,https://github.com/philips-labs/terraform-hsdp-dicom,Terraform module to onboard to HSDP DICOM services
 dict-converter-yaml,jd4883,6958,yaml,https://github.com/jd4883/terraform-yaml-dict-converter-yaml,Small terrafom module to convert yaml to a terraform map which can be referenced in many useful ways. Strongly recommend storing this to one or more locals and using this as an alternate to tfvars for filling in values. I wrote this to easily handle building terraform code at scale with terraform 13's dynamic module instantiation features in a human readable manner.
 digitalocean-allregions,rmalenko,20750,digitalocean,https://github.com/rmalenko/terraform-digitalocean-digitalocean-allregions,DO terraform module
@@ -5758,6 +5760,7 @@ ecr-custom-domain,pinge,20537,aws,https://github.com/pinge/terraform-aws-ecr-cus
 ecr-endpoint,clowdhaus,25835,aws,https://github.com/clowdhaus/terraform-aws-ecr-endpoint,Terraform module which creates a custom endpoint for Amazon ECR
 ecr-iam-policy,dod-iac,8299,aws,https://github.com/dod-iac/terraform-aws-ecr-iam-policy,IAM Policy that allows use of AWS ECR
 ecr-image,andreswebs,10224,aws,https://github.com/andreswebs/terraform-aws-ecr-image,Creates an ECR repository and pushes a container image using local bash scripts
+ecr-image,sterliakov,26690,aws,https://github.com/sterliakov/terraform-aws-ecr-image,Simple curl-based terraform module to push a dummy ECR image to streamline ECR+Lambda terraform deployments
 ecr-kms-key,dod-iac,7497,aws,https://github.com/dod-iac/terraform-aws-ecr-kms-key,A KMS key used to encrypt data-at-rest stored in ECR
 ecr-lifecycle-policy-rule,doingcloudright,1470,aws,https://github.com/doingcloudright/terraform-aws-ecr-lifecycle-policy-rule,Terraform module which creates a JSON lifecycle policy rule for ECR
 ecr-lifecycle-policy-rule,littlejo,15978,aws,https://github.com/littlejo/terraform-aws-ecr-lifecycle-policy-rule,Create a lifecycle policy rule
@@ -5788,7 +5791,7 @@ ecrs,terraform-module,13267,aws,https://github.com/terraform-module/terraform-aw
 ecs,Aembit,20469,aembit,https://github.com/Aembit/terraform-aembit-ecs,
 ecs,AustinCloudGuru,3459,aws,https://github.com/AustinCloudGuru/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
 ecs,BrynardSecurity-terraform,13347,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-ecs,Terraform module which creates AWS ECS resources 🇺🇦
-ecs,Catalyst-Consulting-Group,26567,aws,https://github.com/Catalyst-Consulting-Group/terraform-aws-ecs,
+ecs,Catalyst-Consulting-Group,26567,aws,https://github.com/Catalyst-Consulting-Group/terraform-aws-ecs,A collection of opinionated Terraform modules for creating ECS resources
 ecs,DNXLabs,5472,aws,https://github.com/DNXLabs/terraform-aws-ecs,This terraform module builds an Elastic Container Service(ECS) Cluster in AWS.
 ecs,Fasal-Tech,17872,aws,https://github.com/Fasal-Tech/terraform-aws-ecs,
 ecs,FlexibleEngineCloud,6016,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-ecs,Terraform module which creates ECS resources on Flexible Engine cloud
@@ -6191,6 +6194,7 @@ efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-
 efs-refresh-orchestrator,akirosit,23803,aws,https://github.com/akirosit/terraform-aws-efs-refresh-orchestrator,This is a Terraform module for deploying the EFS refresh orchestrator on AWS.
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
+eg,CloudNationHQ,26693,azure,https://github.com/CloudNationHQ/terraform-azure-eg,
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eigrp-interface-policy,netascode,21827,aci,https://github.com/netascode/terraform-aci-eigrp-interface-policy,Terraform Cisco ACI EIGRP Interface Policy Module
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
@@ -8490,6 +8494,7 @@ ipam-autopilot,openx,25356,google,https://github.com/openx/terraform-google-ipam
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infinera-ipm-modules,
 ipsec-aws,catonetworks,26676,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws,
+ipv6-full-mesh-intra-vpc-security-group-rules,JudeQuintana,26689,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-full-mesh-intra-vpc-security-group-rules,
 ipv6-intra-vpc-security-group-rule,JudeQuintana,25219,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-intra-vpc-security-group-rule,
 ipv6-subnet,goarano,26245,random,https://github.com/goarano/terraform-random-ipv6-subnet," Random IPv6 subnet generator for Terraform "
 ipwhitelist,a3linux,17967,null,https://github.com/a3linux/terraform-null-ipwhitelist,A simple terraform module to manage IP whitelist easy and flexible
@@ -12265,6 +12270,7 @@ proxmox,lucidsolns,21779,vm,https://github.com/lucidsolns/terraform-vm-proxmox,"
 proxmox-lxc,DacoDev,14574,module,https://github.com/DacoDev/terraform-module-proxmox-lxc,TF modules for Proxmox built on top of bgp's provider: https://registry.terraform.io/providers/bpg/proxmox/latest
 proxy,jmarhee,5445,linode,https://github.com/jmarhee/terraform-linode-proxy,
 proxy-nginx,terraform-module,4951,aws,https://github.com/terraform-module/terraform-aws-proxy-nginx,Microsoft SQL proxy terraform setup
+proxy-resource-aws-eks,common-fate,26691,commonfate,https://github.com/common-fate/terraform-commonfate-proxy-resource-aws-eks,
 proxy-resource-aws-rds,common-fate,25848,commonfate,https://github.com/common-fate/terraform-commonfate-proxy-resource-aws-rds,
 proxy-sqlserver,terraform-module,3813,aws,https://github.com/terraform-module/terraform-aws-proxy-nginx,Microsoft SQL proxy terraform setup
 ps-shared-servicebus,sebl1ngt0n,10078,registry,https://github.com/sebl1ngt0n/terraform-registry-ps-shared-servicebus,
@@ -13733,8 +13739,10 @@ s3-static-website,Lupus-Metallum,8434,aws,https://github.com/Lupus-Metallum/terr
 s3-static-website,cn-terraform,9553,aws,https://github.com/cn-terraform/terraform-aws-s3-static-website,Terraform Module for AWS to host Static Website on S3
 s3-static-website,conortm,1516,aws,https://github.com/conortm/terraform-aws-s3-static-website,Terraform Module for an Amazon S3 Static Website
 s3-static-website,flanger001,22983,aws,https://github.com/flanger001/terraform-aws-s3-static-website,A Terraform module that creates a static web site hosted on AWS.
+s3-static-website,jeremycook123,26696,aws,https://github.com/jeremycook123/terraform-aws-s3-static-website,Terraform S3 Static Site Module
 s3-static-website,mm-devops-cloud,18771,aws,https://github.com/mm-devops-cloud/terraform-aws-s3-static-website,this module to create s3 on aws and make it public to host static website
 s3-static-website,shahdk,7383,aws,https://github.com/shahdk/terraform-aws-s3-static-website,Highly opinionated Terraform module for hosting a secure static website on AWS S3
+s3-static-website-3dglobe,jeremycook123,26699,aws,https://github.com/jeremycook123/terraform-aws-s3-static-website-3dglobe,Terraform S3 Static Site Module
 s3-static-website-cloudfront,millbj92,10374,aws,https://github.com/millbj92/terraform-aws-s3-static-website-cloudfront,Terraform module to create an s3 bucket and distribute it via cloudfront. Also creates a policy so that only the cloudfront distro can see the contents of the bucket over the web.
 s3-static-website-cloudfront-ssl-r53,millbj92,10370,aws,https://github.com/millbj92/terraform-aws-s3-static-website-cloudfront-ssl-r53,Module built to provision a static website on an S3 bucket. Modules have been broken down into redistributable pieces.
 s3-storage,evoio,2554,aws,https://github.com/tobydoescode/terraform-aws-s3-storage,
@@ -14994,6 +15002,7 @@ sqs,tomarv2,12371,aws,https://github.com/tomarv2/terraform-aws-sqs,Terraform mod
 sqs,umotif-public,9274,aws,https://github.com/umotif-public/terraform-aws-sqs,Terraform module which creates SQS resources in AWS
 sqs,web-virtua-aws-multi-account-modules,16266,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-sqs,
 sqs-alarm,wesol05,2859,aws,https://github.com/wesol05/terraform-aws-sqs-alarm,
+sqs-alerting,akw-devsecops,26692,newrelic,https://github.com/akw-devsecops/terraform-newrelic-sqs-alerting,Creates New Relic Alerts for SQS
 sqs-dlq,yepengfan,15038,aws,https://github.com/yepengfan/terraform-aws-sqs-dlq,
 sqs-example,waqasahmed1992,15100,aws,https://github.com/waqasahmed1992/terraform-aws-sqs-example,
 sqs-kms-key,dod-iac,8301,aws,https://github.com/dod-iac/terraform-aws-sqs-kms-key,Creates a KMS Key for use with SQS.
@@ -16072,7 +16081,7 @@ tfstate-backend,binbashar,2741,aws,https://github.com/binbashar/terraform-aws-tf
 tfstate-backend,cloudposse,939,aws,https://github.com/cloudposse/terraform-aws-tfstate-backend,Terraform module that provision an S3 bucket to store the `terraform.tfstate` file and a DynamoDB table to lock the state file to prevent concurrent modifications and state corruption.
 tfstate-s3-backend,bigfantech-cloud,18950,aws,https://github.com/bigfantech-cloud/terraform-aws-tfstate-s3-backend,Terraform config: creates AWS S3 bucket and DynamoDB table for tfstate S3 backend
 tfstate-s3-backend,drape-io,22468,aws,https://github.com/drape-io/terraform-aws-tfstate-s3-backend,A terraform module for creating the s3 and dynamo resources for a remote backend
-tfy-control-plane,truefoundry,24058,google,https://github.com/truefoundry/terraform-google-tfy-control-plane,Truefoundry Google Cloud Control Plane Module
+tfy-control-plane,truefoundry,26697,google,https://github.com/truefoundry/terraform-google-tfy-control-plane,Truefoundry Google Cloud Control Plane Module
 tg-and-lb-listener,luboleg,8640,aws,https://github.com/luboleg/terraform-aws-tg-and-lb-listener,
 tgw,DrFaust92,3256,aws,https://github.com/DrFaust92/terraform-aws-tgw,Terraform module which creates TGW resources on AWS
 tgw,arul-ap,24215,aws,https://github.com/arul-ap/terraform-aws-tgw,Module to create Transit Gateway
@@ -16178,6 +16187,7 @@ transfer-server,felipefrizzo,3852,aws,https://github.com/felipefrizzo/terraform-
 transfer-server-ad,StratusGrid,15143,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-ad,This is a Terraform module to integrate the AWS SFTP Transfer Family Service to an existing AWS AD/Connector
 transfer-server-custom-idp,StratusGrid,6548,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-custom-idp,This is a Terraform module to create a custom identity provider based on AWS Secrets for the AWS SFTP service.
 transfer-server-custom-idp-user,StratusGrid,6549,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-custom-idp-user,This is a Terraform module to create users for the AWS SFTP service based on custom identity provider using AWS Secrets Manager.
+transfer-server-sftp,vishal-cpu,26694,aws,https://github.com/vishal-cpu/terraform-aws-transfer-server-sftp,
 transfer-server-user,aisamji,3707,aws,https://github.com/aisamji/terraform-aws-transfer-server-user,
 transfer-sftp,appzen-oss,13302,aws,https://github.com/appzen-oss/terraform-aws-transfer-sftp,
 transfer-sftp,cloudposse,9752,aws,https://github.com/cloudposse/terraform-aws-transfer-sftp,
