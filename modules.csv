@@ -1707,6 +1707,7 @@ avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/t
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,AVM Terraform module for Disk Encryption Set
 avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,"AVM Module for Compute Host groups, also known as Dedicated Host Groups"
+avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
@@ -1742,6 +1743,7 @@ avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terr
 avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,Front Door Web Application Firewall (WAF) Policy
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
+avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,
 avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
 avm-res-network-networksecuritygroup,Azure,23301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networksecuritygroup,AVM Terraform Module for Network Security Group
 avm-res-network-networkwatcher,Azure,25023,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkwatcher,Azure Network Watcher AVM Module
@@ -2436,6 +2438,7 @@ bridgecrew-cloudtrail,bridgecrewio,3371,aws,https://github.com/bridgecrewio/terr
 bridgecrew-gcp-read-only,bridgecrewio,4977,google,https://github.com/bridgecrewio/terraform-google-bridgecrew-gcp-read-only,Connecting your GCP project to Bridgecrew 
 bridgecrew-read-only,bridgecrewio,4365,aws,https://github.com/bridgecrewio/terraform-aws-bridgecrew-read-only,Bridgecrew READ ONLY integration module
 bridgecrew-remediation,bridgecrewio,7462,aws,https://github.com/bridgecrewio/terraform-aws-bridgecrew-remediation,
+brightly-flags,brightlyorg,26753,aws,https://github.com/brightlyorg/terraform-aws-brightly-flags,Terraform provider for dorkly feature flags system
 broadsea,loafoe,12778,hsdp,https://github.com/loafoe/terraform-hsdp-broadsea,Terraform module to deploy Broadsea
 browser-ssh,Cyb3r-Jak3,20070,cloudflare,https://github.com/Cyb3r-Jak3/terraform-cloudflare-browser-ssh,Custom Terraform module to create an browser ssh application including a tunnel.
 btlabz-arch-ref-asg-codebuild-module,btower-labz,6462,aws,https://github.com/btower-labz/terraform-aws-btlabz-arch-ref-asg-codebuild-module,
@@ -4479,6 +4482,7 @@ dns-zone,altissimo-hq,24905,google,https://github.com/altissimo-hq/terraform-goo
 dns-zone,aztfm,24391,azurerm,https://github.com/aztfm/terraform-azurerm-dns-zone,Terraform module for Microsoft Azure to manage Dns Zone resource.
 dns-zone,bootlabstech,18084,azurerm,https://github.com/bootlabstech/terraform-azurerm-dns-zone,
 dns-zone,jsathler,21051,azurerm,https://github.com/jsathler/terraform-azurerm-dns-zone,
+dns-zone,langburd,26754,cloudflare,https://github.com/langburd/terraform-cloudflare-dns-zone,Terraform module for managing CloudFlare DNS zones and their records from a YAML file
 dns-zone-private,seg-way,20575,azurerm,https://github.com/segateway/terraform-azurerm-dns-zone-private,
 dns-zone-private,segateway,20642,azurerm,https://github.com/segateway/terraform-azurerm-dns-zone-private,
 dns-zonefile,terraformdns,1180,template,https://github.com/terraformdns/terraform-template-dns-zonefile,Terraform module for formatting a DNS zonefile string
@@ -8002,6 +8006,7 @@ iam,jason-morsley,5110,aws,https://github.com/jason-morsley/terraform-aws-iam,
 iam,javilac,719,aws,https://github.com/javilac/terraform-aws-iam,Module to create aws iam resources
 iam,jerinrathnam,19159,aws,https://github.com/jerinrathnam/terraform-aws-iam,Terraform module for AWS IAM
 iam,kenju,5707,google,https://github.com/kenju/terraform-google-iam,A terraform module for GCP IAM roles/permissions
+iam,khizarkarim,26751,aws,https://github.com/khizarkarim/terraform-aws-iam,
 iam,kral2,7400,oci,https://github.com/kral2/terraform-oci-iam,"Upstream Terraform Module for the official Oracle Cloud Infrastructure IAM module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/iam"
 iam,kurron,440,aws,https://github.com/kurron/terraform-aws-iam,Terraform module that creates a set of common IAM roles
 iam,ninja-dev-io,10933,aws,https://github.com/ninja-dev-io/terraform-aws-iam,IAM IaC
@@ -11931,6 +11936,7 @@ platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Ter
 platform,kuptan-platform,17570,aws,https://github.com/kuptan-platform/terraform-aws-platform,terraform code for creating a Kubernetes platform on AWS
 platform,neutrinobaas,18611,neutrinobaas,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
 platform,terraform-ns1-modules,4223,ns1,https://github.com/ns1-terraform/terraform-ns1-platform,
+platform,tomorrowstack,26755,azure,https://github.com/tomorrowstack/terraform-azure-platform,Terraform module for integrating Azure with the Tomorrowstack platform
 platform-config,mergermarket,5843,acuris,https://github.com/mergermarket/terraform-acuris-platform-config,
 platform-firewall-rules,qbeyond,19918,azurerm,https://github.com/qbeyond/terraform-azurerm-platform-firewall-rules,
 platform9-k8s,equinix,7404,metal,https://github.com/equinix/terraform-metal-platform9-k8s,Platform9 Managed Kubernetes Free Tier on Equinix Metal
@@ -17541,6 +17547,7 @@ vpcendpoints,SimplifiedData,23728,aws,https://github.com/SimplifiedData/terrafor
 vpces,toluna-terraform,11254,aws,https://github.com/toluna-terraform/terraform-aws-vpces,
 vpcexample,Capasiter,25753,aws,https://github.com/Capasiter/terraform-aws-vpcexample,
 vpcexample,HEMANTA76,25995,aws,https://github.com/HEMANTA76/terraform-aws-vpcexample,Terraform vpc example
+vpcexample,Kruthikamurali14,26752,aws,https://github.com/Kruthikamurali14/terraform-aws-vpcexample,
 vpcexample,dustindortch,25738,aws,https://github.com/dustindortch/terraform-aws-vpcexample,
 vpcexample,gwalsh3,25781,aws,https://github.com/gwalsh3/terraform-aws-vpcexample,
 vpcexample,linusdigi,25879,aws,https://github.com/linusdigi/terraform-aws-vpcexample,linusdigi-terraform-aws-vpcexample
