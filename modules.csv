@@ -1625,6 +1625,7 @@ automation_account,sironite,19997,azurerm,https://github.com/sironite/terraform-
 automount,abokov,1697,azurerm,https://github.com/abokov/terraform-azurerm-automount,
 automq-byoc-environment,AutoMQ,25832,aws,https://github.com/AutoMQ/terraform-aws-automq-byoc-environment,Terraform module to create AutoMQ BYOC resources with AWS providers
 automq-byoc-environment,AutoMQ,26125,huaweicloud,https://github.com/AutoMQ/terraform-huaweicloud-automq-byoc-environment,
+automq-byoc-environment,AutoMQ,26766,google,https://github.com/AutoMQ/terraform-google-automq-byoc-environment,
 autopilot,RJPearson94,6239,twilio,https://github.com/RJPearson94/terraform-twilio-autopilot,Terraform module for managing an autopilot assistant
 autopilot,layer-3,25294,google,https://github.com/layer-3/terraform-google-autopilot,
 autorotated-database-credentials,jessiehernandez,8806,aws,https://github.com/jessiehernandez/terraform-aws-autorotated-database-credentials,Module that creates an AWS Secrets Manager secret that holds database credentials and has a Lambda rotator function attached.
@@ -1714,6 +1715,7 @@ avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Az
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,AVM Module Repo for Azure ACI
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
+avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/SkittleBomb/terraform-azurerm-avm-res-datafactory-factory,Creates and manages Azure Datafactory
 avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,
 avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,
 avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,AVM for Desktop Virtualization Application group
@@ -2293,8 +2295,8 @@ beanstalk-environment,HappyPathway,24672,aws,https://github.com/HappyPathway/ter
 beanstalk-version,cloudopsworks,12987,aws,https://github.com/cloudopsworks/terraform-aws-beanstalk-version,Terraform Application Version modules used in environment templates
 beanstalk-web,jwa-lab,19547,aws,https://github.com/jwa-lab/terraform-aws-beanstalk-web,Terraform module to create an AWS Elastic Beanstalk WebServer environment
 beanstalk-worker,jwa-lab,18550,aws,https://github.com/jwa-lab/terraform-aws-beanstalk-worker,Terraform module to create an AWS Elastic Beanstalk Worker environment
+bedrock,aws-ia,26774,aws,https://github.com/aws-ia/terraform-aws-bedrock,
 bedrock-agent,Flaconi,26743,aws,https://github.com/Flaconi/terraform-aws-bedrock-agent,Terraform module for Amazon Bedrock Agent resources
-bedrock-agents,aws-ia,26674,aws,https://github.com/aws-ia/terraform-aws-bedrock-agents,
 bedrock-agents,quixoticmonk,26669,aws,https://github.com/quixoticmonk/terraform-aws-bedrock-agents,
 bedrock-custom-model,Flaconi,26746,aws,https://github.com/Flaconi/terraform-aws-bedrock-custom-model,Terraform module to create Amazon Bedrock custom model
 bedrock-user,peytoncasper,24868,aws,https://github.com/peytoncasper/terraform-aws-bedrock-user,
@@ -6208,7 +6210,7 @@ efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-
 efs-refresh-orchestrator,akirosit,23803,aws,https://github.com/akirosit/terraform-aws-efs-refresh-orchestrator,This is a Terraform module for deploying the EFS refresh orchestrator on AWS.
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
-eg,CloudNationHQ,26693,azure,https://github.com/CloudNationHQ/terraform-azure-eg,
+eg,CloudNationHQ,26693,azure,https://github.com/CloudNationHQ/terraform-azure-eg,Terraform module which creates eventgrid resources used by workloads and accelerators.
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eigrp-interface-policy,netascode,21827,aci,https://github.com/netascode/terraform-aci-eigrp-interface-policy,Terraform Cisco ACI EIGRP Interface Policy Module
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
@@ -7065,7 +7067,7 @@ fcos-lldap,krestomatio,20597,libvirt,https://github.com/krestomatio/terraform-li
 fcos-maddy,krestomatio,20652,libvirt,https://github.com/krestomatio/terraform-libvirt-fcos-maddy,"Terraform module for creating a Maddy mail server using Fedora CoreOS, and Libvirt."
 fcos-stalwart-mail,krestomatio,20578,libvirt,https://github.com/krestomatio/terraform-libvirt-fcos-stalwart-mail,"Terraform module for creating a Stalwart mail server using Fedora CoreOS, and Libvirt."
 fcos-storj-node,jobcespedes,18907,libvirt,https://github.com/jobcespedes/terraform-libvirt-fcos-storj-node,"Terraform module for creating a Storj Node using Fedora CoreOS, Podman and Libvirt."
-fd,CloudNationHQ,26535,azure,https://github.com/CloudNationHQ/terraform-azure-fd,
+fd,CloudNationHQ,26535,azure,https://github.com/CloudNationHQ/terraform-azure-fd,Terraform module which creates frontdoor resources used by workloads and accelerators.
 fdfwp,CloudNationHQ,26525,azure,https://github.com/CloudNationHQ/terraform-azure-fdfwp,Terraform module which creates frontdoor firewall policy resources used by workloads and accelerators.
 feast,combinator-ml,8642,k8s,https://github.com/combinator-ml/terraform-k8s-feast,Feast as a combinator.ml component
 features,netascode,13200,nxos,https://github.com/netascode/terraform-nxos-features,Terraform Cisco NX-OS Features Module
@@ -11835,7 +11837,7 @@ paloalto-vmseries,aws-ia,14381,aws,https://github.com/aws-ia/terraform-aws-paloa
 pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pals3tfmodule,
 palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
 palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-aws-palworld-windows,Terraform module for Palworld Server Infrastructure on AWS
-pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,"Privileged Access Manager (PAM) is a Google Cloud native, managed solution to secure, manage and audit privileged access while ensuring operational velocity and developer productivity. "
+pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panorama-onboarding,PaloAltoNetworks,25133,cloudngfw,https://github.com/PaloAltoNetworks/terraform-cloudngfw-panorama-onboarding,terraform-cloud-device-group-onboarding
@@ -14203,7 +14205,7 @@ secrets-manager-rds-mysql-multi-user-rotator,ekanai,16966,aws,https://github.com
 secrets-manager-rds-mysql-single-user-rotator,ekanai,16967,aws,https://github.com/ekanai/terraform-aws-secrets-manager-rds-mysql-single-user-rotator,
 secrets-manager-secret,terraform-ibm-modules,20677,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-secrets-manager-secret,Creates secrets in a Secrets Manager instance
 secrets-manager-secret-group,terraform-ibm-modules,20126,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-secrets-manager-secret-group,Creates a secret group in an IBM Cloud Secrets Manager instance.
-secrets-store-csi,SPHTech-Platform,14005,aws,https://github.com/SPHTech-Platform/terraform-aws-secrets-store-csi,Module to install secrets-store csi driver and aws secrets-store provider
+secrets-store-csi,SPHTech-Platform,14005,aws,https://github.com/SPHTech-Platform/terraform-aws-secrets-store-csi,
 secretsmanager,SweetOps,10458,aws,https://github.com/SweetOps/terraform-aws-secretsmanager,Terraform module to provision and manage AWS Secrets Manager
 secretsmanager,boldlink,14021,aws,https://github.com/boldlink/terraform-aws-secretsmanager,Terraform registry repository for Secrets Manager module
 secretsmanager,littlejo,16495,aws,https://github.com/littlejo/terraform-aws-secretsmanager,Module to manage AWS secrets manager
@@ -14405,8 +14407,7 @@ sentinel,claranet,22684,azurerm,https://github.com/claranet/terraform-azurerm-se
 sentinel,clouddrove,20443,azure,https://github.com/clouddrove/terraform-azure-sentinel,"This terraform module is designed to create azure Sentinel resources.  Microsoft Sentinel natively incorporates proven Azure services, like Log Analytics and Logic Apps. Microsoft Sentinel enriches your investigation and detection with AI. It provides Microsoft's threat intelligence stream and enables you to bring your own threat intelligence"
 sentinel,mikamakusa,25707,azure,https://github.com/mikamakusa/terraform-azure-sentinel,
 sentinel-content,claranet,24663,azurerm,https://github.com/claranet/terraform-azurerm-sentinel-content,Terraform module for Microsoft Sentinel Content
-sentinel-policies,absolutelightning,26732,tfc,https://github.com/absolutelightning/terraform-tfc-sentinel-policies,
-sentinel-policies,tushar-hashicorp,26737,tfc,https://github.com/tushar-hashicorp/terraform-tfc-sentinel-policies,
+sentinel-policies,tushar-hashicorp,26771,tfc,https://github.com/tushar-hashicorp/terraform-tfc-sentinel-policies,
 sentry,ethicalmohit,4437,aws,https://github.com/ethicalmohit/terraform-aws-sentry,Terraform Module for Self Hosted Sentry On AWS.
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
 server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server,
@@ -15317,6 +15318,7 @@ staticsitepublic,anil1226,20467,azurerm,https://github.com/anil1226/terraform-az
 staticweb,10shravani,25851,azurerm,https://github.com/10shravani/terraform-azurerm-staticweb,azure module for terraform static web
 staticweb,Dayo678,20533,azurerm,https://github.com/Dayo678/terraform-azurerm-staticweb,
 staticweb,vikash2890git,18519,azurerm,https://github.com/vikash2890git/terraform-azurerm-staticweb,module for static website
+staticwebsite,123kenn,26778,azurerm,https://github.com/123kenn/terraform-azurerm-staticwebsite,
 staticwebsite,Dupo24,26229,azurerm,https://github.com/Dupo24/terraform-azurerm-staticwebsite,
 staticwebsite,GirijalaAditya,19837,azurerm,https://github.com/GirijalaAditya/terraform-azurerm-staticwebsite,
 staticwebsite,Prakazsh,24768,azurerm,https://github.com/Prakazsh/terraform-azurerm-staticwebsite,Terraform modules to be shared in Terraform Public Registry
