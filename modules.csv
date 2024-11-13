@@ -34,6 +34,7 @@ Az-Vm,JamesDLD,2956,azurerm,https://github.com/JamesDLD/terraform-azurerm-Az-Vm,
 AzureRG,AnjiMuduthanapally,13461,azure,https://github.com/AnjiMuduthanapally/terraform-azure-AzureRG,
 Bavita,Bakumari,12310,Azure,https://github.com/Bakumari/terraform-Azure-Bavita,
 Bhanu,Bhanupriyabharathi,15698,aws,https://github.com/Bhanupriyabharathi/terraform-aws-Bhanu,
+Cloudfront-m,ahmadrazalab,26786,aws,https://github.com/ahmadrazalab/terraform-aws-Cloudfront-m,terraform module to spin up the services of frontend static site using cloudfront OAI and s3 bucket with ssl architecture
 DWV-DVP-Terraform-Module,carter-rmn,25646,aws,https://github.com/carter-rmn/terraform-aws-DWV-DVP-Terraform-Module,
 DataCenter_Enviroment_1A,WEEMR,10950,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_1A,Terraform Script to deploy VPC with FGT SD-WAN with Windows and Apache Servers behind it
 DataCenter_Enviroment_1E,WEEMR,11867,aws,https://github.com/WEEMR/terraform-aws-DataCenter_Enviroment_1E,Terraform Script to deploy VPC with FGT SD-WAN with Windows and Apache Servers behind it and a FortiSandbox in another VPC
@@ -50,6 +51,7 @@ E2-Micro-Always-Free-Instance,adarobin,9746,oci,https://github.com/adarobin/terr
 EC2,sreedhar-555,14335,AWS,https://github.com/sreedhar-555/terraform-AWS-EC2,
 EC2-VPC-Webserver,swamirajp7,11539,aws,https://github.com/swamirajp7/terraform-aws-EC2-VPC-Webserver,
 EC2SecGroups,bensh199,23340,bens99,https://github.com/bensh199/terraform-bens99-EC2SecGroups,
+EC2cluster,ahmadrazalab,26791,k8s,https://github.com/ahmadrazalab/terraform-k8s-EC2cluster,
 EKS,erkinsinc,5911,aws,https://github.com/erkinsinc/terraform-aws-EKS,
 EKS-Cluster,yashhirulkar701,16467,aws,https://github.com/yashhirulkar701/terraform-aws-EKS-Cluster,
 EKS-Lil,lily4499,21997,AWS,https://github.com/lily4499/terraform-AWS-EKS-Lil,
@@ -165,7 +167,7 @@ access_policy,insobi,12881,aci,https://github.com/insobi/terraform-aci-access_po
 accessanalyzer,snapdocs,8152,aws,https://github.com/snapdocs/terraform-aws-accessanalyzer,Sets up Access Analyzer
 account,DNXLabs,5716,aws,https://github.com/DNXLabs/terraform-aws-account,Terraform module to create an AWS Account under an Organization.
 account,QuiNovas,1501,aws,https://github.com/QuiNovas/terraform-aws-account,Sets up a a new AWS account with the basics required to manage it
-account,dasmeta,17273,aws,https://github.com/dasmeta/terraform-aws-account,
+account,dasmeta,17273,aws,https://github.com/dasmeta/terraform-aws-account,Terraform module to create AWS account setup
 account,dustindortch,25841,aws,https://github.com/dustindortch/terraform-aws-account,
 account,hongjunjeong95,12652,aws,https://github.com/hongjunjeong95/terraform-aws-account,
 account,rojopolis,3476,spotinst,https://github.com/rojopolis/terraform-spotinst-account,Create Spotinst accounts and associate them with AWS accounts.
@@ -1678,6 +1680,8 @@ avi-controller-gcp,slarimore02,7435,gcp,https://github.com/slarimore02/terraform
 avi-controller-vsphere,slarimore02,8612,vsphere,https://github.com/slarimore02/terraform-vsphere-avi-controller-vsphere,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on vSphere
 avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terraform-azure-avinashstorage,
 avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
+avm-ptn-aks-economy,Azure,26779,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-economy,This is the Production Economy Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production economy standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production economy deployments for AKS.
+avm-ptn-aks-enterprise,Azure,26780,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-enterprise,This is the Production Enterprise Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production enterprise standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production enterprise deployments for AKS.
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-aks-production,tembo-io,26403,azurerm,https://github.com/tembo-io/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
@@ -2108,6 +2112,7 @@ backend,yivolve,26251,aws,https://github.com/yivolve/terraform-aws-backend,Terra
 backend-config,Invicton-Labs,9717,null,https://github.com/Invicton-Labs/terraform-null-backend-config,Retrieves the current Terraform init configuration (including backend config and workspace)
 backend-config,danielvelasquez,8291,azurerm,https://github.com/danielvelasquez/terraform-azurerm-backend-config,
 backend-lambda-routing,mergermarket,7136,acuris,https://github.com/mergermarket/terraform-acuris-backend-lambda-routing,Setup TG and routing rule for routing to a lambda
+backend-m,ahmadrazalab,26789,aws,https://github.com/ahmadrazalab/terraform-aws-backend-m,"terraform module to spin up the services alb asg launch template target group s3-bucket ec2 instances AMI ,etc, #full backend architecture"
 backend-manager,Apollo-XIV,25963,aws,https://github.com/Apollo-XIV/terraform-aws-backend-manager,
 backend-module,cloudxperts,8682,aws,https://github.com/cloudxperts/terraform-aws-backend-module,AWS Terraform backend module with S3 and DynamoDB
 backend-router,mergermarket,2359,acuris,https://github.com/mergermarket/terraform-acuris-backend-router,Creates ALB and connects certificate
@@ -3894,7 +3899,7 @@ cost-explorer-monthly-billing-report,mnanchev,5534,aws,https://github.com/mnanch
 cost-management,unifa-inc,21950,aws,https://github.com/unifa-inc/terraform-aws-cost-management,
 cost-notifier,kristijaneftimovpcg,25395,aws,https://github.com/kristijaneftimovpcg/terraform-aws-cost-notifier,"This module calculates the daily, weekly or monthly cost in AWS, and generates the forecast cost for the current month"
 costnotifier,cloudandthings,12505,aws,https://github.com/cloudandthings/terraform-aws-costnotifier,
-costs,CloudNationHQ,26538,azure,https://github.com/CloudNationHQ/terraform-azure-costs,
+costs,CloudNationHQ,26538,azure,https://github.com/CloudNationHQ/terraform-azure-costs,Terraform module which creates cost management resources used by workloads and accelerators.
 costs,kabisa,11754,datadog,https://github.com/kabisa/terraform-datadog-costs,Terraform module to generate alets to monitor datadog costs
 couchbase,DNXLabs,5727,aws,https://github.com/DNXLabs/terraform-aws-couchbase,Reusable infrastructure modules for running Couchbase on AWS
 couchbase,brantburnett,782,aws,https://github.com/brantburnett/terraform-aws-couchbase,"Creates a complete Couchbase cluster in AWS, with support for Multidimensional Scaling"
@@ -4659,6 +4664,7 @@ docker-instance,Mcartilery,20837,aws,https://github.com/Mcartilery/terraform-aws
 docker-instance,MdurmazGithub,16361,aws,https://github.com/MdurmazGithub/terraform-aws-docker-instance,
 docker-instance,Mecit-tuksoy,22377,aws,https://github.com/Mecit-tuksoy/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,Mehmet-Peker,23638,aws,https://github.com/Mehmet-Peker/terraform-aws-docker-instance,terraform-aws-docker-instance
+docker-instance,Mehmet121416,26781,aws,https://github.com/Mehmet121416/terraform-aws-docker-instance,
 docker-instance,MehmetAliYZC,18448,aws,https://github.com/MehmetAliYZC/terraform-aws-docker-instance,
 docker-instance,MehmetCDmr,16387,aws,https://github.com/MehmetCDmr/terraform-aws-docker-instance,
 docker-instance,MehmetKulahci,16340,aws,https://github.com/MehmetKulahci/terraform-aws-docker-instance,
@@ -5626,6 +5632,7 @@ ec2-loadbalancer,ptonini,16737,aws,https://github.com/ptonini/terraform-aws-ec2-
 ec2-loadbalancer-listener,ptonini,16738,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-listener,
 ec2-loadbalancer-redirector,ptonini,22018,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-redirector,
 ec2-loadbalancer-target-group,ptonini,16739,aws,https://github.com/ptonini/terraform-aws-ec2-loadbalancer-target-group,
+ec2-m,ahmadrazalab,26788,aws,https://github.com/ahmadrazalab/terraform-aws-ec2-m,terraform-aws-ec2-m
 ec2-module,nataliagranato,25421,aws,https://github.com/nataliagranato/terraform-aws-ec2-module,"Um módulo Terraform para provisionar instâncias EC2 na AWS de forma simples e flexível. Utilize este módulo para configurar rapidamente instâncias EC2 com diferentes tipos de instâncias, tamanhos, e configurações de rede, tudo de acordo com as melhores práticas de segurança e otimização na AWS."
 ec2-module-bgunawan,gunawanbambang,14032,aws,https://github.com/gunawanbambang/terraform-aws-ec2-module-bgunawan,
 ec2-multi-nics-disks,pyjoepy06,9247,aws,https://github.com/pyjoepy06/terraform-aws-ec2-multi-nics-disks,Deploy EC2 Servers with Multi-Disk and/or Multi-NICs
@@ -6533,6 +6540,7 @@ eks-linkerd-viz,lablabs,15393,aws,https://github.com/lablabs/terraform-aws-eks-l
 eks-litmus-operator,PartTimeLegend,15257,aws,https://github.com/PartTimeLegend/terraform-aws-eks-litmus-operator,A simple module for installing Litmus chaos testing tools into your EKS cluster.
 eks-load-balancer-controller,lablabs,10056,aws,https://github.com/lablabs/terraform-aws-eks-load-balancer-controller,
 eks-loki,lablabs,16421,aws,https://github.com/lablabs/terraform-aws-eks-loki,
+eks-m,ahmadrazalab,26790,aws,https://github.com/ahmadrazalab/terraform-aws-eks-m,terraform-aws-eks-module
 eks-metrics-server,DNXLabs,8676,aws,https://github.com/DNXLabs/terraform-aws-eks-metrics-server,"Terraform module for deploying Kubernetes Metrics Server, Metrics Server collects resource metrics from Kubelets and exposes them in Kubernetes apiserver through Metrics API for use by Horizontal Pod Autoscaler and Vertical Pod Autoscaler."
 eks-metrics-server,blackbird-cloud,16686,aws,https://github.com/blackbird-cloud/terraform-aws-eks-metrics-server,terraform-aws-eks-metrics-server
 eks-metrics-server,lablabs,5510,aws,https://github.com/lablabs/terraform-aws-eks-metrics-server,
@@ -7452,6 +7460,7 @@ git-info,Invicton-Labs,9327,external,https://github.com/Invicton-Labs/terraform-
 git-repositories,kwame-mintah,20905,azuredevops,https://github.com/kwame-mintah/terraform-azuredevops-git-repositories,Terraform module for creating Azure DevOps Git repositories
 git-repository,skyfjall,14128,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
 git-repository,skyfjell,14231,flux,https://github.com/skyfjell/terraform-flux-git-repository,Create a FluxCD GitRepository Custom Resource
+git-service-principal,terraform-databricks-modules,26795,databricks,https://github.com/terraform-databricks-modules/terraform-databricks-git-service-principal,Terraform module for creating a git repo and service principal
 github,kamaz,24344,google,https://github.com/kamaz/terraform-google-github,Terraform module to enable OpenID Connect authentication between github action pipeline and google cloud.
 github,yivolve,23769,flux,https://github.com/yivolve/terraform-flux-github,Terraform module to bootstrap Flux with GitHub.
 github-action-iam-role,infraspecdev,25469,aws,https://github.com/infraspecdev/terraform-aws-github-action-iam-role,This Terraform module creates and configures an IAM role in AWS that allows GitHub Actions to assume the role using OpenID Connect (OIDC) for deploying resources in your AWS account
@@ -8739,6 +8748,7 @@ karanstorage,karanvirkaranvir,15263,azure,https://github.com/karanvirkaranvir/te
 karbon,Aristocrat-B2B,8598,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-karbon,A module that builds Karbon K8s cluster on Nutanix hypervisor
 karpenter,bigfantech-cloud,18847,k8s,https://github.com/bigfantech-cloud/terraform-k8s-karpenter,Terraform module: Install Karpenter in EKS Cluster
 karpenter,clouddrove,18418,aws,https://github.com/clouddrove/terraform-aws-karpenter,
+karpenter,govind0229,26794,aws,https://github.com/govind0229/terraform-aws-karpenter,"Whether you're scaling dynamically or looking to reduce costs on your Kubernetes clusters, this Karpenter module offers a streamlined solution for managing instance types based on workload requirements. It’s a powerful tool for anyone working with EKS who wants to take advantage of AWS’s advanced node provisioning capabilities."
 karthiks3bucket,Karthikchinnu,26354,aws,https://github.com/Karthikchinnu/terraform-aws-karthiks3bucket,
 kaushal,kaushal540,23139,hw,https://github.com/kaushal540/terraform-hw-kaushal,
 kaushikstorage,kaushikjaingp,15988,azure,https://github.com/kaushikjaingp/terraform-azure-kaushikstorage,
@@ -10744,7 +10754,7 @@ mys3bucket,yagami6,14524,aws,https://github.com/yagami6/terraform-aws-mys3bucket
 mys3bucket-chay,chay4293,18389,aws,https://github.com/chay4293/terraform-aws-mys3bucket-chay,
 mys3bucket1,SaiGurunadh25,12945,aws,https://github.com/SaiGurunadh25/terraform-aws-mys3bucket1,
 mysbucket,asthaaaaaaaaa,15697,aws,https://github.com/asthaaaaaaaaa/terraform-aws-mysbucket,
-mysql,CloudNationHQ,25709,azure,https://github.com/CloudNationHQ/terraform-azure-mysql,
+mysql,CloudNationHQ,25709,azure,https://github.com/CloudNationHQ/terraform-azure-mysql,Terraform module which creates mysql resources used by workloads and accelerators.
 mysql,JamesWoolfenden,7790,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-mysql,Basic MySQL module
 mysql,StayWell,2374,aws,https://github.com/StayWell/terraform-aws-mysql,Aurora serverless MySQL
 mysql,T-Systems-MMS,14532,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-mysql,Configure Azure MySQL
@@ -12671,6 +12681,7 @@ rds-instanse,Evolve-Cyber-Organization,8768,aws,https://github.com/Evolve-Cyber-
 rds-kms-key,dod-iac,10064,aws,https://github.com/dod-iac/terraform-aws-rds-kms-key,A KMS key used to encrypt data-at-rest stored in RDS
 rds-lambda-db-provisioner,aleks-fofanov,5080,aws,https://github.com/aleks-fofanov/terraform-aws-rds-lambda-db-provisioner,Terraform module to provision database in AWS RDS instance in a VPC
 rds-lambda-postgres-provisioner,SPHTech-Platform,20211,aws,https://github.com/SPHTech-Platform/terraform-aws-rds-lambda-postgres-provisioner,Terraform module to provision a database and user in AWS RDS Postgres instance within a VPC
+rds-m,ahmadrazalab,26787,aws,https://github.com/ahmadrazalab/terraform-aws-rds-m,terraform-aws-rds-restore-m
 rds-misc,kiwicom,3037,aws,https://github.com/kiwicom/terraform-aws-rds-misc,
 rds-mssql,OT-CLOUD-KIT,12347,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql,
 rds-mssql,truemark,16117,aws,https://github.com/truemark/terraform-aws-rds-mssql,
@@ -16127,6 +16138,7 @@ tgw-routes,gutozntt,14954,aws,https://github.com/gutozntt/terraform-aws-tgw-rout
 tgw-strongwan-site-to-site-vpn,jye-aviatrix,15299,aws,https://github.com/jye-aviatrix/terraform-aws-tgw-strongwan-site-to-site-vpn,This module creates AWS TGWs in two regions and simulate connection to onpremise using Quuaga StrongWAN BGP IPSec.
 thanos,philips-labs,6445,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-thanos,Experimental Thanos module for unlimited metrics storage on HSDP
 thara,thara12,17113,azure,https://github.com/thara12/terraform-azure-thara,
+the-rest,yordanivh,26784,aws,https://github.com/yordanivh/terraform-aws-the-rest,The rest of the folders
 the-right-hard-way-aws,hajowieland,3439,k8s,https://github.com/hajowieland/terraform-k8s-the-real-hard-way-aws,"Terraform code for ""Kubernetes The (real) Hard Way (AWS)"""
 theidserver,Aguafrommars,12588,helm,https://github.com/Aguafrommars/terraform-helm-theidserver,TheidServer Terraform module
 three-tier,alina-agalakova,21300,aws,https://github.com/alina-agalakova/terraform-aws-three-tier,
@@ -17408,6 +17420,7 @@ vpc-krishnamodule,jayakrishnaambavarapu,26093,aws,https://github.com/jayakrishna
 vpc-lifecycle-event,infrablocks,3685,aws,https://github.com/infrablocks/terraform-aws-vpc-lifecycle-event,A Terraform module for notifying of VPC lifecycle changes in AWS.
 vpc-lite,JamesWoolfenden,8995,aws,https://github.com/JamesWoolfenden/terraform-aws-vpc-lite,
 vpc-log-flows,terraform-alicloud-modules,10422,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-log-flows,
+vpc-m,ahmadrazalab,26782,aws,https://github.com/ahmadrazalab/terraform-aws-vpc-m,custom vpc module for ap-south-1 region with public and private subnet
 vpc-module,BreakingPitt,21371,packer,https://github.com/BreakingPitt/terraform-packer-vpc-module,Terraform module to create a Packer's build vpc
 vpc-module,JAYAKUMAR-hub,10781,aws,https://github.com/JAYAKUMAR-hub/terraform-aws-vpc-module,This is a terraform module for aws vpc
 vpc-module,JohnMaturan97,25210,aws,https://github.com/JohnMaturan97/terraform-aws-vpc-module,
@@ -17631,6 +17644,7 @@ vsensor,darktrace,21926,gcp,https://github.com/darktrace/terraform-gcp-vsensor,T
 vsocket-aws,catonetworks,26504,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws,
 vsocket-aws-vpc,catonetworks,26731,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws-vpc,
 vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
+vsocket-azure-vnet,catonetworks,26797,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-vnet,
 vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
 vspan-session,netascode,17161,aci,https://github.com/netascode/terraform-aci-vspan-session,Terraform Cisco ACI VSPAN Session Module
 vsphere,NX1X,26331,vmware,https://github.com/NX1X/terraform-vmware-vsphere,This Terraform module allows you to deploy multiple virtual machines on VMware vSphere with the same configuration. It supports various operating systems and provides flexibility in configuring VM attributes. Disclaimer: This module was developed to serve my workplace. The repository is a template without credentials and is still under development.
