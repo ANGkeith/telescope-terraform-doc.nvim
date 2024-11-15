@@ -999,6 +999,7 @@ app-insights,dfar-io,4457,azurerm,https://github.com/dfar-io/terraform-azurerm-a
 app-insights,equinor,23383,azurerm,https://github.com/equinor/terraform-azurerm-app-insights,Terraform module which creates Azure Application Insights resources
 app-installation,Flaconi,26744,github,https://github.com/Flaconi/terraform-github-app-installation,Terraform module to manage GitHub app installation settings
 app-runner,terraform-aws-modules,15907,aws,https://github.com/terraform-aws-modules/terraform-aws-app-runner,Terraform module to create AWS App Runner resources 🇺🇦
+app-secret-rotate,fortytwoservices,26808,azuread,https://github.com/fortytwoservices/terraform-azuread-app-secret-rotate,
 app-secret-rotation,mhennecke,24573,azuread,https://github.com/mhennecke/terraform-azuread-app-secret-rotation,"This Terraform module ensures continuous rotation of Entra ID application secrets using a blue-green strategy, guaranteeing that there is always at least one valid password available."
 app-service,JamesWoolfenden,20673,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-app-service,
 app-service,KamenYovchev,6261,azurerm,https://github.com/KamenYovchev/terraform-azurerm-fe-app-service,
@@ -1628,7 +1629,7 @@ automation_account,sironite,19997,azurerm,https://github.com/sironite/terraform-
 automount,abokov,1697,azurerm,https://github.com/abokov/terraform-azurerm-automount,
 automq-byoc-environment,AutoMQ,25832,aws,https://github.com/AutoMQ/terraform-aws-automq-byoc-environment,Terraform module to create AutoMQ BYOC resources with AWS providers
 automq-byoc-environment,AutoMQ,26125,huaweicloud,https://github.com/AutoMQ/terraform-huaweicloud-automq-byoc-environment,
-automq-byoc-environment,AutoMQ,26766,google,https://github.com/AutoMQ/terraform-google-automq-byoc-environment,
+automq-byoc-environment,AutoMQ,26766,google,https://github.com/AutoMQ/terraform-google-automq-byoc-environment,https://registry.terraform.io/modules/AutoMQ/automq-byoc-environment/google/latest
 autopilot,RJPearson94,6239,twilio,https://github.com/RJPearson94/terraform-twilio-autopilot,Terraform module for managing an autopilot assistant
 autopilot,layer-3,25294,google,https://github.com/layer-3/terraform-google-autopilot,
 autorotated-database-credentials,jessiehernandez,8806,aws,https://github.com/jessiehernandez/terraform-aws-autorotated-database-credentials,Module that creates an AWS Secrets Manager secret that holds database credentials and has a Lambda rotator function attached.
@@ -1693,7 +1694,7 @@ avm-ptn-azuremonitorwindowsagent,Azure,25935,azurerm,https://github.com/Azure/te
 avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners,Azure Verified Module for Azure DevOps Agents and GitHub Runners
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
-avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Multi-hub networking pattern module for Terraform
+avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Azure Verified Module for the Multi-hub networking pattern
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
@@ -1790,6 +1791,7 @@ aws,nadirkakoev,4864,asg,https://github.com/nadirkakoev/terraform-asg-aws,
 aws,netskopeoss,17216,netskopebwan,https://github.com/netskopeoss/terraform-netskopebwan-aws,
 aws,nosurprisehq,26404,module,https://github.com/nosurprisehq/terraform-module-aws,
 aws,orifjon76,9671,asg,https://github.com/orifjon76/terraform-asg-aws,
+aws,rancher,26818,rancher2,https://github.com/rancher/terraform-rancher2-aws,
 aws,robertdebock,13456,vault,https://github.com/robertdebock/terraform-vault-aws,
 aws,samstav,976,mailgun,https://github.com/stavxyz/terraform-mailgun-aws,"A Terraform module for creating a Mailgun domain, Route53 Zone, and corresponding DNS records"
 aws,terraform-in-action,5833,bluegreen,https://github.com/terraform-in-action/terraform-bluegreen-aws,
@@ -2135,6 +2137,7 @@ backup,kabisa,3110,aws,https://github.com/kabisa/terraform-aws-backup,Terraform 
 backup,lablabs,17882,aws,https://github.com/lablabs/terraform-aws-backup,A terraform module to provision AWS Backup
 backup,lgallard,3332,aws,https://github.com/lgallard/terraform-aws-backup,"Terraform module to create AWS Backup plans. AWS Backup is a fully managed backup service that makes it easy to centralize and automate the back up of data across AWS services (EBS volumes, RDS databases, DynamoDB tables, EFS file systems, and Storage Gateway volumes)."
 backup,littlejo,16225,aws,https://github.com/littlejo/terraform-aws-backup,Deploy aws backup with terraform
+backup,pagopa,26814,aws,https://github.com/pagopa/terraform-aws-backup,Terraform module to configure AWS Backup
 backup,pogosoftware,14399,aws,https://github.com/pogosoftware/terraform-aws-backup,
 backup,shadbury,14786,aws,https://github.com/shadbury/terraform-aws-backup,
 backup,silinternational,25856,aws,https://github.com/silinternational/terraform-aws-backup,manage AWS Backup and related configuration
@@ -5311,6 +5314,7 @@ duo-whitelist,captn3m0,2384,data,https://github.com/captn3m0/terraform-data-duo-
 duration,Lambda-Null,20146,local,https://github.com/Lambda-Null/terraform-local-duration,
 dws,tf-cloud-modules,24566,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-dws,Sbercloud DWS Terraform module
 dx-lambda,christian-calabrese,26326,aws,https://github.com/christian-calabrese/terraform-aws-dx-lambda,
+dx_azure_role_assignments,pagopa,26811,azurerm,https://github.com/pagopa/terraform-azurerm-dx_azure_role_assignments,
 dynamic,saketh-linux,14163,aws,https://github.com/saketh-jakkula/terraform-aws-dynamic,
 dynamic-inventory,lsampaioweb,17645,local,https://github.com/lsampaioweb/terraform-local-dynamic-inventory,Terraform module that generates local dynamic Ansible inventory files.
 dynamic-keys,mitchellh,990,aws,https://github.com/mitchellh/terraform-aws-dynamic-keys,Terraform module that dynamically generates a public/private keypair.
@@ -8912,6 +8916,7 @@ kibana,infrahouse,23251,aws,https://github.com/infrahouse/terraform-aws-kibana,M
 kibana,kiwicom,4672,kubernetes,https://github.com/kiwicom/terraform-kubernetes-kibana,Kibana module for Kubernetes based on elastic Helm charts
 kibana,philips-labs,11958,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-kibana,Terraform module to deploy Kibana to Cloud foundry
 kibana-manager,cloudscript-technology,25485,elasticstack,https://github.com/cloudscript-technology/terraform-elasticstack-kibana-manager,"Terraform module for provisioning and managing connectors, alerts, and SLOs in Kibana"
+kind-module,ruanbekker,26810,kubernetes,https://github.com/ruanbekker/terraform-kubernetes-kind-module,Terraform Module to deploy a KinD Cluster Locally.
 kinesis,bootlabstech-m,17906,aws,https://github.com/bootlabstech-m/terraform-aws-kinesis,Creates an AWS terraform kinesis.
 kinesis,justtrackio,18792,aws,https://github.com/justtrackio/terraform-aws-kinesis,Terraform module which creates a kinesis stream including alarms
 kinesis,simi31jain,24123,aws,https://github.com/simi31jain/terraform-aws-kinesis,kinesis stream module
@@ -10489,6 +10494,7 @@ moduling,lokkesshhh,20738,test,https://github.com/lokkesshhh/terraform-test-modu
 modvnet,umakrishnasudha,13040,azurerm,https://github.com/umakrishnasudha/terraform-azurerm-modvnet,
 modzy-env,modzy,12328,aws,https://github.com/modzy/terraform-aws-modzy-env,This Terraform module will provision all the infrastructure necessary to run a Modzy environment in AWS
 mohitvpc,Mohitsingh37,21531,azurerm,https://github.com/Mohitsingh37/terraform-azurerm-mohitvpc,
+mohsin,masoodmls,26816,azurerm,https://github.com/masoodmls/terraform-azurerm-mohsin,
 mongo-backup,dasmeta,12669,google,https://github.com/dasmeta/terraform-google-mongo-backup,For scheduled backup mongo databases and migration to google cloud storage
 mongodb,bchrobot,1631,aws,https://github.com/bchrobot/terraform-aws-mongodb,MongoDB on AWS.
 mongodb,cloud-native-toolkit,14566,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-mongodb,Terraform module to provision an instance of Databases for MongoDB into the account
@@ -11481,6 +11487,8 @@ nva-panos,cybergavin,10045,azurerm,https://github.com/cybergavin/terraform-azure
 nw,CloudNationHQ,25606,azure,https://github.com/CloudNationHQ/terraform-azure-nw,Terraform module which creates network watcher resources used by workloads and accelerators.
 nwk,playgroundtech,9146,aws,https://github.com/playgroundtech/terraform-aws-nwk,AWS Terraform Network module
 oam,SPHTech-Platform,22300,aws,https://github.com/SPHTech-Platform/terraform-aws-oam,AWS Observability Access Manager
+oam-link,alekc,26813,aws,https://github.com/alekc/terraform-aws-oam-link,A terraform module which can be used to create a Observability Access Manager link 
+oam-sink,alekc,26815,aws,https://github.com/alekc/terraform-aws-oam-sink,A terraform module which can be used to create a Observability Access Manager Sink
 oauth,benjaminejarrell,24955,azuread,https://github.com/benjaminejarrell/terraform-azuread-oauth,Sets up an EntraID/AzureAD app registration to be used by an OAuth SP
 oauth-client,vdbulcke,19592,forgerock,https://github.com/vdbulcke/terraform-forgerock-oauth-client,Terraform module for Forgerock AM OAuth Clients
 oauth-proxy,terraform-iaac,19370,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-oauth-proxy,Terraform module for OAuth Proxy
@@ -15342,6 +15350,7 @@ staticwebsite,ankitgiri45,12861,azurerm,https://github.com/ankitgiri45/terraform
 staticwebsite,beacloudguy,19030,azure,https://github.com/beacloudguy/terraform-azure-staticwebsite,Terraform Modules to be shared in Terraform Public Registry
 staticwebsite,gopal1409,17158,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsite,terraform static website module
 staticwebsite,mittalabhishek02,12854,azurerm,https://github.com/mittalabhishek02/terraform-azurerm-staticwebsite,Terraform Module for static website in Azure
+staticwebsite,rahulpaul217,26812,azurerm,https://github.com/rahulpaul217/terraform-azurerm-staticwebsite,
 staticwebsite,saranyasl,22513,azure,https://github.com/saranyasl/terraform-azure-staticwebsite,terraform module
 staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform-aws-staticwebsite,Terraform module to setup a static website with good defaults on S3 + CloudFront
 staticwebsite,worldofprasanna,4791,aws,https://github.com/worldofprasanna/terraform-aws-staticwebsite,Terraform module to create & host static UI application in AWS S3
@@ -16479,6 +16488,7 @@ vault-vals-installation,gokhanwell,20233,aws,https://github.com/gokhanwell/terra
 vault_autounseal_infra,fvoges,12730,aws,https://github.com/fvoges/terraform-aws-vault_autounseal_infra,
 vault_deployment,Sokren,11786,hcp,https://github.com/Sokren/terraform-hcp-vault_deployment,
 vault_policies_secrets,l-with,19111,module,https://github.com/l-with/terraform-module-vault_policies_secrets,
+vaultgke,jm-merchan,26809,google,https://github.com/jm-merchan/terraform-google-vaultgke,
 vaulthelm,joatmon08,4487,google,https://github.com/joatmon08/terraform-google-vaulthelm,
 vaultkey,jtcarnes,14275,awx,https://github.com/jtcarnes/terraform-awx-vaultkey,Terraform module to create ssh key for Ansible AWX using Hashicorp Vaults ssh cert backend
 vaults,crazy-canux,14446,bank,https://github.com/crazy-canux/terraform-aws-bank-vaults,terraform deploy vault-secret-webhook on eks.
