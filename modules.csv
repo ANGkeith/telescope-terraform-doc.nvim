@@ -1736,6 +1736,7 @@ avm-res-devopsinfrastructure-pool,Azure,25629,azurerm,https://github.com/Azure/t
 avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,
 avm-res-edge-site,Azure,25589,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-edge-site,terraform avm module for resource site manager
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,
+avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,AVM Terraform Module for Application Insights
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Azure Verified Module for Key Vault
@@ -2040,6 +2041,7 @@ azure-route-server,terraform-aviatrix-modules,14966,aviatrix,https://github.com/
 azure-secrets-engine,devops-rob,7436,vault,https://github.com/devops-rob/terraform-vault-azure-secrets-engine,This module enables and configures the Azure secrets engine for Vault.
 azure-spoke,terraform-aviatrix-modules,5584,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-spoke,This module deploys a VNET and an Aviatrix spoke gateway in Azure and attaches it to an Aviatrix Transit Gateway
 azure-sql-server,kabisa,14218,datadog,https://github.com/kabisa/terraform-datadog-azure-sql-server,
+azure-sse,terraform-aviatrix-modules,26862,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-sse,This module facilitates easy integration between Aviatrix and Microsoft Azure's Security Service Edge.
 azure-storage,nk2135,19642,nk,https://github.com/nk2135/terraform-nk-azure-storage,
 azure-storage-sas,datarootsio,5851,module,https://github.com/datarootsio/terraform-module-azure-storage-sas,Terraform module for Azure Storage SAS tokens
 azure-tenant,streamsec-terraform,25411,streamsec,https://github.com/streamsec-terraform/terraform-streamsec-azure-tenant,Terraform module for azure tenant
@@ -2839,6 +2841,7 @@ clb-layer4-listener,terraform-tencentcloud-modules,6391,tencentcloud,https://git
 clb-layer7-listener,terraform-tencentcloud-modules,6392,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-clb-layer7-listener,
 clean-old-ami,giuseppeborgese,2084,aws,https://github.com/giuseppeborgese/terraform-aws-clean-old-ami,Terraform module to delete old AWS AMI/Images
 clean-old-ami,schrill,3568,aws,https://github.com/schrill/terraform-aws-clean-old-ami,Terraform module to delete old AWS AMI/Images
+clearblade-iot-enterprise,ClearBlade,26866,google,https://github.com/ClearBlade/terraform-google-clearblade-iot-enterprise,
 clerk,dvargas92495,10532,aws,https://github.com/dvargas92495/terraform-aws-clerk,A terraform module for hooking up your Clerk instance to AWS
 clever,dyanca,1408,something,https://github.com/dyanca/terraform-something-clever,
 cli,digitickets,4845,aws,https://github.com/digitickets/terraform-aws-cli,"Run the AWS CLI, with the ability to run under an assumed role, to access resources and properties missing from the Terraform AWS Provider."
@@ -3344,6 +3347,7 @@ cloudwatch-logs-to-loggly,oss-group,15312,aws,https://github.com/oss-group/terra
 cloudwatch-metric-alarm,Cloud-42,7204,aws,https://github.com/Cloud-42/terraform-aws-cloudwatch-metric-alarm,Creates a CloudWatch metric alarm.
 cloudwatch-metrics-for-ec2,robin-zhao,6658,aws,https://github.com/robin-zhao/terraform-aws-cloudwatch-metrics-for-ec2,This Terraform script creates a bunch of predefined Alarms to tagged EC2 instances
 cloudwatch-monitors,rhythmictech,3129,cis,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
+cloudwatch-msk,delivops,26865,aws,https://github.com/delivops/terraform-aws-cloudwatch-msk,Terraform-aws-msk-cloudwatch is a Terraform module for setting up a notification system about cloudwatch msk metrics.
 cloudwatch-oam,blackbird-cloud,19788,aws,https://github.com/blackbird-cloud/terraform-aws-cloudwatch-oam,This module can be used to create AWS Cloudwatch OAM resources
 cloudwatch-rule-alarm,wesol05,2861,aws,https://github.com/wesol05/terraform-aws-cloudwatch-rule-alarm,
 cloudwatch-s3,JamesWoolfenden,2851,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudwatch-s3,Stream Cloudwatch logs to s3
@@ -8712,7 +8716,7 @@ k8s-addons-external-secrets-operator,opzkit,11531,aws,https://github.com/opzkit/
 k8s-addons-fluentbit,opzkit,11210,aws,https://github.com/opzkit/terraform-aws-k8s-addons-fluentbit,
 k8s-addons-github-runners,opzkit,10624,aws,https://github.com/opzkit/terraform-aws-k8s-addons-github-runners,
 k8s-addons-grafana-agent-operator,opzkit,12924,aws,https://github.com/opzkit/terraform-aws-k8s-addons-grafana-agent-operator,
-k8s-addons-grafana-k8s-monitoring,opzkit,26847,aws,https://github.com/opzkit/terraform-aws-k8s-addons-grafana-k8s-monitoring,
+k8s-addons-grafana-k8s-monitoring,opzkit,26864,aws,https://github.com/opzkit/terraform-aws-k8s-addons-grafana-k8s-monitoring,
 k8s-addons-keda,opzkit,25674,aws,https://github.com/opzkit/terraform-aws-k8s-addons-keda,
 k8s-agent,env0,11964,aws,https://github.com/env0/terraform-aws-k8s-agent,Terraform module which creates a k8s cluster in aws EKS and install the env0 agent on it
 k8s-alerting,akw-devsecops,19812,newrelic,https://github.com/akw-devsecops/terraform-newrelic-k8s-alerting,Terraform module to set up Kubernetes alerting in NewRelic.
@@ -10351,6 +10355,7 @@ module,prbinfo,7559,example,https://github.com/prbinfo/terraform-example-module,
 module,quangtung20,21376,aws,https://github.com/quangtung20/terraform-aws-module,
 module,sabikm9876,1405,vpc,https://github.com/sabikm9876/terraform-vpc-module,
 module,sandeepsaini98,13650,gcp,https://github.com/sandeepsaini98/terraform-gcp-module,
+module,sharosoo,26858,irsa,https://github.com/sharosoo/terraform-irsa-module,Terraform module to create IRSA role
 module,tobi1972,7130,google,https://github.com/tobi1972/terraform-google-module,
 module,university-outreach-infrastructure-tf,3151,gitlab,https://github.com/university-outreach-infrastructure-tf/terraform-gitlab-module,
 module,vancluever,2096,null,https://github.com/vancluever/terraform-null-module,No-op module designed to test the Terraform registry
@@ -11019,7 +11024,7 @@ naming,heathen1878,21907,azurecaf,https://github.com/heathen1878/terraform-azure
 naming,opsvibe,8202,azurerm,https://github.com/opsvibe/terraform-azurerm-naming,
 naming,ralf-it,24271,azurerm,https://github.com/ralf-it/terraform-azurerm-naming,
 naming,terraformation,3678,local,https://github.com/terraformation/terraform-local-naming,Module for naming harmonization for resources (by Terraformation)
-naming-convetions,fivexl,26533,aws,https://github.com/fivexl/terraform-aws-naming-convetions,"This module is designed to serve as the definitive source for naming conventions within an organization. If you need to create an entity that will be utilized across multiple accounts, you should employ this module to ensure consistency in naming conventions."
+naming-conventions,fivexl,26861,aws,https://github.com/fivexl/terraform-aws-naming-conventions,"This module is designed to serve as the definitive source for naming conventions within an organization. If you need to create an entity that will be utilized across multiple accounts, you should employ this module to ensure consistency in naming conventions."
 naming-generator,taimlog,17730,proxmox,https://github.com/taimlog/terraform-proxmox-naming-generator,cloned from https://github.com/cloudposse/terraform-null-label
 naming-validated,VirtuslabWorkshops,21278,azurerm,https://github.com/VirtuslabWorkshops/terraform-azurerm-naming-validated,
 nandhas3module,nandhakumarm5,12718,aws,https://github.com/nandhakumarm5/terraform-aws-nandhas3module,
@@ -13693,6 +13698,7 @@ s3-bucket,quadri-olamilekan,22775,aws,https://github.com/quadri-olamilekan/terra
 s3-bucket,rahulagalcha97,5816,aws,https://github.com/rahulagalcha97/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,rohit-vhatkar,14008,aws,https://github.com/rohit-vhatkar/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,rrgowd,22535,aws,https://github.com/rrgowd/terraform-aws-s3-bucket,
+s3-bucket,rrgowd159,26863,aws,https://github.com/rrgowd159/terraform-aws-s3-bucket,
 s3-bucket,russebe,21350,aws,https://github.com/russebe/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,sarankals,6752,aws,https://github.com/sarankals/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,simplemonkey,8916,aws,https://github.com/simplemonkey/terraform-aws-s3-bucket,
