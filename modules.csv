@@ -4379,7 +4379,6 @@ diagnostic-settings,justincampbell,2523,azurerm,https://github.com/justincampbel
 diagnostic-settings,libre-devops,23224,azurerm,https://github.com/libre-devops/terraform-azurerm-diagnostic-settings,A module used to deploy diagnostic settings 🕵️‍♂️
 diagnostic_setting,andrewCluey,6513,azurerm,https://github.com/andrewCluey/terraform-azurerm-diagnostic_setting,
 diana11d,Diana11d,23907,helm,https://github.com/Diana11d/terraform-helm-diana11d,
-dibbs,alismx,26393,aws,https://github.com/alismx/terraform-aws-dibbs,
 dibbs-ecr-viewer,CDCgov,26698,aws,https://github.com/CDCgov/terraform-aws-dibbs-ecr-viewer,
 dicom,philips-labs,7696,hsdp,https://github.com/philips-labs/terraform-hsdp-dicom,Terraform module to onboard to HSDP DICOM services
 dict-converter-yaml,jd4883,6958,yaml,https://github.com/jd4883/terraform-yaml-dict-converter-yaml,Small terrafom module to convert yaml to a terraform map which can be referenced in many useful ways. Strongly recommend storing this to one or more locals and using this as an alternate to tfvars for filling in values. I wrote this to easily handle building terraform code at scale with terraform 13's dynamic module instantiation features in a human readable manner.
@@ -5885,7 +5884,7 @@ ecs-agent-pool-autoscaler,glenngillen,15358,aws,https://github.com/glenngillen/t
 ecs-airflow,datarootsio,6494,aws,https://github.com/datarootsio/terraform-aws-ecs-airflow,A terraform module that creates an airflow instance in AWS ECS.
 ecs-alarm-consumer,justtrackio,17941,aws,https://github.com/justtrackio/terraform-aws-ecs-alarm-consumer,
 ecs-alarm-gateway,justtrackio,17942,aws,https://github.com/justtrackio/terraform-aws-ecs-alarm-gateway,Terraform module which creates a alarm for a ecs gateway application
-ecs-alarm-kinsumer,justtrackio,17943,aws,https://github.com/justtrackio/terraform-aws-ecs-alarm-kinsumer,Terraform module which creates a alarm for a ecs kinsumer application
+ecs-alarm-kinsumer,justtrackio,26890,aws,https://github.com/justtrackio/terraform-aws-ecs-alarm-kinsumer,Terraform module which creates a alarm for a ecs kinsumer application
 ecs-alarm-scheduled,justtrackio,18287,aws,https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled,Terraform module which creates a alarm for a ecs scheduled task
 ecs-alb,cn-terraform,4729,aws,https://github.com/cn-terraform/terraform-aws-ecs-alb,AWS ALB Terraform Module for ECS
 ecs-alb-service-task,SevenPicoForks,17816,aws,https://github.com/SevenPicoForks/terraform-aws-ecs-alb-service-task,Terraform module which implements an ECS service which exposes a web service via ALB.
@@ -6637,7 +6636,7 @@ eksmar24module,winfred008,23542,aws,https://github.com/winfred008/terraform-aws-
 eksmodule,lily4499,22718,aws,https://github.com/lily4499/terraform-aws-eksmodule,
 elastic,JamesWoolfenden,7816,aws,https://github.com/JamesWoolfenden/terraform-aws-elastic,Provision an elasticsearch cluster from the AWS managed service
 elastic,boeboe,16431,helm,https://github.com/boeboe/terraform-helm-elastic,Terraform module for Elastic Stack deployment on Kubernetes using Helm
-elastic,squareops,26452,kubernetes,https://github.com/squareops/terraform-kubernetes-elastic,"erraform module for deploying Elasticsearch using Helm on AWS, Azure, and Google Cloud, enabling scalable, managed search solutions across multiple cloud environments."
+elastic,squareops,26452,kubernetes,https://github.com/squareops/terraform-kubernetes-elastic,"Terraform module for deploying Elasticsearch using Helm on AWS, Azure, and Google Cloud, enabling scalable, managed search solutions across multiple cloud environments."
 elastic-agent,syneki,14059,kubernetes,https://github.com/syneki/terraform-kubernetes-elastic-agent,
 elastic-beanstalk,finisterra-io,23564,aws,https://github.com/finisterra-io/terraform-aws-elastic-beanstalk,Terraform AWS Elastic Beanstalk module
 elastic-beanstalk-and-s3-with-cloudfront-distribution,muneebmughal1,19187,aws,https://github.com/muneebmughal1/terraform-aws-elastic-beanstalk-and-s3-with-cloudfront-distribution,
@@ -7557,6 +7556,7 @@ github-runner,philips-labs,4962,aws,https://github.com/philips-labs/terraform-aw
 github-runner,politician,13583,digitalocean,https://github.com/politician/terraform-digitalocean-github-runner,Terraform module to create a GitHub runner in a Digital Ocean droplet
 github-runner,waylew-lexis,11397,azurerm,https://github.com/waylew-lexis/terraform-azurerm-github-runner,terraform-azurerm-github-runner
 github-runners,cloudandthings,15527,aws,https://github.com/cloudandthings/terraform-aws-github-runners,"Simple to use, self-hosted GitHub Action runners. Uses EC2 spot instances with configurable AutoScaling."
+github-runners-ec2,cloudandthings,26887,aws,https://github.com/cloudandthings/terraform-aws-github-runners-ec2,
 github-security-group,opszero,17605,aws,https://github.com/opszero/terraform-aws-github-security-group,
 github-ssh-keys,deanwilson,586,aws,https://github.com/deanwilson/terraform-aws-github-ssh-keys,Use your GitHub SSH public key as an AWS EC2 key pair
 github-ssh-keys,fkonradmain,23816,module,https://github.com/fkonradmain/terraform-module-github-ssh-keys,terraform-module-github-ssh-keys
@@ -9546,6 +9546,7 @@ lambda-python,express42,2039,aws,https://github.com/express42/terraform-aws-lamb
 lambda-python,rekcah78,7155,aws,https://github.com/rekcah78/terraform-aws-lambda-python,A module that allows you to cleanly package python source code and dependencies and deploy it as a AWS Lambda function
 lambda-python-archive,mjiao,7410,aws,https://github.com/manjunjiao/terraform-aws-lambda-python-archive,Package python source and dependencies into Lambda package with stable hash.
 lambda-python-archive,rojopolis,1645,aws,https://github.com/rojopolis/terraform-aws-lambda-python-archive,Package python source and dependencies into Lambda package with stable hash.
+lambda-python-layer,vickyboston20,26886,aws,https://github.com/vickyboston20/terraform-aws-lambda-python-layer,Terraform module for creating python lambda layers in AWS
 lambda-rds-fargate-service-scheduler,iops-team,20249,aws,https://github.com/iops-team/terraform-aws-lambda-rds-fargate-service-scheduler,This Terraform module creates an AWS Lambda function that manages Amazon ECS (Elastic Container Service) and RDS (Relational Database Service) resources based on tags and a schedule. It provides the ability to start or stop ECS services and RDS instances based on specified criteria.
 lambda-rds-keep-stopping,e-koma,18738,aws,https://github.com/e-koma/terraform-aws-lambda-rds-keep-stopping,
 lambda-rds-s3-export,rallyware,20018,aws,https://github.com/rallyware/terraform-aws-lambda-rds-s3-export,
@@ -11463,6 +11464,7 @@ nomad-webhooks,brucellino,21935,github,https://github.com/brucellino/terraform-g
 non-vcs-connected-workspace,ausmartway,10464,tfe,https://github.com/ausmartway/terraform-tfe-non-vcs-connected-workspace,
 nonsense-words,alisdair,5160,random,https://github.com/alisdair/terraform-random-nonsense-words,
 noop,jrhouston,19617,module,https://github.com/jrhouston/terraform-module-noop,A test module that sleeps 
+nops-commitment-management,nops-io,26891,aws,https://github.com/nops-io/terraform-aws-nops-commitment-management,Terraform module for commitment management integration with AWS using the nOps platform
 nops-integration,nops-io,26479,aws,https://github.com/nops-io/terraform-aws-nops-integration,Terraform module for integrating AWS with the nOps platform
 nops-onboarding-testing,mkahnlein-caylent,26461,aws,https://github.com/mkahnlein-caylent/terraform-aws-nops-onboarding-testing,nOps terraform repository for testing
 normalize,Olivr,13485,null,https://github.com/Olivr/terraform-null-normalize,"Terraform module to normalize strings (replace accents, trim special characters)"
@@ -12444,11 +12446,13 @@ pypiserver,infrahouse,23305,aws,https://github.com/infrahouse/terraform-aws-pypi
 pyramids,omariosman,14929,aws,https://github.com/omariosman/terraform-aws-pyramids,
 python,nyinyisoepaing,10102,lambda,https://github.com/NyiNyiSoePaing/terraform-lambda-python,
 python-lambda-layer,kota65535,22224,aws,https://github.com/kota65535/terraform-aws-python-lambda-layer,
+python-lambda-layer,vickyboston20,26884,aws,https://github.com/vickyboston20/terraform-aws-python-lambda-layer,Terraform module for creating python lambda layers in AWS
 python-slack-notifications,Lupus-Metallum,13547,aws,https://github.com/Lupus-Metallum/terraform-aws-python-slack-notifications,
 qa-envs,moonswitch,11528,google,https://github.com/moonswitch/terraform-google-qa-envs,Terraform module to create and manage a Firestore table with information about QA environments to be consumed by the the Moonswitch GitHub Actions select-qa-env and release-qa-env.
 qamar_terraform_module,qamarabbas572,25917,aws,https://github.com/qamarabbas572/terraform-aws-qamar_terraform_module,
 qdrant,CTOFriendly,19132,aws,https://github.com/CTOFriendly/terraform-aws-qdrant,Terraform module to deploy QDrant  vector DB on EC2 AWS
 qdrant,iLert,24264,kubernetes,https://github.com/iLert/terraform-kubernetes-qdrant,
+qdrantvm,vossmoos,26894,azurerm,https://github.com/vossmoos/terraform-azurerm-qdrantvm,
 qip-address,Vitesco-Technologies,22420,module,https://github.com/Vitesco-Technologies/terraform-module-qip-address,"Manage IPv4 addresses in a subnet of Nokia QIP, based on https://github.com/Vitesco-Technologies/terraform-provider-qip"
 qos,netascode,10308,aci,https://github.com/netascode/terraform-aci-qos,Terraform Cisco ACI QoS Module
 qos-policy,netascode,15871,aci,https://github.com/netascode/terraform-aci-qos-policy,Terraform Cisco ACI QoS Policy Module 
@@ -17596,6 +17600,7 @@ vpc5,farrukh90,12617,aws,https://github.com/farrukh90/terraform-aws-vpc5,
 vpc5,tshamane,12665,aws,https://github.com/tshamane/terraform-aws-vpc5,
 vpc7,Aigerim2024,25481,aws,https://github.com/Aigerim2024/terraform-aws-vpc7,
 vpc7,techtorialdevops,25477,aws,https://github.com/techtorialdevops/terraform-aws-vpc7,
+vpcDetailer,Digital-Works-2020,26889,aws,https://github.com/Digital-Works-2020/terraform-aws-vpcDetailer,Modules Based on Terraform AWS Provider
 vpc_endpoints,aws-ia,10360,aws,https://github.com/aws-ia/terraform-aws-vpc_endpoints,Terraform AWS VPC endpoints module
 vpc_marcus,nguyencuong30697,17521,aws,https://github.com/nguyencuong30697/terraform-aws-vpc_marcus,"Create VPC, subnet, IGW and NATGW by terraform"
 vpc_module,mmichel122,3488,aws,https://github.com/mmichel122/terraform-aws-vpc_module,
