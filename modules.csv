@@ -905,6 +905,7 @@ api-gateway-lambda-sqs,crisboarna,1638,aws,https://github.com/crisboarna/terrafo
 api-gateway-method,little-birdie,20109,aws,https://github.com/little-birdie/terraform-aws-api-gateway-method,
 api-gateway-method,ptonini,22226,aws,https://github.com/ptonini/terraform-aws-api-gateway-method,
 api-gateway-method-settings,corpit-consulting-public,2937,aws,https://github.com/corpit-consulting-public/terraform-aws-api-gateway-method-settings,
+api-gateway-module,CarouselGG,26935,aws,https://github.com/CarouselGG/terraform-aws-api-gateway-module,Terraform module that scaffolds out new API Gateway (v2) for new APIs
 api-gateway-open-api,barneyparker,22092,aws,https://github.com/barneyparker/terraform-aws-api-gateway-open-api,Create OpenAPI documents with AWS API Gateway Extensions (and create a Rest API)
 api-gateway-resource,fernanfpinformatica,2035,aws,https://github.com/fariassdev/terraform-aws-api-gateway-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
 api-gateway-resource,ptonini,22227,aws,https://github.com/ptonini/terraform-aws-api-gateway-resource,
@@ -1765,6 +1766,7 @@ avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
 avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,Front Door Web Application Firewall (WAF) Policy
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
+avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,AVM Terraform module for Local Network Gateway
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
 avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,
 avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
@@ -3396,6 +3398,7 @@ cluster,cktf,25586,hcloud,https://github.com/cktf/terraform-hcloud-cluster,Terra
 cluster,convox,2920,aws,https://github.com/convox/terraform-aws-cluster,Convox Rack
 cluster,djangoflow,14890,google,https://github.com/djangoflow/terraform-google-cluster,An opinionated Google CKE cluster for Djangoflow deployment
 cluster,erkinsinc,5861,aws,https://github.com/erkinsinc/terraform-aws-cluster,
+cluster,evilDr4gon,26943,kaas,https://github.com/evilDr4gon/terraform-kaas-cluster,Modulo orientado a la abstracción de KaaS
 cluster,gitrahimi,5888,aws,https://github.com/gitrahimi/terraform-aws-cluster,
 cluster,husneozmen,7881,aws,https://github.com/h-ozmen/terraform-aws-cluster,
 cluster,infrablocks,7779,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-cluster,A Terraform module for creating a MongoDB cluster in MongoDB Atlas.
@@ -5769,6 +5772,7 @@ ecp,terraform-alicloud-modules,12803,alicloud,https://github.com/alibabacloud-au
 ecr,DNXLabs,5730,aws,https://github.com/DNXLabs/terraform-aws-ecr,This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.
 ecr,JamesWoolfenden,1960,aws,https://github.com/JamesWoolfenden/terraform-aws-ecr,A terraform module to create a container registry (ECR - Elastic Container Registry) in AWS
 ecr,QuiNovas,1483,aws,https://github.com/QuiNovas/terraform-aws-ecr,Creates an AWS ECR repository
+ecr,RocketRez,26942,aws,https://github.com/RocketRez/terraform-aws-ecr,ECR module for RocketRez
 ecr,Selleo,13876,aws,https://github.com/Selleo/terraform-aws-ecr,Terraform module for ECR
 ecr,SevenPicoForks,17768,aws,https://github.com/SevenPicoForks/terraform-aws-ecr,Terraform Module to manage Docker Container Registries on AWS ECR
 ecr,YoshinoriSatoh,11945,aws,https://github.com/YoshinoriSatoh/terraform-aws-ecr,
@@ -5860,6 +5864,7 @@ ecs,Fasal-Tech,17872,aws,https://github.com/Fasal-Tech/terraform-aws-ecs,
 ecs,FlexibleEngineCloud,6016,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-ecs,Terraform module which creates ECS resources on Flexible Engine cloud
 ecs,HENNGE,4018,aws,https://github.com/HENNGE/terraform-aws-ecs,"Terraform module which creates ECS (EC2 and Fargate) and related resources (autoscaling, cron fargate, etc.) on AWS"
 ecs,Moncky,11055,aws,https://github.com/Moncky/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
+ecs,RocketRez,26940,aws,https://github.com/RocketRez/terraform-aws-ecs,terraform pipeline module for RocketRez
 ecs,SPHTech-Platform,22781,aws,https://github.com/SPHTech-Platform/terraform-aws-ecs,Reusable module to create ECS cluster
 ecs,Selleo,17120,aws,https://github.com/Selleo/terraform-aws-ecs,Terraform ECS module
 ecs,Smartbrood,633,aws,https://github.com/Smartbrood/terraform-aws-ecs,Terraform module to create ECS cluster
@@ -9632,6 +9637,7 @@ landing-zone,getindata,15496,azurerm,https://github.com/getindata/terraform-azur
 landing-zone,qbeyond,17588,google,https://github.com/qbeyond/terraform-google-landing-zone,Information about the terraform modules to deploy an landing zone to google
 landing-zone,terraform-ibm-modules,16660,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone,"Creates a fully customizable VPC environment and compute resources (VSI, Red Hat OpenShift) with presets designed to meet strict compliance needs."
 landing-zone-account-factory-role-based-sso,alibabacloud-automation,21563,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-account-factory-role-based-sso,
+landing-zone-actiontrail-log-archive,alibabacloud-automation,26937,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-actiontrail-log-archive,
 landing-zone-bootstrap,qbeyond,17577,google,https://github.com/qbeyond/terraform-google-landing-zone-bootstrap,"Terraform Module to enable critical organization-level functionalities that depend on broad administrative permissions, and prepare the prerequisites needed to enable automation in this and future stages."
 landing-zone-cloud-sso-multi-account-policy,terraform-alicloud-modules,12832,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloud-sso-multi-account-policy,Terraform module which creates RD account and manage it policy by cloud sso on Alibaba Cloud.
 landing-zone-cloudsso,alibabacloud-automation,26905,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloudsso,
@@ -12000,6 +12006,7 @@ pipeline-controller,toluna-terraform,11534,aws,https://github.com/toluna-terrafo
 pipeline-eks-deploy,fmontezuma,2765,aws,https://github.com/fmontezuma/terraform-aws-pipeline-eks-deploy,
 pipeline-k8s-common,fmontezuma,2778,aws,https://github.com/fmontezuma/terraform-aws-pipeline-k8s-common,
 pipeline-maker,Athena-Tech-Services,16586,aws,https://github.com/Athena-Tech-Services/terraform-aws-pipeline-maker,
+pipeline-maker,RocketRez,26941,aws,https://github.com/RocketRez/terraform-aws-pipeline-maker,terraform pipeline module for RocketRez
 pipelines,T-Systems-MMS,12101,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-pipelines,Configure Azure DevOps Pipelines
 pke,providus-sys,18974,module,https://github.com/providus-sys/terraform-module-pke,PKE module
 pki,particuleio,11926,tls,https://github.com/particuleio/terraform-tls-pki,Manage a certificate authority with Terraform
@@ -17854,6 +17861,7 @@ webapp,rahulkhengare,1148,azurerm,https://github.com/rahulkhengare/terraform-azu
 webapp,skjeon1,26837,azurerm,https://github.com/skjeon1/terraform-azurerm-webapp,
 webapp,steelyjeff,9081,azurerm,https://github.com/steelyjeff/terraform-azurerm-webapp,"Terraform module for provisioning Azure Service plan, App service (web app) and Application Insight"
 webapp,tommyatvontier,18015,azurerm,https://github.com/tommyatvontier/terraform-azurerm-webapp,
+webapp,wja30,26938,azurerm,https://github.com/wja30/terraform-azurerm-webapp,
 webapp-arch,bootlabstech,17753,google,https://github.com/bootlabstech/terraform-google-gke-webapp,
 webapp-arch,bootlabstech,18005,azurerm,https://github.com/bootlabstech/terraform-azurerm-azure-webapp,
 webapp-linux-with-vnet,bootlabstech,26094,azurerm,https://github.com/bootlabstech/terraform-azurerm-webapp-linux-with-vnet,terraform-azurerm-webapp-linux-with-vnet
