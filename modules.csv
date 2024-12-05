@@ -1529,6 +1529,7 @@ assume-aws-role,wandb,12499,google,https://github.com/wandb/terraform-google-ass
 assume-role-group,QuiNovas,1474,aws,https://github.com/QuiNovas/terraform-aws-assume-role-group,Creates an IAM group that allows for the assumtion of roles
 asustor-s3-sync,dee-kryvenko,11107,aws,https://github.com/dee-kryvenko/terraform-aws-asustor-s3-sync,Terraform Module to set up Asustor S3 Cloud Sync
 atat,Azure-Terraformer,25350,github,https://github.com/Azure-Terraformer/terraform-github-atat,GitHub AT-AT (Automate the Automation with Terraform)
+atat-application-environment,Azure-Terraformer,27011,github,https://github.com/Azure-Terraformer/terraform-github-atat-application-environment,
 athena,JamesWoolfenden,7621,aws,https://github.com/JamesWoolfenden/terraform-aws-athena,Basic Athena module
 athena,babbel,8048,aws,https://github.com/babbel/terraform-aws-athena,"Terraform module creating a Glue table, an Athena workgroup and an S3 bucket for the workgroup"
 athena,bootlabstech-m,17487,aws,https://github.com/bootlabstech-m/terraform-aws-athena,Creates an AWS Athena 
@@ -3377,6 +3378,7 @@ cloudwatch-oam,blackbird-cloud,19788,aws,https://github.com/blackbird-cloud/terr
 cloudwatch-rds,delivops,26961,aws,https://github.com/delivops/terraform-aws-cloudwatch-rds,Terraform-aws-cloudwatch-rds is a Terraform module for setting up a notification system about rds metrics.
 cloudwatch-rule-alarm,wesol05,2861,aws,https://github.com/wesol05/terraform-aws-cloudwatch-rule-alarm,
 cloudwatch-s3,JamesWoolfenden,2851,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudwatch-s3,Stream Cloudwatch logs to s3
+cloudwatch-sqs,delivops,27007,aws,https://github.com/delivops/terraform-aws-cloudwatch-sqs,Terraform-aws-cloudwatch-sqs is a Terraform module for setting up a notification system about sqs metrics.
 cloudwatch-stddev-alarm-creator,QuiNovas,2545,aws,https://github.com/QuiNovas/terraform-aws-cloudwatch-stddev-alarm-creator,Provisions the cloudwatch-stddev-alarm-creator LambdaLambdaLambda function
 cloudwatch-subscription-elasticsearch,jparnaudeau,12047,aws,https://github.com/jparnaudeau/terraform-aws-cloudwatch-subscription-elasticsearch,Automate the subscription of a cloudwatch log group to an ElasticSearch endpoint
 cloudwatch-synthetics,clouddrove,18368,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics,CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
@@ -6536,6 +6538,7 @@ eks-fargate-profile,cloudposse,3713,aws,https://github.com/cloudposse/terraform-
 eks-fargate-profile,native-cube,11557,aws,https://github.com/native-cube/terraform-aws-eks-fargate-profile,Terraform module to configure an Fargate Profile on AWS EKS
 eks-fargate-profile,terraform-module,3815,aws,https://github.com/terraform-module/terraform-aws-eks-fargate-profile,Manages an EKS Fargate Profile.
 eks-fargate-profile,umotif-public,4207,aws,https://github.com/umotif-public/terraform-aws-eks-fargate-profile,Terraform module to configure an EKS Fargate Profile
+eks-fsx-lustre-csi,aws-terraform-module,27009,aws,https://github.com/aws-terraform-module/terraform-aws-eks-fsx-lustre-csi,
 eks-github-actions-runner,lablabs,15394,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner,
 eks-github-actions-runner-controller,lablabs,15395,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-controller,Terraform module to deploy Github Actions runner Kubernetes Controller
 eks-github-actions-runner-scale-set-controller,lablabs,23020,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-scale-set-controller,
@@ -7550,6 +7553,7 @@ github-backend,ptonini,16805,vault,https://github.com/ptonini/terraform-vault-gi
 github-backup,infrahouse,26344,aws,https://github.com/infrahouse/terraform-aws-github-backup,Module to provision infrahouse-github-backup GitHub App.
 github-backup-configuration,infrahouse,26373,aws,https://github.com/infrahouse/terraform-aws-github-backup-configuration,Module that configures infrahouse-github-backup GitHub App client.
 github-ci,squidfunk,1131,aws,https://github.com/squidfunk/terraform-aws-github-ci,[DEPRECATED] Serverless CI for GitHub using AWS CodeBuild with PR and status support
+github-credential,Azure-Terraformer,27010,azuread,https://github.com/Azure-Terraformer/terraform-azuread-github-credential,
 github-deploy-role,YoshinoriSatoh,11933,aws,https://github.com/YoshinoriSatoh/terraform-aws-github-deploy-role,
 github-events,rclark,12783,aws,https://github.com/rclark/terraform-aws-github-events,Creates EventBridge events in your AWS account representing developer activity in your GitHub repositories.
 github-identity,zombiezen,22129,google,https://github.com/zombiezen/terraform-google-github-identity,
@@ -11711,6 +11715,7 @@ openid,ballj,12298,keycloak,https://github.com/ballj/terraform-keycloak-openid,O
 openid-config-crawler,beranek1,15184,aws,https://github.com/beranek1/terraform-aws-openid-config-crawler,Automatically copies openid configurations to cloud storage.
 openid-jwks-crawler,beranek1,15189,aws,https://github.com/beranek1/terraform-aws-openid-jwks-crawler,Automatically fetches JWKS from openid configurations.
 openix-modules,openixit-solutions,26502,aws,https://github.com/openixit-solutions/terraform-aws-openix-modules,OpenixIT Solution Organization modules
+openmetadata,open-metadata,27008,aws,https://github.com/open-metadata/terraform-aws-openmetadata,OpenMetadata Terraform module for AWS
 opennext,SRGSSR,21578,aws,https://github.com/SRGSSR/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
@@ -12550,6 +12555,7 @@ rabbitmq-operator,mateothegreat,6579,kubernetes,https://github.com/mateothegreat
 rabbitmq-role,ptonini,16795,vault,https://github.com/ptonini/terraform-vault-rabbitmq-role,
 rabbitmq-secrets-engine,devops-rob,7439,vault,https://github.com/devops-rob/terraform-vault-rabbitmq-secrets-engine,This module enables and configures the RabbitMQ secrets engine.
 rabbitmq-service,philips-labs,9106,hsdp,https://github.com/philips-labs/terraform-hsdp-rabbitmq-service,
+rad-ecr-scraper,rad-security,27006,aws,https://github.com/rad-security/terraform-aws-rad-ecr-scraper,A terraform module for allowing Rad Security to scan ECR registries in your AWS account.
 rad-security-connect,rad-security,24812,aws,https://github.com/rad-security/terraform-aws-rad-security-connect,A terraform module for allowing Rad Security to connect to your AWS account.
 rad-security-connect,rad-security,24813,azurerm,https://github.com/rad-security/terraform-azurerm-rad-security-connect,A terraform module for allowing Rad Security to connect to your Azure account.
 rad-security-plugins,rad-security,25905,helm,https://github.com/rad-security/terraform-helm-rad-security-plugins,A terraform module for installing Rad Security plugins
@@ -14730,6 +14736,7 @@ ses,jessiehernandez,20188,aws,https://github.com/jessiehernandez/terraform-aws-s
 ses,makandra,26291,aws,https://github.com/makandra/terraform-aws-ses,
 ses,nventive,22829,aws,https://github.com/nventive/terraform-aws-ses,Terraform module to provision Simple Email Service (SES) on AWS.
 ses,oozou,15128,aws,https://github.com/oozou/terraform-aws-ses,Terraform module to create AWS SES
+ses,pagopa,27005,aws,https://github.com/pagopa/terraform-aws-ses,Terraform module to create AWS SES 
 ses,rabiloo,9880,aws,https://github.com/rabiloo/terraform-aws-ses,Terraform module which creates SES domain identity resources on AWS.
 ses,rails-on-services,3653,aws,https://github.com/rails-on-services/terraform-aws-ses,Manages AWS SES domains
 ses,raisaaaan,6919,aws,https://github.com/raisaaaan/terraform-aws-ses," Terraform module to create send-only SES resources on AWS"
