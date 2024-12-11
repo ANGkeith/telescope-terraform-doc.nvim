@@ -1827,7 +1827,7 @@ aws-acm,lean-delivery,7583,module,https://github.com/lean-delivery/terraform-mod
 aws-alarms-slack,Adaptavist,5624,module,https://github.com/Adaptavist/terraform-module-aws-alarms-slack,"Terraform module that links a Lambda function to an SNS topic, expecting to receive CloudWatch alarms, forwarding the alarms to a Slack channel."
 aws-alb,lean-delivery,7584,module,https://github.com/lean-delivery/terraform-module-aws-alb,Terraform module for creating AWS Application Load Balancer service
 aws-alb-autoscaling-ec2,rmalenko,21642,module,https://github.com/rmalenko/terraform-module-aws-alb-autoscaling-ec2,Provisioning on AWS  DNS -> ALB -> Autoscaling -> EC2 -> RDS -> ...
-aws-alerting,akw-devsecops,27049,newrelic,https://github.com/akw-devsecops/terraform-newrelic-aws-alerting,NewRelic Alerts for several AWS services
+aws-alerting,akw-devsecops,27071,newrelic,https://github.com/akw-devsecops/terraform-newrelic-aws-alerting,NewRelic Alerts for several AWS services
 aws-alerts,lightstep,12046,lightstep,https://github.com/lightstep/terraform-lightstep-aws-alerts,Terraform module for Lightstep Alerts for AWS services
 aws-apigateway-swagger-ui,timo-reymann,17233,module,https://github.com/timo-reymann/terraform-module-aws-apigateway-swagger-ui,Serve Swagger documentation right from your API-Gateway.
 aws-application,thoughtbot,26685,flightdeck,https://github.com/thoughtbot/terraform-flightdeck-aws-application,Terraform module for provisioning Flightdeck application resources in AWS
@@ -3084,6 +3084,7 @@ cloudcraft-blueprint,DomWeldon,10287,aws,https://github.com/DomWeldon/terraform-
 cloudflare,coralogix,14414,coralogix,https://github.com/coralogix/terraform-coralogix-cloudflare,Coralogix CloudFlare Integrations modules for Terraform.
 cloudflare-gitlab,wenzel-felix,17857,hetzner,https://github.com/wenzel-felix/terraform-hetzner-cloudflare-gitlab,This module allows you to deploy a simple GitLab server on Hetzner with DNS managed by Cloudflare.
 cloudflare-ips-security-group,skwashd,11125,aws,https://github.com/skwashd/terraform-aws-cloudflare-ips-security-group,This terraform module populates an AWS security group ingress rules with Cloudflare source IPs
+cloudflare-restrictor,nbari,27069,aws,https://github.com/nbari/terraform-aws-cloudflare-restrictor,Automatically restrict security groups with designated tags to CloudFlare's known public IPs 
 cloudflare-restrictor,rhythmictech,5124,aws,https://github.com/rhythmictech/terraform-aws-cloudflare-restrictor,Automatically restrict security groups with designated tags to CloudFlare's known public IPs
 cloudflare-route53,jacobbednarz,6932,module,https://github.com/jacobbednarz/terraform-module-cloudflare-route53,A Terraform module managing DNS record types between Cloudflare and Route53 without DNS replication.
 cloudflare-security-group,opszero,12908,aws,https://github.com/opszero/terraform-aws-cloudflare-security-group,
@@ -3926,11 +3927,9 @@ cosmosdb-account,libre-devops,26599,azurerm,https://github.com/libre-devops/terr
 cosmosdb_account,TaleLearnCode,26406,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_account,Terraform module for managing Azure Cosmos DB accounts.
 cosmosdb_sql_container,TaleLearnCode,26410,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_sql_container,Terraform module for managing Azure Cosmos DB NoSQL containers.
 cosmosdb_sql_database,TaleLearnCode,26409,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-cosmosdb_sql_database,Terraform module for managing Azure Cosmos DB NoSQL databases.
-cosmotech-app-registrations,Cosmo-Tech,26339,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-app-registrations,
 cosmotech-bot,Cosmo-Tech,26340,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-bot,
 cosmotech-common,Cosmo-Tech,26341,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-common,
 cosmotech-common,Cosmo-Tech,26357,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-common,
-cosmotech-platform,Cosmo-Tech,26359,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-platform,
 cosmotech-prerequisites,Cosmo-Tech,26360,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-prerequisites,
 cosmotech-tenant,Cosmo-Tech,26356,azure,https://github.com/Cosmo-Tech/terraform-azure-cosmotech-tenant,
 cosmotech-tenant,Cosmo-Tech,26358,kubernetes,https://github.com/Cosmo-Tech/terraform-kubernetes-cosmotech-tenant,
@@ -4569,6 +4568,7 @@ docker,Younaluna,18227,tf5,https://github.com/Younaluna/terraform-tf5-docker,
 docker,abdullahakyuz,22953,aws,https://github.com/abdullahakyuz/terraform-aws-docker,
 docker,brianng09,18224,tf5,https://github.com/brianng09/terraform-tf5-docker,
 docker,gitlawr,17538,lawr,https://github.com/gitlawr/terraform-lawr-docker,
+docker,myhelper65,27078,aws,https://github.com/myhelper65/terraform-aws-docker,
 docker,sabrc,20539,aws,https://github.com/sabrc/terraform-aws-docker,
 docker,scottwinkler,2904,codebuild,https://github.com/scottwinkler/terraform-codebuild-docker,"A Terraform module for building a Docker container during ""terraform apply"""
 docker,selmank12,18226,selman,https://github.com/selmank12/terraform-selman-docker,
@@ -4737,6 +4737,7 @@ docker-instance,MustafaBacanak,23414,aws,https://github.com/MustafaBacanak/terra
 docker-instance,Mustafacan76,16284,aws,https://github.com/Mustafacan76/terraform-aws-docker-instance,
 docker-instance,Mustafaoz35,18180,aws,https://github.com/Mustafaoz35/terraform-aws-docker-instance,
 docker-instance,NazBilgic,18261,aws,https://github.com/NazBilgic/terraform-aws-docker-instance,
+docker-instance,Neopd1985,27068,aws,https://github.com/Neopd1985/terraform-aws-docker-instance,
 docker-instance,Nihat-Nayir,16297,aws,https://github.com/Nihat-Nayir/terraform-aws-docker-instance,
 docker-instance,Numan2035,21566,aws,https://github.com/Numan2035/terraform-aws-docker-instance,
 docker-instance,Nuraybzdmr,18258,aws,https://github.com/Nuraybzdmr/terraform-aws-docker-instance,
@@ -4787,6 +4788,7 @@ docker-instance,Tubabyn,18373,aws,https://github.com/Tubabyn/terraform-aws-docke
 docker-instance,TugceBoyno,20797,aws,https://github.com/TugceBoyno/terraform-aws-docker-instance,
 docker-instance,UgurKosif,18302,aws,https://github.com/UgurKosif/terraform-aws-docker-instance,
 docker-instance,Vuslatbrs,23416,aws,https://github.com/Vuslatbrs/terraform-aws-docker-instance,
+docker-instance,YagizBaba,27079,aws,https://github.com/YagizBaba/terraform-aws-docker-instance,
 docker-instance,Yakuphan-world,18472,aws,https://github.com/Yakuphan-world/terraform-aws-docker-instance,
 docker-instance,YalcinBicer,18195,aws,https://github.com/YalcinBicer/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,YsnHstrk,22364,aws,https://github.com/YsnHstrk/terraform-aws-docker-instance,
@@ -5016,6 +5018,7 @@ docker-instance,mustafaslan-devops,16628,aws,https://github.com/mustafaslan-devo
 docker-instance,mutluresul,14728,aws,https://github.com/mutluresul/terraform-aws-docker-instance,
 docker-instance,myawstraining3455,18349,aws,https://github.com/myawstraining3455/terraform-aws-docker-instance,
 docker-instance,myenerarslan,16291,aws,https://github.com/myenerarslan/terraform-aws-docker-instance,
+docker-instance,myhelper65,27077,aws,https://github.com/myhelper65/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,myildirim40,16303,aws,https://github.com/myildirim40/terraform-aws-docker-instance,
 docker-instance,myucel92,22353,aws,https://github.com/myucel92/terraform-aws-docker-instance,
 docker-instance,nargizraf,26405,aws,https://github.com/nargizraf/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
@@ -6230,6 +6233,7 @@ ecs-traefik,justtrackio,17944,aws,https://github.com/justtrackio/terraform-aws-e
 ecs-traefik-service,aleks-fofanov,5081,aws,https://github.com/aleks-fofanov/terraform-aws-ecs-traefik-service,Terraform module to provision Traefik service in ECS
 ecs-update-monitor,mergermarket,3682,acuris,https://github.com/mergermarket/terraform-acuris-ecs-update-monitor,
 ecs-web-app,cloudposse,1187,aws,https://github.com/cloudposse/terraform-aws-ecs-web-app,"Terraform module that implements a web app on ECS and supports autoscaling, CI/CD, monitoring, ALB integration, and much more."
+ecs-web-app,guardianproject-ops,27072,aws,https://github.com/guardianproject-ops/terraform-aws-ecs-web-app,Terraform module for deploying a web app to ECS with monitoring and ALB integration (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-ecs-web-app)
 ecs-web-app,zahiar,10550,aws,https://github.com/zahiar/terraform-aws-ecs-web-app,"A terraform module to create a web app (complete with ECS service, task definition & ALB) in AWS ECS."
 ecs-web-service,azavea,172,aws,https://github.com/azavea/terraform-aws-ecs-web-service,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) service associated with an Application Load Balancer (ALB).
 ecs-windows,StayWell,2331,aws,https://github.com/StayWell/terraform-aws-ecs-windows,Autoscaling Windows ECS cluster
@@ -7792,6 +7796,7 @@ google-cloud-monitoring,observeinc,23320,observe,https://github.com/observeinc/t
 google-cloud-project,jimmson,21211,jimmson,https://github.com/jimmson/terraform-jimmson-google-cloud-project,Provisions a google cloud account
 google-cloud-secrets-engine,AdrienneCohea,11406,vault,https://github.com/AdrienneCohea/terraform-vault-google-cloud-secrets-engine,Enables the Google Cloud secrets engine and optionally configures rolesets
 google-iam-members,SudharsaneSivamany,14758,google,https://github.com/SudharsaneSivamany/terraform-google-google-iam-members,
+google-integration,streamsec-terraform,27070,streamsec,https://github.com/streamsec-terraform/terraform-streamsec-google-integration,
 google-ip-ranges,chadasapp,2383,dns,https://github.com/chadasapp/terraform-dns-google-ip-ranges,Terraform module to dynamically get the CIDR ranges for GSuite services
 google-mx,orvice,10805,cloudflare,https://github.com/orvice/terraform-cloudflare-google-mx,Terraform Module for setting up MX records pointing to Google mail (Google Workspace)
 google-mx,sikalabs,8295,cloudflare,https://github.com/sikalabs/terraform-cloudflare-google-mx,Terraform Module for setting up MX records pointing to Google mail (Google Workspace)
@@ -9649,6 +9654,7 @@ lambda-scheduler,uridium,9684,aws,https://github.com/uridium/terraform-aws-lambd
 lambda-scheduler-ec2-stop-start,cex-solutions,13029,aws,https://github.com/cex-solutions/terraform-aws-lambda-scheduler-ec2-stop-start,Terraform module used to start/stop ec2 instances by tag name & value
 lambda-scheduler-stop-start,diodonfrost,2075,aws,https://github.com/diodonfrost/terraform-aws-lambda-scheduler-stop-start,Terraform module which creates lambda scheduler for stop and start resources on AWS
 lambda-scheduler-stop-start,jand0manski,19022,aws,https://github.com/jand0manski/terraform-aws-lambda-scheduler-stop-start,Terraform module which creates lambda scheduler for stop and start resources on AWS
+lambda-secrets-manager-tailscale,guardianproject-ops,27073,aws,https://github.com/guardianproject-ops/terraform-aws-lambda-secrets-manager-tailscale,Terraform module rotating tailscale secrets in AWS Secrets Manager (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-lambda-secrets-manager-tailscale)
 lambda-set,Invicton-Labs,9310,aws,https://github.com/Invicton-Labs/terraform-aws-lambda-set,A Terraform module for creating all necessary AWS infrastructure to support a Lambda and its logging
 lambda-set,Kalepa,16034,aws,https://github.com/Kalepa/terraform-aws-lambda-set,A Terraform module for creating all necessary AWS infrastructure to support a Lambda and its logging
 lambda-settings,youyo,4364,aws,https://github.com/youyo/terraform-aws-lambda-settings,
@@ -11633,7 +11639,6 @@ observability,terraform-ibm-modules,21232,ibm,https://github.com/terraform-ibm-m
 observability-agents,terraform-ibm-modules,19451,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-observability-agents,Deploys the Log Analysis agent and Cloud Monitoring agents to a cluster
 observability-instances,terraform-ibm-modules,16668,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-observability-instances,"Deploys services for Log Analysis, Activity Tracker, Monitoring, and Cloud Logs"
 observability-platform-tenant,ministryofjustice,22180,aws,https://github.com/ministryofjustice/terraform-aws-observability-platform-tenant,Observability Platform Tenant Terraform Module
-ocean-aks,spotinst,8443,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aks,A Terraform module to create an Azure Kubernetes Service (AKS) cluster with Ocean.
 ocean-aks-np-k8s,spotinst,18036,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aks-np-k8s,
 ocean-aks-np-k8s-vng,spotinst,18257,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aks-np-k8s-vng,
 ocean-aws-ecs,spotinst,17508,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-aws-ecs,Terraform module for Spotinst provider resource spotinst_ocean_ecs
@@ -11645,10 +11650,8 @@ ocean-containerapp,port-labs,20560,azure,https://github.com/port-labs/terraform-
 ocean-controller,spotinst,4366,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-controller,A Terraform module to install Ocean Controller.
 ocean-ecs,justtrackio,17263,aws,https://github.com/justtrackio/terraform-aws-ocean-ecs,Terraform module which creates an spotinst ocean ecs cluster
 ocean-eks,spotinst,4406,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-eks,A Terraform module to create an Amazon Elastic Kubernetes Service (EKS) cluster with Ocean.
-ocean-eks-v2,spotinst,16214,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-eks-v2,clone from terraform-spotinst-ocean-eks
 ocean-gcp-k8s,spotinst,15783,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gcp-k8s,A Terraform module to create a Spot Ocean cluster in GCP. 
 ocean-gcp-k8s-vng,spotinst,17507,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gcp-k8s-vng,A Terraform module to create a Spot Ocean VNG in GCP. 
-ocean-gke,spotinst,6613,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-gke,A Terraform module to create a Google Kubernetes Engine (GKE) cluster with Spot Ocean.
 ocean-gke-import,stevenfeltner,10459,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-import,Terraform module for Spotinst provider resource spotinst_ocean_gke_import
 ocean-gke-launchspec,stevenfeltner,10460,spotinst,https://github.com/stevenfeltner/terraform-spotinst-ocean-gke-launchspec,***Deprecated - Moved to Spotinst Repo*** Terraform module for Spotinst provider resource spotinst_ocean_gke_launch_spec
 ocean-metric-exporter,spotinst,13436,spotinst,https://github.com/spotinst/terraform-spotinst-ocean-metric-exporter,A Terraform module to install Ocean Metric Exporter using Helm.
@@ -15592,6 +15595,7 @@ staticwebsitepublic,richbjhudson,11688,azurerm,https://github.com/richbjhudson/t
 staticwebsitepublic,ritishadhikari,23774,azurerm,https://github.com/ritishadhikari/terraform-azurerm-staticwebsitepublic,Terraform modules to be shared in Terraform Public Registry
 staticwebsitepublic,robyosamu,10468,azurerm,https://github.com/robyosamu/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,samygitrepo,17212,azurerm,https://github.com/samygitrepo/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,sbkalamkar97,27076,azurerm,https://github.com/sbkalamkar97/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,sbvandanatiwary,24801,azurerm,https://github.com/sbvandanatiwary/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,shekharSamal9,23629,azurerm,https://github.com/shekharSamal9/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,simoncrobinson12341,13233,azurerm,https://github.com/simoncrobinson12341/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -17790,6 +17794,7 @@ vpcoctober,origa2001,22589,as,https://github.com/origa2001/terraform-as-vpcoctob
 vpcpeer,JamesWoolfenden,7679,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-vpcpeer,Basic vpcpeer module
 vpcpeering,FlexibleEngineCloud,6015,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-vpcpeering,Terraform module which creates VPC Peering between two VPC
 vpcproject,kikuli,13979,aws,https://github.com/kikuli/terraform-aws-vpcproject,
+vpcpublish,darrenbassett,27075,aws,https://github.com/darrenbassett/terraform-aws-vpcpublish,
 vpcpublish,dustindortch,26335,aws,https://github.com/dustindortch/terraform-aws-vpcpublish,
 vpct,Shokhinur,25569,aws,https://github.com/Shokhinur/terraform-aws-vpct,
 vpcytestmodule,HumbertoPeluso,10800,aws,https://github.com/HumbertoPeluso/terraform-aws-vpcytestmodule,
