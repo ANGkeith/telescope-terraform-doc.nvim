@@ -190,7 +190,7 @@ account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-a
 account-details,armakuni,21251,aws,https://github.com/armakuni/terraform-aws-account-details,A module that provides various details about the AWS account.
 account-factory,SudharsaneSivamany,24714,aws,https://github.com/SudharsaneSivamany/terraform-aws-account-factory,
 account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-account-identity,This terraform module creates identity roles in AWS.
-account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraform-aws-account-info,Terraform Module which exports AWS account information
+account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraform-aws-account-info,"A Terraform module which uses a number of datasources to read information about the current AWS account. Handy when used in combination with Terragrunt, one will have fewer variables to hardcode on the Terragrunt files."
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
 account-lookup,be-bold,18416,aws,https://github.com/be-bold/terraform-aws-account-lookup,This module lets you query your AWS accounts in different variations and even perform a simple search.
 account-security,DNXLabs,5717,aws,https://github.com/DNXLabs/terraform-aws-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
@@ -1173,6 +1173,7 @@ arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws
 arc-kinesis-stream,sourcefuse,25364,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-stream,Terraform Module to provision Kinesis Streams
 arc-kms,mayank0202,21434,aws,https://github.com/mayank0202/terraform-aws-arc-kms,KMS Module
 arc-kms,sourcefuse,22036,aws,https://github.com/sourcefuse/terraform-aws-arc-kms,
+arc-mq-broker,sourcefuse,27104,aws,https://github.com/sourcefuse/terraform-aws-arc-mq-broker,
 arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc-network,"Repo for managing the Network (VPC, Subnets, etc) Terraform Module."
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
@@ -5452,6 +5453,7 @@ dynamodb-tables,vistaprint,686,aws,https://github.com/vistaprint/terraform-aws-d
 dyndns,fmasuhr,5298,aws,https://github.com/fmasuhr/terraform-aws-dyndns,DynDNS service using API Gateway and AWS Lambda.
 dynobj-nia,CheckPointSW,6376,checkpoint,https://github.com/CheckPointSW/terraform-checkpoint-dynobj-nia,Check Point Software Technologies Dynamic Objects module for Network Infrastructure Automation (NIA)
 eais,terraform-alicloud-modules,12805,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-eais,Terraform Module for creating Elastic Accelerator Instance on Alibaba Cloud.
+east-west-security-traffic,alibabacloud-automation,27102,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-east-west-security-traffic,
 easy-alerting,LederWorks,10426,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting,LederWorks Azure Easy Alerting Terraform Module
 easy-alerting-aks,LederWorks,10363,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting-aks,LederWorks Azure Easy Alerting AKS Terraform Module
 easy-alerting-datafactory,LederWorks,10593,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting-datafactory,LederWorks Azure Easy Alerting Data Factory Terraform Module
@@ -8036,6 +8038,7 @@ helper-api-key,guidion-digital,25292,aws,https://github.com/guidion-digital/terr
 helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digital/terraform-aws-helper-application-dns,"Simple helper module which will create Route53 records, and create assumable roles that will be able to edit them from another account"
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
 helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital/terraform-aws-helper-assume-roles,Small helper module which creates assumable roles for other accounts
+helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
 helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
 helper-workspace-policy,guidion-digital,23051,aws,https://github.com/guidion-digital/terraform-aws-helper-workspace-policy,Small helper module which generates least-privilage policies necessary for application modules to be able to create their resources
@@ -8383,6 +8386,7 @@ image-builder-instance-profile,gloria-daemonia,19035,aws,https://github.com/glor
 image-builder-pipeline,dod-iac,13948,aws,https://github.com/dod-iac/terraform-aws-image-builder-pipeline,Creates a pipeline for EC2 Image Builder.
 image-lambda,mergermarket,16216,acuris,https://github.com/mergermarket/terraform-acuris-image-lambda,
 image-manager,jd4883,9086,docker,https://github.com/jd4883/terraform-docker-image-manager,"A terraform module that is fed in attributes about a docker image, and spits out relevant output data. Used in conjunction with other modules to get a unique list of images"
+image-pipeline,HappyPathway,27105,aws,https://github.com/HappyPathway/terraform-aws-image-pipeline,Terraform Module
 image-pipeline,roknsound,25866,aws,https://github.com/roknsound/terraform-aws-image-pipeline,Terraform Workspace
 image-registry,cloud-native-toolkit,14564,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-image-registry,Terraform module that creates/verifies the IBM Cloud Image Registry namespace and (optionally) creates configuration in the cluster
 imagebuilder,Computer15776,13050,aws,https://github.com/Computer15776/terraform-aws-imagebuilder,Create full EC2 Image Builder flows with full flexibility
@@ -10562,6 +10566,7 @@ module-vpc-project,martapol1230,16908,google,https://github.com/martapol1230/ter
 module-vpn,sirlegendary,15809,aws,https://github.com/sirlegendary/terraform-aws-module-vpn,
 module-waf,vnisolutions,21952,aws,https://github.com/vnisolutions/terraform-aws-module-waf,
 module01,Sathizz95,7967,sathiz,https://github.com/Sathizz95/terraform-sathiz-module01,Terraform Module
+module1,OmarMakled,27109,aws,https://github.com/OmarMakled/terraform-aws-module1,
 module1,applesoftsol,6177,azurerm,https://github.com/applesoftsol/terraform-azurerm-module1,This module is for creating vnet
 module1,hakimzenata,23164,aws,https://github.com/hakimzenata/terraform-aws-module1,
 module1,prashanth782,5306,azurerm,https://github.com/prashanth782/terraform-azurerm-module1,This module is for creating vnet
@@ -10620,6 +10625,7 @@ modules-wo-do,alebarrionovo,22792,digitalocean,https://github.com/alebarrionovo/
 modules_practice,Alig1493,15278,aws,https://github.com/Alig1493/terraform-aws-modules_practice,
 modulevpc,MrTheng,17896,aws,https://github.com/MrTheng/terraform-aws-modulevpc,Add module for vpc
 moduling,lokkesshhh,20738,test,https://github.com/lokkesshhh/terraform-test-moduling,
+modulos,maycon1986,27107,google,https://github.com/maycon1986/terraform-google-modulos,Módulo para criação do ambiente terraform
 modvnet,umakrishnasudha,13040,azurerm,https://github.com/umakrishnasudha/terraform-azurerm-modvnet,
 modzy-env,modzy,12328,aws,https://github.com/modzy/terraform-aws-modzy-env,This Terraform module will provision all the infrastructure necessary to run a Modzy environment in AWS
 mohitvpc,Mohitsingh37,21531,azurerm,https://github.com/Mohitsingh37/terraform-azurerm-mohitvpc,
@@ -14580,7 +14586,7 @@ selenoid,4ops,4592,aws,https://github.com/4ops/terraform-aws-selenoid,
 self-extractable-archive,andreygubarev,18094,external,https://github.com/andreygubarev/terraform-external-self-extractable-archive,Terraform module that uses makeself to create a self-extractable archive from a directory
 self-manage-credentials,dod-iac,7039,aws,https://github.com/dod-iac/terraform-aws-self-manage-credentials,Configures IAM policy to allow users to manage their own credentials.
 self-managed-k8s,Archisman-Mridha,19115,aws,https://github.com/Archisman-Mridha/terraform-aws-self-managed-k8s,Terraform module to create a self-managed Kubernetes cluster in AWS using Kubeadm
-self-managed-k8s,lafayettegabe,27003,aws,https://github.com/lafayettegabe/terraform-aws-self-managed-k8s,"⚓ Self-managed Kubernetes on AWS EC2 | Terraform module with automated scaling, networking, and secure bootstrapping."
+self-managed-k8s,lafayettegabe,27003,aws,https://github.com/lafayettegabe/terraform-aws-self-managed-k8s,"⚓ Self-managed Kubernetes cluster on AWS EC2 | Terraform module with automated scaling, networking, and secure bootstrapping."
 self-service-agent,Senora-dev,23710,aws,https://github.com/Senora-dev/terraform-aws-self-service-agent,"Terraform module that creates an AWS Lambda function to act as an agent, receiving events from Port Self-Service Hub and executing the relevant runner (implemented by AWS CodeBuild)."
 self-service-runner,Senora-dev,23711,aws,https://github.com/Senora-dev/terraform-aws-self-service-runner,This Terraform module creates an AWS CodeBuild project designed to serve as a runner for Port self-service actions. The CodeBuild project is configured to be triggered by the Lambda Agent.
 selfdestruct,gabrielmccoll,17504,azurerm,https://github.com/gabrielmccoll/terraform-azurerm-selfdestruct,Terraform module to self destruct a deployment in AzureRM after X hours.
