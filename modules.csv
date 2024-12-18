@@ -1182,6 +1182,7 @@ arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
 arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,terraform module for provisioning s3 buckets
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
+arc-security-group,sourcefuse,27129,aws,https://github.com/sourcefuse/terraform-aws-arc-security-group,ARC module for AWS Security Group
 arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,Arc Synthetic monitoring i.e canaries 
 arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Repo for managing the ARC Tags Terraform Module.
 arc-transit-gateway,sourcefuse,25926,aws,https://github.com/sourcefuse/terraform-aws-arc-transit-gateway,Terraform Module for Transit Gateway
@@ -1617,6 +1618,7 @@ auth0,particuleio,16509,auth0,https://github.com/particuleio/terraform-auth0-aut
 auth0-authorizer,amancevice,1731,aws,https://github.com/amancevice/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 auth0-authorizer,jdpx,6741,aws,https://github.com/jdpx/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 authenticating-secgroup,riboseinc,629,aws,https://github.com/riboseinc/terraform-aws-authenticating-secgroup,Dynamically manage security group IPs through an authenticated HTTPS endpoint
+authentication-policy-stack,lukasindre,27133,okta,https://github.com/lukasindre/terraform-okta-authentication-policy-stack,Module for authentication policy and authentication policy rule abstraction
 authentik-brand,l-with,24569,module,https://github.com/l-with/terraform-module-authentik-brand,
 authentik-tenant,l-with,14481,module,https://github.com/l-with/terraform-module-authentik-tenant,
 authmap,rayl15,23970,eks,https://github.com/rayl15/terraform-eks-authmap,
@@ -2522,6 +2524,7 @@ bucket-file-sync,micronode,4807,null,https://github.com/figurate/terraform-null-
 bucket-module,elvinlari,16500,gcp,https://github.com/elvinlari/terraform-gcp-bucket-module,A Terraform module that makes it easy to set up a new Bucket in Google Cloud Platform.
 bucket-module,rahulgraph,13405,s3,https://github.com/rahulgraph/terraform-s3-bucket-module,
 bucket-s3,openixit-solutions,20243,aws,https://github.com/openixit-solutions/terraform-aws-bucket-s3,Bucket S3 terraform module
+bucket-sensor,PrefectHQ,27139,prefect,https://github.com/PrefectHQ/terraform-prefect-bucket-sensor,Terraform module for provisioning a bucket sensor to create Prefect events
 bucket-website,babakDoraniArab,11714,aws,https://github.com/babakDoraniArab/terraform-aws-bucket-website,this is a suitable module for you if you want to deploy a static website on a bucket
 bucketS3,davimarcel,10891,aws,https://github.com/davimarcel/terraform-aws-bucketS3,Simplifly Create Aws Buckket S3
 bucketswithdiffconfig,jvm2023,25983,google,https://github.com/jvm2023/terraform-google-bucketswithdiffconfig,buckets with diff configs
@@ -5389,6 +5392,7 @@ dx-azure-api-management,pagopa,27031,azurerm,https://github.com/pagopa/terraform
 dx-azure-app-service,pagopa,27030,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service,
 dx-azure-app-service-exposed,pagopa,27029,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed,
 dx-azure-app-service-plan-autoscaler,pagopa,27028,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-plan-autoscaler,
+dx-azure-core-infra,pagopa,27137,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-core-infra,
 dx-azure-cosmos-account,pagopa,27027,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-cosmos-account,
 dx-azure-event-hub,pagopa,27026,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-event-hub,
 dx-azure-federated-identity-with-github,pagopa,27025,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-federated-identity-with-github,
@@ -7212,6 +7216,7 @@ file-resource,Invicton-Labs,12409,local,https://github.com/Invicton-Labs/terrafo
 file-share,data-platform-hq,22964,azurerm,https://github.com/data-platform-hq/terraform-azurerm-file-share,Terraform module for creation Azure File Share
 file-to-object,1Mill,13012,local,https://github.com/1Mill/terraform-local-file-to-object,
 files,HappyPathway,26061,ls,https://github.com/HappyPathway/terraform-ls-files,Terraform Module
+filestore,Tensho,27140,google,https://github.com/Tensho/terraform-google-filestore,Terraform module to manage Google Filestore resources
 filestore,bootlabstech,12648,google,https://github.com/bootlabstech/terraform-google-filestore,module for GCP filestore.
 filestore,rojopolis,1561,google,https://github.com/rojopolis/terraform-google-filestore,A module to manage Google Cloud Filestore deployments until an official resource type is added to TF proper.
 filter,netascode,9771,aci,https://github.com/netascode/terraform-aci-filter,Terraform Cisco ACI Filter Module
@@ -8043,6 +8048,7 @@ helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digi
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
 helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital/terraform-aws-helper-assume-roles,Small helper module which creates assumable roles for other accounts
 helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
+helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
 helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
 helper-workspace-policy,guidion-digital,23051,aws,https://github.com/guidion-digital/terraform-aws-helper-workspace-policy,Small helper module which generates least-privilage policies necessary for application modules to be able to create their resources
@@ -11434,6 +11440,7 @@ networking-subnet,ptonini,16831,aws,https://github.com/ptonini/terraform-aws-net
 networking-subnet-group,ptonini,22158,aws,https://github.com/ptonini/terraform-aws-networking-subnet-group,
 networking-tf-course,bavingtonm,25865,aws,https://github.com/bavingtonm/terraform-aws-networking-tf-course,Networking module created during Mastering Terraform Course
 networking-tf-course,lm-academy,26682,aws,https://github.com/lm-academy/terraform-aws-networking-tf-course,Networking module created during Lauro Müller's Terraform course.
+networking-tf-course,memeyers68,27141,aws,https://github.com/memeyers68/terraform-aws-networking-tf-course,Networking module created during a TF course on Udemy
 networking-tf-course,tbain-8ch,27060,aws,https://github.com/tbain-8ch/terraform-aws-networking-tf-course,
 networking-tf-course,udemy-lauromueller,23740,aws,https://github.com/udemy-lauromueller/terraform-aws-networking-tf-course,Networking module created during Lauro Müller's Terraform course.
 networking-tf-course,weijie1992,25354,aws,https://github.com/weijie1992/terraform-aws-networking-tf-course,Networking module created in udemy course
@@ -14689,7 +14696,7 @@ serverlessapplication,KamranBiglari,26563,aws,https://github.com/KamranBiglari/t
 service,JamesWoolfenden,3515,gcp,https://github.com/JamesWoolfenden/terraform-gcp-service,Creates a GCP service user
 service,SolaceProducts,24981,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-service,"Solace software broker Terraform module to abstract broker VPN, authentication and authorization configuration"
 service,SolaceProducts,25197,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-service,"Solace PubSub+ appliance Terraform module to abstract broker VPN, authentication and authorization configuration"
-service,Tensho,27033,pagerduty,https://github.com/Tensho/terraform-pagerduty-service,Terraform module to create PagerDuty Service resources
+service,Tensho,27033,pagerduty,https://github.com/Tensho/terraform-pagerduty-service,Terraform module to manage PagerDuty Service resources
 service,adamwshero,12210,pagerduty,https://github.com/adamwshero/terraform-pagerduty-service,"Terraform & Terragrunt friendly module to create a PagerDuty service + Slack Connectors, integrations, extensions, and more. 🇺🇦"
 service,dasmeta,22549,aws,https://github.com/dasmeta/terraform-aws-service,Terraform module to create Service
 service,hazelops,7242,pagerduty,https://github.com/hazelops/terraform-pagerduty-service,
@@ -17443,6 +17450,7 @@ vpc,squareops,17553,aws,https://github.com/squareops/terraform-aws-vpc,Terraform
 vpc,sravanre,25908,aws,https://github.com/sravanre/terraform-aws-vpc,
 vpc,srb3,5979,aws,https://github.com/srb3/terraform-aws-vpc,
 vpc,srdrkn,9380,aws,https://github.com/srdrkn/terraform-aws-vpc,
+vpc,srikanth-karthi,27127,aws,https://github.com/srikanth-karthi/terraform-aws-vpc,Terraform AWS VPC Module
 vpc,stoktobekova,7762,aws,https://github.com/stoktobekova/terraform-aws-vpc,
 vpc,swapnamareddy,5156,aws,https://github.com/swapnamareddy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,tangerkulov,9541,aws,https://github.com/beibars96/terraform-aws-vpc,
