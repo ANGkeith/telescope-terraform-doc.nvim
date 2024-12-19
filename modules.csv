@@ -855,6 +855,7 @@ apache-server-high-apache-workers-load,terraform-shoreline-modules,20293,shoreli
 apache-server-high-cpu-and-keep-alive-async-connections-in-apache-server,terraform-shoreline-modules,20290,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-apache-server-high-cpu-and-keep-alive-async-connections-in-apache-server,This repository was generated automatically based on a Shoreline Insights Runbook.
 apache-superset,philips-labs,10390,hsdp,https://github.com/philips-labs/terraform-hsdp-apache-superset,Module to deploy Apache Superset on HSDP Container Host
 apache_example2,raviteja-ec-project,16090,aws,https://github.com/raviteja-ec-project/terraform-aws-apache_example2,
+apachex692-ec2,apachex692-org,27143,aws,https://github.com/apachex692-org/terraform-aws-apachex692-ec2,Learning and Development: Publishing Terraform Modules to Terraform Registry
 apex-redirect,USSBA,14449,aws,https://github.com/USSBA/terraform-aws-apex-redirect,A Terraform Module for the AWS Domain Apex Redirect
 api-auth-proxy,adacotech,10292,aws,https://github.com/adacotech/terraform-aws-api-auth-proxy,Oauth2 Authorization Code Flow by API Gateway Serverless
 api-base,genstackio,7894,aws,https://github.com/genstackio/terraform-aws-api-base,Terraform module to be used as a basis for creating an entire API
@@ -3343,6 +3344,7 @@ cloudwatch-alarms,StratusGrid,14592,aws,https://github.com/StratusGrid/terraform
 cloudwatch-alarms,clouddrove,3647,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-alarms,Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 cloudwatch-alarms,echomike80,11791,aws,https://github.com/echomike80/terraform-aws-cloudwatch-alarms,
 cloudwatch-alarms,rpstreef,4744,aws,https://github.com/rpstreef/terraform-aws-cloudwatch-alarms,Terraform AWS CloudWatch Alarms
+cloudwatch-alb,delivops,27142,aws,https://github.com/delivops/terraform-aws-cloudwatch-alb,Terraform-aws-cloudwatch-alb is a Terraform module for setting up a notification system about target groups metrics.
 cloudwatch-bedrock,delivops,27086,aws,https://github.com/delivops/terraform-aws-cloudwatch-bedrock,Terraform-aws-cloudwatch-bedrock is a Terraform module for setting up a notification system about bedrock metrics.
 cloudwatch-dashboard,HENNGE,6650,aws,https://github.com/HENNGE/terraform-aws-cloudwatch-dashboard,Terraforrm module which creates AWS Cloudwatch Dashboard.
 cloudwatch-dashboard,cloud-legends,15153,aws,https://github.com/cloud-legends/terraform-aws-cloudwatch-dashboard,An opinionated dashboard for CloudWatch
@@ -3400,7 +3402,7 @@ cloudwatch-sqs,delivops,27007,aws,https://github.com/delivops/terraform-aws-clou
 cloudwatch-stddev-alarm-creator,QuiNovas,2545,aws,https://github.com/QuiNovas/terraform-aws-cloudwatch-stddev-alarm-creator,Provisions the cloudwatch-stddev-alarm-creator LambdaLambdaLambda function
 cloudwatch-subscription-elasticsearch,jparnaudeau,12047,aws,https://github.com/jparnaudeau/terraform-aws-cloudwatch-subscription-elasticsearch,Automate the subscription of a cloudwatch log group to an ElasticSearch endpoint
 cloudwatch-synthetics,clouddrove,18368,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics,CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
-cloudwatch-tg,delivops,26933,aws,https://github.com/delivops/terraform-aws-cloudwatch-tg,Terraform-aws-cloudwatch-tg is a Terraform module for setting up a notification system about target groups metrics.
+cloudwatch-tg,delivops,26933,aws,https://github.com/delivops/terraform-aws-cloudwatch-tg,Terraform-aws-cloudwatch-alb is a Terraform module for setting up a notification system about target groups metrics.
 cloudwatch-to-gchat,akw-devsecops,26474,aws,https://github.com/akw-devsecops/terraform-aws-cloudwatch-to-gchat,
 cloudwatch-to-syslog-server,aiden,2296,aws,https://github.com/aiden/terraform-aws-cloudwatch-to-syslog-server,"Terraform module to send CloudWatch logs to a syslog server. Compatible with papertrail, logstash, and datadog."
 cloudwatchdoggo,nabeken,19378,aws,https://github.com/nabeken/terraform-aws-cloudwatchdoggo,A Terraform Module that provisions nabeken/cloudwatchdoggo
@@ -3485,6 +3487,8 @@ codeartifact-domain,vrs-factory,20995,aws,https://github.com/vrs-factory/terrafo
 codeartifact-repo,akw-devsecops,19944,aws,https://github.com/akw-devsecops/terraform-aws-codeartifact-repo,Terraform Module to setup AWS Codeartifact repositories
 codeartifact-repository,vrs-factory,20996,aws,https://github.com/vrs-factory/terraform-aws-codeartifact-repository,
 codebase-terraform-azure-application,Azure-Terraformer,26748,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-application,
+codebase-terraform-azure-fn-app,Azure-Terraformer,27153,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-app,
+codebase-terraform-azure-fn-core,Azure-Terraformer,27151,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-core,
 codebuild,JamesWoolfenden,2024,aws,https://github.com/JamesWoolfenden/terraform-aws-codebuild,A Terraform module for making AWS codebuilds
 codebuild,SPHTech-Platform,15769,aws,https://github.com/SPHTech-Platform/terraform-aws-codebuild,Terraform module for CodeBuild
 codebuild,SevenPico,19073,aws,https://github.com/SevenPico/terraform-aws-codebuild,Terraform Module to easily leverage AWS CodeBuild for Continuous Integration
@@ -4275,6 +4279,7 @@ db-postgresql,claranet,4462,azurerm,https://github.com/claranet/terraform-azurer
 db-postgresql-flexible,claranet,13027,azurerm,https://github.com/claranet/terraform-azurerm-db-postgresql-flexible,Terraform module composition (feature) for Azure PostGreSQL Flexible Database
 db-sql,claranet,4484,azurerm,https://github.com/claranet/terraform-azurerm-db-sql,Terraform module composition (feature) for Azure SQL Database (SQLServer based)
 db-subnet-group,finisterra-io,23558,aws,https://github.com/finisterra-io/terraform-aws-db-subnet-group,Terrafrom AWS DB Subnet Group module
+db2-cloud,terraform-ibm-modules,27144,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-db2-cloud,"Provision a fully managed, high performance transactional database for mission critical workloads."
 db_Role_template,mahesh-madipally,9540,google,https://github.com/mahesh-madipally/terraform-google-db_Role_template,
 db_cluster,stoktobekova,8065,aws,https://github.com/stoktobekova/terraform-aws-db_cluster,
 db_instance,stoktobekova,8066,aws,https://github.com/stoktobekova/terraform-aws-db_instance,
@@ -6913,6 +6918,7 @@ enrich-kinesis-ec2,snowplow-devops,9314,aws,https://github.com/snowplow-devops/t
 enrich-pubsub-ce,snowplow-devops,10068,google,https://github.com/snowplow-devops/terraform-google-enrich-pubsub-ce,
 enterprise,apitable,21312,apitable,https://github.com/apitable/terraform-apitable-enterprise,A Terraform module to create apitable enterprise
 enterprise,terraform-ibm-modules,23934,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-enterprise,Creates accounts and account-groups in an existing enterprise
+enterprise-app-java,terraform-ibm-modules,27145,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-enterprise-app-java,Provisions and configures a Liberty as a Service instance into an IBM Cloud account.
 enterprise-application,GoogleCloudPlatform,26186,google,https://github.com/GoogleCloudPlatform/terraform-google-enterprise-application,Deploy an enterprise developer platform on Google Cloud
 enterprise-scale-aks,OmnipotentOwl,17170,azurerm,https://github.com/OmnipotentOwl/terraform-azurerm-enterprise-scale-aks,Terraform Module for deploying an AKS cluster following Microsoft's Cloud Adoption Framework
 entitlement-management,fortytwoservices,24390,azuread,https://github.com/fortytwoservices/terraform-azuread-entitlement-management,This module allows you to simply do Entitlement Management in Azure AD through Catalogs and Access Packages
@@ -6927,6 +6933,7 @@ environment,kuttleio,20079,aws,https://github.com/kuttleio/terraform-aws-environ
 environment,terraform-pingidentity-modules,15902,pingone,https://github.com/terraform-pingidentity-modules/terraform-pingone-environment,Ping Identity PingOne modules to manage environments
 environment,timarenz,10544,aws,https://github.com/timarenz/terraform-aws-environment,
 environment-setup,karan6190,4684,gcp,https://github.com/karan6190/Google-cloud-platform-Infrastructure-setup,"IAC for provisioning Infrastructure component like network, subnetworks, route "
+environment-terraform-azure,Azure-Terraformer,27150,github,https://github.com/Azure-Terraformer/terraform-github-environment-terraform-azure,
 environments,tbobm,11189,github,https://github.com/tbobm/terraform-github-environments,Manage Github Repository Environments.
 envoy-transport-configuration,Ferlab-Ste-Justine,18444,etcd,https://github.com/Ferlab-Ste-Justine/terraform-etcd-envoy-transport-configuration,Terraform module to generate an envoy transport load balancer configuration and store it in an etcd key value 
 eotk,sr2c,13006,aws,https://github.com/sr2c/terraform-aws-eotk,DEPRECATED Enterprise Onion Toolkit (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-eotk)
@@ -10747,6 +10754,7 @@ mq,jungopro,4473,aws,https://github.com/jungopro/terraform-aws-mq,Terraform Modu
 mq-broker,BalaMuragan92,25399,aws,https://github.com/BalaMuragan92/terraform-aws-mq-broker,
 mq-broker,cloudposse,2013,aws,https://github.com/cloudposse/terraform-aws-mq-broker,Terraform module for provisioning an AmazonMQ broker
 mq-broker,jand0manski,19608,aws,https://github.com/jand0manski/terraform-aws-mq-broker,Terraform module for provisioning an AmazonMQ broker
+mq-cloud,terraform-ibm-modules,27148,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-mq-cloud,Provisions and configures IBM Cloud MQ on Cloud.
 mrdir,opszero,17607,aws,https://github.com/opszero/terraform-azuread-mrmgr,
 mrmgr,opszero,17608,aws,https://github.com/opszero/terraform-aws-mrmgr,
 mrmgr,opszero,17615,github,https://github.com/opszero/terraform-github-mrmgr,
@@ -11592,6 +11600,7 @@ nonsense-words,alisdair,5160,random,https://github.com/alisdair/terraform-random
 noop,jrhouston,19617,module,https://github.com/jrhouston/terraform-module-noop,A test module that sleeps 
 nops-commitment-management,nops-io,26891,aws,https://github.com/nops-io/terraform-aws-nops-commitment-management,Terraform module for commitment management integration with AWS using the nOps platform
 nops-compute-copilot-onboarding,nops-io,27092,aws,https://github.com/nops-io/terraform-aws-nops-compute-copilot-onboarding,Terraform module for integrating EKS clusters with the nOps Compute Copilot product
+nops-compute-copilot-onboarding,werner-nops,27152,aws,https://github.com/werner-nops/terraform-aws-nops-compute-copilot-onboarding,Terraform module for integrating EKS clusters with the nOps Compute Copilot product
 nops-integration,nops-io,26479,aws,https://github.com/nops-io/terraform-aws-nops-integration,Terraform module for integrating AWS with the nOps platform
 nops-onboarding-testing,mkahnlein-caylent,26461,aws,https://github.com/mkahnlein-caylent/terraform-aws-nops-onboarding-testing,nOps terraform repository for testing
 normalize,Olivr,13485,null,https://github.com/Olivr/terraform-null-normalize,"Terraform module to normalize strings (replace accents, trim special characters)"
@@ -15066,6 +15075,7 @@ smn,cloud-labs-infra,21775,huaweicloud,https://github.com/cloud-labs-infra/terra
 smn,tf-cloud-modules,18566,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-smn,Sbercloud SMN Terraform module
 smtp-mail,cloudposse,1720,null,https://github.com/cloudposse/terraform-null-smtp-mail,Terraform module to send transactional emails via an SMTP server (e.g. mailgun)
 snapshot,bootlabstech,18740,azurerm,https://github.com/bootlabstech/terraform-azurerm-snapshot,
+snapshot,noy5277,27149,az,https://github.com/noy5277/terraform-az-snapshot,test port
 snapshot,robertdebock,14216,vault,https://github.com/robertdebock/terraform-vault-snapshot,
 snapshot-policy,kasna-cloud,19937,google,https://github.com/kasna-cloud/terraform-google-snapshot-policy,This Terraform Module helps to create a snapshot policy and attach it to one or more persistent disks
 snat,terraform-alicloud-modules,4214,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-snat,Terraform Module for creating several SNAT entries for Nat Gateway on  Alibaba Cloud.
@@ -17974,6 +17984,8 @@ warehouse,getindata,16858,snowflake,https://github.com/getindata/terraform-snowf
 wasims3bucket,wraza007,12721,aws,https://github.com/wraza007/terraform-aws-wasims3bucket,
 wasm-enabled-static-s3-site,JustinJohnWilliams,22602,aws,https://github.com/JustinJohnWilliams/terraform-aws-wasm-enabled-static-s3-site,
 watchmaker,plus3it,866,aws,https://github.com/plus3it/terraform-aws-watchmaker,Terraform module for Watchmaker
+watsonx-assistant,terraform-ibm-modules,27147,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-assistant,Terraform module to create and work with IBM watsonx Assistant module.
+watsonx-data,terraform-ibm-modules,27146,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-data,
 wayfinder,appvia,24606,aws,https://github.com/appvia/terraform-aws-wayfinder,Terraform Module for installing Wayfinder in AWS
 wayfinder,appvia,24607,azurerm,https://github.com/appvia/terraform-azurerm-wayfinder,Terraform Module for installing Wayfinder in Azure
 wayfinder,appvia,24608,google,https://github.com/appvia/terraform-google-wayfinder,Terraform Module for installing Wayfinder in GCP
