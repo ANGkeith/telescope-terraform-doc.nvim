@@ -953,6 +953,7 @@ apigateway-api,genstackio,7901,aws,https://github.com/genstackio/terraform-aws-a
 apigateway-api,opendevsecops,2333,aws,https://github.com/opendevsecops/terraform-aws-apigateway-api,
 apigateway-cors,bridgecrewio,2552,aws,https://github.com/bridgecrewio/terraform-aws-apigateway-cors,Terraform module that sets up CORS
 apigateway-cors,kevinkjt2000,7195,aws,https://github.com/kevinkjt2000/terraform-aws-apigateway-cors,Terraform module that sets up CORS
+apigateway-cors,lee0210,27164,aws,https://github.com/lee0210/terraform-aws-apigateway-cors,
 apigateway-cors,mewa,926,aws,https://github.com/mewa/terraform-aws-apigateway-cors,Terraform module that sets up CORS
 apigateway-cors,opendevsecops,1792,aws,https://github.com/opendevsecops/terraform-aws-apigateway-cors,
 apigateway-custom-domain,theherk,23808,aws,https://github.com/theherk/terraform-aws-apigateway-custom-domain,Custom domain for private AWS API Gateway
@@ -1744,6 +1745,7 @@ avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azure
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,This Terraform module is designed to manage Azure Cognitive Services. It provides a comprehensive set of variables and resources to configure and deploy Cognitive Services in Azure.
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,AVM Terraform module for Disk Encryption Set
+avm-res-compute-gallery,Azure,27155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-gallery,AVM Terraform module for Compute gallery 
 avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,"AVM Module for Compute Host groups, also known as Dedicated Host Groups"
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
@@ -2883,6 +2885,7 @@ clearblade-iot-enterprise,ClearBlade,26866,google,https://github.com/ClearBlade/
 clerk,dvargas92495,10532,aws,https://github.com/dvargas92495/terraform-aws-clerk,A terraform module for hooking up your Clerk instance to AWS
 clever,dyanca,1408,something,https://github.com/dyanca/terraform-something-clever,
 cli,digitickets,4845,aws,https://github.com/digitickets/terraform-aws-cli,"Run the AWS CLI, with the ability to run under an assumed role, to access resources and properties missing from the Terraform AWS Provider."
+cli-installer,cesarine-com,27162,onepassword,https://github.com/cesarine-com/terraform-onepassword-cli-installer,
 cli-outputs,matti,772,kontena,https://github.com/matti/terraform-kontena-cli-outputs,
 cli-outputs,matti,777,heroku,https://github.com/matti/terraform-heroku-cli-outputs,
 cli-provisioner,doximity,10851,aws,https://github.com/doximity/terraform-aws-cli-provisioner,A helper module for running the aws cli from within terraform in a `local-exec` provisioner
@@ -2967,7 +2970,7 @@ cloud-iam,data-platform-hq,17447,google,https://github.com/data-platform-hq/terr
 cloud-ids,GoogleCloudPlatform,19020,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-ids,Deploys a Cloud IDS instance and associated resources.
 cloud-infrastructure-automation,cloudposse,6647,tfe,https://github.com/cloudposse-archives/terraform-tfe-cloud-infrastructure-automation,Terraform Enterprise/Cloud Infrastructure Automation
 cloud-infrastructure-automation,cloudposse,7046,spacelift,https://github.com/cloudposse/terraform-spacelift-cloud-infrastructure-automation,Terraform module to provision Spacelift resources for cloud infrastructure automation
-cloud-init,infrahouse,20616,aws,https://github.com/infrahouse/terraform-aws-cloud-init,Module that creates an cloud init configuration for an InfraHouse EC2 instance.
+cloud-init,infrahouse,20616,aws,https://github.com/infrahouse/terraform-aws-cloud-init,Module that creates a cloud init configuration for an InfraHouse EC2 instance.
 cloud-init-vm,sdhibit,7189,proxmox,https://github.com/sdhibit/terraform-proxmox-cloud-init-vm,Terraform module that creates a cloud-init enabled VM in Proxmox.
 cloud-modules,fortinetdev,21637,aws,https://github.com/fortinetdev/terraform-aws-cloud-modules,
 cloud-modules,fortinetdev,25960,google,https://github.com/fortinetdev/terraform-google-cloud-modules,
@@ -3488,6 +3491,7 @@ codeartifact-repo,akw-devsecops,19944,aws,https://github.com/akw-devsecops/terra
 codeartifact-repository,vrs-factory,20996,aws,https://github.com/vrs-factory/terraform-aws-codeartifact-repository,
 codebase-terraform-azure-application,Azure-Terraformer,26748,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-application,
 codebase-terraform-azure-fn-app,Azure-Terraformer,27153,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-app,
+codebase-terraform-azure-fn-app-dotnet,Azure-Terraformer,27154,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-app-dotnet,
 codebase-terraform-azure-fn-core,Azure-Terraformer,27151,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-core,
 codebuild,JamesWoolfenden,2024,aws,https://github.com/JamesWoolfenden/terraform-aws-codebuild,A Terraform module for making AWS codebuilds
 codebuild,SPHTech-Platform,15769,aws,https://github.com/SPHTech-Platform/terraform-aws-codebuild,Terraform module for CodeBuild
@@ -4976,6 +4980,7 @@ docker-instance,iamdevopser,14626,aws,https://github.com/iamdevopser/terraform-a
 docker-instance,ilgea,16323,aws,https://github.com/ilgea/terraform-aws-docker-instance,
 docker-instance,irembeyza6173,23267,aws,https://github.com/irembeyza6173/terraform-aws-docker-instance,
 docker-instance,isdedegit,20810,aws,https://github.com/isdedegit/terraform-aws-docker-instance,
+docker-instance,iskilicaslan61,27163,aws,https://github.com/iskilicaslan61/terraform-aws-docker-instance,
 docker-instance,ismailmin,20780,aws,https://github.com/ismailmin/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,james-clarusway,24996,aws,https://github.com/james-clarusway/terraform-aws-docker-instance,
 docker-instance,jasperdara222,14733,aws,https://github.com/jasperdara222/terraform-aws-docker-instance,
@@ -7871,6 +7876,7 @@ greeting,areguera,14543,local,https://github.com/areguera/terraform-local-greeti
 grid,matti,778,kontena,https://github.com/matti/terraform-kontena-grid,
 grid-outputs,matti,759,kontena,https://github.com/matti/terraform-kontena-grid-outputs,
 gridbyoc,gridai,8964,aws,https://github.com/gridai/terraform-aws-gridbyoc,
+gridgain,gridgain,27156,aws,https://github.com/gridgain/terraform-aws-gridgain,The repository contains the Terraform module to support the deployment of GG-8 in AWS.
 groundwork-vpc,lbrealdev,4556,aws,https://github.com/lbrealdev/terraform-aws-groundwork-vpc,Terraform
 group,altissimo-hq,25083,google,https://github.com/altissimo-hq/terraform-google-group,Manages Google Groups
 group,cncsc,16515,azuread,https://github.com/cncsc/terraform-azuread-group,Terraform modules for deploying and managing Azure Active Directory groups.
@@ -10124,6 +10130,7 @@ mac,DanielRDias,16922,aws,https://github.com/DanielRDias/terraform-aws-mac,Terra
 mac-address,goarano,26244,random,https://github.com/goarano/terraform-random-mac-address,Random MAC address generator for Terraform 
 machine-learning-compute-cluster-role-assignments,RH-TLagrone,26464,azurerm,https://github.com/RH-TLagrone/terraform-azurerm-machine-learning-compute-cluster-role-assignments,Terraform module for Azure Machine Learning (AML) compute cluster MSI default role assignments
 machinepool,jrhouston,16481,clusterapi,https://github.com/jrhouston/terraform-clusterapi-machinepool,
+machines,MayasoftGit,27157,vsphere,https://github.com/MayasoftGit/terraform-vsphere-machines,
 macie,clouddrove,10952,aws,https://github.com/clouddrove/terraform-aws-macie,
 macie,cloudposse,9797,aws,https://github.com/cloudposse/terraform-aws-macie,Terraform module to provision Amazon Macie - a fully managed data security and data privacy service that uses machine learning and pattern matching to discover and protect your sensitive data in AWS
 mackdelany,mackdelany,11578,aws,https://github.com/mackdelany/terraform-aws-mackdelany,
@@ -15831,13 +15838,16 @@ storageaccount,Sumedh130,27002,azure,https://github.com/Sumedh130/terraform-azur
 storageaccount,Tfarook28,23199,azurerm,https://github.com/Tfarook28/terraform-azurerm-storageaccount,
 storageaccount,Tharani2302,26996,azure,https://github.com/Tharani2302/terraform-azure-storageaccount,
 storageaccount,Vivienne1Ash,24735,azure,https://github.com/Vivienne1Ash/terraform-azure-storageaccount,
+storageaccount,almirayasmin,27158,azure,https://github.com/almirayasmin/terraform-azure-storageaccount,
 storageaccount,asajoshi,17252,azurerm,https://github.com/asajoshi/terraform-azurerm-storageaccount,This contains terraform code for creating storage account module with private endpoint
 storageaccount,chaitanyachavan12,24009,azure,https://github.com/chaitanyachavan12/terraform-azure-storageaccount,
 storageaccount,cloudpractice5760,26346,azure,https://github.com/cloudpractice5760/terraform-azure-storageaccount,
 storageaccount,diwa31,21936,azure,https://github.com/diwa31/terraform-azure-storageaccount,Diwa's Storage account
 storageaccount,gmadhubabu216,26385,azure,https://github.com/gmadhubabu216/terraform-azure-storageaccount,
 storageaccount,grateanil,24252,azure,https://github.com/grateanil/terraform-azure-storageaccount,
+storageaccount,hmtmh,27159,azure,https://github.com/hmtmh/terraform-azure-storageaccount,
 storageaccount,karishmamantoo,26997,azure,https://github.com/karishmamantoo/terraform-azure-storageaccount,
+storageaccount,karthi18subramanian,27160,azure,https://github.com/karthi18subramanian/terraform-azure-storageaccount,
 storageaccount,nilesh11100,26390,azure,https://github.com/nilesh11100/terraform-azure-storageaccount,
 storageaccount,pankajs-hash,26025,azure,https://github.com/pankajs-hash/terraform-azure-storageaccount,
 storageaccount,pratheepkumar5,26386,azure,https://github.com/pratheepkumar5/terraform-azure-storageaccount,
