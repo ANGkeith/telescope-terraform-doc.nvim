@@ -2686,6 +2686,8 @@ cdp,aws-ia,21203,cloudera,https://github.com/aws-ia/terraform-cloudera-cdp,This 
 cdp-policy,netascode,9767,aci,https://github.com/netascode/terraform-aci-cdp-policy,Terraform Cisco ACI CDP Policy Module
 celestia,Crouton-Digital,24937,ssh,https://github.com/Crouton-Digital/terraform-ssh-celestia,
 cen-bandwidth,terraform-alicloud-modules,2263,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-bandwidth,Terraform module which creates CEN bandwidth on Alibaba Cloud
+cen-cross-region-networking-between-local-idc-and-remote-vpc,alibabacloud-automation,27193,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-cross-region-networking-between-local-idc-and-remote-vpc,
+cen-cross-region-networking-with-qos,alibabacloud-automation,27194,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-cross-region-networking-with-qos,
 cen-instance,terraform-alicloud-modules,2262,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-instance,Terraform module which creates CEN instances and attach them with other instance on Alibaba Cloud
 cen-transit-router,terraform-alicloud-modules,12789,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cen-transit-router,Terraform Module for creating CEN Transit Router resources on Alibaba Cloud.
 cen-xregion,bayupw,13872,alicloud,https://github.com/bayupw/terraform-alicloud-cen-xregion,Terraform module to create Alibaba Cloud CEN Cross-Region VPC Attachment
@@ -3795,6 +3797,7 @@ connectivity,appvia,23956,aws,https://github.com/appvia/terraform-aws-connectivi
 connectors,harness-community,18291,harness,https://github.com/harness-community/terraform-harness-connectors,
 console-deploy,recipopdev,15264,aws,https://github.com/recipopdev/terraform-aws-console-deploy,Module to deploy a console application to AWS
 console-signin-failure,terraform-trailwatch-modules,26659,aws,https://github.com/terraform-trailwatch-modules/terraform-aws-console-signin-failure,This Terraform module creates a CloudWatch Log Metric Filter and associated Alarms for monitoring AWS sign-in events.
+consolify,bartenew,27203,aws,https://github.com/bartenew/terraform-aws-consolify,
 consul,10thmagnitude,1037,azurerm,https://github.com/10thmagnitude/terraform-azurerm-consul,A Terraform Module for how to run Consul on AzureRM using Terraform and Packer
 consul,basisai,6876,kubernetes,https://github.com/basisai/terraform-kubernetes-consul,Deploy Consul on Kubernetes using Terraform
 consul,brucellino,14795,digitalocean,https://github.com/brucellino/terraform-digitalocean-consul,Consul cluster on digitalocean
@@ -4392,7 +4395,7 @@ deployment,blackbird-cloud,15362,helm,https://github.com/blackbird-cloud/terrafo
 deployment,devops-wien,14906,kubernetes,https://github.com/devops-wien/terraform-kubernetes-deployment,https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/deployment_v1
 deployment,djangoflow,14738,kubernetes,https://github.com/djangoflow/terraform-kubernetes-deployment,Creates an kubernetes deployment resource.
 deployment,garbetjie,5805,kubernetes,https://github.com/garbetjie/terraform-kubernetes-deployment,
-deployment,jfhbrook,27191,dokku,https://github.com/jfhbrook/terraform-dokku-deployment,An opinionated module for deploying to Dokku with the Dokku provider
+deployment,jfhbrook,27191,dokku,https://github.com/jfhbrook/terraform-dokku-deployment,"An opinionated module for deploying to Dokku, using the Dokku provider."
 deployment,montblu,21730,kubernetes,https://github.com/montblu/terraform-kubernetes-deployment,Simple Terraform module used to create deployments in a Kubernetes cluster
 deployment,puppetlabs,9756,ec,https://github.com/puppetlabs/terraform-ec-deployment,
 deployment,robertdebock,10303,github,https://github.com/robertdebock/terraform-github-deployment,A Terraform module to configure GitHub.
@@ -5829,6 +5832,7 @@ ec2instance-terraform-simple-test,Rohan1192,23546,registry,https://github.com/Ro
 ec2module,Deepak9829,13384,aws,https://github.com/Deepak9829/terraform-aws-ec2module,
 ec2module,ihoslav,8923,aws,https://github.com/ihoslav/terraform-aws-ec2module,
 ec2module,mandeepmehra,10773,aws,https://github.com/mandeepmehra/terraform-aws-ec2module,
+ec2module,rajibpodder12,27204,aws,https://github.com/rajibpodder12/terraform-aws-ec2module,
 ec2module,rkecmfilenet,8922,aws,https://github.com/rkecmfilenet/terraform-aws-ec2module,terraform-aws-ec2module
 ec2module,shailendraprasad,8311,nsp,https://github.com/shailendraprasad/terraform-nsp-ec2module,
 ec2module-test,TechTruck,8309,aws,https://github.com/TechTruck/terraform-aws-ec2module-test,
@@ -6790,7 +6794,7 @@ elasticache,yonetimacademy,19505,aws,https://github.com/yonetimacademy/terraform
 elasticache-alarms,kiwicom,3022,aws,https://github.com/kiwicom/terraform-aws-elasticache-alarms,
 elasticache-memcached,cloudposse,225,aws,https://github.com/cloudposse/terraform-aws-elasticache-memcached,Terraform Module for ElastiCache Memcached Cluster
 elasticache-redis,QuiNovas,1497,aws,https://github.com/QuiNovas/terraform-aws-elasticache-redis,Creates a Redis cluster in AWS Elasticache
-elasticache-redis,SPHTech-Platform,14120,aws,https://github.com/SPHTech-Platform/terraform-aws-elasticache-redis,Terraform module for AWS terraform elasticache redis
+elasticache-redis,SPHTech-Platform,14120,aws,https://github.com/SPHTech-Platform/terraform-aws-elasticache-redis,
 elasticache-redis,appzen-oss,2041,aws,https://github.com/appzen-oss/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,cloudposse,226,aws,https://github.com/cloudposse/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,dare-global,18501,aws,https://github.com/dare-global/terraform-aws-elasticache-redis,Terraform module for provisioning an Elasticache Redis resources.
@@ -10804,7 +10808,7 @@ msk-sasl,vietanhduong,10874,aws,https://github.com/vietanhduong/terraform-aws-ms
 msk-status-monitor,stefanfreitag,21601,aws,https://github.com/stefanfreitag/terraform-aws-msk-status-monitor,Monitors the status of all MSK cluster in an AWS account and sends out notifications when a cluster is not in the ACTIVE state.
 mssql,DeimosCloud,8395,azure,https://github.com/DeimosCloud/terraform-azure-mssql,
 mssql,T-Systems-MMS,14817,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-mssql,
-mssql,cypik,22841,google,https://github.com/cypik/terraform-google-mssql,
+mssql,cypik,22841,google,https://github.com/cypik/terraform-google-mssql,Create Cloud SQL Database Instance for MSSQL
 mssql,yky-labs,17361,kubernetes,https://github.com/yky-labs/terraform-kubernetes-mssql,Terraform module to install Microsoft SQL Server.
 mssql-cluster-ec2,Rubynahal,13285,aws,https://github.com/Rubynahal/terraform-aws-mssql-cluster-ec2,Terraform module to create mssql cluster on ec2 using ssm automation document. Inspired by the cloudformation template provided by AWS
 mssql-configuration,data-platform-hq,23327,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-configuration,Terraform module for managing Azure MSSQL User
@@ -12277,7 +12281,7 @@ postgresql,avidhara,24043,azurerm,https://github.com/avidhara/terraform-azurerm-
 postgresql,avinor,3523,azurerm,https://github.com/avinor/terraform-azurerm-postgresql,Terraform module to deploy a PostgreSQL server with databases
 postgresql,ballj,9024,kubernetes,https://github.com/ballj/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,bayudwiyansatria,11525,helm,https://github.com/bayudwiyansatria/terraform-helm-postgresql,PostgreSQL High Availability provisioner using terraform. Provisioning A High Availability PostgreSQL using Helm Charts. 
-postgresql,cypik,22838,google,https://github.com/cypik/terraform-google-postgresql,
+postgresql,cypik,22838,google,https://github.com/cypik/terraform-google-postgresql,Create Cloud SQL Database Instance for POSTGRESQL
 postgresql,djangoflow,14736,kubernetes,https://github.com/djangoflow/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,dodevops,8895,azure,https://github.com/dodevops/terraform-azure-postgresql,Highly opinionated management of Azure DB for PostgreSQL
 postgresql,kubestack-modules,21106,kustomization,https://github.com/kubestack-modules/terraform-kustomization-postgresql,Postgresql Terraform Module for Kubernetes by Kubestack
@@ -16110,7 +16114,9 @@ talos-k8s-cluster,vdupain,26681,proxmox,https://github.com/vdupain/terraform-pro
 tarakesh,Tarakesh93,17567,aws,https://github.com/Tarakesh93/terraform-aws-tarakesh,
 tardigrade-account-alternate-contacts,plus3it,18306,aws,https://github.com/plus3it/terraform-aws-tardigrade-account-alternate-contacts,
 tardigrade-acm,plus3it,3904,aws,https://github.com/plus3it/terraform-aws-tardigrade-acm,
+tardigrade-budget,plus3it,27195,aws,https://github.com/plus3it/terraform-aws-tardigrade-budget,Terraform module for managing an AWS Budget
 tardigrade-cloudtrail,plus3it,2963,aws,https://github.com/plus3it/terraform-aws-tardigrade-cloudtrail,Create an AWS cloudtrail
+tardigrade-cloudwatch-event-rule,plus3it,27197,aws,https://github.com/plus3it/terraform-aws-tardigrade-cloudwatch-event-rule,
 tardigrade-cloudwatch-log-metric-filter,plus3it,3903,aws,https://github.com/plus3it/terraform-aws-tardigrade-cloudwatch-log-metric-filter,Terraform module to create CloudWatch Log Metric Filters
 tardigrade-cloudwatch-metric-alarms,plus3it,3910,aws,https://github.com/plus3it/terraform-aws-tardigrade-cloudwatch-metric-alarms,Terraform module to create CloudWatch Metric Alarms
 tardigrade-config,plus3it,2988,aws,https://github.com/plus3it/terraform-aws-tardigrade-config,Terraform module to manage AWS Config
@@ -16118,9 +16124,12 @@ tardigrade-config-aggregator,plus3it,3001,aws,https://github.com/plus3it/terrafo
 tardigrade-config-rules,plus3it,3036,aws,https://github.com/plus3it/terraform-aws-tardigrade-config-rules,Terraform module to setup config rules
 tardigrade-directory-service,plus3it,3002,aws,https://github.com/plus3it/terraform-aws-tardigrade-directory-service,Terraform module to create a directory
 tardigrade-ebs-encryption,plus3it,4974,aws,https://github.com/plus3it/terraform-aws-tardigrade-ebs-encryption,Terraform module to setup default ebs encryption
+tardigrade-ec2-account,plus3it,27199,aws,https://github.com/plus3it/terraform-aws-tardigrade-ec2-account,Terraform module to the manage EC2 account settings
+tardigrade-ec2-managed-prefix-list,plus3it,27198,aws,https://github.com/plus3it/terraform-aws-tardigrade-ec2-managed-prefix-list,Terraform module for managing an EC2 Prefix List and its entries
 tardigrade-guardduty,plus3it,3010,aws,https://github.com/plus3it/terraform-aws-tardigrade-guardduty,Terraform module to setup GuardDuty
 tardigrade-iam-account,plus3it,3003,aws,https://github.com/plus3it/terraform-aws-tardigrade-iam-account,Terraform module to managed AWS account password policy
 tardigrade-iam-identity-provider,plus3it,3011,aws,https://github.com/plus3it/terraform-aws-tardigrade-iam-identity-provider,Terraform module to create an IAM SAML provider
+tardigrade-iam-key-enforcer,plus3it,27202,aws,https://github.com/plus3it/terraform-aws-tardigrade-iam-key-enforcer,Terraform module to the manage IAM key enforcer
 tardigrade-iam-principals,plus3it,3013,aws,https://github.com/plus3it/terraform-aws-tardigrade-iam-principals,Terraform module to create IAM users/roles
 tardigrade-inspector,plus3it,2577,aws,https://github.com/plus3it/terraform-aws-tardigrade-inspector,Create an AWS Inspector scan
 tardigrade-keystore,plus3it,3012,aws,https://github.com/plus3it/terraform-aws-tardigrade-keystore,Terraform module to create a keystore within S3/SSM
@@ -16138,6 +16147,7 @@ tardigrade-route53-resolver,plus3it,17136,aws,https://github.com/plus3it/terrafo
 tardigrade-route53-rr-association,plus3it,3016,aws,https://github.com/plus3it/terraform-aws-tardigrade-route53-resolver,Terraform module to associate route53 resolver rules
 tardigrade-route53-subzone,plus3it,3057,aws,https://github.com/plus3it/terraform-aws-tardigrade-route53-zone,Terraform module to create a Route53 zone
 tardigrade-route53-zone,plus3it,5338,aws,https://github.com/plus3it/terraform-aws-tardigrade-route53-zone,Terraform module to create a Route53 zone
+tardigrade-s3-account,plus3it,27200,aws,https://github.com/plus3it/terraform-aws-tardigrade-s3-account,Terraform module to the manage S3 account level settings
 tardigrade-s3-backend,plus3it,22862,aws,https://github.com/plus3it/terraform-aws-tardigrade-s3-backend,Terraform module to the manage S3 backend config
 tardigrade-s3-bucket,plus3it,2987,aws,https://github.com/plus3it/terraform-aws-tardigrade-s3-bucket,Terraform module to create a S3 bucket
 tardigrade-security-group,plus3it,2985,aws,https://github.com/plus3it/terraform-aws-tardigrade-security-group,Terraform module to create an EC2 security group
@@ -16149,6 +16159,7 @@ tardigrade-transit-gateway,plus3it,8609,aws,https://github.com/plus3it/terraform
 tardigrade-transit-gateway-attachment,plus3it,3481,aws,https://github.com/plus3it/terraform-aws-tardigrade-transit-gateway,Terraform module to create a transit gateway attachment in one account and accept the attachment in the owner account
 tardigrade-vpc-endpoints,plus3it,2989,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-endpoints,Terraform module to create VPC Endpoints
 tardigrade-vpc-flow-log,plus3it,2986,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-flow-log,Terraform module to create a VPC Flow Log
+tardigrade-vpc-ipam,plus3it,27201,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-ipam,
 tardigrade-vpn-connection,plus3it,3004,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpn-connection,Terraform module to create a VPN Connection
 target,snowplow-devops,12576,snowflake,https://github.com/snowplow-devops/terraform-snowflake-target,
 target-group,SoleksDataGroup,24677,aws,https://github.com/SoleksDataGroup/terraform-aws-target-group,
@@ -16212,7 +16223,7 @@ template,rhythmictech,5164,anycloud,https://github.com/rhythmictech/terraform-te
 template,rhythmictech,5399,terraform,https://github.com/rhythmictech/terraform-terraform-template,Terraform module template. Good for any cloud and any provider
 template-directory,escapace,26585,null,https://github.com/escapace/terraform-null-template-directory,
 template-files,evershade,24987,config,https://github.com/evershade/terraform-config-template-files,
-template-instance,cypik,22788,google,https://github.com/cypik/terraform-google-template-instance,
+template-instance,cypik,22788,google,https://github.com/cypik/terraform-google-template-instance,"Instance templates let you specify the machine type, boot disk image, network, and other VM properties that you want to use when creating virtual machine (VM) instances"
 template-sync,nullc4t,17502,null,https://github.com/const-tmp/terraform-null-template-sync,Auto-updatable templates
 templates,Terraform-GCP-Templates,7279,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-templates,
 tempo,loafoe,13409,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-tempo,Experiment with Grafana Tempo
