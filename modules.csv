@@ -3973,6 +3973,7 @@ cost-alert,infrahouse,26622,aws,https://github.com/infrahouse/terraform-aws-cost
 cost-and-usage-reports,telia-oss,1275,aws,https://github.com/telia-oss/terraform-aws-cost-and-usage-reports,A Terraform module for deploying processing of AWS Cost and Usage reports. 
 cost-anomaly-detection,delivops,26211,aws,https://github.com/delivops/terraform-aws-cost-anomaly-detection,Terraform-aws-cost-anomaly-detection is a Terraform module for anomaly-detections in AWS services.
 cost-anomaly-detection,ganexcloud,23939,aws,https://github.com/ganexcloud/terraform-aws-cost-anomaly-detection,
+cost-anomaly-detection-alert,keidarcy,27218,aws,https://github.com/keidarcy/terraform-aws-cost-anomaly-detection-alert,💰 Terraform module for AWS Cost Anomaly Detection with optional Slack integration to monitor and alert on unexpected AWS cost increases 📊
 cost-billing-alarm,binbashar,2679,aws,https://github.com/binbashar/terraform-aws-cost-billing-alarm,Terraform module which creates Cost Explorer billing cloudwatch alarm with optional SNS resources on AWS https://registry.terraform.io/modules/binbashar/cost-billing-alarm
 cost-billing-alarm,clouddrove,15452,aws,https://github.com/clouddrove/terraform-aws-cost-billing-alarm,A Terraform module to create aws cost billing alarm resource on AWS with sns topic. 
 cost-budget,binbashar,2587,aws,https://github.com/binbashar/terraform-aws-cost-budget,Terraform module which creates Cost Explorer budget with notifications with optional SNS resources on AWS https://registry.terraform.io/modules/binbashar/cost-budget
@@ -6204,6 +6205,7 @@ ecs-service,anonymint,505,aws,https://github.com/anonymint/terraform-aws-ecs-ser
 ecs-service,appzen-oss,3608,aws,https://github.com/appzen-oss/terraform-aws-ecs-service,
 ecs-service,boldlink,14380,aws,https://github.com/boldlink/terraform-aws-ecs-service,Terraform registry repository for ECS service module
 ecs-service,bryan-rhm,14046,aws,https://github.com/bryan-rhm/terraform-aws-ecs-service,Terraform module for ECS Service
+ecs-service,delivops,27219,aws,https://github.com/delivops/terraform-aws-ecs-service,Terraform-aws-ecs-service is a Terraform module for creating advanced ECS service.
 ecs-service,devops-workflow,1876,aws,https://github.com/devops-workflow/terraform-aws-ecs-service,
 ecs-service,egarbi,456,aws,https://github.com/egarbi/terraform-aws-ecs-service,Create a ECS service in an ECS cluster associated to an target_group passed as an argument
 ecs-service,etudor,21210,aws,https://github.com/etudor/terraform-aws-ecs-service,
@@ -10791,6 +10793,7 @@ mrmgr,opszero,17615,github,https://github.com/opszero/terraform-github-mrmgr,
 msa-exim.tf,mildred,5608,local,https://github.com/mildred/terraform-local-msa-exim.tf,"terraform module to deploy a local Exim non relaying submission server (port 587 only, not 25)"
 msc-subscription,terraform-alicloud-modules,10423,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-msc-subscription,
 mse,terraform-alicloud-modules,12825,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mse,Terraform Module for creating MSE resources on Alibaba Cloud.
+mshahi-test-vpc,ShaikShahistha,27217,aws,https://github.com/ShaikShahistha/terraform-aws-mshahi-test-vpc,
 msi,tomarv2,12427,azure,https://github.com/tomarv2/terraform-azure-msi,Terraform module for Azure Managed Service Identity (MSI) 
 msk,clouddrove,18422,aws,https://github.com/clouddrove/terraform-aws-msk,
 msk,dasmeta,21183,aws,https://github.com/dasmeta/terraform-aws-msk,Terraform module for creating AWS MSK cluster
@@ -15399,7 +15402,7 @@ ssm-parameter-store-policy-documents,cloudposse,1204,aws,https://github.com/clou
 ssm-parameter-with-default-value,BardiaN,11390,aws,https://github.com/BardiaN/terraform-aws-ssm-parameter-with-default-value,"This is a simple terraform module that tries to read an AWS SSM parameter. If the parameter doesn't exist, it will return a default value without throwing an error."
 ssm-parameters,figurate,5813,aws,https://github.com/figurate/terraform-aws-secrets,Configure a list of SSM Parameter Store entries
 ssm-parameters,gretchenleighmiller,24207,aws,https://github.com/gretchenleighmiller/terraform-aws-ssm-parameters,Terraform module that creates a set of SSM Parameter Store secure secrets under a shared prefix and creates an IAM policy for read-only access to them.
-ssm-parameters,hazelops,27097,aws,https://github.com/hazelops/terraform-aws-ssm-parameters,
+ssm-parameters,hazelops,27097,aws,https://github.com/hazelops/terraform-aws-ssm-parameters,Consistent way to manage service SSM parameters.
 ssm-parameters,umotif-public,4811,aws,https://github.com/umotif-public/terraform-aws-ssm-parameters,Terraform module creating encrypted and non-encrypted AWS SSM parameters 
 ssm-parameters,unfor19,10286,aws,https://github.com/unfor19/terraform-aws-ssm-parameters,"Create AWS SSM Parameter Store parameters with a Terraform module. The creation/deletion (schema) is managed with Terraform, and the values should be maintained via AWS Console."
 ssm-parameters-access-policy-document,andreswebs,11692,aws,https://github.com/andreswebs/terraform-aws-ssm-parameters-access-policy-document,Generates an IAM policy document with permissons to access a list of parameters from AWS SSM Parameter Store
