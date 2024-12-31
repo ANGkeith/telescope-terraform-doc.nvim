@@ -1648,7 +1648,7 @@ autoken,Bayer-Group,22030,aws,https://github.com/Bayer-Group/terraform-aws-autok
 autokey,GoogleCloudPlatform,24534,google,https://github.com/GoogleCloudPlatform/terraform-google-autokey,Deploys KMS Autokey resource to simplify creation and management of customer encryption keys (CMEK) by automating provisioning and assignment.
 automanage-config,libre-devops,23751,azurerm,https://github.com/libre-devops/terraform-azurerm-automanage-config,A module used to deploy Azure automanage configuration 🔧
 automation,equinor,23384,azurerm,https://github.com/equinor/terraform-azurerm-automation,Terraform module which creates Azure Automation resources
-automation,masterpointio,26844,spacelift,https://github.com/masterpointio/terraform-spacelift-automation,Terraform module to configure and provision Spacelift resources for automated infrastructure management :lightning:
+automation,masterpointio,26844,spacelift,https://github.com/masterpointio/terraform-spacelift-automation,Terraform module to automate Spacelift Stack management ⚡
 automation-account,andrewCluey,8966,azurerm,https://github.com/andrewCluey/terraform-azurerm-automation-account,Deploy an Azure Automation Account using Terraform
 automation-account,cyber-scot,21170,azurerm,https://github.com/cyber-scot/terraform-azurerm-automation-account,A module used to deploy an Azure Automation account ⚡
 automation-account,data-platform-hq,19591,azurerm,https://github.com/data-platform-hq/terraform-azurerm-automation-account,Terraform module for creation of Azure Automation Account
@@ -5984,6 +5984,7 @@ ecs,tbobm,10688,aws,https://github.com/tbobm/terraform-aws-ecs,Terraform module 
 ecs,telia-oss,1183,aws,https://github.com/telia-oss/terraform-aws-ecs,Collection of ECS modules for Terraform.
 ecs,terraform-aws-modules,289,aws,https://github.com/terraform-aws-modules/terraform-aws-ecs,Terraform module to create AWS ECS resources 🇺🇦
 ecs,terraform-module,14063,aws,https://github.com/terraform-module/terraform-aws-ecs,Terraform module which creates AWS ECS resources
+ecs,thomasvjoseph,27220,aws,https://github.com/thomasvjoseph/terraform-aws-ecs,Terraform Script to create ECS Fargate with Auto Scaling Options
 ecs,toluna-terraform,14464,aws,https://github.com/toluna-terraform/terraform-aws-ecs,
 ecs-agent,lacework,8610,aws,https://github.com/lacework/terraform-aws-ecs-agent,A Terraform Module to create an ECS Task Definition and Daemon Service for deploying the Lacework Datacollector Agent in an Elastic Container Service (ECS) cluster.
 ecs-agent-pool,glenngillen,15345,aws,https://github.com/glenngillen/terraform-aws-ecs-agent-pool,
@@ -11474,6 +11475,7 @@ networking,stajkowski,23140,aws,https://github.com/stajkowski/terraform-aws-netw
 networking,vukomir,19065,hcloud,https://github.com/vukomir/terraform-hcloud-networking,
 networking-nat-gateway,ptonini,16832,aws,https://github.com/ptonini/terraform-aws-networking-nat-gateway,
 networking-network,ptonini,20144,openstack,https://github.com/ptonini/terraform-openstack-networking-network,
+networking-practice,Learning2025Concepts,27223,aws,https://github.com/Learning2025Concepts/terraform-aws-networking-practice,Terraform Modules to Manage the AWS Networking Resource such as vpc subnet and route tables
 networking-route-table,ptonini,22208,aws,https://github.com/ptonini/terraform-aws-networking-route-table,
 networking-secgroup,ptonini,20145,openstack,https://github.com/ptonini/terraform-openstack-networking-secgroup,
 networking-secgroup,tf-cloud-modules,20043,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-networking-secgroup,Terraform Sbercloud Networking Secgroup Module
@@ -12713,6 +12715,7 @@ rbac-administration,Pwd9000-ML,19956,azurerm,https://github.com/Pwd9000-ML/terra
 rbac-administrator,hlokensgard,23064,azure,https://github.com/hlokensgard/terraform-azure-rbac-administrator,A Terraform module that will help you create role assignment for the role Role Based Access Control Administrator. 
 rbac-group,tf-mod,3135,aws,https://github.com/tf-mod/terraform-aws-rbac-group,
 rbac-infra,Infostrux-Solutions,25111,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-rbac-infra,"Terraform RBAC infrastructure to create databases, warehouses, roles, users, and to manage permissions."
+rbac-pim-groups,SuryenduB,27222,azuread,https://github.com/SuryenduB/terraform-azuread-rbac-pim-groups,
 rbac-role,tf-mod,3134,aws,https://github.com/tf-mod/terraform-aws-rbac-role,
 rbac-user,tf-mod,3286,aws,https://github.com/tf-mod/terraform-aws-rbac-user,
 rdb,scaleway-terraform-modules,17652,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-rdb,Manage Relational Databases on Scaleway with Terraform.
@@ -16067,6 +16070,7 @@ table,assemble-inc,1947,dynamodb,https://github.com/assembleinc/terraform-dynamo
 table-store,terraform-alicloud-modules,2269,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-table-store,Terraform module which creates OTS instance and table store on Alibaba Cloud
 tabular-storage-profile,tabular-io,20685,aws,https://github.com/tabular-io/terraform-aws-tabular-storage-profile,
 tacacs,netascode,10328,aci,https://github.com/netascode/terraform-aci-tacacs,Terraform Cisco ACI TACACS Module
+tag-based-lambda-warmer,aws-educate-tw,27221,aws,https://github.com/aws-educate-tw/terraform-aws-tag-based-lambda-warmer,A Terraform module for deploying an automated Lambda function warming solution. This module helps prevent ❄️ cold starts in your Lambda functions by periodically invoking them based on tags
 tag-formatter,Xorima,11730,tfe,https://github.com/xorima/terraform-tfe-tag-formatter,A Terraform module to convert any inputted string into a valid TFC/TFE Tag
 tag-generator,fivexl,7369,aws,https://github.com/fivexl/terraform-aws-tag-generator,Simple tag generator for AWS resources using best practices from AWS
 tag-policy,rhythmictech,26306,aws,https://github.com/rhythmictech/terraform-aws-tag-policy,
