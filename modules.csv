@@ -4342,6 +4342,7 @@ decider-module,rberecka,15165,rberecka,https://github.com/rberecka/terraform-rbe
 declare-ami-dependency,GoCarrot,12544,aws,https://github.com/GoCarrot/terraform-aws-declare-ami-dependency,Declare Ami Dependency creates an SSM Parameter that our CircleCI orb will reference in order to rebuild any AMIs which depend on a just rebuilt AMI
 dedicated-elb,FlexibleEngineCloud,20916,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-dedicated-elb,Terraform module which creates Dedicated Enhanced Elastic Load Balancer (ELB) resources on Flexible Engine
 dedicated-host,DanielRDias,6941,aws,https://github.com/DanielRDias/terraform-aws-dedicated-host,Terraform module which creates EC2 dedicated host on AWS. Required for macOS instances (mac1.metal)
+dedicated-host,terraform-ibm-modules,27231,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-dedicated-host,
 deep-learning-lambda,kayvane1,11836,aws,https://github.com/kayvane1/terraform-aws-deep-learning-lambda,terraform module to create an efs-backed lambda using terraform to build and deploy serverless deep-learning end-points for inference
 deepmerge,Invicton-Labs,7543,null,https://github.com/Invicton-Labs/terraform-null-deepmerge,This module performs a deep map merge of standard Terraform maps/objects
 deepmerge,Kalepa,16026,null,https://github.com/Kalepa/terraform-null-deepmerge,This module performs a deep map merge of standard Terraform maps/objects
@@ -6759,6 +6760,7 @@ elastic,JamesWoolfenden,7816,aws,https://github.com/JamesWoolfenden/terraform-aw
 elastic,boeboe,16431,helm,https://github.com/boeboe/terraform-helm-elastic,Terraform module for Elastic Stack deployment on Kubernetes using Helm
 elastic,squareops,26452,kubernetes,https://github.com/squareops/terraform-kubernetes-elastic,"Terraform module for deploying Elasticsearch using Helm on AWS, Azure, and Google Cloud, enabling scalable, managed search solutions across multiple cloud environments."
 elastic-agent,syneki,14059,kubernetes,https://github.com/syneki/terraform-kubernetes-elastic-agent,
+elastic-beanstalk,bootlabstech-m,27230,aws,https://github.com/bootlabstech-m/terraform-aws-elastic-beanstalk,
 elastic-beanstalk,finisterra-io,23564,aws,https://github.com/finisterra-io/terraform-aws-elastic-beanstalk,Terraform AWS Elastic Beanstalk module
 elastic-beanstalk-and-s3-with-cloudfront-distribution,muneebmughal1,19187,aws,https://github.com/muneebmughal1/terraform-aws-elastic-beanstalk-and-s3-with-cloudfront-distribution,
 elastic-beanstalk-application,cloudposse,223,aws,https://github.com/cloudposse/terraform-aws-elastic-beanstalk-application,Terraform Module to define an ElasticBeanstalk Application
@@ -9633,6 +9635,7 @@ lambda-function,EuDevops,11859,aws,https://github.com/EuDevops/terraform-aws-lam
 lambda-function,JousP,4119,aws,https://github.com/JousP/terraform-aws-lambda-function,"Terraform module to deploy a lambda function, role and cloudwatch logs"
 lambda-function,PGBI,2826,aws,https://github.com/PGBI/terraform-aws-lambda-function,
 lambda-function,SevenPicoForks,17752,aws,https://github.com/SevenPicoForks/terraform-aws-lambda-function,A module for launching Lambda Fuctions
+lambda-function,abhinav-tripathi14,27228,aws,https://github.com/abhinav-tripathi14/terraform-aws-lambda-function,A Terraform module for deploying and managing Lambda functions on Amazon Web Services (AWS). https://aws.amazon.com/lambda/
 lambda-function,bancoripleyperu,8364,aws,https://github.com/bancoripleyperu/terraform-aws-lambda-function,Module of Terraform
 lambda-function,bootlabstech-m,17653,aws,https://github.com/bootlabstech-m/terraform-aws-lambda-function,
 lambda-function,cloudposse,12568,aws,https://github.com/cloudposse/terraform-aws-lambda-function,A module for launching Lambda Fuctions
@@ -10206,6 +10209,7 @@ managed-policies,yukihira1992,3376,aws,https://github.com/yukihira1992/terraform
 managed-postgress,OT-terraform-azure-modules,22296,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-managed-postgress,
 managed-prefix-list,ionosphere-io,6501,aws,https://github.com/ionosphere-io/terraform-aws-managed-prefix-list,Manage a prefix list from ip-ranges.json
 managed-prometheus,cloudposse,24739,aws,https://github.com/cloudposse/terraform-aws-managed-prometheus,
+managed-prometheus-rules,sepulworld,27229,grafana,https://github.com/sepulworld/terraform-grafana-managed-prometheus-rules,Default Prometheus monitoring rules defined as Grafana managed rules in Terraform
 managed-service-grafana,blackbird-cloud,19045,aws,https://github.com/blackbird-cloud/terraform-aws-managed-service-grafana,Terraform module which creates AWS Managed Service for Grafana (AMG) resources 🇺🇦
 managed-service-grafana,clowdhaus,12962,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-grafana,Terraform module to create AWS Managed Service for Grafana (AMG) resources 🇺🇦
 managed-service-grafana,terraform-aws-modules,13112,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-grafana,Terraform module to create AWS Managed Service for Grafana (AMG) resources 🇺🇦
@@ -14293,6 +14297,7 @@ sagemaker,Young-ook,9038,aws,https://github.com/Young-ook/terraform-aws-sagemake
 sagemaker-domain,bootlabstech-m,20818,aws,https://github.com/bootlabstech-m/terraform-aws-sagemaker-domain,
 sagemaker-huggingface,philschmid,11944,aws,https://github.com/philschmid/terraform-aws-sagemaker-huggingface,
 sagemaker-iam-role,dod-iac,8381,aws,https://github.com/dod-iac/terraform-aws-sagemaker-iam-role,IAM Role for use as a SageMaker service role
+sagemaker-image-autoattacher,xAdRx,27232,aws,https://github.com/xAdRx/terraform-aws-sagemaker-image-autoattacher,Terraform code used for auto attaching of sagemaker images pushed to ECR
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
 sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
