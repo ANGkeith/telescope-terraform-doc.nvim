@@ -9220,6 +9220,7 @@ kops-state-store,opzkit,10581,aws,https://github.com/opzkit/terraform-aws-kops-s
 kops-vault-backend,cloudposse,2211,aws,https://github.com/cloudposse-archives/terraform-aws-kops-vault-backend,"Terraform module to provision an S3 bucket for HashiCorp Vault secrets storage, and an IAM role and policy with permissions for Kops nodes to access the bucket"
 kops-vpc-peering,cloudposse,961,aws,https://github.com/cloudposse-archives/terraform-aws-kops-vpc-peering,Terraform module to create a peering connection between a backing services VPC and a VPC created by Kops
 kosli-reporter,kosli-dev,15108,aws,https://github.com/kosli-dev/terraform-aws-kosli-reporter,Terraform module to deploy the Kosli Lambda reporter
+ks8-cluster,alparslanu6347,27254,aws,https://github.com/alparslanu6347/terraform-aws-ks8-cluster,Terraform Module for Provisioning a Kubernetes Cluster on AWS
 ksoc-connect,ksoclabs,10895,aws,https://github.com/ksoclabs/terraform-aws-ksoc-connect,A terraform module for allowing KSOC to connect to your AWS account.
 ksoc-connect,ksoclabs,12262,azurerm,https://github.com/ksoclabs/terraform-azurerm-ksoc-connect,A terraform module for allowing KSOC to connect to your Azure account.
 kube,damoun,24750,hetzner,https://github.com/damoun/terraform-hetzner-kube,Terraform module to deploy Kubernetes on Hetzner Cloud.
@@ -9652,7 +9653,7 @@ lambda-function-credential-exfiltration,offensive-terraform,6043,aws,https://git
 lambda-function-mod,corpit-consulting-public,2798,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-function,
 lambda-functions-bucket,QuiNovas,1489,aws,https://github.com/QuiNovas/terraform-aws-lambda-functions-bucket,Creates a bucket as a repository for lambda packages
 lambda-gitflow,toluna-terraform,17342,aws,https://github.com/toluna-terraform/terraform-aws-lambda-gitflow,
-lambda-github-actions,SPHTech-Platform,18747,aws,https://github.com/SPHTech-Platform/terraform-aws-lambda-github-actions,Generic module for terraform lambda deployer using github action
+lambda-github-actions,SPHTech-Platform,18747,aws,https://github.com/SPHTech-Platform/terraform-aws-lambda-github-actions,
 lambda-github-app,npalm,4779,aws,https://github.com/npalm/terraform-aws-lambda-github-app,Terraform module for GitHub App Lambda webhook
 lambda-githubauth,armorfret,2191,aws,https://github.com/armorfret/terraform-aws-lambda-githubauth,Terraform module for provisioning akerl/github-auth-lambda
 lambda-glue-trigger-role,MagusDevOps,6088,aws,https://github.com/MagusDevOps/terraform-aws-lambda-glue-trigger-role,an opinionated module for a global role for lambda to trigger glue jobs
@@ -11218,6 +11219,7 @@ nas-volume-vpc,terraform-navercloudplatform-modules,25275,ncloud,https://github.
 nat,Aplyca,2723,aws,https://github.com/Aplyca/terraform-aws-nat,Creates a NAT Gateway Resource
 nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,
 nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT resources
+nat,simulator-schandra,27257,azure,https://github.com/simulator-schandra/terraform-azure-nat,
 nat,tedivm,12435,aws,https://github.com/tedivm/terraform-aws-nat,Terraform module for creating NAT Gateways or Instances and attaching them to a VPC
 nat,terraform-tencentcloud-modules,16263,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-nat,TencentCloud NAT Gateway for Terraform
 nat-alarms,lorenzoaiello,4012,aws,https://github.com/lorenzoaiello/terraform-aws-nat-alarms,This Terraform module manages Cloudwatch Alarms for NAT Gateways.
@@ -11483,12 +11485,14 @@ networking,ned1313,22823,azurerm,https://github.com/ned1313/terraform-azurerm-ne
 networking,royge,2118,aws,https://github.com/royge/terraform-aws-networking,AWS Networking Template
 networking,stajkowski,23140,aws,https://github.com/stajkowski/terraform-aws-networking,AWS Networking Module for Terraform
 networking,vukomir,19065,hcloud,https://github.com/vukomir/terraform-hcloud-networking,
+networking-YS_Learnings,ryogarajme,27251,aws,https://github.com/ryogarajme/terraform-aws-networking-YS_Learnings,Network Module created during the YS Learning Terraform Course
 networking-nat-gateway,ptonini,16832,aws,https://github.com/ptonini/terraform-aws-networking-nat-gateway,
 networking-network,ptonini,20144,openstack,https://github.com/ptonini/terraform-openstack-networking-network,
 networking-practice,Learning2025Concepts,27223,aws,https://github.com/Learning2025Concepts/terraform-aws-networking-practice,Terraform Modules to Manage the AWS Networking Resource such as vpc subnet and route tables
 networking-route-table,ptonini,22208,aws,https://github.com/ptonini/terraform-aws-networking-route-table,
 networking-secgroup,ptonini,20145,openstack,https://github.com/ptonini/terraform-openstack-networking-secgroup,
 networking-secgroup,tf-cloud-modules,20043,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-networking-secgroup,Terraform Sbercloud Networking Secgroup Module
+networking-simple,The-Shy7,27258,aws,https://github.com/The-Shy7/terraform-aws-networking-simple,A simple Terraform module that manages the creation of VPCs and subnets.
 networking-subnet,ptonini,16831,aws,https://github.com/ptonini/terraform-aws-networking-subnet,
 networking-subnet-group,ptonini,22158,aws,https://github.com/ptonini/terraform-aws-networking-subnet-group,
 networking-tf-course,Jao-Steven-Rey-C,27226,aws,https://github.com/Jao-Steven-Rey-C/terraform-aws-networking-tf-course,Networking module performed under Lauro Müeller's course about Terraform.
@@ -13181,6 +13185,7 @@ regions,Azure-Terraformer,25003,azurerm,https://github.com/Azure-Terraformer/ter
 regions,TaleLearnCode,26375,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-regions,Terraform module to provide Azure region information.
 regions,claranet,3212,azurerm,https://github.com/claranet/terraform-azurerm-regions,Terraform module to handle Azure Regions
 register-esxi-hosts,jd4883,11202,vsphere,https://github.com/jd4883/terraform-vsphere-register-esxi-hosts,Small vsphere terraform module for registering ESXI hosts; minimal design that can also add hosts to a clusters if the argument is provided (clluster). 
+registries,abarrak,27253,oci,https://github.com/abarrak/terraform-oci-registries,
 registry,Irinaberidze,17932,artifact,https://github.com/Irinaberidze/terraform-artifact-registry,
 registry,Qudratillo8373,17929,artefact,https://github.com/Qudratillo8373/terraform-artefact-registry,
 registry,Sarik89,17933,artifact,https://github.com/sarik89/terraform-artifact-registry,
@@ -13899,6 +13904,7 @@ s3-bucket,karthickrajann,15068,aws,https://github.com/karthickrajann/terraform-a
 s3-bucket,kiranguda,23802,aws,https://github.com/kiranguda/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,lablabs,4103,aws,https://github.com/lablabs/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,langga27,20707,aws,https://github.com/langga27/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
+s3-bucket,linoypal,27252,aws,https://github.com/linoypal/terraform-aws-s3-bucket,
 s3-bucket,lptech-io,19366,aws,https://github.com/lptech-io/terraform-aws-s3-bucket,Module to create s3 bucket with terraform
 s3-bucket,marcio-costa,20827,aws,https://github.com/marcio-costa/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,micronode,4823,aws,https://github.com/figurate/terraform-aws-s3,S3 bucket creation with predefined templates.
@@ -15982,6 +15988,7 @@ subnet,mikamakusa,4350,aws,https://github.com/mikamakusa/terraform-aws-subnet,
 subnet,ptonini,16765,azurerm,https://github.com/ptonini/terraform-azurerm-subnet,
 subnet,seg-way,20570,azurerm,https://github.com/segateway/terraform-azurerm-subnet,
 subnet,segateway,20631,azurerm,https://github.com/segateway/terraform-azurerm-subnet,
+subnet,simulator-schandra,27256,azure,https://github.com/simulator-schandra/terraform-azure-subnet,
 subnet,sironite,17406,azurerm,https://github.com/sironite/terraform-azurerm-subnet,Terraform module creates Azure subnet(s)
 subnet,sjones-sot,725,azurerm,https://github.com/jackofallops/terraform-azurerm-subnet,Module for creation of subnets in an existing Virtual Network
 subnet,sureshyadav76,24127,google,https://github.com/sureshyadav76/terraform-google-subnet,Set up a subnet on Google Cloud Platform (GCP)
@@ -17113,6 +17120,7 @@ vnet,popravak,16174,azurerm,https://github.com/popravak/terraform-azurerm-vnet,B
 vnet,ptonini,16766,azurerm,https://github.com/ptonini/terraform-azurerm-vnet,
 vnet,rhythmictech,3262,azure,https://github.com/rhythmictech/terraform-azure-vnet,Terraform Module to create Azure VNET and subnets using terraform 0.12
 vnet,shamal112mn,6982,azure,https://github.com/shamal112mn/terraform-azure-vnet,
+vnet,simulator-schandra,27255,azure,https://github.com/simulator-schandra/terraform-azure-vnet,
 vnet,snowplow-devops,19485,azurerm,https://github.com/snowplow-devops/terraform-azurerm-vnet,
 vnet,squareops,20026,azurerm,https://github.com/squareops/terraform-azurerm-vnet,Terraform module to create Networking resources for workload deployment on Azure Cloud.
 vnet,srb3,4096,azurerm,https://github.com/srb3/terraform-azurerm-vnet,
