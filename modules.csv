@@ -1,5 +1,6 @@
 1es-hosted-pool,markti,23321,azurerm,https://github.com/markti/terraform-azurerm-1es-hosted-pool,1ES Hosted Pool
 1password-cli,irth,19082,external,https://github.com/irth/terraform-external-1password-cli,
+1password-cli-installer,cesarine-com,27259,onepassword,https://github.com/cesarine-com/terraform-onepassword-1password-cli-installer,
 1password-scim-bridge,rhythmictech,5352,aws,https://github.com/rhythmictech/terraform-aws-1password-scim-bridge,"Creates a SCIM Bridge to enable 1Password SSO w/Okta and other SSO providers. Based on the 1Password SCIM Examples, but packaged as a ready-to-use module with some security-related improvements."
 201,CptnCoups,1401,aws,https://github.com/CptnCoups/terraform-aws-201,
 2023,aynurose,22661,october,https://github.com/aynurose/terraform-october-2023,
@@ -683,6 +684,7 @@ ambassador,sailthru,1995,kubernetes,https://github.com/sailthru/terraform-kubern
 ambassador-endpoint,basisai,7397,kubernetes,https://github.com/basisai/terraform-kubernetes-ambassador-endpoint,Create CRDs for an endpoint served by Ambassador
 ambavarapu-vpcmodule,jayakrishnaambavarapu,26109,aws,https://github.com/jayakrishnaambavarapu/terraform-aws-ambavarapu-vpcmodule,
 ambiente-jonatasudia,jonatasudia,27124,aws,https://github.com/jonatasudia/terraform-aws-ambiente-jonatasudia,Módulo do terraform para criação do ambiente sugerido pelo professor
+ambiente-nelson,descomplicando-terraform,27268,aws,https://github.com/descomplicando-terraform/terraform-aws-ambiente-nelson,Repositório do módulo para criação do ambiente sugerido pelo professor
 ambiente-professor,descomplicando-terraform,25226,aws,https://github.com/descomplicando-terraform/terraform-aws-ambiente-professor,Módulo para criação do ambiente sugerido pelo professor
 ambiente-tonny,tonnyluiz00,27125,aws,https://github.com/tonnyluiz00/terraform-aws-ambiente-tonny,Módulo para criação do ambiente sugerido pelo professor.
 ami,itsaconsulting,26566,aws,https://github.com/itsaconsulting/terraform-aws-ami,This terraform module will deploy a CodeBuild project that will build an AMI and place the AMI ID in an SSM Parameter.
@@ -2894,7 +2896,6 @@ clearblade-iot-enterprise,ClearBlade,26866,google,https://github.com/ClearBlade/
 clerk,dvargas92495,10532,aws,https://github.com/dvargas92495/terraform-aws-clerk,A terraform module for hooking up your Clerk instance to AWS
 clever,dyanca,1408,something,https://github.com/dyanca/terraform-something-clever,
 cli,digitickets,4845,aws,https://github.com/digitickets/terraform-aws-cli,"Run the AWS CLI, with the ability to run under an assumed role, to access resources and properties missing from the Terraform AWS Provider."
-cli-installer,cesarine-com,27162,onepassword,https://github.com/cesarine-com/terraform-onepassword-cli-installer,
 cli-outputs,matti,772,kontena,https://github.com/matti/terraform-kontena-cli-outputs,
 cli-outputs,matti,777,heroku,https://github.com/matti/terraform-heroku-cli-outputs,
 cli-provisioner,doximity,10851,aws,https://github.com/doximity/terraform-aws-cli-provisioner,A helper module for running the aws cli from within terraform in a `local-exec` provisioner
@@ -3409,6 +3410,8 @@ cloudwatch-metrics-for-ec2,robin-zhao,6658,aws,https://github.com/robin-zhao/ter
 cloudwatch-monitors,rhythmictech,3129,cis,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
 cloudwatch-msk,delivops,26865,aws,https://github.com/delivops/terraform-aws-cloudwatch-msk,Terraform-aws-msk-cloudwatch is a Terraform module for setting up a notification system about cloudwatch msk metrics.
 cloudwatch-oam,blackbird-cloud,19788,aws,https://github.com/blackbird-cloud/terraform-aws-cloudwatch-oam,This module can be used to create AWS Cloudwatch OAM resources
+cloudwatch-opensearch,delivops,27267,aws,https://github.com/delivops/terraform-aws-cloudwatch-opensearch,Terraform-aws-cloudwatch-opensearch is a Terraform module for setting up a notification system about opensearch metrics.
+cloudwatch-openserach,delivops,27260,aws,https://github.com/delivops/terraform-aws-cloudwatch-openserach,Terraform-aws-cloudwatch-opensearch is a Terraform module for setting up a notification system about opensearch metrics.
 cloudwatch-rds,delivops,26961,aws,https://github.com/delivops/terraform-aws-cloudwatch-rds,Terraform-aws-cloudwatch-rds is a Terraform module for setting up a notification system about rds metrics.
 cloudwatch-rule-alarm,wesol05,2861,aws,https://github.com/wesol05/terraform-aws-cloudwatch-rule-alarm,
 cloudwatch-s3,JamesWoolfenden,2851,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudwatch-s3,Stream Cloudwatch logs to s3
@@ -5126,7 +5129,7 @@ docker-instance,selcukzorlu,20822,aws,https://github.com/selcukzorlu/terraform-a
 docker-instance,selimkuzi,25106,aws,https://github.com/selimkuzi/terraform-aws-docker-instance,
 docker-instance,senaayaz,18243,aws,https://github.com/senaayaz/terraform-aws-docker-instance,
 docker-instance,senolkeklik,16379,aws,https://github.com/senolkeklik/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS.  - Website: https://registry.terraform.io/modules/senolkeklik/docker-instance/aws/latest 
-docker-instance,ser30,16314,aws,https://github.com/ser30/terraform-aws-docker-instance,
+docker-instance,ser30,27273,aws,https://github.com/ser30/terraform-aws-docker-instance,
 docker-instance,sergenkmert,23810,aws,https://github.com/sergenkmert/terraform-aws-docker-instance,
 docker-instance,serkantayfur,14645,aws,https://github.com/serkantayfur/terraform-aws-docker-instance,terraform-aws-docker-instance Please check readme
 docker-instance,servetaksoy,18666,aws,https://github.com/servetaksoy/terraform-aws-docker-instance,
@@ -7567,6 +7570,7 @@ gcr,mineiros-io,11378,google,https://github.com/mineiros-io/terraform-google-gcr
 gcr-cleaner,mirakl,8593,google,https://github.com/mirakl/terraform-google-gcr-cleaner,"Terraform module that implements gcr-cleaner, a tool that deletes untagged images in Google Cloud Container Registry. More on https://github.com/sethvargo/gcr-cleaner"
 gcr-config,uptycslabs,19530,google,https://github.com/uptycslabs/terraform-google-gcr-config,Terraform module for use with Uptycs GCR integration
 gcr-onprem-config,uptycslabs,20547,google,https://github.com/uptycslabs/terraform-google-gcr-onprem-config,
+gcr-scraper,rad-security,27264,google,https://github.com/rad-security/terraform-google-gcr-scraper,A terraform module for allowing Rad Security to scan GCR registries in your GCP account.
 gcs,bootlabstech,17840,google,https://github.com/bootlabstech/terraform-google-gcs,Creates a GCS .
 gcs,woernfl,1839,gcp,https://github.com/woernfl/terraform-gcp-gcs,
 gcs-bucket,nephosolutions,1186,google,https://github.com/nephosolutions/terraform-google-gcs-bucket,Terraform module to provision Google Cloud Storage buckets
@@ -13185,7 +13189,7 @@ regions,Azure-Terraformer,25003,azurerm,https://github.com/Azure-Terraformer/ter
 regions,TaleLearnCode,26375,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-regions,Terraform module to provide Azure region information.
 regions,claranet,3212,azurerm,https://github.com/claranet/terraform-azurerm-regions,Terraform module to handle Azure Regions
 register-esxi-hosts,jd4883,11202,vsphere,https://github.com/jd4883/terraform-vsphere-register-esxi-hosts,Small vsphere terraform module for registering ESXI hosts; minimal design that can also add hosts to a clusters if the argument is provided (clluster). 
-registries,abarrak,27253,oci,https://github.com/abarrak/terraform-oci-registries,
+registries,abarrak,27253,oci,https://github.com/abarrak/terraform-oci-registries,Terraform module to manage repositories in Oracle cloud registry.
 registry,Irinaberidze,17932,artifact,https://github.com/Irinaberidze/terraform-artifact-registry,
 registry,Qudratillo8373,17929,artefact,https://github.com/Qudratillo8373/terraform-artefact-registry,
 registry,Sarik89,17933,artifact,https://github.com/sarik89/terraform-artifact-registry,
@@ -16195,10 +16199,12 @@ tardigrade-s3-bucket,plus3it,2987,aws,https://github.com/plus3it/terraform-aws-t
 tardigrade-security-group,plus3it,2985,aws,https://github.com/plus3it/terraform-aws-tardigrade-security-group,Terraform module to create an EC2 security group
 tardigrade-security-hub,plus3it,4610,aws,https://github.com/plus3it/terraform-aws-tardigrade-security-hub,Terraform module to create SecurityHub
 tardigrade-service-linked-roles,plus3it,5557,aws,https://github.com/plus3it/terraform-aws-tardigrade-service-linked-roles,Terraform module to manage AWS IAM Service-Linked Roles
+tardigrade-service-quota,plus3it,27269,aws,https://github.com/plus3it/terraform-aws-tardigrade-service-quota,Terraform module to manage an AWS Service Quota
 tardigrade-ssm-default-host-management,plus3it,22863,aws,https://github.com/plus3it/terraform-aws-tardigrade-ssm-default-host-management,Terraform module to configure AWS SSM Default Host Management
 tardigrade-sso-admin,plus3it,17312,aws,https://github.com/plus3it/terraform-aws-tardigrade-sso-admin,"Terraform module for managing AWS SSO Admin resources, like permission sets and account assignments"
 tardigrade-transit-gateway,plus3it,8609,aws,https://github.com/plus3it/terraform-aws-tardigrade-transit-gateway,Terraform module to create a transit gateway attachment in one account and accept the attachment in the owner account
 tardigrade-transit-gateway-attachment,plus3it,3481,aws,https://github.com/plus3it/terraform-aws-tardigrade-transit-gateway,Terraform module to create a transit gateway attachment in one account and accept the attachment in the owner account
+tardigrade-vpc-block-public-access,plus3it,27270,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-block-public-access,Terraform module to manage settings for AWS VPC Block Public Access
 tardigrade-vpc-endpoints,plus3it,2989,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-endpoints,Terraform module to create VPC Endpoints
 tardigrade-vpc-flow-log,plus3it,2986,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-flow-log,Terraform module to create a VPC Flow Log
 tardigrade-vpc-ipam,plus3it,27201,aws,https://github.com/plus3it/terraform-aws-tardigrade-vpc-ipam,
@@ -16697,6 +16703,7 @@ user-role,QuiNovas,1477,aws,https://github.com/QuiNovas/terraform-aws-user-role,
 user-setup,damacus,4759,aws,https://github.com/damacus/terraform-aws-user-setup,Terraform AWS module for adding optionally enabled MFA
 user-ssh-keys,pjaudiomv,15167,github,https://github.com/pjaudiomv/terraform-github-user-ssh-keys,Terraform module that retrieves a list of GitHub users ssh keys
 users,DWSR,501,pagerduty,https://github.com/DWSR/terraform-pagerduty-users,A TF module that allows the declaration of all PagerDuty users. Does not support teams
+users,abarrak,27265,oci,https://github.com/abarrak/terraform-oci-users,"A module to provision users or service accounts along with groups, policies, and IAM keys."
 users,claranet,14202,mysql,https://github.com/claranet/terraform-mysql-users,Terraform module for MySQL users management (and their rights) on an existing Database
 users,claranet,17400,postgresql,https://github.com/claranet/terraform-postgresql-users,Terraform module for PostgreSQL users/roles management on an existing Database
 users,devops-workflow,847,datadog,https://github.com/devops-workflow/terraform-datadog-users,Terraform module to manage Datadog users
@@ -18222,6 +18229,7 @@ wordpress,StayWell,2379,aws,https://github.com/StayWell/terraform-aws-wordpress,
 wordpress,erkinsinc,5840,aws,https://github.com/erkinsinc/terraform-aws-wordpress,with elastic load balancer and auto scaling group support
 wordpress,gulmira07,6735,aws,https://github.com/gulmira07/terraform-aws-wordpress,
 wordpress,herabakirova,24488,aws,https://github.com/herabakirova/terraform-aws-wordpress,
+wordpress,joao-pedro-rdo,27275,digitalocean,https://github.com/joao-pedro-rdo/terraform-digitalocean-wordpress,
 wordpress,marcelom70,23898,digitalocean,https://github.com/marcelom70/terraform-digitalocean-wordpress,
 wordpress,marieane22,15584,gcp,https://github.com/marieane22/terraform-gcp-wordpress,
 wordpress,marieane22,15639,azure,https://github.com/marieane22/terraform-azure-wordpress,
