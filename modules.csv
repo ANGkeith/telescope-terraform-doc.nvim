@@ -3408,6 +3408,7 @@ cloudwatch-logs-to-loggly,oss-group,15312,aws,https://github.com/oss-group/terra
 cloudwatch-metric-alarm,Cloud-42,7204,aws,https://github.com/Cloud-42/terraform-aws-cloudwatch-metric-alarm,Creates a CloudWatch metric alarm.
 cloudwatch-metrics-for-ec2,robin-zhao,6658,aws,https://github.com/robin-zhao/terraform-aws-cloudwatch-metrics-for-ec2,This Terraform script creates a bunch of predefined Alarms to tagged EC2 instances
 cloudwatch-monitors,rhythmictech,3129,cis,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
+cloudwatch-mq,delivops,27279,aws,https://github.com/delivops/terraform-aws-cloudwatch-mq,Terraform-aws-cloudwatch-mq is a Terraform module for setting up a notification system about MQ metrics.
 cloudwatch-msk,delivops,26865,aws,https://github.com/delivops/terraform-aws-cloudwatch-msk,Terraform-aws-msk-cloudwatch is a Terraform module for setting up a notification system about cloudwatch msk metrics.
 cloudwatch-oam,blackbird-cloud,19788,aws,https://github.com/blackbird-cloud/terraform-aws-cloudwatch-oam,This module can be used to create AWS Cloudwatch OAM resources
 cloudwatch-opensearch,delivops,27267,aws,https://github.com/delivops/terraform-aws-cloudwatch-opensearch,Terraform-aws-cloudwatch-opensearch is a Terraform module for setting up a notification system about opensearch metrics.
@@ -5129,7 +5130,6 @@ docker-instance,selcukzorlu,20822,aws,https://github.com/selcukzorlu/terraform-a
 docker-instance,selimkuzi,25106,aws,https://github.com/selimkuzi/terraform-aws-docker-instance,
 docker-instance,senaayaz,18243,aws,https://github.com/senaayaz/terraform-aws-docker-instance,
 docker-instance,senolkeklik,16379,aws,https://github.com/senolkeklik/terraform-aws-docker-instance,Description: Terraform module which creates a docker instance resource on AWS.  - Website: https://registry.terraform.io/modules/senolkeklik/docker-instance/aws/latest 
-docker-instance,ser30,27273,aws,https://github.com/ser30/terraform-aws-docker-instance,
 docker-instance,sergenkmert,23810,aws,https://github.com/sergenkmert/terraform-aws-docker-instance,
 docker-instance,serkantayfur,14645,aws,https://github.com/serkantayfur/terraform-aws-docker-instance,terraform-aws-docker-instance Please check readme
 docker-instance,servetaksoy,18666,aws,https://github.com/servetaksoy/terraform-aws-docker-instance,
@@ -10810,6 +10810,7 @@ msc-subscription,terraform-alicloud-modules,10423,alicloud,https://github.com/al
 mse,terraform-alicloud-modules,12825,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mse,Terraform Module for creating MSE resources on Alibaba Cloud.
 mshahi-test-vpc,ShaikShahistha,27217,aws,https://github.com/ShaikShahistha/terraform-aws-mshahi-test-vpc,
 msi,tomarv2,12427,azure,https://github.com/tomarv2/terraform-azure-msi,Terraform module for Azure Managed Service Identity (MSI) 
+msk,OT-CLOUD-KIT,27278,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-msk,
 msk,clouddrove,18422,aws,https://github.com/clouddrove/terraform-aws-msk,
 msk,dasmeta,21183,aws,https://github.com/dasmeta/terraform-aws-msk,Terraform module for creating AWS MSK cluster
 msk,finisterra-io,23572,aws,https://github.com/finisterra-io/terraform-aws-msk,Terraform AWS MSK module
@@ -11377,6 +11378,7 @@ network,segateway,20637,azurerm,https://github.com/segateway/terraform-azurerm-n
 network,shepherdcloud,2279,openstack,https://github.com/shepherdcloud/terraform-openstack-network,Terraform module to create OpenStack Network
 network,siddharthmishra01,5446,google,https://github.com/siddharthmishra01/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,simasbu,26519,google,https://github.com/simasbu/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
+network,simulator-schandra,27282,azure,https://github.com/simulator-schandra/terraform-azure-network,
 network,slitsevych,26424,google,https://github.com/slitsevych/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,squareops,20046,google,https://github.com/squareops/terraform-google-network,Terraform module to create Networking resources for workload deployment on Google Cloud.
 network,srb3,9264,libvirt,https://github.com/srb3/terraform-libvirt-network,
@@ -11487,6 +11489,7 @@ networking,lazevedo-devops,18756,aws,https://github.com/lazevedo-devops/terrafor
 networking,myanees284,9430,aws,https://github.com/myanees284/terraform-aws-networking,
 networking,ned1313,22823,azurerm,https://github.com/ned1313/terraform-azurerm-networking,Represents the Networking infrastructure of our 3-tier App.
 networking,royge,2118,aws,https://github.com/royge/terraform-aws-networking,AWS Networking Template
+networking,sergiopichardo,27281,aws,https://github.com/sergiopichardo/terraform-aws-networking,Networking Module Created during Terraform Course
 networking,stajkowski,23140,aws,https://github.com/stajkowski/terraform-aws-networking,AWS Networking Module for Terraform
 networking,vukomir,19065,hcloud,https://github.com/vukomir/terraform-hcloud-networking,
 networking-YS_Learnings,ryogarajme,27251,aws,https://github.com/ryogarajme/terraform-aws-networking-YS_Learnings,Network Module created during the YS Learning Terraform Course
@@ -15603,6 +15606,7 @@ static_web_app,TaleLearnCode,26489,azurerm,https://github.com/TaleLearnCode/terr
 static_website,DvLearnOps,15090,azurerm,https://github.com/DvLearnOps/terraform-azurerm-static_website,A sample module to create azure storage static website
 staticazurewebsite,lokesh0412,12857,azurerm,https://github.com/lokesh0412/terraform-azurerm-staticazurewebsite,This is a test terraform module
 staticbucket,bmahathi,14887,aws,https://github.com/bmahathi/terraform-aws-staticbucket,
+staticfile,giner,27276,k8s,https://github.com/giner/terraform-k8s-staticfile,Terraform module to spin up a web-server serving provided static content
 staticip,JamesWoolfenden,3422,gcp,https://github.com/JamesWoolfenden/terraform-gcp-staticip,A simple Terraform module to build an instance a static public IP
 staticmetadatavm,devanshpopli,17083,azurerm,https://github.com/devanshpopli/terraform-azurerm-staticmetadatavm,
 staticsite,JamesWoolfenden,2714,aws,https://github.com/JamesWoolfenden/terraform-aws-staticsite,Basic Static Site module
@@ -17707,6 +17711,7 @@ vpc-click-house-cluster-account,terraform-alicloud-modules,10416,alicloud,https:
 vpc-cloud,sibikmc,21208,aws,https://github.com/sibikmc/terraform-aws-vpc-cloud,Creating an vpc in aws in terraform scripts 
 vpc-cloudilm,hrazaf6,2388,aws,https://github.com/hrazaf6/terraform-aws-vpc-cloudilm,VPC Modules for the AWS
 vpc-connectivity,tedilabs,21166,aws,https://github.com/tedilabs/terraform-aws-vpc-connectivity,"🌳 A sustainable Terraform Package which creates VPC Connectivity resources (Private Link, Client VPN, Site-to-Site VPN, DX, VPC Lattice) on AWS"
+vpc-custom-module,Harshyadav02,27277,aws,https://github.com/Harshyadav02/terraform-aws-vpc-custom-module,
 vpc-demo,jiteshkanherkar,13069,aws,https://github.com/jiteshkanherkar/terraform-aws-vpc-demo,Terraform AWS VPC demo
 vpc-demo,kostasns,8893,aws,https://github.com/kostasns/terraform-aws-vpc-demo,Terraform module to Demo public module for VPC
 vpc-detail,shepherd44,10229,aws,https://github.com/shepherd44/terraform-aws-vpc-detail,
@@ -17842,7 +17847,6 @@ vpc-simple-public-subnets,samloh84,16069,aws,https://github.com/samloh84/terrafo
 vpc-single-public,yurymkomarov,4785,aws,https://github.com/yurymkomarov/terraform-aws-vpc-single-public,VPC with a single public subnet
 vpc-slb-ecs-ga-dns,terraform-alicloud-modules,10407,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-slb-ecs-ga-dns,
 vpc-slb-ecs-rds-drds,terraform-alicloud-modules,10410,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-slb-ecs-rds-drds,
-vpc-spoke-tgw,cybergavin,27234,aws,https://github.com/cybergavin/terraform-aws-vpc-spoke-tgw,OpenTofu module that sets up basic networking in a spoke VPC connected to a hub VPC via a Transit Gateway.
 vpc-subnet,bfrunza,3526,google,https://github.com/bfrunza/terraform-google-vpc-subnet,Terraform module which creates VPC subnet in GCP
 vpc-subnets,cloud-native-toolkit,12218,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-vpc-subnets,Module to provision subnets in a VPC instance
 vpc-subnets,figurate,6047,aws,https://github.com/figurate/terraform-aws-networking,Provision VPC subnets for each availability zone
