@@ -1013,6 +1013,7 @@ app-configuration,claranet,19914,azurerm,https://github.com/claranet/terraform-a
 app-configuration,terraform-ibm-modules,21663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-app-configuration,Create an App Configuration instance and optionally allows for multiple App Configuration Collections to be created.
 app-consul-sync-nia,arielazem,6433,bigip,https://github.com/arielazem/terraform-bigip-app-consul-sync-nia,This terraform module leverages consul-terraform-sync to create and update application services on BIG-IP based on registered services within Consul
 app-consul-sync-nia,f5devcentral,6354,bigip,https://github.com/f5devcentral/terraform-bigip-app-consul-sync-nia,This terraform module leverages consul-terraform-sync to create and update application services on BIG-IP based on registered services within Consul
+app-container,evolve-platform,27348,azurerm,https://github.com/evolve-platform/terraform-azurerm-app-container,Terraform module to manage an App Container in Azure 
 app-delivery-network,volterraedge,7446,volterra,https://github.com/volterraedge/terraform-volterra-app-delivery-network,Volterra Terraform Module for App Delivery Network Use-Case
 app-deployer,Starnop,3741,alicloud,https://github.com/starnop/terraform-alicloud-app-deployer,Prepare the deployment environment based on Alicloud public cloud IAAS resources quickly.
 app-engine,lukasz-kuch,8484,google,https://github.com/lukasz-kuch/terraform-google-app-engine,
@@ -1787,6 +1788,7 @@ avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-az
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,AVM Module for Azure Machine learning workspaces.
 avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,"To gain access, please finish setting up this repository now at: "
 avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,"Azure Application Gateway serves as a web traffic load balancer, allowing you to efficiently handle traffic for your web applications. This Terraform module is designed for the rapid creation of an Application Gateway that includes various customizable features. "
+avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationsecuritygroup,This Terraform module is designed to create Application Security Groups.
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,Azure Firewall AVM Module
 avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost,Azure Verified Module for Bastion Host
 avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan AVM module
@@ -3026,6 +3028,7 @@ cloud-run-api,graphnode-technologies,10341,gcp,https://github.com/graphnode-tech
 cloud-run-cicd-updates,simplycubed,11708,google,https://github.com/simplycubed/terraform-google-cloud-run-cicd-updates,
 cloud-run-iam,mineiros-io,11372,google,https://github.com/mineiros-io/terraform-google-cloud-run-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Cloud Run applications on Cloud Platform (GCP) https://cloud.google.com/run
 cloud-run-latest,glasnt,17488,google,https://github.com/glasnt/terraform-google-cloud-run-latest,"Deploy a Cloud Run service with always the ""latest"" tag."
+cloud-run-service,evolve-platform,27352,google,https://github.com/evolve-platform/terraform-google-cloud-run-service," Terraform module to manage a Cloud Run service in Google Cloud "
 cloud-run-vault,nicholasjackson,17661,gcp,https://github.com/nicholasjackson/terraform-gcp-cloud-run-vault,Terraform module to run HashiCorp Vault on Google Cloud Run
 cloud-run_pubsub_to_bq,AckeeCZ,13044,gcp,https://github.com/AckeeCZ/terraform-gcp-cloud-run_pubsub_to_bq,Cloud Run subscribes itself to given topic and inserts each message to BigQuery table.
 cloud-scanner,deepfence,14703,aws,https://github.com/deepfence/terraform-aws-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
@@ -4059,6 +4062,9 @@ csr1000v-self-configured,bayupw,16141,equinix,https://github.com/bayupw/terrafor
 csr1k,bayupw,12960,aws,https://github.com/bayupw/terraform-aws-csr1k,Terraform module to deploy CSR 1000v on AWS
 css,tf-cloud-modules,18916,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-css,Sbercloud CSS Terraform module
 cstate-healthchecker,USSBA,5671,aws,https://github.com/USSBA/terraform-aws-cstate-healthchecker,"Uses R53, SNS and LAMBDAs to automatically create and resolve CSTATE issues."
+ct-client-secret,evolve-platform,27345,aws,https://github.com/evolve-platform/terraform-aws-ct-client-secret,Terraform module to manage a Commercetools client in AWS 
+ct-client-secret,evolve-platform,27349,azurerm,https://github.com/evolve-platform/terraform-azurerm-ct-client-secret,Terraform module to manage a Commercetools client in Azure 
+ct-client-secret,evolve-platform,27353,google,https://github.com/evolve-platform/terraform-google-ct-client-secret," Terraform module to manage a Commercetools client in Google Cloud "
 ctf-chal,KNOXDEV,15233,kubernetes,https://github.com/KNOXDEV/terraform-kubernetes-ctf-chal,terraform module to deploy jailed CTF challenges on k8s
 ctfd,1nval1dctf,4820,aws,https://github.com/1nval1dctf/terraform-aws-ctfd,Terraform module for the salable deployment of CTFd on AWS
 ctrlplane,ctrlplanedev,26378,google,https://github.com/ctrlplanedev/terraform-google-ctrlplane,A Terraform module for deploying Ctrlplane on GCP.
@@ -6227,6 +6233,7 @@ ecs-service,delivops,27219,aws,https://github.com/delivops/terraform-aws-ecs-ser
 ecs-service,devops-workflow,1876,aws,https://github.com/devops-workflow/terraform-aws-ecs-service,
 ecs-service,egarbi,456,aws,https://github.com/egarbi/terraform-aws-ecs-service,Create a ECS service in an ECS cluster associated to an target_group passed as an argument
 ecs-service,etudor,21210,aws,https://github.com/etudor/terraform-aws-ecs-service,
+ecs-service,evolve-platform,27346,aws,https://github.com/evolve-platform/terraform-aws-ecs-service,Terraform module to manage an ECS service in AWS 
 ecs-service,figurate,6083,aws,https://github.com/figurate/terraform-aws-ecs-service,Provision an ECS service
 ecs-service,ganexcloud,13363,aws,https://github.com/ganexcloud/terraform-aws-ecs-service,
 ecs-service,gutozntt,14951,aws,https://github.com/gutozntt/terraform-aws-ecs-service,Use this module to create an AWS ECS Service
@@ -6772,6 +6779,7 @@ eksjan24module,ooghenekaro,23436,aws,https://github.com/ooghenekaro/terraform-aw
 eksjune24module,taiwoj14,24985,aws,https://github.com/taiwoj14/terraform-aws-eksjune24module,
 eksmar24module,winfred008,23542,aws,https://github.com/winfred008/terraform-aws-eksmar24module,
 eksmodule,lily4499,22718,aws,https://github.com/lily4499/terraform-aws-eksmodule,
+eksmodule,rajibpodder12,27354,aws,https://github.com/rajibpodder12/terraform-aws-eksmodule,
 elastic,JamesWoolfenden,7816,aws,https://github.com/JamesWoolfenden/terraform-aws-elastic,Provision an elasticsearch cluster from the AWS managed service
 elastic,boeboe,16431,helm,https://github.com/boeboe/terraform-helm-elastic,Terraform module for Elastic Stack deployment on Kubernetes using Helm
 elastic,squareops,26452,kubernetes,https://github.com/squareops/terraform-kubernetes-elastic,"Terraform module for deploying Elasticsearch using Helm on AWS, Azure, and Google Cloud, enabling scalable, managed search solutions across multiple cloud environments."
@@ -7047,6 +7055,7 @@ eventbridge-lambda-trigger,daniel-devine-nrel,17868,aws,https://github.com/danie
 eventbridge-local-bus,akw-devsecops,24181,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-local-bus,
 eventbridge-log,barneyparker,22520,aws,https://github.com/barneyparker/terraform-aws-eventbridge-log,
 eventbridge-publisher,akw-devsecops,24214,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-publisher,Creates IAM policy for an existing role to be able to publish events on a domain bus
+eventbridge-sqs,evolve-platform,27347,aws,https://github.com/evolve-platform/terraform-aws-eventbridge-sqs,Terraform module to manage Eventbridge in AWS 
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
 eventgrid,bootlabstech,17074,azurerm,https://github.com/bootlabstech/terraform-azurerm-eventgrid,
 eventgrid,claranet,13279,azurerm,https://github.com/claranet/terraform-azurerm-eventgrid,Terraform module for Azure Eventgrid
@@ -7315,6 +7324,7 @@ firewall-docker-api,thojkooi,1528,digitalocean,https://github.com/thojkooi/terra
 firewall-eks-cluster,kwaziio,22426,aws,https://github.com/kwaziio/terraform-aws-firewall-eks-cluster,Terraform Module for Creating a Standardized EKS Cluster Security Group on AWS
 firewall-eks-node,kwaziio,22429,aws,https://github.com/kwaziio/terraform-aws-firewall-eks-node,Terraform Module for Creating a Standardized EKS Node Security Group on AWS
 firewall-loadbalancer,r-teller,10216,google,https://github.com/r-teller/terraform-google-internal-loadbalancer,
+firewall-manager,aws-ss,27337,aws,https://github.com/aws-ss/terraform-aws-firewall-manager,A Terraform module that creates AWS Firewall Manager.
 firewall-manager,cloudposse,9538,aws,https://github.com/cloudposse/terraform-aws-firewall-manager,Terraform module to configure AWS Firewall Manager
 firewall-module,femnad,7225,gcp,https://github.com/femnad/terraform-gcp-firewall-module,Lazy GCP firewall creation module
 firewall-nat-rules,cyber-scot,21647,azurerm,https://github.com/cyber-scot/terraform-azurerm-firewall-nat-rules,A module used to help simply the firewall rules within a Azure Firewall 🧱✅
@@ -7490,6 +7500,7 @@ function-app,Xat59,18716,azurerm,https://github.com/Xat59/terraform-azurerm-func
 function-app,bootlabstech,15859,azurerm,https://github.com/bootlabstech/terraform-azurerm-function-app,
 function-app,claranet,9529,azurerm,https://github.com/claranet/terraform-azurerm-function-app,Terraform module for Azure Function App
 function-app,equinor,23386,azurerm,https://github.com/equinor/terraform-azurerm-function-app,Terraform module which creates Azure Function App resources
+function-app,evolve-platform,27350,azurerm,https://github.com/evolve-platform/terraform-azurerm-function-app," Terraform module to manage a Function App in Azure "
 function-app,jungopro,2833,azurerm,https://github.com/jungopro/terraform-azurerm-function-app,Terraform Module To Create Azure Function App
 function-app,libre-devops,13254,azurerm,https://github.com/libre-devops/terraform-azurerm-function-app,"A module used to generate a single Azure function app based on some parameters :star:. Please note, this module will cease to work in the 4.0 provider due to changes by Microsoft."
 function-app,miljodir,22136,azurerm,https://github.com/miljodir/terraform-azurerm-function-app,Terraform module for Azure Function App with private endpoint support.
@@ -7699,7 +7710,7 @@ github-runner,HappyPathway,26131,ecs,https://github.com/HappyPathway/terraform-e
 github-runner,aditya9441,21605,aws,https://github.com/aditya9441/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
 github-runner,colbynh,21189,aws,https://github.com/colbynh/terraform-aws-github-runner,Terraform module for self-hosted scalable GitHub action runners on dedicated AWS EC2 instances
 github-runner,cruxstack,20268,aws,https://github.com/cruxstack/terraform-aws-github-runner,Terraform module for self-hosted scalable GitHub action runners on dedicated AWS EC2 instances
-github-runner,github-aws-runners,27336,aws,https://github.com/github-aws-runners/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
+github-runner,github-aws-runners,27343,aws,https://github.com/github-aws-runners/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
 github-runner,liatrio,16249,azure,https://github.com/liatrio/terraform-azure-github-runner,Terraform module for scalable GitHub action runners on Azure
 github-runner,markti,23335,azurerm,https://github.com/markti/terraform-azurerm-github-runner,Provision a Custom Runner for GitHub Actions
 github-runner,philips-labs,4962,aws,https://github.com/philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
@@ -7920,6 +7931,7 @@ grid-outputs,matti,759,kontena,https://github.com/matti/terraform-kontena-grid-o
 gridbyoc,gridai,8964,aws,https://github.com/gridai/terraform-aws-gridbyoc,
 gridgain,gridgain,27156,aws,https://github.com/gridgain/terraform-aws-gridgain,The repository contains the Terraform module to support the deployment of GG-8 in AWS.
 groundwork-vpc,lbrealdev,4556,aws,https://github.com/lbrealdev/terraform-aws-groundwork-vpc,Terraform
+group,Devcastops,27338,hashi,https://github.com/Devcastops/terraform-hashi-group,terraform module for group set up in hashi products
 group,altissimo-hq,25083,google,https://github.com/altissimo-hq/terraform-google-group,Manages Google Groups
 group,antmelekhin,27249,gitlab,https://github.com/antmelekhin/terraform-gitlab-group,A Terraform module to manage GitLab Groups.
 group,cncsc,16515,azuread,https://github.com/cncsc/terraform-azuread-group,Terraform modules for deploying and managing Azure Active Directory groups.
@@ -8107,6 +8119,7 @@ helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital
 helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
 helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
+helper-ssm-parameter,guidion-digital,27340,aws,https://github.com/guidion-digital/terraform-aws-helper-ssm-parameter,Simple helper module to create SSM parameters
 helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
 helper-workspace-policy,guidion-digital,23051,aws,https://github.com/guidion-digital/terraform-aws-helper-workspace-policy,Small helper module which generates least-privilage policies necessary for application modules to be able to create their resources
 helpers,MaxKelsen,8095,aws,https://github.com/MaxKelsen/terraform-aws-helpers,Max Kelsen's Common Terraform Module Library
@@ -8999,6 +9012,7 @@ key-vault,cyber-scot,21469,azurerm,https://github.com/cyber-scot/terraform-azure
 key-vault,cypik,22780,azure,https://github.com/cypik/terraform-azure-key-vault,
 key-vault,data-platform-hq,15912,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault,Terraform module for managing Azure Key Vault
 key-vault,equinor,23388,azurerm,https://github.com/equinor/terraform-azurerm-key-vault,Terraform module which creates Azure Key Vault resources
+key-vault,evolve-platform,27351,azurerm,https://github.com/evolve-platform/terraform-azurerm-key-vault," Terraform module to manage a Key Vault in Azure "
 key-vault,geekwhocodes,3432,azurerm,https://github.com/geekwhocodes/terraform-azurerm-key-vault,
 key-vault,heathen1878,19869,azurerm,https://github.com/heathen1878/terraform-azurerm-key-vault,Managed Azure Key Vaults
 key-vault,kumarvna,5426,azurerm,https://github.com/kumarvna/terraform-azurerm-key-vault,Terraform module to create a Key Vault in Azure cloud.
@@ -9789,6 +9803,7 @@ landing-zone-actiontrail-log-archive,alibabacloud-automation,26937,alicloud,http
 landing-zone-bootstrap,qbeyond,17577,google,https://github.com/qbeyond/terraform-google-landing-zone-bootstrap,"Terraform Module to enable critical organization-level functionalities that depend on broad administrative permissions, and prepare the prerequisites needed to enable automation in this and future stages."
 landing-zone-cloud-sso-multi-account-policy,terraform-alicloud-modules,12832,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloud-sso-multi-account-policy,Terraform module which creates RD account and manage it policy by cloud sso on Alibaba Cloud.
 landing-zone-cloudsso,alibabacloud-automation,26905,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloudsso,
+landing-zone-config-log-archive,alibabacloud-automation,27341,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-config-log-archive,
 landing-zone-guardrails,alibabacloud-automation,21562,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-guardrails,Terraform module which creates landing zone guardrails on Alibaba Cloud.
 landing-zone-log-archive,alibabacloud-automation,21561,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-log-archive,Terraform module which creates landing zone log archive on Alibaba Cloud.
 landing-zone-reader,MitocGroup,3846,aws,https://github.com/MitocGroup/terraform-aws-landing-zone-reader,Terraform Module for AWS Landing Zone (Read-Only)
@@ -18056,6 +18071,7 @@ vsphere-vcf-vcsa-base,jd4883,10417,vmware,https://github.com/jd4883/terraform-vm
 vsphere-vm,ilpozzd,13493,talos,https://github.com/ilpozzd/terraform-talos-vsphere-vm,This module allows you to deploy a Talos OS-based vSphere virtual machine with a custom configuration.
 vsrx,equinix,8078,equinix,https://github.com/equinix/terraform-equinix-vsrx,Terraform module for quick deployment of Juniper vSRX Virtual Firewall on Equinix Platform
 vsrx-sdwan,equinix,8204,equinix,https://github.com/equinix/terraform-equinix-vsrx-sdwan,Terraform module for quick deployment of Juniper vSRX SD-WAN edge device on Equinix Platform
+vulne-soldier,iKnowJavaScript,27344,aws,https://github.com/iKnowJavaScript/terraform-aws-vulne-soldier,"This Terraform module consists of the configuration for automating the remediation of AWS EC2 vulnerabilities using AWS Inspector findings. It provisions essential resources such as an SSM document, Lambda function, and CloudWatch event rules for automated vulnerability management."
 vulnerablemodule,jd4625988,13975,aws,https://github.com/jd4625988/terraform-aws-vulnerablemodule,
 vwan,Azure-Terraformer,26608,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-vwan,
 vwan,CloudNationHQ,22977,azure,https://github.com/CloudNationHQ/terraform-azure-vwan,Terraform module which creates azure virtual wan resources used by workloads and accelerators.
@@ -18295,6 +18311,7 @@ worker-pool,garbetjie,8658,google,https://github.com/garbetjie/terraform-google-
 workers,garbetjie,8012,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
 workflow,USFoods,20161,newrelic,https://github.com/USFoods/terraform-newrelic-workflow,A Terraform module for New Relic with a common email by policy workflow.
 workforce-identity-federation,SudharsaneSivamany,17063,google,https://github.com/SudharsaneSivamany/terraform-google-workforce-identity-federation,
+workload,Devcastops,27339,hashi,https://github.com/Devcastops/terraform-hashi-workload,terraform module for nomad workspace and other required resources 
 workload,andrewCluey,9997,azurerm,https://github.com/andrewCluey/terraform-azurerm-workload,Creates a baseline set of foundation resources and name conventions.
 workload-cluster,drpebcak,3482,rancher,https://github.com/drpebcak/terraform-rancher-workload-cluster,
 workload-identity,Brindster,4123,google,https://github.com/Brindster/terraform-google-workload-identity,A terraform module to create a service account on Google Cloud Platform that grants IAM roles to a Kubernetes service account via Workload Identity
