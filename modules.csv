@@ -2447,6 +2447,7 @@ block-storage-vpc,terraform-navercloudplatform-modules,25256,ncloud,https://gith
 blockchain-service-wrapper,ItayPodhajcer,25353,azurerm,https://github.com/ItayPodhajcer/terraform-azurerm-blockchain-service-wrapper,
 blueharvest-eks,armandorvila,2114,aws,https://github.com/armandorvila/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
 blueharvest-eks,blueharvst,2115,aws,https://github.com/blueharvst/terraform-aws-blueharvest-eks,"Terraform module that provisions an EKS cluster including a VPC, a VPN, Helm, Kubernetes Dashboard, NGINX Ingress, Cert Manager, External DNS, ELK, Prometheus, Grafana and Istio."
+blueprint,BrainXio,27361,vpc,https://github.com/BrainXio/terraform-vpc-blueprint,"""Terraform module for designing and deploying customizable VPC architectures with subnet and VLAN management."""
 blueprint,J0hn-B,23283,port,https://github.com/J0hn-B/terraform-port-blueprint,Create Port blueprints using their json definition files
 blueprints,cafe-com-deploy,20474,aws,https://github.com/cafe-com-deploy/terraform-aws-blueprints,Terraform modules blueprints
 bofa,Krishnakumar-Karthikeyan,25051,azurerm,https://github.com/Krishnakumar-Karthikeyan/terraform-azurerm-bofa,
@@ -7713,7 +7714,7 @@ github-runner,cruxstack,20268,aws,https://github.com/cruxstack/terraform-aws-git
 github-runner,github-aws-runners,27343,aws,https://github.com/github-aws-runners/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
 github-runner,liatrio,16249,azure,https://github.com/liatrio/terraform-azure-github-runner,Terraform module for scalable GitHub action runners on Azure
 github-runner,markti,23335,azurerm,https://github.com/markti/terraform-azurerm-github-runner,Provision a Custom Runner for GitHub Actions
-github-runner,philips-labs,4962,aws,https://github.com/philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
+github-runner,philips-labs,27362,aws,https://github.com/philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS (MOVED)
 github-runner,politician,13583,digitalocean,https://github.com/politician/terraform-digitalocean-github-runner,Terraform module to create a GitHub runner in a Digital Ocean droplet
 github-runner,waylew-lexis,11397,azurerm,https://github.com/waylew-lexis/terraform-azurerm-github-runner,terraform-azurerm-github-runner
 github-runners,cloudandthings,15527,aws,https://github.com/cloudandthings/terraform-aws-github-runners,"Deploy GitHub Action runners in your AWS Account. Uses AWS CodeBuild to manage ephemeral runners, so you don't have to."
@@ -7777,6 +7778,7 @@ gitlabruunergcp,jvm2023,25828,google,https://github.com/jvm2023/terraform-google
 gitops,Senora-dev,18997,aws,https://github.com/Senora-dev/terraform-aws-gitops,The module enables users to implement GitOps using AWS CodeBuild.
 gitops-bridge,gitops-bridge-dev,21850,helm,https://github.com/gitops-bridge-dev/terraform-helm-gitops-bridge,Terraform module for GitOps bridge
 gke,DeimosCloud,8729,google,https://github.com/DeimosCloud/terraform-google-gke,Terraform Module for setting up GKE
+gke,FFerrinho,27366,google,https://github.com/FFerrinho/terraform-google-gke,A Terraform module to create and manage GKE clusters.
 gke,Talha-Altair,11163,google,https://github.com/Talha-Altair/terraform-google-gke,
 gke,badal-io,3871,google,https://github.com/badal-io/terraform-google-gke,
 gke,binxio,6862,google,https://github.com/binxio/terraform-google-gke,Generic Google GKE module for Terraform 
@@ -9835,6 +9837,7 @@ launchpad-vsphere,terraform-mirantis-modules,19646,mirantis,https://github.com/t
 lava-node,svetek,21917,hcloud,https://github.com/svetek/terraform-hcloud-lava-node,
 law,CloudNationHQ,21713,azure,https://github.com/CloudNationHQ/terraform-azure-law,Terraform module which creates log analytic resources used by workloads and accelerators.
 layer-admin,genstackio,7932,aws,https://github.com/genstackio/terraform-aws-layer-admin,Terraform module to create an entire Layer for admin (web)
+layer-api,bgdtc,27367,aws,https://github.com/bgdtc/terraform-aws-layer-api,Terraform module to create an entire Layer for API (https)
 layer-api,flozonn,17088,aws,https://github.com/flozonn/terraform-aws-layer-api,Terraform module to create an entire Layer for API (https)
 layer-api,genstackio,8346,aws,https://github.com/genstackio/terraform-aws-layer-api,Terraform module to create an entire Layer for API (https)
 layer-api-document,genstackio,7892,aws,https://github.com/genstackio/terraform-aws-layer-api-document,Terraform module to create an entire Layer for document (DOCX) API (https)
@@ -12481,6 +12484,7 @@ profiles-domain,terraform-cisco-modules,15550,intersight,https://github.com/terr
 proj,skierkowski,2396,test,https://github.com/skierkowski/terraform-test-proj,
 project,ALT-F4-LLC,19290,tfe,https://github.com/ALT-F4-LLC/terraform-tfe-project,Terraform module which creates Terraform Enterprise project resources.
 project,Beishenov7,19923,module,https://github.com/Beishenov7/terraform-module-project,
+project,FFerrinho,27365,google,https://github.com/FFerrinho/terraform-google-project,"A Terraform module to create and manage Google Cloud projects, including APIs."
 project,PGBI,2810,aws,https://github.com/PGBI/terraform-aws-project,
 project,SweetOps,2230,google,https://github.com/SweetOps/terraform-google-project,The terraform module for creation and management of a GCP project with normalized name and labels
 project,T-Systems-MMS,12102,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-project,Configure Azure DevOps Projekt
@@ -13134,7 +13138,7 @@ recovery_services_vault,sironite,19896,azurerm,https://github.com/sironite/terra
 red5pro,red5pro,20528,aws,https://github.com/red5pro/terraform-aws-red5pro,Terraform module which creates Red5 Pro resources on AWS
 red5pro,red5pro,22319,oci,https://github.com/red5pro/terraform-oci-red5pro,
 red5pro,red5pro,22536,digitalocean,https://github.com/red5pro/terraform-digitalocean-red5pro,
-red5pro,red5pro,23643,gcp,https://github.com/red5pro/terraform-gcp-red5pro,
+red5pro,red5pro,23643,gcp,https://github.com/red5pro/terraform-gcp-red5pro,Terraform module which creates Red5 Pro resources on GCP
 redirect,WhyNotHugo,8447,aws,https://github.com/WhyNotHugo/terraform-aws-redirect,Redirect bare domains to www-domains with HSTS using CloudFlare
 redirect,mediapop,1119,aws,https://github.com/mediapop/terraform-aws-redirect,Auto provision HTTPS and IPv6 301 redirects over a batch of hosts.
 redirect-backup-policy,netascode,17287,aci,https://github.com/netascode/terraform-aci-redirect-backup-policy,Terraform Cisco ACI Redirect Backup Policy Module
@@ -13782,6 +13786,7 @@ route53healthcheck,DNXLabs,5748,aws,https://github.com/DNXLabs/terraform-aws-rou
 route53resolver-firewall-domainlists,elduds,20024,aws,https://github.com/elduds/terraform-aws-route53resolver-firewall-domainlists,Statically defined mappings of AWS Route53 Resolver DNS Firewall Managed Domain Lists
 route_53_zone_and_records,lucymhdavies,13087,aws,https://github.com/lucymhdavies/terraform-aws-route_53_zone_and_records,Terraform Module to define AWS Route53 Zone and records
 routed-domain,netascode,10316,aci,https://github.com/netascode/terraform-aci-routed-domain,Terraform Cisco ACI Routed Domain Module
+router,FFerrinho,27364,google,https://github.com/FFerrinho/terraform-google-router,A module to manage Google Cloud Routers.
 router,cypik,22837,google,https://github.com/cypik/terraform-google-router,
 routeros-router,selfscrum,6630,hcloud,https://github.com/selfscrum/terraform-hcloud-routeros-router,Terraform code to seamlessly integrate a RouterOS router into a Hetzner Cloud network.
 routeros-router-configuration,selfscrum,6631,hcloud,https://github.com/selfscrum/terraform-hcloud-routeros-router-configuration,Configures a Hetzner server with an RouterOS Router.
@@ -16433,7 +16438,6 @@ test-user-terraform-test-simple2,sai4214,9085,registry,https://github.com/sai421
 test-vpc,MohammadShahzaib21,25771,aws,https://github.com/MohammadShahzaib21/terraform-aws-test-vpc,
 test-vpc,Yashmehta-07,26072,aws,https://github.com/Yashmehta-07/terraform-aws-test-vpc,
 test-vpc-module,MohammadShahzaib21,25774,aws,https://github.com/MohammadShahzaib21/terraform-aws-test-vpc-module,
-test1,chkp-noamcoh,26664,aws,https://github.com/chkp-noamcoh/terraform-aws-test1,My Description
 test1,recep-instructor,23460,aws,https://github.com/recep-instructor/terraform-aws-test1,
 test1,terraform-registry-dsvvsai,11947,registry,https://github.com/terraform-registry-dsvvsai/terraform-registry-test1,
 test2,abhishekPhukan,22383,aws,https://github.com/abhishekPhukan/terraform-aws-test2,
@@ -18014,6 +18018,7 @@ vpct,Shokhinur,25569,aws,https://github.com/Shokhinur/terraform-aws-vpct,
 vpcytestmodule,HumbertoPeluso,10800,aws,https://github.com/HumbertoPeluso/terraform-aws-vpcytestmodule,
 vpe-gateway,terraform-ibm-modules,20263,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpe-gateway,Create Virtual Private Endpoint Gateways across VPC subnets.
 vpe-module,terraform-ibm-modules,19457,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpe-gateway,Create Virtual Private Endpoint Gateways across VPC subnets.
+vpn,FFerrinho,27363,google,https://github.com/FFerrinho/terraform-google-vpn,A Cloud VPN module for Google Cloud Platform.
 vpn,HobOps,18567,google,https://github.com/HobOps/terraform-google-vpn,Sets up a Cloud VPN gateway
 vpn,Smartbrood,552,aws,https://github.com/Smartbrood/terraform-aws-vpn,Terraform module to setup VPN
 vpn,appvia,24236,aws,https://github.com/appvia/terraform-aws-vpn,Terraform module used to provision AWS VPN
