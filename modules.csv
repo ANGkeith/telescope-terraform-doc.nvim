@@ -1794,7 +1794,7 @@ avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,Azure Firewall AVM Module
 avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost,Azure Verified Module for Bastion Host
 avm-res-network-connection,Azure,27387,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-connection,AVM Terraform resource module for network connections
-avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan AVM module
+avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan Azure Verified Module
 avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,AVM Terraform module for private DNS resolver
 avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone,AVM Terraform Module for DNS Zone
 avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,AVM Terraform module for ExpressRoute Circuits.
@@ -3529,6 +3529,7 @@ codebase-terraform-azure-fn-app,Azure-Terraformer,27153,github,https://github.co
 codebase-terraform-azure-fn-app-dotnet,Azure-Terraformer,27154,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-app-dotnet,
 codebase-terraform-azure-fn-core,Azure-Terraformer,27151,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-fn-core,
 codebase-terraform-azure-jekyll-site,Azure-Terraformer,27388,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-jekyll-site,Setup a Jekyll Site on Azure Storage
+codebase-terraform-azure-vm-app,Azure-Terraformer,27396,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-vm-app,
 codebase-terraform-azure-vm-core,Azure-Terraformer,27392,github,https://github.com/Azure-Terraformer/terraform-github-codebase-terraform-azure-vm-core,
 codebuild,JamesWoolfenden,2024,aws,https://github.com/JamesWoolfenden/terraform-aws-codebuild,A Terraform module for making AWS codebuilds
 codebuild,SPHTech-Platform,15769,aws,https://github.com/SPHTech-Platform/terraform-aws-codebuild,Terraform module for CodeBuild
@@ -4229,6 +4230,7 @@ databricks-policies-docker,WeAreRetail,23485,azurerm,https://github.com/WeAreRet
 databricks-pools-docker,WeAreRetail,22620,azurerm,https://github.com/WeAreRetail/terraform-azurerm-databricks-pools-docker,
 databricks-runtime,data-platform-hq,16055,databricks,https://github.com/data-platform-hq/terraform-databricks-databricks-runtime,Terraform module for managing Databricks Workspace using Databricks provider
 databricks-runtime-premium,data-platform-hq,16058,databricks,https://github.com/data-platform-hq/terraform-databricks-databricks-runtime-premium,Terraform module for managing Databricks Premium Workspace
+databricks-vnet-injection,libre-devops,27395,azurerm,https://github.com/libre-devops/terraform-azurerm-databricks-vnet-injection,A module used to deploy a VNet injection Databricks workspace solution 🛜💉
 databricks-workspace,cyber-scot,22663,azurerm,https://github.com/cyber-scot/terraform-azurerm-databricks-workspace,A module used to deploy databricks and various resources 🧱📁
 databricks-workspace,libre-devops,25724,azurerm,https://github.com/libre-devops/terraform-azurerm-databricks-workspace,A module used to deploy databricks and various resources 🧱📁
 databricks-workspace-custom-vpc,OSS-Nextail,25528,aws,https://github.com/OSS-Nextail/terraform-aws-databricks-workspace-custom-vpc,Terraform module for creating a Databricks workspace in AWS within an existing VPC
@@ -9798,11 +9800,11 @@ lambda_for_events,rajeshg007,3590,aws,https://github.com/rajeshg007/terraform-aw
 lambdalambdalambda,QuiNovas,2204,aws,https://github.com/QuiNovas/terraform-aws-lambdalambdalambda,Creates a Lambda function in AWS using the region-specific lambdalambdalambda-repo bucket
 lambdalayer,JamesWoolfenden,2343,aws,https://github.com/JamesWoolfenden/terraform-aws-lambdalayer,This is a small module to support lambda layers
 lambdalayer-nodejs,CloudPediaAI,23434,aws,https://github.com/CloudPediaAI/terraform-aws-lambdalayer-nodejs,Terraform module to create a Lambda Layer for ANY NodeJS Library
-lambdalayer-nodejs,techieinyou,22778,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-nodejs,Terraform module to create a Lambda Layer for ANY NodeJS Library
+lambdalayer-nodejs,techieinyou,22778,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-nodejs,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/lambdalayer-nodejs/aws/latest. We remain committed to ongoing support for this module in its new home."
 lambdalayer-python,CloudPediaAI,23437,aws,https://github.com/CloudPediaAI/terraform-aws-lambdalayer-python,Terraform module to create a Lambda Layer for any Python Library
-lambdalayer-python,techieinyou,22751,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python,Terraform module to create a Lambda Layer for ANY Python Library
-lambdalayer-python-mysql,techieinyou,22747,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python-mysql,Terraform module to create a Lambda Layer for MySQL Python library 
-lambdalayer-python-requests,techieinyou,22724,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python-requests,Terraform module to create a Lambda Layer for Python [requests] library
+lambdalayer-python,techieinyou,22751,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/lambdalayer-python/aws/latest. We remain committed to ongoing support for this module in its new home."
+lambdalayer-python-mysql,techieinyou,22747,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python-mysql,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/lambdalayer-python/aws/latest. We remain committed to ongoing support for this module in its new home."
+lambdalayer-python-requests,techieinyou,22724,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python-requests,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/lambdalayer-python/aws/latest. We remain committed to ongoing support for this module in its new home."
 lamp,itwebdeveloper,21182,aws,https://github.com/itwebdeveloper/terraform-aws-lamp,"Programmatically create the AWS infrastructure for a PHP LAMP (Laravel, Apache, MySQL, PHP) application using Terraform."
 lamp-stack,aliarslangit,20454,azure,https://github.com/aliarslangit/terraform-azure-lamp-stack,
 landing-zone,MitocGroup,3750,aws,https://github.com/MitocGroup/terraform-aws-landing-zone,Terraform Module for AWS Landing Zone
@@ -14466,8 +14468,8 @@ scheduled-function,franviera92,8250,google,https://github.com/franviera92/terraf
 scheduled-function,terraform-google-modules,2317,google,https://github.com/terraform-google-modules/terraform-google-scheduled-function,Sets up a scheduled job to trigger events and run functions
 scheduled-job,CloudPediaAI,23433,aws,https://github.com/CloudPediaAI/terraform-aws-scheduled-job,Terraform module to create AWS Lambda as Scheduled Jobs
 scheduled-job,CloudPediaAI,23863,azure,https://github.com/CloudPediaAI/terraform-azure-scheduled-job,Terraform module to provision Azure Functions as Scheduled Jobs
-scheduled-job,techieinyou,22491,aws,https://github.com/techieinyou/terraform-aws-scheduled-job,Terraform module to provision AWS Lambda as Scheduled Jobs
-scheduled-job,techieinyou,22540,azure,https://github.com/techieinyou/terraform-azure-scheduled-job,Terraform module to provision Azure Functions as Scheduled Jobs
+scheduled-job,techieinyou,22491,aws,https://github.com/techieinyou/terraform-aws-scheduled-job,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/scheduled-job/aws/latest. We remain committed to ongoing support for this module in its new home."
+scheduled-job,techieinyou,22540,azure,https://github.com/techieinyou/terraform-azure-scheduled-job,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/scheduled-job/azure/latest. We remain committed to ongoing support for this module in its new home."
 scheduled-lambda,USSBA,4767,aws,https://github.com/USSBA/terraform-aws-scheduled-lambda,A simple module to package and deploy lambda functions and have them trigger them on a schedule.
 scheduled-switch,farhanangullia,15048,aws,https://github.com/farhanangullia/terraform-aws-scheduled-switch,Spin up and down your Terraform resources on schedule!
 scheduled-vertex-pipelines,teamdatatonic,14322,google,https://github.com/teamdatatonic/terraform-google-scheduled-vertex-pipelines,A Terraform module for scheduling Vertex Pipeline runs using Google Cloud Scheduler
@@ -15663,7 +15665,7 @@ static-website,neovops,7815,aws,https://github.com/neovops/terraform-aws-static-
 static-website,realglobe-Inc,2630,aws,https://github.com/realglobe-Inc/terraform-aws-static-website,Provision a static website hosted through S3 + CloudFront + Route53 in AWS
 static-website,sebastianmontero,14226,google,https://github.com/sebastianmontero/terraform-google-static-website,Creates the required google infrastructure to host a static website
 static-website,stuartizon,4739,aws,https://github.com/stuartizon/terraform-aws-static-website,Terraform module which creates all the resources you'll need to run a static website with AWS S3 and CloudFront
-static-website,techieinyou,23172,aws,https://github.com/techieinyou/terraform-aws-static-website,Terraform module to create all required AWS resources to host a static website using S3 Bucket and CDN 
+static-website,techieinyou,23172,aws,https://github.com/techieinyou/terraform-aws-static-website,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/static-website/aws/latest. We remain committed to ongoing support for this module in its new home."
 static-website,theharpretsingh,21389,azurerm,https://github.com/theharpretsingh/terraform-azurerm-static-website,
 static-website,tkav,12591,aws,https://github.com/tkav/terraform-aws-static-website,"Terraform Module to provision an AWS static website using S3 and CloudFront, without Route53."
 static-website,tx-pts-dai,25999,aws,https://github.com/tx-pts-dai/terraform-aws-static-website,Terraform module to deploy an AWS-backed static website. It uses S3 to store the static web files and CloudFront to serve them.
@@ -16133,6 +16135,7 @@ sujeet-test-vpc,sk0990670,26255,aws,https://github.com/sk0990670/terraform-aws-s
 sujit,sujitknaik,20125,azure,https://github.com/sujitknaik/terraform-azure-sujit,
 sum-numbers,jimmson,20561,jimmson,https://github.com/jimmson/terraform-jimmson-sum-numbers,Terraform module which sums 2 numbers
 sumanpatra01,SumanPatra1988,11424,aws,https://github.com/SumanPatra1988/terraform-aws-sumanpatra01,
+sumit-test-vpc,Sumitchavan6,27393,aws,https://github.com/Sumitchavan6/terraform-aws-sumit-test-vpc,
 sumo-logic-integrations,SumoLogic,7191,sumologic,https://github.com/SumoLogic/terraform-sumologic-sumo-logic-integrations,Terraform modules for Sumo Logic resources
 sumo-logic-monitor,SumoLogic,7489,sumologic,https://github.com/SumoLogic/terraform-sumologic-sumo-logic-monitor,Package to setup SumoLogic Alert Monitors via Terraform
 sunrays,surajsunrays,2083,aws,https://github.com/surajsunrays/terraform-aws-sunrays,This is sample dev env terraform module
@@ -17635,6 +17638,7 @@ vpc,smc181002,9117,aws,https://github.com/smc181002/terraform-aws-vpc,
 vpc,smrutimandal,1053,aws,https://github.com/smrutimandal/terraform-aws-vpc,
 vpc,so1omon563,15920,aws,https://github.com/so1omon563/terraform-aws-vpc,Creates a VPC and associated resources using submodules.
 vpc,sofia-lrf,17084,aws,https://github.com/sofia-lrf/terraform-aws-vpc,
+vpc,sonkhuong,27394,aws,https://github.com/sonkhuong/terraform-aws-vpc,
 vpc,source4learn,9090,aws,https://github.com/source4learn/terraform-aws-vpc,Hashicorp Terraform AWS VPC Module
 vpc,springload,2520,aws,https://github.com/springload/terraform-aws-vpc,terraform >=0.12 module for AWS VPC
 vpc,squareops,17553,aws,https://github.com/squareops/terraform-aws-vpc,Terraform Module to create an AWS VPC network with VPN and configure Peering b/w multiple VPCs
