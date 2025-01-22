@@ -2088,6 +2088,7 @@ azure-mssql,intel,17535,intel,https://github.com/intel/terraform-intel-azure-mss
 azure-mssql-managed-instance,intel,20480,intel,https://github.com/intel/terraform-intel-azure-mssql-managed-instance,Intel Cloud Optimization Module - Azure MSSQL Managed Instance
 azure-mssql-server,libre-devops,18599,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-mssql-server,A module used to deploy an Azure MSSQL Server and some extra add-ons like elastic pool :fire:
 azure-mysql-flexible-server,intel,16905,intel,https://github.com/intel/terraform-intel-azure-mysql-flexible-server,Intel Cloud Optimization Module - Azure MySQL Flexible Server
+azure-policy,heathen1878,27399,azapi,https://github.com/heathen1878/terraform-azapi-azure-policy,Manages Policy Assignments within Azure; predominantly nested within other modules
 azure-postgresql-flexible-server,intel,16906,intel,https://github.com/intel/terraform-intel-azure-postgresql-flexible-server,Intel Cloud Optimization Module - Azure PostgreSQL Flexible Server
 azure-role,ptonini,16789,vault,https://github.com/ptonini/terraform-vault-azure-role,
 azure-route-server,terraform-aviatrix-modules,14966,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-route-server,Deploys Azure route server and ties it to a transit of choice.
@@ -5446,21 +5447,21 @@ duo-ips,captn3m0,6044,data,https://github.com/captn3m0/terraform-data-duo-ips,Th
 duo-whitelist,captn3m0,2384,data,https://github.com/captn3m0/terraform-data-duo-ips,This module provides an updated list of Duo's public CIDRs. These are maintained against the Duo Documentation: https://help.duo.com/s/article/1337
 duration,Lambda-Null,20146,local,https://github.com/Lambda-Null/terraform-local-duration,
 dws,tf-cloud-modules,24566,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-dws,Sbercloud DWS Terraform module
-dx-azure-api-management,pagopa,27031,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-api-management,
-dx-azure-app-service,pagopa,27030,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service,
-dx-azure-app-service-exposed,pagopa,27029,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed,
-dx-azure-app-service-plan-autoscaler,pagopa,27028,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-plan-autoscaler,
-dx-azure-core-infra,pagopa,27137,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-core-infra,
-dx-azure-cosmos-account,pagopa,27027,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-cosmos-account,
-dx-azure-event-hub,pagopa,27026,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-event-hub,
-dx-azure-federated-identity-with-github,pagopa,27025,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-federated-identity-with-github,
-dx-azure-function-app,pagopa,27024,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-function-app,
-dx-azure-function-app-exposed,pagopa,27023,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-function-app-exposed,
-dx-azure-naming-convention,pagopa,27022,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-naming-convention,
-dx-azure-postgres-server,pagopa,27021,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-postgres-server,
-dx-azure-role-assignments,pagopa,26851,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-role-assignments,
-dx-azure-storage-account,pagopa,27019,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-storage-account,
-dx-github-selfhosted-runner-on-container-app-jobs,pagopa,27020,azurerm,https://github.com/pagopa/terraform-azurerm-dx-github-selfhosted-runner-on-container-app-jobs,
+dx-azure-api-management,pagopa,27031,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-api-management,Deploys an Azure API Management service with monitoring and network configuration
+dx-azure-app-service,pagopa,27030,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service,Creates an Azure App Service with networking and deployment slot support
+dx-azure-app-service-exposed,pagopa,27029,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-exposed,Creates an Azure App Service configured for external access
+dx-azure-app-service-plan-autoscaler,pagopa,27028,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-app-service-plan-autoscaler,Configures autoscaling rules for Azure App Service Plans
+dx-azure-core-infra,pagopa,27137,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-core-infra,"Sets up the core Azure infrastructure including VNet, DNS zones, and Key Vault. Useful to bootstrap production or development environments."
+dx-azure-cosmos-account,pagopa,27027,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-cosmos-account,Provisions an Azure Cosmos DB account with monitoring and network settings
+dx-azure-event-hub,pagopa,27026,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-event-hub,Creates an Azure Event Hub with monitoring and network configuration
+dx-azure-federated-identity-with-github,pagopa,27025,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-federated-identity-with-github,Sets up federated identity between Azure and GitHub for authentication
+dx-azure-function-app,pagopa,27024,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-function-app,"Deploys an Azure Function App with storage, networking and RBAC configuration"
+dx-azure-function-app-exposed,pagopa,27023,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-function-app-exposed,Creates an Azure Function App configured for external access
+dx-azure-naming-convention,pagopa,27022,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-naming-convention,Provides standardized naming convention for Azure resources following best practices and organizational patterns
+dx-azure-postgres-server,pagopa,27021,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-postgres-server,Deploys and configures Azure PostgreSQL Flexible Server with monitoring and networking capabilities
+dx-azure-role-assignments,pagopa,26851,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-role-assignments,Manages Azure RBAC role assignments for resources and security principals
+dx-azure-storage-account,pagopa,27019,azurerm,https://github.com/pagopa/terraform-azurerm-dx-azure-storage-account,"Provisions an Azure Storage Account with networking, monitoring, and security configurations"
+dx-github-selfhosted-runner-on-container-app-jobs,pagopa,27020,azurerm,https://github.com/pagopa/terraform-azurerm-dx-github-selfhosted-runner-on-container-app-jobs,Deploys GitHub self-hosted runners using Azure Container Apps jobs for scalable CI/CD workflows
 dx-lambda,christian-calabrese,26326,aws,https://github.com/christian-calabrese/terraform-aws-dx-lambda,
 dynamic,saketh-linux,14163,aws,https://github.com/saketh-jakkula/terraform-aws-dynamic,
 dynamic-inventory,lsampaioweb,17645,local,https://github.com/lsampaioweb/terraform-local-dynamic-inventory,Terraform module that generates local dynamic Ansible inventory files.
@@ -12214,6 +12215,7 @@ petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprin
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
 petstore,terraform-in-action,7228,aws,https://github.com/terraform-in-action/terraform-aws-petstore,
+pexip-infinity,Josh-E-S,27400,google,https://github.com/Josh-E-S/terraform-google-pexip-infinity,Terraform Module for deploying Pexip Infinity video conferencing platform on GCP
 pfx-name-sfx,thpang,18071,null,https://github.com/thpang/terraform-null-pfx-name-sfx,Terraform module that outputs a string based on the provided name concatenated with an optional prefix or suffix
 pga-private-dns-records,mdiloreto,24976,google,https://github.com/mdiloreto/terraform-google-pga-private-dns-records,
 pgsql,magicorntech,26400,azurerm,https://github.com/magicorntech/terraform-azurerm-pgsql,Magicorn Azure PostgreSQL Flexible Module
