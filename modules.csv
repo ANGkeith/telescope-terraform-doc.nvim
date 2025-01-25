@@ -3149,7 +3149,7 @@ cloudformation-stack,blackbird-cloud,19102,aws,https://github.com/blackbird-clou
 cloudformation-stack,cloudposse,3670,aws,https://github.com/cloudposse/terraform-aws-cloudformation-stack,Terraform module to provision CloudFormation Stack
 cloudformation-stack,figurate,5986,aws,https://github.com/figurate/terraform-aws-cloudformation-stack,Standard provisioning for CloudFormation stacks
 cloudformation-stack-set,cloudposse,2918,aws,https://github.com/cloudposse/terraform-aws-cloudformation-stack-set,
-cloudformation-stackset,blackbird-cloud,19086,aws,https://github.com/blackbird-cloud/terraform-aws-cloudformation-stackset,AWS Cloudformation StackSets
+cloudformation-stackset,blackbird-cloud,19086,aws,https://github.com/blackbird-cloud/terraform-aws-cloudformation-stackset,Terraform module to create an AWS CloudFormation StackSet
 cloudfront,Aplyca,1041,aws,https://github.com/Aplyca/terraform-aws-cloudfront,Create AWs CloudFront distribution
 cloudfront,DTherHtun,5546,aws,https://github.com/dtherhtun/terraform-aws-cloudfront,Terraform module which creates Amazon Cloudfront Distribution
 cloudfront,Lunik,10619,aws,https://github.com/Lunik/terraform-aws-cloudfront,Create and configure basic AWS Cloud Front service.
@@ -3798,7 +3798,7 @@ config-files,scaffoldly,9475,github,https://github.com/scaffoldly/terraform-gith
 config-map-from-gcp-storage,DiagVN,9078,kubernetes,https://github.com/DiagVN/terraform-kubernetes-config-map-from-gcp-storage,k8s-config-map-from-gcp-storage
 config-multiregion,rhythmictech,7493,aws,https://github.com/rhythmictech/terraform-aws-config-multiregion,Manages the rhythmictech/terraform-aws-config module across many regions
 config-notifications,trussworks,3360,aws,https://github.com/trussworks/terraform-aws-config-notifications,Config Notifications
-config-organization,blackbird-cloud,19292,aws,https://github.com/blackbird-cloud/terraform-aws-config-organization,Terraform AWS Config Organization
+config-organization,blackbird-cloud,19292,aws,https://github.com/blackbird-cloud/terraform-aws-config-organization,Terraform module to setup AWS Config in an organization
 config-passphrase,netascode,17412,aci,https://github.com/netascode/terraform-aci-config-passphrase,Terraform Cisco ACI Config Passphrase Module
 config-recorder,StratusGrid,2665,aws,https://github.com/StratusGrid/terraform-aws-config-recorder,Configures config recorder for an AWS account
 config-rules,StratusGrid,2674,aws,https://github.com/StratusGrid/terraform-aws-config-rules,AWS Config rules module to put in standard policies
@@ -8134,7 +8134,7 @@ helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital
 helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
 helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
-helper-ssm-parameter,guidion-digital,27340,aws,https://github.com/guidion-digital/terraform-aws-helper-ssm-parameter,Simple helper module to create SSM parameters
+helper-ssm-parameters,guidion-digital,27440,aws,https://github.com/guidion-digital/terraform-aws-helper-ssm-parameters,Simple helper module to create SSM parameters
 helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
 helper-workspace-policy,guidion-digital,23051,aws,https://github.com/guidion-digital/terraform-aws-helper-workspace-policy,Small helper module which generates least-privilage policies necessary for application modules to be able to create their resources
 helpers,MaxKelsen,8095,aws,https://github.com/MaxKelsen/terraform-aws-helpers,Max Kelsen's Common Terraform Module Library
@@ -10243,6 +10243,7 @@ maildns,foxmoon,3734,alicloud,https://github.com/foxmoon/terraform-alicloud-mail
 mailer,KamranBiglari,18314,null,https://github.com/KamranBiglari/terraform-null-mailer,Send email via SMTP with terraform
 maintenace-window,recroviral,21237,aws,https://github.com/recroviral/terraform-aws-maintenace-window,
 maintenance,adinhodovic,8655,cloudflare,https://github.com/adinhodovic/terraform-cloudflare-maintenance,Terraform module to create a responsive Maintenance Page using Cloudflare Workers.
+maintenance-configuration,OnDemand-Engineering,27438,azurerm,https://github.com/OnDemand-Engineering/terraform-azurerm-maintenance-configuration,
 maintenance-group,netascode,9886,aci,https://github.com/netascode/terraform-aci-maintenance-group,Terraform Cisco ACI Maintenance Group Module
 maintenance-lambda,indix,411,aws,https://github.com/indix/terraform-aws-maintenance-lambda,"Terraform module to deploy aws-maintenance-lambda - A lambda function to send alerts (to Slack, HipChat) on AWS maintenance events."
 maintenance-window,VIRALPATEL-SPS,21239,aws,https://github.com/VIRALPATEL-SPS/terraform-aws-maintenance-window,
@@ -11175,6 +11176,7 @@ nac-aci,netascode,19004,aci,https://github.com/netascode/terraform-aci-nac-aci,T
 nac-fabric-policies,netascode,14157,aci,https://github.com/netascode/terraform-aci-nac-fabric-policies,Terraform Cisco ACI Fabric Policies Module
 nac-interface-policies,netascode,14158,aci,https://github.com/netascode/terraform-aci-nac-interface-policies,Terraform Cisco ACI Interface Policies Module
 nac-ise,netascode,22277,ise,https://github.com/netascode/terraform-ise-nac-ise,Terraform Cisco ISE Network-as-Code Module
+nac-meraki,netascode,27439,meraki,https://github.com/netascode/terraform-meraki-nac-meraki,Terraform Cisco Meraki Network-as-Code Module
 nac-merge,netascode,17363,utils,https://github.com/netascode/terraform-utils-nac-merge,
 nac-ndo,netascode,19015,mso,https://github.com/netascode/terraform-mso-nac-ndo,Terraform Cisco NDO Nexus-as-Code Module
 nac-node-policies,netascode,14159,aci,https://github.com/netascode/terraform-aci-nac-node-policies,Terraform Cisco ACI Node Policies Module
@@ -17418,6 +17420,7 @@ vpc,akbongu,6283,aws,https://github.com/akbongu/terraform-aws-vpc,Terraform modu
 vpc,akilagithub,8866,aws,https://github.com/akilagithub/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,akyol8957,9386,aws,https://github.com/akyol8957/terraform-aws-vpc,
 vpc,alanxo,8544,management,https://github.com/xosphere/terraform-management-vpc,
+vpc,alecz86,27437,aws,https://github.com/alecz86/terraform-aws-vpc,
 vpc,alibaba,59,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc,Terraform module which creates VPC and Subnet resources on Alibaba Cloud.
 vpc,alimer08,9419,aws,https://github.com/alimer08/terraform-aws-vpc,
 vpc,alisaazi2,9387,aws,https://github.com/alisaazi2/terraform-aws-vpc,
@@ -17513,6 +17516,7 @@ vpc,fstuck37,2698,aws,https://github.com/fstuck37/terraform-aws-vpc,Used to buil
 vpc,gadgetry-io,9983,aws,https://github.com/gadgetry-io/terraform-aws-vpc,Terraform AWS VPC Module
 vpc,gentledev10,7949,aws,https://github.com/gentledev10/terraform-aws-vpc,Terraform AWS VPC module
 vpc,geolockho,25623,aws,https://github.com/geolockho/terraform-aws-vpc,
+vpc,githubsergiu,27435,aws,https://github.com/githubsergiu/terraform-aws-vpc,
 vpc,gitrahimi,5811,aws,https://github.com/gitrahimi/terraform-aws-vpc,A customizable VPC for AWS
 vpc,glavk,13317,yandex,https://github.com/glavk/terraform-yandex-vpc,Terraform module which creates VPC resources on Yandex.Cloud
 vpc,gogosy,9962,aws,https://github.com/gogosy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
@@ -17618,6 +17622,7 @@ vpc,nuraaly,6721,aws,https://github.com/nuraaly/terraform-aws-vpc,
 vpc,nurdin2303,9391,aws,https://github.com/nurdin2303/terraform-aws-vpc,
 vpc,nyeincz,10097,aws,https://github.com/nyeincz/terraform-aws-vpc,Deploy AWS VPC with terraform modules
 vpc,oceanosis,5923,aws,https://github.com/oceanosis/terraform-aws-vpc,
+vpc,odilzhon3,27434,aws,https://github.com/odilzhon3/terraform-aws-vpc,
 vpc,oguseva-a,7736,aws,https://github.com/oguseva-a/terraform-aws-vpc,
 vpc,omiradil,8940,aws,https://github.com/omiradil/terraform-aws-vpc,"This module creates AWS VPC with 3 public ,3 private subnets ,IG and NAT."
 vpc,oozou,15130,aws,https://github.com/oozou/terraform-aws-vpc,Terraform component for AWS VPC
@@ -17721,6 +17726,7 @@ vpc,tuyalou,4849,aws,https://github.com/tuyalou/terraform-aws-vpc,
 vpc,ucipass,10171,aws,https://github.com/ucipass/terraform-aws-vpc,Terraform module that build an AWS Virtual Private Cloud (VPC)
 vpc,ugns,11563,aws,https://github.com/ugns/terraform-aws-vpc,Terraform Module that defines a VPC with public/private subnets across multiple AZs with Internet Gateways
 vpc,usertan123,15927,aws,https://github.com/usertan123/terraform-aws-vpc,This is demo to publish module in terraform  
+vpc,valentinabalan,27436,aws,https://github.com/valentinabalan/terraform-aws-vpc,
 vpc,vanhieuhp,21083,aws,https://github.com/vanhieuhp/terraform-aws-vpc,terraform-aws-vpc
 vpc,vikash232,12917,aws,https://github.com/vikash232/terraform-aws-vpc,
 vpc,vitaliburak,6704,aws,https://github.com/vitaliburak/terraform-aws-vpc,
