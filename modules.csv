@@ -198,7 +198,7 @@ account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraf
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
 account-lookup,be-bold,18416,aws,https://github.com/be-bold/terraform-aws-account-lookup,This module lets you query your AWS accounts in different variations and even perform a simple search.
 account-security,DNXLabs,5717,aws,https://github.com/DNXLabs/terraform-aws-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
-account-security,blackbird-cloud,16676,aws,https://github.com/blackbird-cloud/terraform-aws-account-security,terraform-aws-account-security
+account-security,blackbird-cloud,16676,aws,https://github.com/blackbird-cloud/terraform-aws-account-security,Terraform module to setup AWS account security
 account-setup,daringway,4290,aws,https://github.com/wderezin/terraform-aws-infrastructure,An opinionated AWS account setup with the only options to adjust settings impacting cost.
 account-setup,philips-software,1237,aws,https://github.com/philips-software/terraform-aws-account-setup,Terraform module configure IAM in a new AWS account setup
 account-users,cloud-native-toolkit,14550,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-account-users,Terraform module to invite users to the IBM Cloud account
@@ -3051,7 +3051,7 @@ cloud-run_pubsub_to_bq,AckeeCZ,13044,gcp,https://github.com/AckeeCZ/terraform-gc
 cloud-scanner,deepfence,14703,aws,https://github.com/deepfence/terraform-aws-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
 cloud-scanner,deepfence,14888,azure,https://github.com/deepfence/terraform-azure-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
 cloud-scanner,deepfence,14889,gcp,https://github.com/deepfence/terraform-gcp-cloud-scanner,"Deepfence Cloud Scanner runs in your cloud environment, gathering inventory and compliance information for the assets deployed in that environment. It submits that information to your Deepfence ThreatMapper or ThreatStryker Management Console"
-cloud-scheduler-job,blackbird-cloud,18829,google,https://github.com/blackbird-cloud/terraform-google-cloud-scheduler-job,terraform-google-cloud-scheduler
+cloud-scheduler-job,blackbird-cloud,18829,google,https://github.com/blackbird-cloud/terraform-google-cloud-scheduler-job,Terraform module to create a Google Cloud Scheduler job
 cloud-server,alexraskin,16012,hetzner,https://github.com/alexraskin/terraform-hetzner-cloud-server,Creates Hetzer Cloud Server Infrastructure
 cloud-server,deff-dev,20718,timeweb,https://github.com/deff-dev/terraform-timeweb-cloud-server,Terraform module which creates server on TimeWeb Cloud
 cloud-source-repositories,bootlabstech,14022,google,https://github.com/bootlabstech/terraform-google-cloud-source-repositories,
@@ -4616,7 +4616,7 @@ dns-query-logs,QuiNovas,2213,aws,https://github.com/QuiNovas/terraform-aws-dns-q
 dns-record,terraform-cloudflare-modules,27322,cloudflare,https://github.com/terraform-cloudflare-modules/terraform-cloudflare-dns-record,📑 Manage DNS entries within Cloudflare
 dns-record,xorima,21886,cloudflare,https://github.com/xorima/terraform-cloudflare-dns-record,A simple module to create a dns record in cloudflare
 dns-records,SkypLabs-Ltd,20870,ovh,https://github.com/SkypLabs-Ltd/terraform-ovh-dns-records,Terraform module for managing DNS records on OVH
-dns-records,blackbird-cloud,16457,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dns-records,Terraform module to create a set of Cloudflare DNS records
+dns-records,blackbird-cloud,16457,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dns-records,Terraform module to create DNS records in Cloudflare
 dns-records,heathen1878,19960,cloudflare,https://github.com/heathen1878/terraform-cloudflare-dns-records,Manages DNS records within Cloudflare
 dns-records,libre-devops,23525,digitalocean,https://github.com/libre-devops/terraform-digitalocean-dns-records,A module used to update DNS records on digitalocean 💧
 dns-recordsets,terraformdns,1176,azurerm,https://github.com/terraformdns/terraform-azurerm-dns-recordsets,Terraform module for creating DNS recordsets in an Azure DNS zone
@@ -4639,7 +4639,7 @@ dnspr,CloudNationHQ,25758,azure,https://github.com/CloudNationHQ/terraform-azure
 dnssec,nikaro,23302,aws,https://github.com/nikaro/terraform-aws-dnssec,Configure DNSSEC for an AWS Route53 zone
 dnssec-kms,Lupus-Metallum,8490,aws,https://github.com/Lupus-Metallum/terraform-aws-dnssec-kms,A Terraform module to create a KMS key for use with Route53 DNSSEC. 
 dnssec-kms-key,dod-iac,8023,aws,https://github.com/dod-iac/terraform-aws-dnssec-kms-key,Creates a KMS key for DNSSEC
-dnszones,blackbird-cloud,16687,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dnszones,terraform-cloudflare-dnszones
+dnszones,blackbird-cloud,16687,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-dnszones,Terraform module to create DNS zones in Cloudflare
 do,diceone,1437,module,https://github.com/diceone/terraform-module-do,
 do-builder,f5devcentral,8869,bigip,https://github.com/f5devcentral/terraform-bigip-do-builder,Terraform modules to support deployment of BIG-IP on multiple clouds
 do-k8s-lb,ondrejsika,4778,module,https://github.com/ondrejsika/terraform-module-do-k8s-lb,
@@ -6595,7 +6595,7 @@ eks-calico,lablabs,4436,aws,https://github.com/lablabs/terraform-aws-eks-calico,
 eks-cert-manager,DNXLabs,8666,aws,https://github.com/DNXLabs/terraform-aws-eks-cert-manager,"Terraform module for deploying Kubernetes cert-manager, cert-manager is a native Kubernetes certificate management controller."
 eks-cert-manager,andreswebs,9889,aws,https://github.com/andreswebs/terraform-aws-eks-cert-manager,Deploys cert-manager via Helm on AWS EKS
 eks-cert-manager,lablabs,6931,aws,https://github.com/lablabs/terraform-aws-eks-cert-manager,
-eks-cert-manager-cloudflare,blackbird-cloud,16680,aws,https://github.com/blackbird-cloud/terraform-aws-eks-cert-manager-cloudflare,terraform-aws-eks-cert-manager-cloudflare
+eks-cert-manager-cloudflare,blackbird-cloud,16680,aws,https://github.com/blackbird-cloud/terraform-aws-eks-cert-manager-cloudflare,Terraform module to deploy Cert Manager with Cloudflare DNS on EKS
 eks-cert-manager-iam-policy-document,andreswebs,18817,aws,https://github.com/andreswebs/terraform-aws-eks-cert-manager-iam-policy-document,
 eks-cert-manager-trust,lablabs,15389,aws,https://github.com/lablabs/terraform-aws-eks-trust-manager,
 eks-certmanager,truemark,23078,aws,https://github.com/truemark/terraform-aws-eks-certmanager,
@@ -6641,7 +6641,7 @@ eks-data-addons,aws-ia,20159,aws,https://github.com/aws-ia/terraform-aws-eks-dat
 eks-descheduler,lablabs,6877,aws,https://github.com/lablabs/terraform-aws-eks-descheduler,
 eks-dvpc,lily4499,24481,aws,https://github.com/lily4499/terraform-aws-eks-dvpc,
 eks-ebs-csi,aws-terraform-module,26984,aws,https://github.com/aws-terraform-module/terraform-aws-eks-ebs-csi,Creat Persistent Volume on EKS via EBS.
-eks-ebs-csi,blackbird-cloud,19827,aws,https://github.com/blackbird-cloud/terraform-aws-eks-ebs-csi,AWS EKS EBS CSI TLA FTW
+eks-ebs-csi,blackbird-cloud,19827,aws,https://github.com/blackbird-cloud/terraform-aws-eks-ebs-csi,Terraform module to deploy EBS CSI driver on EKS
 eks-ebs-csi,mrnim94,16558,aws,https://github.com/mrnim94/terraform-aws-eks-ebs-csi,Creat Persistent Volume on EKS via EBS.
 eks-ebs-csi-driver,Z4ck404,21163,aws,https://github.com/Z4ck404/terraform-aws-eks-ebs-csi-driver,A terraform module install ebs csi driver on an eks cluster
 eks-ebs-csi-driver,andreswebs,9941,aws,https://github.com/andreswebs/terraform-aws-eks-ebs-csi-driver,Deploys the Amazon EBS CSI driver on AWS EKS via Helm
@@ -6663,7 +6663,7 @@ eks-external-dns,KongHQ-CX,15955,aws,https://github.com/KongHQ-CX/terraform-aws-
 eks-external-dns,andreswebs,9971,aws,https://github.com/andreswebs/terraform-aws-eks-external-dns,Deploys external-dns on AWS EKS
 eks-external-dns,joaoantunes,7751,aws,https://github.com/joaoantunes/terraform-aws-eks-external-dns,
 eks-external-dns,lablabs,4434,aws,https://github.com/lablabs/terraform-aws-eks-external-dns,
-eks-external-dns-cloudflare,blackbird-cloud,16683,aws,https://github.com/blackbird-cloud/terraform-aws-eks-external-dns-cloudflare," terraform-aws-eks-external-dns-cloudflare"
+eks-external-dns-cloudflare,blackbird-cloud,16683,aws,https://github.com/blackbird-cloud/terraform-aws-eks-external-dns-cloudflare,Terraform module to deploy External DNS with Cloudflare DNS on EKS
 eks-external-secrets,DNXLabs,8673,aws,https://github.com/DNXLabs/terraform-aws-eks-external-secrets,"Terraform module for deploying kubernetes-external-secrets, this enables to use AWS Secrets Manager and SSM Parameters inside a pre-existing EKS cluster."
 eks-external-secrets,KongHQ-CX,15958,aws,https://github.com/KongHQ-CX/terraform-aws-eks-external-secrets,A terraform module for configuring and deploying external-secrets to an EKS cluster
 eks-external-secrets,andreswebs,10034,aws,https://github.com/andreswebs/terraform-aws-eks-external-secrets,Deploys Kubernetes External Secrets on AWS EKS
@@ -6711,7 +6711,7 @@ eks-irsa,nalbam,6100,aws,https://github.com/nalbam/terraform-aws-eks-irsa,
 eks-irsa,shamimice03,20082,aws,https://github.com/shamimice03/terraform-aws-eks-irsa,Terraform module for EKS IRSA
 eks-irsa-policy-document,andreswebs,9547,aws,https://github.com/andreswebs/terraform-aws-eks-irsa-policy-document,Creates a trust policy for an IAM role that can be assumed by a Kubernetes service account
 eks-istio,DNXLabs,13481,aws,https://github.com/DNXLabs/terraform-aws-eks-istio,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications. Istio’s powerful features provide a uniform and more efficient way to secure, connect, and monitor services. Istio is the path to load balancing, service-to-service authentication, and monitoring – with few or no service code changes."
-eks-istio,blackbird-cloud,16685,aws,https://github.com/blackbird-cloud/terraform-aws-eks-istio,
+eks-istio,blackbird-cloud,16685,aws,https://github.com/blackbird-cloud/terraform-aws-eks-istio,Terraform module to deploy Istio on EKS
 eks-istio-operator,DNXLabs,9673,aws,https://github.com/DNXLabs/terraform-aws-eks-istio-operator,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications."
 eks-istio-operator,bakuppus,10701,aws,https://github.com/bakuppus/terraform-aws-eks-istio-operator,"Terraform module for deploying Kubernetes istio, an open source service mesh that layers transparently onto existing distributed applications."
 eks-jupyterhub,dabble-of-devops-bioanalyze,10448,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
@@ -6753,7 +6753,7 @@ eks-module,patdada,23602,aws,https://github.com/patdada/terraform-aws-eks-module
 eks-module,taiwoj14,23265,aws,https://github.com/taiwoj14/terraform-aws-eks-module,
 eks-monitoring,andreswebs,9919,aws,https://github.com/andreswebs/terraform-aws-eks-monitoring,"Deploys Prometheus, Grafana, Loki and Promtail on AWS EKS via Helm"
 eks-monitoring,truemark,18304,aws,https://github.com/truemark/terraform-aws-eks-monitoring,
-eks-monitoring-bundle,blackbird-cloud,16695,aws,https://github.com/blackbird-cloud/terraform-aws-eks-monitoring-bundle,terraform-aws-eks-monitoring-bundle
+eks-monitoring-bundle,blackbird-cloud,16695,aws,https://github.com/blackbird-cloud/terraform-aws-eks-monitoring-bundle,Terraform module to deploy monitoring bundle on EKS
 eks-monitoring-logging,shamimice03,20168,aws,https://github.com/shamimice03/terraform-aws-eks-monitoring-logging,Terraform Module for AWS EKS monitoring and logging
 eks-node-group,cloudposse,3709,aws,https://github.com/cloudposse/terraform-aws-eks-node-group,Terraform module to provision a fully managed AWS EKS Node Group
 eks-node-group,foss-cafe,18588,aws,https://github.com/ionicloud/terraform-aws-eks-node-group,Terraform module for EKS managed Node Group
@@ -6779,7 +6779,7 @@ eks-role-iam,castai,13025,castai,https://github.com/castai/terraform-castai-eks-
 eks-roles,arkhoss,5165,aws,https://github.com/arkhoss/terraform-aws-eks-roles,"A terraform module to create all necessary resources for Admin, Operations and ViewOnly AWS policies/roles and its respective ClusterRoles, ClusterRoleBindings and its ConfigMap aws-auth."
 eks-s3-csi-driver,Z4ck404,22168,aws,https://github.com/Z4ck404/terraform-aws-eks-s3-csi-driver,A terraform module install s3 csi driver on an eks cluster and mount s3 as volume
 eks-sandbox,nuonco,23827,aws,https://github.com/nuonco/terraform-aws-eks-sandbox,AWS EKS sandbox for Nuon apps.
-eks-secret-store-csi,blackbird-cloud,16688,aws,https://github.com/blackbird-cloud/terraform-aws-eks-secret-store-csi,terraform-aws-eks-secret-store-csi
+eks-secret-store-csi,blackbird-cloud,16688,aws,https://github.com/blackbird-cloud/terraform-aws-eks-secret-store-csi,Terraform module to deploy AWS Secret Store CSI driver on EKS
 eks-secrets-store-csi-driver,andreswebs,9893,aws,https://github.com/andreswebs/terraform-aws-eks-secrets-store-csi-driver,Deploys the Kubernetes Secrets Store CSI Driver via Helm on AWS EKS
 eks-security-clusters,abelnieva,19603,aws,https://github.com/abelnieva/terraform-aws-eks-security-clusters,
 eks-service-account-with-oidc-iam-role,tinfoilcipher,10209,aws,https://github.com/tinfoilcipher/terraform-aws-eks-service-account-with-oidc-iam-role,Terraform Module to create an EKS Service Account and Related AWS IAM Componenets
@@ -7546,7 +7546,7 @@ function-app-single,claranet,3502,azurerm,https://github.com/claranet/terraform-
 function-app-with-plan,claranet,3503,azurerm,https://github.com/claranet/terraform-azurerm-function-app-with-plan,[Deprecated] Terraform module for Azure Function App V2 with App Service Plan
 function-cors,StefanSchoof,2845,azurerm,https://github.com/StefanSchoof/terraform-azurerm-function-cors,A Terraform module to add CORS to a azure function
 function-private-network,jaydesai-automate,15005,azurerm,https://github.com/jaydesai-automate/terraform-azurerm-function-private-network,Azure Terrafrom Module that creates Windows or Linux Function App and corresponding storage on a Private Virtual Network
-function2,blackbird-cloud,18675,google,https://github.com/blackbird-cloud/terraform-google-function2,Google Cloudfunction Generation 2
+function2,blackbird-cloud,18675,google,https://github.com/blackbird-cloud/terraform-google-function2,Terraform module to create a Google Cloud Function
 functionapp,anoff,924,azurerm,https://github.com/anoff/terraform-azurerm-functionapp,Deploy a dedicated or consumption based Function App with all dependencies and minimal config
 functionapp-group,JoeAtRest,6036,azurerm,https://github.com/JoeAtRest/terraform-azurerm-functionapp-group,"Creates a resource group containing 1 or more function apps, an application insights and a key vault"
 functionbeat,PacoVK,13301,aws,https://github.com/PacoVK/terraform-aws-functionbeat,A Terraform module for Elastic Functionbeat to ship Cloudwatch logs 
@@ -7580,6 +7580,7 @@ gce-image-upload,matti,820,google,https://github.com/matti/terraform-google-gce-
 gce-stateful-zonal-instance-groups,matti,890,google,https://github.com/matti/terraform-google-gce-stateful-zonal-instance-groups,
 gci,rails-on-services,3603,gcp,https://github.com/rails-on-services/terraform-gcp-gci,Manages GCP compute engine instance
 gcloud,Deepbody-inc,5655,google,https://github.com/Deepbody-inc/terraform-google-gcloud,A module for executing gcloud commands within Terraform.
+gcloud,benjaminawd-flowdesk,27562,google,https://github.com/benjaminawd-flowdesk/terraform-google-gcloud,
 gcloud,franviera92,11673,google,https://github.com/franviera92/terraform-google-gcloud,A module for executing gcloud commands within Terraform.
 gcloud,terraform-google-modules,3537,google,https://github.com/terraform-google-modules/terraform-google-gcloud,Executes Google Cloud CLI commands within Terraform
 gcloud-kms-secure-decoder,AndrewFarley,1857,google,https://github.com/AndrewFarley/terraform-google-gcloud-kms-secure-decoder,A Terraform module to perform KMS Decoding which will prevent plaintext secrets to be in your state file
@@ -7839,7 +7840,7 @@ gke-cluster,jetstack,2402,google,https://github.com/jetstack/terraform-google-gk
 gke-cluster,matti,2553,google,https://github.com/matti/terraform-google-gke-cluster,
 gke-cluster,mineiros-io,11383,google,https://github.com/mineiros-io/terraform-google-gke-cluster,A Terraform module to create and manage a Google Kubernetes Engine (GKE) Cluster on Google Cloud Platform (GCP) https://cloud.google.com/kubernetes-engine
 gke-cluster,quortex,4472,google,https://github.com/quortex/terraform-google-gke-cluster,A terraform module for Quortex infrastructure GKE cluster layer.
-gke-config-map,blackbird-cloud,17807,google,https://github.com/blackbird-cloud/terraform-google-gke-config-map,Shortcut to deploy configmap to GKE cluster
+gke-config-map,blackbird-cloud,17807,google,https://github.com/blackbird-cloud/terraform-google-gke-config-map,Terraform module to create a ConfigMap on GKE
 gke-ecommerce,Devgurusio,3703,gcp,https://github.com/Devgurusio/terraform-gcp-gke-ecommerce,Google Kubernetes Engine starter kit to bootstrap an e-commerce site based on microservices
 gke-eso-namespace,notablehealth,27190,google,https://github.com/notablehealth/terraform-google-gke-eso-namespace,Terraform module to setup ESO in a GKE namespace
 gke-factory,RonasIT,13101,google,https://github.com/RonasIT/terraform-google-gke-factory,
@@ -7850,12 +7851,12 @@ gke-helm-deployment,blackbird-cloud,15363,google,https://github.com/blackbird-cl
 gke-helm-vault,gatsbysghost,7545,google,https://github.com/scooberu/terraform-google-gke-helm-vault,Terraform module to generate a Hashicorp Vault cluster on GKE
 gke-iam,castai,13003,castai,https://github.com/castai/terraform-castai-gke-iam,CAST AI terraform module for GCP GKE IAM
 gke-image-pull-secret,LikeCarter,17562,google,https://github.com/LikeCarter/terraform-google-gke-image-pull-secret,Deploy image pull secret for private GCR containers on GKE cluster
-gke-image-pull-secret,blackbird-cloud,15329,google,https://github.com/blackbird-cloud/terraform-google-gke-image-pull-secret,Deploy image pull secret for private GCR containers on GKE cluster
+gke-image-pull-secret,blackbird-cloud,15329,google,https://github.com/blackbird-cloud/terraform-google-gke-image-pull-secret,Terraform module to create an Image Pull Secret on GKE
 gke-kube-prometheus-stack,ammilam,10951,google,https://github.com/ammilam/terraform-google-gke-kube-prometheus-stack,
 gke-kubeconfig,matti,2968,google,https://github.com/matti/terraform-google-gke-kubeconfig,
 gke-logsink-module,telia-oss,21410,gcp,https://github.com/telia-oss/terraform-gcp-gke-logsink-module,Terraform Google Cloud Logging Module for GKE/Anthos
 gke-module,gitrahimi,7922,google,https://github.com/gitrahimi/terraform-google-gke-module,This module creates a GKE cluster
-gke-monitoring-bundle,blackbird-cloud,15825,google,https://github.com/blackbird-cloud/terraform-google-gke-monitoring-bundle,BlackBird Cloud monitoring bundle wrapped for GKE deployment
+gke-monitoring-bundle,blackbird-cloud,15825,google,https://github.com/blackbird-cloud/terraform-google-gke-monitoring-bundle,Terraform module to deploy monitoring bundle on GKE
 gke-namespace,blackbird-cloud,15328,google,https://github.com/blackbird-cloud/terraform-google-gke-namespace,Simple namespace creator for GKE clusters
 gke-nfs,kiwicom,4150,kubernetes,https://github.com/kiwicom/terraform-kubernetes-gke-nfs,
 gke-node-pool,bborysenko,1036,google,https://github.com/bborysenko/terraform-google-gke-node-pool,Terraform Module to manage Google Kubernetes Engine Node Pool
@@ -7867,7 +7868,7 @@ gke-oom-kill-monitoring,AckeeCZ,13045,gcp,https://github.com/AckeeCZ/terraform-g
 gke-opinionated,bootlabstech,10993,google,https://github.com/bootlabstech/terraform-google-gke-opinionated,Terraform module for creating an opinionated gke cluster with two cluster node pools
 gke-private,runonautomation,7450,google,https://github.com/runonautomation/terraform-google-gke-private,Terraform repository module example for private GKE cluster provisioning
 gke-regional,woernfl,1838,gcp,https://github.com/woernfl/terraform-gcp-gke-regional,Using Terraform to create a regional GKE cluster (Hosted Kubernetes offering of GCP)
-gke-secret,blackbird-cloud,16437,google,https://github.com/blackbird-cloud/terraform-google-gke-secret,Rapid secret deployment on GKE cluster
+gke-secret,blackbird-cloud,16437,google,https://github.com/blackbird-cloud/terraform-google-gke-secret,Terraform module to create a Secret on GKE
 gke-tabnine,codota,19597,google,https://github.com/codota/terraform-google-gke-tabnine,Resilient and fault tolerant Tabnine installation using Google Kubernetes Engine (GKE)
 gke_cluster,Ahmeddevops-Github,7378,google,https://github.com/ahmedak-devops/terraform-google-gke_cluster,
 gke_cluster,airasia,4755,google,https://github.com/airasia/terraform-google-gke_cluster,Terraform module for a GKE Kubernetes Cluster in GCP
@@ -8646,6 +8647,7 @@ instance,dcos-terraform,1431,gcp,https://github.com/dcos-terraform/terraform-gcp
 instance,dcos-terraform,1537,azurerm,https://github.com/dcos-terraform/terraform-azurerm-instance,
 instance,eda-dev-test,12459,aws,https://github.com/eda-dev-test/terraform-aws-instance,
 instance,egee-irl,2103,linode,https://github.com/egeexyz/terraform-linode-instance," A simple Terraform module for creating instances in Linode."
+instance,elea0919,27565,module,https://github.com/elea0919/terraform-module-instance,
 instance,farrukh90,6807,rds,https://github.com/farrukh90/terraform-rds-instance,
 instance,foss-cafe,6074,aws,https://github.com/ionicloud/terraform-aws-instance,Terraform module for AWS ec2 instances
 instance,gulmira07,6815,rds,https://github.com/gulmira07/terraform-rds-instance,
@@ -11817,6 +11819,7 @@ notify-slack,hazmei,24701,aws,https://github.com/hazmei/terraform-aws-notify-sla
 notify-slack,itsyndicate,13656,aws,https://github.com/itsyndicate/terraform-aws-notify-slack,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack 🇺🇦
 notify-slack,terraform-aws-modules,805,aws,https://github.com/terraform-aws-modules/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack-kms,dod-iac,9039,aws,https://github.com/dod-iac/terraform-aws-notify-slack-kms,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack with KMS keys pre-configured
+novembe-2024r,RadmilaMu,27566,module,https://github.com/RadmilaMu/terraform-module-novembe-2024r,
 november,nazikmusa,27450,module,https://github.com/nazikmusa/terraform-module-november,
 november-2024,Bakyt65,27443,module,https://github.com/Bakyt65/terraform-module-november-2024,
 november-2024,BekturUbykeev,27448,module,https://github.com/BekturUbykeev/terraform-module-november-2024,
@@ -12224,7 +12227,7 @@ packer-cleanup,claranet,1323,aws,https://github.com/claranet/terraform-aws-packe
 packet-filter,sacloud,960,sakuracloud,https://github.com/sacloud/terraform-sakuracloud-packet-filter,Terraform module for provisioning packet-filter
 pact-broker,akadircakil,7284,kubernetes,https://github.com/akadircakil/terraform-kubernetes-pact-broker,Pack Broker Terraform Module For Kubernetes
 pacvue-wick,zhulei-pacvue,24679,opensearch,https://github.com/zhulei-pacvue/terraform-opensearch-pacvue-wick,
-page-rule,blackbird-cloud,16629,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-page-rule,Terraform module for CloudFlare page rule
+page-rule,blackbird-cloud,16629,cloudflare,https://github.com/blackbird-cloud/terraform-cloudflare-page-rule,Terraform module to create a Cloudflare Page Rule
 page-rules,Flaconi,24076,cloudflare,https://github.com/Flaconi/terraform-cloudflare-page-rules,This module will create Cloudflare Page Rules
 pageload,elisemercury,8554,thousandeyes,https://github.com/elisemercury/terraform-thousandeyes-pageload,Module that allows for page load testing with ThousandEyes through the Terraform platform.
 pagerduty-workflow,DTTerastar,21407,newrelic,https://github.com/DTTerastar/terraform-newrelic-pagerduty-workflow,
@@ -14573,7 +14576,7 @@ scheduler,kadzielawa,10425,aws,https://github.com/kadzielawa/terraform-aws-sched
 scheduler,naeemark,9470,google,https://github.com/naeemark/terraform-google-scheduler,A terraform test repo
 scheduler,teamdatatonic,8820,gcp,https://github.com/teamdatatonic/terraform-gcp-scheduler,
 scheduler-event,KamranBiglari,22103,aws,https://github.com/KamranBiglari/terraform-aws-scheduler-event,
-scheduler-function2,blackbird-cloud,18680,google,https://github.com/blackbird-cloud/terraform-google-scheduler-function2,Google generation 2 function with EventArc and Scheduler
+scheduler-function2,blackbird-cloud,18680,google,https://github.com/blackbird-cloud/terraform-google-scheduler-function2,Terraform module to create a Google Cloud Scheduler job
 schema,getindata,17183,snowflake,https://github.com/getindata/terraform-snowflake-schema,Terraform module for managing Snowflake schemas
 schematics-agent,terraform-ibm-modules,26192,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-schematics-agent,Creates a Schematics Agent and deploys it on the existing cluster.
 scp,boldlink,14891,aws,https://github.com/boldlink/terraform-aws-scp,Terraform registry repository for AWS Organizations SCP module
@@ -14623,7 +14626,7 @@ secret-manager,rbiomete,17291,aws,https://github.com/rbiomete/terraform-aws-secr
 secret-manager,teamdatatonic,8819,gcp,https://github.com/teamdatatonic/terraform-gcp-secret-manager,
 secret-manager,tomarv2,12766,google,https://github.com/tomarv2/terraform-google-secret-manager,Terraform module for Google Secret Manager
 secret-manager-iam,mineiros-io,11366,google,https://github.com/mineiros-io/terraform-google-secret-manager-iam,A Terraform module to manage Identity and Access Management (IAM) for secrets in Google Secret Manager in Google Cloud https://cloud.google.com/secret-manager
-secret-manager-secret,blackbird-cloud,18745,aws,https://github.com/blackbird-cloud/terraform-aws-secret-manager-secret,"Quickly generate AWS secret manager entry, useful for RDS password generation"
+secret-manager-secret,blackbird-cloud,18745,aws,https://github.com/blackbird-cloud/terraform-aws-secret-manager-secret,Terraform module to create an AWS Secret Manager secret
 secret-manager-secret,bootlabstech,12573,google,https://github.com/bootlabstech/terraform-google-secret-manager-secret,
 secret-manager-secret,bootlabstech-m,25579,aws,https://github.com/bootlabstech-m/terraform-aws-secret-manager-secret,
 secret-manager-with-rotation,giuseppeborgese,1897,aws,https://github.com/giuseppeborgese/terraform-aws-secret-manager-with-rotation,This module will create all the resources to store and rotate a MySQL or Aurora password using the AWS Secrets Manager service.
@@ -17588,6 +17591,7 @@ vpc,gitrahimi,5811,aws,https://github.com/gitrahimi/terraform-aws-vpc,A customiz
 vpc,glavk,13317,yandex,https://github.com/glavk/terraform-yandex-vpc,Terraform module which creates VPC resources on Yandex.Cloud
 vpc,gogosy,9962,aws,https://github.com/gogosy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,goquovn,15400,gcp,https://github.com/goquovn/terraform-gcp-vpc,
+vpc,govind0229,27564,aws,https://github.com/govind0229/terraform-aws-vpc,This is used to create vpc using egress and transit-gateway
 vpc,gulmira07,6717,aws,https://github.com/gulmira07/terraform-aws-vpc,
 vpc,gulshan9308,19800,module,https://github.com/gulshan9308/terraform-module-vpc,
 vpc,guze123,19794,module,https://github.com/guze123/terraform-module-vpc,
@@ -17717,6 +17721,7 @@ vpc,romagtgt,9371,aws,https://github.com/romagtgt/terraform-aws-vpc,
 vpc,ronithanand,8954,aws,https://github.com/ronithanand/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,rrgowd159,26826,aws,https://github.com/rrgowd159/terraform-aws-vpc,
 vpc,rshabralieva2024,24461,aws,https://github.com/rshabralieva2024/terraform-aws-vpc,
+vpc,rsharmaofficial,27563,aws,https://github.com/rsharmaofficial/terraform-aws-vpc,
 vpc,rstmvaaz,24151,aws,https://github.com/rstmvaaz/terraform-aws-vpc,
 vpc,ryanchun91,12626,aws,https://github.com/ryanchun91/terraform-aws-vpc,
 vpc,ryanef,23408,aws,https://github.com/ryanef/terraform-aws-vpc,aws vpc
@@ -18192,6 +18197,7 @@ vsocket-aws,catonetworks,26504,cato,https://github.com/catonetworks/terraform-ca
 vsocket-aws-vpc,catonetworks,26731,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws-vpc,
 vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
 vsocket-azure-vnet,catonetworks,26797,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-vnet,
+vsocket-gcp,catonetworks,27567,cato,https://github.com/catonetworks/terraform-cato-vsocket-gcp,
 vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
 vspan-session,netascode,17161,aci,https://github.com/netascode/terraform-aci-vspan-session,Terraform Cisco ACI VSPAN Session Module
 vsphere,NX1X,26331,vmware,https://github.com/NX1X/terraform-vmware-vsphere,This Terraform module allows you to deploy multiple virtual machines on VMware vSphere with the same configuration. It supports various operating systems and provides flexibility in configuring VM attributes. Disclaimer: This module was developed to serve my workplace. The repository is a template without credentials and is still under development.
@@ -18280,7 +18286,7 @@ wasm-enabled-static-s3-site,JustinJohnWilliams,22602,aws,https://github.com/Just
 watchmaker,plus3it,866,aws,https://github.com/plus3it/terraform-aws-watchmaker,Terraform module for Watchmaker
 watsonx-ai,terraform-ibm-modules,27313,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-ai,Terraform module to create and configure watsonx.ai Project
 watsonx-assistant,terraform-ibm-modules,27147,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-assistant,Terraform module to create and work with IBM watsonx Assistant.
-watsonx-data,terraform-ibm-modules,27146,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-data,
+watsonx-data,terraform-ibm-modules,27146,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-data,Terraform module to create and work with IBM watsonx.data
 watsonx-discovery,terraform-ibm-modules,27314,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-discovery,Terraform module to create and work with IBM watson Discovery.
 wayfinder,appvia,24606,aws,https://github.com/appvia/terraform-aws-wayfinder,Terraform Module for installing Wayfinder in AWS
 wayfinder,appvia,24607,azurerm,https://github.com/appvia/terraform-azurerm-wayfinder,Terraform Module for installing Wayfinder in Azure
