@@ -3292,6 +3292,7 @@ cloudinit,rsjethani,3231,libvirt,https://github.com/rsjethani/terraform-libvirt-
 cloudinit,tedivm,12433,general,https://github.com/tedivm/terraform-general-cloudinit,A cloudinit wrapper module that enables quick machine configuration
 cloudinit-example,devyanshi-t,11048,azure,https://github.com/devyanshi-t/terraform-azure-cloudinit-example,
 cloudinit-vm,ZacksHomeLab,19372,proxmox,https://github.com/ZacksHomeLab/terraform-proxmox-cloudinit-vm,Proxmox Terraform module to deploy Cloudinit VMs
+cloudinit-vm,dj-d,27631,proxmox,https://github.com/dj-d/terraform-proxmox-cloudinit-vm,Terraform module for provisioning and configuring VMs on Proxmox using Cloud-Init.
 cloudmap,finisterra-io,23554,aws,https://github.com/finisterra-io/terraform-aws-cloudmap,Terraform AWS Cloudmap module
 cloudquery,cloudquery,12928,aws,https://github.com/cloudquery/terraform-aws-cloudquery,Terraform module to deploy cloudquery
 cloudrun,JamesWoolfenden,21906,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloudrun,
@@ -6789,6 +6790,7 @@ eks-resources,rails-on-services,3600,k8s,https://github.com/rails-on-services/te
 eks-role-iam,castai,13025,castai,https://github.com/castai/terraform-castai-eks-role-iam,CAST AI terraform module providing access through AssumeRole IAM
 eks-roles,arkhoss,5165,aws,https://github.com/arkhoss/terraform-aws-eks-roles,"A terraform module to create all necessary resources for Admin, Operations and ViewOnly AWS policies/roles and its respective ClusterRoles, ClusterRoleBindings and its ConfigMap aws-auth."
 eks-s3-csi-driver,Z4ck404,22168,aws,https://github.com/Z4ck404/terraform-aws-eks-s3-csi-driver,A terraform module install s3 csi driver on an eks cluster and mount s3 as volume
+eks-s3-mount-point,aws-terraform-module,27623,aws,https://github.com/aws-terraform-module/terraform-aws-eks-s3-mount-point,
 eks-sandbox,nuonco,23827,aws,https://github.com/nuonco/terraform-aws-eks-sandbox,AWS EKS sandbox for Nuon apps.
 eks-secret-store-csi,blackbird-cloud,16688,aws,https://github.com/blackbird-cloud/terraform-aws-eks-secret-store-csi,Terraform module to deploy AWS Secret Store CSI driver on EKS
 eks-secrets-store-csi-driver,andreswebs,9893,aws,https://github.com/andreswebs/terraform-aws-eks-secrets-store-csi-driver,Deploys the Kubernetes Secrets Store CSI Driver via Helm on AWS EKS
@@ -7736,7 +7738,7 @@ github-oidc,rameshcreations,21551,aws,https://github.com/rameshcreations/terrafo
 github-oidc,saidsef,16406,aws,https://github.com/saidsef/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS
 github-oidc,saidsef,21553,gcp,https://github.com/saidsef/terraform-gcp-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in GCP
 github-oidc-iam,naftulikay,21604,aws,https://github.com/naftulikay/terraform-aws-github-oidc-iam,A Terraform module for AWS which sets up an IAM OpenID Connect Provider for GitHub and GitHub Actions.
-github-oidc-iam,srajasimman,27604,aws,https://github.com/srajasimman/terraform-aws-github-oidc-iam,Terraform module for set up OIDC and IAM for GitHub Actions in your AWS accounts
+github-oidc-iam,srajasimman,27628,aws,https://github.com/srajasimman/terraform-aws-github-oidc-iam,Terraform module for set up OIDC and IAM for GitHub Actions in your AWS accounts
 github-oidc-iam-role,amberhq,17380,aws,https://github.com/amberhq/terraform-aws-github-oidc-iam-role,Terraform module to provision resources to authenticate using OpenID Connect  with AWS in Github Actions workflows
 github-oidc-idp-role,ekanai,16820,aws,https://github.com/ekanai/terraform-aws-github-oidc-idp-role,
 github-oidc-provider,SamuelBagattin,12156,aws,https://github.com/SamuelBagattin/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect.
@@ -9732,6 +9734,7 @@ lambda-eden-api,baikonur-oss,3008,aws,https://github.com/baikonur-oss/terraform-
 lambda-edge-authentication,riboseinc,1923,aws,https://github.com/riboseinc/terraform-aws-lambda-edge-authentication,Terraform module for S3 website authentication via Lambda and CloudFront@Edge
 lambda-edge-azure-auth,nickshine,4576,aws,https://github.com/nickshine/terraform-aws-lambda-edge-azure-auth,An AWS CloudFront Lambda@Edge function to authenticate requests with Microsoft Azure AD.
 lambda-edge-function,dod-iac,4651,aws,https://github.com/dod-iac/terraform-aws-lambda-edge-function,AWS Lambda Function for use with Lambda@Edge
+lambda-edge-loggroups-retention-checker,giftomatic,27627,aws,https://github.com/giftomatic/terraform-aws-lambda-edge-loggroups-retention-checker,
 lambda-elasticsearch-cleanup,cloudposse,1892,aws,https://github.com/cloudposse/terraform-aws-lambda-elasticsearch-cleanup,Terraform module to provision a scheduled Lambda function which will delete old AWS ElasticSearch indices
 lambda-elasticsearch-cleanup,dntsk,4842,aws,https://github.com/dntsk/terraform-aws-lambda-elasticsearch-cleanup,Terraform module with AWS Lambda to cleanup ElasticSearch
 lambda-es-cleaner,baikonur-oss,2726,aws,https://github.com/baikonur-oss/terraform-aws-lambda-es-cleaner,Terraform module and Lambda for auto-deleting old indices in Elasticsearch
@@ -10429,6 +10432,7 @@ mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,Module to deploy infrastructure to generate energy labels for your AWS landing zone
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,Terraform module to create an AWS Fargate cluster
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
+mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,A Terraform module that creates a Glue job
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,Terraform module to create an AWS Lambda function
@@ -10760,6 +10764,7 @@ moduleApache,RillistikPete,19137,aws,https://github.com/RillistikPete/terraform-
 modulejan24,Mitchxxx,23520,eks,https://github.com/Mitchxxx/terraform-eks-modulejan24,Terraform AWS-EKS Module
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
 modules,EngMohamedElEmam,17845,azure,https://github.com/EngMohamedElEmam/terraform-azure-modules,Terraform Modules for Azure Services
+modules,KOTechnologiesLtd,27626,datadog,https://github.com/KOTechnologiesLtd/terraform-datadog-modules,KO Technologies Terraform Datadog Modules
 modules,RonasIT,21577,google,https://github.com/RonasIT/terraform-google-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
 modules,RonasIT,23650,aws,https://github.com/RonasIT/terraform-aws-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
 modules,Selleo,24280,aws,https://github.com/Selleo/terraform-aws-modules,Terraform AWS modules to copy to your project and adjust based on your needs
@@ -16461,6 +16466,7 @@ team,boldlink,13891,github,https://github.com/boldlink/terraform-github-team,Ter
 team,container-labs,7319,github,https://github.com/container-labs/terraform-github-team,
 team,crayon,15832,github,https://github.com/crayon/terraform-github-team,A module used to create and manage teams on GitHub
 team,dhoppeIT,11175,tfe,https://github.com/dhoppeIT/terraform-tfe-team,"Terraform module to manage the Terraform Cloud/Enterprise resources (tfe_team, tfe_team_organization_member, tfe_team_token)"
+team,emlegris,27630,tfe,https://github.com/emlegris/terraform-tfe-team,
 team,mineiros-io,4128,github,https://github.com/mineiros-io/terraform-github-team,A Terraform module to manage GitHub Teams. https://github.com/
 team,nephosolutions,25929,tfe,https://github.com/nephosolutions/terraform-tfe-team,Provisions a Terraform Cloud team
 team,terracharge,14099,github,https://github.com/terracharge/terraform-github-team,Module for creating terraform-github-team with provider github. This description is created automagically
