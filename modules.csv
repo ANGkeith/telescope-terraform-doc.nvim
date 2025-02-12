@@ -195,6 +195,7 @@ account-details,armakuni,21251,aws,https://github.com/armakuni/terraform-aws-acc
 account-factory,SudharsaneSivamany,24714,aws,https://github.com/SudharsaneSivamany/terraform-aws-account-factory,
 account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-account-identity,This terraform module creates identity roles in AWS.
 account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraform-aws-account-info,"A Terraform module which uses a number of datasources to read information about the current AWS account. Handy when used in combination with Terragrunt, one will have fewer variables to hardcode on the Terragrunt files."
+account-infrastructure-base,terraform-ibm-modules,27661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-account-infrastructure-base,A general base layer module for setting up a newly provisioned account.
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
 account-lookup,be-bold,18416,aws,https://github.com/be-bold/terraform-aws-account-lookup,This module lets you query your AWS accounts in different variations and even perform a simple search.
 account-security,DNXLabs,5717,aws,https://github.com/DNXLabs/terraform-aws-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
@@ -2400,6 +2401,7 @@ bgp-peer-prefix-policy,netascode,17015,aci,https://github.com/netascode/terrafor
 bgp-policy,netascode,9716,aci,https://github.com/netascode/terraform-aci-bgp-policy,Terraform Cisco ACI BGP Policy Module
 bgp-timer-policy,netascode,9718,aci,https://github.com/netascode/terraform-aci-bgp-timer-policy,Terraform Cisco ACI BGP Timer Policy Module
 bgtest,loafoe,8449,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-bgtest,Module to test blue-green deployment with Cloud foundry provider
+bhumi-test-VPC,bhumidonda,27662,aws,https://github.com/bhumidonda/terraform-aws-bhumi-test-VPC,
 big-lambda-function,PGBI,2831,aws,https://github.com/PGBI/terraform-aws-big-lambda-function,
 big-query,bootlabstech,12779,google,https://github.com/bootlabstech/terraform-google-big-query,module for big-query
 big-query-ml,bootlabstech,12902,google,https://github.com/bootlabstech/terraform-google-big-query-ml,Big Query ML
@@ -5732,7 +5734,7 @@ ec2-iam-role,Cloud-42,3909,aws,https://github.com/Cloud-42/terraform-aws-ec2-iam
 ec2-iam-role,Smartbrood,538,aws,https://github.com/Smartbrood/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,leonardobiffi,14374,aws,https://github.com/leonardobiffi/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,tkskwn,436,aws,https://github.com/tkskwn/terraform-aws-ec2-iam-role,AWS IAM Role module of Terraform.
-ec2-image-builder,aws-ia,21632,aws,https://github.com/aws-ia/terraform-aws-ec2-image-builder,
+ec2-image-builder,aws-ia,21632,aws,https://github.com/aws-ia/terraform-aws-ec2-image-builder,Terraform module for EC2 Image Builder
 ec2-image-builder,flowingis,14849,aws,https://github.com/flowingis/terraform-aws-ec2-image-builder,Terraform module which  creates EC2-Image-Builder resources
 ec2-image-transfer,outsideopen,6651,aws,https://github.com/outsideopen/terraform-aws-ec2-image-transfer,terraform-aws-ec2-image-transfer
 ec2-insatnce,Mayureshgithub,15896,aws,https://github.com/Mayureshgithub/terraform-aws-Ec2-insatnce,
@@ -7194,6 +7196,7 @@ external-secrets,dasmeta,25383,any,https://github.com/dasmeta/terraform-any-exte
 external-secrets,easy-modules,20114,easy,https://github.com/easy-modules/terraform-easy-external-secrets,External Secrets Operator is a Kubernetes operator that integrates external secret management
 external-secrets-deployment,jakoberpf,12675,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-external-secrets-deployment,Terreform module for integrated service deployment
 external-secrets-gcp,cloudwise-devops,26276,helm,https://github.com/cloudwise-devops/terraform-helm-external-secrets-gcp,Terraform module to install external secrets on GKE and connect to GCP
+external-secrets-operator,terraform-ibm-modules,27659,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-external-secrets-operator,Synchronizes secrets between Secrets Manager and an IBM Cloud OpenShift cluster
 external_access,airasia,4997,google,https://github.com/airasia/terraform-google-external_access,Terraform module for managing external accesses using IAM Roles in GCP
 extras,ridwanbejo,22800,netbox,https://github.com/ridwanbejo/terraform-netbox-extras,Terraform module for managing Netbox extras config
 ezbastion,juweins,20173,azurerm,https://github.com/juweins/terraform-azurerm-ezbastion,A lightweight terraform module for on-demand Azure Bastion Deployment
@@ -8740,6 +8743,7 @@ instance-profile,jwa-lab,18541,aws,https://github.com/jwa-lab/terraform-aws-inst
 instance-profile,ksatirli,21843,aws,https://github.com/ksatirli/terraform-aws-instance-profile,Terraform Module: Instance Profiles for AWS
 instance-template-module,elvinlari,16507,gcp,https://github.com/elvinlari/terraform-gcp-instance-template-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
 instance-types,delta50,3367,aws,https://github.com/delta50/terraform-aws-instance-types,Terraform module with AWS instance types.
+instance-with-docker,SimretTesfu,27663,aws,https://github.com/SimretTesfu/terraform-aws-instance-with-docker,
 instance-with-docker,Slhttnunlu,20775,aws,https://github.com/Slhttnunlu/terraform-aws-instance-with-docker,
 instance-with-terraform,ersinsari13,20813,aws,https://github.com/ersinsari13/terraform-aws-instance-with-terraform,Terraform module which creates ainstance with terraform resource on AWS.
 instance2,aika-l,27533,module,https://github.com/aika-l/terraform-module-instance2,
@@ -9013,7 +9017,6 @@ k8s-multus-gtp5g,boeboe,11164,aws,https://github.com/boeboe/terraform-aws-k8s-mu
 k8s-network,opzkit,10310,aws,https://github.com/opzkit/terraform-aws-k8s-network,
 k8s-node-pool,bfrunza,3531,google,https://github.com/bfrunza/terraform-google-k8s-node-pool,Terraform module which deploys a node-pool on GCP
 k8s-vm,seadiaz,4373,azurerm,https://github.com/seadiaz/terraform-azurerm-k8s-vm,Azure Virtual Machine resources Terraform module for k8s cluster.
-kafka,clouddrove,17373,aws,https://github.com/clouddrove/terraform-aws-msk,
 kafka,darzanebor,14842,yandex,https://github.com/darzanebor/terraform-yandex-kafka,Yandex.Cloud Terraform Kafka Cluster module
 kafka,finisterra-io,24232,kafka,https://github.com/finisterra-io/terraform-kafka-kafka,
 kafka,kabisa,13632,datadog,https://github.com/kabisa/terraform-datadog-kafka,
@@ -11620,6 +11623,7 @@ network-policy,Infostrux-Solutions,14990,snowflake,https://github.com/Infostrux-
 network-private,lukibsubekti,26760,upcloud,https://github.com/lukibsubekti/terraform-upcloud-network-private,
 network-privatelink,seg-way,20577,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
 network-privatelink,segateway,20636,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
+network-protocol-proxy,cruxstack,27665,aws,https://github.com/cruxstack/terraform-aws-network-protocol-proxy,
 network-resources,bootlabstech,20656,google,https://github.com/bootlabstech/terraform-google-network-resources,Creates GCP network resources
 network-security,Tzrlk,15853,aws,https://github.com/Tzrlk/terraform-aws-network-security,Terraform module to simplify the setting up of security groups and their relationships
 network-security-group,Azure,821,azurerm,https://github.com/Azure/terraform-azurerm-network-security-group,Terraform module to create a network security group and assign it to the specified subnet
@@ -13194,7 +13198,7 @@ rds-postgresql,vaseemw,17057,aws,https://github.com/vaseemw/terraform-aws-rds-po
 rds-privatelink,MaterializeInc,19317,aws,https://github.com/MaterializeInc/terraform-aws-rds-privatelink,A Terraform module for configuring RDS with AWS PrivateLink.
 rds-project,omiradil,8885,aws,https://github.com/omiradil/terraform-aws-rds-project,
 rds-proxy,clowdhaus,7301,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module to create AWS RDS Proxy resources 🇺🇦
-rds-proxy,terraform-aws-modules,13120,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module which creates AWS RDS Proxy resources 🇺🇦
+rds-proxy,terraform-aws-modules,13120,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module to create AWS RDS Proxy resources 🇺🇦
 rds-proxy,truemark,8264,aws,https://github.com/truemark/terraform-aws-rds-proxy,
 rds-replica,cloudposse,1961,aws,https://github.com/cloudposse/terraform-aws-rds-replica,Terraform module that provisions an RDS replica
 rds-saver,kota65535,17520,aws,https://github.com/kota65535/terraform-aws-rds-saver,
@@ -14603,6 +14607,7 @@ scalable-infrastructure,UpCloudLtd,13996,upcloud,https://github.com/UpCloudLtd/t
 scale_set_lb,Meydan52,14000,azure,https://github.com/Meydan52/terraform-azure-scale_set_lb,
 scaled-compute,ksatirli,21842,aws,https://github.com/ksatirli/terraform-aws-scaled-compute,Terraform Module: Scaled Compute for AWS
 scaleset,chaglare,7466,azure,https://github.com/chaglare/terraform-azure-scaleset,
+scanner,Relyance-Ext,27658,aws,https://github.com/Relyance-Ext/terraform-aws-scanner,Terraform for setting up Sierra Scanner Permissions
 scanner,opendevsecops,1772,aws,https://github.com/opendevsecops/terraform-aws-scanner,
 scc,terraform-ibm-modules,22872,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-scc,Configures an IBM Cloud Security and Compliance instance
 scc-workload-protection,terraform-ibm-modules,21803,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-scc-workload-protection,Module that supports provisioning a Security and Compliance Center Workload Protection instance
@@ -16344,6 +16349,7 @@ system-settings,terraform-cisco-modules,16182,aci,https://github.com/terraform-c
 systemd-unit,4ops,7280,null,https://github.com/4ops/terraform-null-systemd-unit,Terraform module
 systemd-wireguard,OJFord,13499,mullvad,https://github.com/OJFord/terraform-mullvad-systemd-wireguard,Terraform configuration for a Mullvad WireGuard VPN client in systemd
 systemd-wireguard,OJFord,6211,wireguard,https://github.com/OJFord/terraform-wireguard-systemd-wireguard,Configure a full-mesh WireGuard network (server provider-agnostic) with optional 'spoke' endpoints.
+t3.micro-instance-with-docker,SimretTesfu,27664,aws,https://github.com/SimretTesfu/terraform-aws-t3.micro-instance-with-docker,
 table,assemble-inc,1947,dynamodb,https://github.com/assembleinc/terraform-dynamodb-table,DynamoDB Terraform Module
 table-store,terraform-alicloud-modules,2269,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-table-store,Terraform module which creates OTS instance and table store on Alibaba Cloud
 tabular-storage-profile,tabular-io,20685,aws,https://github.com/tabular-io/terraform-aws-tabular-storage-profile,
@@ -18356,6 +18362,7 @@ watsonx-ai,terraform-ibm-modules,27313,ibm,https://github.com/terraform-ibm-modu
 watsonx-assistant,terraform-ibm-modules,27147,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-assistant,Terraform module to create and work with IBM watsonx Assistant.
 watsonx-data,terraform-ibm-modules,27146,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-data,Terraform module to create and work with IBM watsonx.data
 watsonx-discovery,terraform-ibm-modules,27314,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-discovery,Terraform module to create and work with IBM watson Discovery.
+watsonx-governance,terraform-ibm-modules,27660,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-watsonx-governance,Terraform module to create and work with IBM watsonx.governance.
 wayfinder,appvia,24606,aws,https://github.com/appvia/terraform-aws-wayfinder,Terraform Module for installing Wayfinder in AWS
 wayfinder,appvia,24607,azurerm,https://github.com/appvia/terraform-azurerm-wayfinder,Terraform Module for installing Wayfinder in Azure
 wayfinder,appvia,24608,google,https://github.com/appvia/terraform-google-wayfinder,Terraform Module for installing Wayfinder in GCP
