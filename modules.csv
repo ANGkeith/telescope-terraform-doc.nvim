@@ -3446,6 +3446,7 @@ cloudwatch-logs-management,Han-Lon,11270,aws,https://github.com/Han-Lon/terrafor
 cloudwatch-logs-subscription,observeinc,14042,aws,https://github.com/observeinc/terraform-aws-cloudwatch-logs-subscription,"Terraform module that sets up CloudWatch Log Group Subscription Filters. This makes it easier to forward log data to Observe, through the Observe Kinesis Firehose module."
 cloudwatch-logs-to-loggly,oss-group,15312,aws,https://github.com/oss-group/terraform-aws-cloudwatch-logs-to-loggly,Module to setup cloudwatch logging to loggly
 cloudwatch-metric-alarm,Cloud-42,7204,aws,https://github.com/Cloud-42/terraform-aws-cloudwatch-metric-alarm,Creates a CloudWatch metric alarm.
+cloudwatch-metric-filter-alarm,Aniketvaidhya,27681,aws,https://github.com/Aniketvaidhya/terraform-aws-cloudwatch-metric-filter-alarm,
 cloudwatch-metrics-for-ec2,robin-zhao,6658,aws,https://github.com/robin-zhao/terraform-aws-cloudwatch-metrics-for-ec2,This Terraform script creates a bunch of predefined Alarms to tagged EC2 instances
 cloudwatch-monitors,rhythmictech,3129,cis,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
 cloudwatch-mq,delivops,27279,aws,https://github.com/delivops/terraform-aws-cloudwatch-mq,Terraform-aws-cloudwatch-mq is a Terraform module for setting up a notification system about MQ metrics.
@@ -7133,6 +7134,7 @@ events,TaitoUnited,6156,google,https://github.com/TaitoUnited/terraform-google-e
 events,emyller,13449,aws,https://github.com/emyller/terraform-aws-events,
 evh,CloudNationHQ,23323,azure,https://github.com/CloudNationHQ/terraform-azure-evh,Terraform module which creates eventhub resources used by workloads and accelerators.
 evidence-reporter,kosli-dev,19697,aws,https://github.com/kosli-dev/terraform-aws-evidence-reporter,Terraform module to deploy the Kosli ECS Evidence Reporter
+evm-signer,RSS3-Network,27676,gcp,https://github.com/RSS3-Network/terraform-gcp-evm-signer,
 evpn,netascode,13473,nxos,https://github.com/netascode/terraform-nxos-evpn,Terraform NX-OS EVPN Module
 evpn-ospf-underlay,netascode,13445,iosxe,https://github.com/netascode/terraform-iosxe-evpn-ospf-underlay,Terraform Cisco IOS-XE EVPN OSPF Underlay Module
 evpn-ospf-underlay,netascode,13638,nxos,https://github.com/netascode/terraform-nxos-evpn-ospf-underlay,Terraform NX-OS EVPN OSPF Underlay Module
@@ -8062,6 +8064,7 @@ ha-vpc-module,binxio,13309,aws,https://github.com/binxio/terraform-aws-ha-vpc-mo
 habitat,devoptimist,2923,chef,https://github.com/srb3/terraform-chef-habitat,
 habitat,srb3,3922,chef,https://github.com/srb3/terraform-chef-habitat,
 hackathon,kadadhic,23707,ftdv,https://github.com/kadadhic/terraform-ftdv-hackathon,Terraform-module
+hah,hashi-at-home,27679,vault,https://github.com/hashi-at-home/terraform-vault-hah,Terraform for Vault component of Hashi@home
 hah-base,hashi-at-home,25346,digitalocean,https://github.com/hashi-at-home/terraform-digitalocean-hah-base,"base terraform definition of hashi-at-home consul cluster, but on digital ocean"
 hamid-module,hamidgit2021,22662,aws,https://github.com/hamidgit2021/terraform-aws-hamid-module,
 hana-cloud,codeyogi911,24474,sap,https://github.com/codeyogi911/terraform-sap-hana-cloud,Terraform module to create SAP HANA Cloud resources
@@ -8476,6 +8479,7 @@ iam-users,lablabs,4447,aws,https://github.com/lablabs/terraform-aws-iam-users,
 iam-users-groups,evairmarinho,8282,aws,https://github.com/evairmarinho/terraform-aws-iam-users-groups,Terraform module to create users and groups of IAM.
 iam-users-manager,lablabs,4555,aws,https://github.com/lablabs/terraform-aws-iam-users-manager,
 iam-users-module,LoreM9,3699,aws,https://github.com/LoreM9/terraform-aws-iam-users-module,
+iam-vpc-eks,lily4499,27686,aws,https://github.com/lily4499/terraform-aws-iam-vpc-eks,
 iam-web-identity,web-virtua-aws-multi-account-modules,18367,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-iam-web-identity,
 iam-wsc,mehdi-wsc,5189,aws,https://github.com/mehdi-wsc/terraform-aws-iam-wsc,Terraform Module to provide IAM 
 iamRole,myanees284,9429,aws,https://github.com/myanees284/terraform-aws-iamRole,
@@ -10227,7 +10231,7 @@ log-export,slitsevych,26135,google,https://github.com/slitsevych/terraform-googl
 log-export,terraform-google-modules,1632,google,https://github.com/terraform-google-modules/terraform-google-log-export,"Creates log exports at the project, folder, or organization level"
 log-export,tomarv2,12765,google,https://github.com/tomarv2/terraform-google-log-export,Terraform module for Google Project Log Export
 log-exporter,DNXLabs,5742,aws,https://github.com/DNXLabs/terraform-aws-log-exporter,This module creates a lambda function that exports log groups on the AWS account and region deployed.
-log-forwarder,ghostsecurity,27169,ghost,https://github.com/ghostsecurity/terraform-ghost-log-forwarder,The Ghost Security terraform module for log forwarding
+log-forwarder,ghostsecurity,27169,ghost,https://github.com/ghostsecurity/terraform-ghost-log-forwarder,The Ghost Security terraform module for forwarding logs from AWS
 log-group,Invicton-Labs,9188,aws,https://github.com/Invicton-Labs/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-group,Kalepa,16027,aws,https://github.com/Kalepa/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-ingestion-s3,ekanai,18883,newrelic,https://github.com/ekanai/terraform-newrelic-log-ingestion-s3,
@@ -10420,6 +10424,7 @@ matchbox,sacloud,2104,sakuracloud,https://github.com/sacloud-archives/terraform-
 materialize,MaterializeInc,27407,helm,https://github.com/MaterializeInc/terraform-helm-materialize,Terraform module for installing the Materialize Helm chart
 materialize,MaterializeInc,27408,aws,https://github.com/MaterializeInc/terraform-aws-materialize,Terraform module for deploying the required AWS infrastructure components for Materialize
 materialize,MaterializeInc,27409,google,https://github.com/MaterializeInc/terraform-google-materialize,Terraform module for deploying Materialize on GCP with all required infrastructure components.
+materialize,MaterializeInc,27677,azurerm,https://github.com/MaterializeInc/terraform-azurerm-materialize,Terraform module for deploying the required Azure infrastructure components for Materialize
 mathew,mathewd17,27298,aws,https://github.com/mathewd17/terraform-aws-mathew,
 matomo,philips-labs,7502,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-matomo,Terraform module for deploying matomo to cloudfoundry
 max-host,guyvelleman,11295,cidr,https://github.com/guyvelleman/terraform-cidr-max-host,Terraform module return the largest number we can represent in the remaining bits.
@@ -10466,6 +10471,7 @@ mcaf-role,schubergphilis,24422,aws,https://github.com/schubergphilis/terraform-a
 mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
 mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,Terraform module to create an AWS s3 bucket
 mcaf-saas-audit-logs,schubergphilis,25681,aws,https://github.com/schubergphilis/terraform-aws-mcaf-saas-audit-logs,Terraform module to fetch audit logs from SaaS providers
+mcaf-security-group,schubergphilis,27680,aws,https://github.com/schubergphilis/terraform-aws-mcaf-security-group,Terraform module to manage an AWS Security Group.
 mcaf-securityhub-findings-manager,schubergphilis,19581,aws,https://github.com/schubergphilis/terraform-aws-mcaf-securityhub-findings-manager,Terraform module to suppress specific events from security hub based on a dynamodb based configuration.
 mcaf-service-quotas-manager,schubergphilis,22514,aws,https://github.com/schubergphilis/terraform-aws-mcaf-service-quotas-manager,Terraform module to manage AWS Service Quotas within an AWS Organization
 mcaf-ses,schubergphilis,26057,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ses,Terraform module to configure SES.
@@ -10811,6 +10817,7 @@ modules,govardhanpagidi,21506,test,https://github.com/govardhanpagidi/terraform-
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
 modules,kodal035,19674,aws,https://github.com/kodal035/terraform-aws-modules,terraform-aws-modules
+modules,lily4499,27685,aws,https://github.com/lily4499/terraform-aws-modules,
 modules,makandra,16962,aws,https://github.com/makandra/terraform-aws-modules,Collection of some standard modules for deployment in AWS accounts.
 modules,mopopoola,23593,AWS,https://github.com/mopopoola/terraform-AWS-modules,
 modules,nag-gude,18794,gitlab,https://github.com/nag-gude/terraform-gitlab-modules,Terraform GitLab modules.
@@ -12634,7 +12641,7 @@ private-key,pmikus,20008,tls,https://github.com/pmikus/terraform-tls-private-key
 private-lb,libre-devops,13161,azurerm,https://github.com/libre-devops/terraform-azurerm-private-lb,"A module which tries to follow the ""KISS"" design model to deploying a Private Azure Load Balancer.  Will created 1 LBs and a backend pool based on some parameters :knife:"
 private-nat-vm,data-platform-hq,17497,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-nat-vm,
 private-network,terraform-hetzner-modules,27321,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-private-network,🚧 Set up private networks for your Hetzner Cloud servers to communicate
-private-network-with-nat-gateway,lefterisALEX,27205,hetzner,https://github.com/lefterisALEX/terraform-hetzner-private-network-with-nat-gateway,Create a private network with a NAT gateway and optionally a tailscale node
+private-network-with-nat-gateway,lefterisALEX,27675,hetzner,https://github.com/lefterisALEX/terraform-hetzner-private-network-with-nat-gateway,Create a private network with a NAT gateway and optionally a tailscale node
 private-registry-s3,StratusGrid,15010,aws,https://github.com/StratusGrid/terraform-aws-private-registry-s3,Creates a Private Terraform Provider Registry in S3.
 private-service-connect,RedisLabs,27621,rediscloud,https://github.com/RedisLabs/terraform-rediscloud-private-service-connect,
 private-sql-server,bootlabstech,17865,azurerm,https://github.com/bootlabstech/terraform-azurerm-sql-server-database,
@@ -15477,6 +15484,8 @@ sombra,transcend-io,4155,aws,https://github.com/transcend-io/terraform-aws-sombr
 some-vm,messypoutine,23879,google,https://github.com/messypoutine/terraform-google-some-vm,
 something,abhishekPhukan,22381,powermax,https://github.com/abhishekPhukan/terraform-powermax-something,
 sonarqube,cn-terraform,3243,aws,https://github.com/cn-terraform/terraform-aws-sonarqube,SonarQube Terraform Module for AWS
+sonarqube,nearform,27682,aws,https://github.com/nearform/terraform-aws-sonarqube,Terraform module for deploying SonarQube on AWS using infrastructure-as-code. This module simplifies provisioning and managing SonarQube as a containerized service in AWS environments.
+sonarqube,nearform,27684,azure,https://github.com/nearform/terraform-azure-sonarqube,Terraform module for deploying SonarQube on Azure with automated infrastructure provisioning. Designed to streamline the setup of SonarQube as a containerized service in Azure environments.
 sonarqube,squareops,26456,kubernetes,https://github.com/squareops/terraform-kubernetes-sonarqube,"The Terraform SonarQube module enables easy deployment of SonarQube using Helm on AWS, Azure, or GCP, providing comprehensive code quality and security analysis across cloud platforms."
 sonarqube,telia-oss,1451,aws,https://github.com/telia-oss/terraform-aws-sonarqube,A Terraform module for deploying Sonarqube.
 sonarqube-aci,Pwd9000-ML,14420,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-sonarqube-aci,"Public Terraform Registry module for setting up an AZURE hosted Sonarqube ACI instance incl. persistent PaaS Database (Azure SQL), PaaS File Share (Azure Files) and custom domain using reverse proxy (Caddy) sidecar container."
@@ -16040,7 +16049,7 @@ storage,clouddrove,16875,azure,https://github.com/clouddrove/terraform-azure-sto
 storage,crayudu425,26031,azure,https://github.com/crayudu425/terraform-azure-storage,
 storage,cypik,22759,google,https://github.com/cypik/terraform-google-storage,You can use Google Cloud Storage to store data in Google's cloud. Cloud storage is commonly used to store unstructured data
 storage,cypik,22786,azure,https://github.com/cypik/terraform-azure-storage,
-storage,diogofrj,27639,azurerm,https://github.com/diogofrj/terraform-azurerm-storage,Modulo Terraform para Storage Account
+storage,diogofrj,27639,azurerm,https://github.com/diogofrj/terraform-azurerm-storage,Microsoft Azure - Virtual Network Modules
 storage,dodevops,10999,azure,https://github.com/dodevops/terraform-azure-storage,Highly opinionated Terraform Storage management for Azure storage accounts
 storage,equinor,23377,azurerm,https://github.com/equinor/terraform-azurerm-storage,Terraform module which creates Azure Storage resources
 storage,heathen1878,19907,azurerm,https://github.com/heathen1878/terraform-azurerm-storage,Manages Azure Storage Accounts and associated features
@@ -18274,6 +18283,7 @@ vsocket-aws-vpc,catonetworks,26731,cato,https://github.com/catonetworks/terrafor
 vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
 vsocket-azure-vnet,catonetworks,26797,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-vnet,
 vsocket-gcp,catonetworks,27567,cato,https://github.com/catonetworks/terraform-cato-vsocket-gcp,
+vsocket-gcp-vpc,catonetworks,27678,cato,https://github.com/catonetworks/terraform-cato-vsocket-gcp-vpc,
 vspan-destination-group,netascode,17069,aci,https://github.com/netascode/terraform-aci-vspan-destination-group,Terraform Cisco ACI VSPAN Destination Group Module
 vspan-session,netascode,17161,aci,https://github.com/netascode/terraform-aci-vspan-session,Terraform Cisco ACI VSPAN Session Module
 vsphere,NX1X,26331,vmware,https://github.com/NX1X/terraform-vmware-vsphere,This Terraform module allows you to deploy multiple virtual machines on VMware vSphere with the same configuration. It supports various operating systems and provides flexibility in configuring VM attributes. Disclaimer: This module was developed to serve my workplace. The repository is a template without credentials and is still under development.
