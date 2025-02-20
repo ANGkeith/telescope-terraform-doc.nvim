@@ -8203,6 +8203,7 @@ helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital
 helper-elasticache,guidion-digital,27559,aws,https://github.com/guidion-digital/terraform-aws-helper-elasticache,Simple helper module to create Elasticache clusters
 helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
 helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
+helper-rds,guidion-digital,27721,aws,https://github.com/guidion-digital/terraform-aws-helper-rds,Creates RDS instances
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
 helper-ssm-parameters,guidion-digital,27440,aws,https://github.com/guidion-digital/terraform-aws-helper-ssm-parameters,Simple helper module to create SSM parameters
 helper-supporting-resources,guidion-digital,25329,aws,https://github.com/guidion-digital/terraform-aws-helper-supporting-resources,Able to create some (currently DynamoDB and SQS) resources for the to use
@@ -8456,7 +8457,7 @@ iam-roles,notablehealth,19561,google,https://github.com/notablehealth/terraform-
 iam-roles,rhythmictech,3141,rhythmic,https://github.com/rhythmictech/terraform-aws-rhythmic-iam-roles,Create and manage IAM roles for Rhythmic engineers to access accounts via cross-account IAM roles.
 iam-s3-user,cloudposse,1050,aws,https://github.com/cloudposse/terraform-aws-iam-s3-user,"Terraform module to provision a basic IAM user with permissions to access S3 resources, e.g. to give the user read/write/delete access to the objects in an S3 bucket"
 iam-s3-user,hadenlabs,13330,aws,https://github.com/hadenlabs/terraform-aws-iam-s3-user,Terraform aws iam s3 user
-iam-security-events-monitor,mjhfvi,27696,aws,https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor,aws iam module to get events monitor for security
+iam-security-events-monitor,mjhfvi,27696,aws,https://github.com/mjhfvi/terraform-aws-iam-security-events-monitor,aws module to get iam events to monitor for users security
 iam-service-account,nephosolutions,1224,google,https://github.com/nephosolutions/terraform-google-iam-service-account,Terraform module to provision Google Cloud Platform IAM service accounts
 iam-service-authorization,cloud-native-toolkit,14562,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-iam-service-authorization,Module to authorize one service to access another service
 iam-service-id,terraform-ibm-modules,20258,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-iam-service-id,Create an IAM service IDs and adds policies to them.
@@ -10325,7 +10326,7 @@ mackdelany,mackdelany,11578,aws,https://github.com/mackdelany/terraform-aws-mack
 madeinweb,eazevedo-cloud,23640,aws,https://github.com/eazevedo-cloud/terraform-aws-madeinweb,AWS TF Module
 madeinweb,eazevedo-cloud,23641,azure,https://github.com/eazevedo-cloud/terraform-azure-madeinweb,TF Azure
 madeinweb,eazevedo-cloud,23642,google,https://github.com/eazevedo-cloud/terraform-google-madeinweb,TF GCP
-maester,maester365,27718,azuredevops,https://github.com/maester365/terraform-azuredevops-maester,This Terraform Module will help you through setting up Maester in Azure DevOps and automate the running of tests using Azure DevOps Pipelines. 🔥
+maester,maester365,27720,azuredevops,https://github.com/maester365/terraform-azuredevops-maester,This Terraform Module will help you through setting up Maester in Azure DevOps and automate the running of tests using Azure DevOps Pipelines. 🔥
 maester-deployment,hlokensgard,26763,azure,https://github.com/hlokensgard/terraform-azure-maester-deployment,A terraform module for deploying the maester tool.
 mag,CloudNationHQ,26175,azure,https://github.com/CloudNationHQ/terraform-azure-mag,Terraform module which creates monitor action groups used by workloads and accelerators.
 magento,aws-ia,11562,adobe,https://github.com/aws-ia/terraform-adobe-magento,Adobe Magento
@@ -10754,6 +10755,7 @@ module-cyperf-app,armdupre,19511,google,https://github.com/armdupre/terraform-go
 module-domain,vnisolutions,21872,aws,https://github.com/vnisolutions/terraform-aws-module-domain,
 module-ecs-cluster,vnisolutions,21898,aws,https://github.com/vnisolutions/terraform-aws-module-ecs-cluster,
 module-eks,dinhdobathi1992,19245,aws,https://github.com/dinhdobathi1992/terraform-aws-module-eks,
+module-firewall-rules,tonnyluiz00,27725,gcp,https://github.com/tonnyluiz00/terraform-gcp-module-firewall-rules,Modulo para realizar a criação das rules no GCP
 module-hello-apache,AjanaLarry,14494,aws,https://github.com/AjanaLarry/terraform-aws-module-hello-apache,Terraform module will provision an EC2 Instance that is running an Apache server
 module-installer-acctest,hashicorp,799,aws,https://github.com/hashicorp/terraform-aws-module-installer-acctest,A placeholder Terraform module for acceptance tests of Terraform's module installer
 module-instance-db,MAARK,15021,linode,https://github.com/MAARK/terraform-linode-module-instance-db,"A linode module that creates a instance, a database and ties them togather with a stackscript"
@@ -10820,6 +10822,7 @@ modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws
 modules,ankush0991,16433,aws,https://github.com/Devops0091/terraform-aws-modules,
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
+modules,christianwatts73,27726,aws,https://github.com/christianwatts73/terraform-aws-modules,AWS Terraform modules
 modules,dasmeta,10391,aws,https://github.com/dasmeta/terraform-aws-modules,Terraform modules from DasMeta to manage AWS resources
 modules,dasmeta,11556,onpremise,https://github.com/dasmeta/terraform-onpremise-onpremise,Terraform modules for on premise setups
 modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-shared,Terraform modules that will work on any cloud (including on premise setups)
@@ -11655,7 +11658,7 @@ network-policy,Infostrux-Solutions,14990,snowflake,https://github.com/Infostrux-
 network-private,lukibsubekti,26760,upcloud,https://github.com/lukibsubekti/terraform-upcloud-network-private,
 network-privatelink,seg-way,20577,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
 network-privatelink,segateway,20636,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
-network-protocol-proxy,cruxstack,27665,aws,https://github.com/cruxstack/terraform-aws-network-protocol-proxy,
+network-protocol-proxy,cruxstack,27665,aws,https://github.com/cruxstack/terraform-aws-network-protocol-proxy,Terraform Module to deploy haproxy-based network proxy to expose private resource to externally to consumers such as vendors.
 network-resources,bootlabstech,20656,google,https://github.com/bootlabstech/terraform-google-network-resources,Creates GCP network resources
 network-security,Tzrlk,15853,aws,https://github.com/Tzrlk/terraform-aws-network-security,Terraform module to simplify the setting up of security groups and their relationships
 network-security-group,Azure,821,azurerm,https://github.com/Azure/terraform-azurerm-network-security-group,Terraform module to create a network security group and assign it to the specified subnet
@@ -12330,6 +12333,7 @@ pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pal
 palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
 palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-aws-palworld-windows,Terraform module for Palworld Server Infrastructure on AWS
 pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
+pamoncloud,cyberark,27723,cyberark,https://github.com/cyberark/terraform-cyberark-pamoncloud,
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panorama-onboarding,PaloAltoNetworks,25133,cloudngfw,https://github.com/PaloAltoNetworks/terraform-cloudngfw-panorama-onboarding,terraform-cloud-device-group-onboarding
@@ -12767,6 +12771,7 @@ project3,suzzala,9923,aws,https://github.com/suzzala/terraform-aws-project3,
 projecter,alexbasista,22378,tfe,https://github.com/alexbasista/terraform-tfe-projecter,Terraform module to create and configure Projects in Terraform Cloud/Enterprise.
 projects,tomaszkiewicz,16408,mysql,https://github.com/tomaszkiewicz/terraform-mysql-projects,Sample module for creating database projects
 prom-stack-dashboards,BeryJu,13251,kube,https://github.com/BeryJu/terraform-kube-prom-stack-dashboards,"Dashboards from https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack, as raw JSON"
+prometheus,Kairat-Z,27728,grafana,https://github.com/Kairat-Z/terraform-grafana-prometheus,
 prometheus,anvibo,2256,docker,https://github.com/bfrunza/terraform-docker-prometheus,
 prometheus,basisai,7702,helm,https://github.com/basisai/terraform-helm-prometheus,
 prometheus,boeboe,16425,helm,https://github.com/boeboe/terraform-helm-prometheus,Terraform module for Prometheus deployment on Kubernetes using Helm
@@ -17365,6 +17370,7 @@ vmext,gethuravi2020,22467,azurerm,https://github.com/gethuravi2020/terraform-azu
 vmmodule,Mamatha-Parvathaneni,14294,azure,https://github.com/Mamatha-Parvathaneni/terraform-azure-vmmodule,
 vms,lanets,3563,vsphere,https://github.com/lanets/terraform-vsphere-vms,A teraform module for deploy virtual machines on a vSphere cluster.
 vms,ulm0,3099,vsphere,https://github.com/ulm0/terraform-vsphere-vms,"  Create vSphere Linux VMs in a bulk from VM template"
+vms,web-virtua-gcp-multi-account-modules,27724,google,https://github.com/web-virtua-gcp-multi-account-modules/terraform-google-vms,
 vms-k8s,walmartdigital,5190,azurerm,https://github.com/walmartdigital/terraform-azurerm-vms-k8s,
 vmseries-modules,PaloAltoNetworks,11182,aws,https://github.com/PaloAltoNetworks/terraform-aws-vmseries-modules,Terraform Reusable Modules for VM-Series on AWS
 vmseries-modules,PaloAltoNetworks,11183,azurerm,https://github.com/PaloAltoNetworks/terraform-azurerm-vmseries-modules,Terraform Reusable Modules for VM-Series on Azure
@@ -17640,6 +17646,7 @@ vpc,chaglare,7199,aws,https://github.com/chaglare/terraform-aws-vpc,
 vpc,chanakyaDevOps,17505,aws,https://github.com/chanakyaDevOps/terraform-aws-vpc,An example of Terraform which brings up a VPC with Public/Private Subnets
 vpc,cheil-tech,14611,aws,https://github.com/cheil-tech/terraform-aws-vpc,
 vpc,chetanchatrath,12933,aws,https://github.com/chetanchatrath/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
+vpc,christianwatts73,27727,aws,https://github.com/christianwatts73/terraform-aws-vpc,Terraform VPC Module
 vpc,ckmzdevops,8808,aws,https://github.com/caglarkorkmaz/terraform-aws-vpc,"This module creates AWS VPC with 3 public ,3 private subnets ,IG and NAT."
 vpc,clayrisser,21415,aws,https://github.com/clayrisser/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,cloud-labs-infra,18657,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-vpc,
@@ -18089,6 +18096,7 @@ vpc-module,rajeevdl,8538,aws,https://github.com/rajeevdl/terraform-aws-vpc-modul
 vpc-module,reachmenetym,8541,aws,https://github.com/reachmenetym/terraform-aws-vpc-module,
 vpc-module,rohitsinghpanwar,25799,aws,https://github.com/rohitsinghpanwar/terraform-aws-vpc-module,
 vpc-module,scaleway,19071,scaleway,https://github.com/scaleway/terraform-scaleway-vpc-module,Terraform module for configuring a VPC
+vpc-module,sejaltyagi12,27722,aws,https://github.com/sejaltyagi12/terraform-aws-vpc-module,
 vpc-modules,claranet,739,aws,https://github.com/claranet/terraform-aws-vpc-modules,Terraform modules for AWS VPC management
 vpc-nat,viceIII,769,aws,https://github.com/viceIII/terraform-aws-vpc-nat,
 vpc-network,Nadir24950,24826,aws,https://github.com/Nadir24950/terraform-aws-vpc-network,A terraform module that provides an AWS network
