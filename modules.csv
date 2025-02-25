@@ -4563,6 +4563,7 @@ dlm-lifecycle-policies,julien-langlois,4502,aws,https://github.com/julien-langlo
 dlm-role,limitusus,8997,aws,https://github.com/limitusus/terraform-aws-dlm-role,Data Lifecycle Manager (DLM) role
 dlmautosnapshot,JamesWoolfenden,1954,aws,https://github.com/JamesWoolfenden/terraform-aws-dlmautosnapshot,Automates snapshots using the new DLM policy support in AWS and Terraform
 dlq,genstackio,8004,aws,https://github.com/genstackio/terraform-aws-dlq,Terraform module to create AWS SNS+SQS+S3 resources to handle Dead Letter Queue (DLQ)
+dls,arne-vl,27766,azurerm,https://github.com/arne-vl/terraform-azurerm-dls,"Terraform module that creates a storage account with bronze, silver and gold containers."
 dms,SevenPico,17975,aws,https://github.com/SevenPico/terraform-aws-dms,Terraform modules for provisioning and managing AWS DMS resources
 dms,cloudposse,15103,aws,https://github.com/cloudposse/terraform-aws-dms,Terraform modules for provisioning and managing AWS DMS resources
 dms,clowdhaus,10175,aws,https://github.com/terraform-aws-modules/terraform-aws-dms,Terraform module to create AWS DMS (Database Migration Service) resources 🇺🇦
@@ -5377,6 +5378,7 @@ dockerchris,Witheleft,16459,session5,https://github.com/Witheleft/terraform-sess
 dockercloud-swarm-role,npalm,756,aws,https://github.com/npalm/terraform-aws-dockercloud-swarm-role,Terraform module to create an AWS IAM role for Docker Cloud Swarm
 dockercomposehost,buildo,1321,aws,https://github.com/buildo/terraform-aws-dockercomposehost,Terraform module for creating EC2 instances with Docker and Docker Compose installed
 dockerinstance,zafer-barutcu,18414,aws,https://github.com/zafer-barutcu/terraform-aws-dockerinstance,Terraform module which creates a docker instance resource on AWS.
+dockerized-web-app,kobethuwis,27765,aws,https://github.com/kobethuwis/terraform-aws-dockerized-web-app,"Terraform module for deploying a Dockerized web application on AWS with ECS, ALB and EC2."
 dockermodule,aishasemerci,16383,session5,https://github.com/aishasemerci/terraform-session5-dockermodule,
 dockermodule,ayladrsn,16443,session5,https://github.com/ayladrsn/terraform-session5-dockermodule,
 dockermodule,fredw713,16388,session5,https://github.com/fredw713/terraform-session5-dockermodule,
@@ -7128,6 +7130,7 @@ eventbridge-invoke-lambda,1Mill,20911,aws,https://github.com/1Mill/terraform-aws
 eventbridge-lambda-trigger,daniel-devine-nrel,17868,aws,https://github.com/daniel-devine-nrel/terraform-aws-eventbridge-lambda-trigger,A public Terraform module used to create AWS EventBridge scheduled events for lambda functions.
 eventbridge-local-bus,akw-devsecops,24181,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-local-bus,
 eventbridge-log,barneyparker,22520,aws,https://github.com/barneyparker/terraform-aws-eventbridge-log,
+eventbridge-private-api-destination,tomkalesse,27767,aws,https://github.com/tomkalesse/terraform-aws-eventbridge-private-api-destination,Creates EventBridge API Destination for Private Endpoints / Networks
 eventbridge-publisher,akw-devsecops,24214,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-publisher,Creates IAM policy for an existing role to be able to publish events on a domain bus
 eventbridge-sqs,evolve-platform,27347,aws,https://github.com/evolve-platform/terraform-aws-eventbridge-sqs,Terraform module to manage Eventbridge in AWS 
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
@@ -10259,6 +10262,7 @@ log-export,terraform-google-modules,1632,google,https://github.com/terraform-goo
 log-export,tomarv2,12765,google,https://github.com/tomarv2/terraform-google-log-export,Terraform module for Google Project Log Export
 log-exporter,DNXLabs,5742,aws,https://github.com/DNXLabs/terraform-aws-log-exporter,This module creates a lambda function that exports log groups on the AWS account and region deployed.
 log-forwarder,ghostsecurity,27169,ghost,https://github.com/ghostsecurity/terraform-ghost-log-forwarder,The Ghost Security terraform module for forwarding logs from AWS
+log-forwarder,ghostsecurity,27760,azurerm,https://github.com/ghostsecurity/terraform-azurerm-log-forwarder,The Ghost Security terraform module for forwarding Azure Application Gateway logs to the Ghost platform
 log-group,Invicton-Labs,9188,aws,https://github.com/Invicton-Labs/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-group,Kalepa,16027,aws,https://github.com/Kalepa/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-ingestion-s3,ekanai,18883,newrelic,https://github.com/ekanai/terraform-newrelic-log-ingestion-s3,
@@ -11692,6 +11696,7 @@ network-security-group,srinivasan2022,24632,azurerm,https://github.com/srinivasa
 network-security-group,tomarv2,12221,azure,https://github.com/tomarv2/terraform-azure-network-security-group,Terraform module for Azure Network Security Group
 network-security-group,wang415,9502,azurerm,https://github.com/wang415/terraform-azurerm-network-security-group,Terraform module to create a network security group and assign it to the specified subnet
 network-skeleton,OT-CLOUD-KIT,4824,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton,This repository consists of Terraform module for network resources in AWS VPC.
+network-spoke,cdornele,27759,azure,https://github.com/cdornele/terraform-azure-network-spoke,Azure Virtual Network - Spoke - Terraform Module
 network-sqlmi,doherty100,2474,azurerm,https://github.com/doherty100/terraform-azurerm-network-sqlmi,Terraform Azure RM Module for Azure SQL Database Managed Instance Network
 network-subnet,mineiros-io,11744,google,https://github.com/mineiros-io/terraform-google-network-subnet,A Terraform module to create and manage subnets for a Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) https://cloud.google.com/vpc
 network-subnet,tasdikrahman,374,google,https://github.com/tasdikrahman/terraform-google-network-subnet,Terraform module : GCP : for creation of subnet inside a VPC network
@@ -13657,7 +13662,6 @@ repository-webhooks,IbdaaiCloud,27317,github,https://github.com/IbdaaiCloud/terr
 repository-webhooks,cloudposse,1724,github,https://github.com/cloudposse/terraform-github-repository-webhooks,Terraform module to provision webhooks on a set of GitHub repositories
 reposync,danielpodwysocki,11535,aws,https://github.com/danielpodwysocki/terraform-aws-reposync,A fully serverless RPM mirror implementation. 
 request-signer,Invicton-Labs,9874,aws,https://github.com/Invicton-Labs/terraform-aws-request-signer,Creates an AWS v4 signed request.
-res-app-containerapp,kewalaka,22564,azapi,https://github.com/kewalaka/terraform-azapi-res-app-containerapp,
 res-resources-resourcegroups,SkittleBomb,23599,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-resources-resourcegroups,Creates one or multiple resource groups
 res-service-plan,SkittleBomb,24815,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-service-plan,
 res-storage-storageaccount,SkittleBomb,23600,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-storage-storageaccount,Module to deploy storage accounts in Azure
@@ -16464,6 +16468,7 @@ tailscale,caius,23204,spacelift,https://github.com/caius/terraform-spacelift-tai
 tailscale,hazelops,20824,aws,https://github.com/hazelops/terraform-aws-tailscale,
 tailscale,lbrlabs,24671,cloudinit,https://github.com/lbrlabs/terraform-cloudinit-tailscale,Userdata configuration for Tailscale to use in your cloud server
 tailscale,masterpointio,19813,aws,https://github.com/masterpointio/terraform-aws-tailscale,Terraform module to provision a Tailscale Subnet Router into your AWS VPC
+tailscale-ec2,nabeken,27758,aws,https://github.com/nabeken/terraform-aws-tailscale-ec2,A Terraform module that provisions necessary resources for Talscale on EC2
 tailscale-exit-node,jlucktay,18741,google,https://github.com/jlucktay/terraform-google-tailscale-exit-node,Tailscale Exit Node on Google Cloud
 tailscale-operator,Feleuxens,22458,helm,https://github.com/Feleuxens/terraform-helm-tailscale-operator,Terraform module for provisioning Tailscale Operator
 tailscale-router,atomicobject,17820,aws,https://github.com/atomicobject/terraform-aws-tailscale-router,deploys a Tailscale subnet router container into an AWS VPC
@@ -16640,6 +16645,7 @@ terraform-enterprise-gke-hvd,hashicorp,25885,google,https://github.com/hashicorp
 terraform-enterprise-hvd,hashicorp,25896,azurerm,https://github.com/hashicorp/terraform-azurerm-terraform-enterprise-hvd,A Terraform module for provisioning and installing Terraform Enterprise on Azure virtual machines as described in HashiCorp Validated Designs
 terraform-enterprise-hvd,hashicorp,25897,aws,https://github.com/hashicorp/terraform-aws-terraform-enterprise-hvd,A Terraform module for provisioning and installing Terraform Enterprise on AWS EC2 as described in HashiCorp Validated Designs
 terraform-enterprise-hvd,hashicorp,25898,google,https://github.com/hashicorp/terraform-google-terraform-enterprise-hvd,A Terraform module for provisioning and installing Terraform Enterprise on Google Compute Engine as described in HashiCorp Validated Designs
+terraform-in-lambda,KamranBiglari,27763,aws,https://github.com/KamranBiglari/terraform-aws-terraform-in-lambda,
 terraform-init,telia-oss,1181,aws,https://github.com/telia-oss/terraform-aws-terraform-init,"Initialise the terraform state bucket, lock table and encryption key."
 terraform-instance,EdanurGega,23938,aws,https://github.com/EdanurGega/terraform-aws-terraform-instance,Terraform module which creates a Linux instance with Terraform installed
 terraform-instance,JayyyJayyyyy,23893,aws,https://github.com/JayyyJayyyyy/terraform-aws-terraform-instance,
@@ -17184,6 +17190,7 @@ version-source,viccro,18906,viccro,https://github.com/viccro/terraform-viccro-ve
 vertex-ai,GoogleCloudPlatform,24451,google,https://github.com/GoogleCloudPlatform/terraform-google-vertex-ai,Deploy Vertex AI resources
 vertex-cc-service-agent,teamdatatonic,16658,google,https://github.com/teamdatatonic/terraform-google-vertex-cc-service-agent,
 vertexai,bootlabstech,15801,google,https://github.com/bootlabstech/terraform-google-vertexai,vertex ai
+vertical-autoscaling,OPncfx,27762,aws,https://github.com/OPncfx/terraform-aws-vertical-autoscaling,Vertical autoscaling config for ECS tasks
 ververica-cloud,ververica,26121,aws,https://github.com/ververica/terraform-aws-ververica-cloud,Terraform modules to create AWS Resources that are used with Ververica Cloud
 vessl-eks-addons,vessl-ai,19721,aws,https://github.com/vessl-ai/terraform-aws-vessl-eks-addons,
 vessl-eks-node-group-iam,vessl-ai,19718,aws,https://github.com/vessl-ai/terraform-aws-vessl-eks-node-group-iam,IAM roles and policies for EKS node groups
