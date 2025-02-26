@@ -4413,7 +4413,7 @@ decider-module,rberecka,15165,rberecka,https://github.com/rberecka/terraform-rbe
 declare-ami-dependency,GoCarrot,12544,aws,https://github.com/GoCarrot/terraform-aws-declare-ami-dependency,Declare Ami Dependency creates an SSM Parameter that our CircleCI orb will reference in order to rebuild any AMIs which depend on a just rebuilt AMI
 dedicated-elb,FlexibleEngineCloud,20916,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-dedicated-elb,Terraform module which creates Dedicated Enhanced Elastic Load Balancer (ELB) resources on Flexible Engine
 dedicated-host,DanielRDias,6941,aws,https://github.com/DanielRDias/terraform-aws-dedicated-host,Terraform module which creates EC2 dedicated host on AWS. Required for macOS instances (mac1.metal)
-dedicated-host,terraform-ibm-modules,27231,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-dedicated-host,
+dedicated-host,terraform-ibm-modules,27231,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-dedicated-host,"This module provisions dedicated hosts and dedicated host groups, which are designed to provide total isolation, control, and security for your heavy, mission-critical workloads."
 deep-learning-lambda,kayvane1,11836,aws,https://github.com/kayvane1/terraform-aws-deep-learning-lambda,terraform module to create an efs-backed lambda using terraform to build and deploy serverless deep-learning end-points for inference
 deepmerge,Invicton-Labs,7543,null,https://github.com/Invicton-Labs/terraform-null-deepmerge,This module performs a deep map merge of standard Terraform maps/objects
 deepmerge,Kalepa,16026,null,https://github.com/Kalepa/terraform-null-deepmerge,This module performs a deep map merge of standard Terraform maps/objects
@@ -10181,6 +10181,7 @@ load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-goog
 load-balancer,aflalahmad,24700,azurerm,https://github.com/aflalahmad/terraform-azurerm-load-balancer,
 load-balancer,axetrading,16575,aws,https://github.com/axetrading/terraform-aws-load-balancer,
 load-balancer,bayudwiyansatria,11174,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-load-balancer,Provisioning Hetzner Cloud Load Balancer
+load-balancer,cdornele,27773,azure,https://github.com/cdornele/terraform-azure-load-balancer,Azure Load Balancer - Terraform Module
 load-balancer,clouddrove,17506,azure,https://github.com/clouddrove/terraform-azure-load-balancer,
 load-balancer,data-platform-hq,22422,azurerm,https://github.com/data-platform-hq/terraform-azurerm-load-balancer,Terraform module for creation Azure Load Balancer
 load-balancer,enocquet,24882,create,https://github.com/enocquet/terraform-create-load-balancer,
@@ -13742,6 +13743,7 @@ resource-provision,prophetstor-ai,8744,federatorai,https://github.com/prophetsto
 resource_group,TaleLearnCode,26379,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-resource_group,Terraform module for managing Azure Resource Groups.
 resource_group,sironite,17434,azurerm,https://github.com/sironite/terraform-azurerm-resource_group,Terraform module creates Azure resource group(s)
 resource_group-single,Muzammil-Naik,22340,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_group-single,
+resource_group_storage,Andr1yK,27771,azurerm,https://github.com/Andr1yK/terraform-azurerm-resource_group_storage,
 resource_group_storage,Darya-Savchenko,26912,azurerm,https://github.com/Darya-Savchenko/terraform-azurerm-resource_group_storage,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
@@ -14889,6 +14891,7 @@ security-group,Smartbrood,534,aws,https://github.com/Smartbrood/terraform-aws-se
 security-group,YohaiKorem,24340,aws,https://github.com/YohaiKorem/terraform-aws-security-group,
 security-group,a3linux,17997,aws,https://github.com/a3linux/terraform-aws-security-group,A simple terraform module to create AWS security group easy and flexible
 security-group,alibaba,69,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-security-group,Terraform module which creates Security Group and sets rules for it on Alibaba Cloud.
+security-group,avidhara,27768,aws,https://github.com/avidhara/terraform-aws-security-group,Terraform module for AWS Security Group
 security-group,axetrading,24954,aws,https://github.com/axetrading/terraform-aws-security-group,Terraform module that will generate security groups and security group rules
 security-group,bledrunner2049,6194,aws,https://github.com/bledrunner2049/terraform-aws-security-group,
 security-group,bryan-rhm,12037,aws,https://github.com/bryan-rhm/terraform-aws-security-group,Terraform AWS security group module
@@ -15397,6 +15400,7 @@ sivnags3,seshukalakurthi,25527,aws,https://github.com/seshukalakurthi/terraform-
 skaylink-agw-internal-https,skaylink,13603,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-agw-internal-https,Deploy an application gateway with internal https setup
 skaylink-aks,skaylink,13589,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-aks,Azure Kubernetes Service module for Skaylink (IQ3)
 skaylink-buildagents,skaylink,17013,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-buildagents,
+skaylink-dns-private-zone-delegation-multi-account,skaylink,27770,aws,https://github.com/skaylink/terraform-aws-skaylink-dns-private-zone-delegation-multi-account,
 skaylink-flexible-mysql,skaylink,16099,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-flexible-mysql,Deploy a flexible MySQL instance on Azure
 skaylink-grafana,skaylink,13953,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-grafana,Deploys an Azure managed Grafana instance with optional log analytics workspace.
 skaylink-linux-vm,skaylink,13602,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-linux-vm,Deploys a Linux virtual machine to Azure.
@@ -15536,6 +15540,7 @@ softether-radius-vpn,fivexl,7661,aws,https://github.com/fivexl/terraform-aws-sof
 software-project,sr2c,17429,gitlab,https://github.com/sr2c/terraform-gitlab-software-project,Git repository for a software project with optional GitHub mirror (GitLab) (Mirror of https://gitlab.com/sr2c/terraform-gitlab-software-project)
 solidblocks-cloud-init,pellepelster,25297,null,https://github.com/pellepelster/terraform-null-solidblocks-cloud-init,
 solidblocks-rds-postgresql,pellepelster,19095,hcloud,https://github.com/pellepelster/terraform-hcloud-solidblocks-rds-postgresql,A containerized PostgreSQL database with all batteries included backup solution powered by pgBackRest
+solutions,hazmei,27772,aws,https://github.com/hazmei/terraform-aws-solutions,Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules 🇺🇦
 solutions,terraform-aws-modules,19744,aws,https://github.com/terraform-aws-modules/terraform-aws-solutions,Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules 🇺🇦
 solutions-eksNodeUpdater,bdobay,20090,aws,https://github.com/bdobay/terraform-aws-solutions-eksNodeUpdater,Terraform module to periodically update EKS worker nodes to the latest patched AMI for the current version i.e 1.23.
 sombra,transcend-io,4155,aws,https://github.com/transcend-io/terraform-aws-sombra,Launch Sombra gateways on AWS using Terraform.
@@ -16239,6 +16244,7 @@ storageaccount,diwa31,21936,azure,https://github.com/diwa31/terraform-azure-stor
 storageaccount,gmadhubabu216,26385,azure,https://github.com/gmadhubabu216/terraform-azure-storageaccount,
 storageaccount,grateanil,24252,azure,https://github.com/grateanil/terraform-azure-storageaccount,
 storageaccount,hmtmh,27159,azure,https://github.com/hmtmh/terraform-azure-storageaccount,
+storageaccount,itboyssolutions,27769,azure,https://github.com/itboyssolutions/terraform-azure-storageaccount,
 storageaccount,karishmamantoo,26997,azure,https://github.com/karishmamantoo/terraform-azure-storageaccount,
 storageaccount,karthi18subramanian,27160,azure,https://github.com/karthi18subramanian/terraform-azure-storageaccount,
 storageaccount,nilesh11100,26390,azure,https://github.com/nilesh11100/terraform-azure-storageaccount,
