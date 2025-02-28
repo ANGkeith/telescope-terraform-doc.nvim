@@ -588,6 +588,7 @@ alb,taydinadnan,22437,aws,https://github.com/taydinadnan/terraform-aws-alb,
 alb,terraform-alicloud-modules,12688,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-alb,Terraform module which creates Application load balancer on Alibaba Cloud.
 alb,terraform-aws-modules,503,aws,https://github.com/terraform-aws-modules/terraform-aws-alb,Terraform module to create AWS Application/Network Load Balancer (ALB/NLB) resources 🇺🇦
 alb,terraform-yacloud-modules,17990,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-alb,Terraform module to manage Application Load Balancer (ALB) resources within the Yandex.Cloud.
+alb,tfstack,27787,aws,https://github.com/tfstack/terraform-aws-alb,Terraform module for deploying and managing an AWS Application Load Balancer (ALB)
 alb,tmknom,1810,aws,https://github.com/tmknom/terraform-aws-alb,Terraform module which creates ALB resources on AWS.
 alb,umotif-public,3722,aws,https://github.com/umotif-public/terraform-aws-alb,A Terraform module to create an AWS Application Load Balancer (ALB).
 alb,vnisolutions,17207,aws,https://github.com/vnisolutions/terraform-aws-alb,
@@ -1691,7 +1692,7 @@ automation_account,sironite,19997,azurerm,https://github.com/sironite/terraform-
 automount,abokov,1697,azurerm,https://github.com/abokov/terraform-azurerm-automount,
 automq-byoc-environment,AutoMQ,25832,aws,https://github.com/AutoMQ/terraform-aws-automq-byoc-environment,Terraform module to create AutoMQ BYOC resources with AWS providers
 automq-byoc-environment,AutoMQ,26125,huaweicloud,https://github.com/AutoMQ/terraform-huaweicloud-automq-byoc-environment,
-automq-byoc-environment,AutoMQ,26766,google,https://github.com/AutoMQ/terraform-google-automq-byoc-environment,https://registry.terraform.io/modules/AutoMQ/automq-byoc-environment/google/latest
+automq-byoc-environment,AutoMQ,26766,google,https://github.com/AutoMQ/terraform-google-automq-byoc-environment,
 autopilot,RJPearson94,6239,twilio,https://github.com/RJPearson94/terraform-twilio-autopilot,Terraform module for managing an autopilot assistant
 autopilot,layer-3,25294,google,https://github.com/layer-3/terraform-google-autopilot,
 autorotated-database-credentials,jessiehernandez,8806,aws,https://github.com/jessiehernandez/terraform-aws-autorotated-database-credentials,Module that creates an AWS Secrets Manager secret that holds database credentials and has a Lambda rotator function attached.
@@ -3255,6 +3256,7 @@ cloudfront-s3-cdn,juanConversalab,7206,aws,https://github.com/juanConversalab/te
 cloudfront-s3-cdn,nickpack,15798,aws,https://github.com/nickpack/terraform-aws-cloudfront-s3-cdn,"S3, Cloudfront, ACM and Route53 powered CDN populated with files from a local directory, file state managed by terraform."
 cloudfront-s3-object,QuiNovas,1555,aws,https://github.com/QuiNovas/terraform-aws-cloudfront-s3-object,"Creates or updates a cloudfront S3 orgin object, and then invalidates the object in cloudfront"
 cloudfront-s3-origin-acm,voquis,6031,aws,https://github.com/voquis/terraform-aws-cloudfront-s3-origin-acm,CloudFront distribution with S3 Origin and ACM Certificate
+cloudfront-s3-static-site,keidarcy,27788,aws,https://github.com/keidarcy/terraform-aws-cloudfront-s3-static-site,🌐 Terraform module for deploying secure static websites using AWS S3 and CloudFront with HTTPS support 🔐
 cloudfront-s3-update-only,aolvictim,17020,aws,https://github.com/aolvictim/terraform-aws-cloudfront-s3-update-only,
 cloudfront-s3-web,birkoff,25562,aws,https://github.com/birkoff/terraform-aws-cloudfront-s3-web,
 cloudfront-s3-website,HarishKM7,8616,aws,https://github.com/QloudX/terraform-aws-cloudfront-s3-website,Terraform module for S3 website with CloudFront.
@@ -8576,6 +8578,7 @@ image-manager,jd4883,9086,docker,https://github.com/jd4883/terraform-docker-imag
 image-optimization,lordz-ei,27594,cloudfront,https://github.com/lordz-ei/terraform-cloudfront-image-optimization,"Simple, performant and cost efficient solution for optimizing images using Amazon CloudFront, Amazon S3 and AWS Lambda using Terraform"
 image-pipeline,HappyPathway,27105,aws,https://github.com/HappyPathway/terraform-aws-image-pipeline,Terraform Module
 image-pipeline,roknsound,25866,aws,https://github.com/roknsound/terraform-aws-image-pipeline,Terraform Workspace
+image-pipeline-external,HappyPathway,27794,aws,https://github.com/HappyPathway/terraform-aws-image-pipeline-external,Terraform Module
 image-registry,cloud-native-toolkit,14564,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-image-registry,Terraform module that creates/verifies the IBM Cloud Image Registry namespace and (optionally) creates configuration in the cluster
 imagebuilder,Computer15776,13050,aws,https://github.com/Computer15776/terraform-aws-imagebuilder,Create full EC2 Image Builder flows with full flexibility
 imagebuilder,JamesWoolfenden,11815,aws,https://github.com/JamesWoolfenden/terraform-aws-imagebuilder,Basic Imagebuilder module
@@ -12354,7 +12357,8 @@ pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pal
 palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
 palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-aws-palworld-windows,Terraform module for Palworld Server Infrastructure on AWS
 pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
-pamoncloud,cyberark,27723,cyberark,https://github.com/cyberark/terraform-cyberark-pamoncloud,
+pamoncloud,cyberark,27792,aws,https://github.com/cyberark/terraform-aws-pamoncloud,
+pamoncloud,cyberark,27793,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud,
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panorama-onboarding,PaloAltoNetworks,25133,cloudngfw,https://github.com/PaloAltoNetworks/terraform-cloudngfw-panorama-onboarding,terraform-cloud-device-group-onboarding
@@ -14291,6 +14295,7 @@ s3-dummy,bootlabstech,14033,aws,https://github.com/bootlabstech/terraform-aws-s3
 s3-dynamodb-remote-backend,my-devops-way,13663,aws,https://github.com/my-devops-way/terraform-aws-s3-dynamodb-remote-backend,
 s3-encrypted,voquis,5326,aws,https://github.com/voquis/terraform-aws-s3-encrypted,Terraform module to create server-side encrypted S3 bucket
 s3-file-upload,barneyparker,22083,aws,https://github.com/barneyparker/terraform-aws-s3-file-upload,Upload a directory of files to S3 with their MIME type set automatically
+s3-heic-converter,keidarcy,27789,aws,https://github.com/keidarcy/terraform-aws-s3-heic-converter,🖼️ Terraform module for automated HEIC to JPEG conversion using AWS S3 and Lambda ⚡
 s3-home-folders,asabaini,5465,aws,https://github.com/asabaini/terraform-aws-s3-home-folders,Terraform code to create IAM users and a S3 Bucket structured as a unix home folder
 s3-iam,truemark,7147,aws,https://github.com/truemark/terraform-aws-s3-iam,
 s3-iam-policy,dod-iac,8113,aws,https://github.com/dod-iac/terraform-aws-s3-iam-policy,IAM policy that allows reading from a AWS S3 bucket.
@@ -15994,6 +15999,7 @@ staticwebsitepublic,a10951a217,16613,azurerm,https://github.com/a10951a217/terra
 staticwebsitepublic,abfonganf,22223,azurerm,https://github.com/abfonganf/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,adichan,12018,azurerm,https://github.com/adichan/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,adjune9811,24784,azurerm,https://github.com/adjune9811/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry 
+staticwebsitepublic,agilesolutions,27786,azurerm,https://github.com/agilesolutions/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,aidenxie11,27634,azure,https://github.com/aidenxie11/terraform-azure-staticwebsitepublic,
 staticwebsitepublic,ajayp2608,24315,azurerm,https://github.com/ajayp2608/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ajaytak19,13176,azurerm,https://github.com/ajaytak19/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -17791,7 +17797,6 @@ vpc,jwa-lab,18535,aws,https://github.com/jwa-lab/terraform-aws-vpc,
 vpc,kamitas15,9393,aws,https://github.com/kamitas15/terraform-aws-vpc,
 vpc,kasaikou,25337,aws,https://github.com/kasaikou/terraform-aws-vpc,The Terraform module creates AWS VPC.
 vpc,kedish9,6705,aws,https://github.com/kedish9/terraform-aws-vpc,
-vpc,keidarcy,17245,aws,https://github.com/keidarcy/terraform-aws-vpc,
 vpc,khann-adill,9961,aws,https://github.com/khann-adill/terraform-aws-vpc,
 vpc,kieranyio,24565,aws,https://github.com/kieranyio/terraform-aws-vpc,Terraform AWS VPC module
 vpc,kiwicom,3024,aws,https://github.com/kiwicom/terraform-aws-vpc,
@@ -18571,6 +18576,7 @@ windows-vm-domain-join,libre-devops,13498,azurerm,https://github.com/libre-devop
 windows-vm-e,mjohnston1986,9007,azurerm,https://github.com/mjohnston1986/terraform-azurerm-windows-vm-e,
 windows-vm-f,mjohnston1986,9008,azurerm,https://github.com/mjohnston1986/terraform-azurerm-windows-vm-f,
 windows-vm-scale-sets,libre-devops,23617,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-vm-scale-sets,A module used to deploy Windows Virtual Machine Scale Sets :rocket:
+windows-vm-scaleset,bootlabstech,27785,azurerm,https://github.com/bootlabstech/terraform-azurerm-windows-vm-scaleset,
 windows-web-app,heathen1878,19624,azurerm,https://github.com/heathen1878/terraform-azurerm-windows-web-app,Manages Azure App Service
 windows-web-app,libre-devops,13647,azurerm,https://github.com/libre-devops/terraform-azurerm-windows-web-app,A module used for creating an Azure Windows Web App 👌
 windows-webapp,JamesWoolfenden,20674,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-windows-webapp,
