@@ -2618,6 +2618,8 @@ budgets,instantstack,24460,aws,https://github.com/instantstack/terraform-aws-bud
 budgets-alerts,sculley,7340,aws,https://github.com/sculley/terraform-aws-budgets-alerts,Terraform module which deploys AWS Budgets alerts to your AWS account
 budgets-with-notify-lambda-vpc-params,boris-dyga-SM,22488,aws,https://github.com/boris-dyga-SM/terraform-aws-budgets-with-notify-lambda-vpc-params,Terraform module to manage AWS Budgets with the VPC params of the notifying Lambda.
 build,telekom-mms,20276,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-build,A Terraform module that manages the build resources from the azuredevops provider.
+build-local-to-cloud-active-active-connection-with-sdwan,alibabacloud-automation,28128,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-local-to-cloud-active-active-connection-with-sdwan,
+build-local-to-cloud-active-passive-connection-with-sdwan,alibabacloud-automation,28129,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-local-to-cloud-active-passive-connection-with-sdwan,
 build-with-cleanup,glenngillen,15355,gg,https://github.com/glenngillen/terraform-gg-build-with-cleanup,"Enabled build commands, compressing, and then cleanup as a Terraform module."
 buildevents-starter-pack,honeycombio,15529,honeycombio,https://github.com/honeycombio/terraform-honeycombio-buildevents-starter-pack,terraform module to setup Honeycomb resources to allow for getting started with exploring Buildevents sent from CI/CD pipelines
 bulk-file-copy,srb3,6258,util,https://github.com/srb3/terraform-util-bulk-file-copy,
@@ -5420,6 +5422,7 @@ docker-instances,mjbright,27473,docker,https://github.com/mjbright/terraform-doc
 docker-instancet,AlexDuncan2100,21556,aws,https://github.com/AlexDuncan2100/terraform-aws-docker-instancet,
 docker-instancev1,alpi1977,18460,aws,https://github.com/alpi1977/terraform-aws-docker-instancev1,
 docker-module,SenseiRofu,16107,aws,https://github.com/SenseiRofu/terraform-aws-docker-module,Terraform module which creates a docker instance resource on AWS.
+docker-module,ofidan,28138,aws,https://github.com/ofidan/terraform-aws-docker-module,Terraform module which creates a docker instance resource on AWS.
 docker-musti,karacaaslan,16414,aws,https://github.com/karacaaslan/terraform-aws-docker-musti,
 docker-registry,nullc4t,18011,vultr,https://github.com/const-tmp/terraform-vultr-docker-registry,Deploy docker registry with letsencrypt certificate and basic authentication to Vultr cloud
 docker-registry,o0th,9354,kubernetes,https://github.com/o0th/terraform-kubernetes-docker-registry,
@@ -7916,7 +7919,7 @@ github-oidc-provider,blueprismo,25587,aws,https://github.com/blueprismo/terrafor
 github-oidc-provider,terraform-module,14280,aws,https://github.com/terraform-module/terraform-aws-github-oidc-provider,Fully configurable terraform module to access AWS APIs from Github Actions through OpenID Connect. 
 github-oidc-provider,truemark,18049,aws,https://github.com/truemark/terraform-aws-github-oidc-provider,Create an OpenID Connect identity provider that allows GitHub actions to single-sign on your AWS account.
 github-oidc-provisioner,truemark,18270,aws,https://github.com/truemark/terraform-aws-github-oidc-provisioner,
-github-oidc-role,chrispsheehan,27735,aws,https://github.com/chrispsheehan/terraform-aws-github-oidc-role,
+github-oidc-role,chrispsheehan,27735,aws,https://github.com/chrispsheehan/terraform-aws-github-oidc-role,A terraform module for creating a self updating github OIDC role for AWS resources
 github-org,ngs,4917,cloudflare,https://github.com/ngs/terraform-cloudflare-github-org,CloudFlare Terraform module for setup GitHub organization verification.
 github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terraform-dnsimple-github-org-verification,Terraform Module: GitHub Organization verification record for DNSimple
 github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,CloudFlare Terraform module for setup GitHub Pages.
@@ -8022,6 +8025,7 @@ gke-autopilot-cluster,mineiros-io,12982,google,https://github.com/mineiros-io/te
 gke-autopilot-gitlab,Verhaeg,15868,google,https://github.com/Verhaeg/terraform-google-gke-autopilot-gitlab,Manages a GKE Autopilot together with GitLab with Helm charts
 gke-autopilot-mastodon,sparkfabrik,17708,google,https://github.com/sparkfabrik/terraform-google-gke-autopilot-mastodon,A terraform module to deploy a production-grade Mastodon instance on GKE Autopilot
 gke-basic,redeux,10428,google,https://github.com/redeux/terraform-google-gke-basic,
+gke-bucket-storage,FFerrinho,28136,google,https://github.com/FFerrinho/terraform-google-gke-bucket-storage,A Terraform module to provision and manage Google Buckets as GKE storage for pods.
 gke-cisco,namjachingu,8431,google,https://github.com/namjachingu/terraform-google-gke-cisco,"This module deploys a GKE cluster, with the purpose of running applications on the cluster. "
 gke-cluster,castai,13002,castai,https://github.com/castai/terraform-castai-gke-cluster,CAST AI terraform module for connecting an GKE cluster
 gke-cluster,iqz-systems,12029,google,https://github.com/iqz-systems/terraform-google-gke-cluster,Terraform module to create a GKE cluster with Dataplane V2.
@@ -10119,6 +10123,7 @@ landing-zone,qbeyond,17588,google,https://github.com/qbeyond/terraform-google-la
 landing-zone,terraform-ibm-modules,16660,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone,"Creates a fully customizable VPC environment and compute resources (VSI, Red Hat OpenShift) with presets designed to meet strict compliance needs."
 landing-zone-account-factory-role-based-sso,alibabacloud-automation,21563,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-account-factory-role-based-sso,
 landing-zone-actiontrail-log-archive,alibabacloud-automation,26937,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-actiontrail-log-archive,
+landing-zone-bootstrap,LeTuR,28135,azurerm,https://github.com/LeTuR/terraform-azurerm-landing-zone-bootstrap,Create a landing zone bootstrap.
 landing-zone-bootstrap,qbeyond,17577,google,https://github.com/qbeyond/terraform-google-landing-zone-bootstrap,"Terraform Module to enable critical organization-level functionalities that depend on broad administrative permissions, and prepare the prerequisites needed to enable automation in this and future stages."
 landing-zone-cloud-sso-multi-account-policy,terraform-alicloud-modules,12832,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloud-sso-multi-account-policy,Terraform module which creates RD account and manage it policy by cloud sso on Alibaba Cloud.
 landing-zone-cloudsso,alibabacloud-automation,26905,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-landing-zone-cloudsso,
@@ -10698,6 +10703,7 @@ mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,Terraform module to setup and manage various components of the AWS Landing Zone.
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,Terraform module to setup and manage AWS network firewall
+mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,Terraform module to configure an IAM OIDC identity provider in AWS and create roles using this provider.
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,Terraform module to manage an AWS Organization.
 mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,Terraform module to create and manage a GitLab project.
 mcaf-redshift,schubergphilis,26147,aws,https://github.com/schubergphilis/terraform-aws-mcaf-redshift,Terraform module to setup and manage an AWS Redshift cluster.
@@ -12681,11 +12687,11 @@ pki-secret-backend-role,pmikus,18695,vault,https://github.com/pmikus/terraform-v
 placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lambda-placeholder,Placeholders for AWS Lambda to be used when creating Lambda functions with Terraform
 placement-group,terraform-navercloudplatform-modules,25189,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-placement-group,Terraform module to create placement group resources
 plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,Terraform module which service plans used by workloads and accelerators.
+platform,Jamf-Concepts,28137,jamf,https://github.com/Jamf-Concepts/terraform-jamf-platform,Terraform configurations around the Jamf Platform
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
 platform,cloudposee,28107,datadog,https://github.com/cloudposee/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Terraform module for the deployment of the GrayMeta Platform into AWS. Contact GrayMeta for an enterprise license to gain access to the required AMIs.
-platform,jamf,27607,jamf,https://github.com/jamf/terraform-jamf-platform,Terraform configurations around the Jamf Platform
 platform,kuptan-platform,17570,aws,https://github.com/kuptan-platform/terraform-aws-platform,terraform code for creating a Kubernetes platform on AWS
 platform,neutrinobaas,18611,neutrinobaas,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
 platform,streamx-dev,27432,azurerm,https://github.com/streamx-dev/terraform-azurerm-platform,
@@ -12710,6 +12716,7 @@ pod-setup,netascode,10244,aci,https://github.com/netascode/terraform-aci-pod-set
 pods-oom-op-pack,terraform-shoreline-modules,13395,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-pods-oom-op-pack,Shoreline platform Op Packs (Terraform modules) for pods OOM detection and notification.
 polardb-mysql,terraform-alicloud-modules,12816,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-mysql,Terraform Module for creating PolarDB for MySQL on Alibaba Cloud.
 polardb-postgresql,terraform-alicloud-modules,12817,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-postgresql,Terraform Module for creating PolarDB for PostgreSQL on Alibaba Cloud.
+polaris,Fr0ntierX,28132,google,https://github.com/Fr0ntierX/terraform-google-polaris,
 polaris-cloud-native,rubrikinc,22600,aws,https://github.com/rubrikinc/terraform-aws-polaris-cloud-native,
 polaris-cloud-native-archival-location,rubrikinc,22901,aws,https://github.com/rubrikinc/terraform-aws-polaris-cloud-native-archival-location,Adds an archival location to an AWS account in Rubrik Security Cloud
 polaris-cloud-native-customer-managed-exocompute,rubrikinc,22902,aws,https://github.com/rubrikinc/terraform-aws-polaris-cloud-native-customer-managed-exocompute,Creates a customer hosted Exocompute configation and supporting resoruces for RSC.
@@ -17212,7 +17219,7 @@ transfer-server,felipefrizzo,3852,aws,https://github.com/felipefrizzo/terraform-
 transfer-server-ad,StratusGrid,15143,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-ad,This is a Terraform module to integrate the AWS SFTP Transfer Family Service to an existing AWS AD/Connector
 transfer-server-custom-idp,StratusGrid,6548,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-custom-idp,This is a Terraform module to create a custom identity provider based on AWS Secrets for the AWS SFTP service.
 transfer-server-custom-idp-user,StratusGrid,6549,aws,https://github.com/StratusGrid/terraform-aws-transfer-server-custom-idp-user,This is a Terraform module to create users for the AWS SFTP service based on custom identity provider using AWS Secrets Manager.
-transfer-server-sftp,vishal-cpu,27803,aws,https://github.com/vishal-cpu/terraform-aws-transfer-server-sftp,AWS Transfer Server SFTP
+transfer-server-sftp,vishal-cpu,28130,aws,https://github.com/vishal-cpu/terraform-aws-transfer-server-sftp,AWS Transfer Server SFTP
 transfer-server-user,aisamji,3707,aws,https://github.com/aisamji/terraform-aws-transfer-server-user,
 transfer-sftp,appzen-oss,13302,aws,https://github.com/appzen-oss/terraform-aws-transfer-sftp,
 transfer-sftp,cloudposee,28097,aws,https://github.com/cloudposee/terraform-aws-transfer-sftp,
@@ -17493,6 +17500,7 @@ vcsa_config,rptcloud,6387,vsphere,https://github.com/rptcloud/terraform-vsphere-
 vds-portgroups,kalenarndt,11436,vsphere,https://github.com/kalenarndt/terraform-vsphere-vds-portgroups,Terraform module that creates Virtual Distributed Switch Port Groups. 
 vector,nlamirault,7660,google,https://github.com/nlamirault/terraform-google-vector,Terraform module for Vector
 vector,nlamirault,7689,aws,https://github.com/nlamirault/terraform-aws-vector,Terraform module for Vector
+vector,pixel8labs,28131,google,https://github.com/pixel8labs/terraform-google-vector,
 veenastorage,veena259,24728,azure,https://github.com/veena259/terraform-azure-veenastorage,
 velero,djangoflow,16143,google,https://github.com/djangoflow/terraform-google-velero,Opinionated Velero deployment to Google GKE/GCS
 velero,dodevops,11000,azure,https://github.com/dodevops/terraform-azure-velero,Highly opinionated management of Kubernetes backup with velero on AKS (Azure Kubernetes Service)
