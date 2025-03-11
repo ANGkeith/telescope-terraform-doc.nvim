@@ -2082,6 +2082,7 @@ azure-app-service,pagopa-dx,28188,azurerm,https://github.com/pagopa-dx/terraform
 azure-app-service-exposed,pagopa-dx,28189,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-app-service-exposed,Creates an Azure App Service configured for external access
 azure-app-service-linux,intel,17533,intel,https://github.com/intel/terraform-intel-azure-app-service-linux,Intel Cloud Optimization Module - Azure App Service Linux Web App
 azure-app-service-plan,intel,17534,intel,https://github.com/intel/terraform-intel-azure-app-service-plan,Intel Cloud Optimization Module - Azure App Service Plan
+azure-app-service-plan-autoscaler,pagopa-dx,28203,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-app-service-plan-autoscaler,Configures autoscaling rules for Azure App Service Plans
 azure-app-service-windows,intel,18798,intel,https://github.com/intel/terraform-intel-azure-app-service-windows,Intel Cloud Optimization Module - Azure App Service Windows Web App
 azure-auth-backend,ptonini,16786,vault,https://github.com/ptonini/terraform-vault-azure-auth-backend,
 azure-auth-method,devops-rob,11709,vault,https://github.com/devops-rob/terraform-vault-azure-auth-method,This Terraform module enables and configures teh Azure auth method in HashiCorp Vault to enable workload authentication from Azure to HashiCorp Vault.
@@ -2105,6 +2106,8 @@ azure-container-instance,libre-devops,13438,azurerm,https://github.com/libre-dev
 azure-container-registry,libre-devops,13434,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-container-registry,A module used to deploy an Azure Container Regstiry :fire:
 azure-controller,AviatrixSystems,11348,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-azure-controller,Terraform module for Aviatrix Controller launch on Azure
 azure-controlplane,terraform-aviatrix-modules,26617,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-controlplane,
+azure-core-infra,pagopa-dx,28204,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-core-infra,"Sets up the core Azure infrastructure including VNet, DNS zones, and Key Vault. Useful to bootstrap production or development environments."
+azure-cosmos-account,pagopa-dx,28205,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-cosmos-account,Provisions an Azure Cosmos DB account with monitoring and network settings
 azure-credential,Azure-Terraformer,26734,github,https://github.com/Azure-Terraformer/terraform-github-azure-credential,
 azure-csr1000v,jye-aviatrix,14939,azure,https://github.com/jye-aviatrix/terraform-azure-azure-csr1000v,"In specified Azure region, create a Cisco CSR1000v BYOL router.  Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-databricks,dataforgelabs,21186,dataforge,https://github.com/dataforgelabs/terraform-dataforge-azure-databricks,
@@ -2114,13 +2117,18 @@ azure-demo1,dabhadv92,24669,cloud,https://github.com/dabhadv92/terraform-cloud-a
 azure-devops-agent,tonyskidmore,18726,kubernetes,https://github.com/tonyskidmore/terraform-kubernetes-azure-devops-agent,
 azure-devops-elasticpool,tonyskidmore,16176,shell,https://github.com/tonyskidmore/terraform-shell-azure-devops-elasticpool,Terraform Azure DevOps Scale Set Agent module
 azure-er,bayupw,18060,equinix,https://github.com/bayupw/terraform-equinix-azure-er,"Terraform module for creating Azure Express Route via Equinix Fabric with options to create GatewaySubnet, VNG, and circuit peering."
+azure-event-hub,pagopa-dx,28206,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-event-hub,Creates an Azure Event Hub with monitoring and network configuration
+azure-federated-identity-with-github,pagopa-dx,28207,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-federated-identity-with-github,Sets up federated identity between Azure and GitHub for authentication
 azure-filestorage,ravensorb,13897,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filestorage,Terraform module for setting up Azure File Storage and Shares
 azure-filesync,ravensorb,13549,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-filesync,Terraform module for creating and setting up Azure FileSync
 azure-firewall,data-platform-hq,21919,azurerm,https://github.com/data-platform-hq/terraform-azurerm-azure-firewall,
 azure-firewall,jsathler,21063,azurerm,https://github.com/jsathler/terraform-azurerm-azure-firewall,
 azure-function,crisnicogonzalez,26066,nuberu,https://github.com/crisnicogonzalez/terraform-nuberu-azure-function,
+azure-function-app,pagopa-dx,28208,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-function-app,"Deploys an Azure Function App with storage, networking and RBAC configuration"
+azure-function-app-exposed,pagopa-dx,28209,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-function-app-exposed,Creates an Azure Function App configured for external access
 azure-function-powershell,JustinGrote,2518,azurerm,https://github.com/JustinGrote/terraform-azurerm-azure-function-powershell,Deploys a Azure Functions Powershell Worker along with Application Insights and a Key Vault
 azure-functions-static-site,reifnir,8337,azurerm,https://github.com/reifnir/terraform-azurerm-azure-functions-static-site,This module creates an Azure Functions application that serves a static content.
+azure-github-environment-bootstrap,pagopa-dx,28210,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-github-environment-bootstrap,Sets up monorepo's settings and required Azure permissions and roles
 azure-infrastructure,ikigailabs,25077,ikigai,https://github.com/ikigailabs/terraform-ikigai-azure-infrastructure,Creates all of the Azure infrastructure necessary to launch the Ikigai application 
 azure-interconnect,maxjahn,5872,oci,https://github.com/maxjahn/terraform-oci-azure-interconnect,Include an OCI-Azure interconnect in your project more easily by using this terraform module
 azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-azure-k8s,
@@ -2134,7 +2142,9 @@ azure-mssql,intel,17535,intel,https://github.com/intel/terraform-intel-azure-mss
 azure-mssql-managed-instance,intel,20480,intel,https://github.com/intel/terraform-intel-azure-mssql-managed-instance,Intel Cloud Optimization Module - Azure MSSQL Managed Instance
 azure-mssql-server,libre-devops,18599,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-mssql-server,A module used to deploy an Azure MSSQL Server and some extra add-ons like elastic pool :fire:
 azure-mysql-flexible-server,intel,16905,intel,https://github.com/intel/terraform-intel-azure-mysql-flexible-server,Intel Cloud Optimization Module - Azure MySQL Flexible Server
+azure-naming-convention,pagopa-dx,28211,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-naming-convention,Provides standardized naming convention for Azure resources following best practices and organizational patterns
 azure-policy,heathen1878,27399,azapi,https://github.com/heathen1878/terraform-azapi-azure-policy,Manages Policy Assignments within Azure; predominantly nested within other modules
+azure-postgres-server,pagopa-dx,28212,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-postgres-server,Deploys and configures Azure PostgreSQL Flexible Server with monitoring and networking capabilities
 azure-postgresql-flexible-server,intel,16906,intel,https://github.com/intel/terraform-intel-azure-postgresql-flexible-server,Intel Cloud Optimization Module - Azure PostgreSQL Flexible Server
 azure-role,ptonini,16789,vault,https://github.com/ptonini/terraform-vault-azure-role,
 azure-role-assignments,pagopa-dx,28178,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-role-assignments,Manages Azure RBAC role assignments for resources and security principals
@@ -2143,6 +2153,7 @@ azure-secrets-engine,devops-rob,7436,vault,https://github.com/devops-rob/terrafo
 azure-spoke,terraform-aviatrix-modules,5584,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-spoke,This module deploys a VNET and an Aviatrix spoke gateway in Azure and attaches it to an Aviatrix Transit Gateway
 azure-sql-server,kabisa,14218,datadog,https://github.com/kabisa/terraform-datadog-azure-sql-server,
 azure-storage,nk2135,19642,nk,https://github.com/nk2135/terraform-nk-azure-storage,
+azure-storage-account,pagopa-dx,28213,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-storage-account,"Provisions an Azure Storage Account with networking, monitoring, and security configurations"
 azure-storage-sas,datarootsio,5851,module,https://github.com/datarootsio/terraform-module-azure-storage-sas,Terraform module for Azure Storage SAS tokens
 azure-tenant,streamsec-terraform,25411,streamsec,https://github.com/streamsec-terraform/terraform-streamsec-azure-tenant,Terraform module for azure tenant
 azure-terraformer,markti,19962,azuredevops,https://github.com/markti/terraform-azuredevops-azure-terraformer,A collection of Terraform modules that provision to Azure DevOps
@@ -3041,6 +3052,7 @@ cloud-depoy,evilDr4gon,26930,google,https://github.com/evilDr4gon/terraform-goog
 cloud-dns,TerraPros,27856,google,https://github.com/TerraPros/terraform-google-cloud-dns,Creates and manages Cloud DNS public or private zones and their records
 cloud-dns,TerraformFoundation,27932,google,https://github.com/TerraformFoundation/terraform-google-cloud-dns,Creates and manages Cloud DNS public or private zones and their records
 cloud-dns,terraform-google-modules,2616,google,https://github.com/terraform-google-modules/terraform-google-cloud-dns,Creates and manages Cloud DNS public or private zones and their records
+cloud-dns-workspace-gmail,oratan-com,28202,google,https://github.com/oratan-com/terraform-google-cloud-dns-workspace-gmail,This module creates DNS records in GCP Cloud DNS for Google Workspace (formerly G Suite) Gmail.
 cloud-firewall,deff-dev,22547,timeweb,https://github.com/deff-dev/terraform-timeweb-cloud-firewall,Terraform module which creates firewall on TimeWeb Cloud
 cloud-firewall,terraform-alicloud-modules,12790,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cloud-firewall,Terraform Module for creating Cloud Firewall resources on Alibaba Cloud.
 cloud-function,Karthik-13,2596,google,https://github.com/Karthik-13/terraform-google-cloud-function,Terraform module for creating a Cloud Function with HTTP trigger in GCP
@@ -7972,6 +7984,7 @@ github-runner,waylew-lexis,11397,azurerm,https://github.com/waylew-lexis/terrafo
 github-runners,cloudandthings,15527,aws,https://github.com/cloudandthings/terraform-aws-github-runners,"Deploy GitHub Action runners in your AWS Account. Uses AWS CodeBuild to manage ephemeral runners, so you don't have to."
 github-runners-ec2,cloudandthings,26887,aws,https://github.com/cloudandthings/terraform-aws-github-runners-ec2,
 github-security-group,opszero,17605,aws,https://github.com/opszero/terraform-aws-github-security-group,
+github-selfhosted-runner-on-container-app-jobs,pagopa-dx,28214,azurerm,https://github.com/pagopa-dx/terraform-azurerm-github-selfhosted-runner-on-container-app-jobs,Deploys GitHub self-hosted runners using Azure Container Apps jobs for scalable CI/CD workflows
 github-ssh-keys,deanwilson,586,aws,https://github.com/deanwilson/terraform-aws-github-ssh-keys,Use your GitHub SSH public key as an AWS EC2 key pair
 github-ssh-keys,fkonradmain,23816,module,https://github.com/fkonradmain/terraform-module-github-ssh-keys,terraform-module-github-ssh-keys
 github-team-ssh-users,captn3m0,2109,ignition,https://github.com/captn3m0/terraform-ignition-github-team-ssh-users,"  Generate a ignition config to create multiple users from a github team. SSH Keys for all users are picked up from GitHub."
@@ -8496,6 +8509,7 @@ iam,kenju,5707,google,https://github.com/kenju/terraform-google-iam,A terraform 
 iam,khizarkarim,26751,aws,https://github.com/khizarkarim/terraform-aws-iam,
 iam,kral2,7400,oci,https://github.com/kral2/terraform-oci-iam,"Upstream Terraform Module for the official Oracle Cloud Infrastructure IAM module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/iam"
 iam,kurron,440,aws,https://github.com/kurron/terraform-aws-iam,Terraform module that creates a set of common IAM roles
+iam,mikamakusa,28219,aws,https://github.com/mikamakusa/terraform-aws-iam,
 iam,ninja-dev-io,10933,aws,https://github.com/ninja-dev-io/terraform-aws-iam,IAM IaC
 iam,oracle-terraform-modules,1754,oci,https://github.com/oracle-terraform-modules/terraform-oci-iam,Terraform Module for managing Oracle Cloud Infrastructure Identity and Access Management (IAM) resources
 iam,pogosoftware,13565,aws,https://github.com/pogosoftware/terraform-aws-iam,
@@ -9886,6 +9900,7 @@ lagom,SpongePowered,10632,kubernetes,https://github.com/SpongePowered/terraform-
 lake-loader-vmss,snowplow-devops,21228,azurerm,https://github.com/snowplow-devops/terraform-azurerm-lake-loader-vmss,
 lakeformation,cloudposee,28047,aws,https://github.com/cloudposee/terraform-aws-lakeformation,
 lakeformation,cloudposse,14958,aws,https://github.com/cloudposse/terraform-aws-lakeformation,
+lakeformation,mikamakusa,28218,aws,https://github.com/mikamakusa/terraform-aws-lakeformation,
 lakehouse-blueprints,databricks,14484,databricks,https://github.com/databricks/terraform-databricks-lakehouse-blueprints,Set of Terraform automation templates and quickstart demos to jumpstart the design of a Lakehouse on Databricks. This project has incorporated best practices across the industries we work with to deliver composable modules to build a workspace to comply with the highest platform security and governance standards. 
 lakehouse-federation,data-platform-hq,21384,databricks,https://github.com/data-platform-hq/terraform-databricks-lakehouse-federation,
 lakshmi07,lakshmipreethi07-practice,25049,azurerm,https://github.com/lakshmipreethi07-practice/terraform-azurerm-lakshmi07,
@@ -10833,6 +10848,7 @@ metallb-deployment,jakoberpf,17984,kubernetes,https://github.com/jakoberpf/terra
 metastore,data-platform-hq,19820,databricks,https://github.com/data-platform-hq/terraform-databricks-metastore,Terraform module for creation of Databricks Unity Catalog Metastore
 metastore-assignment,data-platform-hq,19270,databricks,https://github.com/data-platform-hq/terraform-databricks-metastore-assignment,
 metatrader-vps,erikngigi,25649,aws,https://github.com/erikngigi/terraform-aws-metatrader-vps,Terraform module for provisioning a Metatrader VPS using Wine on Ubuntu
+metric-alarm-notifier-slack,tfstack,28215,aws,https://github.com/tfstack/terraform-aws-metric-alarm-notifier-slack,Terraform module to create a generic metric-based Slack notification system using CloudWatch Alarms
 metric-filter-alarm,dwp,1152,aws,https://github.com/dwp/terraform-aws-metric-filter-alarm,Terraform module that creates AWS CloudWatch metric filters and alarms
 metrics,aptible,16096,aptible,https://github.com/aptible/terraform-aptible-metrics,Easily provision and managed all of the resources necessary to monitor your Aptible Environments. All hosted in your Aptible account!
 metrics-alert,amido,18124,azurerm,https://github.com/Ensono/terraform-azurerm-metrics-alert,
@@ -10919,6 +10935,7 @@ mns-queue,terraform-alicloud-modules,1812,alicloud,https://github.com/alibabaclo
 mns-topic,terraform-alicloud-modules,1813,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mns-topic,Terraform module which creates MNS topic and its subscription on Alibaba Cloud
 mobapp-arch,bootlabstech,18086,google,https://github.com/bootlabstech/terraform-google-mobapp-arch,
 mobius3,zeroae,7295,aws,https://github.com/zeroae/terraform-aws-mobius3,A terraform module to help you configure mobius3 for Fargate tasks
+mod,moaz-khalifa,28221,gitlab,https://github.com/moaz-khalifa/terraform-gitlab-mod,
 mod,viswanathanandbaf,15692,custom,https://github.com/viswanathanandbaf/terraform-custom-mod,
 mod_reuse,chiraag-kakar,12284,aws,https://github.com/chiraag-kakar/terraform-aws-mod_reuse,"This module helps in building reusable infrastructure in AWS by aggregating vpc, subnets, route, gateway, instances, security groups with ease."
 modelconverter,combinator-ml,8804,k8s,https://github.com/combinator-ml/terraform-k8s-chassis,"A combinator component that provides model-converter, a tool to auto-magically build ML containers"
@@ -12616,8 +12633,6 @@ palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-
 pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
 pamoncloud,cyberark,27792,aws,https://github.com/cyberark/terraform-aws-pamoncloud,
 pamoncloud,cyberark,27793,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud,
-pamoncloud-controller,cyberark,28146,aws,https://github.com/cyberark/terraform-aws-pamoncloud-controller,
-pamoncloud-controller,cyberark,28147,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud-controller,
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panorama-onboarding,PaloAltoNetworks,25133,cloudngfw,https://github.com/PaloAltoNetworks/terraform-cloudngfw-panorama-onboarding,terraform-cloud-device-group-onboarding
@@ -14498,6 +14513,7 @@ s3-bucket,ebdmuir,12288,aws,https://github.com/the-ebdm/terraform-aws-s3-bucket,
 s3-bucket,eriktisme,7364,aws,https://github.com/eriktisme/terraform-aws-s3-bucket,Creates an S3 bucket.
 s3-bucket,evners,24225,aws,https://github.com/evners/terraform-aws-s3-bucket,"This module provides a simple and efficient way to create and configure S3 buckets in your AWS environment, allowing you to easily define bucket properties, access controls, and lifecycle policies as code."
 s3-bucket,figurate,5050,aws,https://github.com/figurate/terraform-aws-s3,S3 bucket creation with predefined templates.
+s3-bucket,flaviovianarocha0,28217,aws,https://github.com/flaviovianarocha0/terraform-aws-s3-bucket,terraform modules s3 bucket
 s3-bucket,gfortetsanakis,15207,aws,https://github.com/gfortetsanakis/terraform-aws-s3-bucket,
 s3-bucket,ghortnicto42,9448,aws,https://github.com/ghortnicto42/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,gitmurali,23134,aws,https://github.com/gitmurali/terraform-aws-s3-bucket,terraform s3 bucket module
@@ -14959,6 +14975,7 @@ sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
 samplemodule,rajmohanma,17071,azurerm,https://github.com/rajmohanma/terraform-azurerm-samplemodule,
 san-multi-zone,karankohli13,10385,acm,https://github.com/karankohli13/terraform-acm-san-multi-zone,
+sandbox,cyberrangecz,28216,crczp,https://github.com/cyberrangecz/terraform-crczp-sandbox,
 sandbox,estib,17270,cloud,https://github.com/estib/terraform-cloud-sandbox,Repo to contain terraform modules I use frequently for building sandbox environments. 
 sandbox,obay,15384,azure,https://github.com/obay/terraform-azure-sandbox,This Terraform module deploys a sandbox environment in Azure that will be used for testing and development purposes.
 sandbox,vydrazde,19934,kypo,https://github.com/vydrazde/terraform-kypo-sandbox,"Terraform module grouping sandbox definition, pool and allocation units in KYPO CRP"
