@@ -3510,6 +3510,7 @@ cloudwatch-log-group,mhmdio,7356,aws,https://github.com/mhmdio/terraform-aws-clo
 cloudwatch-log-group,sudo-terraform-aws-modules,27699,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-cloudwatch-log-group,
 cloudwatch-log-group-with-cmk,samloh84,16080,aws,https://github.com/samloh84/terraform-aws-cloudwatch-log-group-with-cmk,This Terraform module creates an AWS Cloudwatch Log Group with Customer Managed Key
 cloudwatch-log-retention,Codzs-Architecture,23270,aws,https://github.com/Codzs-Architecture/terraform-aws-cloudwatch-log-retention,
+cloudwatch-log-retention-manager,hazmei,28224,aws,https://github.com/hazmei/terraform-aws-cloudwatch-log-retention-manager,Terraform module that creates a Lambda Function triggered by EventBridge Scheduler.
 cloudwatch-log-storage,SevenPico,17790,aws,https://github.com/SevenPico/terraform-aws-cloudwatch-log-storage,
 cloudwatch-logs,Infrastrukturait,17119,aws,https://github.com/Infrastrukturait/terraform-aws-cloudwatch-logs,Terraform module to provision a CloudWatch logs
 cloudwatch-logs,TerraPros,27812,aws,https://github.com/TerraPros/terraform-aws-cloudwatch-logs,Terraform Module to Provide a CloudWatch Logs Endpoint
@@ -7686,6 +7687,7 @@ fortigate,equinix,8179,equinix,https://github.com/equinix/terraform-equinix-fort
 fortigate,rhythmictech,5078,aws,https://github.com/rhythmictech/terraform-aws-fortigate,"Create a FortiGate VM. This module can optionally pre-configure the FortiGate, either using a configuration file supplied by you (in an S3 bucket) or by simply loading a basic config that ensures the firewall is reachable over the assigned Elastic IP. This is useful when you don't have other means of connectivity into the VPC."
 fortigate-nva,shiftavenue,22048,azurerm,https://github.com/shiftavenue/terraform-azurerm-fortigate-nva,Simplifies creating a Fortinet Fortigate Network Virtual Appliance (VM) on Azure
 fortigate-sdwan,equinix,8180,equinix,https://github.com/equinix/terraform-equinix-fortigate-sdwan,Terraform module for quick deployment of Fortinet FortiGate SD-WAN edge device
+fortigate-single-vm,cdornele,28222,azure,https://github.com/cdornele/terraform-azure-fortigate-single-vm,Azure Network Virtual Appliance - Fortigate - Single VM
 fortigate-vm-for-aviatrix,bayupw,12929,aws,https://github.com/bayupw/terraform-aws-fortigate-vm-for-aviatrix,Terraform module to deploy Fortigate VM instance into existing Transit VPC for Aviatrix Firenet integration Includes a bootstrap to configure allow all policy for east-wast (traffic nspection) and north-south (egress)
 fortigate-vpn,rhythmictech,5077,aws,https://github.com/rhythmictech/terraform-aws-fortigate-vpn,Creates a site-to-site VPN connection intended to terminate to a FortiGate firewall. Creates a template configuration file that can be used to easily configure the connection.
 forwarding-scale-policy,netascode,9824,aci,https://github.com/netascode/terraform-aci-forwarding-scale-policy,Terraform Cisco ACI Forwarding Scale Policy Module
@@ -9137,6 +9139,7 @@ jmeter,QAInsights,11713,aws,https://github.com/QAInsights/terraform-aws-jmeter,"
 jmeter,davidalger,3731,aws,https://github.com/davidalger/terraform-aws-jmeter,Deploys and configures JMeter an EC2 instance running CentOS 7
 jmeter,r4dx,246,aws,https://github.com/r4dx/terraform-aws-jmeter,Easy way to create jMeter cluster with terraform on your AWS infrastructure.
 jmeter-distributed-load-test-infra,QAInsights,11941,aws,https://github.com/QAInsights/terraform-aws-jmeter-distributed-load-test-infra,JMeter Distributed Load Testing Infrastructure on AWS using Terraform
+jmeter-distributed-load-test-infra-auto-az,AndreFelipeMachado,28226,aws,https://github.com/AndreFelipeMachado/terraform-aws-jmeter-distributed-load-test-infra-auto-az,JMeter Distributed Load Testing Infrastructure on AWS using Terraform Automatic AZ from region
 jmusicbot,RCFromCLE,17131,azure,https://github.com/RCFromCLE/terraform-azure-jmusicbot,"Terraform module used as part of an automated and cost effective solution featuring TF Cloud, GH Actions, and Azure to deploy JMusicBot.🎶 https://github.com/RCFromCLE/terraform-azurerm-jmusicbot-config"
 jndi,SolaceProducts,24984,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-jndi,Solace software broker Terraform module to abstract jndi configuration
 jndi,SolaceProducts,25194,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-jndi,Solace PubSub+ appliance Terraform module to abstract jndi configuration
@@ -14958,6 +14961,7 @@ sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terrafor
 saimodule,SaiDevOpsFaculty,27588,aws,https://github.com/SaiDevOpsFaculty/terraform-aws-saimodule,
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 saltstack,prajwalap1701,25446,aws,https://github.com/prajwalap1701/terraform-aws-saltstack,Create a Saltstack environment using Terraform on AWS Cloud
+sam-app-pipeline,epsilonline,28225,aws,https://github.com/epsilonline/terraform-aws-sam-app-pipeline,This Terraform module creates a pipeline capable of deploying a sam application starting from a codecommit repository which holds a SAM application.
 sam-gitflow,toluna-terraform,16573,aws,https://github.com/toluna-terraform/terraform-aws-sam-gitflow,
 sam-pipeline,toluna-terraform,9556,aws,https://github.com/toluna-terraform/terraform-aws-sam-pipeline,
 sameerp-test-vpc,sameerp16,26118,aws,https://github.com/sameerp16/terraform-aws-sameerp-test-vpc,
@@ -15891,7 +15895,6 @@ softether-radius-vpn,fivexl,7661,aws,https://github.com/fivexl/terraform-aws-sof
 software-project,sr2c,17429,gitlab,https://github.com/sr2c/terraform-gitlab-software-project,Git repository for a software project with optional GitHub mirror (GitLab) (Mirror of https://gitlab.com/sr2c/terraform-gitlab-software-project)
 solidblocks-cloud-init,pellepelster,25297,null,https://github.com/pellepelster/terraform-null-solidblocks-cloud-init,
 solidblocks-rds-postgresql,pellepelster,19095,hcloud,https://github.com/pellepelster/terraform-hcloud-solidblocks-rds-postgresql,A containerized PostgreSQL database with all batteries included backup solution powered by pgBackRest
-solutions,hazmei,27772,aws,https://github.com/hazmei/terraform-aws-solutions,Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules 🇺🇦
 solutions,terraform-aws-modules,19744,aws,https://github.com/terraform-aws-modules/terraform-aws-solutions,Set of standalone and reusable AWS/DevOps solutions implemented as Terraform modules 🇺🇦
 solutions-eksNodeUpdater,bdobay,20090,aws,https://github.com/bdobay/terraform-aws-solutions-eksNodeUpdater,Terraform module to periodically update EKS worker nodes to the latest patched AMI for the current version i.e 1.23.
 sombra,transcend-io,4155,aws,https://github.com/transcend-io/terraform-aws-sombra,Launch Sombra gateways on AWS using Terraform.
