@@ -1773,6 +1773,8 @@ avm-ptn-aks-enterprise,Azure,26780,azurerm,https://github.com/Azure/terraform-az
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-aks-production,tembo-io,26403,azurerm,https://github.com/tembo-io/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
+avm-ptn-alz-connectivity-hub-and-spoke-vnet,Azure,28233,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet,The ALZ Platform Landing Zone Connectivity with Hub and Spoke Virtual Networks Pattern Module
+avm-ptn-alz-connectivity-virtual-wan,Azure,28234,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan,The ALZ Platform Landing Zone Connectivity with Virtual WAN Pattern Module
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,AVM Terraform Pattern Module for ALZ Management.
 avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,AVM for Azure Virtual Desktop Insights
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
@@ -2098,10 +2100,13 @@ azure-bastion,ravensorb,13967,azurerm,https://github.com/ravensorb/terraform-azu
 azure-cache-for-redis,connectgeeks,25005,azurerm,https://github.com/connectgeeks/terraform-azurerm-azure-cache-for-redis,
 azure-caf-hub-vnet,ravensorb,13527,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-caf-hub-vnet,Terraform module for creating a hub network based on the Microsoft recommended Hub-Spoke network topology 
 azure-cassandra,intel,19588,intel,https://github.com/intel/terraform-intel-azure-cassandra,Intel Cloud Optimization Module - Azure Cassandra
+azure-cdn,pagopa-dx,28240,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-cdn,Allows to easily create an Azure FrontDoor CDN
 azure-cloud,mayankymca,26425,on,https://github.com/mayankymca/terraform-on-azure-cloud,Terraform on AWS with SRE & IaC DevOps | Real-World 20 Demos
 azure-cloud-credentials,f5devcentral,21749,xc,https://github.com/f5devcentral/terraform-xc-azure-cloud-credentials,Terraform module which creates Azure Cloud Credentials for F5 Distributed Cloud (XC)
 azure-communication-smtp,kantorv,22056,coolapp,https://github.com/kantorv/terraform-coolapp-azure-communication-smtp,
 azure-connect,spotinst,11386,spotinst,https://github.com/spotinst/terraform-spotinst-azure-connect,A Terraform module to connect an Azure Subscription to Spot.io.
+azure-container-app,pagopa-dx,28238,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-container-app,Provisions an Azure Container App with a given configuration
+azure-container-app-environment,pagopa-dx,28239,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-container-app-environment,Provisions an Azure Container App Environment with a given configuration
 azure-container-instance,libre-devops,13438,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-container-instance,A module used to deploy an Azure container instance based on some parameters :fire:
 azure-container-registry,libre-devops,13434,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-container-registry,A module used to deploy an Azure Container Regstiry :fire:
 azure-controller,AviatrixSystems,11348,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-azure-controller,Terraform module for Aviatrix Controller launch on Azure
@@ -3072,6 +3077,7 @@ cloud-infrastructure-automation,cloudposse,6647,tfe,https://github.com/cloudposs
 cloud-infrastructure-automation,cloudposse,7046,spacelift,https://github.com/cloudposse/terraform-spacelift-cloud-infrastructure-automation,Terraform module to provision Spacelift resources for cloud infrastructure automation
 cloud-init,infrahouse,20616,aws,https://github.com/infrahouse/terraform-aws-cloud-init,Module that creates a cloud init configuration for an InfraHouse EC2 instance.
 cloud-init-vm,sdhibit,7189,proxmox,https://github.com/sdhibit/terraform-proxmox-cloud-init-vm,Terraform module that creates a cloud-init enabled VM in Proxmox.
+cloud-logs,terraform-ibm-modules,28231,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloud-logs,"This module supports configuring an IBM Cloud Logs instance, log routing tenants to enable platform logs and cloud logs policies."
 cloud-modules,fortinetdev,21637,aws,https://github.com/fortinetdev/terraform-aws-cloud-modules,
 cloud-modules,fortinetdev,25960,google,https://github.com/fortinetdev/terraform-google-cloud-modules,
 cloud-modules,fortinetdev,26108,azurerm,https://github.com/fortinetdev/terraform-azurerm-cloud-modules,
@@ -4623,6 +4629,7 @@ dir,apparentlymart,3133,template,https://github.com/hashicorp/terraform-template
 dir,hashicorp,5157,template,https://github.com/hashicorp/terraform-template-dir,A template module for preparing static files and templates under a particular directory
 direct-mail,terraform-alicloud-modules,12795,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-direct-mail,Terraform Module for creating Direct Mail resources on Alibaba Cloud.
 directconnect,BorisLabs,2559,aws,https://github.com/BorisLabs/terraform-aws-directconnect,Terraform module to setup AWS Direct Connect resources
+directory-service,magicorntech,28241,aws,https://github.com/magicorntech/terraform-aws-directory-service,
 directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terraform-aws-directory-service-with-logging,Terraform AWS module for Directory service directory with logging
 directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
 disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terraform-azurerm-disallow-ragrs-policy,"This Terraform module creates a custom Azure policy definition that prevents the creation of storage accounts with Standard_RAGRS SKU unless they have the exemption tag ""Exempt: Disallow Standard_RAGRS"". The policy can be assigned to a management group or subscription."
@@ -8512,6 +8519,7 @@ iam,khizarkarim,26751,aws,https://github.com/khizarkarim/terraform-aws-iam,
 iam,kral2,7400,oci,https://github.com/kral2/terraform-oci-iam,"Upstream Terraform Module for the official Oracle Cloud Infrastructure IAM module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/iam"
 iam,kurron,440,aws,https://github.com/kurron/terraform-aws-iam,Terraform module that creates a set of common IAM roles
 iam,mikamakusa,28219,aws,https://github.com/mikamakusa/terraform-aws-iam,
+iam,mikamakusa,28236,ovh,https://github.com/mikamakusa/terraform-ovh-iam,
 iam,ninja-dev-io,10933,aws,https://github.com/ninja-dev-io/terraform-aws-iam,IAM IaC
 iam,oracle-terraform-modules,1754,oci,https://github.com/oracle-terraform-modules/terraform-oci-iam,Terraform Module for managing Oracle Cloud Infrastructure Identity and Access Management (IAM) resources
 iam,pogosoftware,13565,aws,https://github.com/pogosoftware/terraform-aws-iam,
@@ -9039,6 +9047,7 @@ iotarch,bootlabstech-m,18087,aws,https://github.com/bootlabstech-m/terraform-aws
 iothub,mikamakusa,25715,azure,https://github.com/mikamakusa/terraform-azure-iothub,
 iothub,regelcloud,4908,azurerm,https://github.com/regelcloud/terraform-azurerm-iothub,Terraform module for Azure IoTHub
 ip,JamesWoolfenden,2315,http,https://github.com/JamesWoolfenden/terraform-http-ip,A very simple module to return the host Public IP address
+ip,mikamakusa,28237,ovh,https://github.com/mikamakusa/terraform-ovh-ip,
 ip-addresses,calidae,10177,bitbucket,https://github.com/calidae/terraform-bitbucket-ip-addresses,Fetch and parse https://ip-ranges.atlassian.com/
 ip-addresses,centriascolocation,22626,bitbucket,https://github.com/centriascolocation/terraform-bitbucket-ip-addresses,"This Terraform module queries the URL ""https://ip-ranges.atlassian.com/"" and filters the IPv4 and IPv6 ranges."
 ip-addresses,terra-mod,4227,bitbucket,https://github.com/terra-mod/terraform-bitbucket-ip-addresses,Provides a data source for the published IPv4 and IPv6 whitelist addresses for Bitbucket.
@@ -9247,7 +9256,7 @@ k8s-cluster,anton-stoichev,14323,google,https://github.com/anton-stoichev/terraf
 k8s-cluster,bfrunza,3530,google,https://github.com/bfrunza/terraform-google-k8s-cluster,Terraform module which deploys a kubernetes cluster on GCP
 k8s-cluster,container-labs,18835,scaleway,https://github.com/container-labs/terraform-scaleway-k8s-cluster,
 k8s-cluster,garbetjie,2683,google,https://github.com/garbetjie/terraform-google-k8s-cluster,
-k8s-cluster,kroche-co,18520,digitalocean,https://github.com/kroche-co/terraform-digitalocean-k8s-cluster,Terraform module for creating a DigitalOcean Kubernetes cluster.
+k8s-cluster,kukaryambik,28232,digitalocean,https://github.com/kukaryambik/terraform-digitalocean-k8s-cluster,Terraform module for creating a DigitalOcean Kubernetes cluster.
 k8s-cluster,pmorillon,7137,grid5000,https://github.com/pmorillon/terraform-grid5000-k8s-cluster,
 k8s-cluster,rlenglet,5709,aws,https://github.com/rlenglet/terraform-aws-k8s-cluster,Terraform 0.12.x module to configure an EKS cluster
 k8s-cluster,santiagon610,25875,digitalocean,https://github.com/santiagon610/terraform-digitalocean-k8s-cluster,Terraform wrapper module for a Kubernetes cluster
@@ -11318,6 +11327,7 @@ multi-account-peering,clouddrove,3661,aws,https://github.com/clouddrove/terrafor
 multi-account-peering,isaaguilar,846,aws,https://github.com/isaaguilar/terraform-aws-multi-account-peering,"Set up a peering connection, auto accept, and add to route tables"
 multi-az-subnets,cloudposee,28057,aws,https://github.com/cloudposee/terraform-aws-multi-az-subnets,DEPRECATED (use cloudposse/terraform-aws-dynamic-subnets instead): Terraform module for multi-AZ public and private subnets provisioning
 multi-az-subnets,cloudposse,573,aws,https://github.com/cloudposse/terraform-aws-multi-az-subnets,Terraform module for multi-AZ public and private subnets provisioning
+multi-az-vpc,rahulnagaraju724,28227,aws,https://github.com/rahulnagaraju724/terraform-aws-multi-az-vpc,Public repo to deploy multi az vpc in AWS
 multi-cloud,hajowieland,2948,kubernetes,https://github.com/hajowieland/terraform-kubernetes-multi-cloud,"Terraform to create Kubernetes clusters on multiple public cloud platforms (Aliyun, AWS, Azure, DO, GCP, OCI)"
 multi-cloud-use,sbali10,26801,config,https://github.com/sbali10/terraform-config-multi-cloud-use,
 multi-ec2-module,kunchalavikram1427,21686,aws,https://github.com/kunchalavikram1427/terraform-aws-multi-ec2-module,
@@ -11602,6 +11612,7 @@ namecheap-domain,erikngigi,26152,aws,https://github.com/erikngigi/terraform-aws-
 named-subnets,cloudposee,28059,aws,https://github.com/cloudposee/terraform-aws-named-subnets,DEPRECATED (use cloudposse/terraform-aws-dynamic-subnets instead): Terraform module for named subnets provisioning.
 named-subnets,cloudposse,515,aws,https://github.com/cloudposse/terraform-aws-named-subnets,Terraform module for named subnets provisioning.
 namer,cawcaw253,22082,aws,https://github.com/cawcaw253/terraform-aws-namer,Terraform module which creates name format for AWS resources
+names,mattruizmesh,28235,azure,https://github.com/mattruizmesh/terraform-azure-names,testing the publishing of a terraform module to the public registry
 namespace,2catsandkate,21963,kubernetes,https://github.com/2catsandkate/terraform-kubernetes-namespace,
 namespace,2catsandkate,22909,k8s,https://github.com/2catsandkate/terraform-k8s-namespace,
 namespace,Adnan-IT,24709,kubernetes,https://github.com/Adnan-IT/terraform-kubernetes-namespace,
@@ -12636,6 +12647,8 @@ palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-
 pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
 pamoncloud,cyberark,27792,aws,https://github.com/cyberark/terraform-aws-pamoncloud,
 pamoncloud,cyberark,27793,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud,
+pamoncloud-controller,cyberark,28229,aws,https://github.com/cyberark/terraform-aws-pamoncloud-controller,
+pamoncloud-controller,cyberark,28230,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud-controller,
 pan-bootstrap-aviatrix,bayupw,12969,aws,https://github.com/bayupw/terraform-aws-pan-bootstrap-aviatrix,Terraform Module to Bootstrap Palo Alto Networks VM-Series Firewall on AWS
 panopticon,opszero,17614,datadog,https://github.com/opszero/terraform-datadog-panopticon,
 panorama-onboarding,PaloAltoNetworks,25133,cloudngfw,https://github.com/PaloAltoNetworks/terraform-cloudngfw-panorama-onboarding,terraform-cloud-device-group-onboarding
@@ -18593,6 +18606,7 @@ vpc-peering-requester,StayWell,2329,aws,https://github.com/StayWell/terraform-aw
 vpc-peering-requester,jjno91,2065,aws,https://github.com/jjno91/terraform-aws-vpc-peering-requester,Request a VPC peering connection and build the route required to utilize the connection
 vpc-peering-vpc,terraform-navercloudplatform-modules,25166,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-vpc-peering-vpc,Terraform module to create vpc peering resources for the vpc configuration
 vpc-policy,netascode,10348,aci,https://github.com/netascode/terraform-aci-vpc-policy,Terraform Cisco ACI vPC Policy Module
+vpc-private-path,terraform-ibm-modules,28228,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpc-private-path,Configure Private Path services to provide private connectivity for IBM Cloud and third-party services.
 vpc-privatelink-connection,terraform-alicloud-modules,10255,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-privatelink-connection,
 vpc-project,sibikmc,21285,alicloud,https://github.com/sibikmc/terraform-alicloud-vpc-project,
 vpc-public,ispec-inc,2426,aws,https://github.com/ispec-inc/terraform-aws-vpc-public,publicなvpc
