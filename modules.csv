@@ -1875,6 +1875,7 @@ avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-az
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Helps module developers satisfy AVM interfaces using the AzAPI provider.
+avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
 avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Re-publish of Azure/terraform-azurerm-regions made official as AVM
 avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
@@ -4511,6 +4512,7 @@ debmodule,debarghyapandit,12233,aws,https://github.com/debarghyapandit/terraform
 debug,kiwicom,3101,kubernetes,https://github.com/kiwicom/terraform-kubernetes-debug,
 decider-module,nicsnet,20649,nicsnet,https://github.com/nicsnet/terraform-nicsnet-decider-module,
 decider-module,rberecka,15165,rberecka,https://github.com/rberecka/terraform-rberecka-decider-module,Whimsical and Decisive Terraform Module
+decider-module,rclark,28261,nicsnet,https://github.com/rclark/terraform-nicsnet-decider-module,Whimsical and Decisive Terraform Module
 declare-ami-dependency,GoCarrot,12544,aws,https://github.com/GoCarrot/terraform-aws-declare-ami-dependency,Declare Ami Dependency creates an SSM Parameter that our CircleCI orb will reference in order to rebuild any AMIs which depend on a just rebuilt AMI
 dedicated-elb,FlexibleEngineCloud,20916,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-dedicated-elb,Terraform module which creates Dedicated Enhanced Elastic Load Balancer (ELB) resources on Flexible Engine
 dedicated-host,DanielRDias,6941,aws,https://github.com/DanielRDias/terraform-aws-dedicated-host,Terraform module which creates EC2 dedicated host on AWS. Required for macOS instances (mac1.metal)
@@ -5695,6 +5697,7 @@ dynamodb-tables,justtrackio,17256,aws,https://github.com/justtrackio/terraform-a
 dynamodb-tables,vistaprint,686,aws,https://github.com/vistaprint/terraform-aws-dynamodb-tables,
 dyndns,fmasuhr,5298,aws,https://github.com/fmasuhr/terraform-aws-dyndns,DynDNS service using API Gateway and AWS Lambda.
 dynobj-nia,CheckPointSW,6376,checkpoint,https://github.com/CheckPointSW/terraform-checkpoint-dynobj-nia,Check Point Software Technologies Dynamic Objects module for Network Infrastructure Automation (NIA)
+e2-micro,yohrannes,28252,google,https://github.com/yohrannes/terraform-google-e2-micro,
 eais,terraform-alicloud-modules,12805,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-eais,Terraform Module for creating Elastic Accelerator Instance on Alibaba Cloud.
 east-west-security-traffic,alibabacloud-automation,27102,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-east-west-security-traffic,
 easy-alerting,LederWorks,10426,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting,LederWorks Azure Easy Alerting Terraform Module
@@ -7883,6 +7886,7 @@ gen-files,schollii,8073,local,https://github.com/schollii/terraform-local-gen-fi
 genai-document-ingestion-rag,aws-ia,26019,aws,https://github.com/aws-ia/terraform-aws-genai-document-ingestion-rag,RAG ingestion pipeline module with Amazon OpenSearch and Bedrock
 generateIamRole,thevanguardian,13306,aws,https://github.com/thevanguardian/terraform-aws-generateIamRole,Terraform module for generating IAM Role(s) with dynamic policy creation.
 generateLambda,thevanguardian,13396,aws,https://github.com/thevanguardian/terraform-aws-generateLambda,Terraform module for generating Lambda deployments.
+generator,ishuar,28260,sshkey,https://github.com/ishuar/terraform-sshkey-generator,This module generates the SSH key for any development used case. 
 generator,raimialiu,13950,password,https://github.com/raimialiu/terraform-password-generator,
 generic,VoyTechnology,11577,nomad,https://github.com/VoyTechnology/terraform-nomad-generic,Generic Nomad Terraform Module
 generic,solution-libre,17044,helm,https://github.com/solution-libre/terraform-helm-generic,Generic Terraform module that allows you to deploy and configure a software on Kubernetes via Helm.
@@ -9160,6 +9164,7 @@ jndi,SolaceProducts,25194,solacebrokerappliance,https://github.com/SolaceProduct
 job,garbetjie,6313,kubernetes,https://github.com/garbetjie/terraform-kubernetes-job,
 join-metrics-scope,ammilam,10918,google,https://github.com/ammilam/terraform-google-join-metrics-scope,
 joplin-s3-bucket,DustinAlandzes,10789,aws,https://github.com/DustinAlandzes/terraform-aws-joplin-s3-bucket,Terraform module that creates an S3 bucket used to sync notes from Joplin.
+jp-arm,deltwalrus,28256,google,https://github.com/deltwalrus/terraform-google-jp-arm,
 jsmstorage,jsmounika,20124,azure,https://github.com/jsmounika/terraform-azure-jsmstorage,Terraform module test
 json-vars-parser,yurymkomarov,4717,local,https://github.com/yurymkomarov/terraform-local-json-vars-parser,JSON vars parser
 jsonencode-no-replacements,Invicton-Labs,9326,null,https://github.com/Invicton-Labs/terraform-null-jsonencode-no-replacements,A module to do a jsonencode without escaping special characters
@@ -11127,6 +11132,7 @@ modules,dell,21338,powerflex,https://github.com/dell/terraform-powerflex-modules
 modules,dell,23866,redfish,https://github.com/dell/terraform-redfish-modules,Terraform module for Redfish 
 modules,dell,24760,apex,https://github.com/dell/terraform-apex-modules,All of the modules related to the Apex Dell Terraform provider
 modules,dzangolab,8125,digitalocean,https://github.com/dzangolab/terraform-digitalocean-modules,Terraform modules for Digital Ocean provider
+modules,ggsrc,28253,blueprint,https://github.com/ggsrc/terraform-blueprint-modules,"A curated collection of reusable Terraform modules. Simplify your infrastructure management on GCP, enhance consistency, and accelerate deployments."
 modules,govardhanpagidi,21506,test,https://github.com/govardhanpagidi/terraform-test-modules,
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
@@ -12491,7 +12497,6 @@ org-new-account-delete-default-vpcs,plus3it,17230,aws,https://github.com/plus3it
 org-new-account-iam-role,plus3it,7754,aws,https://github.com/plus3it/terraform-aws-org-new-account-iam-role,Terraform module that creates an IAM Role in a new account (useful for bootstrapping)
 org-new-account-support-case,plus3it,8608,aws,https://github.com/plus3it/terraform-aws-org-new-account-support-case,Terraform module for opening a support case when a new account is added (useful for adding new accounts to enterprise support)
 org-new-account-trust-policy,plus3it,3169,aws,https://github.com/plus3it/terraform-aws-org-new-account-trust-policy,Terraform module that updates the trust policy on an IAM Role in a new account (useful for bootstrapping `OrganizationAccountAccessRole`)
-org-policies,jakebark,27670,aws,https://github.com/jakebark/terraform-aws-org-policies,Deploy AWS Organization policies with Terraform
 org-policy,terraform-google-modules,1627,google,https://github.com/terraform-google-modules/terraform-google-org-policy,Manages Google Cloud organization policies
 org-policy-document,Invicton-Labs,13572,aws,https://github.com/Invicton-Labs/terraform-aws-org-policy-document,"A Terraform module that creates IAM policy documents that grant permissions to Organizations, Organizational Units, or Accounts."
 org-policy-document,Kalepa,16710,aws,https://github.com/Kalepa/terraform-aws-org-policy-document,"A Terraform module that creates IAM policy documents that grant permissions to Organizations, Organizational Units, or Accounts."
@@ -12540,6 +12545,7 @@ organization-cloudbase,Levetty,27498,google,https://github.com/Levetty/terraform
 organization-configuration,qbeyond,17443,google,https://github.com/qbeyond/terraform-google-organization-configuration,This module allows managing several organization properties.
 organization-iam,mineiros-io,11749,google,https://github.com/mineiros-io/terraform-google-organization-iam,A Terraform module to manage Identity and Access Management (IAM) for organizations in Google Cloud https://cloud.google.com/resource-manager/docs/access-control-org
 organization-iam-role,unicrons,26414,aws,https://github.com/unicrons/terraform-aws-organization-iam-role,Terraform module to create an AWS IAM Role across all your Organization accounts
+organization-policies,aws-samples,28254,aws,https://github.com/aws-samples/terraform-aws-organization-policies,"Deploy SCPs, RCPs, and other AWS organization policies with Terraform"
 organization-policy,mineiros-io,12940,google,https://github.com/mineiros-io/terraform-google-organization-policy,A Terraform module to create and manage an Organization Policy for a Google Cloud Organization in Google Cloud https://cloud.google.com/resource-manager/docs/organization-policy/overview
 organization-secret,mineiros-io,11118,github,https://github.com/mineiros-io/terraform-github-organization-secret,A Terraform module to manage GitHub Organization Secrets. https://github.com/
 organization-structure,Invicton-Labs,12211,aws,https://github.com/Invicton-Labs/terraform-aws-organization-structure,
@@ -13985,6 +13991,7 @@ repository,terracharge,14095,aws,https://github.com/terracharge/terraform-aws-re
 repository,tfstack,27096,github,https://github.com/tfstack/terraform-github-repository,Terraform module to manage GitHub Repository
 repository,tim0git,12304,github,https://github.com/tim0git/terraform-github-repository,Terraform module which creates a github repository
 repository,tylottr-iac,20455,github,https://github.com/tylottr-iac/terraform-github-repository,A Terraform module used to create and manage a Github repository.
+repository,vmvarela,28259,github,https://github.com/vmvarela/terraform-github-repository,
 repository,withmethod,162,github,https://github.com/ksatirli/terraform-github-repository,:octocat: Terraform Module for managing Github Repositories
 repository,yivolve,23760,github,https://github.com/yivolve/terraform-github-repository,Terraform module to create repositories.
 repository-creation,kalenarndt,20201,github,https://github.com/kalenarndt/terraform-github-repository-creation,Terraform module that will create a repository with a standard set of configurations that I use for my modules
@@ -14435,6 +14442,7 @@ s3,bootlabstech,14152,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
 s3,bootlabstech-m,17414,aws,https://github.com/bootlabstech-m/terraform-aws-s3,
 s3,clouddrove,3639,aws,https://github.com/clouddrove/terraform-aws-s3,Terraform module to create default S3 bucket with logging and encryption type specific features.
 s3,cypik,23475,aws,https://github.com/cypik/terraform-aws-s3,
+s3,dare-global,28257,aws,https://github.com/dare-global/terraform-aws-s3,Terraform module for provisioning AWS S3 resources.
 s3,dasmeta,21736,aws,https://github.com/dasmeta/terraform-aws-s3,Module(s) allow managing AWS S3 functionality
 s3,devops4mecode,6760,aws,https://github.com/devops4mecode/terraform-aws-s3,
 s3,exnodeshub,22511,aws,https://github.com/exnodeshub/terraform-aws-s3,
@@ -14654,6 +14662,7 @@ s3-log-storage,lablabs,10242,aws,https://github.com/lablabs/terraform-aws-s3-log
 s3-logs,MagnetarIT,4724,aws,https://github.com/MagnetarIT/terraform-aws-s3-logs,Terraform module for creating an S3 bucket to be used for logs
 s3-logs-bucket,damacus,921,aws,https://github.com/damacus/terraform-aws-s3-logs-bucket,Terraform module which creates a S3 bucket designed for logging
 s3-module,Guruprasad9738,21905,aws,https://github.com/Guruprasad9738/terraform-aws-s3-module,
+s3-module,ThanHtutPC,28255,aws,https://github.com/ThanHtutPC/terraform-aws-s3-module,
 s3-module,harish0852,27166,aws,https://github.com/harish0852/terraform-aws-s3-module,
 s3-module,pranitakarle,21900,aws,https://github.com/pranitakarle/terraform-aws-s3-module,
 s3-module,sinaowolabi,10609,aws,https://github.com/sinaowolabi/terraform-aws-s3-module,Chapter 6 of Terraform Up and Running
