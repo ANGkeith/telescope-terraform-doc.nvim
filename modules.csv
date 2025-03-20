@@ -1760,7 +1760,6 @@ available-ips,fr-platform,17832,azurerm,https://github.com/fr-platform/terraform
 avd,ColeHeard,17823,azurerm,https://github.com/ColeHeard/terraform-azurerm-avd,An Azure Virtual Desktop module. Uploaded for the public Terraform Registry.
 avd,claranet,21467,azurerm,https://github.com/claranet/terraform-azurerm-avd,Terraform module for Azure Virtual Desktop
 avd-host-pool,libre-devops,15014,azurerm,https://github.com/libre-devops/terraform-azurerm-avd-host-pool,A module used to deploy a Azure Virtual Desktop (AVD) or Windows Virtual Desktop (WVD) in Azure
-avd-module,tobster2k15,23998,azure,https://github.com/tobster2k15/terraform-azure-avd-module,
 avdhp,CMCS-Norway,23645,azurerm,https://github.com/CMCS-Norway/terraform-azurerm-avdhp,CMCS AzureRM Azure Virtual Desktop Hostpool deployment module
 avdsh,ColeHeard,23972,azurerm,https://github.com/ColeHeard/terraform-azurerm-avdsh,This module creates sessionhosts for Azure Virtual desktop. It is a companion module for terraform-azurerm-avd.
 avi-alb-deployment-aws,vmware,14489,aws,https://github.com/vmware/terraform-aws-avi-alb-deployment-aws,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on AWS. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
@@ -3105,6 +3104,7 @@ cloud-postgres,layer-3,27307,google,https://github.com/layer-3/terraform-google-
 cloud-postgres-admin,layer-3,27308,google,https://github.com/layer-3/terraform-google-cloud-postgres-admin,
 cloud-private-link-aws,math280h,12965,elastic,https://github.com/math280h/terraform-elastic-cloud-private-link-aws,Terraform module for Elastic Cloud deployments using AWS PrivateLink
 cloud-project,amancevice,1198,google,https://github.com/amancevice/terraform-google-cloud-project,Terraform configuration for generic Google Cloud Project
+cloud-registration,CrowdStrike,28318,aws,https://github.com/CrowdStrike/terraform-aws-cloud-registration,Register AWS account to Falcon
 cloud-remote-backend,alexanderartamonov,11974,alibaba,https://github.com/alexanderartamonov/terraform-alibaba-cloud-remote-backend,Terraform module to deploy a remote backend storage for Alibaba Cloud terraform-alicloud-remote-backend  A terraform module to set up remote state management with OSS backend for your account. It creates an encrypted OSS bucket to store state files and a OTS table for state locking and consistency checking.
 cloud-resume-challenge,jaredready,15735,aws,https://github.com/jaredready/terraform-aws-cloud-resume-challenge,
 cloud-router,TerraPros,27858,google,https://github.com/TerraPros/terraform-google-cloud-router,Manages a Cloud Router on Google Cloud
@@ -10788,7 +10788,7 @@ mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terra
 mcaf-redshift,schubergphilis,26147,aws,https://github.com/schubergphilis/terraform-aws-mcaf-redshift,Terraform module to setup and manage an AWS Redshift cluster.
 mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,Terraform module to create and manage a GitHub repository.
 mcaf-resource-scheduler,schubergphilis,26127,aws,https://github.com/schubergphilis/terraform-aws-mcaf-resource-scheduler,A Terraform module that can schedule various types of AWS resources
-mcaf-role,schubergphilis,28306,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,A Terraform module that creates an IAM role.
+mcaf-role,schubergphilis,28316,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,A Terraform module that creates an IAM role.
 mcaf-route53-resolver,schubergphilis,28292,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-resolver,Terraform module to create a Route53 Resolver
 mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
 mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,Terraform module to create an AWS s3 bucket
@@ -17835,6 +17835,7 @@ vm-dependants,ptonini,22244,azurerm,https://github.com/ptonini/terraform-azurerm
 vm-deploy,marcelo-franca,10697,vsphere,https://github.com/marcelo-franca/terraform-vsphere-vm-deploy,
 vm-deployment,slarimore02,8681,vsphere,https://github.com/slarimore02/terraform-vsphere-vm-deployment,Terraform module for deploying VMs on vSphere
 vm-extension,data-platform-hq,19978,azurerm,https://github.com/data-platform-hq/terraform-azurerm-vm-extension,Terraform module for creation of Azure Linux VM Extension
+vm-ilb-nsg-windows,bootlabstech,28317,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-ilb-nsg-windows,
 vm-install,srb3,10094,kong,https://github.com/srb3/terraform-kong-vm-install,
 vm-lb-nsg-linux,bootlabstech,18731,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-lb-nsg-linux,
 vm-lb-nsg-windows,bootlabstech,18732,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-lb-nsg-windows,
@@ -18832,6 +18833,7 @@ vsensor,darktrace,21926,gcp,https://github.com/darktrace/terraform-gcp-vsensor,T
 vsocket-aws,catonetworks,26504,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws,
 vsocket-aws-vpc,catonetworks,26731,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws-vpc,
 vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
+vsocket-azure-ha,catonetworks,28320,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-ha,
 vsocket-azure-vnet,catonetworks,26797,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-vnet,
 vsocket-gcp,catonetworks,27567,cato,https://github.com/catonetworks/terraform-cato-vsocket-gcp,
 vsocket-gcp-vpc,catonetworks,27678,cato,https://github.com/catonetworks/terraform-cato-vsocket-gcp-vpc,
