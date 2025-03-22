@@ -288,6 +288,7 @@ acm-request-certificate,SevenPicoForks,17740,aws,https://github.com/SevenPicoFor
 acm-request-certificate,cloudposee,27965,aws,https://github.com/cloudposee/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-request-certificate,cloudposse,947,aws,https://github.com/cloudposse/terraform-aws-acm-request-certificate,Terraform module to request an ACM certificate for a domain name and create a CNAME record in the DNS zone to complete certificate validation
 acm-route53,shamimice03,18044,aws,https://github.com/shamimice03/terraform-aws-acm-route53,Request a public SSL/TLS certificate from AWS Certificate Manager and add record to AWS Route53
+acme,iits-consulting,28341,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-acme,
 acme,yellowmegaman,2178,google,https://github.com/yellowmegaman/terraform-google-acme,Get ssl certs via acme with gcloud dns challenge
 acme-certificate,cloud-native-toolkit,16045,azure,https://github.com/cloud-native-toolkit/terraform-azure-acme-certificate,Module to provision acme-certificate on azure
 acme-certificate,rms1000watt,1634,aws,https://github.com/rms1000watt/terraform-aws-acme-certificate,Terraform Module for ACME Certificate (with Route 53 validation and saving the certs to S3)
@@ -3170,6 +3171,7 @@ cloud-storage-security,cloudstoragesec,23655,aws,https://github.com/cloudstorage
 cloud-vault,farrukh90,9280,hashicorp,https://github.com/farrukh90/terraform-hashicorp-cloud-vault,https://registry.terraform.io/modules/farrukh90/cloud-vault/hashicorp/latest
 cloud-vpn,r-teller,19202,google,https://github.com/r-teller/terraform-google-cloud-vpn,
 cloud-waf,imperva,24141,incapsula,https://github.com/imperva/terraform-incapsula-cloud-waf,
+cloud-wan,siva-warhammer1998,28335,aws,https://github.com/siva-warhammer1998/terraform-aws-cloud-wan,Terraform module to create a cloud wan resource in aws
 cloud-workflows,GoogleCloudPlatform,17214,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-workflows,Manage Workflows with optional Scheduler or Event Arc triggers
 cloud1,NguyenTruongThanh-74,15495,aws,https://github.com/NguyenTruongThanh-74/terraform-aws-cloud1,
 cloud9,Xat59,18713,aws,https://github.com/Xat59/terraform-aws-cloud9,Terraform module that creates AWS Cloud9 resources.
@@ -4519,7 +4521,7 @@ debian-instance,obay,2419,aws,https://github.com/obay/terraform-aws-debian-insta
 debian-repo,infrahouse,20167,aws,https://github.com/infrahouse/terraform-aws-debian-repo,Module that creates a Debian repository backed by S3 and fronted by CloudFront.
 debmodule,debarghyapandit,12233,aws,https://github.com/debarghyapandit/terraform-aws-debmodule,
 debug,kiwicom,3101,kubernetes,https://github.com/kiwicom/terraform-kubernetes-debug,
-decider-module,nicsnet,20649,nicsnet,https://github.com/nicsnet/terraform-nicsnet-decider-module,
+decider-module,nicsnet,20649,nicsnet,https://github.com/nicsnet/terraform-nicsnet-decider-module,Whimsical and Decisive Terraform Module
 decider-module,rberecka,15165,rberecka,https://github.com/rberecka/terraform-rberecka-decider-module,Whimsical and Decisive Terraform Module
 decider-module,rclark,28261,nicsnet,https://github.com/rclark/terraform-nicsnet-decider-module,Whimsical and Decisive Terraform Module
 declare-ami-dependency,GoCarrot,12544,aws,https://github.com/GoCarrot/terraform-aws-declare-ami-dependency,Declare Ami Dependency creates an SSM Parameter that our CircleCI orb will reference in order to rebuild any AMIs which depend on a just rebuilt AMI
@@ -4814,10 +4816,15 @@ docker-compose-host,martibosch,11961,digitalocean,https://github.com/martibosch/
 docker-container,figurate,6117,docker,https://github.com/figurate/terraform-docker-docker,Manage Docker containers using predefined templates
 docker-container,kabisa,11759,datadog,https://github.com/kabisa/terraform-datadog-docker-container,Terraform module to generate alerts for docker containers
 docker-damla,damlab45,16416,aws,https://github.com/damlab45/terraform-aws-docker-damla,
+docker-ec2,ErkanBarann,28347,aws,https://github.com/ErkanBarann/terraform-aws-docker-ec2,
 docker-ec2,KamilAlnagiyev91,28160,aws,https://github.com/KamilAlnagiyev91/terraform-aws-docker-ec2,Terraform module which creates a docker instance resource on AWS.
 docker-ec2,deng4,26607,aws,https://github.com/deng4/terraform-aws-docker-ec2,
+docker-ec2,duyguyilmaz1,28346,aws,https://github.com/duyguyilmaz1/terraform-aws-docker-ec2,
+docker-ec2,feyzanuraltayy,28348,aws,https://github.com/feyzanuraltayy/terraform-aws-docker-ec2,
+docker-ec2,gaukharshegirova,28349,aws,https://github.com/gaukharshegirova/terraform-aws-docker-ec2,
 docker-ec2,hgulsah,23149,aws,https://github.com/hgulsah/terraform-aws-docker-ec2,
 docker-ec2,super5nk,26527,aws,https://github.com/super5nk/terraform-aws-docker-ec2,Terraform module which creates a docker instance resource on AWS
+docker-ec2,techpro-aws-devops,28345,aws,https://github.com/techpro-aws-devops/terraform-aws-docker-ec2,
 docker-ec2,vlkn38akyz,16564,aws,https://github.com/vlkn38akyz/terraform-aws-docker-ec2,Terraform module which creates a docker instance resource on AWS.
 docker-ec2-instance,RamizMrt,16402,aws,https://github.com/RamizMrt/terraform-aws-docker-ec2-instance,
 docker-ec2-instance,betul-kaplan,14714,aws,https://github.com/betul-kaplan/terraform-aws-docker-ec2-instance,
@@ -7059,6 +7066,7 @@ elastic-beanstalk-environment,cloudposse,224,aws,https://github.com/cloudposse/t
 elastic-beanstalk-environment,paul-lupu,2576,aws,https://github.com/paul-lupu/terraform-aws-elastic-beanstalk-environment,This is an elasic beanstalk environment creation module that allows for infinite parameters in a structured array.
 elastic-beanstalk-environment,rusrushal13,9750,aws,https://github.com/rusrushal13/terraform-aws-elastic-beanstalk-environment,Terraform module to provision an AWS Elastic Beanstalk Environment
 elastic-beanstalk-environment,scalereal,6491,aws,https://github.com/scalereal/terraform-aws-elastic-beanstalk-environment,Terraform Module for AWS elastic beanstalk environment creation.
+elastic-file-system,stanislavzabarylo,28353,aws,https://github.com/stanislavzabarylo/terraform-aws-elastic-file-system,A type-safe Terraform module for provisioning and managing AWS Elastic File System (EFS) resources with robust configuration validation.
 elastic-forwarder,Krossnine,19556,aws,https://github.com/Krossnine/terraform-aws-elastic-forwarder,
 elastic-ip,bootlabstech-m,20111,aws,https://github.com/bootlabstech-m/terraform-aws-elastic-ip,Creates an Elastic IP and attaches it to an instance 
 elastic-operator,mateothegreat,6638,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-elastic-operator,Provision the elastic operator on kubernetes with Terraform.
@@ -8774,6 +8782,8 @@ id,BrynardSecurity-terraform,12996,random,https://github.com/BrynardSecurity-ter
 identities,misurellig,4703,vault,https://github.com/misurellig/terraform-vault-identities,A terraform module to setup identities in Hashicorp Vault
 identity,bellanov,26601,google,https://github.com/bellanov/terraform-google-identity,Google Cloud Identity Module.
 identity,mikamakusa,25764,oci,https://github.com/mikamakusa/terraform-oci-identity,
+identity-center,aws-samples,28343,aws,https://github.com/aws-samples/terraform-aws-identity-center,Manage AWS IAM Identity Center permission sets and account assignments with Terraform.
+identity-center-users-and-groups,aws-samples,28344,aws,https://github.com/aws-samples/terraform-aws-identity-center-users-and-groups,"Create AWS IAM Identity Center groups, users, and group membership with Terraform."
 identity-engine-data-plane,LiveRamp,23010,google,https://github.com/LiveRamp/terraform-google-identity-engine-data-plane,Identity/Identity-Engine - Data plane Terraform module
 identity-group,mineiros-io,11381,google,https://github.com/mineiros-io/terraform-google-identity-group,A Terraform module to create and manage a Google Identity Group (GCR) in Google Cloud https://cloud.google.com/container-registry
 identity-k8s,ultimateai,17289,workload,https://github.com/ultimateai/terraform-workload-identity-k8s,This repo maintains Terraform module for workload Identity for k8s cluster
@@ -10700,6 +10710,7 @@ manasstorage,Saimanasa-k,13210,azure,https://github.com/Saimanasa-k/terraform-az
 manifest,cloud-labs-infra,20176,kubernetes,https://github.com/cloud-labs-infra/terraform-kubernetes-manifest,
 manifest-documents,boillodmanuel,22397,null,https://github.com/boillodmanuel/terraform-null-manifest-documents,This terraform module helps to split a kubernetes multi-document manifest into several documents. This is a replacement for the kubectl_file_documents data source which has opened bugs
 manishd,msdingra,17105,azure,https://github.com/msdingra/terraform-azure-manishd,For Storage Demo -12
+manoj-vpc-module,ManojDekhane,28340,aws,https://github.com/ManojDekhane/terraform-aws-manoj-vpc-module,
 manoramastorage,ManoramaC,12237,aws,https://github.com/ManoramaC/terraform-aws-manoramastorage,
 mansis3,mansi240992,11418,aws,https://github.com/mansi240992/terraform-aws-mansis3,
 mansis3,mansiag48,11415,aws,https://github.com/mansiag48/terraform-aws-mansis3,
@@ -13915,6 +13926,7 @@ release,zarnigor87,25949,helm,https://github.com/zarnigor87/terraform-helm-relea
 release-prometheus-msteams,OpenQAI,5331,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-msteams,A helm_release terraform module type for prometheus_msteams chart. 
 release-prometheus-operator,OpenQAI,5333,helm,https://github.com/OpenQAI/terraform-helm-release-prometheus-operator,"Terraform Module: prometheus-operator, helm release resource deployment.  "
 release-prometheus-operator,bakuppus,10703,helm,https://github.com/bakuppus/terraform-helm-release-prometheus-operator,"Terraform Module: prometheus-operator, helm release resource deployment.  "
+release0,valentinabalan,28334,helm,https://github.com/valentinabalan/terraform-helm-release0,
 release1,AliAQ9,24898,helm,https://github.com/AliAQ9/terraform-helm-release1,
 release1,akalybekova5,24916,helm,https://github.com/akalybekova5/terraform-helm-release1,
 release1,ostafon1,24896,helm,https://github.com/ostafon1/terraform-helm-release1,
@@ -13925,6 +13937,7 @@ release2,farrukh90,24885,helm,https://github.com/farrukh90/terraform-helm-releas
 release2,pinar15,24915,helm,https://github.com/pinar15/terraform-helm-release2,
 release2,ysakova90,25783,helm,https://github.com/ysakova90/terraform-helm-release2,
 release3,farrukh90,28332,helm,https://github.com/farrukh90/terraform-helm-release3,
+release3,mk95devops,28338,helm,https://github.com/mk95devops/terraform-helm-release3,
 relese,Shukur91,26252,helm,https://github.com/Shukur91/terraform-helm-relese,
 remote-agents,dcos-terraform,1975,aws,https://github.com/dcos-terraform/terraform-aws-remote-region,
 remote-backend,avinor,2439,azurerm,https://github.com/avinor/terraform-azurerm-remote-backend,Terraform module to deploy a remote backend storage for Azure
@@ -15522,6 +15535,7 @@ service-account,ptonini,16774,kubernetes,https://github.com/ptonini/terraform-ku
 service-account,qbeyond,17200,google,https://github.com/qbeyond/terraform-google-service-account,Terraform Module to create a google service account
 service-account,thomas-illiet,26218,kubernetes,https://github.com/thomas-illiet/terraform-kubernetes-service-account,
 service-account,tsadoklf,1773,google,https://github.com/tsadoklf/terraform-google-service-account,Terraform module for creating a service account in Google Cloud Platform
+service-account,yohrannes,28350,google,https://github.com/yohrannes/terraform-google-service-account,
 service-account-iam,mineiros-io,11363,google,https://github.com/mineiros-io/terraform-google-service-account-iam,A Terraform module to manage Identity and Access Management (IAM) for service accounts in Google Cloud https://cloud.google.com/iam/docs/service-accounts
 service-account-vault,gendall,3957,google,https://github.com/gendall/terraform-google-service-account-vault,Terraform module to create Google Service Accounts with IAM roles and keys/tokens
 service-accounts,TerraPros,27871,google,https://github.com/TerraPros/terraform-google-service-accounts,Creates one or more service accounts and grants them basic roles
@@ -17962,6 +17976,7 @@ vnet,ysowju,23741,azurerm,https://github.com/ysowju/terraform-azurerm-vnet,
 vnet-3tier,bemakylbekova,6981,azure,https://github.com/bemakylbekova/terraform-azure-vnet-3tier,
 vnet-3tiers,gulmira07,6974,azure,https://github.com/gulmira07/terraform-azure-vnet-3tiers,
 vnet-creation,satishkonakandla,16436,azurerm,https://github.com/satishkonakandla/terraform-azurerm-vnet-creation,
+vnet-for-github-hosted-runners,dsb-norge,28342,azurerm,https://github.com/dsb-norge/terraform-azurerm-vnet-for-github-hosted-runners,Terraform module to create a virtual network prepared for 'Azure private networking for GitHub-hosted runners'
 vnet-full,web-virtua-azure-multi-account-modules,21576,azurerm,https://github.com/web-virtua-azure-multi-account-modules/terraform-azurerm-vnet-full,
 vnet-gateway,Azure,20112,azurerm,https://github.com/Azure/terraform-azurerm-vnet-gateway,Terraform module to deploy VPN and ExpressRoute gateways
 vnet-gateway,ptonini,20452,azurerm,https://github.com/ptonini/terraform-azurerm-vnet-gateway,
