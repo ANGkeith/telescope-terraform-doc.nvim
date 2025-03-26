@@ -428,6 +428,7 @@ ai-hub,bootlabstech,28323,azurerm,https://github.com/bootlabstech/terraform-azur
 ai-inference-onboarding,philips-labs,9819,hsdp,https://github.com/philips-labs/terraform-hsdp-ai-inference-onboarding,Onboarding module for HSDP AI Inference service
 ai-notebook-environment,teamdatatonic,8375,gcp,https://github.com/teamdatatonic/terraform-gcp-ai-notebook-environment,
 ai-project,bootlabstech,28322,azurerm,https://github.com/bootlabstech/terraform-azurerm-ai-project,
+ai-search,bootlabstech,28403,azurerm,https://github.com/bootlabstech/terraform-azurerm-ai-search,
 ai-stack,datastax,25372,aws,https://github.com/datastax/terraform-aws-ai-stack,
 ai-stack,datastax,25373,azure,https://github.com/datastax/terraform-azure-ai-stack,
 ai-stack,datastax,25374,gcp,https://github.com/datastax/terraform-gcp-ai-stack,
@@ -8528,7 +8529,7 @@ hybrid-dns,lorenzoaiello,4995,aws,https://github.com/lorenzoaiello/terraform-aws
 hybrid-gateway,equinix-labs,10073,metal,https://github.com/equinix-labs/terraform-metal-hybrid-gateway,Terraform module for a Hybrid-Bonded public gateway node in front of private Layer2 nodes
 hybrid-module-publishing-on-gh-packages,DanielMSchmidt,13365,cdk,https://github.com/DanielMSchmidt/terraform-cdk-hybrid-module-publishing-on-gh-packages,
 hybridcontainerservice,Azure,19387,azapi,https://github.com/Azure/terraform-azapi-hybridcontainerservice,This Terraform module deploys a Hybrid Kubernetescluster on ASZ using Hybrid Container Service and add support for adding node pool
-hz-nat,hamdiz0,28369,aws,https://github.com/hamdiz0/terraform-aws-hz-nat,A Terraform module for deploying high available NAT_Instances
+hz-nat-instance,hamdiz0,28404,aws,https://github.com/hamdiz0/terraform-aws-hz-nat-instance,A Terraform module for deploying high available NAT_Instances
 iam,BalaMuragan92,25402,aws,https://github.com/BalaMuragan92/terraform-aws-iam,
 iam,BorisLabs,8011,aws,https://github.com/BorisLabs/terraform-aws-iam,Terraform module to manage IAM permissions.
 iam,Noonchak,18106,scaleway,https://github.com/Noonchak/terraform-scaleway-iam,
@@ -10808,7 +10809,7 @@ mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terr
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,A Terraform module that creates a Glue job
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
-mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,Terraform module to create an AWS Lambda function
+mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,Terraform module to setup and manage various components of the AWS Landing Zone.
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,Terraform module to setup and manage AWS network firewall
@@ -10830,6 +10831,7 @@ mcaf-ses,schubergphilis,26057,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-ses-forwarder,schubergphilis,26060,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ses-forwarder,Terraform module to configure a SES forwarder.
 mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,Terraform module to setup and manage an AWS Transit Gateway
 mcaf-user,schubergphilis,18377,aws,https://github.com/schubergphilis/terraform-aws-mcaf-user,Terraform module to setup and manage an IAM User
+mcaf-variable-set,schubergphilis,28402,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-variable-set,
 mcaf-vpc,schubergphilis,26074,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc,
 mcaf-vpc-with-ipam,schubergphilis,26034,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc-with-ipam,Terraform module to manage an AWS VPC using the CIDR provided by an IPAM pool.
 mcaf-workspace,schubergphilis,22975,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-workspace,Terraform module to create a TFC workspace.
@@ -11651,6 +11653,7 @@ myvpc-module,theninjaprashant,27402,aws,https://github.com/theninjaprashant/terr
 n8n,elasticscale,20693,aws,https://github.com/elasticscale/terraform-aws-n8n,Run N8n on AWS ECS Fargate
 nac-access-policies,netascode,14156,aci,https://github.com/netascode/terraform-aci-nac-access-policies,Terraform Cisco ACI Access Policies Module
 nac-aci,netascode,19004,aci,https://github.com/netascode/terraform-aci-nac-aci,Terraform Cisco ACI Nexus-as-Code Module
+nac-catalystcenter,netascode,28401,catalystcenter,https://github.com/netascode/terraform-catalystcenter-nac-catalystcenter,Terraform Cisco Catalyst Center Network-as-Code Module
 nac-fabric-policies,netascode,14157,aci,https://github.com/netascode/terraform-aci-nac-fabric-policies,Terraform Cisco ACI Fabric Policies Module
 nac-fmc,netascode,27636,fmc,https://github.com/netascode/terraform-fmc-nac-fmc,Terraform Cisco FMC Network-as-Code Module
 nac-interface-policies,netascode,14158,aci,https://github.com/netascode/terraform-aci-nac-interface-policies,Terraform Cisco ACI Interface Policies Module
