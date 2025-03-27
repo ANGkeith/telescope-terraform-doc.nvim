@@ -1208,6 +1208,7 @@ aradhana-storage,shivaarusoni678,12318,azure,https://github.com/shivaarusoni678/
 aravindhs3bucket,aravindh1307,18381,aws,https://github.com/aravindh1307/terraform-aws-aravindhs3bucket,
 arc-backstage-ecs-app,sourcefuse,21336,aws,https://github.com/sourcefuse/terraform-aws-arc-backstage-ecs-app,
 arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-backup,
+arc-bedrock,sourcefuse,28406,aws,https://github.com/sourcefuse/terraform-aws-arc-bedrock,Terraform module for Bedrock
 arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,
 arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Repo for managing the Bootstrap (DynamoDB + S3) Terraform Module..
 arc-cache,sourcefuse,24773,aws,https://github.com/sourcefuse/terraform-aws-arc-cache,ARC Module for managing elasticache redis clusters
@@ -1775,6 +1776,7 @@ avi-controller-gcp,slarimore02,7435,gcp,https://github.com/slarimore02/terraform
 avi-controller-vsphere,slarimore02,8612,vsphere,https://github.com/slarimore02/terraform-vsphere-avi-controller-vsphere,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on vSphere
 avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terraform-azure-avinashstorage,
 avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
+avm-ptn-aks-dev,ms-henglu,28407,azurerm,https://github.com/ms-henglu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-economy,Azure,26779,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-economy,This is the Production Economy Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production economy standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production economy deployments for AKS.
 avm-ptn-aks-enterprise,Azure,26780,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-enterprise,This is the Production Enterprise Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production enterprise standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production enterprise deployments for AKS.
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
@@ -5660,7 +5662,7 @@ dx-azure-storage-account,pagopa,27019,azurerm,https://github.com/pagopa/terrafor
 dx-github-selfhosted-runner-on-container-app-jobs,pagopa,27020,azurerm,https://github.com/pagopa/terraform-azurerm-dx-github-selfhosted-runner-on-container-app-jobs,Deploys GitHub self-hosted runners using Azure Container Apps jobs for scalable CI/CD workflows
 dx-lambda,christian-calabrese,26326,aws,https://github.com/christian-calabrese/terraform-aws-dx-lambda,
 dynamic,saketh-linux,14163,aws,https://github.com/saketh-jakkula/terraform-aws-dynamic,
-dynamic-inventory,lsampaioweb,17645,local,https://github.com/lsampaioweb/terraform-local-dynamic-inventory,Terraform module that generates local dynamic Ansible inventory files.
+dynamic-inventory,lsampaioweb,17645,local,https://github.com/lsampaioweb/terraform-local-dynamic-inventory,Generates local dynamic Ansible inventory files
 dynamic-keys,mitchellh,990,aws,https://github.com/mitchellh/terraform-aws-dynamic-keys,Terraform module that dynamically generates a public/private keypair.
 dynamic-provider-credentials,tagesspiegel,21153,aws,https://github.com/tagesspiegel/terraform-aws-dynamic-provider-credentials,"This module creates a dynamic credentials setup between AWS and Terraform Cloud (project). It creates an IAM policy, IAM role, and IAM role policy attachment. It also creates a Terraform Cloud variable set with the AWS configurations."
 dynamic-secrets-mysql,tf-vault-modules,19625,vault,https://github.com/tf-vault-modules/terraform-vault-dynamic-secrets-mysql,
@@ -8967,7 +8969,6 @@ instance,aigerim-199,27542,module,https://github.com/aigerim-199/terraform-modul
 instance,aika-l,27531,module,https://github.com/aika-l/terraform-module-instance,
 instance,aliacavdar,7166,rds,https://github.com/aliacavdar/terraform-rds-instance,
 instance,aminamarat1101,27555,module,https://github.com/aminamarat1101/terraform-module-instance,
-instance,barnes-c,27799,openstack,https://github.com/barnes-c/terraform-openstack-instance,Repository to automate the provisioning of instances in the CERN OpenStack private cloud.
 instance,bemakylbekova,6809,rds,https://github.com/bemakylbekova/terraform-aws-rds-instance,
 instance,billymartin910,6811,rds,https://github.com/billymartin910/terraform-rds-instance,
 instance,dcos-terraform,1427,aws,https://github.com/dcos-terraform/terraform-aws-instance,creates a DC/OS AWS Instance
@@ -9342,6 +9343,7 @@ kapsule,particuleio,6250,scaleway,https://github.com/particuleio/terraform-scale
 kapsule,ulm0,8115,scaleway,https://github.com/ulm0/terraform-scaleway-kapsule,Terraform module to deploy a Scaleway Kapsule Kubernetes Cluster
 karanstorage,karanvirkaranvir,15263,azure,https://github.com/karanvirkaranvir/terraform-azure-karanstorage,
 karbon,Aristocrat-B2B,8598,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-karbon,A module that builds Karbon K8s cluster on Nutanix hypervisor
+karpenter,HAJINYOUNG,28405,aws,https://github.com/HAJINYOUNG/terraform-aws-karpenter,
 karpenter,bigfantech-cloud,18847,k8s,https://github.com/bigfantech-cloud/terraform-k8s-karpenter,Terraform module: Install Karpenter in EKS Cluster
 karpenter,clouddrove,18418,aws,https://github.com/clouddrove/terraform-aws-karpenter,
 karpenter,govind0229,26798,aws,https://github.com/govind0229/terraform-aws-karpenter,"Whether you're scaling dynamically or looking to reduce costs on your Kubernetes clusters, this Karpenter module offers a streamlined solution for managing instance types based on workload requirements. It’s a powerful tool for anyone working with EKS who wants to take advantage of AWS’s advanced node provisioning capabilities."
@@ -9684,6 +9686,7 @@ kubeconfig,HumbertoPeluso,10808,aws,https://github.com/HumbertoPeluso/terraform-
 kubeconfig,caherrera,17355,kubernetes,https://github.com/caherrera/terraform-kubernetes-kubeconfig,Generate kubeconfig files with Terraform
 kubeconfig,patrikkj,25566,k8s,https://github.com/patrikkj/terraform-k8s-kubeconfig,Terraform module that generates or patches Kubeconfig files.
 kubeconfig,redeux,8462,kubernetes,https://github.com/redeux/terraform-kubernetes-kubeconfig,Generate kubeconfig files with Terraform
+kubeconfig,rhysj6,28408,rancher,https://github.com/rhysj6/terraform-rancher-kubeconfig,Terraform module that gets the Kubernetes provider config for rancher managed clusters
 kubeconfig,tfplugin,17654,tfe,https://github.com/tfplugin/terraform-tfe-kubeconfig,Terraform module to get kubeconfig output from Terraform Cloud workspace.
 kubeconfig,zzh8829,16718,gke,https://github.com/zzh8829/terraform-gke-kubeconfig,📝 Terraform module that generates a Kubeconfig for accessing GKE clusters
 kubeconfig-generator,andre177,20860,kubernetes,https://github.com/andre177/terraform-kubernetes-kubeconfig-generator,Generate a kubeconfig file for a given service account
@@ -10796,7 +10799,7 @@ mc-transit-tgw-connection,terraform-aviatrix-modules,9799,aviatrix,https://githu
 mcaf-account,schubergphilis,24636,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account,
 mcaf-account-baseline,schubergphilis,24635,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account-baseline,Terraform module to setup a baseline configuration for AWS accounts 
 mcaf-aurora,schubergphilis,18378,aws,https://github.com/schubergphilis/terraform-aws-mcaf-aurora,Terraform module to create an AWS RDS Aurora cluster
-mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aws-mcaf-avm,Terraform module providing an AWS Account Vending Machine (AVM)
+mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aws-mcaf-avm,
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,Terraform module to create AWS Budgets
 mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,Terraform module to manage certificates in AWS Certificate Manager
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,Terraform module to setup and manage cost and usage reports
@@ -10822,7 +10825,7 @@ mcaf-resource-scheduler,schubergphilis,26127,aws,https://github.com/schubergphil
 mcaf-role,schubergphilis,28316,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,
 mcaf-route53-resolver,schubergphilis,28292,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-resolver,Terraform module to create a Route53 Resolver
 mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
-mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,Terraform module to create an AWS s3 bucket
+mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,
 mcaf-saas-audit-logs,schubergphilis,25681,aws,https://github.com/schubergphilis/terraform-aws-mcaf-saas-audit-logs,Terraform module to fetch audit logs from SaaS providers
 mcaf-security-group,schubergphilis,27680,aws,https://github.com/schubergphilis/terraform-aws-mcaf-security-group,Terraform module to manage an AWS Security Group.
 mcaf-securityhub-findings-manager,schubergphilis,19581,aws,https://github.com/schubergphilis/terraform-aws-mcaf-securityhub-findings-manager,"Terraform module to Automatically suppress findings recorded by the AWS Security Hub service based on a pre-defined and configurable suppression list, integrates with Jira and ServiceNow for creation of tickets when findings are generated by AWS Security Hub."
@@ -17063,7 +17066,7 @@ target-group,terraform-ncloud-modules,15856,ncloud,https://github.com/terraform-
 target-group,tomarv2,12337,aws,https://github.com/tomarv2/terraform-aws-target-group,Terraform module for AWS Target Group
 target-group-alarms,egarbi,643,aws,https://github.com/egarbi/terraform-aws-target-group-alarms,This will add basic alarms for ecs services
 target-group-attachment-vpc,terraform-navercloudplatform-modules,25167,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-target-group-attachment-vpc,Terraform module to create target group attachment resources for the vpc configuration
-target-node,lsampaioweb,17596,random,https://github.com/lsampaioweb/terraform-random-target-node,Repository of a Terraform module that generates random numbers that are used as the servers that will receive the new VM.
+target-node,lsampaioweb,17596,random,https://github.com/lsampaioweb/terraform-random-target-node,Repository of a Terraform module that generates random numbers to select servers that will receive new VMs.
 task-definition,egarbi,458,aws,https://github.com/egarbi/terraform-aws-task-definition,This is a submodule usuful to be called from a service module to create a task-definition
 task-definition-with-task-role,mergermarket,3687,acuris,https://github.com/mergermarket/terraform-acuris-task-definition-with-task-role,
 taskagent,telekom-mms,20279,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-taskagent,A Terraform module that manages the taskagent resources from the azuredevops provider.
