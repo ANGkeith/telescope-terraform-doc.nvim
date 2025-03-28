@@ -1800,6 +1800,7 @@ avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurer
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
+avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
 avm-res-azurestackhci-cluster,Azure,25933,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-cluster,
@@ -1853,6 +1854,7 @@ avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-a
 avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,AVM Terraform module for ExpressRoute Circuits.
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
 avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,Front Door Web Application Firewall (WAF) Policy
+avm-res-network-ipgroup,Azure,28413,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ipgroup,Terraform Azure Verified Resource Module for IP Groups
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,AVM Terraform module for Local Network Gateway
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
@@ -2305,6 +2307,7 @@ banyan-connector,banyansecurity,13030,aws,https://github.com/banyansecurity/terr
 banyan-connector,banyansecurity,13448,azure,https://github.com/banyansecurity/terraform-azure-banyan-connector,Terraform module to create a Connector in Azure for Banyan Security customers
 banyan-connector,banyansecurity,13482,google,https://github.com/banyansecurity/terraform-google-banyan-connector,
 banyan-network,banyansecurity,7068,aws,https://github.com/banyansecurity/terraform-aws-banyan-network,
+bare-metal-vpc,terraform-ibm-modules,28417,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-bare-metal-vpc,Configure a Bare Metal Server for VPC
 barebones,eda-dev-test,13418,aws,https://github.com/eda-dev-test/terraform-aws-barebones,
 barebones,eda-dev-test,13419,google,https://github.com/eda-dev-test/terraform-google-barebones,
 base,oracle-terraform-modules,4185,oci,https://github.com/oracle-terraform-modules/terraform-oci-base,"terraform-oci-base for Oracle Cloud Infrastructure provides a reusable Terraform module that provisions a minimal infrastructure on OCI, including a VCN, an optional bastion host and an optional internal admin server"
@@ -3871,6 +3874,7 @@ compute-instance,olezhuravlev,13099,yandex,https://github.com/olezhuravlev/terra
 compute-instance,oracle,64,opc,https://github.com/oracle/terraform-opc-compute-instance,Terraform Module for creating Oracle Cloud Infrastructure OPC Compute instances
 compute-instance,oracle-terraform-modules,1717,oci,https://github.com/oracle-terraform-modules/terraform-oci-compute-instance,Terraform Module for creating Oracle Cloud Infrastructure compute instances
 compute-instance,ptonini,20143,openstack,https://github.com/ptonini/terraform-openstack-compute-instance,
+compute-instance,terraform-expero-cloud-modules,28415,sbercloud,https://github.com/terraform-expero-cloud-modules/terraform-sbercloud-compute-instance,
 compute-instance,tinslice,8128,gcp,https://github.com/tinslice/terraform-gcp-compute-instance,Create GCP Compute Instance
 compute-instance-internal,ichundu,2363,google,https://github.com/ichundu/terraform-google-compute-instance-internal,terraform google cloud VMs
 compute-instance-module,elvinlari,16522,gcp,https://github.com/elvinlari/terraform-gcp-compute-instance-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
@@ -4097,6 +4101,7 @@ controlstack,sspaky,22976,digitalocean,https://github.com/sspaky/terraform-digit
 controltower-control,OT-CLOUD-KIT,19538,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-controltower-control,
 convention,recarnot,5319,aws,https://github.com/recarnot/terraform-aws-convention,Module to control naming conventions and some AWS properties
 conventions,Jsoconno,10650,azure,https://github.com/jsoconno/terraform-azure-conventions,A Terraform module for enforcing standard naming conventions for Azure resources.
+conversion,kvanzuijlen,28412,time,https://github.com/kvanzuijlen/terraform-time-conversion,
 convert-format,hacomono,22774,string,https://github.com/hacomono/terraform-string-convert-format,string型の文字列をcamelcase、snakecaseなどのformatで返すterraform module
 converter,hacomono,14875,time,https://github.com/hacomono/terraform-time-converter,時間とTimezoneを指定して実行すると望んだTimezoneで様々な形式で返す
 cool,Keerthi13122002,24730,azure,https://github.com/Keerthi13122002/terraform-azure-cool,
@@ -9418,6 +9423,7 @@ key-vault,telekom-mms,19992,azurerm,https://github.com/telekom-mms/terraform-azu
 key-vault,tomarv2,12426,azure,https://github.com/tomarv2/terraform-azure-key-vault,Terraform module for Azure Key Vault
 key-vault-key,data-platform-hq,20113,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-key,Terraform module for creation Azure Key Vault Keys
 key-vault-secret,data-platform-hq,15913,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-secret,Terraform module for managing Secrets in Azure Key Vault
+key-vault-secrets,libre-devops,28414,azurerm,https://github.com/libre-devops/terraform-azurerm-key-vault-secrets,"A module to help generate and store key vault secrets 🔑 - PS This is just to help, please follow your own organisations secret best practices to stay compliant 🕵️"
 key-vault-secrets,zodiac403,15357,azurerm,https://github.com/zodiac403/terraform-azurerm-key-vault-secrets,This is a Terraform module for simple writing and reading secrets from an Azure Key Vault.
 key_pair,terracharge,14089,aws,https://github.com/terracharge/terraform-aws-key_pair,Module for creating terraform-aws-key_pair with provider aws. This description is created automagically
 key_vault,TaleLearnCode,26380,azurerm,https://github.com/TaleLearnCode/terraform-azurerm-key_vault,Terraform module for managing Azure Key Vaults.
@@ -11347,6 +11353,7 @@ msk-apache-kafka-cluster,cloudposse,5962,aws,https://github.com/cloudposse/terra
 msk-apache-kafka-cluster,jand0manski,19585,aws,https://github.com/jand0manski/terraform-aws-msk-apache-kafka-cluster,Terraform module to provision AWS MSK
 msk-apache-kafka-cluster,vunhan,16897,aws,https://github.com/vunhan/terraform-aws-msk-apache-kafka-cluster,Terraform module to provision AWS MSK
 msk-cluster,angelabad,4702,aws,https://github.com/angelabad/terraform-aws-msk-cluster,Terraform module which creates Msk Kafka Cluster on AWS
+msk-cluster,aws-terraform-module,28409,aws,https://github.com/aws-terraform-module/terraform-aws-msk-cluster,Terraform module which creates Msk Kafka Cluster on AWS
 msk-cluster,geekcell,19782,aws,https://github.com/geekcell/terraform-aws-msk-cluster,Terraform module to provision an AWS MSK Cluster.
 msk-cluster,parisnakitakejser,24999,aws,https://github.com/parisnakitakejser/terraform-aws-msk-cluster,
 msk-kafka-cluster,alessonviana,21031,aws,https://github.com/alessonviana/terraform-aws-msk-kafka-cluster,Terraform module which creates AWS MSK (Managed Streaming for Kafka) resources 
@@ -18114,6 +18121,7 @@ vpc,JeissonO,9244,aws,https://github.com/JeissonO/terraform-aws-vpc,This module 
 vpc,Jovanny159,9378,aws,https://github.com/Jovanny159/terraform-aws-vpc,
 vpc,Kavitha-Sivalingam,14525,kavitha,https://github.com/Kavitha-Sivalingam/terraform-kavitha-vpc,
 vpc,KoeSystems,461,aws,https://github.com/KoeSystems/terraform-aws-vpc,Terraform AWS VPC module
+vpc,LNSdev07,28410,aws,https://github.com/LNSdev07/terraform-aws-vpc,
 vpc,Lucky-graf,17316,aws,https://github.com/Lucky-graf/terraform-aws-vpc,Modules for AWS provider
 vpc,MagnetarIT,4625,aws,https://github.com/MagnetarIT/terraform-aws-vpc,Terraform module for creation of a VPC
 vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
