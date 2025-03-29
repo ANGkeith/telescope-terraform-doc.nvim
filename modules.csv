@@ -3866,6 +3866,7 @@ compute-instance,akbaribnu,1289,google,https://github.com/unbirabka/terraform-go
 compute-instance,bootlabstech,11616,google,https://github.com/bootlabstech/terraform-google-compute-instance,
 compute-instance,darzanebor,14822,yandex,https://github.com/darzanebor/terraform-yandex-compute-instance,Yandex.Cloud Terraform Compute Instance module
 compute-instance,deepuashokan85,2018,google,https://github.com/deepuashokan85/terraform-google-compute-instance,
+compute-instance,expero-tf-modules,28420,sbercloud,https://github.com/expero-tf-modules/terraform-sbercloud-compute-instance,
 compute-instance,goquovn,15401,gcp,https://github.com/goquovn/terraform-gcp-compute-instance,
 compute-instance,kral2,7445,oci,https://github.com/kral2/terraform-oci-compute-instance,"Upstream Terraform Module for the official Oracle Cloud Infrastructure Compute-Instance module published on Terraform registry | Used for module development and feature preview only. Do not use for production. For stable version, see oracle-terraform-modules/compute-instance"
 compute-instance,lumapps,1770,google,https://github.com/lumapps/terraform-google-compute-instance,
@@ -3874,7 +3875,6 @@ compute-instance,olezhuravlev,13099,yandex,https://github.com/olezhuravlev/terra
 compute-instance,oracle,64,opc,https://github.com/oracle/terraform-opc-compute-instance,Terraform Module for creating Oracle Cloud Infrastructure OPC Compute instances
 compute-instance,oracle-terraform-modules,1717,oci,https://github.com/oracle-terraform-modules/terraform-oci-compute-instance,Terraform Module for creating Oracle Cloud Infrastructure compute instances
 compute-instance,ptonini,20143,openstack,https://github.com/ptonini/terraform-openstack-compute-instance,
-compute-instance,terraform-expero-cloud-modules,28415,sbercloud,https://github.com/terraform-expero-cloud-modules/terraform-sbercloud-compute-instance,
 compute-instance,tinslice,8128,gcp,https://github.com/tinslice/terraform-gcp-compute-instance,Create GCP Compute Instance
 compute-instance-internal,ichundu,2363,google,https://github.com/ichundu/terraform-google-compute-instance-internal,terraform google cloud VMs
 compute-instance-module,elvinlari,16522,gcp,https://github.com/elvinlari/terraform-gcp-compute-instance-module,A Terraform module that makes it easy to set up a new VM instance in Google Cloud Platform.
@@ -8304,7 +8304,7 @@ guardduty-configuration,infrahouse,27963,aws,https://github.com/infrahouse/terra
 guardduty-monitor,opendevsecops,1795,aws,https://github.com/opendevsecops/terraform-aws-guardduty-monitor,
 guardduty-multiaccount,binbashar,6502,aws,https://github.com/binbashar/terraform-aws-guardduty-multiaccount,This Terraform module can be used to implement AWS GuardDuty in a multi-account setup
 guardduty-notifications,trussworks,1540,aws,https://github.com/trussworks/terraform-aws-guardduty-notifications,Enables AWS GuardDuty and sends findings to an SNS topic.
-guardduty-organization,blackbird-cloud,19293,aws,https://github.com/blackbird-cloud/terraform-aws-guardduty-organization,Terraform module for AWS GuardDuty Organization configuration
+guardduty-organization,blackbird-cloud,19293,aws,https://github.com/blackbird-cloud/terraform-aws-guardduty-organization,Terraform module to setup AWS GuardDuty in an organization
 guardduty-s3,Mattias-,1752,aws,https://github.com/Mattias-/terraform-aws-guardduty-s3,
 guardduty-to-slack,phundisk,6514,aws,https://github.com/phundisk/terraform-aws-guardduty-to-slack,Terraform module to be able to get guardduty findings posted into slack using webhooks and formatted nicely.
 guardduty-to-sns,rhythmictech,5382,aws,https://github.com/rhythmictech/terraform-aws-guardduty-to-sns,Route GuardDuty Alerts to SNS. Currently only configures one region.
@@ -10822,6 +10822,7 @@ mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,Terraform module to setup and manage various components of the AWS Landing Zone.
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,Terraform module to setup and manage AWS network firewall
+mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
 mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,Terraform module to configure an IAM OIDC identity provider in AWS and create roles using this provider.
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,Terraform module to manage an AWS Organization.
 mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,Terraform module to create and manage a GitLab project.
@@ -11190,6 +11191,7 @@ modules,ggsrc,28253,blueprint,https://github.com/ggsrc/terraform-blueprint-modul
 modules,govardhanpagidi,21506,test,https://github.com/govardhanpagidi/terraform-test-modules,
 modules,italolelis,7470,github,https://github.com/italolelis/terraform-github-modules,Terraform module which creates GitHub resources on GitHub.
 modules,iwarapter,11135,pingfederate,https://github.com/iwarapter/terraform-pingfederate-modules,Collection of terraform pingfederate modules to avoid boilerplate defaults
+modules,jimright,28422,example,https://github.com/jimright/terraform-example-modules,Example Terraform modules published to Terraform registry
 modules,kodal035,19674,aws,https://github.com/kodal035/terraform-aws-modules,terraform-aws-modules
 modules,lily4499,27685,aws,https://github.com/lily4499/terraform-aws-modules,
 modules,makandra,16962,aws,https://github.com/makandra/terraform-aws-modules,Collection of some standard modules for deployment in AWS accounts.
@@ -13867,6 +13869,7 @@ redis_store,airasia,4751,google,https://github.com/airasia/terraform-google-redi
 redis_store,goquovn,15399,gcp,https://github.com/goquovn/terraform-gcp-redis_store,
 redisrr,bootlabstech,17062,google,https://github.com/bootlabstech/terraform-google-redisrr,Creates Redis with Read Replicas
 redpanda-byovpc,redpanda-data,28194,aws,https://github.com/redpanda-data/terraform-aws-redpanda-byovpc,
+redpanda-byovpc,redpanda-data,28423,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-byovpc,
 redpanda-cluster,redpanda-data,19316,aws,https://github.com/redpanda-data/terraform-aws-redpanda-cluster,
 redpanda-cluster,redpanda-data,21187,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-cluster,
 redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-aws-redshift,Basic Redshift module
@@ -17497,6 +17500,7 @@ tvdlab-vcn,Trivadis,6352,oci,https://github.com/Trivadis/terraform-oci-tvdlab-vc
 tvdlab-vcn,oehrlis,6351,oci,https://github.com/oehrlis/terraform-oci-tvdlab-vcn,A reusable and extensible Terraform module that provisions a Trivadis LAB VCN on Oracle Cloud Infrastructure
 twingate,oguzhancoskun,22634,twingate,https://github.com/oguzhancoskun/terraform-twingate-twingate,Terraform Twingate Module
 tzdb,robzr,25390,null,https://github.com/robzr/terraform-null-tzdb,"Terraform module for querying Time Zones and ISO-3166 Country Codes from IANA Time Zone Database, with optional online database retrieval."
+uai,CloudNationHQ,28421,azure,https://github.com/CloudNationHQ/terraform-azure-uai,
 ubuntu,fvoges,8058,digitalocean,https://github.com/fvoges/terraform-digitalocean-ubuntu,
 ubuntu,ucipass,10169,aws,https://github.com/ucipass/terraform-aws-ubuntu,Terraform module to deploy and Ubuntu instance in the AWS cloud
 ubuntu-ami-version,josh-jacobsen,11599,aws,https://github.com/josh-jacobsen/terraform-aws-ubuntu-ami-version,
