@@ -222,6 +222,7 @@ aci-devops-agent,Azure,5150,azurerm,https://github.com/Azure/terraform-azurerm-a
 aci-devops-agent,anassolanki,24712,azurerm,https://github.com/anassolanki/terraform-azurerm-aci-devops-agent,Terraform Module to deploy a Azure DevOps self-hosted agents on Azure Container Instance
 ack,nlamirault,7328,alicloud,https://github.com/nlamirault/terraform-alicloud-ack,Terraform module for Alicloud Container Service for Kubernetes
 acm,Aplyca,1018,aws,https://github.com/Aplyca/terraform-aws-acm,Terraform AWS Certificate Manager module
+acm,AutomateTheCloud,28429,aws,https://github.com/AutomateTheCloud/terraform-aws-acm,Terraform module to create an ACM Certificate (AutomateTheCloud model)
 acm,Lupus-Metallum,8432,aws,https://github.com/Lupus-Metallum/terraform-aws-acm,Used to create a DNS verified ACM certificate by R53 Zone name
 acm,Selleo,12995,aws,https://github.com/Selleo/terraform-aws-acm,Terraform module for provisioning and validating TLS certificates.
 acm,Smartbrood,22954,aws,https://github.com/Smartbrood/terraform-aws-acm,Terraform module to create ACM Certificate
@@ -3701,6 +3702,7 @@ codecommit-flow-ci,plus3it,1201,aws,https://github.com/plus3it/terraform-aws-cod
 codecommit-repository,figurate,5042,aws,https://github.com/figurate/terraform-aws-codecommit,Provision and mirror Git repositories in CodeCommit
 codecommit-s3-backups,aws-samples,28329,aws,https://github.com/aws-samples/terraform-aws-codecommit-s3-backups,Backup your AWS CodeCommit repositories to S3 with Terraform
 codecommit-sqs,riboseinc,502,aws,https://github.com/riboseinc/terraform-aws-codecommit-sqs,Terraform module for creating an AWS CodeCommit repo with Trigger for SQS and Queue that works with Jenkins CodeCommit Trigger Plugin
+codedeploy,AutomateTheCloud,28430,aws,https://github.com/AutomateTheCloud/terraform-aws-codedeploy,Terraform module for creating CodeDeploy Applications (AutomateTheCloud model)
 codedeploy,Cloud-42,3916,aws,https://github.com/Cloud-42/terraform-aws-codedeploy,"Simple module that creates a CodeDeploy application, deployment group & associates the deployment group with an ASG."
 codedeploy,JamesWoolfenden,15644,aws,https://github.com/JamesWoolfenden/terraform-aws-codedeploy,Basic codedeploy module
 codedeploy,Senora-dev,24302,aws,https://github.com/Senora-dev/terraform-aws-codedeploy,
@@ -8537,6 +8539,7 @@ hybrid-dns,lorenzoaiello,4995,aws,https://github.com/lorenzoaiello/terraform-aws
 hybrid-gateway,equinix-labs,10073,metal,https://github.com/equinix-labs/terraform-metal-hybrid-gateway,Terraform module for a Hybrid-Bonded public gateway node in front of private Layer2 nodes
 hybrid-module-publishing-on-gh-packages,DanielMSchmidt,13365,cdk,https://github.com/DanielMSchmidt/terraform-cdk-hybrid-module-publishing-on-gh-packages,
 hybridcontainerservice,Azure,19387,azapi,https://github.com/Azure/terraform-azapi-hybridcontainerservice,This Terraform module deploys a Hybrid Kubernetescluster on ASZ using Hybrid Container Service and add support for adding node pool
+hz-ami-gen,hamdiz0,28425,aws,https://github.com/hamdiz0/terraform-aws-hz-ami-gen,A Terraform module for generating amis based on a provided script
 hz-nat-instance,hamdiz0,28404,aws,https://github.com/hamdiz0/terraform-aws-hz-nat-instance,A Terraform module for deploying high available NAT_Instances
 iam,BalaMuragan92,25402,aws,https://github.com/BalaMuragan92/terraform-aws-iam,
 iam,BorisLabs,8011,aws,https://github.com/BorisLabs/terraform-aws-iam,Terraform module to manage IAM permissions.
@@ -14473,6 +14476,7 @@ route53-zone,gretchenleighmiller,24202,aws,https://github.com/gretchenleighmille
 route53-zone,ptonini,16749,aws,https://github.com/ptonini/terraform-aws-route53-zone,
 route53-zone,spirius,5308,aws,https://github.com/spirius/terraform-aws-route53-zone,AWS Route53 Zone Terraform module
 route53-zone-dns-multiaccount,birkoff,25614,aws,https://github.com/birkoff/terraform-aws-route53-zone-dns-multiaccount,Add public NS records to parent DNS
+route53_zone,AutomateTheCloud,28428,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_zone,Terraform module to create Route 53 Zones (AutomateTheCloud model)
 route53acm,KamranBiglari,21155,aws,https://github.com/KamranBiglari/terraform-aws-route53acm,Terraform module to create A record in route 53 and validate AWS ACM
 route53healthcheck,DNXLabs,5748,aws,https://github.com/DNXLabs/terraform-aws-route53healthcheck,This is a module to configure health check and related AWS CloudWatch metric alarms.
 route53resolver-firewall-domainlists,elduds,20024,aws,https://github.com/elduds/terraform-aws-route53resolver-firewall-domainlists,Statically defined mappings of AWS Route53 Resolver DNS Firewall Managed Domain Lists
@@ -14548,6 +14552,7 @@ s3,exnodeshub,22511,aws,https://github.com/exnodeshub/terraform-aws-s3,
 s3,finisterra-io,23574,aws,https://github.com/finisterra-io/terraform-aws-s3,Terraform AWS S3 module
 s3,foss-cafe,18590,aws,https://github.com/ionicloud/terraform-aws-s3,Terraform module for aws s3 
 s3,geekcell,19753,aws,https://github.com/geekcell/terraform-aws-s3,Terraform module to provision an AWS S3 bucket.
+s3,hansohn,28426,aws,https://github.com/hansohn/terraform-aws-s3,Terraform AWS S3 module
 s3,imoisharma,21864,aws,https://github.com/imoisharma/terraform-aws-s3,
 s3,javilac,720,aws,https://github.com/javilac/terraform-aws-s3,"Terraform module, provides s3 resources."
 s3,jeanvisser,26256,aws,https://github.com/jeanvisser/terraform-aws-s3,A Terraform module to manage an AWS S3 bucket
@@ -14884,6 +14889,7 @@ s3-yum-repo,claranet,738,aws,https://github.com/claranet/terraform-aws-s3-yum-re
 s3-yum-repo,rhythmictech,7941,aws,https://github.com/rhythmictech/terraform-aws-s3-yum-repo,WIP turn an S3 bucket into a yum repo :yum:
 s3-zip-uploader,cruxstack,20229,aws,https://github.com/cruxstack/terraform-aws-s3-zip-uploader,Terraform Module to an upload zip to S3 bucket
 s3-zip-uploader,sgtoj,20017,aws,https://github.com/cruxstack/terraform-aws-s3-zip-uploader,Terraform Module to an upload zip to S3 bucket
+s3_bucket,AutomateTheCloud,28427,aws,https://github.com/AutomateTheCloud/terraform-aws-s3_bucket,Terraform module to create an S3 Bucket (AutomateTheCloud model)
 s3_bucket,vinhdat4999,20872,kmsdemo,https://github.com/vinhdat4999/terraform-kmsdemo-s3_bucket,
 s3_bucket_notification,vinhdat4999,20873,kmsdemo,https://github.com/vinhdat4999/terraform-kmsdemo-s3_bucket_notification,
 s3_cloudfront,thomasvjoseph,26240,aws,https://github.com/thomasvjoseph/terraform-aws-s3_cloudfront,"Cloudfront with Origin as S3, with cloudfront_origin_access_identity"
@@ -18085,6 +18091,7 @@ vpc,AprilJoyYildirim,9409,aws,https://github.com/AprilJoyYildirim/terraform-aws-
 vpc,Arulraj23,21270,alicloud,https://github.com/Arulraj23/terraform-alicloud-vpc,
 vpc,AsiaO1,9382,aws,https://github.com/AsiaO1/terraform-aws-vpc,
 vpc,Atabek-cyber,9422,aws,https://github.com/Atabek-cyber/terraform-aws-vpc,
+vpc,AutomateTheCloud,28431,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc,Terraform module to create a VPC (AutomateTheCloud model)
 vpc,Aveartur,9405,aws,https://github.com/Aveartur/terraform-aws-vpc,
 vpc,BalaMuragan92,25393,aws,https://github.com/BalaMuragan92/terraform-aws-vpc,
 vpc,Bekzhan-osh,6702,aws,https://github.com/Bekzhan-osh/terraform-aws-vpc,
@@ -18799,6 +18806,7 @@ vpc5,tshamane,12665,aws,https://github.com/tshamane/terraform-aws-vpc5,
 vpc7,Aigerim2024,25481,aws,https://github.com/Aigerim2024/terraform-aws-vpc7,
 vpc7,techtorialdevops,25477,aws,https://github.com/techtorialdevops/terraform-aws-vpc7,
 vpcDetailer,Digital-Works-2020,26889,aws,https://github.com/Digital-Works-2020/terraform-aws-vpcDetailer,Modules Based on Terraform AWS Provider
+vpc_dhcp_options,AutomateTheCloud,28432,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc_dhcp_options,Terraform module to create VPC DHCP Option Sets (AutomateTheCloud model)
 vpc_endpoints,aws-ia,10360,aws,https://github.com/aws-ia/terraform-aws-vpc_endpoints,Terraform AWS VPC endpoints module
 vpc_marcus,nguyencuong30697,17521,aws,https://github.com/nguyencuong30697/terraform-aws-vpc_marcus,"Create VPC, subnet, IGW and NATGW by terraform"
 vpc_module,mmichel122,3488,aws,https://github.com/mmichel122/terraform-aws-vpc_module,
