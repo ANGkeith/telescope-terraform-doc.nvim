@@ -1798,6 +1798,7 @@ avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/ter
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
 avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Azure Verified Module for the Multi-hub networking pattern
+avm-ptn-monitoring-amba-alz,Azure,28533,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-monitoring-amba-alz,
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
@@ -4220,6 +4221,7 @@ cron-ecs-task,hendrixroa,5705,aws,https://github.com/hendrixroa/terraform-aws-cr
 cron-job,dvargas92495,6378,aws,https://github.com/dvargas92495/terraform-aws-cron-job,
 cron-to-lambda,Olgoetz,10523,aws,https://github.com/Olgoetz/terraform-aws-cron-to-lambda,Terraform module to trigger a lambda function via cron.
 cronjob,djangoflow,15478,kubernetes,https://github.com/djangoflow/terraform-kubernetes-cronjob,"A kubernetes cronjob, suitable for backing up things to GCS (and not only)"
+cronjob,paulsony13,28532,k8,https://github.com/paulsony13/terraform-k8-cronjob,Terraform module for Kubernetes CronJobs on EKS
 cross-account,OT-CLOUD-KIT,7311,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-cross-account,
 cross-account-access,lablabs,4554,aws,https://github.com/lablabs/terraform-aws-cross-account-access,
 cross-account-devops-role,fmontezuma,2924,aws,https://github.com/fmontezuma/terraform-aws-cross-account-devops-role,
@@ -4693,6 +4695,7 @@ diskencryptionset,JamesWoolfenden,20564,azurerm,https://github.com/JamesWoolfend
 dispatcher,locmai,17334,grafana,https://github.com/locmai/terraform-grafana-dispatcher,Grafana Cloud playground
 distributed-jmeter,foss-cafe,5972,aws,https://github.com/ionicloud/terraform-aws-distributed-jmeter,Terraform module for Distributed Jmeter
 distributed-load-testing,ordinaryexperts,4209,aws,https://github.com/ordinaryexperts/terraform-aws-distributed-load-testing,Terraform module for Distributed Load Testing on AWS solution https://aws.amazon.com/solutions/distributed-load-testing-on-aws/
+distributed-loadtest,morganchorlton3,28530,aws,https://github.com/morganchorlton3/terraform-aws-distributed-loadtest,Terraform module for running distributed loadtests in AWS
 distributed-minio,equinix,7403,metal,https://github.com/equinix/terraform-metal-distributed-minio,Terraform module to deploy MinIO distributed across Equinix Metal devices
 distributed_portgroup,rolando-anton,6197,vsphere,https://github.com/rolando-anton/terraform-vsphere-distributed_portgroup,
 distribution-metric,ammilam,10917,google,https://github.com/ammilam/terraform-google-distribution-metric,
@@ -11251,6 +11254,7 @@ modules,srabby,5999,aws,https://github.com/sry90/terraform-aws-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
 modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,tedilabs,28481,okta,https://github.com/tedilabs/terraform-okta-modules,🌳 A sustainable Terraform Package which manage all of things on Okta
+modules,tedilabs,28525,tfe,https://github.com/tedilabs/terraform-tfe-modules,
 modules,terraform-cisco-modules,9070,tfe,https://github.com/terraform-cisco-modules/terraform-tfe-modules,Module to Create Terraform workspaces with Intersight IST
 modules,thomasmelison,24360,aws,https://github.com/thomasmelison/terraform-aws-modules,Repository for AWS Terraform modules.
 modules,unionai-oss,17181,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
@@ -12219,7 +12223,7 @@ nfs-client-provisioner,sculley,7234,kubernetes,https://github.com/sculley/terraf
 ng,CloudNationHQ,28509,azure,https://github.com/CloudNationHQ/terraform-azure-ng,Terraform module which creates nat gateway resources used by workloads and accelerators.
 ngfw,findkim,5679,panos,https://github.com/findkim/terraform-panos-ngfw,
 ngfw-modules,PaloAltoNetworks,23719,panos,https://github.com/PaloAltoNetworks/terraform-panos-ngfw-modules,Terraform Modules for Palo Alto Networks PAN-OS based Platforms
-nginx,Mathan48,28519,aws,https://github.com/Mathan48/terraform-aws-nginx,create ec2 instance with nginx
+nginx,Mathan48,28524,aws,https://github.com/Mathan48/terraform-aws-nginx,create ec2 instance with nginx
 nginx,OkanHollander,21178,docker,https://github.com/OkanHollander/terraform-docker-nginx,This Terraform Module deploys an nginx container to the Docker Engine
 nginx,aerith86,15949,docker,https://github.com/aerith86/terraform-docker-nginx,This Terraform module deploys an NGINX container to the Docker Engine.
 nginx,anahmu,22719,docker,https://github.com/anahmu/terraform-docker-nginx,This Terraform module deploys an NGINX container to the Docker Engine
@@ -17477,7 +17481,7 @@ traefik,universenl,26953,helm,https://github.com/universenl/terraform-helm-traef
 traefik-deployment,jakoberpf,12494,kubernetes,https://github.com/jakoberpf/terraform-kubernetes-traefik-deployment,Terreform module for integrated service deployment
 traefik-eks,sculley,17134,aws,https://github.com/sculley/terraform-aws-traefik-eks,Terraform module to deploy Traefik into an AWS EKS Kubernetes cluster along with an ALB & ACM
 traefik-middleware,math280h,16453,kubernetes,https://github.com/math280h/terraform-kubernetes-traefik-middleware,A simple collection of easy to use middlewares for traefik implemented in terraform
-traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.10.3) reverse proxy / load balancer on Docker swarm
+traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-docker-traefik-v2,Terraform module to provision a Traefik (v2.11.22) reverse proxy / load balancer on Docker swarm
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
 traffic-director,nlamirault,10685,google,https://github.com/nlamirault/terraform-google-traffic-director,Terraform module for Google Traffic Director
 traffic-high-4xx-errors-on-traffic-server,terraform-shoreline-modules,20368,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-traffic-high-4xx-errors-on-traffic-server,This repository was generated automatically based on a Shoreline Insights Runbook.
