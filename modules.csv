@@ -1285,6 +1285,7 @@ arch-web-ha,oracle-devrel,10892,oci,https://github.com/oracle-devrel/terraform-o
 arch-wordpress,oracle-devrel,12342,oci,https://github.com/oracle-devrel/terraform-oci-arch-wordpress,terraform-oci-arch-wordpress
 arch-wordpress-mds,oracle-devrel,11134,oci,https://github.com/oracle-devrel/terraform-oci-arch-wordpress-mds,terraform-oci-arch-wordpress-mds
 arch1-blob,bootlabstech,15520,azure,https://github.com/bootlabstech/terraform-azurerm-blob,
+archanastorage,archana2790,28730,azure,https://github.com/archana2790/terraform-azure-archanastorage,
 archetype-lib,qbeyond,19315,azurerm,https://github.com/qbeyond/terraform-azurerm-archetype-lib,"Repository with q.beyond designed Azure-archetypes, including policies"
 archive,glenngillen,15356,gg,https://github.com/glenngillen/terraform-gg-archive,Terraform module with alternative configuration options for generating archives
 archive-builder,opendevsecops,4989,local,https://github.com/opendevsecops/terraform-local-archive-builder,A helper terraform module to perform builds using local shell and docker.
@@ -1883,6 +1884,7 @@ avm-res-network-networkwatcher,Azure,25023,azurerm,https://github.com/Azure/terr
 avm-res-network-privatednszone,Azure,23274,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone,Terraform AVM module for Private DNS zones
 avm-res-network-privateendpoint,Azure,26104,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privateendpoint,AVM Terraform module for private endpoint
 avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Repository for 'Public IP address' AVM module
+avm-res-network-publicipprefix,Azure,28735,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipprefix,AVM TF Module for Public IP Address Prefix 
 avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,
 avm-res-network-virtualnetwork,Azure,21372,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Azure Verified Module for Virtual Network
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
@@ -3042,7 +3044,7 @@ client-to-site-vpn,terraform-ibm-modules,19446,ibm,https://github.com/terraform-
 client-vpn,DNXLabs,5726,aws,https://github.com/DNXLabs/terraform-aws-client-vpn,This terraform module installs a client VPN.
 client-vpn,bgillett,10384,aws,https://github.com/bgillett/terraform-aws-client-vpn,Terraform module which creates Client VPN resources on AWS
 client-vpn,bigfantech-cloud,19043,aws,https://github.com/bigfantech-cloud/terraform-aws-client-vpn,Terraform module: creates AWS Client VPN
-client-vpn,blackbird-cloud,16678,aws,https://github.com/blackbird-cloud/terraform-aws-client-vpn,terraform-aws-client-vpn
+client-vpn,blackbird-cloud,16678,aws,https://github.com/blackbird-cloud/terraform-aws-client-vpn,Terraform module to create an AWS Client VPN
 client-vpn,boldlink,20651,aws,https://github.com/boldlink/terraform-aws-client-vpn,Terraform registry repository for AWS Client VPN endpoint module
 client-vpn,caylent,15147,aws,https://github.com/caylent/terraform-aws-client-vpn,This terraform module installs a client VPN.
 client-vpn,clouddrove,9177,aws,https://github.com/clouddrove/terraform-aws-client-vpn,This terraform module is used for create AWS Client VPN service to manage internal AWS resources.
@@ -7024,7 +7026,7 @@ eks-jupyterhub,dabble-of-devops-bioanalyze,10448,aws,https://github.com/dabble-o
 eks-jupyterhub,dabble-of-devops-biodeploy,10357,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
 eks-jx,jenkins-x,4459,aws,https://github.com/jenkins-x/terraform-aws-eks-jx,A Terraform module for creating Jenkins X infrastructure on AWS
 eks-karpenter,lablabs,15668,aws,https://github.com/lablabs/terraform-aws-eks-karpenter,A terraform module to deploy the karpenter on Amazon EKS cluster.
-eks-karpenter,omerrevach,28722,aws,https://github.com/omerrevach/terraform-aws-eks-karpenter,Bulding automated eks cluster with addons module
+eks-karpenter,omerrevach,28722,aws,https://github.com/omerrevach/terraform-aws-eks-karpenter,Custom Module for EKS + VPC + VPC Setup
 eks-keda,DNXLabs,10947,aws,https://github.com/DNXLabs/terraform-aws-eks-keda,Terraform module for deploying Kubernetes-based Event Driven Autoscaler (KEDA) inside a pre-existing EKS cluster.
 eks-keda,lablabs,14210,aws,https://github.com/lablabs/terraform-aws-eks-keda,A terraform module to deploy the AWS keda on Amazon EKS cluster.
 eks-kiali-operator,DNXLabs,9674,aws,https://github.com/DNXLabs/terraform-aws-eks-kiali-operator,"Terraform module for deploying Kubernetes kiali-operator, a management console for an Istio-based service mesh. It provides dashboards, observability, and lets you operate your mesh with robust configuration and validation capabilities."
@@ -8309,6 +8311,7 @@ grafana,telia-oss,1414,aws,https://github.com/telia-oss/terraform-aws-grafana,Te
 grafana,tf-cloud-modules,15743,aiven,https://github.com/tf-cloud-modules/terraform-aiven-grafana,Aiven Grafana Terraform module
 grafana-agent,scarf-sh,9061,kubernetes,https://github.com/scarf-sh/terraform-kubernetes-grafana-agent,"Deploy grafana agent in Kubernetes, using Terraform"
 grafana-alert,timtorChen,26237,module,https://github.com/timtorChen/terraform-module-grafana-alert,Terraform module to manage grafana alerts
+grafana-alloy,cookielab,28732,kubernetes,https://github.com/cookielab/terraform-kubernetes-grafana-alloy,Cookielab Grafana Alloy terraform module
 grafana-appservice,alessiofilippin,15836,azure,https://github.com/alessiofilippin/terraform-azure-grafana-appservice,Use terraform to deploy an AppService hosting Grafana. In a ready to use setup and AD auth.
 grafana-dashboards,ammilam,10919,kubernetes,https://github.com/ammilam/terraform-kubernetes-grafana-dashboards,
 grafana-prometheus,Nosaj123,19385,aws,https://github.com/Nosaj123/terraform-aws-grafana-prometheus,Terraform Script to setup AWS ASG to run Grafana & Prometheus.
@@ -10080,6 +10083,7 @@ lambda,acai-consulting,23971,aws,https://github.com/acai-consulting/terraform-aw
 lambda,armorfret,2190,aws,https://github.com/armorfret/terraform-aws-lambda,Terraform module for deploying AWS Lambdas
 lambda,assemble-inc,1951,gateway,https://github.com/assembleinc/terraform-gateway-lambda,Terraform module to setup an AWS Lambda into API Gateway
 lambda,azavea,1974,tegola,https://github.com/azavea/terraform-tegola-lambda,A Terraform module to create an Amazon Web Services (AWS) Lambda based Tegola vector tile service.
+lambda,bendoerr-terraform-modules,28737,aws,https://github.com/bendoerr-terraform-modules/terraform-aws-lambda,Ben's Terraform AWS Lambda Module
 lambda,bgdtc,27379,aws,https://github.com/bgdtc/terraform-aws-lambda,Terraform module to create an AWS Lambda fork forks
 lambda,boldlink,16496,aws,https://github.com/boldlink/terraform-aws-lambda,Terraform registry repository for AWS Lambda Module
 lambda,claranet,684,aws,https://github.com/claranet/terraform-aws-lambda,Terraform module for AWS Lambda functions
@@ -10639,6 +10643,7 @@ local-cluster,drape-io,21690,kubernetes,https://github.com/drape-io/terraform-ku
 local-excec-packer,Kreditorforeningens-Driftssentral-DA,6322,null,https://github.com/Kreditorforeningens-Driftssentral-DA/terraform-null-local-excec-packer,Execute packer builds locally using terraform
 local-keypair,KyleOndy,10991,aws,https://github.com/KyleOndy/terraform-aws-local-keypair,
 local-volumes,enocquet,24775,create,https://github.com/enocquet/terraform-create-local-volumes,
+location-to-theatre,PartTimeLegend,28734,azure,https://github.com/PartTimeLegend/terraform-azure-location-to-theatre,
 location_codes,de4dwood,21723,azure,https://github.com/de4dwood/terraform-azure-location_codes,
 locations,azurerm,20074,azure,https://github.com/azurerm/terraform-azure-locations,Terraform module to provide Azure location information.
 lockbox,terraform-yacloud-modules,17925,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-lockbox,Terraform module to manage Lockbox resources within the Yandex.Cloud.
@@ -10765,6 +10770,7 @@ magma,ShubhamTatvamasi,12716,aws,https://github.com/ShubhamTatvamasi/terraform-a
 magma-galaxy,ShubhamTatvamasi,14943,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-galaxy,
 magma-pricing,ShubhamTatvamasi,12542,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-pricing,
 mahirmodule-test-vpc,mahir-makwana,26398,aws,https://github.com/mahir-makwana/terraform-aws-mahirmodule-test-vpc,
+mahistorage,Mahi2327,28731,azure,https://github.com/Mahi2327/terraform-azure-mahistorage,
 mail,devops-ia,25619,nexus,https://github.com/devops-ia/terraform-nexus-mail,Terraform module for create Nexus Mail
 mail,terraform-nexus-modules,23248,nexus,https://github.com/terraform-nexus-modules/terraform-nexus-mail,Terraform module for create Nexus Mail
 mailcow,nsmith5,6648,aws,https://github.com/nsmith5/terraform-aws-mailcow,
@@ -11391,7 +11397,7 @@ monitoring,SudharsaneSivamany,25663,google,https://github.com/SudharsaneSivamany
 monitoring,TaitoUnited,10713,aws,https://github.com/TaitoUnited/terraform-aws-monitoring,
 monitoring,TaitoUnited,6124,google,https://github.com/TaitoUnited/terraform-google-monitoring,
 monitoring,TaitoUnited,8230,azurerm,https://github.com/TaitoUnited/terraform-azurerm-monitoring,
-monitoring,cookielab,28720,kubernetes,https://github.com/cookielab/terraform-kubernetes-monitoring,
+monitoring,cookielab,28727,kubernetes,https://github.com/cookielab/terraform-kubernetes-monitoring,
 monitoring,cypik,23050,digitalocean,https://github.com/cypik/terraform-digitalocean-monitoring,
 monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules from DasMeta to manage AWS monitoring resources
 monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/terraform-azurerm-monitoring,Terraform module for creation of Azure Workbooks and Dashboards for Databricks and ADF
@@ -11723,6 +11729,7 @@ mystorage,aamirkadri2605,11433,aws,https://github.com/aamirkadri2605/terraform-a
 mystorage,accngit,13212,azure,https://github.com/accngit/terraform-azure-mystorage,
 mystorage,akhlesh-jain,20901,azure,https://github.com/akhlesh-jain/terraform-azure-mystorage,Training repository
 mystorage,akilagithub,9506,azure,https://github.com/akilagithub/terraform-azure-mystorage,
+mystorage,arun-arokia,28728,azure,https://github.com/arun-arokia/terraform-azure-mystorage,
 mystorage,birendrapaul,24457,azure,https://github.com/birendrapaul/terraform-azure-mystorage,
 mystorage,deepaannie466,19735,azure,https://github.com/deepaannie466/terraform-azure-mystorage,
 mystorage,dpkkumar1,9509,azure,https://github.com/dpkkumar1/terraform-azure-mystorage,
@@ -11742,6 +11749,7 @@ mystorage,pooja9199,19966,azure,https://github.com/pooja9199/terraform-azure-mys
 mystorage,prasanth9308,19729,azure,https://github.com/prasanth9308/terraform-azure-mystorage,
 mystorage,ramakrishnareddysatti,18142,azure,https://github.com/ramakrishnareddysatti/terraform-azure-mystorage,
 mystorage,reddymahipal,12235,aws,https://github.com/reddymahipal/terraform-aws-mystorage,
+mystorage,sachin-kadwadkar,28729,azure,https://github.com/sachin-kadwadkar/terraform-azure-mystorage,
 mystorage,saxenashivam27,25555,azure,https://github.com/saxenashivam27/terraform-azure-mystorage,
 mystorage,sdora05,21225,azurerm,https://github.com/sdora05/terraform-azurerm-mystorage,
 mystorage,sharmakartikey,15256,azure,https://github.com/sharmakartikey/terraform-azure-mystorage,
@@ -13028,7 +13036,7 @@ policy-attachment,kmayer10,13402,aws,https://github.com/kmayer10/terraform-aws-p
 policy-bundle,terraform-cisco-modules,8989,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-policy-bundle,Terraform module that creates many sample policies for Intersight
 policy-definition,andrewCluey,9037,azurerm,https://github.com/andrewCluey/terraform-azurerm-policy-definition,Terraform module that will define Azure policies using json file inputs
 policy-deploy-dependency-agent-windows,qbeyond,17788,azurerm,https://github.com/qbeyond/terraform-azurerm-policy-deploy-dependency-agent-windows,
-policy-exemptions,globalbao,9842,azurerm,https://github.com/globalbao/terraform-azurerm-policy-exemptions,Terraform module for managing AzureRM policy exemptions (via ARM template) by @jesseloudon
+policy-exemptions,globalbao,9842,azurerm,https://github.com/globalbao/terraform-azurerm-policy-exemptions,Terraform module for managing AzureRM policy exemptions (via ARM template) - by @JesseLoudon
 policy-module,wenzel-felix,15097,azurerm,https://github.com/wenzel-felix/terraform-azurerm-policy-module,This Terraform module helps deploy Azure policies in a batch and through simple and partially file-based configuration.
 policy-packer,cloudandthings,20758,aws,https://github.com/cloudandthings/terraform-aws-policy-packer,Optimally use the space in a AWS policy document
 policy-packer,phzietsman,5961,aws,https://github.com/phzietsman/terraform-aws-policy-packer,Optimally use the space in a AWS policy document
@@ -13150,6 +13158,7 @@ pramod,pramodjohn01,27288,aws,https://github.com/pramodjohn01/terraform-aws-pram
 pranitrepo,pranit9067,21223,azure,https://github.com/pranit9067/terraform-azure-pranitrepo,
 pras,prasannakaup,18904,aws,https://github.com/prasannakaup/terraform-aws-pras,terraform-aws-mys3bucket
 prasannastorage,haripriya20036,24960,azurerm,https://github.com/haripriya20036/terraform-azurerm-prasannastorage,
+prateekstorage,pragrove,28733,azure,https://github.com/pragrove/terraform-azure-prateekstorage,
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
 prebid-cache,Prebidly,17761,aws,https://github.com/Prebidly/terraform-aws-prebid-cache,
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
@@ -13339,6 +13348,7 @@ prometheus-adapter,basisai,7451,helm,https://github.com/basisai/terraform-helm-p
 prometheus-cloudwatch-exporter,tx-pts-dai,26000,aws,https://github.com/tx-pts-dai/terraform-aws-prometheus-cloudwatch-exporter,Terraform module to deploy Prometheus CloudWatch Exporter with AWS IAM role authentication
 prometheus-crds,tensor5,12495,kubernetes,https://github.com/tensor5/terraform-kubernetes-prometheus-crds,Prometheus CRDs Terraform modules
 prometheus-dashboards,terorie,6643,grafana,https://github.com/terorie/terraform-grafana-prometheus-dashboards,Terraform module bundling Grafana dashboards for Prometheus components.
+prometheus-exporter,iits-consulting,28736,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-prometheus-exporter,
 prometheus-operator,aareet,7822,kubernetes,https://github.com/aareet/terraform-kubernetes-prometheus-operator,Terraform Module to install the Prometheus operator into your Kubernetes cluster.
 prometheus-operator,martin-schaefer,7405,kubernetes,https://github.com/martin-schaefer/terraform-kubernetes-prometheus-operator,Terraform module to deploy the Prometheus operator to Kubernetes
 prometheus-operator-crds,serhii-riabov,22947,kubernetes,https://github.com/serhii-riabov/terraform-kubernetes-prometheus-operator-crds,Terraform module which creates Prometheus Operator CRDs in Kubernetes cluster
@@ -16214,6 +16224,7 @@ something,abhishekPhukan,22381,powermax,https://github.com/abhishekPhukan/terraf
 sonarqube,cn-terraform,3243,aws,https://github.com/cn-terraform/terraform-aws-sonarqube,SonarQube Terraform Module for AWS
 sonarqube,nearform,27682,aws,https://github.com/nearform/terraform-aws-sonarqube,Terraform module for deploying SonarQube on AWS using infrastructure-as-code. This module simplifies provisioning and managing SonarQube as a containerized service in AWS environments.
 sonarqube,nearform,27684,azure,https://github.com/nearform/terraform-azure-sonarqube,Terraform module for deploying SonarQube on Azure with automated infrastructure provisioning. Designed to streamline the setup of SonarQube as a containerized service in Azure environments.
+sonarqube,oozou,28725,aws,https://github.com/oozou/terraform-aws-sonarqube,
 sonarqube,squareops,26456,kubernetes,https://github.com/squareops/terraform-kubernetes-sonarqube,"The Terraform SonarQube module enables easy deployment of SonarQube using Helm on AWS, Azure, or GCP, providing comprehensive code quality and security analysis across cloud platforms."
 sonarqube,telia-oss,1451,aws,https://github.com/telia-oss/terraform-aws-sonarqube,A Terraform module for deploying Sonarqube.
 sonarqube-aci,Pwd9000-ML,14420,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-sonarqube-aci,"Public Terraform Registry module for setting up an AZURE hosted Sonarqube ACI instance incl. persistent PaaS Database (Azure SQL), PaaS File Share (Azure Files) and custom domain using reverse proxy (Caddy) sidecar container."
@@ -18906,6 +18917,7 @@ vpc-module,rohitsinghpanwar,25799,aws,https://github.com/rohitsinghpanwar/terraf
 vpc-module,scaleway,19071,scaleway,https://github.com/scaleway/terraform-scaleway-vpc-module,Terraform module for configuring a VPC
 vpc-module,sejaltyagi12,27738,aws,https://github.com/sejaltyagi12/terraform-aws-vpc-module,
 vpc-module,tf-ops,28607,aws,https://github.com/tf-ops/terraform-aws-vpc-module,
+vpc-module-lubna,lubgitsample,28726,aws,https://github.com/lubgitsample/terraform-aws-vpc-module-lubna,aws vpc module
 vpc-modules,claranet,739,aws,https://github.com/claranet/terraform-aws-vpc-modules,Terraform modules for AWS VPC management
 vpc-nat,viceIII,769,aws,https://github.com/viceIII/terraform-aws-vpc-nat,
 vpc-network,Nadir24950,24826,aws,https://github.com/Nadir24950/terraform-aws-vpc-network,A terraform module that provides an AWS network
