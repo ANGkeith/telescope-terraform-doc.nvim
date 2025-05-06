@@ -283,6 +283,7 @@ acm-certificate-import,nventive,21355,aws,https://github.com/nventive/terraform-
 acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform-aws-acm-certificate-request,Terraform module to request an ACM certificate.
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
+acm-cloudflare,cesargoncalves,28893,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate using Cloudflare 
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -528,6 +529,7 @@ aks,tw-cloud,28309,azurerm,https://github.com/tw-cloud/terraform-azurerm-aks,
 aks,vitaliburak,7065,azure,https://github.com/vitaliburak/terraform-azure-aks,
 aks,www-aiqu-no,4099,azurerm,https://github.com/www-aiqu-no/terraform-azurerm-aks,Deploy an Azure Kubernete Service (AKS) cluster
 aks,yunikon-nl,17711,azurerm,https://github.com/yunikon-nl/terraform-azurerm-aks,Terraform module.
+aks-accelerator,AmitGujar,28895,azure,https://github.com/AmitGujar/terraform-azure-aks-accelerator,Terraform Module for deploying an AKS cluster with public/private support.
 aks-acr,Shivakumar1702,22294,azurerm,https://github.com/Shivakumar1702/terraform-azurerm-aks-acr,
 aks-addons,squareops,20028,azurerm,https://github.com/squareops/terraform-azurerm-aks-addons,"This module provides a set of reusable, configurable, and scalable Azure AKS addons configurations. It enables users to easily deploy and manage a highly available AKS cluster using infrastructure as code."
 aks-agic,kuhlman-labs,5230,azurerm,https://github.com/kuhlman-labs/terraform-azurerm-aks-agic,A Terraform Module for how to run AKS on Azure with an App Gateway Ingress Controller
@@ -5849,20 +5851,28 @@ ebs_tagger,pmoranga,2727,module,https://github.com/pmoranga/terraform-module-ebs
 ebssnap,JamesWoolfenden,2027,aws,https://github.com/JamesWoolfenden/terraform-aws-ebssnap,A module that implements automated snapshotting of EBS volumes
 ec,sbeyn,23065,elastic,https://github.com/sbeyn/terraform-elastic-ec,Terraform module that can be used to create an deployment Elastic Cloud.
 ec2,Anand0509,17704,aws,https://github.com/Anand0509/terraform-aws-ec2,terraform-aws-ec2
+ec2,AnushreeGM,28861,aws,https://github.com/AnushreeGM/terraform-aws-ec2,
+ec2,Bhargavkulla,28874,aws,https://github.com/Bhargavkulla/terraform-aws-ec2,
 ec2,Dan3210,25489,aws,https://github.com/Dan3210/terraform-aws-ec2,
 ec2,EconomistDigitalSolutions,1873,aws,https://github.com/EconomistDigitalSolutions/terraform-aws-ec2,Use Terraform to create and manage AWS EC2 instances
 ec2,JanaJagan,17701,aws,https://github.com/JanaJagan/terraform-aws-ec2,
+ec2,Juhi5863,28888,aws,https://github.com/Juhi5863/terraform-aws-ec2,
+ec2,KIREETI1234,28872,aws,https://github.com/KIREETI1234/terraform-aws-ec2,
 ec2,MagnetarIT,4622,aws,https://github.com/MagnetarIT/terraform-aws-ec2,Terraform module for creation of an EC2
 ec2,PraWinKS,17698,aws,https://github.com/PraWinKS/terraform-aws-ec2,
 ec2,Prashanth500,17703,aws,https://github.com/Prashanth500/terraform-aws-ec2,
+ec2,Rohitkumar44,28878,aws,https://github.com/Rohitkumar44/terraform-aws-ec2,
 ec2,Roma-3112,17697,aws,https://github.com/Roma-3112/terraform-aws-ec2,
 ec2,SRIKRUTHI11,16873,AWS,https://github.com/SRIKRUTHI11/terraform-AWS-ec2,
 ec2,Sandeep3a2,26713,aws,https://github.com/Sandeep3a2/terraform-aws-ec2,This is a sample repository for EC2
 ec2,Satyalipu,7180,aws,https://github.com/Satyalipu/terraform-aws-ec2,
+ec2,Srikar2610,28865,aws,https://github.com/Srikar2610/terraform-aws-ec2,
 ec2,Sujagi02,9720,vpc,https://github.com/Sujagi02/terraform-vpc-ec2,Allow your application in ec2 to be launched in a subnet inside your own VPC
+ec2,Supriya9876,28877,aws,https://github.com/Supriya9876/terraform-aws-ec2,
 ec2,VenkiiChowdary,12232,aws,https://github.com/VenkiiChowdary/terraform-aws-ec2,
 ec2,abrashamchowdhury,17914,aws,https://github.com/abrashamc/terraform-aws-ec2,
 ec2,akshatjain17,17699,aws,https://github.com/akshatjain17/terraform-aws-ec2,
+ec2,arjunkoppineni,28868,aws,https://github.com/arjunkoppineni/terraform-aws-ec2,
 ec2,arul-ap,24221,aws,https://github.com/arul-ap/terraform-aws-ec2,Module to create multiple EC2 instances.
 ec2,arvindpal05,7182,aws,https://github.com/arvindpal05/terraform-aws-ec2,
 ec2,bluehackrafestefano,16864,aws,https://github.com/bluehackrafestefano/terraform-aws-ec2,
@@ -5877,6 +5887,7 @@ ec2,devops4mecode,6804,aws,https://github.com/devops4mecode/terraform-aws-ec2,
 ec2,echomike80,8133,aws,https://github.com/echomike80/terraform-aws-ec2,Terraform module which creates EC2 instance(s) on AWS
 ec2,emran119,17700,aws,https://github.com/emran119/terraform-aws-ec2,terraform-aws-ec2
 ec2,finisterra-io,23561,aws,https://github.com/finisterra-io/terraform-aws-ec2,Terraform AWS EC2 module
+ec2,hruthingali,28873,aws,https://github.com/hruthingali/terraform-aws-ec2,
 ec2,ilkhomk,7168,aws,https://github.com/ilkhomk/terraform-aws-ec2,
 ec2,jason-morsley,5117,aws,https://github.com/jason-morsley/terraform-aws-ec2,
 ec2,kamalibm,17702,aws,https://github.com/kamalibm/terraform-aws-ec2,terraform-aws-ec2
@@ -5889,6 +5900,7 @@ ec2,kurron,524,aws,https://github.com/kurron/terraform-aws-ec2,A Terraform plan 
 ec2,mahindudhat,7331,aws,https://github.com/mahindudhat/terraform-aws-ec2,This is Terraform module
 ec2,maksiess,7139,aws,https://github.com/maksiess/terraform-aws-ec2,
 ec2,mamunozj,26246,miguel,https://github.com/mamunozj/terraform-miguel-ec2,
+ec2,meghanavalluri02,28886,aws,https://github.com/meghanavalluri02/terraform-aws-ec2,
 ec2,mesivayenduri,25794,aws,https://github.com/mesivayenduri/terraform-aws-ec2,
 ec2,miere,5187,aws,https://github.com/miere/terraform-aws-ec2,Zero Downtime and Highly Available deployment infrastructure using Terraform and EC2
 ec2,monbostest,10803,aws,https://github.com/monbostest/terraform-aws-ec2,
@@ -5902,6 +5914,8 @@ ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-e
 ec2,punitporwal07,21801,aws,https://github.com/punitporwal07/terraform-aws-ec2,
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-cnfs,Manages EC2 instance
 ec2,ramanuj-dad,28761,aws,https://github.com/ramanuj-dad/terraform-aws-ec2,Terraform aws ec2 instance with options for setting integrations
+ec2,rohit-has-git,28882,aws,https://github.com/rohit-has-git/terraform-aws-ec2,
+ec2,royg-9595,28852,aws,https://github.com/royg-9595/terraform-aws-ec2,
 ec2,rrgowd159,26828,aws,https://github.com/rrgowd159/terraform-aws-ec2,
 ec2,ryanef,24014,aws,https://github.com/ryanef/terraform-aws-ec2,
 ec2,s3d-club,15660,aws,https://github.com/s3d-club/terraform-aws-ec2,
@@ -5980,6 +5994,7 @@ ec2-elb-instance,pauldchang,24401,aws,https://github.com/pauldchang/terraform-aw
 ec2-elb-instance,rshabralieva2024,24428,aws,https://github.com/rshabralieva2024/terraform-aws-ec2-elb-instance,
 ec2-elb-instance,techtorialdevops,24405,aws,https://github.com/techtorialdevops/terraform-aws-ec2-elb-instance,
 ec2-example,guru059,15992,aws,https://github.com/guru059/terraform-aws-ec2-example,
+ec2-example,karthikeya964,28875,aws,https://github.com/karthikeya964/terraform-aws-ec2-example,A simple EC2 instance module
 ec2-example,mplibunao,14431,aws,https://github.com/mplibunao/terraform-aws-ec2-example,Terraform module for creating an ec2 instance with firewall rules
 ec2-example,thinkrgit,18937,aws,https://github.com/thinkrgit/terraform-aws-ec2-example,
 ec2-example-luigi,luispdm,10820,aws,https://github.com/luispdm/terraform-aws-ec2-example-luigi,Example of terraform module published to terraform registry
@@ -5994,6 +6009,8 @@ ec2-image-builder,aws-ia,21632,aws,https://github.com/aws-ia/terraform-aws-ec2-i
 ec2-image-builder,flowingis,14849,aws,https://github.com/flowingis/terraform-aws-ec2-image-builder,Terraform module which  creates EC2-Image-Builder resources
 ec2-image-transfer,outsideopen,6651,aws,https://github.com/outsideopen/terraform-aws-ec2-image-transfer,terraform-aws-ec2-image-transfer
 ec2-insatnce,Mayureshgithub,15896,aws,https://github.com/Mayureshgithub/terraform-aws-Ec2-insatnce,
+ec2-instance,AkashChand6n,28894,aws,https://github.com/AkashChand6n/terraform-aws-ec2-instance,
+ec2-instance,Asnaeranthodi,28860,aws,https://github.com/Asnaeranthodi/terraform-aws-ec2-instance,
 ec2-instance,BrynardSecurity-terraform,12998,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
 ec2-instance,CloudSihmar,19076,aws,https://github.com/CloudSihmar/terraform-aws-ec2-instance,
 ec2-instance,Devoper777,24409,aws,https://github.com/Devoper777/terraform-aws-ec2-instance,
@@ -6005,16 +6022,24 @@ ec2-instance,HardikTilwani,14054,aws,https://github.com/HardikTilwani/terraform-
 ec2-instance,Infrastrukturait,21501,aws,https://github.com/Infrastrukturait/terraform-aws-ec2-instance,Terraform module for create a EC2 instance
 ec2-instance,Mehul-Terraform,11331,aws,https://github.com/Mehul-Terraform/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
 ec2-instance,OT-CLOUD-KIT,4999,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-ec2-instance,This repository consists of Terraform module for EC2 Instance in AWS.
+ec2-instance,PavanThumati,28862,aws,https://github.com/PavanThumati/terraform-aws-ec2-instance,
 ec2-instance,PiyushBagani15,14287,aws,https://github.com/PiyushBagani15/terraform-aws-ec2-instance,
+ec2-instance,Santhosh2010-ramesh,28880,aws,https://github.com/Santhosh2010-ramesh/terraform-aws-ec2-instance,
+ec2-instance,SelmiNazeeb,28867,aws,https://github.com/SelmiNazeeb/terraform-aws-ec2-instance,
 ec2-instance,Smartbrood,578,aws,https://github.com/Smartbrood/terraform-aws-ec2-instance,Terraform module to EC2 instance.
 ec2-instance,Sunil-1921,14061,aws,https://github.com/Sunil-1921/terraform-aws-ec2-instance,
 ec2-instance,TerraPros,27815,aws,https://github.com/TerraPros/terraform-aws-ec2-instance,Terraform module to create AWS EC2 instance(s) resources 🇺🇦
 ec2-instance,TerraformFoundation,27891,aws,https://github.com/TerraformFoundation/terraform-aws-ec2-instance,Terraform module to create AWS EC2 instance(s) resources 🇺🇦
 ec2-instance,UsmanMalik762,12080,aws,https://github.com/UsmanMalik762/terraform-aws-ec2-instance,Terraform module for provisioning an ec2 instance in AWS cloud.
+ec2-instance,Yeswanthteja1010,28858,aws,https://github.com/Yeswanthteja1010/terraform-aws-ec2-instance,
+ec2-instance,aH0-STS,28859,aws,https://github.com/aH0-STS/terraform-aws-ec2-instance,
+ec2-instance,abdulsamimmondal,28883,aws,https://github.com/abdulsamimmondal/terraform-aws-ec2-instance,repo for ec2 instance creation
 ec2-instance,akbaribnu,1302,aws,https://github.com/unbirabka/terraform-aws-ec2-instance,terraform-aws-ec2-instance
 ec2-instance,alisdair,1826,aws,https://github.com/alisdair/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
+ec2-instance,ankitamohanty1509,28869,aws,https://github.com/ankitamohanty1509/terraform-aws-ec2-instance,
 ec2-instance,appzen-oss,8994,aws,https://github.com/appzen-oss/terraform-aws-ec2-instance,Terraform module for provisioning a general purpose EC2 host
 ec2-instance,arulmanis05,25550,aws,https://github.com/arulmanis05/terraform-aws-ec2-instance,
+ec2-instance,ashutoshsanghi3,28864,aws,https://github.com/ashutoshsanghi3/terraform-aws-ec2-instance,
 ec2-instance,basil1987,21236,basil,https://github.com/basil1987/terraform-basil-ec2-instance,
 ec2-instance,bledrunner2049,6192,aws,https://github.com/bledrunner2049/terraform-aws-ec2-instance,
 ec2-instance,bleons36,18803,aws,https://github.com/bleons36/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
@@ -6033,8 +6058,10 @@ ec2-instance,garyellis,7343,aws,https://github.com/garyellis/terraform-aws-ec2-i
 ec2-instance,grupoadvincula,19278,aws,https://github.com/grupoadvincula/terraform-aws-ec2-instance,
 ec2-instance,hadenlabs,10465,aws,https://github.com/hadenlabs/terraform-aws-ec2-instance,A Terraform module to create instance ec2 on Amazon Web Services (AWS).
 ec2-instance,hayaah,11790,aws,https://github.com/hayaah/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
+ec2-instance,hruthingali,28866,aws,https://github.com/hruthingali/terraform-aws-ec2-instance,
 ec2-instance,iam-premkumardr,26232,aws,https://github.com/iam-premkumardr/terraform-aws-ec2-instance,Create AWS EC2 Instance with modular approach
 ec2-instance,jand0manski,19044,aws,https://github.com/jand0manski/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
+ec2-instance,kirthiksubbiah,28885,aws,https://github.com/kirthiksubbiah/terraform-aws-ec2-instance,
 ec2-instance,magicorntech,19513,aws,https://github.com/magicorntech/terraform-aws-ec2-instance,Magicorn AWS EC2 Instance Module
 ec2-instance,miapferreira,25807,aws,https://github.com/miapferreira/terraform-aws-ec2-instance,Module for ec2 instance creation
 ec2-instance,nholuongut,19631,aws,https://github.com/nholuongut/terraform-aws-ec2-instance,Owner avatar terraform-aws-ec2-instance
@@ -6049,6 +6076,7 @@ ec2-instance,ptonini,16736,aws,https://github.com/ptonini/terraform-aws-ec2-inst
 ec2-instance,rajcharanthecoder,25376,aws,https://github.com/rajcharanthecoder/terraform-aws-ec2-instance,
 ec2-instance,ramesh0307,15451,aws,https://github.com/ramesh0307/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS 🇺🇦
 ec2-instance,richiehydra,26833,aws,https://github.com/richiehydra/terraform-aws-ec2-instance,Own AWS EC2 instance creation module
+ec2-instance,royg-9595,28856,aws,https://github.com/royg-9595/terraform-aws-ec2-instance,
 ec2-instance,rrgowd,22528,aws,https://github.com/rrgowd/terraform-aws-ec2-instance,terraform-aws-ec2-instance
 ec2-instance,sandeepkumar1209,26515,aws,https://github.com/sandeepkumar1209/terraform-aws-ec2-instance,
 ec2-instance,shukla2112,8298,aws,https://github.com/shukla2112/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
@@ -6060,6 +6088,7 @@ ec2-instance,umavanth21,3326,aws,https://github.com/umavanth21/terraform-aws-ec2
 ec2-instance,vansh-munjal-hash,28810,aws,https://github.com/vansh-munjal-hash/terraform-aws-ec2-instance,
 ec2-instance,vasudev1259,19466,aws,https://github.com/vasudev1259/terraform-aws-ec2-instance,
 ec2-instance,vijkes,15552,aws,https://github.com/vijkes/terraform-aws-ec2-instance,
+ec2-instance,vinayz7,28857,aws,https://github.com/vinayz7/terraform-aws-ec2-instance,
 ec2-instance,yashGaykar,18663,aws,https://github.com/yashGaykar/terraform-aws-ec2-instance,
 ec2-instance,yashhirulkar701,15063,aws,https://github.com/yashhirulkar701/terraform-aws-ec2-instance,
 ec2-instance,yonetimacademy,21335,aws,https://github.com/yonetimacademy/terraform-aws-ec2-instance,CC AWS EC2 Instance Module
@@ -7306,6 +7335,7 @@ elbv2,finisterra-io,23567,aws,https://github.com/finisterra-io/terraform-aws-elb
 elk,JamesWoolfenden,4161,aws,https://github.com/JamesWoolfenden/terraform-aws-elk,A basic ELK stack in Terraform
 elk,admintome,479,aws,https://github.com/admintome/terraform-aws-elk,"Terraform module to deploy an Elasticsearch, Logstash, and Kibana server to AWS."
 elk,karabalta75,5353,aws,https://github.com/karabalta75/terraform-aws-elk,
+elk,omerrevach,28891,aws,https://github.com/omerrevach/terraform-aws-elk,Module to deploy Kibana and Elasticsearch in EKS
 elk,pablerass,1566,aws,https://github.com/pablerass/tf_aws_elk,
 elkdocker,mark182182,1801,aws,https://github.com/mark182182/terraform-aws-elkdocker,Terraform module using ELK Stack in Docker.
 email,TaitoUnited,16243,sendgrid,https://github.com/TaitoUnited/terraform-sendgrid-email,
@@ -7457,6 +7487,7 @@ eventbridge-private-api-destination,tomkalesse,27767,aws,https://github.com/tomk
 eventbridge-publisher,akw-devsecops,24214,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-publisher,Creates IAM policy for an existing role to be able to publish events on a domain bus
 eventbridge-read-role,akw-devsecops,28779,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-read-role,
 eventbridge-sqs,evolve-platform,27347,aws,https://github.com/evolve-platform/terraform-aws-eventbridge-sqs,Terraform module to manage Eventbridge in AWS 
+eventbridge-to-amazon-q,fivexl,28863,aws,https://github.com/fivexl/terraform-aws-eventbridge-to-amazon-q,"​A collection of Amazon EventBridge rules that capture Amazon ECS and other events, transform them using the input transformer feature, and send them to Amazon SNS. From there, the events are forwarded to Amazon Q Developer and subsequently to Slack, Amazon Chime, or Microsoft Teams."
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
 eventgrid,bootlabstech,17074,azurerm,https://github.com/bootlabstech/terraform-azurerm-eventgrid,
 eventgrid,claranet,13279,azurerm,https://github.com/claranet/terraform-azurerm-eventgrid,Terraform module for Azure Eventgrid
@@ -11309,6 +11340,7 @@ module-ubuntu-linux-app,armdupre,22234,azurerm,https://github.com/armdupre/terra
 module-url-redirect,wearetechnative,19157,aws,https://github.com/wearetechnative/terraform-aws-module-url-redirect,This module implements a HTTP and HTTPS redirect from a domain to a target URL
 module-vault-enterprise,einyx,1814,aws,https://github.com/einyx/terraform-aws-vault-enterprise,
 module-vpc,JayyyJayyyyy,23922,aws,https://github.com/JayyyJayyyyy/terraform-aws-module-vpc,
+module-vpc,Srikanthj231-Devops,28871,aws,https://github.com/Srikanthj231-Devops/terraform-aws-module-vpc,
 module-vpc,dinhdobathi1992,19246,aws,https://github.com/dinhdobathi1992/terraform-aws-module-vpc,
 module-vpc,vnisolutions,21859,aws,https://github.com/vnisolutions/terraform-aws-module-vpc,
 module-vpc-jbn,jbn1995,26281,aws,https://github.com/jbn1995/terraform-aws-module-vpc-jbn,
@@ -11637,6 +11669,7 @@ myfirstmodule,AnjiMuduthanapally,13469,azurerm,https://github.com/AnjiMuduthanap
 myfirsts3bucket,Sneha1191,13642,aws,https://github.com/Sneha1191/terraform-aws-myfirsts3bucket,
 myfirsttf,Beeani,5559,aws,https://github.com/Beeani/terraform-aws-myfirsttf,
 myinstance,nippydevops,15921,aws,https://github.com/nippydevops/terraform-aws-myinstance,This module will be used to create a vm
+myinstance,sujeetsrahate,28879,aws,https://github.com/sujeetsrahate/terraform-aws-myinstance,
 myip,4ops,3934,http,https://github.com/4ops/terraform-http-myip,Simple data module for getting current external IP address
 mymod,EbisonJ,8308,aws,https://github.com/EbisonJ/terraform-aws-mymod,
 mymod1,irfan-git2,11530,aws,https://github.com/irfan-git2/terraform-aws-mymod1,
@@ -11987,7 +12020,7 @@ nas-volume-classic,terraform-navercloudplatform-modules,25274,ncloud,https://git
 nas-volume-vpc,terraform-navercloudplatform-modules,25275,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nas-volume-vpc,Terraform module to create nas volume resources for the vpc configuration
 nat,Aplyca,2723,aws,https://github.com/Aplyca/terraform-aws-nat,Creates a NAT Gateway Resource
 nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,
-nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT resources
+nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT Gateway resources
 nat,simulator-schandra,27257,azure,https://github.com/simulator-schandra/terraform-azure-nat,
 nat,tedivm,12435,aws,https://github.com/tedivm/terraform-aws-nat,Terraform module for creating NAT Gateways or Instances and attaching them to a VPC
 nat,terraform-tencentcloud-modules,16263,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-nat,TencentCloud NAT Gateway for Terraform
@@ -14759,9 +14792,11 @@ s3,AustinCloudGuru,15568,aws,https://github.com/AustinCloudGuru/terraform-aws-s3
 s3,BalaMuragan92,25396,aws,https://github.com/BalaMuragan92/terraform-aws-s3,
 s3,JamesWoolfenden,1904,aws,https://github.com/JamesWoolfenden/terraform-aws-s3,"Contains the module, permissions and sample code to create a s3 bucket in AWS"
 s3,JoelsHub,10794,aws,https://github.com/shadbury/terraform-aws-s3,Created s3 bucket with SSL only access and the option to create a log bucket or use an existing log bucket
+s3,Juhi5863,28889,aws,https://github.com/Juhi5863/terraform-aws-s3,
 s3,Lunik,10621,aws,https://github.com/Lunik/terraform-aws-s3,Create and configure basic AWS S3 bucket using Terraform.
 s3,MagnetarIT,4619,aws,https://github.com/MagnetarIT/terraform-aws-s3,Terraform for create an s3 bucket
 s3,NeeharikaRN,19901,aws,https://github.com/NeeharikaRN/terraform-aws-s3,
+s3,PavanThumati,28884,aws,https://github.com/PavanThumati/terraform-aws-s3,
 s3,Sandeepkr93,11421,aws,https://github.com/Sandeepkr93/terraform-aws-s3,
 s3,Santy2703,11043,aws,https://github.com/Santy2703/terraform-aws-s3,
 s3,Selleo,13454,aws,https://github.com/Selleo/terraform-aws-s3,Collection of Terraform modules with AWS S3 for miscellaneous use.
@@ -14786,6 +14821,7 @@ s3,jeanvisser,26256,aws,https://github.com/jeanvisser/terraform-aws-s3,A Terrafo
 s3,jerinrathnam,19829,aws,https://github.com/jerinrathnam/terraform-aws-s3,Terraform module for aws S3 bucket
 s3,klowdy,3860,aws,https://github.com/klowdy/terraform-aws-s3,Terraform module for managing S3 buckets
 s3,magicorntech,19358,aws,https://github.com/magicorntech/terraform-aws-s3,Magicorn AWS S3 Module
+s3,meghanavalluri02,28887,aws,https://github.com/meghanavalluri02/terraform-aws-s3,
 s3,mikamakusa,25517,aws,https://github.com/mikamakusa/terraform-aws-s3,
 s3,oozou,15127,aws,https://github.com/oozou/terraform-aws-s3,Terraform Component to create S3 bucket
 s3,prodxcloud,28500,aws,https://github.com/prodxcloud/terraform-aws-s3,
@@ -16120,6 +16156,7 @@ site,tle06,10017,netbox,https://github.com/tle06/terraform-netbox-site,
 site-mock,unifa-inc,26288,aws,https://github.com/unifa-inc/terraform-aws-site-mock,
 site-recovery,claranet,18104,azurerm,https://github.com/claranet/terraform-azurerm-site-recovery,Terraform module for Azure Site Recovery
 sitecoresolr,codeblitzmaster,18577,azurerm,https://github.com/codeblitzmaster/terraform-azurerm-sitecoresolr,Terraform Module for setting up Solr on Azure VM for Sitecore. 
+sitelocation,catonetworks,28896,cato,https://github.com/catonetworks/terraform-cato-sitelocation,
 sites,imperva,7608,incapsula,https://github.com/imperva/terraform-incapsula-sites,This module can be used to create protected web-site(s) in Imperva CWAF. Default settings can be overridden when inheriting the module in your project.
 sites,joeymoore,7607,incapsula,https://github.com/joeymoore/terraform-incapsula-sites,This module can be used to create protected web-site(s) in Imperva CWAF. Default settings can be overridden when inheriting the module in your project.
 siva,sivarambalaji,25127,azure,https://github.com/sivarambalaji/terraform-azure-siva,
@@ -18098,6 +18135,7 @@ virtual-network-hub,avinor,2503,azurerm,https://github.com/avinor/terraform-azur
 virtual-network-manager,cyber-scot,22410,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager,A module used to deploy AVNM (Azure Virtual Network Manager) 🛜👩‍💼
 virtual-network-manager-configuration,cyber-scot,22412,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager-configuration,A module used to config to Azure Virtual Network Manager (Azure Virtual Network Manager) 🛜👩‍💼
 virtual-network-manager-security-admin-rules,cyber-scot,22492,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager-security-admin-rules,A module used to add security admin rules to Azure Virtual Network Manager (Azure Virtual Network Manager) 🛜👩‍💼
+virtual-network-peering,CloudAstro,28881,azurerm,https://github.com/CloudAstro/terraform-azurerm-virtual-network-peering,About Terraform Module for Azure virtual network peering
 virtual-network-peering,aztfm,6545,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network-peering,Terraform module for Microsoft Azure to manage Virtual Network Peering resource.
 virtual-network-spoke,avinor,2537,azurerm,https://github.com/avinor/terraform-azurerm-virtual-network-spoke,Terraform module to create a spoke virtual network according to Microsoft Best Practice of deploying Hub-Spoke
 virtual-network-with-bastion-host,Think-Cube,24245,azure,https://github.com/Think-Cube/terraform-azure-virtual-network-with-bastion-host,"Terraform modules for Azure virtual networks, subnets, and a bastion host."
@@ -18688,6 +18726,7 @@ vpc,nekochans,4611,aws,https://github.com/nekochans/terraform-aws-vpc,Terraform 
 vpc,nerdrobot,19336,do,https://github.com/nerdrobot/terraform-do-vpc,Terraform module which creates VPC resources on Digital Ocean 
 vpc,ngochieu642,18450,aws,https://github.com/ngochieu642/terraform-aws-vpc,
 vpc,nguyenkhuyen03,24242,aws,https://github.com/nguyenkhuyen03/terraform-aws-vpc,study terraform
+vpc,nguyenvanquanthinh97,28870,aws,https://github.com/nguyenvanquanthinh97/terraform-aws-vpc,
 vpc,nhatanh2709,27098,aws,https://github.com/nhatanh2709/terraform-aws-vpc,
 vpc,nhoxyeeu,13582,aws,https://github.com/nhoxyeeu/terraform-aws-vpc,
 vpc,niuzhenguo,2216,flexibleengine,https://github.com/niuzhenguo/terraform-flexibleengine-vpc,Terraform module which creates VPC and Subnet resources on FlexibleEngine Cloud.
@@ -18838,6 +18877,7 @@ vpc,zadarastorage,27383,zcompute,https://github.com/zadarastorage/terraform-zcom
 vpc,zahitusta,9389,aws,https://github.com/zahitusta/terraform-aws-vpc,
 vpc,zazuwka,19801,module,https://github.com/zazuwka/terraform-module-vpc,
 vpc,zloygagarko,25478,aws,https://github.com/zloygagarko/terraform-aws-vpc,
+vpc-002,Anisha1304,28855,aws,https://github.com/Anisha1304/terraform-aws-vpc-002,
 vpc-1,Indirka,7763,aws,https://github.com/Indirka/terraform-aws-vpc-1,
 vpc-1,arunmadisetty,25480,aws,https://github.com/arunmadisetty/terraform-aws-vpc-1,
 vpc-1,bn089,28654,aws,https://github.com/bn089/terraform-aws-vpc-1,
@@ -18915,11 +18955,16 @@ vpc-auto-peering-lambda,infrablocks,3997,aws,https://github.com/infrablocks/terr
 vpc-auto-peering-role,infrablocks,3998,aws,https://github.com/infrablocks/terraform-aws-vpc-auto-peering-role,A role for the vpc-auto-peering-lambda module.
 vpc-basic,Sandalikatore,28844,aws,https://github.com/Sandalikatore/terraform-aws-vpc-basic,
 vpc-basic,TejaSInamke,28831,aws,https://github.com/TejaSInamke/terraform-aws-vpc-basic,
+vpc-basic,avantikavargude,28851,aws,https://github.com/avantikavargude/terraform-aws-vpc-basic,
 vpc-basic,moarpheus,17831,aws,https://github.com/moarpheus/terraform-aws-vpc-basic,
 vpc-basic,pravinpk2002,28817,aws,https://github.com/pravinpk2002/terraform-aws-vpc-basic,
+vpc-basic-03,snehalshiledar,28849,aws,https://github.com/snehalshiledar/terraform-aws-vpc-basic-03,
+vpc-basic001,Anisha1304,28854,aws,https://github.com/Anisha1304/terraform-aws-vpc-basic001,
 vpc-basic01,Anisha1304,28832,aws,https://github.com/Anisha1304/terraform-aws-vpc-basic01,
+vpc-basic01,TejaSInamke,28848,aws,https://github.com/TejaSInamke/terraform-aws-vpc-basic01,
 vpc-basic01,pravinpk2002,28828,aws,https://github.com/pravinpk2002/terraform-aws-vpc-basic01,
 vpc-basic02,Sandalikatore,28830,aws,https://github.com/Sandalikatore/terraform-aws-vpc-basic02,
+vpc-basic05,Divyaninale,28850,aws,https://github.com/Divyaninale/terraform-aws-vpc-basic05,
 vpc-basic1,yashbachhe09,28829,aws,https://github.com/yashbachhe09/terraform-aws-vpc-basic1,
 vpc-bastion,jwa-lab,18536,aws,https://github.com/jwa-lab/terraform-aws-vpc-bastion,
 vpc-bastion,we-work-in-the-cloud,7317,ibm,https://github.com/we-work-in-the-cloud/terraform-ibm-vpc-bastion,Bastion for VPC Terraform Module
