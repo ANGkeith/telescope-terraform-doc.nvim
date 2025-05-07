@@ -1048,7 +1048,7 @@ app,3191110276,8283,appdynamics,https://github.com/3191110276/terraform-appdynam
 app,Arminek,22028,k8s,https://github.com/Arminek/terraform-k8s-app,This is a simple terraform module to deploy a k8s application.
 app,CloudNationHQ,25729,azure,https://github.com/CloudNationHQ/terraform-azure-app,Terraform module which creates app service resources used by workloads and accelerators.
 app,cypik,22990,digitalocean,https://github.com/cypik/terraform-digitalocean-app,
-app,equinor,25128,azuread,https://github.com/equinor/terraform-azuread-app,Terraform module which creates Microsoft Entra ID application resources
+app,equinor,25128,azuread,https://github.com/equinor/terraform-azuread-app,Terraform module which creates Microsoft Entra ID (previously Azure Active Directory) Application resources
 app,jungopro,3859,azuread,https://github.com/jungopro/terraform-azuread-app,A module to create an Application with Service Principle
 app,rany01,28482,kubernetes,https://github.com/rany01/terraform-kubernetes-app,"Aqui contém a configuração principal para implantar uma aplicação no kubernetes, incluindo Deployment, Service e Ingress"
 app,scalingo-community,20614,scalingo,https://github.com/scalingo-community/terraform-scalingo-app,An opinionated Terraform module to provision an application and database very easily with Scalingo
@@ -6275,6 +6275,7 @@ ecr,vrs-factory,20869,aws,https://github.com/vrs-factory/terraform-aws-ecr,
 ecr,web-virtua-aws-multi-account-modules,16242,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-ecr,
 ecr-access,nuonco,23516,aws,https://github.com/nuonco/terraform-aws-ecr-access,Terraform module for granting access for Nuon container image components.
 ecr-archiver,barneyparker,22301,aws,https://github.com/barneyparker/terraform-aws-ecr-archiver,Archive ECR images to S3
+ecr-beanstalk,AnsariZahoor,28900,aws,https://github.com/AnsariZahoor/terraform-aws-ecr-beanstalk,Terraform module creates an AWS Elastic Container Registry (ECR) repository and an AWS Elastic Beanstalk environment
 ecr-clone,HappyPathway,25818,aws,https://github.com/HappyPathway/terraform-aws-ecr-clone,Terraform Module
 ecr-config,uptycslabs,19269,aws,https://github.com/uptycslabs/terraform-aws-ecr-config,Terraform module for use with Uptycs ECR integration
 ecr-cross-account,doingcloudright,1449,aws,https://github.com/doingcloudright/terraform-aws-ecr-cross-account,Terraform module to create an ECR repo with cross-account-access
@@ -7486,6 +7487,7 @@ eventbridge-log,barneyparker,22520,aws,https://github.com/barneyparker/terraform
 eventbridge-private-api-destination,tomkalesse,27767,aws,https://github.com/tomkalesse/terraform-aws-eventbridge-private-api-destination,Creates EventBridge API Destination for Private Endpoints / Networks
 eventbridge-publisher,akw-devsecops,24214,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-publisher,Creates IAM policy for an existing role to be able to publish events on a domain bus
 eventbridge-read-role,akw-devsecops,28779,aws,https://github.com/akw-devsecops/terraform-aws-eventbridge-read-role,
+eventbridge-rule,tfstack,28897,aws,https://github.com/tfstack/terraform-aws-eventbridge-rule,Terraform module to create flexible AWS EventBridge rules
 eventbridge-sqs,evolve-platform,27347,aws,https://github.com/evolve-platform/terraform-aws-eventbridge-sqs,Terraform module to manage Eventbridge in AWS 
 eventbridge-to-amazon-q,fivexl,28863,aws,https://github.com/fivexl/terraform-aws-eventbridge-to-amazon-q,"​A collection of Amazon EventBridge rules that capture Amazon ECS and other events, transform them using the input transformer feature, and send them to Amazon SNS. From there, the events are forwarded to Amazon Q Developer and subsequently to Slack, Amazon Chime, or Microsoft Teams."
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
@@ -13306,6 +13308,7 @@ private-gke,Pruthvi2340,22563,google,https://github.com/Pruthvi2340/terraform-go
 private-gke-cluster,memes,17976,google,https://github.com/memes/terraform-google-private-gke-cluster,Terraform module to create regional GKE clusters without public IP addresses on nodes or control plane
 private-key,pmikus,20008,tls,https://github.com/pmikus/terraform-tls-private-key,Terraform module creates a TLS key. 
 private-lb,libre-devops,13161,azurerm,https://github.com/libre-devops/terraform-azurerm-private-lb,"A module which tries to follow the ""KISS"" design model to deploying a Private Azure Load Balancer.  Will created 1 LBs and a backend pool based on some parameters :knife:"
+private-nat-gateway,plus3it,28901,aws,https://github.com/plus3it/terraform-aws-private-nat-gateway,Terraform module to create a Private NAT Gateway in an AWS VPC
 private-nat-vm,data-platform-hq,17497,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-nat-vm,
 private-network,terraform-hetzner-modules,27321,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-private-network,🚧 Set up private networks for your Hetzner Cloud servers to communicate
 private-network-access-for-bailian,alibabacloud-automation,28185,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-private-network-access-for-bailian,
@@ -14603,6 +14606,7 @@ route,Aigerim2024,25499,aws,https://github.com/Aigerim2024/terraform-aws-route,
 route,techtorialdevops,25498,aws,https://github.com/techtorialdevops/terraform-aws-route,
 route-azure-service,vmisson,20212,panos,https://github.com/vmisson/terraform-panos-route-azure-service,
 route-control-route-map,netascode,15869,aci,https://github.com/netascode/terraform-aci-route-control-route-map,Terraform Cisco ACI Route Control Route Map Module
+route-table,CloudAstro,28899,azurerm,https://github.com/CloudAstro/terraform-azurerm-route-table,Terraform Module for Azure route table and routes
 route-table,OT-CLOUD-KIT,5141,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-route-table,Terraform module for route table
 route-table,Think-Cube,24243,azure,https://github.com/Think-Cube/terraform-azure-route-table,Terraform module for Azure Route Table.
 route-table,aztfm,6641,azurerm,https://github.com/aztfm/terraform-azurerm-route-table,Terraform module for Microsoft Azure to manage Route Table resource.
@@ -17572,7 +17576,7 @@ testw,Sahouaneyassine,23037,aws,https://github.com/Sahouaneyassine/terraform-aws
 tetrate-istio-addon,tetratelabs,12452,eksblueprints,https://github.com/tetratelabs/terraform-eksblueprints-tetrate-istio-addon,
 tf-bucket-module,erikngigi,25628,aws,https://github.com/erikngigi/terraform-aws-tf-bucket-module,
 tf-cloud-agents,GoogleCloudPlatform,20704,google,https://github.com/GoogleCloudPlatform/terraform-google-tf-cloud-agents,Creates self-hosted Terraform Cloud Agent on Google Cloud
-tf-cloud-agents,aws-ia,25302,aws,https://github.com/aws-ia/terraform-aws-tf-cloud-agents,Creates self-hosted Terraform Cloud Agent on AWS
+tf-cloud-agents,aws-ia,25302,aws,https://github.com/aws-ia/terraform-aws-tf-cloud-agents,Creates self-hosted Terraform Cloud Agent on AWS (https://registry.terraform.io/modules/aws-ia/tf-cloud-agents/aws/latest)
 tf-instance-docker,mt554,18230,aws,https://github.com/mt554/terraform-aws-tf-instance-docker,
 tf-object-create,schollii,15229,local,https://github.com/schollii/terraform-local-tf-object-create,
 tf-object-query,schollii,14419,local,https://github.com/schollii/terraform-local-tf-object-query,Get elements from terraform object() (typically loaded from a json or yaml file)
