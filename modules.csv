@@ -283,7 +283,7 @@ acm-certificate-import,nventive,21355,aws,https://github.com/nventive/terraform-
 acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform-aws-acm-certificate-request,Terraform module to request an ACM certificate.
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
-acm-cloudflare,cesargoncalves,28893,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate using Cloudflare 
+acm-cloudflare,cesargoncalves,28920,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate using Cloudflare
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -317,6 +317,7 @@ acr,equinor,23381,azurerm,https://github.com/equinor/terraform-azurerm-acr,Terra
 acr,guidalabs,10304,azure,https://github.com/guidalabs/terraform-azure-acr,terraform azure acr
 acr,imjoseangel,10906,azurerm,https://github.com/imjoseangel/terraform-azurerm-acr,Terraform Module for deploying a Azure Container Registry
 acr,ionicloud,21613,azurerm,https://github.com/ionicloud/terraform-azurerm-acr,
+acr,mrexojo,28912,azure,https://github.com/mrexojo/terraform-azure-acr,Terraform module to create Azure Container Registry
 acr,scalesafely,21052,azure,https://github.com/scalesafely/terraform-azure-acr,
 acr,tw-cloud,28312,azurerm,https://github.com/tw-cloud/terraform-azurerm-acr,
 acr-config,uptycslabs,19993,azurerm,https://github.com/uptycslabs/terraform-azurerm-acr-config,
@@ -998,6 +999,7 @@ apic-connectivity-preference,netascode,9710,aci,https://github.com/netascode/ter
 apigateway,JamesWoolfenden,20688,aws,https://github.com/JamesWoolfenden/terraform-aws-apigateway,A basic module to provision apigateway
 apigateway,NungKup,19900,aws,https://github.com/NungKup/terraform-aws-apigateway,
 apigateway,TravelOffice,12264,aws,https://github.com/TravelOffice/terraform-aws-apigateway,Support provision multiple api gateway
+apigateway,bendoerr-terraform-modules,28918,aws,https://github.com/bendoerr-terraform-modules/terraform-aws-apigateway,Ben's Terraform AWS API Gateway Module
 apigateway,bootlabstech,17318,google,https://github.com/bootlabstech/terraform-google-apigateway,
 apigateway,finisterra-io,23550,aws,https://github.com/finisterra-io/terraform-aws-apigateway,Terraform AWS apigateway module
 apigateway,mikamakusa,25762,oci,https://github.com/mikamakusa/terraform-oci-apigateway,
@@ -1355,6 +1357,7 @@ artifact-registry,echervenko,18048,google,https://github.com/echervenko/terrafor
 artifact-registry,kanirin,17981,google,https://github.com/kanirin/terraform-google-artifact-registry,
 artifact-registry,martapol1230,17995,google,https://github.com/martapol1230/terraform-google-artifact-registry,
 artifact-registry,mkarimi20,24064,google,https://github.com/mkarimi20/terraform-google-artifact-registry,
+artifact-registry,mrexojo,28913,google,https://github.com/mrexojo/terraform-google-artifact-registry,Terraform module to create Google Artifact Registry
 artifact-registry,nazkaken,17991,google,https://github.com/nazkaken/terraform-google-artifact-registry,
 artifact-registry,teamdatatonic,8374,gcp,https://github.com/teamdatatonic/terraform-gcp-artifact-registry,
 artifact-registry-repository,mineiros-io,11353,google,https://github.com/mineiros-io/terraform-google-artifact-registry-repository,A Terraform module to deploy and manage Google Artifact Registry repositories in Google Cloud https://cloud.google.com/artifact-registry
@@ -3275,6 +3278,7 @@ cloudcheckr,rhythmictech,3121,aws,https://github.com/rhythmictech/terraform-aws-
 cloudcraft-blueprint,DomWeldon,10287,aws,https://github.com/DomWeldon/terraform-aws-cloudcraft-blueprint,A Terraform module to create a Cloudcraft blueprint of your AWS infrastructure.
 cloudcraft-role,infrahouse,27962,aws,https://github.com/infrahouse/terraform-aws-cloudcraft-role,Module that creates a role for CloudCraft scanner.
 cloudflare,coralogix,14414,coralogix,https://github.com/coralogix/terraform-coralogix-cloudflare,Coralogix CloudFlare Integrations modules for Terraform.
+cloudflare-certificate-validation,tx-pts-dai,28902,aws,https://github.com/tx-pts-dai/terraform-aws-cloudflare-certificate-validation,Terraform module to abstract certificate creation and DNS validation between ACM and Cloudflare
 cloudflare-gitlab,wenzel-felix,17857,hetzner,https://github.com/wenzel-felix/terraform-hetzner-cloudflare-gitlab,This module allows you to deploy a simple GitLab server on Hetzner with DNS managed by Cloudflare.
 cloudflare-ips-security-group,skwashd,11125,aws,https://github.com/skwashd/terraform-aws-cloudflare-ips-security-group,This terraform module populates an AWS security group ingress rules with Cloudflare source IPs
 cloudflare-restrictor,nbari,27069,aws,https://github.com/nbari/terraform-aws-cloudflare-restrictor,Automatically restrict security groups with designated tags to CloudFlare's known public IPs 
@@ -6761,7 +6765,7 @@ efs-cloudwatch-sns-alarms,cloudposee,28016,aws,https://github.com/cloudposee/ter
 efs-cloudwatch-sns-alarms,cloudposse,1225,aws,https://github.com/cloudposse/terraform-aws-efs-cloudwatch-sns-alarms,Terraform module that configures CloudWatch SNS alerts for EFS
 efs-csi-driver,DrFaust92,5665,kubernetes,https://github.com/DrFaust92/terraform-kubernetes-efs-csi-driver,Terraform module which creates Kubernetes EFS CSI driver resources on AWS EKS.
 efs-csi-driver,gfortetsanakis,15242,helm,https://github.com/gfortetsanakis/terraform-helm-efs-csi-driver,
-efs-csi-drivers,SPHTech-Platform,14077,aws,https://github.com/SPHTech-Platform/terraform-aws-efs-csi-drivers,Module to install efs-csi-controller and efs-csi-node
+efs-csi-drivers,SPHTech-Platform,14077,aws,https://github.com/SPHTech-Platform/terraform-aws-efs-csi-drivers,
 efs-filesystem,rhythmictech,5910,aws,https://github.com/rhythmictech/terraform-aws-efs-filesystem,"Creates an AWS EFS file system and associated mount points and security group. Optionally (on by default), configures a one-off AWS Backup plan/vault to back up the volume."
 efs-kms-key,dod-iac,10366,aws,https://github.com/dod-iac/terraform-aws-efs-kms-key,A KMS key used to encrypt data-at-rest stored in EFS
 efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-efs-mount,"Creates EFS, mount targets and security groups for use with EC2 to mount an EFS"
@@ -8397,7 +8401,6 @@ graphdb,Ontotext-AD,26384,gcp,https://github.com/Ontotext-AD/terraform-gcp-graph
 graveyard,appvia,27688,aws,https://github.com/appvia/terraform-aws-graveyard,Used to move an account once closed into the graveyard
 green-deployment,svalovtech,25452,blue,https://github.com/svalovtech/terraform-blue-green-deployment,
 greeting,areguera,14543,local,https://github.com/areguera/terraform-local-greeting,Terraform module to greet the audience.
-greeting-module,demotoget,28820,demo,https://github.com/demotoget/terraform-demo-greeting-module,
 grid,matti,778,kontena,https://github.com/matti/terraform-kontena-grid,
 grid-outputs,matti,759,kontena,https://github.com/matti/terraform-kontena-grid-outputs,
 gridbyoc,gridai,8964,aws,https://github.com/gridai/terraform-aws-gridbyoc,
@@ -8989,6 +8992,7 @@ ilm,goolzerg,10062,elk,https://github.com/goolzerg/terraform-elk-ilm,
 image,NoSugarCoffee,21708,docker,https://github.com/NoSugarCoffee/terraform-docker-image,
 image,Redevaerk,20464,docker,https://github.com/Redevaerk/terraform-docker-image,"Simplify your Docker image deployment process with this Terraform module! This module automates the building and pushing of Docker images to your desired container registry. Easily define your image source, repository details, and registry settings using Terraform's declarative syntax."
 image,libre-devops,13613,azurerm,https://github.com/libre-devops/terraform-azurerm-image,A module used to deploy an Azure image :camera:
+image,terraform-zstack-modules,28905,zstack,https://github.com/terraform-zstack-modules/terraform-zstack-image,
 image-builder,shadbury,14942,aws,https://github.com/shadbury/terraform-aws-image-builder,
 image-builder-component,dod-iac,13947,aws,https://github.com/dod-iac/terraform-aws-image-builder-component,Creates a component for EC2 Image Builder.
 image-builder-infrastructure-configuration,dod-iac,13946,aws,https://github.com/dod-iac/terraform-aws-image-builder-infrastructure-configuration,Creates an infrastructure configuration for EC2 Image Builder.
@@ -9172,6 +9176,7 @@ instance,slimflex2,6813,rds,https://github.com/slimflex2/terraform-rds-instance,
 instance,solairen,28149,xen,https://github.com/solairen/terraform-xen-instance,Terraform module for Xen Orchestra
 instance,terraform-openstack-modules,1413,openstack,https://github.com/terraform-openstack-modules/terraform-openstack-instance,Terraform Provision Instance at Openstack
 instance,terraform-yacloud-modules,17923,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-instance,Terraform module to manage Compute Instance resources within the Yandex.Cloud.
+instance,terraform-zstack-modules,28906,zstack,https://github.com/terraform-zstack-modules/terraform-zstack-instance,
 instance,turdalieva,6820,rds,https://github.com/turdalieva/terraform-rds-instance,
 instance,tutac,6817,rds,https://github.com/tutac/terraform-rds-instance,
 instance,tyncha,6821,rds,https://github.com/tyncha/terraform-rds-instance,
@@ -10804,6 +10809,7 @@ logs,dod-iac,16983,aws,https://github.com/dod-iac/terraform-aws-logs,Creates and
 logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,Terraform module to create a Cloudwatch log group with optional log reader.
 logs,techadontech,13592,cloudwatch,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
 logs,trussworks,663,aws,https://github.com/trussworks/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
+logs-agent,terraform-ibm-modules,28908,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-logs-agent,Terraform module to deploy the IBM Cloud Logs Agent on a Cluster
 logs-s3-bucket,cn-terraform,13502,aws,https://github.com/cn-terraform/terraform-aws-logs-s3-bucket,AWS S3 bucket for logs delivery
 logs-to-opensearch,montblu,26711,aws,https://github.com/montblu/terraform-aws-logs-to-opensearch,Module that deploys a Lambda that sends ALB and VPC Flow logs and ingest them into OpenSearch
 logsGroupExport,JeissonO,9012,aws,https://github.com/JeissonO/terraform-aws-logsGroupExport,This module creates resources that fire events to export your logs groups in Cloudwatch to an S3 Bucket
@@ -11009,7 +11015,7 @@ mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
-mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,Terraform module to setup and manage AWS network firewall
+mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,
 mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
 mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,Terraform module to manage an AWS Organization.
@@ -11027,7 +11033,7 @@ mcaf-securityhub-findings-manager,schubergphilis,19581,aws,https://github.com/sc
 mcaf-service-quotas-manager,schubergphilis,22514,aws,https://github.com/schubergphilis/terraform-aws-mcaf-service-quotas-manager,Terraform module to manage AWS Service Quotas within an AWS Organization
 mcaf-ses,schubergphilis,26057,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ses,Terraform module to configure SES.
 mcaf-ses-forwarder,schubergphilis,26060,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ses-forwarder,Terraform module to configure a SES forwarder.
-mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,Terraform module to setup and manage an AWS Transit Gateway
+mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,
 mcaf-user,schubergphilis,18377,aws,https://github.com/schubergphilis/terraform-aws-mcaf-user,Terraform module to setup and manage an IAM User
 mcaf-variable-set,schubergphilis,28402,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-variable-set,
 mcaf-vpc,schubergphilis,26074,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc,
@@ -11497,6 +11503,7 @@ monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitori
 monitoring,terraform-do-modules,20251,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-monitoring,"Terraform module to create monitor resource. DigitalOcean Monitoring is a free, opt-in service that gathers metrics about Droplet-level resource utilization. It provides additional Droplet graphs and supports configurable metrics alert policies with integrated email Slack notifications to help you track the operational health of your infrastructure"
 monitoring,terraform-iaac,9201,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-monitoring,Terraform module for monitor your kubernetes resources via Prometheus+Alertmanager+Grafana
 monitoring,vistaprint,2994,newrelic,https://github.com/vistaprint/terraform-newrelic-monitoring,Terraform module to monitor an application using New Relic
+monitoring-agent,terraform-ibm-modules,28907,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-monitoring-agent,Terraform module to install and configure the Monitoring Agent on IBM Cloud Kubernetes Service and Red Hat OpenShift on IBM Cloud.
 monitoring-alert-policy,albahli,25123,google,https://github.com/albahli/terraform-google-monitoring-alert-policy,A custom Terraform module that creates a Google Cloud Monitoring Alert Policy.
 monitoring-bundle,blackbird-cloud,15824,helm,https://github.com/blackbird-cloud/terraform-helm-monitoring-bundle,"Core module of monitoring bundle, contains deployment of both prometheus and grafana"
 monitoring-cluster,Mtt6300,4760,kubernetes,https://github.com/Mtt6300/terraform-kubernetes-monitoring-cluster,Monitoring tools for k8s cluster by using Terraform
@@ -14810,6 +14817,7 @@ s3,boldlink,14297,aws,https://github.com/boldlink/terraform-aws-s3,Terraform reg
 s3,bootlabstech,14152,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
 s3,bootlabstech-m,17414,aws,https://github.com/bootlabstech-m/terraform-aws-s3,
 s3,clouddrove,3639,aws,https://github.com/clouddrove/terraform-aws-s3,Terraform module to create default S3 bucket with logging and encryption type specific features.
+s3,code4romania,28915,aws,https://github.com/code4romania/terraform-aws-s3,Terraform module for AWS S3
 s3,cypik,23475,aws,https://github.com/cypik/terraform-aws-s3,
 s3,dare-global,28257,aws,https://github.com/dare-global/terraform-aws-s3,Terraform module for provisioning AWS S3 resources.
 s3,dasmeta,21736,aws,https://github.com/dasmeta/terraform-aws-s3,Module(s) allow managing AWS S3 functionality
@@ -15102,6 +15110,7 @@ s3-terraform-state,michael-ortiz,25139,aws,https://github.com/michael-ortiz/terr
 s3-tfstate,trumpeteer,22949,aws,https://github.com/trumpeteer/terraform-aws-s3-tfstate,Terraform module for setting up a remote S3 backend with DynamoDB locking
 s3-trigger,figurate,5043,aws,https://github.com/figurate/terraform-aws-s3-trigger,Templates for S3 bucket notification triggers
 s3-unzip,robbytaylor,4095,aws,https://github.com/robbytaylor/terraform-aws-s3-unzip,Terraform module to deploy a Lambda function to automatically unzip files in an S3 bucket
+s3-upload,HappyPathway,28917,tools,https://github.com/HappyPathway/terraform-tools-s3-upload,
 s3-versioning,bootlabstech,17491,aws,https://github.com/bootlabstech/terraform-aws-s3-versioning,
 s3-web-frontend,gretchenleighmiller,24210,aws,https://github.com/gretchenleighmiller/terraform-aws-s3-web-frontend,Terraform module that creates a web frontend with assets in an S3 bucket served through a CloudFront distribution.
 s3-webapp,18120211,16465,aws,https://github.com/18120211/terraform-aws-s3-webapp,
@@ -15979,6 +15988,7 @@ ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
+ses-cloudflare,cesargoncalves,28919,aws,https://github.com/cesargoncalves/terraform-aws-ses-cloudflare,Terraform module to provision AWS SES with Cloudflare DNS
 ses-cloudflare,silinternational,24881,aws,https://github.com/silinternational/terraform-aws-ses-cloudflare,Terraform module to create AWS and Cloudflare resources for SES
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-dashboard,connect-group,1099,aws,https://github.com/connect-group/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
@@ -17748,6 +17758,7 @@ transfer-sftp,cloudposee,28097,aws,https://github.com/cloudposee/terraform-aws-t
 transfer-sftp,cloudposse,9752,aws,https://github.com/cloudposse/terraform-aws-transfer-sftp,
 transfer-sftp-password,calidae,12956,aws,https://github.com/calidae/terraform-aws-transfer-sftp-password,Create a simple SFTP server with a master password
 transferSftpBasicAuth,thevanguardian,13861,aws,https://github.com/thevanguardian/terraform-aws-transferSftpBasicAuth,"Terraform module for setting up AWS Transfer with a custom identity provider, allowing user/pass authentication and SSM credential storage."
+transformation,keboola,28911,keboola,https://github.com/keboola/terraform-keboola-transformation,This terraform module simplifies usage of keboola transformations
 transformer-event-hub-vmss,snowplow-devops,20206,azurerm,https://github.com/snowplow-devops/terraform-azurerm-transformer-event-hub-vmss,
 transformer-kinesis-ec2,dariuskasperavicius,13575,aws,https://github.com/dariuskasperavicius/terraform-aws-transformer-kinesis-ec2,
 transformer-kinesis-ec2,snowplow-devops,12909,aws,https://github.com/snowplow-devops/terraform-aws-transformer-kinesis-ec2,
@@ -18161,6 +18172,7 @@ virtualmachinepublic,yboladra,19028,azurerm,https://github.com/yboladra/terrafor
 virtualnet,jvm2023,19954,azure,https://github.com/jvm2023/terraform-azure-virtualnet,module to create vnet with two subnets
 virtualnetworkhim,himsoftware,18940,azurerm,https://github.com/himsoftware/terraform-azurerm-virtualnetworkhim,
 virutal-machine,calvin110,8488,vsphere,https://github.com/calvin110/terraform-vsphere-virutal-machine,
+virutal-network,lestermarch,28914,azapi,https://github.com/lestermarch/terraform-azapi-virutal-network,Terraform module for deploying an Azure Virtual Network using the AzAPI provider.
 vishnukiranstorage,vishnukiranreddy4,15983,azure,https://github.com/vishnukiranreddy4/terraform-azure-vishnukiranstorage,
 vishnukumarstorage,Vishnu9838,12317,azure,https://github.com/Vishnu9838/terraform-azure-vishnukumarstorage,
 vishnus3,vishnukiranreddy4,25524,aws,https://github.com/vishnukiranreddy4/terraform-aws-vishnus3,
