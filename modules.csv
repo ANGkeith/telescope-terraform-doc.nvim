@@ -283,7 +283,7 @@ acm-certificate-import,nventive,21355,aws,https://github.com/nventive/terraform-
 acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform-aws-acm-certificate-request,Terraform module to request an ACM certificate.
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
-acm-cloudflare,cesargoncalves,28920,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate using Cloudflare
+acm-cloudflare,cesargoncalves,28930,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate using Cloudflare
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -352,6 +352,7 @@ activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-a
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
 activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
+activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
 ad,srb3,11111,azure,https://github.com/srb3/terraform-azure-ad,
 ad-application,lacework,17021,azure,https://github.com/lacework/terraform-azure-ad-application,Terraform module that creates an Azure AD application to provide Lacework read-only access to Azure Subscriptions and Tenants
@@ -1654,6 +1655,7 @@ attilawebapp,attila1010,10733,azurerm,https://github.com/attila1010/terraform-az
 attribute-regional-resources,ZouzIO,27327,aws,https://github.com/ZouzIO/terraform-aws-attribute-regional-resources,AWS Attribute Regional Resources Terraform Module
 attribute-sensor,ZouzIO,25988,aws,https://github.com/ZouzIO/terraform-aws-attribute-sensor,AWS Attribute Sensor Terraform Module
 attribute-sensor,ZouzIO,28244,gcp,https://github.com/ZouzIO/terraform-gcp-attribute-sensor,GCP Attribute Sensor Terraform Module
+attribute-sensor,ZouzIO,28927,azurerm,https://github.com/ZouzIO/terraform-azurerm-attribute-sensor,Azure Attribute Sensor Terraform Module
 audit,DNXLabs,5714,aws,https://github.com/DNXLabs/terraform-aws-audit,This terraform module creates buckets that save cloudtrail and guardduty logs from all accounts.
 audit,ptonini,16782,vault,https://github.com/ptonini/terraform-vault-audit,
 audit,robertdebock,13477,vault,https://github.com/robertdebock/terraform-vault-audit,
@@ -7415,6 +7417,7 @@ environment,timarenz,10544,aws,https://github.com/timarenz/terraform-aws-environ
 environment-setup,karan6190,4684,gcp,https://github.com/karan6190/Google-cloud-platform-Infrastructure-setup,"IAC for provisioning Infrastructure component like network, subnetworks, route "
 environment-terraform-azure,Azure-Terraformer,27150,github,https://github.com/Azure-Terraformer/terraform-github-environment-terraform-azure,
 environments,tbobm,11189,github,https://github.com/tbobm/terraform-github-environments,Manage Github Repository Environments.
+envmirror,yashodhan271,28922,aws,https://github.com/yashodhan271/terraform-aws-envmirror,
 envoy-transport-configuration,Ferlab-Ste-Justine,18444,etcd,https://github.com/Ferlab-Ste-Justine/terraform-etcd-envoy-transport-configuration,Terraform module to generate an envoy transport load balancer configuration and store it in an etcd key value 
 eotk,sr2c,13006,aws,https://github.com/sr2c/terraform-aws-eotk,DEPRECATED Enterprise Onion Toolkit (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-eotk)
 ephemeral-ecs-runner,Lucas-Hughes,22181,aws,https://github.com/Lucas-Hughes/terraform-aws-ephemeral-ecs-runner,"Module for ephemeral, event driven gitlab runner setup"
@@ -7727,6 +7730,7 @@ find-semver-match,rhythmictech,6142,terraform,https://github.com/rhythmictech/te
 find-up,01Joseph-Hwang10,27315,null,https://github.com/01Joseph-Hwang10/terraform-null-find-up,Searches specified file (or files) in the current directory and all parent directories.
 fingerprint-cloudfront-proxy-integration,fingerprintjs,25626,aws,https://github.com/fingerprintjs/terraform-aws-fingerprint-cloudfront-proxy-integration,The Terraform module for Fingerprint Pro CloudFront Integration
 finops,artefactory,18573,google,https://github.com/artefactory/terraform-google-finops,Terraform module to deploy basic FinOps resources on GCP.
+finops-costreview-access,elastic2ls-com,28926,aws,https://github.com/elastic2ls-com/terraform-aws-finops-costreview-access,"Terraform module to create an IAM user or cross-account IAM role for external FinOps cost reviews in AWS. Includes examples, optional AWSOrganizations access, CI/CD workflows, and security checks."
 firebase-project-factory,cilly-yllic,22801,google,https://github.com/cilly-yllic/terraform-google-firebase-project-factory,Terraform module to create Firebase Project.
 firefly,Feleuxens,22184,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
 firefly,Feleuxens-Infrastructure,22178,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
@@ -8401,6 +8405,7 @@ graphdb,Ontotext-AD,26384,gcp,https://github.com/Ontotext-AD/terraform-gcp-graph
 graveyard,appvia,27688,aws,https://github.com/appvia/terraform-aws-graveyard,Used to move an account once closed into the graveyard
 green-deployment,svalovtech,25452,blue,https://github.com/svalovtech/terraform-blue-green-deployment,
 greeting,areguera,14543,local,https://github.com/areguera/terraform-local-greeting,Terraform module to greet the audience.
+greeting-module,demotoget,28924,demo,https://github.com/demotoget/terraform-demo-greeting-module,
 grid,matti,778,kontena,https://github.com/matti/terraform-kontena-grid,
 grid-outputs,matti,759,kontena,https://github.com/matti/terraform-kontena-grid-outputs,
 gridbyoc,gridai,8964,aws,https://github.com/gridai/terraform-aws-gridbyoc,
@@ -14328,6 +14333,7 @@ repository,antmelekhin,20918,github,https://github.com/antmelekhin/terraform-git
 repository,benoit-garcia,24294,github,https://github.com/benoit-garcia/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,boldlink,13889,github,https://github.com/boldlink/terraform-github-repository,Terraform registry repository for Github organization module
 repository,cncsc,17022,github,https://github.com/cncsc/terraform-github-repository,
+repository,codelawcorp,28928,github,https://github.com/codelawcorp/terraform-github-repository,The public Terraform module for managing GitHub repositories.
 repository,dasmeta,15306,github,https://github.com/dasmeta/terraform-github-repository,This repo allows you to create and manage repositories within your GitHub organization or personal account.
 repository,devdynamicio,12888,github,https://github.com/devdynamicio/terraform-github-repository,Terraform module to create an GitHub repositories 🇺🇦
 repository,devops-hive,23317,github,https://github.com/devops-hive/terraform-github-repository,Terraform GitHub Repository Module.
@@ -15090,6 +15096,7 @@ s3-static-site,inem,1372,aws,https://github.com/inem/terraform-aws-s3-static-sit
 s3-static-site,vexingcodes,966,aws,https://github.com/vexingcodes/terraform-aws-s3-static-site,Creates a static website on a domain hosted on S3 and delivered by CloudFront over HTTPS with Route53 managing DNS.
 s3-static-site-cdn-ssl,dpmerron,1064,aws,https://github.com/dpmerron/terraform-aws-s3-static-site-cdn-ssl,A Terraform Moule to Deploy a HTML static website to an AWS S3 Bucket with CloudFront CDN and SSL Certificates
 s3-static-website,Dionatas,25944,aws,https://github.com/Dionatas/terraform-aws-s3-static-website,Terraform module to handle S3 Static Website
+s3-static-website,Longwave-innovation,28925,aws,https://github.com/Longwave-innovation/terraform-aws-s3-static-website,A Terraform module to deploy and configure an S3-based static website hosting solution on AWS. This module simplifies the process of creating and managing static websites hosted on Amazon S3 by handling all the necessary configurations.
 s3-static-website,Lupus-Metallum,8434,aws,https://github.com/Lupus-Metallum/terraform-aws-s3-static-website,Used to publish static website files to an S3 bucket with proper MIME type based on lookup using the file extension. 
 s3-static-website,cn-terraform,9553,aws,https://github.com/cn-terraform/terraform-aws-s3-static-website,Terraform Module for AWS to host Static Website on S3
 s3-static-website,conortm,1516,aws,https://github.com/conortm/terraform-aws-s3-static-website,Terraform Module for an Amazon S3 Static Website
@@ -17829,7 +17836,7 @@ tvdlab-vcn,Trivadis,6352,oci,https://github.com/Trivadis/terraform-oci-tvdlab-vc
 tvdlab-vcn,oehrlis,6351,oci,https://github.com/oehrlis/terraform-oci-tvdlab-vcn,A reusable and extensible Terraform module that provisions a Trivadis LAB VCN on Oracle Cloud Infrastructure
 twingate,oguzhancoskun,22634,twingate,https://github.com/oguzhancoskun/terraform-twingate-twingate,Terraform Twingate Module
 tzdb,robzr,25390,null,https://github.com/robzr/terraform-null-tzdb,"Terraform module for querying Time Zones and ISO-3166 Country Codes from IANA Time Zone Database, with optional online database retrieval."
-uai,CloudNationHQ,28421,azure,https://github.com/CloudNationHQ/terraform-azure-uai,
+uai,CloudNationHQ,28421,azure,https://github.com/CloudNationHQ/terraform-azure-uai,Terraform module which creates user assigned identity resources used by workloads and accelerators.
 ubuntu,fvoges,8058,digitalocean,https://github.com/fvoges/terraform-digitalocean-ubuntu,
 ubuntu,ucipass,10169,aws,https://github.com/ucipass/terraform-aws-ubuntu,Terraform module to deploy and Ubuntu instance in the AWS cloud
 ubuntu-ami-version,josh-jacobsen,11599,aws,https://github.com/josh-jacobsen/terraform-aws-ubuntu-ami-version,
