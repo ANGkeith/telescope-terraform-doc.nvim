@@ -1878,7 +1878,7 @@ avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-az
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,AVM Module for Azure Machine learning workspaces.
 avm-res-maintenance-maintenanceconfiguration,Azure,28504,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-maintenance-maintenanceconfiguration,Terraform Azure Verified Resource Module for Maintenance Configuration
 avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,"To gain access, please finish setting up this repository now at: "
-avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,
+avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,The AVM resource module for Azure NetApp Files
 avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,"Azure Application Gateway serves as a web traffic load balancer, allowing you to efficiently handle traffic for your web applications. This Terraform module is designed for the rapid creation of an Application Gateway that includes various customizable features. "
 avm-res-network-applicationgatewaywebapplicationfirewallpolicy,Azure,27640,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgatewaywebapplicationfirewallpolicy,AVM Resource Module for Application Gateway Web Application Firewall (WAF) Policy
 avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationsecuritygroup,This Terraform module is designed to create Application Security Groups.
@@ -2772,6 +2772,7 @@ camellia-image,ninthnails,4513,aws,https://github.com/ninthnails/terraform-aws-c
 canary,kaihendry,16565,aws,https://github.com/kaihendry/terraform-aws-canary,Terraform Amazon CloudWatch Synthetics to create canaries
 canary-security-sensor-capture-rest-api,joshdurbin,156,aws,https://github.com/joshdurbin/terraform-aws-canary-security-sensor-capture-rest-api,A TF module for periodically checking in with the Canary API to capture and store Canary sensor data in dynamodb tables and produce an API endpoint for accessing the data.
 cap-merge,nullstone-modules,9317,ns,https://github.com/nullstone-modules/terraform-ns-cap-merge,Terraform module to merge outputs from multiple Nullstone modules
+capi-cluster-manager-bootstrap-apps,ljcheng999,28934,aws,https://github.com/ljcheng999/terraform-aws-capi-cluster-manager-bootstrap-apps,cluster-manager
 cardano,regel,11619,azure,https://github.com/regel/terraform-azure-cardano,A Terraform Module for how to run Cardano on Azure using Terraform
 cardano-node,leb4r,10566,aws,https://github.com/leb4r/terraform-aws-cardano-node,Terraform module that provisions infrastructure on AWS to run cardano-node.
 carpenter-vpc,AldosAC,13850,aws,https://github.com/AldosAC/terraform-aws-carpenter-vpc,Terraform module which provisions a VPC
@@ -6657,6 +6658,7 @@ ecs-service-nexus,devops-workflow,1877,aws,https://github.com/devops-workflow/te
 ecs-service-tailscale,guardianproject-ops,27089,aws,https://github.com/guardianproject-ops/terraform-aws-ecs-service-tailscale,Terraform module for deploying tailscale to an ECS cluster (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-ecs-service-tailscale)
 ecs-service-task-definition,polganesh,4695,aws,https://github.com/polganesh/terraform-aws-ecs-service-task-definition,Git Repo for creating ecs service and task for existing ECS server
 ecs-service-tsrecorder,guardianproject-ops,27120,aws,https://github.com/guardianproject-ops/terraform-aws-ecs-service-tsrecorder,Terraform module for deploying Tailscale ssh session recorder service to AWS ECS w/ Fargate (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-ecs-service-tsrecorder)
+ecs-service-wfscoli,code4romania,28937,aws,https://github.com/code4romania/terraform-aws-ecs-service-wfscoli,Terraform module for a AWS ECS Service / Website Factory instance
 ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-ecs-services,A terraform module to create ECS services inside a cluster
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-slack-alerts,Nuagic,16253,aws,https://github.com/Nuagic/terraform-aws-ecs-slack-alerts,
@@ -7467,6 +7469,7 @@ event-hub,snowplow-devops,19549,azurerm,https://github.com/snowplow-devops/terra
 event-hub-namespace,libre-devops,13282,azurerm,https://github.com/libre-devops/terraform-azurerm-event-hub-namespace,"A module used to deploy an Azure event hub namespace, based on some parameters :fire:"
 event-hub-namespace,snowplow-devops,19548,azurerm,https://github.com/snowplow-devops/terraform-azurerm-event-hub-namespace,
 event-hubs,avinor,2486,azurerm,https://github.com/avinor/terraform-azurerm-event-hubs,Terraform module to create an event namespace with hubs connected to it
+event-hubs-kafka,azure-terraform-module,28935,azure,https://github.com/azure-terraform-module/terraform-azure-event-hubs-kafka,
 event-lambda,Xerris-Terraform-Modules,8079,aws,https://github.com/Xerris-Terraform-Modules/terraform-aws-event-lambda,
 event-mapping,highwingio,16893,aws,https://github.com/highwingio/terraform-aws-event-mapping,Terraform module to map EventBridge bus events to other target resources
 event-notifications,terraform-ibm-modules,21826,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-event-notifications,A module for creating IBM Cloud Event Notifications
@@ -7731,6 +7734,7 @@ find-up,01Joseph-Hwang10,27315,null,https://github.com/01Joseph-Hwang10/terrafor
 fingerprint-cloudfront-proxy-integration,fingerprintjs,25626,aws,https://github.com/fingerprintjs/terraform-aws-fingerprint-cloudfront-proxy-integration,The Terraform module for Fingerprint Pro CloudFront Integration
 finops,artefactory,18573,google,https://github.com/artefactory/terraform-google-finops,Terraform module to deploy basic FinOps resources on GCP.
 finops-costreview-access,elastic2ls-com,28926,aws,https://github.com/elastic2ls-com/terraform-aws-finops-costreview-access,"Terraform module to create an IAM user or cross-account IAM role for external FinOps cost reviews in AWS. Includes examples, optional AWSOrganizations access, CI/CD workflows, and security checks."
+finops-ebs-optimization,elastic2ls-com,28938,aws,https://github.com/elastic2ls-com/terraform-aws-finops-ebs-optimization,Terraform module for monitoring and cost-optimizing EBS volumes with dynamic CloudWatch alarms and tag-based filtering.
 firebase-project-factory,cilly-yllic,22801,google,https://github.com/cilly-yllic/terraform-google-firebase-project-factory,Terraform module to create Firebase Project.
 firefly,Feleuxens,22184,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
 firefly,Feleuxens-Infrastructure,22178,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
@@ -10338,6 +10342,7 @@ lambda-layer,TravelOffice,18964,aws,https://github.com/TravelOffice/terraform-aw
 lambda-layer,figurate,4973,aws,https://github.com/figurate/terraform-aws-lambda-layer,Templates for common lambda dependencies
 lambda-layer,hendrixroa,5703,aws,https://github.com/hendrixroa/terraform-aws-lambda-layer,Module to avoid the continues installing dependencies and libraries for functions lambda
 lambda-layer-auto-package,damacus,5130,aws,https://github.com/damacus/terraform-aws-lambda-layer-auto-package,A terraform module to define a lambda layer which source files are automatically built and packaged for deployment.
+lambda-layer-builder,aws-ia,28939,aws,https://github.com/aws-ia/terraform-aws-lambda-layer-builder,
 lambda-layer-generator,Robyt96,22553,aws,https://github.com/Robyt96/terraform-aws-lambda-layer-generator,Terraform module to create a Lambda function able to create Lambda Layers with custom Python packages
 lambda-layer-python,brentnequin,23353,aws,https://github.com/brentnequin/terraform-aws-lambda-layer-python,
 lambda-layer-version-mod,corpit-consulting-public,2799,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-layer-version,
@@ -10833,7 +10838,6 @@ lts,tf-cloud-modules,19011,sbercloud,https://github.com/tf-cloud-modules/terrafo
 lucid-aws-import,lucidsoftware,27784,aws,https://github.com/lucidsoftware/terraform-aws-lucid-aws-import,Terraform modules to set up the necessary IAM roles and policies for Lucid AWS imports
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
 lxc,RoseSecurity-Research,20540,proxmox,https://github.com/RoseSecurity-Research/terraform-proxmox-lxc,
-lxc,guillaume-dussault,28824,proxmox,https://github.com/guillaume-dussault/terraform-proxmox-lxc,
 lxc,joao-pedro-rdo,27326,proxmox,https://github.com/joao-pedro-rdo/terraform-proxmox-lxc,Modulo terraform para proxmox 
 lxc,leyendanerd,17649,proxmox,https://github.com/leyendanerd/terraform-proxmox-lxc,terraform-proxmox-lxc
 lxc-containers,taimlog,17732,proxmox,https://github.com/taimlog/terraform-proxmox-lxc-containers,
@@ -11026,7 +11030,7 @@ mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-a
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,Terraform module to manage an AWS Organization.
 mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,Terraform module to create and manage a GitLab project.
 mcaf-redshift,schubergphilis,26147,aws,https://github.com/schubergphilis/terraform-aws-mcaf-redshift,Terraform module to setup and manage an AWS Redshift cluster.
-mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,Terraform module to create and manage a GitHub repository.
+mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,
 mcaf-resource-scheduler,schubergphilis,26127,aws,https://github.com/schubergphilis/terraform-aws-mcaf-resource-scheduler,A Terraform module that can schedule various types of AWS resources
 mcaf-role,schubergphilis,28316,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,
 mcaf-route53-resolver,schubergphilis,28292,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-resolver,
@@ -16182,6 +16186,7 @@ sites,imperva,7608,incapsula,https://github.com/imperva/terraform-incapsula-site
 sites,joeymoore,7607,incapsula,https://github.com/joeymoore/terraform-incapsula-sites,This module can be used to create protected web-site(s) in Imperva CWAF. Default settings can be overridden when inheriting the module in your project.
 siva,sivarambalaji,25127,azure,https://github.com/sivarambalaji/terraform-azure-siva,
 siva,sivawiswa,13653,azure,https://github.com/sivawiswa/terraform-azure-siva,
+sivamodules-staticwebsite,Sivakumarkalaiselvan,28936,azurerm,https://github.com/Sivakumarkalaiselvan/terraform-azurerm-sivamodules-staticwebsite,TF Modules to be published in TF public Registry
 sivnags3,seshukalakurthi,25527,aws,https://github.com/seshukalakurthi/terraform-aws-sivnags3,
 skaylink-agw-internal-https,skaylink,13603,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-agw-internal-https,Deploy an application gateway with internal https setup
 skaylink-aks,skaylink,13589,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-aks,Azure Kubernetes Service module for Skaylink (IQ3)
@@ -17923,6 +17928,7 @@ users,devops-workflow,847,datadog,https://github.com/devops-workflow/terraform-d
 users,devops-workflow,897,pagerduty,https://github.com/devops-workflow/terraform-pagerduty-users,A TF module that allows the declaration of all PagerDuty users. Does not support teams
 users,jksprattler,28156,azuread,https://github.com/jksprattler/terraform-azuread-users,Terraform module that manages cloud-based Azure AD / Entra ID user accounts
 users,neovops,6602,aws,https://github.com/neovops/terraform-aws-users,Terraform module for AWS IAM users management
+users-groups-automation,masterpointio,28940,googleworkspace,https://github.com/masterpointio/terraform-googleworkspace-users-groups-automation,A Terraform module to automate management of Google Workspace Users and Groups
 utils,TerraPros,27850,aws,https://github.com/TerraPros/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
 utils,TerraformFoundation,27926,aws,https://github.com/TerraformFoundation/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
 utils,cloudposee,28099,aws,https://github.com/cloudposee/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
