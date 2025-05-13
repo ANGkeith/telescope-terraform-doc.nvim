@@ -11061,7 +11061,7 @@ mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/
 mcaf-user,schubergphilis,18377,aws,https://github.com/schubergphilis/terraform-aws-mcaf-user,Terraform module to setup and manage an IAM User
 mcaf-variable-set,schubergphilis,28402,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-variable-set,
 mcaf-vpc,schubergphilis,26074,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc,
-mcaf-vpc-with-ipam,schubergphilis,26034,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc-with-ipam,Terraform module to manage an AWS VPC using the CIDR provided by an IPAM pool.
+mcaf-vpc-with-ipam,schubergphilis,26034,aws,https://github.com/schubergphilis/terraform-aws-mcaf-vpc-with-ipam,
 mcaf-workspace,schubergphilis,22975,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-workspace,Terraform module to create a TFC workspace.
 mcaf-workspace,schubergphilis,24637,aws,https://github.com/schubergphilis/terraform-aws-mcaf-workspace,Terraform module to create a TFC workspace for resources in an AWS account.
 mcd-agent,monte-carlo-data,21656,google,https://github.com/monte-carlo-data/terraform-google-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in GCP
@@ -12282,6 +12282,7 @@ network-privatelink,seg-way,20577,azurerm,https://github.com/segateway/terraform
 network-privatelink,segateway,20636,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
 network-protocol-proxy,cruxstack,27665,aws,https://github.com/cruxstack/terraform-aws-network-protocol-proxy,Terraform Module to deploy haproxy-based network proxy to expose private resource to externally to consumers such as vendors.
 network-resources,bootlabstech,20656,google,https://github.com/bootlabstech/terraform-google-network-resources,Creates GCP network resources
+network-routetable,ciscoxiaobing,28979,azurerm,https://github.com/ciscoxiaobing/terraform-azurerm-network-routetable,
 network-security,Tzrlk,15853,aws,https://github.com/Tzrlk/terraform-aws-network-security,Terraform module to simplify the setting up of security groups and their relationships
 network-security-group,Azure,821,azurerm,https://github.com/Azure/terraform-azurerm-network-security-group,Terraform module to create a network security group and assign it to the specified subnet
 network-security-group,Muzammil-Naik,23837,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-network-security-group,
@@ -12306,6 +12307,7 @@ network-spoke,cdornele,27759,azure,https://github.com/cdornele/terraform-azure-n
 network-sqlmi,doherty100,2474,azurerm,https://github.com/doherty100/terraform-azurerm-network-sqlmi,Terraform Azure RM Module for Azure SQL Database Managed Instance Network
 network-subnet,mineiros-io,11744,google,https://github.com/mineiros-io/terraform-google-network-subnet,A Terraform module to create and manage subnets for a Virtual Private Cloud (VPC) on Google Cloud Platform (GCP) https://cloud.google.com/vpc
 network-subnet,tasdikrahman,374,google,https://github.com/tasdikrahman/terraform-google-network-subnet,Terraform module : GCP : for creation of subnet inside a VPC network
+network-virtualnetwork,ciscoxiaobing,28980,azurerm,https://github.com/ciscoxiaobing/terraform-azurerm-network-virtualnetwork,
 network-vpc,binxio,6766,google,https://github.com/binxio/terraform-google-network-vpc,Generic google VPC and subnets module for Terraform 
 network-vpc,mineiros-io,11746,google,https://github.com/mineiros-io/terraform-google-network-vpc,A Terraform module to create and manage a Virtual Private Network (VPC) in Google Cloud https://cloud.google.com/vpc
 network-watcher,bootlabstech,15504,azurerm,https://github.com/bootlabstech/terraform-azurerm-network-watcher,
@@ -15174,7 +15176,7 @@ s3-webapp,somex6,13385,aws,https://github.com/somex6/terraform-aws-s3-webapp,
 s3-webapp,tileom,14445,aws,https://github.com/tileom/terraform-aws-s3-webapp,
 s3-webapp,vitalijsvolodenkovs,5812,aws,https://github.com/vitalijsvolodenkovs/terraform-aws-s3-webapp,
 s3-webapp,xsqian,7491,aws,https://github.com/xsqian/terraform-aws-s3-webapp,
-s3-webserver,apacheplayground,27174,aws,https://github.com/apacheplayground/terraform-aws-s3-webserver,
+s3-webserver,apacheplayground,28978,aws,https://github.com/apacheplayground/terraform-aws-s3-webserver,
 s3-website,7Factor,15564,aws,https://github.com/7Factor/terraform-aws-s3-website,Module for plugging in a few items and deploying a website to S3. Includes cloudfront.
 s3-website,Infrastrukturait,14350,aws,https://github.com/Infrastrukturait/terraform-aws-s3-website," Terraform Module for Creating S3 Static Websites with CloudFront"
 s3-website,JamesBelchamber,7955,aws,https://github.com/JamesBelchamber/terraform-aws-s3-website,"Easily create a website on S3, with support for HTTPS and IPv6"
@@ -17214,6 +17216,7 @@ subnets,kmayer10,13381,aws,https://github.com/kmayer10/terraform-aws-subnets,ter
 subnets,marceloalmeida,4468,cidr,https://github.com/marceloalmeida/terraform-cidr-subnets,Terraform CIDR Subnets Module
 subnets,terrafoo,27572,cidr,https://github.com/terrafoo/terraform-cidr-subnets,Terraform module for calculating subnet addresses under a IPv4 or IPv6 CIDR prefix
 subnets,web-virtua-aws-multi-account-modules,16863,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-subnets,
+subnetting,CloudAstro,28981,vlsm,https://github.com/CloudAstro/terraform-vlsm-subnetting,"Terraform module for calculating subnet CIDRs using Variable Length Subnet Masking (VLSM) from a base CIDR block. Ideal for automated, dynamic IP subnet planning."
 subnetwork,mineiros-io,12935,google,https://github.com/mineiros-io/terraform-google-subnetwork,A Terraform module to create and manage a subnet for a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
 subnetwork-iam,mineiros-io,12936,google,https://github.com/mineiros-io/terraform-google-subnetwork-iam,A Terraform module to manage Identity and Access Management (IAM) for subnets of a Virtual Private Cloud (VPC) in Google Cloud https://cloud.google.com/vpc
 suborg,vmvarela,28297,github,https://github.com/vmvarela/terraform-github-suborg,"This module simplifies the management of multiple repositories by applying common settings, permissions, and configurations in a unified way."
@@ -19459,6 +19462,7 @@ web,104corp,1333,aws,https://github.com/104corp/terraform-aws-web,Terraform modu
 web,kennship,2453,aws,https://github.com/kennship/terraform-aws-web,Terraform modules for working with AWS
 web,lakshmipath,18742,ec2m,https://github.com/lakshmipath/terraform-ec2m-web,
 web-ami,StayWell,2328,aws,https://github.com/StayWell/terraform-aws-web-ami,Simple Terraform module to quickly launch an EC2 instance from an arbitrary AMI and expose it through an ALB
+web-app,Dragan2402,28982,azurerm,https://github.com/Dragan2402/terraform-azurerm-web-app,Terraform module for creating Azure Web App service with Free Azure Service Plan.
 web-app,equinor,23389,azurerm,https://github.com/equinor/terraform-azurerm-web-app,Terraform module which creates Azure Web App resources
 web-app,wurde,6168,aws,https://github.com/wurde/terraform-aws-web-app,Terraform module for deploying a web application to AWS.
 web-app-container,academydistrict20,3498,azurerm,https://github.com/academydistrict20/terraform-azurerm-web-app-container,Create Web App for Containers (Azure App Service).
