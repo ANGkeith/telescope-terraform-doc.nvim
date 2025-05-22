@@ -1839,6 +1839,7 @@ avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurer
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
 avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,APIM module for AVM
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
+avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for Container App Jobs
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
@@ -3849,7 +3850,7 @@ cognito-userpool,cruxstack,20451,aws,https://github.com/cruxstack/terraform-aws-
 cognito-userpool-clients,cruxstack,20527,aws,https://github.com/cruxstack/terraform-aws-cognito-userpool-clients,Terraform Module to provision Cognito userpool clients
 cognito-users,ftcodelib,8663,aws,https://github.com/ftcodelib/terraform-aws-cognito-users,Terrafrom module to create AWS Cognito users and groups
 collection,observeinc,28681,aws,https://github.com/observeinc/terraform-aws-collection,Terraform module which streamlines collection from multiple sources within AWS
-collection,observeinc,28684,google,https://github.com/observeinc/terraform-google-collection,Terraform module which streamlines collection from multiple sources within GCP
+collection,observeinc,28684,google,https://github.com/observeinc/terraform-google-collection,
 collection,scastria,24568,postman,https://github.com/scastria/terraform-postman-collection,Create a Postman collection from OpenAPI Spec and optional supporting input files
 collection-module,observeinc,28671,azure,https://github.com/observeinc/terraform-azure-collection-module,Terraform module which streamlines collection from multiple sources within Azure
 collector-event-hub-vmss,snowplow-devops,19551,azurerm,https://github.com/snowplow-devops/terraform-azurerm-collector-event-hub-vmss,
@@ -7436,9 +7437,10 @@ entomo,BalaMuragan92,26702,aws,https://github.com/BalaMuragan92/terraform-aws-en
 entra-domain-services,qbeyond,24093,azapi,https://github.com/qbeyond/terraform-azapi-entra-domain-services,Module to deploy entra domain services (former Azure Active Directory Domain Services) and needed resources
 entra-group,bl-solutions,26915,azure,https://github.com/bl-solutions/terraform-azure-entra-group,
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
+env-ec2,Aryankumar25,29057,aws,https://github.com/Aryankumar25/terraform-aws-env-ec2,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
 env-gen,Apollo-XIV,25964,local,https://github.com/Apollo-XIV/terraform-local-env-gen,
-env-vm,prateekjain13,29052,azurerm,https://github.com/prateekjain13/terraform-azurerm-env-vm,
+env-vm,prateekjain13,29062,azurerm,https://github.com/prateekjain13/terraform-azurerm-env-vm,
 env_module,descomplicando-terraform,27697,aws,https://github.com/descomplicando-terraform/terraform-aws-env_module,Módulo para criação de ambiente AWS 
 environment,frgrisk,17395,aws,https://github.com/frgrisk/terraform-aws-environment,Terraform module to create a server environment in AWS
 environment,kuttleio,20079,aws,https://github.com/kuttleio/terraform-aws-environment,Kuttle - Blueprint - Main
@@ -11041,7 +11043,7 @@ mc-transit-peering,terraform-aviatrix-modules,5922,aviatrix,https://github.com/t
 mc-transit-peering-advanced,terraform-aviatrix-modules,13186,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-peering-advanced,This module will create a full mesh transit between all gateways from one map to all gateways from a second map and allows for additional attributes to be configured.
 mc-transit-tgw-connection,terraform-aviatrix-modules,9799,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-tgw-connection,This module builds an IPSEC VPN Connection between an unmanaged TGW and an Aviatrix transit gateway (in any cloud)).
 mcaf-account,schubergphilis,24636,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account,
-mcaf-account-baseline,schubergphilis,24635,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account-baseline,Terraform module to setup a baseline configuration for AWS accounts 
+mcaf-account-baseline,schubergphilis,24635,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account-baseline,
 mcaf-aurora,schubergphilis,18378,aws,https://github.com/schubergphilis/terraform-aws-mcaf-aurora,Terraform module to create an AWS RDS Aurora cluster
 mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aws-mcaf-avm,
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,Terraform module to create AWS Budgets
@@ -11538,7 +11540,7 @@ monitoring,SudharsaneSivamany,25663,google,https://github.com/SudharsaneSivamany
 monitoring,TaitoUnited,10713,aws,https://github.com/TaitoUnited/terraform-aws-monitoring,
 monitoring,TaitoUnited,6124,google,https://github.com/TaitoUnited/terraform-google-monitoring,
 monitoring,TaitoUnited,8230,azurerm,https://github.com/TaitoUnited/terraform-azurerm-monitoring,
-monitoring,cookielab,28727,kubernetes,https://github.com/cookielab/terraform-kubernetes-monitoring,
+monitoring,cookielab,28727,kubernetes,https://github.com/cookielab/terraform-kubernetes-monitoring,Terraform modules for monitoring stack for GCP and AWS cloud providers.
 monitoring,cypik,23050,digitalocean,https://github.com/cypik/terraform-digitalocean-monitoring,
 monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules from DasMeta to manage AWS monitoring resources
 monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/terraform-azurerm-monitoring,Terraform module for creation of Azure Workbooks and Dashboards for Databricks and ADF
@@ -17381,6 +17383,7 @@ tags,hadenlabs,8353,null,https://github.com/hadenlabs/terraform-null-tags,Terraf
 tags,logmedaily,21552,aws,https://github.com/logmedaily/terraform-aws-tags,
 tags,rhythmictech,3512,terraform,https://github.com/rhythmictech/terraform-terraform-tags,Tag the world
 tags,snowplow-devops,9256,aws,https://github.com/snowplow-devops/terraform-aws-tags,
+tags,terraform-az-modules,29063,azure,https://github.com/terraform-az-modules/terraform-azure-tags,
 tags-client,Codzs-Architecture,23308,aws,https://github.com/Codzs-Architecture/terraform-aws-tags-client,
 tags-override,infrahouse,23695,aws,https://github.com/infrahouse/terraform-aws-tags-override,Module to override tags list for ECS
 tailscale,DoneOps,23658,aws,https://github.com/DoneOps/terraform-aws-tailscale,terraform module for a tailscle host
