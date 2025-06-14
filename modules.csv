@@ -325,6 +325,7 @@ acr,imjoseangel,10906,azurerm,https://github.com/imjoseangel/terraform-azurerm-a
 acr,ionicloud,21613,azurerm,https://github.com/ionicloud/terraform-azurerm-acr,
 acr,mrexojo,28912,azure,https://github.com/mrexojo/terraform-azure-acr,Terraform module to create Azure Container Registry
 acr,scalesafely,21052,azure,https://github.com/scalesafely/terraform-azure-acr,
+acr,terraform-az-modules,29389,azure,https://github.com/terraform-az-modules/terraform-azure-acr,
 acr,tw-cloud,28312,azurerm,https://github.com/tw-cloud/terraform-azurerm-acr,
 acr-config,uptycslabs,19993,azurerm,https://github.com/uptycslabs/terraform-azurerm-acr-config,
 acr-enterprise,terraform-alicloud-modules,12792,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-acr-enterprise,Terraform Module for creating Container Registry Enterprise Edition on Alibaba Cloud.
@@ -1276,6 +1277,7 @@ arc-kms,mayank0202,21434,aws,https://github.com/mayank0202/terraform-aws-arc-kms
 arc-kms,sourcefuse,22036,aws,https://github.com/sourcefuse/terraform-aws-arc-kms,
 arc-load-balancer,sourcefuse,27578,aws,https://github.com/sourcefuse/terraform-aws-arc-load-balancer,Terraform module for AWS Loadbalancers
 arc-mq-broker,sourcefuse,27104,aws,https://github.com/sourcefuse/terraform-aws-arc-mq-broker,
+arc-msk,sourcefuse,29390,aws,https://github.com/sourcefuse/terraform-aws-arc-msk,
 arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc-network,"Repo for managing the Network (VPC, Subnets, etc) Terraform Module."
 arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terraform-aws-arc-observability-stack,"The Observability Terraform module simplifies deploying a robust monitoring and logging stack in EKS. It provides flexibility to choose between AWS OpenSearch or ElasticSearch for search engines and Fluentd or Fluent Bit for log aggregation, along with Prometheus, Grafana, Alertmanager, and Blackbox Exporter for metrics and alerting."
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
@@ -2755,6 +2757,7 @@ bulk-virtual-network,shannuvijaya,16672,azure,https://github.com/shannuvijaya/te
 butane-snippets,krestomatio,18630,ct,https://github.com/krestomatio/terraform-ct-butane-snippets,Terraform modules to quickly generate butane snippets to config Fedora CoreOS
 byoc,earthly,25137,aws,https://github.com/earthly/terraform-aws-byoc,Deploy Earthly BYOC infrastructure using Terraform
 byoc-setup,littlehorse-cloud,29159,google,https://github.com/littlehorse-cloud/terraform-google-byoc-setup,
+byoc-setup,littlehorse-cloud,29392,azure,https://github.com/littlehorse-cloud/terraform-azure-byoc-setup,
 byok-template,clumio-code,14902,clumio,https://github.com/clumio-code/terraform-clumio-byok-template,Terraform module containing resources required for Clumio BYOK.
 c3,cloud-cost-compression,19644,aws,https://github.com/cloud-cost-compression/terraform-aws-c3,
 c6,aoshfan,12876,aws,https://github.com/aoshfan/terraform-aws-c6,
@@ -3195,6 +3198,7 @@ cloud-logs,terraform-ibm-modules,28231,ibm,https://github.com/terraform-ibm-modu
 cloud-modules,fortinetdev,21637,aws,https://github.com/fortinetdev/terraform-aws-cloud-modules,
 cloud-modules,fortinetdev,25960,google,https://github.com/fortinetdev/terraform-google-cloud-modules,
 cloud-modules,fortinetdev,26108,azurerm,https://github.com/fortinetdev/terraform-azurerm-cloud-modules,
+cloud-modules,fortinetdev,29394,oci,https://github.com/fortinetdev/terraform-oci-cloud-modules,
 cloud-monitoring,cloud-native-toolkit,12769,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cloud-monitoring,Terraform module to provision an IBM Cloud Monitoring instance in an IBM Cloud account
 cloud-monitoring,terraform-ibm-modules,28539,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloud-monitoring,This module supports configuring an IBM Cloud Monitoring instance and IBM Cloud Metrics Routing.
 cloud-monitoring-bind,cloud-native-toolkit,12839,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cloud-monitoring-bind,Module to bind an existing IBM Cloud Monitoring instance to an existing kubernetes cluster
@@ -9404,6 +9408,7 @@ internal-dns,jd4883,11200,pihole,https://github.com/jd4883/terraform-pihole-inte
 internal-external-dns-automation-docker,jd4883,6954,docker,https://github.com/jd4883/terraform-docker-internal-external-dns-automation-docker,"Small automation module that calls other submodules to automatically generate traefik configurations (v2 syntax), updates a internal dns server (tested with bind9 with and without a keypair attached), digitalocean (this can definitely be modified to use other providers, DO works very well with terraform and was a no brainer to setup and can forward any domain for free), and Okta oauth using a forward auth container intermediary. All pieces are intended to be called from a parent module (designed for docker but will work with other use-cases)"
 internal-lb-container,garbetjie,6489,google,https://github.com/garbetjie/terraform-google-internal-lb-container,
 internal-nlb-ip-update,elastic2ls-com,20507,aws,https://github.com/elastic2ls-com/terraform-aws-internal-nlb-ip-update,"This module helps you to update the private IP addresses as registered target in the internal NLB and of course as Route53 entry, if you have a chained setup of NLB's in your private subnets.  The problem it would solve is, that the private IP's can change anytime. "
+internal-services-healthchecks,ifgiovanni,29391,gcp,https://github.com/ifgiovanni/terraform-gcp-internal-services-healthchecks,
 internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-internal-terraform,
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
 intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuintana/terraform-aws-intra-vpc-security-group-rule,Intra VPC Security Group Rule
@@ -9755,6 +9760,7 @@ key-vault,kumarvna,5426,azurerm,https://github.com/kumarvna/terraform-azurerm-ke
 key-vault,miljodir,22044,azurerm,https://github.com/miljodir/terraform-azurerm-key-vault,Creates an Azure key vault with best network security practices by default
 key-vault,ptonini,21933,azurerm,https://github.com/ptonini/terraform-azurerm-key-vault,
 key-vault,telekom-mms,19992,azurerm,https://github.com/telekom-mms/terraform-azurerm-key-vault,A Terraform module that manages the key-vault resources from the azurerm provider.
+key-vault,terraform-az-modules,29387,azure,https://github.com/terraform-az-modules/terraform-azure-key-vault,
 key-vault,tomarv2,12426,azure,https://github.com/tomarv2/terraform-azure-key-vault,Terraform module for Azure Key Vault
 key-vault-key,data-platform-hq,20113,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-key,Terraform module for creation Azure Key Vault Keys
 key-vault-secret,data-platform-hq,15913,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-secret,Terraform module for managing Secrets in Azure Key Vault
@@ -10922,6 +10928,7 @@ log-analytics,equinor,23380,azurerm,https://github.com/equinor/terraform-azurerm
 log-analytics,mikamakusa,25693,azure,https://github.com/mikamakusa/terraform-azure-log-analytics,
 log-analytics,rkoosaar,6568,azurerm,https://github.com/rkoosaar/terraform-azurerm-log-analytics,Terraform module for creating and managing Azure Log Analytics resources
 log-analytics,telekom-mms,21776,azurerm,https://github.com/telekom-mms/terraform-azurerm-log-analytics,A Terraform module that manages the log analytics resources from the azurerm provider.
+log-analytics,terraform-az-modules,29386,azure,https://github.com/terraform-az-modules/terraform-azure-log-analytics,
 log-analytics-VMInsights,qbeyond,13660,azurerm,https://github.com/qbeyond/terraform-azurerm-log-analytics-VMInsights,Enables the VMInsights Solution for a Workspace with Linux and Windows PerformanceCounters
 log-analytics-solution,libre-devops,13424,azurerm,https://github.com/libre-devops/terraform-azurerm-log-analytics-solution,"A module used to deploy a log analytics solution.  Please note, some of the solutions are no longer being maintained :fire:"
 log-analytics-workspace,Umanis,9806,azurerm,https://github.com/Umanis/terraform-azurerm-log-analytics-workspace,Terraform Azure RM Log Analytics Workspace module 
@@ -11182,7 +11189,7 @@ mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terrafor
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
 mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,Terraform module to create an AWS ECR repositories
 mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,Module to deploy infrastructure to generate energy labels for your AWS landing zone
-mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,Terraform module to create an AWS Fargate cluster
+mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
@@ -12526,6 +12533,7 @@ networking-subnet,ptonini,16831,aws,https://github.com/ptonini/terraform-aws-net
 networking-subnet-group,ptonini,22158,aws,https://github.com/ptonini/terraform-aws-networking-subnet-group,
 networking-tf,CaptainKus,28602,aws,https://github.com/CaptainKus/terraform-aws-networking-tf,Networking module created during Terraform Course
 networking-tf,pnikytynskyi,28973,aws,https://github.com/pnikytynskyi/terraform-aws-networking-tf,
+networking-tf-course,Jao-Steven-Rey,29382,aws,https://github.com/Jao-Steven-Rey/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey-C,27226,aws,https://github.com/Jao-Steven-Rey-C/terraform-aws-networking-tf-course,Networking module performed under Lauro Müeller's course about Terraform.
 networking-tf-course,bavingtonm,25865,aws,https://github.com/bavingtonm/terraform-aws-networking-tf-course,Networking module created during Mastering Terraform Course
 networking-tf-course,gsmith829,27243,aws,https://github.com/gsmith829/terraform-aws-networking-tf-course,Networking module created during Terraform Course
@@ -13494,6 +13502,7 @@ private-dns,CloudAstro,29233,azurerm,https://github.com/CloudAstro/terraform-azu
 private-dns,cdornele,27802,azure,https://github.com/cdornele/terraform-azure-private-dns,Azure Private DNS - Terraform Module
 private-dns,data-platform-hq,16006,azurerm,https://github.com/data-platform-hq/terraform-azurerm-private-dns,Terraform module for managing Azure Private DNS
 private-dns,iits-consulting,28389,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-private-dns,
+private-dns,terraform-az-modules,29388,azure,https://github.com/terraform-az-modules/terraform-azure-private-dns,
 private-dns-administration,Pwd9000-ML,20195,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-private-dns-administration,Terraform module for administering AZURE hosted Private DNS zones.
 private-dns-resolver,claranet,16992,azurerm,https://github.com/claranet/terraform-azurerm-private-dns-resolver,Terraform module for Azure DNS Private Resolver
 private-dns-zone,Gbon1275,14263,azurerm,https://github.com/Gbon1275/terraform-azurerm-private-dns-zone,
@@ -17046,7 +17055,7 @@ staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform
 staticwebsite,umut-akkaya,28843,aws,https://github.com/umut-akkaya/terraform-aws-staticwebsite,A Terraform module which is used to set up a static website by using S3 and Cloudfront
 staticwebsite,worldofprasanna,4791,aws,https://github.com/worldofprasanna/terraform-aws-staticwebsite,Terraform module to create & host static UI application in AWS S3
 staticwebsite-public,chinthakaru,21287,azurerm,https://github.com/chinthakaru/terraform-azurerm-staticwebsite-public,Terraform Modules to be shared in Terraform Public Registry
-staticwebsite-public,etawil,29268,azurerm,https://github.com/etawil/terraform-azurerm-staticwebsite-public,
+staticwebsite-public,etawil,29384,azurerm,https://github.com/etawil/terraform-azurerm-staticwebsite-public,
 staticwebsite-public,rajeshr264,14409,azure,https://github.com/rajeshr264/terraform-azure-staticwebsite-public,Sample  Terraform Modules to be shared in Terraform Public Registry
 staticwebsitefiletransfer,firaun2020,13196,azurerm,https://github.com/firaun2020/terraform-azurerm-staticwebsitefiletransfer,"This module will enable you to createe & host a static website on Azure Storage. Plus, will also move your html/static files from local to Azure in the same deploy"
 staticwebsitemodule,gopal1409,11607,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsitemodule,
@@ -17539,6 +17548,7 @@ syn,CloudNationHQ,25632,azure,https://github.com/CloudNationHQ/terraform-azure-s
 synapse,equinor,23394,azurerm,https://github.com/equinor/terraform-azurerm-synapse,Terraform module which creates Azure Synapse resources
 synapse,fdmsantos,24319,azurerm,https://github.com/fdmsantos/terraform-azurerm-synapse,Dynamic Terraform Module to create Azure Synapse Workspace and all Related Resources
 synapse-analytics,bootlabstech,15507,azurerm,https://github.com/bootlabstech/terraform-azurerm-synapse-analytics,
+synapse-analytics,data-platform-hq,29385,azurerm,https://github.com/data-platform-hq/terraform-azurerm-synapse-analytics,
 synapse-analytics,pranoybej,21593,azurerm,https://github.com/pranoybej/terraform-azurerm-synapse-analytics,
 sync,L2Solutions,8824,flux,https://github.com/skyfjell/terraform-flux-sync,
 sync-files,4ops,7244,null,https://github.com/4ops/terraform-null-sync-files,Terraform module
@@ -20073,6 +20083,7 @@ zone,cloudposse,8292,cloudflare,https://github.com/cloudposse/terraform-cloudfla
 zone,dhoppeIT,28551,cloudflare,https://github.com/dhoppeIT/terraform-cloudflare-zone,
 zone,opsheaven,23499,hetzner,https://github.com/opsheaven/terraform-hetzner-zone,
 zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cloudflare-zone,
+zone,rashedobaid,29383,cloudflare,https://github.com/rashedobaid/terraform-cloudflare-zone,
 zone,samarkand-global,16714,cloudflare,https://github.com/samarkand-global/terraform-cloudflare-zone,A Terraform module to manage a Zone in Cloudflare
 zone,tcarrondo,3043,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-zone,Setup a zone in Cloudflare
 zone-lockdown,alicankustemur,6412,cloudflare,https://github.com/alicankustemur/terraform-cloudflare-zone-lockdown,
