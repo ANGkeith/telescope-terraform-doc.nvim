@@ -2242,6 +2242,7 @@ azure-role,ptonini,16789,vault,https://github.com/ptonini/terraform-vault-azure-
 azure-role-assignments,pagopa-dx,28178,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-role-assignments,Manages Azure RBAC role assignments for resources and security principals
 azure-route-server,terraform-aviatrix-modules,14966,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-route-server,Deploys Azure route server and ties it to a transit of choice.
 azure-secrets-engine,devops-rob,7436,vault,https://github.com/devops-rob/terraform-vault-azure-secrets-engine,This module enables and configures the Azure secrets engine for Vault.
+azure-service-bus-alerts,pagopa-dx,29399,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-service-bus-alerts,Quickly configure alerts on Azure Service Bus
 azure-service-bus-namespace,pagopa-dx,28984,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-service-bus-namespace,"Creates an Azure Service Bus Namespace with network, authentication and scaling built-in capabilities"
 azure-spoke,terraform-aviatrix-modules,5584,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-spoke,This module deploys a VNET and an Aviatrix spoke gateway in Azure and attaches it to an Aviatrix Transit Gateway
 azure-sql-server,kabisa,14218,datadog,https://github.com/kabisa/terraform-datadog-azure-sql-server,
@@ -2758,6 +2759,7 @@ butane-snippets,krestomatio,18630,ct,https://github.com/krestomatio/terraform-ct
 byoc,earthly,25137,aws,https://github.com/earthly/terraform-aws-byoc,Deploy Earthly BYOC infrastructure using Terraform
 byoc-setup,littlehorse-cloud,29159,google,https://github.com/littlehorse-cloud/terraform-google-byoc-setup,
 byoc-setup,littlehorse-cloud,29392,azure,https://github.com/littlehorse-cloud/terraform-azure-byoc-setup,
+byoc-setup,littlehorse-cloud,29406,aws,https://github.com/littlehorse-cloud/terraform-aws-byoc-setup,
 byok-template,clumio-code,14902,clumio,https://github.com/clumio-code/terraform-clumio-byok-template,Terraform module containing resources required for Clumio BYOK.
 c3,cloud-cost-compression,19644,aws,https://github.com/cloud-cost-compression/terraform-aws-c3,
 c6,aoshfan,12876,aws,https://github.com/aoshfan/terraform-aws-c6,
@@ -6235,6 +6237,7 @@ ec2-park,kurron,527,aws,https://github.com/kurron/terraform-aws-ec2-park,Terrafo
 ec2-pricing,bendrucker,4208,aws,https://github.com/bendrucker/terraform-aws-ec2-pricing,Terraform module that uses the AWS Pricing API to query EC2 instance type attributes
 ec2-pritunl,iops-team,23795,aws,https://github.com/iops-team/terraform-aws-ec2-pritunl,This module automates the deployment of Pritunl VPN  on an EC2 instance in AWS.
 ec2-pritunl,raino007,21400,aws,https://github.com/raino007/terraform-aws-ec2-pritunl,
+ec2-ram-metricsECC,ecc-tech,29401,aws,https://github.com/ecc-tech/terraform-aws-ec2-ram-metricsECC,
 ec2-rds-scheduler,eanselmi,20147,aws,https://github.com/eanselmi/terraform-aws-ec2-rds-scheduler,Terraform module to schedule ec2 and rds instances stop/start.
 ec2-resize-scheduler,yohrannes,28777,aws,https://github.com/yohrannes/terraform-aws-ec2-resize-scheduler,
 ec2-role,andreswebs,9792,aws,https://github.com/andreswebs/terraform-aws-ec2-role,"Creates an IAM Role and an EC2 instance profile using the role, with a list of attached IAM policies"
@@ -8709,6 +8712,8 @@ hedwig-subscription,cloudchacho,9299,google,https://github.com/cloudchacho/terra
 hedwig-topic,cloudchacho,9300,google,https://github.com/cloudchacho/terraform-google-hedwig-topic,Messaging bus for micro-services that works on cloud native queues http://authedwig.rtfd.io
 hedwig-topic,cloudchacho,9304,aws,https://github.com/cloudchacho/terraform-aws-hedwig-topic,Messaging bus for micro-services that works on cloud native queues http://authedwig.rtfd.io 
 heeler-broker-ecs,Heeler-Security,29395,aws,https://github.com/Heeler-Security/terraform-aws-heeler-broker-ecs,
+heeler-single-account,Heeler-Security,29404,aws,https://github.com/Heeler-Security/terraform-aws-heeler-single-account,
+heeler-wif,Heeler-Security,29405,google,https://github.com/Heeler-Security/terraform-google-heeler-wif,
 hefesto,edalferes,3085,azure,https://github.com/edalferes/terraform-azure-hefesto,Repository containing terraform modules for infrastructure control at Azure
 hello,foggcloud,8330,fogg,https://github.com/foggcloud/terraform-fogg-hello,
 hello,joatmon08,4006,random,https://github.com/joatmon08/terraform-random-hello,
@@ -9448,6 +9453,7 @@ ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infine
 ipsec-aws,catonetworks,26676,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws,
 ipsec-aws-transit-gateway,catonetworks,29152,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws-transit-gateway,
 ipsec-azure,catonetworks,26857,cato,https://github.com/catonetworks/terraform-cato-ipsec-azure,
+ipsec-generic,catonetworks,29407,cato,https://github.com/catonetworks/terraform-cato-ipsec-generic,
 ipv6-full-mesh-intra-vpc-security-group-rules,JudeQuintana,26689,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-full-mesh-intra-vpc-security-group-rules,
 ipv6-intra-vpc-security-group-rule,JudeQuintana,25219,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-intra-vpc-security-group-rule,
 ipv6-subnet,goarano,26245,random,https://github.com/goarano/terraform-random-ipv6-subnet," Random IPv6 subnet generator for Terraform "
@@ -11185,6 +11191,7 @@ mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,Terraform module to create AWS Budgets
 mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,Terraform module to manage certificates in AWS Certificate Manager
 mcaf-clientvpn,schubergphilis,28703,aws,https://github.com/schubergphilis/terraform-aws-mcaf-clientvpn,
+mcaf-cloudfront,schubergphilis,29403,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cloudfront,
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,Terraform module to setup and manage cost and usage reports
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,Terraform module to create an integration between AWS and Datadog
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
@@ -11197,6 +11204,7 @@ mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-a
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,
+mcaf-managed-grafana,schubergphilis,29402,aws,https://github.com/schubergphilis/terraform-aws-mcaf-managed-grafana,
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,
 mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
@@ -18442,7 +18450,7 @@ virtual-network,WeAreRetail,18856,azurerm,https://github.com/WeAreRetail/terrafo
 virtual-network,aflalahmad,24598,azurerm,https://github.com/aflalahmad/terraform-azurerm-virtual-network,
 virtual-network,ans-coe,18918,azurerm,https://github.com/ans-coe/terraform-azurerm-virtual-network,Deploys a Virtual Network
 virtual-network,anugnes,681,azure,https://github.com/anugnes/terraform-azure-virtual-network,Azure Virtual Network Module for Terraform
-virtual-network,aztfm,6520,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network,Terraform module for Microsoft Azure to manage Virtual Network resource.
+virtual-network,aztfm,6520,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network,
 virtual-network,bcochofel,7563,azurerm,https://github.com/bcochofel/terraform-azurerm-virtual-network,Creates Azure Virtual Network
 virtual-network,bellyslap,11052,azurerm,https://github.com/bellyslap/terraform-azurerm-virtual-network,"Terraform module that manages a virtual network, its subnets, and their network security groups"
 virtual-network,bootlabstech,15503,azurerm,https://github.com/bootlabstech/terraform-azurerm-virtual-network,
@@ -18465,7 +18473,7 @@ virtual-network-manager,cyber-scot,22410,azurerm,https://github.com/cyber-scot/t
 virtual-network-manager-configuration,cyber-scot,22412,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager-configuration,A module used to config to Azure Virtual Network Manager (Azure Virtual Network Manager) 🛜👩‍💼
 virtual-network-manager-security-admin-rules,cyber-scot,22492,azurerm,https://github.com/cyber-scot/terraform-azurerm-virtual-network-manager-security-admin-rules,A module used to add security admin rules to Azure Virtual Network Manager (Azure Virtual Network Manager) 🛜👩‍💼
 virtual-network-peering,CloudAstro,28881,azurerm,https://github.com/CloudAstro/terraform-azurerm-virtual-network-peering,About Terraform Module for Azure virtual network peering
-virtual-network-peering,aztfm,6545,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network-peering,Terraform module for Microsoft Azure to manage Virtual Network Peering resource.
+virtual-network-peering,aztfm,6545,azurerm,https://github.com/aztfm/terraform-azurerm-virtual-network-peering,
 virtual-network-spoke,avinor,2537,azurerm,https://github.com/avinor/terraform-azurerm-virtual-network-spoke,Terraform module to create a spoke virtual network according to Microsoft Best Practice of deploying Hub-Spoke
 virtual-network-with-bastion-host,Think-Cube,24245,azure,https://github.com/Think-Cube/terraform-azure-virtual-network-with-bastion-host,"Terraform modules for Azure virtual networks, subnets, and a bastion host."
 virtual-wan,claranet,11058,azurerm,https://github.com/claranet/terraform-azurerm-virtual-wan,Terraform module for Azure Virtual WAN
