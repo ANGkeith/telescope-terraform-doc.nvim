@@ -937,6 +937,7 @@ api-dynamodb,barneyparker,4677,aws,https://github.com/barneyparker/terraform-aws
 api-enable,viswanth165,11143,google,https://github.com/viswanth165/terraform-google-api-enable,
 api-eventbridge,barneyparker,4678,aws,https://github.com/barneyparker/terraform-aws-api-eventbridge,terraform-aws-api-eventbridge
 api-gateway,JCardenas2018,27591,google,https://github.com/JCardenas2018/terraform-google-api-gateway,
+api-gateway,Senora-dev,29425,aws,https://github.com/Senora-dev/terraform-aws-api-gateway,"This Terraform module creates an AWS API Gateway REST API with support for resources, methods, integrations, and CloudWatch logging."
 api-gateway,adamwshero,16198,aws,https://github.com/adamwshero/terraform-aws-api-gateway,
 api-gateway,aidenabled,11470,google,https://github.com/aidenabled/terraform-google-api-gateway,
 api-gateway,bootlabstech,26389,azurerm,https://github.com/bootlabstech/terraform-azurerm-api-gateway,Creates Azure API gateway
@@ -3220,6 +3221,7 @@ cloud-postgres-admin,layer-3,27308,google,https://github.com/layer-3/terraform-g
 cloud-private-link-aws,math280h,12965,elastic,https://github.com/math280h/terraform-elastic-cloud-private-link-aws,Terraform module for Elastic Cloud deployments using AWS PrivateLink
 cloud-project,amancevice,1198,google,https://github.com/amancevice/terraform-google-cloud-project,Terraform configuration for generic Google Cloud Project
 cloud-registration,CrowdStrike,28318,aws,https://github.com/CrowdStrike/terraform-aws-cloud-registration,Register AWS account to Falcon
+cloud-registration,CrowdStrike,29423,azurerm,https://github.com/CrowdStrike/terraform-azurerm-cloud-registration,Register Azure tenant to Falcon
 cloud-remote-backend,alexanderartamonov,11974,alibaba,https://github.com/alexanderartamonov/terraform-alibaba-cloud-remote-backend,Terraform module to deploy a remote backend storage for Alibaba Cloud terraform-alicloud-remote-backend  A terraform module to set up remote state management with OSS backend for your account. It creates an encrypted OSS bucket to store state files and a OTS table for state locking and consistency checking.
 cloud-resume-challenge,jaredready,15735,aws,https://github.com/jaredready/terraform-aws-cloud-resume-challenge,
 cloud-router,TerraPros,27858,google,https://github.com/TerraPros/terraform-google-cloud-router,Manages a Cloud Router on Google Cloud
@@ -3598,7 +3600,7 @@ cloudwatch,tomarv2,9536,aws,https://github.com/tomarv2/terraform-aws-cloudwatch,
 cloudwatch-agent,bailey84j,11705,kubernetes,https://github.com/bailey84j/terraform-kubernetes-cloudwatch-agent,Terraform module which deploys Kubernetes AWS Cloudwatch Agent
 cloudwatch-agent,cloudposse,5242,aws,https://github.com/cloudposse-archives/terraform-aws-cloudwatch-agent,
 cloudwatch-agent,kota65535,20150,aws,https://github.com/kota65535/terraform-aws-cloudwatch-agent,Terraform module which deploys CloudWatch Agent as an ECS service.
-cloudwatch-alarm,Senora-dev,29362,aws,https://github.com/Senora-dev/terraform-aws-cloudwatch-alarm,This Terraform module creates CloudWatch metric alarms with support for both direct configuration and JSON file-based configuration.
+cloudwatch-alarm,c0x12c,29422,aws,https://github.com/c0x12c/terraform-aws-cloudwatch-alarm,
 cloudwatch-alarm,figurate,5041,aws,https://github.com/figurate/terraform-aws-cloudwatch-alarm,Templates for CloudWatch metrics alarms
 cloudwatch-alarm,matteotv,23057,aws,https://github.com/matteotv/terraform-aws-cloudwatch-alarm,terraform module for cloudwatch alarms 
 cloudwatch-alarm,ncfxutilities,23226,aws,https://github.com/ncfxutilities/terraform-aws-cloudwatch-alarm,Terraform module for cloudwatch alamrs
@@ -3607,6 +3609,7 @@ cloudwatch-alarm,suhussai,8563,aws,https://github.com/suhussai/terraform-aws-clo
 cloudwatch-alarm,youyo,6723,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm,
 cloudwatch-alarm-cloudfront,youyo,7385,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm-cloudfront,
 cloudwatch-alarm-ebs,youyo,6746,aws,https://github.com/youyo/terraform-aws-cloudwatch-alarm-ebs,
+cloudwatch-alarms,Senora-dev,29424,aws,https://github.com/Senora-dev/terraform-aws-cloudwatch-alarms,This Terraform module creates CloudWatch metric alarms with support for both direct configuration and JSON file-based configuration.
 cloudwatch-alarms,StratusGrid,14592,aws,https://github.com/StratusGrid/terraform-aws-cloudwatch-alarms,This module will create a bunch of rules to cover the security alarms of a Well Architected Review
 cloudwatch-alarms,clouddrove,3647,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-alarms,Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 cloudwatch-alarms,echomike80,11791,aws,https://github.com/echomike80/terraform-aws-cloudwatch-alarms,
@@ -6038,6 +6041,7 @@ ec2,tomarv2,12332,aws,https://github.com/tomarv2/terraform-aws-ec2,Terraform mod
 ec2,web-virtua-aws-multi-account-modules,16995,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-ec2,
 ec2,zahornyak,18679,aws,https://github.com/zahornyak/terraform-aws-ec2,Terraform module that simplifies the creation of EC2 instance with smm access
 ec2,zloygagarko,25490,aws,https://github.com/zloygagarko/terraform-aws-ec2,
+ec2-CPU-metricsECC,ecc-tech,29409,aws,https://github.com/ecc-tech/terraform-aws-ec2-CPU-metricsECC,
 ec2-actions-runners,tx-pts-dai,25997,aws,https://github.com/tx-pts-dai/terraform-aws-ec2-actions-runners,Terraform module to deploy AWS EC2 runners for github actions
 ec2-admin-server,cloudposee,27997,aws,https://github.com/cloudposee/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
 ec2-admin-server,cloudposse,215,aws,https://github.com/cloudposse/terraform-aws-ec2-admin-server,Terraform Module for providing a EC2 instance capable of running admin tasks and provisioned by Ansible
@@ -8321,6 +8325,7 @@ github-runners,cloudandthings,15527,aws,https://github.com/cloudandthings/terraf
 github-runners-ec2,cloudandthings,26887,aws,https://github.com/cloudandthings/terraform-aws-github-runners-ec2,
 github-security-group,opszero,17605,aws,https://github.com/opszero/terraform-aws-github-security-group,
 github-self-hosted-runners,c0x12c,29284,aws,https://github.com/c0x12c/terraform-aws-github-self-hosted-runners,
+github-selfhosted-runner-on-codebuild,pagopa-dx,29410,aws,https://github.com/pagopa-dx/terraform-aws-github-selfhosted-runner-on-codebuild,Deploy a self-hosted runner based on AWS CodeBuild
 github-selfhosted-runner-on-container-app-jobs,pagopa-dx,28214,azurerm,https://github.com/pagopa-dx/terraform-azurerm-github-selfhosted-runner-on-container-app-jobs,Deploys GitHub self-hosted runners using Azure Container Apps jobs for scalable CI/CD workflows
 github-ssh-keys,deanwilson,586,aws,https://github.com/deanwilson/terraform-aws-github-ssh-keys,Use your GitHub SSH public key as an AWS EC2 key pair
 github-ssh-keys,fkonradmain,23816,module,https://github.com/fkonradmain/terraform-module-github-ssh-keys,terraform-module-github-ssh-keys
@@ -8734,13 +8739,23 @@ helm,cypik,24025,eks,https://github.com/cypik/terraform-eks-helm,
 helm,gitlawr,17539,kubernetes,https://github.com/gitlawr/terraform-kubernetes-helm,
 helm,gruntwork-io,2432,kubernetes,https://github.com/gruntwork-io/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
 helm,ruaan,6519,kubernetes,https://github.com/ruaan/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
+helm-argocd,c0x12c,29412,aws,https://github.com/c0x12c/terraform-aws-helm-argocd,
 helm-atlantis,getindata,25521,gke,https://github.com/getindata/terraform-gke-helm-atlantis,
+helm-aws-lb-controller,c0x12c,29411,aws,https://github.com/c0x12c/terraform-aws-helm-aws-lb-controller,
 helm-chart,dansible,2289,null,https://github.com/dansible/terraform-null-helm-chart,Terraform module to install any Helm chart onto a K8s cluster
 helm-charts,JetBrains,23257,kubernetes,https://github.com/JetBrains/terraform-kubernetes-helm-charts,Deploy at least one Helm chart in a Kubernetes cluster
 helm-crds,rpadovani,15180,kubectl,https://github.com/rpadovani/terraform-kubectl-helm-crds,Manage Helm CRDs with Terrarom
+helm-datadog,c0x12c,29414,aws,https://github.com/c0x12c/terraform-aws-helm-datadog,
 helm-grafana,Adaptavist,12479,module,https://github.com/Adaptavist/terraform-module-helm-grafana,
 helm-grafana-helm,Adaptavist,12478,module,https://github.com/Adaptavist/terraform-module-helm-grafana,
 helm-install,dansible,2285,null,https://github.com/dansible/terraform-null-helm-install,Terraform module to install Helm on a K8s cluster
+helm-jenkins,c0x12c,29413,aws,https://github.com/c0x12c/terraform-aws-helm-jenkins,
+helm-keda,c0x12c,29415,aws,https://github.com/c0x12c/terraform-aws-helm-keda,
+helm-keycloak,c0x12c,29416,aws,https://github.com/c0x12c/terraform-aws-helm-keycloak,
+helm-metrics-server,c0x12c,29417,aws,https://github.com/c0x12c/terraform-aws-helm-metrics-server,
+helm-neo4j,c0x12c,29418,aws,https://github.com/c0x12c/terraform-aws-helm-neo4j,
+helm-nginx-ingress-controller,c0x12c,29419,aws,https://github.com/c0x12c/terraform-aws-helm-nginx-ingress-controller,
+helm-opa,c0x12c,29420,aws,https://github.com/c0x12c/terraform-aws-helm-opa,
 helm-release,cloudposee,28035,aws,https://github.com/cloudposee/terraform-aws-helm-release,Create helm release and common aws resources like an eks iam role
 helm-release,cloudposse,10189,aws,https://github.com/cloudposse/terraform-aws-helm-release,Create helm release and common aws resources like an eks iam role
 helm-release,figurate,6114,helm,https://github.com/figurate/terraform-helm-helm,Provision common Kubernetes services with Helm
@@ -12532,7 +12547,7 @@ networking-module-tf,Shubhrajit1pallob,29256,aws,https://github.com/Shubhrajit1p
 networking-nat-gateway,ptonini,16832,aws,https://github.com/ptonini/terraform-aws-networking-nat-gateway,
 networking-network,ptonini,20144,openstack,https://github.com/ptonini/terraform-openstack-networking-network,
 networking-practice,Learning2025Concepts,27223,aws,https://github.com/Learning2025Concepts/terraform-aws-networking-practice,Terraform Modules to Manage the AWS Networking Resource such as vpc subnet and route tables
-networking-profiler,BrainXio,29357,host,https://github.com/BrainXio/terraform-host-networking-profiler,
+networking-profiler,BrainXio,29426,host,https://github.com/BrainXio/terraform-host-networking-profiler,
 networking-route-table,ptonini,22208,aws,https://github.com/ptonini/terraform-aws-networking-route-table,
 networking-secgroup,ptonini,20145,openstack,https://github.com/ptonini/terraform-openstack-networking-secgroup,
 networking-secgroup,tf-cloud-modules,20043,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-networking-secgroup,Terraform Sbercloud Networking Secgroup Module
@@ -14543,6 +14558,7 @@ repo,HappyPathway,24361,github,https://github.com/HappyPathway/terraform-github-
 repo,JamesWoolfenden,8798,ado,https://github.com/JamesWoolfenden/terraform-ado-repo,
 repo,giner,27037,github,https://github.com/giner/terraform-github-repo,Terraform module to configure a GitHub repository within an organization
 repo,jamesoundb,27178,github,https://github.com/jamesoundb/terraform-github-repo,A Terraform module to create a Github repository.
+repo,kpeacocke,29421,github,https://github.com/kpeacocke/terraform-github-repo,A tool for creating a best practice Github repo
 repo,liranbz23,28282,liranbz23,https://github.com/liranbz23/terraform-liranbz23-repo,
 repo,sathakur4022,21855,azurerm,https://github.com/sathakur4022/terraform-azurerm-repo,
 repo,trussworks,3745,github,https://github.com/trussworks/terraform-github-repo,Manage Github repos with Terraform with good defaults
@@ -15648,6 +15664,7 @@ sameerp-test-vpc,sameerp16,26118,aws,https://github.com/sameerp16/terraform-aws-
 saml,ballj,11772,keycloak,https://github.com/ballj/terraform-keycloak-saml,SAML module
 saml,zoitech,202,aws,https://github.com/zoitech/terraform-aws-saml,Terraform module which creates AWS access via SAML.
 saml-cognito,trussworks,7458,aws,https://github.com/trussworks/terraform-aws-saml-cognito,Creates AWS Cognito resources for using SAML authentication
+saml-idp,c0x12c,29408,aws,https://github.com/c0x12c/terraform-aws-saml-idp,
 samlsp,poroping,10783,fortios,https://github.com/poroping/terraform-fortios-samlsp,
 samnet,applesoftsol,7498,azurerm,https://github.com/applesoftsol/terraform-azurerm-samnet,vnet
 sampathstorage,sampathraja0466,21534,azurerm,https://github.com/sampathraja0466/terraform-azurerm-sampathstorage,
