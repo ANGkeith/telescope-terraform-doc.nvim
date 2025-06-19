@@ -3429,6 +3429,7 @@ cloudfront-index-rewrite,wderezin,11589,aws,https://github.com/wderezin/terrafor
 cloudfront-invalidator,KazuyaMiyagi,7135,aws,https://github.com/KazuyaMiyagi/terraform-aws-cloudfront-invalidator,
 cloudfront-ip-updater,kn1990,8908,aws,https://github.com/kn1990/terraform-aws-cloudfront-ip-updater,Automatically update security groups for Amazon CloudFront IP ranges using AWS Lambda
 cloudfront-lambda-redirect,Lupus-Metallum,10254,aws,https://github.com/Lupus-Metallum/terraform-aws-cloudfront-lambda-redirect,Redirect domain to another url with a 301 or 302 redirect
+cloudfront-logging,c0x12c,29433,aws,https://github.com/c0x12c/terraform-aws-cloudfront-logging,
 cloudfront-logs,fmasuhr,5407,aws,https://github.com/fmasuhr/terraform-aws-cloudfront-logs,Setup to store CloudFront logs in S3 Bucket and forward them into a CloudWatch Logs group.
 cloudfront-logs,nhs-england-tools,21638,aws,https://github.com/nhs-england-tools/terraform-aws-cloudfront-logs,
 cloudfront-middleware-at-edge,cruxstack,20227,aws,https://github.com/cruxstack/terraform-aws-cloudfront-middleware-at-edge,Terraform Module to deploy customizable CloudFront auth-at-edge and url-rewriter middlewares via Lambda@Edge
@@ -3557,6 +3558,7 @@ cloudtrail,oozou,15119,aws,https://github.com/oozou/terraform-aws-cloudtrail,Ter
 cloudtrail,platformod,23004,aws,https://github.com/platformod/terraform-aws-cloudtrail,A module to manage cloudtrail
 cloudtrail,ptonini,16734,aws,https://github.com/ptonini/terraform-aws-cloudtrail,
 cloudtrail,silinternational,25022,aws,https://github.com/silinternational/terraform-aws-cloudtrail,Terraform module for AWS Cloudtrail
+cloudtrail,tfstack,29435,aws,https://github.com/tfstack/terraform-aws-cloudtrail,Terraform module for AWS CloudTrail with secure logging and retention
 cloudtrail,tmknom,1741,aws,https://github.com/tmknom/terraform-aws-cloudtrail," Terraform module which creates CloudTrail resources on AWS."
 cloudtrail,trussworks,2522,aws,https://github.com/trussworks/terraform-aws-cloudtrail,Creates and configures AWS CloudTrail
 cloudtrail,wo1f1ow,25717,aws,https://github.com/wo1f1ow/terraform-aws-cloudtrail,
@@ -6086,6 +6088,7 @@ ec2-create,Aviraj9726,18641,aws,https://github.com/Aviraj9726/terraform-aws-ec2-
 ec2-creation,monbostest,12739,aws,https://github.com/monbostest/terraform-aws-ec2-creation,This module will be used to create a vm
 ec2-creation-example,waqasahmed1992,15102,aws,https://github.com/waqasahmed1992/terraform-aws-ec2-creation-example,
 ec2-demo,learncode2100,24755,aws,https://github.com/learncode2100/terraform-aws-ec2-demo,
+ec2-diskMetricsECC,ecc-tech,29430,aws,https://github.com/ecc-tech/terraform-aws-ec2-diskMetricsECC,
 ec2-docker-jenkins-modules,dialbak,20923,aws,https://github.com/dialbak/terraform-aws-ec2-docker-jenkins-modules,
 ec2-docker-nginx-modules,dialbak,20917,aws,https://github.com/dialbak/terraform-aws-ec2-docker-nginx-modules,
 ec2-dummy,bootlabstech-m,17863,aws,https://github.com/bootlabstech-m/terraform-aws-ec2-dummy,Creates EC2
@@ -6319,6 +6322,7 @@ ec2module-tutorial,MeganLiu,15765,aws,https://github.com/MeganLiu/terraform-aws-
 ec2module-tutorial,anuvindhs,12535,aws,https://github.com/anuvindhs/terraform-aws-ec2module-tutorial,
 ec2test,Abdulpersonal,16981,aws,https://github.com/Abdulpersonal/terraform-aws-ec2test,
 ec2web,fernandocyder,5774,aws,https://github.com/fernandocyder/terraform-aws-ec2web,
+ecc-dashboardECC,ecc-tech,29429,aws,https://github.com/ecc-tech/terraform-aws-ecc-dashboardECC,
 echo,jimmson,20671,jimmson,https://github.com/jimmson/terraform-jimmson-echo,Echos variable values 
 echo,mundoalem,10307,null,https://github.com/mundoalem/terraform-null-echo,
 echoip,tobiasehlert,25591,http,https://github.com/tobiasehlert/terraform-http-echoip,Terraform module that returns your external information by any echoip API.
@@ -7307,7 +7311,7 @@ eks-vpc,quadri-olamilekan,22873,aws,https://github.com/quadri-olamilekan/terrafo
 eks-vpc-cni,DNXLabs,8934,aws,https://github.com/DNXLabs/terraform-aws-eks-vpc-cni,Terraform module for deploying AWS VPC CNI inside a pre-existing EKS cluster.
 eks-vpc-cni-custom-networking,kjpark,14151,aws,https://github.com/kjpark/terraform-aws-eks-vpc-cni-custom-networking,terraform module to configure aws eks vpc cni k8s custom networking to assign non-routable ip's from the 100.64.0.0/10 and 198.19.0.0/16 secondary CIDR ranges to kubernetes pods
 eks-windows,1nval1dctf,10463,aws,https://github.com/1nval1dctf/terraform-aws-eks-windows,Terraform module to deploy an auto scaling baked EKS on AWS with windows container support
-eks-windows,aws-terraform-module,26906,aws,https://github.com/aws-terraform-module/terraform-aws-eks-windows,I want to provide the easy ways for you to install the eks windows
+eks-windows,aws-terraform-module,26906,aws,https://github.com/aws-terraform-module/terraform-aws-eks-windows,
 eks-windows,mrnim94,19355,aws,https://github.com/mrnim94/terraform-aws-eks-windows,I want to provide the easy ways for you to install the eks windows
 eks-worker,nalbam,6099,aws,https://github.com/nalbam/terraform-aws-eks-worker,
 eks-worker-pool,gohypergiant,9359,aws,https://github.com/gohypergiant/terraform-aws-eks-worker-pool,Tired of EKS telling you that you cannot have zero-size node pools? Bring your own ASGs and do it anyway!
@@ -8588,6 +8592,7 @@ groups-projects,voquis,17247,gitlab,https://github.com/voquis/terraform-gitlab-g
 groupsandroles,taimlog,17733,proxmox,https://github.com/taimlog/terraform-proxmox-groupsandroles,
 grp4project,holmesgulnara,24279,aws,https://github.com/holmesgulnara/terraform-aws-grp4project,
 gsa-encrypter,onetwopunch,5768,google,https://github.com/onetwopunch/terraform-google-gsa-encrypter,
+gsm-secrets-getter,Conflit-de-Bus,29437,google,https://github.com/Conflit-de-Bus/terraform-google-gsm-secrets-getter,
 gssgdemorg,rajesh0304,16646,azurerm,https://github.com/rajesh0304/terraform-azurerm-gssgdemorg,
 gsuite,ngs,4916,cloudflare,https://github.com/ngs/terraform-cloudflare-google-workspace,CloudFlare Terraform module for setup G Suite.
 gsuite-export,terraform-google-modules,2301,google,https://github.com/terraform-google-modules/terraform-google-gsuite-export,Creates a Compute Engine VM instance and sets up a cronjob to export GSuite Admin SDK data to Cloud Logging on a schedule
@@ -11220,7 +11225,7 @@ mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,
 mcaf-managed-grafana,schubergphilis,29402,aws,https://github.com/schubergphilis/terraform-aws-mcaf-managed-grafana,
-mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,Terraform module to create DataDog Monitors
+mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,
 mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
 mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,
@@ -13829,7 +13834,6 @@ pulsar,terraform-tencentcloud-modules,19051,tencentcloud,https://github.com/terr
 pumej_modules-eks,Mexxy-lab,21956,aws,https://github.com/Mexxy-lab/terraform-aws-pumej_modules-eks,EKS modules sample creation project
 pumejrds-module,Mexxy-lab,22115,aws,https://github.com/Mexxy-lab/terraform-aws-pumejrds-module,"Creating a Module for deploying an AWS RDS for MySQL DB with a custom vpc, deployed using a private subnet."
 puppet,admintome,486,nomad,https://github.com/admintome/terraform-nomad-puppet,Terraform module to deploy a puppet environment to a nomad cluster
-puppet-instance,barnes-c,28656,openstack,https://github.com/barnes-c/terraform-openstack-puppet-instance,Module to automate the provisioning of puppet managed instances in the CERN OpenStack private cloud.
 purple-s3-cloudfront,sprylab,15575,aws,https://github.com/sprylab/terraform-aws-purple-s3-cloudfront,Terraform module to configure Cloudfront for custom bucket configurations
 purview,data-platform-hq,23633,azurerm,https://github.com/data-platform-hq/terraform-azurerm-purview,Terraform module for creation Azure Purview Account
 push-based-log-export,terraform-mongodbatlas-modules,25580,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-push-based-log-export,
@@ -16300,6 +16304,7 @@ ses-email-forwarding,alemuro,6028,aws,https://github.com/alemuro/terraform-aws-s
 ses-forwarder,LouisBrunner,21685,aws,https://github.com/LouisBrunner/terraform-aws-ses-forwarder,Go Lambda to send a SES email as an email
 ses-lambda-forwarder,cloudposee,28083,aws,https://github.com/cloudposee/terraform-aws-ses-lambda-forwarder,This is a terraform module that creates an email forwarder using a combination of AWS SES and Lambda running the aws-lambda-ses-forwarder NPM module.
 ses-lambda-forwarder,cloudposse,1260,aws,https://github.com/cloudposse/terraform-aws-ses-lambda-forwarder,This is a terraform module that creates an email forwarder using a combination of AWS SES and Lambda running the aws-lambda-ses-forwarder NPM module.
+ses-monitoring,c0x12c,29428,aws,https://github.com/c0x12c/terraform-aws-ses-monitoring,
 ses-notification-service,dwp,1520,aws,https://github.com/dwp/terraform-aws-ses-notification-service,Terraform module that creates a service to recieve notifications and distrubute emails via AWS SES
 ses-sandbox,lbrealdev,4567,aws,https://github.com/lbrealdev/terraform-aws-ses-sandbox,Terraform module Amazon SES
 ses-sending-domain,babbel,11739,aws,https://github.com/babbel/terraform-aws-ses-sending-domain,Terraform module creating an SES sending domain
@@ -18755,6 +18760,8 @@ volume,terraform-hetzner-modules,27325,hetzner,https://github.com/terraform-hetz
 volume,terraform-openstack-modules,1447,openstack,https://github.com/terraform-openstack-modules/terraform-openstack-volume,Terraform Provision Volume Disk at Openstack
 volume,web-virtua-oci-multi-account-modules,19176,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-volume,
 volume,zoro16,21290,hcloud,https://github.com/zoro16/terraform-hcloud-volume,Terraform module to provision Volume resouces in Hetzner Cloud
+volume-snapshot,keepgettingbetter,29434,scaleway,https://github.com/keepgettingbetter/terraform-scaleway-volume-snapshot,
+volumeHelperECC,ecc-tech,29431,aws,https://github.com/ecc-tech/terraform-aws-volumeHelperECC,
 volumes,tf-openstack-modules,6901,openstack,https://github.com/tf-openstack-modules/terraform-openstack-volumes,
 volumes-dcos,dcos-terraform,1811,aws,https://github.com/dcos-terraform/terraform-aws-volumes-dcos,Create and attach additional Volumes to DC/OS Nodes
 vp,kaizenacademy,21450,module,https://github.com/kaizenacademy/terraform-module-vp,
@@ -18789,6 +18796,7 @@ vpc,Cherticha,12624,aws,https://github.com/Cherticha/terraform-aws-vpc,
 vpc,Cholpon83,12619,aws,https://github.com/cholpon83/terraform-aws-vpc,
 vpc,Cloud-42,3418,aws,https://github.com/Cloud-42/terraform-aws-vpc,Creates a multi-az VPC.
 vpc,CloudAstro,28800,opentelekomcloud,https://github.com/CloudAstro/terraform-opentelekomcloud-vpc,Terraform Module for Open Telekom Cloud (OTC) VPC
+vpc,CloudGee,29427,aws,https://github.com/CloudGee/terraform-aws-vpc,aws vpc testing module
 vpc,Codzs-Architecture,23246,aws,https://github.com/Codzs-Architecture/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
 vpc,Dan3210,25483,aws,https://github.com/Dan3210/terraform-aws-vpc,
 vpc,Devoper777,24420,aws,https://github.com/Devoper777/terraform-aws-vpc,
@@ -18828,6 +18836,7 @@ vpc,Lucky-graf,17316,aws,https://github.com/Lucky-graf/terraform-aws-vpc,Modules
 vpc,MagnetarIT,4625,aws,https://github.com/MagnetarIT/terraform-aws-vpc,Terraform module for creation of a VPC
 vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
 vpc,Merch7x,27036,aws,https://github.com/Merch7x/terraform-aws-vpc,Terraform module to create a vpc in aws
+vpc,MichaelRodL,29439,gcp,https://github.com/MichaelRodL/terraform-gcp-vpc,
 vpc,Mpdev007,12629,aws,https://github.com/Mpdev007/terraform-aws-vpc,
 vpc,MrVF7777,12612,aws,https://github.com/MrVF7777/terraform-aws-vpc,
 vpc,Myeongseok-Kim,12559,ncloud,https://github.com/Myeongseok-Kim/terraform-ncloud-vpc,
@@ -18866,6 +18875,7 @@ vpc,TanTruong1992,25352,aws,https://github.com/TanTruong1992/terraform-aws-vpc,
 vpc,TarikIdri,12623,aws,https://github.com/TarikIdri/terraform-aws-vpc,
 vpc,TerraPros,27851,aws,https://github.com/TerraPros/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
 vpc,TerraformFoundation,27927,aws,https://github.com/TerraformFoundation/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
+vpc,TrungTinpH77,29432,aws,https://github.com/TrungTinpH77/terraform-aws-vpc,Create VPC - /VPC-learn
 vpc,Uulzhan,9421,aws,https://github.com/Uulzhan/terraform-aws-vpc,
 vpc,VIET-TU,26560,aws,https://github.com/VIET-TU/terraform-aws-vpc,
 vpc,VictorPos,12622,aws,https://github.com/VictorPos/terraform-aws-vpc,
