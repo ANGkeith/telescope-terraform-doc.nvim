@@ -4089,6 +4089,7 @@ config-storage,cloudposse,6685,aws,https://github.com/cloudposse/terraform-aws-c
 config-store,HappyPathway,26296,aws,https://github.com/HappyPathway/terraform-aws-config-store,Terraform Module
 configmap,cloud-labs-infra,19017,kubernetes,https://github.com/cloud-labs-infra/terraform-kubernetes-configmap,
 configuration,cruxstack,29038,teleport,https://github.com/cruxstack/terraform-teleport-configuration,"Terraform module to configure Teleport, a zero-trust solution from Gravitational, to AWS in high-availability architecture"
+configuration,yros-cloud,29472,github,https://github.com/yros-cloud/terraform-github-configuration,
 confluent,JamesWoolfenden,8800,aws,https://github.com/JamesWoolfenden/terraform-aws-confluent,To Provision Confluent Kafka 4
 confluent-platform,aidanmelen,14597,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-confluent-platform,A Terraform module for managing Confluent for Kubernetes (CFK).
 confluent-platform,nerdynick,5010,aws,https://github.com/nerdynick/terraform-aws-confluent-platform,Terraform Modules for Setting up the Confluent Platform in AWS
@@ -8977,6 +8978,7 @@ iam-groups,anthunt,6369,aws,https://github.com/anthunt/terraform-aws-iam-groups,
 iam-identity-center,OT-CLOUD-KIT,19207,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-iam-identity-center,
 iam-identity-center,aws-ia,23326,aws,https://github.com/aws-ia/terraform-aws-iam-identity-center,
 iam-identity-center,hassanbsee2071,23819,aws,https://github.com/hassanbsee2071/terraform-aws-iam-identity-center,
+iam-identity-center,yros-cloud,29471,aws,https://github.com/yros-cloud/terraform-aws-iam-identity-center,
 iam-identity-center-sso-users-groups,voquis,23498,aws,https://github.com/voquis/terraform-aws-iam-identity-center-sso-users-groups,Terraform AWS Module for managing IAM Identity Center (SSO) users and group permissions
 iam-impersonate,castai,26294,gke,https://github.com/castai/terraform-gke-iam-impersonate,
 iam-instance-profile,gretchenleighmiller,24209,aws,https://github.com/gretchenleighmiller/terraform-aws-iam-instance-profile,"Terraform module that creates an AWS IAM role, attaches a list of existing policies, and create an instance profile using the role."
@@ -10891,6 +10893,7 @@ load-balanced-ecs-service-no-target-group,mergermarket,14255,acuris,https://gith
 load-balanced-vms,GoogleCloudPlatform,15074,google,https://github.com/GoogleCloudPlatform/terraform-google-load-balanced-vms,Creates a Managed Instance Group with a loadbalancer
 load-balancer,7clouds-terraform-modules,27703,aws,https://github.com/7clouds-terraform-modules/terraform-aws-load-balancer,
 load-balancer,Estivador,12973,google,https://github.com/Estivador/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP
+load-balancer,Senora-dev,29466,aws,https://github.com/Senora-dev/terraform-aws-load-balancer,Terraform module which creates Application and Network Load Balancer resources on AWS.
 load-balancer,aflalahmad,24700,azurerm,https://github.com/aflalahmad/terraform-azurerm-load-balancer,
 load-balancer,axetrading,16575,aws,https://github.com/axetrading/terraform-aws-load-balancer,
 load-balancer,bayudwiyansatria,11174,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-load-balancer,Provisioning Hetzner Cloud Load Balancer
@@ -13086,6 +13089,7 @@ organization,scaffoldly,9357,aws,https://github.com/scaffoldly/terraform-aws-org
 organization,tedilabs,24114,aws,https://github.com/tedilabs/terraform-aws-organization,🌳 A sustainable Terraform Package to manage Organization resources on AWS
 organization,terracharge,14093,aws,https://github.com/terracharge/terraform-aws-organization,Module for creating terraform-aws-organization with provider aws. This description is created automagically
 organization,terracharge,14098,github,https://github.com/terracharge/terraform-github-organization,Module for creating terraform-github-organization with provider github. This description is created automagically
+organization,yros-cloud,29469,aws,https://github.com/yros-cloud/terraform-aws-organization,
 organization-access-group,cloudposee,28062,aws,https://github.com/cloudposee/terraform-aws-organization-access-group,Terraform module to create an IAM Group and Policy to grant permissions to delegated IAM users in the Organization's master account to access a member account
 organization-access-group,cloudposse,913,aws,https://github.com/cloudposse/terraform-aws-organization-access-group,Terraform module to create an IAM Group and Policy to grant permissions to delegated IAM users in the Organization's master account to access a member account
 organization-access-role,cloudposee,28063,aws,https://github.com/cloudposee/terraform-aws-organization-access-role,Terraform module to create an IAM Role to grant permissions to delegated IAM users in the master account to access an invited member account
@@ -13329,6 +13333,7 @@ placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lam
 placement-group,terraform-navercloudplatform-modules,25189,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-placement-group,Terraform module to create placement group resources
 plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,Terraform module which service plans used by workloads and accelerators.
 platform,Jamf-Concepts,28137,jamf,https://github.com/Jamf-Concepts/terraform-jamf-platform,Terraform configurations around the Jamf Platform
+platform,actualstack,29467,azure,https://github.com/actualstack/terraform-azure-platform,
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
 platform,cloudposee,28107,datadog,https://github.com/cloudposee/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
@@ -13873,7 +13878,7 @@ queue-consumer,diego-alves,8536,aws,https://github.com/diego-alves/terraform-aws
 queue-driven-lambda,bmd,4053,aws,https://github.com/bmd/terraform-aws-queue-driven-lambda,Easily create SQS-fed Lambda functions
 queue-endpoint,SolaceProducts,24983,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-queue-endpoint,Solace software broker Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration
 queue-endpoint,SolaceProducts,25195,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-queue-endpoint,Solace PubSub+ appliance Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration 
-quick-sandbox,TheDataPlatform,29457,azurerm,https://github.com/TheDataPlatform/terraform-azurerm-quick-sandbox,
+quick-sandbox,TheDataPlatform,29462,azurerm,https://github.com/TheDataPlatform/terraform-azurerm-quick-sandbox,
 quicksight-user-pruning-module,StateFarmIns,13945,aws,https://github.com/StateFarmIns/terraform-aws-quicksight-user-pruning-module,Save money by pruning inactive QuickSight users with this easy-to-use Terraform module.
 quota-limits,Cyclenerd,18758,google,https://github.com/Cyclenerd/terraform-google-quota-limits,🌪️ Terraform module to update Google Cloud consumer quota limits
 quotas,Azure-Terraformer,25140,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-quotas,
@@ -16583,6 +16588,7 @@ snowplow-elasticsearch-pipeline,Datomni,18956,aws,https://github.com/Datomni/ter
 sns,DNXLabs,5750,aws,https://github.com/DNXLabs/terraform-aws-sns,This is a module that creates an AWS SNS Application Module and it was designed to be used with DNXLabs/terraform-aws-monitoring.
 sns,JamesWoolfenden,7623,aws,https://github.com/JamesWoolfenden/terraform-aws-sns,Basic SNS module
 sns,OT-CLOUD-KIT,8572,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-sns,
+sns,Senora-dev,29465,aws,https://github.com/Senora-dev/terraform-aws-sns,This Terraform module creates an Amazon SNS (Simple Notification Service) topic with optional subscriptions and policies.
 sns,SevenPico,17754,aws,https://github.com/SevenPico/terraform-aws-sns,
 sns,TerraPros,27845,aws,https://github.com/TerraPros/terraform-aws-sns,Terraform module to create AWS SNS resources 🇺🇦
 sns,TerraformFoundation,27921,aws,https://github.com/TerraformFoundation/terraform-aws-sns,Terraform module to create AWS SNS resources 🇺🇦
@@ -16741,6 +16747,7 @@ sqs,Cloud-42,4841,aws,https://github.com/Cloud-42/terraform-aws-sqs,Creates SQS 
 sqs,JamesWoolfenden,7811,aws,https://github.com/JamesWoolfenden/terraform-aws-sqs,Basic SQS module
 sqs,Lupus-Metallum,8451,aws,https://github.com/Lupus-Metallum/terraform-aws-sqs,Flexible Terraform module to create an SQS queue with optional dead-letter queue and Cloudwatch monitoring for dead-letter letter messages 
 sqs,OT-CLOUD-KIT,8573,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-sqs,
+sqs,Senora-dev,29464,aws,https://github.com/Senora-dev/terraform-aws-sqs,This Terraform module creates an Amazon SQS (Simple Queue Service) queue with optional policies and configurations.
 sqs,TerraPros,27847,aws,https://github.com/TerraPros/terraform-aws-sqs,Terraform module to create AWS SQS resources 🇺🇦
 sqs,TerraformFoundation,27923,aws,https://github.com/TerraformFoundation/terraform-aws-sqs,Terraform module to create AWS SQS resources 🇺🇦
 sqs,appzen-oss,2037,aws,https://github.com/appzen-oss/terraform-aws-sqs,Terraform module to manage AWS SQS queues
@@ -18043,6 +18050,7 @@ tkgmgmtcreate,tanzuformers,10516,vsphere,https://github.com/tanzuformers/terrafo
 tkgmgmtsetup,tanzuformers,10519,helm,https://github.com/tanzuformers/terraform-helm-tkgmgmtsetup,
 tls,devops-rob,9652,gcp,https://github.com/devops-rob/terraform-gcp-tls,"Create self-signed TLS certicates, encrypt keys and store in GCS Bucket"
 to-efs-backup,rhythmictech,3136,efs,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
+to-hero,nirmalrajyuvi12,29463,zero,https://github.com/nirmalrajyuvi12/terraform-zero-to-hero,
 token,dhoppeIT,28547,authentik,https://github.com/dhoppeIT/terraform-authentik-token,
 token,makezbs,4314,vault,https://github.com/makezbs/terraform-vault-token,
 token,pmikus,18690,vault,https://github.com/pmikus/terraform-vault-token,Module to generate a vault token with its options. 
