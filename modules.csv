@@ -2031,6 +2031,7 @@ aws-ecs,lean-delivery,7587,module,https://github.com/lean-delivery/terraform-mod
 aws-efs-csi-plugin,KristophUK,5616,nomad,https://github.com/ChrisArmstrongUK/terraform-nomad-aws-efs-csi-plugin,Terraform Module to deploy the AWS EFS CSI plugin to a Nomad cluster.
 aws-eks,intel,18339,intel,https://github.com/intel/terraform-intel-aws-eks,Intel Cloud Optimization Module - AWS EKS
 aws-eks,lean-delivery,7588,module,https://github.com/lean-delivery/terraform-module-aws-eks,
+aws-eks-cluster,zesty-co,29516,zesty,https://github.com/zesty-co/terraform-zesty-aws-eks-cluster,
 aws-eks-cluster-bootstrap,rallyware,11250,argocd,https://github.com/rallyware/terraform-argocd-aws-eks-cluster-bootstrap,A terraform module to bootstrap apps on AWS EKS using ArgoCD
 aws-eks-init,FlyingSnake,23486,aws,https://github.com/FlyingSnake/terraform-aws-aws-eks-init,
 aws-elasticache,lean-delivery,7589,module,https://github.com/lean-delivery/terraform-module-aws-elasticache,Terraform module to setup Elasticache
@@ -2167,6 +2168,7 @@ azure,ortacu,7070,aks,https://github.com/ortacu/terraform-aks-azure,
 azure,yanehi,12975,appservice,https://github.com/yanehi/terraform-appservice-azure,
 azure-aadds,ravensorb,13524,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-aadds,Terraform module for creating and setting up Azure Active Directory Domain Servers (AADS)
 azure-adx,intel,19589,intel,https://github.com/intel/terraform-intel-azure-adx,Intel Cloud Optimization Module - Azure Data Explorer
+azure-ai-foundry-hub,cloudeteer,29522,azurerm,https://github.com/cloudeteer/terraform-azurerm-azure-ai-foundry-hub,☁️ Cloudeteer's Terraform azure azure-ai-foundry-hub module
 azure-aks,intel,18341,intel,https://github.com/intel/terraform-intel-azure-aks,Intel Cloud Optimization Module - Azure AKS
 azure-api-management,pagopa-dx,28187,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-api-management,Deploys an Azure API Management service with monitoring and network configuration
 azure-app-service,pagopa-dx,28188,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-app-service,Creates an Azure App Service with networking and deployment slot support
@@ -2823,7 +2825,7 @@ canary,kaihendry,16565,aws,https://github.com/kaihendry/terraform-aws-canary,Ter
 canary-security-sensor-capture-rest-api,joshdurbin,156,aws,https://github.com/joshdurbin/terraform-aws-canary-security-sensor-capture-rest-api,A TF module for periodically checking in with the Canary API to capture and store Canary sensor data in dynamodb tables and produce an API endpoint for accessing the data.
 cap-merge,nullstone-modules,9317,ns,https://github.com/nullstone-modules/terraform-ns-cap-merge,Terraform module to merge outputs from multiple Nullstone modules
 capi-cluster-manager-bootstrap-apps,ljcheng999,28955,aws,https://github.com/ljcheng999/terraform-aws-capi-cluster-manager-bootstrap-apps,
-capi-managed-clusters-provision,ljcheng999,29359,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
+capi-managed-clusters-provision,ljcheng999,29525,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
 cardano,regel,11619,azure,https://github.com/regel/terraform-azure-cardano,A Terraform Module for how to run Cardano on Azure using Terraform
 cardano-node,leb4r,10566,aws,https://github.com/leb4r/terraform-aws-cardano-node,Terraform module that provisions infrastructure on AWS to run cardano-node.
 carpenter-vpc,AldosAC,13850,aws,https://github.com/AldosAC/terraform-aws-carpenter-vpc,Terraform module which provisions a VPC
@@ -3306,6 +3308,7 @@ cloudaccess-lza,appvia,23899,aws,https://github.com/appvia/terraform-aws-cloudac
 cloudant,terraform-ibm-modules,21709,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloudant,Deploys and configures an IBM Cloudant instance
 cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,terraform gcp module for cloudbase
 cloudbase,Levetty,17707,aws,https://github.com/Levetty/terraform-aws-cloudbase,terraform aws module for cloudbase
+cloudbase,Levetty,29518,azure,https://github.com/Levetty/terraform-azure-cloudbase,A Terraform module to connect the Azure to Cloudbase
 cloudbees-ci-eks-addon,cloudbees,23791,aws,https://github.com/cloudbees/terraform-aws-cloudbees-ci-eks-addon,CloudBees CI Add-on for AWS EKS
 cloudberry-bucket,rhythmictech,6116,aws,https://github.com/rhythmictech/terraform-aws-cloudberry-bucket,
 cloudbricks-adb-database,oracle-devrel,10263,oci,https://github.com/oracle-devrel/terraform-oci-cloudbricks-adb-database,OCI Cloud Bricks: Autonomous Database
@@ -3422,7 +3425,7 @@ cloudfront-cloudwatch-alarms,vistaprint,626,aws,https://github.com/vistaprint/te
 cloudfront-compound,JamesWoolfenden,7029,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudfront-compound,A basic module to provision cloudfront
 cloudfront-distribution,bancoripleyperu,8345,aws,https://github.com/bancoripleyperu/terraform-aws-cloudfront-distribution,Module of Terraform
 cloudfront-distribution,bancoripleyperu,8376,template,https://github.com/bancoripleyperu/terraform-template-cloudfront-distribution,Template of Terraform
-cloudfront-distribution,infrablocks,18556,aws,https://github.com/infrablocks/terraform-aws-cloudfront-distribution,A Terraform module for building a cloudfront distribution in AWS.
+cloudfront-distribution,infrablocks,18556,aws,https://github.com/infrablocks/terraform-aws-cloudfront-distribution,
 cloudfront-distribution,lptech-io,19368,aws,https://github.com/lptech-io/terraform-aws-cloudfront-distribution,Terraform module for Cloudfront distribution creation
 cloudfront-distribution,ptonini,16733,aws,https://github.com/ptonini/terraform-aws-cloudfront-distribution,
 cloudfront-domain-redirect,daringway,5471,aws,https://github.com/wderezin/terraform-aws-cloudfront-domain-redirect,AWS Lambda@Edge for a cloudfront redirector from an apex domain to www. (daringway.com -> www.daringway.com)
@@ -3981,6 +3984,7 @@ compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex
 compute,srb3,4093,azurerm,https://github.com/srb3/terraform-azurerm-compute,
 compute,wittdennis,23079,hetzner,https://github.com/wittdennis/terraform-hetzner-compute,Terraform module to manage Hetzner Cloud Server.
 compute,wmariuss,2094,scaleway,https://github.com/wmariuss/terraform-scaleway-compute,Terraform scaleway compute module
+compute,zesty-co,29517,kompass,https://github.com/zesty-co/terraform-kompass-compute,
 compute-address,bootlabstech,15939,google,https://github.com/bootlabstech/terraform-google-compute-address,
 compute-address,mineiros-io,11375,google,https://github.com/mineiros-io/terraform-google-compute-address,A Terraform module to deploy and manage Google Compute Addresses on Google Cloud Platform (GCP) https://cloud.google.com/compute
 compute-apache,MANISHRAJ007,20135,oci,https://github.com/MANISHRAJ007/terraform-oci-compute-apache,Compute instance with apache on OCI cloud created using terraform
@@ -4821,6 +4825,7 @@ dir,apparentlymart,3133,template,https://github.com/hashicorp/terraform-template
 dir,hashicorp,5157,template,https://github.com/hashicorp/terraform-template-dir,A template module for preparing static files and templates under a particular directory
 direct-mail,terraform-alicloud-modules,12795,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-direct-mail,Terraform Module for creating Direct Mail resources on Alibaba Cloud.
 directconnect,BorisLabs,2559,aws,https://github.com/BorisLabs/terraform-aws-directconnect,Terraform module to setup AWS Direct Connect resources
+directory-cloudbase,Levetty,29515,azure,https://github.com/Levetty/terraform-azure-directory-cloudbase,A Terraform module to connect the Azure Directory to Cloudbase
 directory-service,magicorntech,28241,aws,https://github.com/magicorntech/terraform-aws-directory-service,
 directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terraform-aws-directory-service-with-logging,Terraform AWS module for Directory service directory with logging
 directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
@@ -5998,6 +6003,7 @@ ec2,Supriya9876,28877,aws,https://github.com/Supriya9876/terraform-aws-ec2,
 ec2,SyncArcs,29010,aws,https://github.com/SyncArcs/terraform-aws-ec2,Terraform module to create an EC2 instance on AWS.
 ec2,VenkiiChowdary,12232,aws,https://github.com/VenkiiChowdary/terraform-aws-ec2,
 ec2,abrashamchowdhury,17914,aws,https://github.com/abrashamc/terraform-aws-ec2,
+ec2,adhya2020,29519,aws,https://github.com/adhya2020/terraform-aws-ec2,
 ec2,akshatjain17,17699,aws,https://github.com/akshatjain17/terraform-aws-ec2,
 ec2,arjunkoppineni,28868,aws,https://github.com/arjunkoppineni/terraform-aws-ec2,
 ec2,arul-ap,24221,aws,https://github.com/arul-ap/terraform-aws-ec2,Module to create multiple EC2 instances.
@@ -7899,6 +7905,7 @@ firestore,bootlabstech,18876,google,https://github.com/bootlabstech/terraform-go
 firestore,kiwicom,7578,google,https://github.com/kiwicom/terraform-google-firestore,terraform module for the firestore projects
 firestore-collection,causa-io,20181,google,https://github.com/causa-io/terraform-google-firestore-collection,"A Terraform module that eases the management of a Firestore collection, such as its indexes and TTL configuration."
 firestore-database,bootlabstech,27170,google,https://github.com/bootlabstech/terraform-google-firestore-database,Creates a GCP firestore DB.
+firewall,CloudAstro,29520,azurerm,https://github.com/CloudAstro/terraform-azurerm-firewall,This module manages the creation and configuration of Azure Firewalls and related resources in Microsoft Azure.
 firewall,Flaconi,10381,cloudflare,https://github.com/Flaconi/terraform-cloudflare-firewall,Terraform module for Cloudflare firewall rules
 firewall,JamesWoolfenden,11078,linode,https://github.com/JamesWoolfenden/terraform-linode-firewall,
 firewall,appvia,23901,aws,https://github.com/appvia/terraform-aws-firewall,Provisions a inspection vpc to restrict traffic flow between the networks
@@ -8248,7 +8255,7 @@ get-secret,MrJoshLab,7267,kubernetes,https://github.com/iamalirezaj/terraform-ku
 get-secret,gearnode,854,kubernetes,https://github.com/gearnode/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-state,Invicton-Labs,9729,null,https://github.com/Invicton-Labs/terraform-null-get-state,Retrieves the current Terraform state
 getmofree,bigmofree,24212,google,https://github.com/bigmofree/terraform-google-getmofree,Project for EvolveCyber (Personal)
-getmyip,atrull,21915,overbuilt,https://github.com/atrull/terraform-overbuilt-getmyip,A terraform module to reliably get my ip (v4 and/or v6) even when some services could fail or give wrong answers.
+getmyip,atrull,21915,overbuilt,https://github.com/atrull/terraform-overbuilt-getmyip,A terraform module to reliably get my ip (v4 and/or v6) even when some services could fail or give wrong answers or you have hashed connections.
 getting-into-terraform-modules,hashicorp-dev-advocates,25417,aws,https://github.com/hashicorp-dev-advocates/terraform-aws-getting-into-terraform-modules,
 getting-started,devops-rob,9155,boundary,https://github.com/devops-rob/terraform-boundary-getting-started,A starter module that deploys all the resources required to log in to boundary for the first time.
 gh-actions,HappyPathway,25656,importer,https://github.com/HappyPathway/terraform-importer-gh-actions,Terraform Module
@@ -13136,7 +13143,8 @@ organizations,infraspecdev,25377,aws,https://github.com/infraspecdev/terraform-a
 organizations,jrcasso,6343,aws,https://github.com/jrcasso/terraform-aws-organizations,Minimal network infrastructure to support an organization backed by a domain.
 organizations,terraform-cisco-modules,25817,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-organizations,Terraform - Intersight > Organizations Module
 organizations-organizational-unit,OT-CLOUD-KIT,19205,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-organizations-organizational-unit,
-organizations-ous-by-path,kurtismash,28514,aws,https://github.com/kurtismash/terraform-aws-organizations-ous-by-path,Terraform module to create and/or expose AWS Organizations Organizational Units with their paths from the Organization root.
+organizations-ous-by-path,kurtismash,28514,aws,https://github.com/kurtismash/terraform-aws-organizations-ous-by-path,ARCHIVED: Terraform module to create and/or expose AWS Organizations Organizational Units with their paths from the Organization root.
+organizations-ous-by-path,nationalarchives,29521,aws,https://github.com/nationalarchives/terraform-aws-organizations-ous-by-path,An open-source Terraform module to create and/or expose AWS Organizations Organizational Units with their paths from the Organization root.
 organizations-policy,tim0git,14913,aws,https://github.com/tim0git/terraform-aws-organizations-policy,A repository that contains the code for terraform-aws-organizations-policy
 organizations-policy,tmknom,1836,aws,https://github.com/tmknom/terraform-aws-organizations-policy,Terraform module which creates AWS Organizations Policy resources on AWS.
 organzation-and-sso,chris-qa-org,12141,aws,https://github.com/chris-qa-org/terraform-aws-organzation-and-sso,Terraform module for AWS to create and manage Organizations and SSO
@@ -13303,7 +13311,7 @@ pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,E
 pet,hrychlik-free,27414,random,https://github.com/hrychlik-free/terraform-random-pet,
 pet,hrychlik-free-2,27491,random,https://github.com/hrychlik-free-2/terraform-random-pet,
 pet,hrychlik-free-3,27493,random,https://github.com/hrychlik-free-3/terraform-random-pet,
-petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,testing outputs
+petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
 petstore,terraform-in-action,7228,aws,https://github.com/terraform-in-action/terraform-aws-petstore,
@@ -14767,8 +14775,10 @@ resource_group_storage,fredisson11,28324,fredisson11,https://github.com/fredisso
 resource_group_storage,kkiirill,25328,azurerm,https://github.com/kkiirill/terraform-azurerm-resource_group_storage,
 resource_group_storage,konstantinou77,29037,azurerm,https://github.com/konstantinou77/terraform-azurerm-resource_group_storage,
 resource_group_storage,p1tonidze,27741,azurerm,https://github.com/p1tonidze/terraform-azurerm-resource_group_storage,
+resource_group_storage,programer-orest,29524,azurerm,https://github.com/programer-orest/terraform-azurerm-resource_group_storage,
 resource_group_storage,salaxambar,25991,azurerm,https://github.com/salaxambar/terraform-azurerm-resource_group_storage,
 resource_group_storage,v-shutov,26215,azurerm,https://github.com/v-shutov/terraform-azurerm-resource_group_storage,
+resource_group_storage,vladyslavgusakovskiy,29523,azurerm,https://github.com/vladyslavgusakovskiy/terraform-azurerm-resource_group_storage,
 resource_group_storage,yaaszp,25202,azurerm,https://github.com/yaaszp/terraform-azurerm-resource_group_storage,Terraform azurerm module for creating resource group and storage account
 resource_group_storage,yaroslavyvk,26262,azurerm,https://github.com/yaroslavyvk/terraform-azurerm-resource_group_storage,
 resource_groups-multiple,Muzammil-Naik,22343,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_groups-multiple,
@@ -15760,7 +15770,7 @@ scdn,terraform-alicloud-modules,9977,alicloud,https://github.com/alibabacloud-au
 sce-core,aws-ia,24702,aws,https://github.com/aws-ia/terraform-aws-sce-core,
 sce-tf-community,aws-ia,24721,aws,https://github.com/aws-ia/terraform-aws-sce-tf-community,
 scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,SCEPman - Certificates Simplified
-scepman,scepman,27781,azurerm,https://github.com/scepman/terraform-azurerm-scepman,SCEPman - Certificates Simplified
+scepman,scepman,29513,azurerm,https://github.com/scepman/terraform-azurerm-scepman,SCEPman - Certificates Simplified
 scf,terraform-tencentcloud-modules,19050,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-scf,
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
 schedule-auto-stop-start-aws-services,bigfantech-cloud,20622,aws,https://github.com/bigfantech-cloud/terraform-aws-schedule-auto-stop-start-aws-services,Terraform module: schedule auto Stop and Start CRON for AWS services with Lambda function
