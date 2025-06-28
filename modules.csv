@@ -2541,6 +2541,7 @@ bedrock,aws-ia,26774,aws,https://github.com/aws-ia/terraform-aws-bedrock,Amazon 
 bedrock-agent,Flaconi,26743,aws,https://github.com/Flaconi/terraform-aws-bedrock-agent,Terraform module for Amazon Bedrock Agent resources
 bedrock-agents,quixoticmonk,26669,aws,https://github.com/quixoticmonk/terraform-aws-bedrock-agents,
 bedrock-custom-model,Flaconi,26746,aws,https://github.com/Flaconi/terraform-aws-bedrock-custom-model,Terraform module to create Amazon Bedrock custom model
+bedrock-kb-aurora,Robyt96,29546,aws,https://github.com/Robyt96/terraform-aws-bedrock-kb-aurora,Terraform module to create one or more Bedrock Knowledge Bases with Aurora Serverless vector store
 bedrock-user,peytoncasper,24868,aws,https://github.com/peytoncasper/terraform-aws-bedrock-user,
 benthos-serverless,cludden,11674,aws,https://github.com/cludden/terraform-aws-benthos-serverless,a Terraform module for deploying Benthos as an AWS Lambda function with dynamic configuration via Gomplate
 best-practice-084,terraform-alicloud-modules,3609,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-best-practice-084,084@Terraform云资源管理
@@ -2825,7 +2826,7 @@ canary,kaihendry,16565,aws,https://github.com/kaihendry/terraform-aws-canary,Ter
 canary-security-sensor-capture-rest-api,joshdurbin,156,aws,https://github.com/joshdurbin/terraform-aws-canary-security-sensor-capture-rest-api,A TF module for periodically checking in with the Canary API to capture and store Canary sensor data in dynamodb tables and produce an API endpoint for accessing the data.
 cap-merge,nullstone-modules,9317,ns,https://github.com/nullstone-modules/terraform-ns-cap-merge,Terraform module to merge outputs from multiple Nullstone modules
 capi-cluster-manager-bootstrap-apps,ljcheng999,28955,aws,https://github.com/ljcheng999/terraform-aws-capi-cluster-manager-bootstrap-apps,
-capi-managed-clusters-provision,ljcheng999,29526,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
+capi-managed-clusters-provision,ljcheng999,29550,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
 cardano,regel,11619,azure,https://github.com/regel/terraform-azure-cardano,A Terraform Module for how to run Cardano on Azure using Terraform
 cardano-node,leb4r,10566,aws,https://github.com/leb4r/terraform-aws-cardano-node,Terraform module that provisions infrastructure on AWS to run cardano-node.
 carpenter-vpc,AldosAC,13850,aws,https://github.com/AldosAC/terraform-aws-carpenter-vpc,Terraform module which provisions a VPC
@@ -3757,6 +3758,7 @@ cluster-tls,srb3,10093,kong,https://github.com/srb3/terraform-kong-cluster-tls,
 cluster_free_tier,wiseupdata,22099,oci,https://github.com/wiseupdata/terraform-oci-vm_cluster_free_tier,
 clusterload,3191110276,8156,kubernetes,https://github.com/3191110276/terraform-kubernetes-clusterload,
 cm,terraform-tencentcloud-modules,19053,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cm,
+cms-event-publisher,mergermarket,29545,acuris,https://github.com/mergermarket/terraform-acuris-cms-event-publisher,
 cn-oke,ivandelic,17296,oci,https://github.com/ivandelic/terraform-oci-cn-oke,"OCI Cloud Native OKE is an MVP-like Container Engine deployment comprised of single Kubernetes cluster with multiple node pools, all configurable from input variables. OKE is a fully managed, scalable, and highly available service that makes it easy to deploy, manage, and scale containerized applications using Kubernetes."
 cn-vcn,ivandelic,17187,oci,https://github.com/ivandelic/terraform-oci-cn-vcn,"OCI Cloud Native VCN is an MVP-like Virtual Cloud Network designed to support cloud-native workloads. It's tailored to support integrated communication for cloud-native components, such as Container Engine for Kubernetes (OKE), Functions, Container Instances, and others."
 cname-generator,jd4883,6949,digitalocean,https://github.com/jd4883/terraform-digitalocean-cname-generator,a dynamic digital ocean terraform based dns record generator; used as a submodule for the docker provider to seamlessly automate internal and external dns records
@@ -8592,6 +8594,7 @@ grid,matti,778,kontena,https://github.com/matti/terraform-kontena-grid,
 grid-outputs,matti,759,kontena,https://github.com/matti/terraform-kontena-grid-outputs,
 gridbyoc,gridai,8964,aws,https://github.com/gridai/terraform-aws-gridbyoc,
 gridgain,gridgain,27156,aws,https://github.com/gridgain/terraform-aws-gridgain,The repository contains the Terraform module to support the deployment of GG-8 in AWS.
+gridgain9,gridgain,29538,aws,https://github.com/gridgain/terraform-aws-gridgain9,
 groundwork-vpc,lbrealdev,4556,aws,https://github.com/lbrealdev/terraform-aws-groundwork-vpc,Terraform
 group,Devcastops,27338,hashi,https://github.com/Devcastops/terraform-hashi-group,terraform module for group set up in hashi products
 group,altissimo-hq,25083,google,https://github.com/altissimo-hq/terraform-google-group,Manages Google Groups
@@ -8683,7 +8686,7 @@ hardened-bastion,ordinaryexperts,10081,aws,https://github.com/ordinaryexperts/te
 hardware-profiler,BrainXio,29307,host,https://github.com/BrainXio/terraform-host-hardware-profiler,
 haripriya,haripriya258,27297,aws,https://github.com/haripriya258/terraform-aws-haripriya,
 harness-ccm,harness-community,17001,aws,https://github.com/harness-community/terraform-aws-harness-ccm,Configure the Harness cloud cost management (CCM) module for AWS.
-harness-delegate,harness,29075,kubernetes,https://github.com/harness/terraform-kubernetes-harness-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
+harness-delegate,harness,29537,kubernetes,https://github.com/harness/terraform-kubernetes-harness-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
 harness-delegate,replit,25345,kubernetes,https://github.com/replit/terraform-kubernetes-harness-delegate,Terraform module for installing a Harness Delegate into a Kubernetes cluster
 harness-delegate-ecs-fargate,harness-community,17002,aws,https://github.com/harness-community/terraform-aws-harness-delegate-ecs-fargate,deploy a harness delegate on ecs fargate using terraform
 harness-gitspaces,harness,29002,gcp,https://github.com/harness/terraform-gcp-harness-gitspaces,"Module to create infrastructure in GCP for running Harness Gitspaces – includes creation of VPCs, Subnetworks, IAM, Cloud NAT, and supporting services."
@@ -9055,7 +9058,7 @@ iam-role,cloudboss,25436,aws,https://github.com/cloudboss/terraform-aws-iam-role
 iam-role,clouddrove,3662,aws,https://github.com/clouddrove/terraform-aws-iam-role,Terraform module to create Iam role resource on AWS.
 iam-role,cloudposee,28039,aws,https://github.com/cloudposee/terraform-aws-iam-role,A Terraform module that creates IAM role with provided JSON IAM polices documents.
 iam-role,cloudposse,2207,aws,https://github.com/cloudposse/terraform-aws-iam-role,A Terraform module that creates IAM role with provided JSON IAM polices documents.
-iam-role,cypik,24075,aws,https://github.com/cypik/terraform-aws-iam-role,
+iam-role,cypik,24075,aws,https://github.com/cypik/terraform-aws-iam-role,Terraform module to create and manage AWS IAM roles.
 iam-role,datafy-io,28586,datafy,https://github.com/datafy-io/terraform-datafy-iam-role,
 iam-role,devops4mecode,6768,aws,https://github.com/devops4mecode/terraform-aws-iam-role,
 iam-role,figurate,5049,aws,https://github.com/figurate/terraform-aws-iam,IAM role creation with predefined principals.
@@ -9084,6 +9087,7 @@ iam-role-ecs,hendrixroa,3935,aws,https://github.com/hendrixroa/terraform-aws-iam
 iam-role-for-eks-creation,akw-devsecops,20544,aws,https://github.com/akw-devsecops/terraform-aws-iam-role-for-eks-creation,Terraform module to set up an IAM role to create EKS clusters
 iam-role-for-github-repository,babbel,13411,aws,https://github.com/babbel/terraform-aws-iam-role-for-github-repository,Terraform module creating an IAM role which can be assumed via OpenID by a GitHub-repository-specific GitHub Actions workflow
 iam-role-policy,PGBI,2811,aws,https://github.com/PGBI/terraform-aws-iam-role-policy,
+iam-role-policy,yashkalwani,29543,aws,https://github.com/yashkalwani/terraform-aws-iam-role-policy,Terraform module for creating AWS IAM roles with flexible support for attaching various policies. It provides a simplified and efficient approach to managing IAM roles and their associated policy attachments.
 iam-role-vmimport,StratusGrid,2792,aws,https://github.com/StratusGrid/terraform-aws-iam-role-vmimport,Configures aws account with with an iam role to facilitate vm imports with vm import export service using an existing import bucket
 iam-role-with-k8s-service-account,rohitraut3366,14015,aws,https://github.com/rohitraut3366/terraform-aws-iam-role-with-k8s-service-account,
 iam-role-with-policies,pavelpichrt,17774,aws,https://github.com/pavelpichrt/terraform-aws-iam-role-with-policies,
@@ -12499,7 +12503,6 @@ network-gateway,andrewCluey,9976,azurerm,https://github.com/andrewCluey/terrafor
 network-hdi,doherty100,2172,azurerm,https://github.com/doherty100/terraform-azurerm-network-hdi,Terraform Azure RM Module for HDInsight Network
 network-hubandspoke,aws-ia,14043,aws,https://github.com/aws-ia/terraform-aws-network-hubandspoke,
 network-info,andreswebs,16919,google,https://github.com/andreswebs/terraform-google-network-info,A helper data module to get network info on GCP
-network-interface,CloudAstro,29531,azurerm,https://github.com/CloudAstro/terraform-azurerm-network-interface,This module manages the creation and configuration of Network Interfaces in Microsoft Azure
 network-interface,iankesh,6235,azure,https://github.com/iankesh/terraform-azure-network-interface,This is a Terraform custom module to create Network Interface Controller in Azure Cloud. 
 network-interface,ptonini,16758,azurerm,https://github.com/ptonini/terraform-azurerm-network-interface,
 network-interface-vpc,terraform-navercloudplatform-modules,25153,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-network-interface-vpc,Terraform module to create network interface resources for the vpc configuration
@@ -17958,6 +17961,7 @@ test3333,abhishekPhukan,22386,aws,https://github.com/abhishekPhukan/terraform-aw
 tested-oses,dcos-terraform,1370,aws,https://github.com/dcos-terraform/terraform-aws-tested-oses,returns for an given OS the AMI
 tested-oses,dcos-terraform,1538,azurerm,https://github.com/dcos-terraform/terraform-azurerm-tested-oses,Returns the image for an given OS
 tested-oses,dcos-terraform,1736,gcp,https://github.com/dcos-terraform/terraform-gcp-tested-oses,
+testing,bootlabstech,29542,google,https://github.com/bootlabstech/terraform-google-testing,
 testingrgsa,sampoornadevops,24515,azurerm,https://github.com/sampoornadevops/terraform-azurerm-testingrgsa,testing rg and sa
 testmod,kadagotiprudhvi,24603,aws,https://github.com/kadagotiprudhvi/terraform-aws-testmod,
 testmodule,hiroto3432,10192,aws,https://github.com/hiroto3432/terraform-aws-testmodule,
