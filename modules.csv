@@ -1073,6 +1073,7 @@ apn-blog,aq,7338,aws,https://github.com/aq/terraform-aws-apn-blog,Terraform infr
 app,3191110276,8283,appdynamics,https://github.com/3191110276/terraform-appdynamics-app,
 app,Arminek,22028,k8s,https://github.com/Arminek/terraform-k8s-app,This is a simple terraform module to deploy a k8s application.
 app,CloudNationHQ,25729,azure,https://github.com/CloudNationHQ/terraform-azure-app,Terraform module which creates app service resources used by workloads and accelerators.
+app,DimmKirr,29555,dokku,https://github.com/DimmKirr/terraform-dokku-app,
 app,cypik,22990,digitalocean,https://github.com/cypik/terraform-digitalocean-app,
 app,equinor,25128,azuread,https://github.com/equinor/terraform-azuread-app,Terraform module which creates Microsoft Entra ID (previously Azure Active Directory) Application resources
 app,jungopro,3859,azuread,https://github.com/jungopro/terraform-azuread-app,A module to create an Application with Service Principle
@@ -4438,6 +4439,7 @@ custom-vpc,quangdvn,14283,aws,https://github.com/quangdvn/terraform-aws-custom-v
 customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module which creates Customer Gateway on AWS 🇺🇦
 customs3module,n-samar-21,24948,aws,https://github.com/n-samar-21/terraform-aws-customs3module,
 cvm,terraform-tencentcloud-modules,16257,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cvm,TencentCloud CVM Storage Module for Terraform
+cw-alarms-to-pagerduty,Senora-dev,29554,aws,https://github.com/Senora-dev/terraform-aws-cw-alarms-to-pagerduty,A Terraform module for creating CloudWatch alarms that send notifications to PagerDuty through SNS integration.
 cw-alarms-to-slack,Senora-dev,29535,aws,https://github.com/Senora-dev/terraform-aws-cw-alarms-to-slack," This Terraform module sets up CloudWatch alarms that send notifications to Slack through a Lambda function."
 cwpp,SPHTech-Platform,18603,aqua,https://github.com/SPHTech-Platform/terraform-aqua-cwpp,Module for EKS Security with Aqua
 cxm-integration,cxmlabs,26539,aws,https://github.com/cxmlabs/terraform-aws-cxm-integration,
@@ -4830,7 +4832,7 @@ dir,apparentlymart,3133,template,https://github.com/hashicorp/terraform-template
 dir,hashicorp,5157,template,https://github.com/hashicorp/terraform-template-dir,A template module for preparing static files and templates under a particular directory
 direct-mail,terraform-alicloud-modules,12795,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-direct-mail,Terraform Module for creating Direct Mail resources on Alibaba Cloud.
 directconnect,BorisLabs,2559,aws,https://github.com/BorisLabs/terraform-aws-directconnect,Terraform module to setup AWS Direct Connect resources
-directory-cloudbase,Levetty,29515,azure,https://github.com/Levetty/terraform-azure-directory-cloudbase,A Terraform module to connect the Azure Directory to Cloudbase
+directory-cloudbase,Levetty,29515,azure,https://github.com/Levetty/terraform-azure-directory-cloudbase,
 directory-service,magicorntech,28241,aws,https://github.com/magicorntech/terraform-aws-directory-service,
 directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terraform-aws-directory-service-with-logging,Terraform AWS module for Directory service directory with logging
 directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
@@ -5756,6 +5758,7 @@ documentdb-cluster,goranvrbaski,6107,aws,https://github.com/goranvrbaski/terrafo
 documentdb-cluster,lablabs,3794,aws,https://github.com/lablabs/terraform-aws-documentdb-cluster,Terraform module to provision a DocumentDB cluster on AWS
 documentdb-mongodb,aws-terraform-module,26981,aws,https://github.com/aws-terraform-module/terraform-aws-documentdb-mongodb,Install MongoDB on AWS
 documentdb-mongodb,mrnim94,24071,aws,https://github.com/mrnim94/terraform-aws-documentdb-mongodb,Install MongoDB on AWS
+dokku-node,DimmKirr,29553,proxmox,https://github.com/DimmKirr/terraform-proxmox-dokku-node,
 doks,aigisuk,11267,digitalocean,https://github.com/aigisuk/terraform-digitalocean-doks,Terraform module to deploy a DigitalOcean Kubernetes Cluster (DOKS)
 doks,nlamirault,7341,digitalocean,https://github.com/nlamirault/terraform-digitalocean-doks,Terraform module for Digital Ocean Kubernetes (DOKS)
 doks-harbor,colinwilson,11457,digitalocean,https://github.com/colinwilson/terraform-digitalocean-doks-harbor,High Availability Harbor on DOKS (Kubernetes on DigitalOcean) via Terraform [WIP]
@@ -9510,6 +9513,7 @@ ipsec-aws,catonetworks,26676,cato,https://github.com/catonetworks/terraform-cato
 ipsec-aws-transit-gateway,catonetworks,29152,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws-transit-gateway,
 ipsec-azure,catonetworks,26857,cato,https://github.com/catonetworks/terraform-cato-ipsec-azure,
 ipsec-generic,catonetworks,29407,cato,https://github.com/catonetworks/terraform-cato-ipsec-generic,
+ipsecvpn,mkomlaetou,29551,aws,https://github.com/mkomlaetou/terraform-aws-ipsecvpn,Create an IPsec tunnel with AWS
 ipv6-full-mesh-intra-vpc-security-group-rules,JudeQuintana,26689,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-full-mesh-intra-vpc-security-group-rules,
 ipv6-intra-vpc-security-group-rule,JudeQuintana,25219,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-intra-vpc-security-group-rule,
 ipv6-subnet,goarano,26245,random,https://github.com/goarano/terraform-random-ipv6-subnet," Random IPv6 subnet generator for Terraform "
@@ -12311,7 +12315,6 @@ nat-gateway,ptonini,16757,azurerm,https://github.com/ptonini/terraform-azurerm-n
 nat-gateway,terraform-alicloud-modules,1830,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nat-gateway,Terraform module which creates NAT gateway and route entry resources on Alibaba Cloud
 nat-gateway-traffic-alert,hazelops,7342,aws,https://github.com/hazelops/terraform-aws-nat-gateway-traffic-alert,
 nat-gateway-vpc,terraform-navercloudplatform-modules,25265,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nat-gateway-vpc,Terraform module to create nat gateway resources for the vpc configuration
-nat-instance,Senora-dev,28475,aws,https://github.com/Senora-dev/terraform-aws-nat-instance,
 nat-instance,System-aan-den-Rijn,15013,oci,https://github.com/System-aan-den-Rijn/terraform-oci-nat-instance,"Terraform module that deploys a Compute Instance that can be used as a Nat Gateway in the Oracle Cloud, for example, when you're using the Always Free Resources which do not include the standard Nat Gateway."
 nat-instance,TableCheck-Labs,15282,aws,https://github.com/TableCheck-Labs/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
 nat-instance,dacut,10584,aws,https://github.com/dacut/terraform-aws-nat-instance,Terraform module to provision a NAT Instance using an Auto Scaling Group and Spot Instance from $1/month
@@ -13787,6 +13790,7 @@ prowler,ganexcloud,20466,aws,https://github.com/ganexcloud/terraform-aws-prowler
 prowler-monitoring,dwp,1282,aws,https://github.com/dwp/terraform-aws-prowler-monitoring,A collection of log metric filters and alarms to satisfy Prowler Monitoring checks
 proximity-placement-group,Xat59,18717,azurerm,https://github.com/Xat59/terraform-azurerm-proximity-placement-group,"Terraform module to manage a proximity placement group for virtual machines, virtual machine scale sets and availability sets."
 proximity_placement_group,sironite,19903,azurerm,https://github.com/sironite/terraform-azurerm-proximity_placement_group,
+proxmox,DimmKirr,29552,dokku,https://github.com/DimmKirr/terraform-dokku-proxmox,
 proxmox,lucidsolns,21779,vm,https://github.com/lucidsolns/terraform-vm-proxmox,"A Terraform module to create Proxmox VMs with support for virtiofs, plan9fs and butane/ignition"
 proxmox-lxc,DacoDev,14574,module,https://github.com/DacoDev/terraform-module-proxmox-lxc,TF modules for Proxmox built on top of bgp's provider: https://registry.terraform.io/providers/bpg/proxmox/latest
 proxmox-lxc,ralzareck,28493,bpg,https://github.com/ralzareck/terraform-bpg-proxmox-lxc,"This module deploys a LXC Container on Proxmox VE host, with firewall configuration. It can be based on an already deployed CT template, or an existing LXC template."
@@ -14614,7 +14618,7 @@ repo,HappyPathway,24361,github,https://github.com/HappyPathway/terraform-github-
 repo,JamesWoolfenden,8798,ado,https://github.com/JamesWoolfenden/terraform-ado-repo,
 repo,giner,27037,github,https://github.com/giner/terraform-github-repo,Terraform module to configure a GitHub repository within an organization
 repo,jamesoundb,27178,github,https://github.com/jamesoundb/terraform-github-repo,A Terraform module to create a Github repository.
-repo,kpeacocke,29421,github,https://github.com/kpeacocke/terraform-github-repo,A tool for creating a best practice Github repo
+repo,kpeacocke,29421,github,https://github.com/kpeacocke/terraform-github-repo,A terraform module for creating a best practice Github repos
 repo,liranbz23,28282,liranbz23,https://github.com/liranbz23/terraform-liranbz23-repo,
 repo,sathakur4022,21855,azurerm,https://github.com/sathakur4022/terraform-azurerm-repo,
 repo,trussworks,3745,github,https://github.com/trussworks/terraform-github-repo,Manage Github repos with Terraform with good defaults
