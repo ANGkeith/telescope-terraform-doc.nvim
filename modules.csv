@@ -6024,12 +6024,11 @@ ec2,bootlabstech-m,17417,aws,https://github.com/bootlabstech-m/terraform-aws-ec2
 ec2,cloud-native-toolkit,14546,aws,https://github.com/cloud-native-toolkit/terraform-aws-ec2,Module to provision ec2 on aws
 ec2,clouddrove,3632,aws,https://github.com/clouddrove/terraform-aws-ec2,Terraform module to create an EC2 resource on AWS with Elastic IP Addresses and Elastic Block Store.
 ec2,csakalis,5116,aws,https://github.com/csakalis/terraform-aws-ec2,
-ec2,cypik,22761,aws,https://github.com/cypik/terraform-aws-ec2,
+ec2,cypik,22761,aws,https://github.com/cypik/terraform-aws-ec2,Terraform module to provision an EC2 instance on AWS with associated Elastic IP and Elastic Block Store (EBS) volume.
 ec2,devops4mecode,6804,aws,https://github.com/devops4mecode/terraform-aws-ec2,
 ec2,echomike80,8133,aws,https://github.com/echomike80/terraform-aws-ec2,Terraform module which creates EC2 instance(s) on AWS
 ec2,emran119,17700,aws,https://github.com/emran119/terraform-aws-ec2,terraform-aws-ec2
 ec2,finisterra-io,23561,aws,https://github.com/finisterra-io/terraform-aws-ec2,Terraform AWS EC2 module
-ec2,hcptf,29578,aws,https://github.com/hcptf/terraform-aws-ec2,
 ec2,hruthingali,28873,aws,https://github.com/hruthingali/terraform-aws-ec2,
 ec2,ilkhomk,7168,aws,https://github.com/ilkhomk/terraform-aws-ec2,
 ec2,jason-morsley,5117,aws,https://github.com/jason-morsley/terraform-aws-ec2,
@@ -7400,7 +7399,7 @@ elasticache,mesmeromair,12051,aws,https://github.com/mesmeromair/terraform-aws-e
 elasticache,mrnim94,17098,aws,https://github.com/mrnim94/terraform-aws-elasticache,You can refer to this module to provisioning Redis and enable Global Datastore for Elasticache.
 elasticache,octavianneagoe,25026,aws,https://github.com/octavianneagoe/terraform-aws-elasticache,
 elasticache,octavianneagoe,25028,redis,https://github.com/octavianneagoe/terraform-redis-elasticache,
-elasticache,oozou,15124,aws,https://github.com/oozou/terraform-aws-elasticache,Terraform Module to define an elasticcache
+elasticache,oozou,15124,aws,https://github.com/oozou/terraform-aws-elasticache,
 elasticache,osgurisdosre,18877,aws,https://github.com/osgurisdosre/terraform-aws-elasticache,Terraform module which creates Elasticache resources on AWS
 elasticache,pogosoftware,13349,aws,https://github.com/pogosoftware/terraform-aws-elasticache,
 elasticache,rhythmictech,4966,aws,https://github.com/rhythmictech/terraform-aws-elasticache,Terraform ElastiCache Module: Simple and Sensibly Opinionated
@@ -9867,7 +9866,7 @@ keypair,almayusuf,11894,aws,https://github.com/almayusuf/terraform-aws-keypair,t
 keypair,azizvelat,11903,aws,https://github.com/azizvelat/terraform-aws-keypair,
 keypair,cloud-labs-infra,18750,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-keypair,
 keypair,clouddrove,3635,aws,https://github.com/clouddrove/terraform-aws-keypair,Terraform module for generating or importing an SSH public key file into AWS.
-keypair,cypik,22989,aws,https://github.com/cypik/terraform-aws-keypair,
+keypair,cypik,22989,aws,https://github.com/cypik/terraform-aws-keypair,Terraform module to manage SSH public key creation or import in AWS.
 keypair,dabble-of-devops-bioanalyze,13175,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-keypair,
 keypair,drsengun,21787,aws,https://github.com/drsengun/terraform-aws-keypair,
 keypair,dskz,11881,aws,https://github.com/dskz/terraform-aws-keypair,
@@ -10415,6 +10414,7 @@ lambda,TerraPros,27832,aws,https://github.com/TerraPros/terraform-aws-lambda,"Te
 lambda,TerraformFoundation,27908,aws,https://github.com/TerraformFoundation/terraform-aws-lambda,
 lambda,TravelOffice,14027,aws,https://github.com/TravelOffice/terraform-aws-lambda,Support provision multiple lambda functions
 lambda,acai-consulting,23971,aws,https://github.com/acai-consulting/terraform-aws-lambda,
+lambda,andreswebs,29579,aws,https://github.com/andreswebs/terraform-aws-lambda,AWS Lambda container with Alias
 lambda,armorfret,2190,aws,https://github.com/armorfret/terraform-aws-lambda,Terraform module for deploying AWS Lambdas
 lambda,assemble-inc,1951,gateway,https://github.com/assembleinc/terraform-gateway-lambda,Terraform module to setup an AWS Lambda into API Gateway
 lambda,azavea,1974,tegola,https://github.com/azavea/terraform-tegola-lambda,A Terraform module to create an Amazon Web Services (AWS) Lambda based Tegola vector tile service.
@@ -10626,7 +10626,7 @@ lambda-scheduler,nutellinoit,1965,aws,https://github.com/nutellinoit/terraform-a
 lambda-scheduler,popovserhii,5223,aws,https://github.com/popovserhii/terraform-aws-lambda-scheduler,"Terraform module which allow to stop and start EC2 instances, RDS resources and AutoScaling Groups  by a schedule with Lambda function."
 lambda-scheduler,uridium,9684,aws,https://github.com/uridium/terraform-aws-lambda-scheduler,Terraform AWS module which creates Lambda resource with attached CloudWatch scheduler
 lambda-scheduler-ec2-stop-start,cex-solutions,13029,aws,https://github.com/cex-solutions/terraform-aws-lambda-scheduler-ec2-stop-start,Terraform module used to start/stop ec2 instances by tag name & value
-lambda-scheduler-stop-start,diodonfrost,2075,aws,https://github.com/diodonfrost/terraform-aws-lambda-scheduler-stop-start,Terraform module which creates lambda scheduler for stop and start resources on AWS
+lambda-scheduler-stop-start,diodonfrost,2075,aws,https://github.com/diodonfrost/terraform-aws-lambda-scheduler-stop-start,Terraform module that creates a Lambda scheduler to stop and start resources on AWS
 lambda-scheduler-stop-start,jand0manski,19022,aws,https://github.com/jand0manski/terraform-aws-lambda-scheduler-stop-start,Terraform module which creates lambda scheduler for stop and start resources on AWS
 lambda-secrets-manager-tailscale,guardianproject-ops,27073,aws,https://github.com/guardianproject-ops/terraform-aws-lambda-secrets-manager-tailscale,Terraform module rotating tailscale secrets in AWS Secrets Manager (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-lambda-secrets-manager-tailscale)
 lambda-set,Invicton-Labs,9310,aws,https://github.com/Invicton-Labs/terraform-aws-lambda-set,A Terraform module for creating all necessary AWS infrastructure to support a Lambda and its logging
@@ -11343,6 +11343,7 @@ memstore,badal-io,3875,google,https://github.com/badal-io/terraform-google-memst
 mendix-private-cloud,aws-ia,17658,aws,https://github.com/aws-ia/terraform-aws-mendix-private-cloud,This AWS Partner Solution uses Terraform to deploy a Mendix infrastructure in the AWS Cloud.
 merge,mbrancato,7230,yaml,https://github.com/mbrancato/terraform-yaml-merge,Merge two YAML files
 merge-cidrs,Invicton-Labs,25325,null,https://github.com/Invicton-Labs/terraform-null-merge-cidrs,Merges sets of CIDRs into a minimal set that covers the exact same IP addresses.
+merge-network-rules,Invicton-Labs,29587,null,https://github.com/Invicton-Labs/terraform-null-merge-network-rules,Merges network rules into the minimum equivalent set.
 merge-values,dabble-of-devops-bioanalyze,10449,helm,https://github.com/dabble-of-devops-bioanalyze/terraform-helm-merge-values,Merge your helm --values to a single values file
 merge-values,dabble-of-devops-biodeploy,10375,helm,https://github.com/dabble-of-devops-bioanalyze/terraform-helm-merge-values,Merge your helm --values to a single values file
 merlin-node,tencentcloud-tci,23951,tencentcloud,https://github.com/tencentcloud-tci/terraform-tencentcloud-merlin-node,
@@ -13746,6 +13747,7 @@ project_membership,dhoppeIT,28569,gitlab,https://github.com/dhoppeIT/terraform-g
 project_mirror,dhoppeIT,28570,gitlab,https://github.com/dhoppeIT/terraform-gitlab-project_mirror,
 project_variable,dhoppeIT,28571,gitlab,https://github.com/dhoppeIT/terraform-gitlab-project_variable,
 projecter,alexbasista,22378,tfe,https://github.com/alexbasista/terraform-tfe-projecter,Terraform module to create and configure Projects in Terraform Cloud/Enterprise.
+projectfactory,bahlsengroup,29585,google,https://github.com/bahlsengroup/terraform-google-projectfactory,Google Cloud terraform module - Project Factory
 projects,iits-consulting,28386,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-projects,
 projects,tomaszkiewicz,16408,mysql,https://github.com/tomaszkiewicz/terraform-mysql-projects,Sample module for creating database projects
 prom-stack-dashboards,BeryJu,13251,kube,https://github.com/BeryJu/terraform-kube-prom-stack-dashboards,"Dashboards from https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack, as raw JSON"
@@ -14788,6 +14790,7 @@ resource_group_storage,SHCHERBANV,25845,azurerm,https://github.com/SHCHERBANV/te
 resource_group_storage,Serveladik,26172,azurerm,https://github.com/Serveladik/terraform-azurerm-resource_group_storage,
 resource_group_storage,Uklonsd,28589,azurerm,https://github.com/Uklonsd/terraform-azurerm-resource_group_storage,
 resource_group_storage,VolodymyrKaraniuk,28435,azurerm,https://github.com/VolodymyrKaraniuk/terraform-azurerm-resource_group_storage,
+resource_group_storage,Volodymyrdv,29586,azurerm,https://github.com/Volodymyrdv/terraform-azurerm-resource_group_storage,
 resource_group_storage,YegorVolkov,25685,azurerm,https://github.com/YegorVolkov/terraform-azurerm-resource_group_storage,
 resource_group_storage,cth-usq,26196,azurerm,https://github.com/cth-usq/terraform-azurerm-resource_group_storage,
 resource_group_storage,fredisson11,28324,fredisson11,https://github.com/fredisson11/terraform-fredisson11-resource_group_storage,Task 6. Terraform module for creating Resource Group and Storage Account with AzureRM.
@@ -15081,6 +15084,7 @@ route53-zone,gretchenleighmiller,24202,aws,https://github.com/gretchenleighmille
 route53-zone,ptonini,16749,aws,https://github.com/ptonini/terraform-aws-route53-zone,
 route53-zone,spirius,5308,aws,https://github.com/spirius/terraform-aws-route53-zone,AWS Route53 Zone Terraform module
 route53-zone-dns-multiaccount,birkoff,25614,aws,https://github.com/birkoff/terraform-aws-route53-zone-dns-multiaccount,Add public NS records to parent DNS
+route53-zones,alexeghd,29583,aws,https://github.com/alexeghd/terraform-aws-route53-zones,Terraform module which creates Route53 zones
 route53_resolver_endpoint,AutomateTheCloud,28464,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_endpoint,Terraform module to create Route53 Resolver Endpoints (AutomateTheCloud model)
 route53_resolver_rule,AutomateTheCloud,28457,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_rule,Terraform module to create Route53 Resolver Rules (AutomateTheCloud model)
 route53_zone,AutomateTheCloud,28428,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_zone,Terraform module to create Route 53 Zones (AutomateTheCloud model)
@@ -16097,6 +16101,7 @@ securitygroup,farrukh90,23449,aws,https://github.com/farrukh90/terraform-aws-sec
 securitygroup,ivanababec,23524,aws,https://github.com/ivanababec/terraform-aws-securitygroup,
 securitygroup,keldibek34,23451,aws,https://github.com/keldibek34/terraform-aws-securitygroup,
 securitygroup,kmayer10,13383,aws,https://github.com/kmayer10/terraform-aws-securitygroup,Terraform module to create Security Group
+securitygroup,mkomlaetou,29584,aws,https://github.com/mkomlaetou/terraform-aws-securitygroup,create a new custom security group
 securitygroup,pro100olya,23445,aws,https://github.com/pro100olya/terraform-aws-securitygroup,
 securitygroup,terraform-openstack-modules,1439,openstack,https://github.com/terraform-openstack-modules/terraform-openstack-securitygroup,
 securitygroup,ysakova90,23443,aws,https://github.com/ysakova90/terraform-aws-securitygroup,
@@ -17214,6 +17219,7 @@ staticwebsitepublic,crossmaster86,12028,azurerm,https://github.com/crossmaster86
 staticwebsitepublic,dacdo,16519,azurerm,https://github.com/dacdo/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,deepakdin,19828,azurerm,https://github.com/deepakdin/terraform-azurerm-staticwebsitepublic,Terraform Module for Static Website
 staticwebsitepublic,devops-phani,14772,azurerm,https://github.com/devops-phani/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,dheeraj001,29582,azurerm,https://github.com/dheeraj001/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,esconstantin2,28661,azurerm,https://github.com/esconstantin2/terraform-azurerm-staticwebsitepublic,Terraform module to be shared in Terraform Public Registry
 staticwebsitepublic,fmb0racle,17078,azurerm,https://github.com/fmb0racle/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,g2gm2m,16895,azurerm,https://github.com/g2gm2m/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -19093,7 +19099,6 @@ vpc,hack-doom,10644,aws,https://github.com/hack-doom/terraform-aws-vpc,
 vpc,hamnsk,11328,yandex,https://github.com/hamnsk/terraform-yandex-vpc,
 vpc,hansohn,18113,aws,https://github.com/hansohn/terraform-aws-vpc,Terraform AWS VPC module
 vpc,hanyouqing,3744,alicloud,https://github.com/hanyouqing/terraform-alicloud-vpc,terraform-alicloud-vpc
-vpc,hcptf,29573,aws,https://github.com/hcptf/terraform-aws-vpc,
 vpc,headout,21916,aws,https://github.com/headout/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,hhmmll,5684,aws,https://github.com/hhmmll/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,highgarden-io,12596,aws,https://github.com/highgarden-io/terraform-aws-vpc,Highgarden VPC Root Module
