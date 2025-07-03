@@ -840,6 +840,7 @@ apache,atharva2109,17651,aws,https://github.com/atharva2109/terraform-aws-apache
 apache,ishan-akhouri,26295,aws,https://github.com/ishan-akhouri/terraform-aws-apache,
 apache,itisaby,16996,aws,https://github.com/itisaby/terraform-aws-apache,Terraform Module to run an ec2 instance that is running Apache
 apache,pomych,20556,aws,https://github.com/pomych/terraform-aws-apache,
+apache,synchro-kube,29588,aws,https://github.com/synchro-kube/terraform-aws-apache,
 apache-cluster,ParkhomenkoDmitro,15156,aws,https://github.com/dmytropark/terraform-aws-apache-cluster,Create an EC2 cluster of Apache webservers
 apache-demo,soficx,18596,aws,https://github.com/soficx/terraform-aws-apache-demo,This is a demonstration of how to create a Terraform module that installs Apache on an EC2 instance
 apache-e,Dake2144,22622,aws,https://github.com/Dake2144/terraform-aws-apache-e,
@@ -2205,6 +2206,7 @@ azure-container-registry,libre-devops,13434,azurerm,https://github.com/libre-dev
 azure-controller,AviatrixSystems,11348,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-azure-controller,Terraform module for Aviatrix Controller launch on Azure
 azure-controlplane,terraform-aviatrix-modules,26617,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-azure-controlplane,
 azure-core-infra,pagopa-dx,28204,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-core-infra,"Sets up the core Azure infrastructure including VNet, DNS zones, and Key Vault. Useful to bootstrap production or development environments."
+azure-core-values-exporter,pagopa-dx,29592,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-core-values-exporter,Allow to output the main common values of configurations deployed via azure-core-infra module
 azure-cosmos-account,pagopa-dx,28205,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-cosmos-account,Provisions an Azure Cosmos DB account with monitoring and network settings
 azure-credential,Azure-Terraformer,26734,github,https://github.com/Azure-Terraformer/terraform-github-azure-credential,
 azure-csr1000v,jye-aviatrix,14939,azure,https://github.com/jye-aviatrix/terraform-azure-azure-csr1000v,"In specified Azure region, create a Cisco CSR1000v BYOL router.  Allow ping from RFC1918. Allow SSH from your egress public IP."
@@ -2827,7 +2829,7 @@ canary,kaihendry,16565,aws,https://github.com/kaihendry/terraform-aws-canary,Ter
 canary-security-sensor-capture-rest-api,joshdurbin,156,aws,https://github.com/joshdurbin/terraform-aws-canary-security-sensor-capture-rest-api,A TF module for periodically checking in with the Canary API to capture and store Canary sensor data in dynamodb tables and produce an API endpoint for accessing the data.
 cap-merge,nullstone-modules,9317,ns,https://github.com/nullstone-modules/terraform-ns-cap-merge,Terraform module to merge outputs from multiple Nullstone modules
 capi-cluster-manager-bootstrap-apps,ljcheng999,28955,aws,https://github.com/ljcheng999/terraform-aws-capi-cluster-manager-bootstrap-apps,
-capi-managed-clusters-provision,ljcheng999,29560,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
+capi-managed-clusters-provision,ljcheng999,29593,aws,https://github.com/ljcheng999/terraform-aws-capi-managed-clusters-provision,
 cardano,regel,11619,azure,https://github.com/regel/terraform-azure-cardano,A Terraform Module for how to run Cardano on Azure using Terraform
 cardano-node,leb4r,10566,aws,https://github.com/leb4r/terraform-aws-cardano-node,Terraform module that provisions infrastructure on AWS to run cardano-node.
 carpenter-vpc,AldosAC,13850,aws,https://github.com/AldosAC/terraform-aws-carpenter-vpc,Terraform module which provisions a VPC
@@ -3920,7 +3922,7 @@ cognito-userpool,birkoff,25563,aws,https://github.com/birkoff/terraform-aws-cogn
 cognito-userpool,cruxstack,20451,aws,https://github.com/cruxstack/terraform-aws-cognito-userpool,Terraform Module to provision Cognito userpool
 cognito-userpool-clients,cruxstack,20527,aws,https://github.com/cruxstack/terraform-aws-cognito-userpool-clients,Terraform Module to provision Cognito userpool clients
 cognito-users,ftcodelib,8663,aws,https://github.com/ftcodelib/terraform-aws-cognito-users,Terrafrom module to create AWS Cognito users and groups
-collection,observeinc,28681,aws,https://github.com/observeinc/terraform-aws-collection,Terraform module which streamlines collection from multiple sources within AWS
+collection,observeinc,28681,aws,https://github.com/observeinc/terraform-aws-collection,
 collection,observeinc,28684,google,https://github.com/observeinc/terraform-google-collection,
 collection,scastria,24568,postman,https://github.com/scastria/terraform-postman-collection,Create a Postman collection from OpenAPI Spec and optional supporting input files
 collection-module,observeinc,28671,azure,https://github.com/observeinc/terraform-azure-collection-module,Terraform module which streamlines collection from multiple sources within Azure
@@ -6997,7 +6999,7 @@ eks,clouddrove,9091,aws,https://github.com/clouddrove/terraform-aws-eks,"Terrafo
 eks,clushie,19136,aws,https://github.com/clushie/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
 eks,codezenith,4492,aws,https://github.com/codezenith/terraform-aws-eks,AWS EKS template
 eks,cookpad,4551,aws,https://github.com/cookpad/terraform-aws-eks,A Terraform module to Provision AWS Elastic Kubernetes (EKS) clusters.
-eks,cypik,22844,aws,https://github.com/cypik/terraform-aws-eks,
+eks,cypik,22844,aws,https://github.com/cypik/terraform-aws-eks,"Terraform module for provisioning Auto Scaling, Worker Nodes, and EKS."
 eks,dasmeta,14938,aws,https://github.com/dasmeta/terraform-aws-eks,All terraform modules that are related or supporting EKS setup
 eks,dodevops,18749,aws,https://github.com/dodevops/terraform-aws-eks,Highly opinionated Kubernetes management for AWS
 eks,dreckguy,15482,aws,https://github.com/dreckguy/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
@@ -9562,6 +9564,7 @@ jayaworld-s3-bucket,JayavardhanTummidi,9922,aws,https://github.com/JayavardhanTu
 jayaworld-s3-bucket-object,JayavardhanTummidi,10074,aws,https://github.com/JayavardhanTummidi/terraform-aws-jayaworld-s3-bucket-object,
 jayaworld-s3-logs-bucket,JayavardhanTummidi,9965,aws,https://github.com/JayavardhanTummidi/terraform-aws-jayaworld-s3-logs-bucket,
 jayaworld-security-group,JayavardhanTummidi,11549,aws,https://github.com/JayavardhanTummidi/terraform-aws-jayaworld-security-group,
+jayesh-test-vpc,jaypatil09,29589,aws,https://github.com/jaypatil09/terraform-aws-jayesh-test-vpc,
 jellyfin,Feleuxens,22198,helm,https://github.com/Feleuxens/terraform-helm-jellyfin,Terraform module for provisioning Jellyfin
 jellyseerr,Feleuxens,22204,helm,https://github.com/Feleuxens/terraform-helm-jellyseerr,Terraform module for provisioning Jellyseerr
 jenkins,Cloud-42,25327,aws,https://github.com/Cloud-42/terraform-aws-jenkins,"Immutable, auto-updating Jenkins Master. Data stored on encrypted EFS."
@@ -9996,7 +9999,7 @@ kms,c0x12c,29282,aws,https://github.com/c0x12c/terraform-aws-kms,
 kms,clouddrove,16715,gcp,https://github.com/clouddrove/terraform-gcp-kms,
 kms,clouddrove,3645,aws,https://github.com/clouddrove/terraform-aws-kms,This terraform module creates a KMS Customer Master Key (CMK) and its alias.
 kms,cypik,22760,google,https://github.com/cypik/terraform-google-kms,Enables customers to manage their encryption keys for data stored on GCP
-kms,cypik,22782,aws,https://github.com/cypik/terraform-aws-kms,
+kms,cypik,22782,aws,https://github.com/cypik/terraform-aws-kms,Terraform module to create an AWS KMS Customer Managed Key (CMK) with an alias.
 kms,devops4mecode,6803,aws,https://github.com/devops4mecode/terraform-aws-kms,
 kms,finisterra-io,23569,aws,https://github.com/finisterra-io/terraform-aws-kms,Terraform AWS KMS module
 kms,foss-cafe,6072,aws,https://github.com/ionicloud/terraform-aws-kms,terraform module for kms key
@@ -11770,6 +11773,7 @@ monitoring-agent,terraform-ibm-modules,28907,ibm,https://github.com/terraform-ib
 monitoring-alert-policy,albahli,25123,google,https://github.com/albahli/terraform-google-monitoring-alert-policy,A custom Terraform module that creates a Google Cloud Monitoring Alert Policy.
 monitoring-bundle,blackbird-cloud,15824,helm,https://github.com/blackbird-cloud/terraform-helm-monitoring-bundle,"Core module of monitoring bundle, contains deployment of both prometheus and grafana"
 monitoring-cluster,Mtt6300,4760,kubernetes,https://github.com/Mtt6300/terraform-kubernetes-monitoring-cluster,Monitoring tools for k8s cluster by using Terraform
+monitoring-notification-channel,c0x12c,29591,gcp,https://github.com/c0x12c/terraform-gcp-monitoring-notification-channel,
 monitoring-notification-channel,mineiros-io,11281,google,https://github.com/mineiros-io/terraform-google-monitoring-notification-channel,A Terraform module to manage monitoring Notification Channels in Google Cloud https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/monitoring_notification_channel
 monitoring-policies,Nepomuceno,10199,azurerm,https://github.com/Nepomuceno/terraform-azurerm-monitoring-policies,
 monitoring-policy,netascode,9946,aci,https://github.com/netascode/terraform-aci-monitoring-policy,Terraform Cisco ACI Monitoring Policy Module
@@ -17658,6 +17662,7 @@ synapse-analytics,pranoybej,21593,azurerm,https://github.com/pranoybej/terraform
 sync,L2Solutions,8824,flux,https://github.com/skyfjell/terraform-flux-sync,
 sync-files,4ops,7244,null,https://github.com/4ops/terraform-null-sync-files,Terraform module
 sync-s3-to-b2,silinternational,25726,aws,https://github.com/silinternational/terraform-aws-sync-s3-to-b2,Terraform module to synchronize the content of an AWS S3 bucket on a Backblaze B2 bucket
+syncdir,MarioMoura,29595,aws,https://github.com/MarioMoura/terraform-aws-syncdir,
 syncthing,cezarmathe,8650,docker,https://github.com/cezarmathe/terraform-docker-syncthing,A Terraform module for deploying Syncthing.
 synthetics-monitor,USFoods,18017,newrelic,https://github.com/USFoods/terraform-newrelic-synthetics-monitor,A Terraform module for New Relic with an opinionated synthetics monitor and optional alert condition. 
 synthetics-script-monitor,USFoods,17676,newrelic,https://github.com/USFoods/terraform-newrelic-synthetics-script-monitor,A Terraform module for New Relic with an opinionated synthetics script monitor and optional alert condition.
