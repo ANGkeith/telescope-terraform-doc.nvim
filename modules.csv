@@ -4015,6 +4015,7 @@ compute-forwarding-rule,dcos-terraform,1593,gcp,https://github.com/dcos-terrafor
 compute-forwarding-rule-dcos,dcos-terraform,1597,gcp,https://github.com/dcos-terraform/terraform-gcp-compute-forwarding-rule-dcos,This module creates forwarding rules for DC/OS.
 compute-forwarding-rule-masters,dcos-terraform,1595,gcp,https://github.com/dcos-terraform/terraform-gcp-compute-forwarding-rule-masters,Creates an GCP forwarding rule for DC/OS masters
 compute-forwarding-rule-public-agents,dcos-terraform,1596,gcp,https://github.com/dcos-terraform/terraform-gcp-compute-forwarding-rule-public-agents,This module creates an GCP forwarding rule for DC/OS public agents
+compute-function,webstean,29630,azurerm,https://github.com/webstean/terraform-azurerm-compute-function,
 compute-gallery,cdornele,28196,azure,https://github.com/cdornele/terraform-azure-compute-gallery,Azure Compute Gallery - Terraform Module
 compute-gallery,libre-devops,13586,azurerm,https://github.com/libre-devops/terraform-azurerm-compute-gallery,A module used to deploy an Azure Compute Gallery
 compute-gallery-image,libre-devops,23659,azurerm,https://github.com/libre-devops/terraform-azurerm-compute-gallery-image,A module used to deploy a compute gallery image 💿
@@ -7968,6 +7969,7 @@ firewall-net-rule-module,hrvojep,18375,azurerm,https://github.com/hrvojep/terraf
 firewall-net-rule-module-cts,hrvojep,18427,azurerm,https://github.com/hrvojep/terraform-azurerm-firewall-net-rule-module-cts,
 firewall-network-rules,cyber-scot,21648,azurerm,https://github.com/cyber-scot/terraform-azurerm-firewall-network-rules,A module used to help simpify the network firewall rules within a Azure Firewall 🧱✅
 firewall-nlb,r-teller,10147,google,https://github.com/r-teller/terraform-google-internal-loadbalancer,
+firewall-policy,CloudAstro,29625,azurerm,https://github.com/CloudAstro/terraform-azurerm-firewall-policy,Firewall Policy is a centralized configuration that defines a set of rules and settings used to manage and control network traffic through a firewall.
 firewall-policy,cyber-scot,21780,azurerm,https://github.com/cyber-scot/terraform-azurerm-firewall-policy,A module used to deploy an Azure firewall policy and a default rule collection to that policy
 firewall-policy,jsathler,21059,azurerm,https://github.com/jsathler/terraform-azurerm-firewall-policy,
 firewall-policy,kasna-cloud,18659,gcp,https://github.com/kasna-cloud/terraform-gcp-firewall-policy,GCP Firewall Policy Terraform Module
@@ -9961,7 +9963,7 @@ kinesis-data-stream-addon,symopsio,15715,aws,https://github.com/symopsio/terrafo
 kinesis-data-stream-connector,symopsio,18047,aws,https://github.com/symopsio/terraform-aws-kinesis-data-stream-connector,The `kinesis-data-stream-connector` module provisions a single Kinesis Data Stream which the Sym Runtime has permission to write log data to.
 kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch, IAM Roles and Security Groups that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
 kinesis-firehose,felipefrizzo,1778,aws,https://github.com/felipefrizzo/terraform-aws-kinesis-firehose,This code creates a Kinesis Firehose in AWS to send CloudWatch log data to S3.
-kinesis-firehose,observeinc,28682,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,Terraform module to configure a Kinesis Firehose delivery stream towards Observe
+kinesis-firehose,observeinc,28682,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,
 kinesis-firehose-addon,symopsio,15714,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-addon,The `aws/kinesis-firehose` add-on provisions AWS Kinesis Firehose access for a Sym `runtime-connector` module.
 kinesis-firehose-connector,symopsio,15718,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-connector,The `kinesis-firehose-connector` module provisions dependencies for creating a Kinesis Firehose.
 kinesis-firehose-datadog,ferhatvurucu,8446,aws,https://github.com/ferhatvurucu/terraform-aws-kinesis-firehose-datadog,This module configures Amazon Kinesis Firehose to send the log data to Datadog using HTTP Endpoint.
@@ -12989,6 +12991,7 @@ onboarding,cyngularsecurity,25462,azure,https://github.com/cyngularsecurity/terr
 onboarding,shadbury,14776,aws,https://github.com/shadbury/terraform-aws-onboarding,List of resources required for onboarding clients into AWS
 onboarding,strongdm,6153,sdm,https://github.com/strongdm/terraform-sdm-onboarding,Create your strongDM onboarding environment in AWS
 onboarding,upwindsecurity,29243,google,https://github.com/upwindsecurity/terraform-google-onboarding,
+onboarding,upwindsecurity,29626,azurerm,https://github.com/upwindsecurity/terraform-azurerm-onboarding,
 onboarding-module,kalenarndt,15456,tfe,https://github.com/kalenarndt/terraform-tfe-onboarding-module,TFC/E onboarding module. Originally forked from WhatsARanjit
 ondat-addon,ondat,12901,eksblueprints,https://github.com/ondat/terraform-eksblueprints-ondat-addon,Terraform Amazon EKS Blueprints addon to enrich stateful storage in Kubernetes.
 ondrejsika-aks,ondrejsika,20741,module,https://github.com/ondrejsika/terraform-module-ondrejsika-aks,
@@ -16999,6 +17002,7 @@ sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraf
 sso,cloud-security-labs,7443,aws,https://github.com/cloud-security-labs/terraform-aws-sso,Terraform module that creates AWS SSO Permission Set
 sso,cloudposee,28094,aws,https://github.com/cloudposee/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
 sso,cloudposse,7604,aws,https://github.com/cloudposse/terraform-aws-sso,Terraform module to configure AWS Single Sign-On (SSO)
+sso,erezo9,29627,aws,https://github.com/erezo9/terraform-aws-sso,terraform-aws-sso
 sso,rhythmictech,3139,okta,https://github.com/rhythmictech/terraform-aws-okta-sso,
 sso-abac,HK-Transfield,25808,aws,https://github.com/HK-Transfield/terraform-aws-sso-abac,Terraform Module for configuring Attribute-based Access Control (ABAC) in AWS using IAM Identity Center.
 sso-account-assignment,fivexl,15979,aws,https://github.com/fivexl/terraform-aws-sso-account-assignment,Module for create Account assignments in SSO
@@ -17994,6 +17998,7 @@ test-vpc,MohammadShahzaib21,25771,aws,https://github.com/MohammadShahzaib21/terr
 test-vpc,Yashmehta-07,26072,aws,https://github.com/Yashmehta-07/terraform-aws-test-vpc,
 test-vpc,gusainDeekshu,28594,aws,https://github.com/gusainDeekshu/terraform-aws-test-vpc,
 test-vpc-module,MohammadShahzaib21,25774,aws,https://github.com/MohammadShahzaib21/terraform-aws-test-vpc-module,
+test-vpc-module,malissa33,29628,aws,https://github.com/malissa33/terraform-aws-test-vpc-module,
 test1,recep-instructor,23460,aws,https://github.com/recep-instructor/terraform-aws-test1,
 test1,terraform-registry-dsvvsai,11947,registry,https://github.com/terraform-registry-dsvvsai/terraform-registry-test1,
 test2,abhishekPhukan,22383,aws,https://github.com/abhishekPhukan/terraform-aws-test2,
@@ -20212,7 +20217,7 @@ zenml-stack,zenml-io,25532,gcp,https://github.com/zenml-io/terraform-gcp-zenml-s
 zenml-stacks,zenml-io,25536,azure,https://github.com/zenml-io/terraform-azure-zenml-stacks,
 zenml-stck,zenml-io,25534,azure,https://github.com/zenml-io/terraform-azure-zenml-stck,A Terraform module for provisioning and registering a cloud ZenML stack in Azure.
 zenpacklab,linkslice,26180,docker,https://github.com/linkslice/terraform-docker-zenpacklab,
-zenta-network,Zenta-Group,29612,gcp,https://github.com/Zenta-Group/terraform-gcp-zenta-network,
+zenta-network,Zenta-Group,29629,gcp,https://github.com/Zenta-Group/terraform-gcp-zenta-network,
 zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero modules for the AWS EKS Stack
 zero-to-ec2,defilippomattia,23737,aws,https://github.com/defilippomattia/terraform-aws-zero-to-ec2,Terraform module which creates all the resources needed for VM on AWS.
 zero-trust-access,sajjadkhan12,28269,cloudflare,https://github.com/sajjadkhan12/terraform-cloudflare-zero-trust-access,A module for cloudflare zero trust access
