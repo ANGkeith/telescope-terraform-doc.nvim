@@ -1872,7 +1872,7 @@ avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terra
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
 avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for Container App Jobs
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
-avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,
+avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,Terraform Azure Verified Resource Module for App Configuration Store
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
 avm-res-automation-automationaccount,Azure,28468,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-automation-automationaccount,
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
@@ -1882,6 +1882,7 @@ avm-res-azurestackhci-virtualmachineinstance,Azure,25936,azurerm,https://github.
 avm-res-batch-batchaccount,Azure,28741,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-batch-batchaccount,
 avm-res-cache-redis,Azure,24930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redis,"To gain access, please finish setting up this repository now at: "
 avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,AVM Terraform Module for Azure CDN Profiles
+avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,This Terraform module is designed to manage Azure Cognitive Services. It provides a comprehensive set of variables and resources to configure and deploy Cognitive Services in Azure.
 avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,AVM Terraform module for  Email Communication Service
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
@@ -3617,7 +3618,6 @@ cloudwatch,TerraPros,27811,aws,https://github.com/TerraPros/terraform-aws-cloudw
 cloudwatch,TerraformFoundation,27887,aws,https://github.com/TerraformFoundation/terraform-aws-cloudwatch,Terraform module to create AWS Cloudwatch resources 🇺🇦
 cloudwatch,bigpandaio,19927,bigpanda,https://github.com/bigpandaio/terraform-bigpanda-cloudwatch,BigPanda Cloudwatch integration terraform files
 cloudwatch,bootlabstech-m,17542,aws,https://github.com/bootlabstech-m/terraform-aws-cloudwatch,
-cloudwatch,c0x12c,29281,aws,https://github.com/c0x12c/terraform-aws-cloudwatch,
 cloudwatch,finisterra-io,23555,aws,https://github.com/finisterra-io/terraform-aws-cloudwatch,Terraform AWS Cloudwatch module
 cloudwatch,foss-cafe,18585,aws,https://github.com/ionicloud/terraform-aws-cloudwatch,Terraform module for for AWS Cloudwatch
 cloudwatch,mikamakusa,25631,aws,https://github.com/mikamakusa/terraform-aws-cloudwatch,
@@ -4656,6 +4656,7 @@ db,cypik,24437,aws,https://github.com/cypik/terraform-aws-db,
 db,mohsenSy,10928,digitalocean,https://github.com/mohsenSy/terraform-digitalocean-db,A terraform module to manage Digital Ocean Database Clusters
 db,tedilabs,15935,aws,https://github.com/tedilabs/terraform-aws-db,🌳 A sustainable Terraform Package which creates resources for Databases on AWS
 db-RDS,bootlabstech-m,18413,aws,https://github.com/bootlabstech-m/terraform-aws-db-RDS,
+db-RDS-new,bootlabstech-m,29641,aws,https://github.com/bootlabstech-m/terraform-aws-db-RDS-new,new rds db
 db-cluster-parameter-group,finisterra-io,23556,aws,https://github.com/finisterra-io/terraform-aws-db-cluster-parameter-group,Terraform AWS DB Cluster Parameter Group module
 db-dynamic-secrets,andrefcpimentel2,21678,vault,https://github.com/andrefcpimentel2/terraform-vault-db-dynamic-secrets,
 db-group,iqz-systems,10121,postgresql,https://github.com/iqz-systems/terraform-postgresql-db-group,Terraform module to create a bunch of databases in a database instance with common username and password.
@@ -7234,7 +7235,6 @@ eks-gitlab-runner,lablabs,16420,aws,https://github.com/lablabs/terraform-aws-eks
 eks-gitops-cluster,parisnakitakejser,22683,aws,https://github.com/parisnakitakejser/terraform-aws-eks-gitops-cluster,Fully AWS EKS cluster with lots of modules enabled from the beginning to support GitOps.
 eks-grafana,lablabs,11198,aws,https://github.com/lablabs/terraform-aws-eks-grafana,
 eks-grafana-prometheus,DNXLabs,8674,aws,https://github.com/DNXLabs/terraform-aws-eks-grafana-prometheus,Terraform module for deploying Kubernetes Prometheus and Grafana inside a pre-existing EKS cluster.
-eks-helm,c0x12c,29317,aws,https://github.com/c0x12c/terraform-aws-eks-helm,
 eks-helm,dabble-of-devops-bioanalyze,11220,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-helm,Generic implementation of deploying helm charts on AWS EKS with DNS management in Route53
 eks-helm-argocd,rallyware,12081,aws,https://github.com/rallyware/terraform-aws-eks-helm-argocd,Terraform module for installing ArgoCD using a helm chart
 eks-helm-release,blackbird-cloud,19884,aws,https://github.com/blackbird-cloud/terraform-aws-eks-helm-release,Terraform module to assist in deploying Helm releases on your AWS EKS cluster.
@@ -9608,6 +9608,7 @@ jenkins,umairshaikh45,27485,aws,https://github.com/umairshaikh45/terraform-aws-j
 jenkins-ha-agents,neiman-marcus,2569,aws,https://github.com/neiman-marcus/terraform-aws-jenkins-ha-agents,A terraform module for a highly available Jenkins deployment.
 jenkins-high-number-of-blocked-jobs-in-jenkins-queue,terraform-shoreline-modules,20334,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-jenkins-high-number-of-blocked-jobs-in-jenkins-queue,This repository was generated automatically based on a Shoreline Insights Runbook.
 jenkins-high-percentage-of-blocked-items-in-jenkins-queue,terraform-shoreline-modules,20339,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-jenkins-high-percentage-of-blocked-items-in-jenkins-queue,This repository was generated automatically based on a Shoreline Insights Runbook.
+jenkins-oidc,c0x12c,29639,aws,https://github.com/c0x12c/terraform-aws-jenkins-oidc,
 jenkinsmaster,mamrezb,26896,hcloud,https://github.com/mamrezb/terraform-hcloud-jenkinsmaster,
 jetstack-certmanager,bailey84j,11703,kubernetes,https://github.com/bailey84j/terraform-kubernetes-jetstack-certmanager,Terraform module to deploy Jet Stack Cert Manager
 jinad-aws,jina-ai,7869,jina,https://github.com/jina-ai/terraform-jina-jinad-aws,Module for deploying JinaD on AWS
@@ -10846,6 +10847,7 @@ ldap,netascode,20958,aci,https://github.com/netascode/terraform-aci-ldap,Terrafo
 ldap-password,terraform-iaac,9860,kubernetes,https://github.com/terraform-iaac/terraform-kubernetes-ldap-password,Terraform module used to easily create deploy and configure ldap password via WebUI 
 learn,balakrishna211221,24086,module,https://github.com/balakrishna211221/terraform-module-learn,
 learn-terraform-modules,Gaven-Yeh,5125,aws,https://github.com/Gaven-Yeh/terraform-aws-learn-terraform-modules,Companion module to the Advanced Modules track on learn.hashicorp.com
+learn3cloud,hashlion,29644,gcp,https://github.com/hashlion/terraform-gcp-learn3cloud,
 learning,Ingole712521,24089,aws,https://github.com/Ingole712521/terraform-aws-learning,
 learning,sumavarma,20949,aws,https://github.com/sumavarma/terraform-aws-learning,
 learninglab,remche,8805,openstack,https://github.com/remche/terraform-openstack-learninglab,Build your learning lab on OpenStack
@@ -11103,6 +11105,7 @@ lookup,InfiniteLoopIO,17898,cidr,https://github.com/InfiniteLoopIO/terraform-cid
 lts,tf-cloud-modules,19011,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-lts,Sbercloud LTS Terraform module
 lucid-aws-import,lucidsoftware,27784,aws,https://github.com/lucidsoftware/terraform-aws-lucid-aws-import,Terraform modules to set up the necessary IAM roles and policies for Lucid AWS imports
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
+lunar-mcpx,TheLunarCompany,29643,kubernetes,https://github.com/TheLunarCompany/terraform-kubernetes-lunar-mcpx,
 lxc,RoseSecurity-Research,20540,proxmox,https://github.com/RoseSecurity-Research/terraform-proxmox-lxc,
 lxc,joao-pedro-rdo,27326,proxmox,https://github.com/joao-pedro-rdo/terraform-proxmox-lxc,Modulo terraform para proxmox 
 lxc,leyendanerd,17649,proxmox,https://github.com/leyendanerd/terraform-proxmox-lxc,terraform-proxmox-lxc
@@ -11136,6 +11139,7 @@ magento-dashboards,davidalger,3728,datadog,https://github.com/davidalger/terrafo
 magma,ShubhamTatvamasi,12716,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma,
 magma-galaxy,ShubhamTatvamasi,14943,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-galaxy,
 magma-pricing,ShubhamTatvamasi,12542,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma-pricing,
+mahin-test-vpc,Mahin556,29640,aws,https://github.com/Mahin556/terraform-aws-mahin-test-vpc,
 mahirmodule-test-vpc,mahir-makwana,26398,aws,https://github.com/mahir-makwana/terraform-aws-mahirmodule-test-vpc,
 mahistorage,Mahi2327,28731,azure,https://github.com/Mahi2327/terraform-azure-mahistorage,
 mail,devops-ia,25619,nexus,https://github.com/devops-ia/terraform-nexus-mail,Terraform module for create Nexus Mail
@@ -12392,7 +12396,6 @@ network,7minwlee7,10555,azurerm,https://github.com/7minwlee7/terraform-azurerm-n
 network,AlexBevan,5375,azurerm,https://github.com/AlexBevan/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,AshwiniKhedekar,19029,google,https://github.com/AshwiniKhedekar/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,Azure,33,azurerm,https://github.com/Azure/terraform-azurerm-network,Terraform Azure RM Module for Network
-network,CloudNationHQ,29631,infoblox,https://github.com/CloudNationHQ/terraform-infoblox-network,Terraform module which createsinfoblox network resources used by workloads and accelerators.
 network,DNXLabs,5743,aws,https://github.com/DNXLabs/terraform-aws-network,"Terraform module for creating basic network resources: VPC, subnets and NAT."
 network,DanielMabbett,6002,azurerm,https://github.com/DanielMabbett/terraform-azurerm-network,A better AzureRM network (vnet) module
 network,FlyingSnake,23345,aws,https://github.com/FlyingSnake/terraform-aws-network,Terraform Module (AWS Network Resource Initialization)
@@ -12959,7 +12962,6 @@ office365-domains,cloudspout,4033,aws,https://github.com/cloudspout/terraform-aw
 ohp-ecr,ohpensource,10454,aws,https://github.com/ohpensource/terraform-aws-ohp-ecr,Terraform Module for AWS ECR 
 ohp-s3,ohpensource,10536,aws,https://github.com/ohpensource/terraform-aws-ohp-s3,
 oidc,appvia,23758,aws,https://github.com/appvia/terraform-aws-oidc,Terraform module for OIDC integration for IAM
-oidc,c0x12c,29296,aws,https://github.com/c0x12c/terraform-aws-oidc,
 oidc-auth-method,bmcdonald05,15111,vault,https://github.com/bmcdonald05/terraform-vault-oidc-auth-method,Terraform module for the Vault provider for enabling the OIDC auth method and creating an identity group/alias for external group mappings.
 oidc-auth0,TomTucka,16479,boundary,https://github.com/TomTucka/terraform-boundary-oidc-auth0,Terraform module to create OIDC connection in Boundary with Auth0
 oidc-bitbucket,pelotech,21620,aws,https://github.com/pelotech/terraform-aws-oidc-bitbucket,
@@ -12968,7 +12970,7 @@ oidc-github,unfunco,11233,aws,https://github.com/unfunco/terraform-aws-oidc-gith
 oidc-github,vrs-factory,23188,aws,https://github.com/vrs-factory/terraform-aws-oidc-github,
 oidc-github-actions-module,moritzheiber,11303,aws,https://github.com/moritzheiber/terraform-aws-oidc-github-actions-module,A Terraform module for dynamically authenticating and authorizing GitHub Actions on AWS using OIDC
 oidc-gitlab,pelotech,17767,aws,https://github.com/pelotech/terraform-aws-oidc-gitlab,Terraform module to configure GitLab runner pipelines with AWS Identity Provider OIDC
-oidc-provider,c0x12c,29440,aws,https://github.com/c0x12c/terraform-aws-oidc-provider,
+oidc-provider,c0x12c,29638,aws,https://github.com/c0x12c/terraform-aws-oidc-provider,
 oidc-provider,devops-rob,26071,vault,https://github.com/devops-rob/terraform-vault-oidc-provider,
 oidc-provider,jamieastley,26831,aws,https://github.com/jamieastley/terraform-aws-oidc-provider,A Terraform module to create OIDC roles and providers in AWS
 oidc-provider,srb3,27589,azuread,https://github.com/srb3/terraform-azuread-oidc-provider,
@@ -16338,6 +16340,7 @@ service-role,dlddu,23034,aws,https://github.com/dlddu/terraform-aws-service-role
 service-role,yutaka0m,4784,aws,https://github.com/yutaka0m/terraform-aws-service-role,Terraform module which creates Service Role on AWS
 service-roles,apparentlymart,3109,aws,https://github.com/apparentlymart/terraform-aws-service-roles,A Terraform module for creating AWS IAM service roles
 service-scheduler,phergoualch,21272,aws,https://github.com/phergoualch/terraform-aws-service-scheduler,The Service Scheduler is an open-source project developed to help scheduling resources on development and test environments to save money.
+service-skeleton,Varsentinel,29642,harness,https://github.com/Varsentinel/terraform-harness-service-skeleton,
 service-vmss,snowplow-devops,19490,azurerm,https://github.com/snowplow-devops/terraform-azurerm-service-vmss,
 serviceAccount,badal-io,3877,google,https://github.com/badal-io/terraform-google-serviceAccount,
 service_account,airasia,4754,google,https://github.com/airasia/terraform-google-service_account,Terraform module for a IAM Service Account in GCP
