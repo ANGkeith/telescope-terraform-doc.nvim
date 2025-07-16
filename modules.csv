@@ -202,6 +202,7 @@ account-defaults,geekcell,19558,aws,https://github.com/geekcell/terraform-aws-ac
 account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-aws-account-defaults,A Terraform module for configuring account defaults.
 account-details,armakuni,21251,aws,https://github.com/armakuni/terraform-aws-account-details,A module that provides various details about the AWS account.
 account-factory,SudharsaneSivamany,24714,aws,https://github.com/SudharsaneSivamany/terraform-aws-account-factory,
+account-factory,truemark,29708,aws,https://github.com/truemark/terraform-aws-account-factory,
 account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-account-identity,This terraform module creates identity roles in AWS.
 account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraform-aws-account-info,"A Terraform module which uses a number of datasources to read information about the current AWS account. Handy when used in combination with Terragrunt, one will have fewer variables to hardcode on the Terragrunt files."
 account-infrastructure-base,terraform-ibm-modules,27661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-account-infrastructure-base,A general base layer module for setting up a newly provisioned account.
@@ -715,7 +716,7 @@ all,mikamakusa,25836,azuread,https://github.com/mikamakusa/terraform-azuread-all
 all-modules,sibikmc,21481,alibaba,https://github.com/sibikmc/terraform-alibaba-alll-modules,
 allin1website,zhouyuanzhen,3606,alicloud,https://github.com/zhouyuanzhen/terraform-alicloud-allin1website,An AliCloud terraform module to quick spawn up an allin1 website on AliCloud 
 alll-modules,sibikmc,21482,alibaba,https://github.com/sibikmc/terraform-alibaba-alll-modules,Creating an ecs and security group in alicloud in terraform scripts 
-allocation,CloudNationHQ,29634,infoblox,https://github.com/CloudNationHQ/terraform-infoblox-allocation,
+allocation,CloudNationHQ,29634,infoblox,https://github.com/CloudNationHQ/terraform-infoblox-allocation,Terraform module which allocates infoblox networks used by workloads and accelerators.
 allowlists,drand,5384,drand,https://github.com/drand/terraform-drand-allowlists,A Terraform module to fetch and provide drand-published allowlists
 alloy-db,GoogleCloudPlatform,18763,google,https://github.com/GoogleCloudPlatform/terraform-google-alloy-db,Creates an Alloy DB instance
 alloydb,mikamakusa,25639,google,https://github.com/mikamakusa/terraform-google-alloydb,
@@ -1887,7 +1888,7 @@ avm-res-batch-batchaccount,Azure,28741,azurerm,https://github.com/Azure/terrafor
 avm-res-cache-redis,Azure,24930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redis,"To gain access, please finish setting up this repository now at: "
 avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,AVM Terraform Module for Azure CDN Profiles
 avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
-avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,This Terraform module is designed to manage Azure Cognitive Services. It provides a comprehensive set of variables and resources to configure and deploy Cognitive Services in Azure.
+avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,Terraform Azure Verified Resource Module for Cognitive Service
 avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,AVM Terraform module for  Email Communication Service
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,AVM Terraform module for Disk Encryption Set
@@ -1904,6 +1905,7 @@ avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraf
 avm-res-datafactory-factory,Azure,28746,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-datafactory-factory,
 avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/SkittleBomb/terraform-azurerm-avm-res-datafactory-factory,Creates and manages Azure Datafactory
 avm-res-dataprotection-backupvault,Azure,29160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault,Terraform Azure Verified Resource Module for Data Protection Backup Vault
+avm-res-dataprotection-resourceguard,Azure,29706,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-resourceguard,Terraform Azure Verified Resource Module for Data Protection Resource Guard
 avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,
 avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,
 avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,AVM for Desktop Virtualization Application group
@@ -1922,7 +1924,7 @@ avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/A
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Azure Verified Module for Key Vault
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
 avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow,AVM Terraform module for logic app workflow
-avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,AVM Module for Azure Machine learning workspaces.
+avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,Terraform Azure Verified Resource Module for Machine Learning Services Workspace
 avm-res-maintenance-maintenanceconfiguration,Azure,28504,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-maintenance-maintenanceconfiguration,Terraform Azure Verified Resource Module for Maintenance Configuration
 avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,"To gain access, please finish setting up this repository now at: "
 avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,The AVM resource module for Azure NetApp Files
@@ -1931,9 +1933,9 @@ avm-res-network-applicationgatewaywebapplicationfirewallpolicy,Azure,27640,azure
 avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationsecuritygroup,This Terraform module is designed to create Application Security Groups.
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,Azure Firewall AVM Module
 avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost,Azure Verified Module for Bastion Host
-avm-res-network-connection,Azure,27387,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-connection,AVM Terraform resource module for network connections
+avm-res-network-connection,Azure,27387,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-connection,Terraform Azure Verified Resource Module for Virtual Network Gateway Connection
 avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan Azure Verified Module
-avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,AVM Terraform module for private DNS resolver
+avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,Terraform Azure Verified Resource Module for DNS Resolver
 avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone,AVM Terraform Module for DNS Zone
 avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,AVM Terraform module for ExpressRoute Circuits.
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Azure Firewall Policy AVM Module
@@ -1963,7 +1965,7 @@ avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraf
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,
-avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,"This Terraform module is designed to create Azure Storage Accounts and its related resources, including blob containers, queues, tables, and file shares. It also supports the creation of a storage account private endpoint which provides secure and direct connectivity to Azure Storage over a private network."
+avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
@@ -5857,6 +5859,9 @@ dsf-agent-gw,imperva,29684,aws,https://github.com/imperva/terraform-aws-dsf-agen
 dsf-agent-gw-cluster-setup,imperva,29690,null,https://github.com/imperva/terraform-null-dsf-agent-gw-cluster-setup,
 dsf-agentless-gw,imperva,29693,aws,https://github.com/imperva/terraform-aws-dsf-agentless-gw,This Terraform module provisions a DSF agentless gateway on AWS as an EC2 instance
 dsf-agentless-gw,imperva,29694,azurerm,https://github.com/imperva/terraform-azurerm-dsf-agentless-gw," This Terraform module provisions a DSF agentless gateway on Azure as an VM instance "
+dsf-ciphertrust-manager,imperva,29705,aws,https://github.com/imperva/terraform-aws-dsf-ciphertrust-manager,
+dsf-ciphertrust-manager-cluster-setup,imperva,29704,null,https://github.com/imperva/terraform-null-dsf-ciphertrust-manager-cluster-setup,
+dsf-cte-ddc-agent,imperva,29703,aws,https://github.com/imperva/terraform-aws-dsf-cte-ddc-agent,
 dsf-db-with-agent,imperva,29680,azurerm,https://github.com/imperva/terraform-azurerm-dsf-db-with-agent,This Terraform module sets up an Azure virtual machine instance with a database monitored by an agent and registers it into DSF
 dsf-db-with-agent,imperva,29685,aws,https://github.com/imperva/terraform-aws-dsf-db-with-agent,This Terraform module sets up an EC2 instance with agent monitored db and registered it into DSF 
 dsf-dra-admin,imperva,29682,azurerm,https://github.com/imperva/terraform-azurerm-dsf-dra-admin,This Terraform module provisions an DRA Admin server on Azure as an VM instance
@@ -6034,7 +6039,6 @@ ec2,Supriya9876,28877,aws,https://github.com/Supriya9876/terraform-aws-ec2,
 ec2,SyncArcs,29010,aws,https://github.com/SyncArcs/terraform-aws-ec2,Terraform module to create an EC2 instance on AWS.
 ec2,VenkiiChowdary,12232,aws,https://github.com/VenkiiChowdary/terraform-aws-ec2,
 ec2,abrashamchowdhury,17914,aws,https://github.com/abrashamc/terraform-aws-ec2,
-ec2,adhya2020,29519,aws,https://github.com/adhya2020/terraform-aws-ec2,
 ec2,akshatjain17,17699,aws,https://github.com/akshatjain17/terraform-aws-ec2,
 ec2,arjunkoppineni,28868,aws,https://github.com/arjunkoppineni/terraform-aws-ec2,
 ec2,arul-ap,24221,aws,https://github.com/arul-ap/terraform-aws-ec2,Module to create multiple EC2 instances.
@@ -6200,6 +6204,7 @@ ec2-instance,UsmanMalik762,12080,aws,https://github.com/UsmanMalik762/terraform-
 ec2-instance,Yeswanthteja1010,28858,aws,https://github.com/Yeswanthteja1010/terraform-aws-ec2-instance,
 ec2-instance,aH0-STS,28859,aws,https://github.com/aH0-STS/terraform-aws-ec2-instance,
 ec2-instance,abdulsamimmondal,28883,aws,https://github.com/abdulsamimmondal/terraform-aws-ec2-instance,repo for ec2 instance creation
+ec2-instance,adhya2020,29707,aws,https://github.com/adhya2020/terraform-aws-ec2-instance,
 ec2-instance,akbaribnu,1302,aws,https://github.com/unbirabka/terraform-aws-ec2-instance,terraform-aws-ec2-instance
 ec2-instance,alisdair,1826,aws,https://github.com/alisdair/terraform-aws-ec2-instance,Terraform module which creates EC2 instance(s) on AWS
 ec2-instance,ankitamohanty1509,28869,aws,https://github.com/ankitamohanty1509/terraform-aws-ec2-instance,
@@ -6414,7 +6419,7 @@ ecr,cloudposee,28005,aws,https://github.com/cloudposee/terraform-aws-ecr,Terrafo
 ecr,cloudposse,206,aws,https://github.com/cloudposse/terraform-aws-ecr,Terraform Module to manage Docker Container Registries on AWS ECR
 ecr,clowdhaus,13057,aws,https://github.com/terraform-aws-modules/terraform-aws-ecr,Terraform module to create AWS ECR resources 🇺🇦
 ecr,corpit-consulting-public,5151,aws,https://github.com/corpit-consulting-public/terraform-aws-ecr,
-ecr,cypik,22839,aws,https://github.com/cypik/terraform-aws-ecr,
+ecr,cypik,22839,aws,https://github.com/cypik/terraform-aws-ecr,This Terraform module provisions and manages AWS ECR for container image storage
 ecr,delivops,26426,aws,https://github.com/delivops/terraform-aws-ecr,
 ecr,eriktisme,7377,aws,https://github.com/eriktisme/terraform-aws-ecr,Creates a repository on AWS.
 ecr,finisterra-io,23549,aws,https://github.com/finisterra-io/terraform-aws-ecr,Terraform AWS ECR module
@@ -15217,7 +15222,7 @@ s3,bootlabstech-m,17414,aws,https://github.com/bootlabstech-m/terraform-aws-s3,
 s3,c0x12c,29285,aws,https://github.com/c0x12c/terraform-aws-s3,
 s3,clouddrove,3639,aws,https://github.com/clouddrove/terraform-aws-s3,Terraform module to create default S3 bucket with logging and encryption type specific features.
 s3,code4romania,28915,aws,https://github.com/code4romania/terraform-aws-s3,Terraform module for AWS S3
-s3,cypik,23475,aws,https://github.com/cypik/terraform-aws-s3,
+s3,cypik,23475,aws,https://github.com/cypik/terraform-aws-s3,Terraform module to create a default S3 bucket with logging and custom encryption settings.
 s3,dare-global,28257,aws,https://github.com/dare-global/terraform-aws-s3,Terraform module for provisioning AWS S3 resources.
 s3,dasmeta,21736,aws,https://github.com/dasmeta/terraform-aws-s3,Module(s) allow managing AWS S3 functionality
 s3,devops4mecode,6760,aws,https://github.com/devops4mecode/terraform-aws-s3,
@@ -20258,7 +20263,6 @@ zenml-stack,zenml-io,25532,gcp,https://github.com/zenml-io/terraform-gcp-zenml-s
 zenml-stacks,zenml-io,25536,azure,https://github.com/zenml-io/terraform-azure-zenml-stacks,
 zenml-stck,zenml-io,25534,azure,https://github.com/zenml-io/terraform-azure-zenml-stck,A Terraform module for provisioning and registering a cloud ZenML stack in Azure.
 zenpacklab,linkslice,26180,docker,https://github.com/linkslice/terraform-docker-zenpacklab,
-zenta-network,Zenta-Group,29629,gcp,https://github.com/Zenta-Group/terraform-gcp-zenta-network,
 zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero modules for the AWS EKS Stack
 zero-to-ec2,defilippomattia,23737,aws,https://github.com/defilippomattia/terraform-aws-zero-to-ec2,Terraform module which creates all the resources needed for VM on AWS.
 zero-trust-access,sajjadkhan12,28269,cloudflare,https://github.com/sajjadkhan12/terraform-cloudflare-zero-trust-access,A module for cloudflare zero trust access
