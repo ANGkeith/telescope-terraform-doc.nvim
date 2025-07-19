@@ -1872,10 +1872,10 @@ avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terrafo
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,The Azure Verified Module for the Virtual WAN Pattern
-avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,AVM Terraform Pattern Module for Virtual Network Gateway 
+avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,Terraform Azure Verified Pattern Module for Virtual Network Gateway
 avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,Terraform Azure Verified Resource Module for API Management Service
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,AVM Terraform module for Azure Container Apps
-avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for Container App Jobs
+avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for App Job
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,Terraform Azure Verified Resource Module for App Configuration Store
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
@@ -1921,7 +1921,7 @@ avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,ht
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,AVM Terraform Module for Application Insights
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
-avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Azure Verified Module for Key Vault
+avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Terraform Azure Verified Resource Module for Key Vault
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
 avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow,AVM Terraform module for logic app workflow
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,Terraform Azure Verified Resource Module for Machine Learning Services Workspace
@@ -2422,6 +2422,7 @@ base,resinstack,4902,vault,https://github.com/resinstack/terraform-vault-base,Ba
 base,resinstack,4903,nomad,https://github.com/resinstack/terraform-nomad-base,Base policy documents for Nomad.
 base,scottschreckengaust,2925,aws,https://github.com/scottschreckengaust/terraform-aws-base,Terraform base module for basic information
 base,srb3,6150,aws,https://github.com/srb3/terraform-aws-base,
+base,upmaru,29720,tama,https://github.com/upmaru/terraform-tama-base,Base modules for Tama
 base-components,ArcfieldSTC,21848,azure,https://github.com/ArcfieldSTC/terraform-azure-base-components,Module used for creating primary components used in Azure IaC deployments.
 base-firewall,NicholasPCole,15302,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-base-firewall,A set of minimal firewall rules suitable for application to all Droplets in an account
 base-member,jakoberpf,12348,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-member,
@@ -4361,6 +4362,7 @@ crd-demo-module,shernandez5,26022,kubernetes,https://github.com/shernandez5/terr
 crd-installer,iits-consulting,28382,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-crd-installer,
 crd-installer,iits-consulting,29676,kubernetes,https://github.com/iits-consulting/terraform-kubernetes-crd-installer,
 crds,iits-consulting,17839,helm,https://github.com/iits-consulting/terraform-helm-crds,This module installs Kubernetes CRDs required to run iits argocd module and related modules
+create-ec2,deep0304,29719,aws,https://github.com/deep0304/terraform-aws-create-ec2,
 create-ec2,kmayer10,28773,aws,https://github.com/kmayer10/terraform-aws-create-ec2,Terraform module to create AWS EC2
 create-ec2,kunalb19,28782,aws,https://github.com/kunalb19/terraform-aws-create-ec2,terraform-aws-create-ec2
 create-elb,kunalb19,28803,aws,https://github.com/kunalb19/terraform-aws-create-elb,terraform-aws-create-elb
@@ -19800,7 +19802,6 @@ vpcpublish,nobroent,27182,aws,https://github.com/nobroent/terraform-aws-vpcpubli
 vpct,Shokhinur,25569,aws,https://github.com/Shokhinur/terraform-aws-vpct,
 vpcytestmodule,HumbertoPeluso,10800,aws,https://github.com/HumbertoPeluso/terraform-aws-vpcytestmodule,
 vpe-gateway,terraform-ibm-modules,20263,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpe-gateway,Create Virtual Private Endpoint Gateways across VPC subnets.
-vpe-module,terraform-ibm-modules,19457,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-vpe-gateway,Create Virtual Private Endpoint Gateways across VPC subnets.
 vpn,FFerrinho,27363,google,https://github.com/FFerrinho/terraform-google-vpn,"Terraform module sets up a VPN infrastructure on Google Cloud Platform (GCP). It supports the creation of Classic VPN Gateways, HA VPN Gateways, and External VPN Gateways, along with their respective VPN tunnels. The module is highly configurable, allowing you to specify various parameters such as project, region, network, and VPN tunnel details."
 vpn,HobOps,18567,google,https://github.com/HobOps/terraform-google-vpn,Sets up a Cloud VPN gateway
 vpn,Smartbrood,552,aws,https://github.com/Smartbrood/terraform-aws-vpn,Terraform module to setup VPN
