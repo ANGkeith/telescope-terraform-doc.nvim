@@ -1879,7 +1879,7 @@ avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-
 avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for App Job
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,AVM Terraform module for Container Apps Managed Environments
 avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,Terraform Azure Verified Resource Module for App Configuration Store
-avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,AVM Terraform module for role assignments
+avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,Terraform Azure Verified Resource Module for Role Assignment
 avm-res-automation-automationaccount,Azure,28468,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-automation-automationaccount,
 avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,This repo will hold the Terraform version of the Azure Verified Module for Azure VMware Solution.
 avm-res-azurestackhci-cluster,Azure,25933,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-cluster,
@@ -1901,7 +1901,7 @@ avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terr
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,AVM Module Repo for Azure ACI
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
-avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,Azure Verified Module for AKS
+avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,Terraform Azure Verified Resource Module for AKS managed clusters
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
 avm-res-datafactory-factory,Azure,28746,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-datafactory-factory,
 avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/SkittleBomb/terraform-azurerm-avm-res-datafactory-factory,Creates and manages Azure Datafactory
@@ -4343,6 +4343,7 @@ cost-budget,binbashar,2587,aws,https://github.com/binbashar/terraform-aws-cost-b
 cost-explorer-monthly-billing-report,mnanchev,5534,aws,https://github.com/mnanchev/terraform-aws-cost-explorer-monthly-billing-report,Monthly Billing Report from cost explorer transformed to csv
 cost-management,unifa-inc,21950,aws,https://github.com/unifa-inc/terraform-aws-cost-management,
 cost-notifier,kristijaneftimovpcg,25395,aws,https://github.com/kristijaneftimovpcg/terraform-aws-cost-notifier,"This module calculates the daily, weekly or monthly cost in AWS, and generates the forecast cost for the current month"
+costcli,brianveldman,29737,azuredevops,https://github.com/brianveldman/terraform-azuredevops-costcli,This Terraform module helps you set up Azure Cost CLI in Azure DevOps and automates the execution of cost reports.🔥
 costnotifier,cloudandthings,12505,aws,https://github.com/cloudandthings/terraform-aws-costnotifier,
 costs,CloudNationHQ,26538,azure,https://github.com/CloudNationHQ/terraform-azure-costs,Terraform module which creates cost management resources used by workloads and accelerators.
 costs,kabisa,11754,datadog,https://github.com/kabisa/terraform-datadog-costs,Terraform module to generate alets to monitor datadog costs
@@ -8250,6 +8251,7 @@ gcp-gke,intel,18799,intel,https://github.com/intel/terraform-intel-gcp-gke,Intel
 gcp-http-monitoring,sparkfabrik,11780,sparkfabrik,https://github.com/sparkfabrik/terraform-sparkfabrik-gcp-http-monitoring,A terraform module to configure http uptime check
 gcp-integration,c0x12c,29335,datadog,https://github.com/c0x12c/terraform-datadog-gcp-integration,
 gcp-integration,uptycslabs,12099,google,https://github.com/uptycslabs/terraform-google-gcp-integration,terraform module for google multiple projects credential config.
+gcp-monitor,c0x12c,29734,datadog,https://github.com/c0x12c/terraform-datadog-gcp-monitor,
 gcp-mysql-db-and-user-creation-helper,sparkfabrik,17365,sparkfabrik,https://github.com/sparkfabrik/terraform-google-gcp-mysql-db-and-user-creation-helper,Terraform module for creating database and associated user on an existing CloudSQL instance
 gcp-mysql-db-and-user-creation-helper,sparkfabrik,17817,google,https://github.com/sparkfabrik/terraform-google-gcp-mysql-db-and-user-creation-helper,Terraform module for creating database and associated user on an existing CloudSQL instance
 gcp-ncc,terraform-aviatrix-modules,18919,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-ncc,Connects Aviatrix Transit to Google Cloud's Network Connectivity Center/Cloud Router using BGP over LAN.
@@ -8601,6 +8603,7 @@ google-slo-generator-client,heureka,12204,kubernetes,https://github.com/heureka/
 google-workspace,c0x12c,29348,gcp,https://github.com/c0x12c/terraform-gcp-google-workspace,
 google-workspace,data-platform-hq,20646,databricks,https://github.com/data-platform-hq/terraform-databricks-google-workspace,
 google-workspace,ngs,11956,cloudflare,https://github.com/ngs/terraform-cloudflare-google-workspace,CloudFlare Terraform module for setup Google Workspace.
+google-workspace-group,c0x12c,29732,gcp,https://github.com/c0x12c/terraform-gcp-google-workspace-group,
 google_filestore,livelink,4004,livelink,https://github.com/livelink/terraform-livelink-google_filestore,
 google_folders,orion-global,17678,google,https://github.com/orion-global/terraform-google-google_folders,Este módulo permite la creación y administración de carpetas de manera anidada y fácil de desplegar
 googlecomputeinstance,JamesWoolfenden,2015,gcp,https://github.com/JamesWoolfenden/terraform-gcp-googlecomputeinstance,First step using GCP and Terraform
@@ -11014,6 +11017,7 @@ load-balancer,zoro16,21294,hcloud,https://github.com/zoro16/terraform-hcloud-loa
 load-balancer-classic,terraform-navercloudplatform-modules,25266,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-classic,Terraform module to create load balancer resources for the classic configuration
 load-balancer-controller,chriszhangusc,9523,aws,https://github.com/chriszhangusc/terraform-aws-load-balancer-controller,Provision AWS Load Balancer Controller with Terraform
 load-balancer-fargate,nullstone-modules,8812,aws,https://github.com/nullstone-modules/terraform-aws-load-balancer-fargate,Terraform module to attach a load balancer to a fargate service
+load-balancer-gcs,c0x12c,29733,gcp,https://github.com/c0x12c/terraform-gcp-load-balancer-gcs,
 load-balancer-listener-vpc,terraform-navercloudplatform-modules,25267,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-listener-vpc,Terraform module to create load balancer listener resources for the vpc configuration
 load-balancer-ssl-certificate-classic,terraform-navercloudplatform-modules,25268,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-ssl-certificate-classic,Terraform module to create load balancer ssl certificate resources for the classic configuration
 load-balancer-target-group-vpc,terraform-navercloudplatform-modules,25269,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-target-group-vpc,Terraform module to create load balancer target group resources for the vpc configuration
@@ -11479,6 +11483,7 @@ migadu-email-domain,arichtman,19200,aws,https://github.com/arichtman/terraform-a
 miggo-deployment,miggo-io,23936,aws,https://github.com/miggo-io/terraform-aws-miggo-deployment,Terraform module for Miggo AWS deployment
 miggo-integration,miggo-io,25508,aws,https://github.com/miggo-io/terraform-aws-miggo-integration,
 miggo-integration,miggo-io,26834,azure,https://github.com/miggo-io/terraform-azure-miggo-integration,
+miggo-integration,miggo-io,29735,gcp,https://github.com/miggo-io/terraform-gcp-miggo-integration,
 migration_service,bootlabstech,25731,azurerm,https://github.com/bootlabstech/terraform-azurerm-migration_service,
 migrationtest,cgriggs01,2067,null,https://github.com/cgriggs01/terraform-null-migrationtest,Terraform Registry Migration Test
 migrationtest,terraform-azure-modules,2006,null,https://github.com/cgriggs01/terraform-null-migrationtest,Terraform Registry Migration Test
@@ -14555,6 +14560,7 @@ region-info,OmnipotentOwl,17330,azurerm,https://github.com/OmnipotentOwl/terrafo
 region-short-codes,OnDemand-Engineering,26924,azurerm,https://github.com/OnDemand-Engineering/terraform-azurerm-region-short-codes,
 regional-cidrs,workloads,21704,aws,https://github.com/workloads/terraform-aws-regional-cidrs,Terraform Module: Regional CIDRs for AWS
 regional-droplets,NicholasPCole,11565,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-regional-droplets,Terraform module for creating Droplets and DNS records in DigitalOcean regions
+regional-lb-http,GoogleCloudPlatform,29736,google,https://github.com/GoogleCloudPlatform/terraform-google-regional-lb-http,Creates a regional HTTP load balancer using forwarding rules
 regional-vpc-peering,lablabs,4850,aws,https://github.com/lablabs/terraform-aws-regional-vpc-peering,Creates a VPC peering connection between two VPC's. Can be inter-region or inter-account
 regional-workspace,ksatirli,17386,tfe,https://github.com/ksatirli/terraform-tfe-regional-workspace,Terraform Module: Regional Terraform Cloud Workspaces
 regions,Azure,21528,azurerm,https://github.com/Azure/terraform-azurerm-regions,"Terraform module that provides data about Azure regions, including availability zones! Data is sourced from Azure APIs."
@@ -15296,6 +15302,7 @@ s3-backend,skyfjell,16135,aws,https://github.com/skyfjell/terraform-aws-s3-backe
 s3-backend-demo,briferz,13063,aws,https://github.com/briferz/terraform-aws-s3-backend,
 s3-backend-dependencies,axetrading,14486,axetrading,https://github.com/axetrading/terraform-axetrading-s3-backend-dependencies,Resources for bootstrapping a Terraform setup
 s3-backup-bucket,rj175,6726,aws,https://github.com/ohheyrj/terraform-aws-s3-backup-bucket,Terraform AWS module to create a bucket and IAM user for backup services.
+s3-basic,ivinay1,29731,aws,https://github.com/ivinay1/terraform-aws-s3-basic,
 s3-batch-transformer,codurance,23942,aws,https://github.com/codurance/terraform-aws-s3-batch-transformer,Automate large-scale S3 object processing with AWS Step Functions with this Terraform Module
 s3-browser,tfstack,28664,aws,https://github.com/tfstack/terraform-aws-s3-browser,Terraform module for hosting a static S3 file browser
 s3-bucket,7clouds-terraform-modules,15903,aws,https://github.com/7clouds-terraform-modules/terraform-aws-s3-bucket,
@@ -15836,6 +15843,7 @@ sangs,sangsdamodara,21219,azure,https://github.com/sangsdamodara/terraform-azure
 sanjustorage,sny258,12315,azure,https://github.com/sny258/terraform-azure-sanjustorage,Repo for custom azure storage account module
 sankarbucket,Sankz-0930,12719,aws,https://github.com/Sankz-0930/terraform-aws-sankarbucket,
 sanket-test-vpc,AmbitiousLad,26321,aws,https://github.com/AmbitiousLad/terraform-aws-sanket-test-vpc,
+sans-provider,bryantbiggs,29738,aws,https://github.com/bryantbiggs/terraform-aws-sans-provider,
 santhiyaS3bucket,SanthiyaGiaa,24947,aws,https://github.com/SanthiyaGiaa/terraform-aws-santhiyaS3bucket,
 sap,terraform-google-modules,2690,google,https://github.com/terraform-google-modules/terraform-google-sap,Deploys SAP products
 sap-application-server,ovh,21315,vsphere,https://github.com/ovh/terraform-vsphere-sap-application-server,
@@ -16435,6 +16443,7 @@ ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
+ses-cloudflare,cesargoncalves,29739,aws,https://github.com/cesargoncalves/terraform-aws-ses-cloudflare,Terraform module to create AWS SES identity with Cloudflare DNS validation
 ses-cloudflare,silinternational,24881,aws,https://github.com/silinternational/terraform-aws-ses-cloudflare,Terraform module to create AWS and Cloudflare resources for SES
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-dashboard,connect-group,1099,aws,https://github.com/connect-group/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
@@ -19499,6 +19508,7 @@ vpc-5,turkanamammadova,13725,aws,https://github.com/turkanamammadova/terraform-a
 vpc-5,yiitkarakaya,14031,aws,https://github.com/yiitkarakaya/terraform-aws-vpc-5,
 vpc-5frk,Meydan52,13693,aws,https://github.com/Meydan52/terraform-aws-vpc-5frk,
 vpc-7,Smadiyar000,25476,aws,https://github.com/Smadiyar000/terraform-aws-vpc-7,
+vpc-ECC,ecc-tech,29729,aws,https://github.com/ecc-tech/terraform-aws-vpc-ECC,
 vpc-WordPress-MariaDB,Aizhamal2312,6744,aws,https://github.com/Aizhamal2312/terraform-aws-vpc-WordPress-MariaDB,
 vpc-WordPress-MariaDB,vrodi18,6730,aws,https://github.com/vrodi18/terraform-aws-vpc-WordPress-MariaDB,
 vpc-aper,yojota,5568,aws,https://github.com/yojota/terraform-aws-vpc-aper,Terraform aws vpc fork oficial
