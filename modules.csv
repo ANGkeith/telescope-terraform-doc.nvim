@@ -271,6 +271,7 @@ acm,tomarv2,12363,aws,https://github.com/tomarv2/terraform-aws-acm,Terraform mod
 acm,ugns,7551,aws,https://github.com/ugns/terraform-aws-acm,Terraform module which creates and validates ACM certificate
 acm,web-virtua-aws-multi-account-modules,17167,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-acm,
 acm,yurymkomarov,4632,aws,https://github.com/yurymkomarov/terraform-aws-acm,AWS Certificate Manager
+acm-cert,transcom,29826,aws,https://github.com/transcom/terraform-aws-acm-cert,Creates a TLS certificate using AWS ACM for domains hosted on Route53.
 acm-cert,trussworks,1345,aws,https://github.com/trussworks/terraform-aws-acm-cert,Creates a TLS certificate using AWS ACM for domains hosted on Route53.
 acm-cert-akamai-dns,trussworks,2066,aws,https://github.com/trussworks/terraform-aws-acm-cert-akamai-dns,Creates a TLS certificate using AWS ACM for domains hosted on Akamai.
 acm-certificate,armorfret,2187,aws,https://github.com/armorfret/terraform-aws-acm-certificate,Terraform module for provisioning ACM TLS certificates
@@ -719,7 +720,6 @@ all,mikamakusa,25836,azuread,https://github.com/mikamakusa/terraform-azuread-all
 all-modules,sibikmc,21481,alibaba,https://github.com/sibikmc/terraform-alibaba-alll-modules,
 allin1website,zhouyuanzhen,3606,alicloud,https://github.com/zhouyuanzhen/terraform-alicloud-allin1website,An AliCloud terraform module to quick spawn up an allin1 website on AliCloud 
 alll-modules,sibikmc,21482,alibaba,https://github.com/sibikmc/terraform-alibaba-alll-modules,Creating an ecs and security group in alicloud in terraform scripts 
-allocation,CloudNationHQ,29634,infoblox,https://github.com/CloudNationHQ/terraform-infoblox-allocation,Terraform module which allocates infoblox networks used by workloads and accelerators.
 allowlists,drand,5384,drand,https://github.com/drand/terraform-drand-allowlists,A Terraform module to fetch and provide drand-published allowlists
 alloy-db,GoogleCloudPlatform,18763,google,https://github.com/GoogleCloudPlatform/terraform-google-alloy-db,Creates an Alloy DB instance
 alloydb,mikamakusa,25639,google,https://github.com/mikamakusa/terraform-google-alloydb,
@@ -1871,7 +1871,7 @@ avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-azuremonitorwindowsagent,Azure,25935,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azuremonitorwindowsagent,
 avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners,Azure Verified Module for Azure DevOps Agents and GitHub Runners
-avm-ptn-function-app-storage-private-endpoints,Azure,28601,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-function-app-storage-private-endpoints,
+avm-ptn-function-app-storage-private-endpoints,Azure,28601,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-function-app-storage-private-endpoints,Terraform Azure Verified Pattern Module for Function App and private endpoint-secured Storage
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
 avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Azure Verified Module for the Multi-hub networking pattern
@@ -1977,7 +1977,7 @@ avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurer
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,
-avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
+avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,Terraform Azure Verified Resource Module for Web/Function App
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Terraform Azure Verified Utility Module for AVM Interfaces
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
@@ -2691,6 +2691,7 @@ bootstrap,resolutionlife,16633,flux,https://github.com/resolutionlife/terraform-
 bootstrap,scaffoldly,7273,scaffoldly,https://github.com/scaffoldly/terraform-scaffoldly-bootstrap,Used in tandem with the Bootstrap Template during Scaffoldly Bootstrapping. See the Docs and Scaffoldly Start to use this module.
 bootstrap,scaffoldly,9826,aws,https://github.com/scaffoldly/terraform-aws-bootstrap,
 bootstrap,terraform-google-modules,3564,google,https://github.com/terraform-google-modules/terraform-google-bootstrap,Bootstraps Terraform usage and related CI/CD in a new Google Cloud organization
+bootstrap,transcom,29825,aws,https://github.com/transcom/terraform-aws-bootstrap,🐓 🥚 Terraform for your Terraform remote state configuration
 bootstrap,trussworks,5593,aws,https://github.com/trussworks/terraform-aws-bootstrap,🐓 🥚 Terraform for your Terraform remote state configuration
 bootstrap,upmaru,19220,instellar,https://github.com/upmaru/terraform-instellar-bootstrap,Terraform module for bootstrapping cluster on https://opsmaru.com
 bootstrap,vexingcodes,5416,aws,https://github.com/vexingcodes/terraform-aws-bootstrap,A walkthrough and automation for the initial steps to use S3 for Terraform state storage.
@@ -4130,6 +4131,7 @@ config-export,netascode,9768,aci,https://github.com/netascode/terraform-aci-conf
 config-files,scaffoldly,9475,github,https://github.com/scaffoldly/terraform-github-config-files,Writes config files to ./scaffoldly for all services in all environments to the repo for the service.
 config-map-from-gcp-storage,DiagVN,9078,kubernetes,https://github.com/DiagVN/terraform-kubernetes-config-map-from-gcp-storage,k8s-config-map-from-gcp-storage
 config-multiregion,rhythmictech,7493,aws,https://github.com/rhythmictech/terraform-aws-config-multiregion,Manages the rhythmictech/terraform-aws-config module across many regions
+config-notifications,transcom,29823,aws,https://github.com/transcom/terraform-aws-config-notifications,Config Notifications
 config-notifications,trussworks,3360,aws,https://github.com/trussworks/terraform-aws-config-notifications,Config Notifications
 config-organization,blackbird-cloud,19292,aws,https://github.com/blackbird-cloud/terraform-aws-config-organization,Terraform module to setup AWS Config in an organization
 config-passphrase,netascode,17412,aci,https://github.com/netascode/terraform-aci-config-passphrase,Terraform Cisco ACI Config Passphrase Module
@@ -4214,6 +4216,7 @@ container,terracharge,14079,aws,https://github.com/terracharge/terraform-aws-con
 container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terraform-azurerm-container-app,Creates a container app
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
+container-apps,CloudAstro,29819,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-apps,"This module manages Azure Container Apps and Jobs, enabling containerized tasks such as event-driven, scheduled, and manual jobs. It supports autoscaling, secure networking, and advanced configurations for microservices and serverless workloads."
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
@@ -4830,6 +4833,7 @@ deployments,sladg,24019,aws,https://github.com/sladg/terraform-aws-deployments,T
 deployomat,GoCarrot,11955,aws,https://github.com/GoCarrot/terraform-aws-deployomat,Deployomat is a tool to manage AMI deployments on AWS.
 derri,derrianson,16871,aws,https://github.com/derrianson/terraform-aws-derri,
 deso-nodes,domderen,10854,aws,https://github.com/domderen/terraform-aws-deso-nodes,
+destroy-default-vpc,transcom,29824,aws,https://github.com/transcom/terraform-aws-destroy-default-vpc,Default VPC resource management for AWS Accounts
 destroy-default-vpc,trussworks,5710,aws,https://github.com/trussworks/terraform-aws-destroy-default-vpc,Default VPC resource management for AWS Accounts
 destroy-delay,ausmartway,26484,time,https://github.com/ausmartway/terraform-time-destroy-delay,
 detectors,claranet,6884,signalfx,https://github.com/claranet/terraform-signalfx-detectors,Collection of terraform modules for SignalFx detectors.
@@ -5138,6 +5142,7 @@ docker-instance,E012149,18244,aws,https://github.com/E012149/terraform-aws-docke
 docker-instance,EdanurGega,23937,aws,https://github.com/EdanurGega/terraform-aws-docker-instance,
 docker-instance,EmirhanImranTuzel,16493,aws,https://github.com/EmirhanImranTuzel/terraform-aws-docker-instance,
 docker-instance,EmreATA,23419,aws,https://github.com/EmreATA/terraform-aws-docker-instance,
+docker-instance,EmreTurgut1,29818,aws,https://github.com/EmreTurgut1/terraform-aws-docker-instance,
 docker-instance,Emrkts,22356,aws,https://github.com/Emrkts/terraform-aws-docker-instance,
 docker-instance,EnsTkn,22128,aws,https://github.com/EnsTkn/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,ErdiErkan,22375,aws,https://github.com/ErdiErkan/terraform-aws-docker-instance,
@@ -9070,7 +9075,9 @@ iam-cost-exporter,cookielab,27745,aws,https://github.com/cookielab/terraform-aws
 iam-create-user-persistence,offensive-terraform,6057,aws,https://github.com/offensive-terraform/terraform-aws-iam-create-user-persistence,"Offensive Terraform module which creates IAM user, access key then attaches managed IAM Policy to an IAM user."
 iam-cross-account,cytopia,1898,aws,https://github.com/cytopia/terraform-aws-iam-cross-account,This Terraform module creates AWS cross-account assumable roles with multiple polcies to be specified via files
 iam-cross-account-trust-maps,StratusGrid,1916,aws,https://github.com/StratusGrid/terraform-aws-iam-cross-account-trust-maps,Maps assume role rights to trusted account resources for specific trusting account
+iam-cross-acct-dest,transcom,29828,aws,https://github.com/transcom/terraform-aws-iam-cross-acct-dest,Creates an IAM role to allow cross account assumption from specified source role.
 iam-cross-acct-dest,trussworks,3311,aws,https://github.com/trussworks/terraform-aws-iam-cross-acct-dest,Creates an IAM role to allow cross account assumption from specified source role.
+iam-cross-acct-src,transcom,29821,aws,https://github.com/transcom/terraform-aws-iam-cross-acct-src,Creates an IAM role to allow cross account assumption to specified destination role.
 iam-cross-acct-src,trussworks,3312,aws,https://github.com/trussworks/terraform-aws-iam-cross-acct-src,Creates an IAM role to allow cross account assumption to specified destination role.
 iam-custom-role,mineiros-io,11829,google,https://github.com/mineiros-io/terraform-google-iam-custom-role,A Terraform module to create and manage a custom Identity and Access Management (IAM) role in Google Cloud https://cloud.google.com/resource-manager/docs/access-control-org
 iam-ec2-profile,SoleksDataGroup,24771,aws,https://github.com/SoleksDataGroup/terraform-aws-iam-ec2-profile,
@@ -11151,6 +11158,7 @@ logpush-newrelic,Flaconi,24074,cloudflare,https://github.com/Flaconi/terraform-c
 logs,dod-iac,16983,aws,https://github.com/dod-iac/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,Terraform module to create a Cloudwatch log group with optional log reader.
 logs,techadontech,13592,cloudwatch,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
+logs,transcom,29822,aws,https://github.com/transcom/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs,trussworks,663,aws,https://github.com/trussworks/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs-agent,terraform-ibm-modules,28908,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-logs-agent,Terraform module to deploy the IBM Cloud Logs Agent on a Cluster
 logs-s3-bucket,cn-terraform,13502,aws,https://github.com/cn-terraform/terraform-aws-logs-s3-bucket,AWS S3 bucket for logs delivery
@@ -11502,6 +11510,7 @@ metricsserver,3191110276,8170,kubernetes,https://github.com/3191110276/terraform
 mfa,HappyPathway,1647,aws,https://github.com/HappyPathway/terraform-aws-mfa,
 mfa,clouddrove,10980,aws,https://github.com/clouddrove/terraform-aws-mfa,A terraform module to enable MFA for AWS groups and users 
 mfa,cypik,24029,aws,https://github.com/cypik/terraform-aws-mfa,A terraform module to enable MFA for AWS groups and users  Resources
+mfa,transcom,29827,aws,https://github.com/transcom/terraform-aws-mfa,Enforces MFA on an AWS account
 mfa,trussworks,2797,aws,https://github.com/trussworks/terraform-aws-mfa,Enforces MFA on an AWS account
 mg-hierarchysettings,matt-FFFFFF,13009,azapi,https://github.com/matt-FFFFFF/terraform-azapi-mg-hierarchysettings,Terraform module for creation and management of Azure management group hierarchy settings
 mgmt,SPHTech-Platform,16494,boundary,https://github.com/SPHTech-Platform/terraform-boundary-mgmt,HCP Boundary Mgmt Module 
@@ -15544,6 +15553,7 @@ s3-origin,azavea,173,aws,https://github.com/azavea/terraform-aws-s3-origin,A ter
 s3-pipeline,toluna-terraform,13073,aws,https://github.com/toluna-terraform/terraform-aws-frontend-pipeline,
 s3-private,notespacejp,20486,aws,https://github.com/notespacejp/terraform-aws-s3-private,
 s3-private-bucket,dod-iac,16984,aws,https://github.com/dod-iac/terraform-aws-s3-private-bucket,"Creates a private, encrypted, versioned S3 bucket with good defaults."
+s3-private-bucket,transcom,29820,aws,https://github.com/transcom/terraform-aws-s3-private-bucket,"Creates a private, encrypted, versioned S3 bucket with good defaults."
 s3-private-bucket,trussworks,621,aws,https://github.com/trussworks/terraform-aws-s3-private-bucket,"Creates a private, encrypted, versioned S3 bucket with good defaults."
 s3-private-bucket,yukihira1992,3350,aws,https://github.com/yukihira1992/terraform-aws-s3-private-bucket,Terraform module which creates private S3 bucket on AWS.
 s3-private-versioned,scaffoldly,9482,aws,https://github.com/scaffoldly/terraform-aws-s3-private-versioned,Create a private and versioned S3 bucket with optional SNS notifications
