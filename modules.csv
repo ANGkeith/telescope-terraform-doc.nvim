@@ -828,6 +828,7 @@ ansible-playbook,brunordias,5282,null,https://github.com/brunordias/terraform-nu
 ansible-tf-cloud,jerinrathnam,19435,aws,https://github.com/jerinrathnam/terraform-aws-ansible-tf-cloud,Terraform module for Running Ansible on Terraform Cloud
 ansible_playbook,rolando-anton,6200,null,https://github.com/rolando-anton/terraform-null-ansible_playbook,
 ansiblejenkins,aidynilyas,28826,aws,https://github.com/aidynilyas/terraform-aws-ansiblejenkins,
+antero-nat,antero-software,29831,aws,https://github.com/antero-software/terraform-aws-antero-nat,
 anthology,erikvanbrakel,1028,aws,https://github.com/erikvanbrakel/terraform-aws-anthology,Terraform Module which creates a private Terraform Registry using https://github.com/erikvanbrakel/Anthology.
 anthos-config,bootlabstech,20594,google,https://github.com/bootlabstech/terraform-google-anthos-config,Creates a GCP GKE hub feature.
 anthos-on-baremetal,equinix,7186,metal,https://github.com/equinix/terraform-metal-anthos-on-baremetal,Terraform module for quick deployment of baremetal Anthos on Equinix Metal
@@ -1079,7 +1080,7 @@ apim-apiops,msterin,27100,azurerm,https://github.com/msterin/terraform-azurerm-a
 apim-apiops,robertbrandso,19214,azurerm,https://github.com/robertbrandso/terraform-azurerm-apim-apiops,"APIM APIOps enables you to publish and manage your APIs via Azure API Management (APIM) using a GitOps approach, with the help of a Terraform module."
 apimanagement,bootlabstech,15929,azurerm,https://github.com/bootlabstech/terraform-azurerm-apimanagement,
 apiwithwebappazure,patelsan,8349,archiectures,https://github.com/patelsan/terraform-archiectures-apiwithwebappazure,
-apko,chainguard-dev,19068,publisher,https://github.com/chainguard-dev/terraform-publisher-apko,An experimental module for publishing images with tf-apko
+apko,chainguard-dev,19068,publisher,https://github.com/chainguard-dev/terraform-publisher-apko,A module for publishing images with tf-apko
 apm,kabisa,12322,datadog,https://github.com/kabisa/terraform-datadog-apm,
 apm,newrelic,4329,newrelic,https://github.com/newrelic/terraform-newrelic-apm,Terraform module for New Relic application monitoring
 apm-alerting,akw-devsecops,19990,newrelic,https://github.com/akw-devsecops/terraform-newrelic-apm-alerting,Terraform module to set up APM alerting in NewRelic.
@@ -2432,7 +2433,7 @@ base,resinstack,4902,vault,https://github.com/resinstack/terraform-vault-base,Ba
 base,resinstack,4903,nomad,https://github.com/resinstack/terraform-nomad-base,Base policy documents for Nomad.
 base,scottschreckengaust,2925,aws,https://github.com/scottschreckengaust/terraform-aws-base,Terraform base module for basic information
 base,srb3,6150,aws,https://github.com/srb3/terraform-aws-base,
-base,upmaru,29720,tama,https://github.com/upmaru/terraform-tama-base,Base modules for Tama
+base,upmaru,29720,tama,https://github.com/upmaru/terraform-tama-base,
 base-components,ArcfieldSTC,21848,azure,https://github.com/ArcfieldSTC/terraform-azure-base-components,Module used for creating primary components used in Azure IaC deployments.
 base-firewall,NicholasPCole,15302,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-base-firewall,A set of minimal firewall rules suitable for application to all Droplets in an account
 base-member,jakoberpf,12348,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-member,
@@ -5444,6 +5445,7 @@ docker-instance,halildikilitas01,19590,aws,https://github.com/halildikilitas01/t
 docker-instance,hamedamir4,18555,aws,https://github.com/hamedamir4/terraform-aws-docker-instance,
 docker-instance,hanifezeray,19699,aws,https://github.com/hanifezeray/terraform-aws-docker-instance,
 docker-instance,hanna-banana-king,29086,aws,https://github.com/hanna-banana-king/terraform-aws-docker-instance,
+docker-instance,harputsamed,29834,aws,https://github.com/harputsamed/terraform-aws-docker-instance,
 docker-instance,harunkarateketurkiye,20785,aws,https://github.com/harun-erdem/terraform-aws-docker-instance,
 docker-instance,hasaanyildiz,14640,aws,https://github.com/hasaanyildiz/terraform-aws-docker-instance,
 docker-instance,hasan-hira,18276,aws,https://github.com/hasan-hira/terraform-aws-docker-instance,
@@ -6354,6 +6356,7 @@ ec2-scaling,web-virtua-aws-multi-account-modules,17286,aws,https://github.com/we
 ec2-scheduler,kyxap1,26897,aws,https://github.com/kyxap1/terraform-aws-ec2-scheduler,Terraform module for automating start/stop schedules of EC2 instances.
 ec2-security-group,yashGaykar,18664,aws,https://github.com/yashGaykar/terraform-aws-ec2-security-group,
 ec2-server,Gopaal7,26901,aws,https://github.com/Gopaal7/terraform-aws-ec2-server,
+ec2-server,tfstack,29832,aws,https://github.com/tfstack/terraform-aws-ec2-server,Provision a single EC2 instance with optional server role and SSM support
 ec2-server-stack,ersanyamarya,17517,aws,https://github.com/ersanyamarya/terraform-aws-ec2-server-stack,"This Terraform module creates a list of EC2 instances and sets them up according to your specified configurations. It can be used to set up all the EC2 instances required for a setup or microservices architecture. The module also creates security groups, assigns ports, and sets up Route53 records for each instance."
 ec2-sg,kolluridivya,9069,aws,https://github.com/kolluridivya/terraform-aws-ec2-sg,
 ec2-sg-vpc-rds-module,akhilesh-patel,11676,aws,https://github.com/akhilesh-patel/terraform-aws-ec2-sg-vpc-rds-module,
@@ -15940,8 +15943,8 @@ scc-workload-protection-agent,terraform-ibm-modules,22285,ibm,https://github.com
 scdn,terraform-alicloud-modules,9977,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-scdn,Terraform module which creates SCDN domain and its config on Alibaba Cloud.
 sce-core,aws-ia,24702,aws,https://github.com/aws-ia/terraform-aws-sce-core,
 sce-tf-community,aws-ia,24721,aws,https://github.com/aws-ia/terraform-aws-sce-tf-community,
-scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,SCEPman - Certificates Simplified
-scepman,scepman,29513,azurerm,https://github.com/scepman/terraform-azurerm-scepman,SCEPman - Certificates Simplified
+scepman,glueckkanja-gab,16126,azurerm,https://github.com/glueckkanja-gab/terraform-azurerm-scepman,
+scepman,scepman,29513,azurerm,https://github.com/scepman/terraform-azurerm-scepman,
 scf,terraform-tencentcloud-modules,19050,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-scf,
 schedule,hazelops,7241,pagerduty,https://github.com/hazelops/terraform-pagerduty-schedule,
 schedule-auto-stop-start-aws-services,bigfantech-cloud,20622,aws,https://github.com/bigfantech-cloud/terraform-aws-schedule-auto-stop-start-aws-services,Terraform module: schedule auto Stop and Start CRON for AWS services with Lambda function
@@ -16225,6 +16228,7 @@ security-hub,aws-ia,20215,aws,https://github.com/aws-ia/terraform-aws-security-h
 security-hub,clouddrove,10953,aws,https://github.com/clouddrove/terraform-aws-security-hub,This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 security-hub,cloudposee,28079,aws,https://github.com/cloudposee/terraform-aws-security-hub,Terraform module to provision AWS Security Hub
 security-hub,cloudposse,6628,aws,https://github.com/cloudposse/terraform-aws-security-hub,Terraform module to provision AWS Security Hub
+security-hub,dc0c,29833,aws,https://github.com/dc0c/terraform-aws-security-hub,
 security-list,JamesWoolfenden,12484,oci,https://github.com/JamesWoolfenden/terraform-oci-security-list,
 security-list,web-virtua-oci-multi-account-modules,18867,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-security-list,
 security-notifications,3sne,19231,google,https://github.com/3sne/terraform-google-security-notifications,Configures security findings notification in the Security Command Center.
@@ -18117,7 +18121,7 @@ test-module,skoobasteeve,15225,ray,https://github.com/skoobasteeve/terraform-ray
 test-module,weakpixel,13041,tfcli,https://github.com/weakpixel/terraform-tfcli-test-module,
 test-module,woodmaeng,27795,aws,https://github.com/woodmaeng/terraform-aws-test-module,A test Terraform module to experiment with
 test-repo,bartekmo,23949,google,https://github.com/bartekmo/terraform-google-test-repo,
-test-repo2,bartekmo,23950,google,https://github.com/bartekmo/terraform-google-test-repo2,
+test-repo2,bartekmo,29835,google,https://github.com/bartekmo/terraform-google-test-repo2,
 test-runner,toluna-terraform,12831,unit,https://github.com/toluna-terraform/terraform-unit-test-runner,
 test-symlinks,mhuxtable,20751,random,https://github.com/mhuxtable/terraform-random-test-symlinks,Module to test whether Terraform Registry follows symlinks when publishing modules.
 test-tf-module,omricohenn,23831,google,https://github.com/omricohenn/terraform-google-test-tf-module,
