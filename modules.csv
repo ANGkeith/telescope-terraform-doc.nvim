@@ -1301,6 +1301,7 @@ arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc
 arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terraform-aws-arc-observability-stack,"The Observability Terraform module simplifies deploying a robust monitoring and logging stack in EKS. It provides flexibility to choose between AWS OpenSearch or ElasticSearch for search engines and Fluentd or Fluent Bit for log aggregation, along with Prometheus, Grafana, Alertmanager, and Blackbox Exporter for metrics and alerting."
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
+arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,
 arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,terraform module for provisioning s3 buckets
 arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
@@ -1982,7 +1983,7 @@ avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Terraform Azure Verified Utility Module for AVM Interfaces
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
-avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Re-publish of Azure/terraform-azurerm-regions made official as AVM
+avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Terraform Azure Verified Utility Module for Azure Regions Data
 avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
@@ -2781,6 +2782,7 @@ budgets,devops-workflow,1106,aws,https://github.com/devops-workflow/terraform-aw
 budgets,geekcell,19724,aws,https://github.com/geekcell/terraform-aws-budgets,Terraform module to provision an AWS Budgets.
 budgets,instantstack,24460,aws,https://github.com/instantstack/terraform-aws-budgets,Terraform module for budgets alerts management
 budgets-alerts,sculley,7340,aws,https://github.com/sculley/terraform-aws-budgets-alerts,Terraform module which deploys AWS Budgets alerts to your AWS account
+budgets-discord-notifs,aliAljaffer,29845,aws,https://github.com/aliAljaffer/terraform-aws-budgets-discord-notifs,
 budgets-with-notify-lambda-vpc-params,boris-dyga-SM,22488,aws,https://github.com/boris-dyga-SM/terraform-aws-budgets-with-notify-lambda-vpc-params,Terraform module to manage AWS Budgets with the VPC params of the notifying Lambda.
 build,telekom-mms,20276,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-build,A Terraform module that manages the build resources from the azuredevops provider.
 build-local-to-cloud-active-active-connection-with-sdwan,alibabacloud-automation,28128,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-local-to-cloud-active-active-connection-with-sdwan,
@@ -5685,6 +5687,7 @@ docker-instance,zubeyirErarslan,18199,aws,https://github.com/zubeyirErarslan/ter
 docker-instance,zynpce,14638,aws,https://github.com/zynpce/terraform-aws-docker-instance," Description: Terraform module which creates a docker instance resource on AWS.                                                                                                                                                       "
 docker-instance-1,RFaqiri,21515,aws,https://github.com/RFaqiri/terraform-aws-docker-instance-1,Terraform module which creates a docker instance resource on AWS.
 docker-instance-1,bhandary1419,17171,aws,https://github.com/bhandary1419/terraform-aws-docker-instance-1,
+docker-instance-1,canan89,29842,aws,https://github.com/canan89/terraform-aws-docker-instance-1,
 docker-instance-1,cobany,19957,aws,https://github.com/cobany/terraform-aws-docker-instance-1,
 docker-instance-1,elif-admin,18164,aws,https://github.com/elif-admin/terraform-aws-docker-instance-1,
 docker-instance-1,mustafagoek,18474,aws,https://github.com/mustafagoek/terraform-aws-docker-instance,
@@ -5847,6 +5850,7 @@ domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-dom
 domain-redirect,simplycubed,11653,google,https://github.com/simplycubed/terraform-google-domain-redirect,Terraform module to simplify redirecting domains on Google Cloud DNS.
 domain-setup,daringway,5633,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
 dorkly-flags,dorklyorg,24575,aws,https://github.com/dorklyorg/terraform-aws-dorkly-flags,Terraform provider for dorkly feature flags system
+dotenvx,cunneen,29846,dotenvx,https://github.com/cunneen/terraform-dotenvx-dotenvx,"Terraform module which reads encrypted properties from a dotenvx `.env` file, and makes the decrypted values available for use in other terraform resources at the `terraform plan` stage."
 dotfiles-after-code-server,katorlys-samples,26412,coder,https://github.com/katorlys-samples/terraform-coder-dotfiles-after-code-server,Terraform Module to install dotfiles after code-server installation in Coderv2
 dotfiles-after-vscode-web,katorlys-samples,26300,coder,https://github.com/katorlys-samples/terraform-coder-dotfiles-after-vscode-web,Terraform Module to install dotfiles after vscode-web installation in Coderv2
 doublecloud-byoc,doublecloud,21298,aws,https://github.com/doublecloud/terraform-aws-doublecloud-byoc,
@@ -9624,6 +9628,7 @@ iqserver,rhythmictech,5137,aws,https://github.com/rhythmictech/terraform-aws-iqs
 irsa-iam,baka126,29193,k8s,https://github.com/baka126/terraform-k8s-irsa-iam,
 ise-deployment,fmunozmiranda,14495,aws,https://github.com/fmunozmiranda/terraform-aws-ise-deployment,
 ise-deployment,fmunozmiranda,14848,azure,https://github.com/fmunozmiranda/terraform-azure-ise-deployment,
+iso27001,infrahouse,29850,aws,https://github.com/infrahouse/terraform-aws-iso27001,Module configures ISO 27001 compliance for AWS.
 istio,bakuppus,10700,module,https://github.com/bakuppus/terraform-module-istio,terraform-module-istio
 istio,boeboe,16272,helm,https://github.com/boeboe/terraform-helm-istio,Terraform module for Istio deployment on Kubernetes using Helm
 istio,combinator-ml,8735,k8s,https://github.com/combinator-ml/terraform-k8s-istio,Combinator component that installs Istio
@@ -9875,6 +9880,7 @@ ketan-test-vpc,sharmaketan14,26929,aws,https://github.com/sharmaketan14/terrafor
 kevins3bucket,kevgonsalves,15690,aws,https://github.com/kevgonsalves/terraform-aws-kevins3bucket,
 kewal,kewalwani,12953,aws,https://github.com/kewalwani/terraform-aws-kewal,
 key,JamesWoolfenden,8061,tls,https://github.com/JamesWoolfenden/terraform-tls-key,Basic SSH key module
+key,infrahouse,29849,aws,https://github.com/infrahouse/terraform-aws-key,Module that creates an encryption key in KMS.
 key,mediapop,1239,aws,https://github.com/mediapop/terraform-aws-key,Local private key to AWS key registration.
 key-forwarding-api-proxy,kathawala,5639,aws,https://github.com/kathawala/terraform-aws-key-forwarding-api-proxy,Forward sensitive API keys as query param values to third party APIs using AWS API Gateway as a proxy
 key-pair,Adamisaeva,8846,aws,https://github.com/Adamisaeva/terraform-aws-key-pair,
@@ -11348,7 +11354,7 @@ maxcompute-project,terraform-alicloud-modules,4669,alicloud,https://github.com/a
 maxmind-updater,wwwlde,29398,aws,https://github.com/wwwlde/terraform-aws-maxmind-updater,Terraform module to deploy an AWS Lambda function that regularly downloads MaxMind GeoIP databases and uploads them to S3
 may,Drakarion,29772,vpc,https://github.com/Drakarion/terraform-vpc-may,
 may,IsmayilJabrayilov,29762,vpc,https://github.com/IsmayilJabrayilov/terraform-vpc-may,
-may,LikeNo1Else,29774,vpc,https://github.com/LikeNo1Else/terraform-vpc-may,My terraform modules repo
+may,LikeNo1Else,29848,vpc,https://github.com/LikeNo1Else/terraform-vpc-may,My terraform modules repo
 may,NurlanKurmanaliev,29764,vpc,https://github.com/NurlanKurmanaliev/terraform-vpc-may,
 may,abdy1988,29770,vpc,https://github.com/abdy1988/terraform-vpc-may,
 may,achelya81,29768,vpc,https://github.com/achelya81/terraform-vpc-may,
@@ -12046,6 +12052,7 @@ mwaa,rallyware,14411,aws,https://github.com/rallyware/terraform-aws-mwaa,Terrafo
 mx,tcarrondo,26343,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-mx,Setup MX configuration on a zone in Cloudflare
 my-account,cornerman,13949,aws,https://github.com/cornerman/terraform-aws-my-account,
 my-ec2,monbostest,10989,aws,https://github.com/monbostest/terraform-aws-my-ec2,terraform-aws-my-ec2
+my-module,erzhena-d,29847,aws,https://github.com/erzhena-d/terraform-aws-my-module,homework25
 my-server,thecthebest,28325,aws,https://github.com/thecthebest/terraform-aws-my-server,
 my-vnet,vijaykumar8564,23287,azurerm,https://github.com/vijaykumar8564/terraform-azurerm-my-vnet,
 myRepo,AnkurDube,12281,ankur,https://github.com/AnkurDube/terraform-ankur-myRepo,
@@ -12426,6 +12433,7 @@ nas-volume-vpc,terraform-navercloudplatform-modules,25275,ncloud,https://github.
 nat,Aplyca,2723,aws,https://github.com/Aplyca/terraform-aws-nat,Creates a NAT Gateway Resource
 nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,
 nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT Gateway resources
+nat,ilkerispir,29844,aws,https://github.com/ilkerispir/terraform-aws-nat,
 nat,simulator-schandra,27257,azure,https://github.com/simulator-schandra/terraform-azure-nat,
 nat,tedivm,12435,aws,https://github.com/tedivm/terraform-aws-nat,Terraform module for creating NAT Gateways or Instances and attaching them to a VPC
 nat,terraform-tencentcloud-modules,16263,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-nat,TencentCloud NAT Gateway for Terraform
@@ -13399,7 +13407,6 @@ pals3tfmodule,palubhalu,12724,aws,https://github.com/palubhalu/terraform-aws-pal
 palworld,TheSudoYT,22922,aws,https://github.com/TheSudoYT/terraform-aws-palworld,Terraform module for Palworld Server Infrastructure on AWS
 palworld-windows,mzahran1999,23066,aws,https://github.com/mzahran1999/terraform-aws-palworld-windows,Terraform module for Palworld Server Infrastructure on AWS
 pam,GoogleCloudPlatform,25135,google,https://github.com/GoogleCloudPlatform/terraform-google-pam,Deploy Privileged Access Manager
-pamoncloud,cyberark,27792,aws,https://github.com/cyberark/terraform-aws-pamoncloud,
 pamoncloud,cyberark,27793,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud,
 pamoncloud-controller,cyberark,28229,aws,https://github.com/cyberark/terraform-aws-pamoncloud-controller,
 pamoncloud-controller,cyberark,28230,azurerm,https://github.com/cyberark/terraform-azurerm-pamoncloud-controller,
@@ -13622,6 +13629,7 @@ portworx-enterprise,portworx,15633,ibm,https://github.com/portworx/terraform-ibm
 portworx-instance,portworx,1024,portworx,https://github.com/portworx/terraform-portworx-portworx-instance,Terraform module for deploying Portworx persistent data fabric for containers
 postbuild-config,f5devcentral,17486,bigip,https://github.com/f5devcentral/terraform-bigip-postbuild-config,
 postbuild-config,mjmenger,8710,bigip,https://github.com/mjmenger/terraform-bigip-postbuild-config,
+postfix,infrahouse,29851,aws,https://github.com/infrahouse/terraform-aws-postfix,Terraform module that deploys Postfix as a MX server.
 postfix,programmfabrik,14965,kubernetes,https://github.com/programmfabrik/terraform-kubernetes-postfix,A terraform module to run postfix in Kubernetes.
 postgre-users,farrukh90,7185,rds,https://github.com/farrukh90/terraform-rds-postgre-users,
 postgre-users,nargiza777,7059,rds,https://github.com/nargizaos/terraform-rds-postgre-users,
@@ -16811,6 +16819,7 @@ sns,bgdtc,27377,aws,https://github.com/bgdtc/terraform-aws-sns,Terraform module 
 sns,boldlink,14017,aws,https://github.com/boldlink/terraform-aws-sns,Terraform registry repository for AWS SNS module
 sns,c0x12c,29289,aws,https://github.com/c0x12c/terraform-aws-sns,
 sns,clouddrove,3642,aws,https://github.com/clouddrove/terraform-aws-sns,Terraform module is used to setup SNS service to manage notifications on application.
+sns,cypik,29841,aws,https://github.com/cypik/terraform-aws-sns,
 sns,dasmeta,13495,aws,https://github.com/dasmeta/terraform-aws-sns,Module(s) allow managing AWS SNS functionality
 sns,easy-modules,18352,easy,https://github.com/easy-modules/terraform-easy-sns,AWS SNS
 sns,eazycloudlife,26304,aws,https://github.com/eazycloudlife/terraform-aws-sns,"terraform-aws-sns is a Terraform module that simplifies the creation and management of AWS SNS (Simple Notification Service) topics. It allows you to easily configure and deploy SNS topics, subscriptions, and policies, enabling seamless messaging and notification workflows in your AWS environment with minimal configuration effort."
