@@ -1882,7 +1882,7 @@ avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://githu
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
-avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,The Azure Verified Module for the Virtual WAN Pattern
+avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,Terraform Azure Verified Pattern Module for Virtual WAN
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,Terraform Azure Verified Pattern Module for Virtual Network Gateway
 avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,Terraform Azure Verified Resource Module for API Management Service
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,Terraform Azure Verified Resource Module for Container App
@@ -1908,7 +1908,7 @@ avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
-avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
+avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,AVM Module Repo for Azure ACI
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
 avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,Terraform Azure Verified Resource Module for AKS managed clusters
@@ -3546,6 +3546,7 @@ cloudguard,equinix,8203,equinix,https://github.com/equinix/terraform-equinix-clo
 cloudguard-network-security,CheckPointSW,27331,aws,https://github.com/CheckPointSW/terraform-aws-cloudguard-network-security," Terraform modules for deploying Check Point CloudGuard Network Security in Amazon Web Services (AWS). These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,27332,azure,https://github.com/CheckPointSW/terraform-azure-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Microsoft Azure. These modules automate the creation of Virtual Networks, Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,29134,vmware,https://github.com/CheckPointSW/terraform-vmware-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security (CGNS) on VMware vCenter environments. The modules automate provisioning of both Security Gateways and Management servers, simplifying secure infrastructure setup. Community-supported content allows for flexibility and adaptation to a variety of VMware deployments."
+cloudguard-network-security,lyqwaterway,29856,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security,
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
 cloudinit,SoleksDataGroup,24766,aws,https://github.com/SoleksDataGroup/terraform-aws-cloudinit,
@@ -4890,6 +4891,7 @@ directory-cloudbase,Levetty,29515,azure,https://github.com/Levetty/terraform-azu
 directory-service,magicorntech,28241,aws,https://github.com/magicorntech/terraform-aws-directory-service,
 directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terraform-aws-directory-service-with-logging,Terraform AWS module for Directory service directory with logging
 directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
+directus,mittwald,29857,mittwald,https://github.com/mittwald/terraform-mittwald-directus,
 disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terraform-azurerm-disallow-ragrs-policy,"This Terraform module creates a custom Azure policy definition that prevents the creation of storage accounts with Standard_RAGRS SKU unless they have the exemption tag ""Exempt: Disallow Standard_RAGRS"". The policy can be assigned to a management group or subscription."
 discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,DiscrimiNAT Firewall for egress filtering by FQDNs on AWS. Architecture with ENIs in VPCs for Private Subnets' route table entries to the Internet.
 discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,"HTTPS, TLS, SSH, SFTP micro-segmentation firewall to filter VPC egress by hostnames. Architecture with Gateway Load Balancer (GWLB) VPC Endpoints for Private Subnets' route table entries to the Internet. "
@@ -8913,6 +8915,7 @@ helper-api-key,guidion-digital,25292,aws,https://github.com/guidion-digital/terr
 helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digital/terraform-aws-helper-application-dns,"Simple helper module which will create Route53 records, and create assumable roles that will be able to edit them from another account"
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
 helper-assume-roles,guidion-digital,22999,aws,https://github.com/guidion-digital/terraform-aws-helper-assume-roles,Small helper module which creates assumable roles for other accounts
+helper-cf-s3,guidion-digital,29853,aws,https://github.com/guidion-digital/terraform-aws-helper-cf-s3,Fork of Cloudposse's CDN stack
 helper-elasticache,guidion-digital,27559,aws,https://github.com/guidion-digital/terraform-aws-helper-elasticache,Simple helper module to create Elasticache clusters
 helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/terraform-aws-helper-firewall,WAF resource creation and attachment
 helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
@@ -11352,6 +11355,7 @@ matomo,philips-labs,7502,cloudfoundry,https://github.com/philips-labs/terraform-
 max-host,guyvelleman,11295,cidr,https://github.com/guyvelleman/terraform-cidr-max-host,Terraform module return the largest number we can represent in the remaining bits.
 maxcompute-project,terraform-alicloud-modules,4669,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project,Terraform module for creating a MaxCompute project on Alibaba Cloud RDS Service.
 maxmind-updater,wwwlde,29398,aws,https://github.com/wwwlde/terraform-aws-maxmind-updater,Terraform module to deploy an AWS Lambda function that regularly downloads MaxMind GeoIP databases and uploads them to S3
+may,AndMira,29852,vpc,https://github.com/AndMira/terraform-vpc-may,
 may,Drakarion,29772,vpc,https://github.com/Drakarion/terraform-vpc-may,
 may,IsmayilJabrayilov,29762,vpc,https://github.com/IsmayilJabrayilov/terraform-vpc-may,
 may,LikeNo1Else,29848,vpc,https://github.com/LikeNo1Else/terraform-vpc-may,My terraform modules repo
@@ -12670,6 +12674,7 @@ network-private,lukibsubekti,26760,upcloud,https://github.com/lukibsubekti/terra
 network-privatelink,seg-way,20577,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
 network-privatelink,segateway,20636,azurerm,https://github.com/segateway/terraform-azurerm-network-privatelink,
 network-protocol-proxy,cruxstack,27665,aws,https://github.com/cruxstack/terraform-aws-network-protocol-proxy,Terraform Module to deploy haproxy-based network proxy to expose private resource to externally to consumers such as vendors.
+network-ranges-bulk,catonetworks,29858,cato,https://github.com/catonetworks/terraform-cato-network-ranges-bulk,
 network-resources,bootlabstech,20656,google,https://github.com/bootlabstech/terraform-google-network-resources,Creates GCP network resources
 network-routetable,ciscoxiaobing,28979,azurerm,https://github.com/ciscoxiaobing/terraform-azurerm-network-routetable,
 network-security,Tzrlk,15853,aws,https://github.com/Tzrlk/terraform-aws-network-security,Terraform module to simplify the setting up of security groups and their relationships
@@ -16743,6 +16748,7 @@ slack-alerts,fivexl,22817,aws,https://github.com/fivexl/terraform-aws-slack-aler
 slack-drive,amancevice,1093,google,https://github.com/amancevice/terraform-google-slack-drive,Terraform module for deploying Slack Drive to Google Cloud
 slack-events,amancevice,1145,google,https://github.com/amancevice/terraform-google-slack-events,Publish Slack events to Google Cloud Pub/Sub using Cloud Functions
 slack-interactive-components,amancevice,1144,google,https://github.com/amancevice/terraform-google-slack-interactive-components,Slack interactive component Cloud Funtion endpoint
+slack-notification,cypik,29854,aws,https://github.com/cypik/terraform-aws-slack-notification,
 slack-notifier,plus3it,1584,aws,https://github.com/plus3it/terraform-aws-slack-notifier,Terraform module that builds and deploys a lamdbda function for the aws-to-slack package.
 slack-pivotal-tracker-bot,trussworks,758,aws,https://github.com/trussworks/terraform-aws-slack-pivotal-tracker-bot,Terraform module for deploying slack-pivotal-tracker-bot to AWS Lambda
 slackbot,SevenPico,17798,aws,https://github.com/SevenPico/terraform-aws-slackbot,
@@ -18134,8 +18140,7 @@ test-module,jampp-preview,14303,aws,https://github.com/jampp-preview/terraform-a
 test-module,skoobasteeve,15225,ray,https://github.com/skoobasteeve/terraform-ray-test-module,
 test-module,weakpixel,13041,tfcli,https://github.com/weakpixel/terraform-tfcli-test-module,
 test-module,woodmaeng,27795,aws,https://github.com/woodmaeng/terraform-aws-test-module,A test Terraform module to experiment with
-test-repo,bartekmo,23949,google,https://github.com/bartekmo/terraform-google-test-repo,
-test-repo2,bartekmo,29835,google,https://github.com/bartekmo/terraform-google-test-repo2,
+test-repo3,bartekmo,29855,google,https://github.com/bartekmo/terraform-google-test-repo3,
 test-runner,toluna-terraform,12831,unit,https://github.com/toluna-terraform/terraform-unit-test-runner,
 test-symlinks,mhuxtable,20751,random,https://github.com/mhuxtable/terraform-random-test-symlinks,Module to test whether Terraform Registry follows symlinks when publishing modules.
 test-tf-module,omricohenn,23831,google,https://github.com/omricohenn/terraform-google-test-tf-module,
