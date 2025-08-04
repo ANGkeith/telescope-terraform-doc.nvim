@@ -1925,7 +1925,7 @@ avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com
 avm-res-desktopvirtualization-workspace,Azure,22157,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace,AVM Terraform Module for Desktop Virtualization Workspace
 avm-res-devcenter-devcenter,Azure,26418,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devcenter-devcenter,Azure Verified Modules DevCenter Terraform Module
 avm-res-devopsinfrastructure-pool,Azure,25629,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devopsinfrastructure-pool,Azure Verified Module for Azure Managed DevOps Pool
-avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,
+avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,Terraform Azure Verified Resource Module for CosmosDB Database Account
 avm-res-edge-site,Azure,25589,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-edge-site,terraform avm module for resource site manager
 avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventhub-namespace,
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,
@@ -3559,6 +3559,7 @@ cloudinit-example,devyanshi-t,11048,azure,https://github.com/devyanshi-t/terrafo
 cloudinit-vm,ZacksHomeLab,19372,proxmox,https://github.com/ZacksHomeLab/terraform-proxmox-cloudinit-vm,Proxmox Terraform module to deploy Cloudinit VMs
 cloudinit-vm,dj-d,27631,proxmox,https://github.com/dj-d/terraform-proxmox-cloudinit-vm,Terraform module for provisioning and configuring VMs on Proxmox using Cloud-Init.
 cloudmap,finisterra-io,23554,aws,https://github.com/finisterra-io/terraform-aws-cloudmap,Terraform AWS Cloudmap module
+cloudmap,tfstack,29862,aws,https://github.com/tfstack/terraform-aws-cloudmap,Terraform module to manage Amazon Cloud Map namespaces and services for DNS-based discovery
 cloudquery,cloudquery,12928,aws,https://github.com/cloudquery/terraform-aws-cloudquery,Terraform module to deploy cloudquery
 cloudrun,JamesWoolfenden,21906,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloudrun,
 cloudrun,yungwarlock,20921,google,https://github.com/yungwarlock/terraform-google-cloudrun,Terraform Cloud run
@@ -4970,6 +4971,7 @@ dns,hanyouqing,3748,alicloud,https://github.com/hanyouqing/terraform-alicloud-dn
 dns,heathen1878,19730,ionos,https://github.com/heathen1878/terraform-ionos-dns,Manages DNS records within an IONOS DNS zone
 dns,heathen1878,19731,azurerm,https://github.com/heathen1878/terraform-azurerm-dns,Manages Azure public and private DNS zones
 dns,lhaig,9663,multicloud,https://github.com/lhaig/terraform-multicloud-dns,"Module to deploy DNS Sub Zones from an AWS managed zone in AWS,Azure and GCP."
+dns,mexoboy,29865,cloudflare,https://github.com/mexoboy/terraform-cloudflare-dns,
 dns,mineiros-io,10896,cloudflare,https://github.com/mineiros-io/terraform-cloudflare-dns,A Terraform module to create and manage Domain Name Service (DNS) zones and records on Cloudflare https://www.cloudflare.com
 dns,mortzheng,7500,azurerm,https://github.com/mortzheng/terraform-azurerm-dns,
 dns,scaffoldly,9362,aws,https://github.com/scaffoldly/terraform-aws-dns,Manage DNS for all provided stages.
@@ -5543,7 +5545,7 @@ docker-instance,myhelper65,27077,aws,https://github.com/myhelper65/terraform-aws
 docker-instance,myildirim40,16303,aws,https://github.com/myildirim40/terraform-aws-docker-instance,
 docker-instance,myucel92,22353,aws,https://github.com/myucel92/terraform-aws-docker-instance,
 docker-instance,nargizraf,26405,aws,https://github.com/nargizraf/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
-docker-instance,nazlinurkaya,29796,aws,https://github.com/nazlinurkaya/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
+docker-instance,nazlinurkaya,29866,aws,https://github.com/nazlinurkaya/terraform-aws-docker-instance,
 docker-instance,ndhandev110781,21583,aws,https://github.com/ndhandev110781/terraform-aws-docker-instance,
 docker-instance,necipulusoy,21625,aws,https://github.com/necipulusoy/terraform-aws-docker-instance,
 docker-instance,nergisyilmaz,16390,aws,https://github.com/nergisyilmaz/terraform-aws-docker-instance,
@@ -6877,7 +6879,6 @@ ecs-service-autoscaling-cloudwatch,umotif-public,4510,aws,https://github.com/umo
 ecs-service-basico,secopsninjaaws,28591,aws,https://github.com/secopsninjaaws/terraform-aws-ecs-service-basico,Esse modulo foi construído para criar serviços do ECS personalizáveis utilizando ALBs públicos ou privados.
 ecs-service-blue-green-deployment,hendrixroa,6986,aws,https://github.com/hendrixroa/terraform-aws-ecs-service-blue-green-deployment,Deploy your containers to AWS ECS with minimal configurations.
 ecs-service-cloudwatch-dashboard,silinternational,1356,aws,https://github.com/silinternational/terraform-aws-ecs-service-cloudwatch-dashboard,Terraform module for creating a CloudWatch Dashboard to monitor CPU and Memory Utilization of an ECS Service
-ecs-service-connect,secopsninjaaws,28651,aws,https://github.com/secopsninjaaws/terraform-aws-ecs-service-connect,
 ecs-service-fargate,lptech-io,19195,aws,https://github.com/lptech-io/terraform-aws-ecs-service-fargate,Terraform module to create a service on ECS fargate
 ecs-service-load-balancer,philips-software,1896,aws,https://github.com/philips-software/terraform-aws-ecs-service-load-balancer,Terraform module to create load balancers for ecs services
 ecs-service-monitoring,ganexcloud,13423,aws,https://github.com/ganexcloud/terraform-aws-ecs-service-monitoring,
@@ -7233,7 +7234,6 @@ eks-cluster,ptonini,22141,aws,https://github.com/ptonini/terraform-aws-eks-clust
 eks-cluster,quortex,5102,aws,https://github.com/quortex/terraform-aws-eks-cluster,A terraform module for Quortex infrastructure EKS cluster layer.
 eks-cluster,rails-on-services,3594,aws,https://github.com/rails-on-services/terraform-aws-eks-cluster,Manages AWS EKS cluster
 eks-cluster,rhythmictech,5025,aws,https://github.com/rhythmictech/terraform-aws-eks-cluster,Create and manage an EKS cluster
-eks-cluster,secopsninjaaws,28443,aws,https://github.com/secopsninjaaws/terraform-aws-eks-cluster,
 eks-cluster,sidick,1149,aws,https://github.com/sidick/terraform-aws-eks-cluster,Terraform EKS Cluster Module
 eks-cluster,trallnag,7337,aws,https://github.com/trallnag/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
 eks-cluster-autoscaler,DNXLabs,8669,aws,https://github.com/DNXLabs/terraform-aws-eks-cluster-autoscaler,Terraform module for deploying Kubernetes Cluster Autoscaler inside a pre-existing EKS cluster. Cluster Autoscaler is a tool that automatically adjusts the size of the Kubernetes cluster.
@@ -8782,6 +8782,7 @@ haproxy-high-number-of-client-side-request-errors-in-haproxy,terraform-shoreline
 haproxy-ingress-controller,sanarena,7309,kubernetes,https://github.com/sanarena/terraform-kubernetes-haproxy-ingress-controller,HAProxy Ingress controller for EKS via Terraform 
 haproxy-number-of-backend-connection-failures-for-haproxy-is-above-normal,terraform-shoreline-modules,20332,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-haproxy-number-of-backend-connection-failures-for-haproxy-is-above-normal,This repository was generated automatically based on a Shoreline Insights Runbook.
 hardened-bastion,ordinaryexperts,10081,aws,https://github.com/ordinaryexperts/terraform-aws-hardened-bastion,Terraform module to deploy a security-hardened SSH bastion host in AWS
+hardening-gitops-bridge,thothforge,29867,helm,https://github.com/thothforge/terraform-helm-hardening-gitops-bridge,
 hardware-profiler,BrainXio,29307,host,https://github.com/BrainXio/terraform-host-hardware-profiler,
 haripriya,haripriya258,27297,aws,https://github.com/haripriya258/terraform-aws-haripriya,
 harness-ccm,harness-community,17001,aws,https://github.com/harness-community/terraform-aws-harness-ccm,Configure the Harness cloud cost management (CCM) module for AWS.
@@ -11699,7 +11700,6 @@ module-cyperf-app,armdupre,19511,google,https://github.com/armdupre/terraform-go
 module-domain,vnisolutions,21872,aws,https://github.com/vnisolutions/terraform-aws-module-domain,
 module-ecs-cluster,vnisolutions,21898,aws,https://github.com/vnisolutions/terraform-aws-module-ecs-cluster,
 module-eks,dinhdobathi1992,19245,aws,https://github.com/dinhdobathi1992/terraform-aws-module-eks,
-module-eks,secopsninjaaws,28444,vpc,https://github.com/secopsninjaaws/terraform-vpc-module-eks,
 module-firewall-rules,tonnyluiz00,27725,gcp,https://github.com/tonnyluiz00/terraform-gcp-module-firewall-rules,Modulo para realizar a criação das rules no GCP
 module-hello-apache,AjanaLarry,14494,aws,https://github.com/AjanaLarry/terraform-aws-module-hello-apache,Terraform module will provision an EC2 Instance that is running an Apache server
 module-installer-acctest,hashicorp,799,aws,https://github.com/hashicorp/terraform-aws-module-installer-acctest,A placeholder Terraform module for acceptance tests of Terraform's module installer
@@ -19096,6 +19096,7 @@ vpc,Kavitha-Sivalingam,14525,kavitha,https://github.com/Kavitha-Sivalingam/terra
 vpc,Kkenzheeva,28628,aws,https://github.com/Kkenzheeva/terraform-aws-vpc,
 vpc,KoeSystems,461,aws,https://github.com/KoeSystems/terraform-aws-vpc,Terraform AWS VPC module
 vpc,LNSdev07,28410,aws,https://github.com/LNSdev07/terraform-aws-vpc,
+vpc,LucasCloudUniverse,29864,aws,https://github.com/LucasCloudUniverse/terraform-aws-vpc,
 vpc,Lucky-graf,17316,aws,https://github.com/Lucky-graf/terraform-aws-vpc,Modules for AWS provider
 vpc,MagnetarIT,4625,aws,https://github.com/MagnetarIT/terraform-aws-vpc,Terraform module for creation of a VPC
 vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
