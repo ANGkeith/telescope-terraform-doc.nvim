@@ -1901,6 +1901,7 @@ avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azure
 avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,Terraform Azure Verified Resource Module for Cognitive Service
 avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,Terraform Azure Verified Resource Module for Email Communication Service
+avm-res-compute-capacityreservationgroup,Azure,29870,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-capacityreservationgroup,Terraform Azure Verified Resource Module for Compute Capacity Reservation Group
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,AVM Terraform module for Disk Encryption Set
 avm-res-compute-gallery,Azure,27155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-gallery,AVM Terraform module for Compute gallery 
@@ -2039,6 +2040,7 @@ aws-controller,AviatrixSystems,14981,aviatrix,https://github.com/AviatrixSystems
 aws-controlplane,AviatrixSystems,24798,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-aws-controlplane,Terraform module to deploy Aviatrix ControlPlane (Controller + CoPilot) in AWS
 aws-controlplane,terraform-aviatrix-modules,28752,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-controlplane,"This module deploys the Aviatrix control plane, or individual parts thereof."
 aws-core,lean-delivery,7586,module,https://github.com/lean-delivery/terraform-module-aws-core,Terraform module for creating AWS core service
+aws-core-infra,pagopa-dx,29873,aws,https://github.com/pagopa-dx/terraform-aws-aws-core-infra,Sets up the core AWS infrastructure including all necessary networking resources. Useful to bootstrap production or development environments.
 aws-cronjob,axetrading,22996,helm,https://github.com/axetrading/terraform-helm-aws-cronjob,This repository contains the terraform module for Kubernetes CronJobs 
 aws-customer-gw-static-routes,mergermarket,3771,acuris,https://github.com/mergermarket/terraform-acuris-aws-customer-gw-static-routes,
 aws-dashboard,falcon-terraform-modules,23914,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-dashboard,This Terraform module creates and configures NewRelic Dashboard for AWS. It will create a separate page for each AWS service on a single Dashboard. It is possible to control create or not create pages for each AWS service. The source for the pages is JSON files published on newrelic-quickstarts/dashboards. New AWS services to be supported by update
@@ -3546,7 +3548,7 @@ cloudguard,equinix,8203,equinix,https://github.com/equinix/terraform-equinix-clo
 cloudguard-network-security,CheckPointSW,27331,aws,https://github.com/CheckPointSW/terraform-aws-cloudguard-network-security," Terraform modules for deploying Check Point CloudGuard Network Security in Amazon Web Services (AWS). These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,27332,azure,https://github.com/CheckPointSW/terraform-azure-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Microsoft Azure. These modules automate the creation of Virtual Networks, Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,29134,vmware,https://github.com/CheckPointSW/terraform-vmware-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security (CGNS) on VMware vCenter environments. The modules automate provisioning of both Security Gateways and Management servers, simplifying secure infrastructure setup. Community-supported content allows for flexibility and adaptation to a variety of VMware deployments."
-cloudguard-network-security,lyqwaterway,29861,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security,
+cloudguard-network-security-cn,lyqwaterway,29871,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security-cn,
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
 cloudinit,SoleksDataGroup,24766,aws,https://github.com/SoleksDataGroup/terraform-aws-cloudinit,
@@ -4665,6 +4667,7 @@ datafold,datafold,29608,azure,https://github.com/datafold/terraform-azure-datafo
 datafusion,bootlabstech,13993,google,https://github.com/bootlabstech/terraform-google-datafusion,Creates a data-fusion instance.
 datalab,terraform-google-modules,3336,google,https://github.com/terraform-google-modules/terraform-google-datalab,Creates DataLab instances with support for GPU instances
 datalake,artefactory,18862,google,https://github.com/artefactory/terraform-google-datalake,Terraform module to deploy a GCP data lake.
+datalake,mniranjanr7,29878,azure,https://github.com/mniranjanr7/terraform-azure-datalake,
 datalake,sachinsprabhu91,9485,aws,https://github.com/sachinsprabhu91/terraform-aws-datalake,
 datalake,wiseupdata,18625,oci,https://github.com/wiseupdata/terraform-oci-datalake,
 datalake-house-ingress,parisnakitakejser,23011,aws,https://github.com/parisnakitakejser/terraform-aws-datalake-house-ingress,"DataLake House, Ingress area deployed with support for http sink."
@@ -11758,6 +11761,7 @@ moduleApache,RillistikPete,19137,aws,https://github.com/RillistikPete/terraform-
 modulejan24,Mitchxxx,23520,eks,https://github.com/Mitchxxx/terraform-eks-modulejan24,Terraform AWS-EKS Module
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
 modules,EngMohamedElEmam,17845,azure,https://github.com/EngMohamedElEmam/terraform-azure-modules,Terraform Modules for Azure Services
+modules,Juniper,29872,mist,https://github.com/Juniper/terraform-mist-modules,Terraform modules to be used with the terraform-mist-provider
 modules,KOTechnologiesLtd,27626,datadog,https://github.com/KOTechnologiesLtd/terraform-datadog-modules,KO Technologies Terraform Datadog Modules
 modules,RonasIT,21577,google,https://github.com/RonasIT/terraform-google-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
 modules,RonasIT,23650,aws,https://github.com/RonasIT/terraform-aws-modules,A collection of reusable Terraform modules designed to streamline setup processes and reduce configuration time
@@ -11810,7 +11814,6 @@ modules,tf-ops,28606,aws,https://github.com/tf-ops/terraform-aws-modules,
 modules,thomasmelison,24360,aws,https://github.com/thomasmelison/terraform-aws-modules,Repository for AWS Terraform modules.
 modules,unionai-oss,17181,opta,https://github.com/unionai-oss/terraform-opta-modules,The next generation of Infrastructure-as-Code. Work with high-level constructs instead of getting lost in low-level cloud configuration.
 modules,usmc686,1403,TFE,https://github.com/usmc686/terraform-TFE-modules,
-modules-VPC-MySql_ActiveMQ-Elasticached-Beanstalk,kmkouokam,23501,aws,https://github.com/kmkouokam/terraform-aws-modules-VPC-MySql_ActiveMQ-Elasticached-Beanstalk,"Terraform module to create VPC, Bastion, MySQL, Elasticached, ActiveMQ, and Beanstalk"
 modules-project,sibikmc,21427,alicloud,https://github.com/sibikmc/terraform-alicloud-modules-project,ecs
 modules-terraform-google-kubernetes-engine,aldarionsevero,3534,google,https://github.com/knelasevero/terraform-google-modules-terraform-google-kubernetes-engine,
 modules-wo-do,alebarrionovo,22792,digitalocean,https://github.com/alebarrionovo/terraform-digitalocean-modules-wo-do,
@@ -12043,7 +12046,6 @@ multiversx-node,tencentcloud-tci,21585,tencentcloud,https://github.com/tencentcl
 munki-repo,grahamgilbert,2022,aws,https://github.com/grahamgilbert/terraform-aws-munki-repo,A Terraform module to set up a Munki repo
 munkirepo,rodchristiansen,29217,azurerm,https://github.com/rodchristiansen/terraform-azurerm-munkirepo,
 munkireport,rodchristiansen,28399,azurerm,https://github.com/rodchristiansen/terraform-azurerm-munkireport,
-mutlistack-with-elasticbeanstalk,kmkouokam,22962,aws,https://github.com/kmkouokam/terraform-aws-mutlistack-with-elasticbeanstalk,"Terraform module to create VPC, Bastion, MySQL, Elasticached, ActiveMQ, and Beanstalk"
 mutual-security-groups,skwashd,11124,aws,https://github.com/skwashd/terraform-aws-mutual-security-groups,This module creates mutual AWS security group rules where matching ingress and egress to allow traffic between two security groups. This makes it easier to create security network configuration in your AWS environments.
 mwaa,Almenon,17384,aws,https://github.com/Almenon/terraform-aws-mwaa,Terraform module for Amazon MWAA(Apache Airflow)
 mwaa,Infrastrukturait,18003,aws,https://github.com/Infrastrukturait/terraform-aws-mwaa,Terraform module for Amazon MWAA (Apache Airflow orchestrates)
@@ -12059,6 +12061,7 @@ my-ec2,monbostest,10989,aws,https://github.com/monbostest/terraform-aws-my-ec2,t
 my-module,erzhena-d,29847,aws,https://github.com/erzhena-d/terraform-aws-my-module,homework25
 my-server,thecthebest,28325,aws,https://github.com/thecthebest/terraform-aws-my-server,
 my-vnet,vijaykumar8564,23287,azurerm,https://github.com/vijaykumar8564/terraform-azurerm-my-vnet,
+my-vpc,subrattandon,29875,aws,https://github.com/subrattandon/terraform-aws-my-vpc,
 myRepo,AnkurDube,12281,ankur,https://github.com/AnkurDube/terraform-ankur-myRepo,
 myTerraform,teja-2123,16870,aws,https://github.com/teja-2123/terraform-aws-myTerraform,
 my_s3_backend,alokkavilkar,25017,aws,https://github.com/alokkavilkar/terraform-aws-my_s3_backend,
@@ -13847,6 +13850,7 @@ project,justtrackio,18894,sentry,https://github.com/justtrackio/terraform-sentry
 project,kiwicom,4021,vault,https://github.com/kiwicom/terraform-vault-project,Vault resources for Gitlab project.
 project,mariuszRep,24032,azuredevops,https://github.com/mariuszRep/terraform-azuredevops-project,
 project,mineiros-io,11750,google,https://github.com/mineiros-io/terraform-google-project,"A Terraform module to create and manage projects, the basis for creating, enabling, and using all Google Cloud services including managing APIs, enabling billing, adding and removing collaborators, and managing permissions in Google Cloud https://cloud.google.com/resource-manager/docs/creating-managing-projects"
+project,mniranjanr7,29879,vault,https://github.com/mniranjanr7/terraform-vault-project,To setup hashicorp vault
 project,mrlesmithjr,5330,gitlab,https://github.com/mrlesmithjr/terraform-gitlab-project,
 project,nephosolutions,25928,tfe,https://github.com/nephosolutions/terraform-tfe-project,Provisions a Terraform Cloud project
 project,nilic,15212,gitlab,https://github.com/nilic/terraform-gitlab-project,Terraform module for GitLab project creation and configuration
@@ -14904,6 +14908,7 @@ resource-group,krezreb,6477,azurerm,https://github.com/krezreb/terraform-azurerm
 resource-group,lbenimelis,8325,azure,https://github.com/lbenimelis/terraform-azure-resource-group,Terraform module to create an Azure Resource Group
 resource-group,mahmudrajaa,24571,azurerm,https://github.com/mahmudrajaa/terraform-azurerm-resource-group,
 resource-group,minhnnhat,8862,azure,https://github.com/minhnnhat/terraform-azure-resource-group,
+resource-group,mniranjanr7,29877,azure,https://github.com/mniranjanr7/terraform-azure-resource-group,
 resource-group,mofaizal,20988,azure,https://github.com/mofaizal/terraform-azure-resource-group,Resource group terraform module for terraform registry
 resource-group,mofaizal,24539,azurerm,https://github.com/mofaizal/terraform-azurerm-resource-group,This resource group terraform module 
 resource-group,nirpendra83,10852,azurerm,https://github.com/nirpendra83/terraform-azurerm-resource-group,This is a module that will help you to create a resource group
@@ -16748,7 +16753,7 @@ slack-alerts,fivexl,22817,aws,https://github.com/fivexl/terraform-aws-slack-aler
 slack-drive,amancevice,1093,google,https://github.com/amancevice/terraform-google-slack-drive,Terraform module for deploying Slack Drive to Google Cloud
 slack-events,amancevice,1145,google,https://github.com/amancevice/terraform-google-slack-events,Publish Slack events to Google Cloud Pub/Sub using Cloud Functions
 slack-interactive-components,amancevice,1144,google,https://github.com/amancevice/terraform-google-slack-interactive-components,Slack interactive component Cloud Funtion endpoint
-slack-notification,cypik,29854,aws,https://github.com/cypik/terraform-aws-slack-notification,
+slack-notification,cypik,29854,aws,https://github.com/cypik/terraform-aws-slack-notification,"Terraform module to create an AWS Lambda function that sends automated Slack alerts via webhook. Ideal for monitoring, incident reporting, and custom notifications."
 slack-notifier,plus3it,1584,aws,https://github.com/plus3it/terraform-aws-slack-notifier,Terraform module that builds and deploys a lamdbda function for the aws-to-slack package.
 slack-pivotal-tracker-bot,trussworks,758,aws,https://github.com/trussworks/terraform-aws-slack-pivotal-tracker-bot,Terraform module for deploying slack-pivotal-tracker-bot to AWS Lambda
 slackbot,SevenPico,17798,aws,https://github.com/SevenPico/terraform-aws-slackbot,
@@ -18942,6 +18947,7 @@ vnet,Meydan52,14002,azure,https://github.com/Meydan52/terraform-azure-vnet,
 vnet,MfetHash,29569,azurerm,https://github.com/MfetHash/terraform-azurerm-vnet,
 vnet,Muraliazure,5699,azurerm,https://github.com/Muraliazure/terraform-azurerm-vnet,Terraform module to create/provision Azure vnet 
 vnet,Sasi2014,17937,azurerm,https://github.com/Sasi2014/terraform-azurerm-vnet,terraform module  vnet creation
+vnet,Shiazy18,29868,azurerm,https://github.com/Shiazy18/terraform-azurerm-vnet,
 vnet,Shivakumar1702,25089,azurerm,https://github.com/Shivakumar1702/terraform-azurerm-vnet,
 vnet,Shreyansh-Simform,29266,azurerm,https://github.com/Shreyansh-Simform/terraform-azurerm-vnet,
 vnet,Trustedsavvy,17679,azurerm,https://github.com/Trustedsavvy/terraform-azurerm-vnet,this is for vnet
