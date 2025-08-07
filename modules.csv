@@ -1173,6 +1173,7 @@ application,Redevaerk,20487,azuread,https://github.com/Redevaerk/terraform-azure
 application,avinor,3447,azuread,https://github.com/avinor/terraform-azuread-application,Terraform module to create an application in Azure AD.
 application,bellanov,26609,aws,https://github.com/bellanov/terraform-aws-application,Amazon Web Services Application Module.
 application,bellanov,26612,google,https://github.com/bellanov/terraform-google-application,Google Cloud Application Module.
+application,bonddim,29893,azuread,https://github.com/bonddim/terraform-azuread-application,
 application,cloudcommons,3857,kubernetes,https://github.com/cloudcommons/terraform-kubernetes-application,"Terraform module to deploy an application in Kubernetes. Equivalent to a Helm chart, but relaying purely on Terraform."
 application,dhoppeIT,28542,authentik,https://github.com/dhoppeIT/terraform-authentik-application,
 application,massdriver-cloud,28995,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-application,OpenTofu/Terraform module for parsing Massdriver Bundle specs for your application
@@ -2042,6 +2043,7 @@ aws-controlplane,AviatrixSystems,24798,aviatrix,https://github.com/AviatrixSyste
 aws-controlplane,terraform-aviatrix-modules,28752,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-controlplane,"This module deploys the Aviatrix control plane, or individual parts thereof."
 aws-core,lean-delivery,7586,module,https://github.com/lean-delivery/terraform-module-aws-core,Terraform module for creating AWS core service
 aws-core-infra,pagopa-dx,29873,aws,https://github.com/pagopa-dx/terraform-aws-aws-core-infra,Sets up the core AWS infrastructure including all necessary networking resources. Useful to bootstrap production or development environments.
+aws-core-values-exporter,pagopa-dx,29894,aws,https://github.com/pagopa-dx/terraform-aws-aws-core-values-exporter,Allow to output the main core values of configurations deployed via aws-core-infra module
 aws-cronjob,axetrading,22996,helm,https://github.com/axetrading/terraform-helm-aws-cronjob,This repository contains the terraform module for Kubernetes CronJobs 
 aws-customer-gw-static-routes,mergermarket,3771,acuris,https://github.com/mergermarket/terraform-acuris-aws-customer-gw-static-routes,
 aws-dashboard,falcon-terraform-modules,23914,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-dashboard,This Terraform module creates and configures NewRelic Dashboard for AWS. It will create a separate page for each AWS service on a single Dashboard. It is possible to control create or not create pages for each AWS service. The source for the pages is JSON files published on newrelic-quickstarts/dashboards. New AWS services to be supported by update
@@ -2071,6 +2073,7 @@ aws-example,Rocio441,15069,apache,https://github.com/Rocio441/terraform-apache-a
 aws-fargate,Adaptavist,6603,module,https://github.com/Adaptavist/terraform-module-aws-fargate,
 aws-fe,kaushik-xs,12557,kli,https://github.com/kaushik-xs/terraform-kli-aws-fe,
 aws-firenet-eip-replace,terraform-aviatrix-modules,19953,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-firenet-eip-replace,This module helps users swap out the EIP assigned to a firenet instance's egress interface for a specified one.
+aws-github-environment-bootstrap,pagopa-dx,29892,aws,https://github.com/pagopa-dx/terraform-aws-aws-github-environment-bootstrap,Sets up monorepo's settings and required AWS permissions and roles
 aws-gitlab-runner,lean-delivery,7590,module,https://github.com/lean-delivery/terraform-module-aws-gitlab-runner,Terraform module for creating GitLab runner
 aws-gw,kaushik-xs,12565,kli,https://github.com/kaushik-xs/terraform-kli-aws-gw,
 aws-https-redirection,mergermarket,4065,acuris,https://github.com/mergermarket/terraform-acuris-aws-https-redirection,
@@ -2324,6 +2327,7 @@ azurefirewall-nat-rule-collection,andrewCluey,6320,azurerm,https://github.com/an
 azurefirewall-net-rule-collection,andrewCluey,6317,azurerm,https://github.com/andrewCluey/terraform-azurerm-azurefirewall-net-rule-collection,Create Network Rules for an Azure Firewall
 azurefuctions,eduardoorm,28696,azurerm,https://github.com/eduardoorm/terraform-azurerm-azurefuctions,Module create to deploy an Azure Fuction App
 azurefunctions,AndresKenji,28815,azurerm,https://github.com/AndresKenji/terraform-azurerm-azurefunctions,Module for create and deploy Azure Function App
+azurefunctions,OskarConislla,29902,azurerm,https://github.com/OskarConislla/terraform-azurerm-azurefunctions,
 azurefunctions,aminespinoza,7644,azurerm,https://github.com/aminespinoza/terraform-azurerm-azurefunctions,This is a repository made to store an Azure Functions App module for Terraform.
 azurefunctions,aminespinoza10,27410,azurerm,https://github.com/aminespinoza10/terraform-azurerm-azurefunctions,Module created to deploy an Azure Function App
 azurefunctions,jadelje,29156,azurerm,https://github.com/jadelje/terraform-azurerm-azurefunctions,
@@ -4997,6 +5001,7 @@ dns-delegation,infrablocks,3625,aws,https://github.com/infrablocks/terraform-aws
 dns-delegator,nullstone-modules,9051,aws,https://github.com/nullstone-modules/terraform-aws-dns-delegator,Terraform module to create an IAM user with permissions to modify a DNS zone.
 dns-demo,Pruthvi2340,22653,google,https://github.com/Pruthvi2340/terraform-google-dns-demo,
 dns-entry-and-acm-validated-cert,kubozoainc,14237,aws,https://github.com/kubozoainc/terraform-aws-dns-entry-and-acm-validated-cert,Terraform AWS Route53 Entry and ACM Validated Cert
+dns-from-yaml,sEpt0r,29901,azurerm,https://github.com/sEpt0r/terraform-azurerm-dns-from-yaml,
 dns-lookup,AshleyJackson,21657,module,https://github.com/AshleyJackson/terraform-module-dns-lookup,Terraform module to perform DNS lookups
 dns-managed-zone,Eimert,1712,google,https://github.com/Eimert/terraform-google-dns-managed-zone,Terraform module for a Google Cloud DNS managed zone
 dns-managed-zone,bootlabstech,12569,google,https://github.com/bootlabstech/terraform-google-dns-managed-zone,
@@ -8884,6 +8889,7 @@ helm,cloudopsworks,14509,aws,https://github.com/cloudopsworks/terraform-aws-helm
 helm,cypik,24025,eks,https://github.com/cypik/terraform-eks-helm,
 helm,gitlawr,17539,kubernetes,https://github.com/gitlawr/terraform-kubernetes-helm,
 helm,gruntwork-io,2432,kubernetes,https://github.com/gruntwork-io/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
+helm,hiddenmarten,29895,module,https://github.com/hiddenmarten/terraform-module-helm,
 helm,ruaan,6519,kubernetes,https://github.com/ruaan/terraform-kubernetes-helm,Terraform code and scripts for deploying Helm Server (Helm v2) on a Kubernetes cluster. https://www.gruntwork.io
 helm-argocd,c0x12c,29412,aws,https://github.com/c0x12c/terraform-aws-helm-argocd,
 helm-atlantis,getindata,25521,gke,https://github.com/getindata/terraform-gke-helm-atlantis,
@@ -9380,7 +9386,7 @@ infra,neutrino-io,18622,google,https://github.com/neutrino-io/terraform-google-i
 infra-dscp-translation-policy,netascode,9848,aci,https://github.com/netascode/terraform-aci-infra-dscp-translation-policy,Terraform Cisco ACI Infra DSCP Translation Policy Module
 infra-iam-roles,guidion-digital,24336,aws,https://github.com/guidion-digital/terraform-aws-infra-iam-roles,"Simple helper module that creates IAM roles, and attaches provided policies from either provided ARNs or policy documents"
 infra-k8s-oracle-cloud,sebastianczech,13529,oci,https://github.com/sebastianczech/terraform-oci-infra-k8s-oracle-cloud,Terraform module to provision infrastructure used to create free Kubernetes cluster in Oracle Cloud
-infra-modules,kmkouokam,29890,aws,https://github.com/kmkouokam/terraform-aws-infra-modules,
+infra-modules,kmkouokam,29899,aws,https://github.com/kmkouokam/terraform-aws-infra-modules,
 infra-pipeline,toluna-terraform,9487,aws,https://github.com/toluna-terraform/terraform-aws-infra-pipeline,Continous pipeline for Terraform managed infrastructure
 infra-s3-workspaces,guidion-digital,23239,aws,https://github.com/guidion-digital/terraform-aws-infra-s3-workspaces,Helper module to create resources necessary for mimicking a Terraform Cloud Workspace
 infra-toolkit,d7oss,16061,aws,https://github.com/d7oss/terraform-aws-infra-toolkit,
@@ -11639,6 +11645,7 @@ module,gittest20202,22642,local,https://github.com/gittest20202/terraform-local-
 module,harushimo,1402,demo,https://github.com/harushimo/terraform-demo-module,
 module,hashicorp,14341,random,https://github.com/hashicorp/terraform-random-module,A test Terraform module for use in CI pipelines
 module,ikambarov,17393,vpc,https://github.com/ikambarov/terraform-vpc-module,
+module,jcalles,29900,s3,https://github.com/jcalles/terraform-s3-module,Terraform module to manage AWS s3 buckets
 module,jdxlabs,22307,s3,https://github.com/jdxlabs/terraform-s3-module,
 module,jonbrouse,1060,sample,https://github.com/jonbrouse/terraform-sample-module,Test module
 module,kevcube,16060,example,https://github.com/kevcube/terraform-example-module,Terraform module to provision ECS Cluster and ECS Capacity Provider on AWS
@@ -17353,6 +17360,7 @@ staticwebsite-public,rajeshr264,14409,azure,https://github.com/rajeshr264/terraf
 staticwebsitefiletransfer,firaun2020,13196,azurerm,https://github.com/firaun2020/terraform-azurerm-staticwebsitefiletransfer,"This module will enable you to createe & host a static website on Azure Storage. Plus, will also move your html/static files from local to Azure in the same deploy"
 staticwebsitemodule,gopal1409,11607,azurerm,https://github.com/gopal1409/terraform-azurerm-staticwebsitemodule,
 staticwebsitemodule,shyamsundarsr,11608,azurerm,https://github.com/shyamsundarsr/terraform-azurerm-staticwebsitemodule,
+staticwebsitemodule,toriqul007,29897,azurerm,https://github.com/toriqul007/terraform-azurerm-staticwebsitemodule,
 staticwebsitemodule-v.0.1,only4watch,11611,azurerm,https://github.com/only4watch/terraform-azurerm-staticwebsitemodule-v.0.1,
 staticwebsitepb,stacksimplify,9048,azurerm,https://github.com/stacksimplify/terraform-azurerm-staticwebsitepb,Terraform Modules to be shared in Terraform Public Registry
 staticwebsiteprivate,gagjat91,21438,azurerm,https://github.com/gagjat91/terraform-azurerm-staticwebsiteprivate,Terraform Modules to be shared in Private Registry
@@ -19112,7 +19120,6 @@ vpc,Kavitha-Sivalingam,14525,kavitha,https://github.com/Kavitha-Sivalingam/terra
 vpc,Kkenzheeva,28628,aws,https://github.com/Kkenzheeva/terraform-aws-vpc,
 vpc,KoeSystems,461,aws,https://github.com/KoeSystems/terraform-aws-vpc,Terraform AWS VPC module
 vpc,LNSdev07,28410,aws,https://github.com/LNSdev07/terraform-aws-vpc,
-vpc,LucasCloudUniverse,29864,aws,https://github.com/LucasCloudUniverse/terraform-aws-vpc,
 vpc,Lucky-graf,17316,aws,https://github.com/Lucky-graf/terraform-aws-vpc,Modules for AWS provider
 vpc,MagnetarIT,4625,aws,https://github.com/MagnetarIT/terraform-aws-vpc,Terraform module for creation of a VPC
 vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
@@ -19151,6 +19158,7 @@ vpc,Shvyrlo,12660,aws,https://github.com/shvyrlo/terraform-aws-vpc,
 vpc,Skifa87,9392,aws,https://github.com/Skifa87/terraform-aws-vpc,
 vpc,Smartbrood,587,aws,https://github.com/Smartbrood/terraform-aws-vpc,Terraform module to create VPC
 vpc,SoleksDataGroup,24657,aws,https://github.com/SoleksDataGroup/terraform-aws-vpc,
+vpc,SolidStackCloud,29896,aws,https://github.com/SolidStackCloud/terraform-aws-vpc,
 vpc,Taherasharifi,9001,aws,https://github.com/Taherasharifi/terraform-aws-vpc,
 vpc,TanTruong1992,25352,aws,https://github.com/TanTruong1992/terraform-aws-vpc,
 vpc,TarikIdri,12623,aws,https://github.com/TarikIdri/terraform-aws-vpc,
