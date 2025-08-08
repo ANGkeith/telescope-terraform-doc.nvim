@@ -282,6 +282,7 @@ acm-certificate,dod-iac,6624,aws,https://github.com/dod-iac/terraform-aws-acm-ce
 acm-certificate,eric-gonzales,870,aws,https://github.com/eric-gonzales/terraform-aws-acm-certificate,Terraform module that allows users to query for AWS Certificate Manager (ACM) managed certificates by domain name
 acm-certificate,figurate,4980,aws,https://github.com/figurate/terraform-aws-acm-certificate,Management of ACM certificates
 acm-certificate,infrablocks,3624,aws,https://github.com/infrablocks/terraform-aws-acm-certificate,A Terraform module to create and DNS validate an ACM certificate.
+acm-certificate,khanguyen78,29918,aws,https://github.com/khanguyen78/terraform-aws-acm-certificate,
 acm-certificate,ksatirli,15176,aws,https://github.com/ksatirli/terraform-aws-acm-certificate,Terraform Module: AWS ACM Certificates
 acm-certificate,manicminer,1130,aws,https://github.com/manicminer/terraform-aws-acm-certificate,Terraform module to create and validate AWS ACM certificates with DNS validation via Route53
 acm-certificate,notespacejp,12651,aws,https://github.com/notespacejp/terraform-aws-acm-certificate,moodules that acm can easily create
@@ -296,6 +297,7 @@ acm-certificate,viceIII,1351,aws,https://github.com/viceIII/terraform-aws-acm-ce
 acm-certificate-creation,StratusGrid,8951,aws,https://github.com/StratusGrid/terraform-aws-acm-certificate-creation,"Module used to automate ACM creation, Route53 record creation, and certificate validation."
 acm-certificate-import,nventive,21355,aws,https://github.com/nventive/terraform-aws-acm-certificate-import,Terraform module to import an existing certificate into ACM.
 acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform-aws-acm-certificate-request,Terraform module to request an ACM certificate.
+acm-certificate-validation,khanguyen78,29915,aws,https://github.com/khanguyen78/terraform-aws-acm-certificate-validation,
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
@@ -2900,6 +2902,7 @@ cbr,tf-cloud-modules,19016,sbercloud,https://github.com/tf-cloud-modules/terrafo
 cce,FlexibleEngineCloud,6019,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-cce,Terraform module which creates CCE resources on Flexible Engine 
 cce,camptocamp,8621,opentelekomcloud,https://github.com/camptocamp/terraform-opentelekomcloud-cce,
 cce,iits-consulting,28372,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-cce,
+cce,magicorntech,29912,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-cce,Magicorn Huawei Cloud Container Engine Module
 cce,tarak,2668,opentelekomcloud,https://github.com/tarak/terraform-opentelekomcloud-cce,Terraform module which creates CCE clusters on Open Telekom Cloud
 cce-addon-autoscaler,cloud-labs-infra,22846,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addon-autoscaler,
 cce-addons,cloud-labs-infra,18785,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addons,
@@ -4748,6 +4751,7 @@ dcos-install-public-agents-remote-exec,dcos-terraform,1420,null,https://github.c
 dcos-install-remote-exec,dcos-terraform,1445,null,https://github.com/dcos-terraform/terraform-null-dcos-install-remote-exec,
 dcos-install-remote-exec-ansible,dcos-terraform,2180,null,https://github.com/dcos-terraform/terraform-null-dcos-install-remote-exec-ansible,DC/OS Ansible based remote exec install
 dcr,CloudNationHQ,25763,azure,https://github.com/CloudNationHQ/terraform-azure-dcr,Terraform module which creates data collection rule resources used by workloads and accelerators.
+dcs,magicorntech,29913,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-dcs,Magicorn Huawei Cloud DCS Module
 dcs,tf-cloud-modules,19262,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-dcs,Sbercloud DCS Terraform module
 dcs-redis,cloud-labs-infra,18681,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-dcs-redis,
 dcube-data-core,dcube,21680,azurerm,https://github.com/dcube/terraform-azurerm-dcube-data-core,"Terraform module for the ""Core"" of the dcube data architecture"
@@ -4870,6 +4874,7 @@ devops-tools-conf,toluna-terraform,9839,aws,https://github.com/toluna-terraform/
 devops-vm,kentzybeatz,29155,azurerm,https://github.com/kentzybeatz/terraform-azurerm-devops-vm,"A central hub for artifacts, agendas, and resources related to the ""Azure DevOps Zero to Hero"" series on Tech Tutorials with Piyush YouTube channel. Access code snippets, agendas, notes, graphics, and community discussions. Stay updated on new episodes and collaborate with fellow learners."
 devops-vpc,integr8,1081,aws,https://github.com/integr8/terraform-aws-devops-vpc,
 devs-permissions,kiwicom,4063,vault,https://github.com/kiwicom/terraform-vault-devs-permissions,
+dew,magicorntech,29911,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-dew,Magicorn Huawei Cloud DEW Module
 dex,loafoe,20852,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-dex,Terraform module to deploy Dex to Cloud foundry
 dfp-modules,ccs-terraform,14223,aws,https://github.com/ccs-terraform/terraform-aws-dfp-modules,
 dfw-nia-module,kalenarndt,13508,nsxt,https://github.com/kalenarndt/terraform-nsxt-dfw-nia-module,NSX-T Consul-Terraform-Sync module that will create Distributed Firewall rules within the environment
@@ -5634,7 +5639,6 @@ docker-instance,sezar02,16371,aws,https://github.com/sezar02/terraform-aws-docke
 docker-instance,sezercetinkaya,20861,aws,https://github.com/sezercetinkaya/terraform-aws-docker-instance,
 docker-instance,shahinam2,29485,aws,https://github.com/shahinam2/terraform-aws-docker-instance,
 docker-instance,soneerceelik,14646,aws,https://github.com/soneerceelik/terraform-aws-docker-instance,
-docker-instance,sozlemkaya,16511,aws,https://github.com/sozlemkaya/terraform-aws-docker-instance,
 docker-instance,stekin100,25095,aws,https://github.com/stekin100/terraform-aws-docker-instance,
 docker-instance,stevenmiller007,16289,aws,https://github.com/stevenmiller007/terraform-aws-docker-instance,
 docker-instance,steveriviere,29095,aws,https://github.com/steveriviere/terraform-aws-docker-instance,
@@ -6586,7 +6590,7 @@ ecs,exnodeshub,22509,aws,https://github.com/exnodeshub/terraform-aws-ecs,
 ecs,finisterra-io,23562,aws,https://github.com/finisterra-io/terraform-aws-ecs,Terraform AWS ECS module
 ecs,genstackio,8000,aws,https://github.com/genstackio/terraform-aws-ecs,Terraform module to create an AWS ECS cluster
 ecs,hazelops,15076,aws,https://github.com/hazelops/terraform-aws-ecs,Terraform module which creates AWS ECS resources
-ecs,hushsecurity,29882,hush,https://github.com/hushsecurity/terraform-hush-ecs,
+ecs,hushsecurity,29907,aws,https://github.com/hushsecurity/terraform-aws-ecs,
 ecs,infrahouse,22069,aws,https://github.com/infrahouse/terraform-aws-ecs,Module that runs service in ECS
 ecs,infraspecdev,25378,aws,https://github.com/infraspecdev/terraform-aws-ecs,Terraform module to create ECS Cluster that relies on self-managed EC2 instances
 ecs,jand0manski,20657,aws,https://github.com/jand0manski/terraform-aws-ecs,Terraform module which creates AWS ECS resources 🇺🇦
@@ -6595,6 +6599,7 @@ ecs,khaliqgant,950,aws,https://github.com/khaliqgant/terraform-aws-ecs,AWS speci
 ecs,kurron,521,aws,https://github.com/kurron/terraform-aws-ecs,"Terraform module that creates an ECS cluster, backed by Spot instances"
 ecs,lazzurs,3991,aws,https://github.com/lazzurs/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
 ecs,luboleg,7782,aws,https://github.com/luboleg/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
+ecs,magicorntech,29910,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-ecs,Magicorn Huawei Cloud ECS Module
 ecs,mhrzn-terraform,19933,aws,https://github.com/mhrzn-terraform/terraform-aws-ecs,
 ecs,michaelaw320,8365,aws,https://github.com/michaelaw320/terraform-aws-ecs,Terraform module which creates ECS and related resources on AWS
 ecs,mikamakusa,25471,aws,https://github.com/mikamakusa/terraform-aws-ecs,
@@ -8753,6 +8758,7 @@ guardduty,aws-ss,18722,aws,https://github.com/aws-ss/terraform-aws-guardduty,A T
 guardduty,c0x12c,29320,aws,https://github.com/c0x12c/terraform-aws-guardduty,
 guardduty,cloudposee,28033,aws,https://github.com/cloudposee/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
 guardduty,cloudposse,7045,aws,https://github.com/cloudposse/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
+guardduty,cypik,29905,aws,https://github.com/cypik/terraform-aws-guardduty,
 guardduty,dod-iac,4654,aws,https://github.com/dod-iac/terraform-aws-guardduty,Creates an AWS GuardDuty Detector
 guardduty,einyx,3239,aws,https://github.com/einyx/terraform-aws-guardduty,A simple module to enable guarduty and set admins up
 guardduty,oozou,15556,aws,https://github.com/oozou/terraform-aws-guardduty,Terraform Component for AWS GuardDuty
@@ -9010,6 +9016,7 @@ hvn-aws,ksatirli,15007,hcp,https://github.com/ksatirli/terraform-hcp-hvn-aws,Ter
 hvn-azure,ksatirli,15047,hcp,https://github.com/ksatirli/terraform-hcp-hvn-azure,Terraform Module: HashiCorp Cloud Platform (HCP) HVN for Azure
 hvn_deployment,Sokren,11785,hcp,https://github.com/Sokren/terraform-hcp-hvn_deployment,
 hvsapp,jbayer,24397,hcp,https://github.com/jbayer/terraform-hcp-hvsapp,Terraform Module for managing an HCP HVS App
+hw5,achelya81,29919,vpc,https://github.com/achelya81/terraform-vpc-hw5,
 hx,terraform-cisco-modules,14460,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-hx,Terraform Module for Creating & Deploying Cisco HyperFlex Clusters through Intersight
 hybrid-cloud-network,alibabacloud-automation,26010,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-hybrid-cloud-network,
 hybrid-cloud-network-with-single-physical-connection,alibabacloud-automation,27080,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-hybrid-cloud-network-with-single-physical-connection,
@@ -9248,6 +9255,7 @@ iam-user,cloud-labs-infra,19072,huaweicloud,https://github.com/cloud-labs-infra/
 iam-user,clouddrove,3636,aws,https://github.com/clouddrove/terraform-aws-iam-user,Terraform module to create Iam user resource on AWS.
 iam-user,cloudposee,28042,aws,https://github.com/cloudposee/terraform-aws-iam-user,Terraform Module to provision a basic IAM user suitable for humans.
 iam-user,cloudposse,1722,aws,https://github.com/cloudposse/terraform-aws-iam-user,Terraform Module to provision a basic IAM user suitable for humans.
+iam-user,khanguyen78,29917,aws,https://github.com/khanguyen78/terraform-aws-iam-user,
 iam-user,kryptondefencesolutions,4176,aws,https://github.com/kryptondefencesolutions/terraform-aws-iam-user,
 iam-user,kube-kloud,3819,aws,https://github.com/kryptondefencesolutions/terraform-aws-iam-user,
 iam-user,lacework,19996,oci,https://github.com/lacework/terraform-oci-iam-user,A Terraform module to create an OCI user with minimal capabilities for use in Lacework integrations
@@ -9256,6 +9264,7 @@ iam-user,ptonini,16745,aws,https://github.com/ptonini/terraform-aws-iam-user,
 iam-user-group,ridwanbejo,21823,aws,https://github.com/ridwanbejo/terraform-aws-iam-user-group,Terraform module for managing IAM User and Group at AWS
 iam-user-group,trussworks,3094,aws,https://github.com/trussworks/terraform-aws-iam-user-group,Creates an IAM group with users where the group is only allowed to assume roles defined.
 iam-user-group,web-virtua-aws-multi-account-modules,18096,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-iam-user-group,
+iam-user-policy-attachment,khanguyen78,29916,aws,https://github.com/khanguyen78/terraform-aws-iam-user-policy-attachment,
 iam-user-with-policies,ahaiong,6231,ahaiong,https://github.com/ahaiong/terraform-ahaiong-iam-user-with-policies,
 iam-usergroup,figurate,6695,aws,https://github.com/figurate/terraform-aws-iam-group,IAM user creation with predefined access levels.
 iam-users,lablabs,4447,aws,https://github.com/lablabs/terraform-aws-iam-users,
@@ -14234,6 +14243,7 @@ rds,jerinrathnam,19767,aws,https://github.com/jerinrathnam/terraform-aws-rds,Ter
 rds,jvefferson,17727,aws,https://github.com/jvefferson/terraform-aws-rds,
 rds,lily4499,22078,aws,https://github.com/lily4499/terraform-aws-rds,
 rds,magicorntech,19311,aws,https://github.com/magicorntech/terraform-aws-rds,Magicorn AWS RDS Module
+rds,magicorntech,29909,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-rds,Magicorn Huawei Cloud Relational Database Service Module
 rds,mubeen507,18605,aws,https://github.com/mubeen507/terraform-aws-rds,Terraform module which creates RDS resources on AWS
 rds,nabdilatipova,7847,aws,https://github.com/nabdilatipova/terraform-aws-rds,
 rds,nadmittcu,13910,aws,https://github.com/nadmittcu/terraform-aws-rds,
@@ -15241,6 +15251,7 @@ route53-query-logs,trussworks,3166,aws,https://github.com/trussworks/terraform-a
 route53-record,Smartbrood,568,aws,https://github.com/Smartbrood/terraform-aws-route53-record,Terraform module to create one Route53 DNS record for existing zone.
 route53-record,VIRALPATEL-SPS,21241,aws,https://github.com/VIRALPATEL-SPS/terraform-aws-route53-record,
 route53-record,clouddrove,3663,aws,https://github.com/clouddrove/terraform-aws-route53-record,Terraform module to create Route53 table record set resource on AWS. 
+route53-record,khanguyen78,29914,aws,https://github.com/khanguyen78/terraform-aws-route53-record,
 route53-record,ptonini,16748,aws,https://github.com/ptonini/terraform-aws-route53-record,
 route53-record,recroviral,21193,aws,https://github.com/recroviral/terraform-aws-route53-record,
 route53-record-mapping,OT-CLOUD-KIT,5001,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping,This repository consists of Terraform module for Route53 mapping in AWS.
@@ -15475,6 +15486,7 @@ s3-bucket,joetortorelli,8712,aws,https://github.com/joetortorelli/terraform-aws-
 s3-bucket,john-morsley,6660,aws,https://github.com/john-morsley/terraform-aws-s3-bucket-module,An S3 bucket in AWS
 s3-bucket,k9securityio,7212,aws,https://github.com/k9securityio/terraform-aws-s3-bucket,Provision AWS S3 buckets safely with least privilege access and comprehensive tagging using Terraform.
 s3-bucket,karthickrajann,15068,aws,https://github.com/karthickrajann/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
+s3-bucket,khanguyen78,29904,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket,
 s3-bucket,kiranguda,23802,aws,https://github.com/kiranguda/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,lablabs,4103,aws,https://github.com/lablabs/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,langga27,20707,aws,https://github.com/langga27/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
@@ -16037,7 +16049,7 @@ secret,garbetjie,5775,kubernetes,https://github.com/garbetjie/terraform-kubernet
 secret,infrahouse,24722,aws,https://github.com/infrahouse/terraform-aws-secret,Terraform module for a secret with owner/writer/reader roles.
 secret,lptech-io,19285,aws,https://github.com/lptech-io/terraform-aws-secret,Terraform module for Secret creation
 secret,ptonini,16763,vault,https://github.com/ptonini/terraform-vault-secret,
-secret,tedilabs,12607,aws,https://github.com/tedilabs/terraform-aws-secret,🌳 A sustainable Terraform Package which creates Secret resources on AWS
+secret,tedilabs,12607,aws,https://github.com/tedilabs/terraform-aws-secret,
 secret,terraform-google-modules,2003,google,https://github.com/terraform-google-modules/terraform-google-secret,
 secret-engine,zleetch,26908,vault,https://github.com/zleetch/terraform-vault-secret-engine,
 secret-generator,Adaptavist,7193,module,https://github.com/Adaptavist/terraform-module-secret-generator,
@@ -16145,6 +16157,7 @@ secure-for-cloud,sysdiglabs,10433,google,https://github.com/sysdiglabs/terraform
 secure-for-cloud,sysdiglabs,10434,azurerm,https://github.com/sysdiglabs/terraform-azurerm-secure-for-cloud,Terraform module that deploys the Sysdig Secure For Cloud stack in Azure
 secure-hybrid-cloud,terraform-aviatrix-modules,26541,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-secure-hybrid-cloud," Aviatrix Secure Hybrid Cloud Demo "
 secure-k8s-gateway,volterraedge,7465,volterra,https://github.com/volterraedge/terraform-volterra-secure-k8s-gateway,Volterra Terraform Module for Secure k8s Gateway Use-Case
+secure-landing-zone,BGarber42,29903,aws,https://github.com/BGarber42/terraform-aws-secure-landing-zone,
 secure-password,rhythmictech,6162,aws,https://github.com/rhythmictech/terraform-aws-secure-password,"Creates a password with a Lambda data source and saves it in a secrets manager secret, allowing the creation of passwords without saving them in state"
 secure-s3-bucket,Invicton-Labs,12974,aws,https://github.com/Invicton-Labs/terraform-aws-secure-s3-bucket,Creates an S3 bucket and applies all appropriate settings to ensure it's secure
 secure-s3-bucket,Kalepa,16024,aws,https://github.com/Kalepa/terraform-aws-secure-s3-bucket,Creates an S3 bucket and applies all appropriate settings to ensure it's secure
@@ -19365,6 +19378,7 @@ vpc,luudinhmac,17622,aws,https://github.com/luudinhmac/terraform-aws-vpc,create 
 vpc,macjak,10983,aws,https://github.com/macjak/terraform-aws-vpc,
 vpc,magenx,29208,aws,https://github.com/magenx/terraform-aws-vpc,
 vpc,magicorntech,19286,aws,https://github.com/magicorntech/terraform-aws-vpc,Magicorn AWS VPC Module
+vpc,magicorntech,29908,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-vpc,Magicorn Huawei Cloud VPC Module
 vpc,mahesh-vijay,26024,aws,https://github.com/mahesh-vijay/terraform-aws-vpc,terraform-aws-vpc
 vpc,maksiess,6089,aws,https://github.com/maksiess/terraform-aws-vpc,
 vpc,manojdotwork,10965,aws,https://github.com/manojdotwork/terraform-aws-vpc,
