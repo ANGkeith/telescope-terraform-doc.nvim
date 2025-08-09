@@ -12,12 +12,12 @@ repos:
     - id: no-commit-to-branch
 
 - repo: https://github.com/JohnnyMorganz/StyLua
-  rev: v0.20.0
+  rev: v2.1.0
   hooks:
     - id: stylua
 
 - repo: https://github.com/Woile/commitizen
-  rev: v3.29.1
+  rev: v4.8.3
   hooks:
   - id: commitizen
     stages: [commit-msg]
