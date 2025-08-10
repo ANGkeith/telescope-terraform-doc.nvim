@@ -7148,6 +7148,7 @@ eks,squareops,17706,aws,https://github.com/squareops/terraform-aws-eks,"Terrafor
 eks,stoktobekova,8121,aws,https://github.com/stoktobekova/terraform-aws-eks,
 eks,telia-oss,1648,aws,https://github.com/telia-oss/terraform-aws-eks,A Terraform module for deploying a EKS cluster in AWS
 eks,terraform-aws-modules,1143,aws,https://github.com/terraform-aws-modules/terraform-aws-eks,Terraform module to create Amazon Elastic Kubernetes (EKS) resources 🇺🇦
+eks,tfstack,29932,aws,https://github.com/tfstack/terraform-aws-eks,Terraform module for AWS EKS clusters
 eks,thunderbird86,12650,aws,https://github.com/thunderbird86/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
 eks,tmccoy14,8101,aws,https://github.com/tmccoy14/terraform-aws-eks,Terraform Module that defines an EKS cluster and node group with IAM roles and policies.
 eks,tnguyen14,4788,aws,https://github.com/tnguyen14/terraform-aws-eks,Terraform module to bring up an eks cluster with vpc
@@ -8095,6 +8096,7 @@ flatcar-baremetal,celest-io,14278,ovh,https://github.com/celest-io/terraform-ovh
 flatcar-k8s-worker,bsdlp,20626,libvirt,https://github.com/bsdlp/terraform-libvirt-flatcar-k8s-worker,use libvirt to deploy a flatcar k8s worker instance
 flatcar-vm,celest-io,13550,vultr,https://github.com/celest-io/terraform-vultr-flatcar-vm,Terraform module which creates a Flatcar instance in Vultr
 flatcar-vm,celest-io,13614,openstack,https://github.com/celest-io/terraform-openstack-flatcar-vm,Terraform module which creates a Flatcar instance in Openstack
+flatcar-vm,lucidsolns,29922,proxmox,https://github.com/lucidsolns/terraform-proxmox-flatcar-vm,Use the BPG/Proxmox provider to create a Flatcar Linux VM
 fleet,zwinnerman-fleetdm,17796,aws,https://github.com/zwinnerman-fleetdm/terraform-aws-fleet,A terraform module for fleetdm (test)
 flex-consumption-function-app,libre-devops,28768,azurerm,https://github.com/libre-devops/terraform-azurerm-flex-consumption-function-app,A module used to deploy a flex consumption function app ⚡
 flex-plugin,RJPearson94,8684,twilio,https://github.com/RJPearson94/terraform-twilio-flex-plugin,
@@ -8451,6 +8453,7 @@ github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terr
 github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,CloudFlare Terraform module for setup GitHub Pages.
 github-pages-dns,robbyoconnor,10602,cloudflare,https://github.com/robbyoconnor/terraform-cloudflare-github-pages-dns,Terraform Module to add the DNS entries required for GitHub pages with a custom domain name
 github-pages-lambda,DustinAlandzes,25985,aws,https://github.com/DustinAlandzes/terraform-aws-github-pages-lambda,Terraform module for quickly creating a website with a form you can submit
+github-private-hosted-runner,RCFromCLE,29933,azurerm,https://github.com/RCFromCLE/terraform-azurerm-github-private-hosted-runner,Terraform module that enables private code deployments from GitHub to Azure within a given vnet/snet.
 github-repo,twindb,2633,twindb,https://github.com/twindb/terraform-twindb-github-repo,GitHub workflow terraform module
 github-repo-key,yivolve,23788,flux,https://github.com/yivolve/terraform-flux-github-repo-key,This module deploys part of the https://registry.terraform.io/providers/fluxcd/flux/latest/docs/guides/github module
 github-repos,StarUbiquitous,13237,module,https://github.com/StarUbiquitous/terraform-module-github-repos,Terraform module which creates GitHub repository for each repository in the list
@@ -9162,6 +9165,7 @@ iam-policy,bryan-rhm,12036,aws,https://github.com/bryan-rhm/terraform-aws-iam-po
 iam-policy,cloudposee,28038,aws,https://github.com/cloudposee/terraform-aws-iam-policy,Create an IAM policy from Terraform input
 iam-policy,cloudposse,9539,aws,https://github.com/cloudposse/terraform-aws-iam-policy,Create an IAM policy from Terraform input
 iam-policy,geekcell,19756,aws,https://github.com/geekcell/terraform-aws-iam-policy,Terraform module to provision an AWS IAM Policy.
+iam-policy,khanguyen78,29923,aws,https://github.com/khanguyen78/terraform-aws-iam-policy,
 iam-policy,mineiros-io,5121,aws,https://github.com/mineiros-io/terraform-aws-iam-policy,A Terraform module to create an Identity and Access Management (IAM) Policy on Amazon Web Services (AWS). https://aws.amazon.com/iam
 iam-policy,ptonini,16742,aws,https://github.com/ptonini/terraform-aws-iam-policy,
 iam-policy,sudo-terraform-aws-modules,28272,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-iam-policy,Terraform module to create and manage IAM policies
@@ -15278,6 +15282,7 @@ route53-zone,cytopia,1883,aws,https://github.com/cytopia/terraform-aws-route53-z
 route53-zone,dcos-terraform,1729,aws,https://github.com/dcos-terraform/terraform-aws-route53-zone,Creates a Route53 Zone
 route53-zone,figurate,11693,aws,https://github.com/figurate/terraform-aws-route53-zone,Configure public and private Route53 zones
 route53-zone,gretchenleighmiller,24202,aws,https://github.com/gretchenleighmiller/terraform-aws-route53-zone,"Terraform module that creates an AWS Route 53 zone, top-level admin records, and (optionally) A and CNAME records."
+route53-zone,khanguyen78,29924,aws,https://github.com/khanguyen78/terraform-aws-route53-zone,
 route53-zone,ptonini,16749,aws,https://github.com/ptonini/terraform-aws-route53-zone,
 route53-zone,spirius,5308,aws,https://github.com/spirius/terraform-aws-route53-zone,AWS Route53 Zone Terraform module
 route53-zone-dns-multiaccount,birkoff,25614,aws,https://github.com/birkoff/terraform-aws-route53-zone-dns-multiaccount,Add public NS records to parent DNS
@@ -15521,17 +15526,24 @@ s3-bucket,tempTFCTrain,20567,aws,https://github.com/tempTFCTrain/terraform-aws-s
 s3-bucket,terraform-aws-modules,2787,aws,https://github.com/terraform-aws-modules/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
 s3-bucket,terramade,10055,aws,https://github.com/terramade/terraform-aws-s3-bucket,Custom module for creating an AWS S3 bucket
 s3-bucket,thunderbird86,21846,aws,https://github.com/thunderbird86/terraform-aws-s3-bucket,Terraform module which creates S3 bucket on AWS
+s3-bucket-acl,khanguyen78,29925,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-acl,
 s3-bucket-bsn,onminhthien,18885,aws,https://github.com/onminhthien/terraform-aws-s3-bucket-bsn,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket-core,hmrc,11915,aws,https://github.com/hmrc/terraform-aws-s3-bucket-core,Terraform module which provides base AWS S3 bucket configuration implementing some of the HMRC Platform Security bucket policy
+s3-bucket-encryption,khanguyen78,29926,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-encryption,
 s3-bucket-kops-state,StratusGrid,1870,aws,https://github.com/StratusGrid/terraform-aws-s3-bucket-kops-state,Bucket and policy to be used as a logging bucket
 s3-bucket-logging,StratusGrid,1871,aws,https://github.com/StratusGrid/terraform-aws-s3-bucket-logging,S3 bucket to be used as logging target for other resources
 s3-bucket-module,OpenClassrooms,12709,aws,https://github.com/OpenClassrooms/terraform-aws-s3-bucket-module,Terraform module to provision S3 bucket and all associated resources.
+s3-bucket-ownership-controls,khanguyen78,29927,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-ownership-controls,
 s3-bucket-policy,JousP,3450,aws,https://github.com/JousP/terraform-aws-s3-bucket-policy,A terraform module to help building policies for S3 buckets
 s3-bucket-policy,blackbird-cloud,17953,aws,https://github.com/blackbird-cloud/terraform-aws-s3-bucket-policy,
+s3-bucket-policy,khanguyen78,29928,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-policy,
+s3-bucket-public-access-block,khanguyen78,29929,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-public-access-block,
 s3-bucket-replication,cloudandthings,22894,aws,https://github.com/cloudandthings/terraform-aws-s3-bucket-replication,
 s3-bucket-replicator,QuiNovas,2212,aws,https://github.com/QuiNovas/terraform-aws-s3-bucket-replicator,"Replicates a source bucket to designated target buckets, intra-region or inter-region"
 s3-bucket-standard,hmrc,11943,aws,https://github.com/hmrc/terraform-aws-s3-bucket-standard,Terraform module to manage an AWS S3 bucket that complies with HMRC Platform Security bucket policy
+s3-bucket-versioning,khanguyen78,29930,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-versioning,
 s3-bucket-website,pododso,5925,aws,https://github.com/pododso/terraform-aws-s3-bucket-website,Module for managing S3 buckets with website hosting enabled
+s3-bucket-website-configuration,khanguyen78,29931,aws,https://github.com/khanguyen78/terraform-aws-s3-bucket-website-configuration,
 s3-bucket-with-cross-region-replication,babbel,13296,aws,https://github.com/babbel/terraform-aws-s3-bucket-with-cross-region-replication,Terraform module creating two S3 buckets with cross-region replication
 s3-buckets,appzen-oss,2040,aws,https://github.com/appzen-oss/terraform-aws-s3-buckets,Terraform module to manage AWS S3 buckets
 s3-buckets,devops-workflow,614,aws,https://github.com/devops-workflow/terraform-aws-s3-buckets,Terraform module to manage AWS S3 buckets
