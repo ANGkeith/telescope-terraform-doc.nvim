@@ -222,6 +222,7 @@ accountomat,GoCarrot,12463,aws,https://github.com/GoCarrot/terraform-aws-account
 accountomat_read,GoCarrot,12467,aws,https://github.com/GoCarrot/terraform-aws-accountomat_read,Accountomat Read reads data peristed by Accountomat and provides it for use in terraform modules
 accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-azure-accounts,Configure Azure Azure AD Resources and Permissions
 accounts,widespot,19947,aws,https://github.com/widespot/terraform-aws-accounts,
+accounts-cluster,c0x12c,29939,qdrant,https://github.com/c0x12c/terraform-qdrant-accounts-cluster,
 acf-account-cache,acai-consulting,24742,aws,https://github.com/acai-consulting/terraform-aws-acf-account-cache,"Will create a cache containing the account context like account-ID, account-name, OU-ID, OU path and tags"
 acf-configservice,acai-consulting,28469,aws,https://github.com/acai-consulting/terraform-aws-acf-configservice,ACAI ACF module to manage the central and member resources for AWS Config
 acf-core-configuration,acai-consulting,24743,aws,https://github.com/acai-consulting/terraform-aws-acf-core-configuration,Module to exchange dynamic resource configuration between Core Pipelines
@@ -2896,6 +2897,7 @@ cassandra-cassandra-storage-exceptions,terraform-shoreline-modules,20306,shoreli
 cassandra-cassandra-tombstone-dump-incident,terraform-shoreline-modules,20319,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-cassandra-cassandra-tombstone-dump-incident,This repository was generated automatically based on a Shoreline Insights Runbook.
 cassandra-eks,kassett,21724,aws,https://github.com/kassett/terraform-aws-cassandra-eks,
 casty,CastyLab,7268,kubernetes,https://github.com/castyapp/terraform-kubernetes-casty,☸️ Terraform module for deploying casty helm-charts on kubernetes!
+catalog-management,terraform-ibm-modules,29941,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-catalog-management,Automation to manage an IBM Cloud catalog
 catalyst-cluster-bootstrap,catalystsquad,13928,kubernetes,https://github.com/catalystsquad/terraform-kubernetes-catalyst-cluster-bootstrap,Terraform module that bootstraps a Kubernetes cluster with useful development and monitoring tools
 catalyst-platform,catalystsquad,13925,aws,https://github.com/catalystsquad/terraform-aws-catalyst-platform,Terraform module that provisions the Catalyst Platform in AWS
 catdogs,lostcatdog,21861,google,https://github.com/lostcatdog/terraform-google-catdogs,
@@ -4296,6 +4298,7 @@ context,a3linux,17996,null,https://github.com/a3linux/terraform-null-context,A s
 context,bendoerr-terraform-modules,22109,null,https://github.com/bendoerr-terraform-modules/terraform-null-context,Ben's Terraform Null Context Module
 context,drape-io,22445,null,https://github.com/drape-io/terraform-null-context,A utility module for managing naming and tagging of resources through a shared context
 context,k9securityio,7210,local,https://github.com/k9securityio/terraform-local-context,"A Terraform module to capture the context your team needs to manage, operate, and secure resources in the Cloud."
+context,kbrockhoff,29953,external,https://github.com/kbrockhoff/terraform-external-context,
 context,unfunco,15770,null,https://github.com/unfunco/terraform-null-context,Terraform module for generating consistent names and tags.
 contexts,caherrera,16492,circleci,https://github.com/caherrera/terraform-circleci-contexts,A simple module to manage contexts and environment variables all-in-one
 contract,netascode,9770,aci,https://github.com/netascode/terraform-aci-contract,Terraform Cisco ACI Contract Module
@@ -6910,6 +6913,7 @@ ecs-service-wfscoli,code4romania,28937,aws,https://github.com/code4romania/terra
 ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-ecs-services,A terraform module to create ECS services inside a cluster
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-slack-alerts,Nuagic,16253,aws,https://github.com/Nuagic/terraform-aws-ecs-slack-alerts,
+ecs-solidstack-cloud,SolidStackCloud,29948,aws,https://github.com/SolidStackCloud/terraform-aws-ecs-solidstack-cloud,
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
 ecs-task,sudo-terraform-aws-modules,15465,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-task,Terraform module to create ECS Task Defintion
@@ -7488,6 +7492,7 @@ elastic-service,philips-labs,13177,hsdp,https://github.com/philips-labs/terrafor
 elasticache,7clouds-terraform-modules,16987,aws,https://github.com/7clouds-terraform-modules/terraform-aws-elasticache,
 elasticache,JamesWoolfenden,11326,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticache,Basic elasticache module
 elasticache,OT-CLOUD-KIT,10598,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-elasticache,
+elasticache,Senora-dev,29946,aws,https://github.com/Senora-dev/terraform-aws-elasticache,"This Terraform module provisions an AWS ElastiCache for Redis deployment, including subnet group, parameter group, and optional security group associations, suitable for production workloads."
 elasticache,avidhara,29119,aws,https://github.com/avidhara/terraform-aws-elasticache,
 elasticache,aws-terraform-module,26988,aws,https://github.com/aws-terraform-module/terraform-aws-elasticache,You can refer to this module to provisioning Redis and enable Global Datastore for Elasticache.
 elasticache,c0x12c,29297,aws,https://github.com/c0x12c/terraform-aws-elasticache,
@@ -7678,6 +7683,7 @@ entitlement-management,fortytwoservices,24390,azuread,https://github.com/fortytw
 entomo,BalaMuragan92,26702,aws,https://github.com/BalaMuragan92/terraform-aws-entomo,
 entra-domain-services,qbeyond,24093,azapi,https://github.com/qbeyond/terraform-azapi-entra-domain-services,Module to deploy entra domain services (former Azure Active Directory Domain Services) and needed resources
 entra-group,bl-solutions,26915,azure,https://github.com/bl-solutions/terraform-azure-entra-group,
+entraid-connected-organization,sjovang,29944,msgraph,https://github.com/sjovang/terraform-msgraph-entraid-connected-organization,
 env,abuxton,12012,tfx,https://github.com/abuxton/terraform-tfx-env,
 env-ec2,Aryankumar25,29057,aws,https://github.com/Aryankumar25/terraform-aws-env-ec2,
 env-ec2,VahagnMian,12225,aws,https://github.com/VahagnMian/terraform-aws-env-ec2,
@@ -8607,6 +8613,7 @@ gke_cluster,Ahmeddevops-Github,7378,google,https://github.com/ahmedak-devops/ter
 gke_cluster,airasia,4755,google,https://github.com/airasia/terraform-google-gke_cluster,Terraform module for a GKE Kubernetes Cluster in GCP
 gke_cluster,goquovn,15398,google,https://github.com/goquovn/terraform-google-gke_cluster,
 gkeonprem-module,telia-oss,26914,google,https://github.com/telia-oss/terraform-google-gkeonprem-module,"This Terraform module deploys Google Kubernetes Engine (GKE) On-Premises clusters on VMware vSphere infrastructure, with support for multiple node pools, load balancing, and RBAC configuration."
+gkvm-ptn-entraprivateaccess,glueckkanja,29950,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-ptn-entraprivateaccess,GKVM Terraform module for deploying Entra Private Access
 gkvm-ptn-myworkid,glueckkanja,29130,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-ptn-myworkid,GKVM Terraform module for deploying MyWorkId
 gkvm-res-iot-hub,glueckkanja,29018,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-res-iot-hub,glueckkanja verified module for IoT Hub
 gkvm-res-messaging-eventgridsystemtopic,glueckkanja,29154,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-res-messaging-eventgridsystemtopic,Terraform Module to deploy Event grid system topic
@@ -8743,6 +8750,7 @@ group4,holmesgulnara,24274,aws,https://github.com/holmesgulnara/terraform-aws-gr
 group_access_token,dhoppeIT,28557,gitlab,https://github.com/dhoppeIT/terraform-gitlab-group_access_token,
 group_membership,dhoppeIT,28558,gitlab,https://github.com/dhoppeIT/terraform-gitlab-group_membership,
 group_variable,dhoppeIT,28559,gitlab,https://github.com/dhoppeIT/terraform-gitlab-group_variable,
+groups,CloudNationHQ,29951,azuread,https://github.com/CloudNationHQ/terraform-azuread-groups,Terraform module to manage Azure Active Directory (Entra ID) groups and group memberships using the AzureAD provider.
 groups-projects,voquis,17247,gitlab,https://github.com/voquis/terraform-gitlab-groups-projects,
 groupsandroles,taimlog,17733,proxmox,https://github.com/taimlog/terraform-proxmox-groupsandroles,
 grp4project,holmesgulnara,24279,aws,https://github.com/holmesgulnara/terraform-aws-grp4project,
@@ -11400,6 +11408,7 @@ may,erzhena-d,29767,vpc,https://github.com/erzhena-d/terraform-vpc-may,
 may,kaizenacademy,29771,vpc,https://github.com/kaizenacademy/terraform-vpc-may,
 may,khbekzod,29766,vpc,https://github.com/khbekzod/terraform-vpc-may,
 may,mackpat3,29765,vpc,https://github.com/mackpat3/terraform-vpc-may,
+may,tetyagalya,29942,vpc,https://github.com/tetyagalya/terraform-vpc-may,
 mc-all-cidrs,terraform-aviatrix-modules,14927,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-all-cidrs,Simple module that returns all possible subnets inside a given cidr.
 mc-edge,terraform-aviatrix-modules,14977,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-edge,Deploys an Aviatrix edge gateway and attaches it to the desired transit gateway and network segment
 mc-firenet,terraform-aviatrix-modules,12882,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-firenet,"Aviatrix Terraform module for firenet deployment in multiple clouds, to be used in conjunction with mc-transit module."
@@ -14442,6 +14451,7 @@ rds-postgres,rhythmictech,5007,aws,https://github.com/rhythmictech/terraform-aws
 rds-postgres,terraform-alicloud-modules,4175,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rds-postgres,Terraform module which create a PostgreSQL database based on Alibaba Cloud RDS Service.
 rds-postgres,tfstack,29655,aws,https://github.com/tfstack/terraform-aws-rds-postgres,Terraform module to deploy and manage AWS RDS PostgreSQL instances
 rds-postgres,truemark,16206,aws,https://github.com/truemark/terraform-aws-rds-postgres,
+rds-postgres,vlnrajesh,29955,aws,https://github.com/vlnrajesh/terraform-aws-rds-postgres,
 rds-postgres-alarms,truemark,15834,aws,https://github.com/truemark/terraform-aws-rds-postgres-alarms,AWS RDS postgres specific alarm definitions (not Aurora)
 rds-postgresdb,cloudhein,28354,aws,https://github.com/cloudhein/terraform-aws-rds-postgresdb,
 rds-postgresql,guardianproject-ops,27084,aws,https://github.com/guardianproject-ops/terraform-aws-rds-postgresql,Terraform module that creates an AWS RDS PostgreSQL instance (AWS) (Mirror of https://gitlab.com/guardianproject-ops/terraform-aws-rds-postgresql)
@@ -15807,6 +15817,7 @@ s3backend,johnfkraus,9023,aws,https://github.com/johnfkraus/terraform-aws-s3back
 s3backend,juliodiez,12407,aws,https://github.com/juliodiez/terraform-aws-s3backend,
 s3backend,jvcastaneda,4490,aws,https://github.com/jvcastaneda/terraform-aws-s3backend,Terraform in action learning
 s3backend,kawaiian,4647,aws,https://github.com/kawaiian/terraform-aws-s3backend,
+s3backend,kbrockhoff,29954,aws,https://github.com/kbrockhoff/terraform-aws-s3backend,
 s3backend,kildem,8357,aws,https://github.com/kildem/terraform-aws-s3backend,
 s3backend,killerbean690,20617,aws,https://github.com/killerbean690/terraform-aws-s3backend,
 s3backend,kongory,11262,aws,https://github.com/kongory/terraform-aws-s3backend,Terraform example for AWS
