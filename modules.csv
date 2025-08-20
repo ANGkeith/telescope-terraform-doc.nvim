@@ -3028,6 +3028,7 @@ certs,10thmagnitude,1158,private,https://github.com/10thmagnitude/terraform-priv
 certs-dynamic,lukibsubekti,26895,upcloud,https://github.com/lukibsubekti/terraform-upcloud-certs-dynamic,
 cf-asg,ImageIntelligence,580,aws,https://github.com/ImageIntelligence/terraform-aws-cf-asg,Terraform ASG using CloudFormation templates
 cf-bucket,metro-digital,8686,google,https://github.com/metro-digital/terraform-google-cf-bucket,Opinionated Google Cloud Storage bucket configuration
+cf-cloudarmor-policy,metro-digital,29992,google,https://github.com/metro-digital/terraform-google-cf-cloudarmor-policy,Opinionated Cloud Armor security policy compliant with METRO's security baseline
 cf-projectcfg,metro-digital,8685,google,https://github.com/metro-digital/terraform-google-cf-projectcfg,"Opinionated GCP project configuration with APIs, IAM, Service Accounts and Network etc."
 cf-redirect,benjaminejarrell,22545,aws,https://github.com/benjaminejarrell/terraform-aws-cf-redirect,Terraform module to setup an HTTP (302) redirect using AWS Cloudfront
 cf-website,sharath-sequoia,5511,s3,https://github.com/sharath-sequoia/terraform-s3-cf-website,Terraform Module to create S3 static website using CloudFront distrubution for SSL
@@ -6920,7 +6921,6 @@ ecs-service-wfscoli,code4romania,28937,aws,https://github.com/code4romania/terra
 ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-ecs-services,A terraform module to create ECS services inside a cluster
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-slack-alerts,Nuagic,16253,aws,https://github.com/Nuagic/terraform-aws-ecs-slack-alerts,
-ecs-solidstack-cloud,SolidStackCloud,29948,aws,https://github.com/SolidStackCloud/terraform-aws-ecs-solidstack-cloud,
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
 ecs-task,sudo-terraform-aws-modules,15465,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-task,Terraform module to create ECS Task Defintion
@@ -7251,6 +7251,7 @@ eks-cloudwatch-metrics,DNXLabs,8668,aws,https://github.com/DNXLabs/terraform-aws
 eks-cluster,Adamisaeva,8937,aws,https://github.com/Adamisaeva/terraform-aws-eks-cluster,This module creates eks-cluster
 eks-cluster,JahnaviM77,6362,aws,https://github.com/JahnaviM77/terraform-aws-eks-cluster,
 eks-cluster,SimplifiedData,23198,aws,https://github.com/SimplifiedData/terraform-aws-eks-cluster,"This is Terraform module for create EKS Cluster. In module base on module Terraform aws eks by AWS and use Terraform-aws-eks-addons, Terraform-aws-eks-addon by AWS-IA is base create."
+eks-cluster,SolidStackCloud,29996,aws,https://github.com/SolidStackCloud/terraform-aws-eks-cluster,
 eks-cluster,c0x12c,29288,aws,https://github.com/c0x12c/terraform-aws-eks-cluster,
 eks-cluster,castai,11518,castai,https://github.com/castai/terraform-castai-eks-cluster,CAST AI terraform module for connecting an EKS cluster
 eks-cluster,cloudposee,28017,aws,https://github.com/cloudposee/terraform-aws-eks-cluster,Terraform module for provisioning an EKS cluster
@@ -7913,7 +7914,7 @@ facebook-gcal-sync,amancevice,1888,aws,https://github.com/amancevice/terraform-a
 facebook-gcal-sync,amancevice,1920,heroku,https://github.com/amancevice/terraform-heroku-facebook-gcal-sync,Synchronize facebook page events with Google Calendar
 facebook-gcal-sync-secrets,amancevice,1919,aws,https://github.com/amancevice/terraform-aws-facebook-gcal-sync-secrets,Store secrets for access to facebook and Google Calendar
 facebook-webhook,amancevice,1156,google,https://github.com/amancevice/terraform-google-facebook-webhook,Google Cloud Function for responding to facebook webhooks
-falcon,CrowdStrike,18662,kubectl,https://github.com/CrowdStrike/terraform-kubectl-falcon,Module to manage CrowdStrike Falcon Sensor and the Kubernetes Protection Agent on a Kubernetes cluster.
+falcon,CrowdStrike,18662,kubectl,https://github.com/CrowdStrike/terraform-kubectl-falcon,Module to manage CrowdStrike Falcon Sensor on a Kubernetes cluster.
 fargate,JamesWoolfenden,2853,aws,https://github.com/JamesWoolfenden/terraform-aws-fargate,Terraform module to support work with AWS Fargate Containers
 fargate,Rishang,17075,aws,https://github.com/Rishang/terraform-aws-fargate,Terraform module to deploy AWS ECS Fargate 
 fargate,almirosmanovic,4304,aws,https://github.com/almirosmanovic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
@@ -10640,6 +10641,7 @@ lambda-api,phenixcoder,23513,aws,https://github.com/phenixcoder/terraform-aws-la
 lambda-api,vlobachev,2671,aws,https://github.com/vlobachev/terraform-aws-lambda-api,Simple Lambda-backed REST API
 lambda-api-gateway,7clouds-terraform-modules,16461,aws,https://github.com/7clouds-terraform-modules/terraform-aws-lambda-api-gateway,
 lambda-api-gateway,techjacker,1001,aws,https://github.com/techjacker/terraform-aws-lambda-api-gateway,Terraform module which deploys a serverless HTTP endpoint backed by AWS Lambda & API Gateway
+lambda-apigateway,Fayssalmekk,29990,aws,https://github.com/Fayssalmekk/terraform-aws-lambda-apigateway,
 lambda-apigateway,bootlabstech-m,22673,aws,https://github.com/bootlabstech-m/terraform-aws-lambda-apigateway,
 lambda-apigw,onetwentyseven-dev,21644,aws,https://github.com/onetwentyseven-dev/terraform-aws-lambda-apigw,
 lambda-apigw-module,OpenClassrooms,11521,aws,https://github.com/OpenClassrooms/terraform-aws-lambda-apigw-module,Terraform module to provision one or more API on AWS API Gateway (REST). It provide ability to protect APIs with api keys and calls are redirected to AWS Lambda
@@ -15011,6 +15013,7 @@ resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terr
 resource_group_storage,Kagerou4649,26666,azurerm,https://github.com/Kagerou4649/terraform-azurerm-resource_group_storage,
 resource_group_storage,L1mbxbx,29883,azurerm,https://github.com/L1mbxbx/terraform-azurerm-resource_group_storage,
 resource_group_storage,Losiev,26605,azurerm,https://github.com/Losiev/terraform-azurerm-resource_group_storage,
+resource_group_storage,Muskam09,29989,azurerm,https://github.com/Muskam09/terraform-azurerm-resource_group_storage,
 resource_group_storage,OKochubeii,26197,azurerm,https://github.com/OKochubeii/terraform-azurerm-resource_group_storage,This repository is created for mate task 6
 resource_group_storage,Ramzes525,28265,azurerm,https://github.com/Ramzes525/terraform-azurerm-resource_group_storage,
 resource_group_storage,Rozdorozhnii,28326,azurerm,https://github.com/Rozdorozhnii/terraform-azurerm-resource_group_storage,Basic Terraform module for creating Azure resource group and storage
@@ -19140,6 +19143,7 @@ vpc,Bekzhan-osh,6702,aws,https://github.com/Bekzhan-osh/terraform-aws-vpc,
 vpc,Bekzhan-osh,7087,google,https://github.com/Bekzhan-osh/terraform-google-vpc,
 vpc,Brochek,12631,aws,https://github.com/Brochek/terraform-aws-vpc,
 vpc,BrynardSecurity-terraform,13344,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,CTACSA,29993,aws,https://github.com/CTACSA/terraform-aws-vpc,
 vpc,Chathuru,10420,aws,https://github.com/Chathuru/terraform-aws-vpc,
 vpc,Cherticha,12624,aws,https://github.com/Cherticha/terraform-aws-vpc,
 vpc,Cholpon83,12619,aws,https://github.com/cholpon83/terraform-aws-vpc,
@@ -19220,7 +19224,7 @@ vpc,Shvyrlo,12660,aws,https://github.com/shvyrlo/terraform-aws-vpc,
 vpc,Skifa87,9392,aws,https://github.com/Skifa87/terraform-aws-vpc,
 vpc,Smartbrood,587,aws,https://github.com/Smartbrood/terraform-aws-vpc,Terraform module to create VPC
 vpc,SoleksDataGroup,24657,aws,https://github.com/SoleksDataGroup/terraform-aws-vpc,
-vpc,SolidStackCloud,29896,aws,https://github.com/SolidStackCloud/terraform-aws-vpc,
+vpc,SolidStackCloud,29997,aws,https://github.com/SolidStackCloud/terraform-aws-vpc,
 vpc,Taherasharifi,9001,aws,https://github.com/Taherasharifi/terraform-aws-vpc,
 vpc,TanTruong1992,25352,aws,https://github.com/TanTruong1992/terraform-aws-vpc,
 vpc,TarikIdri,12623,aws,https://github.com/TarikIdri/terraform-aws-vpc,
