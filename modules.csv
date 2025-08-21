@@ -2460,6 +2460,7 @@ base-ocp-vpc,terraform-ibm-modules,19444,ibm,https://github.com/terraform-ibm-mo
 base-vpc,jakoberpf,12254,oracle,https://github.com/jakoberpf/terraform-oracle-base-vpc,Terreform module for integrated service deployment
 base-vpc-network,MagusDevOps,8254,aws,https://github.com/MagusDevOps/terraform-aws-base-vpc-network,
 baseline,alkiranet,22531,alkira,https://github.com/alkiranet/terraform-alkira-baseline,Create various resources in Alkira from .yaml files
+baseline-wafv2,truemark,30000,aws,https://github.com/truemark/terraform-aws-baseline-wafv2,
 basic,seymabardakci,16980,aws,https://github.com/seymabardakci/terraform-aws-basic,
 basic-auth,chainflip-io,11736,kubernetes,https://github.com/chainflip-io/terraform-kubernetes-basic-auth,Generate a randomized htpasswd secret for use with HTTP basic auth
 basic-cluster,SurendraReddyWesco,12695,azurerm,https://github.com/SurendraReddyWesco/terraform-azurerm-basic-cluster,this module will help us to create basic kubenetes cluster
@@ -3130,6 +3131,7 @@ cicd,cloudposse,203,aws,https://github.com/cloudposse/terraform-aws-cicd,Terrafo
 cicd,exnodeshub,22507,aws,https://github.com/exnodeshub/terraform-aws-cicd,
 cicd-bootstrap,recarnot,5249,github,https://github.com/recarnot/terraform-github-cicd-bootstrap,Bootstrap for Terraform and GtiHub Actions for CI/CD
 cicd-bootstrap-aws,recarnot,5299,github,https://github.com/recarnot/terraform-github-cicd-bootstrap-aws,Bootstrap for Terraform and GtiHub Actions for CI/CD for AWS project
+cicdrole,kbrockhoff,30004,aws,https://github.com/kbrockhoff/terraform-aws-cicdrole,
 cidr,cloudomat,24384,subnets,https://github.com/cloudomat/terraform-subnets-cidr," A Terraform module for calculating subnet IP address prefixes, forked from https://github.com/hashicorp/terraform-cidr-subnets/commit/52ca061aaea2e8f58c91ac03ca1fae45e44c28bf"
 cidrsum,mxk,25668,null,https://github.com/mxk/terraform-null-cidrsum,Terraform module for summarizing IPv4 CIDR blocks
 cilium,littlejo,21802,helm,https://github.com/littlejo/terraform-helm-cilium,Install cilium on kubernetes with terraform
@@ -3744,7 +3746,7 @@ cloudwatch-logs,spymobilfon,21955,aws,https://github.com/spymobilfon/terraform-a
 cloudwatch-logs-enhanced-alarms-notifications,louis-fiori,24691,aws,https://github.com/louis-fiori/terraform-aws-cloudwatch-logs-enhanced-alarms-notifications,📣 Terraform module for smart alerts using AWS Lambda and Chatbot
 cloudwatch-logs-exporter,gadgetry-io,1808,aws,https://github.com/gadgetry-io/terraform-aws-cloudwatch-logs-exporter,Export a CloudWatch log group to S3 on a recurring schedule using Lambda and CloudWatch Events
 cloudwatch-logs-management,Han-Lon,11270,aws,https://github.com/Han-Lon/terraform-aws-cloudwatch-logs-management,A Terraform module to automate CloudWatch log configuration
-cloudwatch-logs-subscription,observeinc,28683,aws,https://github.com/observeinc/terraform-aws-cloudwatch-logs-subscription,"Terraform module that sets up CloudWatch Log Group Subscription Filters. This makes it easier to forward log data to Observe, through the Observe Kinesis Firehose module."
+cloudwatch-logs-subscription,observeinc,28683,aws,https://github.com/observeinc/terraform-aws-cloudwatch-logs-subscription,
 cloudwatch-logs-to-loggly,oss-group,15312,aws,https://github.com/oss-group/terraform-aws-cloudwatch-logs-to-loggly,Module to setup cloudwatch logging to loggly
 cloudwatch-metric-alarm,Cloud-42,7204,aws,https://github.com/Cloud-42/terraform-aws-cloudwatch-metric-alarm,Creates a CloudWatch metric alarm.
 cloudwatch-metric-filter-alarm,Aniketvaidhya,27681,aws,https://github.com/Aniketvaidhya/terraform-aws-cloudwatch-metric-filter-alarm,
@@ -6791,7 +6793,7 @@ ecs-fargate-scheduled-task,cn-terraform,3251,aws,https://github.com/cn-terraform
 ecs-fargate-scheduled-task,umotif-public,4313,aws,https://github.com/umotif-public/terraform-aws-ecs-fargate-scheduled-task,Terraform module to create AWS ECS Fargate Schedule Task
 ecs-fargate-service,cn-terraform,3250,aws,https://github.com/cn-terraform/terraform-aws-ecs-fargate-service,AWS ECS Fargate Service Terraform Module
 ecs-fargate-service,oowlish,5069,aws,https://github.com/oowlish/terraform-aws-ecs-fargate-service,Terraform module which creates Fargate Service resources on AWS.
-ecs-fargate-service,oozou,15122,aws,https://github.com/oozou/terraform-aws-ecs-fargate-service,Terraform ECS Fargate Service
+ecs-fargate-service,oozou,15122,aws,https://github.com/oozou/terraform-aws-ecs-fargate-service,
 ecs-fargate-services,my-devops-way,19335,aws,https://github.com/my-devops-way/terraform-aws-ecs-fargate-services,terraform module for creation of ecs cluster with multiple services and tasks with multiple containers 
 ecs-fargate-task,travisz,4709,aws,https://github.com/travisz/terraform-aws-ecs-fargate-task,Terraform module for creating Amazon ECS Fargate Task Definitions
 ecs-fargate-task-definition,cn-terraform,3249,aws,https://github.com/cn-terraform/terraform-aws-ecs-fargate-task-definition,AWS ECS Fargate Task Definition Terraform Module
@@ -9909,10 +9911,12 @@ kamrulshakervpc,shakertanim,26303,aws,https://github.com/shakertanim/terraform-a
 kapsule,gris-gris,4368,scaleway,https://github.com/gris-gris/terraform-scaleway-kapsule,
 kapsule,nlamirault,6274,scaleway,https://github.com/nlamirault/terraform-scaleway-kapsule,Kapsule resources on Scaleway
 kapsule,particuleio,6250,scaleway,https://github.com/particuleio/terraform-scaleway-kapsule,Terraform module to deploy a Scaleway Kapsule Kubernetes Cluster
+kapsule,solution-libre,30001,scaleway,https://github.com/solution-libre/terraform-scaleway-kapsule,Terraform module to deploy a Scaleway Kapsule Kubernetes Cluster
 kapsule,ulm0,8115,scaleway,https://github.com/ulm0/terraform-scaleway-kapsule,Terraform module to deploy a Scaleway Kapsule Kubernetes Cluster
 karanstorage,karanvirkaranvir,15263,azure,https://github.com/karanvirkaranvir/terraform-azure-karanstorage,
 karbon,Aristocrat-B2B,8598,nutanix,https://github.com/Aristocrat-B2B/terraform-nutanix-karbon,A module that builds Karbon K8s cluster on Nutanix hypervisor
 karpenter,HAJINYOUNG,28405,aws,https://github.com/HAJINYOUNG/terraform-aws-karpenter,
+karpenter,SolidStackCloud,30003,aws,https://github.com/SolidStackCloud/terraform-aws-karpenter,
 karpenter,bigfantech-cloud,18847,k8s,https://github.com/bigfantech-cloud/terraform-k8s-karpenter,Terraform module: Install Karpenter in EKS Cluster
 karpenter,clouddrove,18418,aws,https://github.com/clouddrove/terraform-aws-karpenter,
 karpenter,govind0229,26798,aws,https://github.com/govind0229/terraform-aws-karpenter,"Whether you're scaling dynamically or looking to reduce costs on your Kubernetes clusters, this Karpenter module offers a streamlined solution for managing instance types based on workload requirements. It’s a powerful tool for anyone working with EKS who wants to take advantage of AWS’s advanced node provisioning capabilities."
@@ -10847,6 +10851,7 @@ landing-zone-vsi-autoscale,terraform-ibm-modules,24145,ibm,https://github.com/te
 landingzone,clouddrove,25082,azure,https://github.com/clouddrove/terraform-azure-landingzone,Azure landing zones Terraform module
 landingzone,dhamibeena25,21214,azurerm,https://github.com/dhamibeena25/terraform-azurerm-landingzone,
 landscape,unimatrixops,10870,google,https://github.com/unimatrixops/terraform-google-landscape,Deploy an application landscape on Google Cloud Platform.
+landscape-client,jansdhillon,30002,lxd,https://github.com/jansdhillon/terraform-lxd-landscape-client,A Terraform module that uses the LXD provider to deploy Landscape Client onto containers or VMs. 
 landscape-server,canonical,29968,juju,https://github.com/canonical/terraform-juju-landscape-server,Terraform (Product) Module for Landscape Server deployments with Juju.
 latest-ami,bledrunner2049,6193,aws,https://github.com/bledrunner2049/terraform-aws-latest-ami,
 laughs,sblack4,5537,terraform,https://github.com/sblack4/terraform-terraform-laughs,Laughs in terraform
@@ -11222,6 +11227,7 @@ login-domain,netascode,9885,aci,https://github.com/netascode/terraform-aci-login
 login-key,terraform-navercloudplatform-modules,25271,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-login-key,Terraform module to create login key resources
 logproxy,philips-labs,8445,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-logproxy,Terraform module for Logproxy deployment
 logpush-newrelic,Flaconi,24074,cloudflare,https://github.com/Flaconi/terraform-cloudflare-logpush-newrelic,This module will create Cloudflare Logpush Jobs for NewRelic
+logpush-s3,Flaconi,29999,cloudflare,https://github.com/Flaconi/terraform-cloudflare-logpush-s3,This module will create Cloudflare Logpush Jobs for AWS S3
 logs,dod-iac,16983,aws,https://github.com/dod-iac/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,Terraform module to create a Cloudwatch log group with optional log reader.
 logs,techadontech,13592,cloudwatch,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
@@ -11445,7 +11451,7 @@ mcaf-cloudfront,schubergphilis,29403,aws,https://github.com/schubergphilis/terra
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,Terraform module to setup and manage cost and usage reports
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,Terraform module to create an integration between AWS and Datadog
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
-mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,Terraform module to create an AWS ECR repositories
+mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,
 mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,Module to deploy infrastructure to generate energy labels for your AWS landing zone
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
@@ -18507,6 +18513,7 @@ tunnel,Esya,19522,ssh,https://github.com/Esya/terraform-ssh-tunnel,An SSH tunnel
 tunnel,flaupretre,8413,ssh,https://github.com/flaupretre/terraform-ssh-tunnel,Manage your private resources via a tunnel
 tunnel-databases,flaupretre,10772,ssh,https://github.com/flaupretre/terraform-ssh-tunnel-databases,This module manages databases behind an SSH tunnel
 turbo-deploy,frgrisk,26183,aws,https://github.com/frgrisk/terraform-aws-turbo-deploy,
+tut,Deeep095,29998,aws,https://github.com/Deeep095/terraform-aws-tut,
 tutanota,andresmazzo,7550,linode,https://github.com/andresmazzo/terraform-linode-tutanota,Terraform module for Tutanota Email DNS Configuration
 tvdlab-base,Trivadis,6370,oci,https://github.com/Trivadis/terraform-oci-tvdlab-base,A reusable and extensible Terraform module that provisions a Trivadis LAB on Oracle Cloud Infrastructure
 tvdlab-bastion,Trivadis,6368,oci,https://github.com/Trivadis/terraform-oci-tvdlab-bastion,A reusable and extensible Terraform module that provisions a Trivadis LAB Bastion Host on Oracle Cloud Infrastructure
