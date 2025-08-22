@@ -1387,6 +1387,7 @@ argocd-instance,nilic,15201,helm,https://github.com/nilic/terraform-helm-argocd-
 argocd-project,project-octal,10994,kubernetes,https://github.com/project-octal/terraform-kubernetes-argocd-project,A Terraform module for creating ArgoCD Project manifests.
 argocd-project,seg-way,20499,kubernetes,https://github.com/segateway/terraform-kubernetes-argocd-project,A Terraform module for creating ArgoCD Project manifests.
 argocd-project,segateway,20628,kubernetes,https://github.com/segateway/terraform-kubernetes-argocd-project,A Terraform module for creating ArgoCD Project manifests.
+argocd-stack,SolidStackCloud,30008,aws,https://github.com/SolidStackCloud/terraform-aws-argocd-stack,
 aritra-vpc,AritraDey-Dev,27099,aws,https://github.com/AritraDey-Dev/terraform-aws-aritra-vpc,"Terraform module for creating an AWS VPC with customizable subnets, routing, and Internet Gateway setup."
 ark-survival-ascended,TheSudoYT,22685,aws,https://github.com/TheSudoYT/terraform-aws-ark-survival-ascended,Terraform module for Ark Survival Ascended (ASA) Server Infrastructure on AWS
 arms,terraform-alicloud-modules,12691,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-arms,Terraform Module for creating ARMS alert rules on Alibaba Cloud.
@@ -2795,7 +2796,7 @@ budget-alert,hazelops,8060,aws,https://github.com/hazelops/terraform-aws-budget-
 budgets,appvia,23624,aws,https://github.com/appvia/terraform-aws-budgets,Contains a number of modules related to cost controls and AWS budgets
 budgets,cloudposee,27973,aws,https://github.com/cloudposee/terraform-aws-budgets,Terraform module to manage AWS Budgets.
 budgets,cloudposse,11689,aws,https://github.com/cloudposse/terraform-aws-budgets,Terraform module to manage AWS Budgets.
-budgets,delivops,26271,aws,https://github.com/delivops/terraform-aws-budgets,Terraform-aws-budgets is a Terraform module for budgets about AWS services.
+budgets,delivops,26271,aws,https://github.com/delivops/terraform-aws-budgets,
 budgets,devops-workflow,1106,aws,https://github.com/devops-workflow/terraform-aws-budgets,Terraform module for configuring AWS budgets
 budgets,geekcell,19724,aws,https://github.com/geekcell/terraform-aws-budgets,Terraform module to provision an AWS Budgets.
 budgets,instantstack,24460,aws,https://github.com/instantstack/terraform-aws-budgets,Terraform module for budgets alerts management
@@ -3086,7 +3087,7 @@ charts,streamx-dev,27381,helm,https://github.com/streamx-dev/terraform-helm-char
 charts,trustd-solutions,10582,helm,https://github.com/trustd-solutions/terraform-helm-charts,
 chatbot,DNXLabs,5725,aws,https://github.com/DNXLabs/terraform-aws-chatbot,Utility Module to create AWS Chatbot and its dependencies.
 chatbot,terraform-trailwatch-modules,26658,aws,https://github.com/terraform-trailwatch-modules/terraform-aws-chatbot,This module contains the necessary resources to set up a functioning AWS Chatbot service with Slack integration. EventBridge integration for Chatbot is also provided.
-chatbot-channel,delivops,26913,aws,https://github.com/delivops/terraform-aws-chatbot-channel,Terraform-aws-chatbot is a Terraform module for creating a chatbot.
+chatbot-channel,delivops,26913,aws,https://github.com/delivops/terraform-aws-chatbot-channel,
 chatbot-slack-configuration,filonenkod,27525,aws,https://github.com/filonenkod/terraform-aws-chatbot-slack-configuration,Module to enable Chatbot Slack channel configuration in Terraform
 chatbot-slack-configuration,waveaccounting,5457,aws,https://github.com/waveaccounting/terraform-aws-chatbot-slack-configuration,Module to enable Chatbot Slack channel configuration in Terraform
 chatbot-topic,YoshinoriSatoh,11970,aws,https://github.com/YoshinoriSatoh/terraform-aws-chatbot-topic,
@@ -3695,15 +3696,15 @@ cloudwatch-alarms,clouddrove,3647,aws,https://github.com/clouddrove/terraform-aw
 cloudwatch-alarms,echomike80,11791,aws,https://github.com/echomike80/terraform-aws-cloudwatch-alarms,
 cloudwatch-alarms,rpstreef,4744,aws,https://github.com/rpstreef/terraform-aws-cloudwatch-alarms,Terraform AWS CloudWatch Alarms
 cloudwatch-alarms-to-teams-webhook,jkblume,27526,aws,https://github.com/jkblume/terraform-aws-cloudwatch-alarms-to-teams-webhook,This terraform module let you send cloudwatch alarm state changes to an teams webhook
-cloudwatch-alb,delivops,27142,aws,https://github.com/delivops/terraform-aws-cloudwatch-alb,Terraform-aws-cloudwatch-alb is a Terraform module for setting up a notification system about target groups metrics.
-cloudwatch-bedrock,delivops,27086,aws,https://github.com/delivops/terraform-aws-cloudwatch-bedrock,Terraform-aws-cloudwatch-bedrock is a Terraform module for setting up a notification system about bedrock metrics.
+cloudwatch-alb,delivops,27142,aws,https://github.com/delivops/terraform-aws-cloudwatch-alb,
+cloudwatch-bedrock,delivops,27086,aws,https://github.com/delivops/terraform-aws-cloudwatch-bedrock,
 cloudwatch-dashboard,HENNGE,6650,aws,https://github.com/HENNGE/terraform-aws-cloudwatch-dashboard,Terraforrm module which creates AWS Cloudwatch Dashboard.
 cloudwatch-dashboard,cloud-legends,15153,aws,https://github.com/cloud-legends/terraform-aws-cloudwatch-dashboard,An opinionated dashboard for CloudWatch
 cloudwatch-dashboard,clouddrove,18365,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-dashboard,This Terraform module creates Cloudwatch Alarm on AWS for monitoring AWS services. 
 cloudwatch-dashboard,zahorniak,6151,aws,https://github.com/zahorniak/terraform-aws-cloudwatch-dashboard,Terraform module which creates CloudWatch Dashboard
 cloudwatch-dashboard-ecs-rds,iops-team,23014,aws,https://github.com/iops-team/terraform-aws-cloudwatch-dashboard-ecs-rds,This Terraform module facilitates the creation of a CloudWatch dashboard designed for monitoring both Amazon ECS (Elastic Container Service) and Amazon RDS (Relational Database Service) metrics. The module provides a convenient way to visualize crucial performance indicators for ECS services and RDS instances.
-cloudwatch-ec2,delivops,26922,aws,https://github.com/delivops/terraform-aws-cloudwatch-ec2,Terraform-aws-cloudwatch-ec2 is a Terraform module for ec2 cloudwatch alerts in AWS.
-cloudwatch-elasticache,delivops,26962,aws,https://github.com/delivops/terraform-aws-cloudwatch-elasticache,Terraform-aws-cloudwatch-elasticache is a Terraform module for setting up a notification system about elasticache metrics.
+cloudwatch-ec2,delivops,26922,aws,https://github.com/delivops/terraform-aws-cloudwatch-ec2,
+cloudwatch-elasticache,delivops,26962,aws,https://github.com/delivops/terraform-aws-cloudwatch-elasticache,
 cloudwatch-event,JousP,4106,aws,https://github.com/JousP/terraform-aws-cloudwatch-event,Terraform module to create an aws_cloudwatch_event rule and target
 cloudwatch-event,akirosit,15667,aws,https://github.com/akirosit/terraform-aws-cloudwatch-event,Terraform module to deploy Cloudwatch Events
 cloudwatch-event,figurate,8024,aws,https://github.com/figurate/terraform-aws-events,Templates for event triggers and targets
@@ -3752,14 +3753,14 @@ cloudwatch-metric-alarm,Cloud-42,7204,aws,https://github.com/Cloud-42/terraform-
 cloudwatch-metric-filter-alarm,Aniketvaidhya,27681,aws,https://github.com/Aniketvaidhya/terraform-aws-cloudwatch-metric-filter-alarm,
 cloudwatch-metrics-for-ec2,robin-zhao,6658,aws,https://github.com/robin-zhao/terraform-aws-cloudwatch-metrics-for-ec2,This Terraform script creates a bunch of predefined Alarms to tagged EC2 instances
 cloudwatch-monitors,rhythmictech,3129,cis,https://github.com/rhythmictech/terraform-aws-cis-cloudwatch-monitors,Creates CloudWatch metric filters and alerts as required by the CIS AWS Benchmark
-cloudwatch-mq,delivops,27279,aws,https://github.com/delivops/terraform-aws-cloudwatch-mq,Terraform-aws-cloudwatch-mq is a Terraform module for setting up a notification system about MQ metrics.
-cloudwatch-msk,delivops,26865,aws,https://github.com/delivops/terraform-aws-cloudwatch-msk,Terraform-aws-msk-cloudwatch is a Terraform module for setting up a notification system about cloudwatch msk metrics.
+cloudwatch-mq,delivops,27279,aws,https://github.com/delivops/terraform-aws-cloudwatch-mq,
+cloudwatch-msk,delivops,26865,aws,https://github.com/delivops/terraform-aws-cloudwatch-msk,
 cloudwatch-oam,blackbird-cloud,19788,aws,https://github.com/blackbird-cloud/terraform-aws-cloudwatch-oam,Terraform module to create an AWS CloudWatch OAM
-cloudwatch-opensearch,delivops,27267,aws,https://github.com/delivops/terraform-aws-cloudwatch-opensearch,Terraform-aws-cloudwatch-opensearch is a Terraform module for setting up a notification system about opensearch metrics.
-cloudwatch-rds,delivops,26961,aws,https://github.com/delivops/terraform-aws-cloudwatch-rds,Terraform-aws-cloudwatch-rds is a Terraform module for setting up a notification system about rds metrics.
+cloudwatch-opensearch,delivops,27267,aws,https://github.com/delivops/terraform-aws-cloudwatch-opensearch,
+cloudwatch-rds,delivops,26961,aws,https://github.com/delivops/terraform-aws-cloudwatch-rds,
 cloudwatch-rule-alarm,wesol05,2861,aws,https://github.com/wesol05/terraform-aws-cloudwatch-rule-alarm,
 cloudwatch-s3,JamesWoolfenden,2851,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudwatch-s3,Stream Cloudwatch logs to s3
-cloudwatch-sqs,delivops,27007,aws,https://github.com/delivops/terraform-aws-cloudwatch-sqs,Terraform-aws-cloudwatch-sqs is a Terraform module for setting up a notification system about sqs metrics.
+cloudwatch-sqs,delivops,27007,aws,https://github.com/delivops/terraform-aws-cloudwatch-sqs,
 cloudwatch-stddev-alarm-creator,QuiNovas,2545,aws,https://github.com/QuiNovas/terraform-aws-cloudwatch-stddev-alarm-creator,Provisions the cloudwatch-stddev-alarm-creator LambdaLambdaLambda function
 cloudwatch-subscription-elasticsearch,jparnaudeau,12047,aws,https://github.com/jparnaudeau/terraform-aws-cloudwatch-subscription-elasticsearch,Automate the subscription of a cloudwatch log group to an ElasticSearch endpoint
 cloudwatch-synthetics,clouddrove,18368,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-synthetics,CloudWatch Synthetic Canaries are scripts that monitor your endpoints and APIs from the outside-in. Canaries help you check the availability and latency of your web services
@@ -4245,8 +4246,8 @@ container,telekom-mms,19149,azurerm,https://github.com/telekom-mms/terraform-azu
 container,terracharge,14079,aws,https://github.com/terracharge/terraform-aws-container,Module for creating terraform-aws-container with provider aws. This description is created automagically
 container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terraform-azurerm-container-app,Creates a container app
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
+container-app-environment,CloudAstro,30006,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-app-environment,"This module manages the creation and configuration of an Azure Container App Environment. It supports network isolation, Azure Virtual Network integration, Dapr components,storage configuration, scaling, and secure communication for containerized applications."
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
-container-apps,CloudAstro,29819,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-apps,"This module manages Azure Container Apps and Jobs, enabling containerized tasks such as event-driven, scheduled, and manual jobs. It supports autoscaling, secure networking, and advanced configurations for microservices and serverless workloads."
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
@@ -4384,7 +4385,7 @@ cost,squat,21815,saladcloud,https://github.com/squat/terraform-saladcloud-cost,C
 cost,tedilabs,18398,aws,https://github.com/tedilabs/terraform-aws-cost,🌳 A sustainable Terraform Package which creates resources for Cost on AWS
 cost-alert,infrahouse,26622,aws,https://github.com/infrahouse/terraform-aws-cost-alert,Module that creates a alert for AWS cost per period.
 cost-and-usage-reports,telia-oss,1275,aws,https://github.com/telia-oss/terraform-aws-cost-and-usage-reports,A Terraform module for deploying processing of AWS Cost and Usage reports. 
-cost-anomaly-detection,delivops,26211,aws,https://github.com/delivops/terraform-aws-cost-anomaly-detection,Terraform-aws-cost-anomaly-detection is a Terraform module for anomaly-detections in AWS services.
+cost-anomaly-detection,delivops,26211,aws,https://github.com/delivops/terraform-aws-cost-anomaly-detection,
 cost-anomaly-detection,ganexcloud,23939,aws,https://github.com/ganexcloud/terraform-aws-cost-anomaly-detection,
 cost-anomaly-detection-alert,keidarcy,27218,aws,https://github.com/keidarcy/terraform-aws-cost-anomaly-detection-alert,💰 Terraform module for AWS Cost Anomaly Detection with optional Slack integration to monitor and alert on unexpected AWS cost increases 📊
 cost-billing-alarm,binbashar,2679,aws,https://github.com/binbashar/terraform-aws-cost-billing-alarm,Terraform module which creates Cost Explorer billing cloudwatch alarm with optional SNS resources on AWS https://registry.terraform.io/modules/binbashar/cost-billing-alarm
@@ -11864,6 +11865,7 @@ modules,sarhanOSL14,12845,aws,https://github.com/sarhanOSL14/terraform-aws-modul
 modules,shubhambhardwaj007,15303,aws,https://github.com/shubhambhardwaj007/terraform-aws-modules,
 modules,spectrocloud,10531,spectrocloud,https://github.com/spectrocloud/terraform-spectrocloud-modules,
 modules,srabby,5999,aws,https://github.com/sry90/terraform-aws-modules,
+modules,stuartshay,30010,azure,https://github.com/stuartshay/terraform-azure-modules,
 modules,tedilabs,12518,github,https://github.com/tedilabs/terraform-github-modules,🌳 A sustainable Terraform Package which manage all of things on GitHub
 modules,tedilabs,16506,http,https://github.com/tedilabs/terraform-http-modules,🌳 A sustainable Terraform Package which manage useful data modules via HTTP provider
 modules,tedilabs,28481,okta,https://github.com/tedilabs/terraform-okta-modules,🌳 A sustainable Terraform Package which manage all of things on Okta
@@ -13009,7 +13011,7 @@ notify,appvia,27689,aws,https://github.com/appvia/terraform-aws-notify,Terraform
 notify-slack,TerraPros,27834,aws,https://github.com/TerraPros/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack,TerraformFoundation,27910,aws,https://github.com/TerraformFoundation/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack,anonfriese,24213,aws,https://github.com/anonfriese/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
-notify-slack,hazmei,24701,aws,https://github.com/hazmei/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
+notify-slack,hazmei,30005,aws,https://github.com/hazmei/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack,itsyndicate,13656,aws,https://github.com/itsyndicate/terraform-aws-notify-slack,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack 🇺🇦
 notify-slack,terraform-aws-modules,805,aws,https://github.com/terraform-aws-modules/terraform-aws-notify-slack,Terraform module to create AWS resources for sending notifications to Slack 🇺🇦
 notify-slack-kms,dod-iac,9039,aws,https://github.com/dod-iac/terraform-aws-notify-slack-kms,Terraform module which creates SNS topic and Lambda function which sends notifications to Slack with KMS keys pre-configured
@@ -13031,6 +13033,7 @@ november-2024,kaizenacademy,27449,module,https://github.com/kaizenacademy/terraf
 november-2024,nazikmusa,27569,module,https://github.com/nazikmusa/terraform-module-november-2024,
 nquakesv,AdrienneCohea,11312,nomad,https://github.com/AdrienneCohea/terraform-nomad-nquakesv,Quake: Coming to a Terraform registry near uwu
 nrql-alert-condition,USFoods,17657,newrelic,https://github.com/USFoods/terraform-newrelic-nrql-alert-condition,A Terraform module for New Relic with an opinionated NRQL alert condition.
+nsg,abhishekgajananpatil,30009,azurerm,https://github.com/abhishekgajananpatil/terraform-azurerm-nsg,
 nsg,andrewCluey,6298,azurerm,https://github.com/andrewCluey/terraform-azurerm-nsg,Create an Azure Network Security group with rules.
 nsg,avidhara,24042,azurerm,https://github.com/avidhara/terraform-azurerm-nsg,Terraform module for Azure Network Security Group
 nsg,bootlabstech,15517,azurerm,https://github.com/bootlabstech/terraform-azurerm-nsg,
@@ -16061,7 +16064,7 @@ scheduled-job,techieinyou,22491,aws,https://github.com/techieinyou/terraform-aws
 scheduled-job,techieinyou,22540,azure,https://github.com/techieinyou/terraform-azure-scheduled-job,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/scheduled-job/azure/latest. We remain committed to ongoing support for this module in its new home."
 scheduled-lambda,USSBA,4767,aws,https://github.com/USSBA/terraform-aws-scheduled-lambda,A simple module to package and deploy lambda functions and have them trigger them on a schedule.
 scheduled-switch,farhanangullia,15048,aws,https://github.com/farhanangullia/terraform-aws-scheduled-switch,Spin up and down your Terraform resources on schedule!
-scheduled-task,delivops,28501,ecs,https://github.com/delivops/terraform-ecs-scheduled-task,Terraform-ecs-scheduled-task is a Terraform module for setting up a schedule task on ecs.
+scheduled-task,delivops,28501,ecs,https://github.com/delivops/terraform-ecs-scheduled-task,
 scheduled-vertex-pipelines,teamdatatonic,14322,google,https://github.com/teamdatatonic/terraform-google-scheduled-vertex-pipelines,A Terraform module for scheduling Vertex Pipeline runs using Google Cloud Scheduler
 scheduled-worker,brucellino,18743,cloudflare,https://github.com/brucellino/terraform-cloudflare-scheduled-worker,Terraform module for a scheduled worker
 scheduler,deep-custom-module,12191,aws,https://github.com/deep-custom-module/terraform-aws-scheduler,
@@ -17563,7 +17566,7 @@ step-functions,TerraPros,27849,aws,https://github.com/TerraPros/terraform-aws-st
 step-functions,TerraformFoundation,27925,aws,https://github.com/TerraformFoundation/terraform-aws-step-functions,Terraform module to create AWS Step Functions 🇺🇦
 step-functions,cloudposee,28095,aws,https://github.com/cloudposee/terraform-aws-step-functions,Terraform module to provision AWS Step Functions
 step-functions,cloudposse,18546,aws,https://github.com/cloudposse/terraform-aws-step-functions,Terraform module to provision AWS Step Functions
-step-functions,delivops,27780,aws,https://github.com/delivops/terraform-aws-step-functions,Terraform-aws-step-functions is a Terraform module for setting up a step function system for ECS tasks.
+step-functions,delivops,27780,aws,https://github.com/delivops/terraform-aws-step-functions,
 step-functions,oozou,15129,aws,https://github.com/oozou/terraform-aws-step-functions,
 step-functions,terraform-aws-modules,6736,aws,https://github.com/terraform-aws-modules/terraform-aws-step-functions,Terraform module to create AWS Step Functions 🇺🇦
 step-functions,tomoki171923,14189,aws,https://github.com/tomoki171923/terraform-aws-step-functions,"Terraform module, which creates step-functions resources."
