@@ -1300,6 +1300,7 @@ arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws
 arc-kinesis-stream,sourcefuse,25364,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-stream,Terraform Module to provision Kinesis Streams
 arc-kms,mayank0202,21434,aws,https://github.com/mayank0202/terraform-aws-arc-kms,KMS Module
 arc-kms,sourcefuse,22036,aws,https://github.com/sourcefuse/terraform-aws-arc-kms,
+arc-lambda-function,sourcefuse,30014,aws,https://github.com/sourcefuse/terraform-aws-arc-lambda-function,
 arc-load-balancer,sourcefuse,27578,aws,https://github.com/sourcefuse/terraform-aws-arc-load-balancer,Terraform module for AWS Loadbalancers
 arc-mq-broker,sourcefuse,27104,aws,https://github.com/sourcefuse/terraform-aws-arc-mq-broker,
 arc-msk,sourcefuse,29390,aws,https://github.com/sourcefuse/terraform-aws-arc-msk,
@@ -2036,7 +2037,7 @@ aws-azure-vpn,terraform-xops-modules,23214,xops,https://github.com/terraform-xop
 aws-backend,ptonini,16784,vault,https://github.com/ptonini/terraform-vault-aws-backend,
 aws-batch,fmdlc,5862,module,https://github.com/fmdlc/terraform-module-aws-batch,:alien: Terraform module for AWS Batch.
 aws-cleanup-whitelist,troydieter,6179,aws,https://github.com/troydieter/terraform-aws-aws-cleanup-whitelist,Terraform module for aws-autocleanup for adding items to whitelist
-aws-cloud-credentials,f5devcentral,21746,xc,https://github.com/f5devcentral/terraform-xc-aws-cloud-credentials,Terraform module which creates AWS Cloud Credentials for F5 Distributed Cloud (XC)
+aws-cloud-credentials,f5devcentral,21746,xc,https://github.com/f5devcentral/terraform-xc-aws-cloud-credentials,
 aws-cloudfront-edge-lambda,Adaptavist,7275,module,https://github.com/Adaptavist/terraform-module-aws-cloudfront-edge-lambda,
 aws-cloudfront-ld-router,Adaptavist,7283,module,https://github.com/Adaptavist/terraform-module-aws-cloudfront-ld-router,
 aws-cloudfront-router,Adaptavist,6985,module,https://github.com/Adaptavist/terraform-module-aws-cloudfront-router,
@@ -2162,8 +2163,8 @@ aws-vpc,TanAruLon,26173,test,https://github.com/TanAruLon/terraform-test-aws-vpc
 aws-vpc,mars,1665,heroku,https://github.com/mars/terraform-heroku-aws-vpc,AWS VPC ready for 🍐 Heroku Private Spaces
 aws-vpc,wesuuu,13022,basic,https://github.com/wesuuu/terraform-basic-aws-vpc,
 aws-vpc-cni,kwaziio,23284,kubernetes,https://github.com/kwaziio/terraform-kubernetes-aws-vpc-cni,Terraform Module for Managing AWS VPC CNI Configuration for an EKS Cluster on AWS
-aws-vpc-site,f5devcentral,21754,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site,Terraform module which creates AWS VPC Site for F5 Distributed Cloud (XC)
-aws-vpc-site-networking,f5devcentral,21750,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site-networking,Terraform module which creates AWS VPC for F5 Distributed Cloud (XC) AWS VPC Site
+aws-vpc-site,f5devcentral,21754,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site,
+aws-vpc-site-networking,f5devcentral,21750,xc,https://github.com/f5devcentral/terraform-xc-aws-vpc-site-networking,
 aws-workspace,data-platform-hq,26671,databricks,https://github.com/data-platform-hq/terraform-databricks-aws-workspace,
 aws-workspace,terraform-databricks-modules,26465,databricks,https://github.com/terraform-databricks-modules/terraform-databricks-aws-workspace,Terraform module for creating Databricks workspaces in AWS
 aws-workspace,tomarv2,8318,databricks,https://github.com/tomarv2/terraform-databricks-aws-workspace,Terraform module to create Databricks AWS E2 workspace: https://registry.terraform.io/providers/databrickslabs/databricks/latest/docs/guides/aws-workspace
@@ -2232,7 +2233,7 @@ azure-caf-hub-vnet,ravensorb,13527,azurerm,https://github.com/ravensorb/terrafor
 azure-cassandra,intel,19588,intel,https://github.com/intel/terraform-intel-azure-cassandra,Intel Cloud Optimization Module - Azure Cassandra
 azure-cdn,pagopa-dx,28240,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-cdn,Allows to easily create an Azure FrontDoor CDN
 azure-cloud,mayankymca,26425,on,https://github.com/mayankymca/terraform-on-azure-cloud,Terraform on AWS with SRE & IaC DevOps | Real-World 20 Demos
-azure-cloud-credentials,f5devcentral,21749,xc,https://github.com/f5devcentral/terraform-xc-azure-cloud-credentials,Terraform module which creates Azure Cloud Credentials for F5 Distributed Cloud (XC)
+azure-cloud-credentials,f5devcentral,21749,xc,https://github.com/f5devcentral/terraform-xc-azure-cloud-credentials,
 azure-communication-smtp,kantorv,22056,coolapp,https://github.com/kantorv/terraform-coolapp-azure-communication-smtp,
 azure-connect,spotinst,11386,spotinst,https://github.com/spotinst/terraform-spotinst-azure-connect,A Terraform module to connect an Azure Subscription to Spot.io.
 azure-connect-v2,spotinst,29194,spotinst,https://github.com/spotinst/terraform-spotinst-azure-connect-v2,
@@ -2309,7 +2310,7 @@ azure-vm,asks1012,15305,azurerm,https://github.com/asks1012/terraform-azurerm-az
 azure-vnet,gbrembati,14578,module,https://github.com/gbrembati/terraform-module-azure-vnet,
 azure-vnet,jye-aviatrix,18018,azurerm,https://github.com/jye-aviatrix/terraform-azurerm-azure-vnet,"This module deploy Azure vNet, subnet and route tables, you may seletive deploy test instance in the subnet."
 azure-vnet-site,f5devcentral,21756,xc,https://github.com/f5devcentral/terraform-xc-azure-vnet-site,
-azure-vnet-site-networking,f5devcentral,21751,xc,https://github.com/f5devcentral/terraform-xc-azure-vnet-site-networking,Terraform module which creates Azure VNET for F5 Distributed Cloud (XC) Azure VNET Site
+azure-vnet-site-networking,f5devcentral,21751,xc,https://github.com/f5devcentral/terraform-xc-azure-vnet-site-networking,
 azure-vpn,cagataygurturk,24326,google,https://github.com/cagataygurturk/terraform-google-azure-vpn,Drop-in Terraform module to set up a HA VPN between GCP and Azure. Together with BGP and a private DNS zone on Azure side for private connectivity to Google services.
 azure-vwan,catonetworks,27490,cato,https://github.com/catonetworks/terraform-cato-azure-vwan,
 azure-windows-vm,intel,20482,intel,https://github.com/intel/terraform-intel-azure-windows-vm,Intel Cloud Optimization Module - Azure Windows VM
@@ -4476,6 +4477,7 @@ ct-client-secret,evolve-platform,27349,azurerm,https://github.com/evolve-platfor
 ct-client-secret,evolve-platform,27353,google,https://github.com/evolve-platform/terraform-google-ct-client-secret," Terraform module to manage a Commercetools client in Google Cloud "
 ctf-chal,KNOXDEV,15233,kubernetes,https://github.com/KNOXDEV/terraform-kubernetes-ctf-chal,terraform module to deploy jailed CTF challenges on k8s
 ctfd,1nval1dctf,4820,aws,https://github.com/1nval1dctf/terraform-aws-ctfd,Terraform module for the salable deployment of CTFd on AWS
+ctfd,petems,30020,aws,https://github.com/petems/terraform-aws-ctfd,
 ctrlplane,ctrlplanedev,26378,google,https://github.com/ctrlplanedev/terraform-google-ctrlplane,A Terraform module for deploying Ctrlplane on GCP.
 ctrlplane,sizzldev,25870,google,https://github.com/sizzldev/terraform-google-ctrlplane,A Terraform module for deploying Ctrlplane on GCP.
 cts,dnsimple,13004,dnsimple,https://github.com/dnsimple/terraform-dnsimple-cts,DNSimple Consult-Terraform-Sync NIA integration to manage your DNS records.
@@ -5883,6 +5885,7 @@ domain-redirect,Kalepa,16709,aws,https://github.com/Kalepa/terraform-aws-domain-
 domain-redirect,ekozynin,10228,aws,https://github.com/ekozynin/terraform-aws-domain-redirect,Redirects from one domain to another using S3 bucket & Cloudfront distribution
 domain-redirect,simplycubed,11653,google,https://github.com/simplycubed/terraform-google-domain-redirect,Terraform module to simplify redirecting domains on Google Cloud DNS.
 domain-setup,daringway,5633,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
+domain-tls,keithrozario,30016,google,https://github.com/keithrozario/terraform-google-domain-tls,
 dorkly-flags,dorklyorg,24575,aws,https://github.com/dorklyorg/terraform-aws-dorkly-flags,Terraform provider for dorkly feature flags system
 dotenvx,cunneen,29846,dotenvx,https://github.com/cunneen/terraform-dotenvx-dotenvx,"Terraform module which reads encrypted properties from a dotenvx `.env` file, and makes the decrypted values available for use in other terraform resources at the `terraform plan` stage."
 dotfiles-after-code-server,katorlys-samples,26412,coder,https://github.com/katorlys-samples/terraform-coder-dotfiles-after-code-server,Terraform Module to install dotfiles after code-server installation in Coderv2
@@ -6037,6 +6040,7 @@ dynamodb-table,evners,24261,aws,https://github.com/evners/terraform-aws-dynamodb
 dynamodb-table,figurate,6033,aws,https://github.com/figurate/terraform-aws-dynamodb,Provision DynamoDB tables from predefined templates
 dynamodb-table,justtrackio,17255,aws,https://github.com/justtrackio/terraform-aws-dynamodb-table,Terraform module which create a dynamodb table incl. indices and scaling via the terraform-aws-dynamodb-autoscaler module
 dynamodb-table,terraform-aws-modules,4416,aws,https://github.com/terraform-aws-modules/terraform-aws-dynamodb-table,Terraform module to create AWS DynamoDB resources 🇺🇦
+dynamodb-table,tfstack,30021,aws,https://github.com/tfstack/terraform-aws-dynamodb-table,Terraform module for creating and managing DynamoDB tables
 dynamodb-table-bsn,onminhthien,18892,aws,https://github.com/onminhthien/terraform-aws-dynamodb-table-bsn,Terraform module which creates DynamoDB table on AWS 🇺🇦
 dynamodb-table-mod,corpit-consulting-public,2647,aws,https://github.com/corpit-consulting-public/terraform-aws-dynamodb-table,Terraform module which creates Tablas DynamoDB on AWS
 dynamodb-tables,justtrackio,17256,aws,https://github.com/justtrackio/terraform-aws-dynamodb-tables,Terraform module which create a dynamodb tables incl. indices and scaling via the terraform-aws-dynamodb-autoscaler module
@@ -7552,6 +7556,7 @@ elasticache-redis,opzkit,10617,aws,https://github.com/opzkit/terraform-aws-elast
 elasticache-redis,rails-on-services,3589,aws,https://github.com/rails-on-services/terraform-aws-elasticache-redis,Manages AWS Redis Elasticache
 elasticache-redis,squareops,19440,aws,https://github.com/squareops/terraform-aws-elasticache-redis,Terraform module for simplified provisioning and management of AWS ElastiCache Redis.
 elasticache-redis,stroeer,15574,aws,https://github.com/stroeer/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
+elasticache-redis,tfstack,30019,aws,https://github.com/tfstack/terraform-aws-elasticache-redis,Terraform module to provision and manage an AWS ElastiCache Redis cluster
 elasticache-redis,tmknom,1886,aws,https://github.com/tmknom/terraform-aws-elasticache-redis,Terraform module which creates Redis ElastiCache resources on AWS.
 elasticache-redis,umotif-public,3795,aws,https://github.com/umotif-public/terraform-aws-elasticache-redis,A Terraform module to create an AWS Redis ElastiCache cluster.
 elasticache-redis,vnisolutions,17182,aws,https://github.com/vnisolutions/terraform-aws-elasticache-redis,
@@ -12154,6 +12159,7 @@ mymodules,Shruti0529,18145,aws,https://github.com/Shruti0529/terraform-aws-mymod
 mymodules,chiokpamen,14462,aws,https://github.com/chiokpamen/terraform-aws-mymodules,
 mymodules,kavithapalimar,18870,aws,https://github.com/kavithapalimar/terraform-aws-mymodules,
 mynic,jaysurya1697,29798,azurerm,https://github.com/jaysurya1697/terraform-azurerm-mynic,
+mynsg,abhishekgajananpatil,30017,azurerm,https://github.com/abhishekgajananpatil/terraform-azurerm-mynsg,
 myrepo,KhalifaBL,11575,aws,https://github.com/KhalifaBL/terraform-aws-myrepo,
 myrg,monbostest,11652,azurerm,https://github.com/monbostest/terraform-azurerm-myrg,This module will be used to created rg
 mys3,SkDevopsadmin,20943,aws,https://github.com/SkDevopsadmin/terraform-aws-mys3,
@@ -12633,6 +12639,7 @@ network,equinor,23379,azurerm,https://github.com/equinor/terraform-azurerm-netwo
 network,genstackio,7900,aws,https://github.com/genstackio/terraform-aws-network,Terraform module to create a network (VPC)
 network,gruntwork-io,2430,google,https://github.com/gruntwork-io/terraform-google-network,Terraform code and scripts for deploying a GCP Virtual Private Cloud (VPC).
 network,haflidif,12086,azurerm,https://github.com/haflidif/terraform-azurerm-network,Terraform module to create Azure network resources
+network,hjdo,30011,aws,https://github.com/hjdo/terraform-aws-network,
 network,hongjunjeong95,12582,aws,https://github.com/hongjunjeong95/terraform-aws-network,terraform-aws-network modules
 network,hyukjuns,26188,azurerm,https://github.com/hyukjuns/terraform-azurerm-network,terraform cloud private repository
 network,ijajmomin76,19101,google,https://github.com/ijajmomin76/terraform-google-network,Sets up a new VPC network on Google Cloud
@@ -15496,6 +15503,7 @@ s3-bucket,agusgonzaleznic,22282,aws,https://github.com/agusgonzaleznic/terraform
 s3-bucket,ansamant,14406,aws,https://github.com/ansamant/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,appzen-oss,12923,aws,https://github.com/appzen-oss/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
 s3-bucket,bamaralf,2085,aws,https://github.com/bamaralf/terraform-aws-s3-bucket,
+s3-bucket,bananawooyu,30012,aws,https://github.com/bananawooyu/terraform-aws-s3-bucket,
 s3-bucket,bancoripleyperu,8321,aws,https://github.com/bancoripleyperu/terraform-aws-s3-bucket,Module of Terraform
 s3-bucket,bhojan,18765,aws,https://github.com/bhojan/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,binxio,4130,aws,https://github.com/binxio/terraform-aws-s3-bucket,Generic S3 module for Terraform
@@ -20065,6 +20073,7 @@ vsocket-aws-tgw-ha,catonetworks,29056,cato,https://github.com/catonetworks/terra
 vsocket-aws-vpc,catonetworks,26731,cato,https://github.com/catonetworks/terraform-cato-vsocket-aws-vpc,
 vsocket-azure,catonetworks,26569,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure,
 vsocket-azure-ha,catonetworks,28320,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-ha,
+vsocket-azure-ha-2nic,catonetworks,30018,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-ha-2nic,
 vsocket-azure-ha-vnet,catonetworks,28400,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-ha-vnet,
 vsocket-azure-ha-vnet-2nic,catonetworks,29273,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-ha-vnet-2nic,
 vsocket-azure-vnet,catonetworks,26797,cato,https://github.com/catonetworks/terraform-cato-vsocket-azure-vnet,
