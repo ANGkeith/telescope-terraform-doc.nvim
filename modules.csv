@@ -462,7 +462,7 @@ ai-inference-onboarding,philips-labs,9819,hsdp,https://github.com/philips-labs/t
 ai-notebook-environment,teamdatatonic,8375,gcp,https://github.com/teamdatatonic/terraform-gcp-ai-notebook-environment,
 ai-project,bootlabstech,28322,azurerm,https://github.com/bootlabstech/terraform-azurerm-ai-project,
 ai-search,bootlabstech,28403,azurerm,https://github.com/bootlabstech/terraform-azurerm-ai-search,
-ai-stack,cloudeteer,29602,azurerm,https://github.com/cloudeteer/terraform-azurerm-ai-stack,☁️ Cloudeteer's Terraform azure azure-ai-foundry-hub module
+ai-stack,cloudeteer,30037,azurerm,https://github.com/cloudeteer/terraform-azurerm-ai-stack,☁️ Cloudeteer's Terraform azure azure-ai-stack module
 ai-stack,datastax,25372,aws,https://github.com/datastax/terraform-aws-ai-stack,
 ai-stack,datastax,25373,azure,https://github.com/datastax/terraform-azure-ai-stack,
 ai-stack,datastax,25374,gcp,https://github.com/datastax/terraform-gcp-ai-stack,
@@ -1760,6 +1760,7 @@ aurora-serverless,104corp,2423,aws,https://github.com/104corp/terraform-aws-auro
 aurora-serverless,QuiNovas,4856,aws,https://github.com/QuiNovas/terraform-aws-aurora-serverless,Creates Aurora Serverless cluster either on mysql or postgresql engines.
 aurora-serverless-mysql-alarms,truemark,15931,aws,https://github.com/truemark/terraform-aws-aurora-serverless-mysql-alarms,Alarms specific to Aurora serverless mysql
 aurora-serverless-postgres-alarms,truemark,15843,aws,https://github.com/truemark/terraform-aws-aurora-serverless-postgres-alarms,Alarms specific to Aurora serverless postgres
+auroradb,bootlabstech-m,30032,aws,https://github.com/bootlabstech-m/terraform-aws-auroradb,This repo is used for creating AWS Aurora RDS databases such as postgresql or mysql..etc
 auth,TaitoUnited,10452,auth0,https://github.com/TaitoUnited/terraform-auth0-auth,
 auth,mslipets,4403,cloudfront,https://github.com/mslipets/terraform-cloudfront-auth," Terraform module to provision CloudFront Distribtition with Lambda@Edge authorization backed by a private S3 origin"
 auth,ridwanbejo,22723,netbox,https://github.com/ridwanbejo/terraform-netbox-auth,Terraform module for managing Netbox auth functionalities
@@ -3210,6 +3211,7 @@ client-vpn-federated,rhythmictech,6522,aws,https://github.com/rhythmictech/terra
 client-vpn-federated-authentication,mhmdio,8143,aws,https://github.com/mhmdio/terraform-aws-client-vpn-federated-authentication,Terraform module for AWS Client VPN Deployment with federated-authentication
 client-vpn-multiple-users,eanselmi,24098,aws,https://github.com/eanselmi/terraform-aws-client-vpn-multiple-users,Terraform module to deploy AWS client vpn and manage multiple users with cetificates
 client-vpn-tls-file,mhmdio,7638,aws,https://github.com/mhmdio/terraform-aws-client-vpn-tls-file,
+clientvpn,lee0210,30036,aws,https://github.com/lee0210/terraform-aws-clientvpn,
 clis,cloud-native-toolkit,12673,util,https://github.com/cloud-native-toolkit/terraform-util-clis,Module to install missing clis into a local bin directory
 clizstorage,CLiz17,29504,azure,https://github.com/CLiz17/terraform-azure-clizstorage,
 clone-virtual-machine,bootlabstech,24661,azurerm,https://github.com/bootlabstech/terraform-azurerm-clone-virtual-machine,
@@ -4252,6 +4254,7 @@ container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terrafo
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
 container-app-environment,CloudAstro,30006,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-app-environment,"This module manages the creation and configuration of an Azure Container App Environment. It supports network isolation, Azure Virtual Network integration, Dapr components,storage configuration, scaling, and secure communication for containerized applications."
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
+container-apps,CloudAstro,30031,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-apps,"This module manages Azure Container Apps and Jobs, enabling containerized tasks such as event-driven, scheduled, and manual jobs. It supports autoscaling, secure networking, and advanced configurations for microservices and serverless workloads."
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
@@ -4711,6 +4714,7 @@ dataproduct-confluent-kafka-to-aws-s3,datamesh-architecture,19182,aws,https://gi
 dataproduct-confluent-kafka-to-gcp-bigquery,datamesh-architecture,19184,google,https://github.com/datamesh-architecture/terraform-google-dataproduct-confluent-kafka-to-gcp-bigquery,
 dataproduct-gcp-bigquery-transform,datamesh-architecture,19941,google,https://github.com/datamesh-architecture/terraform-google-dataproduct-gcp-bigquery-transform,
 datasource,hanyouqing,3746,alicloud,https://github.com/hanyouqing/terraform-alicloud-datasource,terraform-alicloud-datasource
+datastream,terraform-dinghy-modules,30038,google,https://github.com/terraform-dinghy-modules/terraform-google-datastream,
 datasync,aws-ia,25921,aws,https://github.com/aws-ia/terraform-aws-datasync,
 datasync,mkolarek,25837,aws,https://github.com/mkolarek/terraform-aws-datasync,Terraform modules for provisioning and managing AWS DataSync resources
 dataworks-common,dwp,8803,aws,https://github.com/dwp/terraform-aws-dataworks-common,A Terraform module to house common configuration for the DWP DataWorks team.
@@ -13078,7 +13082,7 @@ nva,luke-taylor,20183,azurerm,https://github.com/luke-taylor/terraform-azurerm-n
 nva-panos,cybergavin,10045,azurerm,https://github.com/cybergavin/terraform-azurerm-nva-panos,Terraform module to create one or more Palo Alto Networks (PAN-OS) VM-Series Network Virtual Appliances (NVAs)
 nw,CloudNationHQ,25606,azure,https://github.com/CloudNationHQ/terraform-azure-nw,Terraform module which creates network watcher resources used by workloads and accelerators.
 nwk,playgroundtech,9146,aws,https://github.com/playgroundtech/terraform-aws-nwk,AWS Terraform Network module
-oam,SPHTech-Platform,22300,aws,https://github.com/SPHTech-Platform/terraform-aws-oam,AWS Observability Access Manager
+oam,SPHTech-Platform,22300,aws,https://github.com/SPHTech-Platform/terraform-aws-oam,
 oam-link,alekc,26813,aws,https://github.com/alekc/terraform-aws-oam-link,A terraform module which can be used to create a Observability Access Manager link 
 oam-sink,alekc,26815,aws,https://github.com/alekc/terraform-aws-oam-sink,A terraform module which can be used to create a Observability Access Manager Sink
 oauth,benjaminejarrell,24955,azuread,https://github.com/benjaminejarrell/terraform-azuread-oauth,Sets up an EntraID/AzureAD app registration to be used by an OAuth SP
@@ -15631,7 +15635,7 @@ s3-csi-driver,krupakar0307,22395,aws,https://github.com/krupakar0307/terraform-a
 s3-data-export,lacework,9318,aws,https://github.com/lacework/terraform-aws-s3-data-export,A Terraform Module to configure the S3 Data Export integration for Lacework.
 s3-data-to-parquet,dod-iac,8479,aws,https://github.com/dod-iac/terraform-aws-s3-data-to-parquet,Module to convert s3 data to parquet
 s3-demo,vinaysunhare,26485,module,https://github.com/vinaysunhare/terraform-module-s3-demo,
-s3-deployment,kota65535,17844,aws,https://github.com/kota65535/terraform-aws-s3-deployment,Terraform module which deploys a static website to a S3 bucket.
+s3-deployment,kota65535,17844,aws,https://github.com/kota65535/terraform-aws-s3-deployment,
 s3-dummy,bootlabstech,14033,aws,https://github.com/bootlabstech/terraform-aws-s3-dummy,
 s3-dynamodb-remote-backend,my-devops-way,13663,aws,https://github.com/my-devops-way/terraform-aws-s3-dynamodb-remote-backend,
 s3-encrypted,voquis,5326,aws,https://github.com/voquis/terraform-aws-s3-encrypted,Terraform module to create server-side encrypted S3 bucket
@@ -16603,6 +16607,7 @@ serviceomat_policies,GoCarrot,19658,aws,https://github.com/GoCarrot/terraform-aw
 serviceplan,JamesWoolfenden,16727,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-serviceplan,Basic appserviceplan module
 serviceprincipal,imjoseangel,11299,azurerm,https://github.com/imjoseangel/terraform-azurerm-serviceprincipal,Terraform Module for creating a Azure Service Principal
 serviceprincipal,ned1313,14833,azuread,https://github.com/ned1313/terraform-azuread-serviceprincipal,Terraform module for creating service principals in Azure AD.
+services-bus-ampq,azure-terraform-module,30030,azure,https://github.com/azure-terraform-module/terraform-azure-services-bus-ampq,
 ses,7Factor,14433,aws,https://github.com/7Factor/terraform-aws-ses,A small module for adding Simple Email Service to an aws account.
 ses,CalvinE,25677,aws,https://github.com/CalvinE/terraform-aws-ses,"A Simple module for adding email capabilities for an application. Receiving email optionally available. DKIM, SPF and DMARC included!"
 ses,Lupus-Metallum,8423,aws,https://github.com/Lupus-Metallum/terraform-aws-ses,Used to create a fully compliant SES domain
@@ -17339,6 +17344,7 @@ statibwebsite,truongminhquan,18446,azurerm,https://github.com/truongminhquan/ter
 static,JamesWoolfenden,6467,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-static,Basic static site module
 static,srujanvk,16860,azurerm,https://github.com/srujanvk/terraform-azurerm-static,
 static-app,DNXLabs,5751,aws,https://github.com/DNXLabs/terraform-aws-static-app,This is a module that creates a static application with a OAI Cloudfront.
+static-app,catc1985,30039,github,https://github.com/catc1985/terraform-github-static-app,
 static-assets,gruntwork-io,2441,google,https://github.com/gruntwork-io/terraform-google-static-assets,"Modules for managing static assets (CSS, JS, images) in GCP"
 static-assets,simplycubed,9954,google,https://github.com/simplycubed/terraform-google-static-assets,"Modules for managing static assets (CSS, JS, images) in GCP"
 static-cdn-web-app,tal-rofe,23337,aws,https://github.com/tal-rofe/terraform-aws-static-cdn-web-app," Terraform module for AWS to host static web application on S3 and cached on CloudFront"
