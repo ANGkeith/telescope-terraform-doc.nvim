@@ -1877,7 +1877,7 @@ avm-ptn-aks-economy,Azure,26779,azurerm,https://github.com/Azure/terraform-azure
 avm-ptn-aks-enterprise,Azure,26780,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-enterprise,This is the Production Enterprise Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production enterprise standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production enterprise deployments for AKS.
 avm-ptn-aks-production,Azure,24122,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
 avm-ptn-aks-production,tembo-io,26403,azurerm,https://github.com/tembo-io/terraform-azurerm-avm-ptn-aks-production,This is the Production Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production deployments for AKS. 
-avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform module to deploy Azure Landing Zones
+avm-ptn-alz,Azure,21463,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz,Terraform Azure Verified Pattern Module for Azure Landing Zone
 avm-ptn-alz-connectivity-hub-and-spoke-vnet,Azure,28233,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet,Terraform Azure Verified Pattern Module for ALZ Connectivity Hub and Spoke
 avm-ptn-alz-connectivity-hub-and-spoke-vnet,bbtechsys,28445,azurerm,https://github.com/bbtechsys/terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet,The ALZ Platform Landing Zone Connectivity with Hub and Spoke Virtual Networks Pattern Module
 avm-ptn-alz-connectivity-virtual-wan,Azure,28234,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan,Terraform Azure Verified Pattern Module for ALZ Connectivity vWAN
@@ -4254,7 +4254,6 @@ container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terrafo
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
 container-app-environment,CloudAstro,30006,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-app-environment,"This module manages the creation and configuration of an Azure Container App Environment. It supports network isolation, Azure Virtual Network integration, Dapr components,storage configuration, scaling, and secure communication for containerized applications."
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
-container-apps,CloudAstro,30031,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-apps,"This module manages Azure Container Apps and Jobs, enabling containerized tasks such as event-driven, scheduled, and manual jobs. It supports autoscaling, secure networking, and advanced configurations for microservices and serverless workloads."
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
 container-deployment,jdevries3133,12511,kubernetes,https://github.com/jdevries3133/terraform-kubernetes-container-deployment,Basic configuration for deploying a single container into a kubernetes cluster.
@@ -7035,6 +7034,7 @@ efs,terraform-aws-modules,16095,aws,https://github.com/terraform-aws-modules/ter
 efs,terraform-iaac,9114,aws,https://github.com/terraform-iaac/terraform-aws-efs,Terraform module for Amazon EFS
 efs,terraform-trailwatch-modules,26648,aws,https://github.com/terraform-trailwatch-modules/terraform-aws-efs,This Terraform module creates CloudWatch Log Metric Filters and associated Alarms for monitoring Elastic File Systems (EFS) based on specified event names.
 efs,tomarv2,12366,aws,https://github.com/tomarv2/terraform-aws-efs,Terraform module for EFS(Elastic File System)
+efs,vijaykedar,30045,aws,https://github.com/vijaykedar/terraform-aws-efs,
 efs,yonetimacademy,21023,aws,https://github.com/yonetimacademy/terraform-aws-efs,CC AWS EFS Module
 efs,yurymkomarov,4796,aws,https://github.com/yurymkomarov/terraform-aws-efs,AWS EFS
 efs-alarms,lorenzoaiello,4011,aws,https://github.com/lorenzoaiello/terraform-aws-efs-alarms,This Terraform module manages Cloudwatch Alarms for an EFS instance.
@@ -7486,6 +7486,7 @@ eks-workers,lablabs,3612,aws,https://github.com/lablabs/terraform-aws-eks-worker
 eks_install,FlyingSnake,23484,aws,https://github.com/FlyingSnake/terraform-aws-eks_install,
 eks_installer,FlyingSnake,23471,aws,https://github.com/FlyingSnake/terraform-aws-eks_installer,
 ekscloudfunction,AnanyaJain111,9269,google,https://github.com/AnanyaJain111/terraform-google-ekscloudfunction,
+eksfargateprofile,bootlabstech-m,30042,aws,https://github.com/bootlabstech-m/terraform-aws-eksfargateprofile,This is used for creating the EKS Fargate Profile
 eksjan24module,ooghenekaro,23436,aws,https://github.com/ooghenekaro/terraform-aws-eksjan24module,
 eksjune24module,taiwoj14,24985,aws,https://github.com/taiwoj14/terraform-aws-eksjune24module,
 eksmar24module,winfred008,23542,aws,https://github.com/winfred008/terraform-aws-eksmar24module,
@@ -7934,6 +7935,7 @@ fargate,JamesWoolfenden,2853,aws,https://github.com/JamesWoolfenden/terraform-aw
 fargate,Rishang,17075,aws,https://github.com/Rishang/terraform-aws-fargate,Terraform module to deploy AWS ECS Fargate 
 fargate,almirosmanovic,4304,aws,https://github.com/almirosmanovic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate,atrakic,18720,aws,https://github.com/atrakic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
+fargate,bootlabstech-m,30043,aws,https://github.com/bootlabstech-m/terraform-aws-fargate,This repo is used for creating aws fargate
 fargate,strvcom,2107,aws,https://github.com/strvcom/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate,termit-uanic,8425,aws,https://github.com/termit-uanic/terraform-aws-fargate,Terraform module to provision a Fargate-ready AWS infrastructure 🚀
 fargate-cloudmap-public-ip,Nuagic,10117,aws,https://github.com/Nuagic/terraform-aws-fargate-cloudmap-public-ip,
@@ -8706,7 +8708,6 @@ google_folders,orion-global,17678,google,https://github.com/orion-global/terrafo
 googlecomputeinstance,JamesWoolfenden,2015,gcp,https://github.com/JamesWoolfenden/terraform-gcp-googlecomputeinstance,First step using GCP and Terraform
 gopalmahera-vpc-module,gopalmahera,26097,aws,https://github.com/gopalmahera/terraform-aws-gopalmahera-vpc-module,
 gopimstorage,gopinath-munuswamy,13209,azure,https://github.com/gopinath-munuswamy/terraform-azure-gopimstorage,
-gorilla-repo,rodchristiansen,22005,aws,https://github.com/rodchristiansen/terraform-aws-gorilla-repo,A Terraform module to set up a Gorilla repo
 gose,Dan6erbond,17524,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-gose,
 governance,cuemby,4261,gitlab,https://github.com/cuemby/terraform-gitlab-governance,Terraform module to manage a Gitlab organization governance.
 governance-eslz,qbeyond,13937,azurerm,https://github.com/qbeyond/terraform-azurerm-governance-eslz,This module is an extension for Micorsoft CAF modules. It offers the possibility to implement your own management group structure and RBAC model with groups and permissions.
@@ -12841,6 +12842,7 @@ networking-tf,pnikytynskyi,28973,aws,https://github.com/pnikytynskyi/terraform-a
 networking-tf-course,Jao-Steven-Rey,29382,aws,https://github.com/Jao-Steven-Rey/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey-C,27226,aws,https://github.com/Jao-Steven-Rey-C/terraform-aws-networking-tf-course,Networking module performed under Lauro Müeller's course about Terraform.
 networking-tf-course,bavingtonm,25865,aws,https://github.com/bavingtonm/terraform-aws-networking-tf-course,Networking module created during Mastering Terraform Course
+networking-tf-course,felipe-grandy,30046,aws,https://github.com/felipe-grandy/terraform-aws-networking-tf-course,
 networking-tf-course,geast16,29512,aws,https://github.com/geast16/terraform-aws-networking-tf-course,Networking module created using Laure Muller's Terraform course.
 networking-tf-course,gsmith829,27243,aws,https://github.com/gsmith829/terraform-aws-networking-tf-course,Networking module created during Terraform Course
 networking-tf-course,lm-academy,26682,aws,https://github.com/lm-academy/terraform-aws-networking-tf-course,Networking module created during Lauro Müller's Terraform course.
@@ -16704,6 +16706,7 @@ sg_ingress_ssh,s3d-club,15663,aws,https://github.com/s3d-club/terraform-aws-sg_i
 sggroups-ec2-module,Charan-Raj-K,8931,vpc,https://github.com/Charan-Raj-K/terraform-vpc-sggroups-ec2-module,Terraform module to provision vpc-security-groups-ec2instances on aws
 sha256-of-base64,Invicton-Labs,12408,null,https://github.com/Invicton-Labs/terraform-null-sha256-of-base64,
 shahid,shahidsyed1997,27290,aws,https://github.com/shahidsyed1997/terraform-aws-shahid,
+shahil-test-vpc,Shahil0045,30050,aws,https://github.com/Shahil0045/terraform-aws-shahil-test-vpc,
 shanstorage,Balashanthoshi,13211,azure,https://github.com/Balashanthoshi/terraform-azure-shanstorage,
 sharathstorage,brsharathkumar88,25125,azurerm,https://github.com/brsharathkumar88/terraform-azurerm-sharathstorage,
 shardingsphere,SphereEx,17124,aws,https://github.com/SphereEx/terraform-aws-shardingsphere,
