@@ -312,6 +312,7 @@ acm-request-certificate,cloudposse,947,aws,https://github.com/cloudposse/terrafo
 acm-route53,shamimice03,18044,aws,https://github.com/shamimice03/terraform-aws-acm-route53,Request a public SSL/TLS certificate from AWS Certificate Manager and add record to AWS Route53
 acme,iits-consulting,28371,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-acme,
 acme,yellowmegaman,2178,google,https://github.com/yellowmegaman/terraform-google-acme,Get ssl certs via acme with gcloud dns challenge
+acme-cert-manager,uoregon-devops,30080,aws,https://github.com/uoregon-devops/terraform-aws-acme-cert-manager,
 acme-certificate,cloud-native-toolkit,16045,azure,https://github.com/cloud-native-toolkit/terraform-azure-acme-certificate,Module to provision acme-certificate on azure
 acme-certificate,rms1000watt,1634,aws,https://github.com/rms1000watt/terraform-aws-acme-certificate,Terraform Module for ACME Certificate (with Route 53 validation and saving the certs to S3)
 acme-certificates,komailo,24358,modules,https://github.com/komailo/terraform-modules-acme-certificates,This Terraform module simplifies the process of obtaining a signed certificate from an ACME server and deploying it to one of the supported destinations.
@@ -3320,6 +3321,7 @@ cloud-run,mplibunao,16647,google,https://github.com/mplibunao/terraform-google-c
 cloud-run,simplycubed,11642,google,https://github.com/simplycubed/terraform-google-cloud-run,Terraform module to simplify the creation & management of Cloud Run services on GCP.
 cloud-run-api,graphnode-technologies,10341,gcp,https://github.com/graphnode-technologies/terraform-gcp-cloud-run-api,Create an easy Cloud Run API and keep it warm using Scheduler
 cloud-run-cicd-updates,simplycubed,11708,google,https://github.com/simplycubed/terraform-google-cloud-run-cicd-updates,
+cloud-run-datadog,DataDog,30081,google,https://github.com/DataDog/terraform-google-cloud-run-datadog,Terraform module to install Datadog Serverless Monitoring for Google Cloud Run
 cloud-run-iam,mineiros-io,11372,google,https://github.com/mineiros-io/terraform-google-cloud-run-iam,A Terraform module to manage Identity and Access Management (IAM) for Google Cloud Run applications on Cloud Platform (GCP) https://cloud.google.com/run
 cloud-run-latest,glasnt,17488,google,https://github.com/glasnt/terraform-google-cloud-run-latest,"Deploy a Cloud Run service with always the ""latest"" tag."
 cloud-run-service,evolve-platform,27352,google,https://github.com/evolve-platform/terraform-google-cloud-run-service," Terraform module to manage a Cloud Run service in Google Cloud "
@@ -3672,6 +3674,7 @@ cloudtrail-security-check,hendrixroa,3849,aws,https://github.com/hendrixroa/terr
 cloudtrail-slack-notification,clouddrove,19209,aws,https://github.com/clouddrove/terraform-aws-cloudtrail-slack-notification,Terraform module to create Lambda resource on AWS for sending notification when anything done from console in AWS. 
 cloudtrail-to-slack,fivexl,7468,aws,https://github.com/fivexl/terraform-aws-cloudtrail-to-slack,Parse AWS CloudTrail events and send alerts to Slack for events that match pre-configured rules
 cloudtrail-to-slack,stroeer,12538,aws,https://github.com/stroeer/terraform-aws-cloudtrail-to-slack,Parse AWS CloudTrail events and send alerts to Slack for events that match pre-configured rules
+cloudtrail-watcher,rubysoho07,30076,aws,https://github.com/rubysoho07/terraform-aws-cloudtrail-watcher,Watching and notifying AWS resources with CloudTrail & Lambda Function
 cloudtrail-with-alarms-and-sns,david-wells-1,2480,aws,https://github.com/david-wells-1/terraform-aws-cloudtrail-with-alarms-and-sns,Terraform module for AWS CloudTrail with CloudWatch Alarms and an SNS Topic
 cloudwan,aws-ia,14246,aws,https://github.com/aws-ia/terraform-aws-cloudwan,AWS Terraform Module for creating AWS CloudWAN
 cloudwan,blackbird-cloud,28811,aws,https://github.com/blackbird-cloud/terraform-aws-cloudwan,AWS Terraform Module for creating AWS CloudWAN
@@ -11430,7 +11433,6 @@ may,almazova09,29769,vpc,https://github.com/almazova09/terraform-vpc-may,
 may,elizadevops,29763,vpc,https://github.com/elizadevops/terraform-vpc-may,
 may,erzhena-d,29767,vpc,https://github.com/erzhena-d/terraform-vpc-may,
 may,kaizenacademy,29771,vpc,https://github.com/kaizenacademy/terraform-vpc-may,
-may,khbekzod,29766,vpc,https://github.com/khbekzod/terraform-vpc-may,
 may,mackpat3,29765,vpc,https://github.com/mackpat3/terraform-vpc-may,
 may,tetyagalya,29942,vpc,https://github.com/tetyagalya/terraform-vpc-may,
 mc-all-cidrs,terraform-aviatrix-modules,14927,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-all-cidrs,Simple module that returns all possible subnets inside a given cidr.
@@ -11834,6 +11836,7 @@ modules,Selleo,24280,aws,https://github.com/Selleo/terraform-aws-modules,Terrafo
 modules,Srivandan0705,23432,aws,https://github.com/Srivandan0705/terraform-aws-modules,
 modules,SudharsaneSivamany,23921,azurerm,https://github.com/SudharsaneSivamany/terraform-azurerm-modules,
 modules,VentalisZarquix,24275,aws,https://github.com/VentalisZarquix/terraform-aws-modules,
+modules,achelya81,30077,SonarQube,https://github.com/achelya81/terraform-SonarQube-modules,
 modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws-modules,Opta AWS modules for terraform module registry
 modules,ankush0991,16433,aws,https://github.com/Devops0091/terraform-aws-modules,
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
@@ -18163,6 +18166,7 @@ template-sync,nullc4t,17502,null,https://github.com/const-tmp/terraform-null-tem
 templates,Terraform-GCP-Templates,7279,gcp,https://github.com/Terraform-GCP-Templates/terraform-gcp-templates,
 tempo,loafoe,13409,cloudfoundry,https://github.com/loafoe/terraform-cloudfoundry-tempo,Experiment with Grafana Tempo
 temporal,neomantra,20246,nomad,https://github.com/neomantra/terraform-nomad-temporal,Terraform module to stand up Temporal.io Server on Nomad
+temporaryfixrepo,bootlabstech,30078,google,https://github.com/bootlabstech/terraform-google-temporaryfixrepo,to fix temporary issues on demand
 tenancy,ridwanbejo,22842,netbox,https://github.com/ridwanbejo/terraform-netbox-tenancy,Terraform module for managing Netbox tenancy config
 tenant,insobi,12880,aci,https://github.com/insobi/terraform-aci-tenant,Manage ACI tenants and subcomponents easily.
 tenant,netascode,9555,aci,https://github.com/netascode/terraform-aci-tenant,Terraform Cisco ACI Tenant Module
@@ -20468,6 +20472,7 @@ wp_do,matheussiqq,18924,digitalocean,https://github.com/matheussiqq/terraform-di
 wp_do,mbastida43,28286,digitalocean,https://github.com/mbastida43/terraform-digitalocean-wp_do,
 wp_do,ySodre,29099,digitalocean,https://github.com/ySodre/terraform-digitalocean-wp_do,
 wrapper,sdsdeliverio,28950,cloudflare,https://github.com/sdsdeliverio/terraform-cloudflare-wrapper,Terraform module to manage Cloudflare
+wrapper-notifications,gocloudLa,30082,aws,https://github.com/gocloudLa/terraform-aws-wrapper-notifications,Terraform module for AWS Notifications wrapper with IAC best practices
 wrapper-service1,gocloudLa,29966,aws,https://github.com/gocloudLa/terraform-aws-wrapper-service1,
 wrappers,harrisonfang,27242,google,https://github.com/harrisonfang/terraform-google-wrappers,Opinionated terraform modules for working with Google Cloud Platform.
 wwi-demos,data-platform-hq,22199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-wwi-demos,Terraform module for creation Azure WWI Demo and it's components creation
