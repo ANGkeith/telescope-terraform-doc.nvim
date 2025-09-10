@@ -1894,7 +1894,7 @@ avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terrafor
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
 avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Azure Verified Module for the Multi-hub networking pattern
 avm-ptn-monitoring-amba-alz,Azure,28533,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-monitoring-amba-alz,Terraform Azure Verified Pattern Module for AMBA ALZ Pattern
-avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,The AVM pattern module to deploy all the required private link private DNS zones for supported services. 
+avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,Terraform Azure Verified Pattern Module for Private Link Private DNS Zones
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
@@ -1927,7 +1927,7 @@ avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraf
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,AVM Module Repo for Azure ACI
-avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,AVM Terraform module for Module 'avm-res-containerregistry-registry'
+avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,Terraform Azure Verified Resource Module for Azure Container Registry (ACR)
 avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,Terraform Azure Verified Resource Module for AKS managed clusters
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
 avm-res-datafactory-factory,Azure,28746,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-datafactory-factory,
@@ -1944,7 +1944,7 @@ avm-res-devcenter-devcenter,Azure,26418,azurerm,https://github.com/Azure/terrafo
 avm-res-devopsinfrastructure-pool,Azure,25629,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devopsinfrastructure-pool,Azure Verified Module for Azure Managed DevOps Pool
 avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,Terraform Azure Verified Resource Module for CosmosDB Database Account
 avm-res-documentdb-mongocluster,Azure,30022,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-mongocluster,Terraform Azure Verified Resource Module for Cosmos DB for MongoDB (vCore)
-avm-res-edge-site,Azure,25589,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-edge-site,terraform avm module for resource site manager
+avm-res-edge-site,Azure,25589,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-edge-site,Terraform Azure Verified Resource Module for Azure Arc Site manager
 avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventhub-namespace,
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
@@ -2599,6 +2599,7 @@ bedrock-agent,Flaconi,26743,aws,https://github.com/Flaconi/terraform-aws-bedrock
 bedrock-agents,quixoticmonk,26669,aws,https://github.com/quixoticmonk/terraform-aws-bedrock-agents,
 bedrock-custom-model,Flaconi,26746,aws,https://github.com/Flaconi/terraform-aws-bedrock-custom-model,Terraform module to create Amazon Bedrock custom model
 bedrock-kb-aurora,Robyt96,29546,aws,https://github.com/Robyt96/terraform-aws-bedrock-kb-aurora,Terraform module to create one or more Bedrock Knowledge Bases with Aurora Serverless vector store
+bedrock-model-invocation-logging,Flaconi,30157,aws,https://github.com/Flaconi/terraform-aws-bedrock-model-invocation-logging,Terraform module for Amazon Bedrock Model invocation logging configuration
 bedrock-user,peytoncasper,24868,aws,https://github.com/peytoncasper/terraform-aws-bedrock-user,
 benthos-serverless,cludden,11674,aws,https://github.com/cludden/terraform-aws-benthos-serverless,a Terraform module for deploying Benthos as an AWS Lambda function with dynamic configuration via Gomplate
 best-practice-084,terraform-alicloud-modules,3609,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-best-practice-084,084@Terraform云资源管理
@@ -2925,6 +2926,7 @@ cce,magicorntech,29912,huaweicloud,https://github.com/magicorntech/terraform-hua
 cce,tarak,2668,opentelekomcloud,https://github.com/tarak/terraform-opentelekomcloud-cce,Terraform module which creates CCE clusters on Open Telekom Cloud
 cce-addon-autoscaler,cloud-labs-infra,22846,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addon-autoscaler,
 cce-addons,cloud-labs-infra,18785,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addons,
+cce-cluster,CloudAstro,30149,opentelekomcloud,https://github.com/CloudAstro/terraform-opentelekomcloud-cce-cluster,
 cce-cluster,cloud-labs-infra,18753,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster,
 cce-gpu-node-pool,iits-consulting,28377,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-cce-gpu-node-pool,
 cce-node-pool,cloud-labs-infra,18769,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool,
@@ -7500,7 +7502,6 @@ elastic-beanstalk-environment,scalereal,6491,aws,https://github.com/scalereal/te
 elastic-file-system,stanislavzabarylo,28523,aws,https://github.com/stanislavzabarylo/terraform-aws-elastic-file-system,A type-safe Terraform module for provisioning and managing AWS Elastic File System (EFS) resources with robust configuration validation.
 elastic-forwarder,Krossnine,19556,aws,https://github.com/Krossnine/terraform-aws-elastic-forwarder,
 elastic-ip,bootlabstech-m,20111,aws,https://github.com/bootlabstech-m/terraform-aws-elastic-ip,Creates an Elastic IP and attaches it to an instance 
-elastic-loadbalancer,CloudAstro,30144,opentelekomcloud,https://github.com/CloudAstro/terraform-opentelekomcloud-elastic-loadbalancer,
 elastic-operator,mateothegreat,6638,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-elastic-operator,Provision the elastic operator on kubernetes with Terraform.
 elastic-service,philips-labs,13177,hsdp,https://github.com/philips-labs/terraform-hsdp-elastic-service,"Provisions ElastiSearch on HSP including a Prometheus metrics endpoint, discoverable by variant"
 elasticache,7clouds-terraform-modules,16987,aws,https://github.com/7clouds-terraform-modules/terraform-aws-elasticache,
@@ -8033,6 +8034,7 @@ fingerprint-cloudfront-proxy-integration,fingerprintjs,25626,aws,https://github.
 finops,artefactory,18573,google,https://github.com/artefactory/terraform-google-finops,Terraform module to deploy basic FinOps resources on GCP.
 finops-costreview-access,elastic2ls-com,28926,aws,https://github.com/elastic2ls-com/terraform-aws-finops-costreview-access,"Terraform module to create an IAM user or cross-account IAM role for external FinOps cost reviews in AWS. Includes examples, optional AWSOrganizations access, CI/CD workflows, and security checks."
 finops-ebs-optimization,elastic2ls-com,28938,aws,https://github.com/elastic2ls-com/terraform-aws-finops-ebs-optimization,Terraform module for monitoring and cost-optimizing EBS volumes with dynamic CloudWatch alarms and tag-based filtering.
+firebase,nurdsoft,30158,google,https://github.com/nurdsoft/terraform-google-firebase,
 firebase-project-factory,cilly-yllic,22801,google,https://github.com/cilly-yllic/terraform-google-firebase-project-factory,Terraform module to create Firebase Project.
 firefly,Feleuxens,22184,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
 firefly,Feleuxens-Infrastructure,22178,helm,https://github.com/Feleuxens/terraform-helm-firefly,Terraform module for provisioning Firefly-III
@@ -8788,7 +8790,7 @@ guarddutty,ganexcloud,30067,aws,https://github.com/ganexcloud/terraform-aws-guar
 guardduty,DNXLabs,5758,aws,https://github.com/DNXLabs/terraform-aws-guardduty,This is a terraform modules that Applies guardduty to all regions.
 guardduty,QuiNovas,1651,aws,https://github.com/QuiNovas/terraform-aws-guardduty,Sets up guard duty
 guardduty,SevenPicoForks,17792,aws,https://github.com/SevenPicoForks/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
-guardduty,aws-ia,20214,aws,https://github.com/aws-ia/terraform-aws-guardduty,
+guardduty,aws-ia,20214,aws,https://github.com/aws-ia/terraform-aws-guardduty,Configure and deploy AWS GuardDuty.
 guardduty,aws-ss,18722,aws,https://github.com/aws-ss/terraform-aws-guardduty,A Terraform module that creates an Amazon GuardDuty.
 guardduty,c0x12c,29320,aws,https://github.com/c0x12c/terraform-aws-guardduty,
 guardduty,cloudposee,28033,aws,https://github.com/cloudposee/terraform-aws-guardduty,Terraform module to provision AWS Guard Duty
@@ -11146,6 +11148,7 @@ load-balancer-ssl-certificate-classic,terraform-navercloudplatform-modules,25268
 load-balancer-target-group-vpc,terraform-navercloudplatform-modules,25269,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-target-group-vpc,Terraform module to create load balancer target group resources for the vpc configuration
 load-balancer-vpc,terraform-navercloudplatform-modules,25270,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-load-balancer-vpc,Terraform module to create load balancer resources for the vpc configuration
 loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
+loadbalancer,CloudAstro,30155,azurerm,https://github.com/CloudAstro/terraform-azurerm-loadbalancer,"This module is designed to create and manage Azure Load Balancers (NLBs), which distribute incoming network traffic across multiple virtual machines (VMs) to ensure high availability and reliability. The module supports configuring frontend IP configurations, backend address pools, load balancing rules, and probes"
 loadbalancer,MissionCriticalCloud,6534,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-loadbalancer,Terraform module to create and manage a Cosmic load balancer.
 loadbalancer,diademiemi,24020,digitalocean,https://github.com/diademiemi/terraform-digitalocean-loadbalancer,
 loadbalancer,diademiemi,24022,hetzner,https://github.com/diademiemi/terraform-hetzner-loadbalancer,
@@ -12523,6 +12526,7 @@ nat,simulator-schandra,27257,azure,https://github.com/simulator-schandra/terrafo
 nat,tedivm,12435,aws,https://github.com/tedivm/terraform-aws-nat,Terraform module for creating NAT Gateways or Instances and attaching them to a VPC
 nat,terraform-tencentcloud-modules,16263,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-nat,TencentCloud NAT Gateway for Terraform
 nat-alarms,lorenzoaiello,4012,aws,https://github.com/lorenzoaiello/terraform-aws-nat-alarms,This Terraform module manages Cloudwatch Alarms for NAT Gateways.
+nat-gateway,CloudAstro,30156,azurerm,https://github.com/CloudAstro/terraform-azurerm-nat-gateway,This module is designed to create and manage Azure NAT Gateways
 nat-gateway,GoogleCloudPlatform,29,google,https://github.com/GoogleCloudPlatform/terraform-google-nat-gateway,Modular NAT Gateway on Google Compute Engine for Terraform.
 nat-gateway,OT-CLOUD-KIT,5145,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-nat-gateway,
 nat-gateway,claranet,7987,azurerm,https://github.com/claranet/terraform-azurerm-nat-gateway,Terraform module for Azure Nat Gateway
@@ -13237,6 +13241,7 @@ open-next,myskamartin,23303,aws,https://github.com/myskamartin/terraform-aws-ope
 open-vpc,recarnot,5673,aws,https://github.com/recarnot/terraform-aws-open-vpc,Basic AWS VPC Module for Terraform
 openagent,RSS3-Network,25231,gcp,https://github.com/RSS3-Network/terraform-gcp-openagent,Terraform module to deploy OpenAgent on Google Cloud to leverage Vertex AI.
 openai,Azure,19186,azurerm,https://github.com/Azure/terraform-azurerm-openai,Terraform module for deploying Azure OpenAI Service.
+openai,Think-Cube,30162,azure,https://github.com/Think-Cube/terraform-azure-openai,
 openai,amithkk,27209,azurerm,https://github.com/amithkk/terraform-azurerm-openai,Terraform module for deploying Azure OpenAI Service.
 openai-deploy,nikhiljohn10,28477,azure,https://github.com/nikhiljohn10/terraform-azure-openai-deploy,Azure OpenAI Deployment Module for Terraform
 openai-private-chatgpt,Pwd9000-ML,20450,azurerm,https://github.com/Pwd9000-ML/terraform-azurerm-openai-private-chatgpt,Terraform module to deploy a private ChatBot/ChatGPT-like solution (LibreChat) hosted on Azure OpenAI
@@ -14155,6 +14160,7 @@ python,nyinyisoepaing,10102,lambda,https://github.com/NyiNyiSoePaing/terraform-l
 python-function,thecomalley,28473,azurerm,https://github.com/thecomalley/terraform-azurerm-python-function,Terraform module to deploy a Python Function App along with its source code to Azure
 python-lambda-layer,kota65535,22224,aws,https://github.com/kota65535/terraform-aws-python-lambda-layer,
 python-slack-notifications,Lupus-Metallum,13547,aws,https://github.com/Lupus-Metallum/terraform-aws-python-slack-notifications,
+pythonll,MarioMoura,30163,aws,https://github.com/MarioMoura/terraform-aws-pythonll,
 qa-envs,moonswitch,11528,google,https://github.com/moonswitch/terraform-google-qa-envs,Terraform module to create and manage a Firestore table with information about QA environments to be consumed by the the Moonswitch GitHub Actions select-qa-env and release-qa-env.
 qamar_terraform_module,qamarabbas572,25917,aws,https://github.com/qamarabbas572/terraform-aws-qamar_terraform_module,
 qdrant,CTOFriendly,19132,aws,https://github.com/CTOFriendly/terraform-aws-qdrant,Terraform module to deploy QDrant  vector DB on EC2 AWS
@@ -14952,6 +14958,7 @@ request-signer,Invicton-Labs,9874,aws,https://github.com/Invicton-Labs/terraform
 res-ipam,hlokensgard,29604,azure,https://github.com/hlokensgard/terraform-azure-res-ipam,
 res-resources-resourcegroups,SkittleBomb,23599,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-resources-resourcegroups,Creates one or multiple resource groups
 res-service-plan,SkittleBomb,24815,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-service-plan,
+res-sg,hlokensgard,30164,azure,https://github.com/hlokensgard/terraform-azure-res-sg,
 res-storage-storageaccount,SkittleBomb,23600,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-storage-storageaccount,Module to deploy storage accounts in Azure
 res-storage-storageaccount,kewalaka,22526,azurerm,https://github.com/kewalaka/terraform-azurerm-res-storage-storageaccount,
 resilience-hub,aws-ia,25084,aws,https://github.com/aws-ia/terraform-aws-resilience-hub,
@@ -15130,6 +15137,7 @@ rgs,Premm1,23062,azurerm,https://github.com/Premm1/terraform-azurerm-rgs,
 rgsapip,mounikakatepalli,24527,azurerm,https://github.com/mounikakatepalli/terraform-azurerm-rgsapip,"This Module is for rg, sa and pip"
 rgsapip,sampoornadevops,24520,azurerm,https://github.com/sampoornadevops/terraform-azurerm-rgsapip,"this module is for rg, sa and pip"
 rhlstorage,rhlrahul,9507,azure,https://github.com/rhlrahul/terraform-azure-rhlstorage,
+rhnarora84-testvpc,rhnarora84,30151,aws,https://github.com/rhnarora84/terraform-aws-rhnarora84-testvpc,
 rhythmic-account-monitor,rhythmictech,23681,aws,https://github.com/rhythmictech/terraform-aws-rhythmic-account-monitor,
 rhythmic-awsmanaged,rhythmictech,23472,pagerduty,https://github.com/rhythmictech/terraform-pagerduty-rhythmic-awsmanaged,
 rhythmic-core,rhythmictech,23682,aws,https://github.com/rhythmictech/terraform-aws-rhythmic-core,
@@ -15163,6 +15171,7 @@ rkumar-test-vpc,Rajeevnita1993,25938,aws,https://github.com/Rajeevnita1993/terra
 rocket-chat-notifier,KazuyaMiyagi,7164,aws,https://github.com/KazuyaMiyagi/terraform-aws-rocket-chat-notifier,
 rocketmq-redis,terraform-alicloud-modules,10256,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rocketmq-redis,
 rogue-endpoint-control,netascode,10315,aci,https://github.com/netascode/terraform-aci-rogue-endpoint-control,Terraform Cisco ACI Rogue Endpoint Control Module
+rohan-custom-vpc,rhnarora84,30152,aws,https://github.com/rhnarora84/terraform-aws-rohan-custom-vpc,
 rohitstorage,RohitBaweja,18136,azure,https://github.com/RohitBaweja/terraform-azure-rohitstorage,
 role,BotTech,5029,aws,https://github.com/BotTech/terraform-aws-role,Terraform module for AWS which creates an IAM role.
 role,Infostrux-Solutions,14986,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-role,"Open Source Snowflake Terraform Module for Role Implementation, also in the terraform registry, http://registry.terraform.io/modules/Infostrux-Solutions/role/snowflake/latest"
@@ -16426,6 +16435,7 @@ server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server
 server,bayudwiyansatria,11185,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-server,Terraform Module for Provisioning Hetzner Cloud Server
 server,dhoppeIT,11686,hcloud,https://github.com/dhoppeIT/terraform-hcloud-server,"Terraform module to manage the following Hetzner Cloud resources (hcloud_server, hcloud_server_network, hcloud_snapshot))"
 server,dtherhtun,7974,rancher,https://github.com/dtherhtun/terraform-rancher-server,
+server,latitudesh,30161,latitudesh,https://github.com/latitudesh/terraform-latitudesh-server,
 server,merten2000,907,aws,https://github.com/merten2000/terraform-aws-server,
 server,rancher,20549,aws,https://github.com/rancher/terraform-aws-server,A Terraform Module Managing EC2 Instances
 server,robertdebock,19825,hetzner,https://github.com/robertdebock/terraform-hetzner-server,A terraform module to spin up a Hezner machine.
@@ -19782,6 +19792,7 @@ vpc-ecs-base,secopsninjaaws,28592,aws,https://github.com/secopsninjaaws/terrafor
 vpc-ecs-eip,terraform-alicloud-modules,10411,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-ecs-eip,
 vpc-ecs-rds-slb,terraform-alicloud-modules,10406,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-ecs-rds-slb,
 vpc-ecs-rds-slb-redis,terraform-alicloud-modules,10412,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-vpc-ecs-rds-slb-redis,
+vpc-eip,CloudAstro,30148,opentelekomcloud,https://github.com/CloudAstro/terraform-opentelekomcloud-vpc-eip,
 vpc-eip,tf-cloud-modules,16098,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-vpc-eip,Sbercloud VPC EIP Terraform module
 vpc-eks,babakDoraniArab,11827,aws,https://github.com/babakDoraniArab/terraform-aws-vpc-eks,a terraform code to run aws vpc and eks
 vpc-endpoint,genstackio,7899,aws,https://github.com/genstackio/terraform-aws-vpc-endpoint,Terraform module to create a VPC endpoint
