@@ -444,7 +444,7 @@ agent,cookielab,19244,gitlab,https://github.com/cookielab/terraform-gitlab-agent
 agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-agent,A Terraform Module to create a Secret and DaemonSet for deploying the Lacework Datacollector Agent in a Kubernetes cluster.
 agent,linuxpatch,24767,linuxpatch,https://github.com/linuxpatch/terraform-linuxpatch-agent,"Automate the installation of the LinuxPatch.com, a Patch Management platform for Linux servers. Compatible with Debian, Ubuntu, CentOS, Redhat, Rocky Linux, AlmaLinux, Amazon Linux, and more. Ideal for efficient management of multiple nodes."
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
-agent-pool,Think-Cube,29122,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-agent-pool,Terraform module for managing Azure DevOps agent pools with support for auto-provisioning and custom pool types.
+agent-pool,Think-Cube,29122,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-agent-pool,
 agentless-onboarding,imperva,24973,dsfhub,https://github.com/imperva/terraform-dsfhub-agentless-onboarding,Terraform modules for onboarding cloud sources to DSF hub
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
 agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,Terraform module for configuring an integration with Lacework and Google Cloud for agentless scanning
@@ -1873,6 +1873,7 @@ avi-controller-vsphere,slarimore02,8612,vsphere,https://github.com/slarimore02/t
 avinashk-test-vpc,avinash202725,29815,aws,https://github.com/avinash202725/terraform-aws-avinashk-test-vpc,
 avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terraform-azure-avinashstorage,
 avm-ptn-aiml-ai-foundry,Azure,29607,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-ai-foundry,Terraform Azure Verified Pattern Module for Azure AI Foundry Pattern
+avm-ptn-aiml-landing-zone,Azure,30171,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-landing-zone,Terraform Azure Verified Pattern Module for Azure AI and ML Landing Zone
 avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-dev,ms-henglu,28407,azurerm,https://github.com/ms-henglu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-dev,pauldotyu,29606,azurerm,https://github.com/pauldotyu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
@@ -4770,6 +4771,8 @@ dbnl,dbnlAI,29380,azurerm,https://github.com/dbnlAI/terraform-azurerm-dbnl,
 dbtest,bootlabstech,19057,azurerm,https://github.com/bootlabstech/terraform-azurerm-dbtest,
 dbw,CloudNationHQ,26058,azure,https://github.com/CloudNationHQ/terraform-azure-dbw,Terraform module which creates databricks workspace used by workloads and accelerators.
 dcdn,terraform-alicloud-modules,9972,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-dcdn,Terraform module which creates DCDN domain and its config on Alibaba Cloud.
+dci-instances,rhnarora84,30169,aws,https://github.com/rhnarora84/terraform-aws-dci-instances,
+dciec2instance-module,rhnarora84,30168,aws,https://github.com/rhnarora84/terraform-aws-dciec2instance-module,
 dcos,dcos-terraform,1443,aws,https://github.com/dcos-terraform/terraform-aws-dcos,Creates a DC/OS Cluster on AWS | Convenience Wrapper for AWS
 dcos,dcos-terraform,1519,gcp,https://github.com/dcos-terraform/terraform-gcp-dcos,Creates a DC/OS Cluster on GCP | Convenience Wrapper for GCP
 dcos,dcos-terraform,1552,azurerm,https://github.com/dcos-terraform/terraform-azurerm-dcos,Creates a DC/OS Cluster on Azure | Convenience Wrapper for Azure
@@ -5702,6 +5705,7 @@ docker-instance,tugbakorkut16,18186,aws,https://github.com/tugbakorkut16/terrafo
 docker-instance,tugcan-y,18218,aws,https://github.com/tugcan-y/terraform-aws-docker-instance,
 docker-instance,tulipamiss,16400,aws,https://github.com/tulipamiss/terraform-aws-docker-instance,
 docker-instance,turgout,14895,aws,https://github.com/mustafa-emek/terraform-aws-docker-instance,
+docker-instance,udogan104,30170,aws,https://github.com/udogan104/terraform-aws-docker-instance,
 docker-instance,uguradiguzel66,16335,aws,https://github.com/uguradiguzel66/terraform-aws-docker-instance,
 docker-instance,ugurcanfdn,20787,aws,https://github.com/ugurcanfdn/terraform-aws-docker-instance,
 docker-instance,ukan10,16442,aws,https://github.com/ukan10/terraform-aws-docker-instance,
@@ -6143,6 +6147,7 @@ ec2,kkumtree,24321,aws,https://github.com/kkumtree/terraform-aws-ec2,Just suppor
 ec2,kmayer10,17694,aws,https://github.com/kmayer10/terraform-aws-ec2,terraform-aws-ec2
 ec2,krmunna01234,7176,aws,https://github.com/krmunna01234/terraform-aws-ec2,
 ec2,kurron,524,aws,https://github.com/kurron/terraform-aws-ec2,A Terraform plan that populates an existing VPC with subnets and EC2 instances.
+ec2,leedonggyu-terraform-factory,30165,resource,https://github.com/leedonggyu-terraform-factory/terraform-resource-ec2,
 ec2,mahindudhat,7331,aws,https://github.com/mahindudhat/terraform-aws-ec2,This is Terraform module
 ec2,maksiess,7139,aws,https://github.com/maksiess/terraform-aws-ec2,
 ec2,mamunozj,26246,miguel,https://github.com/mamunozj/terraform-miguel-ec2,
@@ -11657,7 +11662,7 @@ minio,circa10a,3363,local,https://github.com/circa10a/terraform-local-minio,Auto
 minio,combinator-ml,8465,k8s,https://github.com/combinator-ml/terraform-k8s-minio,Minio terraform module for combinator.ml
 mirror,neomantra,2129,docker,https://github.com/neomantra/terraform-docker-mirror,Terraform module that mirrors Docker images between two Docker Registries.
 mirror-on-new-instance,darktrace,25338,aws,https://github.com/darktrace/terraform-aws-mirror-on-new-instance,
-misc,tedilabs,9169,aws,https://github.com/tedilabs/terraform-aws-misc,🌳 A sustainable Terraform Package which creates MISC resources on AWS
+misc,tedilabs,9169,aws,https://github.com/tedilabs/terraform-aws-misc,
 mist-srx-sdwan,tnonas,26948,juniper,https://github.com/tnonas/terraform-juniper-mist-srx-sdwan,The module allows rapid deployment of SD-WAN hub and spoke environment based on Juniper SRX an EX managed by Juniper Mist.
 mj-vpc,MONISH-JODHA,28697,aws,https://github.com/MONISH-JODHA/terraform-aws-mj-vpc,
 mkarimi20,mkarimi20,23905,helm,https://github.com/mkarimi20/terraform-helm-mkarimi20,
@@ -12846,6 +12851,7 @@ networking-subnet,ptonini,16831,aws,https://github.com/ptonini/terraform-aws-net
 networking-subnet-group,ptonini,22158,aws,https://github.com/ptonini/terraform-aws-networking-subnet-group,
 networking-tf,CaptainKus,28602,aws,https://github.com/CaptainKus/terraform-aws-networking-tf,Networking module created during Terraform Course
 networking-tf,pnikytynskyi,28973,aws,https://github.com/pnikytynskyi/terraform-aws-networking-tf,
+networking-tf-course,AitorConS,30167,aws,https://github.com/AitorConS/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey,29382,aws,https://github.com/Jao-Steven-Rey/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey-C,27226,aws,https://github.com/Jao-Steven-Rey-C/terraform-aws-networking-tf-course,Networking module performed under Lauro Müeller's course about Terraform.
 networking-tf-course,bavingtonm,25865,aws,https://github.com/bavingtonm/terraform-aws-networking-tf-course,Networking module created during Mastering Terraform Course
@@ -13390,7 +13396,7 @@ organization-policy,mineiros-io,12940,google,https://github.com/mineiros-io/terr
 organization-secret,mineiros-io,11118,github,https://github.com/mineiros-io/terraform-github-organization-secret,A Terraform module to manage GitHub Organization Secrets. https://github.com/
 organization-structure,Invicton-Labs,12211,aws,https://github.com/Invicton-Labs/terraform-aws-organization-structure,
 organization-structure,Kalepa,16713,aws,https://github.com/Kalepa/terraform-aws-organization-structure,
-organization-users,Think-Cube,29278,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-organization-users,"Terraform module for managing Azure DevOps organization users with support for assigning access levels, managing group memberships, and automating user onboarding."
+organization-users,Think-Cube,29278,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-organization-users,
 organizational-unit-members,devops-workflow,1880,aws,https://github.com/devops-workflow/terraform-aws-organizational-unit-members,Terraform module to move organization member account to right organizational unit
 organizational-units,devops-workflow,1849,aws,https://github.com/devops-workflow/terraform-aws-organizational-units,Terraform module to create AWS Organizational Units
 organizations,SevenPico,22194,aws,https://github.com/SevenPico/terraform-aws-organizations,
@@ -13915,7 +13921,7 @@ project,HappyPathway,27783,openai,https://github.com/HappyPathway/terraform-open
 project,PGBI,2810,aws,https://github.com/PGBI/terraform-aws-project,
 project,SweetOps,2230,google,https://github.com/SweetOps/terraform-google-project,The terraform module for creation and management of a GCP project with normalized name and labels
 project,T-Systems-MMS,12102,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-project,Configure Azure DevOps Projekt
-project,Think-Cube,29126,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-project,Terraform module to automate the creation and management of Azure DevOps projects with configurable settings.
+project,Think-Cube,29126,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-project,
 project,Ulan8888,21473,module,https://github.com/Ulan8888/terraform-module-project,
 project,VladyslavAltyok,14621,team1,https://github.com/VladyslavAltyok/terraform-team1-project,Terraform AWS Project
 project,afonsoaugusto,10057,atlas,https://github.com/afonsoaugusto/terraform-atlas-project,MongoDB Atlas module
@@ -14914,6 +14920,7 @@ repository,MarvelOrange,2036,github,https://github.com/MarvelOrange/terraform-gi
 repository,Selleo,16524,github,https://github.com/Selleo/terraform-github-repository,Simplify and automate your GitHub repository management 
 repository,TheGrowthExponent,16097,github,https://github.com/TheGrowthExponent/terraform-github-repository,
 repository,TheYorkshireDev,15379,github,https://github.com/TheYorkshireDev/terraform-github-repository,Terraform Module for managing Github Repositories 
+repository,Think-Cube,30172,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-repository,
 repository,akur8-oss,11927,github,https://github.com/akur8-oss/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,amachsoftware,24078,github,https://github.com/amachsoftware/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,antmelekhin,20918,github,https://github.com/antmelekhin/terraform-github-repository,A Terraform module to manage GitHub Repositories.
@@ -17272,6 +17279,7 @@ ssm-private-connectivity,Rubynahal,13284,aws,https://github.com/Rubynahal/terraf
 ssm-secrets,binxio,4131,aws,https://github.com/binxio/terraform-aws-ssm-secrets,"This module facilitates the creation of parameter store secure strings using the aws_kms_secrets data source, allowing us to keep and manage secret definitions in git without exposing them."
 ssm-secrets,hazelops,4846,aws,https://github.com/hazelops/terraform-aws-ssm-secrets,Terraform Module to manage SSM Secrets
 ssm-session-manager,voquis,8957,aws,https://github.com/voquis/terraform-aws-ssm-session-manager,
+ssm-store,Flaconi,30166,aws,https://github.com/Flaconi/terraform-aws-ssm-store,Simple module to store different parameters to SSM
 ssm-tls-self-signed-cert,MonoidDev,14759,aws,https://github.com/MonoidDev/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
 ssm-tls-self-signed-cert,cloudposee,28092,aws,https://github.com/cloudposee/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
 ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
