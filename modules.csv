@@ -1928,7 +1928,7 @@ avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/A
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
-avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,AVM Module Repo for Azure ACI
+avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,Terraform Azure Verified Resource Module for Container Instance
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,Terraform Azure Verified Resource Module for Azure Container Registry (ACR)
 avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,Terraform Azure Verified Resource Module for AKS managed clusters
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
@@ -6876,6 +6876,7 @@ ecs-service,ION-Analytics,27652,bsg,https://github.com/ION-Analytics/terraform-b
 ecs-service,ION-Analytics,28490,iona,https://github.com/ION-Analytics/terraform-iona-ecs-service,Attempt at updating the ecs service definitions
 ecs-service,JRubics,7939,aws,https://github.com/JRubics/terraform-aws-ecs-service,
 ecs-service,Payraydoo,28597,aws,https://github.com/Payraydoo/terraform-aws-ecs-service,
+ecs-service,SolidStackCloud,30207,aws,https://github.com/SolidStackCloud/terraform-aws-ecs-service,
 ecs-service,StratusGrid,12503,aws,https://github.com/StratusGrid/terraform-aws-ecs-service,"ecs-fargate-service is used to create an ecs service and the corresponding codedeploy, log groups, codepipeline artifacts, etc. It is intended to be used with StratusGrid's multi-account ecs pipeline module to allow for container images to be  passed immutably from cluster to cluster in different environments and accounts in a single contiguous pipeline."
 ecs-service,YoshinoriSatoh,11957,aws,https://github.com/YoshinoriSatoh/terraform-aws-ecs-service,
 ecs-service,amachsoftware,14815,aws,https://github.com/amachsoftware/terraform-aws-ecs-service,Terraform module for creating an ECS service
@@ -7898,6 +7899,7 @@ ezbastion,juweins,20173,azurerm,https://github.com/juweins/terraform-azurerm-ezb
 ezvpc,olindata,764,aws,https://github.com/olindata/terraform-aws-ezvpc,Creating AWS VPC resources for dummies (no subnetting required) in Terraform
 f5-bigip,memes,6621,google,https://github.com/memes/terraform-google-f5-bigip,Terraform modules for deploying F5 BIG-IP on Google Cloud Platform. Community supported.
 f5-bigip-cfe-role,memes,15338,google,https://github.com/memes/terraform-google-f5-bigip-cfe-role,Terraform role to create a custom IAM role for F5 BIG-IP CFE use.
+f5-demo-bootstrap,memes,30206,google,https://github.com/memes/terraform-google-f5-demo-bootstrap,
 f5-distributed-cloud-role,memes,15687,google,https://github.com/memes/terraform-google-f5-distributed-cloud-role,Terraform module to create a Google Cloud IAM role suitable for use with F5 Distributed Cloud
 fabric,equinix,22070,equinix,https://github.com/equinix/terraform-equinix-fabric,Terraform Equinix Fabric Modules
 fabric,terraform-cisco-modules,16180,aci,https://github.com/terraform-cisco-modules/terraform-aci-fabric,Terraform - ACI > Fabric Module
@@ -9072,6 +9074,7 @@ hz-ami-gen,hamdiz0,28425,aws,https://github.com/hamdiz0/terraform-aws-hz-ami-gen
 hz-nat-instance,hamdiz0,28404,aws,https://github.com/hamdiz0/terraform-aws-hz-nat-instance,A Terraform module for deploying high available NAT_Instances
 iam,BalaMuragan92,25402,aws,https://github.com/BalaMuragan92/terraform-aws-iam,
 iam,BorisLabs,8011,aws,https://github.com/BorisLabs/terraform-aws-iam,Terraform module to manage IAM permissions.
+iam,JasTandon,30209,aws,https://github.com/JasTandon/terraform-aws-iam,
 iam,Noonchak,18106,scaleway,https://github.com/Noonchak/terraform-scaleway-iam,
 iam,OT-CLOUD-KIT,14702,gcp,https://github.com/OT-CLOUD-KIT/terraform-gcp-iam,
 iam,PCDEV-Cloud,24453,google,https://github.com/PCDEV-Cloud/terraform-google-iam,
@@ -9188,6 +9191,7 @@ iam-member,bootlabstech,20612,google,https://github.com/bootlabstech/terraform-g
 iam-member,c0x12c,29339,gcp,https://github.com/c0x12c/terraform-gcp-iam-member,
 iam-member,viswanth165,11083,google,https://github.com/viswanth165/terraform-google-iam-member,
 iam-members,notablehealth,22188,google,https://github.com/notablehealth/terraform-google-iam-members,Terraform module to manage Google IAM membership
+iam-members,wisk-aero-oss,30204,google,https://github.com/wisk-aero-oss/terraform-google-iam-members,
 iam-nofile,baikonur-oss,2691,aws,https://github.com/baikonur-oss/terraform-aws-iam-nofile,Terraform module Terraform module for creating AWS IAM Roles with heredocs
 iam-openid-connect-provider,babbel,16648,aws,https://github.com/babbel/terraform-aws-iam-openid-connect-provider,Terraform module creating an AWS IAM OpenID Connect provider
 iam-password-policy,rhythmictech,5392,aws,https://github.com/rhythmictech/terraform-aws-iam-password-policy,Creates an AWS IAM password policy
@@ -9268,6 +9272,7 @@ iam-roles,achavacloud,25454,aws,https://github.com/achavacloud/terraform-aws-iam
 iam-roles,cytopia,1996,aws,https://github.com/cytopia/terraform-aws-iam-roles,This Terraform module creates an arbitrary number of IAM roles and policies/trusts to attach.
 iam-roles,notablehealth,19561,google,https://github.com/notablehealth/terraform-google-iam-roles,Terraform module to manage Google IAM custom roles
 iam-roles,rhythmictech,3141,rhythmic,https://github.com/rhythmictech/terraform-aws-rhythmic-iam-roles,Create and manage IAM roles for Rhythmic engineers to access accounts via cross-account IAM roles.
+iam-roles,wisk-aero-oss,30205,google,https://github.com/wisk-aero-oss/terraform-google-iam-roles,
 iam-s3,aws-hashicorp-adentity-academy-2025,29186,aws,https://github.com/aws-hashicorp-adentity-academy-2025/terraform-aws-iam-s3,
 iam-s3-self,aws-hashicorp-adentity-academy-2025,29187,aws,https://github.com/aws-hashicorp-adentity-academy-2025/terraform-aws-iam-s3-self,
 iam-s3-user,TerraPros,27827,aws,https://github.com/TerraPros/terraform-aws-iam-s3-user,"Terraform module to provision a basic IAM user with permissions to access S3 resources, e.g. to give the user read/write/delete access to the objects in an S3 bucket"
@@ -9620,6 +9625,10 @@ instance_vpc,dubareddy,14284,aws,https://github.com/devopsyuva/terraform-aws-ins
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
 instances,ulm0,3341,scaleway,https://github.com/ulm0/terraform-scaleway-instances,Create server instances in Scaleway
+instances-module,HasanMariam,30202,aws,https://github.com/HasanMariam/terraform-aws-instances-module,
+instances-module,SabashiniRajamanohar,30200,aws,https://github.com/SabashiniRajamanohar/terraform-aws-instances-module,
+instances-module,rhnarora84,30201,aws,https://github.com/rhnarora84/terraform-aws-instances-module,
+instances-module,znourbakhsh,30199,aws,https://github.com/znourbakhsh/terraform-aws-instances-module,
 instancias,descomplicando-terraform,25224,aws,https://github.com/descomplicando-terraform/terraform-aws-instancias,
 instellar,upmaru,16594,digitalocean,https://github.com/upmaru/terraform-digitalocean-instellar,Terraform module for bootstrapping LXD cluster for using with https://opsmaru.com
 instellar,upmaru,18861,hcloud,https://github.com/upmaru/terraform-hcloud-instellar,Instellar Terraform Module for Hetzner Cloud
@@ -11382,6 +11391,7 @@ managementgroup,JamesWoolfenden,7680,azurerm,https://github.com/JamesWoolfenden/
 manasstorage,Saimanasa-k,13210,azure,https://github.com/Saimanasa-k/terraform-azure-manasstorage,
 manifest,cloud-labs-infra,20176,kubernetes,https://github.com/cloud-labs-infra/terraform-kubernetes-manifest,
 manifest-documents,boillodmanuel,22397,null,https://github.com/boillodmanuel/terraform-null-manifest-documents,This terraform module helps to split a kubernetes multi-document manifest into several documents. This is a replacement for the kubectl_file_documents data source which has opened bugs
+manisha-own-vpc,22030083,30198,aws,https://github.com/22030083/terraform-aws-manisha-own-vpc,
 manishd,msdingra,17105,azure,https://github.com/msdingra/terraform-azure-manishd,For Storage Demo -12
 manoj-vpc-module,ManojDekhane,28340,aws,https://github.com/ManojDekhane/terraform-aws-manoj-vpc-module,
 manoramastorage,ManoramaC,12237,aws,https://github.com/ManoramaC/terraform-aws-manoramastorage,
@@ -11479,7 +11489,7 @@ mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schuberg
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,Terraform module to create an integration between AWS and Datadog
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,Terraform module to create an AWS DynamoDB Table
 mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,
-mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,Module to deploy infrastructure to generate energy labels for your AWS landing zone
+mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,
@@ -13136,6 +13146,8 @@ obs-secrets-writer,iits-consulting,28391,opentelekomcloud,https://github.com/iit
 obs-tf-state,iits-consulting,9066,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-obs-tf-state,
 obs-tf-state,victorgetz,8886,opentelekomcloud,https://github.com/victorgetz/terraform-opentelekomcloud-obs-tf-state,tf state encrypted
 obs-tf-state-encrypted,victorgetz,8879,opentelekomcloud,https://github.com/victorgetz/terraform-opentelekomcloud-obs-tf-state-encrypted,
+observability,JasTandon,30203,aws,https://github.com/JasTandon/terraform-aws-observability,
+observability,JasTandon,30208,datadog,https://github.com/JasTandon/terraform-datadog-observability,
 observability,nlamirault,18768,scaleway,https://github.com/nlamirault/terraform-scaleway-observability,Terraform module for Scaleway Kapsule
 observability,nlamirault,6633,azurerm,https://github.com/nlamirault/terraform-azurerm-observability,Terraform module for Observability components on Microsoft Azure
 observability,nlamirault,6634,aws,https://github.com/nlamirault/terraform-aws-observability,Terraform module for Observability components on AWS
@@ -13849,7 +13861,7 @@ private-agents,dcos-terraform,1385,aws,https://github.com/dcos-terraform/terrafo
 private-agents,dcos-terraform,1513,gcp,https://github.com/dcos-terraform/terraform-gcp-private-agents,Create DC/OS Private Agents instance and have conditional DC/OS Prereqs for gcp
 private-agents,dcos-terraform,1542,azurerm,https://github.com/dcos-terraform/terraform-azurerm-private-agents,Create DC/OS Private Agents instance and have conditional DC/OS prereqs for Azure
 private-and-public-subnet,caherrera,16533,aws,https://github.com/caherrera/terraform-aws-private-and-public-subnet,Another simple wrap module for create public and private subnet
-private-bastion,memes,12092,google,https://github.com/memes/terraform-google-private-bastion,Terraform module to provision a bastion that initialises from artifact or container registry
+private-bastion,memes,12092,google,https://github.com/memes/terraform-google-private-bastion,
 private-certificate-authority,jeremychauvet,26855,vault,https://github.com/jeremychauvet/terraform-vault-private-certificate-authority,Terraform module to use Vault as private CA
 private-cloud,sagittaros,7430,k3s,https://github.com/inscapist/terraform-k3s-private-cloud,"Private cluster with k3s. Why have 1 huge complicated cluster (pet) when you can have many simple, cheap clusters (cattle)?"
 private-dns,CloudAstro,29233,azurerm,https://github.com/CloudAstro/terraform-azurerm-private-dns,
