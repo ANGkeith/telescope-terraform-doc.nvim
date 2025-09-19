@@ -2324,6 +2324,7 @@ azure-vnet-site,f5devcentral,21756,xc,https://github.com/f5devcentral/terraform-
 azure-vnet-site-networking,f5devcentral,21751,xc,https://github.com/f5devcentral/terraform-xc-azure-vnet-site-networking,
 azure-vpn,cagataygurturk,24326,google,https://github.com/cagataygurturk/terraform-google-azure-vpn,Drop-in Terraform module to set up a HA VPN between GCP and Azure. Together with BGP and a private DNS zone on Azure side for private connectivity to Google services.
 azure-vwan,catonetworks,27490,cato,https://github.com/catonetworks/terraform-cato-azure-vwan,
+azure-vwan-vsocket-ha,catonetworks,30231,cato,https://github.com/catonetworks/terraform-cato-azure-vwan-vsocket-ha,
 azure-windows-vm,intel,20482,intel,https://github.com/intel/terraform-intel-azure-windows-vm,Intel Cloud Optimization Module - Azure Windows VM
 azure-workspace,HappyPathway,1758,tfe,https://github.com/HappyPathway/terraform-tfe-azure-workspace,Quickly Create Workspace in TFE for use with Microsoft Azure
 azure-workspace,tomarv2,12192,databricks,https://github.com/tomarv2/terraform-databricks-azure-workspace,Terraform module to create Databricks Azure workspace
@@ -3494,6 +3495,7 @@ cloudfront,zkfmapf123,20713,static,https://github.com/zkfmapf123/terraform-stati
 cloudfront-add-index,Lupus-Metallum,10695,aws,https://github.com/Lupus-Metallum/terraform-aws-cloudfront-add-index,Appends index.html to requests that don’t include a file name or extension in the URL
 cloudfront-and-edge,4s3ti,24282,aws,https://github.com/4s3ti/terraform-aws-cloudfront-and-edge,Terraform module to serve static website from s3 with cloudfront and lambda@egde function for subdirectories
 cloudfront-and-edge,coolapso,24283,aws,https://github.com/coolapso/terraform-aws-cloudfront-and-edge,Terraform module to serve static website from s3 with cloudfront and lambda@egde function for subdirectories
+cloudfront-and-s3-origin,bendoerr-terraform-modules,30230,aws,https://github.com/bendoerr-terraform-modules/terraform-aws-cloudfront-and-s3-origin,Ben's Terraform AWS Hosted Website Module
 cloudfront-auth,ganexcloud,15566,aws,https://github.com/ganexcloud/terraform-aws-cloudfront-auth,
 cloudfront-auth,oasys,7976,aws,https://github.com/oasys/terraform-aws-cloudfront-auth,Terraform module to build a website protected by OpenID authentication provider using a private S3 bucket fronted by Cloudfront and Lambda@Edge.
 cloudfront-auth,vainkop,8453,aws,https://github.com/vainkop/terraform-aws-cloudfront-auth,"This module will build a website that is protected by an OpenId compatible authentication provider.  It will provision a private S3 bucket, Cloudfront, and deploy a customized Lambda function using Lambda@Edge"
@@ -5433,6 +5435,7 @@ docker-instance,burhanayan83,14649,aws,https://github.com/burhanayan83/terraform
 docker-instance,burhanca,16376,aws,https://github.com/burhanca/terraform-aws-docker-instance,
 docker-instance,cagatayakk,16568,aws,https://github.com/cagatayakk/terraform-aws-docker-instance,
 docker-instance,canan89,29816,aws,https://github.com/canan89/terraform-aws-docker-instance,
+docker-instance,cannumit,30223,aws,https://github.com/cannumit/terraform-aws-docker-instance,
 docker-instance,casilys,16355,aws,https://github.com/casilys/terraform-aws-docker-instance,
 docker-instance,cetinakkaya,16317,aws,https://github.com/cetinakkaya/terraform-aws-docker-instance,
 docker-instance,cevdet25,28175,aws,https://github.com/cevdet25/terraform-aws-docker-instance,This module creates a docker instance and a security group
@@ -8680,6 +8683,7 @@ glue-data-catalog-encryption,dod-iac,8596,aws,https://github.com/dod-iac/terrafo
 glue-dev-endpoint,MitocGroup,2540,aws,https://github.com/MitocGroup/terraform-aws-glue-dev-endpoint,"Terraform code to create, update or delete AWS Glue dev endpoint(s)"
 glue-iam-policy,dod-iac,8335,aws,https://github.com/dod-iac/terraform-aws-glue-iam-policy,Creates an IAM policy for AWS Glue
 glue-iam-role,dod-iac,8049,aws,https://github.com/dod-iac/terraform-aws-glue-iam-role,IAM Role for use as a Glue service role
+glue-job,Flaconi,30225,aws,https://github.com/Flaconi/terraform-aws-glue-job,Terraform module to creates an AWS Glue job
 glue-job,komminarlabs,23005,aws,https://github.com/komminarlabs/terraform-aws-glue-job,Terraform module to create and manage a AWS Glue job
 glue-job,pquintero,11450,aws,https://github.com/pquintero/terraform-aws-glue-job,This repository contains the basic definition for the AWS Glue job deployment
 glue-job,vitalibo,13888,aws,https://github.com/vitalibo/terraform-aws-glue-job,Terraform module which creates Glue Job resources on AWS.
@@ -13460,6 +13464,7 @@ osquery,opendevsecops,1852,aws,https://github.com/opendevsecops/terraform-aws-os
 oss-bucket,terraform-alicloud-modules,2108,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-oss-bucket,Terraform module which creates OSS Bucket on Alibaba Cloud
 oss-object,terraform-alicloud-modules,2125,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-oss-object,Terraform module which uploads OSS objects on Alibaba Cloud
 oss-project,relaycorp,11226,github,https://github.com/relaycorp/terraform-github-oss-project,Terraform module for open source projects by Relaycorp
+otel-collector,monte-carlo-data,30228,aws,https://github.com/monte-carlo-data/terraform-aws-otel-collector,
 otterize-aws-iam,otterize,23607,aws,https://github.com/otterize/terraform-aws-otterize-aws-iam,
 otterize-aws-iam-rolesanywhere,otterize,23613,aws,https://github.com/otterize/terraform-aws-otterize-aws-iam-rolesanywhere,
 otterize-aws-visibility,otterize,26185,aws,https://github.com/otterize/terraform-aws-otterize-aws-visibility,
@@ -13616,6 +13621,7 @@ pet,hrychlik-free-3,27493,random,https://github.com/hrychlik-free-3/terraform-ra
 petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
+petstore,nicsnet,30227,blueprint,https://github.com/nicsnet/terraform-blueprint-petstore,testing outputs
 petstore,terraform-in-action,7228,aws,https://github.com/terraform-in-action/terraform-aws-petstore,
 pexip-infinity,Josh-E-S,27475,google,https://github.com/Josh-E-S/terraform-google-pexip-infinity,Terraform Module for deploying Pexip Infinity video conferencing platform on GCP
 pfx-name-sfx,thpang,18071,null,https://github.com/thpang/terraform-null-pfx-name-sfx,Terraform module that outputs a string based on the provided name concatenated with an optional prefix or suffix
@@ -16475,6 +16481,7 @@ server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server
 server,bayudwiyansatria,11185,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-server,Terraform Module for Provisioning Hetzner Cloud Server
 server,dhoppeIT,11686,hcloud,https://github.com/dhoppeIT/terraform-hcloud-server,"Terraform module to manage the following Hetzner Cloud resources (hcloud_server, hcloud_server_network, hcloud_snapshot))"
 server,dtherhtun,7974,rancher,https://github.com/dtherhtun/terraform-rancher-server,
+server,latitudesh,30229,latitudesh,https://github.com/latitudesh/terraform-latitudesh-server,
 server,merten2000,907,aws,https://github.com/merten2000/terraform-aws-server,
 server,rancher,20549,aws,https://github.com/rancher/terraform-aws-server,A Terraform Module Managing EC2 Instances
 server,robertdebock,19825,hetzner,https://github.com/robertdebock/terraform-hetzner-server,A terraform module to spin up a Hezner machine.
@@ -16875,6 +16882,7 @@ simplevm,rolando-anton,6195,vsphere,https://github.com/rolando-anton/terraform-v
 simulated_on_prem_with_ipsec_and_bgp,turelljj,8867,aws,https://github.com/turelljj/terraform-aws-simulated_on_prem_with_ipsec_and_bgp,simulate On-Prem env with centos on AWS (different vpc)
 singaravelu,singaravelugit,12313,azure,https://github.com/singaravelugit/terraform-azure-singaravelu,
 singhS3,Sandeepkumarsingh13,11429,aws,https://github.com/Sandeepkumarsingh13/terraform-aws-singhS3,
+single-linux-function-app,bootlabstech,30222,azurerm,https://github.com/bootlabstech/terraform-azurerm-single-linux-function-app,
 single-page-app,Xerris-Terraform-Modules,8135,aws,https://github.com/Xerris-Terraform-Modules/terraform-aws-single-page-app,"This is a quick way to spin up the necesary S3 Buckets, Cloudfront distributions, Route 53 records and ACM Certificates for a typical React/Single Page Application"
 single-page-application,li0nel,1120,aws,https://github.com/li0nel/terraform-aws-single-page-application,Terraform module which lets you deploy SPAs on AWS using Git Push
 single-service,dashdevs,21396,aws,https://github.com/dashdevs/terraform-aws-single-service,
@@ -17637,6 +17645,7 @@ staticwebsitepublic1,nishura,21177,azurerm,https://github.com/nishura/terraform-
 staticwebsitepublic1,prakash-indorkar,11942,azurerm,https://github.com/prakash-indorkar/terraform-azurerm-staticwebsitepublic1,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic1,safi-devops,21591,azurerm,https://github.com/safi-devops/terraform-azurerm-staticwebsitepublic1,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic2,viswendra,17351,azurerm,https://github.com/viswendra/tf-staticwebsitepublic2,New-Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic888,ADARIMOH,30221,azurerm,https://github.com/ADARIMOH/terraform-azurerm-staticwebsitepublic888,
 staticwebstitepublic,AvtsVivek,14314,azurerm,https://github.com/AvtsVivek/terraform-azurerm-staticwebstitepublic,Terraform Modules to be shared in Terraform Public Registry
 station,kimfy,24434,azurerm,https://github.com/kimfy/terraform-azurerm-station,Station as a Radius recipe
 status-monitor-storage-and-api,joshdurbin,597,network,https://github.com/joshdurbin/terraform-network-status-monitor-storage-and-api,
@@ -18345,6 +18354,7 @@ tested-oses,dcos-terraform,1370,aws,https://github.com/dcos-terraform/terraform-
 tested-oses,dcos-terraform,1538,azurerm,https://github.com/dcos-terraform/terraform-azurerm-tested-oses,Returns the image for an given OS
 tested-oses,dcos-terraform,1736,gcp,https://github.com/dcos-terraform/terraform-gcp-tested-oses,
 testing,bootlabstech,29542,google,https://github.com/bootlabstech/terraform-google-testing,
+testingmod,hashliontester,30226,aws,https://github.com/hashliontester/terraform-aws-testingmod,The AWS Provider enables Terraform to manage AWS resources.
 testingrgsa,sampoornadevops,24515,azurerm,https://github.com/sampoornadevops/terraform-azurerm-testingrgsa,testing rg and sa
 testmod,kadagotiprudhvi,24603,aws,https://github.com/kadagotiprudhvi/terraform-aws-testmod,
 testmodule,hiroto3432,10192,aws,https://github.com/hiroto3432/terraform-aws-testmodule,
@@ -20443,6 +20453,7 @@ workbooks,armor,19533,azurerm,https://github.com/armor/terraform-azurerm-workboo
 worker-node-group,notespacejp,12649,aws,https://github.com/notespacejp/terraform-aws-worker-node-group,aws managed worker node group module
 worker-pool,garbetjie,8658,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
 worker-spur-monocle,spurintel,28498,cloudflare,https://github.com/spurintel/terraform-cloudflare-worker-spur-monocle,Terraform module that will deploy Spur's Monocle passive VPN and Proxy-blocking captcha to a Cloudflare Worker.
+workers,Flaconi,30224,cloudflare,https://github.com/Flaconi/terraform-cloudflare-workers,This module will create Cloudflare workers namespace
 workers,garbetjie,8012,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
 workflow,USFoods,20161,newrelic,https://github.com/USFoods/terraform-newrelic-workflow,A Terraform module for New Relic with a common email by policy workflow.
 workforce-identity-federation,SudharsaneSivamany,17063,google,https://github.com/SudharsaneSivamany/terraform-google-workforce-identity-federation,
@@ -20542,21 +20553,21 @@ wp_do,matheussiqq,18924,digitalocean,https://github.com/matheussiqq/terraform-di
 wp_do,mbastida43,28286,digitalocean,https://github.com/mbastida43/terraform-digitalocean-wp_do,
 wp_do,ySodre,29099,digitalocean,https://github.com/ySodre/terraform-digitalocean-wp_do,
 wrapper,sdsdeliverio,28950,cloudflare,https://github.com/sdsdeliverio/terraform-cloudflare-wrapper,Terraform module to manage Cloudflare
-wrapper-acm,gocloudLa,30096,aws,https://github.com/gocloudLa/terraform-aws-wrapper-acm,Terraform module for AWS ACM wrapper with IAC best practices
+wrapper-acm,gocloudLa,30096,aws,https://github.com/gocloudLa/terraform-aws-wrapper-acm,
 wrapper-alb,gocloudLa,30097,aws,https://github.com/gocloudLa/terraform-aws-wrapper-alb,Terraform module for AWS Application Load Balancer wrapper with IAC best practices
 wrapper-aws-backup,gocloudLa,30098,aws,https://github.com/gocloudLa/terraform-aws-wrapper-aws-backup,Terraform module for AWS Backup wrapper with IAC best practices
 wrapper-batch,gocloudLa,30127,aws,https://github.com/gocloudLa/terraform-aws-wrapper-batch,
-wrapper-batch-job,gocloudLa,30100,aws,https://github.com/gocloudLa/terraform-aws-wrapper-batch-job,Terraform module for AWS Batch Job wrapper with IAC best practices
+wrapper-batch-job,gocloudLa,30100,aws,https://github.com/gocloudLa/terraform-aws-wrapper-batch-job,
 wrapper-bucket,gocloudLa,30101,aws,https://github.com/gocloudLa/terraform-aws-wrapper-bucket,Terraform module for AWS S3 Bucket wrapper with IAC best practices
 wrapper-cloudmap,gocloudLa,30090,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cloudmap,Terraform module for AWS CloudMap wrapper with IAC best practices
 wrapper-cost-control,gocloudLa,30102,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cost-control,Terraform module for AWS Cost Control wrapper with IAC best practices
 wrapper-documentdb,gocloudLa,30103,aws,https://github.com/gocloudLa/terraform-aws-wrapper-documentdb,Terraform module for AWS DocumentDB wrapper with IAC best practices
 wrapper-dynamodb,gocloudLa,30104,aws,https://github.com/gocloudLa/terraform-aws-wrapper-dynamodb,Terraform module for AWS DynamoDB wrapper with IAC best practices
 wrapper-ecs,gocloudLa,30105,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs,Terraform module for AWS ECS wrapper with IAC best practices
-wrapper-ecs-service,gocloudLa,30106,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs-service,Terraform module for AWS ECS Service wrapper with IAC best practices
+wrapper-ecs-service,gocloudLa,30106,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs-service,
 wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapper-efs,Terraform module for AWS EFS wrapper with IAC best practices
 wrapper-elasticache,gocloudLa,30108,aws,https://github.com/gocloudLa/terraform-aws-wrapper-elasticache,Terraform module for AWS ElastiCache wrapper with IAC best practices
-wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,Terraform module for AWS GitLab Runner wrapper with IAC best practices
+wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,
 wrapper-health-events,gocloudLa,30110,aws,https://github.com/gocloudLa/terraform-aws-wrapper-health-events,Terraform module for AWS Health Events wrapper with IAC best practices
 wrapper-identity-center,gocloudLa,30126,aws,https://github.com/gocloudLa/terraform-aws-wrapper-identity-center,
 wrapper-lambda,gocloudLa,30112,aws,https://github.com/gocloudLa/terraform-aws-wrapper-lambda,Terraform module for AWS Lambda wrapper with IAC best practices
@@ -20568,12 +20579,12 @@ wrapper-rds,gocloudLa,30116,aws,https://github.com/gocloudLa/terraform-aws-wrapp
 wrapper-rds-aurora,gocloudLa,30117,aws,https://github.com/gocloudLa/terraform-aws-wrapper-rds-aurora,Terraform module for AWS RDS Aurora wrapper with IAC best practices
 wrapper-route53-record,gocloudLa,30118,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-record,Terraform module for AWS Route53 Record wrapper with IAC best practices
 wrapper-route53-zone,gocloudLa,30091,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-zone,Terraform module for AWS Route53 Zone wrapper with IAC best practices
-wrapper-s3-backend,gocloudLa,30119,aws,https://github.com/gocloudLa/terraform-aws-wrapper-s3-backend,Terraform module for AWS S3 Backend wrapper with IAC best practices
-wrapper-service-scheduler,gocloudLa,30120,aws,https://github.com/gocloudLa/terraform-aws-wrapper-service-scheduler,Terraform module for AWS Service Scheduler wrapper with IAC best practices
+wrapper-s3-backend,gocloudLa,30119,aws,https://github.com/gocloudLa/terraform-aws-wrapper-s3-backend,
+wrapper-service-scheduler,gocloudLa,30120,aws,https://github.com/gocloudLa/terraform-aws-wrapper-service-scheduler,
 wrapper-ses,gocloudLa,30121,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ses,Terraform module for AWS SES wrapper with IAC best practices
 wrapper-sqs,gocloudLa,30122,aws,https://github.com/gocloudLa/terraform-aws-wrapper-sqs,Terraform module for AWS SQS wrapper with IAC best practices
-wrapper-static-site,gocloudLa,30123,aws,https://github.com/gocloudLa/terraform-aws-wrapper-static-site,Terraform module for AWS Static Site wrapper with IAC best practices
-wrapper-vpc,gocloudLa,30089,aws,https://github.com/gocloudLa/terraform-aws-wrapper-vpc,Terraform module for AWS VPC wrapper with IAC best practices
+wrapper-static-site,gocloudLa,30123,aws,https://github.com/gocloudLa/terraform-aws-wrapper-static-site,
+wrapper-vpc,gocloudLa,30089,aws,https://github.com/gocloudLa/terraform-aws-wrapper-vpc,
 wrapper-waf,gocloudLa,30124,aws,https://github.com/gocloudLa/terraform-aws-wrapper-waf,Terraform module for AWS WAF wrapper with IAC best practices
 wrappers,harrisonfang,27242,google,https://github.com/harrisonfang/terraform-google-wrappers,Opinionated terraform modules for working with Google Cloud Platform.
 wwi-demos,data-platform-hq,22199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-wwi-demos,Terraform module for creation Azure WWI Demo and it's components creation
