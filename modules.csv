@@ -1321,6 +1321,7 @@ arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,t
 arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
 arc-security-group,sourcefuse,27129,aws,https://github.com/sourcefuse/terraform-aws-arc-security-group,ARC module for AWS Security Group
+arc-sns,sourcefuse,30280,aws,https://github.com/sourcefuse/terraform-aws-arc-sns,
 arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,Arc Synthetic monitoring i.e canaries 
 arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Repo for managing the ARC Tags Terraform Module.
 arc-transit-gateway,sourcefuse,25926,aws,https://github.com/sourcefuse/terraform-aws-arc-transit-gateway,Terraform Module for Transit Gateway
@@ -2048,6 +2049,7 @@ aws-aurora,mergermarket,9723,acuris,https://github.com/mergermarket/terraform-ac
 aws-aurora-mysql,intel,23963,intel,https://github.com/intel/terraform-intel-aws-aurora-mysql,Intel Cloud Optimization Module - AWS RDS Aurora MySQL
 aws-aurora-postgresql,intel,23962,intel,https://github.com/intel/terraform-intel-aws-aurora-postgresql,Intel Cloud Optimization Module - AWS RDS Aurora PostgreSQL
 aws-auth,kwaziio,22438,kubernetes,https://github.com/kwaziio/terraform-kubernetes-aws-auth,Terraform Module for Managing AWS Authentication for an EKS Cluster on AWS
+aws-azure-vpn,pagopa-dx,30277,aws,https://github.com/pagopa-dx/terraform-aws-aws-azure-vpn,Deploy a site-to-site vpn to enable network reachability between an AWS VPC and an Azure VNet
 aws-azure-vpn,terraform-xops-modules,23214,xops,https://github.com/terraform-xops-modules/terraform-xops-aws-azure-vpn,Terraform Module for setting up Site2Site between AWS and Azure
 aws-backend,ptonini,16784,vault,https://github.com/ptonini/terraform-vault-aws-backend,
 aws-batch,fmdlc,5862,module,https://github.com/fmdlc/terraform-module-aws-batch,:alien: Terraform module for AWS Batch.
@@ -15634,6 +15636,7 @@ s3-bucket,gulec2000,7419,aws,https://github.com/gulec2000/terraform-aws-s3-bucke
 s3-bucket,hadenlabs,13336,aws,https://github.com/hadenlabs/terraform-aws-s3-bucket,Terraform aws s3 bucket
 s3-bucket,hazmei,24552,aws,https://github.com/hazmei/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
 s3-bucket,imo2017,21869,aws,https://github.com/imo2017/terraform-aws-s3-bucket,A Terraform module that provisions AWS S3 buckets
+s3-bucket,infrahouse,30278,aws,https://github.com/infrahouse/terraform-aws-s3-bucket,Terraform module for an ISO27001 compliant S3 bucket.
 s3-bucket,jason-morsley,5108,aws,https://github.com/jason-morsley/terraform-aws-s3-bucket,
 s3-bucket,jenot15,11906,aws,https://github.com/jenot15/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,jmdunne,24618,aws,https://github.com/jmdunne/terraform-aws-s3-bucket,
@@ -16237,6 +16240,7 @@ secret-manager-secret,blackbird-cloud,18745,aws,https://github.com/blackbird-clo
 secret-manager-secret,bootlabstech,12573,google,https://github.com/bootlabstech/terraform-google-secret-manager-secret,
 secret-manager-secret,bootlabstech-m,25579,aws,https://github.com/bootlabstech-m/terraform-aws-secret-manager-secret,
 secret-manager-with-rotation,giuseppeborgese,1897,aws,https://github.com/giuseppeborgese/terraform-aws-secret-manager-with-rotation,This module will create all the resources to store and rotate a MySQL or Aurora password using the AWS Secrets Manager service.
+secret-policy,infrahouse,30279,aws,https://github.com/infrahouse/terraform-aws-secret-policy,Terraform module that creates AWS secret permissions policy.
 secret-replicas,Invicton-Labs,13425,aws,https://github.com/Invicton-Labs/terraform-aws-secret-replicas,A Terraform module that gets a mapping of all replica secrets for a given source AWS Secrets Manager secret
 secret-replicas,Kalepa,16036,aws,https://github.com/Kalepa/terraform-aws-secret-replicas,A Terraform module that gets a mapping of all replica secrets for a given source AWS Secrets Manager secret
 secret-sync,SPHTech-Platform,22192,vault,https://github.com/SPHTech-Platform/terraform-vault-secret-sync,Terraform module for configuring vault enterprise secret sync destination and secret association.
@@ -17346,6 +17350,7 @@ ssm-private-bastion,madelabs,24877,aws,https://github.com/madelabs/terraform-aws
 ssm-private-connectivity,Rubynahal,13284,aws,https://github.com/Rubynahal/terraform-aws-ssm-private-connectivity,This module sets up the necessary components to allow you to connect to session manager when there is no internet connectivity on the VPC.
 ssm-secrets,binxio,4131,aws,https://github.com/binxio/terraform-aws-ssm-secrets,"This module facilitates the creation of parameter store secure strings using the aws_kms_secrets data source, allowing us to keep and manage secret definitions in git without exposing them."
 ssm-secrets,hazelops,4846,aws,https://github.com/hazelops/terraform-aws-ssm-secrets,Terraform Module to manage SSM Secrets
+ssm-session-alerts,antero-software,30276,aws,https://github.com/antero-software/terraform-aws-ssm-session-alerts,
 ssm-session-manager,voquis,8957,aws,https://github.com/voquis/terraform-aws-ssm-session-manager,
 ssm-store,Flaconi,30166,aws,https://github.com/Flaconi/terraform-aws-ssm-store,Simple module to store different parameters to SSM
 ssm-tls-self-signed-cert,MonoidDev,14759,aws,https://github.com/MonoidDev/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
