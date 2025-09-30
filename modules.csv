@@ -577,6 +577,7 @@ aks-ecommerce,Devgurusio,17038,azurerm,https://github.com/Devgurusio/terraform-a
 aks-flux,Shivakumar1702,22452,azurerm,https://github.com/Shivakumar1702/terraform-azurerm-aks-flux,
 aks-helm,cloudopsworks,13350,azure,https://github.com/cloudopsworks/terraform-azure-aks-helm,Azure AKS - Helm Install module
 aks-helm-release,blackbird-cloud,21743,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-aks-helm-release,
+aks-k8s,azure-terraform-module,30285,azure,https://github.com/azure-terraform-module/terraform-azure-aks-k8s,
 aks-light,claranet,21976,azurerm,https://github.com/claranet/terraform-azurerm-aks-light,Terraform module for Azure Kubernetes Service
 aks-monitor-workspace,blackbird-cloud,23370,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-aks-monitor-workspace,
 aks-nginx-certmgr,evillgenius75,2592,azurerm,https://github.com/evillgenius75/terraform-azurerm-aks-nginx-certmgr,Terrafrom Module to deploy Azure Kubernetes Service with Nginx-ingress and CertManager for SSL Certificate Issuance
@@ -1901,7 +1902,7 @@ avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/ter
 avm-ptn-function-app-storage-private-endpoints,Azure,28601,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-function-app-storage-private-endpoints,Terraform Azure Verified Pattern Module for Function App and private endpoint-secured Storage
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
-avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Azure Verified Module for the Multi-hub networking pattern
+avm-ptn-hubnetworking,Azure,26116,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hubnetworking,Terraform Azure Verified Pattern Module for Hub Networking
 avm-ptn-monitoring-amba-alz,Azure,28533,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-monitoring-amba-alz,Terraform Azure Verified Pattern Module for AMBA ALZ Pattern
 avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones,Terraform Azure Verified Pattern Module for Private Link Private DNS Zones
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
@@ -7772,6 +7773,7 @@ eso,nlamirault,19576,scaleway,https://github.com/nlamirault/terraform-scaleway-e
 ess-alb,terraform-alicloud-modules,12841,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ess-alb,Terraform Module for creating scaling service for application load balancer on Alibaba Cloud.
 ess-clb,terraform-alicloud-modules,12786,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ess-clb,Terraform Module for creating scaling service for classic load balancer on Alibaba Cloud.
 ess-scaling-rule,terraform-alicloud-modules,10130,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ess-scaling-rule,Alibaba Cloud ESS Terraform Module
+estrutura_infra_modules,jailsonsilvati,30291,digitalocean,https://github.com/jailsonsilvati/terraform-digitalocean-estrutura_infra_modules,Modulos terraform para Droplets na cloud da DigitalOcean
 eswarstorage,eprasadp,12275,aws,https://github.com/eprasadp/terraform-aws-eswarstorage,
 eth-netstats,Nuagic,10359,aws,https://github.com/Nuagic/terraform-aws-eth-netstats,Ethereum monitoring solution based on https://github.com/cubedro/eth-netstats
 eth-node,lbkolev,20951,aws,https://github.com/lbkolev/terraform-aws-eth-node,Spin up Ethereum execution/consensus clients on AWS.
@@ -9721,7 +9723,7 @@ ip_group,sironite,17457,azurerm,https://github.com/sironite/terraform-azurerm-ip
 ipam,appvia,26361,aws,https://github.com/appvia/terraform-aws-ipam,Terraform module for provisioning AWS IPAM
 ipam,aws-ia,12464,aws,https://github.com/aws-ia/terraform-aws-ipam,Terraform Module for create AWS IPAM Resources
 ipam,blackbird-cloud,24496,aws,https://github.com/blackbird-cloud/terraform-aws-ipam,Creating resources for AWS IPAM using terraform
-ipam,tedilabs,21164,aws,https://github.com/tedilabs/terraform-aws-ipam,"🌳 A sustainable Terraform Package which creates IPAM resources (IPAM, Elastic IP, Prefix List) on AWS"
+ipam,tedilabs,21164,aws,https://github.com/tedilabs/terraform-aws-ipam,
 ipam-autopilot,openx,25356,google,https://github.com/openx/terraform-google-ipam-autopilot,Infrastructure module  for GCP IPAM Autopilot implementation using Cloud Run
 ipcalc,guyvelleman,11298,cidrhost,https://github.com/guyvelleman/terraform-cidrhost-ipcalc,Terraform module cidrhost-ipcalc takes an ip address range and calculates the last available IP address in the given range.
 ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infinera-ipm-modules,
@@ -11535,7 +11537,7 @@ mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis
 mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
 mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,
-mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,Terraform module to create and manage a GitLab project.
+mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,
 mcaf-ram-resource-share,schubergphilis,29984,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ram-resource-share,
 mcaf-redshift,schubergphilis,26147,aws,https://github.com/schubergphilis/terraform-aws-mcaf-redshift,
 mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,
@@ -15050,6 +15052,7 @@ resource-group,HimanshuYadav200,29050,azurerm,https://github.com/HimanshuYadav20
 resource-group,KamenYovchev,6208,azurerm,https://github.com/KamenYovchev/terraform-azurerm-resource-group,
 resource-group,Kavana1210,30260,azurerm,https://github.com/Kavana1210/terraform-azurerm-resource-group,
 resource-group,Keshav14-1,30259,azurerm,https://github.com/Keshav14-1/terraform-azurerm-resource-group,
+resource-group,LitvinchukRoman,30286,azurerm,https://github.com/LitvinchukRoman/terraform-azurerm-resource-group,
 resource-group,OT-terraform-azure-modules,11572,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-resource-group,
 resource-group,SPHTech-Platform,23543,aws,https://github.com/SPHTech-Platform/terraform-aws-resource-group,Terraform Module for AWS Resource Group
 resource-group,SakharamS,25554,azure,https://github.com/SakharamS/terraform-azure-resource-group,
@@ -18541,6 +18544,7 @@ tor-bridge,sr2c,11333,openstack,https://github.com/sr2c/terraform-openstack-tor-
 tor-bridge,sr2c,11334,hcloud,https://github.com/sr2c/terraform-hcloud-tor-bridge,Tor Bridge (Hetzner Cloud) (Mirror of https://gitlab.com/sr2c/terraform-hcloud-tor-bridge)
 tor-bridge,sr2c,12833,aws,https://github.com/sr2c/terraform-aws-tor-bridge,Tor Bridge (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-tor-bridge)
 torrc,sr2c,11313,null,https://github.com/sr2c/terraform-null-torrc,Terraform module to define a configuration file for tor
+tower,canarybit,30290,canarybit,https://github.com/canarybit/terraform-canarybit-tower,
 tpip1,indlaKasthrui,19281,azure,https://github.com/indlaKasthrui/terraform-azure-tpip1,this is used for public ip
 traefik,aigisuk,11265,kubernetes,https://github.com/aigisuk/terraform-kubernetes-traefik,Simple Terraform module; deploys Traefik (v2.9.7) to a Kubernetes cluster via Helm
 traefik,anvibo,2255,docker,https://github.com/bfrunza/terraform-docker-traefik,
@@ -20410,6 +20414,7 @@ which-os,libre-devops,28835,external,https://github.com/libre-devops/terraform-e
 wif-bitbucket,Cyclenerd,20040,google,https://github.com/Cyclenerd/terraform-google-wif-bitbucket,🔐 Terraform module to create a Google Cloud Workload Identity Pool and Provider for Bitbucket pipelines
 wif-github,Cyclenerd,18777,google,https://github.com/Cyclenerd/terraform-google-wif-github,🔐 Terraform module to create a Google Cloud Workload Identity Pool and Provider for GitHub Actions
 wif-gitlab,Cyclenerd,18778,google,https://github.com/Cyclenerd/terraform-google-wif-gitlab,🔐 Terraform module to create a Google Cloud Workload Identity Pool and Provider for GitLab CI
+wif-jenkins,Cyclenerd,30287,google,https://github.com/Cyclenerd/terraform-google-wif-jenkins,🔐 Terraform module to create a Google Cloud Workload Identity Pool and Provider for Jenkins
 wif-service-account,Cyclenerd,18779,google,https://github.com/Cyclenerd/terraform-google-wif-service-account,🔐 Terraform module to allow login via Google Cloud Workload Identity Pool and Provider for service accounts
 wildcard-sslcert,c0x12c,29342,gcp,https://github.com/c0x12c/terraform-gcp-wildcard-sslcert,
 win-python-ec2,plus3it,2000,aws,https://github.com/plus3it/terraform-aws-win-python-ec2,Terraform module to create an EC2 instance with Python and Git installed.
