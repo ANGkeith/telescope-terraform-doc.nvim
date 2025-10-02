@@ -211,7 +211,7 @@ account-identity,DNXLabs,5756,aws,https://github.com/DNXLabs/terraform-aws-accou
 account-info,blackbird-cloud,19208,aws,https://github.com/blackbird-cloud/terraform-aws-account-info,"A Terraform module which uses a number of datasources to read information about the current AWS account. Handy when used in combination with Terragrunt, one will have fewer variables to hardcode on the Terragrunt files."
 account-infrastructure-base,terraform-ibm-modules,27661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-account-infrastructure-base,A general base layer module for setting up a newly provisioned account.
 account-link,cookielab,11630,aws,https://github.com/cookielab/terraform-aws-account-link,Link AWS Account together
-account-lookup,be-bold,18416,aws,https://github.com/be-bold/terraform-aws-account-lookup,This module lets you query your AWS accounts in different variations and even perform a simple search.
+account-lookup,be-bold,18416,aws,https://github.com/be-bold/terraform-aws-account-lookup,"This Terraform module allows querying AWS accounts and outputs the accounts in various mappings or as a complete list, with the ability to apply a search filter to the account list and group the accounts by existing tags using a sub-module."
 account-roles-initializer,7Factor,29079,aws,https://github.com/7Factor/terraform-aws-account-roles-initializer,A terraform module for initializing AWS accounts for access and terraform.
 account-security,DNXLabs,5717,aws,https://github.com/DNXLabs/terraform-aws-account-security,This terraform module creates IAM roles for federated users to assume from an IdP account.
 account-security,blackbird-cloud,16676,aws,https://github.com/blackbird-cloud/terraform-aws-account-security,Terraform module to setup AWS account security
@@ -1131,6 +1131,7 @@ app-insights,JamesWoolfenden,21089,azurerm,https://github.com/JamesWoolfenden/te
 app-insights,dfar-io,4457,azurerm,https://github.com/dfar-io/terraform-azurerm-app-insights,Create an Application Insights resource with included web tests.
 app-insights,equinor,23383,azurerm,https://github.com/equinor/terraform-azurerm-app-insights,Terraform module which creates Azure Application Insights resources
 app-installation,Flaconi,26744,github,https://github.com/Flaconi/terraform-github-app-installation,Terraform module to manage GitHub app installation settings
+app-runner,bootlabstech-m,30297,aws,https://github.com/bootlabstech-m/terraform-aws-app-runner,This repo is used for creating aws app runner with help of private ECR
 app-runner,terraform-aws-modules,15907,aws,https://github.com/terraform-aws-modules/terraform-aws-app-runner,Terraform module to create AWS App Runner resources 🇺🇦
 app-secret-rotate,fortytwoservices,26808,azuread,https://github.com/fortytwoservices/terraform-azuread-app-secret-rotate,
 app-secret-rotation,mhennecke,24573,azuread,https://github.com/mhennecke/terraform-azuread-app-secret-rotation,"This Terraform module ensures continuous rotation of Entra ID application secrets using a blue-green strategy, guaranteeing that there is always at least one valid password available."
@@ -4754,7 +4755,7 @@ dax,JamesWoolfenden,7830,aws,https://github.com/JamesWoolfenden/terraform-aws-da
 dax,devops-made-easy,5711,aws,https://github.com/devops-made-easy/terraform-aws-dax,A Terraform module to create AWS DynamoDB Accelerator (DAX)
 dax,realfredlai,24276,aws,https://github.com/realfredlai/terraform-aws-dax,Terraform module to create AWS DAX clusters resources
 db,cypik,22992,digitalocean,https://github.com/cypik/terraform-digitalocean-db,
-db,cypik,24437,aws,https://github.com/cypik/terraform-aws-db,
+db,cypik,24437,aws,https://github.com/cypik/terraform-aws-db,Terraform module to create a MySQL database on AWS using the terraform-aws-db module.
 db,mohsenSy,10928,digitalocean,https://github.com/mohsenSy/terraform-digitalocean-db,A terraform module to manage Digital Ocean Database Clusters
 db,tedilabs,15935,aws,https://github.com/tedilabs/terraform-aws-db,🌳 A sustainable Terraform Package which creates resources for Databases on AWS
 db-RDS,bootlabstech-m,18413,aws,https://github.com/bootlabstech-m/terraform-aws-db-RDS,
@@ -14761,6 +14762,7 @@ redis-bigkeys-monitoring,AckeeCZ,10401,kubernetes,https://github.com/AckeeCZ/ter
 redis-cache,KamenYovchev,6260,azurerm,https://github.com/KamenYovchev/terraform-azurerm-redis-cache,
 redis-cache,blackbird-cloud,24050,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-redis-cache,
 redis-cache,bootlabstech,17051,azurerm,https://github.com/bootlabstech/terraform-azurerm-redis-cache,
+redis-cache,terraform-az-modules,30299,azure,https://github.com/terraform-az-modules/terraform-azure-redis-cache,
 redis-cluster,PGBI,3520,aws,https://github.com/PGBI/terraform-aws-redis-cluster,
 redis-cluster,c0x12c,29343,gcp,https://github.com/c0x12c/terraform-gcp-redis-cluster,
 redis-cluster,dod-iac,11208,aws,https://github.com/dod-iac/terraform-aws-redis-cluster,A Redis cluster on Elasticache
@@ -15129,6 +15131,7 @@ resource_group,sironite,17434,azurerm,https://github.com/sironite/terraform-azur
 resource_group-single,Muzammil-Naik,22340,azurerm,https://github.com/Muzammil-Naik/terraform-azurerm-resource_group-single,
 resource_group_storage,88victory88,28262,azurerm,https://github.com/88victory88/terraform-azurerm-resource_group_storage,
 resource_group_storage,Andr1yK,27771,azurerm,https://github.com/Andr1yK/terraform-azurerm-resource_group_storage,
+resource_group_storage,Bondaliname,30300,azurerm,https://github.com/Bondaliname/terraform-azurerm-resource_group_storage,Terraform module for Azure resource group and storage account
 resource_group_storage,Darya-Savchenko,26912,azurerm,https://github.com/Darya-Savchenko/terraform-azurerm-resource_group_storage,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
