@@ -1738,6 +1738,7 @@ audit-log,lacework,6439,gcp,https://github.com/lacework/terraform-gcp-audit-log,
 audit-log-bucket,common-fate,24697,aws,https://github.com/common-fate/terraform-aws-audit-log-bucket,A Terraform module to provision resources for the S3 log destination
 audit-member,DNXLabs,5719,aws,https://github.com/DNXLabs/terraform-aws-audit-member,This terraform module enables guardduty for a member account.
 audit-root,DNXLabs,5720,aws,https://github.com/DNXLabs/terraform-aws-audit-root,This terraform module is an audit module to apply into root account (master).
+audit-trails,terraform-yacloud-modules,30305,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-audit-trails,Terraform module to manage Audit Trails resources within the Yandex.Cloud.
 auditmanager,mikamakusa,26014,aws,https://github.com/mikamakusa/terraform-aws-auditmanager,
 august,BohdanMatiuk,26917,vpc,https://github.com/BohdanMatiuk/terraform-vpc-august,
 august,Dalerino,26919,vpc,https://github.com/Dalerino/terraform-vpc-august,
@@ -2843,6 +2844,7 @@ bulk-wf-rules,catonetworks,29616,cato,https://github.com/catonetworks/terraform-
 bumpy,apgmckay,29937,module,https://github.com/apgmckay/terraform-module-bumpy,
 butane-snippets,krestomatio,18630,ct,https://github.com/krestomatio/terraform-ct-butane-snippets,Terraform modules to quickly generate butane snippets to config Fedora CoreOS
 byoc,earthly,25137,aws,https://github.com/earthly/terraform-aws-byoc,Deploy Earthly BYOC infrastructure using Terraform
+byoc,streamx-dev,30302,alicloud,https://github.com/streamx-dev/terraform-alicloud-byoc,
 byoc-setup,littlehorse-cloud,29159,google,https://github.com/littlehorse-cloud/terraform-google-byoc-setup,
 byoc-setup,littlehorse-cloud,29392,azure,https://github.com/littlehorse-cloud/terraform-azure-byoc-setup,
 byoc-setup,littlehorse-cloud,29406,aws,https://github.com/littlehorse-cloud/terraform-aws-byoc-setup,
@@ -3087,6 +3089,7 @@ cgns-module-vnet,gbrembati,22243,azurerm,https://github.com/gbrembati/terraform-
 cgns-module-vpc,gbrembati,22150,aws,https://github.com/gbrembati/terraform-aws-cgns-module-vpc,Terraform Module for CGNS Deployment on AWS
 chainguard-account-association,chainguard-dev,14453,aws,https://github.com/chainguard-dev/terraform-aws-chainguard-account-association,Terraform module to connect Chainguard Enforce to your AWS Account
 chainguard-account-association,chainguard-dev,14458,google,https://github.com/chainguard-dev/terraform-google-chainguard-account-association,Terraform module to connect Chainguard Enforce to your Google Cloud project
+chainguard-account-association,chainguard-dev,30317,azure,https://github.com/chainguard-dev/terraform-azure-chainguard-account-association,
 chainguard-account-association,nicsnet,30211,azure,https://github.com/nicsnet/terraform-azure-chainguard-account-association,Terraform module to connect Chainguard Enforce to your Azure Account
 chainlink-ea,ChainOrion,14469,aws,https://github.com/orionstaking/terraform-aws-chainlink-ea,Terraform module to create AWS infra for Chainlink External Adapters
 chainlink-ea,orionterra,13933,aws,https://github.com/orionstaking/terraform-aws-chainlink-ea,Terraform module to create AWS infra for Chainlink External Adapters
@@ -3206,6 +3209,7 @@ clickhouse,tf-cloud-modules,15080,aiven,https://github.com/tf-cloud-modules/terr
 clickhouse-cluster,elestio-examples,24118,elestio,https://github.com/elestio-examples/terraform-elestio-clickhouse-cluster,Terraform module from Elestio to deploy a ClickHouse Cluster with ease
 clickhouse-server,4ops,2909,kubernetes,https://github.com/4ops/terraform-kubernetes-clickhouse-server,Terraform module for creating simple ClickHouse server.
 clickops-notifier,cloudandthings,12506,aws,https://github.com/cloudandthings/terraform-aws-clickops-notifier,Get notified when actions are taken in the AWS Console.
+clickops-notifier,terraform-yacloud-modules,30306,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-clickops-notifier,
 client,SolaceProducts,24980,solacebroker,https://github.com/SolaceProducts/terraform-solacebroker-client,Solace software broker Terraform module to abstract an application client user configuration
 client,SolaceProducts,25193,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-client,Solace appliance Terraform module to abstract an application client user configuration
 client,TigranKhudav,29182,keycloak,https://github.com/TigranKhudav/terraform-keycloak-client,
@@ -3826,6 +3830,7 @@ cluster,ckoliber,29812,google,https://github.com/ckoliber/terraform-google-clust
 cluster,cktf,25586,hcloud,https://github.com/cktf/terraform-hcloud-cluster,Terraform HCloud Cluster Module
 cluster,cktf,29632,google,https://github.com/cktf/terraform-google-cluster,Terraform Google Cluster Module
 cluster,convox,2920,aws,https://github.com/convox/terraform-aws-cluster,Convox Rack
+cluster,devzero-inc,30316,devzero,https://github.com/devzero-inc/terraform-devzero-cluster,
 cluster,djangoflow,14890,google,https://github.com/djangoflow/terraform-google-cluster,An opinionated Google CKE cluster for Djangoflow deployment
 cluster,erkinsinc,5861,aws,https://github.com/erkinsinc/terraform-aws-cluster,
 cluster,evilDr4gon,26943,kaas,https://github.com/evilDr4gon/terraform-kaas-cluster,Modulo orientado a la abstracción de KaaS
@@ -3864,7 +3869,7 @@ clusterload,3191110276,8156,kubernetes,https://github.com/3191110276/terraform-k
 cm,terraform-tencentcloud-modules,19053,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cm,
 cms-event-publisher,mergermarket,29545,acuris,https://github.com/mergermarket/terraform-acuris-cms-event-publisher,
 cms-event-subscriber,mergermarket,29575,acuris,https://github.com/mergermarket/terraform-acuris-cms-event-subscriber,
-cn-oke,ivandelic,17296,oci,https://github.com/ivandelic/terraform-oci-cn-oke,"OCI Cloud Native OKE is an MVP-like Container Engine deployment comprised of single Kubernetes cluster with multiple node pools, all configurable from input variables. OKE is a fully managed, scalable, and highly available service that makes it easy to deploy, manage, and scale containerized applications using Kubernetes."
+cn-oke,ivandelic,17296,oci,https://github.com/ivandelic/terraform-oci-cn-oke,
 cn-vcn,ivandelic,17187,oci,https://github.com/ivandelic/terraform-oci-cn-vcn,"OCI Cloud Native VCN is an MVP-like Virtual Cloud Network designed to support cloud-native workloads. It's tailored to support integrated communication for cloud-native components, such as Container Engine for Kubernetes (OKE), Functions, Container Instances, and others."
 cname-generator,jd4883,6949,digitalocean,https://github.com/jd4883/terraform-digitalocean-cname-generator,a dynamic digital ocean terraform based dns record generator; used as a submodule for the docker provider to seamlessly automate internal and external dns records
 cnb,3191110276,8367,kubernetes,https://github.com/3191110276/terraform-kubernetes-cnb,
@@ -4317,6 +4322,7 @@ container-registry,seg-way,20495,azurerm,https://github.com/segateway/terraform-
 container-registry,segateway,20641,azurerm,https://github.com/segateway/terraform-azurerm-container-registry,
 container-registry,terraform-do-modules,20242,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-container-registry,Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
 container-registry,terraform-ibm-modules,20966,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-container-registry,Implements IBM Container Registry namespace and retention policy
+container-registry,terraform-yacloud-modules,30308,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-container-registry,
 container-registry,tomarv2,12405,azure,https://github.com/tomarv2/terraform-azure-container-registry,Terraform module to create Azure Container Registry(ACR)
 container-registry,tomarv2,12440,google,https://github.com/tomarv2/terraform-google-container-registry,Terraform module for Google Container Registry(GCR)
 container-registry,waylew-lexis,11396,azurerm,https://github.com/waylew-lexis/terraform-azurerm-container-registry,terraform-azurerm-container-registry
@@ -8292,6 +8298,7 @@ function,Shivakumar1702,24681,azurerm,https://github.com/Shivakumar1702/terrafor
 function,multani,23522,google,https://github.com/multani/terraform-google-function,
 function,teamdatatonic,8751,gcp,https://github.com/teamdatatonic/terraform-gcp-function,
 function,terracharge,14085,aws,https://github.com/terracharge/terraform-aws-function,Module for creating terraform-aws-function with provider aws. This description is created automagically
+function,terraform-yacloud-modules,30311,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-function,Terraform module to manage Function resources within the Yandex.Cloud.
 function,tomarv2,15863,azure,https://github.com/tomarv2/terraform-azure-function,Terraform module for Azure Functions
 function,web-virtua-oci-multi-account-modules,21132,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-function,
 function-app,BzSpi,13263,azurerm,https://github.com/BzSpi/terraform-azurerm-function-app,Terraform module for Azure Function App
@@ -11267,6 +11274,7 @@ log-forwarder,ghostsecurity,27760,azurerm,https://github.com/ghostsecurity/terra
 log-group,Invicton-Labs,9188,aws,https://github.com/Invicton-Labs/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-group,Kalepa,16027,aws,https://github.com/Kalepa/terraform-aws-log-group,Creates a CloudWatch Log Group and optionally applies subscriptions to it.
 log-ingestion-s3,ekanai,18883,newrelic,https://github.com/ekanai/terraform-newrelic-log-ingestion-s3,
+log-lambda-forwarder-datadog,DataDog,30318,aws,https://github.com/DataDog/terraform-aws-log-lambda-forwarder-datadog,Terraform module to provision an AWS Lambda function which forwards AWS logs to your Datadog org.
 log-metric,davidburkitt,4670,aws,https://github.com/davidburkitt/terraform-aws-log-filter,
 log-monitoring,softcery,15993,aws,https://github.com/softcery/terraform-modules,
 log-s3-bucket,anfangd,28300,aws,https://github.com/anfangd/terraform-aws-log-s3-bucket,
@@ -11280,6 +11288,7 @@ logging-aggregation,axetrading,18081,aws,https://github.com/axetrading/terraform
 logging-bucket,bootlabstech,18513,google,https://github.com/bootlabstech/terraform-google-logging-bucket,Creates a GCP logging bucket.
 logging-buckets,YoshinoriSatoh,11797,aws,https://github.com/YoshinoriSatoh/terraform-aws-logging-buckets,
 logging-default-views,we-work-in-the-cloud,10968,ibm,https://github.com/we-work-in-the-cloud/terraform-ibm-logging-default-views,Default views for IBM Log Analysis
+logging-group,terraform-yacloud-modules,30312,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group,Terraform module to manage Cloud Logging resources within the Yandex.Cloud.
 logging-metric,smartscaling,9814,google,https://github.com/smartscaling/terraform-google-logging-metric,A Terraform module for configuring Logs-based metrics on GCP.
 logging-service,toluna-terraform,9709,aws,https://github.com/toluna-terraform/terraform-aws-logging-service,
 logging-sink,bootlabstech,14076,google,https://github.com/bootlabstech/terraform-google-logging-sink,Creates a sink
@@ -11567,8 +11576,14 @@ mcd-agent,monte-carlo-data,22772,azurerm,https://github.com/monte-carlo-data/ter
 mcf,CloudNationHQ,28807,azure,https://github.com/CloudNationHQ/terraform-azure-mcf,Terraform module which creates maintenance configuration resources used by workloads and accelerators.
 mcp,netascode,9944,aci,https://github.com/netascode/terraform-aci-mcp,Terraform Cisco ACI MCP Module
 mcp-policy,netascode,9945,aci,https://github.com/netascode/terraform-aci-mcp-policy,Terraform Cisco ACI MCP Policy Module
+mdb-clickhouse,terraform-yacloud-modules,30313,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-clickhouse,Terraform module to manage ClickHouse resources within the Yandex.Cloud.
+mdb-dataproc,terraform-yacloud-modules,30315,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-dataproc,Terraform module to manage Data Proc resources within the Yandex.Cloud. Resources
+mdb-greenplum,terraform-yacloud-modules,30314,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-greenplum,Terraform module to manage Greenplum resources within the Yandex.Cloud.  Resources
+mdb-mongodb,terraform-yacloud-modules,30309,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-mongodb,Terraform module to manage MongoDB resources within the Yandex.Cloud.
 mdb-mysql,terraform-yacloud-modules,24332,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-mysql,Terraform module to manage a MySQL cluster resources within the Yandex.Cloud.
 mdb-opensearch,terraform-yacloud-modules,22783,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-opensearch,Terraform module to manage OpenSearch resources within the Yandex.Cloud.
+mdb-postgresql,terraform-yacloud-modules,30310,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-postgresql,Terraform module to manage PostgreSQL resources within the Yandex.Cloud.
+mdb-ydb,terraform-yacloud-modules,30307,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-mdb-ydb,Terraform module to manage Yandex Database resources within the Yandex.Cloud.
 mdc-defender-plans-azure,Azure,18893,azure,https://github.com/Azure/terraform-azure-mdc-defender-plans-azure,
 media-cdn-vod,GoogleCloudPlatform,15839,google,https://github.com/GoogleCloudPlatform/terraform-google-media-cdn-vod,
 media-convert-flow,dasmeta,27185,aws,https://github.com/dasmeta/terraform-aws-media-convert-flow,Repo to configure and create aws media converter resource
@@ -13692,6 +13707,7 @@ pki-role,ptonini,16791,vault,https://github.com/ptonini/terraform-vault-pki-role
 pki-secret-backend-role,pmikus,18695,vault,https://github.com/pmikus/terraform-vault-pki-secret-backend-role,Terraform module creates a role on an PKI Secret Backend for Vault.
 placeholder,robbytaylor,4041,lambda,https://github.com/robbytaylor/terraform-lambda-placeholder,Placeholders for AWS Lambda to be used when creating Lambda functions with Terraform
 placement-group,terraform-navercloudplatform-modules,25189,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-placement-group,Terraform module to create placement group resources
+placement-group,terraform-yacloud-modules,30304,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-placement-group,Placement Group
 plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,Terraform module which service plans used by workloads and accelerators.
 platform,Jamf-Concepts,28137,jamf,https://github.com/Jamf-Concepts/terraform-jamf-platform,Terraform configurations around the Jamf Platform
 platform,actualstack,29467,azure,https://github.com/actualstack/terraform-azure-platform,
@@ -17004,6 +17020,7 @@ sm,supi29,17564,aws,https://github.com/supi29/terraform-aws-sm,
 smart-licensing,netascode,17024,aci,https://github.com/netascode/terraform-aci-smart-licensing,Terraform Cisco ACI Smart Licensing Module
 smart-vpc,StayWell,2302,aws,https://github.com/StayWell/terraform-aws-smart-vpc,Creates a VPC with public and private subnets in each availability zone in the region
 smart-vpc,jjno91,2063,aws,https://github.com/jjno91/terraform-aws-smart-vpc,Creates a VPC with public and private subnets in each availability zone in the region
+smartcaptcha,terraform-yacloud-modules,30303,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-smartcaptcha,Terraform module to manage SmartCaptcha resources within the Yandex.Cloud.
 smartvan28-instance,smartvan28,16057,registry,https://github.com/smartvan28/terraform-registry-smartvan28-instance,
 smartvan28-monitoring,smartvan28,16112,registry,https://github.com/smartvan28/terraform-registry-smartvan28-monitoring,
 smartvan28-network,smartvan28,16113,registry,https://github.com/smartvan28/terraform-registry-smartvan28-network,
@@ -17561,7 +17578,7 @@ staticwebsite,mittalabhishek02,12854,azurerm,https://github.com/mittalabhishek02
 staticwebsite,rahulpaul217,26812,azurerm,https://github.com/rahulpaul217/terraform-azurerm-staticwebsite,
 staticwebsite,saranyasl,22513,azure,https://github.com/saranyasl/terraform-azure-staticwebsite,terraform module
 staticwebsite,smartassistco,14274,aws,https://github.com/smartassistco/terraform-aws-staticwebsite,Terraform module to setup a static website with good defaults on S3 + CloudFront
-staticwebsite,umut-akkaya,28843,aws,https://github.com/umut-akkaya/terraform-aws-staticwebsite,A Terraform module which is used to set up a static website by using S3 and Cloudfront
+staticwebsite,umut-akkaya,28843,aws,https://github.com/umut-akkaya/terraform-aws-staticwebsite,
 staticwebsite,worldofprasanna,4791,aws,https://github.com/worldofprasanna/terraform-aws-staticwebsite,Terraform module to create & host static UI application in AWS S3
 staticwebsite-public,chinthakaru,21287,azurerm,https://github.com/chinthakaru/terraform-azurerm-staticwebsite-public,Terraform Modules to be shared in Terraform Public Registry
 staticwebsite-public,etawil,29384,azurerm,https://github.com/etawil/terraform-azurerm-staticwebsite-public,
@@ -18682,6 +18699,7 @@ ubuntu-repo-manager,InternalServiceSystem,5503,nexus,https://github.com/Internal
 ubuntu-vm,bayupw,13181,google,https://github.com/bayupw/terraform-google-ubuntu-vm,Terraform module to create ubuntu vm in Google Cloud Platform
 ucs-domain-profiles,terraform-cisco-modules,15682,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-ucs-domain-profiles,Terraform - Intersight > UCS Domain Profile Module
 uday-s3,lakshmilokeshhema,21798,aws,https://github.com/lakshmilokeshhema/terraform-aws-uday-s3,
+udp-gateway,proxylity,30301,aws,https://github.com/proxylity/terraform-aws-udp-gateway,
 umastorage,umarani353,24731,azurerm,https://github.com/umarani353/terraform-azurerm-umastorage,terraform-azurerm-umastorage
 umig-alb,bootlabstech,24218,google,https://github.com/bootlabstech/terraform-google-umig-alb,Application load balancer for unmanaged instance group (Compute instance)
 unarchive,escapace,26586,null,https://github.com/escapace/terraform-null-unarchive,"create & extract archives, compress & decompress files"
