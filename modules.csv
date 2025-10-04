@@ -1946,7 +1946,7 @@ avm-res-datafactory-factory,Azure,28746,azurerm,https://github.com/Azure/terrafo
 avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/SkittleBomb/terraform-azurerm-avm-res-datafactory-factory,Creates and manages Azure Datafactory
 avm-res-dataprotection-backupvault,Azure,29160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault,Terraform Azure Verified Resource Module for Data Protection Backup Vault
 avm-res-dataprotection-resourceguard,Azure,29706,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-resourceguard,Terraform Azure Verified Resource Module for Data Protection Resource Guard
-avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,
+avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,Terraform Azure Verified Resource Module for DB for MySQL Flexible Server
 avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,
 avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,AVM for Desktop Virtualization Application group
 avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,AVM for Desktop Virtualization Hostpools
@@ -2000,6 +2000,7 @@ avm-res-oracledatabase-cloudexadatainfrastructure,Azure,26079,azurerm,https://gi
 avm-res-oracledatabase-cloudvmcluster,Azure,26198,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudvmcluster,Terraform Azure Verified Resource Module for Oracle VM cluster
 avm-res-portal-dashboard,Azure,26228,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-portal-dashboard,AVM Terraform module for Azure portal dashboard.
 avm-res-recoveryservices-vault,Azure,27233,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-recoveryservices-vault,Terraform Azure Verified Resource Module for Recovery Services Vault
+avm-res-redhatopenshift-openshiftcluster,Azure,30323,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-redhatopenshift-openshiftcluster,Terraform Azure Verified Resource Module for OpenShift Cluster
 avm-res-resourcegraph-query,Azure,28480,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resourcegraph-query,
 avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup,"To gain access, please finish setting up this repository now at: "
 avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,Terraform Azure Verified Resource Module for Search Service
@@ -10179,6 +10180,7 @@ kinesis-data-stream-connector,symopsio,18047,aws,https://github.com/symopsio/ter
 kinesis-firehose,fdmsantos,15386,aws,https://github.com/fdmsantos/terraform-aws-kinesis-firehose,"Dynamic Terraform module, which creates a Kinesis Firehose Stream and others resources like Cloudwatch, IAM Roles and Security Groups that integrate with Kinesis Firehose. Supports all destinations and all Kinesis Firehose Features."
 kinesis-firehose,felipefrizzo,1778,aws,https://github.com/felipefrizzo/terraform-aws-kinesis-firehose,This code creates a Kinesis Firehose in AWS to send CloudWatch log data to S3.
 kinesis-firehose,observeinc,28682,aws,https://github.com/observeinc/terraform-aws-kinesis-firehose,
+kinesis-firehose,tfstack,30324,aws,https://github.com/tfstack/terraform-aws-kinesis-firehose,Terraform module for AWS Kinesis Firehose delivery streams
 kinesis-firehose-addon,symopsio,15714,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-addon,The `aws/kinesis-firehose` add-on provisions AWS Kinesis Firehose access for a Sym `runtime-connector` module.
 kinesis-firehose-connector,symopsio,15718,aws,https://github.com/symopsio/terraform-aws-kinesis-firehose-connector,The `kinesis-firehose-connector` module provisions dependencies for creating a Kinesis Firehose.
 kinesis-firehose-datadog,ferhatvurucu,8446,aws,https://github.com/ferhatvurucu/terraform-aws-kinesis-firehose-datadog,This module configures Amazon Kinesis Firehose to send the log data to Datadog using HTTP Endpoint.
@@ -11555,7 +11557,7 @@ mcaf-resource-scheduler,schubergphilis,26127,aws,https://github.com/schubergphil
 mcaf-role,schubergphilis,28316,aws,https://github.com/schubergphilis/terraform-aws-mcaf-role,
 mcaf-route53-profiles,schubergphilis,29985,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-profiles,
 mcaf-route53-resolver,schubergphilis,28292,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-resolver,
-mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,Terraform module to setup and manage route53 zones.
+mcaf-route53-zones,schubergphilis,22974,aws,https://github.com/schubergphilis/terraform-aws-mcaf-route53-zones,
 mcaf-s3,schubergphilis,19740,aws,https://github.com/schubergphilis/terraform-aws-mcaf-s3,
 mcaf-saas-audit-logs,schubergphilis,25681,aws,https://github.com/schubergphilis/terraform-aws-mcaf-saas-audit-logs,
 mcaf-security-group,schubergphilis,27680,aws,https://github.com/schubergphilis/terraform-aws-mcaf-security-group,Terraform module to manage an AWS Security Group.
@@ -16121,7 +16123,7 @@ sagemaker-iam-role,dod-iac,8381,aws,https://github.com/dod-iac/terraform-aws-sag
 sagemaker-image-autoattacher,xAdRx,27232,aws,https://github.com/xAdRx/terraform-aws-sagemaker-image-autoattacher,Terraform code used for auto attaching of sagemaker images pushed to ECR
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
 sagemaker-playground,epsilonline,27743,aws,https://github.com/epsilonline/terraform-aws-sagemaker-playground,
-sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
+sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,
 saimodule,SaiDevOpsFaculty,27588,aws,https://github.com/SaiDevOpsFaculty/terraform-aws-saimodule,
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 saltstack,prajwalap1701,25446,aws,https://github.com/prajwalap1701/terraform-aws-saltstack,Create a Saltstack environment using Terraform on AWS Cloud
@@ -17753,6 +17755,7 @@ storage,ajijnadaf,18140,azure,https://github.com/ajijnadaf/terraform-azure-stora
 storage,amanbaj70,22239,azure,https://github.com/amanbaj70/terraform-azure-storage,
 storage,bellanov,26571,google,https://github.com/bellanov/terraform-google-storage,Google Cloud Storage Terraform Module.
 storage,bellanov,26572,aws,https://github.com/bellanov/terraform-aws-storage,Amazon Web Services Storage Module.
+storage,bhavanikp84,30322,azure,https://github.com/bhavanikp84/terraform-azure-storage,
 storage,clouddrove,16627,gcp,https://github.com/clouddrove/terraform-gcp-storage,
 storage,clouddrove,16875,azure,https://github.com/clouddrove/terraform-azure-storage,"This terraform module is designed to create Azure Storage Account  resources. The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud."
 storage,crayudu425,26031,azure,https://github.com/crayudu425/terraform-azure-storage,
@@ -19148,7 +19151,7 @@ vm-module,caermeglaeddyv,6755,vsphere,https://github.com/caermeglaeddyv/terrafor
 vm-module,prashantsolanki3,19173,proxmox,https://github.com/prashantsolanki3/terraform-proxmox-vm-module,Terraform module to create a vm in promox using templates.
 vm-nocloud,sparrow-bork,25228,proxmox,https://github.com/sparrow-bork/terraform-proxmox-vm-nocloud,Terraform module for provisioning proxmox VM with nocloud
 vm-nsg-lb,bootlabstech,17971,azurerm,https://github.com/bootlabstech/terraform-azurerm-clone-virtual-machine,
-vm-nsg-linux,bootlabstech,19104,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-linux,Azure VM provisioning using Terraform
+vm-nsg-linux,bootlabstech,30321,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-linux,Azure VM provisioning using Terraform
 vm-nsg-windows,bootlabstech,27165,azurerm,https://github.com/bootlabstech/terraform-azurerm-vm-nsg-windows,
 vm-os-sku-calculator,libre-devops,23734,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-calculator,"A module used to simplify the generation of image Azure marketplace image, passing a simple variable to this module will output the config items. :rocket:"
 vm-os-sku-with-plan-calculator,libre-devops,23733,azurerm,https://github.com/libre-devops/terraform-azurerm-vm-os-sku-with-plan-calculator,"A module used to simplify the generation of image Azure marketplace image which contain the a dedicated Plan, such as CIS images. It works by passing a simple variable to this module will output the config items. :rocket:"
@@ -20301,7 +20304,7 @@ waf,mohramadan911,27575,aws,https://github.com/mohramadan911/terraform-aws-waf,T
 waf,oozou,14508,aws,https://github.com/oozou/terraform-aws-waf,
 waf,terraform-alicloud-modules,10152,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-waf,
 waf,trussworks,4115,aws,https://github.com/trussworks/terraform-aws-waf,Configures an AWS Web Application Firewall.
-waf,tx-pts-dai,26002,aws,https://github.com/tx-pts-dai/terraform-aws-waf,Terraform module to deploy a WAF with many options
+waf,tx-pts-dai,26002,aws,https://github.com/tx-pts-dai/terraform-aws-waf,
 waf-alb,FredHutch,1123,aws,https://github.com/FredHutch/terraform-aws-waf-alb,Terraform module for AWS WAF ALB
 waf-alb-sample,Takashi-Kawano,4277,aws,https://github.com/Takashi-Kawano/terraform-aws-waf-alb-sample,
 waf-global,JamesWoolfenden,3702,aws,https://github.com/JamesWoolfenden/terraform-aws-waf-global,WAF global module
