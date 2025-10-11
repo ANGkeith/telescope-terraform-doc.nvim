@@ -1309,6 +1309,7 @@ arc-dms,sourcefuse,26561,aws,https://github.com/sourcefuse/terraform-aws-arc-dms
 arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws-arc-document-db,ARC module to provision an Amazon DocumentDB cluster.
 arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2,Terraform module provisioning  EC2 instances and Load Balancer
 arc-ec2-autoscale-group,sourcefuse,28806,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2-autoscale-group,
+arc-ecr,sourcefuse,30377,aws,https://github.com/sourcefuse/terraform-aws-arc-ecr,
 arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,Repo for managing the ECS Fargate Terraform Module.
 arc-eks,sourcefuse,21304,aws,https://github.com/sourcefuse/terraform-aws-arc-eks,Repo for managing the EKS Terraform Module.
 arc-eks-addon,sourcefuse,21399,aws,https://github.com/sourcefuse/terraform-aws-arc-eks-addon,
@@ -2487,7 +2488,7 @@ base-member,jakoberpf,12348,zerotier,https://github.com/jakoberpf/terraform-zero
 base-module,AntonAleksandrov13,11324,aws,https://github.com/AntonAleksandrov13/terraform-aws-base-module,"This repository contains base configurations for running terraform in AWS. It provisions base IAM user/role with minimum required policies, S3 bucket for state storage and Dynamodb for locking"
 base-network,jakoberpf,12349,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-network,Terreform module for integrated service deployment
 base-networking,7clouds-terraform-modules,15906,aws,https://github.com/7clouds-terraform-modules/terraform-aws-base-networking,Base Networking Resources
-base-networking,infrablocks,644,aws,https://github.com/infrablocks/terraform-aws-base-networking,Terraform module for building base networking in AWS
+base-networking,infrablocks,644,aws,https://github.com/infrablocks/terraform-aws-base-networking,
 base-ocp-vpc,terraform-ibm-modules,19444,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-base-ocp-vpc,Provisions a Red Hat OpenShift VPC cluster on IBM Cloud
 base-vpc,jakoberpf,12254,oracle,https://github.com/jakoberpf/terraform-oracle-base-vpc,Terreform module for integrated service deployment
 base-vpc-network,MagusDevOps,8254,aws,https://github.com/MagusDevOps/terraform-aws-base-vpc-network,
@@ -4333,7 +4334,7 @@ container-registry,segateway,20641,azurerm,https://github.com/segateway/terrafor
 container-registry,terraform-do-modules,20242,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-container-registry,Terraform module to create container registry. The DigitalOcean Container Registry (DOCR) is a private Docker image registry with additional tooling support that enables integration with your Docker environment and DigitalOcean Kubernetes clusters.
 container-registry,terraform-ibm-modules,20966,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-container-registry,Implements IBM Container Registry namespace and retention policy
 container-registry,terraform-mgc-modules,30365,mgc,https://github.com/terraform-mgc-modules/terraform-mgc-container-registry,
-container-registry,terraform-yacloud-modules,30308,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-container-registry,
+container-registry,terraform-yacloud-modules,30308,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-container-registry,Terraform module to manage Container Registry resources within the Yandex.Cloud.
 container-registry,tomarv2,12405,azure,https://github.com/tomarv2/terraform-azure-container-registry,Terraform module to create Azure Container Registry(ACR)
 container-registry,tomarv2,12440,google,https://github.com/tomarv2/terraform-google-container-registry,Terraform module for Google Container Registry(GCR)
 container-registry,waylew-lexis,11396,azurerm,https://github.com/waylew-lexis/terraform-azurerm-container-registry,terraform-azurerm-container-registry
@@ -7728,6 +7729,7 @@ enable-defender-plans,arindam0310018,21465,azurerm,https://github.com/arindam031
 enablement-demo,hoodbu,15000,aviatrix,https://github.com/hoodbu/terraform-aviatrix-enablement-demo,
 enclave,vespa-cloud,17777,aws,https://github.com/vespa-cloud/terraform-aws-enclave,Terraform modules for Vespa Cloud Enclave (AWS)
 enclave,vespa-cloud,20961,google,https://github.com/vespa-cloud/terraform-google-enclave,Terraform modules for Vespa Cloud Enclave (GCP)
+enclave,vespa-cloud,30376,azure,https://github.com/vespa-cloud/terraform-azure-enclave,Terraform modules for Vespa Cloud Enclave (Azure)
 encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,A terraform module for creating an encrypted bucket in S3
 encryptedmanageddisk,Azure,595,azurerm,https://github.com/Azure/terraform-azurerm-encryptedmanageddisk,Terraform Azure RM Encrypted Managed Disk Module 
 encryption-at-rest,terraform-mongodbatlas-modules,25760,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-encryption-at-rest,
@@ -14168,7 +14170,6 @@ prowler,ganexcloud,20466,aws,https://github.com/ganexcloud/terraform-aws-prowler
 prowler-monitoring,dwp,1282,aws,https://github.com/dwp/terraform-aws-prowler-monitoring,A collection of log metric filters and alarms to satisfy Prowler Monitoring checks
 proximity-placement-group,Xat59,18717,azurerm,https://github.com/Xat59/terraform-azurerm-proximity-placement-group,"Terraform module to manage a proximity placement group for virtual machines, virtual machine scale sets and availability sets."
 proximity_placement_group,sironite,19903,azurerm,https://github.com/sironite/terraform-azurerm-proximity_placement_group,
-proxmox,DimmKirr,29552,dokku,https://github.com/DimmKirr/terraform-dokku-proxmox,
 proxmox,DmytroKatiukhin,30253,talos,https://github.com/DmytroKatiukhin/terraform-talos-proxmox,
 proxmox,lucidsolns,21779,vm,https://github.com/lucidsolns/terraform-vm-proxmox,"A Terraform module to create Proxmox VMs with support for virtiofs, plan9fs and butane/ignition"
 proxmox-lxc,DacoDev,14574,module,https://github.com/DacoDev/terraform-module-proxmox-lxc,TF modules for Proxmox built on top of bgp's provider: https://registry.terraform.io/providers/bpg/proxmox/latest
