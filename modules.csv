@@ -473,6 +473,7 @@ ai-stack,datastax,25372,aws,https://github.com/datastax/terraform-aws-ai-stack,
 ai-stack,datastax,25373,azure,https://github.com/datastax/terraform-azure-ai-stack,
 ai-stack,datastax,25374,gcp,https://github.com/datastax/terraform-gcp-ai-stack,
 ainotebooks,mikamakusa,25683,google,https://github.com/mikamakusa/terraform-google-ainotebooks,
+aio,arkhoss,30394,civo,https://github.com/arkhoss/terraform-civo-aio,terraform civo all in one module for civo resources
 airbyte-flows,artefactory,20667,google,https://github.com/artefactory/terraform-google-airbyte-flows,A Terraform module to programatically deploy end-to-end ELT flows to BigQuery on Airbyte.
 airbyte-infra,artefactory,20757,google,https://github.com/artefactory/terraform-google-airbyte-infra,A Terraform module to programatically deploy an Airbyte server on GCP
 airflow,PowerDataHub,2267,aws,https://github.com/PowerDataHub/terraform-aws-airflow,"Terraform module to deploy an Apache Airflow cluster on AWS, backed by RDS PostgreSQL for metadata, S3 for logs and SQS as message broker with CeleryExecutor"
@@ -5930,6 +5931,7 @@ doks,nlamirault,7341,digitalocean,https://github.com/nlamirault/terraform-digita
 doks-harbor,colinwilson,11457,digitalocean,https://github.com/colinwilson/terraform-digitalocean-doks-harbor,High Availability Harbor on DOKS (Kubernetes on DigitalOcean) via Terraform [WIP]
 dokuwiki,Tax-Automation-Group,28173,google,https://github.com/Tax-Automation-Group/terraform-google-dokuwiki,
 domain,JamesWoolfenden,11077,linode,https://github.com/JamesWoolfenden/terraform-linode-domain,
+domain,ScottW514,30392,datapower,https://github.com/ScottW514/terraform-datapower-domain,Terraform Module for IBM DataPower Gateway Application Domain Configuration
 domain,agiwalpooja20,4597,aws,https://github.com/agiwalpooja20-zz/terraform-aws-domain,Terraform modules
 domain,benoram,9751,aws,https://github.com/benoram/terraform-aws-domain,
 domain,cypik,22883,digitalocean,https://github.com/cypik/terraform-digitalocean-domain,
@@ -7859,6 +7861,7 @@ eventbridge-read-role,akw-devsecops,28779,aws,https://github.com/akw-devsecops/t
 eventbridge-rule,Senora-dev,29367,aws,https://github.com/Senora-dev/terraform-aws-eventbridge-rule,This Terraform module creates an AWS EventBridge (CloudWatch Events) rule and its associated targets.
 eventbridge-rule,tfstack,28897,aws,https://github.com/tfstack/terraform-aws-eventbridge-rule,Terraform module to create flexible AWS EventBridge rules
 eventbridge-scheduler-for-lambda,kobakichi,29613,aws,https://github.com/kobakichi/terraform-aws-eventbridge-scheduler-for-lambda,
+eventbridge-slack-notification,c0x12c,30384,aws,https://github.com/c0x12c/terraform-aws-eventbridge-slack-notification,
 eventbridge-sqs,evolve-platform,27347,aws,https://github.com/evolve-platform/terraform-aws-eventbridge-sqs,Terraform module to manage Eventbridge in AWS 
 eventbridge-to-amazon-q,fivexl,28863,aws,https://github.com/fivexl/terraform-aws-eventbridge-to-amazon-q,"​A collection of Amazon EventBridge rules that capture Amazon ECS and other events, transform them using the input transformer feature, and send them to Amazon SNS. From there, the events are forwarded to Amazon Q Developer and subsequently to Slack, Amazon Chime, or Microsoft Teams."
 eventgrid,JamesWoolfenden,16888,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-eventgrid,
@@ -10648,6 +10651,7 @@ labels,devops-workflow,657,null,https://github.com/devops-workflow/terraform-nul
 labels,eazycloudlife,26307,aws,https://github.com/eazycloudlife/terraform-aws-labels,"The `terraform-aws-labels` module for AWS provides a standard set of tags to apply across AWS resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your AWS infrastructure."
 labels,eazycloudlife,26308,azure,https://github.com/eazycloudlife/terraform-azure-labels,"The `terraform-azure-labels` module for Azure provides a standard set of tags to apply across Azure resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your Azure infrastructure."
 labels,eazycloudlife,26309,gcp,https://github.com/eazycloudlife/terraform-gcp-labels,"The `terraform-gcp-labels` module for GCP provides a standard set of tags to apply across GCP resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your GCP infrastructure."
+labels,opsstation,30385,multicloud,https://github.com/opsstation/terraform-multicloud-labels,
 labels,sureshyadav76,24125,google,https://github.com/sureshyadav76/terraform-google-labels,
 labels,terraform-az-modules,30372,azure,https://github.com/terraform-az-modules/terraform-azure-labels,
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
@@ -12596,12 +12600,10 @@ namespace1,viksan17,21965,kubernetes,https://github.com/viksan17/terraform-kuber
 namespace2,MiraRay13,22923,kubernetes,https://github.com/MiraRay13/terraform-kubernetes-namespace2,
 namespace2,almazaidarov,28522,kubernetes,https://github.com/almazaidarov/terraform-kubernetes-namespace2,
 namespace2,aszumilas99,24990,kubernetes,https://github.com/aszumilas99/terraform-kubernetes-namespace2,
-namespace2,farrukh90,24592,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2,
 namespace2,nazikmusa,23916,kubernetes,https://github.com/nazikmusa/terraform-kubernetes-namespace2,
 namespace2,ysakova90,25847,kubernetes,https://github.com/ysakova90/terraform-kubernetes-namespace2,
 namespace2023,farrukh90,22908,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace2023,
 namespace2024,saidbozkurt,25037,kubernetes,https://github.com/saidbozkurt/terraform-kubernetes-namespace2024,
-namespace3,farrukh90,24923,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace3,
 namespace3,moldangrus,24969,kubernetes,https://github.com/moldangrus/terraform-kubernetes-namespace3,
 namespace4,farrukh90,28361,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespace4,
 namespaces,farrukh90,26042,kubernetes,https://github.com/farrukh90/terraform-kubernetes-namespaces,
@@ -13679,7 +13681,6 @@ peering,data-platform-hq,17288,azurerm,https://github.com/data-platform-hq/terra
 peering-local,jakoberpf,16232,oracle,https://github.com/jakoberpf/terraform-oracle-peering-local,Terreform module for integrated service deployment
 periodic-alert,ypant,27757,aws,https://github.com/ypant/terraform-aws-periodic-alert,terraform module for generating periodic alert
 permission-sets,aws-ia,26059,aws,https://github.com/aws-ia/terraform-aws-permission-sets,
-permissions,boris-gif,30369,reCost,https://github.com/boris-gif/terraform-reCost-permissions,
 permissions-dba,WeAreRetail,27519,mssql,https://github.com/WeAreRetail/terraform-mssql-permissions-dba,Manage the permissions for the DBA
 permissionset,appvia,23805,aws,https://github.com/appvia/terraform-aws-permissionset,Provisions and assigns a permissionset to one or more accounts
 permutations,ixydo,2101,null,https://github.com/ixydo/terraform-null-permutations,Simple module to return all possible combinations for a given pair of input lists.
@@ -14755,6 +14756,8 @@ records,ecanuto,19122,cloudflare,https://github.com/ecanuto/terraform-cloudflare
 records,zoro16,21444,cloudflare,https://github.com/zoro16/terraform-cloudflare-records,Terraform module to create/update DNS Records in Cloudflare
 records-tls,gendall,3823,cloudflare,https://github.com/gendall/terraform-cloudflare-records-tls,A Terraform module to create DNS records and TLS certificates
 recordsets,terraformdns,1177,dns,https://github.com/terraformdns/terraform-dns-recordsets,Terraform module for creating DNS recordsets using RFC 2136 dynamic updates
+recost-access,recost-ltd,30390,aws,https://github.com/recost-ltd/terraform-aws-recost-access,
+recost-access-stackset,recost-ltd,30391,aws,https://github.com/recost-ltd/terraform-aws-recost-access-stackset,
 recoverable-remote-state,artemious7,26423,azurerm,https://github.com/artemious7/terraform-azurerm-recoverable-remote-state,Azure recoverable remote state Terraform module
 recovery-services-vault,jsathler,21057,azurerm,https://github.com/jsathler/terraform-azurerm-recovery-services-vault,
 recovery_services_vault,sironite,19896,azurerm,https://github.com/sironite/terraform-azurerm-recovery_services_vault,
@@ -14954,7 +14957,6 @@ release1,ostafon1,24896,helm,https://github.com/ostafon1/terraform-helm-release1
 release1,valentinabalan,25843,helm,https://github.com/valentinabalan/terraform-helm-release1,
 release2,aszumilas99,24975,helm,https://github.com/aszumilas99/terraform-helm-release2,
 release2,eminbaev,27123,helm,https://github.com/eminbaev/terraform-helm-release2,
-release2,farrukh90,24885,helm,https://github.com/farrukh90/terraform-helm-release2,
 release2,pinar15,24915,helm,https://github.com/pinar15/terraform-helm-release2,
 release2,ysakova90,25783,helm,https://github.com/ysakova90/terraform-helm-release2,
 release3,farrukh90,28332,helm,https://github.com/farrukh90/terraform-helm-release3,
@@ -15875,6 +15877,7 @@ s3-static-website,Lupus-Metallum,8434,aws,https://github.com/Lupus-Metallum/terr
 s3-static-website,cn-terraform,9553,aws,https://github.com/cn-terraform/terraform-aws-s3-static-website,Terraform Module for AWS to host Static Website on S3
 s3-static-website,conortm,1516,aws,https://github.com/conortm/terraform-aws-s3-static-website,Terraform Module for an Amazon S3 Static Website
 s3-static-website,flanger001,22983,aws,https://github.com/flanger001/terraform-aws-s3-static-website,A Terraform module that creates a static web site hosted on AWS.
+s3-static-website,intodarkmoon,30389,aws,https://github.com/intodarkmoon/terraform-aws-s3-static-website,
 s3-static-website,mm-devops-cloud,18771,aws,https://github.com/mm-devops-cloud/terraform-aws-s3-static-website,this module to create s3 on aws and make it public to host static website
 s3-static-website,shahdk,7383,aws,https://github.com/shahdk/terraform-aws-s3-static-website,Highly opinionated Terraform module for hosting a secure static website on AWS S3
 s3-static-website,tfstack,27181,aws,https://github.com/tfstack/terraform-aws-s3-static-website,Terraform module that deploys basic AWS S3 static website
