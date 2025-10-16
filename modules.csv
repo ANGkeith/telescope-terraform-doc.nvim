@@ -3060,6 +3060,7 @@ certificate-registration,matti,791,kontena,https://github.com/matti/terraform-ko
 certificate-route53,truemark,7145,aws,https://github.com/truemark/terraform-aws-certificate-route53,
 certificate-stage,scaffoldly,10883,aws,https://github.com/scaffoldly/terraform-aws-certificate-stage,Creates certificates in ACM with one-to-many alternate names
 certificate_manager,Noahnc,20711,azurerm,https://github.com/Noahnc/terraform-azurerm-certificate_manager,Certificate Manager for Azure created and managed by terraform
+certificates,ScottW514,30405,datapower,https://github.com/ScottW514/terraform-datapower-certificates,Terraform Module for IBM DataPower Gateway Certificate Configuration
 certificates-generator,ish-xyz,3698,tls,https://github.com/ish-xyz/terraform-tls-certificates-generator,A Terraform module to generate TLS RSA certificates with a self provisioned CA
 certmanager,dodevops,10998,azure,https://github.com/dodevops/terraform-azure-certmanager,Highly opinionated Terraform management of cert manager on Azure Kubernetes Service (AKS)
 certmanager,easy-modules,20130,easy,https://github.com/easy-modules/terraform-easy-certmanager,Kubernetes certmanager
@@ -5931,7 +5932,7 @@ doks,nlamirault,7341,digitalocean,https://github.com/nlamirault/terraform-digita
 doks-harbor,colinwilson,11457,digitalocean,https://github.com/colinwilson/terraform-digitalocean-doks-harbor,High Availability Harbor on DOKS (Kubernetes on DigitalOcean) via Terraform [WIP]
 dokuwiki,Tax-Automation-Group,28173,google,https://github.com/Tax-Automation-Group/terraform-google-dokuwiki,
 domain,JamesWoolfenden,11077,linode,https://github.com/JamesWoolfenden/terraform-linode-domain,
-domain,ScottW514,30392,datapower,https://github.com/ScottW514/terraform-datapower-domain,Terraform Module for IBM DataPower Gateway Application Domain Configuration
+domain,ScottW514,30404,datapower,https://github.com/ScottW514/terraform-datapower-domain,Terraform Module for IBM DataPower Gateway Application Domain Configuration
 domain,agiwalpooja20,4597,aws,https://github.com/agiwalpooja20-zz/terraform-aws-domain,Terraform modules
 domain,benoram,9751,aws,https://github.com/benoram/terraform-aws-domain,
 domain,cypik,22883,digitalocean,https://github.com/cypik/terraform-digitalocean-domain,
@@ -6913,6 +6914,7 @@ ecs-saver,kota65535,17519,aws,https://github.com/kota65535/terraform-aws-ecs-sav
 ecs-scalable-cluster,anugnes,561,aws,https://github.com/anugnes/terraform-aws-ecs-scalable-cluster,Terraform module to deploy an Amazon ECS cluster using autoscaling groups
 ecs-schedule-container,ivoronin,20701,aws,https://github.com/ivoronin/terraform-aws-ecs-schedule-container,Schedules container runs on ECS Fargate using cron-like syntax
 ecs-scheduled-app,justtrackio,17259,aws,https://github.com/justtrackio/terraform-aws-ecs-scheduled-app,Terraform module which creates a scheduled ecs app
+ecs-scheduled-task,ION-Analytics,30408,iona,https://github.com/ION-Analytics/terraform-iona-ecs-scheduled-task,Terraform module to schedule a task on an existing container instance in ECS
 ecs-scheduled-task,brunosimsenhor,26803,aws,https://github.com/brunosimsenhor/terraform-aws-ecs-scheduled-task,Terraform module which creates ECS Scheduled Task resources on AWS.
 ecs-scheduled-task,dod-iac,9100,aws,https://github.com/dod-iac/terraform-aws-ecs-scheduled-task,Terraform module to create an ECS Scheduled Task
 ecs-scheduled-task,justtrackio,17260,aws,https://github.com/justtrackio/terraform-aws-ecs-scheduled-task,Terraform module which creates a scheduled ecs task
@@ -8129,7 +8131,7 @@ firewall,cypik,22878,digitalocean,https://github.com/cypik/terraform-digitalocea
 firewall,cypik,24069,azure,https://github.com/cypik/terraform-azure-firewall,
 firewall,data-platform-hq,17442,google,https://github.com/data-platform-hq/terraform-google-firewall,Terraform module for creation Google firewall
 firewall,devdynamicio,13247,digitalocean,https://github.com/devdynamicio/terraform-digitalocean-firewall,Terraform module to create an Firewall in DigitalOcean 🇺🇦
-firewall,dhoppeIT,11683,hcloud,https://github.com/dhoppeIT/terraform-hcloud-firewall,Terraform module to manage the following Hetzner Cloud resource (hcloud_firewall)
+firewall,dhoppeIT,30397,hcloud,https://github.com/dhoppeIT/terraform-hcloud-firewall,
 firewall,easyweb-devops,25750,digital_ocean_instance,https://github.com/easyweb-devops/terraform-digital_ocean_instance-firewall,
 firewall,figurate,5046,digitalocean,https://github.com/figurate/terraform-digitalocean-firewall,Create firewall rules for Digital Ocean Droplets.
 firewall,freddieptf,5060,digitalocean,https://github.com/freddieptf/terraform-digitalocean-firewall,
@@ -10961,6 +10963,7 @@ landscape,unimatrixops,10870,google,https://github.com/unimatrixops/terraform-go
 landscape-client,jansdhillon,30002,lxd,https://github.com/jansdhillon/terraform-lxd-landscape-client,A Terraform module that uses the LXD provider to deploy Landscape Client onto containers or VMs. 
 landscape-server,canonical,29968,juju,https://github.com/canonical/terraform-juju-landscape-server,Terraform (Product) Module for Landscape Server deployments with Juju.
 landscape-server-quickstart,jansdhillon,30350,lxd,https://github.com/jansdhillon/terraform-lxd-landscape-server-quickstart,A Terraform module that deploys Landscape Server Quickstart onto LXD VMs/containers.
+lark-base-federation-query,aganisatria,30406,aws,https://github.com/aganisatria/terraform-aws-lark-base-federation-query,
 latest-ami,bledrunner2049,6193,aws,https://github.com/bledrunner2049/terraform-aws-latest-ami,
 laughs,sblack4,5537,terraform,https://github.com/sblack4/terraform-terraform-laughs,Laughs in terraform
 launch,wandb,19970,helm,https://github.com/wandb/terraform-helm-launch,
@@ -12761,7 +12764,7 @@ network,craftya,10022,azurerm,https://github.com/craftya/terraform-azurerm-netwo
 network,cyber-scot,21149,azurerm,https://github.com/cyber-scot/terraform-azurerm-network,A module used to deploy a virtual network and various other resources 🙌
 network,data-platform-hq,16000,azurerm,https://github.com/data-platform-hq/terraform-azurerm-network,Terraform module for managing Azure Virtual Network
 network,dcos-terraform,1512,gcp,https://github.com/dcos-terraform/terraform-gcp-network,Create a Network to be used for DC/OS for GCP
-network,dhoppeIT,11684,hcloud,https://github.com/dhoppeIT/terraform-hcloud-network,"Terraform module to manage the Hetzner Cloud resources (hcloud_network, hcloud_network_subnet)"
+network,dhoppeIT,30398,hcloud,https://github.com/dhoppeIT/terraform-hcloud-network,
 network,diogofrj,27641,azurerm,https://github.com/diogofrj/terraform-azurerm-network,Microsoft Azure - Virtual Network Modules
 network,dodevops,18784,aws,https://github.com/dodevops/terraform-aws-network,Highly opinionated management of AWS network resources
 network,dodevops,8605,azure,https://github.com/dodevops/terraform-azure-network,Highly opinionated management of required Azure network resources
@@ -13936,6 +13939,7 @@ pras,prasannakaup,18904,aws,https://github.com/prasannakaup/terraform-aws-pras,t
 prasannastorage,haripriya20036,24960,azurerm,https://github.com/haripriya20036/terraform-azurerm-prasannastorage,
 prateekstorage,pragrove,28733,azure,https://github.com/pragrove/terraform-azure-prateekstorage,
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
+praveen-tf-test-vpc,praveensingh-git,30395,aws,https://github.com/praveensingh-git/terraform-aws-praveen-tf-test-vpc,This Terraform project provisions a custom AWS Virtual Private Cloud (VPC) with configurable public and private subnets.
 prebid-cache,Prebidly,17761,aws,https://github.com/Prebidly/terraform-aws-prebid-cache,
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
 prefix_list,arul-ap,24250,aws,https://github.com/arul-ap/terraform-aws-prefix_list,Module to create managed prefix list
@@ -14391,7 +14395,7 @@ rdb,scaleway-terraform-modules,17652,scaleway,https://github.com/scaleway-terraf
 rdb-mysql,container-labs,18812,scaleway,https://github.com/container-labs/terraform-scaleway-rdb-mysql,
 rdb-postgresql,container-labs,18813,scaleway,https://github.com/container-labs/terraform-scaleway-rdb-postgresql,
 rdf-load,EKGF,21839,aws,https://github.com/EKGF/terraform-aws-rdf-load,Terraform module that loads RDF files created in an S3 bucket into a given Neptune instance
-rdns,dhoppeIT,11685,hcloud,https://github.com/dhoppeIT/terraform-hcloud-rdns,Terraform module to manage the Hetzner Cloud resource (hcloud_rdns)
+rdns,dhoppeIT,30399,hcloud,https://github.com/dhoppeIT/terraform-hcloud-rdns,
 rdns,terraform-hetzner-modules,27323,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-rdns,↪️ Manage reverse-DNS entries for your Hetzner Cloud servers
 rdns,zoro16,21296,hcloud,https://github.com/zoro16/terraform-hcloud-rdns,Terraform module to provision RDNS resources in Hetzner Cloud.
 rds,Aigerim2024,25509,aws,https://github.com/Aigerim2024/terraform-aws-rds,
@@ -14816,6 +14820,7 @@ redis-cache,KamenYovchev,6260,azurerm,https://github.com/KamenYovchev/terraform-
 redis-cache,blackbird-cloud,24050,azurerm,https://github.com/blackbird-cloud/terraform-azurerm-redis-cache,
 redis-cache,bootlabstech,17051,azurerm,https://github.com/bootlabstech/terraform-azurerm-redis-cache,
 redis-cache,terraform-az-modules,30299,azure,https://github.com/terraform-az-modules/terraform-azure-redis-cache,
+redis-cluster,ION-Analytics,30407,iona,https://github.com/ION-Analytics/terraform-iona-redis-cluster,"Unified Redis Cluster configuration, originally for Backstop CRM use"
 redis-cluster,PGBI,3520,aws,https://github.com/PGBI/terraform-aws-redis-cluster,
 redis-cluster,c0x12c,29343,gcp,https://github.com/c0x12c/terraform-gcp-redis-cluster,
 redis-cluster,dod-iac,11208,aws,https://github.com/dod-iac/terraform-aws-redis-cluster,A Redis cluster on Elasticache
@@ -16586,7 +16591,7 @@ sentry,ethicalmohit,4437,aws,https://github.com/ethicalmohit/terraform-aws-sentr
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
 server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server,
 server,bayudwiyansatria,11185,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-server,Terraform Module for Provisioning Hetzner Cloud Server
-server,dhoppeIT,11686,hcloud,https://github.com/dhoppeIT/terraform-hcloud-server,"Terraform module to manage the following Hetzner Cloud resources (hcloud_server, hcloud_server_network, hcloud_snapshot))"
+server,dhoppeIT,30400,hcloud,https://github.com/dhoppeIT/terraform-hcloud-server,
 server,dtherhtun,7974,rancher,https://github.com/dtherhtun/terraform-rancher-server,
 server,latitudesh,30229,latitudesh,https://github.com/latitudesh/terraform-latitudesh-server,
 server,merten2000,907,aws,https://github.com/merten2000/terraform-aws-server,
@@ -17081,6 +17086,7 @@ smstorage,Sana0407,27305,azure,https://github.com/Sana0407/terraform-azure-smsto
 smtp-mail,cloudposee,28113,null,https://github.com/cloudposee/terraform-null-smtp-mail,Terraform module to send transactional emails via an SMTP server (e.g. mailgun)
 smtp-mail,cloudposse,1720,null,https://github.com/cloudposse/terraform-null-smtp-mail,Terraform module to send transactional emails via an SMTP server (e.g. mailgun)
 snapshot,bootlabstech,18740,azurerm,https://github.com/bootlabstech/terraform-azurerm-snapshot,
+snapshot,dhoppeIT,30401,hcloud,https://github.com/dhoppeIT/terraform-hcloud-snapshot,
 snapshot,noy5277,27149,az,https://github.com/noy5277/terraform-az-snapshot,test port
 snapshot,robertdebock,14216,vault,https://github.com/robertdebock/terraform-vault-snapshot,
 snapshot-policy,kasna-cloud,19937,google,https://github.com/kasna-cloud/terraform-google-snapshot-policy,This Terraform Module helps to create a snapshot policy and attach it to one or more persistent disks
@@ -17348,7 +17354,7 @@ ssh-keypair-generator,jd4883,7286,hashicorp,https://github.com/jd4883/terraform-
 ssh-keys,terraform-mgc-modules,30364,mgc,https://github.com/terraform-mgc-modules/terraform-mgc-ssh-keys,
 ssh-ssm,JamesWoolfenden,2049,aws,https://github.com/JamesWoolfenden/terraform-aws-ssh-ssm,Secure Storage for SSH keys in AWS parameter store
 ssh_file,OJFord,3148,module,https://github.com/OJFord/terraform-module-ssh_file,"Easily acquire file contents over SSH. Like `data ""local_file""`, but remote."
-ssh_key,dhoppeIT,11687,hcloud,https://github.com/dhoppeIT/terraform-hcloud-ssh_key,Terraform module to manage the Hetzner Cloud resource (hcloud_ssh_key)
+ssh_key,dhoppeIT,30402,hcloud,https://github.com/dhoppeIT/terraform-hcloud-ssh_key,
 ssh_key,robertdebock,6764,digitalocean,https://github.com/robertdebock/terraform-digitalocean-ssh_key,A Terraform module to create ssh keys on Digitalocean.
 ssh_key_pair,AutomateTheCloud,28461,aws,https://github.com/AutomateTheCloud/terraform-aws-ssh_key_pair,Terraform module to create EC2 SSH Key Pairs (AutomateTheCloud model)
 sshkey-uploader,ystkfujii,17876,nifcloud,https://github.com/ystkfujii/terraform-nifcloud-sshkey-uploader,Terraform module to generate and upload sshkey
@@ -18384,7 +18390,7 @@ terraform-cloud,BrynardSecurity-terraform,13504,tfe,https://github.com/BrynardSe
 terraform-cloud-agent,redeux,6498,kubernetes,https://github.com/redeux/terraform-kubernetes-terraform-cloud-agent,A Terraform module for deploying the Terraform Cloud for Business Agent in Kubernetes
 terraform-cloud-credential,Azure-Terraformer,30083,azuread,https://github.com/Azure-Terraformer/terraform-azuread-terraform-cloud-credential,
 terraform-cloud-jwt-auth,hashi-strawb,17805,vault,https://github.com/hashi-strawb/terraform-vault-terraform-cloud-jwt-auth,"Configures a JWT Auth method in Vault for Terraform Cloud, and configures Terraform Cloud Workspaces with the required variables to use this auth method"
-terraform-cloud-oidc,saidsef,17726,aws,https://github.com/saidsef/terraform-aws-terraform-cloud-oidc,Terraform Cloud Dynamic Credentials module as an IAM OIDC identity provider in AWS
+terraform-cloud-oidc,saidsef,17726,aws,https://github.com/saidsef/terraform-aws-terraform-cloud-oidc,
 terraform-cloud-oidc,saidsef,21584,gcp,https://github.com/saidsef/terraform-gcp-terraform-cloud-oidc,Terraform Cloud Dynamic Credentials module as an IAM OIDC identity provider in GCP
 terraform-cloud-operator,aareet,7905,kubernetes,https://github.com/aareet/terraform-kubernetes-terraform-cloud-operator,Install the Terraform Cloud Operator into your Kubernetes cluster
 terraform-cloud-operator,hashicorp,10001,kubernetes,https://github.com/hashicorp/terraform-kubernetes-terraform-cloud-operator,Install the Terraform Cloud Operator into your Kubernetes cluster
@@ -19341,6 +19347,7 @@ vnettestrepo,applesoftsol,6216,azurerm,https://github.com/applesoftsol/terraform
 vng-to-csr-ipsec-bgp,jye-aviatrix,18008,azurerm,https://github.com/jye-aviatrix/terraform-azurerm-vng-to-csr-ipsec-bgp,This module deploy Azure VNG to existing vNet. It will also deploy Cisco CSR to a new vNet simulate on-prem environment. IPSec/ BGP Site to Site will be established between CSR and VNG.
 voltdb,ssomagani,2392,aws,https://github.com/ssomagani/terraform-aws-voltdb,Terraform templates for VoltDB on AWS
 volume,data-platform-hq,20237,databricks,https://github.com/data-platform-hq/terraform-databricks-volume,
+volume,dhoppeIT,30403,hcloud,https://github.com/dhoppeIT/terraform-hcloud-volume,
 volume,free-devops,5970,ebs,https://github.com/free-devops/terraform-ebs-volume,Terrafom AWS EBS Volume
 volume,srb3,9262,libvirt,https://github.com/srb3/terraform-libvirt-volume,
 volume,terraform-hetzner-modules,27325,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-volume,💾 Create disk volumes for your Hetzner Cloud servers
@@ -20775,6 +20782,7 @@ zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cl
 zone,samarkand-global,16714,cloudflare,https://github.com/samarkand-global/terraform-cloudflare-zone,A Terraform module to manage a Zone in Cloudflare
 zone,tcarrondo,3043,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-zone,Setup a zone in Cloudflare
 zone-lockdown,alicankustemur,6412,cloudflare,https://github.com/alicankustemur/terraform-cloudflare-zone-lockdown,
+zone_dnssec,dhoppeIT,30396,cloudflare,https://github.com/dhoppeIT/terraform-cloudflare-zone_dnssec,
 zonefile,Ferlab-Ste-Justine,17781,etcd,https://github.com/Ferlab-Ste-Justine/terraform-etcd-zonefile,Terraform module to generate a zonefile and store it in an etcd key value
 zones,heathen1878,19915,cloudflare,https://github.com/heathen1878/terraform-cloudflare-zones,Manages Cloudflare zones and zone overrides
 zookeeper,barryw,8656,aws,https://github.com/barryw/terraform-aws-zookeeper,Terraform module for bringing up a Zookeeper ensemble
