@@ -2490,6 +2490,7 @@ base,srb3,6150,aws,https://github.com/srb3/terraform-aws-base,
 base,upmaru,29720,tama,https://github.com/upmaru/terraform-tama-base,
 base-components,ArcfieldSTC,21848,azure,https://github.com/ArcfieldSTC/terraform-azure-base-components,Module used for creating primary components used in Azure IaC deployments.
 base-firewall,NicholasPCole,15302,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-base-firewall,A set of minimal firewall rules suitable for application to all Droplets in an account
+base-gate,gateplane-io,30435,gateplane,https://github.com/gateplane-io/terraform-gateplane-base-gate,Terraform module to configure GatePlane plugins (dependency)
 base-member,jakoberpf,12348,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-member,
 base-module,AntonAleksandrov13,11324,aws,https://github.com/AntonAleksandrov13/terraform-aws-base-module,"This repository contains base configurations for running terraform in AWS. It provisions base IAM user/role with minimum required policies, S3 bucket for state storage and Dynamodb for locking"
 base-network,jakoberpf,12349,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-network,Terreform module for integrated service deployment
@@ -6195,6 +6196,7 @@ ec2,clouddrove,3632,aws,https://github.com/clouddrove/terraform-aws-ec2,Terrafor
 ec2,csakalis,5116,aws,https://github.com/csakalis/terraform-aws-ec2,
 ec2,cypik,22761,aws,https://github.com/cypik/terraform-aws-ec2,Terraform module to provision an EC2 instance on AWS with associated Elastic IP and Elastic Block Store (EBS) volume.
 ec2,devops4mecode,6804,aws,https://github.com/devops4mecode/terraform-aws-ec2,
+ec2,dilanka-rathnasiri,30441,aws,https://github.com/dilanka-rathnasiri/terraform-aws-ec2,
 ec2,echomike80,8133,aws,https://github.com/echomike80/terraform-aws-ec2,Terraform module which creates EC2 instance(s) on AWS
 ec2,emran119,17700,aws,https://github.com/emran119/terraform-aws-ec2,terraform-aws-ec2
 ec2,finisterra-io,23561,aws,https://github.com/finisterra-io/terraform-aws-ec2,Terraform AWS EC2 module
@@ -9670,7 +9672,7 @@ instance,vrodi18,6818,rds,https://github.com/vrodi18/terraform-rds-instance,
 instance,web-virtua-oci-multi-account-modules,19188,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-instance,
 instance,ystkfujii,17867,nifcloud,https://github.com/ystkfujii/terraform-nifcloud-instance,Terraform module for provisioning instance on NIFCLOUD.
 instance-2024,RadmilaMu,27576,module,https://github.com/RadmilaMu/terraform-module-instance-2024,
-instance-create,jdschmitz15,30432,http,https://github.com/jdschmitz15/terraform-http-instance-create,
+instance-create,jdschmitz15,30434,curl,https://github.com/jdschmitz15/terraform-curl-instance-create,
 instance-docker,tulinakdnz,20841,aws,https://github.com/tulinakdnz/terraform-aws-instance-docker,
 instance-example,aciumac-apptio,22799,aws,https://github.com/aciumac-apptio/terraform-aws-instance-example,Simple module to practice publishing
 instance-files,mkam,11258,local,https://github.com/mkam/terraform-local-instance-files,Consul-Terraform-Sync test module for creating service instance files
@@ -13328,6 +13330,7 @@ oke,westelh,29150,oci,https://github.com/westelh/terraform-oci-oke,
 oke-quickstart,shukawam,19058,oci,https://github.com/shukawam/terraform-oci-oke-quickstart,Terraform module for OKE Tutorial
 okta,archit0,6291,vault,https://github.com/archit0/terraform-vault-okta,
 okta,onetwopunch,5508,vault,https://github.com/onetwopunch/terraform-vault-okta,Terraform module to configure Vault to use Okta with OIDC
+okta-group-gate,gateplane-io,30439,gateplane,https://github.com/gateplane-io/terraform-gateplane-okta-group-gate,A Terraform module that configures Okta Group Gates
 okta-sso,mscribellito,19114,aws,https://github.com/mscribellito/terraform-aws-okta-sso,Configures SSO for the AWS Console and CLI with Okta
 okta-sso,rhythmictech,5396,aws,https://github.com/rhythmictech/terraform-aws-okta-sso,
 olcne,oracle-terraform-modules,4926,oci,https://github.com/oracle-terraform-modules/terraform-oci-ocne,A reusable and extensible Terraform module that provisions an Oracle Linux Cloud Native Environment on Oracle Cloud Infrastructure.
@@ -13828,6 +13831,7 @@ policy-bundle,terraform-cisco-modules,8989,intersight,https://github.com/terrafo
 policy-definition,andrewCluey,9037,azurerm,https://github.com/andrewCluey/terraform-azurerm-policy-definition,Terraform module that will define Azure policies using json file inputs
 policy-deploy-dependency-agent-windows,qbeyond,17788,azurerm,https://github.com/qbeyond/terraform-azurerm-policy-deploy-dependency-agent-windows,
 policy-exemptions,globalbao,9842,azurerm,https://github.com/globalbao/terraform-azurerm-policy-exemptions,Terraform module for managing AzureRM policy exemptions (via ARM template) - by @JesseLoudon
+policy-gate,gateplane-io,30438,gateplane,https://github.com/gateplane-io/terraform-gateplane-policy-gate,A Terraform module that configures GatePlane-protected Vault/OpenBao policies
 policy-module,wenzel-felix,15097,azurerm,https://github.com/wenzel-felix/terraform-azurerm-policy-module,This Terraform module helps deploy Azure policies in a batch and through simple and partially file-based configuration.
 policy-packer,cloudandthings,20758,aws,https://github.com/cloudandthings/terraform-aws-policy-packer,Optimally use the space in a AWS policy document
 policy-packer,phzietsman,5961,aws,https://github.com/phzietsman/terraform-aws-policy-packer,Optimally use the space in a AWS policy document
@@ -16804,6 +16808,7 @@ serviceplan,JamesWoolfenden,16727,azurerm,https://github.com/JamesWoolfenden/ter
 serviceprincipal,imjoseangel,11299,azurerm,https://github.com/imjoseangel/terraform-azurerm-serviceprincipal,Terraform Module for creating a Azure Service Principal
 serviceprincipal,ned1313,14833,azuread,https://github.com/ned1313/terraform-azuread-serviceprincipal,Terraform module for creating service principals in Azure AD.
 services-bus-ampq,azure-terraform-module,30030,azure,https://github.com/azure-terraform-module/terraform-azure-services-bus-ampq,
+services-setup,gateplane-io,30437,gateplane,https://github.com/gateplane-io/terraform-gateplane-services-setup,A terraform module that configures Vault/OpenBao for use with GatePlane Services
 ses,7Factor,14433,aws,https://github.com/7Factor/terraform-aws-ses,A small module for adding Simple Email Service to an aws account.
 ses,CalvinE,25677,aws,https://github.com/CalvinE/terraform-aws-ses,"A Simple module for adding email capabilities for an application. Receiving email optionally available. DKIM, SPF and DMARC included!"
 ses,Lupus-Metallum,8423,aws,https://github.com/Lupus-Metallum/terraform-aws-ses,Used to create a fully compliant SES domain
@@ -16869,6 +16874,7 @@ set-iam-member-list,fbtravi,19375,gcp,https://github.com/fbtravi/terraform-gcp-s
 set-rule,netascode,10319,aci,https://github.com/netascode/terraform-aci-set-rule,Terraform Cisco ACI Set Rule Module
 setcronjob-whitelist,captn3m0,1983,http,https://github.com/captn3m0/terraform-http-setcronjob-whitelist,Terraform Module that returns the latest SetCronJob IP Whitelist: https://support.setcronjob.com/hc/en-us/articles/219802207-SetCronJob-IP-addresses-list
 settings,devopsarr,16454,sonarr,https://github.com/devopsarr/terraform-sonarr-settings,terraform module for Sonarr
+setup,gateplane-io,30436,gateplane,https://github.com/gateplane-io/terraform-gateplane-setup,A terraform module that configures Vault/OpenBao instances to be used with GatePlane App
 sf,lablabs,3505,aws,https://github.com/lablabs/terraform-aws-sf,Terraform module for creating stateful instances
 sfabric,Bee-Projects,1615,aws,https://github.com/bee-projects/terraform-aws-sfabric,Terraform module for launching a Service Fabric Dev Environment on AWS
 sfabric,Bee-Projects,1617,gcp,https://github.com/bee-projects/terraform-gcp-sfabric,Terraform module for launching a Service Fabric Dev Environment on GCP
