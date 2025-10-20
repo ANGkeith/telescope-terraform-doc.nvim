@@ -303,6 +303,7 @@ acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform
 acm-certificate-validation,khanguyen78,29915,aws,https://github.com/khanguyen78/terraform-aws-acm-certificate-validation,
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
+acm-cloudflare,cesargoncalves,30442,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate with Cloudflare DNS validation
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -2159,7 +2160,7 @@ aws-postgresql-parameter-group,intel,20479,intel,https://github.com/intel/terraf
 aws-private-endpoint,infrablocks,7778,mongodbatlas,https://github.com/infrablocks/terraform-mongodbatlas-aws-private-endpoint,A Terraform module for creating a private endpoint for AWS for MongoDB Atlas.
 aws-rds-event-integration,falcon-terraform-modules,26476,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-rds-event-integration,This Terraform module constructs and configures the necessary resources for integrating AWS RDS Event into New Relic.
 aws-role,ptonini,16785,vault,https://github.com/ptonini/terraform-vault-aws-role,
-aws-route53,locus313,20714,module,https://github.com/locus313/terraform-module-aws-route53,Terraform module which manages Route53 resources on AWS
+aws-route53,locus313,20714,module,https://github.com/locus313/terraform-module-aws-route53,Terraform module for AWS Route53 hosted zones with advanced web redirect feature. Creates S3→CloudFront→ACM→Route53 stack for HTTPS redirects. Supports all DNS record types with configurable TTLs.
 aws-router,mergermarket,4100,acuris,https://github.com/mergermarket/terraform-acuris-aws-router,
 aws-s3-bucket,Adaptavist,5410,module,https://github.com/Adaptavist/terraform-module-aws-s3-bucket,
 aws-s3-cf-acm,lean-delivery,7592,module,https://github.com/lean-delivery/terraform-module-aws-s3-cf-acm,Terraform module for static site with SSL
@@ -12705,6 +12706,7 @@ nebuly-platform,nebuly-ai,25902,azurerm,https://github.com/nebuly-ai/terraform-a
 nebuly-platform,nebuly-ai,26338,google,https://github.com/nebuly-ai/terraform-google-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on Google Cloud Platform (GCP).
 nemo-eks-cluster,kaonmir,13966,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster,
 nemo-eks-cluster-autoscale,kaonmir,13965,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster-autoscale,
+neo4j-community,ilich,30444,aws,https://github.com/ilich/terraform-aws-neo4j-community,Terraform module to setup Neo4j Community Edition on an AWS EC2 instance
 neptune,EKGF,23477,aws,https://github.com/EKGF/terraform-aws-neptune,A Terraform module that sets up AWS Neptune
 neptune,JamesWoolfenden,5153,aws,https://github.com/JamesWoolfenden/terraform-aws-neptune,Basic Neptune module
 neptune,dstrates,22004,aws,https://github.com/dstrates/terraform-aws-neptune,Terraform module that creates AWS Neptune resources
@@ -16839,6 +16841,7 @@ ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
+ses-cloudflare,cesargoncalves,30443,aws,https://github.com/cesargoncalves/terraform-aws-ses-cloudflare,Terraform module to create AWS SES identity with Cloudflare DNS validation
 ses-cloudflare,silinternational,24881,aws,https://github.com/silinternational/terraform-aws-ses-cloudflare,Terraform module to create AWS and Cloudflare resources for SES
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
 ses-dashboard,connect-group,1099,aws,https://github.com/connect-group/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
