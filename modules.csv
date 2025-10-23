@@ -1343,6 +1343,7 @@ arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-a
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
 arc-security-group,sourcefuse,27129,aws,https://github.com/sourcefuse/terraform-aws-arc-security-group,ARC module for AWS Security Group
 arc-sns,sourcefuse,30280,aws,https://github.com/sourcefuse/terraform-aws-arc-sns,
+arc-sqs,sourcefuse,30471,aws,https://github.com/sourcefuse/terraform-aws-arc-sqs,
 arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,Arc Synthetic monitoring i.e canaries 
 arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Repo for managing the ARC Tags Terraform Module.
 arc-transit-gateway,sourcefuse,25926,aws,https://github.com/sourcefuse/terraform-aws-arc-transit-gateway,Terraform Module for Transit Gateway
@@ -1986,6 +1987,7 @@ avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-az
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,Terraform Azure Verified Resource Module for Machine Learning Services Workspace
 avm-res-maintenance-maintenanceconfiguration,Azure,28504,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-maintenance-maintenanceconfiguration,Terraform Azure Verified Resource Module for Maintenance Configuration
 avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,"To gain access, please finish setting up this repository now at: "
+avm-res-management-servicegroup,Azure,30475,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-management-servicegroup,Terraform Azure Verified Resource Module for Management Service Groups
 avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,The AVM resource module for Azure NetApp Files
 avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,Terraform Azure Verified Resource Module for Application Gateway
 avm-res-network-applicationgatewaywebapplicationfirewallpolicy,Azure,27640,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgatewaywebapplicationfirewallpolicy,AVM Resource Module for Application Gateway Web Application Firewall (WAF) Policy
@@ -2026,7 +2028,7 @@ avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraf
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,Terraform Azure Verified Resource Module for SQL Managed Instance
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,Terraform Azure Verified Resource Module for Azure SQL Server
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
-avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
+avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,Terraform Azure Verified Resource Module for App Service Environment
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,Terraform Azure Verified Resource Module for App Service Plan
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,Terraform Azure Verified Resource Module for Web/Function App
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
@@ -8742,7 +8744,9 @@ gkvm-ptn-entraprivateaccess,glueckkanja,29950,azurerm,https://github.com/glueckk
 gkvm-ptn-myworkid,glueckkanja,29130,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-ptn-myworkid,GKVM Terraform module for deploying MyWorkId
 gkvm-res-iot-hub,glueckkanja,29018,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-res-iot-hub,glueckkanja verified module for IoT Hub
 gkvm-res-messaging-eventgridsystemtopic,glueckkanja,29154,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-res-messaging-eventgridsystemtopic,Terraform Module to deploy Event grid system topic
+gkvm-res-repository,glueckkanja,30472,github,https://github.com/glueckkanja/terraform-github-gkvm-res-repository,Glueckkanja verified module to manage GitHub Repositories
 gkvm-res-synapse-workspace,glueckkanja,28716,azurerm,https://github.com/glueckkanja/terraform-azurerm-gkvm-res-synapse-workspace,GKVM terraform module for azure synapse workspaces.
+gkvm-res-team,glueckkanja,30473,github,https://github.com/glueckkanja/terraform-github-gkvm-res-team,Glueckkanja verified module to manage GitHub Teams
 glacier,JamesWoolfenden,9074,aws,https://github.com/JamesWoolfenden/terraform-aws-glacier,It's about glacier
 glb,badal-io,3872,google,https://github.com/badal-io/terraform-google-glb,
 glob-outputs,matti,857,dir,https://github.com/matti/terraform-dir-glob-outputs,
@@ -9462,6 +9466,7 @@ identity-store-group,questionablefocus,28788,aws,https://github.com/questionable
 identitystore,avlcloudtechnologies,17033,aws,https://github.com/avlcloudtechnologies/terraform-aws-identitystore,This module handles creation of AWS SSO identity groups and users
 identitystore,blackbird-cloud,19373,aws,https://github.com/blackbird-cloud/terraform-aws-identitystore,Terraform module to create AWS identitystore resources
 idp,cyralinc,14134,okta,https://github.com/cyralinc/terraform-okta-idp,Cyral IdP Integration Module for Okta
+idp,sil-org,30474,aws,https://github.com/sil-org/terraform-aws-idp,
 idp-gsuite,DNXLabs,5738,aws,https://github.com/DNXLabs/terraform-aws-idp-gsuite,Terraform module for setting up IDP authentication with GSuite SAML.
 idp-tfe-oidc,dustindortch,25868,aws,https://github.com/dustindortch/terraform-aws-idp-tfe-oidc,
 iglu-server-ce,snowplow-devops,10070,google,https://github.com/snowplow-devops/terraform-google-iglu-server-ce,
@@ -19395,6 +19400,7 @@ vnetpublish,nag97030,11463,azurerm,https://github.com/nag97030/terraform-azurerm
 vnetregistry,nag97030,11464,azurerm,https://github.com/nag97030/terraform-azurerm-vnetregistry,
 vnettestrepo,applesoftsol,6216,azurerm,https://github.com/applesoftsol/terraform-azurerm-vnettestrepo,test repo
 vng-to-csr-ipsec-bgp,jye-aviatrix,18008,azurerm,https://github.com/jye-aviatrix/terraform-azurerm-vng-to-csr-ipsec-bgp,This module deploy Azure VNG to existing vNet. It will also deploy Cisco CSR to a new vNet simulate on-prem environment. IPSec/ BGP Site to Site will be established between CSR and VNG.
+vnm,CloudNationHQ,30476,azure,https://github.com/CloudNationHQ/terraform-azure-vnm,Terraform module which creates virtual network manager resources used by workloads and accelerators.
 voltdb,ssomagani,2392,aws,https://github.com/ssomagani/terraform-aws-voltdb,Terraform templates for VoltDB on AWS
 volume,data-platform-hq,20237,databricks,https://github.com/data-platform-hq/terraform-databricks-volume,
 volume,dhoppeIT,30403,hcloud,https://github.com/dhoppeIT/terraform-hcloud-volume,
@@ -19880,6 +19886,7 @@ vpc,toluna-terraform,8688,aws,https://github.com/toluna-terraform/terraform-aws-
 vpc,tomarv2,8275,aws,https://github.com/tomarv2/terraform-aws-vpc,Terraform module for AWS VPC
 vpc,tonynv,10971,aws,https://github.com/tonynv/terraform-aws-vpc,
 vpc,tovanhieu,18640,aws,https://github.com/tovanhieu/terraform-aws-vpc,
+vpc,transcom,30477,aws,https://github.com/transcom/terraform-aws-vpc,Terraform module to create AWS VPC resources 🇺🇦
 vpc,trantrunghau0102,23665,aws,https://github.com/trantrunghau0102/terraform-aws-vpc,
 vpc,truemark,15764,aws,https://github.com/truemark/terraform-aws-vpc,TrueMark's standard VPC layout
 vpc,truongvt95,22455,aws,https://github.com/truongvt95/terraform-aws-vpc,
