@@ -4076,6 +4076,7 @@ combined,billy-editiano,20884,aws,https://github.com/billy-editiano/terraform-aw
 comet,comet-ml,20739,aws,https://github.com/comet-ml/terraform-aws-comet,
 comet,comet-ml,20740,gcp,https://github.com/comet-ml/terraform-gcp-comet,
 command-exists,Invicton-Labs,9325,external,https://github.com/Invicton-Labs/terraform-external-command-exists,A Terraform module that determines whether a given command is available on the CLI (Unixshell or Windows PowerShell).
+common,IBM,30507,guardium,https://github.com/IBM/terraform-guardium-common,Guardium common terraform modules
 common,chainguard-dev,22479,infra,https://github.com/chainguard-dev/terraform-infra-common,
 common,ksaito1125,5433,aws,https://github.com/ksaito1125/terraform-aws-common,
 common,leedonggyu-terraform-factory,29976,resource,https://github.com/leedonggyu-terraform-factory/terraform-resource-common,
@@ -4783,6 +4784,8 @@ dataproduct-confluent-kafka-to-aws-s3,datamesh-architecture,19182,aws,https://gi
 dataproduct-confluent-kafka-to-gcp-bigquery,datamesh-architecture,19184,google,https://github.com/datamesh-architecture/terraform-google-dataproduct-confluent-kafka-to-gcp-bigquery,
 dataproduct-gcp-bigquery-transform,datamesh-architecture,19941,google,https://github.com/datamesh-architecture/terraform-google-dataproduct-gcp-bigquery-transform,
 datasource,hanyouqing,3746,alicloud,https://github.com/hanyouqing/terraform-alicloud-datasource,terraform-alicloud-datasource
+datastore-audit,IBM,30508,guardium,https://github.com/IBM/terraform-guardium-datastore-audit,Datastore enabled auditing configuration terraform module
+datastore-va,IBM,30509,guardium,https://github.com/IBM/terraform-guardium-datastore-va,Datastore configure for Guardium vulnerability assessment terraform module
 datastream,terraform-dinghy-modules,30038,google,https://github.com/terraform-dinghy-modules/terraform-google-datastream,
 datasync,aws-ia,25921,aws,https://github.com/aws-ia/terraform-aws-datasync,
 datasync,mkolarek,25837,aws,https://github.com/mkolarek/terraform-aws-datasync,Terraform modules for provisioning and managing AWS DataSync resources
@@ -6951,6 +6954,7 @@ ecs-scheduled-task,dod-iac,9100,aws,https://github.com/dod-iac/terraform-aws-ecs
 ecs-scheduled-task,justtrackio,17260,aws,https://github.com/justtrackio/terraform-aws-ecs-scheduled-task,Terraform module which creates a scheduled ecs task
 ecs-scheduled-task,mergermarket,3697,acuris,https://github.com/mergermarket/terraform-acuris-ecs-scheduled-task,
 ecs-scheduled-task,tmknom,4792,aws,https://github.com/tmknom/terraform-aws-ecs-scheduled-task,Terraform module which creates ECS Scheduled Task resources on AWS.
+ecs-scheduled-tasks,delivops,30506,aws,https://github.com/delivops/terraform-aws-ecs-scheduled-tasks,
 ecs-secrets-manager,Exlabs,15116,aws,https://github.com/Exlabs/terraform-aws-ecs-secrets-manager,
 ecs-selenium-video,hazelops,14398,aws,https://github.com/hazelops/terraform-aws-ecs-selenium-video,
 ecs-service,AustinCloudGuru,3460,aws,https://github.com/AustinCloudGuru/terraform-aws-ecs-service,Terraform module for creating an ECS service
@@ -7817,6 +7821,7 @@ environments,tbobm,11189,github,https://github.com/tbobm/terraform-github-enviro
 envmirror,yashodhan271,28922,aws,https://github.com/yashodhan271/terraform-aws-envmirror,
 envoy-transport-configuration,Ferlab-Ste-Justine,18444,etcd,https://github.com/Ferlab-Ste-Justine/terraform-etcd-envoy-transport-configuration,Terraform module to generate an envoy transport load balancer configuration and store it in an etcd key value 
 eotk,sr2c,13006,aws,https://github.com/sr2c/terraform-aws-eotk,DEPRECATED Enterprise Onion Toolkit (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-eotk)
+ep-buddy-report,EfrainPerez23,30504,aws,https://github.com/EfrainPerez23/terraform-aws-ep-buddy-report,
 ephemeral-ecs-runner,Lucas-Hughes,22181,aws,https://github.com/Lucas-Hughes/terraform-aws-ephemeral-ecs-runner,"Module for ephemeral, event driven gitlab runner setup"
 eps,tf-cloud-modules,24578,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-eps,Sbercloud Enterprise Project Management Service (EPS) Terraform module
 epsilonec2,josethf93,8307,aws,https://github.com/josethf93/terraform-aws-epsilonec2,
@@ -8329,6 +8334,7 @@ frontend-web-app,caribouhealth,11776,aws,https://github.com/caribouhealth/terraf
 fronter,strawberryutopia,13471,strawb,https://github.com/strawberryutopia/terraform-strawb-fronter,Who is currently fronting? But as a Terraform module.
 frps,mjmenger,25475,f5xc,https://github.com/mjmenger/terraform-f5xc-frps,
 fs-account-basic,rjminsha,4905,ibmcloud,https://github.com/rjminsha/terraform-ibmcloud-fs-account-basic,"Terraform module providing example setup of IAM Cloud Account with IAM Access Groups, Policy and Logging"
+fsdr,oracle-terraform-modules,30505,oci,https://github.com/oracle-terraform-modules/terraform-oci-fsdr,
 fsx,terraform-aws-modules,23798,aws,https://github.com/terraform-aws-modules/terraform-aws-fsx,Terraform module to create AWS FSx resources 🇺🇦 
 fsx-for-windows,aws-terraform-module,27224,aws,https://github.com/aws-terraform-module/terraform-aws-fsx-for-windows,
 fsx-lustre,niaid,18079,aws,https://github.com/niaid/terraform-aws-fsx-lustre,Terraform Module for a AWS FSx Lustre
@@ -8485,6 +8491,7 @@ gcve,kasna-cloud,12255,google,https://github.com/kasna-cloud/terraform-google-gc
 gcve-dhcp-segments,kalenarndt,13179,nsxt,https://github.com/kalenarndt/terraform-nsxt-gcve-dhcp-segments,Terraform Module to create NSX-T overlay segments and DHCP Servers within Google Cloud VMware Engine
 gcve-mon,kasna-cloud,12681,google,https://github.com/kasna-cloud/terraform-google-gcve-mon,This Terraform module will create a GCVE monitoring agent that can be used in your GCVE project to send logs into Cloud Operations
 gdemo1,GpreetSingh24,18677,azurerm,https://github.com/GpreetSingh24/terraform-azurerm-gdemo1,
+gdp,IBM,30510,guardium,https://github.com/IBM/terraform-guardium-gdp,Guardium Data Protection operations terraform module
 geethasri336,geethasri336,8109,azurerm,https://github.com/geethasri336/terraform-azurerm-geethasri336,public ip 
 gemini-module,peytoncasper,25301,gcp,https://github.com/peytoncasper/terraform-gcp-gemini-module,
 gen-files,schollii,8073,local,https://github.com/schollii/terraform-local-gen-files,Generate helm values files and other config files from terraform state
@@ -11970,6 +11977,7 @@ module-vault-enterprise,einyx,1814,aws,https://github.com/einyx/terraform-aws-va
 module-vpc,JayyyJayyyyy,23922,aws,https://github.com/JayyyJayyyyy/terraform-aws-module-vpc,
 module-vpc,Srikanthj231-Devops,28871,aws,https://github.com/Srikanthj231-Devops/terraform-aws-module-vpc,
 module-vpc,dinhdobathi1992,19246,aws,https://github.com/dinhdobathi1992/terraform-aws-module-vpc,
+module-vpc,vidhya101,30511,aws,https://github.com/vidhya101/terraform-aws-module-vpc,
 module-vpc,vnisolutions,21859,aws,https://github.com/vnisolutions/terraform-aws-module-vpc,
 module-vpc-jbn,jbn1995,26281,aws,https://github.com/jbn1995/terraform-aws-module-vpc-jbn,
 module-vpc-project,martapol1230,16908,google,https://github.com/martapol1230/terraform-google-module-vpc-project,
