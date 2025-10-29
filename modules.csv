@@ -3895,6 +3895,7 @@ cluster-parameter-parser-vsphere,jd4883,14292,supervisory,https://github.com/jd4
 cluster-role,mineiros-io,11360,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-cluster-role,
 cluster-role,ptonini,16965,kubernetes,https://github.com/ptonini/terraform-kubernetes-cluster-role,
 cluster-tls,srb3,10093,kong,https://github.com/srb3/terraform-kong-cluster-tls,
+cluster-wip,EspenAlbert,30518,mongodbatlas,https://github.com/EspenAlbert/terraform-mongodbatlas-cluster-wip,
 cluster_free_tier,wiseupdata,22099,oci,https://github.com/wiseupdata/terraform-oci-vm_cluster_free_tier,
 clusterload,3191110276,8156,kubernetes,https://github.com/3191110276/terraform-kubernetes-clusterload,
 cm,terraform-tencentcloud-modules,19053,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cm,
@@ -8592,9 +8593,9 @@ github-oidc-provider,truemark,18049,aws,https://github.com/truemark/terraform-aw
 github-oidc-provisioner,truemark,18270,aws,https://github.com/truemark/terraform-aws-github-oidc-provisioner,
 github-oidc-role,chrispsheehan,27735,aws,https://github.com/chrispsheehan/terraform-aws-github-oidc-role,A terraform module for creating a self updating github OIDC role for AWS resources
 github-oidc-role,stroeer,30346,aws,https://github.com/stroeer/terraform-aws-github-oidc-role,Terraform module to manage an AWS IAM role to use in GitHub actions
-github-org,ngs,4917,cloudflare,https://github.com/ngs/terraform-cloudflare-github-org,CloudFlare Terraform module for setup GitHub organization verification.
+github-org,ngs,4917,cloudflare,https://github.com/ngs/terraform-cloudflare-github-org,
 github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terraform-dnsimple-github-org-verification,Terraform Module: GitHub Organization verification record for DNSimple
-github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,CloudFlare Terraform module for setup GitHub Pages.
+github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,
 github-pages-dns,robbyoconnor,10602,cloudflare,https://github.com/robbyoconnor/terraform-cloudflare-github-pages-dns,Terraform Module to add the DNS entries required for GitHub pages with a custom domain name
 github-pages-lambda,DustinAlandzes,25985,aws,https://github.com/DustinAlandzes/terraform-aws-github-pages-lambda,Terraform module for quickly creating a website with a form you can submit
 github-private-hosted-runner,RCFromCLE,29933,azurerm,https://github.com/RCFromCLE/terraform-azurerm-github-private-hosted-runner,Terraform module that enables private code deployments from GitHub to Azure within a given vnet/snet.
@@ -8816,7 +8817,7 @@ google-slo-generator,heureka,12151,kubernetes,https://github.com/heureka/terrafo
 google-slo-generator-client,heureka,12204,kubernetes,https://github.com/heureka/terraform-kubernetes-google-slo-generator-client,Client for calling Google's SLO Generator
 google-workspace,c0x12c,29348,gcp,https://github.com/c0x12c/terraform-gcp-google-workspace,
 google-workspace,data-platform-hq,20646,databricks,https://github.com/data-platform-hq/terraform-databricks-google-workspace,
-google-workspace,ngs,11956,cloudflare,https://github.com/ngs/terraform-cloudflare-google-workspace,CloudFlare Terraform module for setup Google Workspace.
+google-workspace,ngs,11956,cloudflare,https://github.com/ngs/terraform-cloudflare-google-workspace,
 google-workspace-group,c0x12c,29732,gcp,https://github.com/c0x12c/terraform-gcp-google-workspace-group,
 google_filestore,livelink,4004,livelink,https://github.com/livelink/terraform-livelink-google_filestore,
 google_folders,orion-global,17678,google,https://github.com/orion-global/terraform-google-google_folders,Este módulo permite la creación y administración de carpetas de manera anidada y fácil de desplegar
@@ -12255,7 +12256,7 @@ multi-ec2-module,kunchalavikram1427,21686,aws,https://github.com/kunchalavikram1
 multi-ec2-module,sandeepkumar1701,22710,aws,https://github.com/sandeepkumar1701/terraform-aws-multi-ec2-module,
 multi-iam-opinionated,bootlabstech,12742,google,https://github.com/bootlabstech/terraform-google-multi-iam-opinionated,
 multi-provider-example,naveen-vijay,9187,aws,https://github.com/naveen-vijay/terraform-aws-multi-provider-example,
-multi-region-private-network,memes,17746,google,https://github.com/memes/terraform-google-multi-region-private-network,"Terraform module to create a private global VPC network with subnets in the specified regions, with each subnet receiving a CIDR of specified size."
+multi-region-private-network,memes,17746,google,https://github.com/memes/terraform-google-multi-region-private-network,
 multi-stack-backends,schollii,8199,aws,https://github.com/schollii/terraform-aws-multi-stack-backends,"Manage terraform state backends for multiple stacks. Generates backend file for each stack managed. Stacks can consist of multiple tfstate files, and state lock is at stack level for optimum protection of stack state. "
 multi-tenant-peering,farroar,4733,azurerm,https://github.com/farroar/terraform-azurerm-multi-tenant-peering,
 multi-vpc-dynamic-Module,AditiSingh01,15413,AWS,https://github.com/AditiSingh01/terraform-AWS-multi-vpc-dynamic-Module,
@@ -13343,6 +13344,7 @@ office365,ngs,2435,cloudflare,https://github.com/ngs/terraform-cloudflare-office
 office365-domains,cloudspout,4033,aws,https://github.com/cloudspout/terraform-aws-office365-domains,This module for Terraform helps to create the required zone entries to operate a self-managed Office365 domain.
 ohp-ecr,ohpensource,10454,aws,https://github.com/ohpensource/terraform-aws-ohp-ecr,Terraform Module for AWS ECR 
 ohp-s3,ohpensource,10536,aws,https://github.com/ohpensource/terraform-aws-ohp-s3,
+oidc,KOTechnologiesLtd,30512,aws,https://github.com/KOTechnologiesLtd/terraform-aws-oidc,Terraform Module for AWS OIDC
 oidc,appvia,23758,aws,https://github.com/appvia/terraform-aws-oidc,Terraform module for OIDC integration for IAM
 oidc-auth-method,bmcdonald05,15111,vault,https://github.com/bmcdonald05/terraform-vault-oidc-auth-method,Terraform module for the Vault provider for enabling the OIDC auth method and creating an identity group/alias for external group mappings.
 oidc-auth0,TomTucka,16479,boundary,https://github.com/TomTucka/terraform-boundary-oidc-auth0,Terraform module to create OIDC connection in Boundary with Auth0
@@ -16236,6 +16238,7 @@ sagemaker-image-autoattacher,xAdRx,27232,aws,https://github.com/xAdRx/terraform-
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
 sagemaker-playground,epsilonline,27743,aws,https://github.com/epsilonline/terraform-aws-sagemaker-playground,
 sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,
+sagemaker-studio,thulasirajkomminar,30519,aws,https://github.com/thulasirajkomminar/terraform-aws-sagemaker-studio,
 saimodule,SaiDevOpsFaculty,27588,aws,https://github.com/SaiDevOpsFaculty/terraform-aws-saimodule,
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 saltstack,prajwalap1701,25446,aws,https://github.com/prajwalap1701/terraform-aws-saltstack,Create a Saltstack environment using Terraform on AWS Cloud
@@ -19660,6 +19663,7 @@ vpc,djangoflow,14896,google,https://github.com/djangoflow/terraform-google-vpc,O
 vpc,dobby-zent,27646,zent,https://github.com/dobby-zent/terraform-zent-vpc,terraform-zent-vpc
 vpc,doztrock,5133,aws,https://github.com/doztrock/terraform-aws-vpc,Terraform module intended to ease AWS VPC creation.
 vpc,duclh1,20075,aws,https://github.com/duclh1/terraform-aws-vpc,
+vpc,duongnv-pro,30513,aws,https://github.com/duongnv-pro/terraform-aws-vpc,
 vpc,duylinh245,17012,aws,https://github.com/duylinh245/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
 vpc,dwp,2123,aws,https://github.com/dwp/terraform-aws-vpc,A Terraform module to create an AWS VPC with consistent features
 vpc,easy-modules,20235,easy,https://github.com/easy-modules/terraform-easy-vpc,A complete Terraform VPC (Virtual Private Cloud) module is a reusable and configurable set of Terraform resources that allows users to easily provision and manage an isolated network environment on AWS.
@@ -19807,6 +19811,7 @@ vpc,omiradil,8940,aws,https://github.com/omiradil/terraform-aws-vpc,"This module
 vpc,oozou,15130,aws,https://github.com/oozou/terraform-aws-vpc,
 vpc,openmulticloud,19042,aws,https://github.com/openmulticloud/terraform-aws-vpc,
 vpc,opsstation,30362,aws,https://github.com/opsstation/terraform-aws-vpc,
+vpc,opsstation,30517,gcp,https://github.com/opsstation/terraform-gcp-vpc,
 vpc,ortacu,6707,aws,https://github.com/ortacu/terraform-aws-vpc,
 vpc,pashaimran,24699,aws,https://github.com/pashaimran/terraform-aws-vpc,
 vpc,pauldchang,24417,aws,https://github.com/pauldchang/terraform-aws-vpc,
