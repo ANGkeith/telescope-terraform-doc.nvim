@@ -3637,6 +3637,7 @@ cloudguard-network-security,CheckPointSW,27332,azure,https://github.com/CheckPoi
 cloudguard-network-security,CheckPointSW,29134,vmware,https://github.com/CheckPointSW/terraform-vmware-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security (CGNS) on VMware vCenter environments. The modules automate provisioning of both Security Gateways and Management servers, simplifying secure infrastructure setup. Community-supported content allows for flexibility and adaptation to a variety of VMware deployments."
 cloudguard-network-security,CheckPointSW,29967,gcp,https://github.com/CheckPointSW/terraform-gcp-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Google Cloud Platform (GCP).  These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security-cn,lyqwaterway,29871,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security-cn,
+cloudguard-network-security-cn,lyqwaterway,30520,aws,https://github.com/lyqwaterway/terraform-aws-cloudguard-network-security-cn,
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
 cloudinit,SoleksDataGroup,24766,aws,https://github.com/SoleksDataGroup/terraform-aws-cloudinit,
@@ -7333,7 +7334,9 @@ eks-blueprint-konnect-kmesh-zone,Kong,22557,aws,https://github.com/Kong/terrafor
 eks-blueprint-konnect-runtime-instance,Kong,20269,aws,https://github.com/Kong/terraform-aws-eks-blueprint-konnect-runtime-instance,
 eks-blueprints-addon,TerraPros,27821,aws,https://github.com/TerraPros/terraform-aws-eks-blueprints-addon,Terraform AWS module which creates an EKS addon (helm release + IRSA)
 eks-blueprints-addon,TerraformFoundation,27897,aws,https://github.com/TerraformFoundation/terraform-aws-eks-blueprints-addon,Terraform AWS module which creates an EKS addon (helm release + IRSA)
+eks-blueprints-addon,aws-blueprints,30527,aws,https://github.com/aws-blueprints/terraform-aws-eks-blueprints-addon,
 eks-blueprints-addon,aws-ia,18910,aws,https://github.com/aws-ia/terraform-aws-eks-blueprints-addon,Terraform AWS module which creates an EKS addon (helm release + IRSA)
+eks-blueprints-addons,aws-blueprints,30528,aws,https://github.com/aws-blueprints/terraform-aws-eks-blueprints-addons,
 eks-blueprints-addons,aws-ia,19256,aws,https://github.com/aws-ia/terraform-aws-eks-blueprints-addons,Terraform module which provisions addons on Amazon EKS clusters
 eks-blueprints-teams,aws-ia,18911,aws,https://github.com/aws-ia/terraform-aws-eks-blueprints-teams,Configure and deploy Team based multi-tenant EKS clusters.
 eks-bootstrap,squareops,17760,aws,https://github.com/squareops/terraform-aws-eks-bootstrap,Terraform module to bootstrap Elastic Kubernetes Service(EKS) cluster using Addons ( EKS add-ons ) and blueprints.
@@ -8785,7 +8788,6 @@ glue-dev-endpoint,MitocGroup,2540,aws,https://github.com/MitocGroup/terraform-aw
 glue-iam-policy,dod-iac,8335,aws,https://github.com/dod-iac/terraform-aws-glue-iam-policy,Creates an IAM policy for AWS Glue
 glue-iam-role,dod-iac,8049,aws,https://github.com/dod-iac/terraform-aws-glue-iam-role,IAM Role for use as a Glue service role
 glue-job,Flaconi,30225,aws,https://github.com/Flaconi/terraform-aws-glue-job,Terraform module to creates an AWS Glue job
-glue-job,komminarlabs,23005,aws,https://github.com/komminarlabs/terraform-aws-glue-job,Terraform module to create and manage a AWS Glue job
 glue-job,pquintero,11450,aws,https://github.com/pquintero/terraform-aws-glue-job,This repository contains the basic definition for the AWS Glue job deployment
 glue-job,vitalibo,13888,aws,https://github.com/vitalibo/terraform-aws-glue-job,Terraform module which creates Glue Job resources on AWS.
 glue-kms-key,dod-iac,7819,aws,https://github.com/dod-iac/terraform-aws-glue-kms-key,A KMS Key for use with AWS Glue.
@@ -9107,6 +9109,7 @@ helpers,ScottG489,5499,aws,https://github.com/ScottG489/terraform-aws-helpers,He
 helpers,dasmeta,20645,null,https://github.com/dasmeta/terraform-null-helpers,
 helpers,logicalclocks,9059,hopsworksai,https://github.com/logicalclocks/terraform-hopsworksai-helpers,Terraform module that creates the required cloud resources for Hopsworks.ai clusters on AWS and AZURE.
 heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-heroku-master,
+hetzner-cloudwatch-integration,KamranBiglari,30526,aws,https://github.com/KamranBiglari/terraform-aws-hetzner-cloudwatch-integration,
 hetzner-firewall,terraform-awesome-modules,25431,hcloud,https://github.com/terraform-awesome-modules/terraform-hcloud-hetzner-firewall,
 hetzner-lb-firewall-cert-servers,rmalenko,21339,hz,https://github.com/rmalenko/terraform-hz-hetzner-lb-firewall-cert-servers,"Provisioning on Hetzner Cloud  LB, certificates, firewall and several servers"
 hetzner-loadbalancer,hegerdes,24375,hcloud,https://github.com/hegerdes/terraform-hcloud-hetzner-loadbalancer,A terraform module to quicly generate hetzner hcloud loadbalancers and supporting services 🚀
@@ -9964,7 +9967,7 @@ k3s,equinix,10213,metal,https://github.com/equinix-labs/terraform-equinix-metal-
 k3s,fvumbaca,11410,proxmox,https://github.com/fvumbaca/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,harodggg,23120,install,https://github.com/harodggg/terraform-install-k3s,
 k3s,iamalirezaj,7266,module,https://github.com/mrjosh/terraform-module-k3s,k3s terraform module
-k3s,identiops,22848,hcloud,https://github.com/identiops/terraform-hcloud-k3s,Private k3s Kubernetes Terraform installer for Hetzner Cloud
+k3s,identiops,22848,hcloud,https://github.com/identiops/terraform-hcloud-k3s,Private k3s kubernetes terraform installer for Hetzner Cloud
 k3s,innatical,9759,inncloud,https://github.com/innatical-graveyard/terraform-inncloud-k3s,
 k3s,klimer2012,18815,proxmox,https://github.com/klimer2012/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,marshallford,28754,ansible,https://github.com/marshallford/terraform-ansible-k3s,"Provision and operate a Kubernetes cluster with the convenience of a CSP-managed Kubernetes service. Designed for homelabs, on-premises, and edge environments."
@@ -11477,7 +11480,6 @@ managed-disk-snapshot,bootlabstech,18591,azurerm,https://github.com/bootlabstech
 managed-grafana,claranet,26932,azurerm,https://github.com/claranet/terraform-azurerm-managed-grafana,Terraform module for Azure Managed Grafana
 managed-grafana,cloudposee,28052,aws,https://github.com/cloudposee/terraform-aws-managed-grafana,
 managed-grafana,cloudposse,24740,aws,https://github.com/cloudposse/terraform-aws-managed-grafana,
-managed-grafana,komminarlabs,24034,aws,https://github.com/komminarlabs/terraform-aws-managed-grafana,Terraform module to create and manage Amazon Managed Grafana
 managed-identity,ptonini,21931,azurerm,https://github.com/ptonini/terraform-azurerm-managed-identity,
 managed-identity,wanted-cloud,28520,azure,https://github.com/wanted-cloud/terraform-azure-managed-identity,Azure user managed identity Terraform building block module.
 managed-identity-connection,libre-devops,29100,azuredevops,https://github.com/libre-devops/terraform-azuredevops-managed-identity-connection,
@@ -13352,8 +13354,10 @@ oidc-bitbucket,pelotech,21620,aws,https://github.com/pelotech/terraform-aws-oidc
 oidc-github,pelotech,17677,aws,https://github.com/pelotech/terraform-aws-oidc-github,Terraform module to configure GitHub Actions with AWS Identity Provider OIDC
 oidc-github,unfunco,11233,aws,https://github.com/unfunco/terraform-aws-oidc-github,Terraform module to configure GitHub Actions as an OpenID Connect (OIDC) identity provider in AWS.
 oidc-github,vrs-factory,23188,aws,https://github.com/vrs-factory/terraform-aws-oidc-github,
+oidc-github-actions,drizzle-ai-systems,30524,aws,https://github.com/drizzle-ai-systems/terraform-aws-oidc-github-actions,Terraform module to deploy and configure AWS OpenID Connect for Github Actions
 oidc-github-actions-module,moritzheiber,11303,aws,https://github.com/moritzheiber/terraform-aws-oidc-github-actions-module,A Terraform module for dynamically authenticating and authorizing GitHub Actions on AWS using OIDC
 oidc-gitlab,pelotech,17767,aws,https://github.com/pelotech/terraform-aws-oidc-gitlab,Terraform module to configure GitLab runner pipelines with AWS Identity Provider OIDC
+oidc-gitlab,wisk-aero-oss,30529,google,https://github.com/wisk-aero-oss/terraform-google-oidc-gitlab,
 oidc-provider,c0x12c,29638,aws,https://github.com/c0x12c/terraform-aws-oidc-provider,
 oidc-provider,devops-rob,26071,vault,https://github.com/devops-rob/terraform-vault-oidc-provider,
 oidc-provider,jamieastley,26831,aws,https://github.com/jamieastley/terraform-aws-oidc-provider,A Terraform module to create OIDC roles and providers in AWS
@@ -16238,7 +16242,7 @@ sagemaker-image-autoattacher,xAdRx,27232,aws,https://github.com/xAdRx/terraform-
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
 sagemaker-playground,epsilonline,27743,aws,https://github.com/epsilonline/terraform-aws-sagemaker-playground,
 sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,
-sagemaker-studio,thulasirajkomminar,30519,aws,https://github.com/thulasirajkomminar/terraform-aws-sagemaker-studio,
+sagemaker-studio,thulasirajkomminar,30523,aws,https://github.com/thulasirajkomminar/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
 saimodule,SaiDevOpsFaculty,27588,aws,https://github.com/SaiDevOpsFaculty/terraform-aws-saimodule,
 saistorage,sairamc3,15258,azure,https://github.com/sairamc3/terraform-azure-saistorage,
 saltstack,prajwalap1701,25446,aws,https://github.com/prajwalap1701/terraform-aws-saltstack,Create a Saltstack environment using Terraform on AWS Cloud
@@ -19095,6 +19099,7 @@ vinodh,vinodhreddyidisireddy,12278,aws,https://github.com/vinodhreddyidisireddy/
 viraj-publish-test,virajmparekh,12601,google,https://github.com/virajmparekh/terraform-google-viraj-publish-test,Testing Hashicorp Registry Contribution Flow
 virnet,applesoftsol,5581,azurerm,https://github.com/applesoftsol/terraform-azurerm-virnet,
 virtual-desktop,fortytwoservices,24142,azurerm,https://github.com/fortytwoservices/terraform-azurerm-virtual-desktop,Azure Virtual Desktop
+virtual-desktop-host-pool-configuration,miljodir,30525,azurerm,https://github.com/miljodir/terraform-azurerm-virtual-desktop-host-pool-configuration,Creates a AVD host pool with a session host management policy
 virtual-machine,Azure,17546,azurerm,https://github.com/Azure/terraform-azurerm-virtual-machine,Terraform Azure RM Virtual Machine Module
 virtual-machine,OT-terraform-azure-modules,22278,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-virtual-machine,
 virtual-machine,anugnes,680,azure,https://github.com/anugnes/terraform-azure-virtual-machine,Azure Virtual Machine Module for Terraform
