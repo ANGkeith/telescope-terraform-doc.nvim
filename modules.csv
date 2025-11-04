@@ -1955,7 +1955,7 @@ avm-res-compute-gallery,Azure,27155,azurerm,https://github.com/Azure/terraform-a
 avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,"AVM Module for Compute Host groups, also known as Dedicated Host Groups"
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
-avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform AVM module for virtual machines
+avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform Azure Verified Resource Module for Virtual Machine
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,Terraform Azure Verified Resource Module for Container Instance
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,Terraform Azure Verified Resource Module for Azure Container Registry (ACR)
@@ -2868,6 +2868,7 @@ bulk-if-rules,catonetworks,29615,cato,https://github.com/catonetworks/terraform-
 bulk-tls-rules,catonetworks,30535,cato,https://github.com/catonetworks/terraform-cato-bulk-tls-rules,"This module allows you to bulk import TLS Inspection rules and sections from a JSON configuration file, and define the order of those rules and sections within the Cato policy."
 bulk-virtual-network,shannuvijaya,16672,azure,https://github.com/shannuvijaya/terraform-azure-bulk-virtual-network,terraform-azure-bulk-virtual-network
 bulk-wf-rules,catonetworks,29616,cato,https://github.com/catonetworks/terraform-cato-bulk-wf-rules,
+bulk-wnw-rules,catonetworks,30549,cato,https://github.com/catonetworks/terraform-cato-bulk-wnw-rules,"This module allows you to bulk import WAN Network rules and sections from a JSON configuration file, and define the order of those rules and sections within the Cato policy."
 bumpy,apgmckay,29937,module,https://github.com/apgmckay/terraform-module-bumpy,
 butane-snippets,krestomatio,18630,ct,https://github.com/krestomatio/terraform-ct-butane-snippets,Terraform modules to quickly generate butane snippets to config Fedora CoreOS
 byoc,earthly,25137,aws,https://github.com/earthly/terraform-aws-byoc,Deploy Earthly BYOC infrastructure using Terraform
@@ -3881,6 +3882,7 @@ cluster,robertdebock,10734,aws,https://github.com/robertdebock/terraform-aws-clu
 cluster,sdh63,5897,aws,https://github.com/sdh63/terraform-aws-cluster,
 cluster,tagesspiegel,20998,metakube,https://github.com/tagesspiegel/terraform-metakube-cluster,This module creates a new K8s cluster in Metakube at SysEleven.
 cluster,terraform-ibm-modules,6656,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cluster,"Terraform modules to create and work with IBM Kubernetes cluster & Red Hat OpenShift Kubernetes cluster on IBM Cloud (Classic, VPC)"
+cluster,terraform-mongodbatlas-modules,30540,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-cluster,
 cluster,vladbielov,5891,aws,https://github.com/vladbielov/terraform-aws-cluster,
 cluster-advanced-aws,Neddage,16623,mongodbatlas,https://github.com/Neddage/terraform-mongodbatlas-cluster-advanced-aws,"Terraform module which creates an MongoDB Atlas cluster on AWS with VPC peering, using the advanced_cluster resource type. This module is based on guyelia/terraform-aws-mongodbatlas with updated resource types and additional configuration options."
 cluster-api-access,ArieLevs,20221,kubernetes,https://github.com/ArieLevs/terraform-kubernetes-cluster-api-access,Terraform module that prepares kubernetes for remote access
@@ -3895,6 +3897,7 @@ cluster-kubeconfig,janpreet,6992,google,https://github.com/janpreet/terraform-go
 cluster-management,AaronForce1,8016,gitlab,https://github.com/AaronForce1/terraform-gitlab-cluster-management,
 cluster-network,jakoberpf,12458,zerotier,https://github.com/jakoberpf/terraform-zerotier-cluster-network,Terreform module for integrated service deployment
 cluster-parameter-parser-vsphere,jd4883,14292,supervisory,https://github.com/jd4883/terraform-supervisory-cluster-parameter-parser-vsphere,A basic parameter parser for the vsphere provider to support spinning up a supervisory cluster for tanzu kubernetes; written with haproxy in mind but can be improved for more variety of supported use-cases
+cluster-registration,fr6nco,30541,argocd,https://github.com/fr6nco/terraform-argocd-cluster-registration,
 cluster-role,mineiros-io,11360,kubernetes,https://github.com/mineiros-io/terraform-kubernetes-cluster-role,
 cluster-role,ptonini,16965,kubernetes,https://github.com/ptonini/terraform-kubernetes-cluster-role,
 cluster-tls,srb3,10093,kong,https://github.com/srb3/terraform-kong-cluster-tls,
@@ -5921,6 +5924,7 @@ docker-swarm,diogok,241,scaleway,https://github.com/diogok/terraform-scaleway-do
 docker-swarm-firewall,thojkooi,528,digitalocean,https://github.com/thojkooi/terraform-digitalocean-docker-swarm-firewall,Terraform module to configure Docker Swarm mode firewall rules on DigitalOcean.
 docker-swarm-mode,thojkooi,530,digitalocean,https://github.com/thojkooi/terraform-digitalocean-docker-swarm-mode,Terraform module for provisioning a Docker Swarm mode cluster on DigitalOcean
 docker-terra-instance,plnknr,24049,aws,https://github.com/plnknr/terraform-aws-docker-terra-instance,Terraform module which creates a docker and terraform instance resource on AWS.
+docker-test,gokhanwell,30548,aws,https://github.com/gokhanwell/terraform-aws-docker-test,terraform-aws-docker-test
 docker-vm,mseyitoglu,23197,aws,https://github.com/mseyitoglu/terraform-aws-docker-vm,a repo for terraform module
 docker1,shawn135,23147,aws,https://github.com/shawn135/terraform-aws-docker1,Terraform module which creates a docker instance on AWS
 docker1-instance,ahmet-vedat,20771,aws,https://github.com/ahmet-vedat/terraform-aws-docker1-instance,
@@ -6861,6 +6865,7 @@ ecs-elastigroup,ethicalmohit,2694,spotinst,https://github.com/ethicalmohit/terra
 ecs-events-to-slack,fivexl,12926,aws,https://github.com/fivexl/terraform-aws-ecs-events-to-slack,Rules for Amazon EventBridge that fetch ECS events and send that events to Slack
 ecs-execution-role,aisamji,8717,aws,https://github.com/aisamji/terraform-aws-ecs-execution-role,
 ecs-fargate,BrunIF,5279,aws,https://github.com/BrunIF/terraform-aws-ecs-fargate,
+ecs-fargate,JGoutin,30545,aws,https://github.com/JGoutin/terraform-aws-ecs-fargate,Terraform module to deploy AWS ECS service
 ecs-fargate,aric49,10098,aws,https://github.com/aric49/terraform-aws-ecs-fargate,Terraform module which creates Fargate ECS resources on AWS.
 ecs-fargate,aws-ia,9519,aws,https://github.com/aws-ia/terraform-aws-ecs-fargate,AWS ECS Fargate Module
 ecs-fargate,brunordias,7363,aws,https://github.com/brunordias/terraform-aws-ecs-fargate,"Terraform module which provides tasks definitions, services, scaling and load balancing to ECS powered by AWS Fargate."
@@ -9112,7 +9117,7 @@ helpers,ScottG489,5499,aws,https://github.com/ScottG489/terraform-aws-helpers,He
 helpers,dasmeta,20645,null,https://github.com/dasmeta/terraform-null-helpers,
 helpers,logicalclocks,9059,hopsworksai,https://github.com/logicalclocks/terraform-hopsworksai-helpers,Terraform module that creates the required cloud resources for Hopsworks.ai clusters on AWS and AZURE.
 heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-heroku-master,
-hetzner-cloudwatch-integration,KamranBiglari,30526,aws,https://github.com/KamranBiglari/terraform-aws-hetzner-cloudwatch-integration,
+hetzner-cloudwatch-integration,KamranBiglari,30526,aws,https://github.com/KamranBiglari/terraform-aws-hetzner-cloudwatch-integration,Terraform module to monitor Hetzner Cloud resources (Load Balancers & Servers) using AWS CloudWatch. Serverless integration via Step Functions with automated metric collection.
 hetzner-firewall,terraform-awesome-modules,25431,hcloud,https://github.com/terraform-awesome-modules/terraform-hcloud-hetzner-firewall,
 hetzner-lb-firewall-cert-servers,rmalenko,21339,hz,https://github.com/rmalenko/terraform-hz-hetzner-lb-firewall-cert-servers,"Provisioning on Hetzner Cloud  LB, certificates, firewall and several servers"
 hetzner-loadbalancer,hegerdes,24375,hcloud,https://github.com/hegerdes/terraform-hcloud-hetzner-loadbalancer,A terraform module to quicly generate hetzner hcloud loadbalancers and supporting services 🚀
@@ -10341,6 +10346,7 @@ kms,yonetimacademy,19506,aws,https://github.com/yonetimacademy/terraform-aws-kms
 kms-all-inclusive,terraform-ibm-modules,22556,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-kms-all-inclusive,"Supports creating a Key Protect instance, KMS Key Rings and Keys."
 kms-decrypter-module,bschaatsbergen,12514,aws,https://github.com/bschaatsbergen/terraform-aws-kms-decrypter-module,Terraform module to decrypt AWS KMS encrypted values
 kms-key,Infrastrukturait,14357,aws,https://github.com/Infrastrukturait/terraform-aws-kms-key,Terraform module to provision a KMS encryption key
+kms-key,JGoutin,30546,aws,https://github.com/JGoutin/terraform-aws-kms-key,Terraform module to deploy a KMS key
 kms-key,PGBI,2812,aws,https://github.com/PGBI/terraform-aws-kms-key,
 kms-key,SevenPicoForks,17716,aws,https://github.com/SevenPicoForks/terraform-aws-kms-key,Terraform module to provision a KMS key with alias
 kms-key,TerraPros,27831,aws,https://github.com/TerraPros/terraform-aws-kms-key,Terraform module to provision a KMS key with alias
@@ -14669,7 +14675,7 @@ rds-instance-simple,The-Shy7,27752,aws,https://github.com/The-Shy7/terraform-aws
 rds-instanse,Evolve-Cyber-Organization,8768,aws,https://github.com/Evolve-Cyber-Organization/terraform-aws-rds-instanse,
 rds-kms-key,dod-iac,10064,aws,https://github.com/dod-iac/terraform-aws-rds-kms-key,A KMS key used to encrypt data-at-rest stored in RDS
 rds-lambda-db-provisioner,aleks-fofanov,5080,aws,https://github.com/aleks-fofanov/terraform-aws-rds-lambda-db-provisioner,Terraform module to provision database in AWS RDS instance in a VPC
-rds-lambda-postgres-provisioner,SPHTech-Platform,20211,aws,https://github.com/SPHTech-Platform/terraform-aws-rds-lambda-postgres-provisioner,Terraform module to provision a database and user in AWS RDS Postgres instance within a VPC
+rds-lambda-postgres-provisioner,SPHTech-Platform,20211,aws,https://github.com/SPHTech-Platform/terraform-aws-rds-lambda-postgres-provisioner,
 rds-m,ahmadrazalab,26787,aws,https://github.com/ahmadrazalab/terraform-aws-rds-m,terraform-aws-rds-restore-m
 rds-misc,kiwicom,3037,aws,https://github.com/kiwicom/terraform-aws-rds-misc,
 rds-mssql,OT-CLOUD-KIT,12347,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql,
@@ -19510,6 +19516,7 @@ vpc,HristoDimitrovv,23268,aws,https://github.com/HristoDimitrovv/terraform-aws-v
 vpc,Hushaim,20166,module,https://github.com/Hushaim/terraform-module-vpc,
 vpc,Indirka,7733,aws,https://github.com/Indirka/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,Isrealade,28993,aws,https://github.com/Isrealade/terraform-aws-vpc,"This module simplifies the creation of a complete VPC infrastructure on AWS. It allows for the configuration of public and private subnets, NAT Gateways, Internet Gateways, and security groups, providing a flexible and scalable network architecture with customizable options for CIDR blocks and resource tagging."
+vpc,JGoutin,30547,aws,https://github.com/JGoutin/terraform-aws-vpc,Terraform module to manage a simple VPC
 vpc,JakubBialoskorski,23135,aws,https://github.com/JakubBialoskorski/terraform-aws-vpc,Module for AWS VPC
 vpc,JamesWoolfenden,1957,aws,https://github.com/JamesWoolfenden/terraform-aws-vpc,Creates a VPC and public and private sub-nets for a classic AWS VPC set-up
 vpc,JeissonO,9244,aws,https://github.com/JeissonO/terraform-aws-vpc,This module Allows creating a VPC with a NatGateway or with a NatInstance in an Autoscaling Group
