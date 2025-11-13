@@ -2034,6 +2034,7 @@ avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraf
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,Terraform Azure Verified Resource Module for SQL Managed Instance
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,Terraform Azure Verified Resource Module for Azure SQL Server
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
+avm-res-web-connection,Azure,30605,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-connection,Terraform Azure Verified Resource Module for API Connection
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,Terraform Azure Verified Resource Module for App Service Environment
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,Terraform Azure Verified Resource Module for App Service Plan
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,Terraform Azure Verified Resource Module for Web/Function App
@@ -7276,6 +7277,7 @@ eks,oozou,15123,aws,https://github.com/oozou/terraform-aws-eks,Terraform AWS EKS
 eks,ortacu,6955,aws,https://github.com/ortacu/terraform-aws-eks,
 eks,project-octal,14024,aws,https://github.com/project-octal/terraform-aws-eks,Terraform module for deploying AWS EKS clusters
 eks,punkerside,18051,aws,https://github.com/punkerside/terraform-aws-eks,Terraform - Plantilla para crear un cluster Kubernetes (AWS EKS)
+eks,ranjanlamsal,30607,aws,https://github.com/ranjanlamsal/terraform-aws-eks,
 eks,rany01,28489,aws,https://github.com/rany01/terraform-aws-eks,Este módulo cria um cluster EKS na AWS com node group associado.
 eks,rhythmictech,5394,aws,https://github.com/rhythmictech/terraform-aws-eks,A Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS.
 eks,richardsonlima,14607,aws,https://github.com/richardsonlima/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated resources 🇺🇦
@@ -8602,6 +8604,7 @@ github-oidc,infinite-automations,21673,azuread,https://github.com/infinite-autom
 github-oidc,krewenki,16916,aws,https://github.com/krewenki/terraform-aws-github-oidc,A module for setting up and managing AWS/Github OIDC for github actions
 github-oidc,miladbeigi,24311,aws,https://github.com/miladbeigi/terraform-aws-github-oidc,Creates an IAM OIDC Provider for the given account to allow GitHub use two different roles to access the account
 github-oidc,oozou,14502,aws,https://github.com/oozou/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
+github-oidc,otaaaa,30602,google,https://github.com/otaaaa/terraform-google-github-oidc,
 github-oidc,philips-labs,12226,aws,https://github.com/philips-labs/terraform-aws-github-oidc,Terraform module to  setup OIDC with AWS and GH Actions 
 github-oidc,questionablefocus,28742,aws,https://github.com/questionablefocus/terraform-aws-github-oidc,
 github-oidc,rameshcreations,21551,aws,https://github.com/rameshcreations/terraform-aws-github-oidc,Terraform module for Github OIDC
@@ -8721,6 +8724,7 @@ gke,jclopeza,3735,module,https://github.com/jclopeza/terraform-module-gke,
 gke,loughlintuba,17317,google,https://github.com/loughlintuba/terraform-google-gke,
 gke,matti,2530,google,https://github.com/matti/terraform-google-gke,
 gke,nlamirault,6275,google,https://github.com/nlamirault/terraform-google-gke,Terraform module for Google Kubernetes Engine
+gke,ranjanlamsal,30608,google,https://github.com/ranjanlamsal/terraform-google-gke,
 gke,shamal112mn,7134,google,https://github.com/shamal112mn/terraform-google-gke,
 gke,subzone,23878,gcp,https://github.com/subzone/terraform-gcp-gke,
 gke-addons,clouddrove,24533,google,https://github.com/clouddrove/terraform-google-gke-addons,
@@ -10166,6 +10170,7 @@ key-vault,miljodir,22044,azurerm,https://github.com/miljodir/terraform-azurerm-k
 key-vault,ptonini,21933,azurerm,https://github.com/ptonini/terraform-azurerm-key-vault,
 key-vault,telekom-mms,19992,azurerm,https://github.com/telekom-mms/terraform-azurerm-key-vault,A Terraform module that manages the key-vault resources from the azurerm provider.
 key-vault,terraform-az-modules,29387,azure,https://github.com/terraform-az-modules/terraform-azure-key-vault,
+key-vault,terraform-az-modules,30603,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-key-vault,
 key-vault,tomarv2,12426,azure,https://github.com/tomarv2/terraform-azure-key-vault,Terraform module for Azure Key Vault
 key-vault-key,data-platform-hq,20113,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-key,Terraform module for creation Azure Key Vault Keys
 key-vault-secret,data-platform-hq,15913,azurerm,https://github.com/data-platform-hq/terraform-azurerm-key-vault-secret,Terraform module for managing Secrets in Azure Key Vault
@@ -10705,6 +10710,7 @@ label,justtrackio,19089,null,https://github.com/justtrackio/terraform-null-label
 label,lablabs,3506,terraform,https://github.com/lablabs/terraform-terraform-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,lablabs,4069,null,https://github.com/lablabs/terraform-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,opencounter,20506,null,https://github.com/opencounter/terraform-null-label,Internal-use wrapper over the  cloudposse/label/null module
+label,qmugnier,30601,aws,https://github.com/qmugnier/terraform-aws-label,AWS Label Module
 label,radeksimko,21502,null,https://github.com/radeksimko/terraform-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 label,skyfjall,14133,null,https://github.com/skyfjell/terraform-null-label,Strongly Opinionated and Extensible Label Module
 label,skyfjell,14236,null,https://github.com/skyfjell/terraform-null-label,Strongly Opinionated and Extensible Label Module
@@ -15812,6 +15818,7 @@ s3-bucket,grupoadvincula,19277,aws,https://github.com/grupoadvincula/terraform-a
 s3-bucket,gulec2000,7419,aws,https://github.com/gulec2000/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,hadenlabs,13336,aws,https://github.com/hadenlabs/terraform-aws-s3-bucket,Terraform aws s3 bucket
 s3-bucket,hazmei,24552,aws,https://github.com/hazmei/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
+s3-bucket,heinzawthoo,30604,aws,https://github.com/heinzawthoo/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
 s3-bucket,imo2017,21869,aws,https://github.com/imo2017/terraform-aws-s3-bucket,A Terraform module that provisions AWS S3 buckets
 s3-bucket,infrahouse,30278,aws,https://github.com/infrahouse/terraform-aws-s3-bucket,Terraform module for an ISO27001 compliant S3 bucket.
 s3-bucket,jason-morsley,5108,aws,https://github.com/jason-morsley/terraform-aws-s3-bucket,
@@ -19875,7 +19882,6 @@ vpc,pocoq,14312,aws,https://github.com/pocoq/terraform-aws-vpc,
 vpc,polganesh,3747,aws,https://github.com/polganesh/terraform-aws-vpc,Repository for provisioning AWS VPC with Terraform
 vpc,punkerside,18041,aws,https://github.com/punkerside/terraform-aws-vpc,Terraform - Plantilla para crear una Virtual Private Cloud (AWS VPC)
 vpc,pvtamh2bg,16394,aws,https://github.com/pvtamh2bg/terraform-aws-vpc,
-vpc,qmugnier,20148,aws,https://github.com/qmugnier/terraform-aws-vpc,AWS VPC Module
 vpc,quanmanh610,15862,aws,https://github.com/quanmanh610/terraform-aws-vpc,
 vpc,quocanuit,29192,aws,https://github.com/quocanuit/terraform-aws-vpc,
 vpc,ra-leonid,18447,yandex,https://github.com/ra-leonid/terraform-yandex-vpc,
@@ -20224,6 +20230,7 @@ vpc-peering,rallyware,11777,aws,https://github.com/rallyware/terraform-aws-vpc-p
 vpc-peering,rayshoo,21291,aws,https://github.com/rayshoo/terraform-aws-vpc-peering,terraform module for vpc peering
 vpc-peering,rgrizzell,23544,aws,https://github.com/rgrizzell/terraform-aws-vpc-peering,Terraform module to peer two VPCs with support for Route53 Private Zone resolution.
 vpc-peering,sudo-terraform-aws-modules,17150,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-vpc-peering,Terraform module to implement VPC Peering
+vpc-peering,tedilabs,30606,aws,https://github.com/tedilabs/terraform-aws-vpc-peering,
 vpc-peering,thomasbiddle,540,aws,https://github.com/thomasbiddle/terraform-aws-vpc-peering,A Terraform module to configure a VPC Peering connection in AWS.
 vpc-peering-accepter,StayWell,2330,aws,https://github.com/StayWell/terraform-aws-vpc-peering-accepter,Accept a VPC peering connection and build the route required to utilize the connection
 vpc-peering-accepter,jjno91,2064,aws,https://github.com/jjno91/terraform-aws-vpc-peering-accepter,Accept a VPC peering connection and build the route required to utilize the connection
