@@ -1182,7 +1182,7 @@ appcfg,CloudNationHQ,28174,azure,https://github.com/CloudNationHQ/terraform-azur
 appconfig,Catalyst-Consulting-Group,18755,aws,https://github.com/Catalyst-Consulting-Group/terraform-aws-appconfig,Terraform modules for AWS AppConfig 
 appconfig,clowdhaus,10327,aws,https://github.com/terraform-aws-modules/terraform-aws-appconfig,Terraform module to create AWS AppConfig resources 🇺🇦
 appconfig,mikamakusa,25946,aws,https://github.com/mikamakusa/terraform-aws-appconfig,
-appconfig,terraform-aws-modules,13122,aws,https://github.com/terraform-aws-modules/terraform-aws-appconfig,Terraform module which creates AWS AppConfig resources 🇺🇦
+appconfig,terraform-aws-modules,13122,aws,https://github.com/terraform-aws-modules/terraform-aws-appconfig,Terraform module to create AWS AppConfig resources 🇺🇦
 appconfig-backup,sil-org,30461,aws,https://github.com/sil-org/terraform-aws-appconfig-backup,
 appconfig-backup,silinternational,25641,aws,https://github.com/silinternational/terraform-aws-appconfig-backup,AWS AppConfig extension to copy deployed configuration profiles to S3
 appconfig-with-s3-backup,GoCarrot,13648,aws,https://github.com/GoCarrot/terraform-aws-appconfig-with-s3-backup,"Because sometimes AWS AppConfig goes poof with no warning, explanation, or notice."
@@ -2326,6 +2326,7 @@ azure-infrastructure,ikigailabs,25077,ikigai,https://github.com/ikigailabs/terra
 azure-interconnect,maxjahn,5872,oci,https://github.com/maxjahn/terraform-oci-azure-interconnect,Include an OCI-Azure interconnect in your project more easily by using this terraform module
 azure-k8s,ondrejsika,8421,module,https://github.com/ondrejsika/terraform-module-azure-k8s,
 azure-keyvault-secrets-provider,markti,23743,kubernetes,https://github.com/markti/terraform-kubernetes-azure-keyvault-secrets-provider,Connect AKS to Azure KeyVault Secrets Provider
+azure-letsencrypt-keyvault,bicisteadm,30701,module,https://github.com/bicisteadm/terraform-module-azure-letsencrypt-keyvault,
 azure-linux-vm,aworkaround,21640,azurerm,https://github.com/aworkaround/terraform-azurerm-azure-linux-vm,Azure Terraform Module for Virtual Machines
 azure-linux-vm,intel,18342,intel,https://github.com/intel/terraform-intel-azure-linux-vm,Intel Cloud Optimization Module - Azure Linux VM
 azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
@@ -4497,6 +4498,7 @@ cost-budget,binbashar,2587,aws,https://github.com/binbashar/terraform-aws-cost-b
 cost-explorer-monthly-billing-report,mnanchev,5534,aws,https://github.com/mnanchev/terraform-aws-cost-explorer-monthly-billing-report,Monthly Billing Report from cost explorer transformed to csv
 cost-management,unifa-inc,21950,aws,https://github.com/unifa-inc/terraform-aws-cost-management,
 cost-notifier,kristijaneftimovpcg,25395,aws,https://github.com/kristijaneftimovpcg/terraform-aws-cost-notifier,"This module calculates the daily, weekly or monthly cost in AWS, and generates the forecast cost for the current month"
+cost-setup,stacklet,30702,gcp,https://github.com/stacklet/terraform-gcp-cost-setup,
 costcli,brianveldman,29737,azuredevops,https://github.com/brianveldman/terraform-azuredevops-costcli,This Terraform module helps you set up Azure Cost CLI in Azure DevOps and automates the execution of cost reports.🔥
 costnotifier,cloudandthings,12505,aws,https://github.com/cloudandthings/terraform-aws-costnotifier,
 costs,CloudNationHQ,26538,azure,https://github.com/CloudNationHQ/terraform-azure-costs,Terraform module which creates cost management resources used by workloads and accelerators.
@@ -4620,7 +4622,7 @@ custom-role-definitions,Pwd9000-ML,12133,azurerm,https://github.com/Pwd9000-ML/t
 custom-roles,libre-devops,17744,azurerm,https://github.com/libre-devops/terraform-azurerm-custom-roles,Custom Roles module
 custom-vpc,gfortetsanakis,15195,aws,https://github.com/gfortetsanakis/terraform-aws-custom-vpc,
 custom-vpc,quangdvn,14283,aws,https://github.com/quangdvn/terraform-aws-custom-vpc,
-customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module which creates Customer Gateway on AWS 🇺🇦
+customer-gateway,terraform-aws-modules,4058,aws,https://github.com/terraform-aws-modules/terraform-aws-customer-gateway,Terraform module to create AWS Customer Gateway resources 🇺🇦
 customs3module,n-samar-21,24948,aws,https://github.com/n-samar-21/terraform-aws-customs3module,
 cvm,terraform-tencentcloud-modules,16257,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cvm,TencentCloud CVM Storage Module for Terraform
 cw-alarms-to-pagerduty,Senora-dev,29554,aws,https://github.com/Senora-dev/terraform-aws-cw-alarms-to-pagerduty,A Terraform module for creating CloudWatch alarms that send notifications to PagerDuty through SNS integration.
@@ -6885,7 +6887,7 @@ ecs-datadog-agent,hazelops,4847,aws,https://github.com/hazelops/terraform-aws-ec
 ecs-db-migration,lmagalhaes,10902,aws,https://github.com/lmagalhaes/terraform-aws-ecs-db-migration,
 ecs-deploy-pipeline,helhindi,9099,aws,https://github.com/helhindi/terraform-aws-ecs-deploy-pipeline,Terraform Module that provisioning resources for automatic deployment to ECS. (from github repo)
 ecs-deploy-pipeline,ispec-inc,4413,aws,https://github.com/ispec-inc/terraform-aws-ecs-deploy-pipeline,Terraform Module that provisioning resources for automatic deployment to ECS. (from github repo)
-ecs-deployment,infraspecdev,25379,aws,https://github.com/infraspecdev/terraform-aws-ecs-deployment,Terraform module to deploy production-ready applications and services on an existing ECS infra
+ecs-deployment,infraspecdev,25379,aws,https://github.com/infraspecdev/terraform-aws-ecs-deployment,Terraform module to deploy production-ready applications and services on an existing ECS infra.
 ecs-dockerhub-clone,elasticscale,20012,aws,https://github.com/elasticscale/terraform-aws-ecs-dockerhub-clone,Clones Docker Hub images to your private ECR registry
 ecs-drain-lambda,nabeken,18453,aws,https://github.com/nabeken/terraform-aws-ecs-drain-lambda,A Terraform Module that provisions getsocial-rnd/ecs-drain-lambda
 ecs-ec2instances,lorenzoaiello,4014,aws,https://github.com/lorenzoaiello/terraform-aws-ecs-ec2instances,This Terraform module manages EC2 Instances and corresponding auto-scaling group for an existing ECS Cluster.
@@ -14505,6 +14507,7 @@ ram-role,terraform-alicloud-modules,4118,alicloud,https://github.com/alibabaclou
 ram-user,terraform-alicloud-modules,4122,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ram-user," Terraform module which create RAM user on Alibaba Cloud."
 ram-users,kosztkas,1450,alicloud,https://github.com/kosztkas/terraform-alicloud-ram-users,Terraform module which adds list of users with console logon and group membership
 ram-vpc-ecs-cloudmonitor,terraform-alicloud-modules,10387,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ram-vpc-ecs-cloudmonitor,
+ramkumar-test-vpc,Ramkumar-21-gk,30700,aws,https://github.com/Ramkumar-21-gk/terraform-aws-ramkumar-test-vpc,
 rancher,StayWell,4988,aws,https://github.com/StayWell/terraform-aws-rancher,
 rancher,squareops,19415,kubernetes,https://github.com/squareops/terraform-kubernetes-rancher,Terraform module for deploying Rancher on a Kubernetes cluster
 rancher-agent,iplabs,4910,kubernetes,https://github.com/iplabs/terraform-kubernetes-rancher-agent,Terraform module to deploy the Rancher 2 agents a.k.a. cattle-node-agent and cattle-cluster-agent
@@ -16744,7 +16747,7 @@ sentry,ethicalmohit,4437,aws,https://github.com/ethicalmohit/terraform-aws-sentr
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
 server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server,
 server,bayudwiyansatria,11185,hcloud,https://github.com/bayudwiyansatria/terraform-hcloud-server,Terraform Module for Provisioning Hetzner Cloud Server
-server,danylomikula,30692,hcloud,https://github.com/danylomikula/terraform-hcloud-server,
+server,danylomikula,30698,hcloud,https://github.com/danylomikula/terraform-hcloud-server,
 server,dhoppeIT,30400,hcloud,https://github.com/dhoppeIT/terraform-hcloud-server,
 server,dtherhtun,7974,rancher,https://github.com/dtherhtun/terraform-rancher-server,
 server,latitudesh,30229,latitudesh,https://github.com/latitudesh/terraform-latitudesh-server,
@@ -20916,6 +20919,7 @@ wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapp
 wrapper-elasticache,gocloudLa,30108,aws,https://github.com/gocloudLa/terraform-aws-wrapper-elasticache,
 wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,
 wrapper-health-events,gocloudLa,30110,aws,https://github.com/gocloudLa/terraform-aws-wrapper-health-events,Terraform module for AWS Health Events wrapper with IAC best practices
+wrapper-iam,gocloudLa,30699,aws,https://github.com/gocloudLa/terraform-aws-wrapper-iam,
 wrapper-identity-center,gocloudLa,30126,aws,https://github.com/gocloudLa/terraform-aws-wrapper-identity-center,
 wrapper-lambda,gocloudLa,30112,aws,https://github.com/gocloudLa/terraform-aws-wrapper-lambda,
 wrapper-memorydb,gocloudLa,30113,aws,https://github.com/gocloudLa/terraform-aws-wrapper-memorydb,
