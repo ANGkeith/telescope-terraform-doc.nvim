@@ -1764,6 +1764,7 @@ audit-buckets,DNXLabs,5718,aws,https://github.com/DNXLabs/terraform-aws-audit-bu
 audit-config,bootlabstech,20582,google,https://github.com/bootlabstech/terraform-google-audit-config,Creates audit config for a GCP project.
 audit-log,lacework,6439,gcp,https://github.com/lacework/terraform-gcp-audit-log,Terraform module for configuring an integration with Google Cloud Platform Organziations and Projects for Audit Logs analysis
 audit-log-bucket,common-fate,24697,aws,https://github.com/common-fate/terraform-aws-audit-log-bucket,A Terraform module to provision resources for the S3 log destination
+audit-manager,damienjburks,30711,aws,https://github.com/damienjburks/terraform-aws-audit-manager,
 audit-member,DNXLabs,5719,aws,https://github.com/DNXLabs/terraform-aws-audit-member,This terraform module enables guardduty for a member account.
 audit-root,DNXLabs,5720,aws,https://github.com/DNXLabs/terraform-aws-audit-root,This terraform module is an audit module to apply into root account (master).
 audit-trails,terraform-yacloud-modules,30305,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-audit-trails,Terraform module to manage Audit Trails resources within the Yandex.Cloud.
@@ -1925,6 +1926,7 @@ avm-ptn-alz-connectivity-hub-and-spoke-vnet,Azure,28233,azurerm,https://github.c
 avm-ptn-alz-connectivity-hub-and-spoke-vnet,bbtechsys,28445,azurerm,https://github.com/bbtechsys/terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet,The ALZ Platform Landing Zone Connectivity with Hub and Spoke Virtual Networks Pattern Module
 avm-ptn-alz-connectivity-virtual-wan,Azure,28234,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan,Terraform Azure Verified Pattern Module for ALZ Connectivity vWAN
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,Terraform Azure Verified Pattern Module for ALZ Management
+avm-ptn-alz-sub-vending,Azure,30718,azure,https://github.com/Azure/terraform-azure-avm-ptn-alz-sub-vending,Terraform Azure Verified Pattern Module for Subscription Vending
 avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,AVM for Azure Virtual Desktop Insights
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-azuremonitorwindowsagent,Azure,25935,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azuremonitorwindowsagent,
@@ -6889,7 +6891,7 @@ ecs-datadog-agent,hazelops,4847,aws,https://github.com/hazelops/terraform-aws-ec
 ecs-db-migration,lmagalhaes,10902,aws,https://github.com/lmagalhaes/terraform-aws-ecs-db-migration,
 ecs-deploy-pipeline,helhindi,9099,aws,https://github.com/helhindi/terraform-aws-ecs-deploy-pipeline,Terraform Module that provisioning resources for automatic deployment to ECS. (from github repo)
 ecs-deploy-pipeline,ispec-inc,4413,aws,https://github.com/ispec-inc/terraform-aws-ecs-deploy-pipeline,Terraform Module that provisioning resources for automatic deployment to ECS. (from github repo)
-ecs-deployment,infraspecdev,25379,aws,https://github.com/infraspecdev/terraform-aws-ecs-deployment,Terraform module to deploy production-ready applications and services on an existing ECS infra
+ecs-deployment,infraspecdev,25379,aws,https://github.com/infraspecdev/terraform-aws-ecs-deployment,Terraform module to deploy production-ready applications and services on an existing ECS infra.
 ecs-dockerhub-clone,elasticscale,20012,aws,https://github.com/elasticscale/terraform-aws-ecs-dockerhub-clone,Clones Docker Hub images to your private ECR registry
 ecs-drain-lambda,nabeken,18453,aws,https://github.com/nabeken/terraform-aws-ecs-drain-lambda,A Terraform Module that provisions getsocial-rnd/ecs-drain-lambda
 ecs-ec2instances,lorenzoaiello,4014,aws,https://github.com/lorenzoaiello/terraform-aws-ecs-ec2instances,This Terraform module manages EC2 Instances and corresponding auto-scaling group for an existing ECS Cluster.
@@ -10759,7 +10761,8 @@ labels,eazycloudlife,26307,aws,https://github.com/eazycloudlife/terraform-aws-la
 labels,eazycloudlife,26308,azure,https://github.com/eazycloudlife/terraform-azure-labels,"The `terraform-azure-labels` module for Azure provides a standard set of tags to apply across Azure resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your Azure infrastructure."
 labels,eazycloudlife,26309,gcp,https://github.com/eazycloudlife/terraform-gcp-labels,"The `terraform-gcp-labels` module for GCP provides a standard set of tags to apply across GCP resources and cost allocation. It includes labels such as environment, project, owner, and cost center. This simplifies management, improves searchability, and enhances tracking across your GCP infrastructure."
 labels,opsstation,30385,multicloud,https://github.com/opsstation/terraform-multicloud-labels,
-labels,sureshyadav76,24125,google,https://github.com/sureshyadav76/terraform-google-labels,
+labels,sureshyadav76,30712,gcp,https://github.com/sureshyadav76/terraform-gcp-labels,This Terraform module provides a standardized approach to labeling Google Cloud Platform (GCP) resources.
+labels,sureshyadav76,30713,google,https://github.com/sureshyadav76/terraform-google-labels,This Terraform module provides a standardized approach to labeling Google Cloud Platform (GCP) resources.
 labels,terraform-az-modules,30372,azure,https://github.com/terraform-az-modules/terraform-azure-labels,
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
 labs,equinix-labs,21540,equinix,https://github.com/equinix-labs/terraform-equinix-labs,Terraform Equinix Labs v0
@@ -12937,7 +12940,6 @@ network,slitsevych,26424,google,https://github.com/slitsevych/terraform-google-n
 network,slovink,28191,google,https://github.com/slovink/terraform-google-network,
 network,squareops,20046,google,https://github.com/squareops/terraform-google-network,Terraform module to create Networking resources for workload deployment on Google Cloud.
 network,srb3,9264,libvirt,https://github.com/srb3/terraform-libvirt-network,
-network,sureshyadav76,24126,google,https://github.com/sureshyadav76/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,tar-slalom,8708,azurerm,https://github.com/tar-slalom/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,tasdikrahman,372,google,https://github.com/tasdikrahman/terraform-google-network,Terraform module : GCP : for creation of VPC network 
 network,teamdatatonic,7423,gcp,https://github.com/teamdatatonic/terraform-gcp-network,
@@ -17680,6 +17682,7 @@ standard-secret,QuiNovas,1486,aws,https://github.com/QuiNovas/terraform-aws-stan
 standard-tags,flaudisio,17335,aws,https://github.com/flaudisio/terraform-aws-standard-tags,Terraform module to create standardized tags for AWS resources.
 standard-tags,truemark,16601,aws,https://github.com/truemark/terraform-aws-standard-tags,Produces a map of tags following the tagging strategy document at https://doc.clickup.com/45017321/d/h/1axu79-4090/66320c3fa686fba.
 standardbucket,kerryhatcher,13370,aws,https://github.com/kerryhatcher/terraform-aws-standardbucket,
+stapp,CloudNationHQ,30719,azure,https://github.com/CloudNationHQ/terraform-azure-stapp,Terraform module which creates static webapp resources used by workloads and accelerators.
 startup-infrastructure,Sumanth12-afk,30532,aws,https://github.com/Sumanth12-afk/terraform-aws-startup-infrastructure,"A library of production-ready Terraform modules for startups building on AWS. Includes networking, compute, storage, security, DevOps, and monitoring modules that follow AWS Well-Architected best practices. Each module supports S3 and DynamoDB remote state, CI/CD integration, cost optimization, and security baselines."
 startup-scripts,terraform-google-modules,2381,google,https://github.com/terraform-google-modules/terraform-google-startup-scripts,A library of useful startup scripts to embed in VMs created by Terraform
 state,dodevops,18787,aws,https://github.com/dodevops/terraform-aws-state,Highly opinionated terraform state management in AWS
@@ -18219,7 +18222,7 @@ subnet,segateway,20631,azurerm,https://github.com/segateway/terraform-azurerm-su
 subnet,simulator-schandra,27256,azure,https://github.com/simulator-schandra/terraform-azure-subnet,
 subnet,sironite,17406,azurerm,https://github.com/sironite/terraform-azurerm-subnet,Terraform module creates Azure subnet(s)
 subnet,sjones-sot,725,azurerm,https://github.com/jackofallops/terraform-azurerm-subnet,Module for creation of subnets in an existing Virtual Network
-subnet,sureshyadav76,24127,google,https://github.com/sureshyadav76/terraform-google-subnet,Set up a subnet on Google Cloud Platform (GCP)
+subnet,sureshyadav76,30716,google,https://github.com/sureshyadav76/terraform-google-subnet,"The Terraform GCP Subnet Module simplifies and standardizes VPC subnet creation and management, enabling easy deployment of public/private subnets, routes, and NAT configurations with a single flexible setup."
 subnet,terraform-az-modules,29272,azure,https://github.com/terraform-az-modules/terraform-azure-subnet,
 subnet,terraform-az-modules,30570,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-subnet,
 subnet,terraformation,3956,azurerm,https://github.com/terraformation/terraform-azurerm-subnet,
@@ -19227,6 +19230,7 @@ virtual-machine,kumarvna,5443,azurerm,https://github.com/kumarvna/terraform-azur
 virtual-machine,miljodir,22045,azurerm,https://github.com/miljodir/terraform-azurerm-virtual-machine,Creates a virtual machine and connects it to a vnet.
 virtual-machine,philipdvo,12812,azure,https://github.com/philipdvo/terraform-azure-virtual-machine,
 virtual-machine,sagar2395,12775,azurerm,https://github.com/sagar2395/terraform-azurerm-virtual-machine,Terraform module to deploy single or multiple Virtual Machines of Linux or Windows with optional features.
+virtual-machine,terraform-az-modules,30717,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-virtual-machine,
 virtual-machine,terraform-magalu-cloud,24686,mgc,https://github.com/terraform-magalu-cloud/terraform-mgc-virtual-machine,Terraform module to create Virtual Machine in Magalu Cloud
 virtual-machine,vancluever,1193,vsphere,https://github.com/vancluever/terraform-vsphere-virtual-machine,Universal module for deploying vSphere virtual machines with Terraform
 virtual-machine,yashhirulkar701,15479,azure,https://github.com/yashhirulkar701/terraform-azure-virtual-machine,
@@ -19998,6 +20002,7 @@ vpc,srb3,5979,aws,https://github.com/srb3/terraform-aws-vpc,
 vpc,srdrkn,9380,aws,https://github.com/srdrkn/terraform-aws-vpc,
 vpc,srikanth-karthi,28747,aws,https://github.com/srikanth-karthi/terraform-aws-vpc,
 vpc,stoktobekova,7762,aws,https://github.com/stoktobekova/terraform-aws-vpc,
+vpc,sureshyadav76,30715,google,https://github.com/sureshyadav76/terraform-google-vpc,"Virtual Private Cloud (VPC) provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and serverless workloads"
 vpc,swapnamareddy,5156,aws,https://github.com/swapnamareddy/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,tangerkulov,9541,aws,https://github.com/beibars96/terraform-aws-vpc,
 vpc,tarak,2666,opentelekomcloud,https://github.com/tarak/terraform-opentelekomcloud-vpc,Terraform module which creates VPC resources on Open Telekom Cloud (OTC)
@@ -20477,7 +20482,7 @@ vpn,dodevops,8909,azure,https://github.com/dodevops/terraform-azure-vpn,Highly o
 vpn,dutch,8257,digitalocean,https://github.com/dutch/terraform-digitalocean-vpn,Terraform module which creates a personal VPN on DigitalOcean
 vpn,iits-consulting,28374,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-vpn,
 vpn,matthewbaggett,3596,gone,https://github.com/matthewbaggett/terraform-gone-vpn,A Terraform VPN-in-a-can module. 
-vpn,tedilabs,28492,aws,https://github.com/tedilabs/terraform-aws-vpn,"🌳 A sustainable Terraform Package which creates VPN resources (Clienet VPN, Site-to-Site VPN) on AWS"
+vpn,tedilabs,28492,aws,https://github.com/tedilabs/terraform-aws-vpn,
 vpn,telia-oss,1320,aws,https://github.com/telia-oss/terraform-aws-vpn,VPN module for Terraform
 vpn,terracharge,14097,aws,https://github.com/terracharge/terraform-aws-vpn,Module for creating terraform-aws-vpn with provider aws. This description is created automagically
 vpn,terraform-az-modules,30633,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-vpn,
@@ -20919,6 +20924,7 @@ wrapper-cost-control,gocloudLa,30102,aws,https://github.com/gocloudLa/terraform-
 wrapper-documentdb,gocloudLa,30103,aws,https://github.com/gocloudLa/terraform-aws-wrapper-documentdb,
 wrapper-dynamodb,gocloudLa,30104,aws,https://github.com/gocloudLa/terraform-aws-wrapper-dynamodb,
 wrapper-ec2-instance,gocloudLa,30530,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ec2-instance,
+wrapper-ecr,gocloudLa,30721,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecr,
 wrapper-ecs,gocloudLa,30105,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs,
 wrapper-ecs-service,gocloudLa,30106,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs-service,
 wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapper-efs,Terraform module for AWS EFS wrapper with IAC best practices
