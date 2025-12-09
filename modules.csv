@@ -203,6 +203,7 @@ account-baseline,hkebao,11338,alicloud,https://github.com/hkebao/terraform-alicl
 account-baseline,priceloop,16441,aws,https://github.com/priceloop/terraform-aws-account-baseline,Baseline settings for our AWS accounts
 account-bootstrap,akw-devsecops,22288,aws,https://github.com/akw-devsecops/terraform-aws-account-bootstrap,Terraform Module to bootstrap AWS accounts
 account-bootstrap,andyscott1547,16076,aws,https://github.com/andyscott1547/terraform-aws-account-bootstrap,Terraform module to bootstrap a new AWS.
+account-bootstrap,project-init,30819,aws,https://github.com/project-init/terraform-aws-account-bootstrap,
 account-contact,sudo-terraform-aws-modules,18091,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-account-contact,
 account-defaults,geekcell,19558,aws,https://github.com/geekcell/terraform-aws-account-defaults,Terraform AWS account defaults module.
 account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-aws-account-defaults,A Terraform module for configuring account defaults.
@@ -3637,6 +3638,7 @@ cloudfront-security-headers,Lupus-Metallum,8437,aws,https://github.com/Lupus-Met
 cloudfront-sg-updater,coresolutions-ltd,6269,aws,https://github.com/coresolutions-dev/terraform-aws-cloudfront-sg-updater,A Terraform module to automatically update Security Group ingress rules with the latest public Cloudfront IP ranges.
 cloudfront-site,madelabs,19612,aws,https://github.com/madelabs/terraform-aws-cloudfront-site,A Terraform module for managing a S3 hosted web application that is behind CloudFront CDN.
 cloudfront-ssl,lesleh,13277,s3,https://github.com/lesleh/terraform-s3-cloudfront-ssl,
+cloudfront-sso-auth,KamorionLabs,30818,aws,https://github.com/KamorionLabs/terraform-aws-cloudfront-sso-auth,Terraform module to protect CloudFront distributions with AWS Identity Center (SSO) using SAML and Lambda@Edge
 cloudfront-stack,ersanyamarya,15174,aws,https://github.com/ersanyamarya/terraform-aws-cloudfront-stack,
 cloudfront-static-website,Thomas-McKanna,29511,aws,https://github.com/Thomas-McKanna/terraform-aws-cloudfront-static-website,Deploy a static website globally in less than five minutes 💪
 cloudfront-viewer-request-lambda,daringway,6570,aws,https://github.com/wderezin/terraform-aws-cloudfront-viewer-request-lambda,
@@ -6348,6 +6350,7 @@ ec2-autoscale-group,cloudposse,1563,aws,https://github.com/cloudposse/terraform-
 ec2-autoscaling,clouddrove,9195,aws,https://github.com/clouddrove/terraform-aws-ec2-autoscaling,Terraform module will be created EC2 modulewith Autoscaling group.
 ec2-autoscaling,cypik,29789,aws,https://github.com/cypik/terraform-aws-ec2-autoscaling,Terraform module to create an EC2 instance with an Auto Scaling group on AWS.
 ec2-b8u8ec2,dev-b8u8-github1,27570,aws,https://github.com/dev-b8u8-github1/terraform-aws-ec2-b8u8ec2,Training on creating a Terraform Module. Not for Production use please
+ec2-backed-ecs,project-init,30827,aws,https://github.com/project-init/terraform-aws-ec2-backed-ecs,
 ec2-backup,mikmorley,29836,aws,https://github.com/mikmorley/terraform-aws-ec2-backup,
 ec2-base,andreswebs,23697,aws,https://github.com/andreswebs/terraform-aws-ec2-base,
 ec2-basic-layout,binbashar,3799,aws,https://github.com/binbashar/terraform-aws-ec2-basic-layout,Terraform module to deploy a typical EC2 layout that includes an instance with a security group and a dns record.
@@ -10199,6 +10202,7 @@ key-pair-ssm,victorcechinel,8486,aws,https://github.com/victorcechinel/terraform
 key-protect,cloud-native-toolkit,14565,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-key-protect,Terraform module to provision Key Protect into an account
 key-protect,terraform-ibm-modules,16665,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-key-protect,Terraform module to create and work with IBM Key Protect
 key-vault,DeimosCloud,8394,azure,https://github.com/DeimosCloud/terraform-azure-key-vault,
+key-vault,Think-Cube,30831,azure,https://github.com/Think-Cube/terraform-azure-key-vault,
 key-vault,Xat59,18714,azure,https://github.com/Xat59/terraform-azure-key-vault,Terraform module to manage an Azure Key Vault.
 key-vault,avinor,3210,azurerm,https://github.com/avinor/terraform-azurerm-key-vault,Terraform module to create a Key Vault in Azure
 key-vault,aztfm,7444,azurerm,https://github.com/aztfm/terraform-azurerm-key-vault,Terraform module for Microsoft Azure to manage Key Vault resource.
@@ -12320,6 +12324,7 @@ mssql-db,clouddrove,16949,azure,https://github.com/clouddrove/terraform-azure-ms
 mssql-db,cypik,24070,azure,https://github.com/cypik/terraform-azure-mssql-db,
 mssql-db,kumarvna,4825,azurerm,https://github.com/kumarvna/terraform-azurerm-mssql-db,"Terraform Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group. The module can create an auto-failover group with a private link and geo-redundant database for high availability needs."
 mssql-db,ryuzakyl,20522,azurerm,https://github.com/ryuzakyl/terraform-azurerm-mssql-db,"Terraform Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group. The module can create an auto-failover group with a private link and geo-redundant database for high availability needs."
+mssql-server,Think-Cube,30832,azure,https://github.com/Think-Cube/terraform-azure-mssql-server,
 mssql-server,bootlabstech,24619,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-server,
 mssql-server,data-platform-hq,16051,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-server," Terraform module for managing Azure SQL Server"
 mssql-server,libre-devops,27356,azurerm,https://github.com/libre-devops/terraform-azurerm-mssql-server,A module used to deploy a MSSQL server 📅
@@ -16500,6 +16505,7 @@ secret,emyller,12195,aws,https://github.com/emyller/terraform-aws-secret,
 secret,garbetjie,5775,kubernetes,https://github.com/garbetjie/terraform-kubernetes-secret,
 secret,infrahouse,24722,aws,https://github.com/infrahouse/terraform-aws-secret,Terraform module for a secret with owner/writer/reader roles.
 secret,lptech-io,19285,aws,https://github.com/lptech-io/terraform-aws-secret,Terraform module for Secret creation
+secret,project-init,30830,aws,https://github.com/project-init/terraform-aws-secret,
 secret,ptonini,16763,vault,https://github.com/ptonini/terraform-vault-secret,
 secret,tedilabs,12607,aws,https://github.com/tedilabs/terraform-aws-secret,
 secret,terraform-google-modules,2003,google,https://github.com/terraform-google-modules/terraform-google-secret,
@@ -16622,6 +16628,7 @@ secure-s3-bucket-replication,Invicton-Labs,13867,aws,https://github.com/Invicton
 secure-s3-bucket-replication,Kalepa,16035,aws,https://github.com/Kalepa/terraform-aws-secure-s3-bucket-replication,Creates two Invicton-Labs/secure-s3-bucket/aws modules with uni- or bi-directional replication between them.
 secure-ssh-key,rhythmictech,6163,aws,https://github.com/rhythmictech/terraform-aws-secure-ssh-key,"Creates an ssh key with a Lambda data source and saves it in a secrets manager secret, allowing the creation of ssh keys without saving them in state"
 secure-static,M1ke,4713,aws,https://github.com/M1ke/terraform-aws-secure-static,
+secure-static-site,damienjburks,30838,aws,https://github.com/damienjburks/terraform-aws-secure-static-site,
 secure-static-website,fivexl,12187,aws,https://github.com/fivexl/terraform-aws-secure-static-website,"S3, CloudFront, Dynamic Lambda@Edge functions. Based on Terraform AWS modules"
 secure-storage,abdyusma,15377,azurerm,https://github.com/abdyusma/terraform-azurerm-secure-storage,Terraform module to create a secure Azure storage.
 secure-storage-account,ultratendency,20536,azurerm,https://github.com/ultratendency/terraform-azurerm-secure-storage-account,Terraform module for a secure Azure Storage Account.
@@ -17184,6 +17191,7 @@ simple-lambda,barneyparker,22084,aws,https://github.com/barneyparker/terraform-a
 simple-lambda,dongho-jung,27237,aws,https://github.com/dongho-jung/terraform-aws-simple-lambda,Terraform module for Simple Lambda
 simple-loadbalancer,ka-myl,12979,upcloud,https://github.com/ka-myl/terraform-upcloud-simple-loadbalancer,Basic load balancer setup for UpCloud
 simple-login,uceumice,17159,cloudflare,https://github.com/uceumice/terraform-cloudflare-simple-login,
+simple-network,project-init,30828,aws,https://github.com/project-init/terraform-aws-simple-network,
 simple-postgres,srb3,10095,kong,https://github.com/srb3/terraform-kong-simple-postgres,
 simple-private-bucket,PGBI,2829,aws,https://github.com/PGBI/terraform-aws-simple-private-bucket,
 simple-resource-group,wiseupdata,18123,azurerm,https://github.com/wiseupdata/terraform-azurerm-simple-resource-group,
@@ -18085,6 +18093,7 @@ storage-account,cyber-scot,21472,azurerm,https://github.com/cyber-scot/terraform
 storage-account,data-platform-hq,15915,azurerm,https://github.com/data-platform-hq/terraform-azurerm-storage-account,Terraform module for managing Azure Storage Account
 storage-account,getindata,14723,azurerm,https://github.com/getindata/terraform-azurerm-storage-account,Terraform Module for Azure Storage Account
 storage-account,libre-devops,13167,azurerm,https://github.com/libre-devops/terraform-azurerm-storage-account,A module used to generate a storage account :fire:
+storage-account,lupusllc,30829,azurerm,https://github.com/lupusllc/terraform-azurerm-storage-account,
 storage-account,mariuszRep,24094,azurerm,https://github.com/mariuszRep/terraform-azurerm-storage-account,
 storage-account,miljodir,22041,azurerm,https://github.com/miljodir/terraform-azurerm-storage-account,Creates a storage account with support for private endpoints and best security practices
 storage-account,mofaizal,24549,azurerm,https://github.com/mofaizal/terraform-azurerm-storage-account,
@@ -18117,6 +18126,7 @@ storage-bucket,tomarv2,12223,google,https://github.com/tomarv2/terraform-google-
 storage-bucket-iam,mineiros-io,11361,google,https://github.com/mineiros-io/terraform-google-storage-bucket-iam,A Terraform module to manage Identity and Access Management (IAM) Google Cloud Storage (GCS) buckets in Google Cloud https://cloud.google.com/iam/docs/service-accounts
 storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-storage-container,Azure Storage Container Module for Terraform
 storage-container,bytejunkie,7362,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-container,
+storage-container,lupusllc,30834,azurerm,https://github.com/lupusllc/terraform-azurerm-storage-container,
 storage-container,seg-way,20573,azurerm,https://github.com/segateway/terraform-azurerm-storage-container,
 storage-container,segateway,20632,azurerm,https://github.com/segateway/terraform-azurerm-storage-container,
 storage-container,snowplow-devops,19637,azurerm,https://github.com/snowplow-devops/terraform-azurerm-storage-container,
@@ -18228,6 +18238,7 @@ sts-csi-disks,basisai,8331,google,https://github.com/basisai/terraform-google-st
 sts-csi-disks,basisai,8452,aws,https://github.com/basisai/terraform-aws-sts-csi-disks,Create Disks for use with CSI Driver. Optional snapshot policy attached to disks. 
 sts-role-assumption,Invicton-Labs,9132,aws,https://github.com/Invicton-Labs/terraform-aws-sts-role-assumption,A Terraform module for assuming a role via STS and obtaining a temporary token
 sub,CloudNationHQ,28247,azure,https://github.com/CloudNationHQ/terraform-azure-sub,Terraform module which creates subscription resource(s)
+subdomain,project-init,30826,aws,https://github.com/project-init/terraform-aws-subdomain,
 subha-vpc,Subhabrata2468,27215,aws,https://github.com/Subhabrata2468/terraform-aws-subha-vpc,
 subhadips3creation,subhadipdey13,10796,aws,https://github.com/subhadipdey13/terraform-aws-subhadips3creation,
 subminute-lambda-event,Invicton-Labs,10932,aws,https://github.com/Invicton-Labs/terraform-aws-subminute-lambda-event,
@@ -19239,6 +19250,7 @@ verify,gordonbondon,1055,common,https://github.com/gordonbondon/terraform-common
 versa-500cpe-dc,VersaNetworksDev,18822,aws,https://github.com/VersaNetworksDev/terraform-aws-versa-500cpe-dc,
 versa-500cpe-dr,VersaNetworksDev,18823,aws,https://github.com/VersaNetworksDev/terraform-aws-versa-500cpe-dr,
 versa-flexvnf,equinix,8140,equinix,https://github.com/equinix/terraform-equinix-versa-flexvnf,Terraform module for quick deployment of VERSA Networks FlexVNF SD-WAN edge device
+version-manager,project-init,30837,aws,https://github.com/project-init/terraform-aws-version-manager,
 version-source,viccro,18906,viccro,https://github.com/viccro/terraform-viccro-version-source,"Contains versioned ""code"" "
 vertex-ai,GoogleCloudPlatform,24451,google,https://github.com/GoogleCloudPlatform/terraform-google-vertex-ai,Deploy Vertex AI resources
 vertex-cc-service-agent,teamdatatonic,16658,google,https://github.com/teamdatatonic/terraform-google-vertex-cc-service-agent,
@@ -19473,10 +19485,15 @@ vm3nic,Terraform-VMWare-Modules,2408,vsphere,https://github.com/Terraform-VMWare
 vm_cluster_free_tier,wiseupdata,22107,oci,https://github.com/wiseupdata/terraform-oci-vm_cluster_free_tier,
 vm_instance,airasia,4756,google,https://github.com/airasia/terraform-google-vm_instance,Terraform module for a Compute Engine VM Instance in GCP
 vm_qemu,dhoppeIT,28577,proxmox,https://github.com/dhoppeIT/terraform-proxmox-vm_qemu,
-vmapps-blueprint,sentania-labs,30811,vra,https://github.com/sentania-labs/terraform-vra-vmapps-blueprint,
-vmapps-catalogitem,sentania-labs,30812,vra,https://github.com/sentania-labs/terraform-vra-vmapps-catalogitem,
+vmapps-blueprint,sentania-labs,30823,vra,https://github.com/sentania-labs/terraform-vra-vmapps-blueprint,
 vmapps-cloudzone,sentania-labs,30816,vra,https://github.com/sentania-labs/terraform-vra-vmapps-cloudzone,
+vmapps-consume-blueprint,sentania-labs,30820,vra,https://github.com/sentania-labs/terraform-vra-vmapps-consume-blueprint,
+vmapps-consume-catalogitem,sentania-labs,30821,vra,https://github.com/sentania-labs/terraform-vra-vmapps-consume-catalogitem,
+vmapps-flavor-profile,sentania-labs,30825,vra,https://github.com/sentania-labs/terraform-vra-vmapps-flavor-profile,
+vmapps-image-profile,sentania-labs,30822,vra,https://github.com/sentania-labs/terraform-vra-vmapps-image-profile,
 vmapps-nsxcloudaccount,sentania-labs,30815,vra,https://github.com/sentania-labs/terraform-vra-vmapps-nsxcloudaccount,
+vmapps-project,sentania-labs,30824,vra,https://github.com/sentania-labs/terraform-vra-vmapps-project,
+vmapps-vra-machine,sentania-labs,30836,vra,https://github.com/sentania-labs/terraform-vra-vmapps-vra-machine,
 vmapps-vspherecloudaccount,sentania-labs,30814,vra,https://github.com/sentania-labs/terraform-vra-vmapps-vspherecloudaccount,
 vmbot,zyborg-tf,5027,aws,https://github.com/zyborg-tf/terraform-aws-vmbot,Terraform module to deploy the VMBot Lambda Function
 vmcreate,learncode2100,26115,azurerm,https://github.com/learncode2100/terraform-azurerm-vmcreate,
@@ -20542,6 +20559,7 @@ vpn,dodevops,8909,azure,https://github.com/dodevops/terraform-azure-vpn,Highly o
 vpn,dutch,8257,digitalocean,https://github.com/dutch/terraform-digitalocean-vpn,Terraform module which creates a personal VPN on DigitalOcean
 vpn,iits-consulting,28374,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-vpn,
 vpn,matthewbaggett,3596,gone,https://github.com/matthewbaggett/terraform-gone-vpn,A Terraform VPN-in-a-can module. 
+vpn,project-init,30833,aws,https://github.com/project-init/terraform-aws-vpn,
 vpn,tedilabs,28492,aws,https://github.com/tedilabs/terraform-aws-vpn,
 vpn,telia-oss,1320,aws,https://github.com/telia-oss/terraform-aws-vpn,VPN module for Terraform
 vpn,terracharge,14097,aws,https://github.com/terracharge/terraform-aws-vpn,Module for creating terraform-aws-vpn with provider aws. This description is created automagically
