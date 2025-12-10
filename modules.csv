@@ -205,6 +205,7 @@ account-bootstrap,akw-devsecops,22288,aws,https://github.com/akw-devsecops/terra
 account-bootstrap,andyscott1547,16076,aws,https://github.com/andyscott1547/terraform-aws-account-bootstrap,Terraform module to bootstrap a new AWS.
 account-bootstrap,project-init,30819,aws,https://github.com/project-init/terraform-aws-account-bootstrap,
 account-contact,sudo-terraform-aws-modules,18091,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-account-contact,
+account-context,project-init,30849,aws,https://github.com/project-init/terraform-aws-account-context,
 account-defaults,geekcell,19558,aws,https://github.com/geekcell/terraform-aws-account-defaults,Terraform AWS account defaults module.
 account-defaults,infrablocks,3509,aws,https://github.com/infrablocks/terraform-aws-account-defaults,A Terraform module for configuring account defaults.
 account-details,armakuni,21251,aws,https://github.com/armakuni/terraform-aws-account-details,A module that provides various details about the AWS account.
@@ -2021,7 +2022,7 @@ avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Terraform Azure Verified Resource Module for Azure Firewall Policy
 avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,Front Door Web Application Firewall (WAF) Policy
 avm-res-network-ipgroup,Azure,28413,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ipgroup,Terraform Azure Verified Resource Module for IP Groups
-avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
+avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,Terraform Azure Verified Resource Module for Loadbalancer
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,AVM Terraform module for Local Network Gateway
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
 avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,Terraform Azure Verified Resource Module for Network Interface
@@ -4073,6 +4074,7 @@ cognito-custom-message-sender,cruxstack,20228,aws,https://github.com/cruxstack/t
 cognito-custom-message-sender,sgtoj,19948,aws,https://github.com/cruxstack/terraform-aws-cognito-custom-message-sender,Terraform Module to deploy customizable Cognito custom message sender serivce for SMS and email
 cognito-domain,7clouds-terraform-modules,16990,aws,https://github.com/7clouds-terraform-modules/terraform-aws-cognito-domain,
 cognito-elasticsearch,hendrixroa,6558,aws,https://github.com/hendrixroa/terraform-aws-cognito-elasticsearch,Module to provisioning elasticsearch domain protected with cognito.
+cognito-hooks,cruxstack,30845,aws,https://github.com/cruxstack/terraform-aws-cognito-hooks,Terraform module to deploy AWS Lambda handlers for Amazon Cognito triggers.
 cognito-identity-pool-mod,corpit-consulting-public,2800,aws,https://github.com/corpit-consulting-public/terraform-aws-cognito-identity-pool,
 cognito-identity-provider,corpit-consulting-public,3542,aws,https://github.com/corpit-consulting-public/terraform-aws-cognito-identity-provider,
 cognito-lite,JamesWoolfenden,9073,aws,https://github.com/JamesWoolfenden/terraform-aws-cognito-lite,It's about auth
@@ -6690,6 +6692,7 @@ ecr-endpoint,clowdhaus,25835,aws,https://github.com/clowdhaus/terraform-aws-ecr-
 ecr-iam-policy,dod-iac,8299,aws,https://github.com/dod-iac/terraform-aws-ecr-iam-policy,IAM Policy that allows use of AWS ECR
 ecr-image,andreswebs,10224,aws,https://github.com/andreswebs/terraform-aws-ecr-image,Creates an ECR repository and pushes a container image using local bash scripts
 ecr-image,sterliakov,26690,aws,https://github.com/sterliakov/terraform-aws-ecr-image,Simple curl-based terraform module to push a dummy ECR image to streamline ECR+Lambda terraform deployments
+ecr-k8s-credentials,KamranBiglari,30841,aws,https://github.com/KamranBiglari/terraform-aws-ecr-k8s-credentials,Automating AWS ECR Credential Refresh in Kubernetes with Terraform
 ecr-kms-key,dod-iac,7497,aws,https://github.com/dod-iac/terraform-aws-ecr-kms-key,A KMS key used to encrypt data-at-rest stored in ECR
 ecr-lifecycle-policy-rule,doingcloudright,1470,aws,https://github.com/doingcloudright/terraform-aws-ecr-lifecycle-policy-rule,Terraform module which creates a JSON lifecycle policy rule for ECR
 ecr-lifecycle-policy-rule,littlejo,15978,aws,https://github.com/littlejo/terraform-aws-ecr-lifecycle-policy-rule,Create a lifecycle policy rule
@@ -8664,6 +8667,7 @@ github-oidc-provider,truemark,18049,aws,https://github.com/truemark/terraform-aw
 github-oidc-provisioner,truemark,18270,aws,https://github.com/truemark/terraform-aws-github-oidc-provisioner,
 github-oidc-role,chrispsheehan,27735,aws,https://github.com/chrispsheehan/terraform-aws-github-oidc-role,A terraform module for creating a self updating github OIDC role for AWS resources
 github-oidc-role,stroeer,30346,aws,https://github.com/stroeer/terraform-aws-github-oidc-role,Terraform module to manage an AWS IAM role to use in GitHub actions
+github-ops-app,cruxstack,30843,aws,https://github.com/cruxstack/terraform-aws-github-ops-app,"Terraform module to deploy GitHub Ops App on AWS Lambda with API Gateway for team sync, PR compliance, and Slack notifications"
 github-org,ngs,4917,cloudflare,https://github.com/ngs/terraform-cloudflare-github-org,
 github-org-verification,ksatirli,15039,dnsimple,https://github.com/ksatirli/terraform-dnsimple-github-org-verification,Terraform Module: GitHub Organization verification record for DNSimple
 github-pages,ngs,2434,cloudflare,https://github.com/ngs/terraform-cloudflare-github-pages,
@@ -8972,6 +8976,7 @@ groups,sudo-terraform-modules,30727,gitlab,https://github.com/sudo-terraform-mod
 groups-projects,voquis,17247,gitlab,https://github.com/voquis/terraform-gitlab-groups-projects,
 groupsandroles,taimlog,17733,proxmox,https://github.com/taimlog/terraform-proxmox-groupsandroles,
 grp4project,holmesgulnara,24279,aws,https://github.com/holmesgulnara/terraform-aws-grp4project,
+grpc-service,project-init,30847,aws,https://github.com/project-init/terraform-aws-grpc-service,
 gsa-encrypter,onetwopunch,5768,google,https://github.com/onetwopunch/terraform-google-gsa-encrypter,
 gsm-secrets-getter,Conflit-de-Bus,29437,google,https://github.com/Conflit-de-Bus/terraform-google-gsm-secrets-getter,
 gssgdemorg,rajesh0304,16646,azurerm,https://github.com/rajesh0304/terraform-azurerm-gssgdemorg,
@@ -9158,6 +9163,7 @@ helm-reloader,c0x12c,30481,kubernetes,https://github.com/c0x12c/terraform-kubern
 helm-repository,danielemery,13944,aws,https://github.com/danielemery/terraform-aws-helm-repository,Terraform module and documentation for using a cloudflare-proxied s3 bucket as a helm repository
 helm-repository,skyfjall,14130,flux,https://github.com/skyfjell/terraform-flux-helm-repository,Create a FluxCD HelmRepository Custom Resource
 helm-repository,skyfjell,14233,flux,https://github.com/skyfjell/terraform-flux-helm-repository,Create a FluxCD HelmRepository Custom Resource
+helm-service-bot,c0x12c,30839,aws,https://github.com/c0x12c/terraform-aws-helm-service-bot,
 helm3,OJFord,3203,module,https://github.com/OJFord/terraform-module-helm3,Manage Helm Charts with Terraform
 helmrepo,JamesWoolfenden,4162,gcp,https://github.com/JamesWoolfenden/terraform-gcp-helmrepo,A helm repository
 helmrepo,rhythmictech,5091,aws,https://github.com/rhythmictech/terraform-aws-helmrepo,Create an S3 bucket intended to serve as a Helm repo. Configures basic encryption.
@@ -9577,6 +9583,7 @@ iisModule,gethuravi2020,22500,azurerm,https://github.com/gethuravi2020/terraform
 ikev2-hub-spoke-vpn-generator,StratusGrid,5980,fortios,https://github.com/StratusGrid/terraform-fortios-ikev2-hub-spoke-vpn-generator,terraform-fortios-ikev2-hub-spoke-vpn-generator
 iks,terraform-cisco-modules,12014,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-iks,Intersight Kubernetes Service
 iks-iwo,terraform-cisco-modules,9208,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-easy-iks,"The purpose of this module is to show working examples of Intersight Kubernetes Deployment.  Once deployed, install a sample application and the IWO monitoring pod.  Lastly install the Graphana, and Kubernetes Add-On modules."
+iks-ocp-backup-recovery,terraform-ibm-modules,30840,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-iks-ocp-backup-recovery,Automation for configuring backup and recovery for Kubernetes and Openshift clusters on IBM Cloud.
 iks-vpc,cloud-native-toolkit,14563,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-iks-vpc,Module to provision an IBM Cloud IKS cluster on VPC
 ilert-kube-agent,iLert,7863,kubernetes,https://github.com/iLert/terraform-kubernetes-ilert-kube-agent,
 ilm,goolzerg,10062,elk,https://github.com/goolzerg/terraform-elk-ilm,
@@ -10962,7 +10969,7 @@ lambda-function-credential-exfiltration,offensive-terraform,6043,aws,https://git
 lambda-function-mod,corpit-consulting-public,2798,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-function,
 lambda-functions-bucket,QuiNovas,1489,aws,https://github.com/QuiNovas/terraform-aws-lambda-functions-bucket,Creates a bucket as a repository for lambda packages
 lambda-gitflow,toluna-terraform,17342,aws,https://github.com/toluna-terraform/terraform-aws-lambda-gitflow,
-lambda-github-actions,SPHTech-Platform,18747,aws,https://github.com/SPHTech-Platform/terraform-aws-lambda-github-actions,
+lambda-github-actions,SPHTech-Platform,18747,aws,https://github.com/SPHTech-Platform/terraform-aws-lambda-github-actions,Generic module for terraform lambda deployer using github action
 lambda-github-app,npalm,4779,aws,https://github.com/npalm/terraform-aws-lambda-github-app,Terraform module for GitHub App Lambda webhook
 lambda-githubauth,armorfret,2191,aws,https://github.com/armorfret/terraform-aws-lambda-githubauth,Terraform module for provisioning akerl/github-auth-lambda
 lambda-glue-trigger-role,MagusDevOps,6088,aws,https://github.com/MagusDevOps/terraform-aws-lambda-glue-trigger-role,an opinionated module for a global role for lambda to trigger glue jobs
@@ -16779,6 +16786,7 @@ securityhub,snapdocs,8185,aws,https://github.com/snapdocs/terraform-aws-security
 securityhub-batchupdatefindings,infralicious,24761,aws,https://github.com/infralicious/terraform-aws-securityhub-batchupdatefindings,Terraform module to update AWS securityhub findings such as suppressions
 securityhub-summary-email,Gooygeek,10977,aws,https://github.com/Gooygeek/terraform-aws-securityhub-summary-email,Generates and sends a periodic email summarising of Security Hub. Based on https://github.com/aws-samples/aws-security-hub-summary-email
 securityhub-to-sns,rhythmictech,5383,aws,https://github.com/rhythmictech/terraform-aws-securityhub-to-sns,Use CloudWatch to send SecurityHub events to SNS
+securityhubv2-bot,cruxstack,30844,aws,https://github.com/cruxstack/terraform-aws-securityhubv2-bot,Terraform Module to deploy SecurityHub V2 bot on AWS serverless technologies
 seldon,combinator-ml,9110,k8s,https://github.com/combinator-ml/terraform-k8s-seldon,Seldon as a combinator.ml component
 selenium,StayWell,4893,aws,https://github.com/StayWell/terraform-aws-selenium,
 selenoid,4ops,4592,aws,https://github.com/4ops/terraform-aws-selenoid,
@@ -18139,6 +18147,7 @@ storage-integration,getindata,17496,snowflake,https://github.com/getindata/terra
 storage-integration-aws,Snowflake-Labs,13292,snowflake,https://github.com/Snowflake-Labs/terraform-snowflake-storage-integration-aws,To create the base infrastructure for storage only pipelines that load data from S3 to Snowflake.
 storage-jagan,JagannathMeher,26383,azure,https://github.com/JagannathMeher/terraform-azure-storage-jagan,
 storage-lifecyclepolicy,cloudandthings,28442,azurerm,https://github.com/cloudandthings/terraform-azurerm-storage-lifecyclepolicy,Storage Lifecycle Custom Policy
+storage-management-policy,lupusllc,30846,azurerm,https://github.com/lupusllc/terraform-azurerm-storage-management-policy,
 storage-master,srinathgadalaye,19566,azurerm,https://github.com/srinathgadalaye/terraform-azurerm-storage-master,
 storage-module,hemantbhosale916,25686,azure,https://github.com/hemantbhosale916/terraform-azure-storage-module,
 storage-monitor,arivictor,19259,google,https://github.com/arivictor/terraform-google-storage-monitor,Basic module to monitor object count in buckets.
@@ -18894,6 +18903,7 @@ traefik-v2,colinwilson,5863,docker,https://github.com/colinwilson/terraform-dock
 traefik_1_7,basisai,6952,kubernetes,https://github.com/basisai/terraform-kubernetes-traefik_1_7,Terraform Traefik 1.7 on Kubernetes
 traffic-director,nlamirault,10685,google,https://github.com/nlamirault/terraform-google-traffic-director,Terraform module for Google Traffic Director
 traffic-high-4xx-errors-on-traffic-server,terraform-shoreline-modules,20368,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-traffic-high-4xx-errors-on-traffic-server,This repository was generated automatically based on a Shoreline Insights Runbook.
+traffic-management,project-init,30850,aws,https://github.com/project-init/terraform-aws-traffic-management,
 traffic-manager,guidalabs,10285,azure,https://github.com/guidalabs/terraform-azure-traffic-manager,
 traffic-traffic-server-5xx-errors-higher-than-usual,terraform-shoreline-modules,20294,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-traffic-traffic-server-5xx-errors-higher-than-usual,This repository was generated automatically based on a Shoreline Insights Runbook.
 trafficmirror,JamesWoolfenden,5347,aws,https://github.com/JamesWoolfenden/terraform-aws-trafficmirror,Basic Trafficmirror module
@@ -19489,6 +19499,7 @@ vmapps-blueprint,sentania-labs,30823,vra,https://github.com/sentania-labs/terraf
 vmapps-cloudzone,sentania-labs,30816,vra,https://github.com/sentania-labs/terraform-vra-vmapps-cloudzone,
 vmapps-consume-blueprint,sentania-labs,30820,vra,https://github.com/sentania-labs/terraform-vra-vmapps-consume-blueprint,
 vmapps-consume-catalogitem,sentania-labs,30821,vra,https://github.com/sentania-labs/terraform-vra-vmapps-consume-catalogitem,
+vmapps-deployment,sentania-labs,30848,vra,https://github.com/sentania-labs/terraform-vra-vmapps-deployment,
 vmapps-flavor-profile,sentania-labs,30825,vra,https://github.com/sentania-labs/terraform-vra-vmapps-flavor-profile,
 vmapps-image-profile,sentania-labs,30822,vra,https://github.com/sentania-labs/terraform-vra-vmapps-image-profile,
 vmapps-nsxcloudaccount,sentania-labs,30815,vra,https://github.com/sentania-labs/terraform-vra-vmapps-nsxcloudaccount,
@@ -20676,6 +20687,7 @@ waf-standard,7clouds-terraform-modules,15905,aws,https://github.com/7clouds-terr
 waf-webacl-supporting-resources,Dr4il,3305,aws,https://github.com/Dr4il/terraform-aws-waf-webacl-supporting-resources,A module to create several resources needed by AWS WAF WebACL.
 waf-webaclv2,Dugera27,16131,aws,https://github.com/Dugera27/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf-webaclv2,DugeraProve,21941,aws,https://github.com/DugeraProve/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
+waf-webaclv2,cruxstack,30842,aws,https://github.com/cruxstack/terraform-aws-waf-webaclv2,Terraform module to configure WAF Web ACL V2 for Application Load Balancer or Cloudfront distribution.
 waf-webaclv2,dasmeta,20232,aws,https://github.com/dasmeta/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf-webaclv2,devopsbeast,12054,aws,https://github.com/devopsbeast/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
 waf-webaclv2,umotif-public,4442,aws,https://github.com/umotif-public/terraform-aws-waf-webaclv2,Terraform module to configure WAF V2 Web ACL with managed rules for Application Load Balancer
