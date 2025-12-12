@@ -5095,7 +5095,6 @@ dlm-lifecycle-policies,julien-langlois,4502,aws,https://github.com/julien-langlo
 dlm-role,limitusus,8997,aws,https://github.com/limitusus/terraform-aws-dlm-role,Data Lifecycle Manager (DLM) role
 dlmautosnapshot,JamesWoolfenden,1954,aws,https://github.com/JamesWoolfenden/terraform-aws-dlmautosnapshot,Automates snapshots using the new DLM policy support in AWS and Terraform
 dlq,genstackio,8004,aws,https://github.com/genstackio/terraform-aws-dlq,Terraform module to create AWS SNS+SQS+S3 resources to handle Dead Letter Queue (DLQ)
-dls,arne-vl,27766,azurerm,https://github.com/arne-vl/terraform-azurerm-dls,"Terraform module that creates a storage account with bronze, silver and gold containers."
 dms,SevenPico,17975,aws,https://github.com/SevenPico/terraform-aws-dms,Terraform modules for provisioning and managing AWS DMS resources
 dms,cloudposee,27992,aws,https://github.com/cloudposee/terraform-aws-dms,Terraform modules for provisioning and managing AWS DMS resources
 dms,cloudposse,15103,aws,https://github.com/cloudposse/terraform-aws-dms,Terraform modules for provisioning and managing AWS DMS resources
@@ -6990,6 +6989,7 @@ ecs-load-balancer,infrablocks,650,aws,https://github.com/infrablocks/terraform-a
 ecs-metric-alarms,dod-iac,7804,aws,https://github.com/dod-iac/terraform-aws-ecs-metric-alarms,Creates metric alarms for use with a ECS Service
 ecs-modules,lgabrieldiniz05,27524,aws,https://github.com/lgabrieldiniz05/terraform-aws-ecs-modules,
 ecs-mongo,clibot,5159,aws,https://github.com/o0th/terraform-aws-ecs-mongo,terraform module for mongo on ecs fargate
+ecs-monitor,c0x12c,30878,datadog,https://github.com/c0x12c/terraform-datadog-ecs-monitor,
 ecs-monitor,delivops,30246,aws,https://github.com/delivops/terraform-aws-ecs-monitor,
 ecs-monitoring,justtrackio,18035,aws,https://github.com/justtrackio/terraform-aws-ecs-monitoring,Terraform module which implements ECS container and instance monitoring.
 ecs-nginx-proxy,hazelops,6271,aws,https://github.com/hazelops/terraform-aws-ecs-nginx-proxy,Add ability to add a proxy in front of any ECS container dynamically
@@ -8080,6 +8080,7 @@ f5-demo-bootstrap,memes,30206,google,https://github.com/memes/terraform-google-f
 f5-distributed-cloud-role,memes,15687,google,https://github.com/memes/terraform-google-f5-distributed-cloud-role,Terraform module to create a Google Cloud IAM role suitable for use with F5 Distributed Cloud
 fabric,equinix,22070,equinix,https://github.com/equinix/terraform-equinix-fabric,Terraform Equinix Fabric Modules
 fabric,terraform-cisco-modules,16180,aci,https://github.com/terraform-cisco-modules/terraform-aci-fabric,Terraform - ACI > Fabric Module
+fabric-capacity,lupusllc,30879,azurerm,https://github.com/lupusllc/terraform-azurerm-fabric-capacity,
 fabric-connection,equinix-labs,12728,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection,Terraform module to create an Equinix Fabric L2 Connection
 fabric-connection-alibaba,equinix-labs,13202,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-alibaba,Terraform module to create an ECX Fabric L2 Connection to Alibaba Express Connect
 fabric-connection-aws,equinix-labs,12729,equinix,https://github.com/equinix-labs/terraform-equinix-fabric-connection-aws,Terraform module to create an ECX Fabric L2 Connection to AWS Direct Connect
@@ -11824,6 +11825,8 @@ mesh-ecs,toluna-terraform,15494,aws,https://github.com/toluna-terraform/terrafor
 meshplatform,meshcloud,12421,aws,https://github.com/meshcloud/terraform-aws-meshplatform,Terraform module to integrate AWS as a meshPlatform
 meshplatform,meshcloud,12487,gcp,https://github.com/meshcloud/terraform-gcp-meshplatform,Terraform module to integrate GCP as a meshPlatform 
 meshplatform,meshcloud,12488,azure,https://github.com/meshcloud/terraform-azure-meshplatform,Terraform module to integrate Azure as a meshPlatform
+meshplatform,meshcloud,30875,kubernetes,https://github.com/meshcloud/terraform-kubernetes-meshplatform,
+meshplatform,meshcloud,30876,aks,https://github.com/meshcloud/terraform-aks-meshplatform,
 message-template,cloud-labs-infra,21799,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-message-template,
 messages,echoingfriend,25075,linux,https://github.com/echoingfriend/terraform-linux-messages,
 messages,neonembrace,25029,linux,https://github.com/neonembrace/terraform-linux-messages,A module for tests only
@@ -14282,6 +14285,7 @@ project,qbeyond,17452,google,https://github.com/qbeyond/terraform-google-project
 project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-project,Terraform Module for Digital Ocean projects
 project,ryanef,23425,tfe,https://github.com/ryanef/terraform-tfe-project,
 project,sentania-labs,30858,vra,https://github.com/sentania-labs/terraform-vra-project,
+project,terraform-launchdarkly-modules,30874,launchdarkly,https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project,
 project,tf-cloud-modules,15050,aiven,https://github.com/tf-cloud-modules/terraform-aiven-project,
 project,ttacon,8216,sentry,https://github.com/ttacon/terraform-sentry-project,An opinionated take on how to structure Sentry projects in terraform
 project,tylottr-iac,20457,azuredevops,https://github.com/tylottr-iac/terraform-azuredevops-project,A Terraform module used to create and manage an Azure Devops project.
@@ -15557,6 +15561,7 @@ role-assignment,andrewCluey,8986,azurerm,https://github.com/andrewCluey/terrafor
 role-assignment,cyber-scot,21368,azurerm,https://github.com/cyber-scot/terraform-azurerm-role-assignment,"A module used to assign a role to something in Azure, it will also lookup up the role ID if you know the name, or use the ID to look up the name 👆"
 role-assignment,data-platform-hq,16001,azurerm,https://github.com/data-platform-hq/terraform-azurerm-role-assignment,Terraform module for managing Azure RBAC assignments
 role-assignment,libre-devops,23691,azurerm,https://github.com/libre-devops/terraform-azurerm-role-assignment,"A module used to assign a role to something in Azure, it will also lookup up the role ID if you know the name, or use the ID to look up the name 👆"
+role-assignment,lupusllc,30877,azurerm,https://github.com/lupusllc/terraform-azurerm-role-assignment,
 role-assignment,tomarv2,12428,azure,https://github.com/tomarv2/terraform-azure-role-assignment,Terraform module to create Azure Role assignment
 role-assignment,wanted-cloud,28636,azure,https://github.com/wanted-cloud/terraform-azure-role-assignment,Simple Terraform building blog wrapping resources around Azure IAM role assignment.
 role-based-access,toluna-terraform,22542,aws,https://github.com/toluna-terraform/terraform-aws-role-based-access,
