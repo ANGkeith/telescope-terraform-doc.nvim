@@ -1066,6 +1066,7 @@ api-mock,barneyparker,4680,aws,https://github.com/barneyparker/terraform-aws-api
 api-permissions,Cyb3r-Jak3,20538,cloudflare,https://github.com/Cyb3r-Jak3/terraform-cloudflare-api-permissions,This is a simple terraform module that get all the possible permissions for a Cloudflare API token. Can use as a replacement for `cloudflare_api_token_permission_groups` data source. 
 api-router,causa-io,21351,google,https://github.com/causa-io/terraform-google-api-router,A Terraform module that manages Cloud Load Balancing resources to expose several services as a unified API.
 api-security,srb3,9423,okta,https://github.com/srb3/terraform-okta-api-security,
+api-service,project-init,30882,aws,https://github.com/project-init/terraform-aws-api-service,
 api-sns,DemystData,6943,aws,https://github.com/DemystData/terraform-aws-api-sns,
 api-sns,barneyparker,4682,aws,https://github.com/barneyparker/terraform-aws-api-sns,
 api-sqs,barneyparker,4771,aws,https://github.com/barneyparker/terraform-aws-api-sqs,
@@ -8662,7 +8663,7 @@ github-oidc,philips-labs,12226,aws,https://github.com/philips-labs/terraform-aws
 github-oidc,questionablefocus,28742,aws,https://github.com/questionablefocus/terraform-aws-github-oidc,
 github-oidc,rameshcreations,21551,aws,https://github.com/rameshcreations/terraform-aws-github-oidc,Terraform module for Github OIDC
 github-oidc,saidsef,16406,aws,https://github.com/saidsef/terraform-aws-github-oidc,
-github-oidc,saidsef,21553,gcp,https://github.com/saidsef/terraform-gcp-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in GCP
+github-oidc,saidsef,21553,gcp,https://github.com/saidsef/terraform-gcp-github-oidc,
 github-oidc-iam,naftulikay,21604,aws,https://github.com/naftulikay/terraform-aws-github-oidc-iam,A Terraform module for AWS which sets up an IAM OpenID Connect Provider for GitHub and GitHub Actions.
 github-oidc-iam,srajasimman,27628,aws,https://github.com/srajasimman/terraform-aws-github-oidc-iam,Terraform module for set up OIDC and IAM for GitHub Actions in your AWS accounts
 github-oidc-iam-role,amberhq,17380,aws,https://github.com/amberhq/terraform-aws-github-oidc-iam-role,Terraform module to provision resources to authenticate using OpenID Connect  with AWS in Github Actions workflows
@@ -11222,6 +11223,7 @@ lb-controller,basisai,8543,aws,https://github.com/basisai/terraform-aws-lb-contr
 lb-dcos,dcos-terraform,1655,azurerm,https://github.com/dcos-terraform/terraform-azurerm-lb-dcos,This module creates three load balancers for DC/OS.
 lb-dcos,dcos-terraform,1841,aws,https://github.com/dcos-terraform/terraform-aws-lb-dcos,AWS LB DC/OS
 lb-http,GoogleCloudPlatform,18,google,https://github.com/terraform-google-modules/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
+lb-http,Red43Angel,30880,google,https://github.com/Red43Angel/terraform-google-lb-http,
 lb-http,TerraPros,27865,google,https://github.com/TerraPros/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-http,TerraformFoundation,27941,google,https://github.com/TerraformFoundation/terraform-google-lb-http,Creates a global HTTP load balancer for Compute Engine by using forwarding rules
 lb-http,cypik,24024,google,https://github.com/cypik/terraform-google-lb-http,
@@ -14285,7 +14287,6 @@ project,qbeyond,17452,google,https://github.com/qbeyond/terraform-google-project
 project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-project,Terraform Module for Digital Ocean projects
 project,ryanef,23425,tfe,https://github.com/ryanef/terraform-tfe-project,
 project,sentania-labs,30858,vra,https://github.com/sentania-labs/terraform-vra-project,
-project,terraform-launchdarkly-modules,30874,launchdarkly,https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project,
 project,tf-cloud-modules,15050,aiven,https://github.com/tf-cloud-modules/terraform-aiven-project,
 project,ttacon,8216,sentry,https://github.com/ttacon/terraform-sentry-project,An opinionated take on how to structure Sentry projects in terraform
 project,tylottr-iac,20457,azuredevops,https://github.com/tylottr-iac/terraform-azuredevops-project,A Terraform module used to create and manage an Azure Devops project.
@@ -18665,7 +18666,7 @@ terraform-cloud-agent,redeux,6498,kubernetes,https://github.com/redeux/terraform
 terraform-cloud-credential,Azure-Terraformer,30083,azuread,https://github.com/Azure-Terraformer/terraform-azuread-terraform-cloud-credential,
 terraform-cloud-jwt-auth,hashi-strawb,17805,vault,https://github.com/hashi-strawb/terraform-vault-terraform-cloud-jwt-auth,"Configures a JWT Auth method in Vault for Terraform Cloud, and configures Terraform Cloud Workspaces with the required variables to use this auth method"
 terraform-cloud-oidc,saidsef,17726,aws,https://github.com/saidsef/terraform-aws-terraform-cloud-oidc,
-terraform-cloud-oidc,saidsef,21584,gcp,https://github.com/saidsef/terraform-gcp-terraform-cloud-oidc,Terraform Cloud Dynamic Credentials module as an IAM OIDC identity provider in GCP
+terraform-cloud-oidc,saidsef,21584,gcp,https://github.com/saidsef/terraform-gcp-terraform-cloud-oidc,
 terraform-cloud-operator,aareet,7905,kubernetes,https://github.com/aareet/terraform-kubernetes-terraform-cloud-operator,Install the Terraform Cloud Operator into your Kubernetes cluster
 terraform-cloud-operator,hashicorp,10001,kubernetes,https://github.com/hashicorp/terraform-kubernetes-terraform-cloud-operator,Install the Terraform Cloud Operator into your Kubernetes cluster
 terraform-enterprise,terraform-ibm-modules,30648,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-terraform-enterprise,This repository provides a top-level Terraform module for deploying and managing HashiCorp Terraform Enterprise (TFE) on IBM Cloud Red Hat OpenShift clusters.
@@ -19154,6 +19155,7 @@ vanrathTest,ThomasVanR,24874,azure,https://github.com/ThomasVanR/terraform-azure
 vanta,c0x12c,29314,aws,https://github.com/c0x12c/terraform-aws-vanta,
 vanta,highwingio,17382,aws,https://github.com/highwingio/terraform-aws-vanta,Terraform module for configuring Vanta monitoring
 vantage-integration,vantage-sh,18371,aws,https://github.com/vantage-sh/terraform-aws-vantage-integration,Terraform modules for integrating AWS with Vantage
+vantage-integration,vantage-sh,30883,databricks,https://github.com/vantage-sh/terraform-databricks-vantage-integration,Terraform module for integrating Databricks (V2) with Vantage
 vapp,rolando-anton,6165,vsphere,https://github.com/rolando-anton/terraform-vsphere-vapp,
 vapp,telia-oss,17226,vcd,https://github.com/telia-oss/terraform-vcd-vapp,
 var,HappyPathway,25651,env,https://github.com/HappyPathway/terraform-env-var,Terraform Module
@@ -20956,6 +20958,7 @@ workspace,flowingis,13217,tfe,https://github.com/flowingis/terraform-tfe-workspa
 workspace,foss-cafe,7264,tfe,https://github.com/ionicloud/terraform-tfe-workspace,Terraform Module for managing TFE workspaces
 workspace,hashicorp-modules,1533,tfe,https://github.com/hashicorp-modules/terraform-tfe-workspace,Module for getting started with TFE workspaces.
 workspace,julzor42,26317,coder,https://github.com/julzor42/terraform-coder-workspace,A generic workspace module for Coder
+workspace,lupusllc,30881,fabric,https://github.com/lupusllc/terraform-fabric-workspace,
 workspace,mmcelreath,14819,tfe,https://github.com/mmcelreath/terraform-tfe-workspace,Terraform module for creating Terraform Cloud/Enterprise workspaces.
 workspace,multani,23523,tfc,https://github.com/multani/terraform-tfc-workspace,
 workspace,nephosolutions,3144,tfe,https://github.com/nephosolutions/terraform-tfe-workspace,This module provisions a Terraform Cloud Enterprise workspace.
