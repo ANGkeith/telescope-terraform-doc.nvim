@@ -1337,6 +1337,7 @@ arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2
 arc-ec2-autoscale-group,sourcefuse,28806,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2-autoscale-group,
 arc-ecr,sourcefuse,30377,aws,https://github.com/sourcefuse/terraform-aws-arc-ecr,
 arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,Repo for managing the ECS Fargate Terraform Module.
+arc-efs,sourcefuse,30916,aws,https://github.com/sourcefuse/terraform-aws-arc-efs,Terraform module for EFS
 arc-eks,sourcefuse,21304,aws,https://github.com/sourcefuse/terraform-aws-arc-eks,Repo for managing the EKS Terraform Module.
 arc-eks-addon,sourcefuse,21399,aws,https://github.com/sourcefuse/terraform-aws-arc-eks-addon,
 arc-github-iam,sourcefuse,22929,aws,https://github.com/sourcefuse/terraform-aws-arc-github-iam,To create your OIDC Connection from GitHub to AWS and manage the IAM Policies / Roles to assume in Actions. 
@@ -2742,6 +2743,7 @@ bitbucket-onprem-downloader,StratusGrid,9988,aws,https://github.com/StratusGrid/
 bitbucket-workload-identity-pool,llcloudstudio,10974,google,https://github.com/llcloudstudio/terraform-google-bitbucket-workload-identity-pool,This module will create a basic workload identity pool in a gcp project.
 bitcoin-abc,4ops,2768,digitalocean,https://github.com/4ops/terraform-digitalocean-bitcoin-abc,Deploy bitcoin cash full node
 bitcoin-core,4ops,2766,digitalocean,https://github.com/4ops/terraform-digitalocean-bitcoin-core,Deploy bitcoin full node
+bitcoin-enclave-node,NonsoAmadi10,30923,aws,https://github.com/NonsoAmadi10/terraform-aws-bitcoin-enclave-node,
 bitcoin-sv,4ops,2769,digitalocean,https://github.com/4ops/terraform-digitalocean-bitcoin-sv,Deploy bitcoin sv full node
 bitcoind,miketwenty1,9658,aws,https://github.com/miketwenty1/terraform-aws-bitcoind,Bitcoin core daemon spun up on EC2 instance in AWS. 
 blob,bootlabstech,17669,azurerm,https://github.com/bootlabstech/terraform-azurerm-blob,
@@ -4176,6 +4178,7 @@ compute,namanbajaj08,6003,azurerm,https://github.com/namanbajaj08/terraform-azur
 compute,oraziobattaglia,6337,azurerm,https://github.com/oraziobattaglia/terraform-azurerm-compute,"This Terraform module deploys Virtual Machines in Azure, ideas from official module."
 compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex-compute,Terraform module which creates Compute resources on Yandex Cloud
 compute,srb3,4093,azurerm,https://github.com/srb3/terraform-azurerm-compute,
+compute,vk-cs,30918,vkcs,https://github.com/vk-cs/terraform-vkcs-compute,Sets up a virtual machine on VKCS
 compute,wittdennis,23079,hetzner,https://github.com/wittdennis/terraform-hetzner-compute,Terraform module to manage Hetzner Cloud Server.
 compute,wmariuss,2094,scaleway,https://github.com/wmariuss/terraform-scaleway-compute,Terraform scaleway compute module
 compute,zesty-co,29517,kompass,https://github.com/zesty-co/terraform-kompass-compute,
@@ -6282,6 +6285,7 @@ ec2,echomike80,8133,aws,https://github.com/echomike80/terraform-aws-ec2,Terrafor
 ec2,emran119,17700,aws,https://github.com/emran119/terraform-aws-ec2,terraform-aws-ec2
 ec2,finisterra-io,23561,aws,https://github.com/finisterra-io/terraform-aws-ec2,Terraform AWS EC2 module
 ec2,gebalamariusz,30792,aws,https://github.com/gebalamariusz/terraform-aws-ec2,
+ec2,horrondor,30915,aws,https://github.com/horrondor/terraform-aws-ec2,
 ec2,hruthingali,28873,aws,https://github.com/hruthingali/terraform-aws-ec2,
 ec2,ilkhomk,7168,aws,https://github.com/ilkhomk/terraform-aws-ec2,
 ec2,jason-morsley,5117,aws,https://github.com/jason-morsley/terraform-aws-ec2,
@@ -8266,6 +8270,7 @@ firewall,tedilabs,13476,aws,https://github.com/tedilabs/terraform-aws-firewall,
 firewall,terraform-az-modules,30779,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-firewall,
 firewall,terraform-do-modules,9866,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-firewall,"Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls."
 firewall,terraform-hetzner-modules,27320,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-firewall,🔥 Configure firewalls for your servers within Hetzner Cloud
+firewall,vk-cs,30919,vkcs,https://github.com/vk-cs/terraform-vkcs-firewall,Sets up a new security group on VKCS
 firewall,zoro16,21292,hcloud,https://github.com/zoro16/terraform-hcloud-firewall,Terraform module to provision Firewall resources in Hetzner Cloud.
 firewall-application-rules,cyber-scot,21649,azurerm,https://github.com/cyber-scot/terraform-azurerm-firewall-application-rules,A module used to help simpify the application firewall rules within a Azure Firewall 🧱✅
 firewall-cloudflare,andrewsomething,442,digitalocean,https://github.com/andrewsomething/terraform-digitalocean-firewall-cloudflare,Terraform Module for DigitalOcean Firewall + Cloudflare
@@ -10383,6 +10388,7 @@ kinesis-kms-key,dod-iac,6853,aws,https://github.com/dod-iac/terraform-aws-kinesi
 kinesis-sqs,Adaptavist,19762,aws,https://github.com/Adaptavist/terraform-aws-kinesis-sqs,
 kinesis-sqs,jhoward-adaptavist,19127,aws,https://github.com/jhoward-adaptavist/terraform-aws-kinesis-sqs,
 kinesis-stream,Adaptavist,10332,module,https://github.com/Adaptavist/terraform-module-kinesis-stream,
+kinesis-stream,SevenPico,30925,aws,https://github.com/SevenPico/terraform-aws-kinesis-stream,
 kinesis-stream,avidhara,29115,aws,https://github.com/avidhara/terraform-aws-kinesis-stream,
 kinesis-stream,bootlabstech-m,25850,aws,https://github.com/bootlabstech-m/terraform-aws-kinesis-stream,
 kinesis-stream,cloudposee,28045,aws,https://github.com/cloudposee/terraform-aws-kinesis-stream,
@@ -11465,6 +11471,7 @@ log-analytics-workspace,bootlabstech,15510,azurerm,https://github.com/bootlabste
 log-analytics-workspace,cyber-scot,21544,azurerm,https://github.com/cyber-scot/terraform-azurerm-log-analytics-workspace,A module used to deploy a log analytics workspace 🪵🕵️
 log-analytics-workspace,ionicloud,21618,azurerm,https://github.com/ionicloud/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,libre-devops,13372,azurerm,https://github.com/libre-devops/terraform-azurerm-log-analytics-workspace,"A module which is used to deploy a log analytics workspace into a subscription.  Alternatively, if can be used to fetch info about an existing workspace, making this module multi-purpose.  Be sure to pass a provider block if you wish to perform a read on a new subscription :star:"
+log-analytics-workspace,lupusllc,30921,azurerm,https://github.com/lupusllc/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,ptonini,21192,azurerm,https://github.com/ptonini/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,rink72,3820,azurerm,https://github.com/rink72/terraform-azurerm-log-analytics-workspace,Terraform module to create a log analytics workspace
 log-analytics-ws,data-platform-hq,15914,azurerm,https://github.com/data-platform-hq/terraform-azurerm-log-analytics-ws,Terraform module for managing Azure Log Analytics Workspace
@@ -11781,7 +11788,7 @@ mcaf-vpc-with-ipam,schubergphilis,26034,aws,https://github.com/schubergphilis/te
 mcaf-workspace,schubergphilis,22975,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-workspace,
 mcaf-workspace,schubergphilis,24637,aws,https://github.com/schubergphilis/terraform-aws-mcaf-workspace,
 mcd-agent,monte-carlo-data,21656,google,https://github.com/monte-carlo-data/terraform-google-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in GCP
-mcd-agent,monte-carlo-data,22346,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in AWS
+mcd-agent,monte-carlo-data,22346,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-agent,
 mcd-agent,monte-carlo-data,22772,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in Azure
 mcf,CloudNationHQ,28807,azure,https://github.com/CloudNationHQ/terraform-azure-mcf,Terraform module which creates maintenance configuration resources used by workloads and accelerators.
 mcp,netascode,9944,aci,https://github.com/netascode/terraform-aci-mcp,Terraform Cisco ACI MCP Module
@@ -13021,6 +13028,7 @@ network,terraform-google-modules,1621,google,https://github.com/terraform-google
 network,tf-scaleway-modules,30895,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-network,
 network,truemark,24914,aws,https://github.com/truemark/terraform-aws-network,
 network,viswanth165,11085,google,https://github.com/viswanth165/terraform-google-network,
+network,vk-cs,30920,vkcs,https://github.com/vk-cs/terraform-vkcs-network,Sets up virtual networking on VKCS
 network,vosunda,9046,google,https://github.com/vosunda/terraform-google-network,A Terraform module that makes it easy to set up a new VPC Network in GCP.
 network,watdafudge,13135,azurerm,https://github.com/watdafudge/terraform-azurerm-network,Terraform Azure RM Module for Network
 network,xialiu71,17391,azurerm,https://github.com/xialiu71/terraform-azurerm-network,Terraform Azure RM Module for Network
@@ -14303,6 +14311,7 @@ project,qbeyond,17452,google,https://github.com/qbeyond/terraform-google-project
 project,raffaeldutra,2926,digitalocean,https://github.com/raffaeldutra/terraform-digitalocean-project,Terraform Module for Digital Ocean projects
 project,ryanef,23425,tfe,https://github.com/ryanef/terraform-tfe-project,
 project,sentania-labs,30858,vra,https://github.com/sentania-labs/terraform-vra-project,
+project,sentania-labs,30924,vcfa,https://github.com/sentania-labs/terraform-vcfa-project,
 project,terraform-launchdarkly-modules,30884,launchdarkly,https://github.com/terraform-launchdarkly-modules/terraform-launchdarkly-project,
 project,tf-cloud-modules,15050,aiven,https://github.com/tf-cloud-modules/terraform-aiven-project,
 project,ttacon,8216,sentry,https://github.com/ttacon/terraform-sentry-project,An opinionated take on how to structure Sentry projects in terraform
@@ -14353,6 +14362,7 @@ project_mirror,dhoppeIT,28570,gitlab,https://github.com/dhoppeIT/terraform-gitla
 project_variable,dhoppeIT,28571,gitlab,https://github.com/dhoppeIT/terraform-gitlab-project_variable,
 projecter,alexbasista,22378,tfe,https://github.com/alexbasista/terraform-tfe-projecter,Terraform module to create and configure Projects in Terraform Cloud/Enterprise.
 projectfactory,bahlsengroup,29585,google,https://github.com/bahlsengroup/terraform-google-projectfactory,Google Cloud terraform module - Project Factory
+projectrolebinding,sentania-labs,30927,vcfa,https://github.com/sentania-labs/terraform-vcfa-projectrolebinding,
 projects,iits-consulting,28386,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-projects,
 projects,tomaszkiewicz,16408,mysql,https://github.com/tomaszkiewicz/terraform-mysql-projects,Sample module for creating database projects
 prom-stack-dashboards,BeryJu,13251,kube,https://github.com/BeryJu/terraform-kube-prom-stack-dashboards,"Dashboards from https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack, as raw JSON"
@@ -17579,6 +17589,7 @@ sqs-lambda-trigger,Recall-Masters,8438,aws,https://github.com/Recall-Masters/ter
 sqs-module,surajwarbhe,9742,aws,https://github.com/surajwarbhe/terraform-aws-sqs-module,
 sqs-pod,infrahouse,29168,aws,https://github.com/infrahouse/terraform-aws-sqs-pod,Terraform module deploys an SQS queue with autoscaling group as a consumer.
 sqs-policy-document,dod-iac,11196,aws,https://github.com/dod-iac/terraform-aws-sqs-policy-document,A SQS policy document.
+sqs-queue,SevenPico,30926,aws,https://github.com/SevenPico/terraform-aws-sqs-queue,
 sqs-queue,dod-iac,8302,aws,https://github.com/dod-iac/terraform-aws-sqs-queue,An AWS SQS Queue
 sqs-queue,justtrackio,17265,aws,https://github.com/justtrackio/terraform-aws-sqs-queue,Terraform module which creates a sqs queue
 sqs-queue,pquintero,11456,aws,https://github.com/pquintero/terraform-aws-sqs-queue,This repository contains the basic definition for the AWS SQS Queue deployment
@@ -17974,6 +17985,7 @@ staticwebsitepublic,dacdo,16519,azurerm,https://github.com/dacdo/terraform-azure
 staticwebsitepublic,deepakdin,19828,azurerm,https://github.com/deepakdin/terraform-azurerm-staticwebsitepublic,Terraform Module for Static Website
 staticwebsitepublic,devops-phani,14772,azurerm,https://github.com/devops-phani/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,dheeraj001,29582,azurerm,https://github.com/dheeraj001/terraform-azurerm-staticwebsitepublic,
+staticwebsitepublic,dmahaveer,30917,azurerm,https://github.com/dmahaveer/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,esconstantin2,28661,azurerm,https://github.com/esconstantin2/terraform-azurerm-staticwebsitepublic,Terraform module to be shared in Terraform Public Registry
 staticwebsitepublic,fmb0racle,17078,azurerm,https://github.com/fmb0racle/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,g2gm2m,16895,azurerm,https://github.com/g2gm2m/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
