@@ -691,6 +691,7 @@ alb-error-rate-based-alarm,topotal,16593,aws,https://github.com/topotal/terrafor
 alb-for-vpc-internal-requests,babbel,7629,aws,https://github.com/babbel/terraform-aws-alb-for-vpc-internal-requests,Terraform module creating a private ALB for VPC-internal requests
 alb-http,terraform-alicloud-modules,12820,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-alb-http,Terraform Module for creating HTTP listener for Application Load Balancer and setting forwarding rules on Alibaba Cloud.
 alb-http-listener,deepak7093,1608,aws,https://github.com/deepak7093/terraform-aws-alb-http-listener,AWS ALB HTTP Listner
+alb-https,ogulcanaydogan,30931,aws,https://github.com/ogulcanaydogan/terraform-aws-alb-https,
 alb-https,terraform-alicloud-modules,12821,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-alb-https,Terraform Module for creating HTTPS listener for Application Load Balancer and setting forwarding rules on Alibaba Cloud.
 alb-ingress,cloudposee,27967,aws,https://github.com/cloudposee/terraform-aws-alb-ingress,Terraform module to provision an HTTP style ingress rule based on hostname and path for an ALB using target groups
 alb-ingress,cloudposse,1169,aws,https://github.com/cloudposse/terraform-aws-alb-ingress,Terraform module to provision an HTTP style ingress rule based on hostname and path for an ALB using target groups
@@ -3336,6 +3337,7 @@ cloud-config-tool,4ops,3861,template,https://github.com/4ops/terraform-template-
 cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on AWS
 cloud-connector-modules,zscaler,16998,azurerm,https://github.com/zscaler/terraform-azurerm-cloud-connector-modules,
 cloud-connector-modules,zscaler,21619,gcp,https://github.com/zscaler/terraform-gcp-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on GCP
+cloud-controller,Proxmox-Cloud,30929,proxmox,https://github.com/Proxmox-Cloud/terraform-proxmox-cloud-controller,
 cloud-data-streaming-service-cluster-vpc,terraform-navercloudplatform-modules,25257,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-cluster-vpc,Terraform module to create cloud data streaming service cluster resources for the vpc configuration
 cloud-data-streaming-service-config-group-vpc,terraform-navercloudplatform-modules,25259,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-config-group-vpc,Terraform module to create cloud data streaming service config group resources for the vpc configuration
 cloud-datastore,terraform-google-modules,1620,google,https://github.com/terraform-google-modules/terraform-google-cloud-datastore,Manages Datastore
@@ -3804,6 +3806,7 @@ cloudwatch-alarms,Senora-dev,29424,aws,https://github.com/Senora-dev/terraform-a
 cloudwatch-alarms,StratusGrid,14592,aws,https://github.com/StratusGrid/terraform-aws-cloudwatch-alarms,This module will create a bunch of rules to cover the security alarms of a Well Architected Review
 cloudwatch-alarms,clouddrove,3647,aws,https://github.com/clouddrove/terraform-aws-cloudwatch-alarms,Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 cloudwatch-alarms,echomike80,11791,aws,https://github.com/echomike80/terraform-aws-cloudwatch-alarms,
+cloudwatch-alarms,ogulcanaydogan,30937,aws,https://github.com/ogulcanaydogan/terraform-aws-cloudwatch-alarms,
 cloudwatch-alarms,rpstreef,4744,aws,https://github.com/rpstreef/terraform-aws-cloudwatch-alarms,Terraform AWS CloudWatch Alarms
 cloudwatch-alarms-to-teams-webhook,jkblume,27526,aws,https://github.com/jkblume/terraform-aws-cloudwatch-alarms-to-teams-webhook,This terraform module let you send cloudwatch alarm state changes to an teams webhook
 cloudwatch-alb,delivops,27142,aws,https://github.com/delivops/terraform-aws-cloudwatch-alb,
@@ -6714,6 +6717,7 @@ ecr-public,cloudposee,28006,aws,https://github.com/cloudposee/terraform-aws-ecr-
 ecr-public,cloudposse,12500,aws,https://github.com/cloudposse/terraform-aws-ecr-public,Terraform Module to manage Public Docker Container Registries on AWS ECR
 ecr-registry,boldlink,14020,aws,https://github.com/boldlink/terraform-aws-ecr-registry,Terraform registry repository for ECR registry module
 ecr-repo,dod-iac,8297,aws,https://github.com/dod-iac/terraform-aws-ecr-repo,An AWS ECR repository
+ecr-repo,ogulcanaydogan,30935,aws,https://github.com/ogulcanaydogan/terraform-aws-ecr-repo,
 ecr-repo,trussworks,4564,aws,https://github.com/trussworks/terraform-aws-ecr-repo,Provides a basic ECR repository configuration for a single container image.
 ecr-repo-lambda,tradeparadigm,15052,aws,https://github.com/tradeparadigm/terraform-aws-ecr-repo-lambda,Terraform module to provision AWS Lambda to create ECR repos on push
 ecr-repositories,voquis,20694,aws,https://github.com/voquis/terraform-aws-ecr-repositories,Terraform module for creating ECR repositories with optional cross account sharing and life-cycle policies
@@ -6847,6 +6851,7 @@ ecs-cloudwatch-sns-alarms,cloudposse,1245,aws,https://github.com/cloudposse/terr
 ecs-cloudwatch-sns-alarms,slitsevych,20087,aws,https://github.com/slitsevych/terraform-aws-ecs-cloudwatch-sns-alarms,Terraform module to create CloudWatch Alarms on ECS Service level metrics.
 ecs-cluster,7Factor,15576,aws,https://github.com/7Factor/terraform-aws-ecs-cluster,Base ECS cluster terraform for managing your tasks.
 ecs-cluster,PGBI,2857,aws,https://github.com/PGBI/terraform-aws-ecs-cluster,
+ecs-cluster,SevenPico,30933,aws,https://github.com/SevenPico/terraform-aws-ecs-cluster,Terraform module for provisioning an ECS cluster
 ecs-cluster,anonymint,490,aws,https://github.com/anonymint/terraform-aws-ecs-cluster,Terraform script to create ECS cluster
 ecs-cluster,aws-ia,10194,aws,https://github.com/aws-ia/terraform-aws-ecs-cluster,AWS ECS
 ecs-cluster,azavea,171,aws,https://github.com/azavea/terraform-aws-ecs-cluster,A Terraform module to create an Amazon Web Services (AWS) EC2 Container Service (ECS) cluster.
@@ -6959,6 +6964,7 @@ ecs-fargate-scheduled-task,babbel,10349,aws,https://github.com/babbel/terraform-
 ecs-fargate-scheduled-task,cn-terraform,3251,aws,https://github.com/cn-terraform/terraform-aws-ecs-fargate-scheduled-task,AWS ECS Fargate Schedule Task Terraform Module
 ecs-fargate-scheduled-task,umotif-public,4313,aws,https://github.com/umotif-public/terraform-aws-ecs-fargate-scheduled-task,Terraform module to create AWS ECS Fargate Schedule Task
 ecs-fargate-service,cn-terraform,3250,aws,https://github.com/cn-terraform/terraform-aws-ecs-fargate-service,AWS ECS Fargate Service Terraform Module
+ecs-fargate-service,ogulcanaydogan,30930,aws,https://github.com/ogulcanaydogan/terraform-aws-ecs-fargate-service,
 ecs-fargate-service,oowlish,5069,aws,https://github.com/oowlish/terraform-aws-ecs-fargate-service,Terraform module which creates Fargate Service resources on AWS.
 ecs-fargate-service,oozou,15122,aws,https://github.com/oozou/terraform-aws-ecs-fargate-service,
 ecs-fargate-services,my-devops-way,19335,aws,https://github.com/my-devops-way/terraform-aws-ecs-fargate-services,terraform module for creation of ecs cluster with multiple services and tasks with multiple containers 
@@ -13893,6 +13899,7 @@ password-policy,rhythmictech,3138,iam,https://github.com/rhythmictech/terraform-
 passwordmanagement,wukong919,26021,vcf,https://github.com/wukong919/terraform-vcf-passwordmanagement,
 patching,shadbury,16159,aws,https://github.com/shadbury/terraform-aws-patching,
 patistorageaccount,prasanthipati,24967,azure,https://github.com/prasanthipati/terraform-azure-patistorageaccount,
+patterns,ogulcanaydogan,30932,aws,https://github.com/ogulcanaydogan/terraform-aws-patterns,
 pavanh-iam,Pavanhgowda,28818,aws,https://github.com/Pavanhgowda/terraform-aws-pavanh-iam,
 pavanstorage,pavan1239,12321,azure,https://github.com/pavan1239/terraform-azure-pavanstorage,
 payal,payjoshi,27425,aws,https://github.com/payjoshi/terraform-aws-payal,Payal's repository for AWS Terraform
@@ -15737,6 +15744,7 @@ route53-record,recroviral,21193,aws,https://github.com/recroviral/terraform-aws-
 route53-record-mapping,OT-CLOUD-KIT,5001,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-route53-record-mapping,This repository consists of Terraform module for Route53 mapping in AWS.
 route53-records,boldlink,19179,aws,https://github.com/boldlink/terraform-aws-route53-records,Terraform registry repository for AWS Route53 Records
 route53-records,cloudboss,25444,aws,https://github.com/cloudboss/terraform-aws-route53-records,
+route53-records,ogulcanaydogan,30936,aws,https://github.com/ogulcanaydogan/terraform-aws-route53-records,
 route53-recordsets,terraformdns,1175,aws,https://github.com/terraformdns/terraform-aws-route53-recordsets,Terraform module for creating DNS recordsets in a Route53 zone
 route53-recovery-controller,aws-ia,11711,aws,https://github.com/aws-ia/terraform-aws-route53-recovery-controller,Terraform Module to deploy Route53 Application Recovery Controller components
 route53-resolver-config,chanakanissanka,15827,aws,https://github.com/chanakanissanka/terraform-aws-route53-resolver-config,
@@ -17669,6 +17677,7 @@ ssm-bastion,JamesWoolfenden,2856,aws,https://github.com/JamesWoolfenden/terrafor
 ssm-bastion,maathor,8852,aws,https://github.com/maathor/terraform-aws-ssm-bastion,
 ssm-bastion-fargate,nativelycloud,25072,aws,https://github.com/nativelycloud/terraform-aws-ssm-bastion-fargate,Terraform module to deploy an AWS SSM bastion on ECS Fargate
 ssm-configuration,samloh84,16083,aws,https://github.com/samloh84/terraform-aws-ssm-configuration,
+ssm-ec2,ogulcanaydogan,30934,aws,https://github.com/ogulcanaydogan/terraform-aws-ssm-ec2,
 ssm-generated-value,sashee,19693,aws,https://github.com/sashee/terraform-aws-ssm-generated-value,
 ssm-iam-role,cloudposee,28087,aws,https://github.com/cloudposee/terraform-aws-ssm-iam-role,Terraform module to provision an IAM role with configurable permissions to access SSM Parameter Store
 ssm-iam-role,cloudposse,1162,aws,https://github.com/cloudposse/terraform-aws-ssm-iam-role,Terraform module to provision an IAM role with configurable permissions to access SSM Parameter Store
