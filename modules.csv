@@ -2034,7 +2034,7 @@ avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/ter
 avm-res-network-publicipprefix,Azure,28735,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipprefix,AVM TF Module for Public IP Address Prefix 
 avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,AVM Terraform Module for Azure Route Table
 avm-res-network-virtualnetwork,Azure,29601,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Terraform Azure Verified Resource Module for Virtual Network
-avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Azure Log Analytics Workspace AVM Module
+avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Terraform Azure Verified Resource Module for Log Analytics workspace
 avm-res-oracledatabase-cloudexadatainfrastructure,Azure,26079,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure,Terraform Azure Verified Resource Module for Oracle Exadata Infrastructure
 avm-res-oracledatabase-cloudvmcluster,Azure,26198,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudvmcluster,Terraform Azure Verified Resource Module for Oracle VM cluster
 avm-res-portal-dashboard,Azure,26228,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-portal-dashboard,AVM Terraform module for Azure portal dashboard.
@@ -10075,6 +10075,7 @@ k8s-for-poor-people,gytis-ivaskevicius,29021,hcloud,https://github.com/gytis-iva
 k8s-infra,kube-champ,6451,azure,https://github.com/kuptan/terraform-azure-k8s-infra,
 k8s-infrastructure,sculley,12846,libvirt,https://github.com/sculley/terraform-libvirt-k8s-infrastructure,Terraform module to provision the infrastructure for a Kubernetes deployment using libvirt
 k8s-infrastructure,ystkfujii,17847,nifcloud,https://github.com/ystkfujii/terraform-nifcloud-k8s-infrastructure,Terraform module to create k8s infrastructure on NIFCLOUD.
+k8s-lab,ccliver,30962,aws,https://github.com/ccliver/terraform-aws-k8s-lab,Module to setup a Kubernetes lab on AWS
 k8s-multus-gtp5g,boeboe,11164,aws,https://github.com/boeboe/terraform-aws-k8s-multus-gtp5g,Terraform module to bootstrap a K8S Cluster with Multus and GTP5G on AWS
 k8s-network,opzkit,10310,aws,https://github.com/opzkit/terraform-aws-k8s-network,
 k8s-node-pool,bfrunza,3531,google,https://github.com/bfrunza/terraform-google-k8s-node-pool,Terraform module which deploys a node-pool on GCP
@@ -10447,7 +10448,6 @@ kube,damoun,24750,hetzner,https://github.com/damoun/terraform-hetzner-kube,Terra
 kube-cluster,lazyorangejs,5337,gitlab,https://github.com/lazyorangejs/terraform-gitlab-kube-cluster,Terraform module to easily connect any existing Kubernetes cluster with Gitlab
 kube-hetzner,kube-hetzner,12599,hcloud,https://github.com/kube-hetzner/terraform-hcloud-kube-hetzner,Optimized and Maintenance-free Kubernetes on Hetzner Cloud in one command!
 kube-janitor,basisai,8097,helm,https://github.com/basisai/terraform-helm-kube-janitor,
-kube-lab,ccliver,14727,aws,https://github.com/ccliver/terraform-aws-kube-lab,Module to setup a Kubernetes lab on AWS
 kube-lan-ip,maboehm,19779,ionoscloud,https://github.com/maboehm/terraform-ionoscloud-kube-lan-ip,A module for determining the private IP of a IONOS Cloud k8s nodepool
 kube-prometheus-stack,SPHTech-Platform,16235,helm,https://github.com/SPHTech-Platform/terraform-helm-kube-prometheus-stack,"Installs the kube-prometheus stack, a collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator."
 kube-prometheus-stack,gfortetsanakis,15252,helm,https://github.com/gfortetsanakis/terraform-helm-kube-prometheus-stack,
@@ -12173,6 +12173,7 @@ monitor-alerts,clouddrove,20442,azure,https://github.com/clouddrove/terraform-az
 monitor-alerts,cypik,22766,azure,https://github.com/cypik/terraform-azure-monitor-alerts,
 monitor-diagnostic-setting,Azure-Terraformer,26656,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-monitor-diagnostic-setting,
 monitor-diagnostic-setting,WeAreRetail,27511,azurerm,https://github.com/WeAreRetail/terraform-azurerm-monitor-diagnostic-setting,
+monitor-diagnostic-setting,lupusllc,30958,azurerm,https://github.com/lupusllc/terraform-azurerm-monitor-diagnostic-setting,
 monitor-diagnostics,avinor,3473,azurerm,https://github.com/avinor/terraform-azurerm-monitor-diagnostics,Terraform module to create monitor diagnostic settings on any resources in Azure
 monitor-diagnostics,seg-way,20611,azurerm,https://github.com/segateway/terraform-azurerm-monitor-diagnostics,
 monitor-diagnostics,segateway,20644,azurerm,https://github.com/segateway/terraform-azurerm-monitor-diagnostics,
@@ -16494,6 +16495,7 @@ secrets,tbobm,11191,github,https://github.com/tbobm/terraform-github-secrets,Ter
 secrets,terra-mod,4262,aws,https://github.com/terra-mod/terraform-aws-secrets,AWS SecretsManager Secrets
 secrets,thoughtbot,22892,aws,https://github.com/thoughtbot/terraform-aws-secrets,Terraform modules for creating and rotating secrets
 secrets-access-policy-document,andreswebs,10024,aws,https://github.com/andreswebs/terraform-aws-secrets-access-policy-document,IAM policy document with permissons to access a list of secrets from AWS Secrets Manager
+secrets-and-keys,tf-scaleway-modules,30959,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-secrets-and-keys,
 secrets-data,alemuro,29216,vault,https://github.com/alemuro/terraform-vault-secrets-data,
 secrets-engine,makezbs,4460,vault,https://github.com/makezbs/terraform-vault-secrets-engine,
 secrets-engine,robertdebock,9488,vault,https://github.com/robertdebock/terraform-vault-secrets-engine,Terraform module which creates Vault Secrets Engine
@@ -18136,6 +18138,7 @@ storageaccount,sandyp47,24011,azure,https://github.com/sandyp47/terraform-azure-
 storageaccount,srikanthdandevena,21530,azure,https://github.com/srikanthdandevena/terraform-azure-storageaccount,
 storageaccount,staal-it,26830,azure,https://github.com/staal-it/terraform-azure-storageaccount,A Terraform module to deploy an Azure Storage Account
 storageaccount,sudhakarann33,24008,azure,https://github.com/sudhakarann33/terraform-azure-storageaccount,
+storageaccount,tannutanu1809-sudo,30957,azure,https://github.com/tannutanu1809-sudo/terraform-azure-storageaccount,
 storageaccount,tdas2803,21939,azurerm,https://github.com/tdas2803/terraform-azurerm-storageaccount,
 storageaccount,varunreddy1993,21938,azurerm,https://github.com/varunreddy1993/terraform-azurerm-storageaccount,
 storageaccount-demo,sabalaji,27000,azure,https://github.com/sabalaji/terraform-azure-storageaccount-demo,
