@@ -310,7 +310,6 @@ acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform
 acm-certificate-validation,khanguyen78,29915,aws,https://github.com/khanguyen78/terraform-aws-acm-certificate-validation,
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
-acm-cloudflare,cesargoncalves,30442,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create AWS ACM certificate with Cloudflare DNS validation
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -6230,6 +6229,7 @@ ec2,JanaJagan,17701,aws,https://github.com/JanaJagan/terraform-aws-ec2,
 ec2,Juhi5863,28888,aws,https://github.com/Juhi5863/terraform-aws-ec2,
 ec2,KIREETI1234,28872,aws,https://github.com/KIREETI1234/terraform-aws-ec2,
 ec2,MagnetarIT,4622,aws,https://github.com/MagnetarIT/terraform-aws-ec2,Terraform module for creation of an EC2
+ec2,Nglicloud,31003,aws,https://github.com/Nglicloud/terraform-aws-ec2,
 ec2,PraWinKS,17698,aws,https://github.com/PraWinKS/terraform-aws-ec2,
 ec2,Prashanth500,17703,aws,https://github.com/Prashanth500/terraform-aws-ec2,
 ec2,Rohitkumar44,28878,aws,https://github.com/Rohitkumar44/terraform-aws-ec2,
@@ -7903,6 +7903,7 @@ event-function,terraform-google-modules,2332,google,https://github.com/terraform
 event-grid,equinor,23396,azurerm,https://github.com/equinor/terraform-azurerm-event-grid,Terraform module which creates Azure Event Grid resources
 event-hub,libre-devops,13283,azurerm,https://github.com/libre-devops/terraform-azurerm-event-hub,"A module which will build an event hub within an event hub name space, based on some parameters :cloud:"
 event-hub,snowplow-devops,19549,azurerm,https://github.com/snowplow-devops/terraform-azurerm-event-hub,
+event-hub-namespace,Think-Cube,31005,azure,https://github.com/Think-Cube/terraform-azure-event-hub-namespace,
 event-hub-namespace,libre-devops,13282,azurerm,https://github.com/libre-devops/terraform-azurerm-event-hub-namespace,"A module used to deploy an Azure event hub namespace, based on some parameters :fire:"
 event-hub-namespace,snowplow-devops,19548,azurerm,https://github.com/snowplow-devops/terraform-azurerm-event-hub-namespace,
 event-hubs,avinor,2486,azurerm,https://github.com/avinor/terraform-azurerm-event-hubs,Terraform module to create an event namespace with hubs connected to it
@@ -11351,6 +11352,7 @@ load-balancer-vpc,terraform-navercloudplatform-modules,25270,ncloud,https://gith
 loadbalancer,Azure,32,azurerm,https://github.com/Azure/terraform-azurerm-loadbalancer,Terraform Azure RM Module for Load Balancer
 loadbalancer,CloudAstro,30155,azurerm,https://github.com/CloudAstro/terraform-azurerm-loadbalancer,"This module is designed to create and manage Azure Load Balancers (NLBs), which distribute incoming network traffic across multiple virtual machines (VMs) to ensure high availability and reliability. The module supports configuring frontend IP configurations, backend address pools, load balancing rules, and probes"
 loadbalancer,MissionCriticalCloud,6534,cosmic,https://github.com/MissionCriticalCloud/terraform-cosmic-loadbalancer,Terraform module to create and manage a Cosmic load balancer.
+loadbalancer,Think-Cube,31004,azure,https://github.com/Think-Cube/terraform-azure-loadbalancer,
 loadbalancer,diademiemi,24020,digitalocean,https://github.com/diademiemi/terraform-digitalocean-loadbalancer,
 loadbalancer,diademiemi,24022,hetzner,https://github.com/diademiemi/terraform-hetzner-loadbalancer,
 loadbalancer,iits-consulting,28397,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-loadbalancer,
@@ -16999,7 +17001,6 @@ ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
-ses-cloudflare,cesargoncalves,30443,aws,https://github.com/cesargoncalves/terraform-aws-ses-cloudflare,Terraform module to create AWS SES identity with Cloudflare DNS validation
 ses-cloudflare,sil-org,30458,aws,https://github.com/sil-org/terraform-aws-ses-cloudflare,
 ses-cloudflare,silinternational,24881,aws,https://github.com/silinternational/terraform-aws-ses-cloudflare,Terraform module to create AWS and Cloudflare resources for SES
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
@@ -18978,6 +18979,7 @@ unarchive,escapace,26586,null,https://github.com/escapace/terraform-null-unarchi
 underused-servers,kiwicom,3028,datadog,https://github.com/kiwicom/terraform-datadog-underused-servers,
 ungpg,factorysh,472,basic,https://github.com/factorysh/terraform-basic-ungpg,Decrypt settings for Terraform
 unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocean-unifi,Provision Unifi Controller on DigitalOcean
+unifi-dream,sowens81,31006,provider,https://github.com/sowens81/terraform-provider-unifi-dream,
 unifi-network,kalenarndt,11327,unifi,https://github.com/kalenarndt/terraform-unifi-unifi-network,Repo for a module that creates basic Unifi networks
 unifi-sdn-controller,OldCrowEW,1925,google,https://github.com/OldCrowEW/terraform-google-unifi-sdn-controller,
 unique-configmap,webyneter,9439,kubernetes,https://github.com/webyneter/terraform-kubernetes-unique-configmap,A Terraform module for creating a Kubernetes ConfigMap that changes its name when the underlying data changes.
