@@ -373,7 +373,7 @@ actions-configuration,ptonini,21879,github,https://github.com/ptonini/terraform-
 actions-org-configuration,ptonini,21880,github,https://github.com/ptonini/terraform-github-actions-org-configuration,
 actions-pipeline-resources,axetrading,15383,github,https://github.com/axetrading/terraform-github-actions-pipeline-resources,"Terraform module for a GitHub Actions pipeline with access to AWS, without having to manage any credentials"
 actions-runner,infrahouse,24062,aws,https://github.com/infrahouse/terraform-aws-actions-runner,Module that deploys self-hosted GitHub Actions runner.
-actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,
+actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-controller,basisai,10986,helm,https://github.com/basisai/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-provisioner,camptocamp,8660,github,https://github.com/camptocamp/terraform-github-actions-runner-provisioner,Terraform provisioner for a self-hosted GitHub Actions runner
 actions-runner-scale-set,vmvarela,30584,github,https://github.com/vmvarela/terraform-github-actions-runner-scale-set,This Terraform module simplifies the deployment of self-hosted GitHub Actions runners on any Kubernetes cluster. It uses the official Actions Runner Controller (ARC) to create and manage auto-scaling runner sets.
@@ -1134,6 +1134,7 @@ app,rany01,28482,kubernetes,https://github.com/rany01/terraform-kubernetes-app,"
 app,scalingo-community,20614,scalingo,https://github.com/scalingo-community/terraform-scalingo-app,An opinionated Terraform module to provision an application and database very easily with Scalingo
 app,sebbycorp,15369,bigip,https://github.com/sebbycorp/terraform-bigip-app,terraform-bigip-as3-app
 app,terraform-do-modules,20670,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-app,Terraform module to create app resources. App Platform is a Platform-as-a-Service (PaaS) offering that allows developers to publish code directly to DigitalOcean servers without worrying about the underlying infrastructure.
+app,tsuru,31046,tsuru,https://github.com/tsuru/terraform-tsuru-app,Tsuru App Terraform Module
 app,zahiar,10573,docker,https://github.com/zahiar/terraform-docker-app,"A Terraform module that takes in a Docker Compose like config, and outputs valid Docker Compose YAML & AWS ECS Task Definition JSON."
 app-boundary,devops-rob,11293,azuread,https://github.com/devops-rob/terraform-azuread-app-boundary,This Terraform module creates an application in Azure AD for HashiCorp Boundary to use when configuring Azure OIDC authentication. 
 app-bucket,Dionatas,25957,aws,https://github.com/Dionatas/terraform-aws-app-bucket,Terraform module for storing application objects.
@@ -8001,6 +8002,7 @@ example_vpc,shilu10,14437,aws,https://github.com/shilu10/terraform-aws-example_v
 examplemodules,tanaphonble,7809,aws,https://github.com/tanaphonble/terraform-aws-examplemodules,
 examples,databricks,17589,databricks,https://github.com/databricks/terraform-databricks-examples,Examples of using Terraform to deploy Databricks resources 
 examples,yellow-shine,31017,zilliz,https://github.com/yellow-shine/terraform-zilliz-examples,
+examples,zilliztech,31040,zilliz,https://github.com/zilliztech/terraform-zilliz-examples,
 exasol,exasol,3088,aws,https://github.com/exasol/terraform-aws-exasol,Terraform module for deploying Exasol cluster on AWS.
 exasol-test-setup,exasol,9926,aws,https://github.com/exasol/terraform-aws-exasol-test-setup,Terraform module for quickly creating an Exasol cluster for testing
 exception,ulfox,6561,generic,https://github.com/ulfox/terraform-generic-exception,Terraform module for raising exceptions on condition
@@ -9163,6 +9165,7 @@ helper-firewall,guidion-digital,27103,aws,https://github.com/guidion-digital/ter
 helper-iam-user,guidion-digital,30748,aws,https://github.com/guidion-digital/terraform-aws-helper-iam-user,"Small helper module to create users with keys, and attach policies to them"
 helper-lambda,guidion-digital,27128,aws,https://github.com/guidion-digital/terraform-aws-helper-lambda,Creates lambdas for use with the app-api-lambda module
 helper-rds,guidion-digital,27721,aws,https://github.com/guidion-digital/terraform-aws-helper-rds,Creates RDS instances
+helper-role,guidion-digital,31043,aws,https://github.com/guidion-digital/terraform-aws-helper-role,Creates AWS IAM roles
 helper-secrets,guidion-digital,24048,aws,https://github.com/guidion-digital/terraform-aws-helper-secrets,Helper module to make creation and maintenance of secrets easy
 helper-shared-resources,guidion-digital,28321,aws,https://github.com/guidion-digital/terraform-aws-helper-shared-resources,Shared resources for use inside the workspaces module
 helper-ssm-parameters,guidion-digital,27440,aws,https://github.com/guidion-digital/terraform-aws-helper-ssm-parameters,Simple helper module to create SSM parameters
@@ -9487,6 +9490,7 @@ iam-user,lacework,19996,oci,https://github.com/lacework/terraform-oci-iam-user,A
 iam-user,mineiros-io,5277,aws,https://github.com/mineiros-io/terraform-aws-iam-user,A Terraform module to create and manage Identity and Access Management (IAM) Users on Amazon Web Services (AWS). https://aws.amazon.com/iam
 iam-user,ptonini,16745,aws,https://github.com/ptonini/terraform-aws-iam-user,
 iam-user-group,ridwanbejo,21823,aws,https://github.com/ridwanbejo/terraform-aws-iam-user-group,Terraform module for managing IAM User and Group at AWS
+iam-user-group,transcom,31045,aws,https://github.com/transcom/terraform-aws-iam-user-group,Creates an IAM group with users where the group is only allowed to assume roles defined.
 iam-user-group,trussworks,3094,aws,https://github.com/trussworks/terraform-aws-iam-user-group,Creates an IAM group with users where the group is only allowed to assume roles defined.
 iam-user-group,web-virtua-aws-multi-account-modules,18096,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-iam-user-group,
 iam-user-policy-attachment,khanguyen78,29916,aws,https://github.com/khanguyen78/terraform-aws-iam-user-policy-attachment,
@@ -13480,6 +13484,7 @@ olm,Keanu73,18038,k8s,https://github.com/Keanu73/terraform-k8s-olm,Terraform mod
 olm,e-breuninger,22576,module,https://github.com/e-breuninger/terraform-module-olm,
 olm,tensor5,12733,kubernetes,https://github.com/tensor5/terraform-kubernetes-olm,Terraform module for OLM
 omkar2305storage,beingomkardalvi,21533,azurerm,https://github.com/beingomkardalvi/terraform-azurerm-omkar2305storage,
+omni-cluster,castai,31042,castai,https://github.com/castai/terraform-castai-omni-cluster,
 omni-edge-location-aws,castai,30658,castai,https://github.com/castai/terraform-castai-omni-edge-location-aws,Terraform module for omni edge location
 omni-edge-location-gcp,castai,30659,castai,https://github.com/castai/terraform-castai-omni-edge-location-gcp,Terraform module for omni edge location
 omni-edge-location-oci,castai,30660,castai,https://github.com/castai/terraform-castai-omni-edge-location-oci,Terraform module for omni edge location
@@ -13490,6 +13495,7 @@ onboarding,aquasecurity,25604,aws,https://github.com/aquasecurity/terraform-aws-
 onboarding,cyngularsecurity,25462,azure,https://github.com/cyngularsecurity/terraform-azure-onboarding,
 onboarding,cyngularsecurity,30270,gcp,https://github.com/cyngularsecurity/terraform-gcp-onboarding,terraform-gcp-onboarding 
 onboarding,shadbury,14776,aws,https://github.com/shadbury/terraform-aws-onboarding,List of resources required for onboarding clients into AWS
+onboarding,skyhawk-security,31041,azure,https://github.com/skyhawk-security/terraform-azure-onboarding,
 onboarding,strongdm,6153,sdm,https://github.com/strongdm/terraform-sdm-onboarding,Create your strongDM onboarding environment in AWS
 onboarding,upwindsecurity,29243,google,https://github.com/upwindsecurity/terraform-google-onboarding,
 onboarding,upwindsecurity,29626,azurerm,https://github.com/upwindsecurity/terraform-azurerm-onboarding,
@@ -13548,7 +13554,7 @@ opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Service
 opensearch,Flaconi,26745,aws,https://github.com/Flaconi/terraform-aws-opensearch,This module will create OpenSearch Cluster
 opensearch,HappyPathway,26305,aws,https://github.com/HappyPathway/terraform-aws-opensearch,Terraform Module
 opensearch,OT-CLOUD-KIT,19806,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-opensearch,
-opensearch,SPHTech-Platform,16250,aws,https://github.com/SPHTech-Platform/terraform-aws-opensearch,
+opensearch,SPHTech-Platform,16250,aws,https://github.com/SPHTech-Platform/terraform-aws-opensearch,Terraform module to create aws opensearch (elasticsearch)
 opensearch,akw-devsecops,23754,aws,https://github.com/akw-devsecops/terraform-aws-opensearch,
 opensearch,c0x12c,29375,aws,https://github.com/c0x12c/terraform-aws-opensearch,
 opensearch,cyberlabrs,17537,aws,https://github.com/cyberlabrs/terraform-aws-opensearch,Terraform module to provision an OpenSearch cluster with SAML and Cognito authentication. 
@@ -14787,6 +14793,7 @@ rds-kms-key,dod-iac,10064,aws,https://github.com/dod-iac/terraform-aws-rds-kms-k
 rds-lambda-db-provisioner,aleks-fofanov,5080,aws,https://github.com/aleks-fofanov/terraform-aws-rds-lambda-db-provisioner,Terraform module to provision database in AWS RDS instance in a VPC
 rds-lambda-postgres-provisioner,SPHTech-Platform,20211,aws,https://github.com/SPHTech-Platform/terraform-aws-rds-lambda-postgres-provisioner,
 rds-m,ahmadrazalab,26787,aws,https://github.com/ahmadrazalab/terraform-aws-rds-m,terraform-aws-rds-restore-m
+rds-migration-task,project-init,31044,aws,https://github.com/project-init/terraform-aws-rds-migration-task,
 rds-misc,kiwicom,3037,aws,https://github.com/kiwicom/terraform-aws-rds-misc,
 rds-mssql,OT-CLOUD-KIT,12347,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-rds-mssql,
 rds-mssql,truemark,16117,aws,https://github.com/truemark/terraform-aws-rds-mssql,
