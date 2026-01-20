@@ -4370,6 +4370,7 @@ container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terrafo
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
 container-app-datadog,DataDog,30486,azurerm,https://github.com/DataDog/terraform-azurerm-container-app-datadog,Terraform modules to install Datadog Serverless Monitoring for Azure Container Apps
 container-app-environment,CloudAstro,30006,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-app-environment,"This module manages the creation and configuration of an Azure Container App Environment. It supports network isolation, Azure Virtual Network integration, Dapr components,storage configuration, scaling, and secure communication for containerized applications."
+container-app-job-scheduler-stop-start,diodonfrost,31139,azure,https://github.com/diodonfrost/terraform-azure-container-app-job-scheduler-stop-start,Terraform module that creates an Azure Container app job for stopping and starting Azure resources
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
 container-definition,terra-mod,4228,aws,https://github.com/terra-mod/terraform-aws-container-definition,AWS ECS Task Definition
@@ -7378,7 +7379,7 @@ eks-alb-ingress,mrnim94,16635,aws,https://github.com/mrnim94/terraform-aws-eks-a
 eks-alb-ingress-controller,blackbird-cloud,16679,aws,https://github.com/blackbird-cloud/terraform-aws-eks-alb-ingress-controller,terraform-aws-eks-alb-ingress-controller
 eks-argo-workflows,lablabs,23017,aws,https://github.com/lablabs/terraform-aws-eks-argo-workflows,
 eks-argocd,DNXLabs,8665,aws,https://github.com/DNXLabs/terraform-aws-eks-argocd,Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.
-eks-argocd,lablabs,15388,aws,https://github.com/lablabs/terraform-aws-eks-argocd,A terraform module to deploy ArgoCD on Amazon EKS cluster
+eks-argocd,lablabs,15388,aws,https://github.com/lablabs/terraform-aws-eks-argocd,
 eks-atlantis,lablabs,23018,aws,https://github.com/lablabs/terraform-aws-eks-atlantis,
 eks-audit-log,lacework,13137,aws,https://github.com/lacework/terraform-aws-eks-audit-log,Terraform module for configuring an integration with AWS to analyze EKS Audit Logs for monitoring EKS cluster security and configuration compliance.
 eks-auth,aidanmelen,12270,aws,https://github.com/aidanmelen/terraform-aws-eks-auth,A Terraform module to manage cluster authentication (aws-auth) for an Elastic Kubernetes (EKS) cluster on AWS.
@@ -7472,7 +7473,7 @@ eks-ebs-csi,blackbird-cloud,19827,aws,https://github.com/blackbird-cloud/terrafo
 eks-ebs-csi,mrnim94,16558,aws,https://github.com/mrnim94/terraform-aws-eks-ebs-csi,Creat Persistent Volume on EKS via EBS.
 eks-ebs-csi-driver,Z4ck404,21163,aws,https://github.com/Z4ck404/terraform-aws-eks-ebs-csi-driver,A terraform module install ebs csi driver on an eks cluster
 eks-ebs-csi-driver,andreswebs,9941,aws,https://github.com/andreswebs/terraform-aws-eks-ebs-csi-driver,Deploys the Amazon EBS CSI driver on AWS EKS via Helm
-eks-ebs-csi-driver,lablabs,15390,aws,https://github.com/lablabs/terraform-aws-eks-ebs-csi-driver,A terraform module to deploy the AWS EBS CSI driver on Amazon EKS cluster.
+eks-ebs-csi-driver,lablabs,15390,aws,https://github.com/lablabs/terraform-aws-eks-ebs-csi-driver,
 eks-ebs-csi-driver,wedaa-tech,30987,aws,https://github.com/wedaa-tech/terraform-aws-eks-ebs-csi-driver,
 eks-ec2-istio,albertomassa,23717,aws,https://github.com/albertomassa/terraform-aws-eks-ec2-istio,"A simple module that creates an EKS infrastructure in HA, with EC2 worker nodes."
 eks-ecommerce,Devgurusio,11851,aws,https://github.com/Devgurusio/terraform-aws-eks-ecommerce,AWS Elastic Kubernetes Service starter kit to bootstrap an e-commerce site based on microservices
@@ -7496,7 +7497,7 @@ eks-external-dns-cloudflare,blackbird-cloud,16683,aws,https://github.com/blackbi
 eks-external-secrets,DNXLabs,8673,aws,https://github.com/DNXLabs/terraform-aws-eks-external-secrets,"Terraform module for deploying kubernetes-external-secrets, this enables to use AWS Secrets Manager and SSM Parameters inside a pre-existing EKS cluster."
 eks-external-secrets,KongHQ-CX,15958,aws,https://github.com/KongHQ-CX/terraform-aws-eks-external-secrets,A terraform module for configuring and deploying external-secrets to an EKS cluster
 eks-external-secrets,andreswebs,10034,aws,https://github.com/andreswebs/terraform-aws-eks-external-secrets,Deploys Kubernetes External Secrets on AWS EKS
-eks-external-secrets,lablabs,15391,aws,https://github.com/lablabs/terraform-aws-eks-external-secrets,A terraform module to deploy the External Secrets Operator on Amazon EKS cluster
+eks-external-secrets,lablabs,15391,aws,https://github.com/lablabs/terraform-aws-eks-external-secrets,
 eks-fargate,nalbam,6098,aws,https://github.com/nalbam/terraform-aws-eks-fargate,
 eks-fargate,tfstack,28840,aws,https://github.com/tfstack/terraform-aws-eks-fargate,Terraform module to deploy AWS EKS Fargate profiles for serverless workloads
 eks-fargate-alb,pododso,5653,aws,https://github.com/pododso/terraform-aws-eks-fargate-alb,Module for managing EKS clusters using Fargate profiles
@@ -7507,11 +7508,11 @@ eks-fargate-profile,terraform-module,3815,aws,https://github.com/terraform-modul
 eks-fargate-profile,umotif-public,4207,aws,https://github.com/umotif-public/terraform-aws-eks-fargate-profile,Terraform module to configure an EKS Fargate Profile
 eks-fsx-lustre-csi,aws-terraform-module,27009,aws,https://github.com/aws-terraform-module/terraform-aws-eks-fsx-lustre-csi,
 eks-github-actions-runner,lablabs,15394,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner,
-eks-github-actions-runner-controller,lablabs,15395,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-controller,Terraform module to deploy Github Actions runner Kubernetes Controller
+eks-github-actions-runner-controller,lablabs,15395,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-controller,
 eks-github-actions-runner-scale-set-controller,lablabs,23020,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-scale-set-controller,
 eks-github-runner,DNXLabs,9098,aws,https://github.com/DNXLabs/terraform-aws-eks-github-runner,
 eks-gitlab-runner,blackbird-cloud,16684,aws,https://github.com/blackbird-cloud/terraform-aws-eks-gitlab-runner,terraform-aws-eks-gitlab-runner
-eks-gitlab-runner,lablabs,16420,aws,https://github.com/lablabs/terraform-aws-eks-gitlab-runner,Terraform module for spawning gitlab-runner as addon into EKS cluster
+eks-gitlab-runner,lablabs,16420,aws,https://github.com/lablabs/terraform-aws-eks-gitlab-runner,
 eks-gitops-cluster,parisnakitakejser,22683,aws,https://github.com/parisnakitakejser/terraform-aws-eks-gitops-cluster,Fully AWS EKS cluster with lots of modules enabled from the beginning to support GitOps.
 eks-grafana,lablabs,11198,aws,https://github.com/lablabs/terraform-aws-eks-grafana,
 eks-grafana-prometheus,DNXLabs,8674,aws,https://github.com/DNXLabs/terraform-aws-eks-grafana-prometheus,Terraform module for deploying Kubernetes Prometheus and Grafana inside a pre-existing EKS cluster.
@@ -7551,10 +7552,10 @@ eks-istio-operator,bakuppus,10701,aws,https://github.com/bakuppus/terraform-aws-
 eks-jupyterhub,dabble-of-devops-bioanalyze,10448,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
 eks-jupyterhub,dabble-of-devops-biodeploy,10357,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-eks-jupyterhub,Deploy Jupyterhub + Dask Cluster on an existing AWS EKS Cluster
 eks-jx,jenkins-x,4459,aws,https://github.com/jenkins-x/terraform-aws-eks-jx,A Terraform module for creating Jenkins X infrastructure on AWS
-eks-karpenter,lablabs,15668,aws,https://github.com/lablabs/terraform-aws-eks-karpenter,A terraform module to deploy the karpenter on Amazon EKS cluster.
+eks-karpenter,lablabs,15668,aws,https://github.com/lablabs/terraform-aws-eks-karpenter,
 eks-karpenter,omerrevach,28722,aws,https://github.com/omerrevach/terraform-aws-eks-karpenter,Custom Module for EKS + VPC + VPC Setup
 eks-keda,DNXLabs,10947,aws,https://github.com/DNXLabs/terraform-aws-eks-keda,Terraform module for deploying Kubernetes-based Event Driven Autoscaler (KEDA) inside a pre-existing EKS cluster.
-eks-keda,lablabs,14210,aws,https://github.com/lablabs/terraform-aws-eks-keda,A terraform module to deploy the AWS keda on Amazon EKS cluster.
+eks-keda,lablabs,14210,aws,https://github.com/lablabs/terraform-aws-eks-keda,
 eks-kiali-operator,DNXLabs,9674,aws,https://github.com/DNXLabs/terraform-aws-eks-kiali-operator,"Terraform module for deploying Kubernetes kiali-operator, a management console for an Istio-based service mesh. It provides dashboards, observability, and lets you operate your mesh with robust configuration and validation capabilities."
 eks-kube-state-metrics,lablabs,5538,aws,https://github.com/lablabs/terraform-aws-eks-kube-state-metrics,
 eks-kubeconfig,hyperbadger,14962,aws,https://github.com/hyperbadger/terraform-aws-eks-kubeconfig,A terraform module which returns kubeconfig based on ephemeral token for EKS cluster
@@ -7562,7 +7563,7 @@ eks-kubeconfig-token,kzhou57,23192,aws,https://github.com/kzhou57/terraform-aws-
 eks-kubemonkey,PartTimeLegend,15259,aws,https://github.com/PartTimeLegend/terraform-aws-eks-kubemonkey,Little test and play with setting up Kubemonkey for Kubernetes using Terraform to deploy the Kubernetes Manifests.
 eks-kubernetes-dashboard,lablabs,6887,aws,https://github.com/lablabs/terraform-aws-eks-kubernetes-dashboard,
 eks-kyverno,DNXLabs,13500,aws,https://github.com/DNXLabs/terraform-aws-eks-kyverno,
-eks-kyverno,lablabs,23024,aws,https://github.com/lablabs/terraform-aws-eks-kyverno,Terraform module to deploy Kyverno
+eks-kyverno,lablabs,23024,aws,https://github.com/lablabs/terraform-aws-eks-kyverno,
 eks-kyverno-policies,lablabs,23025,aws,https://github.com/lablabs/terraform-aws-eks-kyverno-policies,
 eks-labs,ranggarppb,20825,aws,https://github.com/ranggarppb/terraform-aws-eks-labs,
 eks-lb-controller,DNXLabs,8675,aws,https://github.com/DNXLabs/terraform-aws-eks-lb-controller,Terraform module for deploying AWS Load Balancer Controller inside a pre-existing EKS cluster.
@@ -7601,7 +7602,7 @@ eks-node-group,ptonini,21929,aws,https://github.com/ptonini/terraform-aws-eks-no
 eks-node-group,trallnag,7335,aws,https://github.com/trallnag/terraform-aws-eks-node-group,
 eks-node-group,umotif-public,4042,aws,https://github.com/umotif-public/terraform-aws-eks-node-group,Terraform module to provision EKS Managed Node Group
 eks-node-local-dns,lablabs,23026,aws,https://github.com/lablabs/terraform-aws-eks-node-local-dns,
-eks-node-problem-detector,lablabs,5535,aws,https://github.com/lablabs/terraform-aws-eks-node-problem-detector,A terraform module to deploy a node problem detector on Amazon EKS cluster
+eks-node-problem-detector,lablabs,5535,aws,https://github.com/lablabs/terraform-aws-eks-node-problem-detector,
 eks-node-termination-handler,DNXLabs,8677,aws,https://github.com/DNXLabs/terraform-aws-eks-node-termination-handler,Terraform module for deploying node termination handler inside a pre-existing EKS cluster.
 eks-nodegroup,filipegomes11,29232,aws,https://github.com/filipegomes11/terraform-aws-eks-nodegroup,
 eks-nodegroup,leonmwandiringa,15815,aws,https://github.com/leonmwandiringa/terraform-aws-eks-nodegroup,
@@ -7611,7 +7612,7 @@ eks-operation-scheduler,gianniskt,30898,aws,https://github.com/gianniskt/terrafo
 eks-pipeline,magicorntech,19647,aws,https://github.com/magicorntech/terraform-aws-eks-pipeline,Magicorn AWS EKS Pipeline Module
 eks-platform,skyfjell,15432,aws,https://github.com/skyfjell/terraform-aws-eks-platform,Deploy an Enhanced EKS Cluster
 eks-pod-identity,terraform-aws-modules,23800,aws,https://github.com/terraform-aws-modules/terraform-aws-eks-pod-identity,Terraform module to create AWS EKS Pod Identity resources 🇺🇦
-eks-prometheus,lablabs,11199,aws,https://github.com/lablabs/terraform-aws-eks-prometheus,"Terraform module to deploy Prometheus, Alertmanager, Prometheus-operator"
+eks-prometheus,lablabs,11199,aws,https://github.com/lablabs/terraform-aws-eks-prometheus,
 eks-prometheus-node-exporter,lablabs,5539,aws,https://github.com/lablabs/terraform-aws-eks-prometheus-node-exporter,
 eks-px-backup,andreswebs,9920,aws,https://github.com/andreswebs/terraform-aws-eks-px-backup,Deploys PX Backup via Helm on AWS EKS
 eks-rbac,c0x12c,29287,aws,https://github.com/c0x12c/terraform-aws-eks-rbac,
@@ -7631,7 +7632,7 @@ eks-spotinst,mateothegreat,9715,aws,https://github.com/mateothegreat/terraform-a
 eks-spotinst-ocean-nodepool,cloudposse,7047,aws,https://github.com/cloudposse/terraform-aws-eks-spotinst-ocean-nodepool,A terraform module to create an EKS node pool with Spot Ocean by Spot.io
 eks-tailscale,fuzzylemma,12655,aws,https://github.com/fuzzylemma/terraform-aws-eks-tailscale,
 eks-thanos,bigonil,29164,aws,https://github.com/bigonil/terraform-aws-eks-thanos,
-eks-thanos,lablabs,11197,aws,https://github.com/lablabs/terraform-aws-eks-thanos,Terraform module to deploy Thanos
+eks-thanos,lablabs,11197,aws,https://github.com/lablabs/terraform-aws-eks-thanos,
 eks-trust-manager,lablabs,23021,aws,https://github.com/lablabs/terraform-aws-eks-trust-manager,
 eks-v1,lily4499,24345,aws,https://github.com/lily4499/terraform-aws-eks-v1,
 eks-v2,lily4499,24349,aws,https://github.com/lily4499/terraform-aws-eks-v2,
@@ -11517,7 +11518,7 @@ logs,transcom,29822,aws,https://github.com/transcom/terraform-aws-logs,Creates a
 logs,trussworks,663,aws,https://github.com/trussworks/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs-agent,terraform-ibm-modules,28908,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-logs-agent,Terraform module to deploy the IBM Cloud Logs Agent on a Cluster
 logs-s3-bucket,cn-terraform,13502,aws,https://github.com/cn-terraform/terraform-aws-logs-s3-bucket,AWS S3 bucket for logs delivery
-logs-to-opensearch,montblu,26711,aws,https://github.com/montblu/terraform-aws-logs-to-opensearch,Module that deploys a Lambda that sends ALB and VPC Flow logs and ingest them into OpenSearch
+logs-to-opensearch,montblu,26711,aws,https://github.com/montblu/terraform-aws-logs-to-opensearch,
 logsGroupExport,JeissonO,9012,aws,https://github.com/JeissonO/terraform-aws-logsGroupExport,This module creates resources that fire events to export your logs groups in Cloudwatch to an S3 Bucket
 logstore-alb-listener,terraform-alicloud-modules,10415,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-logstore-alb-listener,
 logstruct,DocSpring,30088,aws,https://github.com/DocSpring/terraform-aws-logstruct,
@@ -18905,6 +18906,7 @@ tkgmgmtsetup,tanzuformers,10519,helm,https://github.com/tanzuformers/terraform-h
 tls,devops-rob,9652,gcp,https://github.com/devops-rob/terraform-gcp-tls,"Create self-signed TLS certicates, encrypt keys and store in GCS Bucket"
 to-efs-backup,rhythmictech,3136,efs,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 to-hero,Rajmohan08,30671,zero,https://github.com/Rajmohan08/terraform-zero-to-hero,
+to-hero,maruthibg1998,31137,zero,https://github.com/maruthibg1998/terraform-zero-to-hero,
 to-hero,nirmalrajyuvi12,29463,zero,https://github.com/nirmalrajyuvi12/terraform-zero-to-hero,
 toadlester,maroda,31117,module,https://github.com/maroda/terraform-module-toadlester,
 token,dhoppeIT,28547,authentik,https://github.com/dhoppeIT/terraform-authentik-token,
