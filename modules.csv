@@ -1340,6 +1340,7 @@ arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs
 arc-efs,sourcefuse,30916,aws,https://github.com/sourcefuse/terraform-aws-arc-efs,Terraform module for EFS
 arc-eks,sourcefuse,21304,aws,https://github.com/sourcefuse/terraform-aws-arc-eks,Repo for managing the EKS Terraform Module.
 arc-eks-addon,sourcefuse,21399,aws,https://github.com/sourcefuse/terraform-aws-arc-eks-addon,
+arc-fsx,sourcefuse,31169,aws,https://github.com/sourcefuse/terraform-aws-arc-fsx,Terraform module for SFX
 arc-github-iam,sourcefuse,22929,aws,https://github.com/sourcefuse/terraform-aws-arc-github-iam,To create your OIDC Connection from GitHub to AWS and manage the IAM Policies / Roles to assume in Actions. 
 arc-github-runner,sourcefuse,22538,aws,https://github.com/sourcefuse/terraform-aws-arc-github-runner,Repo for managing the self hosted GitHub Actions Runner.
 arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws-arc-healthcheck,
@@ -2065,6 +2066,7 @@ avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Terraform Azure Verified Utility Module for AVM Interfaces
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
+avm-utl-privatedns-privatednszone-azapi-replicator,Azure,31167,azure,https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
 avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Terraform Azure Verified Utility Module for Azure Regions Data
 avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,Terraform Azure Verified Utility Module for AVM Utility module for role definitions
 avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
@@ -4371,6 +4373,7 @@ container-app,bootlabstech,17396,azurerm,https://github.com/bootlabstech/terrafo
 container-app,telekom-mms,20091,azurerm,https://github.com/telekom-mms/terraform-azurerm-container-app,A Terraform module that manages the container_app resources from the azurerm provider.
 container-app-datadog,DataDog,30486,azurerm,https://github.com/DataDog/terraform-azurerm-container-app-datadog,Terraform modules to install Datadog Serverless Monitoring for Azure Container Apps
 container-app-environment,CloudAstro,30006,azurerm,https://github.com/CloudAstro/terraform-azurerm-container-app-environment,"This module manages the creation and configuration of an Azure Container App Environment. It supports network isolation, Azure Virtual Network integration, Dapr components,storage configuration, scaling, and secure communication for containerized applications."
+container-app-job-multi-scheduler-stop-start,diodonfrost,31171,azure,https://github.com/diodonfrost/terraform-azure-container-app-job-multi-scheduler-stop-start,Terraform module that creates multiple Azure container app job schedulers at once for stopping and starting Azure resources
 container-app-job-scheduler-stop-start,diodonfrost,31139,azure,https://github.com/diodonfrost/terraform-azure-container-app-job-scheduler-stop-start,Terraform module that creates an Azure Container app job for stopping and starting Azure resources
 container-apps,Azure,19575,azure,https://github.com/Azure/terraform-azure-container-apps,A Terraform module to deploy a container app in Azure
 container-cluster,savipavan,15750,google,https://github.com/savipavan/terraform-google-container-cluster,
@@ -9186,6 +9189,7 @@ helmrepo,rhythmictech,5091,aws,https://github.com/rhythmictech/terraform-aws-hel
 helper,masterpointio,20222,secrets,https://github.com/masterpointio/terraform-secrets-helper,The Terraform module that abstracts the way we manage secrets.
 helper,wsalmi,10296,configcat,https://github.com/wsalmi/terraform-configcat-helper,"This helper to speed up and facilitate the control of feature flags in ConfigCat. Its construction is very complex and verbose, which makes us avoid using it."
 helper-acm-validation,guidion-digital,23240,aws,https://github.com/guidion-digital/terraform-aws-helper-acm-validation,Performs necessary tasks to get valid ACM certificates for domains passed to it
+helper-api-gateway-settings,guidion-digital,31168,aws,https://github.com/guidion-digital/terraform-aws-helper-api-gateway-settings,Helper Module to Create Permissions for API Gateway to Send Logs 
 helper-api-key,guidion-digital,25292,aws,https://github.com/guidion-digital/terraform-aws-helper-api-key,Creates API keys for use with API Gateway
 helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digital/terraform-aws-helper-application-dns,"Simple helper module which will create Route53 records, and create assumable roles that will be able to edit them from another account"
 helper-application-policy,guidion-digital,23136,aws,https://github.com/guidion-digital/terraform-aws-helper-application-policy,Small helper module containing correct permissions for predefined resource names
@@ -10888,7 +10892,7 @@ lambda,telia-oss,1226,aws,https://github.com/telia-oss/terraform-aws-lambda,Lamb
 lambda,terraform-aws-modules,5089,aws,https://github.com/terraform-aws-modules/terraform-aws-lambda,"Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations 🇺🇦"
 lambda,terraform-aws-modules-spyrosoft,13459,aws,https://github.com/terraform-aws-modules-spyrosoft/terraform-aws-lambda,"Terraform module, which takes care of a lot of AWS Lambda/serverless tasks (build dependencies, packages, updates, deployments) in countless combinations 🇺🇦"
 lambda,terraform-module,3810,aws,https://github.com/terraform-module/terraform-aws-lambda,Deploy serverless function to AWS VPC
-lambda,terraformita,11846,aws,https://github.com/terraformita/terraform-aws-lambda,Terraform AWS module for Lambda functions
+lambda,terraformita,11846,aws,https://github.com/terraformita/terraform-aws-lambda,
 lambda,tomarv2,9535,aws,https://github.com/tomarv2/terraform-aws-lambda,Terraform module to deploy AWS Lambda.
 lambda,transcom,24652,aws,https://github.com/transcom/terraform-aws-lambda,Terraform module for creating AWS Lambda jobs with appropriate log configurations.
 lambda,trussworks,2475,aws,https://github.com/trussworks/terraform-aws-lambda,Terraform module for creating AWS Lambda jobs with appropriate log configurations.
@@ -16454,6 +16458,7 @@ sampleec2,chetagra,14964,registry,https://github.com/chetagra/terraform-registry
 samplemodule,akilagithub,9336,azure,https://github.com/akilagithub/terraform-azure-samplemodule,terraform-azure-samplemodule
 samplemodule,rajmohanma,17071,azurerm,https://github.com/rajmohanma/terraform-azurerm-samplemodule,
 san-multi-zone,karankohli13,10385,acm,https://github.com/karankohli13/terraform-acm-san-multi-zone,
+sanbox,FatlumJer,31170,azurerm,https://github.com/FatlumJer/terraform-azurerm-sanbox,
 sandbox,cyberrangecz,28216,crczp,https://github.com/cyberrangecz/terraform-crczp-sandbox,
 sandbox,estib,17270,cloud,https://github.com/estib/terraform-cloud-sandbox,Repo to contain terraform modules I use frequently for building sandbox environments. 
 sandbox,obay,15384,azure,https://github.com/obay/terraform-azure-sandbox,This Terraform module deploys a sandbox environment in Azure that will be used for testing and development purposes.
@@ -20833,7 +20838,7 @@ website-automation-user,Any-DevOps-Solutions,4887,aws,https://github.com/Any-Dev
 website-automation-user,sbogacz,1003,aws,https://github.com/sbogacz/terraform-aws-website-automation-user,A terraform module to create the necessary IAM resources for an automation user that will be updating S3 and CloudFront resources
 website-aws-s3-cloudfront,eyulf,8194,module,https://github.com/eyulf/terraform-module-website-aws-s3-cloudfront,Terraform module for creating websites in AWS using S3 and Cloudfront. Ideal for Static Websites.
 website-crawler,frolly,23789,aws,https://github.com/frolly/terraform-aws-website-crawler,"Crawl Website for cache or check website page and copy pages to S3. Service used are : AWS Lambda, AWS SQS, AWS S3"
-website-pod,infrahouse,20541,aws,https://github.com/infrahouse/terraform-aws-website-pod,Module that creates an autoscaling group with an ALB and SSL certificate for a website.
+website-pod,infrahouse,20541,aws,https://github.com/infrahouse/terraform-aws-website-pod,"Terraform module for web application deployment with ALB, ACM SSL certificates, EC2 autoscaling, CloudWatch alarms, CAA records, and spot instance support. "
 website-redirect,CloudPediaAI,23376,aws,https://github.com/CloudPediaAI/terraform-aws-website-redirect,Terraform Module to redirect from your Source URL to Target URL
 website-redirection,robbytaylor,3749,static,https://github.com/robbytaylor/terraform-static-website-redirection,A Terraform module for a static website with Lambda@edge redirect to the primary hostname
 website-secure,timmeinerzhagen,10815,aws,https://github.com/timmeinerzhagen/terraform-aws-website-secure,Terraform module for deploying a secure website hosted on AWS utilizing Cognito Identity including external IdPs
