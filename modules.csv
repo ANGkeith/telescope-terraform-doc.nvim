@@ -2041,9 +2041,9 @@ avm-res-network-networksecuritygroup,Azure,23301,azurerm,https://github.com/Azur
 avm-res-network-networkwatcher,Azure,25023,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkwatcher,Azure Network Watcher AVM Module
 avm-res-network-privatednszone,Azure,23274,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone,Terraform Azure Verified Resource Module for Private DNS Zone
 avm-res-network-privateendpoint,Azure,26104,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privateendpoint,AVM Terraform module for private endpoint
-avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Repository for 'Public IP address' AVM module
+avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Terraform Azure Verified Resource Module for Public IP Address
 avm-res-network-publicipprefix,Azure,28735,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipprefix,AVM TF Module for Public IP Address Prefix 
-avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,AVM Terraform Module for Azure Route Table
+avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,Terraform Azure Verified Resource Module for Route Table
 avm-res-network-virtualnetwork,Azure,29601,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork,Terraform Azure Verified Resource Module for Virtual Network
 avm-res-operationalinsights-workspace,Azure,22931,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace,Terraform Azure Verified Resource Module for Log Analytics workspace
 avm-res-oracledatabase-cloudexadatainfrastructure,Azure,26079,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure,Terraform Azure Verified Resource Module for Oracle Exadata Infrastructure
@@ -2053,7 +2053,7 @@ avm-res-recoveryservices-vault,Azure,27233,azurerm,https://github.com/Azure/terr
 avm-res-redhatopenshift-openshiftcluster,Azure,30323,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-redhatopenshift-openshiftcluster,Terraform Azure Verified Resource Module for OpenShift Cluster
 avm-res-relay-namespace,Azure,31013,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-relay-namespace,Terraform Azure Verified Resource Module for Relay Namespace
 avm-res-resourcegraph-query,Azure,28480,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resourcegraph-query,
-avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup,"To gain access, please finish setting up this repository now at: "
+avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup,Terraform Azure Verified Resource Module for Resource Group
 avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,Terraform Azure Verified Resource Module for Search Service
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,Terraform Azure Verified Resource Module for SQL Managed Instance
@@ -2064,8 +2064,10 @@ avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terr
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,Terraform Azure Verified Resource Module for App Service Plan
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,Terraform Azure Verified Resource Module for Web/Function App
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
+avm-utl-compute-linuxvirtualmachine-azapi-replicator,Azure,31173,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-linuxvirtualmachine-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-compute-linuxvirtualmachine-azapi-replicator
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Terraform Azure Verified Utility Module for AVM Interfaces
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
+avm-utl-network-virtualnetwork-azapi-replicator,Azure,31172,azure,https://github.com/Azure/terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_virtual_network into azapi_resource
 avm-utl-privatedns-privatednszone-azapi-replicator,Azure,31167,azure,https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
 avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Terraform Azure Verified Utility Module for Azure Regions Data
 avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,Terraform Azure Verified Utility Module for AVM Utility module for role definitions
@@ -8241,6 +8243,7 @@ firestore,bootlabstech,18876,google,https://github.com/bootlabstech/terraform-go
 firestore,kiwicom,7578,google,https://github.com/kiwicom/terraform-google-firestore,terraform module for the firestore projects
 firestore-collection,causa-io,20181,google,https://github.com/causa-io/terraform-google-firestore-collection,"A Terraform module that eases the management of a Firestore collection, such as its indexes and TTL configuration."
 firestore-database,bootlabstech,27170,google,https://github.com/bootlabstech/terraform-google-firestore-database,Creates a GCP firestore DB.
+firestore-db,bootlabstech,31174,google,https://github.com/bootlabstech/terraform-google-firestore-db,This module is used for creating firestore database
 firewall,CloudAstro,29520,azurerm,https://github.com/CloudAstro/terraform-azurerm-firewall,This module manages the creation and configuration of Azure Firewalls and related resources in Microsoft Azure.
 firewall,Flaconi,10381,cloudflare,https://github.com/Flaconi/terraform-cloudflare-firewall,Terraform module for Cloudflare firewall rules
 firewall,JamesWoolfenden,11078,linode,https://github.com/JamesWoolfenden/terraform-linode-firewall,
@@ -9210,6 +9213,7 @@ helpers,MaxKelsen,8095,aws,https://github.com/MaxKelsen/terraform-aws-helpers,Ma
 helpers,ScottG489,5499,aws,https://github.com/ScottG489/terraform-aws-helpers,Helper modules for my projects
 helpers,dasmeta,20645,null,https://github.com/dasmeta/terraform-null-helpers,
 helpers,logicalclocks,9059,hopsworksai,https://github.com/logicalclocks/terraform-hopsworksai-helpers,Terraform module that creates the required cloud resources for Hopsworks.ai clusters on AWS and AZURE.
+henik-test-vpc,henikrangoon19,31175,aws,https://github.com/henikrangoon19/terraform-aws-henik-test-vpc,
 heroku-master,matti,798,kontena,https://github.com/matti/terraform-kontena-heroku-master,
 hetzner-cloudwatch-integration,KamranBiglari,30526,aws,https://github.com/KamranBiglari/terraform-aws-hetzner-cloudwatch-integration,Terraform module to monitor Hetzner Cloud resources (Load Balancers & Servers) using AWS CloudWatch. Serverless integration via Step Functions with automated metric collection.
 hetzner-firewall,terraform-awesome-modules,25431,hcloud,https://github.com/terraform-awesome-modules/terraform-hcloud-hetzner-firewall,
