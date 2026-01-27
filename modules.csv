@@ -2065,11 +2065,13 @@ avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-az
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,Terraform Azure Verified Resource Module for Web/Function App
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-compute-linuxvirtualmachine-azapi-replicator,Azure,31173,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-linuxvirtualmachine-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-compute-linuxvirtualmachine-azapi-replicator
+avm-utl-compute-windowsvirtualmachine-azapi-replicator,Azure,31181,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-windowsvirtualmachine-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-compute-windowsvirtualmachine-azapi-replicator
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,Terraform Azure Verified Utility Module for AVM Interfaces
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,Terraform Azure Verified Utility Module for calculating subnet ip address ranges
 avm-utl-network-virtualnetwork-azapi-replicator,Azure,31172,azure,https://github.com/Azure/terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_virtual_network into azapi_resource
 avm-utl-privatedns-privatednszone-azapi-replicator,Azure,31167,azure,https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
 avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Terraform Azure Verified Utility Module for Azure Regions Data
+avm-utl-resources-resourcegroup-azapi-replicator,Azure,31183,azure,https://github.com/Azure/terraform-azure-avm-utl-resources-resourcegroup-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_resource_group into azapi_resource
 avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,Terraform Azure Verified Utility Module for AVM Utility module for role definitions
 avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
@@ -4022,6 +4024,7 @@ codebuild-project,madelabs,20115,aws,https://github.com/madelabs/terraform-aws-c
 codebuild-project,pquintero,11459,aws,https://github.com/pquintero/terraform-aws-codebuild-project,This repository contains the basic definition for the AWS CodeBuild
 codebuild-to-slack,en30,2527,aws,https://github.com/en30/terraform-aws-codebuild-to-slack,
 codebuild-webdeploy-package,GenesisFunction,3039,aws,https://github.com/StratusGrid/terraform-aws-codebuild-webdeploy-package,codebuild-webdeploy-package is used to make a codebuild which will create a web deploy package for a .net or .net core application.
+codecarbon,fabiocicerchia,31184,kubernetes,https://github.com/fabiocicerchia/terraform-kubernetes-codecarbon,
 codecommit,JamesWoolfenden,2014,aws,https://github.com/JamesWoolfenden/terraform-aws-codecommit,"Contains the module, permissions and sample code to create a feature branching enabled repo."
 codecommit,lgallard,4968,aws,https://github.com/lgallard/terraform-aws-codecommit,Terraform module to create AWS CodeCommit repositories. AWS CodeCommit is a fully-managed source control service that hosts secure Git-based repositories.
 codecommit,tim0git,12155,aws,https://github.com/tim0git/terraform-aws-codecommit,Terraform module which creates CodeCommit resources
@@ -8846,6 +8849,7 @@ gke-node-pools,wisk-aero-oss,30214,google,https://github.com/wisk-aero-oss/terra
 gke-node_pool,matti,2565,google,https://github.com/matti/terraform-google-gke-node_pool,
 gke-on-steroids,emmekappa,4685,google,https://github.com/emmekappa/terraform-google-gke-on-steroids,
 gke-oom-kill-monitoring,AckeeCZ,13045,gcp,https://github.com/AckeeCZ/terraform-gcp-gke-oom-kill-monitoring,Terraform module for creation of resources needed for OOM kills monitoring.
+gke-operation-scheduler,gianniskt,31182,google,https://github.com/gianniskt/terraform-google-gke-operation-scheduler,Terraform module to schedule start/stop of GKE node pools using Cloud Scheduler + Cloud Functions
 gke-opinionated,bootlabstech,10993,google,https://github.com/bootlabstech/terraform-google-gke-opinionated,Terraform module for creating an opinionated gke cluster with two cluster node pools
 gke-private,runonautomation,7450,google,https://github.com/runonautomation/terraform-google-gke-private,Terraform repository module example for private GKE cluster provisioning
 gke-regional,woernfl,1838,gcp,https://github.com/woernfl/terraform-gcp-gke-regional,Using Terraform to create a regional GKE cluster (Hosted Kubernetes offering of GCP)
@@ -11736,10 +11740,10 @@ mc-transit-peering-advanced,terraform-aviatrix-modules,13186,aviatrix,https://gi
 mc-transit-tgw-connection,terraform-aviatrix-modules,9799,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-tgw-connection,This module builds an IPSEC VPN Connection between an unmanaged TGW and an Aviatrix transit gateway (in any cloud)).
 mcaf-account,schubergphilis,24636,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account,
 mcaf-account-baseline,schubergphilis,24635,aws,https://github.com/schubergphilis/terraform-aws-mcaf-account-baseline,
-mcaf-aurora,schubergphilis,18378,aws,https://github.com/schubergphilis/terraform-aws-mcaf-aurora,Terraform module to create an AWS RDS Aurora cluster
+mcaf-aurora,schubergphilis,18378,aws,https://github.com/schubergphilis/terraform-aws-mcaf-aurora,
 mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aws-mcaf-avm,
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,
-mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,Terraform module to manage certificates in AWS Certificate Manager
+mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,
 mcaf-clientvpn,schubergphilis,28703,aws,https://github.com/schubergphilis/terraform-aws-mcaf-clientvpn,
 mcaf-cloudfront,schubergphilis,29403,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cloudfront,
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,
