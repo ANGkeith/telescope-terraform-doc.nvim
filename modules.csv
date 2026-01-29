@@ -2903,6 +2903,7 @@ budgets-alerts,sculley,7340,aws,https://github.com/sculley/terraform-aws-budgets
 budgets-discord-notifs,aliAljaffer,29845,aws,https://github.com/aliAljaffer/terraform-aws-budgets-discord-notifs,
 budgets-with-notify-lambda-vpc-params,boris-dyga-SM,22488,aws,https://github.com/boris-dyga-SM/terraform-aws-budgets-with-notify-lambda-vpc-params,Terraform module to manage AWS Budgets with the VPC params of the notifying Lambda.
 build,telekom-mms,20276,azuredevops,https://github.com/telekom-mms/terraform-azuredevops-build,A Terraform module that manages the build resources from the azuredevops provider.
+build-enterprise-portal-website,alibabacloud-automation,31188,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-enterprise-portal-website,
 build-local-to-cloud-active-active-connection-with-sdwan,alibabacloud-automation,28128,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-local-to-cloud-active-active-connection-with-sdwan,
 build-local-to-cloud-active-passive-connection-with-sdwan,alibabacloud-automation,28129,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-build-local-to-cloud-active-passive-connection-with-sdwan,
 build-with-cleanup,glenngillen,15355,gg,https://github.com/glenngillen/terraform-gg-build-with-cleanup,"Enabled build commands, compressing, and then cleanup as a Terraform module."
@@ -6784,7 +6785,7 @@ ecs,genstackio,8000,aws,https://github.com/genstackio/terraform-aws-ecs,Terrafor
 ecs,hawknewton,30215,valtwarden,https://github.com/hawknewton/terraform-valtwarden-ecs,
 ecs,hazelops,15076,aws,https://github.com/hazelops/terraform-aws-ecs,Terraform module which creates AWS ECS resources
 ecs,hushsecurity,29907,aws,https://github.com/hushsecurity/terraform-aws-ecs,
-ecs,infrahouse,22069,aws,https://github.com/infrahouse/terraform-aws-ecs,Module that runs service in ECS
+ecs,infrahouse,22069,aws,https://github.com/infrahouse/terraform-aws-ecs,"Terraform module for ECS on EC2 service deployment with ALB integration, auto-scaling, CloudWatch monitoring, secrets injection, and optional Datadog APM. "
 ecs,infraspecdev,25378,aws,https://github.com/infraspecdev/terraform-aws-ecs,Terraform module to create ECS Cluster that relies on self-managed EC2 instances
 ecs,jand0manski,20657,aws,https://github.com/jand0manski/terraform-aws-ecs,Terraform module which creates AWS ECS resources 🇺🇦
 ecs,karan6190,2081,aws,https://github.com/karan6190/terraform-aws-ecs,Terraform module which setup the ECS Cluster
@@ -8594,6 +8595,7 @@ gcve-mon,kasna-cloud,12681,google,https://github.com/kasna-cloud/terraform-googl
 gdemo1,GpreetSingh24,18677,azurerm,https://github.com/GpreetSingh24/terraform-azurerm-gdemo1,
 gdp,IBM,30510,guardium,https://github.com/IBM/terraform-guardium-gdp,Guardium Data Protection operations terraform module
 gdp,IBM,30749,aws,https://github.com/IBM/terraform-aws-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on AWS
+gdp,IBM,31192,vmware,https://github.com/IBM/terraform-vmware-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on VMWARE
 geethasri336,geethasri336,8109,azurerm,https://github.com/geethasri336/terraform-azurerm-geethasri336,public ip 
 gemini-module,peytoncasper,25301,gcp,https://github.com/peytoncasper/terraform-gcp-gemini-module,
 gen-files,schollii,8073,local,https://github.com/schollii/terraform-local-gen-files,Generate helm values files and other config files from terraform state
@@ -8939,6 +8941,7 @@ governance-eslz,qbeyond,13937,azurerm,https://github.com/qbeyond/terraform-azure
 gp-jenkins,dennian123,21546,module,https://github.com/dennian123/terraform-module-gp-jenkins,
 gpdb,terraform-alicloud-modules,2622,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-gpdb,Terraform module which creates HybridDB for PostgreSQL on Alibaba Cloud
 gps3bucket,gpiriyan,17568,aws,https://github.com/gpiriyan/terraform-aws-gps3bucket,demo8pubrep
+gpt,solrac97gr,31191,azurerm,https://github.com/solrac97gr/terraform-azurerm-gpt,"This Terraform module deploys Azure OpenAI Service (Cognitive Services) with model deployments, network security, RBAC, and private endpoint support."
 grafana,Senora-dev,28476,aws,https://github.com/Senora-dev/terraform-aws-grafana,
 grafana,anvibo,2258,docker,https://github.com/bfrunza/terraform-docker-grafana,
 grafana,basisai,9092,helm,https://github.com/basisai/terraform-helm-grafana,
@@ -9264,7 +9267,7 @@ http-cloudfunction,iraza,10505,google,https://github.com/iraza/terraform-google-
 http-internal,JamesWoolfenden,21524,gcp,https://github.com/JamesWoolfenden/terraform-gcp-http-internal,"A basic terraform module example, which the example uses for a helm repo"
 http-json,cunneen,27012,dns,https://github.com/cunneen/terraform-dns-http-json,DNS over HTTP (DoH) JSON module for Terraform
 http-proxy,direct-democracy-solutions,19563,aws,https://github.com/direct-democracy-solutions/terraform-aws-http-proxy,Basic transparent HTTP Proxy with API Gateway
-http-redirect,infrahouse,29662,aws,https://github.com/infrahouse/terraform-aws-http-redirect,Module creates an HTTP redirect server.
+http-redirect,infrahouse,29662,aws,https://github.com/infrahouse/terraform-aws-http-redirect,Terraform module for HTTP to HTTPS redirect using CloudFront with custom domain support and SSL certificate management. 
 http-redirect,neovops,13995,aws,https://github.com/neovops/terraform-aws-http-redirect,
 httpbin-on-ecs,aq,7322,aws,https://github.com/aq/terraform-aws-httpbin-on-ecs,"This project is a definition of a Terraform infrastructure that runs on AWS ECS the docker image httpbin, a simple HTTP API."
 https-redirect,commitdev,9083,aws,https://github.com/commitdev/terraform-aws-https-redirect,"Create a HTTPS redirect using free-tier AWS resources - Cloudfront, S3, ACM, Route53"
@@ -11986,7 +11989,6 @@ module,EtgaErdem7,22283,eks,https://github.com/EtgaErdem7/terraform-eks-module,
 module,Georgii-M,10436,nat,https://github.com/Georgii-M/terraform-nat-module,This repo contains terraform modules ready-to-use in production
 module,Grokon,17026,digitalocean,https://github.com/Grokon/terraform-digitalocean-module,Terraform module for managing DigitalOcean Droplets and related resources
 module,HappyPathway,24469,tfe,https://github.com/HappyPathway/terraform-tfe-module,Terraform Module
-module,IG-Work,30965,random,https://github.com/IG-Work/terraform-random-module,
 module,Lavanya2509,17109,azure,https://github.com/Lavanya2509/terraform-azure-module,
 module,MasterAB28,23338,sg,https://github.com/MasterAB28/terraform-sg-module,
 module,Nadset,30755,terracosts,https://github.com/Nadset/terraform-terracosts-module,
@@ -14287,6 +14289,7 @@ proj,skierkowski,2396,test,https://github.com/skierkowski/terraform-test-proj,
 project,ALT-F4-LLC,19290,tfe,https://github.com/ALT-F4-LLC/terraform-tfe-project,Terraform module which creates Terraform Enterprise project resources.
 project,AyaSagimbek,28827,jenkins,https://github.com/AyaSagimbek/terraform-jenkins-project,
 project,Beishenov7,19923,module,https://github.com/Beishenov7/terraform-module-project,
+project,EspenAlbert,31193,mongodbatlas,https://github.com/EspenAlbert/terraform-mongodbatlas-project,
 project,FFerrinho,27365,google,https://github.com/FFerrinho/terraform-google-project,"This Terraform module creates and manages Google Cloud Platform (GCP) projects. It supports configuring project settings, enabling APIs, and managing labels. The module also includes options for auto-creating networks and handling project deletion policies."
 project,HappyPathway,27714,github,https://github.com/HappyPathway/terraform-github-project,Terraform Module
 project,HappyPathway,27783,openai,https://github.com/HappyPathway/terraform-openai-project,Terraform Module
@@ -16740,6 +16743,7 @@ security-group,SevenPicoForks,17722,aws,https://github.com/SevenPicoForks/terraf
 security-group,Smartbrood,534,aws,https://github.com/Smartbrood/terraform-aws-security-group,Terraform module for vpc security groups on AWS
 security-group,TerraPros,27844,aws,https://github.com/TerraPros/terraform-aws-security-group,Terraform module to create AWS Security Group resources 🇺🇦
 security-group,TerraformFoundation,27920,aws,https://github.com/TerraformFoundation/terraform-aws-security-group,Terraform module to create AWS Security Group resources 🇺🇦
+security-group,WaisSat,31187,aws,https://github.com/WaisSat/terraform-aws-security-group,
 security-group,YohaiKorem,24340,aws,https://github.com/YohaiKorem/terraform-aws-security-group,
 security-group,a3linux,17997,aws,https://github.com/a3linux/terraform-aws-security-group,A simple terraform module to create AWS security group easy and flexible
 security-group,alibaba,69,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-security-group,Terraform module which creates Security Group and sets rules for it on Alibaba Cloud.
@@ -17615,6 +17619,7 @@ sqs-worker-asg,delivops,29397,ec2,https://github.com/delivops/terraform-ec2-sqs-
 sqs_queue,vinhdat4999,20874,kmsdemo,https://github.com/vinhdat4999/terraform-kmsdemo-sqs_queue,
 squid,srb3,6157,linux,https://github.com/srb3/terraform-linux-squid,
 sratest,bootlabstech,17664,google,https://github.com/bootlabstech/terraform-google-sratest,
+srch,CloudNationHQ,31190,azure,https://github.com/CloudNationHQ/terraform-azure-srch,
 srecc-cloudflare-dns,mujahidhemani,3477,aws,https://github.com/mujahidhemani/terraform-aws-srecc-cloudflare-dns,SRE Code Challenge - Terraform Cloudflare DNS module
 srecc-ec2-autoscale,mujahidhemani,3423,aws,https://github.com/mujahidhemani/terraform-aws-srecc-ec2-autoscale,SRE Code Challenge - EC2 Autoscaling module
 srecc-load-balancer,mujahidhemani,3425,aws,https://github.com/mujahidhemani/terraform-aws-srecc-load-balancer,SRE Code Challenge - A Terraform module to create an ALB
@@ -20374,6 +20379,7 @@ vpc-group-4,akadyrakunov,22609,aws,https://github.com/akadyrakunov/terraform-aws
 vpc-high-available,pcfeduardo,17966,aws,https://github.com/pcfeduardo/terraform-aws-vpc-high-available,terraform-aws-vpc-high-available
 vpc-impl,Codzs-Architecture,23247,aws,https://github.com/Codzs-Architecture/terraform-aws-vpc-impl,
 vpc-infra,lokeshjawane,5170,aws,https://github.com/lokeshjawane/terraform-aws-vpc-infra,
+vpc-infrastructure,juanayalaGlob,31194,aws,https://github.com/juanayalaGlob/terraform-aws-vpc-infrastructure,"Terraform module for AWS VPC with public and private subnets, NAT Gateway, and security groups"
 vpc-inudzuka,inudzuka-mitsu,24148,aws,https://github.com/inudzuka-mitsu/terraform-aws-vpc-inudzuka,custom terrafrom module 
 vpc-ips,adithyapathipaka,19555,aws,https://github.com/adithyapathipaka/terraform-aws-vpc-ips,
 vpc-jawad,jawadyousoufi,14067,aws,https://github.com/jawadyousoufi/terraform-aws-vpc-jawad,
