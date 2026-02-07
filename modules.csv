@@ -2076,6 +2076,7 @@ avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraf
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,Terraform Azure Verified Resource Module for SQL Managed Instance
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,Terraform Azure Verified Resource Module for Azure SQL Server
+avm-res-sqlvirtualmachine-sqlvirtualmachine,Azure,31301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sqlvirtualmachine-sqlvirtualmachine,Terraform Azure Verified Resource Module for Sql Virtual Machine
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
 avm-res-web-connection,Azure,30605,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-connection,Terraform Azure Verified Resource Module for API Connection
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,Terraform Azure Verified Resource Module for App Service Environment
@@ -3374,7 +3375,7 @@ cloud-config,terraform-alicloud-modules,12809,alicloud,https://github.com/alibab
 cloud-config-tool,4ops,3861,template,https://github.com/4ops/terraform-template-cloud-config-tool,Cloud config helper Terraform module
 cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on AWS
 cloud-connector-modules,zscaler,16998,azurerm,https://github.com/zscaler/terraform-azurerm-cloud-connector-modules,
-cloud-connector-modules,zscaler,21619,gcp,https://github.com/zscaler/terraform-gcp-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on GCP
+cloud-connector-modules,zscaler,21619,gcp,https://github.com/zscaler/terraform-gcp-cloud-connector-modules,
 cloud-data-streaming-service-cluster-vpc,terraform-navercloudplatform-modules,25257,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-cluster-vpc,Terraform module to create cloud data streaming service cluster resources for the vpc configuration
 cloud-data-streaming-service-config-group-vpc,terraform-navercloudplatform-modules,25259,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-config-group-vpc,Terraform module to create cloud data streaming service config group resources for the vpc configuration
 cloud-datastore,terraform-google-modules,1620,google,https://github.com/terraform-google-modules/terraform-google-cloud-datastore,Manages Datastore
@@ -6457,6 +6458,7 @@ ec2-example-luigi,luispdm,10820,aws,https://github.com/luispdm/terraform-aws-ec2
 ec2-example-module,felixcs1,23173,aws,https://github.com/felixcs1/terraform-aws-ec2-example-module,Just learning how to publish a tf module
 ec2-fleet-instance-refresh,ivoronin,20700,aws,https://github.com/ivoronin/terraform-aws-ec2-fleet-instance-refresh,Refreshes instances in EC2 Fleet when fleet's launch template version is updated
 ec2-github-runner,QuiNovas,15748,aws,https://github.com/QuiNovas/terraform-aws-ec2-github-runner,Enable the use of the Github Action machulav/ec2-github-runner@v2 in your AWS account
+ec2-group,asyrafnorafandi,31300,aws,https://github.com/asyrafnorafandi/terraform-aws-ec2-group,
 ec2-iam-role,Cloud-42,3909,aws,https://github.com/Cloud-42/terraform-aws-ec2-iam-role,Creates an IAM Role. Useful for ec2 and ASGs.
 ec2-iam-role,Smartbrood,538,aws,https://github.com/Smartbrood/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
 ec2-iam-role,leonardobiffi,14374,aws,https://github.com/leonardobiffi/terraform-aws-ec2-iam-role,Terraform module to create IAM role and instance profile for EC2
@@ -6596,6 +6598,7 @@ ec2-pritunl,raino007,21400,aws,https://github.com/raino007/terraform-aws-ec2-pri
 ec2-ram-metricsECC,ecc-tech,29401,aws,https://github.com/ecc-tech/terraform-aws-ec2-ram-metricsECC,
 ec2-rds-scheduler,eanselmi,20147,aws,https://github.com/eanselmi/terraform-aws-ec2-rds-scheduler,Terraform module to schedule ec2 and rds instances stop/start.
 ec2-resize-scheduler,yohrannes,28777,aws,https://github.com/yohrannes/terraform-aws-ec2-resize-scheduler,
+ec2-rocky9-fips,ironsmith-io,31302,aws,https://github.com/ironsmith-io/terraform-aws-ec2-rocky9-fips,Terraform module for FIPS-enabled Rocky Linux 9 EC2 instances on AWS  
 ec2-role,andreswebs,9792,aws,https://github.com/andreswebs/terraform-aws-ec2-role,"Creates an IAM Role and an EC2 instance profile using the role, with a list of attached IAM policies"
 ec2-role-rds-db-connect,voquis,5256,aws,https://github.com/voquis/terraform-aws-ec2-role-rds-db-connect,Terraform module to create an EC2 role to be assumed for requesting RDS DB connect credentials
 ec2-route53-registrar,QuiNovas,2615,aws,https://github.com/QuiNovas/terraform-aws-ec2-route53-registrar,Creates the ec2-route53-registrar lambda and associated resources
@@ -7905,6 +7908,7 @@ enclave,vespa-cloud,30376,azure,https://github.com/vespa-cloud/terraform-azure-e
 encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,A terraform module for creating an encrypted bucket in S3
 encryptedmanageddisk,Azure,595,azurerm,https://github.com/Azure/terraform-azurerm-encryptedmanageddisk,Terraform Azure RM Encrypted Managed Disk Module 
 encryption-at-rest,terraform-mongodbatlas-modules,25760,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-encryption-at-rest,
+end-to-end-tracing-diagnostics,alibabacloud-automation,31297,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-end-to-end-tracing-diagnostics,
 endpoint,dobby-zent,27644,zent,https://github.com/dobby-zent/terraform-zent-endpoint,terraform-zent-endpoint
 endpoint-backup,michael-denino,23924,aws,https://github.com/michael-denino/terraform-aws-endpoint-backup,Terraform AWS module to create the S3 and IAM resources needed for endpoint backup software such as Arq and MSP360 Standalone Backup (formerly CloudBerry Backup).
 endpoint-group,netascode,9753,aci,https://github.com/netascode/terraform-aci-endpoint-group,Terraform Cisco ACI Endpoint Group Module
@@ -8316,7 +8320,7 @@ firewall,stwalkerster,15828,linode,https://github.com/stwalkerster/terraform-lin
 firewall,syntaqx,2928,digitalocean,https://github.com/syntaqx/terraform-digitalocean-firewall,A Terraform module for creating DigitalOcean Cloud Firewalls.
 firewall,tedilabs,13476,aws,https://github.com/tedilabs/terraform-aws-firewall,
 firewall,terraform-az-modules,30779,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-firewall,
-firewall,terraform-do-modules,9866,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-firewall,"Provides a DigitalOcean Cloud Firewall resource. This can be used to create, modify, and delete Firewalls."
+firewall,terraform-do-modules,9866,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-firewall,"Provides a DigitalOcean Cloud Firewall resource. DigitalOcean Cloud Firewalls are a network-based, stateful firewall service for Droplets provided at no additional cost. Cloud firewalls block all traffic that isn’t expressly permitted by a rule."
 firewall,terraform-hetzner-modules,27320,hetzner,https://github.com/terraform-hetzner-modules/terraform-hetzner-firewall,🔥 Configure firewalls for your servers within Hetzner Cloud
 firewall,vk-cs,30919,vkcs,https://github.com/vk-cs/terraform-vkcs-firewall,Sets up a new security group on VKCS
 firewall,zoro16,21292,hcloud,https://github.com/zoro16/terraform-hcloud-firewall,Terraform module to provision Firewall resources in Hetzner Cloud.
@@ -9721,6 +9725,7 @@ influxdb-ds-module,gogorichie,19309,grafana,https://github.com/gogorichie/terraf
 influxdb-oss,ninthnails,4599,aws,https://github.com/ninthnails/terraform-aws-influxdb-oss,Terraform module which creates InfluxDB open source (OSS) nodes on AWS EC2.
 infoblox-deployment,slarimore02,12001,aws,https://github.com/slarimore02/terraform-aws-infoblox-deployment,
 infra,MONISH-JODHA,28699,aws,https://github.com/MONISH-JODHA/terraform-aws-infra,
+infra,aashish72it,31304,aws,https://github.com/aashish72it/terraform-aws-infra,This repo contains the terraform module for aws infra components
 infra,hanyouqing,3752,alicloud,https://github.com/hanyouqing/terraform-alicloud-infra,Infrafacture Management With Terraform
 infra,infani,19216,aws,https://github.com/infani/terraform-aws-infra,
 infra,neutrino-io,18622,google,https://github.com/neutrino-io/terraform-google-infra,Neutrino Platform Builder - Terraform Google Infra
@@ -11021,6 +11026,7 @@ lambda-edge-authentication,riboseinc,1923,aws,https://github.com/riboseinc/terra
 lambda-edge-azure-auth,nickshine,4576,aws,https://github.com/nickshine/terraform-aws-lambda-edge-azure-auth,An AWS CloudFront Lambda@Edge function to authenticate requests with Microsoft Azure AD.
 lambda-edge-function,dod-iac,4651,aws,https://github.com/dod-iac/terraform-aws-lambda-edge-function,AWS Lambda Function for use with Lambda@Edge
 lambda-edge-loggroups-retention-checker,giftomatic,27627,aws,https://github.com/giftomatic/terraform-aws-lambda-edge-loggroups-retention-checker,
+lambda-eks-apply,rockholla,31303,aws,https://github.com/rockholla/terraform-aws-lambda-eks-apply,Terraform module for applying a templated k8s manifest to an EKS cluster from Lambda
 lambda-elasticsearch-cleanup,cloudposse,1892,aws,https://github.com/cloudposse/terraform-aws-lambda-elasticsearch-cleanup,Terraform module to provision a scheduled Lambda function which will delete old AWS ElasticSearch indices
 lambda-elasticsearch-cleanup,dntsk,4842,aws,https://github.com/dntsk/terraform-aws-lambda-elasticsearch-cleanup,Terraform module with AWS Lambda to cleanup ElasticSearch
 lambda-es-cleaner,baikonur-oss,2726,aws,https://github.com/baikonur-oss/terraform-aws-lambda-es-cleaner,Terraform module and Lambda for auto-deleting old indices in Elasticsearch
@@ -15308,6 +15314,7 @@ remote-backend,avinor,2439,azurerm,https://github.com/avinor/terraform-azurerm-r
 remote-backend,ryan-harper-dentsu,3287,azurerm,https://github.com/ryan-harper-dentsu/terraform-azurerm-remote-backend,Terraform module to deploy a remote backend storage for Azure
 remote-backend,terraform-alicloud-modules,3342,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-remote-backend,Terraform module to deploy a remote backend storage for Alibaba Cloud
 remote-backend,vkhade,4918,azurerm,https://github.com/vkhade/terraform-azurerm-remote-backend,Terraform module used to create azure storage remote backend.
+remote-backend-s3,tigpt,31299,aws,https://github.com/tigpt/terraform-aws-remote-backend-s3,
 remote-connection-route,dcos-terraform,1564,aws,https://github.com/dcos-terraform/terraform-aws-remote-connection-route,"This module creates creates the peer connection, peer accecpter, and the aws routes for remote regions for DC/OS on AWS."
 remote-docker-compose,wesleykirkland,26824,docker,https://github.com/wesleykirkland/terraform-docker-remote-docker-compose,Terraform Module to remote execute docker compose
 remote-excec-ansible,Kreditorforeningens-Driftssentral-DA,6213,null,https://github.com/Kreditorforeningens-Driftssentral-DA/terraform-null-remote-excec-ansible,Remote ansible provisioning
@@ -17800,6 +17807,7 @@ ssm-secrets,binxio,4131,aws,https://github.com/binxio/terraform-aws-ssm-secrets,
 ssm-secrets,hazelops,4846,aws,https://github.com/hazelops/terraform-aws-ssm-secrets,Terraform Module to manage SSM Secrets
 ssm-session-alerts,antero-software,30276,aws,https://github.com/antero-software/terraform-aws-ssm-session-alerts,
 ssm-session-manager,voquis,8957,aws,https://github.com/voquis/terraform-aws-ssm-session-manager,
+ssm-session-manager-settings,antero-software,31296,aws,https://github.com/antero-software/terraform-aws-ssm-session-manager-settings,
 ssm-store,Flaconi,30166,aws,https://github.com/Flaconi/terraform-aws-ssm-store,Simple module to store different parameters to SSM
 ssm-tls-self-signed-cert,MonoidDev,14759,aws,https://github.com/MonoidDev/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
 ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-self-signed-cert,This module creates a self-signed certificate and writes it alongside with its key to SSM Parameter Store (or alternatively AWS Secrets Manager).
@@ -20777,7 +20785,6 @@ vtech-api-gateway-deployment,VincenzoTumbiolo,27612,aws,https://github.com/Vince
 vtech-api-gateway-method-integration,VincenzoTumbiolo,27610,aws,https://github.com/VincenzoTumbiolo/terraform-aws-vtech-api-gateway-method-integration,
 vtech-api-gateway-resource,VincenzoTumbiolo,27618,aws,https://github.com/VincenzoTumbiolo/terraform-aws-vtech-api-gateway-resource,
 vtech-lambda,VincenzoTumbiolo,27606,aws,https://github.com/VincenzoTumbiolo/terraform-aws-vtech-lambda,
-vtex,davispalomino,31166,provider,https://github.com/davispalomino/terraform-provider-vtex,
 vulne-soldier,iKnowJavaScript,27344,aws,https://github.com/iKnowJavaScript/terraform-aws-vulne-soldier,"This Terraform module consists of the configuration for automating the remediation of AWS EC2 vulnerabilities using AWS Inspector findings. It provisions essential resources such as an SSM document, Lambda function, and CloudWatch event rules for automated vulnerability management."
 vulnerablemodule,jd4625988,13975,aws,https://github.com/jd4625988/terraform-aws-vulnerablemodule,
 vwan,Azure-Terraformer,26608,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-vwan,
