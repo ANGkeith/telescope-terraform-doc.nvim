@@ -2011,7 +2011,7 @@ avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/Skittle
 avm-res-dataprotection-backupvault,Azure,29160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault,Terraform Azure Verified Resource Module for Data Protection Backup Vault
 avm-res-dataprotection-resourceguard,Azure,29706,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-resourceguard,Terraform Azure Verified Resource Module for Data Protection Resource Guard
 avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,Terraform Azure Verified Resource Module for DB for MySQL Flexible Server
-avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,
+avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,Terraform Azure Verified Resource Module for DB for Postgre SQL Flexible Server
 avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup,AVM for Desktop Virtualization Application group
 avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,AVM for Desktop Virtualization Hostpools
 avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan,AVM for Desktop Virtualization Scaling Plans
@@ -3414,6 +3414,7 @@ cloud-modules,fortinetdev,21637,aws,https://github.com/fortinetdev/terraform-aws
 cloud-modules,fortinetdev,25960,google,https://github.com/fortinetdev/terraform-google-cloud-modules,
 cloud-modules,fortinetdev,26108,azurerm,https://github.com/fortinetdev/terraform-azurerm-cloud-modules,
 cloud-modules,fortinetdev,29394,oci,https://github.com/fortinetdev/terraform-oci-cloud-modules,
+cloud-modules,fortinetdev,31353,alicloud,https://github.com/fortinetdev/terraform-alicloud-cloud-modules,
 cloud-monitoring,cloud-native-toolkit,12769,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cloud-monitoring,Terraform module to provision an IBM Cloud Monitoring instance in an IBM Cloud account
 cloud-monitoring,terraform-ibm-modules,28539,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloud-monitoring,This module supports configuring an IBM Cloud Monitoring instance and IBM Cloud Metrics Routing.
 cloud-monitoring-bind,cloud-native-toolkit,12839,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-cloud-monitoring-bind,Module to bind an existing IBM Cloud Monitoring instance to an existing kubernetes cluster
@@ -9293,6 +9294,7 @@ hetzner-node-pool,hegerdes,23964,hcloud,https://github.com/hegerdes/terraform-hc
 hetzner-server,terraform-awesome-modules,25410,hcloud,https://github.com/terraform-awesome-modules/terraform-hcloud-hetzner-server,
 hetzner-zone,opsheaven,23517,hetzner,https://github.com/opsheaven/terraform-hetzner-hetzner-zone,OpsHeaven's Terraform module to manage Hetzner DNS Zones.
 high-availability-architecture,alibabacloud-automation,29740,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-high-availability-architecture,
+high-availability-web-shared-storage,alibabacloud-automation,31351,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-high-availability-web-shared-storage,
 hks,Stupremee,17849,hcloud,https://github.com/Stupremee/terraform-hcloud-hks,Terraform Module for deploying a Kubernetes Cluster to Hetzner Cloud.
 hologres-olap,alibabacloud-automation,31315,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-hologres-olap,
 home-assistant,Marlinc,9653,helm,https://github.com/Marlinc/terraform-helm-home-assistant,
@@ -9721,6 +9723,7 @@ import,kodal035,19673,aws,https://github.com/kodal035/terraform-aws-import,terra
 import,vaibhav21soni,31211,bulk,https://github.com/vaibhav21soni/terraform-bulk-import,
 import-dashboards,fbtravi,19479,grafana,https://github.com/fbtravi/terraform-grafana-import-dashboards,
 imported-contract,netascode,9843,aci,https://github.com/netascode/terraform-aci-imported-contract,Terraform Cisco ACI Imported Contract Module
+improve-app-availability,alibabacloud-automation,31350,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-improve-app-availability,
 imputation-server,jdpleiness,9163,aws,https://github.com/statgen/terraform-aws-imputation-server,A set of Terraform Modules for deploying an imputation server on AWS
 inband-endpoint-group,netascode,9844,aci,https://github.com/netascode/terraform-aci-inband-endpoint-group,Terraform Cisco ACI Inband Endpoint Group Module
 inband-node-address,netascode,9847,aci,https://github.com/netascode/terraform-aci-inband-node-address,Terraform Cisco ACI Inband Node Address Module
@@ -13357,6 +13360,7 @@ nginx-higher-than-usual-5xx-errors-on-nginx-upstreams,terraform-shoreline-module
 nginx-ingress,cloudwise-devops,26184,helm,https://github.com/cloudwise-devops/terraform-helm-nginx-ingress,Opined way of deploying nginx-ingress on kubernetes using helm
 nginx-ingress-controller,byuoitav,4196,kubernetes,https://github.com/byuoitav/terraform-kubernetes-nginx-ingress-controller,
 nginx-ingress-controller,sanarena,7310,kubernetes,https://github.com/sanarena/terraform-kubernetes-nginx-ingress-controller,
+nginx-ingress-deployment,alibabacloud-automation,31346,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nginx-ingress-deployment,
 nginx-instance,iskilicaslan61,30341,aws,https://github.com/iskilicaslan61/terraform-aws-nginx-instance,Terraform module which creates a nginx instance resource on AWS.
 nginx-instance,vaibhav17octo,25457,aws,https://github.com/vaibhav17octo/terraform-aws-nginx-instance,Install an ec2 instance using terraform 
 nginx-lb-ts,tspenchev000,18076,aws,https://github.com/tspenchev000/terraform-aws-nginx-lb-ts,
@@ -13596,7 +13600,7 @@ odoo,djangoflow,15582,kubernetes,https://github.com/djangoflow/terraform-kuberne
 odoo,djangoflow,24087,docker,https://github.com/djangoflow/terraform-docker-odoo,Docker swarm Odoo installation
 odoo,renaiss-io,21195,aws,https://github.com/renaiss-io/terraform-aws-odoo,Terraform module to deploy Odoo in AWS
 office-365-route53-records,rj175,6749,aws,https://github.com/ohheyrj/terraform-aws-office-365-route53-records,
-office365,ngs,2435,cloudflare,https://github.com/ngs/terraform-cloudflare-office365,CloudFlare Terraform module for setup Office 365.
+office365,ngs,2435,cloudflare,https://github.com/ngs/terraform-cloudflare-office365,
 office365-domains,cloudspout,4033,aws,https://github.com/cloudspout/terraform-aws-office365-domains,This module for Terraform helps to create the required zone entries to operate a self-managed Office365 domain.
 ohp-ecr,ohpensource,10454,aws,https://github.com/ohpensource/terraform-aws-ohp-ecr,Terraform Module for AWS ECR 
 ohp-s3,ohpensource,10536,aws,https://github.com/ohpensource/terraform-aws-ohp-s3,
@@ -13620,7 +13624,7 @@ oidc-provider,srb3,27589,azuread,https://github.com/srb3/terraform-azuread-oidc-
 oidc-provider-data,reegnz,7989,aws,https://github.com/reegnz/terraform-aws-oidc-provider-data,This module is for generating the OpenID Connect provider ARN one would get given an issuer url.
 oidc-with-github-actions,thetestlabs,12530,aws,https://github.com/thetestlabs/terraform-aws-oidc-with-github-actions,A Terraform module to configure OIDC between GitHub Actions and AWS.
 oke,bpalermo,9846,oci,https://github.com/bpalermo/terraform-oci-oke,The Terraform OKE Module Installer for Oracle Cloud Infrastructure provides a Terraform module that provisions the necessary resources for Oracle Container Engine.
-oke,oracle-terraform-modules,4259,oci,https://github.com/oracle-terraform-modules/terraform-oci-oke,The Terraform OKE Module Installer for Oracle Cloud Infrastructure provides a Terraform module that provisions the necessary resources for Oracle Container Engine.
+oke,oracle-terraform-modules,4259,oci,https://github.com/oracle-terraform-modules/terraform-oci-oke,
 oke,web-virtua-oci-multi-account-modules,18879,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-oke,
 oke,westelh,29150,oci,https://github.com/westelh/terraform-oci-oke,
 oke-quickstart,shukawam,19058,oci,https://github.com/shukawam/terraform-oci-oke-quickstart,Terraform module for OKE Tutorial
@@ -13866,6 +13870,7 @@ ospf,netascode,13416,nxos,https://github.com/netascode/terraform-nxos-ospf,Terra
 ospf-interface-policy,netascode,10230,aci,https://github.com/netascode/terraform-aci-ospf-interface-policy,Terraform Cisco ACI OSPF Interface Policy Module
 osquery,opendevsecops,1852,aws,https://github.com/opendevsecops/terraform-aws-osquery,
 oss-bucket,terraform-alicloud-modules,2108,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-oss-bucket,Terraform module which creates OSS Bucket on Alibaba Cloud
+oss-nginx-log-archiving,alibabacloud-automation,31347,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-oss-nginx-log-archiving,
 oss-object,terraform-alicloud-modules,2125,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-oss-object,Terraform module which uploads OSS objects on Alibaba Cloud
 oss-project,relaycorp,11226,github,https://github.com/relaycorp/terraform-github-oss-project,Terraform module for open source projects by Relaycorp
 otel-collector,monte-carlo-data,30228,aws,https://github.com/monte-carlo-data/terraform-aws-otel-collector,
@@ -13947,6 +13952,7 @@ pages,patrick-andrew-jain-taylor,7861,github,https://github.com/patrick-andrew-j
 pages,sil-org,30455,cloudflare,https://github.com/sil-org/terraform-cloudflare-pages,
 pages,silinternational,19661,cloudflare,https://github.com/silinternational/terraform-cloudflare-pages,Terraform module to manage a Cloudflare Pages project and domain
 pages-github,lazzurs,26670,cloudflare,https://github.com/lazzurs/terraform-cloudflare-pages-github,Terraform module for terraform-cloudflare-pages-github
+pai-eas-stable-diffusion,alibabacloud-automation,31348,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-pai-eas-stable-diffusion,
 palo-bootstrap,jye-aviatrix,21602,aws,https://github.com/jye-aviatrix/terraform-aws-palo-bootstrap,
 palo_alto,tpeterson66,13315,azurerm,https://github.com/tpeterson66/terraform-azurerm-palo_alto,Terraform module for Palo Alto firewalls in Azure
 paloalto-vmseries,aws-ia,14381,aws,https://github.com/aws-ia/terraform-aws-paloalto-vmseries,
@@ -21200,6 +21206,7 @@ wrapper-ecr,gocloudLa,30721,aws,https://github.com/gocloudLa/terraform-aws-wrapp
 wrapper-ecs,gocloudLa,30105,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs,
 wrapper-ecs-service,gocloudLa,30106,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs-service,
 wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapper-efs,Terraform module for AWS EFS wrapper with IAC best practices
+wrapper-eks,gocloudLa,31352,aws,https://github.com/gocloudLa/terraform-aws-wrapper-eks,
 wrapper-elasticache,gocloudLa,30108,aws,https://github.com/gocloudLa/terraform-aws-wrapper-elasticache,
 wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,
 wrapper-health-events,gocloudLa,30110,aws,https://github.com/gocloudLa/terraform-aws-wrapper-health-events,Terraform module for AWS Health Events wrapper with IAC best practices
