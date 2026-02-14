@@ -691,6 +691,7 @@ alb-bsn,onminhthien,18890,aws,https://github.com/onminhthien/terraform-aws-alb-b
 alb-cloudwatch-logs,infogrid-io,9349,aws,https://github.com/infogrid-io/terraform-aws-alb-cloudwatch-logs,Terraform module for shipping AWS ALB logs to CloudWatch Logs
 alb-cloudwatch-logs-json,claranet,4002,aws,https://github.com/claranet/terraform-aws-alb-cloudwatch-logs-json,Terraform module for shipping AWS ALB logs to CloudWatch Logs in JSON format
 alb-connector,lvthillo,8953,nlb,https://github.com/lvthillo/terraform-nlb-alb-connector,Terraform module to deploy an NLB in front of your ALB and automatically update the targetgroups.
+alb-cross-region-load-balancing,alibabacloud-automation,31364,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-alb-cross-region-load-balancing,
 alb-demo,mkam,10289,aws,https://github.com/mkam/terraform-aws-alb-demo,Terraform module for demoing AWS load balancers and Consul-Terraform-Sync
 alb-ecs-task,rhythmictech,5163,aws,https://github.com/rhythmictech/terraform-aws-alb-ecs-task,Simple ECS task behind an ALB with CloudWatch logging. Batteries included. 
 alb-error-rate-based-alarm,topotal,16593,aws,https://github.com/topotal/terraform-aws-alb-error-rate-based-alarm,Terraform module for creating AWS ALB Error rate based CloudWatch Alarm.
@@ -1140,6 +1141,7 @@ app,DimmKirr,29555,dokku,https://github.com/DimmKirr/terraform-dokku-app,
 app,cypik,22990,digitalocean,https://github.com/cypik/terraform-digitalocean-app,
 app,equinor,25128,azuread,https://github.com/equinor/terraform-azuread-app,Terraform module which creates Microsoft Entra ID (previously Azure Active Directory) Application resources
 app,jungopro,3859,azuread,https://github.com/jungopro/terraform-azuread-app,A module to create an Application with Service Principle
+app,mahimasharu2208,31359,nginx,https://github.com/mahimasharu2208/terraform-nginx-app,
 app,rany01,28482,kubernetes,https://github.com/rany01/terraform-kubernetes-app,"Aqui contém a configuração principal para implantar uma aplicação no kubernetes, incluindo Deployment, Service e Ingress"
 app,scalingo-community,20614,scalingo,https://github.com/scalingo-community/terraform-scalingo-app,An opinionated Terraform module to provision an application and database very easily with Scalingo
 app,sebbycorp,15369,bigip,https://github.com/sebbycorp/terraform-bigip-app,terraform-bigip-as3-app
@@ -2259,6 +2261,7 @@ aws-transit-firenet,terraform-aviatrix-modules,5485,aviatrix,https://github.com/
 aws-uc-role,data-platform-hq,26875,databricks,https://github.com/data-platform-hq/terraform-databricks-aws-uc-role,
 aws-uservpn,terraform-aviatrix-modules,5544,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-uservpn,"This module deploys a VPC, Aviatrix spoke gateways and one or more Aviatrix UserVPN gateways behind an elastic loadbalancer."
 aws-vault,opszero,17617,helm,https://github.com/opszero/terraform-helm-aws-vault,
+aws-vm,instruqt,31365,instruqt,https://github.com/instruqt/terraform-instruqt-aws-vm,
 aws-vm,intel,17532,intel,https://github.com/intel/terraform-intel-aws-vm,Intel Cloud Optimization Module - AWS VM
 aws-vpc,Adaptavist,5411,module,https://github.com/Adaptavist/terraform-module-aws-vpc,
 aws-vpc,Harshrai3112,8943,aws,https://github.com/Harshrai3112/terraform-aws-aws-vpc,
@@ -8611,6 +8614,7 @@ gcp-monitor,c0x12c,29734,datadog,https://github.com/c0x12c/terraform-datadog-gcp
 gcp-mysql-db-and-user-creation-helper,sparkfabrik,17365,sparkfabrik,https://github.com/sparkfabrik/terraform-google-gcp-mysql-db-and-user-creation-helper,Terraform module for creating database and associated user on an existing CloudSQL instance
 gcp-mysql-db-and-user-creation-helper,sparkfabrik,17817,google,https://github.com/sparkfabrik/terraform-google-gcp-mysql-db-and-user-creation-helper,Terraform module for creating database and associated user on an existing CloudSQL instance
 gcp-ncc,terraform-aviatrix-modules,18919,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-ncc,Connects Aviatrix Transit to Google Cloud's Network Connectivity Center/Cloud Router using BGP over LAN.
+gcp-project,instruqt,31368,instruqt,https://github.com/instruqt/terraform-instruqt-gcp-project,
 gcp-project,nephosolutions,1174,google,https://github.com/nephosolutions/terraform-google-gcp-project,Terraform module to provision Google Cloud Platform projects
 gcp-psc,netJoints,15001,aviatrix,https://github.com/netJoints/terraform-aviatrix-gcp-psc,
 gcp-roleset,ptonini,16802,vault,https://github.com/ptonini/terraform-vault-gcp-roleset,
@@ -8620,6 +8624,7 @@ gcp-spoke,terraform-aviatrix-modules,5483,aviatrix,https://github.com/terraform-
 gcp-tested-oses,dcos-terraform,1353,template,https://github.com/dcos-terraform/terraform-template-gcp-tested-oses,This is a module that properly configures the DC/OS prerequisites for selected OSes on top of GCP.
 gcp-transit,terraform-aviatrix-modules,5594,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-transit,This module deploys a VPC and an Aviatrix transit gateway in GCP with HA.
 gcp-transit-firenet,terraform-aviatrix-modules,10778,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-gcp-transit-firenet,"This module deploys 4 VPCs (Transit Firenet, Management, Egress and LAN), Aviatrix transit gateways (HA), and firewall instances."
+gcp-vm,instruqt,31367,instruqt,https://github.com/instruqt/terraform-instruqt-gcp-vm,
 gcp-vm,intel,18343,intel,https://github.com/intel/terraform-intel-gcp-vm,Intel Cloud Optimization Module - GCP VM
 gcp-vm,jimmson,21034,jimmson,https://github.com/jimmson/terraform-jimmson-gcp-vm,Creates a vm on google cloud
 gcp-vpn,DeLoWaN,9319,aws,https://github.com/DeLoWaN/terraform-aws-gcp-vpn,Terraform module to create a VPN between AWS and GCP
@@ -13607,6 +13612,7 @@ ohp-s3,ohpensource,10536,aws,https://github.com/ohpensource/terraform-aws-ohp-s3
 oidc,KOTechnologiesLtd,30512,aws,https://github.com/KOTechnologiesLtd/terraform-aws-oidc,Terraform Module for AWS OIDC
 oidc,appvia,23758,aws,https://github.com/appvia/terraform-aws-oidc,Terraform module for OIDC integration for IAM
 oidc,mariansmolii,30734,gitlab,https://github.com/mariansmolii/terraform-gitlab-oidc,"Terraform module to set up AWS IAM OpenID Connect (OIDC) provider for GitLab integration, enabling secure authentication for GitLab CI/CD pipelines without long-term credentials"
+oidc,pomo-studio,31355,aws,https://github.com/pomo-studio/terraform-aws-oidc,
 oidc-auth-method,bmcdonald05,15111,vault,https://github.com/bmcdonald05/terraform-vault-oidc-auth-method,Terraform module for the Vault provider for enabling the OIDC auth method and creating an identity group/alias for external group mappings.
 oidc-auth0,TomTucka,16479,boundary,https://github.com/TomTucka/terraform-boundary-oidc-auth0,Terraform module to create OIDC connection in Boundary with Auth0
 oidc-bitbucket,pelotech,21620,aws,https://github.com/pelotech/terraform-aws-oidc-bitbucket,
@@ -14191,6 +14197,7 @@ portworx,cloud-native-toolkit,16041,azure,https://github.com/cloud-native-toolki
 portworx-addon,portworx,15169,eksblueprints,https://github.com/portworx/terraform-eksblueprints-portworx-addon,Github repo for Portworx EKS blueprint addon module and sample templates
 portworx-enterprise,portworx,15633,ibm,https://github.com/portworx/terraform-ibm-portworx-enterprise,Terraform Module to manage Portworx Enterprise on IKS in IBM Cloud
 portworx-instance,portworx,1024,portworx,https://github.com/portworx/terraform-portworx-portworx-instance,Terraform module for deploying Portworx persistent data fabric for containers
+post-instance-create,illumiotraining,31371,http,https://github.com/illumiotraining/terraform-http-post-instance-create,
 post-instance-create,jdschmitz15,30561,http,https://github.com/jdschmitz15/terraform-http-post-instance-create,
 postbuild-config,f5devcentral,17486,bigip,https://github.com/f5devcentral/terraform-bigip-postbuild-config,
 postbuild-config,mjmenger,8710,bigip,https://github.com/mjmenger/terraform-bigip-postbuild-config,
@@ -14733,6 +14740,7 @@ rancher-agent,qvest-digital,24781,kubernetes,https://github.com/qvest-digital/te
 rancher-cloudflare,wenzel-felix,18222,hcloud,https://github.com/wenzel-felix/terraform-hcloud-rancher-cloudflare,This project deploys rancher on hetzner with a custom cluster configuration.
 rancher-hosts,kiwicom,3038,aws,https://github.com/kiwicom/terraform-aws-rancher-hosts,
 rancherChart,SinnConsulting,7576,helm,https://github.com/SinnConsulting/terraform-helm-rancherChart,Terraform Helm Rancher Chart: https://registry.terraform.io/modules/SinnConsulting/rancherChart
+random,IG-Work,31370,provider,https://github.com/IG-Work/terraform-provider-random,
 random,cappyzawa,7480,christmas_tree,https://github.com/cappyzawa/terraform-christmas_tree-random,A module for https://registry.terraform.io/providers/cappyzawa/christmas-tree/latest
 random-password,stsyg,13652,azurerm,https://github.com/stsyg/terraform-azurerm-random-password,Random Password Generator Terraform Module
 random-string,libre-devops,28837,external,https://github.com/libre-devops/terraform-external-random-string,A module used to create a random string at a PLAN time (rather than at apply time like random_string) 
@@ -16305,6 +16313,7 @@ s3-webapp,jmcassany,11700,aws,https://github.com/jmcassany/terraform-aws-s3-weba
 s3-webapp,kadogams,13952,aws,https://github.com/kadogams/terraform-aws-s3-webapp,
 s3-webapp,lroset,23583,aws,https://github.com/lroset/terraform-aws-s3-webapp,
 s3-webapp,lybarra,12098,aws,https://github.com/lybarra/terraform-aws-s3-webapp,
+s3-webapp,mahimasharu2208,31360,aws,https://github.com/mahimasharu2208/terraform-aws-s3-webapp,
 s3-webapp,mark-tomich,12287,aws,https://github.com/mark-tomich/terraform-aws-s3-webapp,
 s3-webapp,mmurygin,5678,aws,https://github.com/mmurygin/terraform-aws-s3-webapp,
 s3-webapp,mohit614,12252,aws,https://github.com/mohit614/terraform-aws-s3-webapp,
@@ -16555,6 +16564,7 @@ sagemaker-huggingface,philschmid,11944,aws,https://github.com/philschmid/terrafo
 sagemaker-iam-role,dod-iac,8381,aws,https://github.com/dod-iac/terraform-aws-sagemaker-iam-role,IAM Role for use as a SageMaker service role
 sagemaker-image-autoattacher,xAdRx,27232,aws,https://github.com/xAdRx/terraform-aws-sagemaker-image-autoattacher,Terraform code used for auto attaching of sagemaker images pushed to ECR
 sagemaker-kms-key,dod-iac,8380,aws,https://github.com/dod-iac/terraform-aws-sagemaker-kms-key,A KMS Key for use with SageMaker
+sagemaker-lora-vpc,krik8235,31369,aws,https://github.com/krik8235/terraform-aws-sagemaker-lora-vpc,
 sagemaker-playground,epsilonline,27743,aws,https://github.com/epsilonline/terraform-aws-sagemaker-playground,
 sagemaker-studio,komminarlabs,23006,aws,https://github.com/komminarlabs/terraform-aws-sagemaker-studio,
 sagemaker-studio,thulasirajkomminar,30523,aws,https://github.com/thulasirajkomminar/terraform-aws-sagemaker-studio,Terraform module to create and manage a SageMaker studio
@@ -17055,6 +17065,7 @@ serverless-resource,Accurate0,14253,aws,https://github.com/Accurate0/terraform-a
 serverless-resource,mewa,1015,aws,https://github.com/mewa/terraform-aws-serverless-resource,This module simplifies the setup required to deploy Lambda functions under API Gateway. It also sets up CORS for created resources and methods.
 serverless-runner,HappyPathway,26062,aws,https://github.com/HappyPathway/terraform-aws-serverless-runner,Terraform Module
 serverless-runner,RoknSound-Public-Modules,26081,aws,https://github.com/RoknSound-Public-Modules/terraform-aws-serverless-runner,Terraform Module
+serverless-ssr,pomo-studio,31354,aws,https://github.com/pomo-studio/terraform-aws-serverless-ssr,
 serverless-static-wordpress,TechToSpeech,9087,aws,https://github.com/TechToSpeech/terraform-aws-serverless-static-wordpress,Terraform module for deploying Serverless Static Wordpress on AWS
 serverless-streamlit-app,aws-ia,25235,aws,https://github.com/aws-ia/terraform-aws-serverless-streamlit-app,
 serverless-tf,rms1000watt,1287,aws,https://github.com/rms1000watt/terraform-aws-serverless-tf,Serverless but in Terraform 😉
@@ -21132,6 +21143,7 @@ workspace,mmcelreath,14819,tfe,https://github.com/mmcelreath/terraform-tfe-works
 workspace,multani,23523,tfc,https://github.com/multani/terraform-tfc-workspace,
 workspace,nephosolutions,3144,tfe,https://github.com/nephosolutions/terraform-tfe-workspace,This module provisions a Terraform Cloud Enterprise workspace.
 workspace,nthings,14603,tfe,https://github.com/nthings/terraform-tfe-workspace,Terraform module to create workspaces in Terraform Cloud
+workspace,pomo-studio,31356,tfe,https://github.com/pomo-studio/terraform-tfe-workspace,
 workspace,psychopenguin,5320,tfe,https://github.com/psychopenguin/terraform-tfe-workspace,
 workspace,rsmets,9259,tfe,https://github.com/rsmets/terraform-tfe-workspace,This module provisions a Terraform Cloud / Terraform Enterprise workspace
 workspace,srijanone,7740,tfe,https://github.com/srijanone/terraform-tfe-workspace,Terraform Module for TFE workspace management
