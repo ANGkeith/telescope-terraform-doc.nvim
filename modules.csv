@@ -1334,6 +1334,7 @@ aqua-cspm,SPHTech-Platform,17835,aws,https://github.com/SPHTech-Platform/terrafo
 aradhana-storage,shivaarusoni678,12318,azure,https://github.com/shivaarusoni678/terraform-azure-aradhana-storage,
 aravindhs3bucket,aravindh1307,18381,aws,https://github.com/aravindh1307/terraform-aws-aravindhs3bucket,
 arc-api-gateway,sourcefuse,30055,aws,https://github.com/sourcefuse/terraform-aws-arc-api-gateway,
+arc-argocd,sourcefuse,31425,aws,https://github.com/sourcefuse/terraform-aws-arc-argocd,Terraform module for ArgoCD
 arc-backstage-ecs-app,sourcefuse,21336,aws,https://github.com/sourcefuse/terraform-aws-arc-backstage-ecs-app,
 arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-backup,
 arc-bedrock,sourcefuse,28406,aws,https://github.com/sourcefuse/terraform-aws-arc-bedrock,Terraform module for Bedrock
@@ -2060,7 +2061,7 @@ avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https:
 avm-res-network-ipgroup,Azure,28413,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ipgroup,Terraform Azure Verified Resource Module for IP Groups
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,Terraform Azure Verified Resource Module for Loadbalancer
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,Terraform Azure Verified Resource Module for Local Network Gateway
-avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Module for Nat Gateway
+avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Azure Verified Resource Module for NAT Gateway
 avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,Terraform Azure Verified Resource Module for Network Interface
 avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
 avm-res-network-networksecuritygroup,Azure,23301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networksecuritygroup,Terraform Azure Verified Resource Module for Network Security Group
@@ -2550,6 +2551,7 @@ bala,Karribalu,16872,aws,https://github.com/Karribalu/terraform-aws-bala,
 ballroom,terraform-in-action,7151,azure,https://github.com/terraform-in-action/terraform-azure-ballroom,
 bank-vaults,samarkand-global,15942,alicloud,https://github.com/samarkand-global/terraform-alicloud-bank-vaults,Bootstrap bank-vaults on Alicloud
 banner,netascode,9711,aci,https://github.com/netascode/terraform-aci-banner,Terraform Cisco ACI Banner Module
+banprks-test-vpc,banprks-beep,31423,was,https://github.com/banprks-beep/terraform-was-banprks-test-vpc,
 banyan-accesstier,banyansecurity,7067,aws,https://github.com/banyansecurity/terraform-aws-banyan-accesstier,Terraform module to create an Access Tier in AWS for Banyan Security customers
 banyan-accesstier,banyansecurity,9096,google,https://github.com/banyansecurity/terraform-google-banyan-accesstier,
 banyan-accesstier-ubuntu,banyansecurity,14025,aws,https://github.com/banyansecurity/terraform-aws-banyan-accesstier-ubuntu,
@@ -6400,7 +6402,7 @@ ec2,sohanyadav,3631,aws,https://github.com/sohanyadav/terraform-aws-ec2,Terrafor
 ec2,sowmya-1234,7179,aws,https://github.com/sowmya-1234/terraform-aws-ec2,
 ec2,stok1y,22281,aws,https://github.com/panovmikhail/terraform-aws-ec2,
 ec2,sushil732,7178,aws,https://github.com/sushil732/terraform-aws-ec2,
-ec2,tedilabs,14196,aws,https://github.com/tedilabs/terraform-aws-ec2,🌳 A sustainable Terraform Package which creates resources for EC2 Services on AWS
+ec2,tedilabs,14196,aws,https://github.com/tedilabs/terraform-aws-ec2,
 ec2,terra4aws64,12148,aws,https://github.com/terra4aws64/terraform-aws-ec2,Terraform module for creating AWS EC2 instances
 ec2,terraform-trailwatch-modules,26647,aws,https://github.com/terraform-trailwatch-modules/terraform-aws-ec2,"This Terraform module creates CloudWatch Log Metric Filters and associated Alarms to monitor EC2 instance state changes, based on specified events."
 ec2,tobi1972,7163,aws,https://github.com/tobi1972/terraform-aws-ec2,
@@ -8690,7 +8692,7 @@ getting-into-terraform-modules,hashicorp-dev-advocates,25417,aws,https://github.
 getting-started,devops-rob,9155,boundary,https://github.com/devops-rob/terraform-boundary-getting-started,A starter module that deploys all the resources required to log in to boundary for the first time.
 gh-actions,HappyPathway,25656,importer,https://github.com/HappyPathway/terraform-importer-gh-actions,Terraform Module
 gh-identity-provider,infrahouse,20576,aws,https://github.com/infrahouse/terraform-aws-gh-identity-provider,Module that configures GitHub OpenID connector.
-gha-admin,infrahouse,20579,aws,https://github.com/infrahouse/terraform-aws-gha-admin,Module for two roles to manage AWS with GitHub actions.
+gha-admin,infrahouse,20579,aws,https://github.com/infrahouse/terraform-aws-gha-admin,"Terraform module creating admin and read-only IAM roles for GitHub Actions with OIDC trust, branch-based access control, and state management permissions. "
 gha-deployer,SierraSoftworks,30027,azuread,https://github.com/SierraSoftworks/terraform-azuread-gha-deployer,
 ghost,daringway,10150,aws,https://github.com/wderezin/terraform-aws-ghost,Deployment of full stack for Content Management System.
 ghost,mateothegreat,11448,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-ghost,Ghost blog on kubernetes via terraform.
@@ -13952,6 +13954,9 @@ overlays-waf-policy,azurenoops,23075,azurerm,https://github.com/azurenoops/terra
 overlays-workload-spoke,azurenoops,19128,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-workload-spoke,Terraform module overlay to create SCCA compliant Workload Spoke based on the Microsoft Azure Hub-Spoke Architecture using with Azure NoOps.
 overmind,davidjeddy,20118,aws,https://github.com/davidjeddy/terraform-aws-overmind,Terraform module to enable Overmind quickly and easily to a project.
 owndesignedmodule-sample,amitkothiyalutknd,26742,aws,https://github.com/amitkothiyalutknd/terraform-aws-owndesignedmodule-sample,
+p0-access-role,p0-security,31428,aws,https://github.com/p0-security/terraform-aws-p0-access-role,Deploys AWS infrastructure for P0 to connect to an AWS account
+p0-connector,p0-security,31427,aws,https://github.com/p0-security/terraform-aws-p0-connector,Deploys AWS infrastructure for P0 to connect to an AWS account
+p0-rds-vpc,p0-security,31426,aws,https://github.com/p0-security/terraform-aws-p0-rds-vpc,Terraform module for AWS portion of a P0 RDS VPC installation
 pa-vm,equinix,8138,equinix,https://github.com/equinix/terraform-equinix-pa-vm,Terraform module for quick deployment of Palo Alto Networks VM series firewall device
 pachyderm,combinator-ml,8417,k8s,https://github.com/combinator-ml/terraform-k8s-pachyderm,Pachyderm on Kubernetes. A Terraform module for combinator.ml.
 package,cloudventure-io,10861,nodejs,https://github.com/cloudventure-io/terraform-nodejs-package,Terraform module for packaging NodeJS modules
@@ -15229,6 +15234,7 @@ redis_instance,jamesoundb,27690,google,https://github.com/jamesoundb/terraform-g
 redis_store,airasia,4751,google,https://github.com/airasia/terraform-google-redis_store,Terraform module for a Redis MemoryStore in GCP
 redis_store,goquovn,15399,gcp,https://github.com/goquovn/terraform-gcp-redis_store,
 redisrr,bootlabstech,17062,google,https://github.com/bootlabstech/terraform-google-redisrr,Creates Redis with Read Replicas
+redpanda-byovnet,redpanda-data,31422,azure,https://github.com/redpanda-data/terraform-azure-redpanda-byovnet,Terraform files for Redpanda BYOVNet on Azure
 redpanda-byovpc,redpanda-data,28194,aws,https://github.com/redpanda-data/terraform-aws-redpanda-byovpc,
 redpanda-byovpc,redpanda-data,28423,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-byovpc,
 redpanda-cluster,redpanda-data,19316,aws,https://github.com/redpanda-data/terraform-aws-redpanda-cluster,
@@ -21129,6 +21135,7 @@ workload-identity,chrisarcand,22639,hcp,https://github.com/chrisarcand/terraform
 workload-identity,gplusmedia,5040,google,https://github.com/gplusmedia/terraform-google-workload-identity,A terraform module to create a service account on Google Cloud Platform that grants IAM roles to a Kubernetes service account via Workload Identity
 workload-identity,ishuar,22434,azure,https://github.com/ishuar/terraform-azure-workload-identity,Terraform module for creating workload identity in azure.
 workload-identity,paul-pfeiffer,19254,azurerm,https://github.com/paul-pfeiffer/terraform-azurerm-workload-identity,Azure Kubernetes Cluster Azure workload Identity integration module for terraform
+workload-identity-federation,Moiz-Ali-Moomin,31424,google,https://github.com/Moiz-Ali-Moomin/terraform-google-workload-identity-federation,
 workload-identity-federation,data-platform-hq,24079,azurerm,https://github.com/data-platform-hq/terraform-azurerm-workload-identity-federation,Terraform module for creation Azure User Assigned Identity
 workload-identity-federation,mscribellito,13039,google,https://github.com/mscribellito/terraform-google-workload-identity-federation,Terraform module for workload identity federation on GCP.
 workload-identity-federation,nephosolutions,26516,google,https://github.com/nephosolutions/terraform-google-workload-identity-federation,Google Cloud OIDC workload identity federation
