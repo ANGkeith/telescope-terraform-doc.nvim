@@ -2036,14 +2036,14 @@ avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terrafor
 avm-res-features-feature,Azure,30550,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-features-feature,Terraform Azure Verified Resource Module for Subcription Feature
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
-avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,AVM Terraform Module for Application Insights
+avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,Terraform Azure Verified Resource Module for Application Insight
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Terraform Azure Verified Resource Module for Key Vault
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
 avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow,Terraform Azure Verified Resource Module for Logic Apps (Workflow)
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,Terraform Azure Verified Resource Module for Machine Learning Services Workspace
 avm-res-maintenance-maintenanceconfiguration,Azure,28504,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-maintenance-maintenanceconfiguration,Terraform Azure Verified Resource Module for Maintenance Configuration
-avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,"To gain access, please finish setting up this repository now at: "
+avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,Terraform Azure Verified Resource Module for User Assigned Identity
 avm-res-management-servicegroup,Azure,30475,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-management-servicegroup,Terraform Azure Verified Resource Module for Management Service Groups
 avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,Terraform Azure Verified Resource Module for Azure NetApp File
 avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,Terraform Azure Verified Resource Module for Application Gateway
@@ -9977,6 +9977,7 @@ internal-external-dns-automation-docker,jd4883,6954,docker,https://github.com/jd
 internal-lb-container,garbetjie,6489,google,https://github.com/garbetjie/terraform-google-internal-lb-container,
 internal-nlb-ip-update,elastic2ls-com,20507,aws,https://github.com/elastic2ls-com/terraform-aws-internal-nlb-ip-update,"This module helps you to update the private IP addresses as registered target in the internal NLB and of course as Route53 entry, if you have a chained setup of NLB's in your private subnets.  The problem it would solve is, that the private IP's can change anytime. "
 internal-scanning,detectify,31262,aws,https://github.com/detectify/terraform-aws-internal-scanning,
+internal-service,project-init,31431,aws,https://github.com/project-init/terraform-aws-internal-service,
 internal-services-healthchecks,ifgiovanni,29391,gcp,https://github.com/ifgiovanni/terraform-gcp-internal-services-healthchecks,
 internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-internal-terraform,
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
@@ -13955,7 +13956,8 @@ overlays-workload-spoke,azurenoops,19128,azurerm,https://github.com/azurenoops/t
 overmind,davidjeddy,20118,aws,https://github.com/davidjeddy/terraform-aws-overmind,Terraform module to enable Overmind quickly and easily to a project.
 owndesignedmodule-sample,amitkothiyalutknd,26742,aws,https://github.com/amitkothiyalutknd/terraform-aws-owndesignedmodule-sample,
 p0-access-role,p0-security,31428,aws,https://github.com/p0-security/terraform-aws-p0-access-role,Deploys AWS infrastructure for P0 to connect to an AWS account
-p0-connector,p0-security,31427,aws,https://github.com/p0-security/terraform-aws-p0-connector,Deploys AWS infrastructure for P0 to connect to an AWS account
+p0-connector,p0-security,31434,aws,https://github.com/p0-security/terraform-aws-p0-connector,Set up a VPC for P0 connector deployment
+p0-db,p0-security,31433,aws,https://github.com/p0-security/terraform-aws-p0-db,Install AWS infrastructure for a P0 database integration on RDS
 p0-rds-vpc,p0-security,31426,aws,https://github.com/p0-security/terraform-aws-p0-rds-vpc,Terraform module for AWS portion of a P0 RDS VPC installation
 pa-vm,equinix,8138,equinix,https://github.com/equinix/terraform-equinix-pa-vm,Terraform module for quick deployment of Palo Alto Networks VM series firewall device
 pachyderm,combinator-ml,8417,k8s,https://github.com/combinator-ml/terraform-k8s-pachyderm,Pachyderm on Kubernetes. A Terraform module for combinator.ml.
@@ -20965,6 +20967,7 @@ web_front_end,aalmadi,31010,aws,https://github.com/aalmadi/terraform-aws-web_fro
 web_front_end,ausef,30482,aws,https://github.com/ausef/terraform-aws-web_front_end,Web front end module for Globomantics
 web_front_end,ned-tfmb,30294,aws,https://github.com/ned-tfmb/terraform-aws-web_front_end,Web Front End Module for Globomantics
 web_front_end,ned1313,30330,aws,https://github.com/ned1313/terraform-aws-web_front_end,Web front end module for Globomantics
+web_front_end,stephane-koman,31432,aws,https://github.com/stephane-koman/terraform-aws-web_front_end,Web Front-end Terraform Module
 webapp,arvindmits,8414,azurerm,https://github.com/arvindmits/terraform-azurerm-webapp,terraform-azurerm-webapp
 webapp,bootlabstech,15516,azurerm,https://github.com/bootlabstech/terraform-azurerm-webapp,
 webapp,cloudarchitectdeveloper,8354,azurerm,https://github.com/cloudarchitectdeveloper/terraform-azurerm-webapp,"TF module for provisioning Azure App Service Plan, App Service (Web App) and Application Insights"
