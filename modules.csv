@@ -313,6 +313,7 @@ acm-certificate-request,nventive,21817,aws,https://github.com/nventive/terraform
 acm-certificate-validation,khanguyen78,29915,aws,https://github.com/khanguyen78/terraform-aws-acm-certificate-validation,
 acm-certification,hendrixroa,3847,aws,https://github.com/hendrixroa/terraform-aws-acm-certification,A prebuilt module for automate the acm certification in route 53.
 acm-cloudflare,Flaconi,11049,aws,https://github.com/Flaconi/terraform-aws-acm-cloudflare,Create ACM certificate with DNS validation and validate using Cloudflare Hosted Zone
+acm-cloudflare,cesargoncalves,31461,aws,https://github.com/cesargoncalves/terraform-aws-acm-cloudflare,Terraform module to create an AWS ACM certificate with Cloudflare DNS validation
 acm-cloudflare,low613,16003,aws,https://github.com/low613/terraform-aws-acm-cloudflare,
 acm-dns-validation,voquis,6021,aws,https://github.com/voquis/terraform-aws-acm-dns-validation,ACM Certificate with DNS validation
 acm-global-and-regional,babbel,11628,aws,https://github.com/babbel/terraform-aws-acm-global-and-regional,Terraform module creating ACM certificates in two regions (usually `us-east-1` and another region)
@@ -3065,6 +3066,7 @@ ccf,feraudt,22558,aws,https://github.com/feraudt/terraform-aws-ccf,Terraform mod
 ccn,terraform-tencentcloud-modules,21825,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-ccn,Terraform module which creates CCN resources on TencentCloud
 cd-codepipeline,lablabs,4433,aws,https://github.com/lablabs/terraform-aws-cd-codepipeline,
 cd-on-ec2,Chhed13,3351,aws,https://github.com/Chhed13/terraform-aws-cd-on-ec2,Terraform framework module doing CD on simple ec2 instances
+cdc,clintdigital,31455,sequin,https://github.com/clintdigital/terraform-sequin-cdc,
 cde-cluster,joerx,29451,aws,https://github.com/joerx/terraform-aws-cde-cluster,
 cde-network,joerx,29450,aws,https://github.com/joerx/terraform-aws-cde-network,
 cdk-bootstrap,truemark,25225,aws,https://github.com/truemark/terraform-aws-cdk-bootstrap,Terraform module to bootstrap an account and region with AWS CDK
@@ -4133,6 +4135,7 @@ cognito,project-init,30984,aws,https://github.com/project-init/terraform-aws-cog
 cognito,terraformita,28497,aws,https://github.com/terraformita/terraform-aws-cognito,
 cognito,tfstack,31444,aws,https://github.com/tfstack/terraform-aws-cognito,Terraform module to provision and manage AWS Cognito for authentication and user management
 cognito,web-virtua-aws-multi-account-modules,17860,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-cognito,
+cognito-auth,pomo-studio,31447,aws,https://github.com/pomo-studio/terraform-aws-cognito-auth,
 cognito-auth,squidfunk,1549,aws,https://github.com/squidfunk/terraform-aws-cognito-auth,Serverless Authentication as a Service (AaaS) provider built on top of AWS Cognito
 cognito-client,7clouds-terraform-modules,16989,aws,https://github.com/7clouds-terraform-modules/terraform-aws-cognito-client,
 cognito-custom-message-sender,cruxstack,20228,aws,https://github.com/cruxstack/terraform-aws-cognito-custom-message-sender,Terraform Module to deploy customizable Cognito custom message sender serivce for SMS and email
@@ -8017,8 +8020,10 @@ eve-gcp-image,bayupw,15796,google,https://github.com/bayupw/terraform-google-eve
 eve-vm,bayupw,15797,google,https://github.com/bayupw/terraform-google-eve-vm,Terraform module to create EVE-OS VM on GCP VM with nested virtualization enabled
 event-bridge,boldlink,16497,aws,https://github.com/boldlink/terraform-aws-event-bridge,Terraform registry repository for AWS Event Bridge Module
 event-bridge-sns-scheduler,inaciogu,22179,aws,https://github.com/inaciogu/terraform-aws-event-bridge-sns-scheduler,Terraform module to create event bridge schedulers integrated with AWS SNS
+event-bus,pomo-studio,31445,aws,https://github.com/pomo-studio/terraform-aws-event-bus,
 event-cloud-function,aidenabled,11476,google,https://github.com/aidenabled/terraform-google-event-cloud-function,
 event-cloudfunction,iraza,10504,google,https://github.com/iraza/terraform-google-event-cloudfunction,
+event-consumer,pomo-studio,31446,aws,https://github.com/pomo-studio/terraform-aws-event-consumer,
 event-driven-lambda,samsonov90,824,aws,https://github.com/samsonov90/terraform-aws-event-driven-lambda,This module allows to deploy AWS Lambda functions with AWS CloudWatch event rules
 event-function,blackbird-cloud,17762,google,https://github.com/blackbird-cloud/terraform-google-event-function,Responds to logging events with a Cloud Function
 event-function,terraform-google-modules,2332,google,https://github.com/terraform-google-modules/terraform-google-event-function,Responds to logging events with a Cloud Function
@@ -8669,6 +8674,7 @@ gdp,IBM,30510,guardium,https://github.com/IBM/terraform-guardium-gdp,Guardium Da
 gdp,IBM,30749,aws,https://github.com/IBM/terraform-aws-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on AWS
 gdp,IBM,31192,vmware,https://github.com/IBM/terraform-vmware-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on VMWARE
 gdp,IBM,31416,gcp,https://github.com/IBM/terraform-gcp-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on Google Cloud
+gdp,IBM,31454,azure,https://github.com/IBM/terraform-azure-gdp,Terraform module to deploy IBM Guardium Data Protection appliance on Google Cloud
 geethasri336,geethasri336,8109,azurerm,https://github.com/geethasri336/terraform-azurerm-geethasri336,public ip 
 gemini-module,peytoncasper,25301,gcp,https://github.com/peytoncasper/terraform-gcp-gemini-module,
 gen-files,schollii,8073,local,https://github.com/schollii/terraform-local-gen-files,Generate helm values files and other config files from terraform state
@@ -9204,6 +9210,7 @@ hdfs,terraform-alicloud-modules,12693,alicloud,https://github.com/alibabacloud-a
 hdinsight,kumarvna,9773,azurerm,https://github.com/kumarvna/terraform-azurerm-hdinsight,"Terraform module to create managed, full-spectrum, open-source analytics service Azure HDInsight. This module creates Apache Hadoop, Apache Spark, Apache HBase, Interactive Query (Apache Hive LLAP) and Apache Kafka clusters."
 hdinsight-kafka-cluster,avidhara,29116,azurerm,https://github.com/avidhara/terraform-azurerm-hdinsight-kafka-cluster,
 headlamp,granito-source,23785,kubernetes,https://github.com/granito-source/terraform-kubernetes-headlamp,Terraform module for Headlamp in Kubernetes
+headscale,fizz,31449,aws,https://github.com/fizz/terraform-aws-headscale,
 health,SevenPico,17758,aws,https://github.com/SevenPico/terraform-aws-health,
 health-aware,stroeer,19085,aws,https://github.com/stroeer/terraform-aws-health-aware,"AHA is an incident management & communication framework to provide real-time alert customers when there are active AWS event(s). For customers with AWS Organizations, customers can get aggregated active account level events of all the accounts in the Organization. Customers not using AWS Organizations still benefit alerting at the account level."
 health-events,cloudposse,9128,aws,https://github.com/cloudposse/terraform-aws-health-events,Terraform module to configure AWS EventBridge Rules and SNS Notifications for AWS Personal Health Dashboard
@@ -9236,6 +9243,7 @@ hello,periabdraimova03,31321,vpc,https://github.com/periabdraimova03/terraform-v
 hello,redeux,7305,random,https://github.com/redeux/terraform-random-hello,
 hello,rmadamanchi,9014,null,https://github.com/rmadamanchi/terraform-null-hello,
 hello-modules,tjololo,26113,azurerm,https://github.com/tjololo/terraform-azurerm-hello-modules,Test project for developing and publishing modules
+hello-world,footprint-it-solutions,31452,null,https://github.com/footprint-it-solutions/terraform-null-hello-world,A Proof of Concept (PoC) module to test unified publishing to HashiCorp and OpenTofu registries.
 hello-world,sblack4,6659,terraform,https://github.com/sblack4/terraform-terraform-hello-world,testing pre-commit hooks and github actions
 hello_world,Nciso,18721,autocloud,https://github.com/Nciso/terraform-autocloud-hello_world,Simple module for quick start tutorial
 helloworld,ZahraTee,11405,aws,https://github.com/ZahraTee/terraform-aws-helloworld,Just a test module for development. Nothing much to see here
@@ -9347,6 +9355,7 @@ http-cloud-function,aidenabled,11474,google,https://github.com/aidenabled/terraf
 http-cloudfunction,iraza,10505,google,https://github.com/iraza/terraform-google-http-cloudfunction,
 http-internal,JamesWoolfenden,21524,gcp,https://github.com/JamesWoolfenden/terraform-gcp-http-internal,"A basic terraform module example, which the example uses for a helm repo"
 http-json,cunneen,27012,dns,https://github.com/cunneen/terraform-dns-http-json,DNS over HTTP (DoH) JSON module for Terraform
+http-manifests,MaximilianoAguirre,31463,kubernetes,https://github.com/MaximilianoAguirre/terraform-kubernetes-http-manifests,
 http-proxy,direct-democracy-solutions,19563,aws,https://github.com/direct-democracy-solutions/terraform-aws-http-proxy,Basic transparent HTTP Proxy with API Gateway
 http-redirect,infrahouse,29662,aws,https://github.com/infrahouse/terraform-aws-http-redirect,Terraform module for HTTP to HTTPS redirect using CloudFront with custom domain support and SSL certificate management. 
 http-redirect,neovops,13995,aws,https://github.com/neovops/terraform-aws-http-redirect,
@@ -10304,7 +10313,7 @@ ketan-test-vpc,sharmaketan14,26929,aws,https://github.com/sharmaketan14/terrafor
 kevins3bucket,kevgonsalves,15690,aws,https://github.com/kevgonsalves/terraform-aws-kevins3bucket,
 kewal,kewalwani,12953,aws,https://github.com/kewalwani/terraform-aws-kewal,
 key,JamesWoolfenden,8061,tls,https://github.com/JamesWoolfenden/terraform-tls-key,Basic SSH key module
-key,infrahouse,29849,aws,https://github.com/infrahouse/terraform-aws-key,Module that creates an encryption key in KMS.
+key,infrahouse,29849,aws,https://github.com/infrahouse/terraform-aws-key,"Terraform module for AWS KMS encryption keys with configurable key policies, key rotation, aliases, and cross-account access grants. "
 key,mediapop,1239,aws,https://github.com/mediapop/terraform-aws-key,Local private key to AWS key registration.
 key-forwarding-api-proxy,kathawala,5639,aws,https://github.com/kathawala/terraform-aws-key-forwarding-api-proxy,Forward sensitive API keys as query param values to third party APIs using AWS API Gateway as a proxy
 key-pair,Adamisaeva,8846,aws,https://github.com/Adamisaeva/terraform-aws-key-pair,
@@ -17254,6 +17263,7 @@ ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
 ses-cf-domain,selftechio,8491,aws,https://github.com/kiwicorp/terraform-aws-ses-cf-domain,Configure a domain managed on Cloudflare for AWS SES.
+ses-cloudflare,cesargoncalves,31462,aws,https://github.com/cesargoncalves/terraform-aws-ses-cloudflare,Terraform module to create an AWS SES identity with Cloudflare DNS validation
 ses-cloudflare,sil-org,30458,aws,https://github.com/sil-org/terraform-aws-ses-cloudflare,
 ses-cloudflare,silinternational,24881,aws,https://github.com/silinternational/terraform-aws-ses-cloudflare,Terraform module to create AWS and Cloudflare resources for SES
 ses-dashboard,c0ntax,11434,aws,https://github.com/c0ntax/terraform-aws-ses-dashboard,This module will create a Deliverability Dashboard that shows information about SES Email bounces and complaints.
@@ -19255,6 +19265,7 @@ unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocea
 unifi-dream,sowens81,31006,provider,https://github.com/sowens81/terraform-provider-unifi-dream,
 unifi-network,kalenarndt,11327,unifi,https://github.com/kalenarndt/terraform-unifi-unifi-network,Repo for a module that creates basic Unifi networks
 unifi-sdn-controller,OldCrowEW,1925,google,https://github.com/OldCrowEW/terraform-google-unifi-sdn-controller,
+unified-dns,fizz,31459,aws,https://github.com/fizz/terraform-aws-unified-dns,
 unique-configmap,webyneter,9439,kubernetes,https://github.com/webyneter/terraform-kubernetes-unique-configmap,A Terraform module for creating a Kubernetes ConfigMap that changes its name when the underlying data changes.
 unity-catalog,data-platform-hq,19174,databricks,https://github.com/data-platform-hq/terraform-databricks-unity-catalog,Terraform module for creation of new or managemet of already existing Databricks Unity Catalog Metastore
 unity_catalog,wiseupdata,18436,databricks,https://github.com/wiseupdata/terraform-databricks-unity_catalog,Unit Catalog
