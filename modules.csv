@@ -464,6 +464,7 @@ agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-
 agent,linuxpatch,24767,linuxpatch,https://github.com/linuxpatch/terraform-linuxpatch-agent,"Automate the installation of the LinuxPatch.com, a Patch Management platform for Linux servers. Compatible with Debian, Ubuntu, CentOS, Redhat, Rocky Linux, AlmaLinux, Amazon Linux, and more. Ideal for efficient management of multiple nodes."
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
 agent-pool,Think-Cube,29122,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-agent-pool,
+agentcore,LuisOsuna117,31476,aws,https://github.com/LuisOsuna117/terraform-aws-agentcore,Community Terraform module for Amazon Bedrock AgentCore with composable components and production-friendly defaults
 agentcore,aws-ia,30373,aws,https://github.com/aws-ia/terraform-aws-agentcore,
 agentless-onboarding,imperva,24973,dsfhub,https://github.com/imperva/terraform-dsfhub-agentless-onboarding,Terraform modules for onboarding cloud sources to DSF hub
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
@@ -1783,6 +1784,8 @@ atlas-aws,terraform-mongodbatlas-modules,31281,mongodbatlas,https://github.com/t
 atlas-azure,EspenAlbert,31279,mongodbatlas,https://github.com/EspenAlbert/terraform-mongodbatlas-atlas-azure,
 atlas-azure,terraform-mongodbatlas-modules,31280,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-atlas-azure,
 atlas-basic,terraform-mongodbatlas-modules,25387,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-atlas-basic,
+atlas-gcp,EspenAlbert,31478,mongodbatlas,https://github.com/EspenAlbert/terraform-mongodbatlas-atlas-gcp,
+atlas-gcp,terraform-mongodbatlas-modules,31479,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-atlas-gcp,
 atlassian-bamboo,devoptimist,3710,linux,https://github.com/srb3/terraform-linux-atlassian-bamboo,
 atlassian-bitbucket,rhythmictech,6115,aws,https://github.com/rhythmictech/terraform-aws-atlassian-bitbucket,Creates a Bitbucket EC2 instance and ELB
 attack-simulation,cyngularsecurity,31186,azure,https://github.com/cyngularsecurity/terraform-azure-attack-simulation,terraform-azure-attack-simulation
@@ -1998,6 +2001,7 @@ avm-res-azurestackhci-virtualmachineinstance,Azure,25936,azurerm,https://github.
 avm-res-batch-batchaccount,Azure,28741,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-batch-batchaccount,
 avm-res-botservice-botservice,Azure,31115,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-botservice-botservice,Terraform Azure Verified Resource Module for Bot Service
 avm-res-cache-redis,Azure,24930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redis,"To gain access, please finish setting up this repository now at: "
+avm-res-cache-redisenterprise,Azure,31477,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redisenterprise,Terraform Azure Verified Resource Module for avm-res-cache-redisenterprise
 avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,Terraform Azure Verified Resource Module for CDN Profile
 avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,Terraform Azure Verified Resource Module for Cognitive Service
@@ -2213,6 +2217,7 @@ aws-lambda,mergermarket,2407,acuris,https://github.com/mergermarket/terraform-ac
 aws-lambda-cron,mergermarket,2412,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-cron,Creates AWS Lambda with a Cloudwatch cron trigger
 aws-lambda-sns,mergermarket,2541,acuris,https://github.com/mergermarket/terraform-acuris-aws-lambda-sns,Create a AWS Lambda function triggered from SNS
 aws-lb-alarms,kiwicom,3026,datadog,https://github.com/kiwicom/terraform-datadog-aws-lb-alarms,
+aws-lb-crds,MaximilianoAguirre,31482,kubernetes,https://github.com/MaximilianoAguirre/terraform-kubernetes-aws-lb-crds,
 aws-lb-waf,lean-delivery,7591,module,https://github.com/lean-delivery/terraform-module-aws-lb-waf,Terraform module to setup WAF for Load Balancers
 aws-linux-vm-private,jye-aviatrix,14924,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-private,"In specified AWS region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 aws-linux-vm-public,jye-aviatrix,14925,aws,https://github.com/jye-aviatrix/terraform-aws-aws-linux-vm-public,"In specified AWS region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP. "
@@ -3665,6 +3670,7 @@ cloudfront-lambda-redirect,Lupus-Metallum,10254,aws,https://github.com/Lupus-Met
 cloudfront-logging,c0x12c,29433,aws,https://github.com/c0x12c/terraform-aws-cloudfront-logging,
 cloudfront-logs,fmasuhr,5407,aws,https://github.com/fmasuhr/terraform-aws-cloudfront-logs,Setup to store CloudFront logs in S3 Bucket and forward them into a CloudWatch Logs group.
 cloudfront-logs,nhs-england-tools,21638,aws,https://github.com/nhs-england-tools/terraform-aws-cloudfront-logs,
+cloudfront-logs-analyzer,tx-pts-dai,31480,aws,https://github.com/tx-pts-dai/terraform-aws-cloudfront-logs-analyzer,
 cloudfront-middleware-at-edge,cruxstack,20227,aws,https://github.com/cruxstack/terraform-aws-cloudfront-middleware-at-edge,Terraform Module to deploy customizable CloudFront auth-at-edge and url-rewriter middlewares via Lambda@Edge
 cloudfront-middleware-at-edge,sgtoj,20047,aws,https://github.com/cruxstack/terraform-aws-cloudfront-middleware-at-edge,Terraform Module to deploy customizable CloudFront auth-at-edge and url-rewriter middlewares via Lambda@Edge
 cloudfront-odoo,djangoflow,23923,aws,https://github.com/djangoflow/terraform-aws-cloudfront-odoo,An opinionated  AWS CloudFront Odoo CDN 
@@ -15182,6 +15188,7 @@ red5pro,red5pro,22319,oci,https://github.com/red5pro/terraform-oci-red5pro,Terra
 red5pro,red5pro,22536,digitalocean,https://github.com/red5pro/terraform-digitalocean-red5pro,Terraform module for Red5 Pro in Digital Ocean
 red5pro,red5pro,23643,gcp,https://github.com/red5pro/terraform-gcp-red5pro,Terraform module for Red5 Pro in GCP
 red5pro,red5pro,27622,linode,https://github.com/red5pro/terraform-linode-red5pro,Terraform module for Red5 Pro in Linode
+red5pro,red5pro,31481,azure,https://github.com/red5pro/terraform-azure-red5pro,Terraform module for Red5 Pro in Azure
 redirect,WhyNotHugo,8447,aws,https://github.com/WhyNotHugo/terraform-aws-redirect,Redirect bare domains to www-domains with HSTS using CloudFlare
 redirect,mediapop,1119,aws,https://github.com/mediapop/terraform-aws-redirect,Auto provision HTTPS and IPv6 301 redirects over a batch of hosts.
 redirect-backup-policy,netascode,17287,aci,https://github.com/netascode/terraform-aci-redirect-backup-policy,Terraform Cisco ACI Redirect Backup Policy Module
@@ -17101,6 +17108,7 @@ serverless-jenkins,Renatochaz,17415,aws,https://github.com/Renatochaz/terraform-
 serverless-jenkins,TheNageek,23000,aws,https://github.com/TheNageek/terraform-aws-serverless-jenkins,Scalable and reliable serverless Jenkins on AWS Fargate.
 serverless-kubernetes,terraform-alicloud-modules,4273,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-kubernetes,Terraform module which create Serverless Kubernetes cluster(s) on Alibaba Cloud.
 serverless-microservice,boxyware-terraform-modules,13917,aws,https://github.com/boxyware-terraform-modules/terraform-aws-serverless-microservice,Terraform module to deploy a REST microservice implemented with AWS Lambda and exposed by AWS API Gateway
+serverless-modules,jonmatum,31486,aws,https://github.com/jonmatum/terraform-aws-serverless-modules,
 serverless-nextjs,graphnode-technologies,10696,aws,https://github.com/graphnode-technologies/terraform-aws-serverless-nextjs,"Used for creating Bucket, Certs, Distribution and Records for Serverless NextJS"
 serverless-pypi,amancevice,3158,aws,https://github.com/amancevice/terraform-aws-serverless-pypi,Serverless PyPI backed by S3
 serverless-pypi-cognito,amancevice,4101,aws,https://github.com/amancevice/terraform-aws-serverless-pypi-cognito,Basic auth for the serverless-pypi Terraform module using AWS Cognito
@@ -19105,6 +19113,7 @@ tkgclustersetup,tanzuformers,10522,tkg,https://github.com/tanzuformers/terraform
 tkgmgmtcreate,tanzuformers,10516,vsphere,https://github.com/tanzuformers/terraform-vsphere-tkgmgmtcreate,
 tkgmgmtsetup,tanzuformers,10519,helm,https://github.com/tanzuformers/terraform-helm-tkgmgmtsetup,
 tls,devops-rob,9652,gcp,https://github.com/devops-rob/terraform-gcp-tls,"Create self-signed TLS certicates, encrypt keys and store in GCS Bucket"
+tls-certificate,memes,31483,google,https://github.com/memes/terraform-google-tls-certificate,
 to-efs-backup,rhythmictech,3136,efs,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 to-hero,Rajmohan08,30671,zero,https://github.com/Rajmohan08/terraform-zero-to-hero,
 to-hero,maruthibg1998,31137,zero,https://github.com/maruthibg1998/terraform-zero-to-hero,
@@ -19275,7 +19284,7 @@ unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocea
 unifi-dream,sowens81,31006,provider,https://github.com/sowens81/terraform-provider-unifi-dream,
 unifi-network,kalenarndt,11327,unifi,https://github.com/kalenarndt/terraform-unifi-unifi-network,Repo for a module that creates basic Unifi networks
 unifi-sdn-controller,OldCrowEW,1925,google,https://github.com/OldCrowEW/terraform-google-unifi-sdn-controller,
-unified-dns,fizz,31459,aws,https://github.com/fizz/terraform-aws-unified-dns,
+unified-dns,fizz,31475,aws,https://github.com/fizz/terraform-aws-unified-dns,
 unique-configmap,webyneter,9439,kubernetes,https://github.com/webyneter/terraform-kubernetes-unique-configmap,A Terraform module for creating a Kubernetes ConfigMap that changes its name when the underlying data changes.
 unity-catalog,data-platform-hq,19174,databricks,https://github.com/data-platform-hq/terraform-databricks-unity-catalog,Terraform module for creation of new or managemet of already existing Databricks Unity Catalog Metastore
 unity_catalog,wiseupdata,18436,databricks,https://github.com/wiseupdata/terraform-databricks-unity_catalog,Unit Catalog
