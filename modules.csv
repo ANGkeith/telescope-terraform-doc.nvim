@@ -617,6 +617,7 @@ aks-node-pool,guidalabs,10300,azure,https://github.com/guidalabs/terraform-azure
 aks-npm,nirmata,17315,nirmata,https://github.com/nirmata/terraform-nirmata-aks-npm,
 aks-ocean,stevenfeltner,10827,spotinst,https://github.com/stevenfeltner/terraform-spotinst-aks-ocean,
 aks-operation-scheduler,gianniskt,30283,azurerm,https://github.com/gianniskt/terraform-azurerm-aks-operation-scheduler,Terraform module to automatically schedule start and stop operations for AKS clusters using Azure Logic Apps
+aks-private,singhsynergy,31490,azurerm,https://github.com/singhsynergy/terraform-azurerm-aks-private,
 aks-role,CalvinRodo,1779,azurerm,https://github.com/CalvinRodo/terraform-azurerm-aks-role,An Azure Role for the service principle in AKS that automatically provisions resources.
 aks-sandbox,nuonco,23872,azure,https://github.com/nuonco/terraform-azure-aks-sandbox,Azure AKS sandbox for Nuon apps.
 aks-ss,bemakylbekova,7001,azure,https://github.com/bemakylbekova/terraform-azure-aks-ss,
@@ -4340,6 +4341,7 @@ config,ridwanbejo,22498,grafana,https://github.com/ridwanbejo/terraform-grafana-
 config,snapdocs,8168,aws,https://github.com/snapdocs/terraform-aws-config,sets up aws config
 config,transcom,23838,aws,https://github.com/transcom/terraform-aws-config,Enables AWS Config and adds managed config rules with good defaults.
 config,trussworks,628,aws,https://github.com/trussworks/terraform-aws-config,Enables AWS Config and adds managed config rules with good defaults.
+config-as-yaml,gjed,31498,github,https://github.com/gjed/terraform-github-config-as-yaml,Github repository configurations managed via YAML
 config-changes-datadog,DataDog,27430,aws,https://github.com/DataDog/terraform-aws-config-changes-datadog,Terraform module to stream AWS Config resource configuration changes to Datadog 
 config-configuration-recorder,geekcell,19759,aws,https://github.com/geekcell/terraform-aws-config-configuration-recorder,Terraform module to provision an AWS Config Configuration Recorder.
 config-connector-setup,otterize,23626,gcp,https://github.com/otterize/terraform-gcp-config-connector-setup,
@@ -6259,6 +6261,7 @@ dynamodb-autoscaler,cloudposse,998,aws,https://github.com/cloudposse/terraform-a
 dynamodb-autoscaler,justtrackio,17254,aws,https://github.com/justtrackio/terraform-aws-dynamodb-autoscaler,Terraform module which creates app auto scaling target/policy/schedules for dynamodb tables/indices
 dynamodb-autoscaling,chgangaraju,2250,aws,https://github.com/chgangaraju/terraform-aws-dynamodb-autoscaling,Terraform module for creating dynamodb table with autoscaling
 dynamodb-autoscaling,snowplow-devops,9328,aws,https://github.com/snowplow-devops/terraform-aws-dynamodb-autoscaling,
+dynamodb-global-table,pomo-studio,31487,aws,https://github.com/pomo-studio/terraform-aws-dynamodb-global-table,
 dynamodb-kms-key,dod-iac,4652,aws,https://github.com/dod-iac/terraform-aws-dynamodb-kms-key,KMS Key for use with DynamoDB.
 dynamodb-query-state-machine,amancevice,17495,aws,https://github.com/amancevice/terraform-aws-dynamodb-query-state-machine,AWS Step Function to execute DynamoDB queries with recursive pagination
 dynamodb-replication,Adaptavist,7658,module,https://github.com/Adaptavist/terraform-module-dynamodb-replication,
@@ -13026,6 +13029,7 @@ ndfc-fabric,rjohnston6,22164,dcnm,https://github.com/rjohnston6/terraform-dcnm-n
 nebuly-platform,nebuly-ai,24871,aws,https://github.com/nebuly-ai/terraform-aws-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on AWS.
 nebuly-platform,nebuly-ai,25902,azurerm,https://github.com/nebuly-ai/terraform-azurerm-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on Azure.
 nebuly-platform,nebuly-ai,26338,google,https://github.com/nebuly-ai/terraform-google-nebuly-platform,Terraform module for provisioning Nebuly Platform resources on Google Cloud Platform (GCP).
+neel-test-vpc,neelratanpatel,31488,aws,https://github.com/neelratanpatel/terraform-aws-neel-test-vpc,
 nemo-eks-cluster,kaonmir,13966,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster,
 nemo-eks-cluster-autoscale,kaonmir,13965,aws,https://github.com/kaonmir/terraform-aws-nemo-eks-cluster-autoscale,
 neo4j-community,ilich,30444,aws,https://github.com/ilich/terraform-aws-neo4j-community,Terraform module to setup Neo4j Community Edition on an AWS EC2 instance
@@ -15661,6 +15665,7 @@ resourcegroup,djkluisA,21579,azure,https://github.com/djkluisA/terraform-azure-r
 resourcegroup,hildingsson,30585,azure,https://github.com/hildingsson/terraform-azure-resourcegroup,
 resourcegroup,jbonilla03,2975,azurerm,https://github.com/jbonilla03/terraform-azurerm-resourcegroup,Terraform module to provision azure resource groups
 resourcegroup,ranger12321,20100,azure,https://github.com/ranger12321/terraform-azure-resourcegroup,
+resourcegroup,singhsynergy,31489,azurerm,https://github.com/singhsynergy/terraform-azurerm-resourcegroup,
 resourcegroup,uttamkumar2013,15372,azurerm,https://github.com/uttamkumar2013/terraform-azurerm-resourcegroup,
 resources,azurerm,20078,azure,https://github.com/azurerm/terraform-azure-resources,This set of terraform modules will help you to create and manage a Azure Resources.
 resources,bbmilan,23668,caf,https://github.com/bbmilan/terraform-caf-resources,
@@ -17937,6 +17942,11 @@ sso-roles,dod-iac,7764,aws,https://github.com/dod-iac/terraform-aws-sso-roles,Co
 ssoadmin,blackbird-cloud,19621,aws,https://github.com/blackbird-cloud/terraform-aws-ssoadmin,Terraform module for making AWS IAM Center resources
 ssoadmin-account-assignment,cloud-security-labs,8495,aws,https://github.com/cloud-security-labs/terraform-aws-ssoadmin-account-assignment,aws_ssoadmin_account_assignment Terraform resource
 ssoadmin-permission-set,cloud-security-labs,8493,aws,https://github.com/cloud-security-labs/terraform-aws-ssoadmin-permission-set,aws_ssoadmin_permission_set Terraform module
+ssr-cloudfront,pomo-studio,31492,aws,https://github.com/pomo-studio/terraform-aws-ssr-cloudfront,
+ssr-cloudfront-support,pomo-studio,31491,aws,https://github.com/pomo-studio/terraform-aws-ssr-cloudfront-support,
+ssr-dns,pomo-studio,31495,aws,https://github.com/pomo-studio/terraform-aws-ssr-dns,
+ssr-lambda,pomo-studio,31494,aws,https://github.com/pomo-studio/terraform-aws-ssr-lambda,
+ssr-storage,pomo-studio,31493,aws,https://github.com/pomo-studio/terraform-aws-ssr-storage,
 stack,Keimille,6740,aws,https://github.com/Keimille/terraform-aws-stack,"Module for VPC, IGW, Security group, route table, ec2 resource for learning."
 stack,StarPortal,20038,swarm,https://github.com/StarPortal/terraform-swarm-stack,The terraform module for Docker Swarm
 stack,aqitio,14004,fakewebservices,https://github.com/aqitio/terraform-fakewebservices-stack,
@@ -20166,6 +20176,7 @@ vpc,headout,21916,aws,https://github.com/headout/terraform-aws-vpc,Terraform mod
 vpc,hhmmll,5684,aws,https://github.com/hhmmll/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
 vpc,highgarden-io,12596,aws,https://github.com/highgarden-io/terraform-aws-vpc,Highgarden VPC Root Module
 vpc,hoalongnatsu,12096,aws,https://github.com/hoalongnatsu/terraform-aws-vpc,
+vpc,hoangcuteday,31496,aws,https://github.com/hoangcuteday/terraform-aws-vpc,
 vpc,huanboss,24682,aws,https://github.com/huanboss/terraform-aws-vpc,
 vpc,hugovallada,18437,aws,https://github.com/hugovallada/terraform-aws-vpc,
 vpc,hung94it,26333,aws,https://github.com/hung94it/terraform-aws-vpc,
@@ -21281,7 +21292,7 @@ wrapper-ec2-instance,gocloudLa,30530,aws,https://github.com/gocloudLa/terraform-
 wrapper-ecr,gocloudLa,30721,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecr,
 wrapper-ecs,gocloudLa,30105,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs,
 wrapper-ecs-service,gocloudLa,30106,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ecs-service,
-wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapper-efs,Terraform module for AWS EFS wrapper with IAC best practices
+wrapper-efs,gocloudLa,30107,aws,https://github.com/gocloudLa/terraform-aws-wrapper-efs,
 wrapper-eks,gocloudLa,31352,aws,https://github.com/gocloudLa/terraform-aws-wrapper-eks,
 wrapper-elasticache,gocloudLa,30108,aws,https://github.com/gocloudLa/terraform-aws-wrapper-elasticache,
 wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,
@@ -21293,7 +21304,7 @@ wrapper-lambda,gocloudLa,30112,aws,https://github.com/gocloudLa/terraform-aws-wr
 wrapper-memorydb,gocloudLa,30113,aws,https://github.com/gocloudLa/terraform-aws-wrapper-memorydb,
 wrapper-notifications,gocloudLa,30128,aws,https://github.com/gocloudLa/terraform-aws-wrapper-notifications,
 wrapper-organization,gocloudLa,30114,aws,https://github.com/gocloudLa/terraform-aws-wrapper-organization,Terraform module for AWS Organization wrapper with IAC best practices
-wrapper-pritunl,gocloudLa,30115,aws,https://github.com/gocloudLa/terraform-aws-wrapper-pritunl,Terraform module for AWS Pritunl wrapper with IAC best practices
+wrapper-pritunl,gocloudLa,30115,aws,https://github.com/gocloudLa/terraform-aws-wrapper-pritunl,
 wrapper-rds,gocloudLa,30116,aws,https://github.com/gocloudLa/terraform-aws-wrapper-rds,
 wrapper-rds-aurora,gocloudLa,30117,aws,https://github.com/gocloudLa/terraform-aws-wrapper-rds-aurora,
 wrapper-route53-record,gocloudLa,30118,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-record,Terraform module for AWS Route53 Record wrapper with IAC best practices
