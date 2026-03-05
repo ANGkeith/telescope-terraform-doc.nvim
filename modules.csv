@@ -2043,7 +2043,7 @@ avm-res-eventgrid-namespace,Azure,31276,azurerm,https://github.com/Azure/terrafo
 avm-res-eventgrid-topic,Azure,30948,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-topic,Terraform Azure Verified Resource Module for EventGrid Topic
 avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventhub-namespace,
 avm-res-features-feature,Azure,30550,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-features-feature,Terraform Azure Verified Resource Module for Subcription Feature
-avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,
+avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,Terraform Azure Verified Resource Module for AKS Arc
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,Terraform Azure Verified Resource Module for Application Insight
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
@@ -7076,6 +7076,7 @@ ecs-gitlab,riboseinc,1922,aws,https://github.com/riboseinc/terraform-aws-ecs-git
 ecs-gosoline-monitoring,justtrackio,18054,aws,https://github.com/justtrackio/terraform-aws-ecs-gosoline-monitoring,Terraform module which implements ECS gosoline app monitoring.
 ecs-gpu-instance,terraform-alicloud-modules,4248,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-gpu-instance,Terraform module for creating GPU clusters on Alibaba Cloud.
 ecs-grafana-agent,xente,18289,aws,https://github.com/xente/terraform-aws-ecs-grafana-agent,"Deploy grafana agent in ECS, using Terraform"
+ecs-headless-architecture,alibabacloud-automation,31544,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-headless-architecture,
 ecs-helpers,andrei-shabanski,23322,aws,https://github.com/andrei-shabanski/terraform-aws-ecs-helpers,
 ecs-http-task,7Factor,12970,aws,https://github.com/7Factor/terraform-aws-ecs-http-task,Terraform for creating a simple ECS task for applications served on HTTP/HTTPS
 ecs-iam,andreswebs,26056,aws,https://github.com/andreswebs/terraform-aws-ecs-iam,
@@ -7870,6 +7871,7 @@ elasticsearch,lablabs,3793,aws,https://github.com/lablabs/terraform-aws-elastics
 elasticsearch,lgallard,3366,aws,https://github.com/lgallard/terraform-aws-elasticsearch,"Terraform module to create Amazon Elasticsearch Service clusters, following the Well-Architected Framework and best AWS practices."
 elasticsearch,pogosoftware,13497,aws,https://github.com/pogosoftware/terraform-aws-elasticsearch,
 elasticsearch,viceIII,829,aws,https://github.com/viceIII/terraform-aws-elasticsearch,
+elasticsearch-ai-assistant,alibabacloud-automation,31535,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-elasticsearch-ai-assistant,
 elasticsearch-cloudwatch-sns-alarms,dubiety,1928,aws,https://github.com/dubiety/terraform-aws-elasticsearch-cloudwatch-sns-alarms,terraform module that configures important alarms for AWS elasticsearch and send them to SNS topic
 elasticsearch-cluster,Datomni,17950,aws,https://github.com/Datomni/terraform-aws-elasticsearch-cluster,
 elasticsearch-cluster,mateothegreat,6639,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-elasticsearch-cluster,
@@ -11694,6 +11696,7 @@ looker-ips,captn3m0,3349,data,https://github.com/captn3m0/terraform-data-looker-
 lookup,InfiniteLoopIO,17898,cidr,https://github.com/InfiniteLoopIO/terraform-cidr-lookup,Lookup CIDR block network details
 lora-nexus-free-tier,kernal-labs,31418,aws,https://github.com/kernal-labs/terraform-aws-lora-nexus-free-tier,
 lora-nexus-free-tier,kernel-labs-by-kuriko-iwai,31419,aws,https://github.com/kernel-labs-by-kuriko-iwai/terraform-aws-lora-nexus-free-tier,
+lt,CloudNationHQ,31547,azure,https://github.com/CloudNationHQ/terraform-azure-lt,
 lts,tf-cloud-modules,19011,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-lts,Sbercloud LTS Terraform module
 lucid-aws-import,lucidsoftware,27784,aws,https://github.com/lucidsoftware/terraform-aws-lucid-aws-import,Terraform modules to set up the necessary IAM roles and policies for Lucid AWS imports
 lucy,lucydavinhart,13472,lmhd,https://github.com/lucydavinhart/terraform-lmhd-lucy,The Official Lucy Davinhart Terraform Module
@@ -12492,6 +12495,7 @@ mscs-ssm-maintenancewindows,mantel-group-core-services,30422,aws,https://github.
 msdns,sentania-labs,30903,dns,https://github.com/sentania-labs/terraform-dns-msdns,
 mse,terraform-alicloud-modules,12825,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mse,Terraform Module for creating MSE resources on Alibaba Cloud.
 mse-schedulerx,alibabacloud-automation,31337,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mse-schedulerx,
+mse-traffic-protection,alibabacloud-automation,31546,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-mse-traffic-protection,
 mshahi-test-vpc,ShaikShahistha,27217,aws,https://github.com/ShaikShahistha/terraform-aws-mshahi-test-vpc,
 msi,tomarv2,12427,azure,https://github.com/tomarv2/terraform-azure-msi,Terraform module for Azure Managed Service Identity (MSI) 
 msk,OT-CLOUD-KIT,27278,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-msk,
@@ -13579,6 +13583,8 @@ nsg-association,srinivasan2022,24840,azurerm,https://github.com/srinivasan2022/t
 nsg-rules,aiyor-terraform-modules,21830,azurerm,https://github.com/aiyor-terraform-modules/terraform-azurerm-nsg-rules,Terraform module for managing Azure NSG rules
 nsg-rules,aiyor-tf-modules,24489,azurerm,https://github.com/aiyor-tf-modules/terraform-azurerm-nsg-rules,Terraform module for managing Azure NSG rules
 nsgator,humanascode,29603,azapi,https://github.com/humanascode/terraform-azapi-nsgator,Terraform module for intelligent Azure Network Security Group (NSG) rule management
+nstance,nstance-dev,31533,aws,https://github.com/nstance-dev/terraform-aws-nstance,
+nstance,nstance-dev,31534,gcp,https://github.com/nstance-dev/terraform-gcp-nstance,
 nsx-t-manager,adarobin,8104,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-t-manager,
 nsx-v-manager,adarobin,8105,vsphere,https://github.com/adarobin/terraform-vsphere-nsx-v-manager,
 nsxcloudaccount,sentania-labs,30854,vra,https://github.com/sentania-labs/terraform-vra-nsxcloudaccount,
@@ -14124,7 +14130,7 @@ php-fpm,weglot,22349,datadog,https://github.com/weglot/terraform-datadog-php-fpm
 phpmyadmin,sil-org,30451,aws,https://github.com/sil-org/terraform-aws-phpmyadmin,
 phpmyadmin,silinternational,7630,aws,https://github.com/silinternational/terraform-aws-phpmyadmin,Terraform module to create an ECS service running phpMyAdmin
 physical-domain,netascode,10231,aci,https://github.com/netascode/terraform-aci-physical-domain,Terraform Cisco ACI Physical Domain Module
-pim,CloudNationHQ,29885,azure,https://github.com/CloudNationHQ/terraform-azure-pim,
+pim,CloudNationHQ,29885,azure,https://github.com/CloudNationHQ/terraform-azure-pim,Terraform module which creates privileged identity management resources used by workloads and accelerators.
 pim,netascode,13627,nxos,https://github.com/netascode/terraform-nxos-pim,Terraform Cisco NX-OS PIM Module
 pim-policy,netascode,17221,aci,https://github.com/netascode/terraform-aci-pim-policy,Terraform Cisco ACI PIM Policy Module 
 pinar,pinar15,17934,registry,https://github.com/pinar15/terraform-registry-pinar,
@@ -14190,7 +14196,9 @@ pod,garbetjie,6189,kubernetes,https://github.com/garbetjie/terraform-kubernetes-
 pod-identity,DeimosCloud,8396,azure,https://github.com/DeimosCloud/terraform-azure-pod-identity,
 pod-setup,netascode,10244,aci,https://github.com/netascode/terraform-aci-pod-setup,Terraform Cisco ACI Pod Setup Module
 pods-oom-op-pack,terraform-shoreline-modules,13395,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-pods-oom-op-pack,Shoreline platform Op Packs (Terraform modules) for pods OOM detection and notification.
+polardb-ai-search,alibabacloud-automation,31536,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-ai-search,
 polardb-mysql,terraform-alicloud-modules,12816,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-mysql,Terraform Module for creating PolarDB for MySQL on Alibaba Cloud.
+polardb-mysql-mcp,alibabacloud-automation,31537,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-mysql-mcp,
 polardb-postgresql,terraform-alicloud-modules,12817,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-postgresql,Terraform Module for creating PolarDB for PostgreSQL on Alibaba Cloud.
 polaris,Fr0ntierX,28132,google,https://github.com/Fr0ntierX/terraform-google-polaris,
 polaris,Fr0ntierX,28248,azure,https://github.com/Fr0ntierX/terraform-azure-polaris,
@@ -14773,6 +14781,7 @@ rabbitmq-messages-unacknowledged-rate-is-higher-than-usual-on-rabbitmq,terraform
 rabbitmq-operator,mateothegreat,6579,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-rabbitmq-operator,RabbitMQ Operator on Kubernetes via Terraform.
 rabbitmq-role,ptonini,16795,vault,https://github.com/ptonini/terraform-vault-rabbitmq-role,
 rabbitmq-secrets-engine,devops-rob,7439,vault,https://github.com/devops-rob/terraform-vault-rabbitmq-secrets-engine,This module enables and configures the RabbitMQ secrets engine.
+rabbitmq-serverless,alibabacloud-automation,31538,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rabbitmq-serverless,
 rabbitmq-service,philips-labs,9106,hsdp,https://github.com/philips-labs/terraform-hsdp-rabbitmq-service,
 rad-ecr-scraper,rad-security,27006,aws,https://github.com/rad-security/terraform-aws-rad-ecr-scraper,A terraform module for allowing Rad Security to scan ECR registries in your AWS account.
 rad-security-connect,rad-security,24812,aws,https://github.com/rad-security/terraform-aws-rad-security-connect,A terraform module for allowing Rad Security to connect to your AWS account.
@@ -15088,6 +15097,7 @@ rds-project,omiradil,8885,aws,https://github.com/omiradil/terraform-aws-rds-proj
 rds-proxy,clowdhaus,7301,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module to create AWS RDS Proxy resources 🇺🇦
 rds-proxy,terraform-aws-modules,13120,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-proxy,Terraform module to create AWS RDS Proxy resources 🇺🇦
 rds-proxy,truemark,8264,aws,https://github.com/truemark/terraform-aws-rds-proxy,
+rds-read-write-splitting,alibabacloud-automation,31549,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rds-read-write-splitting,
 rds-replica,cloudposse,1961,aws,https://github.com/cloudposse/terraform-aws-rds-replica,Terraform module that provisions an RDS replica
 rds-saver,kota65535,17520,aws,https://github.com/kota65535/terraform-aws-rds-saver,
 rds-scheduler,DNXLabs,5747,aws,https://github.com/DNXLabs/terraform-aws-rds-scheduler,This is a module to create a schedule to shut down or start a Relational database service(RDS).
@@ -15183,6 +15193,7 @@ react,bitcot,11110,aws,https://github.com/bitcot/terraform-aws-react,
 reactpipeline,SunDevs,19109,aws,https://github.com/SunDevs/terraform-aws-reactpipeline,
 readonly-integration,infralyst,30674,aws,https://github.com/infralyst/terraform-aws-readonly-integration,
 real-time-asset-monitor,real-time-asset-monitor,27122,google,https://github.com/real-time-asset-monitor/terraform-google-real-time-asset-monitor,A Terraform module to deploy Real-Time Asset Monitor on Google Cloud.
+real-time-log-analysis-selectdb,alibabacloud-automation,31541,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-real-time-log-analysis-selectdb,
 realms,samarkand-global,15204,keycloak,https://github.com/samarkand-global/terraform-keycloak-realms,A Terraform module to manage one or more Keycloak realms.
 realtime-asset-monitor,BrunoReboul,9704,google,https://github.com/BrunoReboul/terraform-google-realtime-asset-monitor,
 realtime-asset-monitor,metro-digital,26293,google,https://github.com/metro-digital/terraform-google-realtime-asset-monitor,
@@ -15277,6 +15288,7 @@ redis-high-memory-consumption-in-redis,terraform-shoreline-modules,20428,shoreli
 redis-idle-connection-cleanup,StratusGrid,8730,aws,https://github.com/StratusGrid/terraform-aws-redis-idle-connection-cleanup,Lambda triggered on a scheduleto cleanup idle redis connection based on idle threshold input value. Can optionally create alarms from a list of elasticache node names and sns topic arn.
 redis-instance,sakiphan,24838,aws,https://github.com/sakiphan/terraform-aws-redis-instance,
 redis-layer,cloudandthings,19247,aws,https://github.com/cloudandthings/terraform-aws-redis-layer,
+redis-read-write-splitting-tair-proxy,alibabacloud-automation,31540,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-redis-read-write-splitting-tair-proxy,
 redis-redis-cluster-flapping,terraform-shoreline-modules,20429,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-redis-cluster-flapping,This repository was generated automatically based on a Shoreline Insights Runbook.
 redis-redis-disconnected-slaves,terraform-shoreline-modules,20430,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-redis-disconnected-slaves,This repository was generated automatically based on a Shoreline Insights Runbook.
 redis-redis-missing-master,terraform-shoreline-modules,20431,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-redis-redis-missing-master,This repository was generated automatically based on a Shoreline Insights Runbook.
@@ -15782,6 +15794,8 @@ rke2-install,rancher,20973,null,https://github.com/rancher/terraform-null-rke2-i
 rke2-vsphere-cluster,aditya-tanwar,24803,rancher2,https://github.com/aditya-tanwar/terraform-rancher2-rke2-vsphere-cluster,This is a terraform module to create Rancher RKE2 cluster on Vsphere Platfor.
 rkumar-test-vpc,Rajeevnita1993,25938,aws,https://github.com/Rajeevnita1993/terraform-aws-rkumar-test-vpc,
 rocket-chat-notifier,KazuyaMiyagi,7164,aws,https://github.com/KazuyaMiyagi/terraform-aws-rocket-chat-notifier,
+rocketmq-data-consistency,alibabacloud-automation,31542,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rocketmq-data-consistency,
+rocketmq-multi-agent-communication,alibabacloud-automation,31543,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rocketmq-multi-agent-communication,
 rocketmq-redis,terraform-alicloud-modules,10256,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rocketmq-redis,
 rogue-endpoint-control,netascode,10315,aci,https://github.com/netascode/terraform-aci-rogue-endpoint-control,Terraform Cisco ACI Rogue Endpoint Control Module
 rohan-custom-vpc,rhnarora84,30152,aws,https://github.com/rhnarora84/terraform-aws-rohan-custom-vpc,
@@ -16635,6 +16649,7 @@ saas,yindia,23070,opta,https://github.com/yindia/terraform-opta-saas,Maintaining
 sabirstorage,jksabir,22628,azure,https://github.com/jksabir/terraform-azure-sabirstorage,
 sadiqs3,alqamasadiq,11414,aws,https://github.com/alqamasadiq/terraform-aws-sadiqs3,
 sae,terraform-alicloud-modules,12685,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sae,Terraform Module for creating SAE resources on Alibaba Cloud.
+sae-headless-architecture,alibabacloud-automation,31550,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sae-headless-architecture,
 safe-bucket,sdmichelini,7394,aws,https://github.com/sdmichelini/terraform-aws-safe-bucket,Opinionated Terraform Module to create a secure by default S3 Bucket.
 sag,terraform-alicloud-modules,12802,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sag,Terraform Module for creating Smart Access Gateway on Alibaba Cloud.
 sagemaker,JamesWoolfenden,11828,aws,https://github.com/JamesWoolfenden/terraform-aws-sagemaker,Basic Sagemaker module
@@ -17886,6 +17901,7 @@ ssm-agent,bailey84j,11704,kubernetes,https://github.com/bailey84j/terraform-kube
 ssm-agent,lacework,7808,aws,https://github.com/lacework/terraform-aws-ssm-agent,A Terraform Module to create an AWS Systems Manager document to handle Lacework Agent deployments to AWS EC2 instances.
 ssm-agent,masterpointio,9192,aws,https://github.com/masterpointio/terraform-aws-ssm-agent,A Terraform module to create an autoscaled SSM Agent instance
 ssm-agent-policy,telia-oss,1243,aws,https://github.com/telia-oss/terraform-aws-ssm-agent-policy,An IAM policy which grants the necessary permissions to run the SSM agent.
+ssm-backup,sil-org,31548,aws,https://github.com/sil-org/terraform-aws-ssm-backup,
 ssm-bastion,JamesWoolfenden,2856,aws,https://github.com/JamesWoolfenden/terraform-aws-ssm-bastion,A quick simple bastion for AWS
 ssm-bastion,maathor,8852,aws,https://github.com/maathor/terraform-aws-ssm-bastion,
 ssm-bastion-fargate,nativelycloud,25072,aws,https://github.com/nativelycloud/terraform-aws-ssm-bastion-fargate,Terraform module to deploy an AWS SSM bastion on ECS Fargate
@@ -20726,6 +20742,7 @@ vpc-team1,lucardcoder,16729,aws,https://github.com/lucardcoder/terraform-aws-vpc
 vpc-test,AadiGrover,26804,aws,https://github.com/AadiGrover/terraform-aws-vpc-test,
 vpc-test,Uday-Kumar033,28474,aws,https://github.com/Uday-Kumar033/terraform-aws-vpc-test,this is git repo for terraform module testing
 vpc-test,bmfernand,17138,aws,https://github.com/bmfernand/terraform-aws-vpc-test,
+vpc-test,maheshdk4,31539,aws,https://github.com/maheshdk4/terraform-aws-vpc-test,
 vpc-test-module,tribhuvan357,30218,aws,https://github.com/tribhuvan357/terraform-aws-vpc-test-module,Terraform AWS VPC Test Module
 vpc-traffic-sampling,Stackadilly,30415,aws,https://github.com/Stackadilly/terraform-aws-vpc-traffic-sampling,
 vpc-via-cfn,ordinaryexperts,2042,aws,https://github.com/ordinaryexperts/terraform-aws-vpc-via-cfn,VPC via CloudFormation as a Terraform module
