@@ -2025,7 +2025,7 @@ avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/A
 avm-res-databricks-workspace,Azure,23919,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace,
 avm-res-datafactory-factory,Azure,28746,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-datafactory-factory,
 avm-res-datafactory-factory,SkittleBomb,26773,azurerm,https://github.com/SkittleBomb/terraform-azurerm-avm-res-datafactory-factory,Creates and manages Azure Datafactory
-avm-res-dataprotection-backupvault,Azure,29160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault,Terraform Azure Verified Resource Module for Data Protection Backup Vault
+avm-res-dataprotection-backupvault,Azure,29160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault,
 avm-res-dataprotection-resourceguard,Azure,29706,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-resourceguard,Terraform Azure Verified Resource Module for Data Protection Resource Guard
 avm-res-dbformysql-flexibleserver,Azure,26101,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver,Terraform Azure Verified Resource Module for DB for MySQL Flexible Server
 avm-res-dbforpostgresql-flexibleserver,Azure,26099,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver,Terraform Azure Verified Resource Module for DB for Postgre SQL Flexible Server
@@ -8505,6 +8505,7 @@ fortigate-vm-for-aviatrix,bayupw,12929,aws,https://github.com/bayupw/terraform-a
 fortigate-vpn,rhythmictech,5077,aws,https://github.com/rhythmictech/terraform-aws-fortigate-vpn,Creates a site-to-site VPN connection intended to terminate to a FortiGate firewall. Creates a template configuration file that can be used to easily configure the connection.
 forwarding-scale-policy,netascode,9824,aci,https://github.com/netascode/terraform-aci-forwarding-scale-policy,Terraform Cisco ACI Forwarding Scale Policy Module
 foundation,fpco,848,aws,https://github.com/fpco/terraform-aws-foundation,Establish a solid Foundation on AWS with these modules for Terraform
+foundation,gambit-consulting,31554,btp,https://github.com/gambit-consulting/terraform-btp-foundation,
 foundation,ketzacoatl,1889,vault,https://github.com/ketzacoatl/terraform-vault-foundation,"Establish a solid Foundation on Hashicorp Vault, with these modules for Terraform"
 foundation,neutrino-io,18621,google,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
 foundation,neutrinobaas,18619,google,https://github.com/neutrino-io/terraform-google-foundation,Neutrino Platform Builder - Terraform Google Foundation
@@ -10222,6 +10223,7 @@ k3s,okami101,17418,hcloud,https://github.com/okami101/terraform-hcloud-k3s,
 k3s,oobenland,15232,proxmox,https://github.com/oobenland/terraform-proxmox-k3s,A terraform module to get k3s up and running on Proxmox VE real quick.
 k3s,packet-labs,5387,packet,https://github.com/equinix-labs/terraform-equinix-metal-k3s,Manage K3s (k3s.io) region clusters on Equinix Metal
 k3s,shalb,21159,aws,https://github.com/shalb/terraform-aws-k3s,k3s terraform module for aws 
+k3s,starsflow,31556,hcloud,https://github.com/starsflow/terraform-hcloud-k3s,
 k3s,tmpjg,29070,aws,https://github.com/tmpjg/terraform-aws-k3s,A simple and scalable k3s implementation on AWS EC2 using Terraform.
 k3s,ulm0,5371,civo,https://github.com/ulm0/terraform-civo-k3s,
 k3s,xunleii,3424,module,https://github.com/xunleii/terraform-module-k3s,Terraform module to manage a k3s cluster on given machines
@@ -11909,6 +11911,7 @@ mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aw
 mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
+mcaf-gitlab-runner-autoscaler,schubergphilis-ep,31558,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-gitlab-runner-autoscaler,
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
@@ -12561,6 +12564,7 @@ multi-ec2-module,kunchalavikram1427,21686,aws,https://github.com/kunchalavikram1
 multi-ec2-module,sandeepkumar1701,22710,aws,https://github.com/sandeepkumar1701/terraform-aws-multi-ec2-module,
 multi-iam-opinionated,bootlabstech,12742,google,https://github.com/bootlabstech/terraform-google-multi-iam-opinionated,
 multi-provider-example,naveen-vijay,9187,aws,https://github.com/naveen-vijay/terraform-aws-multi-provider-example,
+multi-region-active-active-disaster-recovery,alibabacloud-automation,31557,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-multi-region-active-active-disaster-recovery,
 multi-region-private-network,memes,17746,google,https://github.com/memes/terraform-google-multi-region-private-network,
 multi-stack-backends,schollii,8199,aws,https://github.com/schollii/terraform-aws-multi-stack-backends,"Manage terraform state backends for multiple stacks. Generates backend file for each stack managed. Stacks can consist of multiple tfstate files, and state lock is at stack level for optimum protection of stack state. "
 multi-tenant-peering,farroar,4733,azurerm,https://github.com/farroar/terraform-azurerm-multi-tenant-peering,
@@ -14958,6 +14962,7 @@ rds-backup,ispec-inc,4139,aws,https://github.com/ispec-inc/terraform-aws-rds-bac
 rds-blueprint,shamimice03,18456,aws,https://github.com/shamimice03/terraform-aws-rds-blueprint,A Terraform module to provision RDS on AWS
 rds-bsn,onminhthien,18888,aws,https://github.com/onminhthien/terraform-aws-rds-bsn,Terraform module which creates RDS resources on AWS 🇺🇦
 rds-certificate-by-region,softmond-oss,21996,aws,https://github.com/softmond-oss/terraform-aws-rds-certificate-by-region,Get AWS RDS certificate information for an AWS region.
+rds-clickhouse-htap,alibabacloud-automation,31551,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-rds-clickhouse-htap,
 rds-cloudwatch,ION-Analytics,19121,acuris,https://github.com/ION-Analytics/terraform-acuris-rds-cloudwatch,
 rds-cloudwatch-alarm,AyushSolanki158,30551,aws,https://github.com/AyushSolanki158/terraform-aws-rds-cloudwatch-alarm,This Terraform module creates a configurable set of CloudWatch alarms for an RDS instance.
 rds-cloudwatch-logs,trussworks,3355,aws,https://github.com/trussworks/terraform-aws-rds-cloudwatch-logs,RDS Cloudwatch Logs
@@ -17151,6 +17156,7 @@ serverless-function,mcozd,14334,aws,https://github.com/mcozd/terraform-aws-serve
 serverless-function-dynamo-trigger,mcozd,15762,aws,https://github.com/mcozd/terraform-aws-serverless-function-dynamo-trigger,
 serverless-function-scheduler,mcozd,15761,aws,https://github.com/mcozd/terraform-aws-serverless-function-scheduler,
 serverless-github-actions-runner-controller,Hi-Fi,28765,cdk,https://github.com/Hi-Fi/terraform-cdk-serverless-github-actions-runner-controller,"Terraform CDK created Hybrid Module to use Actions Runner Controller within serverless container platforms (ACA, ECS, Cloud Run)"
+serverless-high-availability,alibabacloud-automation,31553,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-high-availability,
 serverless-jenkins,Renatochaz,17415,aws,https://github.com/Renatochaz/terraform-aws-serverless-jenkins,Scalable and reliable serverless Jenkins on AWS Fargate.
 serverless-jenkins,TheNageek,23000,aws,https://github.com/TheNageek/terraform-aws-serverless-jenkins,Scalable and reliable serverless Jenkins on AWS Fargate.
 serverless-kubernetes,terraform-alicloud-modules,4273,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-serverless-kubernetes,Terraform module which create Serverless Kubernetes cluster(s) on Alibaba Cloud.
@@ -19181,6 +19187,7 @@ tokens,mnecas,23044,gcp,https://github.com/mnecas/terraform-gcp-tokens,
 tomcat-anomalous-max-processing-time-for-tomcat-host,terraform-shoreline-modules,20409,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-tomcat-anomalous-max-processing-time-for-tomcat-host,This repository was generated automatically based on a Shoreline Insights Runbook.
 tomcat-high-of-busy-threads-on-tomcat-host,terraform-shoreline-modules,20376,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-tomcat-high-of-busy-threads-on-tomcat-host,This repository was generated automatically based on a Shoreline Insights Runbook.
 tomcat-increase-of-the-errors-second-rate-for-tomcat-server,terraform-shoreline-modules,20372,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-tomcat-increase-of-the-errors-second-rate-for-tomcat-server,This repository was generated automatically based on a Shoreline Insights Runbook.
+tongyi-langchain,alibabacloud-automation,31555,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-tongyi-langchain,
 tools,Hassan-Eid-Hassan,24512,devops,https://github.com/Hassan-Eid-Hassan/terraform-devops-tools,"About Terraform to create all necessary DevOps tools like Jenkins, k8s and so on."
 tools,button-inc,8789,eks,https://github.com/button-inc/terraform-eks-tools,Terraform module which creates Kubernetes tools on AWS EKS.
 tor,sr2c,12177,cloudinit,https://github.com/sr2c/terraform-cloudinit-tor,Tor Bridge (cloud-init) (Mirror of https://gitlab.com/sr2c/terraform-cloudinit-tor)
