@@ -423,6 +423,7 @@ address,terraform-google-modules,2009,google,https://github.com/terraform-google
 address,terraform-yacloud-modules,25518,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-address,Terraform module to manage address within the Yandex.Cloud
 address-group,cloud-labs-infra,21156,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-address-group,
 address-group-builder,StratusGrid,5917,fortios,https://github.com/StratusGrid/terraform-fortios-address-group-builder,"This module takes a map of network configurations and makes address groups for each one, nested in an address group."
+adf,CloudNationHQ,31710,azure,https://github.com/CloudNationHQ/terraform-azure-adf,Terraform module which creates data factory resources used by workloads and accelerators.
 adfinis-governance,adfinis,16584,azurerm,https://github.com/adfinis/terraform-azurerm-adfinis-governance,Terraform Module for providing the basic variables of the Adfinis Azure governance
 adhilas3,adhilaea,12228,aws,https://github.com/adhilaea/terraform-aws-adhilas3,
 aditi,aditicloud,20938,aws,https://github.com/aditicloud/terraform-aws-aditi,
@@ -2122,9 +2123,9 @@ avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-av
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,
 avm-utl-network-virtualnetwork-azapi-replicator,Azure,31172,azure,https://github.com/Azure/terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_virtual_network into azapi_resource
 avm-utl-privatedns-privatednszone-azapi-replicator,Azure,31167,azure,https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
-avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,Terraform Azure Verified Utility Module for Azure Regions Data
+avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,
 avm-utl-resources-resourcegroup-azapi-replicator,Azure,31183,azure,https://github.com/Azure/terraform-azure-avm-utl-resources-resourcegroup-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_resource_group into azapi_resource
-avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,Terraform Azure Verified Utility Module for AVM Utility module for role definitions
+avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,
 avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
@@ -2602,6 +2603,7 @@ base,upmaru,29720,tama,https://github.com/upmaru/terraform-tama-base,
 base-components,ArcfieldSTC,21848,azure,https://github.com/ArcfieldSTC/terraform-azure-base-components,Module used for creating primary components used in Azure IaC deployments.
 base-firewall,NicholasPCole,15302,digitalocean,https://github.com/NicholasPCole/terraform-digitalocean-base-firewall,A set of minimal firewall rules suitable for application to all Droplets in an account
 base-gate,gateplane-io,30435,gateplane,https://github.com/gateplane-io/terraform-gateplane-base-gate,Terraform module to configure GatePlane plugins (dependency)
+base-iks-vpc,terraform-ibm-modules,31709,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-base-iks-vpc,Provisions a Kubernetes VPC cluster on IBM Cloud
 base-member,jakoberpf,12348,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-member,
 base-module,AntonAleksandrov13,11324,aws,https://github.com/AntonAleksandrov13/terraform-aws-base-module,"This repository contains base configurations for running terraform in AWS. It provisions base IAM user/role with minimum required policies, S3 bucket for state storage and Dynamodb for locking"
 base-network,jakoberpf,12349,zerotier,https://github.com/jakoberpf/terraform-zerotier-base-network,Terreform module for integrated service deployment
@@ -6067,6 +6069,7 @@ docker-instance-try,Numan2035,21596,aws,https://github.com/Numan2035/terraform-a
 docker-instance-try,Serafettin1905,20931,aws,https://github.com/Serafettin1905/terraform-aws-docker-instance-try,
 docker-instance-try,osmnnunal,16282,aws,https://github.com/osmnnunal/terraform-aws-docker-instance-try,
 docker-instance-try-2,MrBaykal,21595,aws,https://github.com/MrBaykal/terraform-aws-docker-instance-try-2,Terraform Module to provision an AWS EC2 instance with the latest amazon linux 2023 ami and installed docker in it.  Not intended for production use. It is an example module.
+docker-instance-updated,umut-burdur,31714,aws,https://github.com/umut-burdur/terraform-aws-docker-instance-updated,Terraform module which creates a docker instance resource on AWS
 docker-instance-v1,james-clarusway,20753,aws,https://github.com/james-clarusway/terraform-aws-docker-instance-v1,Terraform module which creates a docker instance resource on AWS.
 docker-instance-v2,james-clarusway,18127,aws,https://github.com/james-clarusway/terraform-aws-docker-instance-v2,Terraform module which creates a docker instance resource on AWS.
 docker-instance-v3,james-clarusway,20721,aws,https://github.com/james-clarusway/terraform-aws-docker-instance-v3,
@@ -6805,7 +6808,7 @@ ecr,grandcolline,2291,aws,https://github.com/grandcolline/terraform-aws-ecr,Simp
 ecr,hazelops,5318,aws,https://github.com/hazelops/terraform-aws-ecr,Terraform ECR Repo
 ecr,hestuwidyo,8382,aws,https://github.com/hestuwidyo/terraform-aws-ecr,Terraform aws ecr module
 ecr,idjemaoune,14301,aws,https://github.com/idjemaoune/terraform-aws-ecr,
-ecr,infrahouse,28599,aws,https://github.com/infrahouse/terraform-aws-ecr,Module that creates a container registry (AWS ECR service).
+ecr,infrahouse,28599,aws,https://github.com/infrahouse/terraform-aws-ecr,"Terraform module for AWS ECR container registry with lifecycle policies, image scanning, encryption, and cross-account repository access. "
 ecr,justinm,4557,aws,https://github.com/justinm/terraform-aws-ecr,A simple Terraform module for creating and managing Elastic Container Registries
 ecr,lablabs,3958,aws,https://github.com/lablabs/terraform-aws-ecr,Terraform Module to manage Docker Container Registries on AWS ECR
 ecr,lacework,8091,aws,https://github.com/lacework/terraform-aws-ecr,A Terraform Module to integrate Amazon Container Registries (ECR) with Lacework.
@@ -13785,6 +13788,7 @@ oke,oracle-terraform-modules,4259,oci,https://github.com/oracle-terraform-module
 oke,web-virtua-oci-multi-account-modules,18879,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-oke,
 oke,westelh,29150,oci,https://github.com/westelh/terraform-oci-oke,
 oke-quickstart,shukawam,19058,oci,https://github.com/shukawam/terraform-oci-oke-quickstart,Terraform module for OKE Tutorial
+oks,tf-outscale-modules,31711,outscale,https://github.com/tf-outscale-modules/terraform-outscale-oks,
 okta,archit0,6291,vault,https://github.com/archit0/terraform-vault-okta,
 okta,onetwopunch,5508,vault,https://github.com/onetwopunch/terraform-vault-okta,Terraform module to configure Vault to use Okta with OIDC
 okta-group-gate,gateplane-io,30439,gateplane,https://github.com/gateplane-io/terraform-gateplane-okta-group-gate,A Terraform module that configures Okta Group Gates
@@ -14637,6 +14641,7 @@ project-resources,TaitoUnited,3762,aws,https://github.com/TaitoUnited/terraform-
 project-resources,TaitoUnited,3765,azurerm,https://github.com/TaitoUnited/terraform-azurerm-project-resources,Azure project resources
 project-resources,TaitoUnited,3769,google,https://github.com/TaitoUnited/terraform-google-project-resources,Google Cloud project resources
 project-resources,TaitoUnited,5489,digitalocean,https://github.com/TaitoUnited/terraform-digitalocean-project-resources,Digital Ocean project resources
+project-scoped-user,iits-consulting,31713,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-project-scoped-user,
 project-service,c0x12c,29338,gcp,https://github.com/c0x12c/terraform-gcp-project-service,
 project-template,HobOps,12303,google,https://github.com/HobOps/terraform-google-project-template,
 project-vpc,dskz,11925,aws,https://github.com/dskz/terraform-aws-project-vpc,
@@ -17040,6 +17045,7 @@ secure-storage-account,ultratendency,20536,azurerm,https://github.com/ultratende
 secure-vertex-workbench,teamdatatonic,19069,google,https://github.com/teamdatatonic/terraform-google-secure-vertex-workbench,Terraform module for secured deployment of Vertex Workbench instances
 secure-vnet-nva,poroping,16224,azurerm,https://github.com/poroping/terraform-azurerm-secure-vnet-nva,
 secure-vpc,nozaq,1206,aws,https://github.com/nozaq/terraform-aws-secure-vpc,A terraform module to create a VPC with secure default configurations.
+secure-vpc,smartao,31716,aws,https://github.com/smartao/terraform-aws-secure-vpc,
 secure-web-proxy,GoogleCloudPlatform,23884,google,https://github.com/GoogleCloudPlatform/terraform-google-secure-web-proxy,Create and manage Secure Web Proxy on GCP for secured egress web traffic
 secure_secrets,airasia,5112,google,https://github.com/airasia/terraform-google-secure_secrets,Terraform module for decrypting secrets (that were encrypted with KMS Keys) in GCP. Can optionally store the encrypted secrets into Secret Manager as well.
 secured-data-warehouse,GoogleCloudPlatform,15840,google,https://github.com/GoogleCloudPlatform/terraform-google-secured-data-warehouse,
@@ -19432,6 +19438,7 @@ trusted-advisor-refresh,trussworks,3345,aws,https://github.com/trussworks/terraf
 trusted-profile,terraform-ibm-modules,22265,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-trusted-profile,Create Trusted profile on IBM Cloud
 truststore,infrahouse,27216,aws,https://github.com/infrahouse/terraform-aws-truststore,Module that creates a trust store with a generated CA certificate.
 tsuga-ingestion,tsuga-dev,31707,google,https://github.com/tsuga-dev/terraform-google-tsuga-ingestion,
+tsuga-ingestion,tsuga-dev,31712,azurerm,https://github.com/tsuga-dev/terraform-azurerm-tsuga-ingestion,
 tunnel,Esya,19522,ssh,https://github.com/Esya/terraform-ssh-tunnel,An SSH tunnel to configure resources behind a bastion host
 tunnel,flaupretre,8413,ssh,https://github.com/flaupretre/terraform-ssh-tunnel,Manage your private resources via a tunnel
 tunnel-databases,flaupretre,10772,ssh,https://github.com/flaupretre/terraform-ssh-tunnel-databases,This module manages databases behind an SSH tunnel
