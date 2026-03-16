@@ -6438,6 +6438,7 @@ ec2,kmayer10,17694,aws,https://github.com/kmayer10/terraform-aws-ec2,terraform-a
 ec2,krmunna01234,7176,aws,https://github.com/krmunna01234/terraform-aws-ec2,
 ec2,kurron,524,aws,https://github.com/kurron/terraform-aws-ec2,A Terraform plan that populates an existing VPC with subnets and EC2 instances.
 ec2,leedonggyu-terraform-factory,30165,resource,https://github.com/leedonggyu-terraform-factory/terraform-resource-ec2,
+ec2,lethisa,31719,aws,https://github.com/lethisa/terraform-aws-ec2,
 ec2,mahindudhat,7331,aws,https://github.com/mahindudhat/terraform-aws-ec2,This is Terraform module
 ec2,maksiess,7139,aws,https://github.com/maksiess/terraform-aws-ec2,
 ec2,mamunozj,26246,miguel,https://github.com/mamunozj/terraform-miguel-ec2,
@@ -11435,6 +11436,7 @@ lb,devops-workflow,638,aws,https://github.com/devops-workflow/terraform-aws-lb,A
 lb,dobby-zent,27645,zent,https://github.com/dobby-zent/terraform-zent-lb,terraform-zent-ecs
 lb,franviera92,5587,google,https://github.com/franviera92/terraform-google-lb,Modular Regional TCP Load Balancer for GCE using target pool and forwarding rule.
 lb,juliiatretyakova,10534,google,https://github.com/juliiatretyakova/terraform-google-lb,
+lb,lethisa,31723,docker,https://github.com/lethisa/terraform-docker-lb,
 lb,libre-devops,29459,azurerm,https://github.com/libre-devops/terraform-azurerm-lb,
 lb,nventive,21361,aws,https://github.com/nventive/terraform-aws-lb,"Terraform module to provision an Application, Network or Gateway Load Balancer."
 lb,scaleway-terraform-modules,31528,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-lb,
@@ -13296,6 +13298,7 @@ network-acl-vpc,terraform-navercloudplatform-modules,25251,ncloud,https://github
 network-basic,cybergavin,10717,azurerm,https://github.com/cybergavin/terraform-azurerm-network-basic,Terraform module for provisioning VNets and subnets on Azure
 network-ddos-protection-plan,bytejunkie,5548,azurerm,https://github.com/bytejunkie/terraform-azurerm-network-ddos-protection-plan,terraform registry to deploy the DDOS Protection Plan resource
 network-ddos-protection-plan,wanted-cloud,28517,azure,https://github.com/wanted-cloud/terraform-azure-network-ddos-protection-plan,Terraform building block module helping with management of DDOS protection plan used on Azure network resources.
+network-dns-zone,Azure-Terraformer,31722,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-network-dns-zone,
 network-edge,equinix,24342,equinix,https://github.com/equinix/terraform-equinix-network-edge,Terraform Equinix Network Edge Modules
 network-egress,principal-apps-factory,21758,aws,https://github.com/principal-apps-factory/terraform-aws-network-egress,
 network-endpoint-ecr,kwaziio,22524,aws,https://github.com/kwaziio/terraform-aws-network-endpoint-ecr,Terraform Module for Creating a Standardized VPC Endpoint for ECR
@@ -13365,6 +13368,7 @@ network-subnet,tasdikrahman,374,google,https://github.com/tasdikrahman/terraform
 network-virtualnetwork,ciscoxiaobing,28980,azurerm,https://github.com/ciscoxiaobing/terraform-azurerm-network-virtualnetwork,
 network-vpc,binxio,6766,google,https://github.com/binxio/terraform-google-network-vpc,Generic google VPC and subnets module for Terraform 
 network-vpc,mineiros-io,11746,google,https://github.com/mineiros-io/terraform-google-network-vpc,A Terraform module to create and manage a Virtual Private Network (VPC) in Google Cloud https://cloud.google.com/vpc
+network-vwan,Azure-Terraformer,31724,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-network-vwan,
 network-watcher,bootlabstech,15504,azurerm,https://github.com/bootlabstech/terraform-azurerm-network-watcher,
 network-with-nat,terraform-alicloud-modules,4275,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-network-with-nat,Terraform Module for building a VPC and Nat gateway network environment on Alibaba Cloud.
 network-with-security-group,terraform-alicloud-modules,4197,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-network-with-security-group,Terraform Module for building a VPC and security group network environment on Alibaba Cloud.
@@ -14281,7 +14285,7 @@ playground,Frunza,27521,registry,https://github.com/Frunza/terraform-registry-pl
 playground,jagoodhand,17771,snowflake,https://github.com/GoodhandSolutions/terraform-snowflake-playground,Create a Playground environment within your Snowflake account.
 playground,mackdelany,11596,aws,https://github.com/mackdelany/terraform-aws-playground,
 plex,cezarmathe,8647,docker,https://github.com/cezarmathe/terraform-docker-plex,A Terraform module for deploying the Plex Media Server.
-plex,zahorniak,24724,aws,https://github.com/zahorniak/terraform-aws-plex,Terraform module for Plex server on AWS backed by S3
+plex,zahorniak,24724,aws,https://github.com/zahorniak/terraform-aws-plex,Terraform module for Plex Media Server on AWS using Spot Instances and S3 for Media Storage
 plex-media-server,gonzalezben81,30583,digitalocean,https://github.com/gonzalezben81/terraform-digitalocean-plex-media-server,Creates a digital ocean droplet with plex media server installed.
 plugin,ptonini,16792,vault,https://github.com/ptonini/terraform-vault-plugin,
 pmm-ecs,infrahouse,30680,aws,https://github.com/infrahouse/terraform-aws-pmm-ecs,"Terraform module for deploying Percona Monitoring and Management (PMM) server on AWS EC2 with Docker, featuring automatic SSL/TLS certificates, persistent EBS storage, CloudWatch monitoring, automated backups, auto-recovery, and RDS PostgreSQL monitoring support. "
@@ -19882,6 +19886,8 @@ vm,hicdss,2725,azure,https://github.com/hicsh/terraform-azure-vm,Terraform modul
 vm,idriss077,23833,nutanix,https://github.com/idriss077/terraform-nutanix-vm,
 vm,kubmeta,16572,google,https://github.com/kubmeta/terraform-google-vm,This is a collection of opinionated submodules that can be used to provision VMs in GCP.
 vm,kumarnirpendra25,22205,google,https://github.com/kumarnirpendra25/terraform-google-vm,This will be used for vm module
+vm,lethisa,31720,azure,https://github.com/lethisa/terraform-azure-vm,
+vm,lethisa,31721,gcp,https://github.com/lethisa/terraform-gcp-vm,
 vm,losbebitas,20588,vsphere,https://github.com/losbebitas/terraform-vsphere-vm,Terraform vSphere module for provisioning Virtual Machines
 vm,magicorntech,26395,azurerm,https://github.com/magicorntech/terraform-azurerm-vm,Magicorn Azure Virtual Machine Module
 vm,mhrzn-terraform,20437,vmware,https://github.com/mhrzn-terraform/terraform-vmware-vm,
