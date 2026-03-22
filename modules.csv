@@ -391,7 +391,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -1987,7 +1987,7 @@ avinashk-test-vpc,avinash202725,29815,aws,https://github.com/avinash202725/terra
 avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terraform-azure-avinashstorage,
 avm-ptn-aca-lza-hosting-environment,Azure,31260,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aca-lza-hosting-environment,Terraform Azure Verified Pattern Module for Azure Container Apps LZA Hosting Environment
 avm-ptn-aiml-ai-foundry,Azure,29607,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-ai-foundry,Terraform Azure Verified Pattern Module for Azure AI Foundry Pattern
-avm-ptn-aiml-landing-zone,Azure,30171,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-landing-zone,Terraform Azure Verified Pattern Module for Azure AI and ML Landing Zone
+avm-ptn-aiml-landing-zone,Azure,30171,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-landing-zone,
 avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-dev,ms-henglu,28407,azurerm,https://github.com/ms-henglu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-dev,pauldotyu,29606,azurerm,https://github.com/pauldotyu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
@@ -3209,6 +3209,7 @@ certificate,stuartizon,4730,aws,https://github.com/stuartizon/terraform-aws-cert
 certificate,tenantcloud,8241,aws,https://github.com/tenantcloud/terraform-aws-certificate,
 certificate,terracharge,14078,aws,https://github.com/terracharge/terraform-aws-certificate,Module for creating terraform-aws-certificate with provider aws. This description is created automagically
 certificate,terraform-do-modules,9862,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-certificate,Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+certificate,vasugoriya,31794,venafi,https://github.com/vasugoriya/terraform-venafi-certificate,
 certificate,zoro16,21295,hcloud,https://github.com/zoro16/terraform-hcloud-certificate,Terraform module to create/upload Certificate resources in/to Hetzner Cloud.
 certificate-authority,JamesWoolfenden,3313,aws,https://github.com/JamesWoolfenden/terraform-aws-certificate-authority,Basic Certificate Authority module
 certificate-generator,nandagirin,12025,tls,https://github.com/nandagirin/terraform-tls-certificate-generator,Terraform module to generate TLS certificate
@@ -4620,6 +4621,7 @@ cos-compose-traefik-hardened,dennbagas,27593,google,https://github.com/dennbagas
 cos-spa,Kagashino,11734,tencentcloud,https://github.com/Kagashino/terraform-tencentcloud-cos-spa,This module provides an easy way to upload local Single Application Page Assets to TencentCloud Cloud Object Storage(COS) Bucket.
 cosmos-db,claranet,6880,azurerm,https://github.com/claranet/terraform-azurerm-cosmos-db,Terraform module for CosmosDB account and databases
 cosmos-db,kogunlowo123,31618,azure,https://github.com/kogunlowo123/terraform-azure-cosmos-db,"Azure Cosmos DB Terraform module with multi-region writes, analytical store, and private endpoint"
+cosmos-db,terraform-az-modules,31801,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-cosmos-db,
 cosmos-mongo,bootlabstech,15501,azurerm,https://github.com/bootlabstech/terraform-azurerm-cosmos-mongo,terraform-azure-cosmos_mongo
 cosmosdb,Azure,13355,azurerm,https://github.com/Azure/terraform-azurerm-cosmosdb,Azure Cosmos DB Terraform Module and Samples
 cosmosdb,CloudNationHQ,22000,azure,https://github.com/CloudNationHQ/terraform-azure-cosmosdb,Terraform module which creates cosmos related resources used by workloads and accelerators.
@@ -8189,6 +8191,7 @@ eventhub,bootlabstech,30863,azurerm,https://github.com/bootlabstech/terraform-az
 eventhub,claranet,4501,azurerm,https://github.com/claranet/terraform-azurerm-eventhub,Terraform module for Azure Eventhub
 eventhub,data-platform-hq,17070,azurerm,https://github.com/data-platform-hq/terraform-azurerm-eventhub,Terraform module for managing Azure Event Hub
 eventhub,libre-devops,28424,azurerm,https://github.com/libre-devops/terraform-azurerm-eventhub,A module used to deploy event hub 🗿
+eventhub,terraform-az-modules,31802,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-eventhub,
 eventhub,tomarv2,15865,azure,https://github.com/tomarv2/terraform-azure-eventhub,Terraform module to create Azure eventhub
 eventhub-consumergroup,seg-way,20494,azurerm,https://github.com/segateway/terraform-azurerm-eventhub-consumergroup,
 eventhub-consumergroup,segateway,20643,azurerm,https://github.com/segateway/terraform-azurerm-eventhub-consumergroup,
@@ -8526,6 +8529,7 @@ flex-function-app,bootlabstech,30938,azurerm,https://github.com/bootlabstech/ter
 flex-plugin,RJPearson94,8684,twilio,https://github.com/RJPearson94/terraform-twilio-flex-plugin,
 flexible-mysql,clouddrove,17841,azure,https://github.com/clouddrove/terraform-azure-flexible-mysql,"Terraform module to create flexible-MySQL resource on AZURE. Azure offers a managed MySQL database service called Azure Database for MySQL, which provides a flexible and scalable solution for hosting MySQL-based applications in the cloud. "
 flexible-mysql,cypik,24072,azure,https://github.com/cypik/terraform-azure-flexible-mysql,
+flexible-mysql,terraform-az-modules,31795,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-flexible-mysql,
 flexible-orchestration-vm-scale-sets,libre-devops,23735,azurerm,https://github.com/libre-devops/terraform-azurerm-flexible-orchestration-vm-scale-sets,A module used to deploy Windows Virtual Machine Scale Sets :rocket:
 flexible-postgresql,clouddrove,24532,azure,https://github.com/clouddrove/terraform-azure-flexible-postgresql,This terraform module is designed to create Azure Postgres flexible mysql resources. The Azure Database for PostgreSQL flexible server deployment model is designed to support high availability within a single availability zone and across multiple availability zones
 flexible-postgresql,terraform-az-modules,31700,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-flexible-postgresql,
@@ -8684,6 +8688,7 @@ functionapp,anoff,924,azurerm,https://github.com/anoff/terraform-azurerm-functio
 functionapp-group,JoeAtRest,6036,azurerm,https://github.com/JoeAtRest/terraform-azurerm-functionapp-group,"Creates a resource group containing 1 or more function apps, an application insights and a key vault"
 functionbeat,PacoVK,13301,aws,https://github.com/PacoVK/terraform-aws-functionbeat,A Terraform module for Elastic Functionbeat to ship Cloudwatch logs 
 functions,tomarv2,12425,azure,https://github.com/tomarv2/terraform-azure-function,Terraform module for Azure Functions
+functions-app,terraform-az-modules,31800,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-functions-app,
 functions-gitactions-modules,GLPSravanaKumar,30059,multicloud,https://github.com/GLPSravanaKumar/terraform-multicloud-functions-gitactions-modules,
 fw,CloudNationHQ,26134,azure,https://github.com/CloudNationHQ/terraform-azure-fw,Terraform module which creates firewall resources used by workloads and accelerators.
 fwp,CloudNationHQ,26168,azure,https://github.com/CloudNationHQ/terraform-azure-fwp,Terraform module which creates firewall policy resources used by workloads and accelerators.
@@ -11779,6 +11784,7 @@ logic,CloudNationHQ,31517,azure,https://github.com/CloudNationHQ/terraform-azure
 logic-app,clouddrove,17918,azure,https://github.com/clouddrove/terraform-azure-logic-app,
 logic-app,cyber-scot,22722,azurerm,https://github.com/cyber-scot/terraform-azurerm-logic-app,A module used to deploy Azure Logic Apps 📈
 logic-app,libre-devops,26037,azurerm,https://github.com/libre-devops/terraform-azurerm-logic-app,A module used to deploy Azure Logic Apps 📈
+logic-app,terraform-az-modules,31805,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-logic-app,
 logic-app-standard,SkittleBomb,24811,azurerm,https://github.com/SkittleBomb/terraform-azurerm-logic-app-standard,
 logic-app-standard,data-platform-hq,18052,azurerm,https://github.com/data-platform-hq/terraform-azurerm-logic-app-standard,Terraform module for manage Azure Logic App (Standard)
 logic-app-workflow,data-platform-hq,16245,azurerm,https://github.com/data-platform-hq/terraform-azurerm-logic-app-workflow,
@@ -11792,7 +11798,7 @@ logproxy,philips-labs,8445,cloudfoundry,https://github.com/philips-labs/terrafor
 logpush-newrelic,Flaconi,24074,cloudflare,https://github.com/Flaconi/terraform-cloudflare-logpush-newrelic,This module will create Cloudflare Logpush Jobs for NewRelic
 logpush-s3,Flaconi,29999,cloudflare,https://github.com/Flaconi/terraform-cloudflare-logpush-s3,This module will create Cloudflare Logpush Jobs for AWS S3
 logs,dod-iac,16983,aws,https://github.com/dod-iac/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
-logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,Terraform module to create a Cloudwatch log group with optional log reader.
+logs,nullstone-modules,8985,aws,https://github.com/nullstone-modules/terraform-aws-logs,
 logs,techadontech,13592,cloudwatch,https://github.com/leonmwandiringa/terraform-aws-cloudwatch-logs,
 logs,transcom,29822,aws,https://github.com/transcom/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
 logs,trussworks,663,aws,https://github.com/trussworks/terraform-aws-logs,Creates and configures an S3 bucket for storing AWS logs.
@@ -12535,6 +12541,7 @@ monitor,rhythmictech,23674,datadog,https://github.com/rhythmictech/terraform-dat
 monitor-action-group,farrukh90,9432,azurerm,https://github.com/farrukh90/terraform-azurerm-monitor-action-group,https://registry.terraform.io/modules/farrukh90/monitor-action-group/azurerm/latest
 monitor-action-group,libre-devops,26323,azurerm,https://github.com/libre-devops/terraform-azurerm-monitor-action-group,A module used to deploy one or more Azure monitor action groups 📩
 monitor-activity-log-alert,farrukh90,9434,azurerm,https://github.com/farrukh90/terraform-azurerm-monitor-activity-log-alert,https://registry.terraform.io/modules/farrukh90/monitor-activity-log-alert/azurerm/latest
+monitor-alerts,Azure-Terraformer,31806,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-monitor-alerts,
 monitor-alerts,clouddrove,20442,azure,https://github.com/clouddrove/terraform-azure-monitor-alerts,This terraform module is designed to create Azure Databricks resources. Overview of Azure Monitor alerts - Azure Monitor | Microsoft ... Alerts help you detect and address issues before users notice them by proactively notifying you when Azure Monitor data indicates there might be a problem with your infrastructure or application.  
 monitor-alerts,cypik,22766,azure,https://github.com/cypik/terraform-azure-monitor-alerts,
 monitor-diagnostic-setting,Azure-Terraformer,26656,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-monitor-diagnostic-setting,
@@ -12655,6 +12662,7 @@ mssql-db,clouddrove,16949,azure,https://github.com/clouddrove/terraform-azure-ms
 mssql-db,cypik,24070,azure,https://github.com/cypik/terraform-azure-mssql-db,
 mssql-db,kumarvna,4825,azurerm,https://github.com/kumarvna/terraform-azurerm-mssql-db,"Terraform Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group. The module can create an auto-failover group with a private link and geo-redundant database for high availability needs."
 mssql-db,ryuzakyl,20522,azurerm,https://github.com/ryuzakyl/terraform-azurerm-mssql-db,"Terraform Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group. The module can create an auto-failover group with a private link and geo-redundant database for high availability needs."
+mssql-db,terraform-az-modules,31797,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-mssql-db,
 mssql-server,Think-Cube,30832,azure,https://github.com/Think-Cube/terraform-azure-mssql-server,
 mssql-server,bootlabstech,24619,azurerm,https://github.com/bootlabstech/terraform-azurerm-mssql-server,
 mssql-server,data-platform-hq,16051,azurerm,https://github.com/data-platform-hq/terraform-azurerm-mssql-server," Terraform module for managing Azure SQL Server"
@@ -15949,6 +15957,7 @@ rke2,remche,30371,proxmox,https://github.com/remche/terraform-proxmox-rke2,
 rke2,remche,8973,openstack,https://github.com/remche/terraform-openstack-rke2,Deploy Kubernetes on OpenStack with RKE2
 rke2,wenzel-felix,18650,hcloud,https://github.com/wenzel-felix/terraform-hcloud-rke2,This module deploys a resilient and highly available rke2 Kubernetes cluster on Hetzner Cloud.
 rke2,zifeo,10592,openstack,https://github.com/zifeo/terraform-openstack-rke2,Easily deploy a high-availability RKE2 Kubernetes cluster on OpenStack providers like Infomaniak.
+rke2-cluster,sarverenterprises,31807,hcloud,https://github.com/sarverenterprises/terraform-hcloud-rke2-cluster,
 rke2-cluster,zackbradys,21282,aws,https://github.com/zackbradys/terraform-aws-rke2-cluster,Terraform for deploying a secure and highly available Rancher Kubernetes (RKE2) Cluster on AWS
 rke2-config,rancher,20484,local,https://github.com/rancher/terraform-local-rke2-config,Terraform module to generate RKE2 config files
 rke2-core,mbilan1,31560,hcloud,https://github.com/mbilan1/terraform-hcloud-rke2-core,
@@ -17273,6 +17282,7 @@ sendgrid,c0x12c,29292,aws,https://github.com/c0x12c/terraform-aws-sendgrid,
 sentinel,claranet,22684,azurerm,https://github.com/claranet/terraform-azurerm-sentinel,Terraform module for Microsoft Sentinel
 sentinel,clouddrove,20443,azure,https://github.com/clouddrove/terraform-azure-sentinel,"This terraform module is designed to create azure Sentinel resources.  Microsoft Sentinel natively incorporates proven Azure services, like Log Analytics and Logic Apps. Microsoft Sentinel enriches your investigation and detection with AI. It provides Microsoft's threat intelligence stream and enables you to bring your own threat intelligence"
 sentinel,mikamakusa,25707,azure,https://github.com/mikamakusa/terraform-azure-sentinel,
+sentinel,terraform-az-modules,31804,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-sentinel,
 sentinel-ai,kogunlowo123,31628,azure,https://github.com/kogunlowo123/terraform-azure-sentinel-ai,
 sentinel-content,claranet,24663,azurerm,https://github.com/claranet/terraform-azurerm-sentinel-content,Terraform module for Microsoft Sentinel Content
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
@@ -17410,6 +17420,7 @@ service-bus,clouddrove,30060,azure,https://github.com/clouddrove/terraform-azure
 service-bus,equinor,23393,azurerm,https://github.com/equinor/terraform-azurerm-service-bus,Terraform module which creates Azure Service Bus resources
 service-bus,innovationnorway,2716,azurerm,https://github.com/innovationnorway-archive/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus,kogunlowo123,31629,azure,https://github.com/kogunlowo123/terraform-azure-service-bus,"Terraform module for Azure Service Bus with queues, topics, subscriptions, and private endpoints"
+service-bus,terraform-az-modules,31798,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-service-bus,
 service-bus,thuanvltk,8233,azurerm,https://github.com/thuanvltk/terraform-azurerm-service-bus,Create Service Bus in Azure.
 service-bus-namespace,ptonini,22177,azurerm,https://github.com/ptonini/terraform-azurerm-service-bus-namespace,
 service-bus-queue,ptonini,22176,azurerm,https://github.com/ptonini/terraform-azurerm-service-bus-queue,
@@ -17451,9 +17462,11 @@ service-principal,claranet,15895,azurerm,https://github.com/claranet/terraform-a
 service-principal,kumarvna,5477,azuread,https://github.com/kumarvna/terraform-azuread-service-principal,Terraform module to create a service principal and configure access to Azure resources
 service-principal,libre-devops,23350,azuread,https://github.com/libre-devops/terraform-azuread-service-principal,A module used to help deploy a service principal in Azure
 service-principal,ptonini,16753,azuread,https://github.com/ptonini/terraform-azuread-service-principal,
+service-principal,terraform-az-modules,31796,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-service-principal,
 service-principal,tomarv2,12431,azure,https://github.com/tomarv2/terraform-azure-service-principal,Terraform module for Azure Service Principal
 service-principals,heathen1878,24734,azuread,https://github.com/heathen1878/terraform-azuread-service-principals,Managed Service Principals in AAD
 service-principle,CalvinRodo,1761,azurerm,https://github.com/CalvinRodo/terraform-azurerm-service-principle,A terraform module for creating service principles in azure
+service-principle,terraform-az-modules,31799,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-service-principle,
 service-project-attach,r-teller,10091,google,https://github.com/r-teller/terraform-google-service-project-attach,
 service-quotas,cloudposse,11675,aws,https://github.com/cloudposse/terraform-aws-service-quotas,Terraform module to manage AWS Service Quotas
 service-role,dlddu,23034,aws,https://github.com/dlddu/terraform-aws-service-role,
@@ -17962,6 +17975,7 @@ sql-db,terraform-google-modules,21744,google,https://github.com/terraform-google
 sql-db,ykyr,16821,google,https://github.com/ykyr/terraform-google-sql-db,Modular Cloud SQL database instance for Terraform.
 sql-failover,OT-terraform-azure-modules,12732,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-sql-failover,
 sql-high-number-of-processes-blocked-in-sqlserver,terraform-shoreline-modules,20398,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-sql-high-number-of-processes-blocked-in-sqlserver,This repository was generated automatically based on a Shoreline Insights Runbook.
+sql-managed-instance,terraform-az-modules,31803,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-sql-managed-instance,
 sql-multi-databases,WeAreRetail,27516,azurerm,https://github.com/WeAreRetail/terraform-azurerm-sql-multi-databases,
 sql-server,kabisa,11756,datadog,https://github.com/kabisa/terraform-datadog-sql-server,
 sql-server,miljodir,22042,azurerm,https://github.com/miljodir/terraform-azurerm-sql-server,"Creates an SQL Server, databases with best security practices by default."
