@@ -391,7 +391,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -1404,6 +1404,7 @@ arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terra
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
 arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,
+arc-route53,sourcefuse,31813,aws,https://github.com/sourcefuse/terraform-aws-arc-route53,Terraform module for route53
 arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,terraform module for provisioning s3 buckets
 arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,
 arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
@@ -2001,6 +2002,7 @@ avm-ptn-alz-connectivity-hub-and-spoke-vnet,bbtechsys,28445,azurerm,https://gith
 avm-ptn-alz-connectivity-virtual-wan,Azure,28234,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan,Terraform Azure Verified Pattern Module for ALZ Connectivity vWAN
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,Terraform Azure Verified Pattern Module for ALZ Management
 avm-ptn-alz-sub-vending,Azure,30718,azure,https://github.com/Azure/terraform-azure-avm-ptn-alz-sub-vending,Terraform Azure Verified Pattern Module for Subscription Vending
+avm-ptn-app-service-landing-zone,Azure,31819,azure,https://github.com/Azure/terraform-azure-avm-ptn-app-service-landing-zone,
 avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,AVM for Azure Virtual Desktop Insights
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-azure-local-migrate,Azure,31269,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azure-local-migrate,Terraform Azure Verified Pattern Module for Azure Local Azure Migrate Project
@@ -3095,6 +3097,7 @@ cassandra-cassandra-tombstone-dump-incident,terraform-shoreline-modules,20319,sh
 cassandra-eks,kassett,21724,aws,https://github.com/kassett/terraform-aws-cassandra-eks,
 castle,markti,30238,minecraft,https://github.com/markti/terraform-minecraft-castle,
 casty,CastyLab,7268,kubernetes,https://github.com/castyapp/terraform-kubernetes-casty,☸️ Terraform module for deploying casty helm-charts on kubernetes!
+catalog,automation64,31822,lib,https://github.com/automation64/terraform-lib-catalog,
 catalog-management,terraform-ibm-modules,29941,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-catalog-management,Automation to manage an IBM Cloud catalog
 catalyst-cluster-bootstrap,catalystsquad,13928,kubernetes,https://github.com/catalystsquad/terraform-kubernetes-catalyst-cluster-bootstrap,Terraform module that bootstraps a Kubernetes cluster with useful development and monitoring tools
 catalyst-platform,catalystsquad,13925,aws,https://github.com/catalystsquad/terraform-aws-catalyst-platform,Terraform module that provisions the Catalyst Platform in AWS
@@ -3653,6 +3656,7 @@ cloudfront,Aplyca,1041,aws,https://github.com/Aplyca/terraform-aws-cloudfront,Cr
 cloudfront,DTherHtun,5546,aws,https://github.com/dtherhtun/terraform-aws-cloudfront,Terraform module which creates Amazon Cloudfront Distribution
 cloudfront,Lunik,10619,aws,https://github.com/Lunik/terraform-aws-cloudfront,Create and configure basic AWS Cloud Front service.
 cloudfront,OT-CLOUD-KIT,11543,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-cloudfront,
+cloudfront,PreetChauhan111,31812,pc,https://github.com/PreetChauhan111/terraform-pc-cloudfront,
 cloudfront,QuiNovas,1478,aws,https://github.com/QuiNovas/terraform-aws-cloudfront,Creates a cloudfront distribution backed by an S3 origin bucket that it also creates
 cloudfront,SebastianUA,8080,aws,https://github.com/SebastianUA/terraform-aws-cloudfront,The Terraform CloudFront module for AWS provider with full supporting
 cloudfront,Selleo,13453,aws,https://github.com/Selleo/terraform-aws-cloudfront,Terraform module for AWS Cloudfront
@@ -6533,6 +6537,7 @@ ec2-autoscale-group,SevenPicoForks,17721,aws,https://github.com/SevenPicoForks/t
 ec2-autoscale-group,cloudposse,1563,aws,https://github.com/cloudposse/terraform-aws-ec2-autoscale-group,Terraform module to provision Auto Scaling Group and Launch Template on AWS
 ec2-autoscaling,clouddrove,9195,aws,https://github.com/clouddrove/terraform-aws-ec2-autoscaling,Terraform module will be created EC2 modulewith Autoscaling group.
 ec2-autoscaling,cypik,29789,aws,https://github.com/cypik/terraform-aws-ec2-autoscaling,Terraform module to create an EC2 instance with an Auto Scaling group on AWS.
+ec2-autoscaling-app,smartao,31814,aws,https://github.com/smartao/terraform-aws-ec2-autoscaling-app,
 ec2-b8u8ec2,dev-b8u8-github1,27570,aws,https://github.com/dev-b8u8-github1/terraform-aws-ec2-b8u8ec2,Training on creating a Terraform Module. Not for Production use please
 ec2-backed-ecs,project-init,30827,aws,https://github.com/project-init/terraform-aws-ec2-backed-ecs,
 ec2-backup,mikmorley,29836,aws,https://github.com/mikmorley/terraform-aws-ec2-backup,
@@ -11286,6 +11291,7 @@ lambda-layer-generator,Robyt96,22553,aws,https://github.com/Robyt96/terraform-aw
 lambda-layer-python,brentnequin,23353,aws,https://github.com/brentnequin/terraform-aws-lambda-layer-python,
 lambda-layer-version-mod,corpit-consulting-public,2799,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-layer-version,
 lambda-madlibrarian,armorfret,2196,aws,https://github.com/armorfret/terraform-aws-lambda-madlibrarian,Terraform module for provisioning akerl/madlibrarian-lambda
+lambda-managed-instance,tfstack,31810,aws,https://github.com/tfstack/terraform-aws-lambda-managed-instance,Terraform module to run AWS Lambda on Managed Instances (EC2-backed) with a capacity provider and VPC config.
 lambda-metric-alarms,dod-iac,7175,aws,https://github.com/dod-iac/terraform-aws-lambda-metric-alarms,Metric alarms for AWS Lambda
 lambda-monitored,infrahouse,30539,aws,https://github.com/infrahouse/terraform-aws-lambda-monitored,"Terraform module for deploying AWS Lambda functions with built-in CloudWatch monitoring, log retention, and least-privilege IAM role - compliant with ISO 27001 and Vanta ""Serverless function error rate monitored"" requirements. "
 lambda-monitoring,acai-consulting,24092,aws,https://github.com/acai-consulting/terraform-aws-lambda-monitoring,
@@ -11913,6 +11919,8 @@ managed-service-grafana,terraform-aws-modules,13112,aws,https://github.com/terra
 managed-service-prometheus,clowdhaus,10853,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-prometheus,Terraform module to create AWS Managed Service for Prometheus (AMP) resources 🇺🇦
 managed-service-prometheus,terraform-aws-modules,31087,aws,https://github.com/terraform-aws-modules/terraform-aws-managed-service-prometheus,Terraform module to create AWS Managed Service for Prometheus (AMP) resources 🇺🇦
 manageddisk,Azure,594,azurerm,https://github.com/Azure/terraform-azurerm-manageddisk,Terraform Azure RM Managed Disk Module 
+management,AutomationDojo,31815,pihole,https://github.com/AutomationDojo/terraform-pihole-management,
+management,AutomationDojo,31817,cloudflare,https://github.com/AutomationDojo/terraform-cloudflare-management,
 management,Leminnov,30941,gitlab,https://github.com/Leminnov/terraform-gitlab-management,
 management,T-Systems-MMS,12115,azurerm,https://github.com/telekom-mms/terraform-azurerm-management,A Terraform module that manages the management resources from the azurerm provider.
 management,arivictor,21347,pagerduty,https://github.com/arivictor/terraform-pagerduty-management,Manage all aspects of your PagerDuty service from a single module
@@ -13808,6 +13816,7 @@ oci-vpn,abarrak,27732,aws,https://github.com/abarrak/terraform-aws-oci-vpn,This 
 oci-vpn,cagataygurturk,19695,google,https://github.com/cagataygurturk/terraform-google-oci-vpn,Terraform module to set up a HA Gateway between GCP and OCI
 ocp-all-inclusive,terraform-ibm-modules,19452,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-ocp-all-inclusive,"A wrapper module around several other modules, which sets up an OpenShift cluster"
 ocp-ipi,cloud-native-toolkit,14572,azure,https://github.com/cloud-native-toolkit/terraform-azure-ocp-ipi,Module to provision ocp-ipi on azure
+ocp-service-mesh,terraform-ibm-modules,31821,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-ocp-service-mesh,Automation for configuring Red Hat OpenShift Service Mesh
 ocp-vpc,cloud-native-toolkit,12219,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-ocp-vpc,Module to provision an openshift cluster on IBM Cloud
 oct-eks,YannickA2023,21990,aws,https://github.com/YannickA2023/terraform-aws-oct-eks,
 oct-eks,akinrslan,21975,aws,https://github.com/akinrslan/terraform-aws-oct-eks,
@@ -13880,6 +13889,7 @@ onboarding,strongdm,6153,sdm,https://github.com/strongdm/terraform-sdm-onboardin
 onboarding,upwindsecurity,29243,google,https://github.com/upwindsecurity/terraform-google-onboarding,
 onboarding,upwindsecurity,29626,azurerm,https://github.com/upwindsecurity/terraform-azurerm-onboarding,
 onboarding,upwindsecurity,30703,oci,https://github.com/upwindsecurity/terraform-oci-onboarding,
+onboarding,upwindsecurity,31820,gcp,https://github.com/upwindsecurity/terraform-gcp-onboarding,
 onboarding-account,stacklet,29657,aws,https://github.com/stacklet/terraform-aws-onboarding-account,
 onboarding-module,kalenarndt,15456,tfe,https://github.com/kalenarndt/terraform-tfe-onboarding-module,TFC/E onboarding module. Originally forked from WhatsARanjit
 onboarding-org-read,stacklet,29658,aws,https://github.com/stacklet/terraform-aws-onboarding-org-read,
@@ -16242,6 +16252,7 @@ s3,MagnetarIT,4619,aws,https://github.com/MagnetarIT/terraform-aws-s3,Terraform 
 s3,Millan133,29938,aws,https://github.com/Millan133/terraform-aws-s3,
 s3,NeeharikaRN,19901,aws,https://github.com/NeeharikaRN/terraform-aws-s3,
 s3,PavanThumati,28884,aws,https://github.com/PavanThumati/terraform-aws-s3,
+s3,PreetChauhan111,31811,pc,https://github.com/PreetChauhan111/terraform-pc-s3,
 s3,Sandeepkr93,11421,aws,https://github.com/Sandeepkr93/terraform-aws-s3,
 s3,Santy2703,11043,aws,https://github.com/Santy2703/terraform-aws-s3,
 s3,Selleo,13454,aws,https://github.com/Selleo/terraform-aws-s3,Collection of Terraform modules with AWS S3 for miscellaneous use.
@@ -18638,6 +18649,7 @@ storage-bucket,owlot,18485,google,https://github.com/owlot/terraform-google-stor
 storage-bucket,qbeyond,17453,google,https://github.com/qbeyond/terraform-google-storage-bucket,Terraform Module to create google cloud storage
 storage-bucket,terraform-yacloud-modules,17955,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-storage-bucket,Terraform module to manage Storage (S3) resources within the Yandex.Cloud.
 storage-bucket,tomarv2,12223,google,https://github.com/tomarv2/terraform-google-storage-bucket,Terraform module for Google Storage Bucket
+storage-bucket-file,automation64,31823,google,https://github.com/automation64/terraform-google-storage-bucket-file,
 storage-bucket-iam,mineiros-io,11361,google,https://github.com/mineiros-io/terraform-google-storage-bucket-iam,A Terraform module to manage Identity and Access Management (IAM) Google Cloud Storage (GCS) buckets in Google Cloud https://cloud.google.com/iam/docs/service-accounts
 storage-container,anugnes,678,azure,https://github.com/anugnes/terraform-azure-storage-container,Azure Storage Container Module for Terraform
 storage-container,bytejunkie,7362,azurerm,https://github.com/bytejunkie/terraform-azurerm-storage-container,
@@ -19517,6 +19529,7 @@ truefoundry-platform-features,truefoundry,23630,azure,https://github.com/truefou
 truefoundry-resource-group,truefoundry,19983,azure,https://github.com/truefoundry/terraform-azure-truefoundry-resource-group,Truefoundry Azure Resource Group Module
 truefoundry-thanos,truefoundry,19893,aws,https://github.com/truefoundry/terraform-aws-truefoundry-thanos,Truefoundry AWS Thanos Module
 truefoundry-thanos,truefoundry,19984,azure,https://github.com/truefoundry/terraform-azure-truefoundry-thanos,Truefoundry Azure Thanos Module
+truewatch,TrueWatchTech,31818,provider,https://github.com/TrueWatchTech/terraform-provider-truewatch,
 trust-control-policy,netascode,17284,aci,https://github.com/netascode/terraform-aci-trust-control-policy,Terraform Cisco ACI Trust Control Policy Module
 trusted-advisor-refresh,trussworks,3345,aws,https://github.com/trussworks/terraform-aws-trusted-advisor-refresh,Trusted Advisor Refresh
 trusted-profile,terraform-ibm-modules,22265,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-trusted-profile,Create Trusted profile on IBM Cloud
