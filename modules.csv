@@ -391,7 +391,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -2125,7 +2125,7 @@ avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraf
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,
 avm-res-sqlvirtualmachine-sqlvirtualmachine,Azure,31301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sqlvirtualmachine-sqlvirtualmachine,Terraform Azure Verified Resource Module for Sql Virtual Machine
-avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,Terraform Azure Verified Resource Module for Storage Account
+avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,
 avm-res-web-connection,Azure,30605,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-connection,Terraform Azure Verified Resource Module for API Connection
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
 avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,Terraform Azure Verified Resource Module for App Service Plan
@@ -2550,7 +2550,7 @@ backend-m,ahmadrazalab,26789,aws,https://github.com/ahmadrazalab/terraform-aws-b
 backend-manager,Apollo-XIV,25963,aws,https://github.com/Apollo-XIV/terraform-aws-backend-manager,
 backend-module,bigonil,29188,aws,https://github.com/bigonil/terraform-aws-backend-module,
 backend-module,cloudxperts,8682,aws,https://github.com/cloudxperts/terraform-aws-backend-module,AWS Terraform backend module with S3 and DynamoDB
-backend-router,mergermarket,2359,acuris,https://github.com/mergermarket/terraform-acuris-backend-router,Creates ALB and connects certificate
+backend-router,mergermarket,31827,acuris,https://github.com/mergermarket/terraform-acuris-backend-router,Creates ALB and connects certificate
 backend-s3,youngfeldt,1034,aws,https://github.com/youngfeldt/terraform-aws-backend-s3,Terraform S3 backend with state locking.
 backend-s3-bucket,moajo-labs,31784,aws,https://github.com/moajo-labs/terraform-aws-backend-s3-bucket,
 backend-service,dcos-terraform,1506,gcp,https://github.com/dcos-terraform/terraform-gcp-backend-service,Create an ILB to be used for DC/OS for GCP
@@ -4391,7 +4391,7 @@ config,cloudposse,6646,yaml,https://github.com/cloudposse/terraform-yaml-config,
 config,cloudposse,6933,aws,https://github.com/cloudposse/terraform-aws-config,"This module configures AWS Config, a service that enables you to assess, audit, and evaluate the configurations of your AWS resources."
 config,kvvnrrgopal,8339,aws,https://github.com/kvvnrrgopal/terraform-aws-config,Enables AWS Config and adds managed config rules with good defaults.
 config,lacework,20032,oci,https://github.com/lacework/terraform-oci-config,A Terraform module to integrate a Lacework into an OCI cloud account for cloud security posture management.
-config,lacework,6404,aws,https://github.com/lacework/terraform-aws-config,Terraform module for configuring an integration with Lacework and AWS for cloud resource configuration assessment
+config,lacework,6404,aws,https://github.com/lacework/terraform-aws-config,
 config,lacework,6422,gcp,https://github.com/lacework/terraform-gcp-config,Terraform module for integrating Google Cloud Platform Organziations and Projects with Lacework for cloud resource configuration assessment
 config,lacework,6443,azure,https://github.com/lacework/terraform-azure-config,Terraform module for integrating Azure Subscriptions and Tenants with Lacework for cloud resource configuration assessment
 config,matti,867,kupo,https://github.com/matti/terraform-kupo-config,
@@ -4774,6 +4774,7 @@ cts_project,lornasong,8175,github,https://github.com/lornasong/terraform-github-
 cts_tag,lornasong,8177,panos,https://github.com/lornasong/terraform-panos-cts_tag,Terraform module that uses CTS to create panos tags
 cudos,appvia,24278,aws,https://github.com/appvia/terraform-aws-cudos,Terraform repository used to deploy and manage a Cloud Intelligence framework
 curator,on2itsecurity,31708,azurerm,https://github.com/on2itsecurity/terraform-azurerm-curator,Terraform/OpenTofu module for deploying AUXO Curator on Azure
+curator-storage,on2itsecurity,31828,azurerm,https://github.com/on2itsecurity/terraform-azurerm-curator-storage,Terraform module for storage deployment in Azure specific to support the Curator
 curso-terraform-2021-sqs,videocursoscloud,8310,module,https://github.com/videocursoscloud/terraform-module-curso-terraform-2021-sqs,
 custom,mesivayenduri,25826,aws,https://github.com/mesivayenduri/terraform-aws-custom,"This repository terraform configuration will create required number of ec2 instances, create security groups with HTTP, HTTPS and SSH ingress rules along with loadbalancer EIP."
 custom-account,xi2870-harpreet,31106,aws,https://github.com/xi2870-harpreet/terraform-aws-custom-account,
@@ -6926,7 +6927,7 @@ ecs,HENNGE,4018,aws,https://github.com/HENNGE/terraform-aws-ecs,"Terraform modul
 ecs,Moncky,11055,aws,https://github.com/Moncky/terraform-aws-ecs,Terraform Module for deploying an ECS Cluster
 ecs,NazarSenchuk,31309,aws,https://github.com/NazarSenchuk/terraform-aws-ecs,
 ecs,RocketRez,26940,aws,https://github.com/RocketRez/terraform-aws-ecs,terraform pipeline module for RocketRez
-ecs,SPHTech-Platform,22781,aws,https://github.com/SPHTech-Platform/terraform-aws-ecs,
+ecs,SPHTech-Platform,22781,aws,https://github.com/SPHTech-Platform/terraform-aws-ecs,Reusable module to create ECS cluster
 ecs,Selleo,17120,aws,https://github.com/Selleo/terraform-aws-ecs,Terraform ECS module
 ecs,Senora-dev,29365,aws,https://github.com/Senora-dev/terraform-aws-ecs,"A Terraform module for creating ECS infrastructure in AWS. The module allows modular creation of: ECS Cluster, Task Definition, ECS Service."
 ecs,Smartbrood,633,aws,https://github.com/Smartbrood/terraform-aws-ecs,Terraform module to create ECS cluster
@@ -10668,6 +10669,7 @@ klstorage,Krazyer,17106,azure,https://github.com/Krazyer/terraform-azure-klstora
 kms,Cloud-42,3601,aws,https://github.com/Cloud-42/terraform-aws-kms,Create a KMS key & alias.
 kms,DevopsCare,5602,aws,https://github.com/DevopsCare/terraform-aws-kms,
 kms,JamesWoolfenden,4298,aws,https://github.com/JamesWoolfenden/terraform-aws-kms,Get your KMS keys here
+kms,PreetChauhan111,31825,pc,https://github.com/PreetChauhan111/terraform-pc-kms,
 kms,SPHTech-Platform,13051,aws,https://github.com/SPHTech-Platform/terraform-aws-kms,
 kms,TerraPros,27830,aws,https://github.com/TerraPros/terraform-aws-kms,Terraform module to create AWS KMS resources 🇺🇦 
 kms,TerraPros,27863,google,https://github.com/TerraPros/terraform-google-kms,"Allows managing a keyring, zero or more keys in the keyring, and IAM role bindings on individual keys"
@@ -14655,6 +14657,7 @@ project,aigerim998,21543,module,https://github.com/aigerim998/terraform-module-p
 project,aka-org,29004,google,https://github.com/aka-org/terraform-google-project,Creates a Google Cloud project and project scoped resources
 project,altissimo-hq,18626,google,https://github.com/altissimo-hq/terraform-google-project,"Creates a Google Cloud Project, IAM Policy, Service Accounts, and Service Account Keys"
 project,antmelekhin,27245,gitlab,https://github.com/antmelekhin/terraform-gitlab-project,A Terraform module to manage GitLab Projects.
+project,automation64,31824,google,https://github.com/automation64/terraform-google-project,
 project,badal-io,3876,google,https://github.com/badal-io/terraform-google-project,
 project,bcochofel,7539,azuredevops,https://github.com/bcochofel/terraform-azuredevops-project,Create Azure DevOps Project
 project,carlodicelico,5011,google,https://github.com/cdcme/terraform-google-project," A Terraform Module that helps you create projects for Google Cloud Platform."
@@ -17950,6 +17953,7 @@ spanning-tree-policy,netascode,10322,aci,https://github.com/netascode/terraform-
 spark,mcapuccini,1157,openstack,https://github.com/mcapuccini/terraform-openstack-spark,"Terraform module to deploy Apache Spark, with Tensorflow and NVIDA support."
 spark-operator,gfortetsanakis,15222,helm,https://github.com/gfortetsanakis/terraform-helm-spark-operator,
 speechtotext,bootlabstech,15833,google,https://github.com/bootlabstech/terraform-google-speechtotext,speech to text transcription
+spf,escapace,31826,null,https://github.com/escapace/terraform-null-spf,
 spine-liquor,SpineEventEngine,11176,google,https://github.com/SpineEventEngine/terraform-google-spine-liquor,A Terraform module that makes it easy to set up a new Spine Liquor deployment in GCP.
 spinnaker,Young-ook,5532,aws,https://github.com/Young-ook/terraform-aws-spinnaker,Terraform Module: Spinnaker on AWS
 spinnaker-managed-role,tf-mod,2840,aws,https://github.com/tf-mod/terraform-aws-spinnaker-managed-role,
@@ -18905,6 +18909,7 @@ swapnil-vpc,SwapnilPatil77,30239,aws,https://github.com/SwapnilPatil77/terraform
 swarm,okami101,19713,hcloud,https://github.com/okami101/terraform-hcloud-swarm,
 swarm,syntaqx,2951,digitalocean,https://github.com/syntaqx/terraform-digitalocean-swarm,Terraform module to provision a Docker Swarm cluster.
 swarm-aws,trajano,1781,docker,https://github.com/trajano/terraform-docker-swarm-aws,Terraform script to set up a Docker Swarm on AWS
+swarm-cluster,DevJulianSalas,31829,aws,https://github.com/DevJulianSalas/terraform-aws-swarm-cluster,
 swayam,Swayam2909,12073,azure,https://github.com/Swayam2909/terraform-azure-swayam,
 swfw-modules,PaloAltoNetworks,22544,aws,https://github.com/PaloAltoNetworks/terraform-aws-swfw-modules,Terraform Reusable Modules for Software Firewalls on AWS
 swfw-modules,PaloAltoNetworks,22708,azurerm,https://github.com/PaloAltoNetworks/terraform-azurerm-swfw-modules,Terraform Reusable Modules for Software Firewalls on Azure
