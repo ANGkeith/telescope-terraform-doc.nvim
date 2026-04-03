@@ -391,7 +391,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -856,6 +856,7 @@ amplify-app,masterpointio,9190,aws,https://github.com/masterpointio/terraform-aw
 amplify-app,novekm,19117,aws,https://github.com/novekm/terraform-aws-amplify-app,Terraform module that creates AWS Amplify Application
 amqp,alibabacloud-automation,31658,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-amqp,
 amqp-ram-cloudmonitor,terraform-alicloud-modules,10180,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-amqp-ram-cloudmonitor,
+amr,CloudNationHQ,31921,azure,https://github.com/CloudNationHQ/terraform-azure-amr,Terraform module which creates Azure Managed Redis resources used by workloads and accelerators.
 analytical-platform-observability,ministryofjustice,29971,aws,https://github.com/ministryofjustice/terraform-aws-analytical-platform-observability,Analytical Platform Observability Terraform Module
 analyticdb-mysql,terraform-alicloud-modules,4552,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-analyticdb-mysql,Terraform module for creating Analyticdb MySQL on Alibaba Cloud.
 analyticdb-rag,alibabacloud-automation,31651,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-analyticdb-rag,
@@ -4450,6 +4451,7 @@ confluent-platform,nerdynick,5010,aws,https://github.com/nerdynick/terraform-aws
 confluent-platform,osodevops,9857,azure,https://github.com/osodevops/terraform-azure-confluent-platform,Terraform Module for deploying best practice HA Confluent Platform on Azure
 confluent-platform,purbon,5629,google,https://github.com/purbon/terraform-google-confluent-platform,A Terraform module that can be used to setup Confluent Platform in the Google Cloud Platform
 confluent-platform-unused-topic-partition-in-confluent-platform,terraform-shoreline-modules,20321,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-confluent-platform-unused-topic-partition-in-confluent-platform,This repository was generated automatically based on a Shoreline Insights Runbook.
+conga,cruxdigital-llc,31924,provider,https://github.com/cruxdigital-llc/terraform-provider-conga,
 connect,Altinity,15435,altinitycloud,https://github.com/Altinity/terraform-altinitycloud-connect,Terraform module for connecting Kubernetes clusters to Altinity.Cloud
 connect-aws,Altinity,22038,altinitycloud,https://github.com/Altinity/terraform-altinitycloud-connect-aws,Terraform module for connecting AWS accounts to Altinity.Cloud ☁️
 connect-c8r,cloudchipr,25344,cloudchipr,https://github.com/cloudchipr/terraform-cloudchipr-connect-c8r,Terraform module to connect your infrastructure to Cloudchipr.
@@ -7487,6 +7489,7 @@ eks,boldlink,13999,aws,https://github.com/boldlink/terraform-aws-eks,Terraform r
 eks,bootlabstech-m,17439,aws,https://github.com/bootlabstech-m/terraform-aws-eks,Creates a AWS EKS cluster
 eks,chaglare,7307,aws,https://github.com/chaglare/terraform-aws-eks,
 eks,clouddrove,9091,aws,https://github.com/clouddrove/terraform-aws-eks,"Terraform module will be created Autoscaling, Workers, EKS."
+eks,cloudpilot-ai,31922,cloudpilotai,https://github.com/cloudpilot-ai/terraform-cloudpilotai-eks,
 eks,clushie,19136,aws,https://github.com/clushie/terraform-aws-eks,Terraform module to create an Elastic Kubernetes (EKS) cluster and associated worker instances on AWS
 eks,codezenith,4492,aws,https://github.com/codezenith/terraform-aws-eks,AWS EKS template
 eks,cookpad,4551,aws,https://github.com/cookpad/terraform-aws-eks,A Terraform module to Provision AWS Elastic Kubernetes (EKS) clusters.
@@ -9570,6 +9573,7 @@ iam,TerraPros,27862,google,https://github.com/TerraPros/terraform-google-iam,Man
 iam,TerraformFoundation,27901,aws,https://github.com/TerraformFoundation/terraform-aws-iam,
 iam,TerraformFoundation,27938,google,https://github.com/TerraformFoundation/terraform-google-iam,Manages multiple IAM roles for resources on Google Cloud
 iam,TheSudoYT,24720,hcp,https://github.com/TheSudoYT/terraform-hcp-iam,HashiCorp Cloud Platform IAM Terraform Module
+iam,aaditya-2905,31920,aws,https://github.com/aaditya-2905/terraform-aws-iam,
 iam,bakuppus,10678,aws,https://github.com/bakuppus/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,clouddrove,18542,aws,https://github.com/clouddrove/terraform-aws-iam,Terraform module which creates IAM resources on AWS
 iam,cypik,26324,aws,https://github.com/cypik/terraform-aws-iam,
@@ -10481,6 +10485,7 @@ keda,fabiocicerchia,31130,helm,https://github.com/fabiocicerchia/terraform-helm-
 keda,mateothegreat,6924,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-keda,Keda auto-scaling on kubernetes via Terraform.
 keda,nlamirault,19863,google,https://github.com/nlamirault/terraform-google-keda,Keda on Google Cloud Platform
 kedaratorageaccount,sahukedar144,13215,azure,https://github.com/sahukedar144/terraform-azure-kedaratorageaccount,
+keights,cloudboss,31919,aws,https://github.com/cloudboss/terraform-aws-keights,
 ken,kenvpt,5228,iaac,https://github.com/kenvpt/terraform-iaac-ken,
 kepler,fabiocicerchia,31132,helm,https://github.com/fabiocicerchia/terraform-helm-kepler,
 ketan-test-vpc,sharmaketan14,26929,aws,https://github.com/sharmaketan14/terraform-aws-ketan-test-vpc,
@@ -15893,6 +15898,7 @@ resource_group_storage,88victory88,28262,azurerm,https://github.com/88victory88/
 resource_group_storage,Andr1yK,27771,azurerm,https://github.com/Andr1yK/terraform-azurerm-resource_group_storage,
 resource_group_storage,Bondaliname,30300,azurerm,https://github.com/Bondaliname/terraform-azurerm-resource_group_storage,Terraform module for Azure resource group and storage account
 resource_group_storage,Darya-Savchenko,26912,azurerm,https://github.com/Darya-Savchenko/terraform-azurerm-resource_group_storage,
+resource_group_storage,Gosxa,31923,azurerm,https://github.com/Gosxa/terraform-azurerm-resource_group_storage,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
 resource_group_storage,Kagerou4649,26666,azurerm,https://github.com/Kagerou4649/terraform-azurerm-resource_group_storage,
