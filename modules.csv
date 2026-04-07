@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -6508,7 +6508,7 @@ ec2,nishanthcheruku,16659,aws,https://github.com/nishanthcheruku/terraform-aws-e
 ec2,nullc4t,17501,vultr,https://github.com/const-tmp/terraform-vultr-ec2,Creating batch EC2 instances in Vultr with a single config. Easy scalable. 
 ec2,pankajsao11,24846,aws,https://github.com/pankajsao11/terraform-aws-ec2,Terraform AWS EC2 modules
 ec2,panovmikhail,22284,aws,https://github.com/panovmikhail/terraform-aws-ec2,Terraform module for creating EC2 instances
-ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,"Creates an EC2 instance with access secured to the local host. Deploys Plaid Quickstart service on it. Upon completion of Provision instructions, run the following command to initialize the root directory: ./.terraform/modules/ec2/scripts/init.sh "
+ec2,paulbasilevich,23725,aws,https://github.com/paulbasilevich/terraform-aws-ec2,"► Creates an EC2 instance and deploys Plaid Quickstart service on it: ● Paste the 4 lines of code from ""Provision Instructions"" on Terraform Registry page to a new file and save it as ""main.tf"" in a local directory. ● From that directory run ""terraform init"" ● Upon completion, run ""./.terraform/modules/ec2/scripts/init.sh"" ● Run ""terraform apply"""
 ec2,prabusampath007,14969,aws,https://github.com/prabusampath007/terraform-aws-ec2,Testing on publishing modules
 ec2,punitporwal07,21801,aws,https://github.com/punitporwal07/terraform-aws-ec2,
 ec2,rails-on-services,3602,aws,https://github.com/rails-on-services/terraform-aws-cnfs,Manages EC2 instance
@@ -15799,6 +15799,7 @@ res-service-plan,SkittleBomb,24815,azurerm,https://github.com/SkittleBomb/terraf
 res-sg,hlokensgard,30164,azure,https://github.com/hlokensgard/terraform-azure-res-sg,
 res-storage-storageaccount,SkittleBomb,23600,azurerm,https://github.com/SkittleBomb/terraform-azurerm-res-storage-storageaccount,Module to deploy storage accounts in Azure
 res-storage-storageaccount,kewalaka,22526,azurerm,https://github.com/kewalaka/terraform-azurerm-res-storage-storageaccount,
+res-tenantsettings,rpothin,31939,powerplatform,https://github.com/rpothin/terraform-powerplatform-res-tenantsettings,AVM-aligned Terraform Resource Module for Power Platform Tenant Settings
 reshma-VPC-Module,ReshmaChavan22,31809,aws,https://github.com/ReshmaChavan22/terraform-aws-reshma-VPC-Module,
 resilience-hub,aws-ia,25084,aws,https://github.com/aws-ia/terraform-aws-resilience-hub,
 resiliencehub-app,aws-ia,15142,aws,https://github.com/aws-ia/terraform-aws-resiliencehub-app,
@@ -17213,6 +17214,7 @@ security-buckets,JamesWoolfenden,1962,aws,https://github.com/JamesWoolfenden/ter
 security-center,dsisodia14,11116,azurerm,https://github.com/dsisodia14/terraform-azurerm-security-center," Terraform module to create Azure Security Center resources for Azure Landing Zones"
 security-center,kogunlowo123,31627,azure,https://github.com/kogunlowo123/terraform-azure-security-center,"Terraform module for Microsoft Defender for Cloud with security contacts, pricing tiers, auto-provisioning, and security automations"
 security-center,kumarvna,6264,azurerm,https://github.com/kumarvna/terraform-azurerm-security-center," Terraform module to create Azure Security Center resources for Azure Landing Zones"
+security-copilot-compute-capacity,libre-devops,31943,azapi,https://github.com/libre-devops/terraform-azapi-security-copilot-compute-capacity,
 security-group,BrynardSecurity-terraform,13345,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
 security-group,HDE,4280,aws,https://github.com/HDE/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS
 security-group,HENNGE,15631,aws,https://github.com/HENNGE/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
@@ -18196,6 +18198,7 @@ ssm-bastion,JamesWoolfenden,2856,aws,https://github.com/JamesWoolfenden/terrafor
 ssm-bastion,maathor,8852,aws,https://github.com/maathor/terraform-aws-ssm-bastion,
 ssm-bastion-fargate,nativelycloud,25072,aws,https://github.com/nativelycloud/terraform-aws-ssm-bastion-fargate,Terraform module to deploy an AWS SSM bastion on ECS Fargate
 ssm-configuration,samloh84,16083,aws,https://github.com/samloh84/terraform-aws-ssm-configuration,
+ssm-distributor,CrowdStrike,31941,aws,https://github.com/CrowdStrike/terraform-aws-ssm-distributor,Module to deploy the State Manager associations to apply the CrowdStrike SSM Distributor package against EC2 Instances
 ssm-ec2,ogulcanaydogan,30934,aws,https://github.com/ogulcanaydogan/terraform-aws-ssm-ec2,
 ssm-generated-value,sashee,19693,aws,https://github.com/sashee/terraform-aws-ssm-generated-value,
 ssm-iam-role,cloudposse,1162,aws,https://github.com/cloudposse/terraform-aws-ssm-iam-role,Terraform module to provision an IAM role with configurable permissions to access SSM Parameter Store
@@ -21338,6 +21341,7 @@ wafv2,c0x12c,29294,aws,https://github.com/c0x12c/terraform-aws-wafv2,
 wafv2,coresolutions-ltd,6272,aws,https://github.com/coresolutions-dev/terraform-aws-wafv2,A Terraform module to handle the creation of all things WAF
 wafv2,finisterra-io,23580,aws,https://github.com/finisterra-io/terraform-aws-wafv2,Terraform AWS WAFV2 module
 wafv2,mdnfr0211,24466,aws,https://github.com/mdnfr0211/terraform-aws-wafv2,Terraform Module to create AWS WAF V2
+wafv2,terraform-aws-modules,31942,aws,https://github.com/terraform-aws-modules/terraform-aws-wafv2,Terraform module to create AWS WAF v2 resources 🇺🇦
 wafv2,tfstack,30129,aws,https://github.com/tfstack/terraform-aws-wafv2,Terraform module to create and manage AWS WAFv2 Web ACLs and resource associations
 wafv2,trussworks,5689,aws,https://github.com/trussworks/terraform-aws-wafv2,Creates a WAF using AWS WAFv2 and AWS Managed Rule Sets
 wafv2,xgt001,19872,aws,https://github.com/xgt001/terraform-aws-wafv2,Creates a WAF using AWS WAFv2 and AWS Managed Rule Sets
@@ -21745,6 +21749,7 @@ zone,alex-feel,8648,cloudflare,https://github.com/alex-feel/terraform-cloudflare
 zone,castelnuovo,22454,cloudflare,https://github.com/castelnuovo/terraform-cloudflare-zone,A Terraform module to manage Cloudflare Zones.
 zone,cloudposse,8292,cloudflare,https://github.com/cloudposse/terraform-cloudflare-zone,"Terraform module to provision a CloudFlare zone with DNS records, Argo, Firewall filters and rules"
 zone,dhoppeIT,28551,cloudflare,https://github.com/dhoppeIT/terraform-cloudflare-zone,
+zone,kitabisa,31940,cloudflare,https://github.com/kitabisa/terraform-cloudflare-zone,"Manages Cloudflare zone resources including DNS records, page rules, cache rules, redirect rules, and zone settings."
 zone,opsheaven,23499,hetzner,https://github.com/opsheaven/terraform-hetzner-zone,
 zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cloudflare-zone,
 zone,samarkand-global,16714,cloudflare,https://github.com/samarkand-global/terraform-cloudflare-zone,A Terraform module to manage a Zone in Cloudflare
