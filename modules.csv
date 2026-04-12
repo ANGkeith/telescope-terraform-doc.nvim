@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -472,6 +472,7 @@ agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent
 agent-pool,Think-Cube,29122,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-agent-pool,
 agentcore,LuisOsuna117,31476,aws,https://github.com/LuisOsuna117/terraform-aws-agentcore,Community Terraform module for Amazon Bedrock AgentCore with composable components and production-friendly defaults
 agentcore,aws-ia,30373,aws,https://github.com/aws-ia/terraform-aws-agentcore,
+agentcore,terraform-aws-mod,31978,aws,https://github.com/terraform-aws-mod/terraform-aws-agentcore,
 agentless-onboarding,imperva,24973,dsfhub,https://github.com/imperva/terraform-dsfhub-agentless-onboarding,Terraform modules for onboarding cloud sources to DSF hub
 agentless-scanning,lacework,14968,aws,https://github.com/lacework/terraform-aws-agentless-scanning,Terraform module for configuring an integration with Lacework and AWS for agentless scanning
 agentless-scanning,lacework,17019,gcp,https://github.com/lacework/terraform-gcp-agentless-scanning,Terraform module for configuring an integration with Lacework and Google Cloud for agentless scanning
@@ -3488,7 +3489,7 @@ cloud-iam,data-platform-hq,17447,google,https://github.com/data-platform-hq/terr
 cloud-ids,GoogleCloudPlatform,19020,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-ids,Deploys a Cloud IDS instance and associated resources.
 cloud-infrastructure-automation,cloudposse,6647,tfe,https://github.com/cloudposse-archives/terraform-tfe-cloud-infrastructure-automation,Terraform Enterprise/Cloud Infrastructure Automation
 cloud-infrastructure-automation,cloudposse,7046,spacelift,https://github.com/cloudposse/terraform-spacelift-cloud-infrastructure-automation,Terraform module to provision Spacelift resources for cloud infrastructure automation
-cloud-init,infrahouse,20616,aws,https://github.com/infrahouse/terraform-aws-cloud-init,Module that creates a cloud init configuration for an InfraHouse EC2 instance.
+cloud-init,infrahouse,20616,aws,https://github.com/infrahouse/terraform-aws-cloud-init,"Terraform module for cloud-init configuration with Puppet integration, custom package installation, file provisioning, and APT repository setup. "
 cloud-init-vm,sdhibit,7189,proxmox,https://github.com/sdhibit/terraform-proxmox-cloud-init-vm,Terraform module that creates a cloud-init enabled VM in Proxmox.
 cloud-logs,terraform-ibm-modules,28231,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloud-logs,"This module supports configuring an IBM Cloud Logs instance, log routing tenants to enable platform logs and cloud logs policies."
 cloud-modules,fortinetdev,21637,aws,https://github.com/fortinetdev/terraform-aws-cloud-modules,
@@ -4509,6 +4510,7 @@ consul-sync-multi-tenant,scshitole,14725,bigip,https://github.com/scshitole/terr
 consumption-budget-monitoring,dsb-norge,26909,azurerm,https://github.com/dsb-norge/terraform-azurerm-consumption-budget-monitoring,Terraform module to create subscription budget and it's monitoring with alert
 contabo-start-instance,l-with,24186,module,https://github.com/l-with/terraform-module-contabo-start-instance,
 contact-form,bwindsor,15974,aws,https://github.com/bwindsor/terraform-aws-contact-form,Backend for receiving signups or contact messages via a website
+contact-form,unfunco,31976,aws,https://github.com/unfunco/terraform-aws-contact-form,"Terraform module to deploy a serverless contact form on AWS with Lambda, CloudFront, SES, and WAF."
 contact-form-mailer,DJAndries,5558,aws,https://github.com/DJAndries/terraform-aws-contact-form-mailer,Serverless contact form handler/mailer
 contactinfo,sr2c,11332,null,https://github.com/sr2c/terraform-null-contactinfo,Terraform module to define a ContactInfo-Information-Sharing-Specification compliant string
 container,ShatnoRD,26316,docker,https://github.com/ShatnoRD/terraform-docker-container,"This Terraform module utilizes the kreuzwerker/docker provider's docker_container to enable dynamic list/map-based variable definitions, streamlining small HomeLab service management."
@@ -16569,6 +16571,7 @@ s3-dynamodb-remote-backend,my-devops-way,13663,aws,https://github.com/my-devops-
 s3-encrypted,voquis,5326,aws,https://github.com/voquis/terraform-aws-s3-encrypted,Terraform module to create server-side encrypted S3 bucket
 s3-file-upload,barneyparker,22083,aws,https://github.com/barneyparker/terraform-aws-s3-file-upload,Upload a directory of files to S3 with their MIME type set automatically
 s3-files,hustshawn,31966,aws,https://github.com/hustshawn/terraform-aws-s3-files,
+s3-files,jajera,31979,aws,https://github.com/jajera/terraform-aws-s3-files,Terraform project demonstrating an AWS S3 Files by examples
 s3-heic-converter,keidarcy,27789,aws,https://github.com/keidarcy/terraform-aws-s3-heic-converter,🖼️ Terraform module for automated HEIC to JPEG conversion using AWS S3 and Lambda ⚡
 s3-home-folders,asabaini,5465,aws,https://github.com/asabaini/terraform-aws-s3-home-folders,Terraform code to create IAM users and a S3 Bucket structured as a unix home folder
 s3-iam,truemark,7147,aws,https://github.com/truemark/terraform-aws-s3-iam,
