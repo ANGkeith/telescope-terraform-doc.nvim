@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -734,6 +734,7 @@ alb-ingress-controller,v-bus,6169,kubernetes,https://github.com/v-bus/terraform-
 alb-ingress-rules,fivexl,9626,aws,https://github.com/fivexl/terraform-aws-alb-ingress-rules,ALB Ingress Rules/TLS/Target Groups
 alb-listener-rule,bryan-rhm,12041,aws,https://github.com/bryan-rhm/terraform-aws-alb-listener-rule,Terraform aws ALB Listener rule module
 alb-listener-rules,mergermarket,3693,acuris,https://github.com/mergermarket/terraform-acuris-alb-listener-rules,
+alb-log-bucket,rsclarke,31982,aws,https://github.com/rsclarke/terraform-aws-alb-log-bucket,
 alb-logging,lawliet89,12522,aws,https://github.com/lawliet89/terraform-aws-alb-logging,
 alb-logs-to-elasticsearch,neillturner,2680,aws,https://github.com/neillturner/terraform-aws-alb-logs-to-elasticsearch,Send ALB logs from S3 bucket to ElasticSearch using AWS Lambda
 alb-metric-alarms,dod-iac,6968,aws,https://github.com/dod-iac/terraform-aws-alb-metric-alarms,ALB Metric Alarms
@@ -7127,6 +7128,7 @@ ecs-container-definition,so1omon563,16207,aws,https://github.com/so1omon563/terr
 ecs-container-definition-no-secrets,mergermarket,3695,acuris,https://github.com/mergermarket/terraform-acuris-ecs-container-definition-no-secrets,
 ecs-container-docker-image-tag,ArtemT-STZ,24548,stz,https://github.com/ArtemT-STZ/terraform-stz-ecs-container-docker-image-tag,
 ecs-contrast-agent-injection,Contrast-Security-OSS,29656,aws,https://github.com/Contrast-Security-OSS/terraform-aws-ecs-contrast-agent-injection,
+ecs-custom-autoscaler,delivops,31980,aws,https://github.com/delivops/terraform-aws-ecs-custom-autoscaler,
 ecs-datadog,DataDog,28658,aws,https://github.com/DataDog/terraform-aws-ecs-datadog,Terraform module to install Datadog Monitoring for AWS ECS
 ecs-datadog-agent,hazelops,4847,aws,https://github.com/hazelops/terraform-aws-ecs-datadog-agent,ECS Datadog Agent
 ecs-db-migration,lmagalhaes,10902,aws,https://github.com/lmagalhaes/terraform-aws-ecs-db-migration,
@@ -8579,6 +8581,7 @@ flink,tf-cloud-modules,15093,aiven,https://github.com/tf-cloud-modules/terraform
 flink-cluster-base,justtrackio,22054,aws,https://github.com/justtrackio/terraform-aws-flink-cluster-base,Terraform module which creates a iam role with policies and ecr repositories apps
 floating-ip,zoro16,21293,hcloud,https://github.com/zoro16/terraform-hcloud-floating-ip,Terraform module to provision `Floating IP` resources in Hetzner Cloud.
 flow-logs,lablabs,4740,aws,https://github.com/lablabs/terraform-aws-flow-logs,
+flowlog-bucket,rsclarke,31981,aws,https://github.com/rsclarke/terraform-aws-flowlog-bucket,
 flowlogs,barundel,4159,aws,https://github.com/barundel/terraform-aws-flowlogs,"Terraform for creating flowlogs to s3 from a VPC, Subnet and ENI. "
 fluentbit,AdRoll,5626,container,https://github.com/AdRoll/terraform-container-fluentbit,Terraform module to generate well-formed JSON documents (container definitions) that are passed to the aws_ecs_task_definition Terraform resource for fluentbit
 fluentbit-role,cookielab,9925,aws,https://github.com/cookielab/terraform-aws-fluentbit-role,
@@ -10221,6 +10224,7 @@ ipm-modules,infinera,22218,infinera,https://github.com/infinera/terraform-infine
 ipsec-aws,catonetworks,26676,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws,
 ipsec-aws-transit-gateway,catonetworks,29152,cato,https://github.com/catonetworks/terraform-cato-ipsec-aws-transit-gateway,
 ipsec-azure,catonetworks,26857,cato,https://github.com/catonetworks/terraform-cato-ipsec-azure,
+ipsec-gcp,catonetworks,31983,cato,https://github.com/catonetworks/terraform-cato-ipsec-gcp,
 ipsec-generic,catonetworks,29407,cato,https://github.com/catonetworks/terraform-cato-ipsec-generic,
 ipsecvpn,mkomlaetou,29551,aws,https://github.com/mkomlaetou/terraform-aws-ipsecvpn,Create an IPsec tunnel with AWS
 ipv6-full-mesh-intra-vpc-security-group-rules,JudeQuintana,26689,aws,https://github.com/JudeQuintana/terraform-aws-ipv6-full-mesh-intra-vpc-security-group-rules,
@@ -14007,6 +14011,7 @@ openmetadata,open-metadata,27008,aws,https://github.com/open-metadata/terraform-
 opennext,GNorfolk,28307,aws,https://github.com/GNorfolk/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 opennext,SRGSSR,21578,aws,https://github.com/SRGSSR/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
+opennext,oliverphardman,31984,aws,https://github.com/oliverphardman/terraform-aws-opennext,Next.js + OpenNext + Terraform + AWS
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
 opensearch,Ant-Tech-Cloud,16986,aws,https://github.com/Ant-Tech-Cloud/terraform-aws-opensearch,Terraform module which creates Opensearch Domain on AWS
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
