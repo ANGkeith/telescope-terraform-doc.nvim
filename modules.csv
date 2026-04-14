@@ -1904,6 +1904,7 @@ auto-bastion,JamesWoolfenden,3772,aws,https://github.com/JamesWoolfenden/terrafo
 auto-scaling,devops4me,3155,aws,https://github.com/devops4me/terraform-aws-auto-scaling,This module creates an auto scaling group and a launch configuration to enable agents like a cluster manager to add and/or remove machines to and from a cluster.
 auto-scaling,exnodeshub,22506,aws,https://github.com/exnodeshub/terraform-aws-auto-scaling,
 auto-scaling,nabdilatipova,7807,aws,https://github.com/nabdilatipova/terraform-aws-auto-scaling,
+auto-scaling-demo,nikhilkothare2106,31987,aws,https://github.com/nikhilkothare2106/terraform-aws-auto-scaling-demo,
 auto-scaling-group,terraform-ncloud-modules,16486,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-auto-scaling-group,
 auto-scaling-group-classic,terraform-navercloudplatform-modules,25248,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-group-classic,Terraform module to create auto scaling group resources for the classic configuration
 auto-scaling-group-vpc,terraform-navercloudplatform-modules,25249,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-auto-scaling-group-vpc,Terraform module to create auto scaling group resources for the vpc configuration
@@ -3040,7 +3041,6 @@ cache-policy,transcend-io,8112,aws,https://github.com/transcend-io/terraform-aws
 cached-ami,ebekker,883,aws,https://github.com/ebekker/terraform-aws-cached-ami,A Terraform Module that provides a replacement for the aws_ami data source supporting cached results
 cadvisor,anvibo,2259,docker,https://github.com/bfrunza/terraform-docker-cadvisor,
 caf,GlennChia,8928,azurerm,https://github.com/GlennChia/terraform-azurerm-caf,Base terraform module for the landing zones on Terraform part of Microsoft Cloud Adoption Framework for Azure
-caf,Kissho-Academy,30189,post,https://github.com/Kissho-Academy/terraform-post-caf,
 caf,aztfmod,6306,azurerm,https://github.com/aztfmod/terraform-azurerm-caf,Terraform supermodule for the Terraform platform engineering for Azure
 caf,aztfmodnew,28649,azurerm,https://github.com/aztfmodnew/terraform-azurerm-caf,terraform-azurerm-caf updated
 caf,bbmilan,23687,azure,https://github.com/bbmilan/terraform-azure-caf,
@@ -7945,6 +7945,7 @@ elasticache-alarms,kiwicom,3022,aws,https://github.com/kiwicom/terraform-aws-ela
 elasticache-memcached,cloudposse,225,aws,https://github.com/cloudposse/terraform-aws-elasticache-memcached,Terraform Module for ElastiCache Memcached Cluster
 elasticache-redis,QuiNovas,1497,aws,https://github.com/QuiNovas/terraform-aws-elasticache-redis,Creates a Redis cluster in AWS Elasticache
 elasticache-redis,SPHTech-Platform,14120,aws,https://github.com/SPHTech-Platform/terraform-aws-elasticache-redis,
+elasticache-redis,SevenPico,31992,aws,https://github.com/SevenPico/terraform-aws-elasticache-redis,
 elasticache-redis,TerraPros,27823,aws,https://github.com/TerraPros/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,TerraformFoundation,27899,aws,https://github.com/TerraformFoundation/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
 elasticache-redis,appzen-oss,2041,aws,https://github.com/appzen-oss/terraform-aws-elasticache-redis,Terraform module to provision an ElastiCache Redis Cluster
@@ -8651,6 +8652,7 @@ fqdn-firenet,bayupw,13118,aviatrix,https://github.com/bayupw/terraform-aviatrix-
 free-app-stack,xRizur,31589,azure,https://github.com/xRizur/terraform-azure-free-app-stack,
 free-serverless-modules,sebastianczech,25584,aws,https://github.com/sebastianczech/terraform-aws-free-serverless-modules,Terraform modules for provisioning free serverless in AWS
 free-tier,cloudplz,31937,aws,https://github.com/cloudplz/terraform-aws-free-tier,
+free-tier,cloudplz,31994,oci,https://github.com/cloudplz/terraform-oci-free-tier,
 free-tier,dlddu,26049,aws,https://github.com/dlddu/terraform-aws-free-tier,
 free-tier-application,dlddu,26086,aws,https://github.com/dlddu/terraform-aws-free-tier-application,
 free-tier-kubernetes,kodal,25371,oci,https://github.com/kodal/terraform-oci-free-tier-kubernetes,Terraform Module to create Kubernetes Cluster on OCI Cloud Free Tier
@@ -8707,6 +8709,7 @@ function,terracharge,14085,aws,https://github.com/terracharge/terraform-aws-func
 function,terraform-yacloud-modules,30311,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-function,Terraform module to manage Function resources within the Yandex.Cloud.
 function,tomarv2,15863,azure,https://github.com/tomarv2/terraform-azure-function,Terraform module for Azure Functions
 function,web-virtua-oci-multi-account-modules,21132,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-function,
+function-app,7Factor,31993,azurerm,https://github.com/7Factor/terraform-azurerm-function-app,
 function-app,BzSpi,13263,azurerm,https://github.com/BzSpi/terraform-azurerm-function-app,Terraform module for Azure Function App
 function-app,Xat59,18716,azurerm,https://github.com/Xat59/terraform-azurerm-function-app,Terraform module for Azure Function App
 function-app,bootlabstech,15859,azurerm,https://github.com/bootlabstech/terraform-azurerm-function-app,
@@ -10431,6 +10434,7 @@ k8s-addons-grafana-k8s-monitoring,opzkit,26864,aws,https://github.com/opzkit/ter
 k8s-addons-keda,opzkit,25674,aws,https://github.com/opzkit/terraform-aws-k8s-addons-keda,
 k8s-agent,env0,11964,aws,https://github.com/env0/terraform-aws-k8s-agent,Terraform module which creates a k8s cluster in aws EKS and install the env0 agent on it
 k8s-alerting,akw-devsecops,19812,newrelic,https://github.com/akw-devsecops/terraform-newrelic-k8s-alerting,Terraform module to set up Kubernetes alerting in NewRelic.
+k8s-app,cf-mods,31991,kubernetes,https://github.com/cf-mods/terraform-kubernetes-k8s-app,
 k8s-app,jrcasso,13912,aws,https://github.com/jrcasso/terraform-aws-k8s-app,
 k8s-argocd-cluster-secret,opzkit,11482,aws,https://github.com/opzkit/terraform-aws-k8s-argocd-cluster-secret,
 k8s-aws-lb-role-fix,opzkit,10614,aws,https://github.com/opzkit/terraform-aws-k8s-aws-lb-role-fix,
@@ -11452,7 +11456,6 @@ landing-zone-resource-structure,alibabacloud-automation,27206,alicloud,https://g
 landing-zone-vpc,terraform-ibm-modules,16661,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vpc,"This module creates the Virtual Private Cloud (VPC) resources in a cloud environment, including subnets and security groups. Also Supports floating IP addresses and multiple load balancers."
 landing-zone-vsi,terraform-ibm-modules,16663,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vsi,Creates Virtual Server Instances (VSI) across multiple subnets with any number of block storage volumes that are connected by any number of load balancers
 landing-zone-vsi-autoscale,terraform-ibm-modules,24145,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-landing-zone-vsi-autoscale,This module creates an Auto Scale for VPC instance group which dynamically creates virtual server instances to meet the demands of your environment.
-landingzone,Neko-IT-Org,31153,azurerm,https://github.com/Neko-IT-Org/terraform-azurerm-landingzone,
 landingzone,clouddrove,25082,azure,https://github.com/clouddrove/terraform-azure-landingzone,Azure landing zones Terraform module
 landingzone,dhamibeena25,21214,azurerm,https://github.com/dhamibeena25/terraform-azurerm-landingzone,
 landscape,canonical,30645,juju,https://github.com/canonical/terraform-juju-landscape,Terraform (Product) Modules for Landscape Server deployments with Juju.
@@ -14391,6 +14394,7 @@ pipeline-eks-deploy,fmontezuma,2765,aws,https://github.com/fmontezuma/terraform-
 pipeline-k8s-common,fmontezuma,2778,aws,https://github.com/fmontezuma/terraform-aws-pipeline-k8s-common,
 pipeline-maker,Athena-Tech-Services,16586,aws,https://github.com/Athena-Tech-Services/terraform-aws-pipeline-maker,
 pipeline-maker,RocketRez,26941,aws,https://github.com/RocketRez/terraform-aws-pipeline-maker,terraform pipeline module for RocketRez
+pipeline-role-factory,mantel-group-core-services,31985,aws,https://github.com/mantel-group-core-services/terraform-aws-pipeline-role-factory,
 pipeline_schedule,dhoppeIT,28562,gitlab,https://github.com/dhoppeIT/terraform-gitlab-pipeline_schedule,
 pipelines,T-Systems-MMS,12101,azuredevops,https://github.com/T-Systems-MMS/terraform-azuredevops-pipelines,Configure Azure DevOps Pipelines
 pke,providus-sys,18974,module,https://github.com/providus-sys/terraform-module-pke,PKE module
@@ -14610,6 +14614,7 @@ pras,prasannakaup,18904,aws,https://github.com/prasannakaup/terraform-aws-pras,t
 prasannastorage,haripriya20036,24960,azurerm,https://github.com/haripriya20036/terraform-azurerm-prasannastorage,
 prateekstorage,pragrove,28733,azure,https://github.com/pragrove/terraform-azure-prateekstorage,
 pratiks3,wpratik60,12236,aws,https://github.com/wpratik60/terraform-aws-pratiks3,Terraform Custom Module Script
+pratiktestvpc,pratikpatil18,31990,aws,https://github.com/pratikpatil18/terraform-aws-pratiktestvpc,
 praveen-tf-test-vpc,praveensingh-git,30395,aws,https://github.com/praveensingh-git/terraform-aws-praveen-tf-test-vpc,This Terraform project provisions a custom AWS Virtual Private Cloud (VPC) with configurable public and private subnets.
 prebid-cache,Prebidly,17761,aws,https://github.com/Prebidly/terraform-aws-prebid-cache,
 preemtible-killer,terraform-iaac,9882,gcp,https://github.com/terraform-iaac/terraform-gcp-preemtible-killer,
@@ -15909,6 +15914,7 @@ resource-group-storage,VitaliySemeniv,30590,azurerm,https://github.com/VitaliySe
 resource-group-storage,dimak20,31704,azurerm,https://github.com/dimak20/terraform-azurerm-resource-group-storage,
 resource-group-storage,goldbergnik1993-cloud,31936,azurerm,https://github.com/goldbergnik1993-cloud/terraform-azurerm-resource-group-storage,
 resource-group-storage,salabam,31373,azurerm,https://github.com/salabam/terraform-azurerm-resource-group-storage,
+resource-group-storage,spridoloba,31989,azurerm,https://github.com/spridoloba/terraform-azurerm-resource-group-storage,
 resource-group-storage,vhurna,29005,azurerm,https://github.com/vhurna/terraform-azurerm-resource-group-storage,
 resource-group-storage,whatislavx,31282,azurerm,https://github.com/whatislavx/terraform-azurerm-resource-group-storage,
 resource-groups,bootlabstech,15490,azurerm,https://github.com/bootlabstech/terraform-azurerm-resourcegroup,
@@ -17224,6 +17230,7 @@ secured-postgresql-rds,bridgecrewio,3259,aws,https://github.com/bridgecrewio/ter
 secured-static-website,AlexanderRMcNeill,783,aws,https://github.com/AlexanderRMcNeill/terraform-aws-secured-static-website,Terraform module that creates everything you need to run secured static site
 secured-static-website,tjboudreaux,2607,aws,https://github.com/tjboudreaux/terraform-aws-secured-static-website,Terraform module that creates everything you need to run secured static site
 securely_parked_domain,grendel-consulting,27541,aws,https://github.com/grendel-consulting/terraform-aws-securely_parked_domain,Domains with sensible secure-by-default DNS entries with AWS Route 53
+securestorage1,aliirteza,31988,azurerm,https://github.com/aliirteza/terraform-azurerm-securestorage1,
 security,avsido,29034,aws,https://github.com/avsido/terraform-aws-security,
 security,bellanov,26611,aws,https://github.com/bellanov/terraform-aws-security,Amazon Web Services Security Module.
 security,bellanov,26614,google,https://github.com/bellanov/terraform-google-security,Google Cloud Security Module.
@@ -18624,6 +18631,7 @@ std-path,kiwicom,4062,vault,https://github.com/kiwicom/terraform-vault-std-path,
 stdapi-ai,stdapi-ai,30598,aws,https://github.com/stdapi-ai/terraform-aws-stdapi-ai,Terraform module to deploy stdapi.ai on AWS
 stdapi-ai-s3-regional-bucket,stdapi-ai,30599,aws,https://github.com/stdapi-ai/terraform-aws-stdapi-ai-s3-regional-bucket,Compagnon module for stdapi.ai Terraform module for easy setup of S3 buckets across regions
 step,b-b3rn4rd,18288,emrstreaming,https://github.com/b-b3rn4rd/terraform-emrstreaming-step,Terraform module to manage steps on an EMR cluster on AWS.
+step-function,PreetChauhan111,31986,pc,https://github.com/PreetChauhan111/terraform-pc-step-function,
 step-function,finisterra-io,23578,aws,https://github.com/finisterra-io/terraform-aws-step-function,Terraform AWS Step Functions module
 step-function-alarm,wesol05,2910,aws,https://github.com/wesol05/terraform-aws-step-function-alarm,
 step-functions,SevenPico,25687,aws,https://github.com/SevenPico/terraform-aws-step-functions,Terraform module to provision AWS Step Functions
