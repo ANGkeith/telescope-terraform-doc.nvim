@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -2072,7 +2072,7 @@ avm-res-desktopvirtualization-applicationgroup,Azure,22156,azurerm,https://githu
 avm-res-desktopvirtualization-hostpool,Azure,21718,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool,AVM for Desktop Virtualization Hostpools
 avm-res-desktopvirtualization-scalingplan,Azure,22155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan,AVM for Desktop Virtualization Scaling Plans
 avm-res-desktopvirtualization-workspace,Azure,22157,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace,AVM Terraform Module for Desktop Virtualization Workspace
-avm-res-devcenter-devcenter,Azure,26418,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devcenter-devcenter,Azure Verified Modules DevCenter Terraform Module
+avm-res-devcenter-devcenter,Azure,26418,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devcenter-devcenter,
 avm-res-devopsinfrastructure-pool,Azure,25629,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-devopsinfrastructure-pool,Azure Verified Module for Azure Managed DevOps Pool
 avm-res-documentdb-databaseaccount,Azure,24808,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount,Terraform Azure Verified Resource Module for CosmosDB Database Account
 avm-res-documentdb-mongocluster,Azure,30022,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-documentdb-mongocluster,Terraform Azure Verified Resource Module for Cosmos DB for MongoDB (vCore)
@@ -2179,6 +2179,7 @@ aws-My_VPC,HamzaTariq-2004,25925,hamzatariq,https://github.com/HamzaTariq-2004/t
 aws-account,streamsec-terraform,24754,streamsec,https://github.com/streamsec-terraform/terraform-streamsec-aws-account,
 aws-account-integration,falcon-terraform-modules,24139,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-account-integration,This Terraform module constructs and configures the necessary resources for integrating AWS Accounts into New Relic.
 aws-acm,lean-delivery,7583,module,https://github.com/lean-delivery/terraform-module-aws-acm,
+aws-alarm-channel,massdriver-cloud,32004,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-aws-alarm-channel,
 aws-alarms-slack,Adaptavist,5624,module,https://github.com/Adaptavist/terraform-module-aws-alarms-slack,"Terraform module that links a Lambda function to an SNS topic, expecting to receive CloudWatch alarms, forwarding the alarms to a Slack channel."
 aws-alb,lean-delivery,7584,module,https://github.com/lean-delivery/terraform-module-aws-alb,Terraform module for creating AWS Application Load Balancer service
 aws-alb-autoscaling-ec2,rmalenko,21642,module,https://github.com/rmalenko/terraform-module-aws-alb-autoscaling-ec2,Provisioning on AWS  DNS -> ALB -> Autoscaling -> EC2 -> RDS -> ...
@@ -2270,6 +2271,7 @@ aws-load-balancer-controller,bailey84j,11702,kubernetes,https://github.com/baile
 aws-logs-bucket,costradar,12209,costradar,https://github.com/costradar-obsolete/terraform-costradar-aws-logs-bucket,
 aws-logs-integration,falcon-terraform-modules,24180,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-aws-logs-integration,This Terraform module constructs and configures the necessary resources for integrating AWS CloudWatchLogs into New Relic.
 aws-mariadb,intel,18340,intel,https://github.com/intel/terraform-intel-aws-mariadb,Intel Cloud Optimization Module - AWS MariaDB
+aws-metric-alarm,massdriver-cloud,32005,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-aws-metric-alarm,
 aws-monitor,c0x12c,29330,datadog,https://github.com/c0x12c/terraform-datadog-aws-monitor,
 aws-mssql,intel,17531,intel,https://github.com/intel/terraform-intel-aws-mssql,Intel Cloud Optimization Module - AWS RDS Mssql
 aws-mysql,intel,16702,intel,https://github.com/intel/terraform-intel-aws-mysql,Intel Cloud Optimization Module - AWS RDS MySQL
@@ -2374,6 +2376,7 @@ azure-aadds,ravensorb,13524,azurerm,https://github.com/ravensorb/terraform-azure
 azure-adx,intel,19589,intel,https://github.com/intel/terraform-intel-azure-adx,Intel Cloud Optimization Module - Azure Data Explorer
 azure-ai-foundry-hub,cloudeteer,29522,azurerm,https://github.com/cloudeteer/terraform-azurerm-azure-ai-foundry-hub,☁️ Cloudeteer's Terraform azure azure-ai-foundry-hub module
 azure-aks,intel,18341,intel,https://github.com/intel/terraform-intel-azure-aks,Intel Cloud Optimization Module - Azure AKS
+azure-alarm-channel,massdriver-cloud,32006,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-azure-alarm-channel,
 azure-api-management,pagopa-dx,28187,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-api-management,Deploys an Azure API Management service with monitoring and network configuration
 azure-app-configuration,pagopa-dx,30771,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-app-configuration,Privisions App Configuration instance with private connection and IAM access mode
 azure-app-service,pagopa-dx,28188,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-app-service,Creates an Azure App Service with networking and deployment slot support
@@ -2442,6 +2445,7 @@ azure-linux-vm,intel,18342,intel,https://github.com/intel/terraform-intel-azure-
 azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
+azure-metric-alarm,massdriver-cloud,32007,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-azure-metric-alarm,
 azure-mssql,intel,17535,intel,https://github.com/intel/terraform-intel-azure-mssql,Intel Cloud Optimization Module -  Azure MSSQL
 azure-mssql-managed-instance,intel,20480,intel,https://github.com/intel/terraform-intel-azure-mssql-managed-instance,Intel Cloud Optimization Module - Azure MSSQL Managed Instance
 azure-mssql-server,libre-devops,18599,azurerm,https://github.com/libre-devops/terraform-azurerm-azure-mssql-server,A module used to deploy an Azure MSSQL Server and some extra add-ons like elastic pool :fire:
@@ -3810,8 +3814,6 @@ cloudguard-network-security,CheckPointSW,29134,vmware,https://github.com/CheckPo
 cloudguard-network-security,CheckPointSW,29967,gcp,https://github.com/CheckPointSW/terraform-gcp-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Google Cloud Platform (GCP).  These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,31008,nutanix,https://github.com/CheckPointSW/terraform-nutanix-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Nutanix environments. These modules automate the creation of Tenant Virtual Private Cloud (VPC), Transit-VPC, Security Gateways and Management servers and more, simplifying secure infrastructure setup."
 cloudguard-network-security-cn,lyqwaterway,29871,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security-cn,
-cloudguard-network-security-cn,lyqwaterway,30520,aws,https://github.com/lyqwaterway/terraform-aws-cloudguard-network-security-cn,
-cloudguard-network-security-cn,lyqwaterway,30764,alicloud,https://github.com/lyqwaterway/terraform-alicloud-cloudguard-network-security-cn,
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
 cloudinit,SoleksDataGroup,24766,aws,https://github.com/SoleksDataGroup/terraform-aws-cloudinit,
@@ -4396,7 +4398,11 @@ concourse,telia-oss,1189,aws,https://github.com/telia-oss/terraform-aws-concours
 conditional-trigger,Invicton-Labs,9730,null,https://github.com/Invicton-Labs/terraform-null-conditional-trigger,Accepts a boolean condition for whether a new value should be generated.
 condor,vultr,6135,vultr,https://github.com/vultr/terraform-vultr-condor,Kubernetes Deployment Tool for Vultr
 conduiter-daemon,Conduiter,31970,aws,https://github.com/Conduiter/terraform-aws-conduiter-daemon,
+conduiter-daemon,Conduiter,31999,google,https://github.com/Conduiter/terraform-google-conduiter-daemon,
+conduiter-daemon,Conduiter,32001,azurerm,https://github.com/Conduiter/terraform-azurerm-conduiter-daemon,
 conduiter-relay,Conduiter,31969,aws,https://github.com/Conduiter/terraform-aws-conduiter-relay,
+conduiter-relay,Conduiter,31998,google,https://github.com/Conduiter/terraform-google-conduiter-relay,
+conduiter-relay,Conduiter,32000,azurerm,https://github.com/Conduiter/terraform-azurerm-conduiter-relay,
 coned1,ranaarpit84,22517,azure,https://github.com/ranaarpit84/terraform-azure-coned1,
 conf-k8s-oracle-cloud,sebastianczech,14290,oci,https://github.com/sebastianczech/terraform-oci-conf-k8s-oracle-cloud,Terraform module to configure free Kubernetes cluster in Oracle Cloud
 config,Appsilon,9548,aws,https://github.com/Appsilon/terraform-aws-config,
@@ -12634,6 +12640,7 @@ monitoring,cookielab,28727,kubernetes,https://github.com/cookielab/terraform-kub
 monitoring,cypik,23050,digitalocean,https://github.com/cypik/terraform-digitalocean-monitoring,
 monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules from DasMeta to manage AWS monitoring resources
 monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/terraform-azurerm-monitoring,Terraform module for creation of Azure Workbooks and Dashboards for Databricks and ADF
+monitoring,digitalis-io,31997,k8s,https://github.com/digitalis-io/terraform-k8s-monitoring,Deploy a monitoring stack to Kubernetes using Grafana and Prometheus
 monitoring,dritux,8734,kubernetes,https://github.com/dritux/terraform-kubernetes-monitoring,
 monitoring,hazelops,9204,datadog,https://github.com/hazelops/terraform-datadog-monitoring,
 monitoring,montblu,24749,newrelic,https://github.com/montblu/terraform-newrelic-monitoring,Terraform module to create communication between NewRelic and PagerDuty
@@ -14013,8 +14020,8 @@ openix-modules,openixit-solutions,26502,aws,https://github.com/openixit-solution
 openmetadata,open-metadata,27008,aws,https://github.com/open-metadata/terraform-aws-openmetadata,OpenMetadata Terraform module for AWS
 opennext,GNorfolk,28307,aws,https://github.com/GNorfolk/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
 opennext,SRGSSR,21578,aws,https://github.com/SRGSSR/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
+opennext,TerraNext-Dev,31996,aws,https://github.com/TerraNext-Dev/terraform-aws-opennext,Next.js + OpenNext + Terraform + AWS
 opennext,nhs-england-tools,19565,aws,https://github.com/nhs-england-tools/terraform-aws-opennext,🧱 💻 ☁️ A Terraform module for deploying a Next.js application built with OpenNext to AWS
-opennext,oliverphardman,31984,aws,https://github.com/oliverphardman/terraform-aws-opennext,Next.js + OpenNext + Terraform + AWS
 openproject-discord-webhook-proxy,Dan6erbond,15669,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-openproject-discord-webhook-proxy,
 opensearch,Ant-Tech-Cloud,16986,aws,https://github.com/Ant-Tech-Cloud/terraform-aws-opensearch,Terraform module which creates Opensearch Domain on AWS
 opensearch,Athena-Tech-Services,14354,aws,https://github.com/Athena-Tech-Services/terraform-aws-opensearch,terraform module for OpenSearch deployment
@@ -15008,6 +15015,7 @@ queue-endpoint,SolaceProducts,24983,solacebroker,https://github.com/SolaceProduc
 queue-endpoint,SolaceProducts,25195,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-queue-endpoint,Solace PubSub+ appliance Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration 
 quick-sandbox,TheDataPlatform,29462,azurerm,https://github.com/TheDataPlatform/terraform-azurerm-quick-sandbox,
 quicksight-user-pruning-module,StateFarmIns,13945,aws,https://github.com/StateFarmIns/terraform-aws-quicksight-user-pruning-module,Save money by pruning inactive QuickSight users with this easy-to-use Terraform module.
+quiet-ly,heyitsmeharv,32002,aws,https://github.com/heyitsmeharv/terraform-aws-quiet-ly,"A lightweight, self-hosted, privacy-first analytics module for AWS. Pairs with @quiet-ly/analytics."
 quota-limits,Cyclenerd,18758,google,https://github.com/Cyclenerd/terraform-google-quota-limits,🌪️ Terraform module to update Google Cloud consumer quota limits
 quotas,Azure-Terraformer,25140,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-quotas,
 quotas,alibabacloud-automation,31667,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-quotas,
@@ -16437,7 +16445,7 @@ s3-bucket,RJrocks,20710,aws,https://github.com/RJrocks/terraform-aws-s3-bucket,T
 s3-bucket,RaviGB,9567,aws,https://github.com/RaviGB/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,SVVS-KOUNDINYA,20728,aws,https://github.com/SVVS-KOUNDINYA/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,Senora-dev,29371,aws,https://github.com/Senora-dev/terraform-aws-s3-bucket,"This Terraform module creates and manages S3 buckets with configurable settings for versioning, encryption, lifecycle rules, and more."
-s3-bucket,SevenPicoForks,17725,aws,https://github.com/SevenPicoForks/terraform-aws-s3-bucket,Terraform module that creates an S3 bucket with an optional IAM user for external CI/CD systems
+s3-bucket,SevenPicoForks,17725,aws,https://github.com/SevenPicoForks/terraform-aws-s3-bucket,
 s3-bucket,Smartbrood,537,aws,https://github.com/Smartbrood/terraform-aws-s3-bucket,Terraform module to create S3 bucket on AWS
 s3-bucket,StSchSt,20904,aws,https://github.com/StSchSt/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,TeeJayQraitem,21373,aws,https://github.com/TeeJayQraitem/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
@@ -17860,7 +17868,6 @@ skaylink-vm-extension,skaylink,13630,azurerm,https://github.com/skaylink/terrafo
 skaylink-vm-start-stop,skaylink,13631,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-vm-start-stop,Triggers a start or stop action on target VM.
 skaylink-vnet,skaylink,13600,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-vnet,Deploys an Azure virtual network with standardised NSGs and ASGs.
 skaylink-windows-vm,skaylink,13601,azurerm,https://github.com/skaylink/terraform-azurerm-skaylink-windows-vm,Deploys a Windows virtual machine on Azure.
-ske-cluster,xtavras,30614,stackit,https://github.com/xtavras/terraform-stackit-ske-cluster,Module for creating SKE cluster on STACKIT cloud
 skill-vpc,ambaskaryash,30649,aws,https://github.com/ambaskaryash/terraform-aws-skill-vpc,
 sks,Kosmas,11292,exoscale,https://github.com/Kosmas/terraform-exoscale-sks,
 sks,Strangerxxx,11101,exoscale,https://github.com/Strangerxxx/terraform-exoscale-sks,
@@ -21480,6 +21487,7 @@ website-redirection,robbytaylor,3749,static,https://github.com/robbytaylor/terra
 website-secure,timmeinerzhagen,10815,aws,https://github.com/timmeinerzhagen/terraform-aws-website-secure,Terraform module for deploying a secure website hosted on AWS utilizing Cognito Identity including external IdPs
 website-serverless,dannylinden,1945,aws,https://github.com/dannylinden/terraform-aws-website-serverless,"Infrastructure for static websites with AWS CDN, Route53, S3, CodePipeline, CodeBuild"
 website-static-cloudfront-s3,nulllogic,22462,aws,https://github.com/nulllogic/terraform-aws-website-static-cloudfront-s3,
+websocket,Hamz-06,32003,aws,https://github.com/Hamz-06/terraform-aws-websocket,
 websocket,dvargas92495,14575,aws,https://github.com/dvargas92495/terraform-aws-websocket,
 websocket-api,zmunk,26723,aws,https://github.com/zmunk/terraform-aws-websocket-api,"Terraform module to deploy Websocket API using AWS API Gateway and Python Lambda functions on websocket connect, disconnect, and send-message events."
 webstack,eriktelepovsky,22956,digitalocean,https://github.com/eriktelepovsky/terraform-digitalocean-webstack,Terraform module for DigitalOcean to create a simple web stack
