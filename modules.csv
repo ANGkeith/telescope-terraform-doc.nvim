@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -3463,7 +3463,7 @@ cloud-composer-new,bootlabstech,29622,google,https://github.com/bootlabstech/ter
 cloud-config,4ops,3914,null,https://github.com/4ops/terraform-null-cloud-config,Cloud config generator
 cloud-config,terraform-alicloud-modules,12809,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-cloud-config,Terraform Module for creating Cloud Config resources on Alibaba Cloud.
 cloud-config-tool,4ops,3861,template,https://github.com/4ops/terraform-template-cloud-config-tool,Cloud config helper Terraform module
-cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,Terraform Modules for Zscaler Cloud Connector on AWS
+cloud-connector-modules,zscaler,16997,aws,https://github.com/zscaler/terraform-aws-cloud-connector-modules,
 cloud-connector-modules,zscaler,16998,azurerm,https://github.com/zscaler/terraform-azurerm-cloud-connector-modules,
 cloud-connector-modules,zscaler,21619,gcp,https://github.com/zscaler/terraform-gcp-cloud-connector-modules,
 cloud-data-streaming-service-cluster-vpc,terraform-navercloudplatform-modules,25257,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-cloud-data-streaming-service-cluster-vpc,Terraform module to create cloud data streaming service cluster resources for the vpc configuration
@@ -11277,6 +11277,7 @@ lambda-cloudwatch-alarm-to-slack,JousP,4143,aws,https://github.com/JousP/terrafo
 lambda-cloudwatch-events-trigger,infrablocks,2775,aws,https://github.com/infrablocks/terraform-aws-lambda-cloudwatch-events-trigger,Terraform AWS module to trigger lambdas regularly
 lambda-cloudwatch-report,lablabs,4410,aws,https://github.com/lablabs/terraform-aws-lambda-cloudwatch-report,
 lambda-code-pipeline,abdellatif05,6805,aws,https://github.com/abdellatif05/terraform-aws-lambda-code-pipeline,Terraform code for create a CodePipeline for lambda
+lambda-cognito-access-token-enricher,skrastrek,32009,aws,https://github.com/skrastrek/terraform-aws-lambda-cognito-access-token-enricher,
 lambda-cognito-link-federated-user,skrastrek,31233,aws,https://github.com/skrastrek/terraform-aws-lambda-cognito-link-federated-user,
 lambda-connector,symopsio,15721,aws,https://github.com/symopsio/terraform-aws-lambda-connector,The `lambda-connector` module provisions a Lambda role that the AWS Lambda Strategy can use to invoke AWS Lambda Functions.
 lambda-cors-anywhere,bali-ibrahim,20534,aws,https://github.com/n-ae/terraform-aws-lambda-cors-anywhere,
@@ -15015,7 +15016,7 @@ queue-endpoint,SolaceProducts,24983,solacebroker,https://github.com/SolaceProduc
 queue-endpoint,SolaceProducts,25195,solacebrokerappliance,https://github.com/SolaceProducts/terraform-solacebrokerappliance-queue-endpoint,Solace PubSub+ appliance Terraform module to abstract a broker queue or topic endpoint or an endpoint template configuration 
 quick-sandbox,TheDataPlatform,29462,azurerm,https://github.com/TheDataPlatform/terraform-azurerm-quick-sandbox,
 quicksight-user-pruning-module,StateFarmIns,13945,aws,https://github.com/StateFarmIns/terraform-aws-quicksight-user-pruning-module,Save money by pruning inactive QuickSight users with this easy-to-use Terraform module.
-quiet-ly,heyitsmeharv,32002,aws,https://github.com/heyitsmeharv/terraform-aws-quiet-ly,"A lightweight, self-hosted, privacy-first analytics module for AWS. Pairs with @quiet-ly/analytics."
+quiet-ly,heyitsmeharv,32011,aws,https://github.com/heyitsmeharv/terraform-aws-quiet-ly,"A lightweight, self-hosted, privacy-first analytics module for AWS. Pairs with @quiet-ly/analytics."
 quota-limits,Cyclenerd,18758,google,https://github.com/Cyclenerd/terraform-google-quota-limits,🌪️ Terraform module to update Google Cloud consumer quota limits
 quotas,Azure-Terraformer,25140,azurerm,https://github.com/Azure-Terraformer/terraform-azurerm-quotas,
 quotas,alibabacloud-automation,31667,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-quotas,
@@ -15089,7 +15090,7 @@ rancher-agent,qvest-digital,24781,kubernetes,https://github.com/qvest-digital/te
 rancher-cloudflare,wenzel-felix,18222,hcloud,https://github.com/wenzel-felix/terraform-hcloud-rancher-cloudflare,This project deploys rancher on hetzner with a custom cluster configuration.
 rancher-hosts,kiwicom,3038,aws,https://github.com/kiwicom/terraform-aws-rancher-hosts,
 rancherChart,SinnConsulting,7576,helm,https://github.com/SinnConsulting/terraform-helm-rancherChart,Terraform Helm Rancher Chart: https://registry.terraform.io/modules/SinnConsulting/rancherChart
-random,IG-Work,31370,provider,https://github.com/IG-Work/terraform-provider-random,
+random,IG-Work,32008,provider,https://github.com/IG-Work/terraform-provider-random,
 random,cappyzawa,7480,christmas_tree,https://github.com/cappyzawa/terraform-christmas_tree-random,A module for https://registry.terraform.io/providers/cappyzawa/christmas-tree/latest
 random-password,stsyg,13652,azurerm,https://github.com/stsyg/terraform-azurerm-random-password,Random Password Generator Terraform Module
 random-string,libre-devops,28837,external,https://github.com/libre-devops/terraform-external-random-string,A module used to create a random string at a PLAN time (rather than at apply time like random_string) 
