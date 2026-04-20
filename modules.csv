@@ -392,7 +392,7 @@ active-directory-forest,obay,19217,azurerm,https://github.com/obay/terraform-azu
 active-directory-forest,saketperiwal1,27477,azurerm,https://github.com/saketperiwal1/terraform-azurerm-active-directory-forest,Terraform module to create an Azure Windows VM and promotes that VM to be a Domain Controller
 activedirectory,mikamakusa,24950,azure,https://github.com/mikamakusa/terraform-azure-activedirectory,
 activemq,JamesWoolfenden,4005,aws,https://github.com/JamesWoolfenden/terraform-aws-activemq,A basic module to provision ActiveMQ
-activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,Terraform module for configuring an integration with Azure Subscriptions and Tenants for Activity Log analysis
+activity-log,lacework,6444,azure,https://github.com/lacework/terraform-azure-activity-log,
 activity-tracker,cloud-native-toolkit,13017,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-activity-tracker,Terraform module to install LogDNA Activity Tracker into an IBM Cloud account
 activity-tracker,terraform-ibm-modules,28931,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-activity-tracker,This module supports provisioning an IBM Cloud Activity Tracker Event Routing target & routes
 ad,JamesWoolfenden,7652,aws,https://github.com/JamesWoolfenden/terraform-aws-ad,A basic module to provision AD
@@ -3128,12 +3128,19 @@ cce,camptocamp,8621,opentelekomcloud,https://github.com/camptocamp/terraform-ope
 cce,iits-consulting,28372,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-cce,
 cce,magicorntech,29912,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-cce,Magicorn Huawei Cloud Container Engine Module
 cce,tarak,2668,opentelekomcloud,https://github.com/tarak/terraform-opentelekomcloud-cce,Terraform module which creates CCE clusters on Open Telekom Cloud
+cce-account,cyberark,32025,aws,https://github.com/cyberark/terraform-aws-cce-account,
 cce-addon-autoscaler,cloud-labs-infra,22846,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addon-autoscaler,
 cce-addons,cloud-labs-infra,18785,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-addons,
 cce-cluster,CloudAstro,30149,opentelekomcloud,https://github.com/CloudAstro/terraform-opentelekomcloud-cce-cluster,
 cce-cluster,cloud-labs-infra,18753,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster,
+cce-commons,cyberark,32030,azure,https://github.com/cyberark/terraform-azure-cce-commons,
+cce-entra,cyberark,32026,azure,https://github.com/cyberark/terraform-azure-cce-entra,
 cce-gpu-node-pool,iits-consulting,28377,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-cce-gpu-node-pool,
+cce-management-group,cyberark,32028,azure,https://github.com/cyberark/terraform-azure-cce-management-group,
 cce-node-pool,cloud-labs-infra,18769,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-node-pool,
+cce-organization,cyberark,32024,aws,https://github.com/cyberark/terraform-aws-cce-organization,
+cce-organization-add-account,cyberark,32029,aws,https://github.com/cyberark/terraform-aws-cce-organization-add-account,
+cce-subscription,cyberark,32027,azure,https://github.com/cyberark/terraform-azure-cce-subscription,
 ccf,feraudt,22558,aws,https://github.com/feraudt/terraform-aws-ccf,Terraform module for deploying a production grade Cloud Carbon Footprint instance on AWS.
 ccn,terraform-tencentcloud-modules,21825,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-ccn,Terraform module which creates CCN resources on TencentCloud
 cd-codepipeline,lablabs,4433,aws,https://github.com/lablabs/terraform-aws-cd-codepipeline,
@@ -15724,6 +15731,7 @@ remote-docker-compose,wesleykirkland,26824,docker,https://github.com/wesleykirkl
 remote-excec-ansible,Kreditorforeningens-Driftssentral-DA,6213,null,https://github.com/Kreditorforeningens-Driftssentral-DA/terraform-null-remote-excec-ansible,Remote ansible provisioning
 remote-exec-hook,4ops,7245,null,https://github.com/4ops/terraform-null-remote-exec-hook,Terraform module
 remote-location,netascode,10313,aci,https://github.com/netascode/terraform-aci-remote-location,Terraform Cisco ACI Remote Location Module
+remote-machine,keithrozario,32032,google,https://github.com/keithrozario/terraform-google-remote-machine,
 remote-module,GiriBabu-Avvaru,29078,may2025,https://github.com/GiriBabu-Avvaru/terraform-may2025-remote-module,
 remote-region,dcos-terraform,1984,aws,https://github.com/dcos-terraform/terraform-aws-remote-region,
 remote-state,DeimosCloud,8388,aws,https://github.com/DeimosCloud/terraform-aws-remote-state,
@@ -21015,6 +21023,7 @@ vpc-module,BreakingPitt,21371,packer,https://github.com/BreakingPitt/terraform-p
 vpc-module,JAYAKUMAR-hub,10781,aws,https://github.com/JAYAKUMAR-hub/terraform-aws-vpc-module,This is a terraform module for aws vpc
 vpc-module,JohnMaturan97,25210,aws,https://github.com/JohnMaturan97/terraform-aws-vpc-module,
 vpc-module,Namanlko,31023,aws,https://github.com/Namanlko/terraform-aws-vpc-module,"Reusable Terraform module to deploy a production-ready AWS VPC with public and private subnets, route tables, NAT gateway, and internet gateway."
+vpc-module,Siddharth2906,32031,aws,https://github.com/Siddharth2906/terraform-aws-vpc-module,
 vpc-module,ayesha-azad,32014,my,https://github.com/ayesha-azad/terraform-my-vpc-module,
 vpc-module,bharat2905-cpu,30062,aws,https://github.com/bharat2905-cpu/terraform-aws-vpc-module,
 vpc-module,chrisley75,6960,aws,https://github.com/chrisley75/terraform-aws-vpc-module,My personal TF module to create VPC in AWS
