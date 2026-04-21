@@ -2139,7 +2139,7 @@ avm-res-sqlvirtualmachine-sqlvirtualmachine,Azure,31301,azurerm,https://github.c
 avm-res-storage-storageaccount,Azure,23016,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount,
 avm-res-web-connection,Azure,30605,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-connection,Terraform Azure Verified Resource Module for API Connection
 avm-res-web-hostingenvironment,Azure,24841,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment,
-avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,Terraform Azure Verified Resource Module for App Service Plan
+avm-res-web-serverfarm,Azure,25943,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm,
 avm-res-web-site,Azure,23325,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-site,
 avm-res-web-staticsite,Azure,23160,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite,AVM Terraform module for azure static web apps
 avm-utl-compute-linuxvirtualmachine-azapi-replicator,Azure,31173,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-linuxvirtualmachine-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-compute-linuxvirtualmachine-azapi-replicator
@@ -3236,6 +3236,7 @@ certificate,stuartizon,4730,aws,https://github.com/stuartizon/terraform-aws-cert
 certificate,tenantcloud,8241,aws,https://github.com/tenantcloud/terraform-aws-certificate,
 certificate,terracharge,14078,aws,https://github.com/terracharge/terraform-aws-certificate,Module for creating terraform-aws-certificate with provider aws. This description is created automagically
 certificate,terraform-do-modules,9862,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-certificate,Provides a DigitalOcean Certificate resource that allows you to manage certificates.
+certificate,terraform-hc-modules,32037,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-certificate,
 certificate,vasugoriya,31794,venafi,https://github.com/vasugoriya/terraform-venafi-certificate,
 certificate,zoro16,21295,hcloud,https://github.com/zoro16/terraform-hcloud-certificate,Terraform module to create/upload Certificate resources in/to Hetzner Cloud.
 certificate-authority,JamesWoolfenden,3313,aws,https://github.com/JamesWoolfenden/terraform-aws-certificate-authority,Basic Certificate Authority module
@@ -4337,6 +4338,7 @@ compute,oraziobattaglia,6337,azurerm,https://github.com/oraziobattaglia/terrafor
 compute,patsevanton,13042,yandex,https://github.com/patsevanton/terraform-yandex-compute,Terraform module which creates Compute resources on Yandex Cloud
 compute,srb3,4093,azurerm,https://github.com/srb3/terraform-azurerm-compute,
 compute,telekom-mms,31891,azurerm,https://github.com/telekom-mms/terraform-azurerm-compute,A Terraform module that manages the azurerm compute resources from the azurerm provider.
+compute,terraform-hc-modules,32035,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-compute,
 compute,tf-outscale-modules,31336,outscale,https://github.com/tf-outscale-modules/terraform-outscale-compute,
 compute,tf-scaleway-modules,30940,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-compute,
 compute,vk-cs,30918,vkcs,https://github.com/vk-cs/terraform-vkcs-compute,Sets up a virtual machine on VKCS
@@ -5357,6 +5359,7 @@ dns,telekom-mms,31882,azurerm,https://github.com/telekom-mms/terraform-azurerm-d
 dns,terracharge,14083,aws,https://github.com/terracharge/terraform-aws-dns,Module for creating terraform-aws-dns with provider aws. This description is created automagically
 dns,terraform-alicloud-modules,2124,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-dns,Terraform module which creates DNS domain and records on Alibaba Cloud
 dns,terraform-az-modules,30642,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-dns,
+dns,terraform-hc-modules,32038,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-dns,
 dns,terraform-module,4996,aws,https://github.com/terraform-module/terraform-aws-dns,AWS DNS setup
 dns,terraform-xnxk-modules,13332,alicloud,https://github.com/terraform-xnxk-modules/terraform-alicloud-dns,Terraform module which creates alicloud dns for each domain in the list
 dns,terraform-yacloud-modules,18415,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-dns,Terraform module to manage DNS resources within the Yandex.Cloud.
@@ -10225,6 +10228,7 @@ iothub,mikamakusa,25715,azure,https://github.com/mikamakusa/terraform-azure-ioth
 iothub,regelcloud,4908,azurerm,https://github.com/regelcloud/terraform-azurerm-iothub,Terraform module for Azure IoTHub
 ip,JamesWoolfenden,2315,http,https://github.com/JamesWoolfenden/terraform-http-ip,A very simple module to return the host Public IP address
 ip,mikamakusa,28237,ovh,https://github.com/mikamakusa/terraform-ovh-ip,
+ip,terraform-hc-modules,32036,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-ip,
 ip-address,libre-devops,28839,external,https://github.com/libre-devops/terraform-external-ip-address,A module used to fetch your public and private IP
 ip-addresses,calidae,10177,bitbucket,https://github.com/calidae/terraform-bitbucket-ip-addresses,Fetch and parse https://ip-ranges.atlassian.com/
 ip-addresses,centriascolocation,22626,bitbucket,https://github.com/centriascolocation/terraform-bitbucket-ip-addresses,"This Terraform module queries the URL ""https://ip-ranges.atlassian.com/"" and filters the IPv4 and IPv6 ranges."
@@ -11165,6 +11169,7 @@ labels,sureshyadav76,30712,gcp,https://github.com/sureshyadav76/terraform-gcp-la
 labels,sureshyadav76,30713,google,https://github.com/sureshyadav76/terraform-google-labels,This Terraform module provides a standardized approach to labeling Google Cloud Platform (GCP) resources.
 labels,terraform-az-modules,30372,azure,https://github.com/terraform-az-modules/terraform-azure-labels,
 labels,terraform-do-modules,9865,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-labels,"  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention."
+labels,terraform-hc-modules,32033,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-labels,
 labs,equinix-labs,21540,equinix,https://github.com/equinix-labs/terraform-equinix-labs,Terraform Equinix Labs v0
 labs,rishabhbeni,16853,azurerm,https://github.com/rishabhbeni/terraform-azurerm-labs,
 labtest,xLegendJ,27801,azurerm,https://github.com/xLegendJ/terraform-azurerm-labtest,
@@ -13426,6 +13431,7 @@ network,tedilabs,7746,aws,https://github.com/tedilabs/terraform-aws-network,
 network,telekom-mms,31879,azurerm,https://github.com/telekom-mms/terraform-azurerm-network,A Terraform module that manages the network resources from the azurerm provider.
 network,terracharge,14092,aws,https://github.com/terracharge/terraform-aws-network,Module for creating terraform-aws-network with provider aws. This description is created automagically
 network,terraform-google-modules,1621,google,https://github.com/terraform-google-modules/terraform-google-network,Sets up a new VPC network on Google Cloud
+network,terraform-hc-modules,32034,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-network,
 network,tf-scaleway-modules,30895,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-network,
 network,truemark,24914,aws,https://github.com/truemark/terraform-aws-network,
 network,viswanth165,11085,google,https://github.com/viswanth165/terraform-google-network,
@@ -18628,6 +18634,7 @@ staticwebsitepublic,tarunna1,23038,azurerm,https://github.com/tarunna1/terraform
 staticwebsitepublic,techNg,21654,azurerm,https://github.com/techNg/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,tharik-11,27189,azurerm,https://github.com/tharik-11/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ups-chime,17503,azurerm,https://github.com/ups-chime/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic,velu1996,32041,azurerm,https://github.com/velu1996/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,vidhya199,29138,azurerm,https://github.com/vidhya199/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,vijaymanoj85,19163,azurerm,https://github.com/vijaymanoj85/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,woodah28,12444,azurerm,https://github.com/woodah28/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -18762,6 +18769,7 @@ storage-account,tomarv2,11344,azure,https://github.com/tomarv2/terraform-azure-s
 storage-account,wanted-cloud,28643,azure,https://github.com/wanted-cloud/terraform-azure-storage-account,Terraform building block module managing Azure Storage account and its resources.
 storage-account-c5,azure-compliance-modules,30619,azure,https://github.com/azure-compliance-modules/terraform-azure-storage-account-c5,Terraform module to create C5 compliant Azure Storage Account
 storage-account-c5,compliance-modules,30621,azure,https://github.com/compliance-modules/terraform-azure-storage-account-c5,Terraform module to create C5 compliant Azure Storage Account
+storage-box,terraform-hc-modules,32039,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-storage-box,
 storage-bucket,SweetOps,475,google,https://github.com/SweetOps/terraform-google-storage-bucket,Terraform module : GCP : for creation storage buckets
 storage-bucket,YoshinoriSatoh,11946,aws,https://github.com/YoshinoriSatoh/terraform-aws-storage-bucket,
 storage-bucket,binxio,7580,google,https://github.com/binxio/terraform-google-storage-bucket,Generic google storage buckets module for Terraform
@@ -21453,6 +21461,7 @@ web-server,lukibsubekti,26761,upcloud,https://github.com/lukibsubekti/terraform-
 web-server,mishra-demos,3494,aws,https://github.com/mishra-demos/terraform-aws-web-server,A generic web server module for MishraCorp.
 web_front_end,aalmadi,31010,aws,https://github.com/aalmadi/terraform-aws-web_front_end,Web front end module for Globomantics
 web_front_end,ausef,30482,aws,https://github.com/ausef/terraform-aws-web_front_end,Web front end module for Globomantics
+web_front_end,dshaw7777,32040,aws,https://github.com/dshaw7777/terraform-aws-web_front_end,Web front end for DME Software Solutions
 web_front_end,ned-tfmb,30294,aws,https://github.com/ned-tfmb/terraform-aws-web_front_end,Web Front End Module for Globomantics
 web_front_end,ned1313,30330,aws,https://github.com/ned1313/terraform-aws-web_front_end,Web front end module for Globomantics
 web_front_end,stephane-koman,31432,aws,https://github.com/stephane-koman/terraform-aws-web_front_end,Web Front-end Terraform Module
