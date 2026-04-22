@@ -2018,7 +2018,7 @@ avm-ptn-azure-local-migrate,Azure,31269,azurerm,https://github.com/Azure/terrafo
 avm-ptn-azuremonitorwindowsagent,Azure,25935,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azuremonitorwindowsagent,
 avm-ptn-cicd-agents-and-runners,Azure,25558,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners,Terraform Azure Verified Pattern Module for CI CD Agents and Runners
 avm-ptn-commercial-marketplace,Azure,31902,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-commercial-marketplace,
-avm-ptn-ephemeral-credential,Azure,30575,azure,https://github.com/Azure/terraform-azure-avm-ptn-ephemeral-credential,Terraform Azure Verified Pattern Module for avm-ptn-ephemeral-credential
+avm-ptn-ephemeral-credential,Azure,30575,azure,https://github.com/Azure/terraform-azure-avm-ptn-ephemeral-credential,
 avm-ptn-function-app-storage-private-endpoints,Azure,28601,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-function-app-storage-private-endpoints,Terraform Azure Verified Pattern Module for Function App and private endpoint-secured Storage
 avm-ptn-hci-ad-provisioner,Azure,25931,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner,
 avm-ptn-hci-server-provisioner,Azure,25932,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner,
@@ -2037,7 +2037,7 @@ avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terr
 avm-res-appconfiguration-configurationstore,Azure,28416,azure,https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore,Terraform Azure Verified Resource Module for App Configuration Store
 avm-res-authorization-roleassignment,Azure,22896,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment,Terraform Azure Verified Resource Module for Role Assignment
 avm-res-automation-automationaccount,Azure,28468,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-automation-automationaccount,
-avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,Terraform Azure Verified Resource Module for AVS Private Cloud
+avm-res-avs-privatecloud,Azure,23286,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud,
 avm-res-azurestackhci-cluster,Azure,25933,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-cluster,
 avm-res-azurestackhci-logicalnetwork,Azure,25934,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-logicalnetwork,
 avm-res-azurestackhci-virtualmachineinstance,Azure,25936,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-virtualmachineinstance,Terraform Azure Verified Resource Module for Stack HCI Virtual Machine Instance
@@ -3691,6 +3691,7 @@ cloudfront,Senora-dev,29361,aws,https://github.com/Senora-dev/terraform-aws-clou
 cloudfront,TerraPros,27810,aws,https://github.com/TerraPros/terraform-aws-cloudfront,Terraform module to create AWS CloudFront resources 🇺🇦
 cloudfront,TerraformFoundation,27886,aws,https://github.com/TerraformFoundation/terraform-aws-cloudfront,Terraform module to create AWS CloudFront resources 🇺🇦
 cloudfront,USSBA,4737,aws,https://github.com/USSBA/terraform-aws-cloudfront,Terraform module for AWS CloudFront (CDN)
+cloudfront,aaditya-2905,32043,aws,https://github.com/aaditya-2905/terraform-aws-cloudfront,
 cloudfront,anttiviljami,5620,protected,https://github.com/anttiviljami/terraform-protected-cloudfront,Terraform module to create a CloudFront distribution with HTTPS and IP protection
 cloudfront,blackbird-cloud,16596,aws,https://github.com/blackbird-cloud/terraform-aws-cloudfront,
 cloudfront,bootlabstech-m,17671,aws,https://github.com/bootlabstech-m/terraform-aws-cloudfront,Creates an AWS Cloudfront distribution.
@@ -6874,6 +6875,7 @@ ecr,SevenPicoForks,17768,aws,https://github.com/SevenPicoForks/terraform-aws-ecr
 ecr,TerraPros,27816,aws,https://github.com/TerraPros/terraform-aws-ecr,Terraform module to create AWS ECR resources 🇺🇦
 ecr,TerraformFoundation,27892,aws,https://github.com/TerraformFoundation/terraform-aws-ecr,Terraform module to create AWS ECR resources 🇺🇦
 ecr,YoshinoriSatoh,11945,aws,https://github.com/YoshinoriSatoh/terraform-aws-ecr,
+ecr,aaditya-2905,32045,aws,https://github.com/aaditya-2905/terraform-aws-ecr,
 ecr,akur8-oss,11930,aws,https://github.com/akur8-oss/terraform-aws-ecr,This module is used to create AWS Elastic Containers Repositories and apply policies on them and their replicas.
 ecr,appzen-oss,2467,aws,https://github.com/appzen-oss/terraform-aws-ecr,Terraform module to manage AWS ECR repositories
 ecr,avidhara,29107,aws,https://github.com/avidhara/terraform-aws-ecr,
@@ -12166,6 +12168,9 @@ mcaf-workspace,schubergphilis,24637,aws,https://github.com/schubergphilis/terraf
 mcd-agent,monte-carlo-data,21656,google,https://github.com/monte-carlo-data/terraform-google-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in GCP
 mcd-agent,monte-carlo-data,22346,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-agent,
 mcd-agent,monte-carlo-data,22772,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in Azure
+mcd-k8s-agent,monte-carlo-data,32046,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-k8s-agent,
+mcd-k8s-agent,monte-carlo-data,32047,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-k8s-agent,
+mcd-k8s-agent,monte-carlo-data,32048,google,https://github.com/monte-carlo-data/terraform-google-mcd-k8s-agent,
 mcf,CloudNationHQ,28807,azure,https://github.com/CloudNationHQ/terraform-azure-mcf,Terraform module which creates maintenance configuration resources used by workloads and accelerators.
 mcp,netascode,9944,aci,https://github.com/netascode/terraform-aci-mcp,Terraform Cisco ACI MCP Module
 mcp-policy,netascode,9945,aci,https://github.com/netascode/terraform-aci-mcp-policy,Terraform Cisco ACI MCP Policy Module
@@ -16376,6 +16381,7 @@ s3,Santy2703,11043,aws,https://github.com/Santy2703/terraform-aws-s3,
 s3,Selleo,13454,aws,https://github.com/Selleo/terraform-aws-s3,Collection of Terraform modules with AWS S3 for miscellaneous use.
 s3,TheDirewolf1326,15901,aws,https://github.com/TheDirewolf1326/terraform-aws-s3,this repository used for store modules
 s3,Young-ook,30682,aws,https://github.com/Young-ook/terraform-aws-s3,
+s3,aaditya-2905,32044,aws,https://github.com/aaditya-2905/terraform-aws-s3,
 s3,astechmind,8992,aws,https://github.com/astechmind/terraform-aws-s3,
 s3,boldlink,14297,aws,https://github.com/boldlink/terraform-aws-s3,Terraform registry repository for AWS S3 module
 s3,bootlabstech,14152,aws,https://github.com/bootlabstech/terraform-aws-s3-new,
@@ -18634,7 +18640,6 @@ staticwebsitepublic,tarunna1,23038,azurerm,https://github.com/tarunna1/terraform
 staticwebsitepublic,techNg,21654,azurerm,https://github.com/techNg/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,tharik-11,27189,azurerm,https://github.com/tharik-11/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,ups-chime,17503,azurerm,https://github.com/ups-chime/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
-staticwebsitepublic,velu1996,32041,azurerm,https://github.com/velu1996/terraform-azurerm-staticwebsitepublic,
 staticwebsitepublic,vidhya199,29138,azurerm,https://github.com/vidhya199/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,vijaymanoj85,19163,azurerm,https://github.com/vijaymanoj85/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic,woodah28,12444,azurerm,https://github.com/woodah28/terraform-azurerm-staticwebsitepublic,Terraform Modules to be shared in Terraform Public Registry
@@ -18645,6 +18650,7 @@ staticwebsitepublic1,SilasNjita,28685,azurerm,https://github.com/SilasNjita/terr
 staticwebsitepublic1,nishura,21177,azurerm,https://github.com/nishura/terraform-azurerm-staticwebsitepublic1,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic1,prakash-indorkar,11942,azurerm,https://github.com/prakash-indorkar/terraform-azurerm-staticwebsitepublic1,Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic1,safi-devops,21591,azurerm,https://github.com/safi-devops/terraform-azurerm-staticwebsitepublic1,Terraform Modules to be shared in Terraform Public Registry
+staticwebsitepublic2,velu1996,32056,azurerm,https://github.com/velu1996/terraform-azurerm-staticwebsitepublic2,
 staticwebsitepublic2,viswendra,17351,azurerm,https://github.com/viswendra/tf-staticwebsitepublic2,New-Terraform Modules to be shared in Terraform Public Registry
 staticwebsitepublic888,ADARIMOH,30221,azurerm,https://github.com/ADARIMOH/terraform-azurerm-staticwebsitepublic888,
 staticwebsitepublic88888,ADARIMOH,30284,azurerm,https://github.com/ADARIMOH/terraform-azurerm-staticwebsitepublic88888,Terraform Modules to be shared in Terraform Public Registry
@@ -19264,6 +19270,7 @@ teleport,nlamirault,11131,aws,https://github.com/nlamirault/terraform-aws-telepo
 teleport-cluster,cruxstack,20275,aws,https://github.com/cruxstack/terraform-aws-teleport-cluster,"Terraform module to deploy Teleport, a zero-trust solution from Gravitational, to AWS in high-availability architecture"
 teleport-node,cruxstack,28983,aws,https://github.com/cruxstack/terraform-aws-teleport-node,"Terraform module to deploy Teleport node, a zero-trust solution from Gravitational, to AWS in high-availability architecture"
 teleport-storage,cloudposse,864,aws,https://github.com/cloudposse-archives/terraform-aws-teleport-storage,"Gravitational Teleport backing services (S3, DynamoDB)"
+temp,LouisMateri,32050,fake,https://github.com/LouisMateri/terraform-fake-temp,
 tempest-pushgateway,vexxhost,8412,kubernetes,https://github.com/vexxhost/terraform-kubernetes-tempest-pushgateway,
 template,HappyPathway,29022,prompt,https://github.com/HappyPathway/terraform-prompt-template,
 template,Lachlan-White,12740,module,https://github.com/Lachlan-White/terraform-module-template,Best Practices for a Terraform Module and supporting content
@@ -21064,6 +21071,7 @@ vpc-october,Aucajor-2016,22603,aws,https://github.com/Aucajor-2016/terraform-aws
 vpc-october,sabiraniiazbaeva,22590,aws,https://github.com/sabiraniiazbaeva/terraform-aws-vpc-october,
 vpc-october-ak,akadyrakunov,22585,aws,https://github.com/akadyrakunov/terraform-aws-vpc-october-ak,
 vpc-own-module,allwelldotdev,25420,aws,https://github.com/allwelldotdev/terraform-aws-vpc-own-module,Simple Terraform AWS VPC Networking module created by Allwell.
+vpc-pab,PabloB-79,32042,aws,https://github.com/PabloB-79/terraform-aws-vpc-pab,All about Terraform
 vpc-peering,DNXLabs,5752,aws,https://github.com/DNXLabs/terraform-aws-vpc-peering,This terraform module provide resources to manage Virtual Private Cloud (VPC) peering connections.
 vpc-peering,JamesWoolfenden,7464,aws,https://github.com/JamesWoolfenden/terraform-aws-vpc-peering,For the Peering of VPCs
 vpc-peering,KeisukeYamashita,5904,mongodbatlas,https://github.com/KeisukeYamashita/terraform-mongodbatlas-vpc-peering,This module creates an MongoDB Atlas VPC peering.
@@ -21454,6 +21462,7 @@ web-application-with-ami,turanmehmet,7755,aws,https://github.com/turanmehmet/ter
 web-fargate-task-definition,aoggz,3827,aws,https://github.com/aoggz/terraform-aws-web-fargate-task-definition,
 web-front-end,Citrus-CS-Org-Prof-Chang,30992,aws,https://github.com/Citrus-CS-Org-Prof-Chang/terraform-aws-web-front-end,
 web-frontend,hansbuild,31316,aws,https://github.com/hansbuild/terraform-aws-web-frontend,
+web-frontend,hossem1994,32049,module,https://github.com/hossem1994/terraform-module-web-frontend,
 web-load-balancers,devops4me,3164,aws,https://github.com/devops4me/terraform-aws-web-load-balancers,This module can create a set of enterprise grade load balancers and target groups with a secure https (TLS) listener and a http listener that redirects to port 443.
 web-redirect,santiagon610,17000,aws,https://github.com/santiagon610/terraform-aws-web-redirect,Terraform module to create a web redirect using S3 and Route 53
 web-server,aisamji,12736,aws,https://github.com/aisamji/terraform-aws-web-server,
