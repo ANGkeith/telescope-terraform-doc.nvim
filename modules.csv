@@ -2086,6 +2086,7 @@ avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,ht
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,Terraform Azure Verified Resource Module for Application Insight
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
+avm-res-insights-datacollectionrule,Azure,32077,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionrule,
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Terraform Azure Verified Resource Module for Key Vault
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
 avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow,Terraform Azure Verified Resource Module for Logic Apps (Workflow)
@@ -3615,7 +3616,7 @@ cloud_run,airasia,6564,google,https://github.com/airasia/terraform-google-cloud_
 cloud_workspace,aws-ia,9054,hashicorp,https://github.com/aws-ia/terraform-hashicorp-cloud_workspace,Terraform Cloud Workspace
 cloudaccess-lza,appvia,23899,aws,https://github.com/appvia/terraform-aws-cloudaccess-lza,Terraform module used to provision resources and access for a landing zone
 cloudant,terraform-ibm-modules,21709,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cloudant,Deploys and configures an IBM Cloudant instance
-cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,terraform gcp module for cloudbase
+cloudbase,Levetty,15654,google,https://github.com/Levetty/terraform-google-cloudbase,
 cloudbase,Levetty,17707,aws,https://github.com/Levetty/terraform-aws-cloudbase,
 cloudbase,Levetty,29518,azure,https://github.com/Levetty/terraform-azure-cloudbase,
 cloudbees-ci-eks-addon,cloudbees,23791,aws,https://github.com/cloudbees/terraform-aws-cloudbees-ci-eks-addon,CloudBees CI Add-on for AWS EKS
@@ -3824,6 +3825,7 @@ cloudguard-network-security,CheckPointSW,27332,azure,https://github.com/CheckPoi
 cloudguard-network-security,CheckPointSW,29134,vmware,https://github.com/CheckPointSW/terraform-vmware-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security (CGNS) on VMware vCenter environments. The modules automate provisioning of both Security Gateways and Management servers, simplifying secure infrastructure setup. Community-supported content allows for flexibility and adaptation to a variety of VMware deployments."
 cloudguard-network-security,CheckPointSW,29967,gcp,https://github.com/CheckPointSW/terraform-gcp-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Google Cloud Platform (GCP).  These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security,CheckPointSW,31008,nutanix,https://github.com/CheckPointSW/terraform-nutanix-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in Nutanix environments. These modules automate the creation of Tenant Virtual Private Cloud (VPC), Transit-VPC, Security Gateways and Management servers and more, simplifying secure infrastructure setup."
+cloudguard-network-security,CheckPointSW,32070,alibaba,https://github.com/CheckPointSW/terraform-alibaba-cloudguard-network-security,"Terraform modules for deploying Check Point CloudGuard Network Security in AliCloud. These modules automate the creation of Virtual Private Clouds (VPCs), Security Gateways, High-Availability architectures, and more, enabling secure and scalable cloud deployments."
 cloudguard-network-security-cn,lyqwaterway,29871,azure,https://github.com/lyqwaterway/terraform-azure-cloudguard-network-security-cn,
 cloudhealth,axetrading,24030,aws,https://github.com/axetrading/terraform-aws-cloudhealth,This module manages installation of CloudHealth - AWS required resources.
 cloudhsm,JamesWoolfenden,11321,aws,https://github.com/JamesWoolfenden/terraform-aws-cloudhsm,It's about keys
@@ -3843,6 +3845,7 @@ cloudnative-kit,rridane,30247,kubernetes,https://github.com/rridane/terraform-ku
 cloudquery,cloudquery,12928,aws,https://github.com/cloudquery/terraform-aws-cloudquery,Terraform module to deploy cloudquery
 cloudrun,JamesWoolfenden,21906,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloudrun,
 cloudrun,yungwarlock,20921,google,https://github.com/yungwarlock/terraform-google-cloudrun,Terraform Cloud run
+cloudrun-appscaffold,nullstone-modules,32076,google,https://github.com/nullstone-modules/terraform-google-cloudrun-appscaffold,
 cloudrun-lb,odise,8052,google,https://github.com/odise/terraform-google-cloudrun-lb,Google Cloud Run module using an HTTP(S) load balancer with a Serverless network endpoint group as frontend.
 cloudrun-lb,zboralski,18332,google,https://github.com/zboralski/terraform-google-cloudrun-lb,"Manage access control, SSL certificates, and HTTP to HTTPS redirect for your Cloud Run load balancer using this Terraform module."
 cloudrun-public-byo-domainname,kennedycmr,9818,google,https://github.com/kennedycmr/terraform-google-cloudrun-public-byo-domainname,"Module that provisions Cloud Run with a new public IP, fronted with a load balancer and Cloud Armor."
@@ -4659,7 +4662,6 @@ coredns-high-request-duration-on-coredns,terraform-shoreline-modules,20307,shore
 coredns-low-cache-hits-count-in-coredns-test-environment,terraform-shoreline-modules,20320,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-low-cache-hits-count-in-coredns-test-environment,This repository was generated automatically based on a Shoreline Insights Runbook.
 coredns-op-pack,terraform-shoreline-modules,12906,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-coredns-op-pack,Shoreline platform Op Packs (Terraform modules) for CoreDNS latency alerting and remediation.
 coreos-vm,www-aiqu-no,2613,vsphere,https://github.com/www-aiqu-no/terraform-vsphere-coreos-vm,Deploy CoreOS virtual machine to vSphere cluster (from template)
-corridor-genguardx,corridor,31256,azurerm,https://github.com/corridor/terraform-azurerm-corridor-genguardx,
 cors,cloudandthings,22499,aws,https://github.com/cloudandthings/terraform-aws-cors,One module to manage REST and HTTP API Gateway CORS config.
 cos,terraform-ibm-modules,6657,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-cos,Configures an IBM Cloud Object Storage instance and bucket
 cos,terraform-tencentcloud-modules,16255,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-cos,TencentCloud COS Module for Terraform
@@ -8902,6 +8904,9 @@ getmofree,bigmofree,24212,google,https://github.com/bigmofree/terraform-google-g
 getmyip,atrull,21915,overbuilt,https://github.com/atrull/terraform-overbuilt-getmyip,A terraform module to reliably get my ip (v4 and/or v6) even when some services could fail or give wrong answers or you have hashed connections.
 getting-into-terraform-modules,hashicorp-dev-advocates,25417,aws,https://github.com/hashicorp-dev-advocates/terraform-aws-getting-into-terraform-modules,
 getting-started,devops-rob,9155,boundary,https://github.com/devops-rob/terraform-boundary-getting-started,A starter module that deploys all the resources required to log in to boundary for the first time.
+ggx,corridor,32071,aws,https://github.com/corridor/terraform-aws-ggx,
+ggx,corridor,32072,google,https://github.com/corridor/terraform-google-ggx,
+ggx,corridor,32073,azurerm,https://github.com/corridor/terraform-azurerm-ggx,
 gh-actions,HappyPathway,25656,importer,https://github.com/HappyPathway/terraform-importer-gh-actions,Terraform Module
 gh-identity-provider,infrahouse,20576,aws,https://github.com/infrahouse/terraform-aws-gh-identity-provider,Module that configures GitHub OpenID connector.
 gha-admin,infrahouse,20579,aws,https://github.com/infrahouse/terraform-aws-gha-admin,"Terraform module creating admin and read-only IAM roles for GitHub Actions with OIDC trust, branch-based access control, and state management permissions. "
@@ -14603,7 +14608,7 @@ postgresql,JamesWoolfenden,7706,azurerm,https://github.com/JamesWoolfenden/terra
 postgresql,T-Systems-MMS,12866,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-postgresql,Configure Azure PostgreSQL
 postgresql,avidhara,24043,azurerm,https://github.com/avidhara/terraform-azurerm-postgresql,
 postgresql,avinor,3523,azurerm,https://github.com/avinor/terraform-azurerm-postgresql,Terraform module to deploy a PostgreSQL server with databases
-postgresql,ballj,9024,kubernetes,https://github.com/ballj/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
+postgresql,ballj,32075,kubernetes,https://github.com/ballj/terraform-kubernetes-postgresql,Terraform module to create a PostgreSQL server
 postgresql,bayudwiyansatria,11525,helm,https://github.com/bayudwiyansatria/terraform-helm-postgresql,PostgreSQL High Availability provisioner using terraform. Provisioning A High Availability PostgreSQL using Helm Charts. 
 postgresql,c0x12c,29336,gcp,https://github.com/c0x12c/terraform-gcp-postgresql,
 postgresql,cypik,22838,google,https://github.com/cypik/terraform-google-postgresql,Create Cloud SQL Database Instance for POSTGRESQL
@@ -17379,6 +17384,7 @@ security-hub,aws-ia,20215,aws,https://github.com/aws-ia/terraform-aws-security-h
 security-hub,clouddrove,10953,aws,https://github.com/clouddrove/terraform-aws-security-hub,This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 security-hub,cloudposse,6628,aws,https://github.com/cloudposse/terraform-aws-security-hub,Terraform module to provision AWS Security Hub
 security-hub,dc0c,29833,aws,https://github.com/dc0c/terraform-aws-security-hub,
+security-hub-outbound,lacework,32078,aws,https://github.com/lacework/terraform-aws-security-hub-outbound,
 security-list,JamesWoolfenden,12484,oci,https://github.com/JamesWoolfenden/terraform-oci-security-list,
 security-list,web-virtua-oci-multi-account-modules,18867,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-security-list,
 security-notifications,3sne,19231,google,https://github.com/3sne/terraform-google-security-notifications,Configures security findings notification in the Security Command Center.
