@@ -2087,7 +2087,7 @@ avm-res-features-feature,Azure,30550,azurerm,https://github.com/Azure/terraform-
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,Terraform Azure Verified Resource Module for AKS Arc
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,Terraform Azure Verified Resource Module for Application Insight
-avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,AVM Terraform module for Data collectionEndpoint
+avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,
 avm-res-insights-datacollectionrule,Azure,32077,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionrule,
 avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Terraform Azure Verified Resource Module for Key Vault
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
@@ -7441,6 +7441,7 @@ efs,lazzurs,3995,aws,https://github.com/lazzurs/terraform-aws-efs,Terraform modu
 efs,magicorntech,19478,aws,https://github.com/magicorntech/terraform-aws-efs,Magicorn AWS EFS Module
 efs,nalbam,9991,aws,https://github.com/nalbam/terraform-aws-efs,
 efs,oozou,14364,aws,https://github.com/oozou/terraform-aws-efs,Terraform Module to define an EFS
+efs,ovh,32106,ovh,https://github.com/ovh/terraform-ovh-efs,Terraform module to create OVHcloud EFS resources
 efs,philips-software,1221,aws,https://github.com/philips-software/terraform-aws-efs,Terraform module to create an AWS elastic file system (EFS)
 efs,pogosoftware,14422,aws,https://github.com/pogosoftware/terraform-aws-efs,
 efs,rohanmatre007dev-sys,31763,rohanmatre,https://github.com/rohanmatre007dev-sys/terraform-rohanmatre-efs,
@@ -7636,6 +7637,7 @@ eks-alb-ingress,lablabs,4435,aws,https://github.com/lablabs/terraform-aws-eks-al
 eks-alb-ingress,mrnim94,16635,aws,https://github.com/mrnim94/terraform-aws-eks-alb-ingress,
 eks-alb-ingress-controller,blackbird-cloud,16679,aws,https://github.com/blackbird-cloud/terraform-aws-eks-alb-ingress-controller,terraform-aws-eks-alb-ingress-controller
 eks-app,Tempestyash123456,31521,aws,https://github.com/Tempestyash123456/terraform-aws-eks-app,
+eks-appscaffold,nullstone-modules,32114,aws,https://github.com/nullstone-modules/terraform-aws-eks-appscaffold,
 eks-argo-workflows,lablabs,23017,aws,https://github.com/lablabs/terraform-aws-eks-argo-workflows,
 eks-argocd,DNXLabs,8665,aws,https://github.com/DNXLabs/terraform-aws-eks-argocd,Terraform module for deploying Kubernetes Argo CD and Argo Rollouts inside a pre-existing EKS cluster.
 eks-argocd,lablabs,15388,aws,https://github.com/lablabs/terraform-aws-eks-argocd,
@@ -10650,7 +10652,7 @@ keypair,akhasa2001,11879,aws,https://github.com/akhasa2001/terraform-aws-keypair
 keypair,almayusuf,11894,aws,https://github.com/almayusuf/terraform-aws-keypair,terrafomr-aws-keypair
 keypair,azizvelat,11903,aws,https://github.com/azizvelat/terraform-aws-keypair,
 keypair,cloud-labs-infra,18750,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-keypair,
-keypair,clouddrove,3635,aws,https://github.com/clouddrove/terraform-aws-keypair,Terraform module for generating or importing an SSH public key file into AWS.
+keypair,clouddrove,3635,aws,https://github.com/clouddrove/terraform-aws-keypair,
 keypair,cypik,22989,aws,https://github.com/cypik/terraform-aws-keypair,Terraform module to manage SSH public key creation or import in AWS.
 keypair,dabble-of-devops-bioanalyze,13175,aws,https://github.com/dabble-of-devops-bioanalyze/terraform-aws-keypair,
 keypair,drsengun,21787,aws,https://github.com/drsengun/terraform-aws-keypair,
@@ -14408,6 +14410,7 @@ pet,carljavier,10985,random,https://github.com/carljavier/terraform-random-pet,E
 pet,hrychlik-free,27414,random,https://github.com/hrychlik-free/terraform-random-pet,
 pet,hrychlik-free-2,27491,random,https://github.com/hrychlik-free-2/terraform-random-pet,
 pet,hrychlik-free-3,27493,random,https://github.com/hrychlik-free-3/terraform-random-pet,
+pet-registry,ned1313,32108,random,https://github.com/ned1313/terraform-random-pet-registry,Example module for creating random pets with additional properties for a registry
 petstore,MiniHeyd,21265,blueprint,https://github.com/MiniHeyd/terraform-blueprint-petstore,
 petstore,dsa0x,23489,aws,https://github.com/dsa0x/terraform-aws-petstore,
 petstore,dsa0x,24468,sams,https://github.com/dsa0x/terraform-sams-petstore,
@@ -14572,7 +14575,7 @@ portworx,cloud-native-toolkit,16041,azure,https://github.com/cloud-native-toolki
 portworx-addon,portworx,15169,eksblueprints,https://github.com/portworx/terraform-eksblueprints-portworx-addon,Github repo for Portworx EKS blueprint addon module and sample templates
 portworx-enterprise,portworx,15633,ibm,https://github.com/portworx/terraform-ibm-portworx-enterprise,Terraform Module to manage Portworx Enterprise on IKS in IBM Cloud
 portworx-instance,portworx,1024,portworx,https://github.com/portworx/terraform-portworx-portworx-instance,Terraform module for deploying Portworx persistent data fabric for containers
-post-instance-create,Illumio-Training-Org,31875,http,https://github.com/Illumio-Training-Org/terraform-http-post-instance-create,
+post-instance-create,Illumio-Training-Org,32111,http,https://github.com/Illumio-Training-Org/terraform-http-post-instance-create,
 post-instance-create,illumiotraining,31371,http,https://github.com/illumiotraining/terraform-http-post-instance-create,
 post-instance-create,jdschmitz15,30561,http,https://github.com/jdschmitz15/terraform-http-post-instance-create,
 postbuild-config,f5devcentral,17486,bigip,https://github.com/f5devcentral/terraform-bigip-postbuild-config,
@@ -19329,6 +19332,8 @@ tencentcloud-ssl,StarUbiquitous,13326,module,https://github.com/StarUbiquitous/t
 tenminutevpn,tenminutevpn,23470,digitalocean,https://github.com/tenminutevpn/terraform-digitalocean-tenminutevpn,Terraform module for TenMinuteVPN on DigitalOcean 
 tensorflow,terraform-alicloud-modules,4205,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-tensorflow,Terraform Module for deploying Tensorflow on Alibaba Cloud.
 tenx-lambda,log-10x,29669,aws,https://github.com/log-10x/terraform-aws-tenx-lambda,
+tenx-retriever,log-10x,32113,aws,https://github.com/log-10x/terraform-aws-tenx-retriever,
+tenx-retriever-infra,log-10x,32112,aws,https://github.com/log-10x/terraform-aws-tenx-retriever-infra,
 tenx-streamer,log-10x,30947,aws,https://github.com/log-10x/terraform-aws-tenx-streamer,
 tenx-streamer-infra,log-10x,30871,aws,https://github.com/log-10x/terraform-aws-tenx-streamer-infra,
 terra3,it-objects,15991,aws,https://github.com/it-objects/terraform-aws-terra3,Terra3 - An opinionated Terraform module for quickly ramping-up 3-tier-architectures in AWS
@@ -20214,7 +20219,7 @@ vm-qemu,lsampaioweb,17595,proxmox,https://github.com/lsampaioweb/terraform-proxm
 vm-requirements,ptonini,22220,azurerm,https://github.com/ptonini/terraform-azurerm-vm-requirements,
 vm-run-command,erlacherl-city,3465,azurerm,https://github.com/erlacherl-city/terraform-azurerm-vm-run-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks. NOTE: This repo is archived and will be deleted soon.
 vm-scale-sets,kumarvna,5448,azurerm,https://github.com/kumarvna/terraform-azurerm-vm-scale-sets,Terraform Module to create Windows or Linux Virtual Machine Scale set with Auto Scaling and Load Balancer support
-vm-stack,Huddle01,32012,cloud,https://github.com/Huddle01/terraform-cloud-vm-stack,
+vm-stack,Huddle01,32012,cloud,https://github.com/Huddle01/terraform-cloud-vm-stack,Module for provisioning a single VM stack on Huddle01 Cloud.
 vm-start-stop-solution,cyber-scot,21274,azurerm,https://github.com/cyber-scot/terraform-azurerm-vm-start-stop-solution,A terraform module used to deploy various components for the Microsoft start/stop solution⌚
 vm-userdata,ilpozzd,13559,talos,https://github.com/ilpozzd/terraform-talos-vm-userdata,This module is used to describe the configuration of Talos OS v1.0.x with Terraform variables and convert them to a Base64 encoded string that can be used for bootstarap Kubernetes nodes on any Virtualization platform that supports VM initialization via user-data.
 vm-vnet,gokhanwell,26325,azurerm,https://github.com/gokhanwell/terraform-azurerm-vm-vnet,terraform vm-vnet
