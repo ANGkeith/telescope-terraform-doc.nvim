@@ -2449,6 +2449,7 @@ azure-linux-vm,intel,18342,intel,https://github.com/intel/terraform-intel-azure-
 azure-linux-vm-private,jye-aviatrix,14937,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-private,"In specified Azure region, create an Ubuntu server in private subnet. Allow incoming SSH and PING from anywhere."
 azure-linux-vm-public,jye-aviatrix,14931,azure,https://github.com/jye-aviatrix/terraform-azure-azure-linux-vm-public,"In specified Azure region, create an Ubuntu web server in public subnet. Allow incoming HTTP from any where. Allow ping from RFC1918. Allow SSH from your egress public IP."
 azure-loganalytics,ravensorb,13528,azurerm,https://github.com/ravensorb/terraform-azurerm-azure-loganalytics,Terraform module for creating a Azure Log Analytics workspace
+azure-merge-roles,pagopa-dx,32115,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-merge-roles,Easily merge multiple RBAC built-in roles into a single custom role to save on the number of the required role assignments
 azure-metric-alarm,massdriver-cloud,32007,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-azure-metric-alarm,
 azure-mssql,intel,17535,intel,https://github.com/intel/terraform-intel-azure-mssql,Intel Cloud Optimization Module -  Azure MSSQL
 azure-mssql-managed-instance,intel,20480,intel,https://github.com/intel/terraform-intel-azure-mssql-managed-instance,Intel Cloud Optimization Module - Azure MSSQL Managed Instance
@@ -3312,6 +3313,7 @@ chart-release,foss-cafe,5644,helm,https://github.com/ionicloud/terraform-helm-ch
 chart-release,ionicloud,22474,helm,https://github.com/ionicloud/terraform-helm-chart-release,terraform module for helm chart release
 chart-values-parser,jd4883,14249,helm,https://github.com/jd4883/terraform-helm-chart-values-parser,A tiny module for parsing out chart values and setting specific defaults; used in conjunction with the helm terraform provider and is intended to pre-fill many of the possible options for values that tend to be universal to most charts such as image
 charts,Kuba1991,29020,helm,https://github.com/Kuba1991/terraform-helm-charts,This module deploys helm chart applications in Kubernetes Cluster
+charts,cypik,32116,helm,https://github.com/cypik/terraform-helm-charts,
 charts,rahimigit,13900,helm,https://github.com/rahimigit/terraform-helm-charts,
 charts,streamnative,9727,helm,https://github.com/streamnative/terraform-helm-charts,
 charts,streamx-dev,27381,helm,https://github.com/streamx-dev/terraform-helm-charts,
@@ -8113,6 +8115,7 @@ emrserverless,kierandidi,15088,aws,https://github.com/kierandidi/terraform-aws-e
 enable,terraform-alicloud-modules,12686,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-enable,Terraform Module used to enable several services automatically Alibaba Cloud.
 enable-defender-plans,arindam0310018,21465,azurerm,https://github.com/arindam0310018/terraform-azurerm-enable-defender-plans,Public Terraform Registry to Enable Microsoft Defender Plans
 enablement-demo,hoodbu,15000,aviatrix,https://github.com/hoodbu/terraform-aviatrix-enablement-demo,
+enclave,stacklet,32117,gcp,https://github.com/stacklet/terraform-gcp-enclave,
 enclave,vespa-cloud,17777,aws,https://github.com/vespa-cloud/terraform-aws-enclave,Terraform modules for Vespa Cloud Enclave (AWS)
 enclave,vespa-cloud,20961,google,https://github.com/vespa-cloud/terraform-google-enclave,Terraform modules for Vespa Cloud Enclave (GCP)
 enclave,vespa-cloud,30376,azure,https://github.com/vespa-cloud/terraform-azure-enclave,Terraform modules for Vespa Cloud Enclave (Azure)
@@ -8968,6 +8971,7 @@ github-oidc,chrispsheehan,22541,aws,https://github.com/chrispsheehan/terraform-a
 github-oidc,digitalocean-labs,22139,vault,https://github.com/digitalocean-labs/terraform-vault-github-oidc,Terraform module to configure Vault for GitHub OIDC authentication from Action runners.
 github-oidc,elioseverojunior,21377,aws,https://github.com/elioseverojunior/terraform-aws-github-oidc,
 github-oidc,infinite-automations,21673,azuread,https://github.com/infinite-automations/terraform-azuread-github-oidc,"Terraform module to setup GitHub OIDC in Microsoft Azure, creating  an Azure AD application, service principal, and federated identities."
+github-oidc,jwoodsiii,32119,aws,https://github.com/jwoodsiii/terraform-aws-github-oidc,Terraform module for GitHub Actions OIDC authentication to AWS
 github-oidc,krewenki,16916,aws,https://github.com/krewenki/terraform-aws-github-oidc,A module for setting up and managing AWS/Github OIDC for github actions
 github-oidc,miladbeigi,24311,aws,https://github.com/miladbeigi/terraform-aws-github-oidc,Creates an IAM OIDC Provider for the given account to allow GitHub use two different roles to access the account
 github-oidc,oozou,14502,aws,https://github.com/oozou/terraform-aws-github-oidc,Terraform module to configure GitHub Actions as an IAM OIDC identity provider in AWS.
@@ -12152,7 +12156,7 @@ mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terrafor
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
 mcaf-gitlab-runner-autoscaler,schubergphilis-ep,32017,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-gitlab-runner-autoscaler,
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,
-mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,Terraform module to manage AWS VPC IPAM.
+mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,
@@ -18422,6 +18426,7 @@ state,dodevops,8602,azure,https://github.com/dodevops/terraform-azure-state,High
 state,jakebark,29205,aws,https://github.com/jakebark/terraform-aws-state,S3 bucket for managing terraform state. 
 state-access-role,george-richardson,23862,aws,https://github.com/george-richardson/terraform-aws-state-access-role,"A Terraform module for creating a least privilege access role for the Terraform S3 backend, including access to state files in S3 and locking with DynamoDB."
 state-backend,ThorstenHans,6289,azurerm,https://github.com/ThorstenHans/terraform-azurerm-state-backend,Terraform module which creates an Azure based state backend
+state-backend,jwoodsiii,32118,aws,https://github.com/jwoodsiii/terraform-aws-state-backend,Terraform module for S3 state backend with DynamoDB locking
 state-backend,rsclarke,31845,aws,https://github.com/rsclarke/terraform-aws-state-backend,
 state-bootstrap,BrynardSecurity-terraform,13358,remote,https://github.com/BrynardSecurity-terraform/terraform-tfe-tc-organization,
 state-bucket,iits-consulting,28376,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-state-bucket,
