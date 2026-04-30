@@ -2783,6 +2783,7 @@ bedrock-agent,Flaconi,26743,aws,https://github.com/Flaconi/terraform-aws-bedrock
 bedrock-agents,kogunlowo123,31590,aws,https://github.com/kogunlowo123/terraform-aws-bedrock-agents,
 bedrock-agents,quixoticmonk,26669,aws,https://github.com/quixoticmonk/terraform-aws-bedrock-agents,
 bedrock-custom-model,Flaconi,26746,aws,https://github.com/Flaconi/terraform-aws-bedrock-custom-model,Terraform module to create Amazon Bedrock custom model
+bedrock-guardrails,imrozzoha,32122,aws,https://github.com/imrozzoha/terraform-aws-bedrock-guardrails,"Terraform module for AWS Bedrock Guardrails — content filters, PII anonymisation, topic policy, and word filters"
 bedrock-kb-aurora,Robyt96,29546,aws,https://github.com/Robyt96/terraform-aws-bedrock-kb-aurora,Terraform module to create one or more Bedrock Knowledge Bases with Aurora Serverless vector store
 bedrock-model-invocation-logging,Flaconi,30157,aws,https://github.com/Flaconi/terraform-aws-bedrock-model-invocation-logging,Terraform module for Amazon Bedrock Model invocation logging configuration
 bedrock-platform,kogunlowo123,31584,aws,https://github.com/kogunlowo123/terraform-aws-bedrock-platform,"AWS Bedrock Terraform module with knowledge bases, agents, guardrails, and OpenSearch Serverless"
@@ -7731,6 +7732,7 @@ eks-data-addons,aws-ia,20159,aws,https://github.com/aws-ia/terraform-aws-eks-dat
 eks-datadog-rbac,c0x12c,29651,aws,https://github.com/c0x12c/terraform-aws-eks-datadog-rbac,
 eks-descheduler,lablabs,6877,aws,https://github.com/lablabs/terraform-aws-eks-descheduler,
 eks-development-cluster,tinfoilcipher,30347,aws,https://github.com/tinfoilcipher/terraform-aws-eks-development-cluster,A terraform module to create an EKS development cluster with associated IAM components. Includes an IRSA integration and namespace creation.
+eks-devsecops,imrozzoha,32124,aws,https://github.com/imrozzoha/terraform-aws-eks-devsecops,"Terraform module for production-hardened EKS — KMS encryption, IMDSv2, Kyverno, Falco, network policies, and IRSA"
 eks-dvpc,lily4499,24481,aws,https://github.com/lily4499/terraform-aws-eks-dvpc,
 eks-ebs-csi,aws-terraform-module,26984,aws,https://github.com/aws-terraform-module/terraform-aws-eks-ebs-csi,
 eks-ebs-csi,blackbird-cloud,19827,aws,https://github.com/blackbird-cloud/terraform-aws-eks-ebs-csi,Terraform module to deploy EBS CSI driver on EKS
@@ -14143,6 +14145,7 @@ oradba-vcn,oehrlis,25710,oci,https://github.com/oehrlis/terraform-oci-oradba-vcn
 orc8r,ShubhamTatvamasi,12515,aws,https://github.com/ShubhamTatvamasi/terraform-aws-orc8r,
 orc8r-helm,ShubhamTatvamasi,12516,aws,https://github.com/ShubhamTatvamasi/terraform-aws-orc8r-helm,
 org,cncsc,16399,github,https://github.com/cncsc/terraform-github-org,Terraform modules for deploying and managing a GitHub organization.
+org,fcgroup,32120,github,https://github.com/fcgroup/terraform-github-org,
 org,tfelab,26070,tfe,https://github.com/tfelab/terraform-tfe-org,"Terraform module to manage Terraform Enterprise organization, project and workspace variables"
 org,tfstack,27111,github,https://github.com/tfstack/terraform-github-org,Terraform module to manage GitHub Organization
 org,vmvarela,28314,github,https://github.com/vmvarela/terraform-github-org,A Terraform module for comprehensive GitHub organization management.
@@ -15858,6 +15861,7 @@ repository,devops-hive,23317,github,https://github.com/devops-hive/terraform-git
 repository,devops-ia,25618,nexus,https://github.com/devops-ia/terraform-nexus-repository,Terraform module for create Nexus Repository
 repository,dhoppeIT,28553,github,https://github.com/dhoppeIT/terraform-github-repository,
 repository,dwp,8146,github,https://github.com/dwp/terraform-github-repository,Terraform module to manage GitHub repositories
+repository,fcgroup,32121,github,https://github.com/fcgroup/terraform-github-repository,
 repository,gaima8,23944,github,https://github.com/gaima8/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,hadenlabs,7227,github,https://github.com/hadenlabs/terraform-github-repository,github repository for terraform
 repository,hadenlabs,8116,gitlab,https://github.com/hadenlabs/terraform-gitlab-project,terraform gitlab repository
@@ -17485,6 +17489,7 @@ serverless,ganexcloud,15173,aws,https://github.com/ganexcloud/terraform-aws-serv
 serverless,jessiehernandez,9072,aws,https://github.com/jessiehernandez/terraform-aws-serverless,Serverless Framework IAM role creator to enable highly-secure Serverless deployments.
 serverless,salte-io,767,aws,https://github.com/salte-io/terraform-aws-serverless,Terraform Module for simplifying the deployment of Lambda Functions to API Gateway.
 serverless,scilonax,2667,aws,https://github.com/scilonax/terraform-aws-serverless,"Serverless stack with AWS lambda, Dynamodb, Cognito and so on."
+serverless-api,imrozzoha,32123,aws,https://github.com/imrozzoha/terraform-aws-serverless-api,"Terraform module for AWS serverless API — API Gateway + Lambda + IAM with CORS, rate limiting, and optional SES"
 serverless-api,mcozd,15805,aws,https://github.com/mcozd/terraform-aws-serverless-api,
 serverless-api,mlundela,1642,aws,https://github.com/mlundela/terraform-aws-serverless-api,Terraform module for API Gateway with AWS Lambda backend
 serverless-api,scaffoldly,9452,aws,https://github.com/scaffoldly/terraform-aws-serverless-api,Configure a Serverless API based on the APIs configured in stage domains
@@ -19339,6 +19344,7 @@ tensorflow,terraform-alicloud-modules,4205,alicloud,https://github.com/alibabacl
 tenx-lambda,log-10x,29669,aws,https://github.com/log-10x/terraform-aws-tenx-lambda,
 tenx-retriever,log-10x,32113,aws,https://github.com/log-10x/terraform-aws-tenx-retriever,
 tenx-retriever-infra,log-10x,32112,aws,https://github.com/log-10x/terraform-aws-tenx-retriever-infra,
+tenx-retriever-lambda,log-10x,32125,aws,https://github.com/log-10x/terraform-aws-tenx-retriever-lambda,
 tenx-streamer,log-10x,30947,aws,https://github.com/log-10x/terraform-aws-tenx-streamer,
 tenx-streamer-infra,log-10x,30871,aws,https://github.com/log-10x/terraform-aws-tenx-streamer-infra,
 terra3,it-objects,15991,aws,https://github.com/it-objects/terraform-aws-terra3,Terra3 - An opinionated Terraform module for quickly ramping-up 3-tier-architectures in AWS
