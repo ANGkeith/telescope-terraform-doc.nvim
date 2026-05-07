@@ -236,13 +236,18 @@ accounts,T-Systems-MMS,12085,azure,https://github.com/T-Systems-MMS/terraform-az
 accounts,widespot,19947,aws,https://github.com/widespot/terraform-aws-accounts,
 accounts-cluster,c0x12c,29939,qdrant,https://github.com/c0x12c/terraform-qdrant-accounts-cluster,
 acf-account-cache,acai-consulting,24742,aws,https://github.com/acai-consulting/terraform-aws-acf-account-cache,"Will create a cache containing the account context like account-ID, account-name, OU-ID, OU path and tags"
-acf-configservice,acai-consulting,28469,aws,https://github.com/acai-consulting/terraform-aws-acf-configservice,ACAI ACF module to manage the central and member resources for AWS Config
-acf-core-configuration,acai-consulting,24743,aws,https://github.com/acai-consulting/terraform-aws-acf-core-configuration,Module to exchange dynamic resource configuration between Core Pipelines
-acf-idc,acai-consulting,24744,aws,https://github.com/acai-consulting/terraform-aws-acf-idc,ACAI Cloud Foundation module for AWS Identity Center
-acf-org-cloudtrail,acai-consulting,24745,aws,https://github.com/acai-consulting/terraform-aws-acf-org-cloudtrail,
-acf-org-delegation,acai-consulting,24747,aws,https://github.com/acai-consulting/terraform-aws-acf-org-delegation,Manage AWS Organization delegations
-acf-org-ou-mgmt,acai-consulting,24748,aws,https://github.com/acai-consulting/terraform-aws-acf-org-ou-mgmt,Manage the OU structure of your AWS Organization
-acf-scp,acai-consulting,24746,aws,https://github.com/acai-consulting/terraform-aws-acf-scp,Terraform module to manage AWS SCPs
+acf-account-hardening,acai-solutions,32164,aws,https://github.com/acai-solutions/terraform-aws-acf-account-hardening,
+acf-configservice,acai-solutions,32167,aws,https://github.com/acai-solutions/terraform-aws-acf-configservice,
+acf-core-configuration,acai-solutions,32168,aws,https://github.com/acai-solutions/terraform-aws-acf-core-configuration,
+acf-idc,acai-solutions,32165,aws,https://github.com/acai-solutions/terraform-aws-acf-idc,
+acf-observability,acai-solutions,32166,aws,https://github.com/acai-solutions/terraform-aws-acf-observability,
+acf-org-cloudtrail,acai-solutions,32160,aws,https://github.com/acai-solutions/terraform-aws-acf-org-cloudtrail,
+acf-org-delegation,acai-solutions,32157,aws,https://github.com/acai-solutions/terraform-aws-acf-org-delegation,
+acf-org-ou-mgmt,acai-solutions,32158,aws,https://github.com/acai-solutions/terraform-aws-acf-org-ou-mgmt,
+acf-scp,acai-solutions,32159,aws,https://github.com/acai-solutions/terraform-aws-acf-scp,
+acf-scp-statements,acai-solutions,32161,aws,https://github.com/acai-solutions/terraform-aws-acf-scp-statements,
+acf-security-baseline,acai-solutions,32169,aws,https://github.com/acai-solutions/terraform-aws-acf-security-baseline,
+acf-session-manager,acai-solutions,32162,aws,https://github.com/acai-solutions/terraform-aws-acf-session-manager,
 aci,Azure,1689,azurerm,https://github.com/Azure/terraform-azurerm-aci,Azure Container Instances Module
 aci,claranet,6133,azurerm,https://github.com/claranet/terraform-azurerm-aci,Terraform module for Azure Container Instances group
 aci-devops-agent,Azure,5150,azurerm,https://github.com/Azure/terraform-azurerm-aci-devops-agent,Terraform Module to deploy a Azure DevOps self-hosted agents on Azure Container Instance
@@ -2036,7 +2041,7 @@ avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,Terraform Azure Verified Pattern Module for Virtual WAN
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,Terraform Azure Verified Pattern Module for Virtual Network Gateway
-avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,Terraform Azure Verified Resource Module for API Management Service
+avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,
 avm-res-app-containerapp,Azure,25024,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp,
 avm-res-app-job,Azure,29064,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-job,Terraform Azure Verified Resource Module for App Job
 avm-res-app-managedenvironment,Azure,23184,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment,Terraform Azure Verified Resource Module for App Managed Environment
@@ -2118,7 +2123,7 @@ avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraf
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,Terraform Azure Verified Resource Module for Local Network Gateway
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Azure Verified Resource Module for NAT Gateway
 avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,Terraform Azure Verified Resource Module for Network Interface
-avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,Azure Network Manager AVM Module
+avm-res-network-networkmanager,Azure,22932,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager,
 avm-res-network-networksecuritygroup,Azure,23301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networksecuritygroup,Terraform Azure Verified Resource Module for Network Security Group
 avm-res-network-networksecurityperimeter,Azure,32018,azapi,https://github.com/Azure/terraform-azapi-avm-res-network-networksecurityperimeter,
 avm-res-network-networkwatcher,Azure,25023,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkwatcher,Azure Network Watcher AVM Module
@@ -8835,6 +8840,7 @@ gcp-alarm-channel,massdriver-cloud,32022,massdriver,https://github.com/massdrive
 gcp-application-bucket-creation-helper,sparkfabrik,17818,google,https://github.com/sparkfabrik/terraform-google-gcp-application-bucket-creation-helper,Terraform module for creating a Google Cloud compatible S3 bucket with dedicated access credentials and disaster recovery
 gcp-artifact-registry,sparkfabrik,18674,google,https://github.com/sparkfabrik/terraform-google-gcp-artifact-registry,Terraform Google GCP Artifact Registry
 gcp-backend,ptonini,16801,vault,https://github.com/ptonini/terraform-vault-gcp-backend,
+gcp-cloud-connect,castai,32155,castai,https://github.com/castai/terraform-castai-gcp-cloud-connect,
 gcp-cloud-native-drupal-resources,sparkfabrik,17853,google,https://github.com/sparkfabrik/terraform-google-gcp-cloud-native-drupal-resources,This module create the GCP resources needed to run Drupal in a Cloud Native environment. A CloudSQL instance must exist.
 gcp-cloudsql,Pararius,20194,module,https://github.com/Pararius/terraform-module-gcp-cloudsql,
 gcp-connect,spotinst,11387,spotinst,https://github.com/spotinst/terraform-spotinst-gcp-connect,A Terraform module to connect a GCP project to Spot.io.
@@ -11237,6 +11243,7 @@ lambda,TerraPros,27832,aws,https://github.com/TerraPros/terraform-aws-lambda,"Te
 lambda,TerraformFoundation,27908,aws,https://github.com/TerraformFoundation/terraform-aws-lambda,
 lambda,TravelOffice,14027,aws,https://github.com/TravelOffice/terraform-aws-lambda,Support provision multiple lambda functions
 lambda,acai-consulting,23971,aws,https://github.com/acai-consulting/terraform-aws-lambda,
+lambda,acai-solutions,32163,aws,https://github.com/acai-solutions/terraform-aws-lambda,
 lambda,andreswebs,29579,aws,https://github.com/andreswebs/terraform-aws-lambda,AWS Lambda container with Alias
 lambda,armorfret,2190,aws,https://github.com/armorfret/terraform-aws-lambda,Terraform module for deploying AWS Lambdas
 lambda,assemble-inc,1951,gateway,https://github.com/assembleinc/terraform-gateway-lambda,Terraform module to setup an AWS Lambda into API Gateway
@@ -15718,7 +15725,7 @@ release,DinaraKA,28356,helm,https://github.com/DinaraKA/terraform-helm-release,
 release,HappyPathway,25647,aws,https://github.com/HappyPathway/terraform-aws-release,Terraform Module
 release,JamesWoolfenden,7812,helm,https://github.com/JamesWoolfenden/terraform-helm-release,
 release,Nasiba18,25906,helm,https://github.com/Nasiba18/terraform-helm-release,
-release,SPHTech-Platform,16240,helm,https://github.com/SPHTech-Platform/terraform-helm-release,Terraform module to deploy a generic Helm Chart
+release,SPHTech-Platform,16240,helm,https://github.com/SPHTech-Platform/terraform-helm-release,
 release,SashaKrav,24558,helm,https://github.com/SashaKrav/terraform-helm-release,
 release,Ziia21,24562,helm,https://github.com/Ziia21/terraform-helm-release,
 release,aia89,24555,helm,https://github.com/aia89/terraform-helm-release,
@@ -16570,7 +16577,7 @@ s3-bucket,hadenlabs,13336,aws,https://github.com/hadenlabs/terraform-aws-s3-buck
 s3-bucket,hazmei,24552,aws,https://github.com/hazmei/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
 s3-bucket,heinzawthoo,30604,aws,https://github.com/heinzawthoo/terraform-aws-s3-bucket,Terraform module to create AWS S3 resources 🇺🇦
 s3-bucket,imo2017,21869,aws,https://github.com/imo2017/terraform-aws-s3-bucket,A Terraform module that provisions AWS S3 buckets
-s3-bucket,infrahouse,30278,aws,https://github.com/infrahouse/terraform-aws-s3-bucket,Terraform module for an ISO27001 compliant S3 bucket.
+s3-bucket,infrahouse,30278,aws,https://github.com/infrahouse/terraform-aws-s3-bucket,"Terraform module for ISO 27001 compliant S3 bucket with server-side encryption, versioning, access logging, and public access blocking. "
 s3-bucket,jason-morsley,5108,aws,https://github.com/jason-morsley/terraform-aws-s3-bucket,
 s3-bucket,jenot15,11906,aws,https://github.com/jenot15/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,jmdunne,24618,aws,https://github.com/jmdunne/terraform-aws-s3-bucket,
@@ -17468,7 +17475,7 @@ selenium,StayWell,4893,aws,https://github.com/StayWell/terraform-aws-selenium,
 selenoid,4ops,4592,aws,https://github.com/4ops/terraform-aws-selenoid,
 self-extractable-archive,andreygubarev,18094,external,https://github.com/andreygubarev/terraform-external-self-extractable-archive,Terraform module that uses makeself to create a self-extractable archive from a directory
 self-healing-infrastructure,yashodhan271,28749,aws,https://github.com/yashodhan271/terraform-aws-self-healing-infrastructure,
-self-hosted-blueprints,tryretool,32154,retool,https://github.com/tryretool/terraform-retool-self-hosted-blueprints,Terraform modules to deploy self-hosted Retool to your cloud
+self-hosted-blueprints,tryretool,32175,retool,https://github.com/tryretool/terraform-retool-self-hosted-blueprints,Terraform modules to deploy self-hosted Retool to your cloud
 self-manage-credentials,dod-iac,7039,aws,https://github.com/dod-iac/terraform-aws-self-manage-credentials,Configures IAM policy to allow users to manage their own credentials.
 self-managed-k8s,Archisman-Mridha,19115,aws,https://github.com/Archisman-Mridha/terraform-aws-self-managed-k8s,Terraform module to create a self-managed Kubernetes cluster in AWS using Kubeadm
 self-managed-k8s,lafayettegabe,27003,aws,https://github.com/lafayettegabe/terraform-aws-self-managed-k8s,"⚓ Self-managed Kubernetes cluster on AWS EC2 | Terraform module with automated scaling, networking, and secure bootstrapping."
@@ -18168,6 +18175,7 @@ sql,bootlabstech,13103,aws,https://github.com/bootlabstech/terraform-aws-sql,
 sql,equinor,23390,azurerm,https://github.com/equinor/terraform-azurerm-sql,Terraform module which creates Azure SQL resources
 sql,gruntwork-io,2431,google,https://github.com/gruntwork-io/terraform-google-sql,"Terraform modules for deploying Google Cloud SQL (e.g. MySQL, PostgreSQL) in GCP"
 sql-database,WeAreRetail,27499,azurerm,https://github.com/WeAreRetail/terraform-azurerm-sql-database,
+sql-database,baka126,32172,azurerm,https://github.com/baka126/terraform-azurerm-sql-database,
 sql-database,bootlabstech,11409,google,https://github.com/bootlabstech/terraform-google-sql-database,
 sql-database,kogunlowo123,31630,azure,https://github.com/kogunlowo123/terraform-azure-sql-database,"Terraform module for Azure SQL Database with elastic pools, failover groups, auditing, and threat detection"
 sql-db,GoogleCloudPlatform,88,google,https://github.com/terraform-google-modules/terraform-google-sql-db,Creates a Cloud SQL database instance
@@ -19870,6 +19878,7 @@ utils,r-teller,22648,google,https://github.com/r-teller/terraform-google-utils,G
 utils,terraform-google-modules,4194,google,https://github.com/terraform-google-modules/terraform-google-utils,Gets the short names for a given Google Cloud region
 utkarsh,utkarshk85,24727,azure,https://github.com/utkarshk85/terraform-azure-utkarsh,
 utl-cnregions,ciscoxiaobing,28698,azurerm,https://github.com/ciscoxiaobing/terraform-azurerm-utl-cnregions,
+utl-dlppolicy-replicator,rpothin,32176,powerplatform,https://github.com/rpothin/terraform-powerplatform-utl-dlppolicy-replicator,AVM-aligned Terraform Utility Module for the replication of a live Power Platform DLP Policy into a tfvars file ready to by passed to the res-dlppolicy module
 uuid,Invicton-Labs,14197,random,https://github.com/Invicton-Labs/terraform-random-uuid,
 uuid,Kalepa,16854,random,https://github.com/Kalepa/terraform-random-uuid,
 uuid,ryanuber,21417,random,https://github.com/ryanuber/terraform-random-uuid,
@@ -20755,6 +20764,7 @@ vpc,minhnnhat,10220,aws,https://github.com/minhnnhat/terraform-aws-vpc,
 vpc,mirlan88,9370,aws,https://github.com/mirlan88/terraform-aws-vpc,
 vpc,mirlanimash,9369,aws,https://github.com/mirlanimash/terraform-aws-vpc,
 vpc,mishra-demos,3486,aws,https://github.com/mishra-demos/terraform-aws-vpc,Terraform module which creates VPC resources on AWS
+vpc,mk95devops,32173,aws,https://github.com/mk95devops/terraform-aws-vpc,
 vpc,mkomlaetou,29574,aws,https://github.com/mkomlaetou/terraform-aws-vpc,
 vpc,mkostiuk98,9376,aws,https://github.com/mkostiuk98/terraform-aws-vpc,
 vpc,muhammadaziz02,9406,aws,https://github.com/muhammadaziz02/terraform-aws-vpc,
