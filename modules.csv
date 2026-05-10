@@ -1194,7 +1194,7 @@ app,mahimasharu2208,31359,nginx,https://github.com/mahimasharu2208/terraform-ngi
 app,rany01,28482,kubernetes,https://github.com/rany01/terraform-kubernetes-app,"Aqui contém a configuração principal para implantar uma aplicação no kubernetes, incluindo Deployment, Service e Ingress"
 app,scalingo-community,20614,scalingo,https://github.com/scalingo-community/terraform-scalingo-app,An opinionated Terraform module to provision an application and database very easily with Scalingo
 app,sebbycorp,15369,bigip,https://github.com/sebbycorp/terraform-bigip-app,terraform-bigip-as3-app
-app,terraform-do-modules,20670,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-app,Terraform module to create app resources. App Platform is a Platform-as-a-Service (PaaS) offering that allows developers to publish code directly to DigitalOcean servers without worrying about the underlying infrastructure.
+app,terraform-do-modules,20670,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-app,
 app,tsuru,31046,tsuru,https://github.com/tsuru/terraform-tsuru-app,Tsuru App Terraform Module
 app,zahiar,10573,docker,https://github.com/zahiar/terraform-docker-app,"A Terraform module that takes in a Docker Compose like config, and outputs valid Docker Compose YAML & AWS ECS Task Definition JSON."
 app-boundary,devops-rob,11293,azuread,https://github.com/devops-rob/terraform-azuread-app-boundary,This Terraform module creates an application in Azure AD for HashiCorp Boundary to use when configuring Azure OIDC authentication. 
@@ -4333,6 +4333,7 @@ compartment,westelh,29144,oci,https://github.com/westelh/terraform-oci-compartme
 complete,dasmeta,19955,cloudflare,https://github.com/dasmeta/terraform-cloudflare-complete,
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,Terraform modules from DasMeta to manage Azure AKS cluster
 complete-static-site,iKnowJavaScript,24585,aws,https://github.com/iKnowJavaScript/terraform-aws-complete-static-site,"This Terraform module creates and configures the necessary AWS resources for hosting a static website. It includes an S3 bucket for content storage, CloudFront for distribution, Origin Access Identity (OAI) for secure access, WAF WebACL for security, a Route 53 DNS record, and an IAM user for continuous deployment to the S3 bucket."
+compliance-db,gtcx-ecosystem,32195,aws,https://github.com/gtcx-ecosystem/terraform-aws-compliance-db,
 compliant-s3-bucket,andyscott1547,16087,aws,https://github.com/andyscott1547/terraform-aws-compliant-s3-bucket,Terraform module to create a S3 bucket on AWS with settings inline with secure benchmark.
 component-module,onsight-productions,18698,child,https://github.com/onsight-productions/terraform-child-component-module,
 components,SevenPicoComponents,32068,aws,https://github.com/SevenPicoComponents/terraform-aws-components,
@@ -4486,6 +4487,7 @@ config-notifications,trussworks,3360,aws,https://github.com/trussworks/terraform
 config-organization,blackbird-cloud,19292,aws,https://github.com/blackbird-cloud/terraform-aws-config-organization,Terraform module to setup AWS Config in an organization
 config-passphrase,netascode,17412,aci,https://github.com/netascode/terraform-aci-config-passphrase,Terraform Cisco ACI Config Passphrase Module
 config-recorder,StratusGrid,2665,aws,https://github.com/StratusGrid/terraform-aws-config-recorder,Configures config recorder for an AWS account
+config-recorder,appvia,32193,aws,https://github.com/appvia/terraform-aws-config-recorder,Used to customize the Control Tower recorder configuration in the absence of a CT configurable
 config-rules,StratusGrid,2674,aws,https://github.com/StratusGrid/terraform-aws-config-rules,AWS Config rules module to put in standard policies
 config-rules,geekcell,19760,aws,https://github.com/geekcell/terraform-aws-config-rules,Terraform module to provision an AWS Config Ruleset.
 config-security-check,hendrixroa,5702,aws,https://github.com/hendrixroa/terraform-aws-config-security-check,Cloudtrail security rules checking.
@@ -4946,7 +4948,7 @@ database,pvlltvk,11917,digitalocean,https://github.com/pvlltvk/terraform-digital
 database,robertdebock,13457,vault,https://github.com/robertdebock/terraform-vault-database,A module to configure Vault by adding a dynamic secrets engine.
 database,telekom-mms,31881,azurerm,https://github.com/telekom-mms/terraform-azurerm-database,A Terraform module that manages the database resources from the azurerm provider.
 database,terracharge,14082,aws,https://github.com/terracharge/terraform-aws-database,Module for creating terraform-aws-database with provider aws. This description is created automagically
-database,terraform-do-modules,20440,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-database,"Terraform module to create DATABASE resources. DigitalOcean's Managed Databases are a fully managed, high performance database cluster service. Using managed databases is a powerful alternative to installing, configuring, maintaining, and securing databases by hand."
+database,terraform-do-modules,20440,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-database,
 database,truemark,24828,aws,https://github.com/truemark/terraform-aws-database,Mono repo for database modules
 database,umavanth21,5261,azurerm,https://github.com/umavanth21/terraform-azurerm-database,Terraform Azure RM Module for Database
 database-addition,kiwicom,5501,vault,https://github.com/kiwicom/terraform-vault-database-addition,
@@ -6283,7 +6285,7 @@ domain,opszero,17613,cloudflare,https://github.com/opszero/terraform-cloudflare-
 domain,scaleway-terraform-modules,17631,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-domain,Manage Domains on Scaleway with Terraform.
 domain,srb3,9265,libvirt,https://github.com/srb3/terraform-libvirt-domain,
 domain,tedilabs,7745,aws,https://github.com/tedilabs/terraform-aws-domain,
-domain,terraform-do-modules,20241,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-domain,"Terraform module to create domain(DNS) resource on Digital Ocean. DigitalOcean is not a domain name registrar, but you can manage your DNS records from the DigitalOcean Control Panel. This can make record management easier because DigitalOcean DNS integrates with Droplets and Load Balancers."
+domain,terraform-do-modules,20241,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-domain,
 domain,wderezin,11594,aws,https://github.com/wderezin/terraform-aws-domain,An opinionated setup your AWS domain (route52) related features.
 domain-join,kumarvna,8970,azurerm,https://github.com/kumarvna/terraform-azurerm-domain-join,Terraform module to joins a VM to an Active Directory Domain
 domain-protect,domain-protect,26226,aws,https://github.com/domain-protect/terraform-aws-domain-protect,Terraform module for OWASP Domain Protect on AWS
@@ -8640,6 +8642,7 @@ flink,bootlabstech-m,25581,aws,https://github.com/bootlabstech-m/terraform-aws-f
 flink,skydome,3080,kubernetes,https://github.com/skydome/terraform-kubernetes-flink,Apache Flink Terraform module for kubernetes
 flink,tf-cloud-modules,15093,aiven,https://github.com/tf-cloud-modules/terraform-aiven-flink,Aiven Flink Terraform module
 flink-cluster-base,justtrackio,22054,aws,https://github.com/justtrackio/terraform-aws-flink-cluster-base,Terraform module which creates a iam role with policies and ecr repositories apps
+flo,floruntime,32192,digitalocean,https://github.com/floruntime/terraform-digitalocean-flo,
 floating-ip,zoro16,21293,hcloud,https://github.com/zoro16/terraform-hcloud-floating-ip,Terraform module to provision `Floating IP` resources in Hetzner Cloud.
 flow-logs,lablabs,4740,aws,https://github.com/lablabs/terraform-aws-flow-logs,
 flowlog-bucket,rsclarke,31981,aws,https://github.com/rsclarke/terraform-aws-flowlog-bucket,
@@ -9063,6 +9066,7 @@ gitlab,infraspecdev,17444,aws,https://github.com/infraspecdev/terraform-aws-gitl
 gitlab,kenvpt,5229,aws,https://github.com/kenvpt/terraform-aws-gitlab,
 gitlab-additions,toowoxx,10963,http,https://github.com/toowoxx/terraform-http-gitlab-additions,Additional resources and data sources that use the GitLab API
 gitlab-ce-installation,gokhanwell,20199,aws,https://github.com/gokhanwell/terraform-aws-gitlab-ce-installation,gokhanwell/terraform-aws-gitlab-ce-installation
+gitlab-ci-cd-variables,l-with,32190,module,https://github.com/l-with/terraform-module-gitlab-ci-cd-variables,
 gitlab-ci-runner,DeimosCloud,10311,google,https://github.com/DeimosCloud/terraform-google-gitlab-ci-runner,terraform module to deploy gitlab runner on GCP
 gitlab-ci-runner,aayushprime,21408,google,https://github.com/aayushprime/terraform-google-gitlab-ci-runner,terraform module to deploy gitlab runner on GCP
 gitlab-ci-runner,aayushprime-at-docsumo,21411,google,https://github.com/aayushprime-at-docsumo/terraform-google-gitlab-ci-runner,terraform module to deploy gitlab runner on GCP
@@ -9634,6 +9638,7 @@ human,1d3df9903ad,26364,aws,https://github.com/1d3df9903ad/terraform-aws-human,C
 human,andresriancho,26332,aws,https://github.com/andresriancho/terraform-aws-human,Create humans using `terraform apply`
 humans,andresriancho,26392,aws,https://github.com/andresriancho/terraform-aws-humans,Create humans using `terraform apply`
 humix,humix-blgianini,27118,github,https://github.com/humix-blgianini/terraform-github-humix,
+hurdle-labs,hurdlegroup,32191,azurerm,https://github.com/hurdlegroup/terraform-azurerm-hurdle-labs,
 hvn-aws,ksatirli,15007,hcp,https://github.com/ksatirli/terraform-hcp-hvn-aws,Terraform Module: HashiCorp Cloud Platform (HCP) HVN for AWS
 hvn-azure,ksatirli,15047,hcp,https://github.com/ksatirli/terraform-hcp-hvn-azure,Terraform Module: HashiCorp Cloud Platform (HCP) HVN for Azure
 hvn_deployment,Sokren,11785,hcp,https://github.com/Sokren/terraform-hcp-hvn_deployment,
@@ -10997,7 +11002,7 @@ kubernetes,ptsgr,4692,openstack,https://github.com/ptsgr/terraform-openstack-kub
 kubernetes,scholzj,422,aws,https://github.com/scholzj/terraform-aws-kubernetes,Terraform module for Kubernetes setup on AWS
 kubernetes,surajincloud,11242,civo,https://github.com/surajincloud/terraform-civo-kubernetes,Terraform module to create Civo Kubernetes Cluster
 kubernetes,telekom-mms,31897,kubernetes,https://github.com/telekom-mms/terraform-kubernetes-kubernetes,A Terraform module that manages the kubernetes resources from the kubernetes provider.
-kubernetes,terraform-do-modules,20238,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes,Terraform module for creating a Kubernetes cluster on Digital Ocean.  DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
+kubernetes,terraform-do-modules,20238,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-kubernetes,
 kubernetes,terraform-magalu-cloud,26264,mgc,https://github.com/terraform-magalu-cloud/terraform-mgc-kubernetes,Terraform module to create kubernetes in Magalu Cloud
 kubernetes,terraform-yacloud-modules,18399,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-kubernetes,Terraform module to manage Kubernetes (K8S) resources within the Yandex.Cloud.
 kubernetes,tf-scaleway-modules,30894,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-kubernetes,
@@ -11818,7 +11823,7 @@ load-balancer,quortex,5104,aws,https://github.com/quortex/terraform-aws-load-bal
 load-balancer,sebastianmontero,18595,google,https://github.com/sebastianmontero/terraform-google-load-balancer,Terraform modules for deploying Load Balancers in GCP 
 load-balancer,tedilabs,12088,aws,https://github.com/tedilabs/terraform-aws-load-balancer,
 load-balancer,terraform-az-modules,30780,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-load-balancer,
-load-balancer,terraform-do-modules,20239,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-load-balancer,Terraform module to create Load-balancer resource .  DigitalOcean Load Balancers ensure that the requests your application receives are only distributed to Droplets that have passed health checks.
+load-balancer,terraform-do-modules,20239,digitalocean,https://github.com/terraform-do-modules/terraform-digitalocean-load-balancer,
 load-balancer,terraform-ncloud-modules,15861,ncloud,https://github.com/terraform-ncloud-modules/terraform-ncloud-load-balancer,
 load-balancer,web-virtua-aws-multi-account-modules,17166,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-load-balancer,
 load-balancer,zoro16,21294,hcloud,https://github.com/zoro16/terraform-hcloud-load-balancer,Terraform module to provision `Load Balancer` resources in Hetzner Cloud.
@@ -13615,6 +13620,7 @@ networking,farizif,27647,aws,https://github.com/farizif/terraform-aws-networking
 networking,heathen1878,19706,azurerm,https://github.com/heathen1878/terraform-azurerm-networking,Manages Azure Networking
 networking,jibranrafat,25734,aws,https://github.com/jibranrafat/terraform-aws-networking,Networking Module created as practice
 networking,juanjojulian,20196,azurerm,https://github.com/juanjojulian/terraform-azurerm-networking,Terraform module to deploy a virtual network and associated resources in Azure
+networking,ksabarathinum-art,32194,aws,https://github.com/ksabarathinum-art/terraform-aws-networking,Networking module encompasing function for provisioning VPC and subnets
 networking,lafayettegabe,26253,aws,https://github.com/lafayettegabe/terraform-aws-networking,Networking module created during Terraform course.
 networking,lazevedo-devops,18756,aws,https://github.com/lazevedo-devops/terraform-aws-networking,This module creates a entire networking on AWS including VPC and subnets.
 networking,matteotv,30029,azure,https://github.com/matteotv/terraform-azure-networking,
@@ -16418,6 +16424,7 @@ run-iaas,claranet,4032,azurerm,https://github.com/claranet/terraform-azurerm-run
 run-vm-command,craigthackerx,7731,azurerm,https://github.com/craigthackerx/terraform-azurerm-run-vm-command,Run commands on virtual machines in Azure. This can be used to bootstrap/install software or run administrative tasks :fire:
 run-vm-command,libre-devops,13038,azurerm,https://github.com/libre-devops/terraform-azurerm-run-vm-command,"A module that run commands on virtual machines in Azure. It is a programmatic way to use the ""Run Command"" option in the portal :rose:"
 runbook-ps7,hlokensgard,22153,azure,https://github.com/hlokensgard/terraform-azure-runbook-ps7,
+rune,runestack,32188,digitalocean,https://github.com/runestack/terraform-digitalocean-rune,
 runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-runiap,Identity-Aware Proxy on Cloud Run. Based on https://github.com/terraform-google-modules/terraform-google-lb
 runner,HappyPathway,25650,ghe,https://github.com/HappyPathway/terraform-ghe-runner,Terraform Module
 runner,jvm2023,25825,google,https://github.com/jvm2023/terraform-google-runner,
