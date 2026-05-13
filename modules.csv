@@ -7370,6 +7370,7 @@ ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-e
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-slack-alerts,Nuagic,16253,aws,https://github.com/Nuagic/terraform-aws-ecs-slack-alerts,
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
+ecs-tailscale,terraapply,32204,aws,https://github.com/terraapply/terraform-aws-ecs-tailscale,
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
 ecs-task,sudo-terraform-aws-modules,15465,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-task,Terraform module to create ECS Task Defintion
 ecs-task-definition,PGBI,3455,aws,https://github.com/PGBI/terraform-aws-ecs-task-definition,
@@ -8143,7 +8144,7 @@ enclave,stacklet,32117,gcp,https://github.com/stacklet/terraform-gcp-enclave,
 enclave,vespa-cloud,17777,aws,https://github.com/vespa-cloud/terraform-aws-enclave,Terraform modules for Vespa Cloud Enclave (AWS)
 enclave,vespa-cloud,20961,google,https://github.com/vespa-cloud/terraform-google-enclave,Terraform modules for Vespa Cloud Enclave (GCP)
 enclave,vespa-cloud,30376,azure,https://github.com/vespa-cloud/terraform-azure-enclave,Terraform modules for Vespa Cloud Enclave (Azure)
-encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,A terraform module for creating an encrypted bucket in S3
+encrypted-bucket,infrablocks,653,aws,https://github.com/infrablocks/terraform-aws-encrypted-bucket,
 encryptedmanageddisk,Azure,595,azurerm,https://github.com/Azure/terraform-azurerm-encryptedmanageddisk,Terraform Azure RM Encrypted Managed Disk Module 
 encryption-at-rest,terraform-mongodbatlas-modules,25760,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-encryption-at-rest,
 end-to-end-tracing-diagnostics,alibabacloud-automation,31297,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-end-to-end-tracing-diagnostics,
@@ -12169,8 +12170,8 @@ mc-gateway,terraform-aviatrix-modules,13595,aviatrix,https://github.com/terrafor
 mc-gatus,terraform-aviatrix-modules,29137,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-gatus,Module for deploying standalone VPC | VNets with traffic-generating gatus instances
 mc-network-domains,terraform-aviatrix-modules,15962,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-network-domains,A module to simplify management of Aviatrix network domains and connection policies
 mc-overlap-nat-spoke,terraform-aviatrix-modules,10731,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-overlap-nat-spoke,This configures Aviatrix spoke gateways to deal with IP overlap in the spoke VNET/VPC by adding NAT rules and route propagation
-mc-spoke,terraform-aviatrix-modules,11171,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-spoke,Aviatrix Terraform module for spoke deployment in multiple clouds
-mc-transit,terraform-aviatrix-modules,11698,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit,Aviatrix Terraform module for transit deployment in multiple clouds
+mc-spoke,terraform-aviatrix-modules,11171,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-spoke,
+mc-transit,terraform-aviatrix-modules,11698,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit,
 mc-transit-deployment-framework,terraform-aviatrix-modules,13195,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-deployment-framework,"This module composes the mc-transit, mc-firenet and peering modules together to provide a reference transit layer implementation."
 mc-transit-peering,terraform-aviatrix-modules,5922,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-peering,Creates a full mesh transit peering from a list of transit gateway names
 mc-transit-peering-advanced,terraform-aviatrix-modules,13186,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-mc-transit-peering-advanced,This module will create a full mesh transit between all gateways from one map to all gateways from a second map and allows for additional attributes to be configured.
@@ -17114,6 +17115,7 @@ santhiyaS3bucket,SanthiyaGiaa,24947,aws,https://github.com/SanthiyaGiaa/terrafor
 sap,terraform-google-modules,2690,google,https://github.com/terraform-google-modules/terraform-google-sap,Deploys SAP products
 sap-application-server,ovh,21315,vsphere,https://github.com/ovh/terraform-vsphere-sap-application-server,
 sap-btp-entitlements,aydin-ozcan,20250,btp,https://github.com/aydin-ozcan/terraform-btp-sap-btp-entitlements,Terraform module for entitlements management on SAP BTP
+sap-btp-role-collection-assignments,SAP,32205,btp,https://github.com/SAP/terraform-btp-sap-btp-role-collection-assignments,Terraform Module for Role Collection Assignment on SAP BTP
 sap-hana-database,ovh,21314,vsphere,https://github.com/ovh/terraform-vsphere-sap-hana-database,Terraform module to create a set of SAP HANA databases virtual machines on VMware on OVHcloud.
 sap-netweaver-on-hana,aws-samples,6050,aws,https://github.com/aws-samples/terraform-aws-sap-netweaver-on-hana,Terraform modules for deploying highly configurable SAP products on AWS.
 sap-system,ovh,21313,vsphere,https://github.com/ovh/terraform-vsphere-sap-system,Terraform module to create a SAP system on VMware on OVHcloud.
