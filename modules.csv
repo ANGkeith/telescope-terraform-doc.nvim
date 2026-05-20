@@ -1426,7 +1426,7 @@ arc-network-firewall,sourcefuse,30596,aws,https://github.com/sourcefuse/terrafor
 arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terraform-aws-arc-observability-stack,"The Observability Terraform module simplifies deploying a robust monitoring and logging stack in EKS. It provides flexibility to choose between AWS OpenSearch or ElasticSearch for search engines and Fluentd or Fluent Bit for log aggregation, along with Prometheus, Grafana, Alertmanager, and Blackbox Exporter for metrics and alerting."
 arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
 arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
-arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,
+arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,Terraform module for Amazon Redshift Provisioned Clusters and Redshift Serverless Workgroups
 arc-route53,sourcefuse,31813,aws,https://github.com/sourcefuse/terraform-aws-arc-route53,Terraform module for route53
 arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,terraform module for provisioning s3 buckets
 arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,
@@ -5160,7 +5160,7 @@ ddoscoo,alibabacloud-automation,31571,alicloud,https://github.com/alibabacloud-a
 deadtous,jonohill,9641,aws,https://github.com/jonohill/terraform-aws-deadtous,Module for deploying deadtous to AWS
 debezium,data-platform-hq,17218,azurerm,https://github.com/data-platform-hq/terraform-azurerm-debezium,Terraform module for Debezium provisioning using Azure Container Instance
 debian-instance,obay,2419,aws,https://github.com/obay/terraform-aws-debian-instance,A Terraform module that creates AWS Debian Instances the Obay way.
-debian-repo,infrahouse,20167,aws,https://github.com/infrahouse/terraform-aws-debian-repo,Module that creates a Debian repository backed by S3 and fronted by CloudFront.
+debian-repo,infrahouse,20167,aws,https://github.com/infrahouse/terraform-aws-debian-repo,"Terraform module for private Debian/APT repository backed by S3 with CloudFront CDN, GPG package signing, and Lambda-based repository indexing. "
 debmodule,debarghyapandit,12233,aws,https://github.com/debarghyapandit/terraform-aws-debmodule,
 debug,kiwicom,3101,kubernetes,https://github.com/kiwicom/terraform-kubernetes-debug,
 decider-module,MiniHeyd,31778,nicsnet,https://github.com/MiniHeyd/terraform-nicsnet-decider-module,
@@ -5862,6 +5862,7 @@ docker-instance,farukisik10,16356,aws,https://github.com/farukisik10/terraform-a
 docker-instance,fatigns,20770,aws,https://github.com/fatigns/terraform-aws-docker-instance,
 docker-instance,fatihabdioglu,16330,aws,https://github.com/fatihabdioglu/terraform-aws-docker-instance,
 docker-instance,fatihcckr,18305,aws,https://github.com/fatihcckr/terraform-aws-docker-instance,
+docker-instance,fatmaozcelik,32238,aws,https://github.com/fatmaozcelik/terraform-aws-docker-instance,
 docker-instance,fevzibayrak,18174,aws,https://github.com/fevzibayrak/terraform-aws-docker-instance,
 docker-instance,fhalearslnn,22363,aws,https://github.com/fhalearslnn/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,fijuvi,21582,aws,https://github.com/fijuvi/terraform-aws-docker-instance,
@@ -6137,6 +6138,8 @@ docker-instance-1,selmakilic,21608,aws,https://github.com/selmakilic/terraform-a
 docker-instance-1,senolkeklik,20789,aws,https://github.com/senolkeklik/terraform-aws-docker-instance-1,
 docker-instance-1,yakin68,20759,aws,https://github.com/yakin68/terraform-aws-docker-instance-1,
 docker-instance-13,alisametsari,18275,aws,https://github.com/alisametsari/terraform-aws-docker-instance-13,
+docker-instance-14,2rule2code,32235,aws,https://github.com/2rule2code/terraform-aws-docker-instance-14,
+docker-instance-14,duyanh-y4n,32234,aws,https://github.com/duyanh-y4n/terraform-aws-docker-instance-14,
 docker-instance-17,betullgny,25096,aws,https://github.com/betullgny/terraform-aws-docker-instance-17,
 docker-instance-1977,recep-instructor,23457,aws,https://github.com/recep-instructor/terraform-aws-docker-instance-1977,
 docker-instance-1978,recep-instructor,23458,aws,https://github.com/recep-instructor/terraform-aws-docker-instance-1978,
@@ -7375,7 +7378,7 @@ ecs-services,docebo-labs,8503,aws,https://github.com/docebo-labs/terraform-aws-e
 ecs-services,terraform-module,13297,aws,https://github.com/terraform-module/terraform-aws-ecs-bootstrap,ℹ️ Terraform AWS ECS services bootstrap module.
 ecs-slack-alerts,Nuagic,16253,aws,https://github.com/Nuagic/terraform-aws-ecs-slack-alerts,
 ecs-spot-instance,terraform-alicloud-modules,4302,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecs-spot-instance,Terraform module for creating Spot instance(s) on Alibaba Cloud.
-ecs-tailscale,terraapply,32204,aws,https://github.com/terraapply/terraform-aws-ecs-tailscale,
+ecs-tailscale,terraapply,32233,aws,https://github.com/terraapply/terraform-aws-ecs-tailscale,
 ecs-task,opendevsecops,1782,aws,https://github.com/opendevsecops/terraform-aws-ecs-task,
 ecs-task,sudo-terraform-aws-modules,15465,aws,https://github.com/sudo-terraform-aws-modules/terraform-aws-ecs-task,Terraform module to create ECS Task Defintion
 ecs-task-definition,PGBI,3455,aws,https://github.com/PGBI/terraform-aws-ecs-task-definition,
@@ -9830,7 +9833,7 @@ iam-role,boldlink,14113,aws,https://github.com/boldlink/terraform-aws-iam-role,T
 iam-role,bootlabstech-m,17799,aws,https://github.com/bootlabstech-m/terraform-aws-iam-role,Creates an an AWS IAM custom role
 iam-role,bryan-rhm,14979,aws,https://github.com/bryan-rhm/terraform-aws-iam-role,Terraform module for IAM roles
 iam-role,cloudboss,25436,aws,https://github.com/cloudboss/terraform-aws-iam-role,
-iam-role,clouddrove,3662,aws,https://github.com/clouddrove/terraform-aws-iam-role,Terraform module to create Iam role resource on AWS.
+iam-role,clouddrove,3662,aws,https://github.com/clouddrove/terraform-aws-iam-role,
 iam-role,cloudposse,2207,aws,https://github.com/cloudposse/terraform-aws-iam-role,A Terraform module that creates IAM role with provided JSON IAM polices documents.
 iam-role,cypik,24075,aws,https://github.com/cypik/terraform-aws-iam-role,Terraform module to create and manage AWS IAM roles.
 iam-role,datafy-io,32202,datafy,https://github.com/datafy-io/terraform-datafy-iam-role,
@@ -9956,6 +9959,7 @@ identity,telekom-mms,31894,azuread,https://github.com/telekom-mms/terraform-azur
 identity-center,aws-samples,28343,aws,https://github.com/aws-samples/terraform-aws-identity-center,Manage AWS IAM Identity Center permission sets and account assignments with Terraform.
 identity-center-users-and-groups,aws-samples,28344,aws,https://github.com/aws-samples/terraform-aws-identity-center-users-and-groups,"Create AWS IAM Identity Center groups, users, and group membership with Terraform."
 identity-engine-data-plane,LiveRamp,23010,google,https://github.com/LiveRamp/terraform-google-identity-engine-data-plane,Identity/Identity-Engine - Data plane Terraform module
+identity-governance,Jeenil,32241,azuread,https://github.com/Jeenil/terraform-azuread-identity-governance,"Terraform module for Azure AD Entitlement Management with per-package role type, display name resolution, and structured OData filters"
 identity-group,mineiros-io,11381,google,https://github.com/mineiros-io/terraform-google-identity-group,A Terraform module to create and manage a Google Identity Group (GCR) in Google Cloud https://cloud.google.com/container-registry
 identity-k8s,ultimateai,17289,workload,https://github.com/ultimateai/terraform-workload-identity-k8s,This repo maintains Terraform module for workload Identity for k8s cluster
 identity-provider,c0x12c,29303,aws,https://github.com/c0x12c/terraform-aws-identity-provider,
@@ -10827,7 +10831,7 @@ kms,boldlink,13914,aws,https://github.com/boldlink/terraform-aws-kms,Terraform r
 kms,bootlabstech,12477,google,https://github.com/bootlabstech/terraform-google-kms,"Terraform module to create KMS Key-Ring , Crypto Key  with KMS Key-Ring IAM binding and Crypto key IAM binding"
 kms,c0x12c,29282,aws,https://github.com/c0x12c/terraform-aws-kms,
 kms,clouddrove,16715,gcp,https://github.com/clouddrove/terraform-gcp-kms,
-kms,clouddrove,3645,aws,https://github.com/clouddrove/terraform-aws-kms,This terraform module creates a KMS Customer Master Key (CMK) and its alias.
+kms,clouddrove,3645,aws,https://github.com/clouddrove/terraform-aws-kms,
 kms,cypik,22760,google,https://github.com/cypik/terraform-google-kms,Enables customers to manage their encryption keys for data stored on GCP
 kms,cypik,22782,aws,https://github.com/cypik/terraform-aws-kms,Terraform module to create an AWS KMS Customer Managed Key (CMK) with an alias.
 kms,devops4mecode,6803,aws,https://github.com/devops4mecode/terraform-aws-kms,
@@ -12191,6 +12195,7 @@ mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform
 mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,
 mcaf-clientvpn,schubergphilis,28703,aws,https://github.com/schubergphilis/terraform-aws-mcaf-clientvpn,
 mcaf-cloudfront,schubergphilis,29403,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cloudfront,
+mcaf-control-tower,schubergphilis-ep,32232,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-control-tower,
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,
@@ -12236,7 +12241,7 @@ mcaf-workspace,schubergphilis,22975,tfe,https://github.com/schubergphilis/terraf
 mcaf-workspace,schubergphilis,24637,aws,https://github.com/schubergphilis/terraform-aws-mcaf-workspace,
 mcd-agent,monte-carlo-data,21656,google,https://github.com/monte-carlo-data/terraform-google-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in GCP
 mcd-agent,monte-carlo-data,22346,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-agent,
-mcd-agent,monte-carlo-data,22772,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-agent,Monte Carlo's agent module for customer-hosted deployments in Azure
+mcd-agent,monte-carlo-data,22772,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-agent,
 mcd-k8s-agent,monte-carlo-data,32046,aws,https://github.com/monte-carlo-data/terraform-aws-mcd-k8s-agent,
 mcd-k8s-agent,monte-carlo-data,32047,azurerm,https://github.com/monte-carlo-data/terraform-azurerm-mcd-k8s-agent,
 mcd-k8s-agent,monte-carlo-data,32048,google,https://github.com/monte-carlo-data/terraform-google-mcd-k8s-agent,
@@ -12587,6 +12592,7 @@ module1,prashanth782,5306,azurerm,https://github.com/prashanth782/terraform-azur
 moduleApache,RillistikPete,19137,aws,https://github.com/RillistikPete/terraform-aws-moduleApache,
 modulejan24,Mitchxxx,23520,eks,https://github.com/Mitchxxx/terraform-eks-modulejan24,Terraform AWS-EKS Module
 modules,AcklenAvenue,4466,aws,https://github.com/AcklenAvenue/terraform-aws-modules,"Ready for production modules, made with 💚 by Acklen Avenue."
+modules,Bay-Security,32239,bay,https://github.com/Bay-Security/terraform-bay-modules,
 modules,EngMohamedElEmam,17845,azure,https://github.com/EngMohamedElEmam/terraform-azure-modules,Terraform Modules for Azure Services
 modules,Juniper,29872,mist,https://github.com/Juniper/terraform-mist-modules,Terraform modules to be used with the terraform-mist-provider
 modules,KOTechnologiesLtd,27626,datadog,https://github.com/KOTechnologiesLtd/terraform-datadog-modules,KO Technologies Terraform Datadog Modules
@@ -14362,6 +14368,7 @@ overlays-vnet-peering,azurenoops,23586,azurerm,https://github.com/azurenoops/ter
 overlays-waf-policy,azurenoops,23075,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-waf-policy,Terraform overlay module to create and manage Azure WAF Policies for use with the Azure NoOps.
 overlays-workload-spoke,azurenoops,19128,azurerm,https://github.com/azurenoops/terraform-azurerm-overlays-workload-spoke,Terraform module overlay to create SCCA compliant Workload Spoke based on the Microsoft Azure Hub-Spoke Architecture using with Azure NoOps.
 overmind,davidjeddy,20118,aws,https://github.com/davidjeddy/terraform-aws-overmind,Terraform module to enable Overmind quickly and easily to a project.
+overture-tiles,OvertureMaps,32240,aws,https://github.com/OvertureMaps/terraform-aws-overture-tiles,
 owndesignedmodule-sample,amitkothiyalutknd,26742,aws,https://github.com/amitkothiyalutknd/terraform-aws-owndesignedmodule-sample,
 p0-access-role,p0-security,31428,aws,https://github.com/p0-security/terraform-aws-p0-access-role,Deploys AWS infrastructure for P0 to connect to an AWS account
 p0-connector,p0-security,31434,aws,https://github.com/p0-security/terraform-aws-p0-connector,Set up a VPC for P0 connector deployment
@@ -18504,10 +18511,10 @@ state-backend,jwoodsiii,32118,aws,https://github.com/jwoodsiii/terraform-aws-sta
 state-backend,rsclarke,31845,aws,https://github.com/rsclarke/terraform-aws-state-backend,
 state-bootstrap,BrynardSecurity-terraform,13358,remote,https://github.com/BrynardSecurity-terraform/terraform-tfe-tc-organization,
 state-bucket,iits-consulting,28376,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-state-bucket,
-state-bucket,infrahouse,21557,aws,https://github.com/infrahouse/terraform-aws-state-bucket,Module that creates an S3 bucket for a Terraform state.
+state-bucket,infrahouse,21557,aws,https://github.com/infrahouse/terraform-aws-state-bucket,"Terraform module for S3 state bucket with DynamoDB locking table, server-side encryption, versioning, and access logging. "
 state-check,varunteja32,25036,aws,https://github.com/varunteja32/terraform-aws-state-check,
 state-keeper,Invicton-Labs,9883,null,https://github.com/Invicton-Labs/terraform-null-state-keeper,
-state-manager,infrahouse,21499,aws,https://github.com/infrahouse/terraform-aws-state-manager,Module creates an IAM role that can manage a Terraform state.
+state-manager,infrahouse,21499,aws,https://github.com/infrahouse/terraform-aws-state-manager,Terraform module that creates an IAM role for Terraform state management with S3 bucket and DynamoDB lock table permissions. 
 state-storage,makandra,26292,aws,https://github.com/makandra/terraform-aws-state-storage,Terraform Module for storing state and locks in AWS
 statebucket,JamesWoolfenden,1850,aws,https://github.com/JamesWoolfenden/terraform-aws-statebucket,"Contains the module, permissions and sample code to create a state bucket for further Terraform use."
 statebucket,JamesWoolfenden,1955,gcp,https://github.com/JamesWoolfenden/terraform-gcp-statebucket,Contains a module to create a statebucket for use with Terraform
@@ -21486,7 +21493,7 @@ waf,GenClouds,31511,aws,https://github.com/GenClouds/terraform-aws-waf,
 waf,OT-terraform-azure-modules,22298,azure,https://github.com/OT-terraform-azure-modules/terraform-azure-waf,
 waf,appzen-oss,11680,aws,https://github.com/appzen-oss/terraform-aws-waf,
 waf,boldlink,18431,aws,https://github.com/boldlink/terraform-aws-waf,Terraform registry repository AWS WAF
-waf,clouddrove,16824,aws,https://github.com/clouddrove/terraform-aws-waf,This Terraform module is used to create waf on AWS. WAF (Web Application Firewall) is a cloud-based firewall service. It helps protect web applications from common web exploits and provides customizable security rules to filter and monitor incoming web traffic.
+waf,clouddrove,16824,aws,https://github.com/clouddrove/terraform-aws-waf,
 waf,cloudposse,8348,aws,https://github.com/cloudposse/terraform-aws-waf,
 waf,dwp,6393,aws,https://github.com/dwp/terraform-aws-waf,A Terraform module to create an AWS Classic Regional WAF with consistent features
 waf,ganexcloud,13915,aws,https://github.com/ganexcloud/terraform-aws-waf,
