@@ -389,7 +389,7 @@ actions-configuration,ptonini,21879,github,https://github.com/ptonini/terraform-
 actions-org-configuration,ptonini,21880,github,https://github.com/ptonini/terraform-github-actions-org-configuration,
 actions-pipeline-resources,axetrading,15383,github,https://github.com/axetrading/terraform-github-actions-pipeline-resources,"Terraform module for a GitHub Actions pipeline with access to AWS, without having to manage any credentials"
 actions-runner,infrahouse,24062,aws,https://github.com/infrahouse/terraform-aws-actions-runner,"Terraform module for self-hosted GitHub Actions runners on AWS EC2 with auto-scaling, Puppet configuration management, CloudWatch monitoring, and automatic runner registration/deregistration. "
-actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
+actions-runner-controller,SPHTech-Platform,14730,helm,https://github.com/SPHTech-Platform/terraform-helm-actions-runner-controller,
 actions-runner-controller,basisai,10986,helm,https://github.com/basisai/terraform-helm-actions-runner-controller,Terraform GitHub actions-runner-controller on Kubernetes using Helm chart.
 actions-runner-provisioner,camptocamp,8660,github,https://github.com/camptocamp/terraform-github-actions-runner-provisioner,Terraform provisioner for a self-hosted GitHub Actions runner
 actions-runner-scale-set,vmvarela,30584,github,https://github.com/vmvarela/terraform-github-actions-runner-scale-set,This Terraform module simplifies the deployment of self-hosted GitHub Actions runners on any Kubernetes cluster. It uses the official Actions Runner Controller (ARC) to create and manage auto-scaling runner sets.
@@ -5305,6 +5305,7 @@ devhost,v-bus,4417,hcloud,https://github.com/v-bus/terraform-hcloud-devhost,
 devhost,v-bus,4776,digitalocean,https://github.com/v-bus/terraform-digitalocean-devhost,
 device-selection-policy,netascode,10396,aci,https://github.com/netascode/terraform-aci-device-selection-policy,Terraform Cisco ACI Device Selection Policy Module
 devops,brikis98,27568,book,https://github.com/brikis98/terraform-book-devops,"OpenTofu/Terraform modules for the book and blog post series ""Fundamentals of DevOps and Software Delivery"" by Yevgeniy Brikman"
+devops-agent,appvia,32362,aws,https://github.com/appvia/terraform-aws-devops-agent,Terraform repository used to deploy AWS DevOps Agent spaces
 devops-ec2,kodcapsule,32274,aws,https://github.com/kodcapsule/terraform-aws-devops-ec2,
 devops-iam,SevenPico,17848,aws,https://github.com/SevenPico/terraform-aws-devops-iam,
 devops-nexus,integr8,1085,aws,https://github.com/integr8/terraform-aws-devops-nexus,
@@ -10174,6 +10175,8 @@ install,skyfjell,14234,flux,https://github.com/skyfjell/terraform-flux-install,I
 install-access,nuonco,23876,aws,https://github.com/nuonco/terraform-aws-install-access,Terraform module for granting access to Nuon to provision an install.
 install-access-delegation,nuonco,24878,aws,https://github.com/nuonco/terraform-aws-install-access-delegation,Set up an IAM role that allows you to setup a delegation IAM role using Nuon.
 installer,akemoah,11560,kubernetes,https://github.com/akemoah/terraform-kubernetes-installer,Terraform Installer for Kubernetes on Oracle Cloud Infrastructure
+instana-ec2-agent,instana,32363,aws,https://github.com/instana/terraform-aws-instana-ec2-agent,Terraform module for deploying and configuring the Instana agent on AWS EC2 workloads
+instana-ecs-agent,instana,32364,aws,https://github.com/instana/terraform-aws-instana-ecs-agent,Terraform module for deploying and configuring the Instana agent on AWS ECS workloads
 instana-sensor-ecs,benjamin-lykins,30710,aws,https://github.com/benjamin-lykins/terraform-aws-instana-sensor-ecs,
 instance,4ltieres,3112,openstack,https://github.com/altieresfreitas/terraform-openstack-instance,Terraform module to create openstack Instance
 instance,ASparkOfFire,18002,aws,https://github.com/ASparkOfFire/terraform-aws-instance,Terraform AWS Instance Module for Learning how Terraform Modules work.
@@ -13124,6 +13127,7 @@ mysql,dodevops,8604,azure,https://github.com/dodevops/terraform-azure-mysql,High
 mysql,equinor,26257,azurerm,https://github.com/equinor/terraform-azurerm-mysql,Terraform module which creates Azure Database for MySQL resources
 mysql,foreverXZC,1300,azurerm,https://github.com/foreverXZC/terraform-azurerm-mysql,Terraform module creating a MySQL Database on Azure
 mysql,han-nl,2491,azurerm,https://github.com/han-nl/terraform-azurerm-mysql,Create a MySQL on Azure database server and one database on that.
+mysql,magicorntech,32365,azurerm,https://github.com/magicorntech/terraform-azurerm-mysql,
 mysql,mkarimi20,23887,google,https://github.com/mkarimi20/terraform-google-mysql,
 mysql,rhythmictech,3230,azurerm,https://github.com/rhythmictech/terraform-azurerm-mysql,Terraform module creating a MySQL Database on Azure
 mysql,sblack4,3229,azurerm,https://github.com/sblack4/terraform-azurerm-mysql,Terraform module creating a MySQL Database on Azure
@@ -13230,6 +13234,7 @@ myvm,monbostest,13377,google,https://github.com/monbostest/terraform-google-myvm
 myvm,nippydevops,11316,google,https://github.com/nippydevops/terraform-google-myvm,This module will be used to create a vm on google cloud
 myvpc-module,theninjaprashant,27402,aws,https://github.com/theninjaprashant/terraform-aws-myvpc-module,This module project will create a vpc and subnets
 n8n,elasticscale,20693,aws,https://github.com/elasticscale/terraform-aws-n8n,Run N8n on AWS ECS Fargate
+n8n,n8n-io,32368,aws,https://github.com/n8n-io/terraform-aws-n8n,
 nac-access-policies,netascode,14156,aci,https://github.com/netascode/terraform-aci-nac-access-policies,Terraform Cisco ACI Access Policies Module
 nac-aci,netascode,19004,aci,https://github.com/netascode/terraform-aci-nac-aci,Terraform Cisco ACI Network-as-Code Module
 nac-catalystcenter,netascode,28401,catalystcenter,https://github.com/netascode/terraform-catalystcenter-nac-catalystcenter,Terraform Cisco Catalyst Center Network-as-Code Module
@@ -15810,6 +15815,8 @@ regcred,Adimus11,24759,k8s,https://github.com/Adimus11/terraform-k8s-regcred,Sim
 regex-errors,cgetzen,4993,local,https://github.com/cgetzen/terraform-local-regex-errors,Terraform module that provides error checking for regular expressions.
 region,cawcaw253,22080,aws,https://github.com/cawcaw253/terraform-aws-region,Terraform module for better usage of region name and region code.
 region-abbreviation-mapping,PartTimeLegend,15262,azure,https://github.com/PartTimeLegend/terraform-azure-region-abbreviation-mapping,Really simple map to convert Azure regions to abbreviated names.
+region-abbreviation-mapping,PartTimeLegend,32366,gcp,https://github.com/PartTimeLegend/terraform-gcp-region-abbreviation-mapping,Really simple map to convert GCP regions to abbreviated names.
+region-abbreviation-mapping,PartTimeLegend,32367,aws,https://github.com/PartTimeLegend/terraform-aws-region-abbreviation-mapping,Really simple map to convert AWS regions to abbreviated names.
 region-detail,memes,17735,google,https://github.com/memes/terraform-google-region-detail,
 region-info,OmnipotentOwl,17330,azurerm,https://github.com/OmnipotentOwl/terraform-azurerm-region-info,Terraform Module for azure regional information
 region-map,Build5Nines,32198,azure,https://github.com/Build5Nines/terraform-azure-region-map,
