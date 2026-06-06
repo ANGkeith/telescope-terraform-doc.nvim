@@ -1394,65 +1394,65 @@ april,mirlan2403,21436,project,https://github.com/mirlan2403/terraform-project-a
 aqua-cspm,SPHTech-Platform,17835,aws,https://github.com/SPHTech-Platform/terraform-aws-aqua-cspm,Terraform module for Aqua CSPM CT integration
 aradhana-storage,shivaarusoni678,12318,azure,https://github.com/shivaarusoni678/terraform-azure-aradhana-storage,
 aravindhs3bucket,aravindh1307,18381,aws,https://github.com/aravindh1307/terraform-aws-aravindhs3bucket,
-arc-api-gateway,sourcefuse,30055,aws,https://github.com/sourcefuse/terraform-aws-arc-api-gateway,
-arc-argocd,sourcefuse,31425,aws,https://github.com/sourcefuse/terraform-aws-arc-argocd,Terraform module for ArgoCD
+arc-api-gateway,sourcefuse,30055,aws,https://github.com/sourcefuse/terraform-aws-arc-api-gateway,"Provisions AWS API Gateway REST APIs and HTTP APIs with resource definitions, method integrations, authorizers, usage plans, API keys, custom domain names, and stage deployments."
+arc-argocd,sourcefuse,31425,aws,https://github.com/sourcefuse/terraform-aws-arc-argocd,"Deploys Argo CD — a declarative GitOps continuous delivery tool — on Amazon EKS using Helm. Configures application sets, repositories, RBAC policies, and ingress for GitOps-based Kubernetes application delivery."
 arc-backstage-ecs-app,sourcefuse,21336,aws,https://github.com/sourcefuse/terraform-aws-arc-backstage-ecs-app,"Deploys Backstage — the open-source Internal Developer Portal (IDP) by Spotify — as an ECS Fargate application on AWS. Includes ALB configuration, RDS backend, and environment-specific parameterization."
 arc-backup,sourcefuse,24706,aws,https://github.com/sourcefuse/terraform-aws-arc-backup,
-arc-bedrock,sourcefuse,28406,aws,https://github.com/sourcefuse/terraform-aws-arc-bedrock,Terraform module for Bedrock
-arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,
-arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Repo for managing the Bootstrap (DynamoDB + S3) Terraform Module..
-arc-cache,sourcefuse,24773,aws,https://github.com/sourcefuse/terraform-aws-arc-cache,ARC Module for managing elasticache redis clusters
-arc-cicd,sourcefuse,24818,aws,https://github.com/sourcefuse/terraform-aws-arc-cicd,Terraform module creating CICD pipelines
+arc-bedrock,sourcefuse,28406,aws,https://github.com/sourcefuse/terraform-aws-arc-bedrock,"Provisions AWS Bedrock resources including model access configuration, knowledge bases, and associated IAM roles. Enables infrastructure-as-code management of generative AI workloads on AWS."
+arc-billing,sourcefuse,21988,aws,https://github.com/sourcefuse/terraform-aws-arc-billing,"Configures AWS billing alerts and cost management resources including CloudWatch billing alarms, AWS Budgets with threshold notifications, and Cost Anomaly Detection monitors."
+arc-bootstrap,sourcefuse,21301,aws,https://github.com/sourcefuse/terraform-aws-arc-bootstrap,Bootstraps Terraform remote state infrastructure by provisioning an S3 bucket for state storage and a DynamoDB table for state locking. Designed as the foundational first step for any ARC-based AWS environment.
+arc-cache,sourcefuse,24773,aws,https://github.com/sourcefuse/terraform-aws-arc-cache,"Provisions Amazon ElastiCache Redis clusters with support for cluster mode, replication groups, subnet groups, parameter groups, and automatic failover. Suitable for session caching, real-time leaderboards, and pub/sub messaging."
+arc-cicd,sourcefuse,24818,aws,https://github.com/sourcefuse/terraform-aws-arc-cicd,"Provisions AWS CodePipeline CI/CD pipelines with CodeBuild projects, CodeCommit or GitHub source integration, S3 artifact storage, and IAM execution roles. Supports multi-stage build, test, and deploy workflows."
 arc-cloud-custodian,sourcefuse,21263,aws,https://github.com/sourcefuse/terraform-aws-arc-cloud-custodian,
 arc-cloudfront,sourcefuse,21302,aws,https://github.com/sourcefuse/terraform-aws-arc-cloudfront,Repo for managing the ARC CloudFront Terraform Module.
 arc-cognito-userpool,sourcefuse,30212,aws,https://github.com/sourcefuse/terraform-aws-arc-cognito-userpool,
 arc-common-data,sourcefuse,22743,aws,https://github.com/sourcefuse/terraform-aws-arc-common-data,"Provides shared data lookups and common outputs used across ARC Terraform modules. Includes reusable data sources for AWS account information, region details, and availability zone enumeration."
 arc-control-tower-aft,sourcefuse,21308,aws,https://github.com/sourcefuse/terraform-aws-arc-control-tower-aft,"Manages AWS Control Tower Account Factory for Terraform (AFT) configuration. Automates the provisioning of AFT pipeline resources, account vending workflows, and customization framework deployment across AWS Organizations."
-arc-db,sourcefuse,21303,aws,https://github.com/sourcefuse/terraform-aws-arc-db,Repo for managing the Database (RDS + Aurora+Proxy) Terraform Module.
-arc-dms,sourcefuse,26561,aws,https://github.com/sourcefuse/terraform-aws-arc-dms,This Terraform module for AWS Database Migration Service (DMS) simplifies the process of setting up and managing database migrations. 
-arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws-arc-document-db,ARC module to provision an Amazon DocumentDB cluster.
+arc-db,sourcefuse,21303,aws,https://github.com/sourcefuse/terraform-aws-arc-db,"Provisions AWS relational database infrastructure including Amazon RDS instances, Aurora clusters, and RDS Proxy. Supports Multi-AZ deployments, automated backups, parameter groups, and subnet group configuration."
+arc-dms,sourcefuse,26561,aws,https://github.com/sourcefuse/terraform-aws-arc-dms,"Provisions AWS Database Migration Service (DMS) resources including replication instances, source and target endpoints, and replication tasks. Supports homogeneous and heterogeneous database migrations with full-load and CDC modes."
+arc-document-db,sourcefuse,22742,aws,https://github.com/sourcefuse/terraform-aws-arc-document-db,"Provisions an Amazon DocumentDB cluster with configurable instance count, instance class, parameter groups, subnet groups, and security group rules. Supports encryption at rest and automated snapshot retention."
 arc-dynamodb,sourcefuse,30597,aws,https://github.com/sourcefuse/terraform-aws-arc-dynamodb,
-arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2,Terraform module provisioning  EC2 instances and Load Balancer
-arc-ec2-autoscale-group,sourcefuse,28806,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2-autoscale-group,
-arc-ecr,sourcefuse,30377,aws,https://github.com/sourcefuse/terraform-aws-arc-ecr,
-arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,Repo for managing the ECS Fargate Terraform Module.
-arc-efs,sourcefuse,30916,aws,https://github.com/sourcefuse/terraform-aws-arc-efs,Terraform module for EFS
+arc-ec2,sourcefuse,25134,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2,"Provisions AWS EC2 instances with configurable AMI selection, instance types, key pairs, security groups, EBS volumes, and optional Application Load Balancer attachment. Supports user data scripts for instance bootstrapping."
+arc-ec2-autoscale-group,sourcefuse,28806,aws,https://github.com/sourcefuse/terraform-aws-arc-ec2-autoscale-group,"Provisions AWS EC2 Auto Scaling Groups with launch templates, scaling policies (target tracking, step, scheduled), lifecycle hooks, and CloudWatch metric-based triggers for dynamic capacity management."
+arc-ecr,sourcefuse,30377,aws,https://github.com/sourcefuse/terraform-aws-arc-ecr,"Provisions Amazon Elastic Container Registry (ECR) repositories with configurable image scanning, lifecycle policies, cross-account access policies, and encryption settings for container image management."
+arc-ecs,sourcefuse,21306,aws,https://github.com/sourcefuse/terraform-aws-arc-ecs,"Provisions AWS ECS Fargate clusters and services including task definitions, IAM execution roles, CloudWatch log groups, Application Load Balancer integration, and auto-scaling policies."
+arc-efs,sourcefuse,30916,aws,https://github.com/sourcefuse/terraform-aws-arc-efs,"Provisions Amazon Elastic File System (EFS) file systems with configurable performance mode, throughput mode, lifecycle policies, mount targets, and access points for shared persistent storage in containerized workloads."
 arc-eks,sourcefuse,21304,aws,https://github.com/sourcefuse/terraform-aws-arc-eks,"Provisions production-grade Amazon EKS clusters with managed node groups, Fargate profiles, IRSA (IAM Roles for Service Accounts), cluster add-ons, and OIDC provider configuration. Supports both public and private endpoint access."
 arc-eks-addon,sourcefuse,21399,aws,https://github.com/sourcefuse/terraform-aws-arc-eks-addon,"Manages AWS EKS cluster add-ons including VPC CNI, CoreDNS, kube-proxy, EBS CSI driver, and third-party add-ons from the EKS marketplace. Supports version pinning and configuration schema overrides."
-arc-fsx,sourcefuse,31169,aws,https://github.com/sourcefuse/terraform-aws-arc-fsx,Terraform module for SFX
-arc-github-iam,sourcefuse,22929,aws,https://github.com/sourcefuse/terraform-aws-arc-github-iam,To create your OIDC Connection from GitHub to AWS and manage the IAM Policies / Roles to assume in Actions. 
+arc-fsx,sourcefuse,31169,aws,https://github.com/sourcefuse/terraform-aws-arc-fsx,"Provisions Amazon FSx file systems including FSx for Windows File Server, FSx for Lustre, and FSx for NetApp ONTAP. Supports configurable storage capacity, throughput, backup policies, and VPC integration."
+arc-github-iam,sourcefuse,22929,aws,https://github.com/sourcefuse/terraform-aws-arc-github-iam,"Provisions AWS IAM resources for GitHub Actions OIDC federation. Creates an IAM OIDC identity provider, IAM roles with trust policies scoped to specific GitHub repositories, and attaches configurable permission policies."
 arc-github-runner,sourcefuse,22538,aws,https://github.com/sourcefuse/terraform-aws-arc-github-runner,"Provisions self-hosted GitHub Actions runner infrastructure on AWS using ECS Fargate or EC2. Supports auto-scaling based on workflow queue depth, IAM role assignment, and runner group configuration."
-arc-glue,sourcefuse,32126,aws,https://github.com/sourcefuse/terraform-aws-arc-glue,terraform-aws-arc-eks
-arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws-arc-healthcheck,
-arc-iam-identity-center,sourcefuse,31025,aws,https://github.com/sourcefuse/terraform-aws-arc-iam-identity-center,Terraform module for IAM Identity center
-arc-kinesis-firehose,sourcefuse,32128,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-firehose,firehose
-arc-kinesis-stream,sourcefuse,25364,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-stream,Terraform Module to provision Kinesis Streams
+arc-glue,sourcefuse,32126,aws,https://github.com/sourcefuse/terraform-aws-arc-glue,"Provisions AWS Glue resources including crawlers, databases, tables, jobs, and triggers for serverless ETL pipeline orchestration. Supports Glue Data Catalog integration and S3-based data lake workflows."
+arc-healthcheck,sourcefuse,21464,aws,https://github.com/sourcefuse/terraform-aws-arc-healthcheck,"Provisions AWS Route 53 health checks for monitoring endpoint availability. Supports HTTP, HTTPS, and TCP health checks with configurable thresholds, failure notifications via CloudWatch alarms, and SNS alerting."
+arc-iam-identity-center,sourcefuse,31025,aws,https://github.com/sourcefuse/terraform-aws-arc-iam-identity-center,"Provisions AWS IAM Identity Center (formerly AWS SSO) resources including permission sets, account assignments, and group-to-permission-set mappings for centralized multi-account access management."
+arc-kinesis-firehose,sourcefuse,32128,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-firehose,"Provisions Amazon Kinesis Data Firehose delivery streams with configurable destinations including S3, Redshift, OpenSearch, and HTTP endpoints. Supports data transformation via Lambda and format conversion."
+arc-kinesis-stream,sourcefuse,25364,aws,https://github.com/sourcefuse/terraform-aws-arc-kinesis-stream,"Provisions Amazon Kinesis Data Streams with configurable shard count, retention period, server-side encryption, and enhanced fan-out consumer support. Suitable for real-time data ingestion and event streaming pipelines."
 arc-kms,mayank0202,21434,aws,https://github.com/mayank0202/terraform-aws-arc-kms,KMS Module
-arc-kms,sourcefuse,22036,aws,https://github.com/sourcefuse/terraform-aws-arc-kms,
-arc-lambda-function,sourcefuse,30014,aws,https://github.com/sourcefuse/terraform-aws-arc-lambda-function,
-arc-load-balancer,sourcefuse,27578,aws,https://github.com/sourcefuse/terraform-aws-arc-load-balancer,Terraform module for AWS Loadbalancers
-arc-mq-broker,sourcefuse,27104,aws,https://github.com/sourcefuse/terraform-aws-arc-mq-broker,
-arc-msk,sourcefuse,29390,aws,https://github.com/sourcefuse/terraform-aws-arc-msk,
-arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc-network,"Repo for managing the Network (VPC, Subnets, etc) Terraform Module."
-arc-network-firewall,sourcefuse,30596,aws,https://github.com/sourcefuse/terraform-aws-arc-network-firewall,
-arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terraform-aws-arc-observability-stack,"The Observability Terraform module simplifies deploying a robust monitoring and logging stack in EKS. It provides flexibility to choose between AWS OpenSearch or ElasticSearch for search engines and Fluentd or Fluent Bit for log aggregation, along with Prometheus, Grafana, Alertmanager, and Blackbox Exporter for metrics and alerting."
-arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,Repo for managing the OpenSearch Terraform Module.
-arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,
-arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,Terraform module for Amazon Redshift Provisioned Clusters and Redshift Serverless Workgroups
-arc-route53,sourcefuse,31813,aws,https://github.com/sourcefuse/terraform-aws-arc-route53,Terraform module for route53
-arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,terraform module for provisioning s3 buckets
-arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,
-arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,
-arc-security-group,sourcefuse,27129,aws,https://github.com/sourcefuse/terraform-aws-arc-security-group,ARC module for AWS Security Group
-arc-sns,sourcefuse,30280,aws,https://github.com/sourcefuse/terraform-aws-arc-sns,
-arc-sqs,sourcefuse,30471,aws,https://github.com/sourcefuse/terraform-aws-arc-sqs,
-arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,Arc Synthetic monitoring i.e canaries 
-arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Repo for managing the ARC Tags Terraform Module.
+arc-kms,sourcefuse,22036,aws,https://github.com/sourcefuse/terraform-aws-arc-kms,"Provisions AWS KMS Customer Managed Keys (CMKs) with configurable key policies, aliases, automatic rotation, and multi-region key support. Designed for use as an encryption foundation across other ARC modules."
+arc-lambda-function,sourcefuse,30014,aws,https://github.com/sourcefuse/terraform-aws-arc-lambda-function,"Provisions AWS Lambda functions with configurable runtime, memory, timeout, environment variables, VPC configuration, IAM execution roles, and event source mappings for S3, SQS, DynamoDB, and API Gateway triggers."
+arc-load-balancer,sourcefuse,27578,aws,https://github.com/sourcefuse/terraform-aws-arc-load-balancer,"Provisions AWS Application Load Balancers (ALB) and Network Load Balancers (NLB) with listener rules, target groups, health checks, SSL/TLS termination via ACM, and access logging to S3."
+arc-mq-broker,sourcefuse,27104,aws,https://github.com/sourcefuse/terraform-aws-arc-mq-broker,"Provisions Amazon MQ brokers supporting ActiveMQ and RabbitMQ engines. Configures broker instances, storage, network access, user credentials, and CloudWatch logging for managed message broker deployments."
+arc-msk,sourcefuse,29390,aws,https://github.com/sourcefuse/terraform-aws-arc-msk,"Provisions Amazon Managed Streaming for Apache Kafka (MSK) clusters with configurable broker count, instance types, storage, encryption, authentication (TLS/SASL), and CloudWatch monitoring."
+arc-network,sourcefuse,21305,aws,https://github.com/sourcefuse/terraform-aws-arc-network,"Provisions a complete AWS network topology including VPC, public and private subnets across multiple Availability Zones, route tables, internet gateways, NAT gateways, and configurable VPC endpoints."
+arc-network-firewall,sourcefuse,30596,aws,https://github.com/sourcefuse/terraform-aws-arc-network-firewall,"Provisions AWS Network Firewall with firewall policies, stateless and stateful rule groups, and subnet associations. Enables deep packet inspection and centralized network traffic filtering across VPCs."
+arc-observability-stack,sourcefuse,27382,aws,https://github.com/sourcefuse/terraform-aws-arc-observability-stack,"Deploys a full-stack observability platform on Amazon EKS. Supports EFK (Elasticsearch/OpenSearch + Fluentd/Fluent Bit) for log management, Prometheus + Grafana + Alertmanager for metrics, Jaeger for distributed tracing, and SigNoz CE as an all-in-one observability alternative."
+arc-opensearch,sourcefuse,21266,aws,https://github.com/sourcefuse/terraform-aws-arc-opensearch,"Provisions Amazon OpenSearch Service (formerly Elasticsearch) clusters on AWS. Supports configurable instance types, storage, VPC deployment, fine-grained access control, and encryption at rest."
+arc-postgresql-mgmt,sourcefuse,22035,aws,https://github.com/sourcefuse/terraform-aws-arc-postgresql-mgmt,"Manages PostgreSQL database objects within an existing RDS or Aurora PostgreSQL instance. Provisions databases, roles, schemas, and grants using the PostgreSQL Terraform provider — ideal for post-provisioning database setup."
+arc-redshift,sourcefuse,29843,aws,https://github.com/sourcefuse/terraform-aws-arc-redshift,"Provisions Amazon Redshift infrastructure including provisioned clusters and Redshift Serverless workgroups and namespaces. Supports parameter groups, subnet groups, encryption, and snapshot management."
+arc-route53,sourcefuse,31813,aws,https://github.com/sourcefuse/terraform-aws-arc-route53,"Provisions Amazon Route 53 hosted zones, DNS records (A, CNAME, MX, TXT, alias), health check associations, and traffic routing policies including weighted, latency-based, and failover routing."
+arc-s3,sourcefuse,25507,aws,https://github.com/sourcefuse/terraform-aws-arc-s3,"Provisions Amazon S3 buckets with configurable versioning, server-side encryption, lifecycle rules, access logging, bucket policies, CORS configuration, and optional static website hosting."
+arc-sagemaker,sourcefuse,29659,aws,https://github.com/sourcefuse/terraform-aws-arc-sagemaker,"Provisions Amazon SageMaker resources including notebook instances, domains, user profiles, and execution roles. Supports lifecycle configurations for automated environment setup in ML development workflows."
+arc-security,sourcefuse,21942,aws,https://github.com/sourcefuse/terraform-aws-arc-security,"Provisions a comprehensive AWS security baseline including AWS Config rules, Security Hub standards, GuardDuty detectors, IAM password policies, and CloudTrail audit logging. Designed to enforce CIS AWS Foundations compliance."
+arc-security-group,sourcefuse,27129,aws,https://github.com/sourcefuse/terraform-aws-arc-security-group,"Provisions AWS Security Groups with configurable ingress and egress rules. Supports rule definition via CIDR blocks, security group references, and prefix lists. Designed for reuse across compute, database, and load balancer resources."
+arc-sns,sourcefuse,30280,aws,https://github.com/sourcefuse/terraform-aws-arc-sns,"Provisions Amazon SNS topics with configurable access policies, subscription endpoints (email, SQS, Lambda, HTTP), message filtering, and server-side encryption for event-driven notification workflows."
+arc-sqs,sourcefuse,30471,aws,https://github.com/sourcefuse/terraform-aws-arc-sqs,"Provisions Amazon SQS queues including standard and FIFO queues with configurable visibility timeout, message retention, dead-letter queue redrive policies, and server-side encryption."
+arc-synthetic-monitoring,sourcefuse,24703,aws,https://github.com/sourcefuse/terraform-aws-arc-synthetic-monitoring,"Provisions AWS CloudWatch Synthetics canaries for synthetic monitoring of application endpoints. Supports HTTP and API canary scripts, configurable run schedules, S3 artifact storage, and CloudWatch alarm integration."
+arc-tags,sourcefuse,21307,aws,https://github.com/sourcefuse/terraform-aws-arc-tags,Generates a standardized set of AWS resource tags following the ARC tagging convention. Outputs a consistent tag map that can be applied across all resources in a Terraform project to ensure compliance and cost allocation.
 arc-transit-gateway,sourcefuse,25926,aws,https://github.com/sourcefuse/terraform-aws-arc-transit-gateway,Terraform Module for Transit Gateway
 arc-vpc-peering,sourcefuse,31195,aws,https://github.com/sourcefuse/terraform-aws-arc-vpc-peering,Terraform module for VPC peering
-arc-vpn,sourcefuse,21309,aws,https://github.com/sourcefuse/terraform-aws-arc-vpn,Terraform module for managing AWS Client VPN and Site to Site VPN
-arc-waf,sourcefuse,21310,aws,https://github.com/sourcefuse/terraform-aws-arc-waf,Terraform module for supporting WAF configuration
-arc-workspace,sourcefuse,21261,aws,https://github.com/sourcefuse/terraform-aws-arc-workspace,Repo for managing the Workspace Terraform Module.
+arc-vpn,sourcefuse,21309,aws,https://github.com/sourcefuse/terraform-aws-arc-vpn,Provisions AWS VPN connectivity including AWS Client VPN endpoints for remote user access and AWS Site-to-Site VPN for on-premises network integration. Supports certificate-based and Active Directory authentication.
+arc-waf,sourcefuse,21310,aws,https://github.com/sourcefuse/terraform-aws-arc-waf,"Provisions AWS WAF v2 Web ACLs with managed rule groups, custom rules, IP set references, and rate-based rules. Supports association with CloudFront distributions, Application Load Balancers, and API Gateway."
+arc-workspace,sourcefuse,21261,aws,https://github.com/sourcefuse/terraform-aws-arc-workspace,"Provisions and manages AWS Workspaces environments using Terraform. Automates the deployment of virtual desktop infrastructure (VDI) including directory configuration, workspace bundles, and user assignments."
 arch-adb,oracle-devrel,10863,oci,https://github.com/oracle-devrel/terraform-oci-arch-adb,This is a Terraform module that deploys Autonomous Database (ADB) on Oracle Cloud Infrastructure (OCI).
 arch-atp-private,oracle-devrel,11045,oci,https://github.com/oracle-devrel/terraform-oci-arch-atp-private,ATP Private Endpoint
 arch-autoscaling,oracle-devrel,11046,oci,https://github.com/oracle-devrel/terraform-oci-arch-autoscaling,Oracle Cloud Insfrastruture Autoscaling Web application
@@ -2086,7 +2086,7 @@ avm-res-compute-gallery,Azure,27155,azurerm,https://github.com/Azure/terraform-a
 avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,"AVM Module for Compute Host groups, also known as Dedicated Host Groups"
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
-avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,Terraform Azure Verified Resource Module for Virtual Machine
+avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,
 avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,Terraform Azure Verified Resource Module for Container Instance
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,Terraform Azure Verified Resource Module for Azure Container Registry (ACR)
@@ -2954,6 +2954,7 @@ bootstrap,trussworks,5593,aws,https://github.com/trussworks/terraform-aws-bootst
 bootstrap,upmaru,19220,instellar,https://github.com/upmaru/terraform-instellar-bootstrap,Terraform module for bootstrapping cluster on https://opsmaru.com
 bootstrap,vexingcodes,5416,aws,https://github.com/vexingcodes/terraform-aws-bootstrap,A walkthrough and automation for the initial steps to use S3 for Terraform state storage.
 bootstrap-hvd,hashicorp,26369,boundary,https://github.com/hashicorp/terraform-boundary-bootstrap-hvd,A Terraform module for bootstrapping a Boundary Enterprise Controller as described in HashiCorp Validated Designs
+bootstrap-s3-backend,qlap04,32373,aws,https://github.com/qlap04/terraform-aws-bootstrap-s3-backend,
 bootstrap_git,dhoppeIT,28552,flux,https://github.com/dhoppeIT/terraform-flux-bootstrap_git,
 bootstrapper,USSBA,4768,aws,https://github.com/USSBA/terraform-aws-bootstrapper,A Terraform Module to create initial resources needed to use Terraform in AWS
 bot,stacklet,30580,msteams,https://github.com/stacklet/terraform-msteams-bot,
@@ -3580,6 +3581,7 @@ cloud-postgres,layer-3,27307,google,https://github.com/layer-3/terraform-google-
 cloud-postgres-admin,layer-3,27308,google,https://github.com/layer-3/terraform-google-cloud-postgres-admin,
 cloud-private-link-aws,math280h,12965,elastic,https://github.com/math280h/terraform-elastic-cloud-private-link-aws,Terraform module for Elastic Cloud deployments using AWS PrivateLink
 cloud-project,amancevice,1198,google,https://github.com/amancevice/terraform-google-cloud-project,Terraform configuration for generic Google Cloud Project
+cloud-region-abbreviation-mapping,PartTimeLegend,32371,ibm,https://github.com/PartTimeLegend/terraform-ibm-cloud-region-abbreviation-mapping,Really simple map to convert IBM Cloud regions to abbreviated names.
 cloud-registration,CrowdStrike,28318,aws,https://github.com/CrowdStrike/terraform-aws-cloud-registration,Register AWS account to Falcon
 cloud-registration,CrowdStrike,29423,azurerm,https://github.com/CrowdStrike/terraform-azurerm-cloud-registration,Register Azure tenant to Falcon
 cloud-registration,CrowdStrike,31098,google,https://github.com/CrowdStrike/terraform-google-cloud-registration,
@@ -11024,7 +11026,7 @@ kubeflow-cluster,Deepbody-inc,5654,gke,https://github.com/Deepbody-inc/terraform
 kubeflow-cluster,spotify,3725,gke,https://github.com/spotify/terraform-gke-kubeflow-cluster,
 kubeflow-metal,kubeflow-onprem,13276,kustomize,https://github.com/kubeflow-onprem/terraform-kustomize-kubeflow-metal,
 kubegreen,fabiocicerchia,31135,helm,https://github.com/fabiocicerchia/terraform-helm-kubegreen,
-kubernetes,ClyentSoftwares,32323,hetzner,https://github.com/ClyentSoftwares/terraform-hetzner-kubernetes,
+kubernetes,ClyentSoftwares,32374,hetzner,https://github.com/ClyentSoftwares/terraform-hetzner-kubernetes,
 kubernetes,ESSch,2621,google,https://github.com/ESSch/terraform-google-kubernetes,create kubernetes cluster which to help to terraform
 kubernetes,JWDobken,8129,hcloud,https://github.com/JWDobken/terraform-hcloud-kubernetes,Terraform module to provide Kubernetes for the Hetzner Cloud (non-official)
 kubernetes,JetBrains,18544,aws,https://github.com/JetBrains/terraform-aws-kubernetes,This repository contains a Terraform Module that implements an architectural blueprint for EKS.
@@ -14616,6 +14618,7 @@ plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-
 platform,Jamf-Concepts,28137,jamf,https://github.com/Jamf-Concepts/terraform-jamf-platform,Terraform configurations around the Jamf Platform
 platform,actualstack,29467,azure,https://github.com/actualstack/terraform-azure-platform,
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
+platform,cilly-yllic,32375,google,https://github.com/cilly-yllic/terraform-google-platform,
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
 platform,graymeta,509,aws,https://github.com/graymeta/terraform-aws-platform,Terraform module for the deployment of the GrayMeta Platform into AWS. Contact GrayMeta for an enterprise license to gain access to the required AMIs.
 platform,kuptan-platform,17570,aws,https://github.com/kuptan-platform/terraform-aws-platform,terraform code for creating a Kubernetes platform on AWS
@@ -15817,6 +15820,8 @@ region,cawcaw253,22080,aws,https://github.com/cawcaw253/terraform-aws-region,Ter
 region-abbreviation-mapping,PartTimeLegend,15262,azure,https://github.com/PartTimeLegend/terraform-azure-region-abbreviation-mapping,Really simple map to convert Azure regions to abbreviated names.
 region-abbreviation-mapping,PartTimeLegend,32366,gcp,https://github.com/PartTimeLegend/terraform-gcp-region-abbreviation-mapping,Really simple map to convert GCP regions to abbreviated names.
 region-abbreviation-mapping,PartTimeLegend,32367,aws,https://github.com/PartTimeLegend/terraform-aws-region-abbreviation-mapping,Really simple map to convert AWS regions to abbreviated names.
+region-abbreviation-mapping,PartTimeLegend,32369,alibaba,https://github.com/PartTimeLegend/terraform-alibaba-region-abbreviation-mapping,Really simple map to convert Alibaba regions to abbreviated names.
+region-abbreviation-mapping,PartTimeLegend,32370,oci,https://github.com/PartTimeLegend/terraform-oci-region-abbreviation-mapping,Really simple map to convert OCI regions to abbreviated names.
 region-detail,memes,17735,google,https://github.com/memes/terraform-google-region-detail,
 region-info,OmnipotentOwl,17330,azurerm,https://github.com/OmnipotentOwl/terraform-azurerm-region-info,Terraform Module for azure regional information
 region-map,Build5Nines,32198,azure,https://github.com/Build5Nines/terraform-azure-region-map,
@@ -17067,7 +17072,7 @@ s3backend,miremail,7598,aws,https://github.com/slowlogic/terraform-aws-s3backend
 s3backend,mqssi,12178,aws,https://github.com/mqssi/terraform-aws-s3backend,
 s3backend,mr1jingles,9686,aws,https://github.com/mr1jingles/terraform-aws-s3backend,
 s3backend,nbaron1,27577,aws,https://github.com/nbaron1/terraform-aws-s3backend,
-s3backend,nicodewet,26028,aws,https://github.com/nicodewet/terraform-aws-s3backend,
+s3backend,nicodewet,26028,aws,https://github.com/nicodewet/terraform-aws-s3backend,Terraform S3 backend module - with personal preferences (adjust to suit your needs)
 s3backend,njabsm,23127,aws,https://github.com/njabsm/terraform-aws-s3backend,
 s3backend,noushi,4152,aws,https://github.com/noushi/terraform-aws-s3backend,
 s3backend,oksuriini,23527,aws,https://github.com/oksuriini/terraform-aws-s3backend,
@@ -17330,7 +17335,7 @@ secret,SevenPico,17718,aws,https://github.com/SevenPico/terraform-aws-secret,
 secret,cloud-labs-infra,19018,kubernetes,https://github.com/cloud-labs-infra/terraform-kubernetes-secret,
 secret,emyller,12195,aws,https://github.com/emyller/terraform-aws-secret,
 secret,garbetjie,5775,kubernetes,https://github.com/garbetjie/terraform-kubernetes-secret,
-secret,infrahouse,24722,aws,https://github.com/infrahouse/terraform-aws-secret,Terraform module for a secret with owner/writer/reader roles.
+secret,infrahouse,24722,aws,https://github.com/infrahouse/terraform-aws-secret,"Terraform module for AWS Secrets Manager secrets with owner/writer/reader IAM roles, automatic rotation support, and cross-account access policies. "
 secret,lptech-io,19285,aws,https://github.com/lptech-io/terraform-aws-secret,Terraform module for Secret creation
 secret,project-init,30830,aws,https://github.com/project-init/terraform-aws-secret,
 secret,ptonini,16763,vault,https://github.com/ptonini/terraform-vault-secret,
@@ -21839,6 +21844,7 @@ wireguard-config-generator,leptonyu,7469,icymint,https://github.com/leptonyu/ter
 wireguard-endpoint,gavmain,7992,aws,https://github.com/gavmain/terraform-aws-wireguard-endpoint,A Terraform module which sets up an EC2 instance as a Wireguard endpoint
 wireguard-image,armorfret,2305,linode,https://github.com/armorfret-archived/terraform-linode-wireguard-image,Module to create a re-usable Wireguard Linode Image
 wireguard-stackscript,armorfret,2424,linode,https://github.com/armorfret-archived/terraform-linode-wireguard-stackscript,Terraformed Stackscript for provisioning WireGuard Linodes
+wireguard-vpn,edgarpf,32372,aws,https://github.com/edgarpf/terraform-aws-wireguard-vpn,
 withpolicy,nimeshsv814,32284,iam,https://github.com/nimeshsv814/terraform-iam-withpolicy,
 woodpecker,Dan6erbond,17462,kubernetes,https://github.com/Dan6erbond/terraform-kubernetes-woodpecker,
 wordpress,AleksaSka,12772,aws,https://github.com/aleksaska/terraform-aws-wordpress,
