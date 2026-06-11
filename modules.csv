@@ -545,6 +545,7 @@ ak-serverless,yaalalabs,31412,azurerm,https://github.com/yaalalabs/terraform-azu
 ak-serverless,yaalalabs,32408,google,https://github.com/yaalalabs/terraform-google-ak-serverless,
 akanksha,akanksha-n-jain,13407,aws,https://github.com/akanksha-n-jain/terraform-aws-akanksha,
 akhilstorage,akhil95,10158,azure,https://github.com/akhil95/terraform-azure-akhilstorage,
+akif-test-vpc,akif171,32416,aws,https://github.com/akif171/terraform-aws-akif-test-vpc,
 aks,Ahmeddevops-Github,7329,azure,https://github.com/ahmedak-devops/terraform-azure-aks,
 aks,Aizada312,8047,azure,https://github.com/Aizada312/terraform-azure-aks,
 aks,Aizhamal2312,7013,azure,https://github.com/Aizhamal2312/terraform-azure-aks7,
@@ -790,7 +791,6 @@ alerts,CloudNationHQ,26457,azure,https://github.com/CloudNationHQ/terraform-azur
 alerts,delivops,26227,groundcover,https://github.com/delivops/terraform-groundcover-alerts,
 alerts,delivops,30275,grafana,https://github.com/delivops/terraform-grafana-alerts,
 alerts,falcon-terraform-modules,23865,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-alerts,"This Terraform module constructs and configures the necessary resources for NewRelic alert settings, including Alert Conditions, Alert Policies, Destinations, and Workflows."
-alerts-proxy,bonddim,32359,azurerm,https://github.com/bonddim/terraform-azurerm-alerts-proxy,
 alerts-to-s3,lacework,16278,aws,https://github.com/lacework/terraform-aws-alerts-to-s3,Terraform Lacework Alerts to AWS-S3
 algo,armorfret,2199,linode,https://github.com/armorfret-archived/terraform-linode-algo,Terraform module for creating an Algo VPN on a Linode
 algo-base,armorfret,2197,linode,https://github.com/armorfret-archived/terraform-linode-algo-base,Base Linode Image with Algo downloaded but not configured
@@ -5312,6 +5312,7 @@ dev-test-lab,kumarvna,9277,azurerm,https://github.com/kumarvna/terraform-azurerm
 dev-vm,armakuni,21610,azure,https://github.com/armakuni/terraform-azure-dev-vm,A terraform module to create a VM in Azure with some useful dev tools pre-provisioned.
 dev-vpn,tedivm,12434,aws,https://github.com/tedivm/terraform-aws-dev-vpn,Terraform module for lauching a VPN and configuring the local client
 develop-apps,alibabacloud-automation,31272,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-develop-apps,
+developer-connect,altissimo-hq,32417,google,https://github.com/altissimo-hq/terraform-google-developer-connect,Creates Google Cloud Developer Connect Connections and Repositories
 development-module,Max-Gabriel-Susman,12470,gaia,https://github.com/Max-Gabriel-Susman/terraform-gaia-development-module,A terraform module I wrote and have found useful for testing Gaia's provider during it's development and hopefully you do too.
 devenv-repo,container-labs,7655,github,https://github.com/container-labs/terraform-github-devenv-repo,
 devhost,v-bus,4417,hcloud,https://github.com/v-bus/terraform-hcloud-devhost,
@@ -12279,32 +12280,52 @@ mcaf-account-baseline,schubergphilis,24635,aws,https://github.com/schubergphilis
 mcaf-aurora,schubergphilis,18378,aws,https://github.com/schubergphilis/terraform-aws-mcaf-aurora,
 mcaf-avm,schubergphilis,24633,aws,https://github.com/schubergphilis/terraform-aws-mcaf-avm,
 mcaf-backupvault,schubergphilis-ep,32412,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-backupvault,
+mcaf-bastion,schubergphilis-ep,32424,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-bastion,
+mcaf-branchprotection,schubergphilis-ep,32423,azuredevops,https://github.com/schubergphilis-ep/terraform-azuredevops-mcaf-branchprotection,
 mcaf-budget,schubergphilis,22971,aws,https://github.com/schubergphilis/terraform-aws-mcaf-budget,
 mcaf-certificate,schubergphilis,25643,aws,https://github.com/schubergphilis/terraform-aws-mcaf-certificate,
 mcaf-clientvpn,schubergphilis,28703,aws,https://github.com/schubergphilis/terraform-aws-mcaf-clientvpn,
 mcaf-cloudfront,schubergphilis,29403,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cloudfront,
+mcaf-container-group,schubergphilis-ep,32422,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-container-group,
+mcaf-container-registry,schubergphilis-ep,32419,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-container-registry,
 mcaf-control-tower,schubergphilis-ep,32232,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-control-tower,
+mcaf-core,schubergphilis-ep,32426,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-core,
 mcaf-cost-and-usage-reports,schubergphilis,22972,aws,https://github.com/schubergphilis/terraform-aws-mcaf-cost-and-usage-reports,
 mcaf-datadog,schubergphilis,26110,aws,https://github.com/schubergphilis/terraform-aws-mcaf-datadog,
+mcaf-datadog-forwarder,schubergphilis-ep,32425,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-datadog-forwarder,
+mcaf-datadog-integrations,schubergphilis-ep,32418,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-datadog-integrations,
+mcaf-diskencryptionset,schubergphilis-ep,32420,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-diskencryptionset,
+mcaf-dns-zones,schubergphilis-ep,32421,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-dns-zones,
 mcaf-dynamodb,schubergphilis,19582,aws,https://github.com/schubergphilis/terraform-aws-mcaf-dynamodb,
 mcaf-ecr,schubergphilis,22969,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ecr,
 mcaf-energy-labeler,schubergphilis,26277,aws,https://github.com/schubergphilis/terraform-aws-mcaf-energy-labeler,
+mcaf-eventhub,schubergphilis-ep,32428,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-eventhub,
 mcaf-fargate,schubergphilis,26098,aws,https://github.com/schubergphilis/terraform-aws-mcaf-fargate,
+mcaf-functionapp,schubergphilis-ep,32431,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-functionapp,
 mcaf-gitlab-oidc,schubergphilis,24435,aws,https://github.com/schubergphilis/terraform-aws-mcaf-gitlab-oidc,Terraform module to configure GitLab as an IAM OIDC identity provider in AWS 
 mcaf-gitlab-runner-autoscaler,schubergphilis-ep,32017,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-gitlab-runner-autoscaler,
 mcaf-glue-job,schubergphilis,27629,aws,https://github.com/schubergphilis/terraform-aws-mcaf-glue-job,
 mcaf-ipam,schubergphilis,26033,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ipam,
+mcaf-ipgroups,schubergphilis-ep,32436,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-ipgroups,
+mcaf-key-vault,schubergphilis-ep,32434,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-key-vault,
 mcaf-kms,schubergphilis,22973,aws,https://github.com/schubergphilis/terraform-aws-mcaf-kms,
 mcaf-lambda,schubergphilis,21429,aws,https://github.com/schubergphilis/terraform-aws-mcaf-lambda,
 mcaf-landing-zone,schubergphilis,24634,aws,https://github.com/schubergphilis/terraform-aws-mcaf-landing-zone,
 mcaf-managed-grafana,schubergphilis,29402,aws,https://github.com/schubergphilis/terraform-aws-mcaf-managed-grafana,
 mcaf-monitor,schubergphilis,26142,datadog,https://github.com/schubergphilis/terraform-datadog-mcaf-monitor,
+mcaf-monitoring,schubergphilis-ep,32433,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-monitoring,
+mcaf-network,schubergphilis-ep,32427,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-network,
 mcaf-network-firewall,schubergphilis,22436,aws,https://github.com/schubergphilis/terraform-aws-mcaf-network-firewall,
 mcaf-oam,schubergphilis,28418,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oam,
 mcaf-oidc,schubergphilis,28133,aws,https://github.com/schubergphilis/terraform-aws-mcaf-oidc,
 mcaf-organization,schubergphilis,27672,aws,https://github.com/schubergphilis/terraform-aws-mcaf-organization,
+mcaf-pdnsresolver,schubergphilis-ep,32430,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-pdnsresolver,
+mcaf-postgresql-flexibleserver,schubergphilis-ep,32432,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-postgresql-flexibleserver,
+mcaf-private-dns-zones,schubergphilis-ep,32429,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-private-dns-zones,
+mcaf-private-endpoints,schubergphilis-ep,32437,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-private-endpoints,
 mcaf-project,schubergphilis,22970,gitlab,https://github.com/schubergphilis/terraform-gitlab-mcaf-project,
 mcaf-ram-resource-share,schubergphilis,29984,aws,https://github.com/schubergphilis/terraform-aws-mcaf-ram-resource-share,
+mcaf-recoveryservicesvault,schubergphilis-ep,32435,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-recoveryservicesvault,
 mcaf-redshift,schubergphilis,26147,aws,https://github.com/schubergphilis/terraform-aws-mcaf-redshift,
 mcaf-repository,schubergphilis,19580,github,https://github.com/schubergphilis/terraform-github-mcaf-repository,
 mcaf-resource-scheduler,schubergphilis,26127,aws,https://github.com/schubergphilis/terraform-aws-mcaf-resource-scheduler,
@@ -14040,6 +14061,7 @@ nuke-bomber,masterpointio,9191,aws,https://github.com/masterpointio/terraform-aw
 null,scaffold,4727,null,https://github.com/scaffold/terraform-null-null,
 null-label,appzen-oss,11629,aws,https://github.com/appzen-oss/terraform-aws-null-label,"Terraform Module to define a consistent naming convention by (namespace, stage, name, [attributes])"
 null-module,yiskaneto,24756,terragrunt,https://github.com/yiskaneto/terraform-terragrunt-null-module,Terraform null module to be used by Terragrunt's generate configuration block
+nullafi-shield,Nullafi,32438,google,https://github.com/Nullafi/terraform-google-nullafi-shield,Terraform module to deploy Nullafi Shield on GCP — docker-compose stack on a single VM with optional HTTPS and Cloud DNS.
 nullresource,abhinav-tripathi14,29206,abc,https://github.com/abhinav-tripathi14/terraform-abc-nullresource,
 nva,luke-taylor,20183,azurerm,https://github.com/luke-taylor/terraform-azurerm-nva,A Terraform module for deploying NVAs in Azure. 
 nva-panos,cybergavin,10045,azurerm,https://github.com/cybergavin/terraform-azurerm-nva-panos,Terraform module to create one or more Palo Alto Networks (PAN-OS) VM-Series Network Virtual Appliances (NVAs)
