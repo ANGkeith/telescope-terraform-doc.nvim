@@ -4851,6 +4851,7 @@ cost-billing-alarm,binbashar,2679,aws,https://github.com/binbashar/terraform-aws
 cost-billing-alarm,clouddrove,15452,aws,https://github.com/clouddrove/terraform-aws-cost-billing-alarm,A Terraform module to create aws cost billing alarm resource on AWS with sns topic. 
 cost-budget,binbashar,2587,aws,https://github.com/binbashar/terraform-aws-cost-budget,Terraform module which creates Cost Explorer budget with notifications with optional SNS resources on AWS https://registry.terraform.io/modules/binbashar/cost-budget
 cost-explorer-monthly-billing-report,mnanchev,5534,aws,https://github.com/mnanchev/terraform-aws-cost-explorer-monthly-billing-report,Monthly Billing Report from cost explorer transformed to csv
+cost-management,libre-devops,32803,azurerm,https://github.com/libre-devops/terraform-azurerm-cost-management,
 cost-management,unifa-inc,21950,aws,https://github.com/unifa-inc/terraform-aws-cost-management,
 cost-notifier,kristijaneftimovpcg,25395,aws,https://github.com/kristijaneftimovpcg/terraform-aws-cost-notifier,"This module calculates the daily, weekly or monthly cost in AWS, and generates the forecast cost for the current month"
 cost-reporting,cookielab,31420,aws,https://github.com/cookielab/terraform-aws-cost-reporting,Cookielab AWS Cost and Usage Reporting (CUR) terraform module
@@ -5389,6 +5390,7 @@ deso-nodes,domderen,10854,aws,https://github.com/domderen/terraform-aws-deso-nod
 destroy-default-vpc,transcom,29824,aws,https://github.com/transcom/terraform-aws-destroy-default-vpc,Default VPC resource management for AWS Accounts
 destroy-default-vpc,trussworks,5710,aws,https://github.com/trussworks/terraform-aws-destroy-default-vpc,Default VPC resource management for AWS Accounts
 destroy-delay,ausmartway,26484,time,https://github.com/ausmartway/terraform-time-destroy-delay,
+detect-os,libre-devops,32806,external,https://github.com/libre-devops/terraform-external-detect-os,
 detection,osnatashush,30244,drift,https://github.com/osnatashush/terraform-drift-detection,
 detectors,claranet,6884,signalfx,https://github.com/claranet/terraform-signalfx-detectors,Collection of terraform modules for SignalFx detectors.
 detectors,xp-1000,6885,signalfx,https://github.com/xp-1000/terraform-signalfx-detectors,Collection of terraform modules for SignalFX detectors.
@@ -5435,7 +5437,7 @@ diagnostic-settings,carlzxc71,30908,azurerm,https://github.com/carlzxc71/terrafo
 diagnostic-settings,claranet,6879,azurerm,https://github.com/claranet/terraform-azurerm-diagnostic-settings,Fork of the `terraform-azurerm-diagnostic-settings` module with Claranet's contributions and improvements.
 diagnostic-settings,jsathler,21095,azurerm,https://github.com/jsathler/terraform-azurerm-diagnostic-settings,
 diagnostic-settings,justincampbell,2523,azurerm,https://github.com/justincampbell/terraform-azurerm-diagnostic-settings,
-diagnostic-settings,libre-devops,23224,azurerm,https://github.com/libre-devops/terraform-azurerm-diagnostic-settings,A module used to deploy diagnostic settings 🕵️‍♂️
+diagnostic-settings,libre-devops,23224,azurerm,https://github.com/libre-devops/terraform-azurerm-diagnostic-settings,
 diagnostic_setting,andrewCluey,6513,azurerm,https://github.com/andrewCluey/terraform-azurerm-diagnostic_setting,
 diana11d,Diana11d,23907,helm,https://github.com/Diana11d/terraform-helm-diana11d,
 dibbs-ecr-viewer,CDCgov,26698,aws,https://github.com/CDCgov/terraform-aws-dibbs-ecr-viewer,
@@ -9130,6 +9132,7 @@ geolocation,netascode,9841,aci,https://github.com/netascode/terraform-aci-geoloc
 geoweb,fmidev,21439,aws,https://github.com/fmidev/terraform-aws-geoweb,GeoWeb Terraform module
 gergo-public,kadigergo,15403,aws,https://github.com/kadigergo/terraform-aws-gergo-public,
 get-endpoint,BrianMMcClain,21490,http,https://github.com/BrianMMcClain/terraform-http-get-endpoint,
+get-ip-address,libre-devops,32807,external,https://github.com/libre-devops/terraform-external-get-ip-address,
 get-manifests,ptonini,17189,kubectl,https://github.com/ptonini/terraform-kubectl-get-manifests,
 get-secret,MrJoshLab,7267,kubernetes,https://github.com/iamalirezaj/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
 get-secret,gearnode,854,kubernetes,https://github.com/gearnode/terraform-kubernetes-get-secret,Terraform module to get value in Kubernetes secrets store
@@ -9243,6 +9246,7 @@ github-runner,markti,23335,azurerm,https://github.com/markti/terraform-azurerm-g
 github-runner,philips-labs,27362,aws,https://github.com/philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS (MOVED)
 github-runner,politician,13583,digitalocean,https://github.com/politician/terraform-digitalocean-github-runner,Terraform module to create a GitHub runner in a Digital Ocean droplet
 github-runner,waylew-lexis,11397,azurerm,https://github.com/waylew-lexis/terraform-azurerm-github-runner,terraform-azurerm-github-runner
+github-runner-lambda-microvms,mkdev-me,32805,aws,https://github.com/mkdev-me/terraform-aws-github-runner-lambda-microvms,
 github-runners,cloudandthings,15527,aws,https://github.com/cloudandthings/terraform-aws-github-runners,
 github-runners-ec2,cloudandthings,26887,aws,https://github.com/cloudandthings/terraform-aws-github-runners-ec2,
 github-security-group,opszero,17605,aws,https://github.com/opszero/terraform-aws-github-security-group,
@@ -10966,7 +10970,7 @@ keyvault,ezlee,17736,azurerm,https://github.com/ezlee/terraform-azurerm-keyvault
 keyvault,getindata,16852,azurerm,https://github.com/getindata/terraform-azurerm-keyvault,Terraform module for managing Azure Key Vault
 keyvault,imjoseangel,10907,azurerm,https://github.com/imjoseangel/terraform-azurerm-keyvault,Terraform Module for deploying an Azure Key Vault
 keyvault,ionicloud,21617,azurerm,https://github.com/ionicloud/terraform-azurerm-keyvault,
-keyvault,libre-devops,13515,azurerm,https://github.com/libre-devops/terraform-azurerm-keyvault,"A module used to deploy an Azure key vault, based on some parameters"
+keyvault,libre-devops,13515,azurerm,https://github.com/libre-devops/terraform-azurerm-keyvault,
 keyvault,mikamakusa,25733,azure,https://github.com/mikamakusa/terraform-azure-keyvault,
 keyvault,rkoosaar,6569,azurerm,https://github.com/rkoosaar/terraform-azurerm-keyvault,Terraform module for creating and managing Azure Keyvault resources
 keyvault,wanted-cloud,28635,azure,https://github.com/wanted-cloud/terraform-azure-keyvault,Terraform building block module for management of Azure Keyvault.
@@ -12129,7 +12133,7 @@ log-analytics-workspace,blackbird-cloud,23073,azurerm,https://github.com/blackbi
 log-analytics-workspace,bootlabstech,15510,azurerm,https://github.com/bootlabstech/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,cyber-scot,21544,azurerm,https://github.com/cyber-scot/terraform-azurerm-log-analytics-workspace,A module used to deploy a log analytics workspace 🪵🕵️
 log-analytics-workspace,ionicloud,21618,azurerm,https://github.com/ionicloud/terraform-azurerm-log-analytics-workspace,
-log-analytics-workspace,libre-devops,13372,azurerm,https://github.com/libre-devops/terraform-azurerm-log-analytics-workspace,"A module which is used to deploy a log analytics workspace into a subscription.  Alternatively, if can be used to fetch info about an existing workspace, making this module multi-purpose.  Be sure to pass a provider block if you wish to perform a read on a new subscription :star:"
+log-analytics-workspace,libre-devops,13372,azurerm,https://github.com/libre-devops/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,lupusllc,30921,azurerm,https://github.com/lupusllc/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,mpaas-ai-module,32619,azurerm,https://github.com/mpaas-ai-module/terraform-azurerm-log-analytics-workspace,
 log-analytics-workspace,ptonini,21192,azurerm,https://github.com/ptonini/terraform-azurerm-log-analytics-workspace,
@@ -13901,6 +13905,7 @@ network-security-group,rhythmictech,5093,azurerm,https://github.com/rhythmictech
 network-security-group,srinivasan2022,24632,azurerm,https://github.com/srinivasan2022/terraform-azurerm-network-security-group,
 network-security-group,tomarv2,12221,azure,https://github.com/tomarv2/terraform-azure-network-security-group,Terraform module for Azure Network Security Group
 network-security-group,wang415,9502,azurerm,https://github.com/wang415/terraform-azurerm-network-security-group,Terraform module to create a network security group and assign it to the specified subnet
+network-security-perimeter,libre-devops,32804,azurerm,https://github.com/libre-devops/terraform-azurerm-network-security-perimeter,
 network-skeleton,OT-CLOUD-KIT,4824,aws,https://github.com/OT-CLOUD-KIT/terraform-aws-network-skeleton,This repository consists of Terraform module for network resources in AWS VPC.
 network-spoke,cdornele,27759,azure,https://github.com/cdornele/terraform-azure-network-spoke,Azure Virtual Network - Spoke - Terraform Module
 network-sqlmi,doherty100,2474,azurerm,https://github.com/doherty100/terraform-azurerm-network-sqlmi,Terraform Azure RM Module for Azure SQL Database Managed Instance Network
@@ -14215,7 +14220,7 @@ nsg,cloud-native-toolkit,16042,azure,https://github.com/cloud-native-toolkit/ter
 nsg,cyber-scot,21150,azurerm,https://github.com/cyber-scot/terraform-azurerm-nsg,A module used to deploy a sensible default NSG to Azure 😎
 nsg,dcos-terraform,1532,azurerm,https://github.com/dcos-terraform/terraform-azurerm-nsg,
 nsg,hyukjuns,26190,azurerm,https://github.com/hyukjuns/terraform-azurerm-nsg,Connected to TFC Module Registry
-nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,"A module used to generate a sensible default NSG and attach it to an Azure subnet.  Note, this NSG is deployed with some default rules including an explicit deny :bomb:"
+nsg,libre-devops,13048,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg,
 nsg,miljodir,22046,azurerm,https://github.com/miljodir/terraform-azurerm-nsg,Creates an NSG with some default rules
 nsg,mpaas-ai-module,32621,azurerm,https://github.com/mpaas-ai-module/terraform-azurerm-nsg,
 nsg,qbeyond,20013,azurerm,https://github.com/qbeyond/terraform-azurerm-nsg,Creates a network security group that takes a .yaml File as input where network security group rules are defined.
@@ -14227,6 +14232,7 @@ nsg-administration,Pwd9000-ML,16598,azurerm,https://github.com/Pwd9000-ML/terraf
 nsg-association,srinivasan2022,24840,azurerm,https://github.com/srinivasan2022/terraform-azurerm-nsg-association,
 nsg-rules,aiyor-terraform-modules,21830,azurerm,https://github.com/aiyor-terraform-modules/terraform-azurerm-nsg-rules,Terraform module for managing Azure NSG rules
 nsg-rules,aiyor-tf-modules,24489,azurerm,https://github.com/aiyor-tf-modules/terraform-azurerm-nsg-rules,Terraform module for managing Azure NSG rules
+nsg-rules,libre-devops,32802,azurerm,https://github.com/libre-devops/terraform-azurerm-nsg-rules,
 nsgator,humanascode,29603,azapi,https://github.com/humanascode/terraform-azapi-nsgator,Terraform module for intelligent Azure Network Security Group (NSG) rule management
 nsp,CloudNationHQ,31772,azure,https://github.com/CloudNationHQ/terraform-azure-nsp,
 nstance,nstance-dev,31533,aws,https://github.com/nstance-dev/terraform-aws-nstance,
@@ -15097,7 +15103,7 @@ private-dns-zone,Gbon1275,14263,azurerm,https://github.com/Gbon1275/terraform-az
 private-dns-zone,WeAreRetail,20284,azurerm,https://github.com/WeAreRetail/terraform-azurerm-private-dns-zone,Terraform Azure RM Private DNS Zone module
 private-dns-zone,aztfm,24354,azurerm,https://github.com/aztfm/terraform-azurerm-private-dns-zone,Terraform module for Microsoft Azure to manage Private Dns Zone resource.
 private-dns-zone,bootlabstech,18875,azurerm,https://github.com/bootlabstech/terraform-azurerm-private-dns-zone,
-private-dns-zone,libre-devops,18633,azurerm,https://github.com/libre-devops/terraform-azurerm-private-dns-zone,A module used to deploy Azure Private DNZ zones
+private-dns-zone,libre-devops,18633,azurerm,https://github.com/libre-devops/terraform-azurerm-private-dns-zone,
 private-dns-zone,ptonini,16835,azurerm,https://github.com/ptonini/terraform-azurerm-private-dns-zone,
 private-dns-zone,tw-cloud,28311,azurerm,https://github.com/tw-cloud/terraform-azurerm-private-dns-zone,
 private-dns-zone,wanted-cloud,28603,azure,https://github.com/wanted-cloud/terraform-azure-private-dns-zone,Terraform building block for creation and management of private DNS zone resources.
@@ -15119,7 +15125,7 @@ private-endpoint,data-platform-hq,16050,azurerm,https://github.com/data-platform
 private-endpoint,jsathler,21662,azurerm,https://github.com/jsathler/terraform-azurerm-private-endpoint,
 private-endpoint,kogunlowo123,31626,azure,https://github.com/kogunlowo123/terraform-azure-private-endpoint,"Terraform module for Azure Private Endpoints with DNS zones, zone groups, and Private Link Service"
 private-endpoint,lestermarch,23528,azurerm,https://github.com/lestermarch/terraform-azurerm-private-endpoint,"Helper module for provisioning private endpoints, including network interface monitoring."
-private-endpoint,libre-devops,18634,azurerm,https://github.com/libre-devops/terraform-azurerm-private-endpoint,A module used to deploy an Azure private endpoint
+private-endpoint,libre-devops,18634,azurerm,https://github.com/libre-devops/terraform-azurerm-private-endpoint,
 private-endpoint,terraform-mongodbatlas-modules,25676,mongodbatlas,https://github.com/terraform-mongodbatlas-modules/terraform-mongodbatlas-private-endpoint,
 private-endpoint,wanted-cloud,28619,azure,https://github.com/wanted-cloud/terraform-azure-private-endpoint,Terraform building block module helping you manage Azure Private Endpoint.
 private-endpoints,appvia,24002,aws,https://github.com/appvia/terraform-aws-private-endpoints,Used to manage a shared private endpoints vpc
@@ -16633,7 +16639,7 @@ route-table,alibabacloud-automation,31694,alicloud,https://github.com/alibabaclo
 route-table,aztfm,6641,azurerm,https://github.com/aztfm/terraform-azurerm-route-table,Terraform module for Microsoft Azure to manage Route Table resource.
 route-table,claranet,3781,azurerm,https://github.com/claranet/terraform-azurerm-route-table,Terraform module for Azure route table
 route-table,data-platform-hq,17398,azurerm,https://github.com/data-platform-hq/terraform-azurerm-route-table,Terraform module for route table and its routes creation
-route-table,libre-devops,13430,azurerm,https://github.com/libre-devops/terraform-azurerm-route-table,A module used to deploy a route table and some routes :knife:
+route-table,libre-devops,13430,azurerm,https://github.com/libre-devops/terraform-azurerm-route-table,
 route-table,web-virtua-aws-multi-account-modules,16446,aws,https://github.com/web-virtua-aws-multi-account-modules/terraform-aws-route-table,
 route-table-association-vpc,terraform-navercloudplatform-modules,25178,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-table-association-vpc,Terraform module to create route table association resources for the vpc configuration
 route-table-vpc,terraform-navercloudplatform-modules,25156,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-table-vpc,Terraform module to create route table resources for the vpc configuration
@@ -19272,7 +19278,7 @@ storage-account,cyber-scot,21472,azurerm,https://github.com/cyber-scot/terraform
 storage-account,data-platform-hq,15915,azurerm,https://github.com/data-platform-hq/terraform-azurerm-storage-account,Terraform module for managing Azure Storage Account
 storage-account,getindata,14723,azurerm,https://github.com/getindata/terraform-azurerm-storage-account,Terraform Module for Azure Storage Account
 storage-account,kogunlowo123,31631,azure,https://github.com/kogunlowo123/terraform-azure-storage-account,"Terraform module for Azure Storage Accounts with blob containers, lifecycle management, network rules, and private endpoints"
-storage-account,libre-devops,13167,azurerm,https://github.com/libre-devops/terraform-azurerm-storage-account,A module used to generate a storage account :fire:
+storage-account,libre-devops,13167,azurerm,https://github.com/libre-devops/terraform-azurerm-storage-account,
 storage-account,lupusllc,30829,azurerm,https://github.com/lupusllc/terraform-azurerm-storage-account,
 storage-account,mariuszRep,24094,azurerm,https://github.com/mariuszRep/terraform-azurerm-storage-account,
 storage-account,miljodir,22041,azurerm,https://github.com/miljodir/terraform-azurerm-storage-account,Creates a storage account with support for private endpoints and best security practices
@@ -20061,7 +20067,7 @@ tilores-fake-api,tilotech,11057,aws,https://github.com/tilotech/terraform-aws-ti
 tilores-integration,tilotech,17855,aws,https://github.com/tilotech/terraform-aws-tilores-integration,
 timeboard,maartenvanderhoef,1252,datadog,https://github.com/maartenvanderhoef/terraform-datadog-timeboard,
 timescaledb,loafoe,14576,hsdp,https://github.com/loafoe/terraform-hsdp-timescaledb,Deploy TimescaleDB to Container Host
-timestamp,libre-devops,28836,external,https://github.com/libre-devops/terraform-external-timestamp,A module used to generate a timestamp.  This is useful due to the fact it runs at plan time rather than apply ⌚
+timestamp,libre-devops,28836,external,https://github.com/libre-devops/terraform-external-timestamp,
 timestream-influxdb,dare-global,29054,aws,https://github.com/dare-global/terraform-aws-timestream-influxdb,Terraform module for provisioning AWS TimeStream InfluxDB cluster and instance resources.
 tinyproxy-server,KhalafMH,3613,hcloud,https://github.com/khalafmh/terraform-hcloud-tinyproxy-server,A Terraform module for deploying a Tinyproxy server on Hetzner Cloud along with a DNS record on Cloudflare that points to the server's IP address.
 titan-environment,naftulikay,10665,aws,https://github.com/naftulikay/terraform-aws-titan-environment,Terraform Module implementing a Titan Environment for AWS.
