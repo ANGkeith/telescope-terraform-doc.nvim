@@ -1067,6 +1067,7 @@ api,tf-kubernetes-iaac,31562,gateway,https://github.com/tf-kubernetes-iaac/terra
 api-auth-proxy,adacotech,10292,aws,https://github.com/adacotech/terraform-aws-api-auth-proxy,Oauth2 Authorization Code Flow by API Gateway Serverless
 api-base,genstackio,7894,aws,https://github.com/genstackio/terraform-aws-api-base,Terraform module to be used as a basis for creating an entire API
 api-cognito-lambda,Gervais-MIHINDOU,26512,aws,https://github.com/Gervais-MIHINDOU/terraform-aws-api-cognito-lambda,
+api-connection,libre-devops,32821,azapi,https://github.com/libre-devops/terraform-azapi-api-connection,
 api-connections,fdmsantos,24132,azurerm,https://github.com/fdmsantos/terraform-azurerm-api-connections,Terraform Module to Create Azure API Connections
 api-cors,barneyparker,4681,aws,https://github.com/barneyparker/terraform-aws-api-cors,
 api-documentation,skrastrek,31250,aws,https://github.com/skrastrek/terraform-aws-api-documentation,
@@ -3766,6 +3767,7 @@ cloudbuild-gcr,google-terraform-modules,1567,google,https://github.com/google-te
 cloudbuild-notifier,altissimo-hq,24844,google,https://github.com/altissimo-hq/terraform-google-cloudbuild-notifier,Deploys the Google Cloud Build Notifier as a Cloud Run Service
 cloudbuildv2-connection,altissimo-hq,18660,google,https://github.com/altissimo-hq/terraform-google-cloudbuildv2-connection,Creates a Google CloudBuild v2 GitHub Connection and Repositories
 cloudcheckr,rhythmictech,3121,aws,https://github.com/rhythmictech/terraform-aws-cloudcheckr,Enable cloudcheckr in AWS
+cloudcompliance,KADHIRAVANEG,32816,aws,https://github.com/KADHIRAVANEG/terraform-aws-cloudcompliance," Infrastructure as Code that provisions a SOC2 Type II-aligned AWS environment  , In one command. Zero manual security configuration required."
 cloudcraft-blueprint,DomWeldon,10287,aws,https://github.com/DomWeldon/terraform-aws-cloudcraft-blueprint,A Terraform module to create a Cloudcraft blueprint of your AWS infrastructure.
 cloudcraft-role,infrahouse,27962,aws,https://github.com/infrahouse/terraform-aws-cloudcraft-role,Module that creates a role for CloudCraft scanner.
 cloudflare,coralogix,14414,coralogix,https://github.com/coralogix/terraform-coralogix-cloudflare,Coralogix CloudFlare Integrations modules for Terraform.
@@ -6613,6 +6615,8 @@ dynamodb_table,AutomateTheCloud,28449,aws,https://github.com/AutomateTheCloud/te
 dyndns,fmasuhr,5298,aws,https://github.com/fmasuhr/terraform-aws-dyndns,DynDNS service using API Gateway and AWS Lambda.
 dynobj-nia,CheckPointSW,6376,checkpoint,https://github.com/CheckPointSW/terraform-checkpoint-dynobj-nia,Check Point Software Technologies Dynamic Objects module for Network Infrastructure Automation (NIA)
 e2-micro-free-tier,yohrannes,28276,google,https://github.com/yohrannes/terraform-google-e2-micro-free-tier,
+eaapl-ai-gateway,uchit,32818,aws,https://github.com/uchit/terraform-aws-eaapl-ai-gateway,"Verified Terraform + OPA implementation of the AI Gateway pattern (EAAPL-SEC001, aipatterns.com.au) — immutable audit logging + policy-as-code, not just documentation."
+eaapl-model-register,uchit,32819,aws,https://github.com/uchit/terraform-aws-eaapl-model-register,"Verified Terraform + OPA implementation of the AI Model Register pattern (EAAPL-GOV001, aipatterns.com.au) — schema-validated registry + immutable audit logging, not just documentation."
 eais,terraform-alicloud-modules,12805,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-eais,Terraform Module for creating Elastic Accelerator Instance on Alibaba Cloud.
 east-west-security-traffic,alibabacloud-automation,27102,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-east-west-security-traffic,
 easy-alerting,LederWorks,10426,azurerm,https://github.com/LederWorks/terraform-azurerm-easy-alerting,LederWorks Azure Easy Alerting Terraform Module
@@ -9754,6 +9758,7 @@ helmrepo,rhythmictech,5091,aws,https://github.com/rhythmictech/terraform-aws-hel
 helper,masterpointio,20222,secrets,https://github.com/masterpointio/terraform-secrets-helper,The Terraform module that abstracts the way we manage secrets.
 helper,wsalmi,10296,configcat,https://github.com/wsalmi/terraform-configcat-helper,"This helper to speed up and facilitate the control of feature flags in ConfigCat. Its construction is very complex and verbose, which makes us avoid using it."
 helper-acm-validation,guidion-digital,23240,aws,https://github.com/guidion-digital/terraform-aws-helper-acm-validation,Performs necessary tasks to get valid ACM certificates for domains passed to it
+helper-api-authorizer,guidion-digital,32817,aws,https://github.com/guidion-digital/terraform-aws-helper-api-authorizer,Helper for creating APIGW Authorizer Lambdas
 helper-api-gateway-settings,guidion-digital,31168,aws,https://github.com/guidion-digital/terraform-aws-helper-api-gateway-settings,Helper Module to Create Permissions for API Gateway to Send Logs 
 helper-api-key,guidion-digital,25292,aws,https://github.com/guidion-digital/terraform-aws-helper-api-key,Creates API keys for use with API Gateway
 helper-application-dns,guidion-digital,24255,aws,https://github.com/guidion-digital/terraform-aws-helper-application-dns,"Simple helper module which will create Route53 records, and create assumable roles that will be able to edit them from another account"
@@ -10641,9 +10646,10 @@ julyvnet,dharani207,10779,azurerm,https://github.com/dharani207/terraform-azurer
 julyvnet,ratnac37,10443,azurerm,https://github.com/ratnac37/terraform-azurerm-julyvnet,This is vnet terraform code
 julyvnet1,dharani207,10780,azurerm,https://github.com/dharani207/terraform-azurerm-julyvnet1,This is vnet terraform code
 jumphost,iits-consulting,28392,opentelekomcloud,https://github.com/iits-consulting/terraform-opentelekomcloud-jumphost,
-jumphost,infrahouse,21716,aws,https://github.com/infrahouse/terraform-aws-jumphost,Module that creates a jumphost.
+jumphost,infrahouse,21716,aws,https://github.com/infrahouse/terraform-aws-jumphost,"Terraform module for bastion/jumphost EC2 instance with SSH access, Route53 DNS registration, security groups, and CloudWatch monitoring. "
 jumphost,tfstack,29668,aws,https://github.com/tfstack/terraform-aws-jumphost,"Reusable Terraform module to deploy a secure, SSM-enabled EC2 jumphost in AWS"
 jumpserver,montblu,21729,kubernetes,https://github.com/montblu/terraform-kubernetes-jumpserver,
+jungle-cleaner,JungleCleaner,32826,aws,https://github.com/JungleCleaner/terraform-aws-jungle-cleaner,
 juno,omarelsayed23,14923,aws,https://github.com/omarelsayed23/terraform-aws-juno,
 juno-node,omarelsayed23,15062,aws,https://github.com/omarelsayed23/terraform-aws-juno-node,
 jupyter,combinator-ml,8811,k8s,https://github.com/combinator-ml/terraform-k8s-jupyter,Combinator component to provide a simple Jupyter instance
@@ -17926,10 +17932,16 @@ send-alert-slack,hendrixroa,6546,aws,https://github.com/hendrixroa/terraform-aws
 sendgrid,c0x12c,29292,aws,https://github.com/c0x12c/terraform-aws-sendgrid,
 sentinel,claranet,22684,azurerm,https://github.com/claranet/terraform-azurerm-sentinel,Terraform module for Microsoft Sentinel
 sentinel,clouddrove,20443,azure,https://github.com/clouddrove/terraform-azure-sentinel,"This terraform module is designed to create azure Sentinel resources.  Microsoft Sentinel natively incorporates proven Azure services, like Log Analytics and Logic Apps. Microsoft Sentinel enriches your investigation and detection with AI. It provides Microsoft's threat intelligence stream and enables you to bring your own threat intelligence"
+sentinel,libre-devops,32820,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel,
 sentinel,mikamakusa,25707,azure,https://github.com/mikamakusa/terraform-azure-sentinel,
 sentinel,terraform-az-modules,31804,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-sentinel,
 sentinel-ai,kogunlowo123,31628,azure,https://github.com/kogunlowo123/terraform-azure-sentinel-ai,
+sentinel-alert-rule,libre-devops,32823,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-alert-rule,
+sentinel-automation-rule,libre-devops,32824,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-automation-rule,
 sentinel-content,claranet,24663,azurerm,https://github.com/claranet/terraform-azurerm-sentinel-content,Terraform module for Microsoft Sentinel Content
+sentinel-data-connector,libre-devops,32822,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-data-connector,
+sentinel-watchlist,libre-devops,32825,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-watchlist,
+sentinel-workbook,libre-devops,32827,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-workbook,
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
 server,Alpaca744,32566,discord,https://github.com/Alpaca744/terraform-discord-server,"Opinionated Terraform module for a Discord server baseline (roles, channels, auto-moderation, onboarding) built on the alpaca744/discord provider."
 server,CloudSihmar,19168,aws,https://github.com/CloudSihmar/terraform-aws-server,
