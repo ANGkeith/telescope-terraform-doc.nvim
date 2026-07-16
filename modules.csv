@@ -814,6 +814,7 @@ alerts,CloudNationHQ,26457,azure,https://github.com/CloudNationHQ/terraform-azur
 alerts,delivops,26227,groundcover,https://github.com/delivops/terraform-groundcover-alerts,
 alerts,delivops,30275,grafana,https://github.com/delivops/terraform-grafana-alerts,
 alerts,falcon-terraform-modules,23865,newrelic,https://github.com/falcon-terraform-modules/terraform-newrelic-alerts,"This Terraform module constructs and configures the necessary resources for NewRelic alert settings, including Alert Conditions, Alert Policies, Destinations, and Workflows."
+alerts-and-incidents-utils,libre-devops,33034,msgraph,https://github.com/libre-devops/terraform-msgraph-alerts-and-incidents-utils,
 alerts-to-s3,lacework,16278,aws,https://github.com/lacework/terraform-aws-alerts-to-s3,Terraform Lacework Alerts to AWS-S3
 algo,armorfret,2199,linode,https://github.com/armorfret-archived/terraform-linode-algo,Terraform module for creating an Algo VPN on a Linode
 algo-base,armorfret,2197,linode,https://github.com/armorfret-archived/terraform-linode-algo-base,Base Linode Image with Algo downloaded but not configured
@@ -2138,7 +2139,7 @@ avm-res-compute-capacityreservationgroup,Azure,29870,azurerm,https://github.com/
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,Azure Verified Module for Azure Disk
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,
 avm-res-compute-gallery,Azure,27155,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-gallery,
-avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,"AVM Module for Compute Host groups, also known as Dedicated Host Groups"
+avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup,
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,
@@ -4586,6 +4587,9 @@ conduiter-relay,Conduiter,31998,google,https://github.com/Conduiter/terraform-go
 conduiter-relay,Conduiter,32000,azurerm,https://github.com/Conduiter/terraform-azurerm-conduiter-relay,
 coned1,ranaarpit84,22517,azure,https://github.com/ranaarpit84/terraform-azure-coned1,
 conf-k8s-oracle-cloud,sebastianczech,14290,oci,https://github.com/sebastianczech/terraform-oci-conf-k8s-oracle-cloud,Terraform module to configure free Kubernetes cluster in Oracle Cloud
+confident-ai,confident-ai,33030,aws,https://github.com/confident-ai/terraform-aws-confident-ai,
+confident-ai,confident-ai,33031,google,https://github.com/confident-ai/terraform-google-confident-ai,
+confident-ai,confident-ai,33032,azurerm,https://github.com/confident-ai/terraform-azurerm-confident-ai,
 config,Appsilon,9548,aws,https://github.com/Appsilon/terraform-aws-config,
 config,JamesWoolfenden,11322,aws,https://github.com/JamesWoolfenden/terraform-aws-config,A Terraform module for making AWS codebuilds
 config,QuiNovas,1480,aws,https://github.com/QuiNovas/terraform-aws-config,Sets up AWS Config for an account
@@ -10290,7 +10294,7 @@ imputation-server,jdpleiness,9163,aws,https://github.com/statgen/terraform-aws-i
 inaction,MiniHeyd,31776,aws,https://github.com/MiniHeyd/terraform-aws-inaction,
 inband-endpoint-group,netascode,9844,aci,https://github.com/netascode/terraform-aci-inband-endpoint-group,Terraform Cisco ACI Inband Endpoint Group Module
 inband-node-address,netascode,9847,aci,https://github.com/netascode/terraform-aci-inband-node-address,Terraform Cisco ACI Inband Node Address Module
-inception,montblu,21731,aws,https://github.com/montblu/terraform-aws-inception,Simple Terraform module used to create the Terraform backends
+inception,montblu,21731,aws,https://github.com/montblu/terraform-aws-inception,
 incident-management,cloudposse,5658,opsgenie,https://github.com/cloudposse/terraform-opsgenie-incident-management,"Terraform module to provision Opsgenie resources from YAML configurations using the Opsgenie provider,, complete with automated tests"
 infisical,lays147,23835,aws,https://github.com/lays147/terraform-aws-infisical,Terraform module to provide Infisical Vault using ECS
 influx,AutomateTheCloud,28452,aws,https://github.com/AutomateTheCloud/terraform-aws-influx,Terraform module for creating AWS Timestream InfluxDB databases (AutomateTheCloud model)
@@ -10681,6 +10685,13 @@ job,garbetjie,6313,kubernetes,https://github.com/garbetjie/terraform-kubernetes-
 join-metrics-scope,ammilam,10918,google,https://github.com/ammilam/terraform-google-join-metrics-scope,
 joplin-s3-bucket,DustinAlandzes,10789,aws,https://github.com/DustinAlandzes/terraform-aws-joplin-s3-bucket,Terraform module that creates an S3 bucket used to sync notes from Joplin.
 jp-arm,deltwalrus,28256,google,https://github.com/deltwalrus/terraform-google-jp-arm,
+js-recon,js-recon,33023,aws,https://github.com/js-recon/terraform-aws-js-recon,
+js-recon,js-recon,33024,gcp,https://github.com/js-recon/terraform-gcp-js-recon,
+js-recon,js-recon,33025,azure,https://github.com/js-recon/terraform-azure-js-recon,
+js-recon,js-recon,33026,digitalocean,https://github.com/js-recon/terraform-digitalocean-js-recon,
+js-recon,js-recon,33027,ibm,https://github.com/js-recon/terraform-ibm-js-recon,
+js-recon,js-recon,33028,oci,https://github.com/js-recon/terraform-oci-js-recon,
+js-recon,js-recon,33029,alibaba,https://github.com/js-recon/terraform-alibaba-js-recon,
 js-recon,shriyanss,32973,aws,https://github.com/shriyanss/terraform-aws-js-recon,
 js-recon,shriyanss,32974,gcp,https://github.com/shriyanss/terraform-gcp-js-recon,
 js-recon,shriyanss,32975,azure,https://github.com/shriyanss/terraform-azure-js-recon,
@@ -13159,7 +13170,7 @@ monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/te
 monitoring,digitalis-io,31997,k8s,https://github.com/digitalis-io/terraform-k8s-monitoring,Deploy a monitoring stack to Kubernetes using Grafana and Prometheus
 monitoring,dritux,8734,kubernetes,https://github.com/dritux/terraform-kubernetes-monitoring,
 monitoring,hazelops,9204,datadog,https://github.com/hazelops/terraform-datadog-monitoring,
-monitoring,montblu,24749,newrelic,https://github.com/montblu/terraform-newrelic-monitoring,Terraform module to create communication between NewRelic and PagerDuty
+monitoring,montblu,24749,newrelic,https://github.com/montblu/terraform-newrelic-monitoring,
 monitoring,notablehealth,19046,google,https://github.com/notablehealth/terraform-google-monitoring,Manage Google Cloud Monitoring
 monitoring,nurdsoft,31834,google,https://github.com/nurdsoft/terraform-google-monitoring,
 monitoring,shadbury,14783,aws,https://github.com/shadbury/terraform-aws-monitoring,
@@ -14095,6 +14106,7 @@ networking-foundation,Seun-works,27316,aws,https://github.com/Seun-works/terrafo
 networking-kavindu,KavinduGD,31076,aws,https://github.com/KavinduGD/terraform-aws-networking-kavindu,Networking module created by Kavindu Gihan
 networking-module,SaileshRamesh,31930,aws,https://github.com/SaileshRamesh/terraform-aws-networking-module,Terraform Networking module for AWS provider 
 networking-module,bigmanabel,29449,aws,https://github.com/bigmanabel/terraform-aws-networking-module,Terraform Networking Module for deploying VPCs and Subnets on AWS
+networking-module,iammdsameer,33020,aws,https://github.com/iammdsameer/terraform-aws-networking-module,Module that deploys a VPC and N private and public subnets to AWS infrastructure
 networking-module,omkar130,31119,aws,https://github.com/omkar130/terraform-aws-networking-module,
 networking-module-tf,Shubhrajit1pallob,29256,aws,https://github.com/Shubhrajit1pallob/terraform-aws-networking-module-tf,My custom made networking module for AWS.
 networking-nat-gateway,ptonini,16832,aws,https://github.com/ptonini/terraform-aws-networking-nat-gateway,
@@ -17065,6 +17077,7 @@ s3-audio-pii-guardian,michael-ortiz,26469,aws,https://github.com/michael-ortiz/t
 s3-auy1105-grupo-6,Infra-como-codigo-II-2026,32982,aws,https://github.com/Infra-como-codigo-II-2026/terraform-aws-s3-auy1105-grupo-6,
 s3-backend,7agustibm,2638,aws,https://github.com/7agustibm/terraform-aws-s3-backend,Terraform S3 Backend creator
 s3-backend,Apollo-XIV,25965,aws,https://github.com/Apollo-XIV/terraform-aws-s3-backend,
+s3-backend,FasemkyeAD,33035,aws,https://github.com/FasemkyeAD/terraform-aws-s3-backend,
 s3-backend,Nosaj123,18992,aws,https://github.com/Nosaj123/terraform-aws-s3-backend,Terraform Script to allow S3 Remote Backend
 s3-backend,abhisheksr01,21442,aws,https://github.com/abhisheksr01/terraform-aws-s3-backend,Terraform module for provisioning a s3 bucket and dynamodb for the Terraform Backend
 s3-backend,bluehackrafestefano,16892,aws,https://github.com/bluehackrafestefano/terraform-aws-s3-backend,
@@ -17924,6 +17937,7 @@ security-center,dsisodia14,11116,azurerm,https://github.com/dsisodia14/terraform
 security-center,kogunlowo123,31627,azure,https://github.com/kogunlowo123/terraform-azure-security-center,"Terraform module for Microsoft Defender for Cloud with security contacts, pricing tiers, auto-provisioning, and security automations"
 security-center,kumarvna,6264,azurerm,https://github.com/kumarvna/terraform-azurerm-security-center," Terraform module to create Azure Security Center resources for Azure Landing Zones"
 security-copilot-compute-capacity,libre-devops,31943,azapi,https://github.com/libre-devops/terraform-azapi-security-copilot-compute-capacity,
+security-copilot-utils,libre-devops,33033,msgraph,https://github.com/libre-devops/terraform-msgraph-security-copilot-utils,
 security-group,Airtel-Cloud-Platform,32547,airtelcloud,https://github.com/Airtel-Cloud-Platform/terraform-airtelcloud-security-group,
 security-group,BrynardSecurity-terraform,13345,aws,https://github.com/BrynardSecurity-terraform/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS 🇺🇦
 security-group,HDE,4280,aws,https://github.com/HDE/terraform-aws-security-group,Terraform module which creates EC2-VPC security groups on AWS
@@ -18082,6 +18096,7 @@ sentinel-automation-rule,libre-devops,32824,azurerm,https://github.com/libre-dev
 sentinel-codeless-connector,libre-devops,33015,azapi,https://github.com/libre-devops/terraform-azapi-sentinel-codeless-connector,
 sentinel-content,claranet,24663,azurerm,https://github.com/claranet/terraform-azurerm-sentinel-content,Terraform module for Microsoft Sentinel Content
 sentinel-data-connector,libre-devops,32822,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-data-connector,
+sentinel-defender-xdr-connector,libre-devops,33022,azapi,https://github.com/libre-devops/terraform-azapi-sentinel-defender-xdr-connector,
 sentinel-watchlist,libre-devops,32825,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-watchlist,
 sentinel-workbook,libre-devops,32827,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-workbook,
 server,17021084,19380,apache,https://github.com/17021084/terraform-apache-server,simple modules which runs apache 
@@ -18601,6 +18616,7 @@ sleep,truefoundry,27013,truefoundry,https://github.com/truefoundry/terraform-tru
 slo,borgified,4074,datadog,https://github.com/borgified/terraform-datadog-slo,
 slo,terraform-google-modules,4898,google,https://github.com/terraform-google-modules/terraform-google-slo,Creates SLOs on Google Cloud from custom Stackdriver metrics capability to export SLOs to Google Cloud services and other systems
 slowlog-to-datadog,scribd,4741,elasticache,https://github.com/scribd/terraform-elasticache-slowlog-to-datadog,Deploy Elasticache Slowlog to Datadog lambda function to AWS account
+sls,sls-tf,33021,aws,https://github.com/sls-tf/terraform-aws-sls,
 sls,terraform-alicloud-modules,3999,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sls,Terraform module which creates log service's resources (SLS) on Alibaba Cloud.
 sls-app,hazelops,15077,aws,https://github.com/hazelops/terraform-aws-sls-app,
 sls-cloudfront,neovops,11672,aws,https://github.com/neovops/terraform-aws-sls-cloudfront,
