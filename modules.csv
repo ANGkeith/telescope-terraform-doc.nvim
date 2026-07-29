@@ -4070,6 +4070,7 @@ cloudinit-example,devyanshi-t,11048,azure,https://github.com/devyanshi-t/terrafo
 cloudinit-vm,ZacksHomeLab,19372,proxmox,https://github.com/ZacksHomeLab/terraform-proxmox-cloudinit-vm,Proxmox Terraform module to deploy Cloudinit VMs
 cloudinit-vm,dj-d,27631,proxmox,https://github.com/dj-d/terraform-proxmox-cloudinit-vm,Terraform module for provisioning and configuring VMs on Proxmox using Cloud-Init.
 cloudlogs,upwindsecurity,30070,azurerm,https://github.com/upwindsecurity/terraform-azurerm-cloudlogs,
+cloudlogs,upwindsecurity,33596,google,https://github.com/upwindsecurity/terraform-google-cloudlogs,
 cloudmap,finisterra-io,23554,aws,https://github.com/finisterra-io/terraform-aws-cloudmap,Terraform AWS Cloudmap module
 cloudmap,tfstack,29862,aws,https://github.com/tfstack/terraform-aws-cloudmap,Terraform module to manage Amazon Cloud Map namespaces and services for DNS-based discovery
 cloudnative-kit,rridane,30247,kubernetes,https://github.com/rridane/terraform-kubernetes-cloudnative-kit,
@@ -4101,7 +4102,6 @@ cloudsql-export,nephosolutions,27091,google,https://github.com/nephosolutions/te
 cloudsql-ha,google-terraform-modules,991,google,https://github.com/google-terraform-modules/terraform-google-cloudsql-ha,Create Google CloudSQL HA (RR)
 cloudsql-instance,iqz-systems,13443,google,https://github.com/iqz-systems/terraform-google-cloudsql-instance,Terraform module to create a non-HA CloudSQL instance with meaningful defaults.
 cloudsql-misc,kiwicom,3034,google,https://github.com/kiwicom/terraform-google-cloudsql-misc,
-cloudsql-no-code,MiniHeyd,31779,google,https://github.com/MiniHeyd/terraform-google-cloudsql-no-code,
 cloudsql-proxy,appchoose,15658,google,https://github.com/appchoose/terraform-google-cloudsql-proxy,This module provides a Cloud SQL proxy container instance on a COS vm
 cloudsql-proxy,basisai,7203,helm,https://github.com/basisai/terraform-helm-cloudsql-proxy,
 cloudsql-proxy,colinwilson,8967,docker,https://github.com/colinwilson/terraform-docker-cloudsql-proxy,Deploy a Cloud SQL Proxy service on a Docker Swarm host
@@ -5524,6 +5524,7 @@ dependabot,container-labs,7694,github,https://github.com/container-labs/terrafor
 dependabot,microsoftexpert,33332,github,https://github.com/microsoftexpert/terraform-github-dependabot,
 dependencies,justincampbell,2179,null,https://github.com/justincampbell/terraform-null-dependencies,
 dependencies,roarytubbs,4035,null,https://github.com/roarytubbs/terraform-null-dependencies,
+deploy,plumelo,33593,nixos,https://github.com/plumelo/terraform-nixos-deploy,
 deploy-tkg-cluster,jd4883,11384,kubectl,https://github.com/jd4883/terraform-kubectl-deploy-tkg-cluster,Uses terraform to parse parameters into a valid yaml for tanzu kubernetes cluster creation and applies the config. This is early stages and may be adjusted to make more intelligent decisions without needing as many variables. For now this is tested and working
 deploy-user,robbytaylor,3779,aws,https://github.com/robbytaylor/terraform-aws-deploy-user,Create users for AWS with minimal permissions
 deploy_key,dhoppeIT,28554,gitlab,https://github.com/dhoppeIT/terraform-gitlab-deploy_key,
@@ -14777,7 +14778,7 @@ odoo,djangoflow,15582,kubernetes,https://github.com/djangoflow/terraform-kuberne
 odoo,djangoflow,24087,docker,https://github.com/djangoflow/terraform-docker-odoo,Docker swarm Odoo installation
 odoo,renaiss-io,21195,aws,https://github.com/renaiss-io/terraform-aws-odoo,Terraform module to deploy Odoo in AWS
 office-365-route53-records,rj175,6749,aws,https://github.com/ohheyrj/terraform-aws-office-365-route53-records,
-office-convert-lambda,jacobtread,33541,aws,https://github.com/jacobtread/terraform-aws-office-convert-lambda,
+office-convert-lambda,jacobtread,33594,aws,https://github.com/jacobtread/terraform-aws-office-convert-lambda,
 office365,ngs,2435,cloudflare,https://github.com/ngs/terraform-cloudflare-office365,
 office365-domains,cloudspout,4033,aws,https://github.com/cloudspout/terraform-aws-office365-domains,This module for Terraform helps to create the required zone entries to operate a self-managed Office365 domain.
 ohp-ecr,ohpensource,10454,aws,https://github.com/ohpensource/terraform-aws-ohp-ecr,Terraform Module for AWS ECR 
@@ -19207,7 +19208,7 @@ spot-termination-monitoring-lambda,lablabs,6400,aws,https://github.com/lablabs/t
 spotfleet,telia-oss,1255,aws,https://github.com/telia-oss/terraform-aws-spotfleet,Spotfleet module for Terraform
 spotify,straw-hat-team,5442,github,https://github.com/straw-hat-team/terraform-github-spotify,Terraform modules for provisioning GitHub following Spotify Model
 spotio,mateothegreat,15277,kubernetes,https://github.com/mateothegreat/terraform-kubernetes-spotio,Spot.io integration for Kubernetes via Terraform.
-sql,CloudNationHQ,22093,azure,https://github.com/CloudNationHQ/terraform-azure-sql,Terraform module which creates mssql related resources used by workloads and accelerators.
+sql,CloudNationHQ,22093,azure,https://github.com/CloudNationHQ/terraform-azure-sql,
 sql,JamesWoolfenden,7673,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-sql,A module for provisioning sql in Azure
 sql,SebRosander,4475,azurerm,https://github.com/SebRosander/terraform-azurerm-sql,"This repo contains a Module to deploy a SQL Server, SQL Database, Storage Account in a Resource Group on Azure using Terraform. The module has the possibility to create a fail-over group and a creation of a geo-redundant database for high availability needs."
 sql,andrewCluey,10537,azurerm,https://github.com/andrewCluey/terraform-azurerm-sql,"Creates a new SQL Server in Azure, along with any number of databases."
@@ -20272,7 +20273,7 @@ tags,WeAreRetail,16523,azurerm,https://github.com/WeAreRetail/terraform-azurerm-
 tags,agisoft-cloud,5463,null,https://github.com/Agisoft-Cloud/terraform-null-tags,Tag helper terraform module
 tags,alibabacloud-automation,31689,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-tags,
 tags,aws-ia,13084,vsphere,https://github.com/aws-ia/terraform-vsphere-tags,"The vSphere tags Terraform module either creates or imports a tag category as well as a list of tags in your VMware Cloud on AWS or VMware vSphere on-premises environment, and then outputs the configuration of each for use in other Terraform projects."
-tags,cloudopsworks,12930,local,https://github.com/cloudopsworks/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
+tags,cloudopsworks,12930,local,https://github.com/cloudopsworks/terraform-local-tags,Cloud opreations locals module by https://cloudopsworks.co
 tags,clowdhaus,16576,aws,https://github.com/clowdhaus/terraform-aws-tags,Terraform module to manage organization wide standard tag structure and minimum required tags
 tags,elasticguru,5715,local,https://github.com/elasticguru/terraform-local-tags,Cloud opreations locals module by https://e.lastic.guru
 tags,elioseverojunior,13400,module,https://github.com/elioseverojunior/terraform-module-tags,terraform-module-tags
