@@ -8980,7 +8980,7 @@ fingerprint-cloudfront-proxy-integration,fingerprintjs,25626,aws,https://github.
 finops,artefactory,18573,google,https://github.com/artefactory/terraform-google-finops,Terraform module to deploy basic FinOps resources on GCP.
 finops-costreview-access,elastic2ls-com,28926,aws,https://github.com/elastic2ls-com/terraform-aws-finops-costreview-access,"Terraform module to create an IAM user or cross-account IAM role for external FinOps cost reviews in AWS. Includes examples, optional AWSOrganizations access, CI/CD workflows, and security checks."
 finops-ebs-optimization,elastic2ls-com,28938,aws,https://github.com/elastic2ls-com/terraform-aws-finops-ebs-optimization,Terraform module for monitoring and cost-optimizing EBS volumes with dynamic CloudWatch alarms and tag-based filtering.
-finops-focus-billing-export,alexandre-pares,32396,azure,https://github.com/alexandre-pares/terraform-azure-finops-focus-billing-export," Terraform Module to create FOCUS billing exports for Azure. Supports EA, MCA and MPA billing accounts types. FOCUS billing exports can also be created at the subscription level."
+finops-focus-billing-export,alexandre-pares,32396,azure,https://github.com/alexandre-pares/terraform-azure-finops-focus-billing-export," Terraform Module to create FOCUS billing exports for Azure. Supports EA, MCA and MPA billing accounts types. FOCUS billing exports can also be created at the subscription level (e.g. for CSP subscriptions)."
 firebase,GoogleCloudPlatform,32324,google,https://github.com/GoogleCloudPlatform/terraform-google-firebase,Create and manage Google Firebase resources
 firebase,nurdsoft,30158,google,https://github.com/nurdsoft/terraform-google-firebase,
 firebase-project-factory,cilly-yllic,22801,google,https://github.com/cilly-yllic/terraform-google-firebase-project-factory,Terraform module to create Firebase Project.
@@ -9818,6 +9818,7 @@ group,pauldchang,24452,aws,https://github.com/pauldchang/terraform-aws-group,
 group,seg-way,20489,azuread,https://github.com/segateway/terraform-azuread-group,
 group,segateway,20639,azuread,https://github.com/segateway/terraform-azuread-group,
 group,terraform-google-modules,6938,google,https://github.com/terraform-google-modules/terraform-google-group,Manages Google Groups
+group,terraform-temporalcloud-modules,33657,temporalcloud,https://github.com/terraform-temporalcloud-modules/terraform-temporalcloud-group,
 group,web-virtua-oci-multi-account-modules,18793,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-group,
 group,wisk-aero-oss,31037,google,https://github.com/wisk-aero-oss/terraform-google-group,
 group,wisk-aero-oss,31318,gitlab,https://github.com/wisk-aero-oss/terraform-gitlab-group,
@@ -14036,6 +14037,7 @@ namespace,xinya0203,21971,kubernetes,https://github.com/xinya0203/terraform-kube
 namespace,ysakova90,24591,kubernetes,https://github.com/ysakova90/terraform-kubernetes-namespace,
 namespace,zarnigor87,26047,kubernetes,https://github.com/zarnigor87/terraform-kubernetes-namespace,
 namespace-base-security,MagusDevOps,6079,aws,https://github.com/MagusDevOps/terraform-aws-namespace-base-security,"provides an opinionated module to create a namespace containing namespace-kms-key, and namespace roles(read, techincal, and ops)"
+namespace-export-sink,terraform-temporalcloud-modules,33663,temporalcloud,https://github.com/terraform-temporalcloud-modules/terraform-temporalcloud-namespace-export-sink,
 namespace-kms-base,MagusDevOps,6070,aws,https://github.com/MagusDevOps/terraform-aws-namespace-kms-base,provides an opinionated module to create a namespace kms key and alias that work in conjuncture with the namespace roles
 namespace-management,tagesspiegel,21078,kubernetes,https://github.com/tagesspiegel/terraform-kubernetes-namespace-management,This module creates namespaces from a map and uses rolebindings to manage permissions.
 namespace-ops-role,MagusDevOps,5981,aws,https://github.com/MagusDevOps/terraform-aws-namespace-ops-role,provides an opinionated module to create a namespace based admin role for an AWS account restricted by namespace and prefix tags; with the ability to restrict role assumption to corporate networks
@@ -14531,6 +14533,7 @@ nextjs-serverless,emyriounis,23612,aws,https://github.com/emyriounis/terraform-a
 nexus,NurlanKurmanaliev,30064,project,https://github.com/NurlanKurmanaliev/terraform-project-nexus,
 nexus,cn-terraform,3240,aws,https://github.com/cn-terraform/terraform-aws-nexus,Sonatype Nexus Terraform Module for AWS
 nexus,rhythmictech,5090,aws,https://github.com/rhythmictech/terraform-aws-nexus,Create a Nexus OSS or Nexus Pro instance
+nexus-endpoint,terraform-temporalcloud-modules,33661,temporalcloud,https://github.com/terraform-temporalcloud-modules/terraform-temporalcloud-nexus-endpoint,
 nexus-repository,vswaminathan777,18996,aws,https://github.com/vswaminathan777/terraform-aws-nexus-repository,
 nfproxy,fionn,30909,aws,https://github.com/fionn/terraform-aws-nfproxy,Netfilter reverse proxy
 nfs,DeimosCloud,8629,google,https://github.com/DeimosCloud/terraform-google-nfs,Terraform Google NFS 
@@ -15019,6 +15022,7 @@ orc8r,ShubhamTatvamasi,12515,aws,https://github.com/ShubhamTatvamasi/terraform-a
 orc8r-helm,ShubhamTatvamasi,12516,aws,https://github.com/ShubhamTatvamasi/terraform-aws-orc8r-helm,
 org,cncsc,16399,github,https://github.com/cncsc/terraform-github-org,Terraform modules for deploying and managing a GitHub organization.
 org,fcgroup,32120,github,https://github.com/fcgroup/terraform-github-org,
+org,sentania-labs,33665,vcfa,https://github.com/sentania-labs/terraform-vcfa-org,
 org,tfelab,26070,tfe,https://github.com/tfelab/terraform-tfe-org,"Terraform module to manage Terraform Enterprise organization, project and workspace variables"
 org,tfstack,27111,github,https://github.com/tfstack/terraform-github-org,Terraform module to manage GitHub Organization
 org,vmvarela,28314,github,https://github.com/vmvarela/terraform-github-org,A Terraform module for comprehensive GitHub organization management.
@@ -15027,6 +15031,7 @@ org-delegation,andyscott1547,16093,aws,https://github.com/andyscott1547/terrafor
 org-factory,ned1313,11393,tfe,https://github.com/ned1313/terraform-tfe-org-factory,"Terraform module to create Terraform Cloud organizations, workspaces, and teams."
 org-governance,infrahouse,31859,aws,https://github.com/infrahouse/terraform-aws-org-governance,"Terraform module for centralized AWS Organizations governance deployed in the management account, including log retention enforcement, SCPs, tag policies, and delegated admin registration. "
 org-integration,uptycslabs,14245,aws,https://github.com/uptycslabs/terraform-aws-org-integration,Terraform module to integrate AWS organization's accounts into Uptycs
+org-networking,sentania-labs,33666,vcfa,https://github.com/sentania-labs/terraform-vcfa-org-networking,
 org-new-account-delete-default-vpcs,plus3it,17230,aws,https://github.com/plus3it/terraform-aws-org-new-account-delete-default-vpcs,Terraform module for a lambda function that deletes default VPCs in all regions when an account is added to an AWS Organization
 org-new-account-iam-role,plus3it,7754,aws,https://github.com/plus3it/terraform-aws-org-new-account-iam-role,Terraform module that creates an IAM Role in a new account (useful for bootstrapping)
 org-new-account-support-case,plus3it,8608,aws,https://github.com/plus3it/terraform-aws-org-new-account-support-case,Terraform module for opening a support case when a new account is added (useful for adding new accounts to enterprise support)
@@ -18672,6 +18677,7 @@ service-account,owlot,18488,google,https://github.com/owlot/terraform-google-ser
 service-account,ptonini,16770,google,https://github.com/ptonini/terraform-google-service-account,
 service-account,ptonini,16774,kubernetes,https://github.com/ptonini/terraform-kubernetes-service-account,
 service-account,qbeyond,17200,google,https://github.com/qbeyond/terraform-google-service-account,Terraform Module to create a google service account
+service-account,terraform-temporalcloud-modules,33659,temporalcloud,https://github.com/terraform-temporalcloud-modules/terraform-temporalcloud-service-account,
 service-account,tf-kubernetes-iaac,31102,kubernetes,https://github.com/tf-kubernetes-iaac/terraform-kubernetes-service-account,
 service-account,thomas-illiet,26218,kubernetes,https://github.com/thomas-illiet/terraform-kubernetes-service-account,
 service-account,tsadoklf,1773,google,https://github.com/tsadoklf/terraform-google-service-account,Terraform module for creating a service account in Google Cloud Platform
@@ -21024,6 +21030,7 @@ user,ptonini,16780,rabbitmq,https://github.com/ptonini/terraform-rabbitmq-user,
 user,ptonini,16836,mysql,https://github.com/ptonini/terraform-mysql-user,
 user,ridwanbejo,21832,airflow,https://github.com/ridwanbejo/terraform-airflow-user,Terraform module for managing Airflow Users and Roles 
 user,ridwanbejo,21993,mongodb,https://github.com/ridwanbejo/terraform-mongodb-user,Terraform module for managing MongoDB users and roles
+user,terraform-temporalcloud-modules,33658,temporalcloud,https://github.com/terraform-temporalcloud-modules/terraform-temporalcloud-user,
 user,turnerlabs,426,s3,https://github.com/turnerlabs/terraform-s3-user,A Terraform module that creates a tagged S3 bucket and an IAM user/key with access to the bucket
 user,web-virtua-oci-multi-account-modules,18800,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-user,
 user-arton-modulee,artonjashari,16145,iam,https://github.com/artonjashari/terraform-iam-user-arton-modulee,
