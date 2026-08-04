@@ -2036,7 +2036,6 @@ auth-strength-policy,microsoftexpert,33501,azuread,https://github.com/microsofte
 auth0,particuleio,16509,auth0,https://github.com/particuleio/terraform-auth0-auth0,Terraform Module for Auth0
 auth0-authorizer,amancevice,1731,aws,https://github.com/amancevice/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
 auth0-authorizer,jdpx,6741,aws,https://github.com/jdpx/terraform-aws-auth0-authorizer,Authorizer Lambda for API Gateway custom authorizers.
-auth0-login,westelh,29048,vault,https://github.com/westelh/terraform-vault-auth0-login,
 authenticating-secgroup,riboseinc,629,aws,https://github.com/riboseinc/terraform-aws-authenticating-secgroup,Dynamically manage security group IPs through an authenticated HTTPS endpoint
 authentication,microsoftexpert,33063,aci,https://github.com/microsoftexpert/terraform-aci-authentication,
 authentication-policy-stack,lukasindre,27133,okta,https://github.com/lukasindre/terraform-okta-authentication-policy-stack,Module for authentication policy and authentication policy rule abstraction
@@ -4573,7 +4572,6 @@ community-modules,sebastianczech,25819,databricks,https://github.com/sebastiancz
 commvault-iam,kelyn-technologies,19215,aws,https://github.com/kelyn-technologies/terraform-aws-commvault-iam,Kelyn Technologies terraform modules for AWS
 compartment,Terraform-Modules-Lib,15115,oci,https://github.com/Terraform-Modules-Lib/terraform-oci-compartment,Terraform Module - OCI Compartment
 compartment,web-virtua-oci-multi-account-modules,18783,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-compartment,
-compartment,westelh,29144,oci,https://github.com/westelh/terraform-oci-compartment,
 complete,dasmeta,19955,cloudflare,https://github.com/dasmeta/terraform-cloudflare-complete,
 complete-cluster,dasmeta,15561,azure,https://github.com/dasmeta/terraform-azure-complete-cluster,Terraform modules from DasMeta to manage Azure AKS cluster
 complete-static-site,iKnowJavaScript,24585,aws,https://github.com/iKnowJavaScript/terraform-aws-complete-static-site,"This Terraform module creates and configures the necessary AWS resources for hosting a static website. It includes an S3 bucket for content storage, CloudFront for distribution, Origin Access Identity (OAI) for secure access, WAF WebACL for security, a Route 53 DNS record, and an IAM user for continuous deployment to the S3 bucket."
@@ -9511,7 +9509,7 @@ github-repos,StarUbiquitous,13237,module,https://github.com/StarUbiquitous/terra
 github-repositories,gabops,17484,module,https://github.com/gabops/terraform-module-github-repositories,Terraform module for managing Github repositories.
 github-repository,damacus,12286,module,https://github.com/damacus/terraform-module-github-repository,Terraform Module for managing defaults on GitHub Repositories
 github-repository,mikesupertrampster-corp,12446,module,https://github.com/mikesupertrampster-corp/terraform-module-github-repository,Maintained by Terraform
-github-role,infrahouse,21797,aws,https://github.com/infrahouse/terraform-aws-github-role,Module that creates a role for a GitHub Action worker.
+github-role,infrahouse,21797,aws,https://github.com/infrahouse/terraform-aws-github-role,Terraform module that creates an IAM role with OIDC trust policy for GitHub Actions workflows with customizable permissions and repo/branch restrictions. 
 github-runner,Bellese,9095,aws,https://github.com/Bellese/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
 github-runner,HappyPathway,26131,ecs,https://github.com/HappyPathway/terraform-ecs-github-runner,Terraform Module
 github-runner,aditya9441,21605,aws,https://github.com/aditya9441/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS
@@ -10629,6 +10627,7 @@ install,skyfjell,14234,flux,https://github.com/skyfjell/terraform-flux-install,I
 install-access,nuonco,23876,aws,https://github.com/nuonco/terraform-aws-install-access,Terraform module for granting access to Nuon to provision an install.
 install-access-delegation,nuonco,24878,aws,https://github.com/nuonco/terraform-aws-install-access-delegation,Set up an IAM role that allows you to setup a delegation IAM role using Nuon.
 installer,akemoah,11560,kubernetes,https://github.com/akemoah/terraform-kubernetes-installer,Terraform Installer for Kubernetes on Oracle Cloud Infrastructure
+instana-agent-script,instana,33672,instana,https://github.com/instana/terraform-instana-instana-agent-script,A cloud-agnostic Terraform module that generates an Instana agent bootstrap script.
 instana-ec2-agent,instana,32363,aws,https://github.com/instana/terraform-aws-instana-ec2-agent,Terraform module for deploying and configuring the Instana agent on AWS EC2 workloads
 instana-ecs-agent,instana,32364,aws,https://github.com/instana/terraform-aws-instana-ecs-agent,Terraform module for deploying and configuring the Instana agent on AWS ECS workloads
 instana-gcp-agent,instana,33590,gcp,https://github.com/instana/terraform-gcp-instana-gcp-agent,Terraform module for deploying Instana agents on GCP Compute Engine to monitor GCP resources.
@@ -11714,7 +11713,6 @@ kubernetes-nodes-with-pid-pressure-in-kubernetes,terraform-shoreline-modules,203
 kubernetes-platform,tx-pts-dai,26001,aws,https://github.com/tx-pts-dai/terraform-aws-kubernetes-platform,
 kubernetes-reflector,basisai,7197,helm,https://github.com/basisai/terraform-helm-kubernetes-reflector,Terraform Kubernetes Reflector using Helm
 kubernetes-role,ptonini,16809,vault,https://github.com/ptonini/terraform-vault-kubernetes-role,
-kubernetes-secret-engine,westelh,29042,vault,https://github.com/westelh/terraform-vault-kubernetes-secret-engine,
 kubernetes-security-groups,Ferlab-Ste-Justine,17810,openstack,https://github.com/Ferlab-Ste-Justine/terraform-openstack-kubernetes-security-groups,Terraform module to provision openstack security groups for a kubernetes cluster
 kubernetes-service,Think-Cube,27405,azure,https://github.com/Think-Cube/terraform-azure-kubernetes-service,
 kubernetes-service-principal,avinor,3000,azurerm,https://github.com/avinor/terraform-azuread-service-principal,Terraform module to create service principal credentials and assign access for AKS
@@ -14858,7 +14856,6 @@ oidc-with-github-actions,thetestlabs,12530,aws,https://github.com/thetestlabs/te
 oke,bpalermo,9846,oci,https://github.com/bpalermo/terraform-oci-oke,The Terraform OKE Module Installer for Oracle Cloud Infrastructure provides a Terraform module that provisions the necessary resources for Oracle Container Engine.
 oke,oracle-terraform-modules,4259,oci,https://github.com/oracle-terraform-modules/terraform-oci-oke,
 oke,web-virtua-oci-multi-account-modules,18879,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-oke,
-oke,westelh,29150,oci,https://github.com/westelh/terraform-oci-oke,
 oke-quickstart,shukawam,19058,oci,https://github.com/shukawam/terraform-oci-oke-quickstart,Terraform module for OKE Tutorial
 oks,tf-outscale-modules,31711,outscale,https://github.com/tf-outscale-modules/terraform-outscale-oks,
 okta,archit0,6291,vault,https://github.com/archit0/terraform-vault-okta,
@@ -15063,6 +15060,8 @@ organization,cktf,25975,gitlab,https://github.com/cktf/terraform-gitlab-organiza
 organization,cktf,25976,grafana,https://github.com/cktf/terraform-grafana-organization,Terraform Grafana Organization Module
 organization,cktf,25977,sentry,https://github.com/cktf/terraform-sentry-organization,Terraform Sentry Organization Module
 organization,dhoppeIT,11096,tfe,https://github.com/dhoppeIT/terraform-tfe-organization,"Terraform module to manage the Terraform Cloud/Enterprise organization resources (tfe_organization, tfe_organization_membership, tfe_organization_token)"
+organization,dsohqlab,33677,github,https://github.com/dsohqlab/terraform-github-organization,Terraform module to manage GitHub Organization.
+organization,dsohqlab,33678,tfe,https://github.com/dsohqlab/terraform-tfe-organization,Terraform module to manage Terraform Cloud/Enterprise Organization.
 organization,dustindortch,21943,tfe,https://github.com/dustindortch/terraform-tfe-organization,Manage Terraform Cloud/Enterprise organizations
 organization,figurate,5631,tfe,https://github.com/figurate/terraform-tfe-organization,Manage organizations in Terraform Cloud/Enterprise
 organization,getindata,14591,aws,https://github.com/getindata/terraform-aws-organization,Terraform module for AWS Organization management
@@ -15467,7 +15466,6 @@ policy,libre-devops,32811,azurerm,https://github.com/libre-devops/terraform-azur
 policy,paloth,6299,aws,https://github.com/paloth/terraform-aws-policy,A Terraform module to generate policies for IAM
 policy,pmikus,18692,vault,https://github.com/pmikus/terraform-vault-policy,Terraform module creates a policy for Vault. 
 policy,spacelift-io,12324,spacelift,https://github.com/spacelift-io/terraform-spacelift-policy,Creates a Spacelift policy.
-policy,westelh,29035,vault,https://github.com/westelh/terraform-vault-policy,
 policy-actions,mycarrysun,24843,aws,https://github.com/mycarrysun/terraform-aws-policy-actions,Terraform module with an object of AWS policy actions allowed in policy documents.
 policy-as-code,gettek,8624,azurerm,https://github.com/gettek/terraform-azurerm-policy-as-code,Terraform modules that simplify the deployment of both custom and built-in Azure Policies
 policy-as-code,sarah-blazic,9702,panos,https://github.com/sarah-blazic/terraform-panos-policy-as-code,
@@ -20706,7 +20704,6 @@ tfc-workload-identity,SPHTech-Platform,15572,google,https://github.com/SPHTech-P
 tfc-workload-identity,SPHTech-Platform,15674,vault,https://github.com/SPHTech-Platform/terraform-vault-tfc-workload-identity,
 tfc-workspace,ahaiong,6229,ahaiong,https://github.com/ahaiong/terraform-ahaiong-tfc-workspace,
 tfc_oidc,ned1313,26589,azuread,https://github.com/ned1313/terraform-azuread-tfc_oidc,Create OIDC Credentials in Azure for HCP Terraform
-tfcloud-integration,westelh,29036,vault,https://github.com/westelh/terraform-vault-tfcloud-integration,
 tfcloud-oidc-iam,naftulikay,24427,aws,https://github.com/naftulikay/terraform-aws-tfcloud-oidc-iam,A Terraform module for AWS which sets up an IAM OpenID Connect Provider for Terraform Cloud.
 tfe,pogosoftware,23428,tfe,https://github.com/pogosoftware/terraform-tfe-tfe,This is terraform module that will have helpful modules to provision reousrces in Terraform Cloud
 tfe-dependency-runner,QuiNovas,2240,aws,https://github.com/QuiNovas/terraform-aws-tfe-dependency-runner,This module creates a webhook endpoint for managing Terraform Enterprise dependency runs
@@ -23010,6 +23007,7 @@ workspace,avidhara,29110,tfe,https://github.com/avidhara/terraform-tfe-workspace
 workspace,clouddrove,18421,aws,https://github.com/clouddrove/terraform-aws-workspace,Terraform module to create workspace resources on AWS for manage betterly.
 workspace,container-labs,6873,tfe,https://github.com/container-labs/terraform-tfe-workspace,
 workspace,dhoppeIT,11098,tfe,https://github.com/dhoppeIT/terraform-tfe-workspace,Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_workspace)
+workspace,dsohqlab,33675,tfe,https://github.com/dsohqlab/terraform-tfe-workspace,Terraform module to manage Terraform Cloud/Enterprise Workspaces.
 workspace,figurate,5634,tfe,https://github.com/figurate/terraform-tfe-workspace,Provision a VCS-connected workspace in Terraform Cloud/Enterprise
 workspace,flowingis,13217,tfe,https://github.com/flowingis/terraform-tfe-workspace,Terraform module to provision and manage Terraform Cloud workspaces
 workspace,foss-cafe,7264,tfe,https://github.com/ionicloud/terraform-tfe-workspace,Terraform Module for managing TFE workspaces
