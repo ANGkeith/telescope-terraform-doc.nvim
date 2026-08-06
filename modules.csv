@@ -836,6 +836,7 @@ alert-export,carlzxc71,18804,azurerm,https://github.com/carlzxc71/terraform-azur
 alert-policies,nurdsoft,31909,google,https://github.com/nurdsoft/terraform-google-alert-policies,
 alert-rules,alemuro,25716,grafana,https://github.com/alemuro/terraform-grafana-alert-rules,Terraform Module for managing Grafana Alert Rules easily
 alerting,claranet,4464,azurerm,https://github.com/claranet/terraform-azurerm-alerting,Terraform module for Azure Alerting
+alerting,montblu,33692,pagerduty,https://github.com/montblu/terraform-pagerduty-alerting,
 alerting-contact-point,microsoftexpert,33319,grafana,https://github.com/microsoftexpert/terraform-grafana-alerting-contact-point,
 alerting-notification-policy,microsoftexpert,33318,grafana,https://github.com/microsoftexpert/terraform-grafana-alerting-notification-policy,
 alerting-rule-group,microsoftexpert,33317,grafana,https://github.com/microsoftexpert/terraform-grafana-alerting-rule-group,
@@ -946,6 +947,7 @@ amr,CloudNationHQ,31921,azure,https://github.com/CloudNationHQ/terraform-azure-a
 analytical-platform-observability,ministryofjustice,29971,aws,https://github.com/ministryofjustice/terraform-aws-analytical-platform-observability,Analytical Platform Observability Terraform Module
 analyticdb-mysql,terraform-alicloud-modules,4552,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-analyticdb-mysql,Terraform module for creating Analyticdb MySQL on Alibaba Cloud.
 analyticdb-rag,alibabacloud-automation,31651,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-analyticdb-rag,
+analytics,dasmeta,33693,any,https://github.com/dasmeta/terraform-any-analytics,Terraform modules for analytics
 analytics,janjagusch,6111,meetup,https://github.com/janjagusch/terraform-meetup-analytics,How to set up an analytics pipeline for Meetup on Google Cloud
 analytics-lakehouse,GoogleCloudPlatform,22430,google,https://github.com/GoogleCloudPlatform/terraform-google-analytics-lakehouse,Deploys a Lakehouse Architecture Solution
 analytics-pipeline,ql4b,32518,aws,https://github.com/ql4b/terraform-aws-analytics-pipeline,
@@ -3174,7 +3176,7 @@ bucket-file-sync,micronode,4807,null,https://github.com/figurate/terraform-null-
 bucket-module,elvinlari,16500,gcp,https://github.com/elvinlari/terraform-gcp-bucket-module,A Terraform module that makes it easy to set up a new Bucket in Google Cloud Platform.
 bucket-module,rahulgraph,13405,s3,https://github.com/rahulgraph/terraform-s3-bucket-module,
 bucket-s3,openixit-solutions,20243,aws,https://github.com/openixit-solutions/terraform-aws-bucket-s3,Bucket S3 terraform module
-bucket-sensor,PrefectHQ,27139,prefect,https://github.com/PrefectHQ/terraform-prefect-bucket-sensor,Terraform module for provisioning a bucket sensor to create Prefect events
+bucket-sensor,PrefectHQ,27139,prefect,https://github.com/PrefectHQ/terraform-prefect-bucket-sensor,
 bucket-website,babakDoraniArab,11714,aws,https://github.com/babakDoraniArab/terraform-aws-bucket-website,this is a suitable module for you if you want to deploy a static website on a bucket
 bucketS3,davimarcel,10891,aws,https://github.com/davimarcel/terraform-aws-bucketS3,Simplifly Create Aws Buckket S3
 bucketswithdiffconfig,jvm2023,25983,google,https://github.com/jvm2023/terraform-google-bucketswithdiffconfig,buckets with diff configs
@@ -3700,6 +3702,7 @@ cloud-deploy,GoogleCloudPlatform,19021,google,https://github.com/GoogleCloudPlat
 cloud-deploy,bootlabstech,20590,google,https://github.com/bootlabstech/terraform-google-cloud-deploy,
 cloud-deploy,mpaas-ai-module,32642,google,https://github.com/mpaas-ai-module/terraform-google-cloud-deploy,
 cloud-depoy,evilDr4gon,26930,google,https://github.com/evilDr4gon/terraform-google-cloud-depoy,"  Modulo orientado a la abstracción de cloud deploy"
+cloud-dns,CyberCoreSystems,33699,google,https://github.com/CyberCoreSystems/terraform-google-cloud-dns,
 cloud-dns,TerraPros,27856,google,https://github.com/TerraPros/terraform-google-cloud-dns,Creates and manages Cloud DNS public or private zones and their records
 cloud-dns,TerraformFoundation,27932,google,https://github.com/TerraformFoundation/terraform-google-cloud-dns,Creates and manages Cloud DNS public or private zones and their records
 cloud-dns,c0x12c,29354,gcp,https://github.com/c0x12c/terraform-gcp-cloud-dns,
@@ -5342,7 +5345,7 @@ dataflow,terraform-google-modules,2382,google,https://github.com/terraform-googl
 dataflow-pubsub-to-bigquery,edosrecki,15980,google,https://github.com/edosrecki/terraform-google-dataflow-pubsub-to-bigquery,Terraform module to deploy Pub/Sub to BigQuery Dataflow pipeline and related resources.
 dataflow-splunk,lindeskar,8561,google,https://github.com/lindeskar/terraform-google-dataflow-splunk,Terraform module for setup of GCP logging to Splunk using Dataflow.
 dataflow_pubsub_to_bq,AckeeCZ,10704,gcp,https://github.com/AckeeCZ/terraform-gcp-dataflow_pubsub_to_bq,Dataflow job subscriber to PubSub subscription. It takes message from subscription and push it into BigQuery table.
-datafold,datafold,23316,aws,https://github.com/datafold/terraform-aws-datafold,A terraform module for deploying the Datafold infrastructure on AWS.
+datafold,datafold,23316,aws,https://github.com/datafold/terraform-aws-datafold,
 datafold,datafold,23656,google,https://github.com/datafold/terraform-google-datafold,A terraform module for deploying the Datafold infrastructure on Google cloud.
 datafold,datafold,29608,azure,https://github.com/datafold/terraform-azure-datafold,Infra deployments for Azure
 datafusion,bootlabstech,13993,google,https://github.com/bootlabstech/terraform-google-datafusion,Creates a data-fusion instance.
@@ -5777,6 +5780,8 @@ dns-recordsets,terraformdns,1179,dyn,https://github.com/terraformdns/terraform-d
 dns-validated-certificate,opzkit,10613,aws,https://github.com/opzkit/terraform-aws-dns-validated-certificate,
 dns-view,microsoftexpert,33295,infoblox,https://github.com/microsoftexpert/terraform-infoblox-dns-view,
 dns-zone,Airtel-Cloud-Platform,32579,airtelcloud,https://github.com/Airtel-Cloud-Platform/terraform-airtelcloud-dns-zone,
+dns-zone,CyberCoreSystems,33698,azurerm,https://github.com/CyberCoreSystems/terraform-azurerm-dns-zone,
+dns-zone,CyberCoreSystems,33703,oci,https://github.com/CyberCoreSystems/terraform-oci-dns-zone,
 dns-zone,Retoxx-dev,20562,azurerm,https://github.com/Retoxx-dev/terraform-azurerm-dns-zone,
 dns-zone,SoleksDataGroup,24656,aws,https://github.com/SoleksDataGroup/terraform-aws-dns-zone,
 dns-zone,altissimo-hq,24905,google,https://github.com/altissimo-hq/terraform-google-dns-zone,Creates a Google Cloud DNS Zone and Resource Records
@@ -6631,6 +6636,7 @@ doks,aigisuk,11267,digitalocean,https://github.com/aigisuk/terraform-digitalocea
 doks,nlamirault,7341,digitalocean,https://github.com/nlamirault/terraform-digitalocean-doks,Terraform module for Digital Ocean Kubernetes (DOKS)
 doks-harbor,colinwilson,11457,digitalocean,https://github.com/colinwilson/terraform-digitalocean-doks-harbor,High Availability Harbor on DOKS (Kubernetes on DigitalOcean) via Terraform [WIP]
 dokuwiki,Tax-Automation-Group,28173,google,https://github.com/Tax-Automation-Group/terraform-google-dokuwiki,
+domain,CyberCoreSystems,33701,linode,https://github.com/CyberCoreSystems/terraform-linode-domain,
 domain,JamesWoolfenden,11077,linode,https://github.com/JamesWoolfenden/terraform-linode-domain,
 domain,ScottW514,30404,datapower,https://github.com/ScottW514/terraform-datapower-domain,
 domain,agiwalpooja20,4597,aws,https://github.com/agiwalpooja20-zz/terraform-aws-domain,Terraform modules
@@ -7809,6 +7815,7 @@ ecsdeploy,Aplyca,1338,aws,https://github.com/Aplyca/terraform-aws-ecsdeploy,Depl
 ecsservice,Aplyca,3807,aws,https://github.com/Aplyca/terraform-aws-ecsservice,Deploy AWS ECS service with Terraform
 edas,alibabacloud-automation,31653,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-edas,
 edge,spectrocloud,14616,spectrocloud,https://github.com/spectrocloud/terraform-spectrocloud-edge,
+edge-dns-zone,CyberCoreSystems,33695,akamai,https://github.com/CyberCoreSystems/terraform-akamai-edge-dns-zone,
 edge-equinix,bayupw,15951,aviatrix,https://github.com/bayupw/terraform-aviatrix-edge-equinix,Terraform module to create Aviatrix Edge in Aviatrix Controller for Equinix Fabric.
 edge-on-equinix,bayupw,17861,aviatrix,https://github.com/bayupw/terraform-aviatrix-edge-on-equinix,This terraform module creates the Aviatrix Edge Gateway on Aviatrix Controller and deploys Aviatrix Edge on Equinix.
 edge-pulse,blaiseliu,32142,cloudflare,https://github.com/blaiseliu/terraform-cloudflare-edge-pulse,
@@ -8513,6 +8520,7 @@ email,dvargas92495,6509,aws,https://github.com/dvargas92495/terraform-aws-email,
 email,jimeh,18869,cloudflare,https://github.com/jimeh/terraform-cloudflare-email,Terraform module to configure various email related DNS records on Cloudflare.
 email,scaffoldly,9366,aws,https://github.com/scaffoldly/terraform-aws-email,Set up the provided stages with SES email
 email-as-api,CloudPediaAI,29724,aws,https://github.com/CloudPediaAI/terraform-aws-email-as-api,This terraform module will create a REST API to send Emails using Amazon SES
+email-comminucation-service,bootlabstech,33690,azurerm,https://github.com/bootlabstech/terraform-azurerm-email-comminucation-service,
 email-files-dropped-in-s3,LeanerCloud,18074,aws,https://github.com/LeanerCloud/terraform-aws-email-files-dropped-in-s3,Email all files dropped in an S3 bucket
 email-managed-domain,miladbeigi,23815,azure,https://github.com/miladbeigi/terraform-azure-email-managed-domain,Azure Email Communication Service with Managed Domain
 email-routing,marcuwynu23,32560,cloudflare,https://github.com/marcuwynu23/terraform-cloudflare-email-routing,
@@ -9372,6 +9380,7 @@ gcr-scraper,rad-security,27264,google,https://github.com/rad-security/terraform-
 gcs,bootlabstech,17840,google,https://github.com/bootlabstech/terraform-google-gcs,Creates a GCS .
 gcs,mpaas-ai-module,32683,google,https://github.com/mpaas-ai-module/terraform-google-gcs,
 gcs,woernfl,1839,gcp,https://github.com/woernfl/terraform-gcp-gcs,
+gcs-bucket,CyberCoreSystems,33700,google,https://github.com/CyberCoreSystems/terraform-google-gcs-bucket,
 gcs-bucket,kogunlowo123,31641,gcp,https://github.com/kogunlowo123/terraform-gcp-gcs-bucket,"Terraform module for Google Cloud Storage with lifecycle rules, versioning, CORS, retention policies, and autoclass"
 gcs-bucket,nephosolutions,1186,google,https://github.com/nephosolutions/terraform-google-gcs-bucket,Terraform module to provision Google Cloud Storage buckets
 gcs-static-website-3dglobe,jeremycook123,29723,gcp,https://github.com/jeremycook123/terraform-gcp-gcs-static-website-3dglobe,
@@ -9605,6 +9614,7 @@ gke,binxio,6862,google,https://github.com/binxio/terraform-google-gke,Generic Go
 gke,cloudpilot-ai,32809,cloudpilotai,https://github.com/cloudpilot-ai/terraform-cloudpilotai-gke,
 gke,cypik,22845,google,https://github.com/cypik/terraform-google-gke,Google Kubernetes Engine (GKE) is a managed Kubernetes service for containers and container clusters running on Google Cloud infrastructure
 gke,devdot4,33684,gcp,https://github.com/devdot4/terraform-gcp-gke,
+gke,dmbapakova,33705,gcp,https://github.com/dmbapakova/terraform-gcp-gke,
 gke,expel-io,16021,gcp,https://github.com/expel-io/terraform-gcp-gke,Expel's Terraform module for GKE onboarding
 gke,farrukh90,33682,gcp,https://github.com/farrukh90/terraform-gcp-gke,
 gke,geekbass,5908,google,https://github.com/geekbass/terraform-google-gke,Google Cloud Platform GKE Terraform Module (Kubing-the-Netes)
@@ -9621,6 +9631,7 @@ gke,rukiyeayyildiz,33689,gcp,https://github.com/rukiyeayyildiz/terraform-gcp-gke
 gke,ryanahkiong,33687,gcp,https://github.com/ryanahkiong/terraform-gcp-gke,
 gke,shamal112mn,7134,google,https://github.com/shamal112mn/terraform-google-gke,
 gke,subzone,23878,gcp,https://github.com/subzone/terraform-gcp-gke,
+gke,ysakova90,33707,gcp,https://github.com/ysakova90/terraform-gcp-gke,
 gke-addons,clouddrove,24533,google,https://github.com/clouddrove/terraform-google-gke-addons,
 gke-addons,squareops,20049,google,https://github.com/squareops/terraform-google-gke-addons,"Terraform module which provides a set of reusable, configurable, and scalable GKE addons configurations."
 gke-appscaffold,nullstone-modules,32089,google,https://github.com/nullstone-modules/terraform-google-gke-appscaffold,
@@ -14773,7 +14784,9 @@ object-notification,rafaelvastag,18503,s3,https://github.com/rafaelvastag/terraf
 object-notification,rperucchi,17079,s3,https://github.com/rperucchi/terraform-s3-object-notification,
 object-notification-modules,wodsonluiz,8919,s3,https://github.com/wodsonluiz/terraform-s3-object-notification-modules,
 object-storage,Airtel-Cloud-Platform,32541,airtelcloud,https://github.com/Airtel-Cloud-Platform/terraform-airtelcloud-object-storage,
+object-storage,CyberCoreSystems,33702,linode,https://github.com/CyberCoreSystems/terraform-linode-object-storage,
 object-storage,cloud-native-toolkit,12263,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-object-storage,Terraform module to provision Object Storage in the IBM Cloud account
+object-storage-bucket,CyberCoreSystems,33704,oci,https://github.com/CyberCoreSystems/terraform-oci-object-storage-bucket,
 object-storage-bucket,cloud-native-toolkit,14567,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-object-storage-bucket,Terraform module to provision a bucket in Object Storage
 object-storage-buckets,cloudscript-technology,25058,mgc,https://github.com/cloudscript-technology/terraform-mgc-object-storage-buckets,Terraform Module Magalu Cloud Object Storage
 objectstorage-bucket,terraform-oci-modules,33670,oci,https://github.com/terraform-oci-modules/terraform-oci-objectstorage-bucket,
@@ -15070,8 +15083,7 @@ organization,cktf,25975,gitlab,https://github.com/cktf/terraform-gitlab-organiza
 organization,cktf,25976,grafana,https://github.com/cktf/terraform-grafana-organization,Terraform Grafana Organization Module
 organization,cktf,25977,sentry,https://github.com/cktf/terraform-sentry-organization,Terraform Sentry Organization Module
 organization,dhoppeIT,11096,tfe,https://github.com/dhoppeIT/terraform-tfe-organization,"Terraform module to manage the Terraform Cloud/Enterprise organization resources (tfe_organization, tfe_organization_membership, tfe_organization_token)"
-organization,dsohqlab,33678,tfe,https://github.com/dsohqlab/terraform-tfe-organization,Terraform module to manage Terraform Cloud/Enterprise Organization.
-organization,dsohqlab,33679,github,https://github.com/dsohqlab/terraform-github-organization,Terraform module to manage GitHub Organization.
+organization,dsohqlab,33706,github,https://github.com/dsohqlab/terraform-github-organization,Terraform module to manage GitHub Organization.
 organization,dustindortch,21943,tfe,https://github.com/dustindortch/terraform-tfe-organization,Manage Terraform Cloud/Enterprise organizations
 organization,figurate,5631,tfe,https://github.com/figurate/terraform-tfe-organization,Manage organizations in Terraform Cloud/Enterprise
 organization,getindata,14591,aws,https://github.com/getindata/terraform-aws-organization,Terraform module for AWS Organization management
@@ -16061,6 +16073,7 @@ quotas,alibabacloud-automation,31667,alicloud,https://github.com/alibabacloud-au
 r1soft-server,turanmehmet,7824,aws,https://github.com/turanmehmet/terraform-aws-r1soft-server,
 r2,marcuwynu23,32564,cloudflare,https://github.com/marcuwynu23/terraform-cloudflare-r2,
 r2-api-token,Cyb3r-Jak3,20557,cloudflare,https://github.com/Cyb3r-Jak3/terraform-cloudflare-r2-api-token,Terraform module to create a Cloudflare API token that have bucket scope tokens.
+r2-bucket,ganexcloud,33694,cloudflare,https://github.com/ganexcloud/terraform-cloudflare-r2-bucket,
 r2-bucket,microsoftexpert,33384,cloudflare,https://github.com/microsoftexpert/terraform-cloudflare-r2-bucket,
 r2-bucket,zoro16,30533,cloudflare,https://github.com/zoro16/terraform-cloudflare-r2-bucket,
 r53-certbot,armorfret,7071,aws,https://github.com/armorfret/terraform-aws-r53-certbot,Terraform module for delegating a zone for certbot to manage LetsEncrypt certificates
@@ -17255,6 +17268,7 @@ route-table-vpc,terraform-navercloudplatform-modules,25156,ncloud,https://github
 route-tag-policy,netascode,20902,aci,https://github.com/netascode/terraform-aci-route-tag-policy,Terraform Cisco ACI Route Tag Policy Module 
 route-vpc,terraform-navercloudplatform-modules,25173,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-route-vpc,Terraform module to create route resources for the vpc configuration
 route53,Aplyca,1011,aws,https://github.com/Aplyca/terraform-aws-route53,Terraform AWS Route53 module.  Create a Route53 zone and dns records
+route53,CyberCoreSystems,33696,aws,https://github.com/CyberCoreSystems/terraform-aws-route53,
 route53,Dan3210,25494,aws,https://github.com/Dan3210/terraform-aws-route53,
 route53,Devoper777,24413,aws,https://github.com/Devoper777/terraform-aws-route53,
 route53,KoeSystems,473,aws,https://github.com/KoeSystems/terraform-aws-route53,Terraform AWS Route53 module to create public hosted zones.
@@ -17551,6 +17565,7 @@ s3-bucket,7clouds-terraform-modules,15903,aws,https://github.com/7clouds-terrafo
 s3-bucket,AeronFuertes,12864,aws,https://github.com/AeronFuertes/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,Akinwalee,15060,aws,https://github.com/Akinwalee/terraform-aws-s3-bucket,A Terraform module that provisions AWS S3 buckets.
 s3-bucket,BearAlliance,14261,aws,https://github.com/BearAlliance/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
+s3-bucket,CyberCoreSystems,33697,aws,https://github.com/CyberCoreSystems/terraform-aws-s3-bucket,
 s3-bucket,GGVC888,10599,aws,https://github.com/GGVC888/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS
 s3-bucket,HashiHinch,16171,aws,https://github.com/HashiHinch/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
 s3-bucket,ImmanuelADavid,12714,aws,https://github.com/ImmanuelADavid/terraform-aws-s3-bucket,Terraform module which creates S3 bucket resources on AWS 🇺🇦
@@ -21723,6 +21738,7 @@ vpc,Kavitha-Sivalingam,14525,kavitha,https://github.com/Kavitha-Sivalingam/terra
 vpc,Kkenzheeva,28628,aws,https://github.com/Kkenzheeva/terraform-aws-vpc,
 vpc,KoeSystems,461,aws,https://github.com/KoeSystems/terraform-aws-vpc,Terraform AWS VPC module
 vpc,LNSdev07,28410,aws,https://github.com/LNSdev07/terraform-aws-vpc,
+vpc,Ltu27,33691,aws,https://github.com/Ltu27/terraform-aws-vpc,
 vpc,Lucky-graf,17316,aws,https://github.com/Lucky-graf/terraform-aws-vpc,Modules for AWS provider
 vpc,MagnetarIT,4625,aws,https://github.com/MagnetarIT/terraform-aws-vpc,Terraform module for creation of a VPC
 vpc,MarkPage2k1,20021,aws,https://github.com/MarkPage2k1/terraform-aws-vpc,
