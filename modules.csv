@@ -1376,6 +1376,7 @@ appdeploy,dmbapakova,33812,helm,https://github.com/dmbapakova/terraform-helm-app
 appdeploy,farrukh90,33740,helm,https://github.com/farrukh90/terraform-helm-appdeploy,
 appdeploy,laurammberk,33742,helm,https://github.com/laurammberk/terraform-helm-appdeploy,
 appdeploy,nurbaitenov,33743,helm,https://github.com/nurbaitenov/terraform-helm-appdeploy,
+appdeploy,ryanahkiong,33825,helm,https://github.com/ryanahkiong/terraform-helm-appdeploy,
 appdeploy,tanzdmtr08,33744,helm,https://github.com/tanzdmtr08/terraform-helm-appdeploy,
 appdeploy,ysakova90,33739,helm,https://github.com/ysakova90/terraform-helm-appdeploy,
 appdynamics,3191110276,8260,kubernetes,https://github.com/3191110276/terraform-kubernetes-appdynamics,
@@ -2061,6 +2062,7 @@ authorization,telekom-mms,19985,azurerm,https://github.com/telekom-mms/terraform
 authorization-policy,microsoftexpert,33254,msgraph,https://github.com/microsoftexpert/terraform-msgraph-authorization-policy,
 authz,nooop3,30906,keycloak,https://github.com/nooop3/terraform-keycloak-authz,
 auto-bastion,JamesWoolfenden,3772,aws,https://github.com/JamesWoolfenden/terraform-aws-auto-bastion,A bastion with SSH controlled by IAM
+auto-healing,ample-studios,33824,aws,https://github.com/ample-studios/terraform-aws-auto-healing,
 auto-scaling,devops4me,3155,aws,https://github.com/devops4me/terraform-aws-auto-scaling,This module creates an auto scaling group and a launch configuration to enable agents like a cluster manager to add and/or remove machines to and from a cluster.
 auto-scaling,exnodeshub,22506,aws,https://github.com/exnodeshub/terraform-aws-auto-scaling,
 auto-scaling,nabdilatipova,7807,aws,https://github.com/nabdilatipova/terraform-aws-auto-scaling,
@@ -5671,8 +5673,8 @@ directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,Thi
 directus,mittwald,29857,mittwald,https://github.com/mittwald/terraform-mittwald-directus,
 disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terraform-azurerm-disallow-ragrs-policy,"This Terraform module creates a custom Azure policy definition that prevents the creation of storage accounts with Standard_RAGRS SKU unless they have the exemption tag ""Exempt: Disallow Standard_RAGRS"". The policy can be assigned to a management group or subscription."
 discovery,craigsloggett,30862,tfe,https://github.com/craigsloggett/terraform-tfe-discovery,A Terraform module to easily discover and import the resources in an HCP Terraform organization.
-discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,DiscrimiNAT Firewall for egress filtering by FQDNs on AWS. Architecture with ENIs in VPCs for Private Subnets' route table entries to the Internet.
-discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,"HTTPS, TLS, SSH, SFTP micro-segmentation firewall to filter VPC egress by hostnames. Architecture with Gateway Load Balancer (GWLB) VPC Endpoints for Private Subnets' route table entries to the Internet. "
+discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,
+discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,
 discriminat-ilb,ChaserSystems,7952,google,https://github.com/ChaserSystems/terraform-google-discriminat-ilb,"DiscrimiNAT Firewall is a transparent, proxy-less solution to discover & filter egress traffic by FQDNs in a Shared VPC on Google Cloud. Architecture with internal TCP load balancers as next hops."
 discriminat-ntag,ChaserSystems,7953,google,https://github.com/ChaserSystems/terraform-google-discriminat-ntag,"DiscrimiNAT Firewall is a transparent, proxy-less solution to discover & filter egress traffic by FQDNs in a Shared VPC on Google Cloud. Architecture with Network Tags in VPCs for fine-grained, opt-in control over routing."
 disk,JamesWoolfenden,7817,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-disk,Basic Disk module
@@ -7728,6 +7730,7 @@ ecs-service,SolidStackCloud,30207,aws,https://github.com/SolidStackCloud/terrafo
 ecs-service,StratusGrid,12503,aws,https://github.com/StratusGrid/terraform-aws-ecs-service,"ecs-fargate-service is used to create an ecs service and the corresponding codedeploy, log groups, codepipeline artifacts, etc. It is intended to be used with StratusGrid's multi-account ecs pipeline module to allow for container images to be  passed immutably from cluster to cluster in different environments and accounts in a single contiguous pipeline."
 ecs-service,YoshinoriSatoh,11957,aws,https://github.com/YoshinoriSatoh/terraform-aws-ecs-service,
 ecs-service,amachsoftware,14815,aws,https://github.com/amachsoftware/terraform-aws-ecs-service,Terraform module for creating an ECS service
+ecs-service,ample-studios,33823,aws,https://github.com/ample-studios/terraform-aws-ecs-service,
 ecs-service,anonymint,505,aws,https://github.com/anonymint/terraform-aws-ecs-service,Terraform module to create ECS service and tasks running multiple containers per instances with dynamic ports and surface via ALB
 ecs-service,appzen-oss,3608,aws,https://github.com/appzen-oss/terraform-aws-ecs-service,
 ecs-service,boldlink,14380,aws,https://github.com/boldlink/terraform-aws-ecs-service,Terraform registry repository for ECS service module
@@ -14935,6 +14938,7 @@ oidc-provider-data,reegnz,7989,aws,https://github.com/reegnz/terraform-aws-oidc-
 oidc-with-github-actions,thetestlabs,12530,aws,https://github.com/thetestlabs/terraform-aws-oidc-with-github-actions,A Terraform module to configure OIDC between GitHub Actions and AWS.
 oke,bpalermo,9846,oci,https://github.com/bpalermo/terraform-oci-oke,The Terraform OKE Module Installer for Oracle Cloud Infrastructure provides a Terraform module that provisions the necessary resources for Oracle Container Engine.
 oke,oracle-terraform-modules,4259,oci,https://github.com/oracle-terraform-modules/terraform-oci-oke,
+oke,terraform-oci-modules,33832,oci,https://github.com/terraform-oci-modules/terraform-oci-oke,
 oke,web-virtua-oci-multi-account-modules,18879,oci,https://github.com/web-virtua-oci-multi-account-modules/terraform-oci-oke,
 oke-quickstart,shukawam,19058,oci,https://github.com/shukawam/terraform-oci-oke-quickstart,Terraform module for OKE Tutorial
 oks,tf-outscale-modules,31711,outscale,https://github.com/tf-outscale-modules/terraform-outscale-oks,
@@ -17589,6 +17593,7 @@ s3,shadbury,14761,aws,https://github.com/shadbury/terraform-aws-s3,Created s3 bu
 s3,skyfjall,14126,aws,https://github.com/skyfjell/terraform-aws-s3,Create Simple and Compliant S3 Buckets
 s3,skyfjell,14229,aws,https://github.com/skyfjell/terraform-aws-s3,Create Simple and Compliant S3 Buckets
 s3,so1omon563,14825,aws,https://github.com/so1omon563/terraform-aws-s3,Module to create an S3 bucket with common options using bucket configuration resources in submodules.
+s3,tedilabs,33822,aws,https://github.com/tedilabs/terraform-aws-s3,
 s3,terraform-3am-apocalypse,32391,aws,https://github.com/terraform-3am-apocalypse/terraform-aws-s3,
 s3,tfstack,27740,aws,https://github.com/tfstack/terraform-aws-s3,Terraform module to create an S3 bucket
 s3,tomarv2,8274,aws,https://github.com/tomarv2/terraform-aws-s3,Terraform module for AWS S3
@@ -18580,6 +18585,7 @@ security-hub,aws-ia,20215,aws,https://github.com/aws-ia/terraform-aws-security-h
 security-hub,clouddrove,10953,aws,https://github.com/clouddrove/terraform-aws-security-hub,This terraform module creates set of Security hub. AWS Security Hub is a comprehensive security service that helps you centralize and automate security findings across your AWS accounts
 security-hub,cloudposse,6628,aws,https://github.com/cloudposse/terraform-aws-security-hub,Terraform module to provision AWS Security Hub
 security-hub,dc0c,29833,aws,https://github.com/dc0c/terraform-aws-security-hub,
+security-hub,devotica-labs,33828,aws,https://github.com/devotica-labs/terraform-aws-security-hub,
 security-hub,ganexcloud,33810,aws,https://github.com/ganexcloud/terraform-aws-security-hub,Terraform module for AWS Security Hub
 security-hub-outbound,lacework,32078,aws,https://github.com/lacework/terraform-aws-security-hub-outbound,
 security-list,JamesWoolfenden,12484,oci,https://github.com/JamesWoolfenden/terraform-oci-security-list,
@@ -18649,6 +18655,7 @@ sentinel-alert-rule,libre-devops,32823,azurerm,https://github.com/libre-devops/t
 sentinel-automation-rule,libre-devops,32824,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-automation-rule,
 sentinel-codeless-connector,libre-devops,33015,azapi,https://github.com/libre-devops/terraform-azapi-sentinel-codeless-connector,
 sentinel-content,claranet,24663,azurerm,https://github.com/claranet/terraform-azurerm-sentinel-content,Terraform module for Microsoft Sentinel Content
+sentinel-content-hub-solution,libre-devops,33831,azapi,https://github.com/libre-devops/terraform-azapi-sentinel-content-hub-solution,
 sentinel-data-connector,libre-devops,32822,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-data-connector,
 sentinel-defender-xdr-connector,libre-devops,33022,azapi,https://github.com/libre-devops/terraform-azapi-sentinel-defender-xdr-connector,
 sentinel-watchlist,libre-devops,32825,azurerm,https://github.com/libre-devops/terraform-azurerm-sentinel-watchlist,
@@ -18900,6 +18907,7 @@ ses,Tatani-Herman,26402,aws,https://github.com/Tatani-Herman/terraform-aws-ses,T
 ses,c0x12c,29321,aws,https://github.com/c0x12c/terraform-aws-ses,
 ses,clouddrove,3657,aws,https://github.com/clouddrove/terraform-aws-ses,Terraform module to create an SES Identity with SES IAM user on AWS.
 ses,cloudposse,5241,aws,https://github.com/cloudposse/terraform-aws-ses,Terraform module to provision Simple Email Service on AWS
+ses,ganexcloud,33826,aws,https://github.com/ganexcloud/terraform-aws-ses,Ganex Terraform AWS SES module
 ses,genstackio,7972,aws,https://github.com/genstackio/terraform-aws-ses,Terraform module to create an SES architecture on AWS
 ses,infrablocks,24783,aws,https://github.com/infrablocks/terraform-aws-ses,
 ses,ispec-inc,4979,aws,https://github.com/ispec-inc/terraform-aws-ses,
@@ -18915,6 +18923,7 @@ ses,raisaaaan,6919,aws,https://github.com/raisaaaan/terraform-aws-ses," Terrafor
 ses,rhythmictech,6335,aws,https://github.com/rhythmictech/terraform-aws-ses,
 ses,rpstreef,6763,aws,https://github.com/rpstreef/terraform-aws-ses,"AWS Simple Email Service (SES) Terraform Module, configures Route53 records and a minimal SES with mail FROM domain"
 ses,tculp,22927,aws,https://github.com/tculp/terraform-aws-ses,Creates a DKIM-validated SES domain and an IAM user
+ses,tfstack,33829,aws,https://github.com/tfstack/terraform-aws-ses,Terraform module for Amazon SES outbound mail identities configuration sets and SNS delivery events
 ses,tigpt,24917,aws,https://github.com/tigpt/terraform-aws-ses,
 ses-auto-reply,jaredready,12892,aws,https://github.com/jaredready/terraform-aws-ses-auto-reply,
 ses-catchall,scaffoldly,9483,aws,https://github.com/scaffoldly/terraform-aws-ses-catchall,
@@ -22513,6 +22522,7 @@ vpc-peering,cypik,25291,aws,https://github.com/cypik/terraform-aws-vpc-peering,
 vpc-peering,dcos-terraform,1915,aws,https://github.com/dcos-terraform/terraform-aws-vpc-peering,
 vpc-peering,deleo-infra-dev,22735,aws,https://github.com/deleo-infra-dev/terraform-aws-vpc-peering,
 vpc-peering,fuxingloh,4674,aws,https://github.com/fuxingloh/terraform-aws-vpc-peering,Terraform AWS peering all VPC together forming a mesh network.
+vpc-peering,ganexcloud,33827,aws,https://github.com/ganexcloud/terraform-aws-vpc-peering,
 vpc-peering,grem11n,488,aws,https://github.com/grem11n/terraform-aws-vpc-peering,Terraform module to setup VPC peering connection
 vpc-peering,gutozntt,14955,aws,https://github.com/gutozntt/terraform-aws-vpc-peering,Use this module to create a VPC Peering in AWS.
 vpc-peering,jerinrathnam,19123,aws,https://github.com/jerinrathnam/terraform-aws-vpc-peering,Terraform Module for VPC peering connection
@@ -22881,6 +22891,7 @@ wayfinder,appvia,24607,azurerm,https://github.com/appvia/terraform-azurerm-wayfi
 wayfinder,appvia,24608,google,https://github.com/appvia/terraform-google-wayfinder,Terraform Module for installing Wayfinder in GCP
 waypoint-ecs,hashicorp,17766,aws,https://github.com/hashicorp/terraform-aws-waypoint-ecs,Terraform module which creates the AWS infrastructure that the Hashicorp Waypoint ECS platform plugin requires
 web,104corp,1333,aws,https://github.com/104corp/terraform-aws-web,Terraform module which creates Web resources on AWS
+web,julianmv9310,33830,modulo,https://github.com/julianmv9310/terraform-modulo-web,terraform-modulo-web
 web,kennship,2453,aws,https://github.com/kennship/terraform-aws-web,Terraform modules for working with AWS
 web,lakshmipath,18742,ec2m,https://github.com/lakshmipath/terraform-ec2m-web,
 web-ami,StayWell,2328,aws,https://github.com/StayWell/terraform-aws-web-ami,Simple Terraform module to quickly launch an EC2 instance from an arbitrary AMI and expose it through an ALB
