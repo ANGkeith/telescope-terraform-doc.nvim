@@ -2224,7 +2224,7 @@ avm-res-compute-hostgroup,Azure,25923,azurerm,https://github.com/Azure/terraform
 avm-res-compute-proximityplacementgroup,Azure,26757,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup,
 avm-res-compute-sshpublickey,Azure,24459,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey,Public SSH Key AVM module
 avm-res-compute-virtualmachine,Azure,21973,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine,
-avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,Terraform Azure Verified Resource Module for Virtual Machine Scale Set
+avm-res-compute-virtualmachinescaleset,Azure,23082,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset,
 avm-res-containerinstance-containergroup,Azure,25335,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup,Terraform Azure Verified Resource Module for Container Instance
 avm-res-containerregistry-registry,Azure,23187,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry,
 avm-res-containerservice-managedcluster,Azure,26848,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster,
@@ -2255,7 +2255,7 @@ avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terrafor
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,
 avm-res-insights-datacollectionrule,Azure,32077,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionrule,
 avm-res-keyvault-managedhsm,Azure,32954,azure,https://github.com/Azure/terraform-azure-avm-res-keyvault-managedhsm,
-avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,Terraform Azure Verified Resource Module for Key Vault
+avm-res-keyvault-vault,Azure,21332,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault,
 avm-res-kusto-cluster,Azure,23935,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-kusto-cluster,
 avm-res-logic-workflow,Azure,24872,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow,Terraform Azure Verified Resource Module for Logic Apps (Workflow)
 avm-res-machinelearningservices-workspace,Azure,25472,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace,Terraform Azure Verified Resource Module for Machine Learning Services Workspace
@@ -2263,7 +2263,7 @@ avm-res-maintenance-maintenanceconfiguration,Azure,28504,azurerm,https://github.
 avm-res-managedidentity-userassignedidentity,Azure,23762,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity,
 avm-res-management-servicegroup,Azure,30475,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-management-servicegroup,Terraform Azure Verified Resource Module for Management Service Groups
 avm-res-netapp-netappaccount,Azure,27391,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount,Terraform Azure Verified Resource Module for Azure NetApp File
-avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,Terraform Azure Verified Resource Module for Application Gateway
+avm-res-network-applicationgateway,Azure,25793,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway,
 avm-res-network-applicationgatewaywebapplicationfirewallpolicy,Azure,27640,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgatewaywebapplicationfirewallpolicy,AVM Resource Module for Application Gateway Web Application Firewall (WAF) Policy
 avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-applicationsecuritygroup,Terraform Azure Verified Resource Module for Application Security Group (ASG)
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,Azure Firewall AVM Module
@@ -2383,7 +2383,7 @@ aws-cluster,maathor,14722,k3s,https://github.com/maathor/terraform-k3s-aws-clust
 aws-connect,spotinst,11385,spotinst,https://github.com/spotinst/terraform-spotinst-aws-connect,A Terraform module to connect an AWS account to Spot.io.
 aws-controller,AviatrixSystems,14981,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-aws-controller,
 aws-controlplane,AviatrixSystems,24798,aviatrix,https://github.com/AviatrixSystems/terraform-aviatrix-aws-controlplane,Terraform module to deploy Aviatrix ControlPlane (Controller + CoPilot) in AWS
-aws-controlplane,terraform-aviatrix-modules,28752,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-controlplane,"This module deploys the Aviatrix control plane, or individual parts thereof."
+aws-controlplane,terraform-aviatrix-modules,28752,aviatrix,https://github.com/terraform-aviatrix-modules/terraform-aviatrix-aws-controlplane,
 aws-core,lean-delivery,7586,module,https://github.com/lean-delivery/terraform-module-aws-core,Terraform module for creating AWS core service
 aws-core-infra,pagopa-dx,29873,aws,https://github.com/pagopa-dx/terraform-aws-aws-core-infra,Sets up the core AWS infrastructure including all necessary networking resources. Useful to bootstrap production or development environments.
 aws-core-values-exporter,pagopa-dx,29894,aws,https://github.com/pagopa-dx/terraform-aws-aws-core-values-exporter,Allow to output the main core values of configurations deployed via aws-core-infra module
@@ -4107,6 +4107,7 @@ cloudinit-vm,ZacksHomeLab,19372,proxmox,https://github.com/ZacksHomeLab/terrafor
 cloudinit-vm,dj-d,27631,proxmox,https://github.com/dj-d/terraform-proxmox-cloudinit-vm,Terraform module for provisioning and configuring VMs on Proxmox using Cloud-Init.
 cloudlogs,upwindsecurity,30070,azurerm,https://github.com/upwindsecurity/terraform-azurerm-cloudlogs,
 cloudlogs,upwindsecurity,33596,google,https://github.com/upwindsecurity/terraform-google-cloudlogs,
+cloudlogs,upwindsecurity,33835,aws,https://github.com/upwindsecurity/terraform-aws-cloudlogs,
 cloudmap,finisterra-io,23554,aws,https://github.com/finisterra-io/terraform-aws-cloudmap,Terraform AWS Cloudmap module
 cloudmap,tfstack,29862,aws,https://github.com/tfstack/terraform-aws-cloudmap,Terraform module to manage Amazon Cloud Map namespaces and services for DNS-based discovery
 cloudnative-kit,rridane,30247,kubernetes,https://github.com/rridane/terraform-kubernetes-cloudnative-kit,
@@ -5675,8 +5676,8 @@ disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terra
 discovery,craigsloggett,30862,tfe,https://github.com/craigsloggett/terraform-tfe-discovery,A Terraform module to easily discover and import the resources in an HCP Terraform organization.
 discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,
 discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,
-discriminat-ilb,ChaserSystems,7952,google,https://github.com/ChaserSystems/terraform-google-discriminat-ilb,"DiscrimiNAT Firewall is a transparent, proxy-less solution to discover & filter egress traffic by FQDNs in a Shared VPC on Google Cloud. Architecture with internal TCP load balancers as next hops."
-discriminat-ntag,ChaserSystems,7953,google,https://github.com/ChaserSystems/terraform-google-discriminat-ntag,"DiscrimiNAT Firewall is a transparent, proxy-less solution to discover & filter egress traffic by FQDNs in a Shared VPC on Google Cloud. Architecture with Network Tags in VPCs for fine-grained, opt-in control over routing."
+discriminat-ilb,ChaserSystems,7952,google,https://github.com/ChaserSystems/terraform-google-discriminat-ilb,
+discriminat-ntag,ChaserSystems,7953,google,https://github.com/ChaserSystems/terraform-google-discriminat-ntag,
 disk,JamesWoolfenden,7817,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-disk,Basic Disk module
 disk,bfrunza,3532,google,https://github.com/bfrunza/terraform-google-disk,Terraform module which deploys a persistent disk on GCP
 disk,terraform-alicloud-modules,1599,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-disk,Terraform module which creates ECS Disks and attach them to ECS instance on Alibaba Cloud
@@ -6869,7 +6870,6 @@ easy-fargate-service,USSBA,5906,aws,https://github.com/USSBA/terraform-aws-easy-
 easy-imm,terraform-cisco-modules,9731,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-easy-imm,This Module is provided to deploy a standard UCS IMM domain with very few inputs.
 easy-installation-template,kodal035,24304,kubernetes,https://github.com/kodal035/terraform-kubernetes-easy-installation-template,terraform-kubernetes-easy-installation-template
 easy-ip-info,LederWorks,13451,curl,https://github.com/LederWorks/terraform-curl-easy-ip-info," Terraform Curl Easy IP Info "
-easy-oidc,easy-oidc,30579,aws,https://github.com/easy-oidc/terraform-aws-easy-oidc,
 easy-sagemaker,jbencook,7752,aws,https://github.com/sparrowml/terraform-aws-easy-sagemaker,Easy configuration for SageMaker notebook instances.
 easy-sg,rms1000watt,1522,aws,https://github.com/rms1000watt/terraform-aws-easy-sg,Terraform Module for AWS Security Group (Auto Whitelist WAN IP)
 easy-vm,rms1000watt,1551,aws,https://github.com/rms1000watt/terraform-aws-easy-vm,Terraform Module for AWS to Create an Ubuntu 18.04 VM with SSH Password
@@ -10803,7 +10803,7 @@ instance-orchestrator-org-inv-collector,xosphere,21064,xosphere,https://github.c
 instance-orchestrator-org-ri-sub-acct-reporter,xosphere,21065,xosphere,https://github.com/xosphere/terraform-xosphere-instance-orchestrator-org-ri-sub-acct-reporter,Terraform module to install Xosphere Instance Orchestrator Management Org RI Sub-Acct Reporter
 instance-pool,microsoftexpert,33458,databricks,https://github.com/microsoftexpert/terraform-databricks-instance-pool,
 instance-profile,florentio,15138,aws,https://github.com/florentio/terraform-aws-instance-profile,Terraform module which creates Instance profile on AWS
-instance-profile,infrahouse,23420,aws,https://github.com/infrahouse/terraform-aws-instance-profile,Module bundles AWS resources to create an instance profile.
+instance-profile,infrahouse,23420,aws,https://github.com/infrahouse/terraform-aws-instance-profile,"Terraform module for EC2 instance profiles with IAM role, managed policies, inline permissions, and optional CloudWatch/SSM integration. "
 instance-profile,jwa-lab,18541,aws,https://github.com/jwa-lab/terraform-aws-instance-profile,Terraform module to create an EC2 Instance Profile
 instance-profile,ksatirli,21843,aws,https://github.com/ksatirli/terraform-aws-instance-profile,Terraform Module: Instance Profiles for AWS
 instance-refresh-deploy,davidlu1001,33052,aws,https://github.com/davidlu1001/terraform-aws-instance-refresh-deploy,"AMI deploys without launch-template churn: SSM Parameter Store as the release pointer, ASG instance refresh as convergence - with a bash driver for deploy, rollback, and drift watchdog (no k8s, no blue/green)."
@@ -17117,6 +17117,7 @@ resource_group_storage,88victory88,28262,azurerm,https://github.com/88victory88/
 resource_group_storage,Andr1yK,27771,azurerm,https://github.com/Andr1yK/terraform-azurerm-resource_group_storage,
 resource_group_storage,Bondaliname,30300,azurerm,https://github.com/Bondaliname/terraform-azurerm-resource_group_storage,Terraform module for Azure resource group and storage account
 resource_group_storage,Darya-Savchenko,26912,azurerm,https://github.com/Darya-Savchenko/terraform-azurerm-resource_group_storage,
+resource_group_storage,Dima-shima,33836,azurerm,https://github.com/Dima-shima/terraform-azurerm-resource_group_storage,
 resource_group_storage,Gosxa,31923,azurerm,https://github.com/Gosxa/terraform-azurerm-resource_group_storage,
 resource_group_storage,IKruglyak,25203,azurerm,https://github.com/IKruglyak/terraform-azurerm-resource_group_storage,
 resource_group_storage,ILyakhova,25331,azurerm,https://github.com/ILyakhova/terraform-azurerm-resource_group_storage,
@@ -18249,6 +18250,9 @@ scaffolding,Vietwear,32208,provider,https://github.com/Vietwear/terraform-provid
 scalable-infrastructure,UpCloudLtd,13996,upcloud,https://github.com/UpCloudLtd/terraform-upcloud-scalable-infrastructure,"Terraform module which creates an UpCloud infrastructure for a typical, easy to scale web app"
 scale_set_lb,Meydan52,14000,azure,https://github.com/Meydan52/terraform-azure-scale_set_lb,
 scaled-compute,ksatirli,21842,aws,https://github.com/ksatirli/terraform-aws-scaled-compute,Terraform Module: Scaled Compute for AWS
+scaledown-cron-ec2,tecsocoop,33837,aws,https://github.com/tecsocoop/terraform-aws-scaledown-cron-ec2,
+scaledown-cron-eks,tecsocoop,33839,aws,https://github.com/tecsocoop/terraform-aws-scaledown-cron-eks,
+scaledown-cron-rds,tecsocoop,33838,aws,https://github.com/tecsocoop/terraform-aws-scaledown-cron-rds,
 scaleset,chaglare,7466,azure,https://github.com/chaglare/terraform-azure-scaleset,
 scaleway-kubernetes-cluster,melodium-tech,28616,melodium,https://github.com/melodium-tech/terraform-melodium-scaleway-kubernetes-cluster,
 scanner,Relyance-Ext,27658,aws,https://github.com/Relyance-Ext/terraform-aws-scanner,Terraform for setting up Sierra Scanner Permissions
@@ -21045,6 +21049,8 @@ truewatch,TrueWatchTech,32530,provider,https://github.com/TrueWatchTech/terrafor
 trust-control-policy,netascode,17284,aci,https://github.com/netascode/terraform-aci-trust-control-policy,Terraform Cisco ACI Trust Control Policy Module
 trusted-advisor-refresh,trussworks,3345,aws,https://github.com/trussworks/terraform-aws-trusted-advisor-refresh,Trusted Advisor Refresh
 trusted-profile,terraform-ibm-modules,22265,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-trusted-profile,Create Trusted profile on IBM Cloud
+truster,truster-dev,33833,aws,https://github.com/truster-dev/terraform-aws-truster,
+truster,truster-dev,33834,google,https://github.com/truster-dev/terraform-google-truster,
 truststore,infrahouse,27216,aws,https://github.com/infrahouse/terraform-aws-truststore,Module that creates a trust store with a generated CA certificate.
 tsuga-ingestion,tsuga-dev,31707,google,https://github.com/tsuga-dev/terraform-google-tsuga-ingestion,
 tsuga-ingestion,tsuga-dev,31712,azurerm,https://github.com/tsuga-dev/terraform-azurerm-tsuga-ingestion,
@@ -21088,7 +21094,6 @@ unarchive,escapace,26586,null,https://github.com/escapace/terraform-null-unarchi
 underused-servers,kiwicom,3028,datadog,https://github.com/kiwicom/terraform-datadog-underused-servers,
 ungpg,factorysh,472,basic,https://github.com/factorysh/terraform-basic-ungpg,Decrypt settings for Terraform
 unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocean-unifi,Provision Unifi Controller on DigitalOcean
-unifi-dream,sowens81,31006,provider,https://github.com/sowens81/terraform-provider-unifi-dream,
 unifi-network,kalenarndt,11327,unifi,https://github.com/kalenarndt/terraform-unifi-unifi-network,Repo for a module that creates basic Unifi networks
 unifi-sdn-controller,OldCrowEW,1925,google,https://github.com/OldCrowEW/terraform-google-unifi-sdn-controller,
 unified-dns,fizz,31475,aws,https://github.com/fizz/terraform-aws-unified-dns,
