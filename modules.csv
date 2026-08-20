@@ -2250,6 +2250,7 @@ avm-res-eventgrid-domain,Azure,31018,azurerm,https://github.com/Azure/terraform-
 avm-res-eventgrid-namespace,Azure,31276,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-namespace,
 avm-res-eventgrid-topic,Azure,30948,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-topic,Terraform Azure Verified Resource Module for EventGrid Topic
 avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-eventhub-namespace,
+avm-res-fabric-capacity,Azure,33863,azure,https://github.com/Azure/terraform-azure-avm-res-fabric-capacity,
 avm-res-features-feature,Azure,30550,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-features-feature,Terraform Azure Verified Resource Module for Subcription Feature
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,Terraform Azure Verified Resource Module for AKS Arc
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
@@ -3690,6 +3691,7 @@ cloud-apic-tenant,rjohnston6,13849,aci,https://github.com/rjohnston6/terraform-a
 cloud-application-container,microsoftexpert,33068,aci,https://github.com/microsoftexpert/terraform-aci-cloud-application-container,
 cloud-armor,GoogleCloudPlatform,17356,google,https://github.com/GoogleCloudPlatform/terraform-google-cloud-armor,Deploy Cloud Armor security policy
 cloud-armor,kogunlowo123,31637,gcp,https://github.com/kogunlowo123/terraform-gcp-cloud-armor,"Terraform module for Google Cloud Armor with WAF rules, rate limiting, geo-blocking, bot management, and adaptive protection"
+cloud-armor,nurdsoft,33862,google,https://github.com/nurdsoft/terraform-google-cloud-armor,
 cloud-armour,JamesWoolfenden,21488,gcp,https://github.com/JamesWoolfenden/terraform-gcp-cloud-armour,
 cloud-bootstrap,bayudwiyansatria,11169,kubernetes,https://github.com/bayudwiyansatria/terraform-kubernetes-cloud-bootstrap,Terraform module to install Kubernetes stack on cloud or self-hosted on-premise infrastructures such as Bare Metal or Virtual Machine in various Hypervisors.
 cloud-build,evilDr4gon,26925,google,https://github.com/evilDr4gon/terraform-google-cloud-build,Modulo orientado a la abstracción de cloud build
@@ -7049,6 +7051,7 @@ ec2-check,Padmavathikommuri,19470,aws,https://github.com/Padmavathikommuri/terra
 ec2-client-vpn,MonoidDev,14760,aws,https://github.com/MonoidDev/terraform-aws-ec2-client-vpn,
 ec2-client-vpn,cloudposse,10284,aws,https://github.com/cloudposse/terraform-aws-ec2-client-vpn,
 ec2-cloudwatch-alarms,cookielab,31274,aws,https://github.com/cookielab/terraform-aws-ec2-cloudwatch-alarms,Cookielab AWS EC2 Cloudwatch Alarms terraform module
+ec2-cloudwatch-alarms,ganexcloud,33865,aws,https://github.com/ganexcloud/terraform-aws-ec2-cloudwatch-alarms,Ganex EC2 CloudWatch alarms Terraform module
 ec2-conf-log,sr2c,16611,aws,https://github.com/sr2c/terraform-aws-ec2-conf-log,Configuration and log S3 buckets with IAM instance profile for access policies (AWS) (Mirror of https://gitlab.com/sr2c/terraform-aws-ec2-conf-log)
 ec2-connect-endpoint,uridium,20463,aws,https://github.com/uridium/terraform-aws-ec2-connect-endpoint,Terraform AWS module which manages an EC2 Instance Connect Endpoint
 ec2-containerized-keras-env,yanuragaj,11728,aws,https://github.com/yanuragaj/terraform-aws-ec2-containerized-keras-env,
@@ -11213,6 +11216,7 @@ karpenter,SolidStackCloud,30003,aws,https://github.com/SolidStackCloud/terraform
 karpenter,bigfantech-cloud,18847,k8s,https://github.com/bigfantech-cloud/terraform-k8s-karpenter,Terraform module: Install Karpenter in EKS Cluster
 karpenter,clouddrove,18418,aws,https://github.com/clouddrove/terraform-aws-karpenter,A Terraform module to create karpenter resource on AWS.
 karpenter,govind0229,26798,aws,https://github.com/govind0229/terraform-aws-karpenter,"Whether you're scaling dynamically or looking to reduce costs on your Kubernetes clusters, this Karpenter module offers a streamlined solution for managing instance types based on workload requirements. It’s a powerful tool for anyone working with EKS who wants to take advantage of AWS’s advanced node provisioning capabilities."
+karpenter_iam,thisiscaetano,33866,aws,https://github.com/thisiscaetano/terraform-aws-karpenter_iam,modulo iam para o karpenter
 karthiks3bucket,Karthikchinnu,26354,aws,https://github.com/Karthikchinnu/terraform-aws-karthiks3bucket,
 kasmvnc,Lavaerius,27692,home,https://github.com/Lavaerius/terraform-home-kasmvnc,A collection of Terraform Modules to extend Coder templates.
 kaushal,kaushal540,23139,hw,https://github.com/kaushal540/terraform-hw-kaushal,
@@ -18171,7 +18175,7 @@ s3remotebackend,Hanxxx,8429,aws,https://github.com/Hanxxx/terraform-aws-s3remote
 s3site-appscaffold,nullstone-modules,32179,aws,https://github.com/nullstone-modules/terraform-aws-s3site-appscaffold,
 s3website,smartassistco,14272,aws,https://github.com/smartassistco/terraform-aws-s3website,Terraform module to setup S3 based website hosting
 s3website,techjacker,751,aws,https://github.com/techjacker/terraform-aws-s3website,Terraform modules to create a static website hosted on AWS S3 and set up MX records
-sa,CloudNationHQ,21725,azure,https://github.com/CloudNationHQ/terraform-azure-sa,Terraform module which creates storage resources used by workloads and accelerators.
+sa,CloudNationHQ,21725,azure,https://github.com/CloudNationHQ/terraform-azure-sa,
 sa,monbostest,13016,azurerm,https://github.com/monbostest/terraform-azurerm-sa,This module will will help to create storage account
 sa-container,bootlabstech,18602,azurerm,https://github.com/bootlabstech/terraform-azurerm-sa-container,
 sa-container,mpaas-ai-module,32932,azurerm,https://github.com/mpaas-ai-module/terraform-azurerm-sa-container,
@@ -20778,6 +20782,7 @@ test-vpc,Yashmehta-07,26072,aws,https://github.com/Yashmehta-07/terraform-aws-te
 test-vpc,gusainDeekshu,28594,aws,https://github.com/gusainDeekshu/terraform-aws-test-vpc,
 test-vpc,raghvendra-official,32754,aws,https://github.com/raghvendra-official/terraform-aws-test-vpc,
 test-vpc-module,MohammadShahzaib21,25774,aws,https://github.com/MohammadShahzaib21/terraform-aws-test-vpc-module,
+test-vpc-module,i-m-rajgupta,33864,aws,https://github.com/i-m-rajgupta/terraform-aws-test-vpc-module,
 test-vpc-module,malissa33,29628,aws,https://github.com/malissa33/terraform-aws-test-vpc-module,
 test1,recep-instructor,23460,aws,https://github.com/recep-instructor/terraform-aws-test1,
 test1,terraform-registry-dsvvsai,11947,registry,https://github.com/terraform-registry-dsvvsai/terraform-registry-test1,
