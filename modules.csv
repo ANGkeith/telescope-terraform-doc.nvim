@@ -3715,8 +3715,13 @@ cicd-bootstrap-aws,recarnot,5299,github,https://github.com/recarnot/terraform-gi
 cicdrole,kbrockhoff,30004,aws,https://github.com/kbrockhoff/terraform-aws-cicdrole,
 cidr,cloudomat,24384,subnets,https://github.com/cloudomat/terraform-subnets-cidr," A Terraform module for calculating subnet IP address prefixes, forked from https://github.com/hashicorp/terraform-cidr-subnets/commit/52ca061aaea2e8f58c91ac03ca1fae45e44c28bf"
 cidrsum,mxk,25668,null,https://github.com/mxk/terraform-null-cidrsum,Terraform module for summarizing IPv4 CIDR blocks
-cielara-network,xfab-mehran,34310,aws,https://github.com/xfab-mehran/terraform-aws-cielara-network,
-cielara-prepare-gke,xfab-mehran,34307,google,https://github.com/xfab-mehran/terraform-google-cielara-prepare-gke,
+cielara-network,causal-dynamics-lab,34801,google,https://github.com/causal-dynamics-lab/terraform-google-cielara-network,
+cielara-network,causal-dynamics-lab,34805,aws,https://github.com/causal-dynamics-lab/terraform-aws-cielara-network,
+cielara-network,causal-dynamics-lab,34806,azurerm,https://github.com/causal-dynamics-lab/terraform-azurerm-cielara-network,
+cielara-prepare-aks,causal-dynamics-lab,34804,azurerm,https://github.com/causal-dynamics-lab/terraform-azurerm-cielara-prepare-aks,
+cielara-prepare-eks,causal-dynamics-lab,34803,aws,https://github.com/causal-dynamics-lab/terraform-aws-cielara-prepare-eks,
+cielara-prepare-gke,causal-dynamics-lab,34800,google,https://github.com/causal-dynamics-lab/terraform-google-cielara-prepare-gke,
+cielara-prepare-vm,causal-dynamics-lab,34802,google,https://github.com/causal-dynamics-lab/terraform-google-cielara-prepare-vm,
 cilium,littlejo,21802,helm,https://github.com/littlejo/terraform-helm-cilium,Install cilium on kubernetes with terraform
 cinegy-base,Cinegy,12672,aws,https://github.com/Cinegy/terraform-aws-cinegy-base,Base Terraform modules for re-use in rapid Cinegy cloud deployment projects
 cinegy-base-linvm,Cinegy,12696,aws,https://github.com/Cinegy/terraform-aws-cinegy-base-linvm,Linux VM definition in Terraform
@@ -11113,6 +11118,7 @@ instance,kallakruparaju,11626,aws,https://github.com/kallakruparaju/terraform-aw
 instance,l-with,20971,module,https://github.com/l-with/terraform-module-instance,
 instance,lakshmipath,18735,ec2,https://github.com/lakshmipath/terraform-ec2-instance,
 instance,lightning-it,30810,keycloak,https://github.com/lightning-it/terraform-keycloak-instance,
+instance,lightning-it,34812,okta,https://github.com/lightning-it/terraform-okta-instance,
 instance,mpalu,11495,cloudamqp,https://github.com/mpalu/terraform-cloudamqp-instance,
 instance,nazikmusa,27571,module,https://github.com/nazikmusa/terraform-module-instance,
 instance,newcontext-oss,1098,google,https://github.com/newcontext-oss/terraform-google-instance,Terraform module which creates a Google compute instance within the default networking of an existing project
@@ -12617,6 +12623,7 @@ lambdalayer-python-mysql,techieinyou,22747,aws,https://github.com/techieinyou/te
 lambdalayer-python-requests,techieinyou,22724,aws,https://github.com/techieinyou/terraform-aws-lambdalayer-python-requests,"In the course of our recent rebranding, we've moved this Terraform module to a new organization CloudPedia.AI to better reflect its purpose. You can find it on https://registry.terraform.io/modules/cloudpediaai/lambdalayer-python/aws/latest. We remain committed to ongoing support for this module in its new home."
 lamp,itwebdeveloper,21182,aws,https://github.com/itwebdeveloper/terraform-aws-lamp,"Programmatically create the AWS infrastructure for a PHP LAMP (Laravel, Apache, MySQL, PHP) application using Terraform."
 lamp-stack,aliarslangit,20454,azure,https://github.com/aliarslangit/terraform-azure-lamp-stack,
+landing-zone,Kumo-Craft,34798,azurerm,https://github.com/Kumo-Craft/terraform-azurerm-landing-zone,"Terraform module catalogue for Azure - ALZ, AVD, AKS, networking, security. Per-module CI matrix, Checkov/Trivy/TFLint with Code Scanning."
 landing-zone,MitocGroup,3750,aws,https://github.com/MitocGroup/terraform-aws-landing-zone,Terraform Module for AWS Landing Zone
 landing-zone,getindata,15496,azurerm,https://github.com/getindata/terraform-azurerm-landing-zone,Terraform Module for creating a landing zone in Azure Cloud
 landing-zone,qbeyond,17588,google,https://github.com/qbeyond/terraform-google-landing-zone,Information about the terraform modules to deploy an landing zone to google
@@ -16396,7 +16403,7 @@ private-dns-srv-record,microsoftexpert,34177,azurerm,https://github.com/microsof
 private-dns-tailscale,DeokJong,32133,aws,https://github.com/DeokJong/terraform-aws-private-dns-tailscale,
 private-dns-txt-record,microsoftexpert,34176,azurerm,https://github.com/microsoftexpert/terraform-azurerm-private-dns-txt-record,
 private-dns-zone,Gbon1275,14263,azurerm,https://github.com/Gbon1275/terraform-azurerm-private-dns-zone,
-private-dns-zone,WeAreRetail,20284,azurerm,https://github.com/WeAreRetail/terraform-azurerm-private-dns-zone,Terraform Azure RM Private DNS Zone module
+private-dns-zone,WeAreRetail,20284,azurerm,https://github.com/WeAreRetail/terraform-azurerm-private-dns-zone,
 private-dns-zone,aztfm,24354,azurerm,https://github.com/aztfm/terraform-azurerm-private-dns-zone,Terraform module for Microsoft Azure to manage Private Dns Zone resource.
 private-dns-zone,bootlabstech,18875,azurerm,https://github.com/bootlabstech/terraform-azurerm-private-dns-zone,
 private-dns-zone,libre-devops,18633,azurerm,https://github.com/libre-devops/terraform-azurerm-private-dns-zone,
@@ -16880,7 +16887,7 @@ random-password,stsyg,13652,azurerm,https://github.com/stsyg/terraform-azurerm-r
 random-pet,instruqt,32460,instruqt,https://github.com/instruqt/terraform-instruqt-random-pet,
 random-string,libre-devops,28837,external,https://github.com/libre-devops/terraform-external-random-string,A module used to create a random string at a PLAN time (rather than at apply time like random_string) 
 ranjan-vpc,ranjanlamsal,30243,aws,https://github.com/ranjanlamsal/terraform-aws-ranjan-vpc,
-rbac,CloudNationHQ,23685,azure,https://github.com/CloudNationHQ/terraform-azure-rbac,Terraform module which create rbac resources used by workloads and accelerators.
+rbac,CloudNationHQ,23685,azure,https://github.com/CloudNationHQ/terraform-azure-rbac,
 rbac,Infostrux-Solutions,15777,snowflake,https://github.com/Infostrux-Solutions/terraform-snowflake-rbac,Terraform module which creates Snowflake RBAC resources using a simple configuration model. Please see the following module to use the latest snowflake provider. https://registry.terraform.io/modules/Infostrux-Solutions/rbac-infra/snowflake/latest
 rbac,Noahnc,20709,azurerm,https://github.com/Noahnc/terraform-azurerm-rbac,Module to create rbac assignments ands azuread security groups
 rbac,aidanmelen,12842,kubernetes,https://github.com/aidanmelen/terraform-kubernetes-rbac,A Terraform module to manage Kubernetes RBAC Authorization.
@@ -17006,6 +17013,7 @@ rds-aurora,kogunlowo123,31602,aws,https://github.com/kogunlowo123/terraform-aws-
 rds-aurora,lablabs,4145,aws,https://github.com/lablabs/terraform-aws-rds-aurora,Terraform module which creates RDS Aurora resources on AWS
 rds-aurora,lfventura,2940,aws,https://github.com/lfventura/terraform-aws-rds-aurora,Terraform module which creates RDS Aurora resources on AWS
 rds-aurora,microsoftexpert,33138,aws,https://github.com/microsoftexpert/terraform-aws-rds-aurora,
+rds-aurora,native-cube,34797,aws,https://github.com/native-cube/terraform-aws-rds-aurora,
 rds-aurora,paybilldev,31070,aws,https://github.com/paybilldev/terraform-aws-rds-aurora,
 rds-aurora,squareops,26450,aws,https://github.com/squareops/terraform-aws-rds-aurora,"Terraform RDS Aurora module simplifies the deployment of Amazon Aurora databases on AWS, providing a scalable, high-performance solution with automated backups and security features."
 rds-aurora,terraform-aws-modules,306,aws,https://github.com/terraform-aws-modules/terraform-aws-rds-aurora,Terraform module to create AWS RDS Aurora resources 🇺🇦
@@ -18221,6 +18229,7 @@ runiap,AlexisVLRT,8971,google,https://github.com/AlexisVLRT/terraform-google-run
 runner,HappyPathway,25650,ghe,https://github.com/HappyPathway/terraform-ghe-runner,Terraform Module
 runner,jvm2023,25825,google,https://github.com/jvm2023/terraform-google-runner,
 runner,koklushkin,25201,bitbucket,https://github.com/koklushkin/terraform-bitbucket-runner,Terraform module to set up Bitbucket self-hosted runner on a Kubernetes cluster 
+runner,rwx-cloud,34799,aws,https://github.com/rwx-cloud/terraform-aws-runner,
 runner-aws-spot,aleks-fofanov,5079,gitlab,https://github.com/aleks-fofanov/terraform-gitlab-runner-aws-spot,Terraform module to provision a self-hosted auto-scaling Gitlab runner on AWS spot or on-demand instances
 runner-group,Flaconi,25030,github,https://github.com/Flaconi/terraform-github-runner-group,Terraform module to manage GitHub action runner group settings
 runs-on,runs-on,30989,aws,https://github.com/runs-on/terraform-aws-runs-on,
@@ -22409,7 +22418,7 @@ vm,Amritha1989,27798,azurerm,https://github.com/Amritha1989/terraform-azurerm-vm
 vm,BrynardSecurity,8972,vsphere,https://github.com/BrynardSecurity/terraform-vsphere-vm,Terraform vSphere module for provisioning Virtual Machines
 vm,CMCS-Norway,20589,azurerm,https://github.com/CMCS-Norway/terraform-azurerm-vm,"This module creates both Windows and Linux VM, deals with data disks and networking, enabling backup and much more."
 vm,CamiloLagos,24765,azure,https://github.com/CamiloLagos/terraform-azure-vm,Terraform module for virtual machine in azure
-vm,CloudNationHQ,21983,azure,https://github.com/CloudNationHQ/terraform-azure-vm,Terraform module which creates virtual machine resources used by workloads and accelerators.
+vm,CloudNationHQ,21983,azure,https://github.com/CloudNationHQ/terraform-azure-vm,
 vm,CylindricHomeLab,19529,module,https://github.com/CylindricHomeLab/terraform-module-vm,Terraform module for homelab VMs
 vm,Edleson,12555,proxmox,https://github.com/Edleson/terraform-proxmox-vm,Modulo terraform proxmox VM
 vm,HopeUA,480,azurerm,https://github.com/hopeua/terraform-azurerm-vm,VM create
@@ -23300,6 +23309,11 @@ vpc-asg,gitrahimi,6064,aws,https://github.com/gitrahimi/terraform-aws-vpc-asg,
 vpc-auto-peering,infrablocks,656,aws,https://github.com/infrablocks/terraform-aws-vpc-auto-peering-lambda,Terraform module for automatically peering VPCs
 vpc-auto-peering-lambda,infrablocks,3997,aws,https://github.com/infrablocks/terraform-aws-vpc-auto-peering-lambda,Terraform module for automatically peering VPCs
 vpc-auto-peering-role,infrablocks,3998,aws,https://github.com/infrablocks/terraform-aws-vpc-auto-peering-role,A role for the vpc-auto-peering-lambda module.
+vpc-aws,OlhaOlya1234,34808,module,https://github.com/OlhaOlya1234/terraform-module-vpc-aws,
+vpc-aws,adilet2306,34810,module,https://github.com/adilet2306/terraform-module-vpc-aws,
+vpc-aws,issallina,34811,module,https://github.com/issallina/terraform-module-vpc-aws,
+vpc-aws,mamyro,34809,module,https://github.com/mamyro/terraform-module-vpc-aws,
+vpc-aws,sanisab,34807,module,https://github.com/sanisab/terraform-module-vpc-aws,
 vpc-basic,Sandalikatore,28844,aws,https://github.com/Sandalikatore/terraform-aws-vpc-basic,
 vpc-basic,TejaSInamke,28831,aws,https://github.com/TejaSInamke/terraform-aws-vpc-basic,
 vpc-basic,avantikavargude,28851,aws,https://github.com/avantikavargude/terraform-aws-vpc-basic,
