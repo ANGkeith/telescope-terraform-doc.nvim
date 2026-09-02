@@ -216,6 +216,7 @@ account,refractive-space,29611,aws,https://github.com/refractive-space/terraform
 account,rojopolis,3476,spotinst,https://github.com/rojopolis/terraform-spotinst-account,Create Spotinst accounts and associate them with AWS accounts.
 account,snow-build,24538,snowflake,https://github.com/snow-build/terraform-snowflake-account,
 account,tedilabs,7743,aws,https://github.com/tedilabs/terraform-aws-account,
+account,terraform-cf-modules,34862,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-account,
 account,terraform-framework,13624,aws,https://github.com/terraform-framework/terraform-aws-account,Terraform AWS Account Module
 account,tf-cloud-modules,15046,aiven,https://github.com/tf-cloud-modules/terraform-aiven-account,
 account,zoitech,159,aws,https://github.com/zoitech/terraform-aws-account,Terraform module which setup the most generic aws-accounts settings.
@@ -2071,6 +2072,7 @@ audit-log,lacework,6439,gcp,https://github.com/lacework/terraform-gcp-audit-log,
 audit-log-bucket,common-fate,24697,aws,https://github.com/common-fate/terraform-aws-audit-log-bucket,A Terraform module to provision resources for the S3 log destination
 audit-manager,damienjburks,30711,aws,https://github.com/damienjburks/terraform-aws-audit-manager,
 audit-member,DNXLabs,5719,aws,https://github.com/DNXLabs/terraform-aws-audit-member,This terraform module enables guardduty for a member account.
+audit-role,getprobo,34859,aws,https://github.com/getprobo/terraform-aws-audit-role,
 audit-root,DNXLabs,5720,aws,https://github.com/DNXLabs/terraform-aws-audit-root,This terraform module is an audit module to apply into root account (master).
 audit-trails,terraform-yacloud-modules,30305,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-audit-trails,Terraform module to manage Audit Trails resources within the Yandex.Cloud.
 auditmanager,mikamakusa,26014,aws,https://github.com/mikamakusa/terraform-aws-auditmanager,
@@ -2261,7 +2263,7 @@ avinashstorage,aviavinashkr,12305,azure,https://github.com/aviavinashkr/terrafor
 avm-ptn-aca-lza-hosting-environment,Azure,31260,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aca-lza-hosting-environment,Terraform Azure Verified Pattern Module for Azure Container Apps LZA Hosting Environment
 avm-ptn-aiml-ai-foundry,Azure,29607,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-ai-foundry,
 avm-ptn-aiml-landing-zone,Azure,30171,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-landing-zone,
-avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
+avm-ptn-aks-dev,Azure,26491,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev,
 avm-ptn-aks-dev,ms-henglu,28407,azurerm,https://github.com/ms-henglu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-dev,pauldotyu,29606,azurerm,https://github.com/pauldotyu/terraform-azurerm-avm-ptn-aks-dev,This is the Dev/Test Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a dev/test standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most dev/test deployments for AKS.
 avm-ptn-aks-economy,Azure,26779,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-aks-economy,This is the Production Economy Standard for AKS pattern module for Azure Verified Modules (AVM) library. This module deploys a production economy standard AKS cluster along with supporting a Virtual Network and Azure container registry. It provisions an environment sufficient for most production economy deployments for AKS.
@@ -2277,7 +2279,7 @@ avm-ptn-alz-connectivity-virtual-wan,Azure,28234,azurerm,https://github.com/Azur
 avm-ptn-alz-management,Azure,22408,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management,Terraform Azure Verified Pattern Module for ALZ Management
 avm-ptn-alz-sub-vending,Azure,30718,azure,https://github.com/Azure/terraform-azure-avm-ptn-alz-sub-vending,
 avm-ptn-app-service-landing-zone,Azure,31819,azure,https://github.com/Azure/terraform-azure-avm-ptn-app-service-landing-zone,
-avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,AVM for Azure Virtual Desktop Insights
+avm-ptn-avd-lza-insights,Azure,24448,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights,
 avm-ptn-avd-lza-managementplane,Azure,24458,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane,Azure Virtual Desktop Landing Zone Accelerator Management Plane
 avm-ptn-azure-local-migrate,Azure,31269,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azure-local-migrate,
 avm-ptn-azureimagebuilder,Azure,32296,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-azureimagebuilder,
@@ -2374,7 +2376,7 @@ avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terrafo
 avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone,AVM Terraform Module for DNS Zone
 avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,Terraform Azure Verified Resource Module for ExpressRoute Circuit
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Terraform Azure Verified Resource Module for Azure Firewall Policy
-avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,Front Door Web Application Firewall (WAF) Policy
+avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,
 avm-res-network-ipgroup,Azure,28413,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ipgroup,
 avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,Terraform Azure Verified Resource Module for Loadbalancer
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,Terraform Azure Verified Resource Module for Local Network Gateway
@@ -2743,6 +2745,7 @@ azure-sql-server,kabisa,14218,datadog,https://github.com/kabisa/terraform-datado
 azure-storage,nk2135,19642,nk,https://github.com/nk2135/terraform-nk-azure-storage,
 azure-storage-account,pagopa-dx,28213,azurerm,https://github.com/pagopa-dx/terraform-azurerm-azure-storage-account,"Provisions an Azure Storage Account with networking, monitoring, and security configurations"
 azure-storage-sas,datarootsio,5851,module,https://github.com/datarootsio/terraform-module-azure-storage-sas,Terraform module for Azure Storage SAS tokens
+azure-subscription-setup,webstean,34858,azurerm,https://github.com/webstean/terraform-azurerm-azure-subscription-setup,
 azure-tenant,streamsec-terraform,25411,streamsec,https://github.com/streamsec-terraform/terraform-streamsec-azure-tenant,Terraform module for azure tenant
 azure-terraformer,markti,19962,azuredevops,https://github.com/markti/terraform-azuredevops-azure-terraformer,A collection of Terraform modules that provision to Azure DevOps
 azure-terraformer,markti,20202,azurerm,https://github.com/markti/terraform-azurerm-azure-terraformer,Azure Terraform Module Library
@@ -5165,7 +5168,7 @@ cosmos-db,microsoftexpert,33401,fabric,https://github.com/microsoftexpert/terraf
 cosmos-db,terraform-az-modules,31801,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-cosmos-db,
 cosmos-mongo,bootlabstech,15501,azurerm,https://github.com/bootlabstech/terraform-azurerm-cosmos-mongo,terraform-azure-cosmos_mongo
 cosmosdb,Azure,13355,azurerm,https://github.com/Azure/terraform-azurerm-cosmosdb,Azure Cosmos DB Terraform Module and Samples
-cosmosdb,CloudNationHQ,22000,azure,https://github.com/CloudNationHQ/terraform-azure-cosmosdb,Terraform module which creates cosmos related resources used by workloads and accelerators.
+cosmosdb,CloudNationHQ,22000,azure,https://github.com/CloudNationHQ/terraform-azure-cosmosdb,
 cosmosdb,JamesWoolfenden,7675,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-cosmosdb,Basic Cosmodb module
 cosmosdb,T-Systems-MMS,12104,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-cosmosdb,A Terraform module that manages the azurerm cosmosdb resources from the azurerm provider.
 cosmosdb,fortytwoservices,24388,azurerm,https://github.com/fortytwoservices/terraform-azurerm-cosmosdb,
@@ -6790,6 +6793,7 @@ docker-instance,yakin68,20746,aws,https://github.com/yakin68/terraform-aws-docke
 docker-instance,yaman5891,23850,aws,https://github.com/yaman5891/terraform-aws-docker-instance,
 docker-instance,yarimci,14828,aws,https://github.com/yarimci/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,yavuz69,18183,aws,https://github.com/yavuz69/terraform-aws-docker-instance,
+docker-instance,yazenAlbu,34861,aws,https://github.com/yazenAlbu/terraform-aws-docker-instance,
 docker-instance,yemreaydeniz,18154,aws,https://github.com/yemreaydeniz/terraform-aws-docker-instance,Terraform module which creates a docker instance resource on AWS.
 docker-instance,yhnkaya,18510,aws,https://github.com/yhnkaya/terraform-aws-docker-instance,
 docker-instance,yildizcayiroglu,14643,aws,https://github.com/yildizcayiroglu/terraform-aws-docker-instance,
@@ -9101,7 +9105,7 @@ events,SevenPico,17756,aws,https://github.com/SevenPico/terraform-aws-events,
 events,TaitoUnited,6156,google,https://github.com/TaitoUnited/terraform-google-events,
 events,emyller,13449,aws,https://github.com/emyller/terraform-aws-events,
 eventstream,microsoftexpert,33411,fabric,https://github.com/microsoftexpert/terraform-fabric-eventstream,
-evh,CloudNationHQ,23323,azure,https://github.com/CloudNationHQ/terraform-azure-evh,Terraform module which creates eventhub resources used by workloads and accelerators.
+evh,CloudNationHQ,23323,azure,https://github.com/CloudNationHQ/terraform-azure-evh,
 evidence-reporter,kosli-dev,19697,aws,https://github.com/kosli-dev/terraform-aws-evidence-reporter,Terraform module to deploy the Kosli ECS Evidence Reporter
 evm-signer,RSS3-Network,27676,gcp,https://github.com/RSS3-Network/terraform-gcp-evm-signer,
 evpn,netascode,13473,nxos,https://github.com/netascode/terraform-nxos-evpn,Terraform NX-OS EVPN Module
@@ -9409,7 +9413,7 @@ firewall,freddieptf,5060,digitalocean,https://github.com/freddieptf/terraform-di
 firewall,kumarvna,10019,azurerm,https://github.com/kumarvna/terraform-azurerm-firewall,Terraform Module to create fully stateful Azure firewall as a service with built-in high availability.  
 firewall,microsoftexpert,34441,azurerm,https://github.com/microsoftexpert/terraform-azurerm-firewall,
 firewall,sironite,19874,azurerm,https://github.com/sironite/terraform-azurerm-firewall,
-firewall,stwalkerster,15828,linode,https://github.com/stwalkerster/terraform-linode-firewall,"Firewall wrapper for Linode, allowing multi-protocol rule definitions"
+firewall,stwalkerster,15828,linode,https://github.com/stwalkerster/terraform-linode-firewall,
 firewall,syntaqx,2928,digitalocean,https://github.com/syntaqx/terraform-digitalocean-firewall,A Terraform module for creating DigitalOcean Cloud Firewalls.
 firewall,tedilabs,13476,aws,https://github.com/tedilabs/terraform-aws-firewall,
 firewall,terraform-az-modules,30779,azurerm,https://github.com/terraform-az-modules/terraform-azurerm-firewall,
@@ -10209,7 +10213,6 @@ graph-services-account,microsoftexpert,34437,azurerm,https://github.com/microsof
 graphdb,Ontotext-AD,20731,aws,https://github.com/Ontotext-AD/terraform-aws-graphdb,Terraform module for deploying GraphDB in AWS
 graphdb,Ontotext-AD,22959,azure,https://github.com/Ontotext-AD/terraform-azure-graphdb,Terraform module for deploying GraphDB HA cluster in Microsoft Azure
 graphdb,Ontotext-AD,26384,gcp,https://github.com/Ontotext-AD/terraform-gcp-graphdb,Terraform module for deploying GraphDB in GCP
-graphiant,Graphiant-Inc,34840,provider,https://github.com/Graphiant-Inc/terraform-provider-graphiant,
 graphql-api,microsoftexpert,33415,fabric,https://github.com/microsoftexpert/terraform-fabric-graphql-api,
 graveyard,appvia,27688,aws,https://github.com/appvia/terraform-aws-graveyard,Used to move an account once closed into the graveyard
 green-deployment,svalovtech,25452,blue,https://github.com/svalovtech/terraform-blue-green-deployment,
@@ -12514,6 +12517,7 @@ lambda-function,nicolas-martinnez,10072,aws,https://github.com/nicolas-martinnez
 lambda-function,ql4b,32488,aws,https://github.com/ql4b/terraform-aws-lambda-function,
 lambda-function,rallyware,15296,aws,https://github.com/rallyware/terraform-aws-lambda-function,
 lambda-function-container,mpaas-ai-module,33644,aws,https://github.com/mpaas-ai-module/terraform-aws-lambda-function-container,
+lambda-function-containers,bootlabstech-m,34860,aws,https://github.com/bootlabstech-m/terraform-aws-lambda-function-containers,This module is used to provision lambda function for deploying container image.
 lambda-function-credential-exfiltration,offensive-terraform,6043,aws,https://github.com/offensive-terraform/terraform-aws-lambda-function-credential-exfiltration,Offensive Terraform module which creates Lambda function with existing IAM role. The module invokes it automatically to exfiltrate AWS temporary credential from environment variables and send it back with response.
 lambda-function-mod,corpit-consulting-public,2798,aws,https://github.com/corpit-consulting-public/terraform-aws-lambda-function,
 lambda-functions-bucket,QuiNovas,1489,aws,https://github.com/QuiNovas/terraform-aws-lambda-functions-bucket,Creates a bucket as a repository for lambda packages
@@ -13199,7 +13203,7 @@ madeinweb,eazevedo-cloud,23642,google,https://github.com/eazevedo-cloud/terrafor
 maester,IdentityUnoffical,33869,azuredevops,https://github.com/IdentityUnoffical/terraform-azuredevops-maester,
 maester,maester365,27720,azuredevops,https://github.com/maester365/terraform-azuredevops-maester,This Terraform Module will help you through setting up Maester in Azure DevOps and automate the running of tests using Azure DevOps Pipelines. 🔥
 maester-deployment,hlokensgard,26763,azure,https://github.com/hlokensgard/terraform-azure-maester-deployment,A terraform module for deploying the maester tool.
-mag,CloudNationHQ,26175,azure,https://github.com/CloudNationHQ/terraform-azure-mag,Terraform module which creates monitor action groups used by workloads and accelerators.
+mag,CloudNationHQ,26175,azure,https://github.com/CloudNationHQ/terraform-azure-mag,
 magento,aws-ia,11562,adobe,https://github.com/aws-ia/terraform-adobe-magento,Adobe Magento
 magento-dashboards,davidalger,3728,datadog,https://github.com/davidalger/terraform-datadog-magento-dashboards,Terraform module for deploying pre-defined set of Dataodog dashboards for monitoring Magento
 magma,ShubhamTatvamasi,12716,aws,https://github.com/ShubhamTatvamasi/terraform-aws-magma,
@@ -13359,6 +13363,7 @@ masood,masoodmls,25035,azurerm,https://github.com/masoodmls/terraform-azurerm-ma
 master-aws-eks-cluster,zesty-co,31467,zesty,https://github.com/zesty-co/terraform-zesty-master-aws-eks-cluster,
 master-outputs,matti,771,kontena,https://github.com/matti/terraform-kontena-master-outputs,
 master-to-main,trussworks,5509,aws,https://github.com/trussworks/terraform-aws-master-to-main,
+masterly,masterly-data,34857,azurerm,https://github.com/masterly-data/terraform-azurerm-masterly,
 masters,dcos-terraform,1376,aws,https://github.com/dcos-terraform/terraform-aws-masters,Create DC/OS Master instance and install DC/OS on it
 masters,dcos-terraform,1511,gcp,https://github.com/dcos-terraform/terraform-gcp-masters,Create DC/OS Master instance and have conditional DC/OS Prereqs for GCP
 masters,dcos-terraform,1547,azurerm,https://github.com/dcos-terraform/terraform-azurerm-masters,Create DC/OS Masters instance and have conditional DC/OS Prereqs for Azure
@@ -14944,6 +14949,7 @@ network,teamdatatonic,7423,gcp,https://github.com/teamdatatonic/terraform-gcp-ne
 network,tedilabs,7746,aws,https://github.com/tedilabs/terraform-aws-network,
 network,telekom-mms,31879,azurerm,https://github.com/telekom-mms/terraform-azurerm-network,A Terraform module that manages the network resources from the azurerm provider.
 network,terracharge,14092,aws,https://github.com/terracharge/terraform-aws-network,Module for creating terraform-aws-network with provider aws. This description is created automagically
+network,terraform-cf-modules,34865,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-network,
 network,terraform-google-modules,1621,google,https://github.com/terraform-google-modules/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,terraform-hc-modules,32034,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-network,
 network,tf-scaleway-modules,30895,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-network,
@@ -19221,6 +19227,7 @@ security,centriascolocation,6928,aws,https://github.com/centriascolocation/terra
 security,devops-ia,25622,nexus,https://github.com/devops-ia/terraform-nexus-security,Terraform module for create Nexus Security
 security,nexus-module,31329,nexus,https://github.com/nexus-module/terraform-nexus-security,
 security,tedilabs,11567,aws,https://github.com/tedilabs/terraform-aws-security,
+security,terraform-cf-modules,34866,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-security,
 security-alerts,JamesWoolfenden,8799,aws,https://github.com/JamesWoolfenden/terraform-aws-security-alerts,It's a security module
 security-automations,squareops,26451,aws,https://github.com/squareops/terraform-aws-security-automations,"A terraform module to make AWS account compliant with CIS Level 1 , CIS Level 2 and SOC 2 controls "
 security-baseline,DNXLabs,5749,aws,https://github.com/DNXLabs/terraform-aws-security-baseline,Terraform module to set up AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
@@ -22591,7 +22598,7 @@ vms-k8s,walmartdigital,5190,azurerm,https://github.com/walmartdigital/terraform-
 vmseries-modules,PaloAltoNetworks,11182,aws,https://github.com/PaloAltoNetworks/terraform-aws-vmseries-modules,Terraform Reusable Modules for VM-Series on AWS
 vmseries-modules,PaloAltoNetworks,11183,azurerm,https://github.com/PaloAltoNetworks/terraform-azurerm-vmseries-modules,Terraform Reusable Modules for VM-Series on Azure
 vmseries-modules,PaloAltoNetworks,13558,google,https://github.com/PaloAltoNetworks/terraform-google-vmseries-modules,Terraform Reusable Modules for VM-Series on Google Cloud Platform (GCP)
-vmss,CloudNationHQ,21853,azure,https://github.com/CloudNationHQ/terraform-azure-vmss,Terraform module which creates virtual machine scale set resources used by workloads and accelerators.
+vmss,CloudNationHQ,21853,azure,https://github.com/CloudNationHQ/terraform-azure-vmss,
 vmss,Nilsas,4676,azurerm,https://github.com/Nilsas/terraform-azurerm-vmss,Module to deploy Linux or Windows VM Scale Set with AzureRM provider >=2.0.0
 vmss,data-platform-hq,21994,azurerm,https://github.com/data-platform-hq/terraform-azurerm-vmss,Terraform module for creation of Azure VM Scale Sets
 vmss,rahulagalcha97,5817,azurerm,https://github.com/rahulagalcha97/terraform-azurerm-vmss,Module to deploy Linux or Windows VM Scale Set with AzureRM provider >=2.0.0
@@ -24080,6 +24087,7 @@ worker-service,project-init,31011,aws,https://github.com/project-init/terraform-
 worker-spur-monocle,spurintel,28498,cloudflare,https://github.com/spurintel/terraform-cloudflare-worker-spur-monocle,Terraform module that will deploy Spur's Monocle passive VPN and Proxy-blocking captcha to a Cloudflare Worker.
 workers,Flaconi,30224,cloudflare,https://github.com/Flaconi/terraform-cloudflare-workers,This module will create Cloudflare workers namespace
 workers,garbetjie,8012,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
+workers,terraform-cf-modules,34864,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-workers,
 workers-kv-namespace,microsoftexpert,33374,cloudflare,https://github.com/microsoftexpert/terraform-cloudflare-workers-kv-namespace,
 workers-script,microsoftexpert,33379,cloudflare,https://github.com/microsoftexpert/terraform-cloudflare-workers-script,
 workflow,USFoods,20161,newrelic,https://github.com/USFoods/terraform-newrelic-workflow,A Terraform module for New Relic with a common email by policy workflow.
@@ -24300,6 +24308,7 @@ zero,commitdev,5966,aws,https://github.com/commitdev/terraform-aws-zero,Zero mod
 zero-to-ec2,defilippomattia,23737,aws,https://github.com/defilippomattia/terraform-aws-zero-to-ec2,Terraform module which creates all the resources needed for VM on AWS.
 zero-trust,igorovh,32988,cloudflare,https://github.com/igorovh/terraform-cloudflare-zero-trust,
 zero-trust,lightning-it,34817,cloudflare,https://github.com/lightning-it/terraform-cloudflare-zero-trust,
+zero-trust,terraform-cf-modules,34867,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-zero-trust,
 zero-trust-access,sajjadkhan12,28269,cloudflare,https://github.com/sajjadkhan12/terraform-cloudflare-zero-trust-access,A module for cloudflare zero trust access
 zero-trust-access-application,microsoftexpert,33378,cloudflare,https://github.com/microsoftexpert/terraform-cloudflare-zero-trust-access-application,
 zero-trust-access-group,microsoftexpert,33377,cloudflare,https://github.com/microsoftexpert/terraform-cloudflare-zero-trust-access-group,
@@ -24324,6 +24333,7 @@ zone,opsheaven,23499,hetzner,https://github.com/opsheaven/terraform-hetzner-zone
 zone,psychopenguin,3945,cloudflare,https://github.com/psychopenguin/terraform-cloudflare-zone,
 zone,samarkand-global,16714,cloudflare,https://github.com/samarkand-global/terraform-cloudflare-zone,A Terraform module to manage a Zone in Cloudflare
 zone,tcarrondo,3043,cloudflare,https://github.com/tcarrondo/terraform-cloudflare-zone,Setup a zone in Cloudflare
+zone,terraform-cf-modules,34863,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-zone,
 zone-auth,microsoftexpert,33284,infoblox,https://github.com/microsoftexpert/terraform-infoblox-zone-auth,
 zone-delegated,microsoftexpert,33283,infoblox,https://github.com/microsoftexpert/terraform-infoblox-zone-delegated,
 zone-forward,microsoftexpert,33282,infoblox,https://github.com/microsoftexpert/terraform-infoblox-zone-forward,
