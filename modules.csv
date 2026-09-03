@@ -362,7 +362,7 @@ acme-certificates,komailo,24358,modules,https://github.com/komailo/terraform-mod
 acme-registration,rms1000watt,1633,aws,https://github.com/rms1000watt/terraform-aws-acme-registration,Terraform Module for ACME Registration (and saving the Key to S3)
 acme-ssm,pbar1,2365,aws,https://github.com/pbar1/terraform-aws-acme-ssm,Terraform module for creating ACME TLS certificates and storing them in AWS SSM
 acmebot,polymind-inc,32184,azurerm,https://github.com/polymind-inc/terraform-azurerm-acmebot,Terraform module for deploying Acmebot on Azure Functions Flex Consumption with Key Vault integration.
-acr,CloudNationHQ,21727,azure,https://github.com/CloudNationHQ/terraform-azure-acr,Terraform module which creates container registry resources used by workloads and accelerators.
+acr,CloudNationHQ,21727,azure,https://github.com/CloudNationHQ/terraform-azure-acr,
 acr,DeimosCloud,8390,azure,https://github.com/DeimosCloud/terraform-azure-acr,
 acr,JamesWoolfenden,16626,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-acr,Basic acr module
 acr,Parveenkaur0203,27805,azure,https://github.com/Parveenkaur0203/terraform-azure-acr,
@@ -5739,7 +5739,7 @@ dcos-install-private-agents-remote-exec,dcos-terraform,1419,null,https://github.
 dcos-install-public-agents-remote-exec,dcos-terraform,1420,null,https://github.com/dcos-terraform/terraform-null-dcos-install-public-agents-remote-exec,
 dcos-install-remote-exec,dcos-terraform,1445,null,https://github.com/dcos-terraform/terraform-null-dcos-install-remote-exec,
 dcos-install-remote-exec-ansible,dcos-terraform,2180,null,https://github.com/dcos-terraform/terraform-null-dcos-install-remote-exec-ansible,DC/OS Ansible based remote exec install
-dcr,CloudNationHQ,25763,azure,https://github.com/CloudNationHQ/terraform-azure-dcr,Terraform module which creates data collection rule resources used by workloads and accelerators.
+dcr,CloudNationHQ,25763,azure,https://github.com/CloudNationHQ/terraform-azure-dcr,
 dcs,magicorntech,29913,huaweicloud,https://github.com/magicorntech/terraform-huaweicloud-dcs,Magicorn Huawei Cloud DCS Module
 dcs,tf-cloud-modules,19262,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-dcs,Sbercloud DCS Terraform module
 dcs-redis,cloud-labs-infra,18681,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-dcs-redis,
@@ -14733,7 +14733,7 @@ nas-datastore,microsoftexpert,33160,vsphere,https://github.com/microsoftexpert/t
 nas-volume-classic,terraform-navercloudplatform-modules,25274,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nas-volume-classic,Terraform module to create nas volume resources for the classic configuration
 nas-volume-vpc,terraform-navercloudplatform-modules,25275,ncloud,https://github.com/terraform-navercloudplatform-modules/terraform-ncloud-nas-volume-vpc,Terraform module to create nas volume resources for the vpc configuration
 nat,Aplyca,2723,aws,https://github.com/Aplyca/terraform-aws-nat,Creates a NAT Gateway Resource
-nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,
+nat,data-platform-hq,20648,google,https://github.com/data-platform-hq/terraform-google-nat,Terraform module for creation Google Network Address Translation
 nat,equinor,23391,azurerm,https://github.com/equinor/terraform-azurerm-nat,Terraform module which creates Azure NAT Gateway resources
 nat,ilkerispir,29844,aws,https://github.com/ilkerispir/terraform-aws-nat,
 nat,inwatch,32187,aws,https://github.com/inwatch/terraform-aws-nat,
@@ -14952,6 +14952,7 @@ network,terracharge,14092,aws,https://github.com/terracharge/terraform-aws-netwo
 network,terraform-cf-modules,34865,cloudflare,https://github.com/terraform-cf-modules/terraform-cloudflare-network,
 network,terraform-google-modules,1621,google,https://github.com/terraform-google-modules/terraform-google-network,Sets up a new VPC network on Google Cloud
 network,terraform-hc-modules,32034,hcloud,https://github.com/terraform-hc-modules/terraform-hcloud-network,
+network,terraform-stackit-modules,34868,stackit,https://github.com/terraform-stackit-modules/terraform-stackit-network,
 network,tf-scaleway-modules,30895,scaleway,https://github.com/tf-scaleway-modules/terraform-scaleway-network,
 network,truemark,24914,aws,https://github.com/truemark/terraform-aws-network,
 network,viswanth165,11085,google,https://github.com/viswanth165/terraform-google-network,
@@ -24080,6 +24081,7 @@ wordpress-on-lambda-efs,KotobaMedia,5329,aws,https://github.com/KotobaMedia/terr
 wordpress-rds,zazuwka,19912,module,https://github.com/zazuwka/terraform-module-wordpress-rds,
 wordpress-stack,masep01,31967,aws,https://github.com/masep01/terraform-aws-wordpress-stack,"Terraform module to provision a complete WordPress stack on AWS including a custom VPC, EC2, RDS (MySQL), and ElastiCache (Redis)."
 wordpress-support,AaronForce1,13337,aws,https://github.com/AaronForce1/terraform-aws-wordpress-support,"A custom-built terraform module, leveraging terraform's AWS provider to spawn supplemental infrastructure that supports the dreaded Wordpress environments."
+workbench-analysis-plane,verily-src,34869,aws,https://github.com/verily-src/terraform-aws-workbench-analysis-plane,
 workbooks,armor,19533,azurerm,https://github.com/armor/terraform-azurerm-workbooks,Terraform modules for deploying and managing Azure workbooks.
 worker-node-group,notespacejp,12649,aws,https://github.com/notespacejp/terraform-aws-worker-node-group,aws managed worker node group module
 worker-pool,garbetjie,8658,google,https://github.com/garbetjie/terraform-google-worker-pool,Terraform module to easily create Docker-based background workers.
