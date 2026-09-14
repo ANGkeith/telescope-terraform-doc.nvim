@@ -4161,6 +4161,8 @@ cloudfront-distribution,lptech-io,19368,aws,https://github.com/lptech-io/terrafo
 cloudfront-distribution,ptonini,16733,aws,https://github.com/ptonini/terraform-aws-cloudfront-distribution,
 cloudfront-domain-redirect,daringway,5471,aws,https://github.com/wderezin/terraform-aws-cloudfront-domain-redirect,AWS Lambda@Edge for a cloudfront redirector from an apex domain to www. (daringway.com -> www.daringway.com)
 cloudfront-domain-redirect,wderezin,11588,aws,https://github.com/wderezin/terraform-aws-cloudfront-domain-redirect,AWS Lambda@Edge for a cloudfront redirector from an apex domain to www. (daringway.com -> www.daringway.com)
+cloudfront-edge-router,pomo-studio,34949,aws,https://github.com/pomo-studio/terraform-aws-cloudfront-edge-router,
+cloudfront-frontdoor,pomo-studio,34951,aws,https://github.com/pomo-studio/terraform-aws-cloudfront-frontdoor,
 cloudfront-function-options-success,skrastrek,31242,aws,https://github.com/skrastrek/terraform-aws-cloudfront-function-options-success,
 cloudfront-functions-basic-auth,notespacejp,18105,aws,https://github.com/notespacejp/terraform-aws-cloudfront-functions-basic-auth,Terraform module for basic auth from Cloudfront functions
 cloudfront-image-compression,li0nel,1274,aws,https://github.com/li0nel/terraform-aws-cloudfront-image-compression,A Terraform module that deploys a CloudFront distribution that also compresses your images to supercharge your website
@@ -4218,6 +4220,7 @@ cloudfront-stack,ersanyamarya,15174,aws,https://github.com/ersanyamarya/terrafor
 cloudfront-static-website,Thomas-McKanna,29511,aws,https://github.com/Thomas-McKanna/terraform-aws-cloudfront-static-website,Deploy a static website globally in less than five minutes 💪
 cloudfront-viewer-request-lambda,daringway,6570,aws,https://github.com/wderezin/terraform-aws-cloudfront-viewer-request-lambda,
 cloudfront-viewer-request-lambda,wderezin,11590,aws,https://github.com/wderezin/terraform-aws-cloudfront-viewer-request-lambda,
+cloudfront-vpc-origin,pomo-studio,34950,aws,https://github.com/pomo-studio/terraform-aws-cloudfront-vpc-origin,
 cloudfront-waf,dod-iac,4649,aws,https://github.com/dod-iac/terraform-aws-cloudfront-waf,WAF for use with CloudFront
 cloudfront-waf,geekcell,19952,aws,https://github.com/geekcell/terraform-aws-cloudfront-waf,Terraform module to provision an AWS Cloudfront Web Application Firewall.
 cloudfront-waf-secretsmanager,arvsr1988,10922,aws,https://github.com/arvsr1988/terraform-aws-cloudfront-waf-secretsmanager,Enhance Amazon CloudFront Origin Security with AWS WAF and AWS Secrets Manager
@@ -11275,6 +11278,7 @@ internal-service,project-init,31431,aws,https://github.com/project-init/terrafor
 internal-services-healthchecks,ifgiovanni,29391,gcp,https://github.com/ifgiovanni/terraform-gcp-internal-services-healthchecks,
 internal-terraform,anthunt,6143,null,https://github.com/anthunt/terraform-null-internal-terraform,
 internet-facing-environment,telia-oss,8779,aws,https://github.com/telia-oss/terraform-aws-internet-facing-environment,This module allows to expose private/internal endpoints of services without need to have VPC public subnet. Its designed just for REST at this moment. It supports OAuth 2.0 for machine to machine communication.
+internet-ingress,pomo-studio,34952,aws,https://github.com/pomo-studio/terraform-aws-internet-ingress,
 intra-vpc-security-group-rule,JudeQuintana,18032,aws,https://github.com/JudeQuintana/terraform-aws-intra-vpc-security-group-rule,Intra VPC Security Group Rule
 inventory,eeyoontaek,17242,ansible,https://github.com/eeyoontaek/terraform-ansible-inventory,
 invitation,microsoftexpert,33506,azuread,https://github.com/microsoftexpert/terraform-azuread-invitation,
@@ -12122,6 +12126,7 @@ kubernetes-backend,ptonini,16909,vault,https://github.com/ptonini/terraform-vaul
 kubernetes-bgp,displague,5314,packet,https://github.com/displague/terraform-packet-kubernetes-bgp,Kubernetes on Packet using Calico and MetalLB
 kubernetes-bootstrap,art8xy,34898,aws,https://github.com/art8xy/terraform-aws-kubernetes-bootstrap,
 kubernetes-bootstrap,art8xy,34928,google,https://github.com/art8xy/terraform-google-kubernetes-bootstrap,
+kubernetes-bootstrap,art8xy,34947,azurerm,https://github.com/art8xy/terraform-azurerm-kubernetes-bootstrap,
 kubernetes-cluster,CloudAstro,29506,azurerm,https://github.com/CloudAstro/terraform-azurerm-kubernetes-cluster,
 kubernetes-cluster,Retoxx-dev,20071,azurerm,https://github.com/Retoxx-dev/terraform-azurerm-kubernetes-cluster,Terraform module for Azure Kubernetes Service
 kubernetes-cluster,T-Systems-MMS,12111,azurerm,https://github.com/T-Systems-MMS/terraform-azurerm-kubernetes-cluster,Configure Azure Kubernetes Cluster Service
@@ -17849,6 +17854,7 @@ resource-group-storage,taniakolesnik,32223,azurerm,https://github.com/taniakoles
 resource-group-storage,vanyas627,34250,azurerm,https://github.com/vanyas627/terraform-azurerm-resource-group-storage,
 resource-group-storage,vhurna,29005,azurerm,https://github.com/vhurna/terraform-azurerm-resource-group-storage,
 resource-group-storage,whatislavx,31282,azurerm,https://github.com/whatislavx/terraform-azurerm-resource-group-storage,
+resource-group-storage-new,Nora2328,34946,azurerm,https://github.com/Nora2328/terraform-azurerm-resource-group-storage-new,
 resource-group-template-deployment,microsoftexpert,34143,azurerm,https://github.com/microsoftexpert/terraform-azurerm-resource-group-template-deployment,
 resource-groups,bootlabstech,15490,azurerm,https://github.com/bootlabstech/terraform-azurerm-resourcegroup,
 resource-groups,heathen1878,19553,azurerm,https://github.com/heathen1878/terraform-azurerm-resource-groups,Manages Azure Resource Groups
@@ -24290,7 +24296,7 @@ wrapper-batch-job,gocloudLa,30100,aws,https://github.com/gocloudLa/terraform-aws
 wrapper-bucket,gocloudLa,30101,aws,https://github.com/gocloudLa/terraform-aws-wrapper-bucket,
 wrapper-cloudmap,gocloudLa,30090,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cloudmap,
 wrapper-cognito,gocloudLa,32550,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cognito,
-wrapper-cost-control,gocloudLa,30102,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cost-control,Terraform module for AWS Cost Control wrapper with IAC best practices
+wrapper-cost-control,gocloudLa,30102,aws,https://github.com/gocloudLa/terraform-aws-wrapper-cost-control,
 wrapper-documentdb,gocloudLa,30103,aws,https://github.com/gocloudLa/terraform-aws-wrapper-documentdb,
 wrapper-dynamodb,gocloudLa,30104,aws,https://github.com/gocloudLa/terraform-aws-wrapper-dynamodb,
 wrapper-ec2-instance,gocloudLa,30530,aws,https://github.com/gocloudLa/terraform-aws-wrapper-ec2-instance,
@@ -24319,6 +24325,7 @@ wrapper-rds,gocloudLa,30116,aws,https://github.com/gocloudLa/terraform-aws-wrapp
 wrapper-rds-aurora,gocloudLa,30117,aws,https://github.com/gocloudLa/terraform-aws-wrapper-rds-aurora,
 wrapper-repository,gocloudLa,33555,github,https://github.com/gocloudLa/terraform-github-wrapper-repository,
 wrapper-route53-record,gocloudLa,30118,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-record,
+wrapper-route53-resolver,gocloudLa,34948,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-resolver,
 wrapper-route53-zone,gocloudLa,30091,aws,https://github.com/gocloudLa/terraform-aws-wrapper-route53-zone,
 wrapper-s3-backend,gocloudLa,30119,aws,https://github.com/gocloudLa/terraform-aws-wrapper-s3-backend,
 wrapper-service-scheduler,gocloudLa,30120,aws,https://github.com/gocloudLa/terraform-aws-wrapper-service-scheduler,
