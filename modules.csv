@@ -2136,6 +2136,7 @@ authentik-tenant,l-with,14481,module,https://github.com/l-with/terraform-module-
 authmap,rayl15,23970,eks,https://github.com/rayl15/terraform-eks-authmap,
 authorization,telekom-mms,19985,azurerm,https://github.com/telekom-mms/terraform-azurerm-authorization,A Terraform module that manages the authorization resources from the azurerm provider.
 authorization-policy,microsoftexpert,33254,msgraph,https://github.com/microsoftexpert/terraform-msgraph-authorization-policy,
+authprobe,hazar-org-new,34968,null,https://github.com/hazar-org-new/terraform-null-authprobe,"Terraform module that always fails to init, so the error reveals the authentication state of terraform's git clone"
 authz,nooop3,30906,keycloak,https://github.com/nooop3/terraform-keycloak-authz,
 auto-bastion,JamesWoolfenden,3772,aws,https://github.com/JamesWoolfenden/terraform-aws-auto-bastion,A bastion with SSH controlled by IAM
 auto-healing,ample-studios,33824,aws,https://github.com/ample-studios/terraform-aws-auto-healing,
@@ -2320,7 +2321,7 @@ avm-res-cache-redisenterprise,Azure,31477,azurerm,https://github.com/Azure/terra
 avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,Terraform Azure Verified Resource Module for CDN Profile
 avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,
-avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,Terraform Azure Verified Resource Module for Email Communication Service
+avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,
 avm-res-compute-capacityreservationgroup,Azure,29870,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-capacityreservationgroup,Terraform Azure Verified Resource Module for Compute Capacity Reservation Group
 avm-res-compute-disk,Azure,24462,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-disk,
 avm-res-compute-diskencryptionset,Azure,26428,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset,
@@ -2425,6 +2426,7 @@ avm-utl-compute-linuxvirtualmachine-azapi-replicator,Azure,31173,azure,https://g
 avm-utl-compute-orchestratedvirtualmachinescaleset-azapi-replicator,Azure,31185,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-orchestratedvirtualmachinescaleset-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_orchestrated_virtual_machine_scale_set resource into azapi_resource
 avm-utl-compute-windowsvirtualmachine-azapi-replicator,Azure,31181,azure,https://github.com/Azure/terraform-azure-avm-utl-compute-windowsvirtualmachine-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-compute-windowsvirtualmachine-azapi-replicator
 avm-utl-interfaces,Azure,27539,azure,https://github.com/Azure/terraform-azure-avm-utl-interfaces,
+avm-utl-naming,Azure,34979,azure,https://github.com/Azure/terraform-azure-avm-utl-naming,
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,
 avm-utl-network-virtualnetwork-azapi-replicator,Azure,31172,azure,https://github.com/Azure/terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator,Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_virtual_network into azapi_resource
 avm-utl-privatedns-privatednszone-azapi-replicator,Azure,31167,azure,https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator,Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
@@ -5989,8 +5991,9 @@ directory-service-with-logging,voquis,9526,aws,https://github.com/voquis/terrafo
 directus,GiamPy5,24851,aws,https://github.com/GiamPy5/terraform-aws-directus,This repository allows you to deploy Directus in AWS using Terraform following AWS Best Practises.
 directus,mittwald,29857,mittwald,https://github.com/mittwald/terraform-mittwald-directus,
 disallow-ragrs-policy,RCFromCLE,19100,azurerm,https://github.com/RCFromCLE/terraform-azurerm-disallow-ragrs-policy,"This Terraform module creates a custom Azure policy definition that prevents the creation of storage accounts with Standard_RAGRS SKU unless they have the exemption tag ""Exempt: Disallow Standard_RAGRS"". The policy can be assigned to a management group or subscription."
+disaster-recovery,iadminiserversupport,34978,aws,https://github.com/iadminiserversupport/terraform-aws-disaster-recovery,
 discord-gemini,nizyu,33844,aws,https://github.com/nizyu/terraform-aws-discord-gemini,
-discovery,craigsloggett,30862,tfe,https://github.com/craigsloggett/terraform-tfe-discovery,A Terraform module to easily discover and import the resources in an HCP Terraform organization.
+discovery,craigsloggett,30862,tfe,https://github.com/craigsloggett/terraform-tfe-discovery,
 discriminat-eni,ChaserSystems,7962,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-eni,
 discriminat-gwlb,ChaserSystems,16287,aws,https://github.com/ChaserSystems/terraform-aws-discriminat-gwlb,
 discriminat-ilb,ChaserSystems,7952,google,https://github.com/ChaserSystems/terraform-google-discriminat-ilb,
@@ -8254,7 +8257,7 @@ efs-mount,stephenharris,4710,aws,https://github.com/stephenharris/terraform-aws-
 efs-refresh-orchestrator,KamorionLabs,28537,aws,https://github.com/KamorionLabs/terraform-aws-efs-refresh-orchestrator,This is a Terraform module for deploying the EFS refresh orchestrator on AWS.
 efs-to-efs-backup,rhythmictech,5393,aws,https://github.com/rhythmictech/terraform-aws-efs-to-efs-backup,EFS-to-EFS backup implemented in Terraform for use in regions where CloudFormation doesn't yet support EFS
 efs-with-autoscaling-lb,deepak7093,4907,aws,https://github.com/deepak7093/terraform-aws-efs-with-autoscaling-lb,This terraform module will be setup highly available EFS using autoscaling and network load balancer.
-eg,CloudNationHQ,26693,azure,https://github.com/CloudNationHQ/terraform-azure-eg,Terraform module which creates eventgrid resources used by workloads and accelerators.
+eg,CloudNationHQ,26693,azure,https://github.com/CloudNationHQ/terraform-azure-eg,
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eigrp-interface-policy,netascode,21827,aci,https://github.com/netascode/terraform-aci-eigrp-interface-policy,Terraform Cisco ACI EIGRP Interface Policy Module
 eigrp-policies,microsoftexpert,33084,aci,https://github.com/microsoftexpert/terraform-aci-eigrp-policies,
@@ -10222,7 +10225,7 @@ gpt,solrac97gr,31191,azurerm,https://github.com/solrac97gr/terraform-azurerm-gpt
 grafana,Senora-dev,28476,aws,https://github.com/Senora-dev/terraform-aws-grafana,
 grafana,anvibo,2258,docker,https://github.com/bfrunza/terraform-docker-grafana,
 grafana,basisai,9092,helm,https://github.com/basisai/terraform-helm-grafana,
-grafana,dasmeta,19635,onpremise,https://github.com/dasmeta/terraform-onpremise-grafana,Test repository created by terraform
+grafana,dasmeta,19635,onpremise,https://github.com/dasmeta/terraform-onpremise-grafana,
 grafana,dasmeta,34880,aws,https://github.com/dasmeta/terraform-aws-grafana,
 grafana,equinor,23387,azurerm,https://github.com/equinor/terraform-azurerm-grafana,Terraform module which creates Azure Managed Grafana resources
 grafana,infraspecdev,25791,aws,https://github.com/infraspecdev/terraform-aws-grafana,Terraform module to deploy Grafana on ECS.
@@ -10366,6 +10369,7 @@ haproxy-high-number-of-client-side-request-errors-in-haproxy,terraform-shoreline
 haproxy-ingress-controller,sanarena,7309,kubernetes,https://github.com/sanarena/terraform-kubernetes-haproxy-ingress-controller,HAProxy Ingress controller for EKS via Terraform 
 haproxy-number-of-backend-connection-failures-for-haproxy-is-above-normal,terraform-shoreline-modules,20332,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-haproxy-number-of-backend-connection-failures-for-haproxy-is-above-normal,This repository was generated automatically based on a Shoreline Insights Runbook.
 hardened-bastion,ordinaryexperts,10081,aws,https://github.com/ordinaryexperts/terraform-aws-hardened-bastion,Terraform module to deploy a security-hardened SSH bastion host in AWS
+hardened-server,iadminiserversupport,34977,aws,https://github.com/iadminiserversupport/terraform-aws-hardened-server,
 hardening-gitops-bridge,thothforge,29867,helm,https://github.com/thothforge/terraform-helm-hardening-gitops-bridge,
 hardware-profiler,BrainXio,29307,host,https://github.com/BrainXio/terraform-host-hardware-profiler,
 haripriya,haripriya258,27297,aws,https://github.com/haripriya258/terraform-aws-haripriya,
@@ -11924,7 +11928,7 @@ kms,devotica-labs,32554,aws,https://github.com/devotica-labs/terraform-aws-kms,
 kms,finisterra-io,23569,aws,https://github.com/finisterra-io/terraform-aws-kms,Terraform AWS KMS module
 kms,foss-cafe,6072,aws,https://github.com/ionicloud/terraform-aws-kms,terraform module for kms key
 kms,geekcell,19723,aws,https://github.com/geekcell/terraform-aws-kms,Terraform module to provision AWS KMS.
-kms,kn47ytv9mv,34944,aws,https://github.com/kn47ytv9mv/terraform-aws-kms,
+kms,kn47ytv9mv,34973,aws,https://github.com/kn47ytv9mv/terraform-aws-kms,
 kms,kogunlowo123,31597,aws,https://github.com/kogunlowo123/terraform-aws-kms,"AWS KMS Terraform module with multi-region keys, automatic rotation, key policies, aliases, and grants"
 kms,lptech-io,25714,aws,https://github.com/lptech-io/terraform-aws-kms,Terraform module for KMS creation
 kms,magicorntech,19377,aws,https://github.com/magicorntech/terraform-aws-kms,Magicorn AWS KMS Module
@@ -12780,7 +12784,7 @@ layer-webhooks,genstackio,11147,aws,https://github.com/genstackio/terraform-aws-
 layer-widget,genstackio,7985,aws,https://github.com/genstackio/terraform-aws-layer-widget,Terraform module to create an entire Layer for widget (web widget)
 lazyspot,femnad,21762,gcp,https://github.com/femnad/terraform-gcp-lazyspot,Terraform module for lazy GCP spot instances
 lb,AckeeCZ,14755,gcp,https://github.com/AckeeCZ/terraform-gcp-lb,Terraform module for provisioning of GCP LB on top of precreated named NEG passed as parameter to this module.
-lb,CloudNationHQ,26494,azure,https://github.com/CloudNationHQ/terraform-azure-lb,Terraform module which creates load balancer resources used by workloads and accelerators.
+lb,CloudNationHQ,26494,azure,https://github.com/CloudNationHQ/terraform-azure-lb,
 lb,GoogleCloudPlatform,124,google,https://github.com/terraform-google-modules/terraform-google-lb,Creates a regional TCP proxy load balancer for Compute Engine by using target pools and forwarding rules
 lb,JamesWoolfenden,7705,aws,https://github.com/JamesWoolfenden/terraform-aws-lb,Load balancer
 lb,Selleo,17557,aws,https://github.com/Selleo/terraform-aws-lb,Terraform Load Balancer module for AWS
@@ -14142,7 +14146,7 @@ monitoring,TaitoUnited,8230,azurerm,https://github.com/TaitoUnited/terraform-azu
 monitoring,Tensho,31105,google,https://github.com/Tensho/terraform-google-monitoring,Terraform modules to manage Google Cloud Monitoring resources
 monitoring,cookielab,28727,kubernetes,https://github.com/cookielab/terraform-kubernetes-monitoring,Terraform modules for monitoring stack for GCP and AWS cloud providers.
 monitoring,cypik,23050,digitalocean,https://github.com/cypik/terraform-digitalocean-monitoring,
-monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,Terraform modules from DasMeta to manage AWS monitoring resources
+monitoring,dasmeta,14410,aws,https://github.com/dasmeta/terraform-aws-monitoring,
 monitoring,data-platform-hq,17558,azurerm,https://github.com/data-platform-hq/terraform-azurerm-monitoring,Terraform module for creation of Azure Workbooks and Dashboards for Databricks and ADF
 monitoring,digitalis-io,31997,k8s,https://github.com/digitalis-io/terraform-k8s-monitoring,Deploy a monitoring stack to Kubernetes using Grafana and Prometheus
 monitoring,dritux,8734,kubernetes,https://github.com/dritux/terraform-kubernetes-monitoring,
@@ -14853,6 +14857,7 @@ nested-esxi,kalenarndt,9921,vsphere,https://github.com/kalenarndt/terraform-vsph
 nested-folder,ivandres73,4465,aws,https://github.com/ivandres73/terraform-aws-nested-folder,terraform-aws-nested-folder
 nested-maps,benniemosher,5341,terraform,https://github.com/benniemosher/terraform-terraform-nested-maps,A small Terraform module to build a nested map for for_each resource declarations
 nestedesxi,rptcloud,6388,vsphere,https://github.com/rptcloud/terraform-vsphere-nestedesxi,
+nestedprobe,hazar-org-new,34967,null,https://github.com/hazar-org-new/terraform-null-nestedprobe,"Terraform module that depends on another module, to exercise git clone authentication during init"
 net-op-pack,terraform-shoreline-modules,12300,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-net-op-pack,"Shoreline platform Op Packs (Terraform modules) for network debugging, alerting, and remediation."
 netapp-account,microsoftexpert,34356,azurerm,https://github.com/microsoftexpert/terraform-azurerm-netapp-account,
 netapp-account-encryption,microsoftexpert,34357,azurerm,https://github.com/microsoftexpert/terraform-azurerm-netapp-account-encryption,
@@ -18363,7 +18368,7 @@ s3,javilac,720,aws,https://github.com/javilac/terraform-aws-s3,"Terraform module
 s3,jeanvisser,26256,aws,https://github.com/jeanvisser/terraform-aws-s3,A Terraform module to manage an AWS S3 bucket
 s3,jerinrathnam,19829,aws,https://github.com/jerinrathnam/terraform-aws-s3,Terraform module for aws S3 bucket
 s3,klowdy,3860,aws,https://github.com/klowdy/terraform-aws-s3,Terraform module for managing S3 buckets
-s3,kn47ytv9mv,34938,aws,https://github.com/kn47ytv9mv/terraform-aws-s3,
+s3,kn47ytv9mv,34975,aws,https://github.com/kn47ytv9mv/terraform-aws-s3,
 s3,magicorntech,19358,aws,https://github.com/magicorntech/terraform-aws-s3,Magicorn AWS S3 Module
 s3,meghanavalluri02,28887,aws,https://github.com/meghanavalluri02/terraform-aws-s3,
 s3,mikamakusa,25517,aws,https://github.com/mikamakusa/terraform-aws-s3,
@@ -21749,6 +21754,7 @@ test-tf-module,omricohenn,23831,google,https://github.com/omricohenn/terraform-g
 test-user-terraform-test-simple,sai4214,9080,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple,
 test-user-terraform-test-simple1,sai4214,9084,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple1,
 test-user-terraform-test-simple2,sai4214,9085,registry,https://github.com/sai4214/terraform-registry-test-user-terraform-test-simple2,
+test-vpc,1-DARK,34976,aws,https://github.com/1-DARK/terraform-aws-test-vpc,
 test-vpc,Deep6239,30627,aws,https://github.com/Deep6239/terraform-aws-test-vpc,
 test-vpc,MohammadShahzaib21,25771,aws,https://github.com/MohammadShahzaib21/terraform-aws-test-vpc,
 test-vpc,PARTHLAD04,33563,aws,https://github.com/PARTHLAD04/terraform-aws-test-vpc,
