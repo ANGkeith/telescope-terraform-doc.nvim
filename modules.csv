@@ -2297,6 +2297,7 @@ avdsh,ColeHeard,23972,azurerm,https://github.com/ColeHeard/terraform-azurerm-avd
 avi-alb-deployment-aws,vmware,14489,aws,https://github.com/vmware/terraform-aws-avi-alb-deployment-aws,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on AWS. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
 avi-alb-deployment-azure,vmware,14490,azurerm,https://github.com/vmware/terraform-azurerm-avi-alb-deployment-azure,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on Azure. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
 avi-alb-deployment-gcp,vmware,14492,google,https://github.com/vmware/terraform-google-avi-alb-deployment-gcp,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on GCP. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
+avi-alb-deployment-vsphere,spacelatte,35360,vsphere,https://github.com/spacelatte/terraform-vsphere-avi-alb-deployment-vsphere,
 avi-alb-deployment-vsphere,vmware,14491,vsphere,https://github.com/vmware/terraform-vsphere-avi-alb-deployment-vsphere,"This project is a Terraform module that creates an Avi (NSX ALB) Controller on vSphere. This module can create all of the day 0 Cloud prerequisites (IAM, networks, Firewall policy), initial Avi configuration, and additional configuration for GSLB, DNS, and IPAM/DNS profiles. "
 avi-controller-aws,slarimore02,7434,aws,https://github.com/slarimore02/terraform-aws-avi-controller-aws,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on AWS
 avi-controller-azure,slarimore02,9311,azurerm,https://github.com/slarimore02/terraform-azurerm-avi-controller-azure,Terraform module that creates and configures an AVI (NSX Advanced Load-Balancer) Controller on Azure
@@ -3425,6 +3426,7 @@ byoc,streamx-dev,30302,alicloud,https://github.com/streamx-dev/terraform-aliclou
 byoc-setup,littlehorse-cloud,29159,google,https://github.com/littlehorse-cloud/terraform-google-byoc-setup,
 byoc-setup,littlehorse-cloud,29392,azure,https://github.com/littlehorse-cloud/terraform-azure-byoc-setup,
 byoc-setup,littlehorse-cloud,29406,aws,https://github.com/littlehorse-cloud/terraform-aws-byoc-setup,
+byok,Jump-App,35361,google,https://github.com/Jump-App/terraform-google-byok,
 byok-template,clumio-code,14902,clumio,https://github.com/clumio-code/terraform-clumio-byok-template,Terraform module containing resources required for Clumio BYOK.
 c-external-alb,ChristianP5,35019,google,https://github.com/ChristianP5/terraform-google-c-external-alb,
 c3,cloud-cost-compression,19644,aws,https://github.com/cloud-cost-compression/terraform-aws-c3,
@@ -10726,6 +10728,7 @@ http-internal,JamesWoolfenden,21524,gcp,https://github.com/JamesWoolfenden/terra
 http-json,cunneen,27012,dns,https://github.com/cunneen/terraform-dns-http-json,DNS over HTTP (DoH) JSON module for Terraform
 http-manifests,MaximilianoAguirre,31463,kubernetes,https://github.com/MaximilianoAguirre/terraform-kubernetes-http-manifests,
 http-proxy,direct-democracy-solutions,19563,aws,https://github.com/direct-democracy-solutions/terraform-aws-http-proxy,Basic transparent HTTP Proxy with API Gateway
+http-redirect,High-Trail-Studios,35362,aws,https://github.com/High-Trail-Studios/terraform-aws-http-redirect,
 http-redirect,infrahouse,29662,aws,https://github.com/infrahouse/terraform-aws-http-redirect,Terraform module for HTTP to HTTPS redirect using CloudFront with custom domain support and SSL certificate management. 
 http-redirect,neovops,13995,aws,https://github.com/neovops/terraform-aws-http-redirect,
 httpbin-on-ecs,aq,7322,aws,https://github.com/aq/terraform-aws-httpbin-on-ecs,"This project is a definition of a Terraform infrastructure that runs on AWS ECS the docker image httpbin, a simple HTTP API."
@@ -12406,7 +12409,7 @@ kubernetes-starter-pack,honeycombio,18129,honeycombio,https://github.com/honeyco
 kubernetes-vault,sl1pm4t,1268,google,https://github.com/sl1pm4t/terraform-google-kubernetes-vault,Terraform module for deploying Vault to GKE
 kubernetes-wordpress,terraform-alicloud-modules,1594,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-kubernetes-wordpress,Terraform module which deploys Wordpress and MySQL on Alibaba Cloud Kubernetes.
 kubernetes_module,scalesafely,21079,azure,https://github.com/scalesafely/terraform-azure-kubernetes_module,
-kubespot,opszero,17601,aws,https://github.com/opszero/terraform-aws-kubespot,
+kubespot,opszero,17601,aws,https://github.com/opszero/terraform-aws-kubespot,Compliance-ready Kubernetes on AWS EKS with SOC2 and HIPAA support
 kubespot,opszero,17612,azurerm,https://github.com/opszero/terraform-azurerm-kubespot,
 kubespot,opszero,17616,google,https://github.com/opszero/terraform-google-kubespot,
 kubespot,opszero,17618,helm,https://github.com/opszero/terraform-helm-kubespot,
