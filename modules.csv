@@ -277,7 +277,7 @@ aci-worker,PrefectHQ,30213,prefect,https://github.com/PrefectHQ/terraform-prefec
 ack,nlamirault,7328,alicloud,https://github.com/nlamirault/terraform-alicloud-ack,Terraform module for Alicloud Container Service for Kubernetes
 ack-services,alibabacloud-automation,31519,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ack-services,
 acm,Aplyca,1018,aws,https://github.com/Aplyca/terraform-aws-acm,Terraform AWS Certificate Manager module
-acm,AutomateTheCloud,28429,aws,https://github.com/AutomateTheCloud/terraform-aws-acm,Terraform module to create an ACM Certificate (AutomateTheCloud model)
+acm,AutomateTheCloud,35376,aws,https://github.com/AutomateTheCloud/terraform-aws-acm,"Terraform module that creates an AWS Certificate Manager (ACM) certificate and validates it through Route 53, including a hosted zone in another account."
 acm,CyberCoreSystems,35148,aws,https://github.com/CyberCoreSystems/terraform-aws-acm,
 acm,Lupus-Metallum,8432,aws,https://github.com/Lupus-Metallum/terraform-aws-acm,Used to create a DNS verified ACM certificate by R53 Zone name
 acm,PreetChauhan111,31743,pc,https://github.com/PreetChauhan111/terraform-pc-acm,
@@ -528,7 +528,6 @@ agent,lacework,7442,kubernetes,https://github.com/lacework/terraform-kubernetes-
 agent,linuxpatch,24767,linuxpatch,https://github.com/linuxpatch/terraform-linuxpatch-agent,"Automate the installation of the LinuxPatch.com, a Patch Management platform for Linux servers. Compatible with Debian, Ubuntu, CentOS, Redhat, Rocky Linux, AlmaLinux, Amazon Linux, and more. Ideal for efficient management of multiple nodes."
 agent-2-agent,Freakisimo,35029,google,https://github.com/Freakisimo/terraform-google-agent-2-agent,Terraform module to create a gcp a2a infrastructure
 agent-ec2,aws-ia,12465,prefect,https://github.com/aws-ia/terraform-prefect-agent-ec2,Terraform module for deploying the Prefect Agent on AWS EC2
-agent-pool,Think-Cube,29122,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-agent-pool,
 agent-pool,microsoftexpert,33478,azuredevops,https://github.com/microsoftexpert/terraform-azuredevops-agent-pool,
 agent-radar,stark256-spec,32355,aws,https://github.com/stark256-spec/terraform-aws-agent-radar,One-click AWS deployment of AgentRadar — ECS Fargate + RDS PostgreSQL + ALB. Terraform Registry module.
 agent-radar,stark256-spec,32356,azurerm,https://github.com/stark256-spec/terraform-azurerm-agent-radar,One-click Azure deployment of AgentRadar — Container Apps + PostgreSQL Flexible Server + Key Vault. Terraform Registry module.
@@ -4556,6 +4555,12 @@ cluster,Zulfiya0616,5883,rds,https://github.com/Zulfiya0616/terraform-rds-cluste
 cluster,ahmetbekan,5868,rds,https://github.com/ahmetbekan/terraform-rds-cluster,
 cluster,aisia-foundation,32794,aisia,https://github.com/aisia-foundation/terraform-aisia-cluster,
 cluster,avisi-cloud,21884,acloud,https://github.com/avisi-cloud/terraform-acloud-cluster,Terraform Module for Provisioning an Avisi Cloud Kubernetes Cluster
+cluster,captf-io,35405,aws,https://github.com/captf-io/terraform-aws-cluster,
+cluster,captf-io,35408,azure,https://github.com/captf-io/terraform-azure-cluster,
+cluster,captf-io,35411,google,https://github.com/captf-io/terraform-google-cluster,
+cluster,captf-io,35414,oci,https://github.com/captf-io/terraform-oci-cluster,
+cluster,captf-io,35417,openstack,https://github.com/captf-io/terraform-openstack-cluster,
+cluster,captf-io,35419,noop,https://github.com/captf-io/terraform-noop-cluster,
 cluster,ckoliber,29810,hcloud,https://github.com/ckoliber/terraform-hcloud-cluster,Terraform HCloud Cluster Module
 cluster,ckoliber,29812,google,https://github.com/ckoliber/terraform-google-cluster,Terraform Google Cluster Module
 cluster,cktf,25586,hcloud,https://github.com/cktf/terraform-hcloud-cluster,Terraform HCloud Cluster Module
@@ -4692,7 +4697,7 @@ codecommit-flow-ci,plus3it,1201,aws,https://github.com/plus3it/terraform-aws-cod
 codecommit-repository,figurate,5042,aws,https://github.com/figurate/terraform-aws-codecommit,Provision and mirror Git repositories in CodeCommit
 codecommit-s3-backups,aws-samples,28329,aws,https://github.com/aws-samples/terraform-aws-codecommit-s3-backups,Backup your AWS CodeCommit repositories to S3 with Terraform
 codecommit-sqs,riboseinc,502,aws,https://github.com/riboseinc/terraform-aws-codecommit-sqs,Terraform module for creating an AWS CodeCommit repo with Trigger for SQS and Queue that works with Jenkins CodeCommit Trigger Plugin
-codedeploy,AutomateTheCloud,28430,aws,https://github.com/AutomateTheCloud/terraform-aws-codedeploy,Terraform module for creating CodeDeploy Applications (AutomateTheCloud model)
+codedeploy,AutomateTheCloud,35377,aws,https://github.com/AutomateTheCloud/terraform-aws-codedeploy,Terraform module for an AWS CodeDeploy application and the IAM service role its deployment groups use.
 codedeploy,Cloud-42,3916,aws,https://github.com/Cloud-42/terraform-aws-codedeploy,"Simple module that creates a CodeDeploy application, deployment group & associates the deployment group with an ASG."
 codedeploy,JamesWoolfenden,15644,aws,https://github.com/JamesWoolfenden/terraform-aws-codedeploy,Basic codedeploy module
 codedeploy,Senora-dev,24302,aws,https://github.com/Senora-dev/terraform-aws-codedeploy,
@@ -7272,7 +7277,7 @@ dynamodb-table-bsn,onminhthien,18892,aws,https://github.com/onminhthien/terrafor
 dynamodb-table-mod,corpit-consulting-public,2647,aws,https://github.com/corpit-consulting-public/terraform-aws-dynamodb-table,Terraform module which creates Tablas DynamoDB on AWS
 dynamodb-tables,justtrackio,17256,aws,https://github.com/justtrackio/terraform-aws-dynamodb-tables,Terraform module which create a dynamodb tables incl. indices and scaling via the terraform-aws-dynamodb-autoscaler module
 dynamodb-tables,vistaprint,686,aws,https://github.com/vistaprint/terraform-aws-dynamodb-tables,
-dynamodb_table,AutomateTheCloud,28449,aws,https://github.com/AutomateTheCloud/terraform-aws-dynamodb_table,Terraform module to create DynamoDB Tables (AutomateTheCloud model)
+dynamodb_table,AutomateTheCloud,35423,aws,https://github.com/AutomateTheCloud/terraform-aws-dynamodb_table,"Terraform module for an Amazon DynamoDB table, with indexes, autoscaling, streams, TTL and replicas, and secure defaults."
 dynatrace-monitor,microsoftexpert,34490,azurerm,https://github.com/microsoftexpert/terraform-azurerm-dynatrace-monitor,
 dynatrace-tag-rules,microsoftexpert,34491,azurerm,https://github.com/microsoftexpert/terraform-azurerm-dynatrace-tag-rules,
 dyndns,fmasuhr,5298,aws,https://github.com/fmasuhr/terraform-aws-dyndns,DynDNS service using API Gateway and AWS Lambda.
@@ -7749,7 +7754,7 @@ ecom-cosmos,ianhong,20584,azurerm,https://github.com/ianhong/terraform-azurerm-e
 ecommerce-elasticsearch,terraform-alicloud-modules,10297,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecommerce-elasticsearch,
 ecp,terraform-alicloud-modules,12803,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-ecp,Terraform Module for creating Elastic Compute Phone on Alibaba Cloud.
 ecr,7Factor,29082,aws,https://github.com/7Factor/terraform-aws-ecr,
-ecr,AutomateTheCloud,28438,aws,https://github.com/AutomateTheCloud/terraform-aws-ecr,Terraform module to create an Elastic Container Registry (AutomateTheCloud model)
+ecr,AutomateTheCloud,35378,aws,https://github.com/AutomateTheCloud/terraform-aws-ecr,"Terraform module for an Amazon ECR repository with secure defaults, lifecycle rules and a repository policy"
 ecr,CyberCoreSystems,35151,aws,https://github.com/CyberCoreSystems/terraform-aws-ecr,
 ecr,DNXLabs,5730,aws,https://github.com/DNXLabs/terraform-aws-ecr,This terraform module creates an Amazon Web Services (AWS) Elastic Container Registry (ECR) repository.
 ecr,JamesWoolfenden,1960,aws,https://github.com/JamesWoolfenden/terraform-aws-ecr,A terraform module to create a container registry (ECR - Elastic Container Registry) in AWS
@@ -8278,7 +8283,7 @@ ecs-worker,egarbi,630,aws,https://github.com/egarbi/terraform-aws-ecs-worker,Thi
 ecs-worker-app,zahiar,10551,aws,https://github.com/zahiar/terraform-aws-ecs-worker-app,A terraform module to create a worker app (complete with ECS service & task definition) in AWS ECS.
 ecsFargate,cosmox-io,8481,aws,https://github.com/cosmox-io/terraform-aws-ecsFargate,
 ecsFargateExistingLB,cosmox-io,8497,aws,https://github.com/cosmox-io/terraform-aws-ecsFargateExistingLB,
-ecs_cluster-fargate,AutomateTheCloud,28450,aws,https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate,Terraform module to create an ECS Cluster - Fargate (AutomateTheCloud model)
+ecs_cluster-fargate,AutomateTheCloud,35426,aws,https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate,"Terraform module that creates an Amazon ECS cluster for AWS Fargate tasks, with Container Insights and ECS Exec settings."
 ecs_hasura,bendog,2589,aws,https://github.com/bendog/terraform-aws-ecs_hasura,ECS + ALB for Hasura Graphql Engine
 ecs_lb,bendog,2217,aws,https://github.com/bendog/terraform-aws-ecs_lb,AWS ECS LoadBalancer + Autoscale + Alarms
 ecsdeploy,Aplyca,1338,aws,https://github.com/Aplyca/terraform-aws-ecsdeploy,Deploy ECS apps complete resources
@@ -8301,7 +8306,7 @@ effortless-bootstrap,devoptimist,2922,chef,https://github.com/srb3/terraform-che
 effortless-bootstrap,srb3,3921,chef,https://github.com/srb3/terraform-chef-effortless-bootstrap,
 efs,Aplyca,1012,aws,https://github.com/Aplyca/terraform-aws-efs,A Terraform Module for how to create EFS on AWS
 efs,AustinCloudGuru,3513,aws,https://github.com/AustinCloudGuru/terraform-aws-efs,Terraform module for deploying EFS
-efs,AutomateTheCloud,28434,aws,https://github.com/AutomateTheCloud/terraform-aws-efs,Terraform module to create an EFS Filesystem (AutomateTheCloud model)
+efs,AutomateTheCloud,35380,aws,https://github.com/AutomateTheCloud/terraform-aws-efs,"Terraform module for an Amazon EFS file system with encryption, TLS, mount targets and a security group."
 efs,Cloud-42,3692,aws,https://github.com/Cloud-42/terraform-aws-efs,"Creates a multi-az, private EFS cluster."
 efs,CyberCoreSystems,35152,aws,https://github.com/CyberCoreSystems/terraform-aws-efs,
 efs,JamesWoolfenden,4297,aws,https://github.com/JamesWoolfenden/terraform-aws-efs,Basic EFS module
@@ -8366,7 +8371,7 @@ eg,codectl,35269,azure,https://github.com/codectl/terraform-azure-eg,
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eigrp-interface-policy,netascode,21827,aci,https://github.com/netascode/terraform-aci-eigrp-interface-policy,Terraform Cisco ACI EIGRP Interface Policy Module
 eigrp-policies,microsoftexpert,33084,aci,https://github.com/microsoftexpert/terraform-aci-eigrp-policies,
-eip,AutomateTheCloud,28437,aws,https://github.com/AutomateTheCloud/terraform-aws-eip,Terraform module to create a VPC Peering Connection (AutomateTheCloud model)
+eip,AutomateTheCloud,35384,aws,https://github.com/AutomateTheCloud/terraform-aws-eip,
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
 eip,Infrastrukturait,18070,aws,https://github.com/Infrastrukturait/terraform-aws-eip,Terraform module to provides an AWS Elastic IP (EIP) 
 eip,cloud-labs-infra,18656,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-eip,
@@ -8931,7 +8936,7 @@ elasticache-secondary-on-global-datastore,aws-terraform-module,26904,aws,https:/
 elasticache-serverless-redis,jparnaudeau,22957,aws,https://github.com/jparnaudeau/terraform-aws-elasticache-serverless-redis,Terraform module to deploy an AWS Elasticache Serverless Redis Cluster
 elasticache-subnet-group,kn47ytv9mv,35075,aws,https://github.com/kn47ytv9mv/terraform-aws-elasticache-subnet-group,
 elasticache_alarms,cloudomat,24432,aws,https://github.com/cloudomat/terraform-aws-elasticache_alarms,
-elasticache_redis,AutomateTheCloud,28451,aws,https://github.com/AutomateTheCloud/terraform-aws-elasticache_redis,Terraform module for creating ElastiCache Redis compatible resources (AutomateTheCloud model)
+elasticache_redis,AutomateTheCloud,35428,aws,https://github.com/AutomateTheCloud/terraform-aws-elasticache_redis,"Terraform module for an Amazon ElastiCache replication group running Redis OSS or Valkey, encrypted and private by default"
 elasticbeanstalk,JamesWoolfenden,2697,aws,https://github.com/JamesWoolfenden/terraform-aws-elasticbeanstalk,An elastic beanstalk module. Because.
 elasticbeanstalk-cicd,josephphyo,11139,aws,https://github.com/josephphyo/terraform-aws-elasticbeanstalk-cicd,terraform-aws-elasticbeanstalk-cicd
 elasticbeanstalk-https,rohitnsaigal,10543,aws,https://github.com/rohitnsaigal/terraform-aws-elasticbeanstalk-https,This module is intended to help you establish all the insfrastructure needed in order to create an elasticbeanstalk application with an additional listener so that we can access via HTTPS
@@ -11171,7 +11176,7 @@ inception,montblu,21731,aws,https://github.com/montblu/terraform-aws-inception,
 incident-management,cloudposse,5658,opsgenie,https://github.com/cloudposse/terraform-opsgenie-incident-management,"Terraform module to provision Opsgenie resources from YAML configurations using the Opsgenie provider,, complete with automated tests"
 indexes,paraggupta10,33952,mongodbatlas,https://github.com/paraggupta10/terraform-mongodbatlas-indexes,Declaratively manage MongoDB/Atlas collection indexes from a YAML file via Terraform.
 infisical,lays147,23835,aws,https://github.com/lays147/terraform-aws-infisical,Terraform module to provide Infisical Vault using ECS
-influx,AutomateTheCloud,28452,aws,https://github.com/AutomateTheCloud/terraform-aws-influx,Terraform module for creating AWS Timestream InfluxDB databases (AutomateTheCloud model)
+influx,AutomateTheCloud,35427,aws,https://github.com/AutomateTheCloud/terraform-aws-influx,"Terraform module for an Amazon Timestream for InfluxDB instance, private and encrypted by default, with a security group for its clients."
 influx,gruntwork-io,1794,aws,https://github.com/influxdata/terraform-aws-influx,Reusable infrastructure modules for running TICK stack on AWS
 influx,gruntwork-io,2841,google,https://github.com/influxdata/terraform-google-influx,Reusable infrastructure modules for running TICK stack on GCP
 influxdb,aigisuk,13313,kubernetes,https://github.com/aigisuk/terraform-kubernetes-influxdb,Terraform module to deploy InfluxDB v2 (v2.2.0) to a Kubernetes cluster via Helm
@@ -11379,7 +11384,6 @@ instance-with-docker,SimretTesfu,27663,aws,https://github.com/SimretTesfu/terraf
 instance-with-docker,Slhttnunlu,20775,aws,https://github.com/Slhttnunlu/terraform-aws-instance-with-docker,
 instance-with-terraform,ersinsari13,20813,aws,https://github.com/ersinsari13/terraform-aws-instance-with-terraform,Terraform module which creates ainstance with terraform resource on AWS.
 instance2,aika-l,27533,module,https://github.com/aika-l/terraform-module-instance2,
-instance_deployment-linux,AutomateTheCloud,28440,aws,https://github.com/AutomateTheCloud/terraform-aws-instance_deployment-linux,Terraform module for deploying EC2 instances (Linux) behind an AutoscalingGroup (AutomateTheCloud model)
 instance_vpc,dubareddy,14284,aws,https://github.com/devopsyuva/terraform-aws-instance_vpc,
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
@@ -12129,7 +12133,7 @@ kms-share,truemark,8657,aws,https://github.com/truemark/terraform-aws-kms-share,
 kms-share-multi-accounts,devops-made-easy,4904,aws,https://github.com/devops-made-easy/terraform-aws-kms-share-multi-accounts,Terraform module to create kms key and share access to multi accounts with IAM and Users
 kms-test,cajava13,24647,aws,https://github.com/cajava13/terraform-aws-kms-test,terraform-aws-kms-test
 kms-tfstate-backend,masterborn,18149,aws,https://github.com/masterborn/terraform-aws-kms-tfstate-backend,Terraform module that allows to manage terraform module
-kms_key,AutomateTheCloud,28453,aws,https://github.com/AutomateTheCloud/terraform-aws-kms_key,Terraform module for creating KMS Keys (AutomateTheCloud model)
+kms_key,AutomateTheCloud,35386,aws,https://github.com/AutomateTheCloud/terraform-aws-kms_key,"Terraform module that creates an AWS KMS key and alias, with a key policy for key administrators and key users."
 kms_keyring,airasia,5088,google,https://github.com/airasia/terraform-google-kms_keyring,Terraform module for KMS Key Rings and KMS Keys in GCP
 knative,cuemby-labs,28823,cuemby,https://github.com/cuemby-labs/terraform-cuemby-knative,
 knowledge-base,tai-ai-studio,31872,genai,https://github.com/tai-ai-studio/terraform-genai-knowledge-base,
@@ -13383,6 +13387,12 @@ maas,mc-b,13092,lerncloud,https://github.com/mc-b/terraform-lerncloud-maas,LernC
 maastermynd,Maastermynd,23511,azurerm,https://github.com/Maastermynd/terraform-azurerm-maastermynd,Testing Terraform code
 mac,DanielRDias,16922,aws,https://github.com/DanielRDias/terraform-aws-mac,Terraform module to create a macOS instance on AWS.
 mac-address,goarano,26244,random,https://github.com/goarano/terraform-random-mac-address,Random MAC address generator for Terraform 
+machine,captf-io,35406,aws,https://github.com/captf-io/terraform-aws-machine,
+machine,captf-io,35409,azure,https://github.com/captf-io/terraform-azure-machine,
+machine,captf-io,35412,google,https://github.com/captf-io/terraform-google-machine,
+machine,captf-io,35415,oci,https://github.com/captf-io/terraform-oci-machine,
+machine,captf-io,35418,openstack,https://github.com/captf-io/terraform-openstack-machine,
+machine,captf-io,35420,noop,https://github.com/captf-io/terraform-noop-machine,
 machine,sentania-labs,30860,vra,https://github.com/sentania-labs/terraform-vra-machine,
 machine-learning-compute-cluster,microsoftexpert,34355,azurerm,https://github.com/microsoftexpert/terraform-azurerm-machine-learning-compute-cluster,
 machine-learning-compute-cluster-role-assignments,RH-TLagrone,26464,azurerm,https://github.com/RH-TLagrone/terraform-azurerm-machine-learning-compute-cluster-role-assignments,Terraform module for Azure Machine Learning (AML) compute cluster MSI default role assignments
@@ -13397,6 +13407,11 @@ machine-learning-workspace,microsoftexpert,34348,azurerm,https://github.com/micr
 machine-learning-workspace-network-outbound-rule-fqdn,microsoftexpert,34347,azurerm,https://github.com/microsoftexpert/terraform-azurerm-machine-learning-workspace-network-outbound-rule-fqdn,
 machine-learning-workspace-network-outbound-rule-private-endpoint,microsoftexpert,34346,azurerm,https://github.com/microsoftexpert/terraform-azurerm-machine-learning-workspace-network-outbound-rule-private-endpoint,
 machine-learning-workspace-network-outbound-rule-service-tag,microsoftexpert,34345,azurerm,https://github.com/microsoftexpert/terraform-azurerm-machine-learning-workspace-network-outbound-rule-service-tag,
+machinepool,captf-io,35407,aws,https://github.com/captf-io/terraform-aws-machinepool,
+machinepool,captf-io,35410,azure,https://github.com/captf-io/terraform-azure-machinepool,
+machinepool,captf-io,35413,google,https://github.com/captf-io/terraform-google-machinepool,
+machinepool,captf-io,35416,oci,https://github.com/captf-io/terraform-oci-machinepool,
+machinepool,captf-io,35421,noop,https://github.com/captf-io/terraform-noop-machinepool,
 machinepool,jrhouston,16481,clusterapi,https://github.com/jrhouston/terraform-clusterapi-machinepool,
 machines,MayasoftGit,27157,vsphere,https://github.com/MayasoftGit/terraform-vsphere-machines,
 macie,clouddrove,10952,aws,https://github.com/clouddrove/terraform-aws-macie,This terraform module is used to Provide a resource to manage an AWS Macie Account. 
@@ -13876,7 +13891,7 @@ mfa,transcom,29827,aws,https://github.com/transcom/terraform-aws-mfa,Enforces MF
 mfa,trussworks,2797,aws,https://github.com/trussworks/terraform-aws-mfa,Enforces MFA on an AWS account
 mg-hierarchysettings,matt-FFFFFF,13009,azapi,https://github.com/matt-FFFFFF/terraform-azapi-mg-hierarchysettings,Terraform module for creation and management of Azure management group hierarchy settings
 mgmt,SPHTech-Platform,16494,boundary,https://github.com/SPHTech-Platform/terraform-boundary-mgmt,HCP Boundary Mgmt Module 
-mgmt-resource-lock,dsb-norge,26910,azurerm,https://github.com/dsb-norge/terraform-azurerm-mgmt-resource-lock,Terraform module to create management locks for resources
+mgmt-resource-lock,dsb-norge,26910,azurerm,https://github.com/dsb-norge/terraform-azurerm-mgmt-resource-lock,
 mgmtstorevar,tanzuformers,10520,vault,https://github.com/tanzuformers/terraform-vault-mgmtstorevar,
 mhdhaneef,mohammedhaneefrasmi,25046,azurerm,https://github.com/mohammedhaneefrasmi/terraform-azurerm-mhdhaneef,
 microservice,Flaconi,2729,aws,https://github.com/Flaconi/terraform-aws-microservice,Boilerplate Terraform Module for creating resources for typical micro services.
@@ -14996,7 +15011,7 @@ nat-instance-setup,bennesp,8914,aws,https://github.com/bennesp/terraform-aws-nat
 nat-instances-ha,vainkop,6922,aws,https://github.com/vainkop/terraform-aws-nat-instances-ha,Terraform module to provision HA NAT Instances on AWS EC2
 nat-rule,bootlabstech,15689,panos,https://github.com/bootlabstech/terraform-panos-nat-rule,
 nat64-based-on-alb,alibabacloud-automation,28535,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-nat64-based-on-alb,
-nat_gateway,AutomateTheCloud,28454,aws,https://github.com/AutomateTheCloud/terraform-aws-nat_gateway,Terraform module to create NAT Gateways for VPCs (AutomateTheCloud model)
+nat_gateway,AutomateTheCloud,35387,aws,https://github.com/AutomateTheCloud/terraform-aws-nat_gateway,"Terraform module for Amazon VPC NAT gateways, public or private, and the routes that send each route table's traffic to them."
 natgateway,carlzxc71,22203,azurerm,https://github.com/carlzxc71/terraform-azurerm-natgateway,Terraform Module to provision an Azure NAT Gateway to provide outbound access to the internet for Azure Virtual Machines
 natgateway,terraform-3am-apocalypse,32304,aws,https://github.com/terraform-3am-apocalypse/terraform-aws-natgateway,
 natgw-notifications,binbashar,5549,aws,https://github.com/binbashar/terraform-aws-natgw-notifications,
@@ -17196,7 +17211,7 @@ rdns,zoro16,21296,hcloud,https://github.com/zoro16/terraform-hcloud-rdns,Terrafo
 rds,Aigerim2024,25509,aws,https://github.com/Aigerim2024/terraform-aws-rds,
 rds,Aplyca,879,aws,https://github.com/Aplyca/terraform-aws-rds,Create AWS RDS Aurora Cluster Resource
 rds,AustinCloudGuru,9520,aws,https://github.com/AustinCloudGuru/terraform-aws-rds,
-rds,AutomateTheCloud,28455,aws,https://github.com/AutomateTheCloud/terraform-aws-rds,Terraform module for creating RDS Databases (AutomateTheCloud model)
+rds,AutomateTheCloud,35425,aws,https://github.com/AutomateTheCloud/terraform-aws-rds,"Terraform module for an encrypted, private Amazon RDS database instance with its security group, read replicas, logs and monitoring."
 rds,BalaMuragan92,25397,aws,https://github.com/BalaMuragan92/terraform-aws-rds,
 rds,Dan3210,25511,aws,https://github.com/Dan3210/terraform-aws-rds,
 rds,FlexibleEngineCloud,6020,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-rds,Terraform module which creates RDS resources on Flexible Engine
@@ -17226,7 +17241,7 @@ rds,ceagone,5887,aws,https://github.com/ceagone/terraform-aws-rds,
 rds,cloudposse,228,aws,https://github.com/cloudposse/terraform-aws-rds," Terraform module to provision AWS RDS instances"
 rds,cytopia,2534,aws,https://github.com/cytopia/terraform-aws-rds,Remake of terraform-aws-modules/terraform-aws-rds without sub-modules
 rds,dashdevs,24528,aws,https://github.com/dashdevs/terraform-aws-rds,RDS module for terraform
-rds,dasmeta,16205,aws,https://github.com/dasmeta/terraform-aws-rds,Terraform Aws RDS module
+rds,dasmeta,16205,aws,https://github.com/dasmeta/terraform-aws-rds,
 rds,dbeleva-af,20960,aws,https://github.com/dbeleva-af/terraform-aws-rds,
 rds,devotica-labs,32555,aws,https://github.com/devotica-labs/terraform-aws-rds,
 rds,dsa0x,23537,aws,https://github.com/dsa0x/terraform-aws-rds,
@@ -17485,8 +17500,8 @@ rds-unmanage-password,1Vidz1,22134,aws,https://github.com/1Vidz1/terraform-aws-r
 rds1,zloygagarko,25514,aws,https://github.com/zloygagarko/terraform-aws-rds1,
 rds_alarms,cloudomat,24450,aws,https://github.com/cloudomat/terraform-aws-rds_alarms,
 rds_alerts,GoCarrot,17231,aws,https://github.com/GoCarrot/terraform-aws-rds_alerts,
-rds_aurora,AutomateTheCloud,28456,aws,https://github.com/AutomateTheCloud/terraform-aws-rds_aurora,Terraform module for creating RDS Aurora Databases (AutomateTheCloud model)
-rds_aurora_global_cluster,AutomateTheCloud,28462,aws,https://github.com/AutomateTheCloud/terraform-aws-rds_aurora_global_cluster,Terraform module for creating RDS Aurora Global Cluster (AutomateTheCloud model)
+rds_aurora,AutomateTheCloud,35424,aws,https://github.com/AutomateTheCloud/terraform-aws-rds_aurora,Terraform module for Amazon Aurora PostgreSQL and MySQL clusters with secure defaults
+rds_aurora_global_cluster,AutomateTheCloud,35422,aws,https://github.com/AutomateTheCloud/terraform-aws-rds_aurora_global_cluster,"Terraform module that creates an Amazon Aurora global cluster, encrypted and protected from deletion by default."
 rds_cluster,Matii84,8902,aws,https://github.com/Matii84/terraform-aws-rds_cluster,
 rds_cluster,aaronyildiztas,7866,aws,https://github.com/aaronyildiztas/terraform-aws-rds_cluster,terraform-aws-rds_cluster
 rds_cluster,kamilakebere1078,8167,aws,https://github.com/kamilakebere1078/terraform-aws-rds_cluster,
@@ -17686,7 +17701,6 @@ redpanda-byovpc,redpanda-data,28194,aws,https://github.com/redpanda-data/terrafo
 redpanda-byovpc,redpanda-data,28423,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-byovpc,
 redpanda-cluster,redpanda-data,19316,aws,https://github.com/redpanda-data/terraform-aws-redpanda-cluster,
 redpanda-cluster,redpanda-data,21187,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-cluster,
-redshift,AutomateTheCloud,28465,aws,https://github.com/AutomateTheCloud/terraform-aws-redshift,Terraform module for creating Redshift Clusters (AutomateTheCloud model)
 redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-aws-redshift,Basic Redshift module
 redshift,QuiNovas,1496,aws,https://github.com/QuiNovas/terraform-aws-redshift,Creates a Redshift cluster
 redshift,bootlabstech,17864,aws,https://github.com/bootlabstech/terraform-aws-redshift,
@@ -17698,7 +17712,6 @@ redshift-copy-udf,aws-ia,26540,aws,https://github.com/aws-ia/terraform-aws-redsh
 redshift-loader-ec2,snowplow-devops,18098,aws,https://github.com/snowplow-devops/terraform-aws-redshift-loader-ec2,
 redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-redshift-service,"Provision Postgres RDS on HSP including prometheus metrics endpoint, discoverable by variant"
 redshift_alarms,cloudomat,24433,aws,https://github.com/cloudomat/terraform-aws-redshift_alarms,
-redshift_serverless,AutomateTheCloud,28466,aws,https://github.com/AutomateTheCloud/terraform-aws-redshift_serverless,Terraform module for creating Redshift Serverless Clusters (AutomateTheCloud model)
 redteam,robertaaron1999,18459,robert,https://github.com/robertaaron1999/terraform-robert-redteam,terraform repo to check exfil 
 refactor-codegen,AdrienneCohea,11302,local,https://github.com/AdrienneCohea/terraform-local-refactor-codegen,Generate Terraform code to ease more complicated refactors
 refactorspaces,aws-ia,20080,awscc,https://github.com/aws-ia/terraform-awscc-refactorspaces,Refactor Spaces Terraform Module
@@ -18477,9 +18490,9 @@ route53-zone,spirius,5308,aws,https://github.com/spirius/terraform-aws-route53-z
 route53-zone-association,kn47ytv9mv,35097,aws,https://github.com/kn47ytv9mv/terraform-aws-route53-zone-association,
 route53-zone-dns-multiaccount,birkoff,25614,aws,https://github.com/birkoff/terraform-aws-route53-zone-dns-multiaccount,Add public NS records to parent DNS
 route53-zones,alexeghd,29583,aws,https://github.com/alexeghd/terraform-aws-route53-zones,Terraform module which creates Route53 zones
-route53_resolver_endpoint,AutomateTheCloud,28464,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_endpoint,Terraform module to create Route53 Resolver Endpoints (AutomateTheCloud model)
-route53_resolver_rule,AutomateTheCloud,28457,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_rule,Terraform module to create Route53 Resolver Rules (AutomateTheCloud model)
-route53_zone,AutomateTheCloud,28428,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_zone,Terraform module to create Route 53 Zones (AutomateTheCloud model)
+route53_resolver_endpoint,AutomateTheCloud,35385,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_endpoint,"Terraform module for an Amazon Route 53 Resolver inbound or outbound endpoint, with a security group closed by default."
+route53_resolver_rule,AutomateTheCloud,35388,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_resolver_rule,Terraform module that creates an Amazon Route 53 Resolver rule and can share it with other AWS accounts.
+route53_zone,AutomateTheCloud,35379,aws,https://github.com/AutomateTheCloud/terraform-aws-route53_zone,"Terraform module that creates an Amazon Route 53 hosted zone, public or private for a list of VPCs."
 route53acm,KamranBiglari,21155,aws,https://github.com/KamranBiglari/terraform-aws-route53acm,Terraform module to create A record in route 53 and validate AWS ACM
 route53healthcheck,DNXLabs,5748,aws,https://github.com/DNXLabs/terraform-aws-route53healthcheck,This is a module to configure health check and related AWS CloudWatch metric alarms.
 route53resolver-firewall-domainlists,elduds,20024,aws,https://github.com/elduds/terraform-aws-route53resolver-firewall-domainlists,Statically defined mappings of AWS Route53 Resolver DNS Firewall Managed Domain Lists
@@ -18870,7 +18883,7 @@ s3-requisites-for-ssm-policy-document,andreswebs,12173,aws,https://github.com/an
 s3-review-apps,nagelflorian,4409,aws,https://github.com/nagelflorian/terraform-aws-s3-review-apps,Terraform module designed to generate a AWS S3 based review-app setup
 s3-rollup,Samsung,20596,aws,https://github.com/Samsung/terraform-aws-s3-rollup,Serverless app to compress S3 access logs
 s3-secure-static-website,tim0git,14319,aws,https://github.com/tim0git/terraform-aws-s3-secure-static-website,Terraform module which creates secure s3 static website and all associated resources
-s3-server-access-logs-lake,fivexl,26513,aws,https://github.com/fivexl/terraform-aws-s3-server-access-logs-lake,"This repository contains Terraform modules for setting up a centralized log-archive account for server access logs from multiple accounts in an AWS Organization. The modules are designed to replicate logs from various accounts to a designated log-archive account, where they can be stored and queried for further analysis."
+s3-server-access-logs-lake,fivexl,26513,aws,https://github.com/fivexl/terraform-aws-s3-server-access-logs-lake,
 s3-simple,billy-editiano,20865,aws,https://github.com/billy-editiano/terraform-aws-s3-simple,sample terraform files to provide a s3 bucket
 s3-simple,vravind1,20863,aws,https://github.com/vravind1/terraform-aws-s3-simple,Simple S3 Module
 s3-simple-bucket-and-objects,rodrigopuls,14897,aws,https://github.com/rodrigopuls/terraform-aws-s3-simple-bucket-and-objects,A simple Terraform module to handle S3 bucket and bucket objects on AWS.
@@ -19643,7 +19656,7 @@ security-policy,bootlabstech,15754,panos,https://github.com/bootlabstech/terrafo
 security-report,hendrixroa,6551,aws,https://github.com/hendrixroa/terraform-aws-security-report,Lambda that notify security issues.
 security-verify,terraform-ibm-modules,26193,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-security-verify,"IBM Verify provides Single Sign-On (SSO), multi-factor authentication (MFA), identity governance, and identity lifecycle controls for internal (workforce) and external (consumer) user types."
 security_gr,Tumik94,26176,aws,https://github.com/Tumik94/terraform-aws-security_gr,
-security_group,AutomateTheCloud,28463,aws,https://github.com/AutomateTheCloud/terraform-aws-security_group,Terraform module to create a Security Group (AutomateTheCloud model)
+security_group,AutomateTheCloud,35402,aws,https://github.com/AutomateTheCloud/terraform-aws-security_group,Terraform module that creates an Amazon VPC security group with inbound and outbound rules
 security_group,mayankagarwal19911,22941,aws,https://github.com/mayankagarwal19911/terraform-aws-security_group,
 security_group,mikamakusa,4351,aws,https://github.com/mikamakusa/terraform-aws-security_group,
 security_group,scaleway-terraform-modules,17632,scaleway,https://github.com/scaleway-terraform-modules/terraform-scaleway-security_group,Manage Scaleway security groups with Terraform.
@@ -20559,7 +20572,7 @@ sqlsubnet,Usmanjaaved,26973,azure,https://github.com/Usmanjaaved/terraform-azure
 sqlvm,bootlabstech,16696,azurerm,https://github.com/bootlabstech/terraform-azurerm-sqlvm,
 sqlvm,mpaas-ai-module,33576,azurerm,https://github.com/mpaas-ai-module/terraform-azurerm-sqlvm,
 sqs,Aplyca,1343,aws,https://github.com/Aplyca/terraform-aws-sqs,Create a AWS SQS Queue with Death Letter Queue
-sqs,AutomateTheCloud,28467,aws,https://github.com/AutomateTheCloud/terraform-aws-sqs,Terraform module to create an SQS Queue (AutomateTheCloud model)
+sqs,AutomateTheCloud,35401,aws,https://github.com/AutomateTheCloud/terraform-aws-sqs,"Terraform module that creates an Amazon SQS queue with secure defaults, an optional dead-letter queue, and its queue policy."
 sqs,Cloud-42,4841,aws,https://github.com/Cloud-42/terraform-aws-sqs,Creates SQS queue (s).
 sqs,CyberCoreSystems,35160,aws,https://github.com/CyberCoreSystems/terraform-aws-sqs,
 sqs,JamesWoolfenden,7811,aws,https://github.com/JamesWoolfenden/terraform-aws-sqs,Basic SQS module
@@ -20658,7 +20671,7 @@ ssh-ssm,JamesWoolfenden,2049,aws,https://github.com/JamesWoolfenden/terraform-aw
 ssh_file,OJFord,3148,module,https://github.com/OJFord/terraform-module-ssh_file,"Easily acquire file contents over SSH. Like `data ""local_file""`, but remote."
 ssh_key,dhoppeIT,30402,hcloud,https://github.com/dhoppeIT/terraform-hcloud-ssh_key,
 ssh_key,robertdebock,6764,digitalocean,https://github.com/robertdebock/terraform-digitalocean-ssh_key,A Terraform module to create ssh keys on Digitalocean.
-ssh_key_pair,AutomateTheCloud,28461,aws,https://github.com/AutomateTheCloud/terraform-aws-ssh_key_pair,Terraform module to create EC2 SSH Key Pairs (AutomateTheCloud model)
+ssh_key_pair,AutomateTheCloud,35389,aws,https://github.com/AutomateTheCloud/terraform-aws-ssh_key_pair,Terraform module that imports an SSH public key as an Amazon EC2 key pair
 sshkey,instruqtkula,31748,instruqt,https://github.com/instruqtkula/terraform-instruqt-sshkey,
 sshkey-uploader,ystkfujii,17876,nifcloud,https://github.com/ystkfujii/terraform-nifcloud-sshkey-uploader,Terraform module to generate and upload sshkey
 ssl,ganexcloud,13241,cloudflare,https://github.com/ganexcloud/terraform-cloudflare-ssl,
@@ -20750,7 +20763,7 @@ ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terra
 ssm-tls-ssh-key-pair,cloudposse,1980,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-ssh-key-pair,Terraform module that provisions an SSH TLS Key pair and writes it to SSM Parameter Store
 ssm-tunnel,nativelycloud,25073,aws,https://github.com/nativelycloud/terraform-aws-ssm-tunnel,"Terraform module that provides tunnels with AWS SSM, enabling you to configure private resources inside your VPC effortlessly"
 ssm-vpc-endpoint,bayupw,12922,aws,https://github.com/bayupw/terraform-aws-ssm-vpc-endpoint,Terraform module to create Security Group and VPC Endpoints for SSM
-ssm_document,AutomateTheCloud,28460,aws,https://github.com/AutomateTheCloud/terraform-aws-ssm_document,Terraform module to create SSM Documents (AutomateTheCloud model)
+ssm_document,AutomateTheCloud,35400,aws,https://github.com/AutomateTheCloud/terraform-aws-ssm_document,"Terraform module that creates an AWS Systems Manager (SSM) document, such as a Run Command document or an Automation runbook."
 ssmpatching,JamesWoolfenden,3314,aws,https://github.com/JamesWoolfenden/terraform-aws-ssmpatching,A project to set-up SSM patch schedules
 ssmpfs,gibbsoft,16084,aws,https://github.com/gibbsoft/terraform-aws-ssmpfs,"A terraform module to allow storage of large-ish data in free-tier SSM Parameter Store.  This can be handy for certificate chains, etc."
 sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraform-aws-sso,Terraform module to manage AWS Single Sign-On (SSO) resources.
@@ -21949,7 +21962,7 @@ terraform-instance,vlkn38akyz,15049,aws,https://github.com/vlkn38akyz/terraform-
 terraform-remote-state,MitocGroup,6727,aws,https://github.com/MitocGroup/terraform-aws-terraform-remote-state,Terraform Module for Terraform Remote State using Amazon S3
 terraform-repo,container-labs,7645,github,https://github.com/container-labs/terraform-github-terraform-repo,
 terraform-state,janschumann,6374,aws,https://github.com/janschumann/terraform-aws-terraform-state,
-terraform-state-container,dsb-norge,26911,azurerm,https://github.com/dsb-norge/terraform-azurerm-terraform-state-container,Terraform module to manage terraform state containers in Azure
+terraform-state-container,dsb-norge,26911,azurerm,https://github.com/dsb-norge/terraform-azurerm-terraform-state-container,
 terraform-state-s3-bucket-centralized-with-roles,StratusGrid,1914,aws,https://github.com/StratusGrid/terraform-aws-terraform-state-s3-bucket-centralized-with-roles,"This is intended to be used by an organization for all of their own accounts. This does not protect access to DynamoDB locking of other accounts, it only restricts access S3 paths for each account.  This restriction is put in place by creating a unique role for each account, then creating an assumerole policy that trusts the corresponding account to assume it."
 terraform-versions,hashicorp,12301,tfe,https://github.com/hashicorp/terraform-tfe-terraform-versions,A Terraform module to easily manage Terraform versions on TFE
 terraformansible,MDMOQADDAS,13938,aws,https://github.com/MDMOQADDAS/terraform-aws-terraformansible,
@@ -22272,8 +22285,8 @@ transit-gateway-satellite,Flaconi,10438,aws,https://github.com/Flaconi/terraform
 transit-gateway-vpc-attachment,kn47ytv9mv,35106,aws,https://github.com/kn47ytv9mv/terraform-aws-transit-gateway-vpc-attachment,
 transit-gateway-vpn,Flaconi,10439,aws,https://github.com/Flaconi/terraform-aws-transit-gateway-vpn,Terraform module for handling VPN connections on AWS and attaching them to Transit Gateway
 transit-secrets-engine,devops-rob,7441,vault,https://github.com/devops-rob/terraform-vault-transit-secrets-engine,This module enables and configures the transit secrets engine in Vault.
-transit_gateway,AutomateTheCloud,28459,aws,https://github.com/AutomateTheCloud/terraform-aws-transit_gateway,Terraform module to create Transit Gateways (AutomateTheCloud model)
-transit_gateway_attachment,AutomateTheCloud,28458,aws,https://github.com/AutomateTheCloud/terraform-aws-transit_gateway_attachment,Terraform module to Attach Transit Gateways to VPCs (AutomateTheCloud model)
+transit_gateway,AutomateTheCloud,35404,aws,https://github.com/AutomateTheCloud/terraform-aws-transit_gateway,"Terraform module that creates an AWS transit gateway with a route table, and optionally shares it through AWS Resource Access Manager."
+transit_gateway_attachment,AutomateTheCloud,35403,aws,https://github.com/AutomateTheCloud/terraform-aws-transit_gateway_attachment,Terraform module that attaches an Amazon VPC to an AWS Transit Gateway and adds routes to it from the VPC's route tables
 transitgateway,rhythmictech,4007,aws,https://github.com/rhythmictech/terraform-aws-transitgateway,Manage a Transit Gateway resource. Supports RAM.
 transitgateway-route-cidr,rhythmictech,4029,aws,https://github.com/rhythmictech/terraform-aws-transitgateway-route-cidr,Manage a Transit Gateway route table entry
 transitgateway-route-table-route,khateeb15,5456,aws,https://github.com/khateeb15/terraform-aws-transitgateway-route-table-route,This module provides a transit gateway route table entry 
@@ -23097,7 +23110,7 @@ vpc,Arulraj23,21270,alicloud,https://github.com/Arulraj23/terraform-alicloud-vpc
 vpc,Arun-KumarRavi,31000,aws,https://github.com/Arun-KumarRavi/terraform-aws-vpc,
 vpc,AsiaO1,9382,aws,https://github.com/AsiaO1/terraform-aws-vpc,
 vpc,Atabek-cyber,9422,aws,https://github.com/Atabek-cyber/terraform-aws-vpc,
-vpc,AutomateTheCloud,28431,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc,Terraform module to create a VPC (AutomateTheCloud model)
+vpc,AutomateTheCloud,35382,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc,"Terraform module for an Amazon VPC with private, restricted and public subnets across three Availability Zones"
 vpc,Aveartur,9405,aws,https://github.com/Aveartur/terraform-aws-vpc,
 vpc,AyaSagimbek,28632,aws,https://github.com/AyaSagimbek/terraform-aws-vpc,
 vpc,BalaMuragan92,25393,aws,https://github.com/BalaMuragan92/terraform-aws-vpc,
@@ -23965,12 +23978,12 @@ vpc5,tshamane,12665,aws,https://github.com/tshamane/terraform-aws-vpc5,
 vpc7,Aigerim2024,25481,aws,https://github.com/Aigerim2024/terraform-aws-vpc7,
 vpc7,techtorialdevops,25477,aws,https://github.com/techtorialdevops/terraform-aws-vpc7,
 vpcDetailer,Digital-Works-2020,26889,aws,https://github.com/Digital-Works-2020/terraform-aws-vpcDetailer,Modules Based on Terraform AWS Provider
-vpc_dhcp_options,AutomateTheCloud,28432,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc_dhcp_options,Terraform module to create VPC DHCP Option Sets (AutomateTheCloud model)
+vpc_dhcp_options,AutomateTheCloud,35381,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc_dhcp_options,"Terraform module that creates an Amazon VPC DHCP option set, with defaults that match the Region's own and options checked at plan time."
 vpc_endpoints,aws-ia,10360,aws,https://github.com/aws-ia/terraform-aws-vpc_endpoints,Terraform AWS VPC endpoints module
 vpc_marcus,nguyencuong30697,17521,aws,https://github.com/nguyencuong30697/terraform-aws-vpc_marcus,"Create VPC, subnet, IGW and NATGW by terraform"
 vpc_module,mmichel122,3488,aws,https://github.com/mmichel122/terraform-aws-vpc_module,
 vpc_network,airasia,4765,google,https://github.com/airasia/terraform-google-vpc_network,Terraform module for a VPC Network in GCP
-vpc_peering,AutomateTheCloud,28433,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc_peering,Terraform module to create a VPC Peering Connection (AutomateTheCloud model)
+vpc_peering,AutomateTheCloud,35383,aws,https://github.com/AutomateTheCloud/terraform-aws-vpc_peering,"Terraform module to create, accept and route an Amazon VPC peering connection across Regions and accounts."
 vpc_router_nat,airasia,6505,google,https://github.com/airasia/terraform-google-vpc_router_nat,Terraform module for additional Cloud Router + Cloud NAT for a VPC
 vpc_serverless_access,airasia,6377,google,https://github.com/airasia/terraform-google-vpc_serverless_access,Terraform module for Serverless VPC Access in GCP
 vpcb5,sanitole,24184,aws,https://github.com/sanitole/terraform-aws-vpcb5,
