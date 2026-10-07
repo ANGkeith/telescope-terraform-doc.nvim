@@ -226,6 +226,7 @@ account-access,lablabs,4446,aws,https://github.com/lablabs/terraform-aws-account
 account-access-group,cloud-native-toolkit,14549,ibm,https://github.com/terraform-ibm-modules/terraform-ibm-toolkit-account-access-group,Module to create account-wide access groups
 account-baseline,atomesh-tech,33051,aws,https://github.com/atomesh-tech/terraform-aws-account-baseline,
 account-baseline,fivexl,22299,aws,https://github.com/fivexl/terraform-aws-account-baseline,"The ""aws-account-baseline"" is an open-source Terraform module designed to provide a standardized foundational setup for AWS accounts. This module ensures that key security and management configurations are consistently applied across all your AWS accounts, establishing a robust and secure baseline."
+account-baseline,fizz,35430,aws,https://github.com/fizz/terraform-aws-account-baseline,
 account-baseline,hkebao,11338,alicloud,https://github.com/hkebao/terraform-alicloud-account-baseline,账号基线的仓库，会作为一个Modules发布到官方文档
 account-baseline,priceloop,16441,aws,https://github.com/priceloop/terraform-aws-account-baseline,Baseline settings for our AWS accounts
 account-bootstrap,akw-devsecops,22288,aws,https://github.com/akw-devsecops/terraform-aws-account-bootstrap,Terraform Module to bootstrap AWS accounts
@@ -1329,7 +1330,7 @@ apigw-sqs,andreswebs,24061,aws,https://github.com/andreswebs/terraform-aws-apigw
 apikey,tomoki171923,13378,aws,https://github.com/tomoki171923/terraform-aws-apikey,"Terraform module, which creates AWS apigateway api key resources."
 apikeys,bootlabstech,20585,google,https://github.com/bootlabstech/terraform-google-apikeys,
 apikeys,mpaas-ai-module,32633,google,https://github.com/mpaas-ai-module/terraform-google-apikeys,
-apim,CloudNationHQ,26210,azure,https://github.com/CloudNationHQ/terraform-azure-apim,Terraform module which creates api manager resources used by workloads and accelerators.
+apim,CloudNationHQ,26210,azure,https://github.com/CloudNationHQ/terraform-azure-apim,
 apim,JamesWoolfenden,16719,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-apim,
 apim-api,JoeAtRest,6087,azurerm,https://github.com/JoeAtRest/terraform-azurerm-apim-api,Manages an API for an existing Azure API Manager
 apim-apiops,msterin,27100,azurerm,https://github.com/msterin/terraform-azurerm-apim-apiops,"APIM APIOps enables you to publish and manage your APIs via Azure API Management (APIM) using a GitOps approach, with the help of a Terraform module."
@@ -8371,7 +8372,7 @@ eg,codectl,35269,azure,https://github.com/codectl/terraform-azure-eg,
 egress-proxy,north-kite,10735,aws,https://github.com/north-kite/terraform-aws-egress-proxy,Squid egress proxy for AWS
 eigrp-interface-policy,netascode,21827,aci,https://github.com/netascode/terraform-aci-eigrp-interface-policy,Terraform Cisco ACI EIGRP Interface Policy Module
 eigrp-policies,microsoftexpert,33084,aci,https://github.com/microsoftexpert/terraform-aci-eigrp-policies,
-eip,AutomateTheCloud,35384,aws,https://github.com/AutomateTheCloud/terraform-aws-eip,
+eip,AutomateTheCloud,35384,aws,https://github.com/AutomateTheCloud/terraform-aws-eip,Terraform module that allocates an Amazon EC2 Elastic IP address for use in a VPC
 eip,FlexibleEngineCloud,6010,flexibleengine,https://github.com/FlexibleEngineCloud/terraform-flexibleengine-eip,Terraform module which creates EIP resource on Flexible Engine
 eip,Infrastrukturait,18070,aws,https://github.com/Infrastrukturait/terraform-aws-eip,Terraform module to provides an AWS Elastic IP (EIP) 
 eip,cloud-labs-infra,18656,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-eip,
@@ -11264,7 +11265,6 @@ instana-agent-script,instana,33672,instana,https://github.com/instana/terraform-
 instana-ec2-agent,instana,32363,aws,https://github.com/instana/terraform-aws-instana-ec2-agent,Terraform module for deploying and configuring the Instana agent on AWS EC2 workloads
 instana-ecs-agent,instana,32364,aws,https://github.com/instana/terraform-aws-instana-ecs-agent,Terraform module for deploying and configuring the Instana agent on AWS ECS workloads
 instana-gcp-agent,instana,33590,gcp,https://github.com/instana/terraform-gcp-instana-gcp-agent,Terraform module for deploying Instana agents on GCP Compute Engine to monitor GCP resources.
-instana-sensor-ecs,benjamin-lykins,30710,aws,https://github.com/benjamin-lykins/terraform-aws-instana-sensor-ecs,
 instance,4ltieres,3112,openstack,https://github.com/altieresfreitas/terraform-openstack-instance,Terraform module to create openstack Instance
 instance,ASparkOfFire,18002,aws,https://github.com/ASparkOfFire/terraform-aws-instance,Terraform AWS Instance Module for Learning how Terraform Modules work.
 instance,Ahmeddevops-Github,7289,rds,https://github.com/ahmedak-devops/terraform-rds-instance,
@@ -11384,6 +11384,7 @@ instance-with-docker,SimretTesfu,27663,aws,https://github.com/SimretTesfu/terraf
 instance-with-docker,Slhttnunlu,20775,aws,https://github.com/Slhttnunlu/terraform-aws-instance-with-docker,
 instance-with-terraform,ersinsari13,20813,aws,https://github.com/ersinsari13/terraform-aws-instance-with-terraform,Terraform module which creates ainstance with terraform resource on AWS.
 instance2,aika-l,27533,module,https://github.com/aika-l/terraform-module-instance2,
+instance_deployment-linux,AutomateTheCloud,35438,aws,https://github.com/AutomateTheCloud/terraform-aws-instance_deployment-linux,"Terraform module for Linux EC2 instances in an Auto Scaling group, set up at boot and updated in rolling batches through AWS CloudFormation, with optional load balancer, EFS, CodeDeploy and Parameter Store access."
 instance_vpc,dubareddy,14284,aws,https://github.com/devopsyuva/terraform-aws-instance_vpc,
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
@@ -15397,12 +15398,14 @@ networking-subnet-group,ptonini,22158,aws,https://github.com/ptonini/terraform-a
 networking-tf,CaptainKus,28602,aws,https://github.com/CaptainKus/terraform-aws-networking-tf,Networking module created during Terraform Course
 networking-tf,pnikytynskyi,28973,aws,https://github.com/pnikytynskyi/terraform-aws-networking-tf,
 networking-tf-course,AitorConS,30167,aws,https://github.com/AitorConS/terraform-aws-networking-tf-course,
+networking-tf-course,AlexanderWinkelmeier,35433,aws,https://github.com/AlexanderWinkelmeier/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey,29382,aws,https://github.com/Jao-Steven-Rey/terraform-aws-networking-tf-course,
 networking-tf-course,Jao-Steven-Rey-C,27226,aws,https://github.com/Jao-Steven-Rey-C/terraform-aws-networking-tf-course,Networking module performed under Lauro Müeller's course about Terraform.
 networking-tf-course,Philip1v,32770,aws,https://github.com/Philip1v/terraform-aws-networking-tf-course,
 networking-tf-course,SeanShmilov,32765,aws,https://github.com/SeanShmilov/terraform-aws-networking-tf-course,
 networking-tf-course,bavingtonm,25865,aws,https://github.com/bavingtonm/terraform-aws-networking-tf-course,Networking module created during Mastering Terraform Course
 networking-tf-course,daiki-kaneda,35009,aws,https://github.com/daiki-kaneda/terraform-aws-networking-tf-course,
+networking-tf-course,dal3ks,35432,aws,https://github.com/dal3ks/terraform-aws-networking-tf-course,
 networking-tf-course,eeipwg,30773,aws,https://github.com/eeipwg/terraform-aws-networking-tf-course,Networking module created during Udemy's Lauro Muller Terraform course
 networking-tf-course,felipe-grandy,30046,aws,https://github.com/felipe-grandy/terraform-aws-networking-tf-course,
 networking-tf-course,geast16,29512,aws,https://github.com/geast16/terraform-aws-networking-tf-course,Networking module created using Laure Muller's Terraform course.
@@ -15839,6 +15842,7 @@ omkar2305storage,beingomkardalvi,21533,azurerm,https://github.com/beingomkardalv
 omni-cluster,castai,31042,castai,https://github.com/castai/terraform-castai-omni-cluster,
 omni-edge-location-aws,castai,30658,castai,https://github.com/castai/terraform-castai-omni-edge-location-aws,Terraform module for omni edge location
 omni-edge-location-gcp,castai,30659,castai,https://github.com/castai/terraform-castai-omni-edge-location-gcp,Terraform module for omni edge location
+omni-edge-location-nebius,castai,35436,castai,https://github.com/castai/terraform-castai-omni-edge-location-nebius,
 omni-edge-location-oci,castai,30660,castai,https://github.com/castai/terraform-castai-omni-edge-location-oci,Terraform module for omni edge location
 omniosce-lab,jmarhee,7173,aws,https://github.com/jmarhee/terraform-aws-omniosce-lab,
 ona-runner,gitpod-io,31971,google,https://github.com/gitpod-io/terraform-google-ona-runner,
@@ -16063,6 +16067,7 @@ organization,yros-cloud,29473,aws,https://github.com/yros-cloud/terraform-aws-or
 organization-access-group,cloudposse,913,aws,https://github.com/cloudposse/terraform-aws-organization-access-group,Terraform module to create an IAM Group and Policy to grant permissions to delegated IAM users in the Organization's master account to access a member account
 organization-access-role,cloudposse,911,aws,https://github.com/cloudposse/terraform-aws-organization-access-role,Terraform module to create an IAM Role to grant permissions to delegated IAM users in the master account to access an invited member account
 organization-backup,wearetechnative,23124,aws,https://github.com/wearetechnative/terraform-aws-organization-backup,This module implements a standard `AWS Backup` setup using `AWS Organizaion` backup policies for enforcement.
+organization-baseline,fizz,35431,aws,https://github.com/fizz/terraform-aws-organization-baseline,
 organization-cloudbase,Levetty,27498,google,https://github.com/Levetty/terraform-google-organization-cloudbase,A Terraform module to connect a Google Cloud Organization to Cloudbase
 organization-configuration,qbeyond,17443,google,https://github.com/qbeyond/terraform-google-organization-configuration,This module allows managing several organization properties.
 organization-iam,mineiros-io,11749,google,https://github.com/mineiros-io/terraform-google-organization-iam,A Terraform module to manage Identity and Access Management (IAM) for organizations in Google Cloud https://cloud.google.com/resource-manager/docs/access-control-org
@@ -17701,6 +17706,7 @@ redpanda-byovpc,redpanda-data,28194,aws,https://github.com/redpanda-data/terrafo
 redpanda-byovpc,redpanda-data,28423,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-byovpc,
 redpanda-cluster,redpanda-data,19316,aws,https://github.com/redpanda-data/terraform-aws-redpanda-cluster,
 redpanda-cluster,redpanda-data,21187,gcp,https://github.com/redpanda-data/terraform-gcp-redpanda-cluster,
+redshift,AutomateTheCloud,35434,aws,https://github.com/AutomateTheCloud/terraform-aws-redshift,"Terraform module for an Amazon Redshift cluster with secure defaults: encrypted, private, TLS required, and its master password in AWS Secrets Manager."
 redshift,JamesWoolfenden,9154,aws,https://github.com/JamesWoolfenden/terraform-aws-redshift,Basic Redshift module
 redshift,QuiNovas,1496,aws,https://github.com/QuiNovas/terraform-aws-redshift,Creates a Redshift cluster
 redshift,bootlabstech,17864,aws,https://github.com/bootlabstech/terraform-aws-redshift,
@@ -17712,6 +17718,7 @@ redshift-copy-udf,aws-ia,26540,aws,https://github.com/aws-ia/terraform-aws-redsh
 redshift-loader-ec2,snowplow-devops,18098,aws,https://github.com/snowplow-devops/terraform-aws-redshift-loader-ec2,
 redshift-service,loafoe,14708,hsdp,https://github.com/loafoe/terraform-hsdp-redshift-service,"Provision Postgres RDS on HSP including prometheus metrics endpoint, discoverable by variant"
 redshift_alarms,cloudomat,24433,aws,https://github.com/cloudomat/terraform-aws-redshift_alarms,
+redshift_serverless,AutomateTheCloud,35437,aws,https://github.com/AutomateTheCloud/terraform-aws-redshift_serverless,"Terraform module for an Amazon Redshift Serverless namespace and workgroup, with secure defaults"
 redteam,robertaaron1999,18459,robert,https://github.com/robertaaron1999/terraform-robert-redteam,terraform repo to check exfil 
 refactor-codegen,AdrienneCohea,11302,local,https://github.com/AdrienneCohea/terraform-local-refactor-codegen,Generate Terraform code to ease more complicated refactors
 refactorspaces,aws-ia,20080,awscc,https://github.com/aws-ia/terraform-awscc-refactorspaces,Refactor Spaces Terraform Module
@@ -18082,6 +18089,7 @@ resource-group-storage,kdacc,35122,azurerm,https://github.com/kdacc/terraform-az
 resource-group-storage,salabam,31373,azurerm,https://github.com/salabam/terraform-azurerm-resource-group-storage,
 resource-group-storage,spridoloba,31989,azurerm,https://github.com/spridoloba/terraform-azurerm-resource-group-storage,
 resource-group-storage,taniakolesnik,32223,azurerm,https://github.com/taniakolesnik/terraform-azurerm-resource-group-storage,
+resource-group-storage,tetianamohorian23,35435,azurerm,https://github.com/tetianamohorian23/terraform-azurerm-resource-group-storage,
 resource-group-storage,vanyas627,34250,azurerm,https://github.com/vanyas627/terraform-azurerm-resource-group-storage,
 resource-group-storage,vhurna,29005,azurerm,https://github.com/vhurna/terraform-azurerm-resource-group-storage,
 resource-group-storage,whatislavx,31282,azurerm,https://github.com/whatislavx/terraform-azurerm-resource-group-storage,
@@ -18130,6 +18138,7 @@ resource_group_storage,Ramzes525,28265,azurerm,https://github.com/Ramzes525/terr
 resource_group_storage,Rozdorozhnii,28326,azurerm,https://github.com/Rozdorozhnii/terraform-azurerm-resource_group_storage,Basic Terraform module for creating Azure resource group and storage
 resource_group_storage,SHCHERBANV,25845,azurerm,https://github.com/SHCHERBANV/terraform-azurerm-resource_group_storage,
 resource_group_storage,Serveladik,26172,azurerm,https://github.com/Serveladik/terraform-azurerm-resource_group_storage,
+resource_group_storage,TrickyTenshi,35441,azurerm,https://github.com/TrickyTenshi/terraform-azurerm-resource_group_storage,
 resource_group_storage,Uklonsd,28589,azurerm,https://github.com/Uklonsd/terraform-azurerm-resource_group_storage,
 resource_group_storage,VolodymyrKaraniuk,28435,azurerm,https://github.com/VolodymyrKaraniuk/terraform-azurerm-resource_group_storage,
 resource_group_storage,Volodymyrdv,29586,azurerm,https://github.com/Volodymyrdv/terraform-azurerm-resource_group_storage,
@@ -20763,7 +20772,7 @@ ssm-tls-self-signed-cert,cloudposse,9779,aws,https://github.com/cloudposse/terra
 ssm-tls-ssh-key-pair,cloudposse,1980,aws,https://github.com/cloudposse/terraform-aws-ssm-tls-ssh-key-pair,Terraform module that provisions an SSH TLS Key pair and writes it to SSM Parameter Store
 ssm-tunnel,nativelycloud,25073,aws,https://github.com/nativelycloud/terraform-aws-ssm-tunnel,"Terraform module that provides tunnels with AWS SSM, enabling you to configure private resources inside your VPC effortlessly"
 ssm-vpc-endpoint,bayupw,12922,aws,https://github.com/bayupw/terraform-aws-ssm-vpc-endpoint,Terraform module to create Security Group and VPC Endpoints for SSM
-ssm_document,AutomateTheCloud,35400,aws,https://github.com/AutomateTheCloud/terraform-aws-ssm_document,"Terraform module that creates an AWS Systems Manager (SSM) document, such as a Run Command document or an Automation runbook."
+ssm_document,AutomateTheCloud,35440,aws,https://github.com/AutomateTheCloud/terraform-aws-ssm_document,"Terraform module that creates an AWS Systems Manager (SSM) document, such as a Run Command document or an Automation runbook."
 ssmpatching,JamesWoolfenden,3314,aws,https://github.com/JamesWoolfenden/terraform-aws-ssmpatching,A project to set-up SSM patch schedules
 ssmpfs,gibbsoft,16084,aws,https://github.com/gibbsoft/terraform-aws-ssmpfs,"A terraform module to allow storage of large-ish data in free-tier SSM Parameter Store.  This can be handy for certificate chains, etc."
 sso,avlcloudtechnologies,8430,aws,https://github.com/avlcloudtechnologies/terraform-aws-sso,Terraform module to manage AWS Single Sign-On (SSO) resources.
@@ -22377,6 +22386,7 @@ ungpg,factorysh,472,basic,https://github.com/factorysh/terraform-basic-ungpg,Dec
 unifi,mwthink,6112,digitalocean,https://github.com/mwthink/terraform-digitalocean-unifi,Provision Unifi Controller on DigitalOcean
 unifi-network,kalenarndt,11327,unifi,https://github.com/kalenarndt/terraform-unifi-unifi-network,Repo for a module that creates basic Unifi networks
 unifi-sdn-controller,OldCrowEW,1925,google,https://github.com/OldCrowEW/terraform-google-unifi-sdn-controller,
+unified-dns,fizz,35429,aws,https://github.com/fizz/terraform-aws-unified-dns,
 unified-dns-v2,fizz,34993,aws,https://github.com/fizz/terraform-aws-unified-dns-v2,
 unique-configmap,webyneter,9439,kubernetes,https://github.com/webyneter/terraform-kubernetes-unique-configmap,A Terraform module for creating a Kubernetes ConfigMap that changes its name when the underlying data changes.
 unity-catalog,data-platform-hq,19174,databricks,https://github.com/data-platform-hq/terraform-databricks-unity-catalog,Terraform module for creation of new or managemet of already existing Databricks Unity Catalog Metastore
