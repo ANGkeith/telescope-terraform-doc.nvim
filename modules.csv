@@ -2275,6 +2275,7 @@ autoscaling-route53,nbari,27059,aws,https://github.com/nbari/terraform-aws-autos
 autoscaling-route53-srv,brantburnett,834,aws,https://github.com/brantburnett/terraform-aws-autoscaling-route53-srv,Manages a Route 53 DNS SRV record to refer to all servers in a set of auto scaling groups
 autoscaling-rule,terraform-alicloud-modules,3428,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-autoscaling-rule,Terraform module which creates Auto Scaling Rule and Task on Alibaba Cloud
 autoscaling-tags,webdevwilson,350,aws,https://github.com/webdevwilson/terraform-aws-autoscaling-tags,Terraform module for copying tags to autoscaling group instances
+autoscaling_group-linux,AutomateTheCloud,35445,aws,https://github.com/AutomateTheCloud/terraform-aws-autoscaling_group-linux,"Terraform module for Linux EC2 instances in an Auto Scaling group, set up at boot and updated in rolling batches through AWS CloudFormation, with optional load balancer, EFS, CodeDeploy and Parameter Store access."
 autospotting,AutoSpotting,2654,aws,https://github.com/LeanerCloud/terraform-aws-autospotting,Terraform module installing AutoSpotting https://autospotting.io
 autospotting,LeanerCloud,17797,aws,https://github.com/LeanerCloud/terraform-aws-autospotting,Terraform module installing AutoSpotting https://autospotting.io
 autospotting,neillturner,1096,aws,https://github.com/neillturner/terraform-aws-autospotting,Automatically convert your existing AutoScaling groups to significantly cheaper spot instances with minimal(often zero) configuration changes
@@ -2452,6 +2453,7 @@ avm-res-resources-resourcegroup,Azure,25833,azurerm,https://github.com/Azure/ter
 avm-res-search-searchservice,Azure,25801,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice,
 avm-res-servicebus-namespace,Azure,24223,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace,
 avm-res-servicenetworking-trafficcontroller,Azure,32350,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-servicenetworking-trafficcontroller,
+avm-res-signalrservice-webpubsub,Azure,35442,azure,https://github.com/Azure/terraform-azure-avm-res-signalrservice-webpubsub,
 avm-res-sql-managedinstance,Azure,26100,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance,
 avm-res-sql-server,Azure,26150,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sql-server,
 avm-res-sqlvirtualmachine-sqlvirtualmachine,Azure,31301,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-sqlvirtualmachine-sqlvirtualmachine,Terraform Azure Verified Resource Module for Sql Virtual Machine
@@ -2468,7 +2470,7 @@ avm-utl-naming,Azure,34979,azure,https://github.com/Azure/terraform-azure-avm-ut
 avm-utl-network-ip-addresses,Azure,28258,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses,
 avm-utl-regions,Azure,25542,azurerm,https://github.com/Azure/terraform-azurerm-avm-utl-regions,
 avm-utl-roledefinitions,Azure,30235,azure,https://github.com/Azure/terraform-azure-avm-utl-roledefinitions,
-avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,AVM Terraform utility module for finding valid sku's 
+avm-utl-sku-finder,Azure,27167,azapi,https://github.com/Azure/terraform-azapi-avm-utl-sku-finder,
 awala-endpoint,relaycorp,20108,google,https://github.com/relaycorp/terraform-google-awala-endpoint,Terraform module to manage an instance of the Awala Internet Endpoint on GCP.
 awala-gateway,relaycorp,22608,google,https://github.com/relaycorp/terraform-google-awala-gateway,Terraform module to manage an instance of the Awala Internet Gateway on GCP.
 awp-aws,dome9,24005,dome9,https://github.com/dome9/terraform-dome9-awp-aws,CloudGuard AWP Module (AWS)
@@ -5775,6 +5777,7 @@ datasync,aws-ia,25921,aws,https://github.com/aws-ia/terraform-aws-datasync,
 datasync,mkolarek,25837,aws,https://github.com/mkolarek/terraform-aws-datasync,Terraform modules for provisioning and managing AWS DataSync resources
 datav-atlas-solution,alibabacloud-automation,31263,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-datav-atlas-solution,
 datav-for-digitalization,alibabacloud-automation,31271,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-datav-for-digitalization,
+dataworks,apsarastack-automation,35450,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-dataworks,
 dataworks-common,dwp,8803,aws,https://github.com/dwp/terraform-aws-dataworks-common,A Terraform module to house common configuration for the DWP DataWorks team.
 dataworks-htme,dwp,18548,aws,https://github.com/dwp/terraform-aws-dataworks-htme,A Terraform module to deploy the DataWorks Hbase to Mongo Export application in Amazon Web Services (AWS).
 date-time-format,netascode,9786,aci,https://github.com/netascode/terraform-aci-date-time-format,Terraform Cisco ACI Date Time Format Module
@@ -7880,6 +7883,7 @@ ecs,TerraPros,27817,aws,https://github.com/TerraPros/terraform-aws-ecs,Terraform
 ecs,TerraformFoundation,27893,aws,https://github.com/TerraformFoundation/terraform-aws-ecs,Terraform module to create AWS ECS resources 🇺🇦
 ecs,aaditya-2905,32079,aws,https://github.com/aaditya-2905/terraform-aws-ecs,
 ecs,anrim,871,aws,https://github.com/anrim/terraform-aws-ecs,A Terraform module that creates an ECS Docker cluster and services
+ecs,apsarastack-automation,35451,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-ecs,
 ecs,banks,541,aws,https://github.com/banks/terraform-aws-ecs,Ignore this will be deleted soon
 ecs,blackbird-cloud,28510,aws,https://github.com/blackbird-cloud/terraform-aws-ecs,Terraform module to create AWS ECS resources 🇺🇦
 ecs,bootlabstech,18604,aws,https://github.com/bootlabstech/terraform-aws-ecs,
@@ -11384,7 +11388,6 @@ instance-with-docker,SimretTesfu,27663,aws,https://github.com/SimretTesfu/terraf
 instance-with-docker,Slhttnunlu,20775,aws,https://github.com/Slhttnunlu/terraform-aws-instance-with-docker,
 instance-with-terraform,ersinsari13,20813,aws,https://github.com/ersinsari13/terraform-aws-instance-with-terraform,Terraform module which creates ainstance with terraform resource on AWS.
 instance2,aika-l,27533,module,https://github.com/aika-l/terraform-module-instance2,
-instance_deployment-linux,AutomateTheCloud,35438,aws,https://github.com/AutomateTheCloud/terraform-aws-instance_deployment-linux,"Terraform module for Linux EC2 instances in an Auto Scaling group, set up at boot and updated in rolling batches through AWS CloudFormation, with optional load balancer, EFS, CodeDeploy and Parameter Store access."
 instance_vpc,dubareddy,14284,aws,https://github.com/devopsyuva/terraform-aws-instance_vpc,
 instanceprofile,linux-place,3548,aws,https://github.com/linux-place/terraform-aws-instanceprofile,Instance profile Module
 instances,tf-openstack-modules,6899,openstack,https://github.com/tf-openstack-modules/terraform-openstack-instances,A terraform module using the openstack provider to create instances
@@ -11976,6 +11979,7 @@ keyring,netascode,9853,aci,https://github.com/netascode/terraform-aci-keyring,Te
 keys,jason-morsley,5111,aws,https://github.com/jason-morsley/terraform-aws-keys,
 keyspaces,gabrieltizatto,14496,aws,https://github.com/gabrieltizatto/terraform-aws-keyspaces,Terraform module to create AWS Keyspaces database
 keyspaces,genstackio,24546,aws,https://github.com/genstackio/terraform-aws-keyspaces,Terraform module to create an AWS Keyspaces
+keyspaces-keyspace,AutomateTheCloud,35446,aws,https://github.com/AutomateTheCloud/terraform-aws-keyspaces-keyspace,"Terraform module for Amazon Keyspaces keyspaces, single-Region or multi-Region."
 keyvault,JamesWoolfenden,16724,azurerm,https://github.com/JamesWoolfenden/terraform-azurerm-keyvault,
 keyvault,Retoxx-dev,20519,azurerm,https://github.com/Retoxx-dev/terraform-azurerm-keyvault,Terraform module for Azure Key Vault
 keyvault,T-Systems-MMS,12109,azurerm,https://github.com/telekom-mms/terraform-azurerm-key-vault,A Terraform module that manages the key-vault resources from the azurerm provider.
@@ -13602,6 +13606,7 @@ materialize,MaterializeInc,27677,azurerm,https://github.com/MaterializeInc/terra
 mathew,mathewd17,27298,aws,https://github.com/mathewd17/terraform-aws-mathew,
 matomo,philips-labs,7502,cloudfoundry,https://github.com/philips-labs/terraform-cloudfoundry-matomo,Terraform module for deploying matomo to cloudfoundry
 max-host,guyvelleman,11295,cidr,https://github.com/guyvelleman/terraform-cidr-max-host,Terraform module return the largest number we can represent in the remaining bits.
+maxcompute,apsarastack-automation,35452,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-maxcompute,
 maxcompute-project,terraform-alicloud-modules,4669,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project,Terraform module for creating a MaxCompute project on Alibaba Cloud RDS Service.
 maxmind-updater,wwwlde,29398,aws,https://github.com/wwwlde/terraform-aws-maxmind-updater,Terraform module to deploy an AWS Lambda function that regularly downloads MaxMind GeoIP databases and uploads them to S3
 may,AndMira,29852,vpc,https://github.com/AndMira/terraform-vpc-may,
@@ -13750,6 +13755,7 @@ mcaf-transfer,schubergphilis-ep,32876,aws,https://github.com/schubergphilis-ep/t
 mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,
 mcaf-transit-gateway,schubergphilis-ep,32881,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-transit-gateway,
 mcaf-update-management,schubergphilis-ep,32440,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-update-management,
+mcaf-update-management-snapshot,schubergphilis-ep,35443,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-update-management-snapshot,
 mcaf-user,schubergphilis,18377,aws,https://github.com/schubergphilis/terraform-aws-mcaf-user,
 mcaf-user,schubergphilis-ep,32878,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-user,
 mcaf-variable-set,schubergphilis,28402,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-variable-set,
@@ -14384,6 +14390,7 @@ mq-cloud,terraform-ibm-modules,27148,ibm,https://github.com/terraform-ibm-module
 mq-cluster,HappyPathway,27716,aws,https://github.com/HappyPathway/terraform-aws-mq-cluster,Terraform module to provision an MQ cluster
 mq-exchange,riccardoprosdocimi,31574,anypoint,https://github.com/riccardoprosdocimi/terraform-anypoint-mq-exchange,
 mq-queue,riccardoprosdocimi,31210,anypoint,https://github.com/riccardoprosdocimi/terraform-anypoint-mq-queue,
+mqtt,apsarastack-automation,35453,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-mqtt,
 mrdir,opszero,17607,aws,https://github.com/opszero/terraform-azuread-mrmgr,
 mrmgr,opszero,17608,aws,https://github.com/opszero/terraform-aws-mrmgr,
 mrmgr,opszero,17615,github,https://github.com/opszero/terraform-github-mrmgr,
@@ -16452,6 +16459,7 @@ pod-setup,netascode,10244,aci,https://github.com/netascode/terraform-aci-pod-set
 pods-oom-op-pack,terraform-shoreline-modules,13395,shoreline,https://github.com/terraform-shoreline-modules/terraform-shoreline-pods-oom-op-pack,Shoreline platform Op Packs (Terraform modules) for pods OOM detection and notification.
 point-to-site-vpn-gateway,microsoftexpert,34199,azurerm,https://github.com/microsoftexpert/terraform-azurerm-point-to-site-vpn-gateway,
 polar-gosling-compute,Polar-Team,33054,module,https://github.com/Polar-Team/terraform-module-polar-gosling-compute,
+polardb,apsarastack-automation,35454,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-polardb,
 polardb-ai-search,alibabacloud-automation,31536,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-ai-search,
 polardb-mysql,terraform-alicloud-modules,12816,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-mysql,Terraform Module for creating PolarDB for MySQL on Alibaba Cloud.
 polardb-mysql-mcp,alibabacloud-automation,31537,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-polardb-mysql-mcp,
@@ -19494,6 +19502,7 @@ secure-baseline,nozaq,1205,aws,https://github.com/nozaq/terraform-aws-secure-bas
 secure-baseline,telia-oss,5012,aws,https://github.com/telia-oss/terraform-aws-secure-baseline,
 secure-baseline-checkov,gerbenoostra,5106,aws,https://github.com/gerbenoostra/terraform-aws-secure-baseline-checkov,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations.
 secure-baseline-v2,Unumed,24913,aws,https://github.com/Unumed/terraform-aws-secure-baseline-v2,Terraform module to set up your AWS account with the secure baseline configuration based on CIS Amazon Web Services Foundations and AWS Foundational Security Best Practices.
+secure-browser,cloudcertainty,35449,aws,https://github.com/cloudcertainty/terraform-aws-secure-browser,
 secure-bucket-policy,QuiNovas,1485,aws,https://github.com/QuiNovas/terraform-aws-secure-bucket-policy,Creates a bucket policy that enforces secure transport and encryption
 secure-cicd,GoogleCloudPlatform,13373,google,https://github.com/GoogleCloudPlatform/terraform-google-secure-cicd,Builds a secure CI/CD pipeline on Google Cloud
 secure-custom-domain,heathen1878,19959,azurerm,https://github.com/heathen1878/terraform-azurerm-secure-custom-domain,"Adds a custom domain, creates a managed certificate and binds it to the given Azure App Service"
@@ -20325,6 +20334,7 @@ slackbot-mod,amancevice,1280,aws,https://github.com/amancevice/terraform-aws-sla
 slackbot-secrets,amancevice,1899,aws,https://github.com/amancevice/terraform-aws-slackbot-secrets,AWS-managed Slack secrets
 slackbot-slash-command,amancevice,1278,aws,https://github.com/amancevice/terraform-aws-slackbot-slash-command,Generic slash command handler for Slack
 slb,alibaba,55,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-slb,Terraform module which creates Load balancer and attach ECS instances in it on Alibaba Cloud.
+slb,apsarastack-automation,35455,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-slb,
 slb,xiaohei417,12257,alicloud,https://github.com/xiaohei417/terraform-alicloud-slb,Terraform module which creates Load balancer and attach ECS instances in it on Alibaba Cloud.
 slb-acl,terraform-alicloud-modules,1847,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-slb-acl,A terraform module supports to create access control list for the load balancer.
 slb-http,terraform-alicloud-modules,4267,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-slb-http,Terraform Module for creating HTTP(s) Load Balancer and setting forwarding rules on Alibaba Cloud.
@@ -20338,6 +20348,7 @@ sleep,truefoundry,27013,truefoundry,https://github.com/truefoundry/terraform-tru
 slo,borgified,4074,datadog,https://github.com/borgified/terraform-datadog-slo,
 slo,terraform-google-modules,4898,google,https://github.com/terraform-google-modules/terraform-google-slo,Creates SLOs on Google Cloud from custom Stackdriver metrics capability to export SLOs to Google Cloud services and other systems
 slowlog-to-datadog,scribd,4741,elasticache,https://github.com/scribd/terraform-elasticache-slowlog-to-datadog,Deploy Elasticache Slowlog to Datadog lambda function to AWS account
+sls,apsarastack-automation,35456,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-sls,
 sls,sls-tf,33021,aws,https://github.com/sls-tf/terraform-aws-sls,
 sls,terraform-alicloud-modules,3999,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-sls,Terraform module which creates log service's resources (SLS) on Alibaba Cloud.
 sls-app,hazelops,15077,aws,https://github.com/hazelops/terraform-aws-sls-app,
@@ -20869,6 +20880,7 @@ state,jakebark,29205,aws,https://github.com/jakebark/terraform-aws-state,S3 buck
 state-access-role,george-richardson,23862,aws,https://github.com/george-richardson/terraform-aws-state-access-role,"A Terraform module for creating a least privilege access role for the Terraform S3 backend, including access to state files in S3 and locking with DynamoDB."
 state-backend,ThorstenHans,6289,azurerm,https://github.com/ThorstenHans/terraform-azurerm-state-backend,Terraform module which creates an Azure based state backend
 state-backend,deeowemez,35358,aws,https://github.com/deeowemez/terraform-aws-state-backend,
+state-backend,fizz,35448,aws,https://github.com/fizz/terraform-aws-state-backend,
 state-backend,jwoodsiii,32118,aws,https://github.com/jwoodsiii/terraform-aws-state-backend,Terraform module for S3 state backend with DynamoDB locking
 state-backend,rsclarke,31845,aws,https://github.com/rsclarke/terraform-aws-state-backend,
 state-bootstrap,BrynardSecurity-terraform,13358,remote,https://github.com/BrynardSecurity-terraform/terraform-tfe-tc-organization,
@@ -22477,6 +22489,7 @@ users,devops-workflow,897,pagerduty,https://github.com/devops-workflow/terraform
 users,jksprattler,28156,azuread,https://github.com/jksprattler/terraform-azuread-users,Terraform module that manages cloud-based Azure AD / Entra ID user accounts
 users,neovops,6602,aws,https://github.com/neovops/terraform-aws-users,Terraform module for AWS IAM users management
 users-groups-automation,masterpointio,28940,googleworkspace,https://github.com/masterpointio/terraform-googleworkspace-users-groups-automation,A Terraform module to automate management of Google Workspace Users and Groups
+utho,nitinuthocloud,35447,provider,https://github.com/nitinuthocloud/terraform-provider-utho,
 utils,TerraPros,27850,aws,https://github.com/TerraPros/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
 utils,TerraformFoundation,27926,aws,https://github.com/TerraformFoundation/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
 utils,cloudposse,6129,aws,https://github.com/cloudposse/terraform-aws-utils,Utility functions for use with Terraform in the AWS environment
@@ -23266,6 +23279,7 @@ vpc,andreswebs,28648,aws,https://github.com/andreswebs/terraform-aws-vpc,Trimmed
 vpc,anupam-sy,25011,google,https://github.com/anupam-sy/terraform-google-vpc,This module deploys a VPC network on google cloud.
 vpc,aotdevops,7766,aws,https://github.com/aotdevops/terraform-aws-vpc,
 vpc,appzen-oss,13380,aws,https://github.com/appzen-oss/terraform-aws-vpc,Terraform module which creates VPC resources on AWS 🇺🇦
+vpc,apsarastack-automation,35457,alibabacloudstack,https://github.com/apsarastack-automation/terraform-alibabacloudstack-vpc,
 vpc,archae0pteryx,21687,archae0pteryx,https://github.com/archae0pteryx/terraform-archae0pteryx-vpc,Basic multi-az VPC with sensible defaults
 vpc,arslakin,12635,aws,https://github.com/arslakin/terraform-aws-vpc,
 vpc,arul-ap,24211,aws,https://github.com/arul-ap/terraform-aws-vpc,Terraform AWS VPC module
