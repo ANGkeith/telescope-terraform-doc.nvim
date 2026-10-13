@@ -2344,6 +2344,8 @@ avm-ptn-network-private-link-private-dns-zones,Azure,24978,azurerm,https://githu
 avm-ptn-network-routeserver,Azure,24884,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver,This is the AVM respository for the route server resource.
 avm-ptn-odaa,Azure,26342,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-odaa,AVM Pattern module for Oracle Database @ Azure deployment
 avm-ptn-policyassignment,Azure,26268,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment,Terraform module to deploy policies in Azure and assign them
+avm-ptn-subscription-service-health-alerts,Azure,35482,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-subscription-service-health-alerts,
+avm-ptn-unified-data-platform,Azure,35481,azure,https://github.com/Azure/terraform-azure-avm-ptn-unified-data-platform,
 avm-ptn-virtualwan,Azure,21180,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-virtualwan,Terraform Azure Verified Pattern Module for Virtual WAN
 avm-ptn-vnetgateway,Azure,21977,azurerm,https://github.com/Azure/terraform-azurerm-avm-ptn-vnetgateway,Terraform Azure Verified Pattern Module for Virtual Network Gateway
 avm-res-apimanagement-service,Azure,28719,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service,
@@ -2401,6 +2403,8 @@ avm-res-eventhub-namespace,Azure,28776,azurerm,https://github.com/Azure/terrafor
 avm-res-fabric-capacity,Azure,33863,azure,https://github.com/Azure/terraform-azure-avm-res-fabric-capacity,
 avm-res-features-feature,Azure,30550,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-features-feature,Terraform Azure Verified Resource Module for Subcription Feature
 avm-res-hybridcontainerservice-provisionedclusterinstance,Azure,25831,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance,Terraform Azure Verified Resource Module for AKS Arc
+avm-res-insights-actiongroup,Azure,35480,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-actiongroup,
+avm-res-insights-activitylogalert,Azure,35479,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-activitylogalert,
 avm-res-insights-autoscalesetting,Azure,26859,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting,"This module provides autoscaling configuration for VMSS, App Services and other scalable resources."
 avm-res-insights-component,Azure,24498,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-component,
 avm-res-insights-datacollectionendpoint,Azure,25502,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint,
@@ -9899,7 +9903,6 @@ gcloud,franviera92,11673,google,https://github.com/franviera92/terraform-google-
 gcloud,terraform-google-modules,3537,google,https://github.com/terraform-google-modules/terraform-google-gcloud,Executes Google Cloud CLI commands within Terraform
 gcloud-kms-secure-decoder,AndrewFarley,1857,google,https://github.com/AndrewFarley/terraform-google-gcloud-kms-secure-decoder,A Terraform module to perform KMS Decoding which will prevent plaintext secrets to be in your state file
 gcp,guerzon,29709,modules,https://github.com/guerzon/terraform-modules-gcp,(Live) Terraform modules I use for various engagements using Google Cloud.
-gcp,jaikrgupta,30233,kubeadm,https://github.com/jaikrgupta/terraform-kubeadm-gcp,
 gcp,netskopeoss,17217,netskopebwan,https://github.com/netskopeoss/terraform-netskopebwan-gcp,
 gcp,suren673,21772,with,https://github.com/suren673/terraform-with-gcp,
 gcp-alarm-channel,massdriver-cloud,32022,massdriver,https://github.com/massdriver-cloud/terraform-massdriver-gcp-alarm-channel,
@@ -11043,7 +11046,7 @@ iam-user,PGBI,2846,aws,https://github.com/PGBI/terraform-aws-iam-user,
 iam-user,boldlink,14273,aws,https://github.com/boldlink/terraform-aws-iam-user,Terraform registry repository for AWS IAM User module
 iam-user,brunordias,18764,aws,https://github.com/brunordias/terraform-aws-iam-user,"Terraform module which provides IAM user, keys, login and associations to groups and policies."
 iam-user,cloud-labs-infra,19072,huaweicloud,https://github.com/cloud-labs-infra/terraform-huaweicloud-iam-user,
-iam-user,clouddrove,3636,aws,https://github.com/clouddrove/terraform-aws-iam-user,Terraform module to create Iam user resource on AWS.
+iam-user,clouddrove,3636,aws,https://github.com/clouddrove/terraform-aws-iam-user,
 iam-user,cloudposse,1722,aws,https://github.com/cloudposse/terraform-aws-iam-user,Terraform Module to provision a basic IAM user suitable for humans.
 iam-user,khanguyen78,29917,aws,https://github.com/khanguyen78/terraform-aws-iam-user,
 iam-user,kryptondefencesolutions,4176,aws,https://github.com/kryptondefencesolutions/terraform-aws-iam-user,
@@ -14180,6 +14183,7 @@ modules,achelya81,30077,SonarQube,https://github.com/achelya81/terraform-SonarQu
 modules,ajorquera,30491,ajorquera,https://github.com/ajorquera/terraform-ajorquera-modules,
 modules,aliabbasjaffri,17176,aws,https://github.com/aliabbasjaffri/terraform-aws-modules,Opta AWS modules for terraform module registry
 modules,ankush0991,16433,aws,https://github.com/Devops0091/terraform-aws-modules,
+modules,auth0,35478,auth0,https://github.com/auth0/terraform-auth0-modules,
 modules,bootlabstech,12203,cloudflare,https://github.com/bootlabstech/terraform-cloudflare-modules,Terraform codebase for Cloudflare changes
 modules,briskt,30252,aws,https://github.com/briskt/terraform-aws-modules,
 modules,ccs-terraform,14221,aws,https://github.com/ccs-terraform/terraform-aws-modules,
@@ -16230,6 +16234,7 @@ pages,sil-org,30455,cloudflare,https://github.com/sil-org/terraform-cloudflare-p
 pages,silinternational,19661,cloudflare,https://github.com/silinternational/terraform-cloudflare-pages,Terraform module to manage a Cloudflare Pages project and domain
 pages-github,lazzurs,26670,cloudflare,https://github.com/lazzurs/terraform-cloudflare-pages-github,Terraform module for terraform-cloudflare-pages-github
 pai-eas-stable-diffusion,alibabacloud-automation,31348,alicloud,https://github.com/alibabacloud-automation/terraform-alicloud-pai-eas-stable-diffusion,
+paimon,apache,35483,provider,https://github.com/apache/terraform-provider-paimon,
 palo-alto-local-rulestack,microsoftexpert,34215,azurerm,https://github.com/microsoftexpert/terraform-azurerm-palo-alto-local-rulestack,
 palo-alto-local-rulestack-certificate,microsoftexpert,34214,azurerm,https://github.com/microsoftexpert/terraform-azurerm-palo-alto-local-rulestack-certificate,
 palo-alto-local-rulestack-fqdn-list,microsoftexpert,34213,azurerm,https://github.com/microsoftexpert/terraform-azurerm-palo-alto-local-rulestack-fqdn-list,
@@ -21729,6 +21734,7 @@ tagged-ecr,lynnlin827,2397,aws,https://github.com/lynnlin827/terraform-aws-tagge
 tagged-subnets,a3linux,17994,aws,https://github.com/a3linux/terraform-aws-tagged-subnets,A Simple terraform module to fetch AWS Subnets information by given Subnets tags
 tagged-vpc,a3linux,17993,aws,https://github.com/a3linux/terraform-aws-tagged-vpc,A simple module to fetch AWS VPC info based on given tags
 tagger,Infrastrukturait,14306,null,https://github.com/Infrastrukturait/terraform-null-tagger," Terraform Module to define a consistent naming convention built by namespaces, stages, names and other attributes."
+tagger,rafalmasiarek,35485,null,https://github.com/rafalmasiarek/terraform-null-tagger,Terraform module for standardized resource naming and tagging.
 tagging,appvia,24551,null,https://github.com/appvia/terraform-null-tagging,Terraform module used to ensure consistency on tagging
 tagging,claranet,4178,azurerm,https://github.com/claranet/terraform-azurerm-tagging,Terraform module for Resources Tagging
 tagging-lambda,scholzj,423,aws,https://github.com/scholzj/terraform-aws-tagging-lambda,AWS Lambda function for tagging resources
@@ -23166,6 +23172,7 @@ vpc,Codzs-Architecture,23246,aws,https://github.com/Codzs-Architecture/terraform
 vpc,Dan3210,25483,aws,https://github.com/Dan3210/terraform-aws-vpc,
 vpc,Devoper777,24420,aws,https://github.com/Devoper777/terraform-aws-vpc,
 vpc,DiegoJCordeiro,29125,aws,https://github.com/DiegoJCordeiro/terraform-aws-vpc,Module refer VPC on AWS.
+vpc,Dungnv2290,35484,aws,https://github.com/Dungnv2290/terraform-aws-vpc,
 vpc,EHolovan,9477,aws,https://github.com/EHolovan/terraform-aws-vpc,
 vpc,EdwardNgo,20131,aws,https://github.com/EdwardNgo/terraform-aws-vpc,
 vpc,Ekowambre,23539,aws,https://github.com/Ekowambre/terraform-aws-vpc,
@@ -23612,7 +23619,7 @@ vpc,terraform-ncloud-modules,15110,ncloud,https://github.com/terraform-ncloud-mo
 vpc,terraform-opentelekomcloud-modules,8439,opentelekomcloud,https://github.com/terraform-opentelekomcloud-modules/terraform-opentelekomcloud-vpc,OpenTelekomCloud VPC Terraform module
 vpc,terraform-tencentcloud-modules,3858,tencentcloud,https://github.com/terraform-tencentcloud-modules/terraform-tencentcloud-vpc,TencentCloud VPC Module for Terraform
 vpc,terraform-trailwatch-modules,26654,aws,https://github.com/terraform-trailwatch-modules/terraform-aws-vpc,This Terraform module creates CloudWatch Log Metric Filters and associated Alarms for monitoring Virtual Private Clouds (VPCs) based on specified event names.
-vpc,terraform-volcenginecc-modules,34930,volcenginecc,https://github.com/terraform-volcenginecc-modules/terraform-volcenginecc-vpc,Terraform module for volcengine/byteplus Cloud Control (cc) 
+vpc,terraform-volcenginecc-modules,34930,volcenginecc,https://github.com/terraform-volcenginecc-modules/terraform-volcenginecc-vpc,Terraform module for volcengine/byteplus Cloud Control (cc)
 vpc,terraform-yacloud-modules,17924,yandex,https://github.com/terraform-yacloud-modules/terraform-yandex-vpc,Terraform module to manage VPC resources within the Yandex.Cloud.
 vpc,tf-cloud-modules,16265,sbercloud,https://github.com/tf-cloud-modules/terraform-sbercloud-vpc,Sbercloud VPC Terraform module
 vpc,tfstack,27635,aws,https://github.com/tfstack/terraform-aws-vpc,Terraform module for provisioning a VPC with networking components
