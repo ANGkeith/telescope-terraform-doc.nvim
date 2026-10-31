@@ -4153,7 +4153,6 @@ cloudbuildv2-connection,altissimo-hq,18660,google,https://github.com/altissimo-h
 cloudcertainty-hub,cloudcertainty,35597,aws,https://github.com/cloudcertainty/terraform-aws-cloudcertainty-hub,
 cloudcheckr,ganexcloud,33778,aws,https://github.com/ganexcloud/terraform-aws-cloudcheckr,
 cloudcheckr,rhythmictech,3121,aws,https://github.com/rhythmictech/terraform-aws-cloudcheckr,Enable cloudcheckr in AWS
-cloudcompliance,KADHIRAVANEG,32816,aws,https://github.com/KADHIRAVANEG/terraform-aws-cloudcompliance,Infrastructure as Code that provisions a SOC2-aligned AWS security baseline in one command. Zero manual security configuration required.
 cloudcraft-blueprint,DomWeldon,10287,aws,https://github.com/DomWeldon/terraform-aws-cloudcraft-blueprint,A Terraform module to create a Cloudcraft blueprint of your AWS infrastructure.
 cloudcraft-role,infrahouse,27962,aws,https://github.com/infrahouse/terraform-aws-cloudcraft-role,Module that creates a role for CloudCraft scanner.
 cloudflare,coralogix,14414,coralogix,https://github.com/coralogix/terraform-coralogix-cloudflare,Coralogix CloudFlare Integrations modules for Terraform.
@@ -4828,6 +4827,7 @@ cognito-users,ftcodelib,8663,aws,https://github.com/ftcodelib/terraform-aws-cogn
 collection,irfanrp,30325,module,https://github.com/irfanrp/terraform-module-collection,
 collection,observeinc,28681,aws,https://github.com/observeinc/terraform-aws-collection,
 collection,observeinc,28684,google,https://github.com/observeinc/terraform-google-collection,
+collection,observeinc,35648,azure,https://github.com/observeinc/terraform-azure-collection,
 collection,scastria,24568,postman,https://github.com/scastria/terraform-postman-collection,Create a Postman collection from OpenAPI Spec and optional supporting input files
 collection,scastria,30569,bruno,https://github.com/scastria/terraform-bruno-collection,Create a Bruno collection from OpenAPI Spec and optional supporting input files
 collection-module,observeinc,28671,azure,https://github.com/observeinc/terraform-azure-collection-module,
@@ -7862,6 +7862,7 @@ ecr,web-virtua-aws-multi-account-modules,16242,aws,https://github.com/web-virtua
 ecr-access,nuonco,23516,aws,https://github.com/nuonco/terraform-aws-ecr-access,Terraform module for granting access for Nuon container image components.
 ecr-archiver,barneyparker,22301,aws,https://github.com/barneyparker/terraform-aws-ecr-archiver,Archive ECR images to S3
 ecr-beanstalk,AnsariZahoor,28900,aws,https://github.com/AnsariZahoor/terraform-aws-ecr-beanstalk,Terraform module creates an AWS Elastic Container Registry (ECR) repository and an AWS Elastic Beanstalk environment
+ecr-cleanup,SurtonInc,35645,aws,https://github.com/SurtonInc/terraform-aws-ecr-cleanup,
 ecr-clone,HappyPathway,25818,aws,https://github.com/HappyPathway/terraform-aws-ecr-clone,Terraform Module
 ecr-config,uptycslabs,19269,aws,https://github.com/uptycslabs/terraform-aws-ecr-config,Terraform module for use with Uptycs ECR integration
 ecr-cross-account,doingcloudright,1449,aws,https://github.com/doingcloudright/terraform-aws-ecr-cross-account,Terraform module to create an ECR repo with cross-account-access
@@ -9200,7 +9201,6 @@ estrutura_infra_modules,jailsonsilvati,30291,digitalocean,https://github.com/jai
 eswarstorage,eprasadp,12275,aws,https://github.com/eprasadp/terraform-aws-eswarstorage,
 eth-netstats,Nuagic,10359,aws,https://github.com/Nuagic/terraform-aws-eth-netstats,Ethereum monitoring solution based on https://github.com/cubedro/eth-netstats
 eth-node,lbkolev,20951,aws,https://github.com/lbkolev/terraform-aws-eth-node,Spin up Ethereum execution/consensus clients on AWS.
-ethereum,T-Wong,659,aws,https://github.com/T-Wong/terraform-aws-ethereum,A Terraform Module for running an Ethereum mining farm on AWS using Terraform.
 ethereum-geth,4ops,3084,digitalocean,https://github.com/4ops/terraform-digitalocean-ethereum-geth,Create Ethereum full node with geth
 ethereum-node,cardstack,1438,aws,https://github.com/cardstack/terraform-aws-ethereum-node,A terraform module for running an Ethereum geth node on AWS.
 ethereum-parity,4ops,3083,digitalocean,https://github.com/4ops/terraform-digitalocean-ethereum-parity,Creates ethereum node with parity.
@@ -11231,6 +11231,7 @@ images,janschumann,4817,aws,https://github.com/janschumann/terraform-aws-images,
 images,vexxhost,6584,openstack,https://github.com/vexxhost/terraform-openstack-images,A module for bootstrapping an OpenStack cloud with images using Terraform.
 images-image-v2,pmikus,23013,openstack,https://github.com/pmikus/terraform-openstack-images-image-v2,Terraform module to create Openstack Image.
 imdoneman-test-vpc,imdoneman,32964,aws,https://github.com/imdoneman/terraform-aws-imdoneman-test-vpc,
+imgproxy,imgproxy,35647,google,https://github.com/imgproxy/terraform-google-imgproxy,
 imgstudio,xgourmandin,30073,google,https://github.com/xgourmandin/terraform-google-imgstudio,
 imm,terraform-cisco-modules,9207,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-imm,Terraform Modules for Intersight Managed Mode Domain deployments.
 immich,andreimerfu,30142,hcloud,https://github.com/andreimerfu/terraform-hcloud-immich,
@@ -12444,6 +12445,7 @@ kubernetes-installation,Ferlab-Ste-Justine,18512,null,https://github.com/Ferlab-
 kubernetes-irsa,KamranBiglari,31340,aws,https://github.com/KamranBiglari/terraform-aws-kubernetes-irsa,"A production-ready Terraform module that sets up OIDC-based IAM Roles for Service Accounts (IRSA) on non-EKS Kubernetes clusters - enabling pods to assume AWS IAM roles using service account tokens, the same mechanism used by Amazon EKS."
 kubernetes-irsa,int128,4728,aws,https://github.com/int128/terraform-aws-kubernetes-irsa,Terraform module for IAM Roles for Service Accounts (IRSA) on self-hosted Kubernetes cluster such as kops
 kubernetes-istio,richardalberto,1505,google,https://github.com/richardalberto/terraform-google-kubernetes-istio,Creates a kubernetes cluster with istio enabled on GKE
+kubernetes-k3s,CogStack,35644,openstack,https://github.com/CogStack/terraform-openstack-kubernetes-k3s,
 kubernetes-kapsule-cluster,4s3ti,19233,scaleway,https://github.com/4s3ti/terraform-scaleway-kubernetes-kapsule-cluster,
 kubernetes-kapsule-cluster,coolapso,24285,scaleway,https://github.com/coolapso/terraform-scaleway-kubernetes-kapsule-cluster,
 kubernetes-kapsule-pool,4s3ti,19257,scaleway,https://github.com/4s3ti/terraform-scaleway-kubernetes-kapsule-pool,Scaleway terraform kapsule pool module
@@ -14273,7 +14275,7 @@ modules,dasmeta,11623,any,https://github.com/dasmeta/terraform-any-shared,Terraf
 modules,dasmeta,12172,google,https://github.com/dasmeta/terraform-google-modules,This Terraform module makes it easier to manage for resources on Google Cloud Platform.
 modules,dasmeta,15922,auth0,https://github.com/dasmeta/terraform-auth0-modules,
 modules,dasmeta,18709,tfe,https://github.com/dasmeta/terraform-tfe-modules,Module to Provision and Configure Terraform Cloud
-modules,dasmeta,21710,bitbucket,https://github.com/dasmeta/terraform-bitbucket-modules,Terraform modules for Bitbucket
+modules,dasmeta,21710,bitbucket,https://github.com/dasmeta/terraform-bitbucket-modules,
 modules,dasmeta,22550,mysql,https://github.com/dasmeta/terraform-mysql-modules,Terraform modules for MySQL
 modules,datafy-io,33005,aws,https://github.com/datafy-io/terraform-aws-modules,Collection of Terraform AWS modules
 modules,dell,21338,powerflex,https://github.com/dell/terraform-powerflex-modules,Terraform Modules for PowerFlex
@@ -18061,7 +18063,7 @@ repository,Think-Cube,30172,azuredevops,https://github.com/Think-Cube/terraform-
 repository,akur8-oss,11927,github,https://github.com/akur8-oss/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,amachsoftware,24078,github,https://github.com/amachsoftware/terraform-github-repository,A Terraform module to manage GitHub Repositories. https://github.com/
 repository,antmelekhin,20918,github,https://github.com/antmelekhin/terraform-github-repository,A Terraform module to manage GitHub Repositories.
-repository,appvia,30328,github,https://github.com/appvia/terraform-github-repository,Provides a thin wrapper around provisioning a Github repository
+repository,appvia,30328,github,https://github.com/appvia/terraform-github-repository,
 repository,benoit-garcia,24294,github,https://github.com/benoit-garcia/terraform-github-repository,Terraform Module for managing Github Repositories and default settings.
 repository,boldlink,13889,github,https://github.com/boldlink/terraform-github-repository,Terraform registry repository for Github organization module
 repository,cloudposse,29797,github,https://github.com/cloudposse/terraform-github-repository,Terraform Module to provision a GitHub Repository
@@ -18786,6 +18788,7 @@ s3-backend,7agustibm,2638,aws,https://github.com/7agustibm/terraform-aws-s3-back
 s3-backend,Apollo-XIV,25965,aws,https://github.com/Apollo-XIV/terraform-aws-s3-backend,
 s3-backend,FasemkyeAD,33035,aws,https://github.com/FasemkyeAD/terraform-aws-s3-backend,
 s3-backend,Nosaj123,18992,aws,https://github.com/Nosaj123/terraform-aws-s3-backend,Terraform Script to allow S3 Remote Backend
+s3-backend,SurtonInc,35646,aws,https://github.com/SurtonInc/terraform-aws-s3-backend,
 s3-backend,abhisheksr01,21442,aws,https://github.com/abhisheksr01/terraform-aws-s3-backend,Terraform module for provisioning a s3 bucket and dynamodb for the Terraform Backend
 s3-backend,bluehackrafestefano,16892,aws,https://github.com/bluehackrafestefano/terraform-aws-s3-backend,
 s3-backend,briferz,13371,aws,https://github.com/briferz/terraform-aws-s3-backend,
@@ -23897,6 +23900,7 @@ vpc-auto-peering-lambda,infrablocks,3997,aws,https://github.com/infrablocks/terr
 vpc-auto-peering-role,infrablocks,3998,aws,https://github.com/infrablocks/terraform-aws-vpc-auto-peering-role,A role for the vpc-auto-peering-lambda module.
 vpc-aws,OlhaOlya1234,34808,module,https://github.com/OlhaOlya1234/terraform-module-vpc-aws,
 vpc-aws,adilet2306,34810,module,https://github.com/adilet2306/terraform-module-vpc-aws,
+vpc-aws,aicholllpon,35649,module,https://github.com/aicholllpon/terraform-module-vpc-aws,
 vpc-aws,askarkaizen,35200,module,https://github.com/askarkaizen/terraform-module-vpc-aws,
 vpc-aws,denni88dev,34849,module,https://github.com/denni88dev/terraform-module-vpc-aws,
 vpc-aws,guldastakozhobekova,35030,module,https://github.com/guldastakozhobekova/terraform-module-vpc-aws,terraform module public
