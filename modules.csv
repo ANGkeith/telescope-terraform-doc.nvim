@@ -2616,6 +2616,7 @@ aws-node-termination-handler,iplabs,4808,kubernetes,https://github.com/iplabs/te
 aws-node-termination-handler,pavlospt,9798,kubernetes,https://github.com/pavlospt/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
 aws-node-termination-handler,qvest-digital,24778,kubernetes,https://github.com/qvest-digital/terraform-kubernetes-aws-node-termination-handler,Terraform module to install the AWS Node Termination Handler
 aws-observability,SumoLogic,34813,sumologic,https://github.com/SumoLogic/terraform-sumologic-aws-observability,
+aws-onboarding,Vulnetix,35678,vulnetix,https://github.com/Vulnetix/terraform-vulnetix-aws-onboarding,
 aws-open-next,pagopa-dx,30424,aws,https://github.com/pagopa-dx/terraform-aws-aws-open-next,Deploy a serverless and scalable OpenNext solution on AWS
 aws-organization,cyberlabrs,19268,aws,https://github.com/cyberlabrs/terraform-aws-aws-organization," Terraform module to provision an AWS Organization"
 aws-postgresql,intel,16703,intel,https://github.com/intel/terraform-intel-aws-postgresql,Intel Cloud Optimization Module - AWS RDS PostgreSQL
@@ -2640,6 +2641,7 @@ aws-securitygroups,Zivgl66,24334,hashicorp,https://github.com/Zivgl66/terraform-
 aws-services,kabisa,11757,datadog,https://github.com/kabisa/terraform-datadog-aws-services,Terraform module to generate alerts for AWS Service outages
 aws-services,weglot,25020,datadog,https://github.com/weglot/terraform-datadog-aws-services,Terraform module to generate alerts for AWS Service outages
 aws-ses-verification,vojtechmares,12984,cloudflare,https://github.com/vojtechmares/terraform-cloudflare-aws-ses-verification,Terraform module for creating AWS SES validation for a domain with Cloudflare DNS
+aws-siem-shipping,Vulnetix,35679,vulnetix,https://github.com/Vulnetix/terraform-vulnetix-aws-siem-shipping,
 aws-sigv4,BorisLabs,18346,terracurl,https://github.com/BorisLabs/terraform-terracurl-aws-sigv4,Terraform module for AWS API SIGV4 interaction(s).
 aws-sns-email-notification,bytebugs,485,modules,https://github.com/tejasgoradia/terraform-modules-aws-sns-email-notification,
 aws-sns-sqs,lean-delivery,7593,module,https://github.com/lean-delivery/terraform-module-aws-sns-sqs,Terraform module for SNS-SQS setup
@@ -8740,6 +8742,7 @@ eks-fargate-profile,cloudposse,3713,aws,https://github.com/cloudposse/terraform-
 eks-fargate-profile,native-cube,11557,aws,https://github.com/native-cube/terraform-aws-eks-fargate-profile,Terraform module to configure an Fargate Profile on AWS EKS
 eks-fargate-profile,terraform-module,3815,aws,https://github.com/terraform-module/terraform-aws-eks-fargate-profile,Manages an EKS Fargate Profile.
 eks-fargate-profile,umotif-public,4207,aws,https://github.com/umotif-public/terraform-aws-eks-fargate-profile,Terraform module to configure an EKS Fargate Profile
+eks-flux,bitwise-media-group,35675,aws,https://github.com/bitwise-media-group/terraform-aws-eks-flux,
 eks-fsx-lustre-csi,aws-terraform-module,27009,aws,https://github.com/aws-terraform-module/terraform-aws-eks-fsx-lustre-csi,
 eks-github-actions-runner,lablabs,15394,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner,
 eks-github-actions-runner-controller,lablabs,15395,aws,https://github.com/lablabs/terraform-aws-eks-github-actions-runner-controller,
@@ -9795,6 +9798,8 @@ forseti,DotModus,15774,dotmodus,https://github.com/DotModus/terraform-dotmodus-f
 forseti,Eric-Dev-Live,15773,google,https://github.com/Eric-Dev-Live/terraform-google-forseti,A Terraform module for installing Forseti on GCP
 forseti,e-koma,7452,google,https://github.com/e-koma/terraform-google-forseti,A Terraform module for installing Forseti on GCP
 forseti,terraform-google-modules,1625,google,https://github.com/forseti-security/terraform-google-forseti,A Terraform module for installing Forseti on GCP
+fortidspm,lacework,35683,azure,https://github.com/lacework/terraform-azure-fortidspm,
+fortidspm,lacework,35684,aws,https://github.com/lacework/terraform-aws-fortidspm,
 fortigate,equinix,8179,equinix,https://github.com/equinix/terraform-equinix-fortigate,Terraform module for quick deployment of Fortinet FortiGate firewall device
 fortigate,rhythmictech,5078,aws,https://github.com/rhythmictech/terraform-aws-fortigate,"Create a FortiGate VM. This module can optionally pre-configure the FortiGate, either using a configuration file supplied by you (in an S3 bucket) or by simply loading a basic config that ensures the firewall is reachable over the assigned Elastic IP. This is useful when you don't have other means of connectivity into the VPC."
 fortigate-nva,shiftavenue,22048,azurerm,https://github.com/shiftavenue/terraform-azurerm-fortigate-nva,Simplifies creating a Fortinet Fortigate Network Virtual Appliance (VM) on Azure
@@ -10307,6 +10312,7 @@ gke-config-map,blackbird-cloud,17807,google,https://github.com/blackbird-cloud/t
 gke-ecommerce,Devgurusio,3703,gcp,https://github.com/Devgurusio/terraform-gcp-gke-ecommerce,Google Kubernetes Engine starter kit to bootstrap an e-commerce site based on microservices
 gke-eso-namespace,notablehealth,27190,google,https://github.com/notablehealth/terraform-google-gke-eso-namespace,Terraform module to setup ESO in a GKE namespace
 gke-factory,RonasIT,13101,google,https://github.com/RonasIT/terraform-google-gke-factory,
+gke-flux,bitwise-media-group,35676,google,https://github.com/bitwise-media-group/terraform-google-gke-flux,
 gke-gateway-api,c0x12c,29351,gcp,https://github.com/c0x12c/terraform-gcp-gke-gateway-api,
 gke-gitlab,devsshzone,10557,google,https://github.com/devsshzone/terraform-google-gke-gitlab,Installs GitLab on Kubernetes Engine
 gke-gitlab,sparkfabrik,13097,sparkfabrik,https://github.com/sparkfabrik/terraform-sparkfabrik-gke-gitlab,Installs GitLab on Kubernetes Engine
@@ -13855,7 +13861,6 @@ mcaf-transfer,schubergphilis-ep,32876,aws,https://github.com/schubergphilis-ep/t
 mcaf-transit-gateway,schubergphilis,18551,aws,https://github.com/schubergphilis/terraform-aws-mcaf-transit-gateway,
 mcaf-transit-gateway,schubergphilis-ep,32881,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-transit-gateway,
 mcaf-update-management,schubergphilis-ep,32440,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-update-management,
-mcaf-update-management-snapshot,schubergphilis-ep,35443,azure,https://github.com/schubergphilis-ep/terraform-azure-mcaf-update-management-snapshot,
 mcaf-user,schubergphilis,18377,aws,https://github.com/schubergphilis/terraform-aws-mcaf-user,
 mcaf-user,schubergphilis-ep,32878,aws,https://github.com/schubergphilis-ep/terraform-aws-mcaf-user,
 mcaf-variable-set,schubergphilis,28402,tfe,https://github.com/schubergphilis/terraform-tfe-mcaf-variable-set,
@@ -16518,6 +16523,8 @@ placement-group,terraform-yacloud-modules,30304,yandex,https://github.com/terraf
 plan,CloudNationHQ,25713,azure,https://github.com/CloudNationHQ/terraform-azure-plan,
 plan,codectl,35275,azure,https://github.com/codectl/terraform-azure-plan,
 platform,Jamf-Concepts,28137,jamf,https://github.com/Jamf-Concepts/terraform-jamf-platform,Terraform configurations around the Jamf Platform
+platform,OkiriGabriel,35680,aws,https://github.com/OkiriGabriel/terraform-aws-platform,
+platform,OkiriGabriel,35681,azure,https://github.com/OkiriGabriel/terraform-azure-platform,
 platform,actualstack,29467,azure,https://github.com/actualstack/terraform-azure-platform,
 platform,bcc-code,18144,azure,https://github.com/bcc-code/terraform-azure-platform,Terraform modules for Azure resources
 platform,cloudposse,10201,datadog,https://github.com/cloudposse/terraform-datadog-platform,"Terraform module to configure and provision Datadog monitors, custom RBAC roles with permissions, Datadog synthetic tests, Datadog child organizations, and other Datadog resources from a YAML configuration, complete with automated tests."
@@ -18071,6 +18078,7 @@ repository,Flaconi,11990,github,https://github.com/Flaconi/terraform-github-repo
 repository,JamesWoolfenden,5473,github,https://github.com/JamesWoolfenden/terraform-github-repository,A module to create a github repository with a protected master
 repository,MarvelOrange,2036,github,https://github.com/MarvelOrange/terraform-github-repository,Create a GitHub repository with associated teams
 repository,Selleo,16524,github,https://github.com/Selleo/terraform-github-repository,Simplify and automate your GitHub repository management 
+repository,Tensho,35677,github,https://github.com/Tensho/terraform-github-repository,
 repository,TheGrowthExponent,16097,github,https://github.com/TheGrowthExponent/terraform-github-repository,
 repository,TheYorkshireDev,15379,github,https://github.com/TheYorkshireDev/terraform-github-repository,Terraform Module for managing Github Repositories 
 repository,Think-Cube,30172,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-repository,
@@ -24837,7 +24845,7 @@ wrapper-github-runner,gocloudLa,35582,aws,https://github.com/gocloudLa/terraform
 wrapper-gitlab-runner,gocloudLa,30109,aws,https://github.com/gocloudLa/terraform-aws-wrapper-gitlab-runner,
 wrapper-guardduty,gocloudLa,35658,aws,https://github.com/gocloudLa/terraform-aws-wrapper-guardduty,
 wrapper-guardrails,gocloudLa,35656,aws,https://github.com/gocloudLa/terraform-aws-wrapper-guardrails,
-wrapper-health-events,gocloudLa,30110,aws,https://github.com/gocloudLa/terraform-aws-wrapper-health-events,Terraform module for AWS Health Events wrapper with IAC best practices
+wrapper-health-events,gocloudLa,30110,aws,https://github.com/gocloudLa/terraform-aws-wrapper-health-events,
 wrapper-iam,gocloudLa,30699,aws,https://github.com/gocloudLa/terraform-aws-wrapper-iam,
 wrapper-identity-center,gocloudLa,30126,aws,https://github.com/gocloudLa/terraform-aws-wrapper-identity-center,
 wrapper-kinesis-stream,gocloudLa,31747,aws,https://github.com/gocloudLa/terraform-aws-wrapper-kinesis-stream,
