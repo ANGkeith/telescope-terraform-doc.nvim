@@ -2442,7 +2442,7 @@ avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Terraform Azure Verified Resource Module for Azure Firewall Policy
 avm-res-network-frontdoorwebapplicationfirewallpolicy,Azure,26460,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy,
 avm-res-network-ipgroup,Azure,28413,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ipgroup,
-avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,Terraform Azure Verified Resource Module for Loadbalancer
+avm-res-network-loadbalancer,Azure,22942,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer,
 avm-res-network-localnetworkgateway,Azure,26939,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway,Terraform Azure Verified Resource Module for Local Network Gateway
 avm-res-network-natgateway,Azure,22108,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway,Terraform Azure Verified Resource Module for NAT Gateway
 avm-res-network-networkinterface,Azure,26756,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface,
@@ -4364,6 +4364,7 @@ cloudinit-vm,dj-d,27631,proxmox,https://github.com/dj-d/terraform-proxmox-cloudi
 cloudlogs,upwindsecurity,30070,azurerm,https://github.com/upwindsecurity/terraform-azurerm-cloudlogs,
 cloudlogs,upwindsecurity,33596,google,https://github.com/upwindsecurity/terraform-google-cloudlogs,
 cloudlogs,upwindsecurity,33835,aws,https://github.com/upwindsecurity/terraform-aws-cloudlogs,
+cloudlogs,upwindsecurity,35751,oci,https://github.com/upwindsecurity/terraform-oci-cloudlogs,
 cloudmap,finisterra-io,23554,aws,https://github.com/finisterra-io/terraform-aws-cloudmap,Terraform AWS Cloudmap module
 cloudmap,tfstack,29862,aws,https://github.com/tfstack/terraform-aws-cloudmap,Terraform module to manage Amazon Cloud Map namespaces and services for DNS-based discovery
 cloudnative-kit,rridane,30247,kubernetes,https://github.com/rridane/terraform-kubernetes-cloudnative-kit,
@@ -10752,6 +10753,7 @@ helm-neo4j,c0x12c,29418,aws,https://github.com/c0x12c/terraform-aws-helm-neo4j,
 helm-nginx-ingress-controller,c0x12c,29419,aws,https://github.com/c0x12c/terraform-aws-helm-nginx-ingress-controller,
 helm-opa,c0x12c,29420,aws,https://github.com/c0x12c/terraform-aws-helm-opa,
 helm-release,cloudposse,10189,aws,https://github.com/cloudposse/terraform-aws-helm-release,Create helm release and common aws resources like an eks iam role
+helm-release,cruxstack,35753,aws,https://github.com/cruxstack/terraform-aws-helm-release,"Terraform module to deploy Helm charts to Amazon EKS with optional IRSA roles, for the Helm and Kubernetes v3 providers."
 helm-release,figurate,6114,helm,https://github.com/figurate/terraform-helm-helm,Provision common Kubernetes services with Helm
 helm-release,getindata,22646,gke,https://github.com/getindata/terraform-gke-helm-release,GKE Helm release module
 helm-release,skyfjall,14129,flux,https://github.com/skyfjell/terraform-flux-helm-release,Create a FluxCD HelmRelease Custom Resource
@@ -11271,6 +11273,7 @@ images,vexxhost,6584,openstack,https://github.com/vexxhost/terraform-openstack-i
 images-image-v2,pmikus,23013,openstack,https://github.com/pmikus/terraform-openstack-images-image-v2,Terraform module to create Openstack Image.
 imdoneman-test-vpc,imdoneman,32964,aws,https://github.com/imdoneman/terraform-aws-imdoneman-test-vpc,
 imgproxy,imgproxy,35647,google,https://github.com/imgproxy/terraform-google-imgproxy,
+imgproxy,imgproxy,35750,azurerm,https://github.com/imgproxy/terraform-azurerm-imgproxy,
 imgstudio,xgourmandin,30073,google,https://github.com/xgourmandin/terraform-google-imgstudio,
 imm,terraform-cisco-modules,9207,intersight,https://github.com/terraform-cisco-modules/terraform-intersight-imm,Terraform Modules for Intersight Managed Mode Domain deployments.
 immich,andreimerfu,30142,hcloud,https://github.com/andreimerfu/terraform-hcloud-immich,
@@ -18123,7 +18126,7 @@ repository,Flaconi,11990,github,https://github.com/Flaconi/terraform-github-repo
 repository,JamesWoolfenden,5473,github,https://github.com/JamesWoolfenden/terraform-github-repository,A module to create a github repository with a protected master
 repository,MarvelOrange,2036,github,https://github.com/MarvelOrange/terraform-github-repository,Create a GitHub repository with associated teams
 repository,Selleo,16524,github,https://github.com/Selleo/terraform-github-repository,Simplify and automate your GitHub repository management 
-repository,Tensho,35677,github,https://github.com/Tensho/terraform-github-repository,
+repository,Tensho,35677,github,https://github.com/Tensho/terraform-github-repository,Terraform modules to manage GitHub repository resources
 repository,TheGrowthExponent,16097,github,https://github.com/TheGrowthExponent/terraform-github-repository,
 repository,TheYorkshireDev,15379,github,https://github.com/TheYorkshireDev/terraform-github-repository,Terraform Module for managing Github Repositories 
 repository,Think-Cube,30172,azuredevops,https://github.com/Think-Cube/terraform-azuredevops-repository,
@@ -18283,6 +18286,7 @@ resource-group-storage,Ivanovid777,35737,azurerm,https://github.com/Ivanovid777/
 resource-group-storage,KaPany322,35586,azurerm,https://github.com/KaPany322/terraform-azurerm-resource-group-storage,
 resource-group-storage,Loki-sudo007,34888,azurerm,https://github.com/Loki-sudo007/terraform-azurerm-resource-group-storage,
 resource-group-storage,VitaliySemeniv,30590,azurerm,https://github.com/VitaliySemeniv/terraform-azurerm-resource-group-storage,
+resource-group-storage,baga090,35752,azurerm,https://github.com/baga090/terraform-azurerm-resource-group-storage,
 resource-group-storage,dimak20,31704,azurerm,https://github.com/dimak20/terraform-azurerm-resource-group-storage,
 resource-group-storage,goldbergnik1993-cloud,31936,azurerm,https://github.com/goldbergnik1993-cloud/terraform-azurerm-resource-group-storage,
 resource-group-storage,kdacc,35122,azurerm,https://github.com/kdacc/terraform-azurerm-resource-group-storage,
