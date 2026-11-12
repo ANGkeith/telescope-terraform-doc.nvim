@@ -2374,7 +2374,7 @@ avm-res-batch-batchaccount,Azure,28741,azurerm,https://github.com/Azure/terrafor
 avm-res-botservice-botservice,Azure,31115,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-botservice-botservice,
 avm-res-cache-redis,Azure,24930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redis,
 avm-res-cache-redisenterprise,Azure,31477,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cache-redisenterprise,
-avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,Terraform Azure Verified Resource Module for CDN Profile
+avm-res-cdn-profile,Azure,24680,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile,
 avm-res-certificateregistration-certificateorder,Azure,29645,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder,Terraform Azure Verified Resource Module for Certificate Order
 avm-res-cognitiveservices-account,Azure,23307,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account,
 avm-res-communication-emailservice,Azure,29249,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice,
@@ -2435,8 +2435,8 @@ avm-res-network-applicationsecuritygroup,Azure,27342,azurerm,https://github.com/
 avm-res-network-azurefirewall,Azure,23003,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall,
 avm-res-network-bastionhost,Azure,23252,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost,Terraform Azure Verified Resource Module for Bastion Host
 avm-res-network-connection,Azure,27387,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-connection,
-avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,DDoS protection plan Azure Verified Module
-avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,Terraform Azure Verified Resource Module for DNS Resolver
+avm-res-network-ddosprotectionplan,Azure,21953,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan,
+avm-res-network-dnsresolver,Azure,24033,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver,
 avm-res-network-dnszone,Azure,25503,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone,AVM Terraform Module for DNS Zone
 avm-res-network-expressroutecircuit,Azure,26275,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit,
 avm-res-network-firewallpolicy,Azure,22930,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy,Terraform Azure Verified Resource Module for Azure Firewall Policy
@@ -2452,7 +2452,7 @@ avm-res-network-networksecurityperimeter,Azure,32018,azapi,https://github.com/Az
 avm-res-network-networkwatcher,Azure,25023,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-networkwatcher,Azure Network Watcher AVM Module
 avm-res-network-privatednszone,Azure,23274,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone,
 avm-res-network-privateendpoint,Azure,26104,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-privateendpoint,
-avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,Terraform Azure Verified Resource Module for Public IP Address
+avm-res-network-publicipaddress,Azure,23063,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress,
 avm-res-network-publicipprefix,Azure,28735,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-publicipprefix,
 avm-res-network-routetable,Azure,24717,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-routetable,
 avm-res-network-trafficmanagerprofile,Azure,31261,azurerm,https://github.com/Azure/terraform-azurerm-avm-res-network-trafficmanagerprofile,
@@ -3168,6 +3168,7 @@ bedrock-guardrail,nizarajroud,32538,aws,https://github.com/nizarajroud/terraform
 bedrock-guardrails,imrozzoha,32122,aws,https://github.com/imrozzoha/terraform-aws-bedrock-guardrails,"Terraform module for AWS Bedrock Guardrails — content filters, PII anonymisation, topic policy, and word filters"
 bedrock-kb-aurora,Robyt96,29546,aws,https://github.com/Robyt96/terraform-aws-bedrock-kb-aurora,Terraform module to create one or more Bedrock Knowledge Bases with Aurora Serverless vector store
 bedrock-knowledge-base,kn47ytv9mv,35324,aws,https://github.com/kn47ytv9mv/terraform-aws-bedrock-knowledge-base,
+bedrock-knowledge-base,pmikus,35760,aws,https://github.com/pmikus/terraform-aws-bedrock-knowledge-base,Terraform module creates a AWS Bedrock Knowledge base with structured vector store KB
 bedrock-model-invocation-logging,Flaconi,30157,aws,https://github.com/Flaconi/terraform-aws-bedrock-model-invocation-logging,Terraform module for Amazon Bedrock Model invocation logging configuration
 bedrock-platform,kogunlowo123,31584,aws,https://github.com/kogunlowo123/terraform-aws-bedrock-platform,"AWS Bedrock Terraform module with knowledge bases, agents, guardrails, and OpenSearch Serverless"
 bedrock-spend-limit,fizz,35549,aws,https://github.com/fizz/terraform-aws-bedrock-spend-limit,
@@ -7348,7 +7349,6 @@ dynamodb-tables,vistaprint,686,aws,https://github.com/vistaprint/terraform-aws-d
 dynamodb_table,AutomateTheCloud,35423,aws,https://github.com/AutomateTheCloud/terraform-aws-dynamodb_table,"Terraform module for an Amazon DynamoDB table, with indexes, autoscaling, streams, TTL and replicas, and secure defaults."
 dynatrace-monitor,microsoftexpert,34490,azurerm,https://github.com/microsoftexpert/terraform-azurerm-dynatrace-monitor,
 dynatrace-tag-rules,microsoftexpert,34491,azurerm,https://github.com/microsoftexpert/terraform-azurerm-dynatrace-tag-rules,
-dyndns,fmasuhr,5298,aws,https://github.com/fmasuhr/terraform-aws-dyndns,DynDNS service using API Gateway and AWS Lambda.
 dynobj-nia,CheckPointSW,6376,checkpoint,https://github.com/CheckPointSW/terraform-checkpoint-dynobj-nia,Check Point Software Technologies Dynamic Objects module for Network Infrastructure Automation (NIA)
 e2-micro-free-tier,yohrannes,28276,google,https://github.com/yohrannes/terraform-google-e2-micro-free-tier,
 eaapl-ai-gateway,uchit,32818,aws,https://github.com/uchit/terraform-aws-eaapl-ai-gateway,"Verified Terraform + OPA implementation of the AI Gateway pattern (EAAPL-SEC001, aipatterns.com.au) — immutable audit logging + policy-as-code, not just documentation."
@@ -18287,6 +18287,7 @@ resource-group-storage,Ivanovid777,35737,azurerm,https://github.com/Ivanovid777/
 resource-group-storage,KaPany322,35586,azurerm,https://github.com/KaPany322/terraform-azurerm-resource-group-storage,
 resource-group-storage,Loki-sudo007,34888,azurerm,https://github.com/Loki-sudo007/terraform-azurerm-resource-group-storage,
 resource-group-storage,VitaliySemeniv,30590,azurerm,https://github.com/VitaliySemeniv/terraform-azurerm-resource-group-storage,
+resource-group-storage,VladislaveUst,35762,azurerm,https://github.com/VladislaveUst/terraform-azurerm-resource-group-storage,
 resource-group-storage,baga090,35752,azurerm,https://github.com/baga090/terraform-azurerm-resource-group-storage,
 resource-group-storage,dimak20,31704,azurerm,https://github.com/dimak20/terraform-azurerm-resource-group-storage,
 resource-group-storage,goldbergnik1993-cloud,31936,azurerm,https://github.com/goldbergnik1993-cloud/terraform-azurerm-resource-group-storage,
@@ -24943,6 +24944,7 @@ wrapper-vpc,gocloudLa,30089,aws,https://github.com/gocloudLa/terraform-aws-wrapp
 wrapper-vpn,gocloudLa,32772,aws,https://github.com/gocloudLa/terraform-aws-wrapper-vpn,
 wrapper-waf,gocloudLa,30124,aws,https://github.com/gocloudLa/terraform-aws-wrapper-waf,
 wrappers,harrisonfang,27242,google,https://github.com/harrisonfang/terraform-google-wrappers,
+wsus-client,kfrlabs,35761,windows,https://github.com/kfrlabs/terraform-windows-wsus-client,
 wwi-demos,data-platform-hq,22199,azurerm,https://github.com/data-platform-hq/terraform-azurerm-wwi-demos,Terraform module for creation Azure WWI Demo and it's components creation
 x-account-az-mapping,MagusDevOps,8253,aws,https://github.com/foxvalleyops/terraform-aws-x-account-az-mapping,
 x402-edge,ql4b,35366,aws,https://github.com/ql4b/terraform-aws-x402-edge,
